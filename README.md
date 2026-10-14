@@ -1,14 +1,17 @@
 # spice-lead-recalls
 
-How much lead do contaminated spices carry, and how much of it could a fast field screen (Raman) see? Two public
+How much lead do contaminated spices carry, and how much of it could a fast field screen (Raman) see? Three public
 sources:
 
 1. **U.S. FDA food recalls** for lead in spices, from openFDA's food enforcement data (`lead_recalls.py`).
 2. **NYC Health Department lab results**: 3,575 spice lead tests and 61 spice chromium tests from New York City's
    lead-poisoning investigations and store surveys, 2011-2025 (`nyc_spice_lead.py`, new in 0.2.0).
+3. **Public Health - Seattle & King County lab results** for spices from community testing events and case
+   investigations, 2019-2026, used with NYC's to ask how low a screen must reach (`lod_curve.py`, new in 0.3.0).
 
 By MV2 of Munim, Inc. Code Apache-2.0; derived data CC BY 4.0. openFDA data are public domain (CC0). NYC data:
-NYC Open Data, NYC Department of Health and Mental Hygiene (DOHMH); this analysis is not endorsed by DOHMH.
+NYC Open Data, NYC Department of Health and Mental Hygiene (DOHMH). King County data: King County Open Data, Public
+Health - Seattle & King County. This analysis is not endorsed by either agency.
 The code, data runs and write-up were made with AI agents working in MV2's name.
 
 The Raman limit used throughout comes from Erasmus et al. 2021, the first study of FT-Raman for lead chromate in
@@ -139,13 +142,75 @@ Limits: NYC chose which samples to test for chromium (61 of 3,575 spices), proba
 method (Raman, XRD) does. Natural chromium can matter below about 18 ppm lead, so those pairs are left out. Pairing
 by name and date was checked by hand for every row above.
 
+## 3. How low must a lead chromate screen reach? (new in 0.3.0)
+
+Sections 1 and 2 test one detection limit. Lopez et al. (ES&T 2022) made the same point for one dataset: vibrational
+spectroscopy's best limit, about 3,200 mg/kg lead, sits above the highest of 252 turmeric samples in a global
+database (2,700 mg/kg). `lod_curve.py` turns that into a curve. For each candidate limit, written as % w/w lead
+chromate and converted to lead, it counts how many lead-laced spices in public-health lab data a screen with that
+limit would have caught. It assumes all the lead is lead chromate, which is the best case for a chromate screen
+(34 of 39 NYC lead/chromium pairs fit it, section 2).
+
+A third open dataset joins NYC's: **Public Health - Seattle & King County, "Lead Content of Consumer Products
+tested in King County, Washington"** (https://data.kingcounty.gov/d/i6sy-ckp7, 2,220 products, 2019-2026). Its
+spices are the "Seasoning" type plus spices filed under "Food", all tested by a laboratory.
+
+### NYC: spice samples with at least 100 ppm lead (190 of 3,575)
+
+| screen limit, % w/w PbCrO4 | 1% | **0.5%** (bench Raman) | 0.25% | 0.1% | 0.05% | 0.025% |
+|---|---|---|---|---|---|---|
+| same limit as lead | 6,411 ppm | 3,206 ppm | 1,603 ppm | 641 ppm | 321 ppm | 160 ppm |
+| caught, all 190 | 33 (17%) | **46 (24%)** | 74 (39%) | 120 (63%) | 148 (78%) | 176 (93%) |
+| caught, cases code C (145) | 24 | 32 (22%) | 55 | 90 (62%) | 109 (75%) | 132 (91%) |
+| caught, cases code A (43) | 9 | 14 (33%) | 19 | 30 (70%) | 37 (86%) | 42 (98%) |
+| caught, store survey (S, 2) | 0 | 0 | 0 | 0 | 2 | 2 |
+
+With the lower cut of 18 ppm lead (268 samples, the level above which Forsyth et al. read Pb:Cr ratios), a 0.5%
+screen catches 46 (17%), a 0.05% screen 148 (55%), and catching 9 in 10 needs about 0.005% (32 ppm lead: 245 of 268).
+
+**A screen must see about 0.025-0.05% w/w lead chromate (160-320 ppm lead), 10 to 20 times below bench powder
+Raman, to catch 9 in 10 of NYC's spices with 100 ppm lead or more.** At 0.5% it catches 1 in 4.
+
+### King County: none reach the Raman limit
+
+| King County spices, lab-tested | results | highest lead | >= 100 ppm | >= 3,206 ppm |
+|---|---|---|---|---|
+| community product testing events | about 185 | 1.3 ppm | 0 | 0 |
+| case investigations | 22 | 2,800 ppm | 2 | **0** |
+
+The two high ones are home-made spices from India found in case investigations: a turmeric powder at 2,800 ppm
+(2025) and a spice mix at 620 ppm (2026). A 0.5% screen misses both; a 0.05% screen catches both. King County's
+data has no chromium results, so whether these are lead chromate is not known.
+
+### What the curve says
+
+- Three open U.S. sources agree. **No FDA spice recall level (0 of 11), no NYC store-survey sample (0 of 477) and
+  no King County spice (0 of about 207) reaches the bench Raman limit.** Only NYC's case investigations do (46).
+- Powder Raman at 0.5% is a tool for the gross tail. To be a general screen it has to gain about 20 times
+  sensitivity. Picking out and scanning the yellow-orange grains themselves (particle-level Raman, as Kubachka et
+  al. at FDA did on cinnamon) is one candidate, since a picked grain can be mostly pigment rather than pigment
+  diluted through the powder. Whether a handheld device reaches an effective 0.025-0.05% that way is untested.
+- The first fivefold gain (0.5% to 0.1%) lifts NYC's catch from 24% to 63%; the next fourfold (to 0.025%) adds
+  another 30 points.
+
+The NYC numbers above were read from NYC's own API on 2026-10-14 (SoQL counts per threshold). The King County
+numbers were read the same way from its API. `lod_curve.py` recomputes both from the raw rows, and its outputs go
+in `data/` after the scripted run. The King County community count is approximate (one or two rows may hold no
+result) and will be replaced by the script's.
+
+Limits: the curve treats every microgram of lead as lead chromate; where the lead has another source, no
+chromate screen sees it at any limit. Case samples are chosen because someone was poisoned, so they over-represent
+heavy adulteration. The 0.5% limit is for bench FT-Raman on ground turmeric (Erasmus et al. 2021); other devices,
+lasers (Blaise uses 808 nm) and spices will differ.
+
 ## What this means for a screening tool
 
 This is why [spice-screen](https://github.com/munimtechnologies/spice-screen) calls itself a screen, never a lab
 test. A clean Raman result on powder says nothing about the 2-50 ppm levels behind most recalls, or about the
 100-3,000 ppm chromate-laced spices in NYC's data. Raman is useful where the pigment is concentrated: grossly
 adulterated home-imported blends (NYC's 46), the polished surface of whole turmeric roots, or visible yellow-orange
-grains picked out of a powder. Reaching recall-level lead needs XRF or a lab.
+grains picked out of a powder. Section 3 sets the target for anything that claims more: about 0.025-0.05% w/w lead
+chromate. Reaching recall-level lead needs XRF or a lab.
 
 ## Spot check of the FDA classifier (by hand, every spice row)
 
@@ -167,16 +232,18 @@ None of these changes the headline: no stated level comes near the Raman limit.
 
 - openFDA holds recalls FDA classified. State actions FDA did not classify, import refusals and alerts are not in it.
 - Only 11 of 75 spice recalls state a level in openFDA's text. The table in section 1 adds FDA's other published numbers.
-- NYC's samples follow lead-poisoning cases and targeted store surveys, so they are not a random sample of the market.
+- NYC's and King County's samples follow lead-poisoning cases, community testing events and targeted store surveys,
+  so they are not a random sample of the market.
 - Lead levels are total lead from any source (soil, processing equipment, pigments). Lead chromate is one cause.
 - The Raman limit is for bench FT-Raman on ground turmeric. Handheld devices, other spices and SERS differ.
 
 ## Run it
 
 ```
-python -m unittest -v test_lead_recalls test_nyc_spice_lead
+python -m unittest -v test_lead_recalls test_nyc_spice_lead test_lod_curve
 python lead_recalls.py --data-dir data-cache --out-dir out
 python nyc_spice_lead.py --data-dir data-cache --out-dir out
+python lod_curve.py --data-dir data-cache --out-dir out
 ```
 
 `lead_recalls.py` downloads `https://download.open.fda.gov/food/enforcement/food-enforcement-0001-of-0001.json.zip`
@@ -188,14 +255,21 @@ to the text it came from.
 `nyc_spice_lead.csv`, `nyc_spice_pb_cr_pairs.csv`, `nyc_summary.json` and `nyc_summary.md`. Every row keeps NYC's
 row_id.
 
+`lod_curve.py` downloads NYC's spice lead rows and King County's dataset (about 2,200 rows) through their APIs once,
+then writes `lod_curve.json`, `lod_curve.md` and `lod_curve.csv`.
+
 ## Sources
 
 - openFDA food enforcement reports: https://open.fda.gov/apis/food/enforcement/
 - NYC DOHMH, Metal Content of Consumer Products Tested by the NYC Health Department: https://data.cityofnewyork.us/d/da9u-wz3r
+- Public Health - Seattle & King County, Lead Content of Consumer Products tested in King County, Washington:
+  https://data.kingcounty.gov/d/i6sy-ckp7
 - Hore, Alex-Oni, Sedlar, Nagin. A spoonful of lead: a 10-year look at spices as a potential source of lead exposure.
   J Public Health Manag Pract 25:S63 (2019). doi:10.1097/PHH.0000000000000876
 - Erasmus, van Hasselt, Ebbinge, van Ruth. Real or fake yellow in the vibrant colour craze: rapid detection of lead
   chromate in turmeric. Food Control 121:107714 (2021). doi:10.1016/j.foodcont.2020.107714
+- Lopez et al. Assessing analytical methods for the rapid detection of lead adulteration in the global spice market.
+  Environ Sci Technol (2022). doi:10.1021/acs.est.2c03241
 - Forsyth et al. Turmeric means "yellow" in Bengali: lead chromate pigments added to turmeric threaten public health
   across Bangladesh. Environ Res 179:108722 (2019).
 - Forsyth et al. Evidence of turmeric adulteration with lead chromate across South Asia. Sci Total Environ 949:175003 (2024).
