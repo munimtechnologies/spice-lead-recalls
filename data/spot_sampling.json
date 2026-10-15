@@ -1,0 +1,4095 @@
+{
+ "version": "0.1.0",
+ "sources": {
+  "nyc": {
+   "url": "https://data.cityofnewyork.us/resource/da9u-wz3r.json?%24where=product_type%3D%27Food-Spice%27+AND+metal%3D%27Lead%27+AND+units%3D%27ppm%27&%24limit=50000&%24order=row_id",
+   "rows": 3575,
+   "sha256": "161ca1bff9edb76051b7b83bc72fa19cbb84787bbae61504981b9a34b12c7950"
+  },
+  "king_county": {
+   "url": "https://data.kingcounty.gov/resource/i6sy-ckp7.json?%24limit=50000",
+   "rows": 2220,
+   "sha256": "d317c8762493abe0d7f341ea22226ebf8be9f173cb838ffba87dab3ee7bbff80"
+  }
+ },
+ "l0_pct_pbcro4": 0.5,
+ "rho_pbcro4": 6.12,
+ "rho_bulk": 0.5,
+ "design": [
+  {
+   "lead_ppm": 100,
+   "pct_pbcro4": 0.0156,
+   "x": 0.0312,
+   "spots_for_90pct": {
+    "0.1": 739,
+    "0.3": 247,
+    "1": 74,
+    "2": 1232,
+    "3": 18076,
+    "10": 1270542650313,
+    "1000": null
+   }
+  },
+  {
+   "lead_ppm": 160,
+   "pct_pbcro4": 0.025,
+   "x": 0.04991,
+   "spots_for_90pct": {
+    "0.1": 462,
+    "0.3": 154,
+    "1": 47,
+    "2": 493,
+    "3": 4601,
+    "10": 13691663869,
+    "1000": null
+   }
+  },
+  {
+   "lead_ppm": 321,
+   "pct_pbcro4": 0.0501,
+   "x": 0.10014,
+   "spots_for_90pct": {
+    "0.1": 230,
+    "0.3": 77,
+    "1": 23,
+    "2": 130,
+    "3": 637,
+    "10": 20404178,
+    "1000": null
+   }
+  },
+  {
+   "lead_ppm": 641,
+   "pct_pbcro4": 0.1,
+   "x": 0.19997,
+   "spots_for_90pct": {
+    "0.1": 116,
+    "0.3": 39,
+    "1": 12,
+    "2": 37,
+    "3": 99,
+    "10": 49586,
+    "1000": null
+   }
+  },
+  {
+   "lead_ppm": 1603,
+   "pct_pbcro4": 0.25,
+   "x": 0.50007,
+   "spots_for_90pct": {
+    "0.1": 47,
+    "0.3": 16,
+    "1": 5,
+    "2": 8,
+    "3": 11,
+    "10": 72,
+    "1000": 64816436487530687020873360676467248455629593676500282374818308868857212415395602890752
+   }
+  },
+  {
+   "lead_ppm": 3206,
+   "pct_pbcro4": 0.5001,
+   "x": 1.00015,
+   "spots_for_90pct": {
+    "0.1": 24,
+    "0.3": 8,
+    "1": 3,
+    "2": 3,
+    "3": 3,
+    "10": 3,
+    "1000": 4
+   }
+  }
+ ],
+ "grains": [
+  {
+   "grain_um": 1,
+   "grain_ng": 0.0032,
+   "matched_probe_ug": 0.000641,
+   "matched_cube_edge_um": 10.9
+  },
+  {
+   "grain_um": 5,
+   "grain_ng": 0.4006,
+   "matched_probe_ug": 0.080111,
+   "matched_cube_edge_um": 54.3
+  },
+  {
+   "grain_um": 10,
+   "grain_ng": 3.2044,
+   "matched_probe_ug": 0.640885,
+   "matched_cube_edge_um": 108.6
+  },
+  {
+   "grain_um": 20,
+   "grain_ng": 25.6354,
+   "matched_probe_ug": 5.127079,
+   "matched_cube_edge_um": 217.3
+  },
+  {
+   "grain_um": 50,
+   "grain_ng": 400.5531,
+   "matched_probe_ug": 80.110613,
+   "matched_cube_edge_um": 543.1
+  }
+ ],
+ "data": [
+  {
+   "channel": "King County Case Investigation",
+   "base_ppm": 18,
+   "samples": 3,
+   "r": 1.0,
+   "spots": 1,
+   "expected_caught": 0.8,
+   "share": 0.257,
+   "caught_at_90pct": 0
+  },
+  {
+   "channel": "King County Case Investigation",
+   "base_ppm": 18,
+   "samples": 3,
+   "r": 1.0,
+   "spots": 5,
+   "expected_caught": 1.7,
+   "share": 0.556,
+   "caught_at_90pct": 1
+  },
+  {
+   "channel": "King County Case Investigation",
+   "base_ppm": 18,
+   "samples": 3,
+   "r": 1.0,
+   "spots": 10,
+   "expected_caught": 2.0,
+   "share": 0.658,
+   "caught_at_90pct": 1
+  },
+  {
+   "channel": "King County Case Investigation",
+   "base_ppm": 18,
+   "samples": 3,
+   "r": 1.0,
+   "spots": 25,
+   "expected_caught": 2.3,
+   "share": 0.755,
+   "caught_at_90pct": 2
+  },
+  {
+   "channel": "King County Case Investigation",
+   "base_ppm": 18,
+   "samples": 3,
+   "r": 1.0,
+   "spots": 50,
+   "expected_caught": 2.5,
+   "share": 0.824,
+   "caught_at_90pct": 2
+  },
+  {
+   "channel": "King County Case Investigation",
+   "base_ppm": 18,
+   "samples": 3,
+   "r": 1.0,
+   "spots": 100,
+   "expected_caught": 2.7,
+   "share": 0.907,
+   "caught_at_90pct": 2
+  },
+  {
+   "channel": "King County Case Investigation",
+   "base_ppm": 18,
+   "samples": 3,
+   "r": 1.0,
+   "spots": 200,
+   "expected_caught": 2.9,
+   "share": 0.974,
+   "caught_at_90pct": 3
+  },
+  {
+   "channel": "King County Case Investigation",
+   "base_ppm": 18,
+   "samples": 3,
+   "r": 0.3,
+   "spots": 1,
+   "expected_caught": 0.3,
+   "share": 0.097,
+   "caught_at_90pct": 0
+  },
+  {
+   "channel": "King County Case Investigation",
+   "base_ppm": 18,
+   "samples": 3,
+   "r": 0.3,
+   "spots": 5,
+   "expected_caught": 1.0,
+   "share": 0.334,
+   "caught_at_90pct": 0
+  },
+  {
+   "channel": "King County Case Investigation",
+   "base_ppm": 18,
+   "samples": 3,
+   "r": 0.3,
+   "spots": 10,
+   "expected_caught": 1.4,
+   "share": 0.468,
+   "caught_at_90pct": 1
+  },
+  {
+   "channel": "King County Case Investigation",
+   "base_ppm": 18,
+   "samples": 3,
+   "r": 0.3,
+   "spots": 25,
+   "expected_caught": 1.9,
+   "share": 0.619,
+   "caught_at_90pct": 1
+  },
+  {
+   "channel": "King County Case Investigation",
+   "base_ppm": 18,
+   "samples": 3,
+   "r": 0.3,
+   "spots": 50,
+   "expected_caught": 2.1,
+   "share": 0.707,
+   "caught_at_90pct": 2
+  },
+  {
+   "channel": "King County Case Investigation",
+   "base_ppm": 18,
+   "samples": 3,
+   "r": 0.3,
+   "spots": 100,
+   "expected_caught": 2.3,
+   "share": 0.772,
+   "caught_at_90pct": 2
+  },
+  {
+   "channel": "King County Case Investigation",
+   "base_ppm": 18,
+   "samples": 3,
+   "r": 0.3,
+   "spots": 200,
+   "expected_caught": 2.5,
+   "share": 0.845,
+   "caught_at_90pct": 2
+  },
+  {
+   "channel": "King County Case Investigation",
+   "base_ppm": 18,
+   "samples": 3,
+   "r": 2.0,
+   "spots": 1,
+   "expected_caught": 0.6,
+   "share": 0.193,
+   "caught_at_90pct": 0
+  },
+  {
+   "channel": "King County Case Investigation",
+   "base_ppm": 18,
+   "samples": 3,
+   "r": 2.0,
+   "spots": 5,
+   "expected_caught": 1.2,
+   "share": 0.412,
+   "caught_at_90pct": 1
+  },
+  {
+   "channel": "King County Case Investigation",
+   "base_ppm": 18,
+   "samples": 3,
+   "r": 2.0,
+   "spots": 10,
+   "expected_caught": 1.5,
+   "share": 0.484,
+   "caught_at_90pct": 1
+  },
+  {
+   "channel": "King County Case Investigation",
+   "base_ppm": 18,
+   "samples": 3,
+   "r": 2.0,
+   "spots": 25,
+   "expected_caught": 1.8,
+   "share": 0.595,
+   "caught_at_90pct": 1
+  },
+  {
+   "channel": "King County Case Investigation",
+   "base_ppm": 18,
+   "samples": 3,
+   "r": 2.0,
+   "spots": 50,
+   "expected_caught": 2.0,
+   "share": 0.655,
+   "caught_at_90pct": 2
+  },
+  {
+   "channel": "King County Case Investigation",
+   "base_ppm": 18,
+   "samples": 3,
+   "r": 2.0,
+   "spots": 100,
+   "expected_caught": 2.0,
+   "share": 0.676,
+   "caught_at_90pct": 2
+  },
+  {
+   "channel": "King County Case Investigation",
+   "base_ppm": 18,
+   "samples": 3,
+   "r": 2.0,
+   "spots": 200,
+   "expected_caught": 2.1,
+   "share": 0.687,
+   "caught_at_90pct": 2
+  },
+  {
+   "channel": "King County Case Investigation",
+   "base_ppm": 18,
+   "samples": 3,
+   "r": 1000.0,
+   "spots": 1,
+   "expected_caught": 0.0,
+   "share": 0.0,
+   "caught_at_90pct": 0
+  },
+  {
+   "channel": "King County Case Investigation",
+   "base_ppm": 18,
+   "samples": 3,
+   "r": 1000.0,
+   "spots": 5,
+   "expected_caught": 0.0,
+   "share": 0.0,
+   "caught_at_90pct": 0
+  },
+  {
+   "channel": "King County Case Investigation",
+   "base_ppm": 18,
+   "samples": 3,
+   "r": 1000.0,
+   "spots": 10,
+   "expected_caught": 0.0,
+   "share": 0.0,
+   "caught_at_90pct": 0
+  },
+  {
+   "channel": "King County Case Investigation",
+   "base_ppm": 18,
+   "samples": 3,
+   "r": 1000.0,
+   "spots": 25,
+   "expected_caught": 0.0,
+   "share": 0.0,
+   "caught_at_90pct": 0
+  },
+  {
+   "channel": "King County Case Investigation",
+   "base_ppm": 18,
+   "samples": 3,
+   "r": 1000.0,
+   "spots": 50,
+   "expected_caught": 0.0,
+   "share": 0.0,
+   "caught_at_90pct": 0
+  },
+  {
+   "channel": "King County Case Investigation",
+   "base_ppm": 18,
+   "samples": 3,
+   "r": 1000.0,
+   "spots": 100,
+   "expected_caught": 0.0,
+   "share": 0.001,
+   "caught_at_90pct": 0
+  },
+  {
+   "channel": "King County Case Investigation",
+   "base_ppm": 18,
+   "samples": 3,
+   "r": 1000.0,
+   "spots": 200,
+   "expected_caught": 0.0,
+   "share": 0.001,
+   "caught_at_90pct": 0
+  },
+  {
+   "channel": "King County Case Investigation",
+   "base_ppm": 100,
+   "samples": 2,
+   "r": 1.0,
+   "spots": 1,
+   "expected_caught": 0.8,
+   "share": 0.379,
+   "caught_at_90pct": 0
+  },
+  {
+   "channel": "King County Case Investigation",
+   "base_ppm": 100,
+   "samples": 2,
+   "r": 1.0,
+   "spots": 5,
+   "expected_caught": 1.6,
+   "share": 0.804,
+   "caught_at_90pct": 1
+  },
+  {
+   "channel": "King County Case Investigation",
+   "base_ppm": 100,
+   "samples": 2,
+   "r": 1.0,
+   "spots": 10,
+   "expected_caught": 1.9,
+   "share": 0.928,
+   "caught_at_90pct": 1
+  },
+  {
+   "channel": "King County Case Investigation",
+   "base_ppm": 100,
+   "samples": 2,
+   "r": 1.0,
+   "spots": 25,
+   "expected_caught": 2.0,
+   "share": 0.996,
+   "caught_at_90pct": 2
+  },
+  {
+   "channel": "King County Case Investigation",
+   "base_ppm": 100,
+   "samples": 2,
+   "r": 1.0,
+   "spots": 50,
+   "expected_caught": 2.0,
+   "share": 1.0,
+   "caught_at_90pct": 2
+  },
+  {
+   "channel": "King County Case Investigation",
+   "base_ppm": 100,
+   "samples": 2,
+   "r": 1.0,
+   "spots": 100,
+   "expected_caught": 2.0,
+   "share": 1.0,
+   "caught_at_90pct": 2
+  },
+  {
+   "channel": "King County Case Investigation",
+   "base_ppm": 100,
+   "samples": 2,
+   "r": 1.0,
+   "spots": 200,
+   "expected_caught": 2.0,
+   "share": 1.0,
+   "caught_at_90pct": 2
+  },
+  {
+   "channel": "King County Case Investigation",
+   "base_ppm": 100,
+   "samples": 2,
+   "r": 0.3,
+   "spots": 1,
+   "expected_caught": 0.3,
+   "share": 0.143,
+   "caught_at_90pct": 0
+  },
+  {
+   "channel": "King County Case Investigation",
+   "base_ppm": 100,
+   "samples": 2,
+   "r": 0.3,
+   "spots": 5,
+   "expected_caught": 1.0,
+   "share": 0.491,
+   "caught_at_90pct": 0
+  },
+  {
+   "channel": "King County Case Investigation",
+   "base_ppm": 100,
+   "samples": 2,
+   "r": 0.3,
+   "spots": 10,
+   "expected_caught": 1.4,
+   "share": 0.684,
+   "caught_at_90pct": 1
+  },
+  {
+   "channel": "King County Case Investigation",
+   "base_ppm": 100,
+   "samples": 2,
+   "r": 0.3,
+   "spots": 25,
+   "expected_caught": 1.8,
+   "share": 0.882,
+   "caught_at_90pct": 1
+  },
+  {
+   "channel": "King County Case Investigation",
+   "base_ppm": 100,
+   "samples": 2,
+   "r": 0.3,
+   "spots": 50,
+   "expected_caught": 1.9,
+   "share": 0.973,
+   "caught_at_90pct": 2
+  },
+  {
+   "channel": "King County Case Investigation",
+   "base_ppm": 100,
+   "samples": 2,
+   "r": 0.3,
+   "spots": 100,
+   "expected_caught": 2.0,
+   "share": 0.998,
+   "caught_at_90pct": 2
+  },
+  {
+   "channel": "King County Case Investigation",
+   "base_ppm": 100,
+   "samples": 2,
+   "r": 0.3,
+   "spots": 200,
+   "expected_caught": 2.0,
+   "share": 1.0,
+   "caught_at_90pct": 2
+  },
+  {
+   "channel": "King County Case Investigation",
+   "base_ppm": 100,
+   "samples": 2,
+   "r": 2.0,
+   "spots": 1,
+   "expected_caught": 0.6,
+   "share": 0.29,
+   "caught_at_90pct": 0
+  },
+  {
+   "channel": "King County Case Investigation",
+   "base_ppm": 100,
+   "samples": 2,
+   "r": 2.0,
+   "spots": 5,
+   "expected_caught": 1.2,
+   "share": 0.617,
+   "caught_at_90pct": 1
+  },
+  {
+   "channel": "King County Case Investigation",
+   "base_ppm": 100,
+   "samples": 2,
+   "r": 2.0,
+   "spots": 10,
+   "expected_caught": 1.4,
+   "share": 0.725,
+   "caught_at_90pct": 1
+  },
+  {
+   "channel": "King County Case Investigation",
+   "base_ppm": 100,
+   "samples": 2,
+   "r": 2.0,
+   "spots": 25,
+   "expected_caught": 1.8,
+   "share": 0.888,
+   "caught_at_90pct": 1
+  },
+  {
+   "channel": "King County Case Investigation",
+   "base_ppm": 100,
+   "samples": 2,
+   "r": 2.0,
+   "spots": 50,
+   "expected_caught": 1.9,
+   "share": 0.975,
+   "caught_at_90pct": 2
+  },
+  {
+   "channel": "King County Case Investigation",
+   "base_ppm": 100,
+   "samples": 2,
+   "r": 2.0,
+   "spots": 100,
+   "expected_caught": 2.0,
+   "share": 0.999,
+   "caught_at_90pct": 2
+  },
+  {
+   "channel": "King County Case Investigation",
+   "base_ppm": 100,
+   "samples": 2,
+   "r": 2.0,
+   "spots": 200,
+   "expected_caught": 2.0,
+   "share": 1.0,
+   "caught_at_90pct": 2
+  },
+  {
+   "channel": "King County Case Investigation",
+   "base_ppm": 100,
+   "samples": 2,
+   "r": 1000.0,
+   "spots": 1,
+   "expected_caught": 0.0,
+   "share": 0.0,
+   "caught_at_90pct": 0
+  },
+  {
+   "channel": "King County Case Investigation",
+   "base_ppm": 100,
+   "samples": 2,
+   "r": 1000.0,
+   "spots": 5,
+   "expected_caught": 0.0,
+   "share": 0.0,
+   "caught_at_90pct": 0
+  },
+  {
+   "channel": "King County Case Investigation",
+   "base_ppm": 100,
+   "samples": 2,
+   "r": 1000.0,
+   "spots": 10,
+   "expected_caught": 0.0,
+   "share": 0.0,
+   "caught_at_90pct": 0
+  },
+  {
+   "channel": "King County Case Investigation",
+   "base_ppm": 100,
+   "samples": 2,
+   "r": 1000.0,
+   "spots": 25,
+   "expected_caught": 0.0,
+   "share": 0.0,
+   "caught_at_90pct": 0
+  },
+  {
+   "channel": "King County Case Investigation",
+   "base_ppm": 100,
+   "samples": 2,
+   "r": 1000.0,
+   "spots": 50,
+   "expected_caught": 0.0,
+   "share": 0.0,
+   "caught_at_90pct": 0
+  },
+  {
+   "channel": "King County Case Investigation",
+   "base_ppm": 100,
+   "samples": 2,
+   "r": 1000.0,
+   "spots": 100,
+   "expected_caught": 0.0,
+   "share": 0.001,
+   "caught_at_90pct": 0
+  },
+  {
+   "channel": "King County Case Investigation",
+   "base_ppm": 100,
+   "samples": 2,
+   "r": 1000.0,
+   "spots": 200,
+   "expected_caught": 0.0,
+   "share": 0.002,
+   "caught_at_90pct": 0
+  },
+  {
+   "channel": "King County Community product testing event",
+   "base_ppm": 18,
+   "samples": 0,
+   "r": 1.0,
+   "spots": 1,
+   "expected_caught": 0,
+   "share": null,
+   "caught_at_90pct": 0
+  },
+  {
+   "channel": "King County Community product testing event",
+   "base_ppm": 18,
+   "samples": 0,
+   "r": 1.0,
+   "spots": 5,
+   "expected_caught": 0,
+   "share": null,
+   "caught_at_90pct": 0
+  },
+  {
+   "channel": "King County Community product testing event",
+   "base_ppm": 18,
+   "samples": 0,
+   "r": 1.0,
+   "spots": 10,
+   "expected_caught": 0,
+   "share": null,
+   "caught_at_90pct": 0
+  },
+  {
+   "channel": "King County Community product testing event",
+   "base_ppm": 18,
+   "samples": 0,
+   "r": 1.0,
+   "spots": 25,
+   "expected_caught": 0,
+   "share": null,
+   "caught_at_90pct": 0
+  },
+  {
+   "channel": "King County Community product testing event",
+   "base_ppm": 18,
+   "samples": 0,
+   "r": 1.0,
+   "spots": 50,
+   "expected_caught": 0,
+   "share": null,
+   "caught_at_90pct": 0
+  },
+  {
+   "channel": "King County Community product testing event",
+   "base_ppm": 18,
+   "samples": 0,
+   "r": 1.0,
+   "spots": 100,
+   "expected_caught": 0,
+   "share": null,
+   "caught_at_90pct": 0
+  },
+  {
+   "channel": "King County Community product testing event",
+   "base_ppm": 18,
+   "samples": 0,
+   "r": 1.0,
+   "spots": 200,
+   "expected_caught": 0,
+   "share": null,
+   "caught_at_90pct": 0
+  },
+  {
+   "channel": "King County Community product testing event",
+   "base_ppm": 18,
+   "samples": 0,
+   "r": 0.3,
+   "spots": 1,
+   "expected_caught": 0,
+   "share": null,
+   "caught_at_90pct": 0
+  },
+  {
+   "channel": "King County Community product testing event",
+   "base_ppm": 18,
+   "samples": 0,
+   "r": 0.3,
+   "spots": 5,
+   "expected_caught": 0,
+   "share": null,
+   "caught_at_90pct": 0
+  },
+  {
+   "channel": "King County Community product testing event",
+   "base_ppm": 18,
+   "samples": 0,
+   "r": 0.3,
+   "spots": 10,
+   "expected_caught": 0,
+   "share": null,
+   "caught_at_90pct": 0
+  },
+  {
+   "channel": "King County Community product testing event",
+   "base_ppm": 18,
+   "samples": 0,
+   "r": 0.3,
+   "spots": 25,
+   "expected_caught": 0,
+   "share": null,
+   "caught_at_90pct": 0
+  },
+  {
+   "channel": "King County Community product testing event",
+   "base_ppm": 18,
+   "samples": 0,
+   "r": 0.3,
+   "spots": 50,
+   "expected_caught": 0,
+   "share": null,
+   "caught_at_90pct": 0
+  },
+  {
+   "channel": "King County Community product testing event",
+   "base_ppm": 18,
+   "samples": 0,
+   "r": 0.3,
+   "spots": 100,
+   "expected_caught": 0,
+   "share": null,
+   "caught_at_90pct": 0
+  },
+  {
+   "channel": "King County Community product testing event",
+   "base_ppm": 18,
+   "samples": 0,
+   "r": 0.3,
+   "spots": 200,
+   "expected_caught": 0,
+   "share": null,
+   "caught_at_90pct": 0
+  },
+  {
+   "channel": "King County Community product testing event",
+   "base_ppm": 18,
+   "samples": 0,
+   "r": 2.0,
+   "spots": 1,
+   "expected_caught": 0,
+   "share": null,
+   "caught_at_90pct": 0
+  },
+  {
+   "channel": "King County Community product testing event",
+   "base_ppm": 18,
+   "samples": 0,
+   "r": 2.0,
+   "spots": 5,
+   "expected_caught": 0,
+   "share": null,
+   "caught_at_90pct": 0
+  },
+  {
+   "channel": "King County Community product testing event",
+   "base_ppm": 18,
+   "samples": 0,
+   "r": 2.0,
+   "spots": 10,
+   "expected_caught": 0,
+   "share": null,
+   "caught_at_90pct": 0
+  },
+  {
+   "channel": "King County Community product testing event",
+   "base_ppm": 18,
+   "samples": 0,
+   "r": 2.0,
+   "spots": 25,
+   "expected_caught": 0,
+   "share": null,
+   "caught_at_90pct": 0
+  },
+  {
+   "channel": "King County Community product testing event",
+   "base_ppm": 18,
+   "samples": 0,
+   "r": 2.0,
+   "spots": 50,
+   "expected_caught": 0,
+   "share": null,
+   "caught_at_90pct": 0
+  },
+  {
+   "channel": "King County Community product testing event",
+   "base_ppm": 18,
+   "samples": 0,
+   "r": 2.0,
+   "spots": 100,
+   "expected_caught": 0,
+   "share": null,
+   "caught_at_90pct": 0
+  },
+  {
+   "channel": "King County Community product testing event",
+   "base_ppm": 18,
+   "samples": 0,
+   "r": 2.0,
+   "spots": 200,
+   "expected_caught": 0,
+   "share": null,
+   "caught_at_90pct": 0
+  },
+  {
+   "channel": "King County Community product testing event",
+   "base_ppm": 18,
+   "samples": 0,
+   "r": 1000.0,
+   "spots": 1,
+   "expected_caught": 0,
+   "share": null,
+   "caught_at_90pct": 0
+  },
+  {
+   "channel": "King County Community product testing event",
+   "base_ppm": 18,
+   "samples": 0,
+   "r": 1000.0,
+   "spots": 5,
+   "expected_caught": 0,
+   "share": null,
+   "caught_at_90pct": 0
+  },
+  {
+   "channel": "King County Community product testing event",
+   "base_ppm": 18,
+   "samples": 0,
+   "r": 1000.0,
+   "spots": 10,
+   "expected_caught": 0,
+   "share": null,
+   "caught_at_90pct": 0
+  },
+  {
+   "channel": "King County Community product testing event",
+   "base_ppm": 18,
+   "samples": 0,
+   "r": 1000.0,
+   "spots": 25,
+   "expected_caught": 0,
+   "share": null,
+   "caught_at_90pct": 0
+  },
+  {
+   "channel": "King County Community product testing event",
+   "base_ppm": 18,
+   "samples": 0,
+   "r": 1000.0,
+   "spots": 50,
+   "expected_caught": 0,
+   "share": null,
+   "caught_at_90pct": 0
+  },
+  {
+   "channel": "King County Community product testing event",
+   "base_ppm": 18,
+   "samples": 0,
+   "r": 1000.0,
+   "spots": 100,
+   "expected_caught": 0,
+   "share": null,
+   "caught_at_90pct": 0
+  },
+  {
+   "channel": "King County Community product testing event",
+   "base_ppm": 18,
+   "samples": 0,
+   "r": 1000.0,
+   "spots": 200,
+   "expected_caught": 0,
+   "share": null,
+   "caught_at_90pct": 0
+  },
+  {
+   "channel": "King County Community product testing event",
+   "base_ppm": 100,
+   "samples": 0,
+   "r": 1.0,
+   "spots": 1,
+   "expected_caught": 0,
+   "share": null,
+   "caught_at_90pct": 0
+  },
+  {
+   "channel": "King County Community product testing event",
+   "base_ppm": 100,
+   "samples": 0,
+   "r": 1.0,
+   "spots": 5,
+   "expected_caught": 0,
+   "share": null,
+   "caught_at_90pct": 0
+  },
+  {
+   "channel": "King County Community product testing event",
+   "base_ppm": 100,
+   "samples": 0,
+   "r": 1.0,
+   "spots": 10,
+   "expected_caught": 0,
+   "share": null,
+   "caught_at_90pct": 0
+  },
+  {
+   "channel": "King County Community product testing event",
+   "base_ppm": 100,
+   "samples": 0,
+   "r": 1.0,
+   "spots": 25,
+   "expected_caught": 0,
+   "share": null,
+   "caught_at_90pct": 0
+  },
+  {
+   "channel": "King County Community product testing event",
+   "base_ppm": 100,
+   "samples": 0,
+   "r": 1.0,
+   "spots": 50,
+   "expected_caught": 0,
+   "share": null,
+   "caught_at_90pct": 0
+  },
+  {
+   "channel": "King County Community product testing event",
+   "base_ppm": 100,
+   "samples": 0,
+   "r": 1.0,
+   "spots": 100,
+   "expected_caught": 0,
+   "share": null,
+   "caught_at_90pct": 0
+  },
+  {
+   "channel": "King County Community product testing event",
+   "base_ppm": 100,
+   "samples": 0,
+   "r": 1.0,
+   "spots": 200,
+   "expected_caught": 0,
+   "share": null,
+   "caught_at_90pct": 0
+  },
+  {
+   "channel": "King County Community product testing event",
+   "base_ppm": 100,
+   "samples": 0,
+   "r": 0.3,
+   "spots": 1,
+   "expected_caught": 0,
+   "share": null,
+   "caught_at_90pct": 0
+  },
+  {
+   "channel": "King County Community product testing event",
+   "base_ppm": 100,
+   "samples": 0,
+   "r": 0.3,
+   "spots": 5,
+   "expected_caught": 0,
+   "share": null,
+   "caught_at_90pct": 0
+  },
+  {
+   "channel": "King County Community product testing event",
+   "base_ppm": 100,
+   "samples": 0,
+   "r": 0.3,
+   "spots": 10,
+   "expected_caught": 0,
+   "share": null,
+   "caught_at_90pct": 0
+  },
+  {
+   "channel": "King County Community product testing event",
+   "base_ppm": 100,
+   "samples": 0,
+   "r": 0.3,
+   "spots": 25,
+   "expected_caught": 0,
+   "share": null,
+   "caught_at_90pct": 0
+  },
+  {
+   "channel": "King County Community product testing event",
+   "base_ppm": 100,
+   "samples": 0,
+   "r": 0.3,
+   "spots": 50,
+   "expected_caught": 0,
+   "share": null,
+   "caught_at_90pct": 0
+  },
+  {
+   "channel": "King County Community product testing event",
+   "base_ppm": 100,
+   "samples": 0,
+   "r": 0.3,
+   "spots": 100,
+   "expected_caught": 0,
+   "share": null,
+   "caught_at_90pct": 0
+  },
+  {
+   "channel": "King County Community product testing event",
+   "base_ppm": 100,
+   "samples": 0,
+   "r": 0.3,
+   "spots": 200,
+   "expected_caught": 0,
+   "share": null,
+   "caught_at_90pct": 0
+  },
+  {
+   "channel": "King County Community product testing event",
+   "base_ppm": 100,
+   "samples": 0,
+   "r": 2.0,
+   "spots": 1,
+   "expected_caught": 0,
+   "share": null,
+   "caught_at_90pct": 0
+  },
+  {
+   "channel": "King County Community product testing event",
+   "base_ppm": 100,
+   "samples": 0,
+   "r": 2.0,
+   "spots": 5,
+   "expected_caught": 0,
+   "share": null,
+   "caught_at_90pct": 0
+  },
+  {
+   "channel": "King County Community product testing event",
+   "base_ppm": 100,
+   "samples": 0,
+   "r": 2.0,
+   "spots": 10,
+   "expected_caught": 0,
+   "share": null,
+   "caught_at_90pct": 0
+  },
+  {
+   "channel": "King County Community product testing event",
+   "base_ppm": 100,
+   "samples": 0,
+   "r": 2.0,
+   "spots": 25,
+   "expected_caught": 0,
+   "share": null,
+   "caught_at_90pct": 0
+  },
+  {
+   "channel": "King County Community product testing event",
+   "base_ppm": 100,
+   "samples": 0,
+   "r": 2.0,
+   "spots": 50,
+   "expected_caught": 0,
+   "share": null,
+   "caught_at_90pct": 0
+  },
+  {
+   "channel": "King County Community product testing event",
+   "base_ppm": 100,
+   "samples": 0,
+   "r": 2.0,
+   "spots": 100,
+   "expected_caught": 0,
+   "share": null,
+   "caught_at_90pct": 0
+  },
+  {
+   "channel": "King County Community product testing event",
+   "base_ppm": 100,
+   "samples": 0,
+   "r": 2.0,
+   "spots": 200,
+   "expected_caught": 0,
+   "share": null,
+   "caught_at_90pct": 0
+  },
+  {
+   "channel": "King County Community product testing event",
+   "base_ppm": 100,
+   "samples": 0,
+   "r": 1000.0,
+   "spots": 1,
+   "expected_caught": 0,
+   "share": null,
+   "caught_at_90pct": 0
+  },
+  {
+   "channel": "King County Community product testing event",
+   "base_ppm": 100,
+   "samples": 0,
+   "r": 1000.0,
+   "spots": 5,
+   "expected_caught": 0,
+   "share": null,
+   "caught_at_90pct": 0
+  },
+  {
+   "channel": "King County Community product testing event",
+   "base_ppm": 100,
+   "samples": 0,
+   "r": 1000.0,
+   "spots": 10,
+   "expected_caught": 0,
+   "share": null,
+   "caught_at_90pct": 0
+  },
+  {
+   "channel": "King County Community product testing event",
+   "base_ppm": 100,
+   "samples": 0,
+   "r": 1000.0,
+   "spots": 25,
+   "expected_caught": 0,
+   "share": null,
+   "caught_at_90pct": 0
+  },
+  {
+   "channel": "King County Community product testing event",
+   "base_ppm": 100,
+   "samples": 0,
+   "r": 1000.0,
+   "spots": 50,
+   "expected_caught": 0,
+   "share": null,
+   "caught_at_90pct": 0
+  },
+  {
+   "channel": "King County Community product testing event",
+   "base_ppm": 100,
+   "samples": 0,
+   "r": 1000.0,
+   "spots": 100,
+   "expected_caught": 0,
+   "share": null,
+   "caught_at_90pct": 0
+  },
+  {
+   "channel": "King County Community product testing event",
+   "base_ppm": 100,
+   "samples": 0,
+   "r": 1000.0,
+   "spots": 200,
+   "expected_caught": 0,
+   "share": null,
+   "caught_at_90pct": 0
+  },
+  {
+   "channel": "King County all",
+   "base_ppm": 18,
+   "samples": 3,
+   "r": 1.0,
+   "spots": 1,
+   "expected_caught": 0.8,
+   "share": 0.257,
+   "caught_at_90pct": 0
+  },
+  {
+   "channel": "King County all",
+   "base_ppm": 18,
+   "samples": 3,
+   "r": 1.0,
+   "spots": 5,
+   "expected_caught": 1.7,
+   "share": 0.556,
+   "caught_at_90pct": 1
+  },
+  {
+   "channel": "King County all",
+   "base_ppm": 18,
+   "samples": 3,
+   "r": 1.0,
+   "spots": 10,
+   "expected_caught": 2.0,
+   "share": 0.658,
+   "caught_at_90pct": 1
+  },
+  {
+   "channel": "King County all",
+   "base_ppm": 18,
+   "samples": 3,
+   "r": 1.0,
+   "spots": 25,
+   "expected_caught": 2.3,
+   "share": 0.755,
+   "caught_at_90pct": 2
+  },
+  {
+   "channel": "King County all",
+   "base_ppm": 18,
+   "samples": 3,
+   "r": 1.0,
+   "spots": 50,
+   "expected_caught": 2.5,
+   "share": 0.824,
+   "caught_at_90pct": 2
+  },
+  {
+   "channel": "King County all",
+   "base_ppm": 18,
+   "samples": 3,
+   "r": 1.0,
+   "spots": 100,
+   "expected_caught": 2.7,
+   "share": 0.907,
+   "caught_at_90pct": 2
+  },
+  {
+   "channel": "King County all",
+   "base_ppm": 18,
+   "samples": 3,
+   "r": 1.0,
+   "spots": 200,
+   "expected_caught": 2.9,
+   "share": 0.974,
+   "caught_at_90pct": 3
+  },
+  {
+   "channel": "King County all",
+   "base_ppm": 18,
+   "samples": 3,
+   "r": 0.3,
+   "spots": 1,
+   "expected_caught": 0.3,
+   "share": 0.097,
+   "caught_at_90pct": 0
+  },
+  {
+   "channel": "King County all",
+   "base_ppm": 18,
+   "samples": 3,
+   "r": 0.3,
+   "spots": 5,
+   "expected_caught": 1.0,
+   "share": 0.334,
+   "caught_at_90pct": 0
+  },
+  {
+   "channel": "King County all",
+   "base_ppm": 18,
+   "samples": 3,
+   "r": 0.3,
+   "spots": 10,
+   "expected_caught": 1.4,
+   "share": 0.468,
+   "caught_at_90pct": 1
+  },
+  {
+   "channel": "King County all",
+   "base_ppm": 18,
+   "samples": 3,
+   "r": 0.3,
+   "spots": 25,
+   "expected_caught": 1.9,
+   "share": 0.619,
+   "caught_at_90pct": 1
+  },
+  {
+   "channel": "King County all",
+   "base_ppm": 18,
+   "samples": 3,
+   "r": 0.3,
+   "spots": 50,
+   "expected_caught": 2.1,
+   "share": 0.707,
+   "caught_at_90pct": 2
+  },
+  {
+   "channel": "King County all",
+   "base_ppm": 18,
+   "samples": 3,
+   "r": 0.3,
+   "spots": 100,
+   "expected_caught": 2.3,
+   "share": 0.772,
+   "caught_at_90pct": 2
+  },
+  {
+   "channel": "King County all",
+   "base_ppm": 18,
+   "samples": 3,
+   "r": 0.3,
+   "spots": 200,
+   "expected_caught": 2.5,
+   "share": 0.845,
+   "caught_at_90pct": 2
+  },
+  {
+   "channel": "King County all",
+   "base_ppm": 18,
+   "samples": 3,
+   "r": 2.0,
+   "spots": 1,
+   "expected_caught": 0.6,
+   "share": 0.193,
+   "caught_at_90pct": 0
+  },
+  {
+   "channel": "King County all",
+   "base_ppm": 18,
+   "samples": 3,
+   "r": 2.0,
+   "spots": 5,
+   "expected_caught": 1.2,
+   "share": 0.412,
+   "caught_at_90pct": 1
+  },
+  {
+   "channel": "King County all",
+   "base_ppm": 18,
+   "samples": 3,
+   "r": 2.0,
+   "spots": 10,
+   "expected_caught": 1.5,
+   "share": 0.484,
+   "caught_at_90pct": 1
+  },
+  {
+   "channel": "King County all",
+   "base_ppm": 18,
+   "samples": 3,
+   "r": 2.0,
+   "spots": 25,
+   "expected_caught": 1.8,
+   "share": 0.595,
+   "caught_at_90pct": 1
+  },
+  {
+   "channel": "King County all",
+   "base_ppm": 18,
+   "samples": 3,
+   "r": 2.0,
+   "spots": 50,
+   "expected_caught": 2.0,
+   "share": 0.655,
+   "caught_at_90pct": 2
+  },
+  {
+   "channel": "King County all",
+   "base_ppm": 18,
+   "samples": 3,
+   "r": 2.0,
+   "spots": 100,
+   "expected_caught": 2.0,
+   "share": 0.676,
+   "caught_at_90pct": 2
+  },
+  {
+   "channel": "King County all",
+   "base_ppm": 18,
+   "samples": 3,
+   "r": 2.0,
+   "spots": 200,
+   "expected_caught": 2.1,
+   "share": 0.687,
+   "caught_at_90pct": 2
+  },
+  {
+   "channel": "King County all",
+   "base_ppm": 18,
+   "samples": 3,
+   "r": 1000.0,
+   "spots": 1,
+   "expected_caught": 0.0,
+   "share": 0.0,
+   "caught_at_90pct": 0
+  },
+  {
+   "channel": "King County all",
+   "base_ppm": 18,
+   "samples": 3,
+   "r": 1000.0,
+   "spots": 5,
+   "expected_caught": 0.0,
+   "share": 0.0,
+   "caught_at_90pct": 0
+  },
+  {
+   "channel": "King County all",
+   "base_ppm": 18,
+   "samples": 3,
+   "r": 1000.0,
+   "spots": 10,
+   "expected_caught": 0.0,
+   "share": 0.0,
+   "caught_at_90pct": 0
+  },
+  {
+   "channel": "King County all",
+   "base_ppm": 18,
+   "samples": 3,
+   "r": 1000.0,
+   "spots": 25,
+   "expected_caught": 0.0,
+   "share": 0.0,
+   "caught_at_90pct": 0
+  },
+  {
+   "channel": "King County all",
+   "base_ppm": 18,
+   "samples": 3,
+   "r": 1000.0,
+   "spots": 50,
+   "expected_caught": 0.0,
+   "share": 0.0,
+   "caught_at_90pct": 0
+  },
+  {
+   "channel": "King County all",
+   "base_ppm": 18,
+   "samples": 3,
+   "r": 1000.0,
+   "spots": 100,
+   "expected_caught": 0.0,
+   "share": 0.001,
+   "caught_at_90pct": 0
+  },
+  {
+   "channel": "King County all",
+   "base_ppm": 18,
+   "samples": 3,
+   "r": 1000.0,
+   "spots": 200,
+   "expected_caught": 0.0,
+   "share": 0.001,
+   "caught_at_90pct": 0
+  },
+  {
+   "channel": "King County all",
+   "base_ppm": 100,
+   "samples": 2,
+   "r": 1.0,
+   "spots": 1,
+   "expected_caught": 0.8,
+   "share": 0.379,
+   "caught_at_90pct": 0
+  },
+  {
+   "channel": "King County all",
+   "base_ppm": 100,
+   "samples": 2,
+   "r": 1.0,
+   "spots": 5,
+   "expected_caught": 1.6,
+   "share": 0.804,
+   "caught_at_90pct": 1
+  },
+  {
+   "channel": "King County all",
+   "base_ppm": 100,
+   "samples": 2,
+   "r": 1.0,
+   "spots": 10,
+   "expected_caught": 1.9,
+   "share": 0.928,
+   "caught_at_90pct": 1
+  },
+  {
+   "channel": "King County all",
+   "base_ppm": 100,
+   "samples": 2,
+   "r": 1.0,
+   "spots": 25,
+   "expected_caught": 2.0,
+   "share": 0.996,
+   "caught_at_90pct": 2
+  },
+  {
+   "channel": "King County all",
+   "base_ppm": 100,
+   "samples": 2,
+   "r": 1.0,
+   "spots": 50,
+   "expected_caught": 2.0,
+   "share": 1.0,
+   "caught_at_90pct": 2
+  },
+  {
+   "channel": "King County all",
+   "base_ppm": 100,
+   "samples": 2,
+   "r": 1.0,
+   "spots": 100,
+   "expected_caught": 2.0,
+   "share": 1.0,
+   "caught_at_90pct": 2
+  },
+  {
+   "channel": "King County all",
+   "base_ppm": 100,
+   "samples": 2,
+   "r": 1.0,
+   "spots": 200,
+   "expected_caught": 2.0,
+   "share": 1.0,
+   "caught_at_90pct": 2
+  },
+  {
+   "channel": "King County all",
+   "base_ppm": 100,
+   "samples": 2,
+   "r": 0.3,
+   "spots": 1,
+   "expected_caught": 0.3,
+   "share": 0.143,
+   "caught_at_90pct": 0
+  },
+  {
+   "channel": "King County all",
+   "base_ppm": 100,
+   "samples": 2,
+   "r": 0.3,
+   "spots": 5,
+   "expected_caught": 1.0,
+   "share": 0.491,
+   "caught_at_90pct": 0
+  },
+  {
+   "channel": "King County all",
+   "base_ppm": 100,
+   "samples": 2,
+   "r": 0.3,
+   "spots": 10,
+   "expected_caught": 1.4,
+   "share": 0.684,
+   "caught_at_90pct": 1
+  },
+  {
+   "channel": "King County all",
+   "base_ppm": 100,
+   "samples": 2,
+   "r": 0.3,
+   "spots": 25,
+   "expected_caught": 1.8,
+   "share": 0.882,
+   "caught_at_90pct": 1
+  },
+  {
+   "channel": "King County all",
+   "base_ppm": 100,
+   "samples": 2,
+   "r": 0.3,
+   "spots": 50,
+   "expected_caught": 1.9,
+   "share": 0.973,
+   "caught_at_90pct": 2
+  },
+  {
+   "channel": "King County all",
+   "base_ppm": 100,
+   "samples": 2,
+   "r": 0.3,
+   "spots": 100,
+   "expected_caught": 2.0,
+   "share": 0.998,
+   "caught_at_90pct": 2
+  },
+  {
+   "channel": "King County all",
+   "base_ppm": 100,
+   "samples": 2,
+   "r": 0.3,
+   "spots": 200,
+   "expected_caught": 2.0,
+   "share": 1.0,
+   "caught_at_90pct": 2
+  },
+  {
+   "channel": "King County all",
+   "base_ppm": 100,
+   "samples": 2,
+   "r": 2.0,
+   "spots": 1,
+   "expected_caught": 0.6,
+   "share": 0.29,
+   "caught_at_90pct": 0
+  },
+  {
+   "channel": "King County all",
+   "base_ppm": 100,
+   "samples": 2,
+   "r": 2.0,
+   "spots": 5,
+   "expected_caught": 1.2,
+   "share": 0.617,
+   "caught_at_90pct": 1
+  },
+  {
+   "channel": "King County all",
+   "base_ppm": 100,
+   "samples": 2,
+   "r": 2.0,
+   "spots": 10,
+   "expected_caught": 1.4,
+   "share": 0.725,
+   "caught_at_90pct": 1
+  },
+  {
+   "channel": "King County all",
+   "base_ppm": 100,
+   "samples": 2,
+   "r": 2.0,
+   "spots": 25,
+   "expected_caught": 1.8,
+   "share": 0.888,
+   "caught_at_90pct": 1
+  },
+  {
+   "channel": "King County all",
+   "base_ppm": 100,
+   "samples": 2,
+   "r": 2.0,
+   "spots": 50,
+   "expected_caught": 1.9,
+   "share": 0.975,
+   "caught_at_90pct": 2
+  },
+  {
+   "channel": "King County all",
+   "base_ppm": 100,
+   "samples": 2,
+   "r": 2.0,
+   "spots": 100,
+   "expected_caught": 2.0,
+   "share": 0.999,
+   "caught_at_90pct": 2
+  },
+  {
+   "channel": "King County all",
+   "base_ppm": 100,
+   "samples": 2,
+   "r": 2.0,
+   "spots": 200,
+   "expected_caught": 2.0,
+   "share": 1.0,
+   "caught_at_90pct": 2
+  },
+  {
+   "channel": "King County all",
+   "base_ppm": 100,
+   "samples": 2,
+   "r": 1000.0,
+   "spots": 1,
+   "expected_caught": 0.0,
+   "share": 0.0,
+   "caught_at_90pct": 0
+  },
+  {
+   "channel": "King County all",
+   "base_ppm": 100,
+   "samples": 2,
+   "r": 1000.0,
+   "spots": 5,
+   "expected_caught": 0.0,
+   "share": 0.0,
+   "caught_at_90pct": 0
+  },
+  {
+   "channel": "King County all",
+   "base_ppm": 100,
+   "samples": 2,
+   "r": 1000.0,
+   "spots": 10,
+   "expected_caught": 0.0,
+   "share": 0.0,
+   "caught_at_90pct": 0
+  },
+  {
+   "channel": "King County all",
+   "base_ppm": 100,
+   "samples": 2,
+   "r": 1000.0,
+   "spots": 25,
+   "expected_caught": 0.0,
+   "share": 0.0,
+   "caught_at_90pct": 0
+  },
+  {
+   "channel": "King County all",
+   "base_ppm": 100,
+   "samples": 2,
+   "r": 1000.0,
+   "spots": 50,
+   "expected_caught": 0.0,
+   "share": 0.0,
+   "caught_at_90pct": 0
+  },
+  {
+   "channel": "King County all",
+   "base_ppm": 100,
+   "samples": 2,
+   "r": 1000.0,
+   "spots": 100,
+   "expected_caught": 0.0,
+   "share": 0.001,
+   "caught_at_90pct": 0
+  },
+  {
+   "channel": "King County all",
+   "base_ppm": 100,
+   "samples": 2,
+   "r": 1000.0,
+   "spots": 200,
+   "expected_caught": 0.0,
+   "share": 0.002,
+   "caught_at_90pct": 0
+  },
+  {
+   "channel": "NYC A",
+   "base_ppm": 18,
+   "samples": 59,
+   "r": 1.0,
+   "spots": 1,
+   "expected_caught": 19.3,
+   "share": 0.327,
+   "caught_at_90pct": 8
+  },
+  {
+   "channel": "NYC A",
+   "base_ppm": 18,
+   "samples": 59,
+   "r": 1.0,
+   "spots": 5,
+   "expected_caught": 33.4,
+   "share": 0.567,
+   "caught_at_90pct": 20
+  },
+  {
+   "channel": "NYC A",
+   "base_ppm": 18,
+   "samples": 59,
+   "r": 1.0,
+   "spots": 10,
+   "expected_caught": 39.1,
+   "share": 0.662,
+   "caught_at_90pct": 28
+  },
+  {
+   "channel": "NYC A",
+   "base_ppm": 18,
+   "samples": 59,
+   "r": 1.0,
+   "spots": 25,
+   "expected_caught": 45.1,
+   "share": 0.765,
+   "caught_at_90pct": 38
+  },
+  {
+   "channel": "NYC A",
+   "base_ppm": 18,
+   "samples": 59,
+   "r": 1.0,
+   "spots": 50,
+   "expected_caught": 49.3,
+   "share": 0.835,
+   "caught_at_90pct": 42
+  },
+  {
+   "channel": "NYC A",
+   "base_ppm": 18,
+   "samples": 59,
+   "r": 1.0,
+   "spots": 100,
+   "expected_caught": 53.4,
+   "share": 0.905,
+   "caught_at_90pct": 43
+  },
+  {
+   "channel": "NYC A",
+   "base_ppm": 18,
+   "samples": 59,
+   "r": 1.0,
+   "spots": 200,
+   "expected_caught": 56.8,
+   "share": 0.962,
+   "caught_at_90pct": 50
+  },
+  {
+   "channel": "NYC A",
+   "base_ppm": 18,
+   "samples": 59,
+   "r": 0.3,
+   "spots": 1,
+   "expected_caught": 11.0,
+   "share": 0.186,
+   "caught_at_90pct": 1
+  },
+  {
+   "channel": "NYC A",
+   "base_ppm": 18,
+   "samples": 59,
+   "r": 0.3,
+   "spots": 5,
+   "expected_caught": 22.6,
+   "share": 0.383,
+   "caught_at_90pct": 10
+  },
+  {
+   "channel": "NYC A",
+   "base_ppm": 18,
+   "samples": 59,
+   "r": 0.3,
+   "spots": 10,
+   "expected_caught": 28.8,
+   "share": 0.488,
+   "caught_at_90pct": 15
+  },
+  {
+   "channel": "NYC A",
+   "base_ppm": 18,
+   "samples": 59,
+   "r": 0.3,
+   "spots": 25,
+   "expected_caught": 36.9,
+   "share": 0.625,
+   "caught_at_90pct": 26
+  },
+  {
+   "channel": "NYC A",
+   "base_ppm": 18,
+   "samples": 59,
+   "r": 0.3,
+   "spots": 50,
+   "expected_caught": 41.9,
+   "share": 0.71,
+   "caught_at_90pct": 34
+  },
+  {
+   "channel": "NYC A",
+   "base_ppm": 18,
+   "samples": 59,
+   "r": 0.3,
+   "spots": 100,
+   "expected_caught": 46.2,
+   "share": 0.783,
+   "caught_at_90pct": 38
+  },
+  {
+   "channel": "NYC A",
+   "base_ppm": 18,
+   "samples": 59,
+   "r": 0.3,
+   "spots": 200,
+   "expected_caught": 50.4,
+   "share": 0.854,
+   "caught_at_90pct": 42
+  },
+  {
+   "channel": "NYC A",
+   "base_ppm": 18,
+   "samples": 59,
+   "r": 2.0,
+   "spots": 1,
+   "expected_caught": 16.2,
+   "share": 0.275,
+   "caught_at_90pct": 9
+  },
+  {
+   "channel": "NYC A",
+   "base_ppm": 18,
+   "samples": 59,
+   "r": 2.0,
+   "spots": 5,
+   "expected_caught": 25.4,
+   "share": 0.431,
+   "caught_at_90pct": 16
+  },
+  {
+   "channel": "NYC A",
+   "base_ppm": 18,
+   "samples": 59,
+   "r": 2.0,
+   "spots": 10,
+   "expected_caught": 29.7,
+   "share": 0.503,
+   "caught_at_90pct": 20
+  },
+  {
+   "channel": "NYC A",
+   "base_ppm": 18,
+   "samples": 59,
+   "r": 2.0,
+   "spots": 25,
+   "expected_caught": 34.6,
+   "share": 0.587,
+   "caught_at_90pct": 28
+  },
+  {
+   "channel": "NYC A",
+   "base_ppm": 18,
+   "samples": 59,
+   "r": 2.0,
+   "spots": 50,
+   "expected_caught": 37.6,
+   "share": 0.637,
+   "caught_at_90pct": 31
+  },
+  {
+   "channel": "NYC A",
+   "base_ppm": 18,
+   "samples": 59,
+   "r": 2.0,
+   "spots": 100,
+   "expected_caught": 39.9,
+   "share": 0.676,
+   "caught_at_90pct": 37
+  },
+  {
+   "channel": "NYC A",
+   "base_ppm": 18,
+   "samples": 59,
+   "r": 2.0,
+   "spots": 200,
+   "expected_caught": 41.8,
+   "share": 0.709,
+   "caught_at_90pct": 38
+  },
+  {
+   "channel": "NYC A",
+   "base_ppm": 18,
+   "samples": 59,
+   "r": 1000.0,
+   "spots": 1,
+   "expected_caught": 13.8,
+   "share": 0.234,
+   "caught_at_90pct": 13
+  },
+  {
+   "channel": "NYC A",
+   "base_ppm": 18,
+   "samples": 59,
+   "r": 1000.0,
+   "spots": 5,
+   "expected_caught": 14.0,
+   "share": 0.237,
+   "caught_at_90pct": 14
+  },
+  {
+   "channel": "NYC A",
+   "base_ppm": 18,
+   "samples": 59,
+   "r": 1000.0,
+   "spots": 10,
+   "expected_caught": 14.0,
+   "share": 0.237,
+   "caught_at_90pct": 14
+  },
+  {
+   "channel": "NYC A",
+   "base_ppm": 18,
+   "samples": 59,
+   "r": 1000.0,
+   "spots": 25,
+   "expected_caught": 14.0,
+   "share": 0.237,
+   "caught_at_90pct": 14
+  },
+  {
+   "channel": "NYC A",
+   "base_ppm": 18,
+   "samples": 59,
+   "r": 1000.0,
+   "spots": 50,
+   "expected_caught": 14.0,
+   "share": 0.237,
+   "caught_at_90pct": 14
+  },
+  {
+   "channel": "NYC A",
+   "base_ppm": 18,
+   "samples": 59,
+   "r": 1000.0,
+   "spots": 100,
+   "expected_caught": 14.0,
+   "share": 0.237,
+   "caught_at_90pct": 14
+  },
+  {
+   "channel": "NYC A",
+   "base_ppm": 18,
+   "samples": 59,
+   "r": 1000.0,
+   "spots": 200,
+   "expected_caught": 14.0,
+   "share": 0.237,
+   "caught_at_90pct": 14
+  },
+  {
+   "channel": "NYC A",
+   "base_ppm": 100,
+   "samples": 43,
+   "r": 1.0,
+   "spots": 1,
+   "expected_caught": 19.1,
+   "share": 0.445,
+   "caught_at_90pct": 8
+  },
+  {
+   "channel": "NYC A",
+   "base_ppm": 100,
+   "samples": 43,
+   "r": 1.0,
+   "spots": 5,
+   "expected_caught": 32.6,
+   "share": 0.757,
+   "caught_at_90pct": 20
+  },
+  {
+   "channel": "NYC A",
+   "base_ppm": 100,
+   "samples": 43,
+   "r": 1.0,
+   "spots": 10,
+   "expected_caught": 37.4,
+   "share": 0.869,
+   "caught_at_90pct": 28
+  },
+  {
+   "channel": "NYC A",
+   "base_ppm": 100,
+   "samples": 43,
+   "r": 1.0,
+   "spots": 25,
+   "expected_caught": 41.2,
+   "share": 0.959,
+   "caught_at_90pct": 38
+  },
+  {
+   "channel": "NYC A",
+   "base_ppm": 100,
+   "samples": 43,
+   "r": 1.0,
+   "spots": 50,
+   "expected_caught": 42.5,
+   "share": 0.989,
+   "caught_at_90pct": 42
+  },
+  {
+   "channel": "NYC A",
+   "base_ppm": 100,
+   "samples": 43,
+   "r": 1.0,
+   "spots": 100,
+   "expected_caught": 42.9,
+   "share": 0.999,
+   "caught_at_90pct": 43
+  },
+  {
+   "channel": "NYC A",
+   "base_ppm": 100,
+   "samples": 43,
+   "r": 1.0,
+   "spots": 200,
+   "expected_caught": 43.0,
+   "share": 1.0,
+   "caught_at_90pct": 43
+  },
+  {
+   "channel": "NYC A",
+   "base_ppm": 100,
+   "samples": 43,
+   "r": 0.3,
+   "spots": 1,
+   "expected_caught": 10.9,
+   "share": 0.254,
+   "caught_at_90pct": 1
+  },
+  {
+   "channel": "NYC A",
+   "base_ppm": 100,
+   "samples": 43,
+   "r": 0.3,
+   "spots": 5,
+   "expected_caught": 22.4,
+   "share": 0.52,
+   "caught_at_90pct": 10
+  },
+  {
+   "channel": "NYC A",
+   "base_ppm": 100,
+   "samples": 43,
+   "r": 0.3,
+   "spots": 10,
+   "expected_caught": 28.3,
+   "share": 0.658,
+   "caught_at_90pct": 15
+  },
+  {
+   "channel": "NYC A",
+   "base_ppm": 100,
+   "samples": 43,
+   "r": 0.3,
+   "spots": 25,
+   "expected_caught": 35.6,
+   "share": 0.827,
+   "caught_at_90pct": 26
+  },
+  {
+   "channel": "NYC A",
+   "base_ppm": 100,
+   "samples": 43,
+   "r": 0.3,
+   "spots": 50,
+   "expected_caught": 39.4,
+   "share": 0.917,
+   "caught_at_90pct": 34
+  },
+  {
+   "channel": "NYC A",
+   "base_ppm": 100,
+   "samples": 43,
+   "r": 0.3,
+   "spots": 100,
+   "expected_caught": 41.7,
+   "share": 0.969,
+   "caught_at_90pct": 38
+  },
+  {
+   "channel": "NYC A",
+   "base_ppm": 100,
+   "samples": 43,
+   "r": 0.3,
+   "spots": 200,
+   "expected_caught": 42.7,
+   "share": 0.993,
+   "caught_at_90pct": 42
+  },
+  {
+   "channel": "NYC A",
+   "base_ppm": 100,
+   "samples": 43,
+   "r": 2.0,
+   "spots": 1,
+   "expected_caught": 16.2,
+   "share": 0.377,
+   "caught_at_90pct": 9
+  },
+  {
+   "channel": "NYC A",
+   "base_ppm": 100,
+   "samples": 43,
+   "r": 2.0,
+   "spots": 5,
+   "expected_caught": 25.4,
+   "share": 0.591,
+   "caught_at_90pct": 16
+  },
+  {
+   "channel": "NYC A",
+   "base_ppm": 100,
+   "samples": 43,
+   "r": 2.0,
+   "spots": 10,
+   "expected_caught": 29.7,
+   "share": 0.69,
+   "caught_at_90pct": 20
+  },
+  {
+   "channel": "NYC A",
+   "base_ppm": 100,
+   "samples": 43,
+   "r": 2.0,
+   "spots": 25,
+   "expected_caught": 34.5,
+   "share": 0.803,
+   "caught_at_90pct": 28
+  },
+  {
+   "channel": "NYC A",
+   "base_ppm": 100,
+   "samples": 43,
+   "r": 2.0,
+   "spots": 50,
+   "expected_caught": 37.4,
+   "share": 0.869,
+   "caught_at_90pct": 31
+  },
+  {
+   "channel": "NYC A",
+   "base_ppm": 100,
+   "samples": 43,
+   "r": 2.0,
+   "spots": 100,
+   "expected_caught": 39.4,
+   "share": 0.917,
+   "caught_at_90pct": 37
+  },
+  {
+   "channel": "NYC A",
+   "base_ppm": 100,
+   "samples": 43,
+   "r": 2.0,
+   "spots": 200,
+   "expected_caught": 40.9,
+   "share": 0.952,
+   "caught_at_90pct": 38
+  },
+  {
+   "channel": "NYC A",
+   "base_ppm": 100,
+   "samples": 43,
+   "r": 1000.0,
+   "spots": 1,
+   "expected_caught": 13.8,
+   "share": 0.321,
+   "caught_at_90pct": 13
+  },
+  {
+   "channel": "NYC A",
+   "base_ppm": 100,
+   "samples": 43,
+   "r": 1000.0,
+   "spots": 5,
+   "expected_caught": 14.0,
+   "share": 0.326,
+   "caught_at_90pct": 14
+  },
+  {
+   "channel": "NYC A",
+   "base_ppm": 100,
+   "samples": 43,
+   "r": 1000.0,
+   "spots": 10,
+   "expected_caught": 14.0,
+   "share": 0.326,
+   "caught_at_90pct": 14
+  },
+  {
+   "channel": "NYC A",
+   "base_ppm": 100,
+   "samples": 43,
+   "r": 1000.0,
+   "spots": 25,
+   "expected_caught": 14.0,
+   "share": 0.326,
+   "caught_at_90pct": 14
+  },
+  {
+   "channel": "NYC A",
+   "base_ppm": 100,
+   "samples": 43,
+   "r": 1000.0,
+   "spots": 50,
+   "expected_caught": 14.0,
+   "share": 0.326,
+   "caught_at_90pct": 14
+  },
+  {
+   "channel": "NYC A",
+   "base_ppm": 100,
+   "samples": 43,
+   "r": 1000.0,
+   "spots": 100,
+   "expected_caught": 14.0,
+   "share": 0.326,
+   "caught_at_90pct": 14
+  },
+  {
+   "channel": "NYC A",
+   "base_ppm": 100,
+   "samples": 43,
+   "r": 1000.0,
+   "spots": 200,
+   "expected_caught": 14.0,
+   "share": 0.326,
+   "caught_at_90pct": 14
+  },
+  {
+   "channel": "NYC C",
+   "base_ppm": 18,
+   "samples": 203,
+   "r": 1.0,
+   "spots": 1,
+   "expected_caught": 56.5,
+   "share": 0.278,
+   "caught_at_90pct": 20
+  },
+  {
+   "channel": "NYC C",
+   "base_ppm": 18,
+   "samples": 203,
+   "r": 1.0,
+   "spots": 5,
+   "expected_caught": 106.0,
+   "share": 0.522,
+   "caught_at_90pct": 59
+  },
+  {
+   "channel": "NYC C",
+   "base_ppm": 18,
+   "samples": 203,
+   "r": 1.0,
+   "spots": 10,
+   "expected_caught": 127.5,
+   "share": 0.628,
+   "caught_at_90pct": 84
+  },
+  {
+   "channel": "NYC C",
+   "base_ppm": 18,
+   "samples": 203,
+   "r": 1.0,
+   "spots": 25,
+   "expected_caught": 153.9,
+   "share": 0.758,
+   "caught_at_90pct": 112
+  },
+  {
+   "channel": "NYC C",
+   "base_ppm": 18,
+   "samples": 203,
+   "r": 1.0,
+   "spots": 50,
+   "expected_caught": 172.4,
+   "share": 0.849,
+   "caught_at_90pct": 136
+  },
+  {
+   "channel": "NYC C",
+   "base_ppm": 18,
+   "samples": 203,
+   "r": 1.0,
+   "spots": 100,
+   "expected_caught": 187.9,
+   "share": 0.926,
+   "caught_at_90pct": 155
+  },
+  {
+   "channel": "NYC C",
+   "base_ppm": 18,
+   "samples": 203,
+   "r": 1.0,
+   "spots": 200,
+   "expected_caught": 198.0,
+   "share": 0.975,
+   "caught_at_90pct": 185
+  },
+  {
+   "channel": "NYC C",
+   "base_ppm": 18,
+   "samples": 203,
+   "r": 0.3,
+   "spots": 1,
+   "expected_caught": 29.1,
+   "share": 0.143,
+   "caught_at_90pct": 3
+  },
+  {
+   "channel": "NYC C",
+   "base_ppm": 18,
+   "samples": 203,
+   "r": 0.3,
+   "spots": 5,
+   "expected_caught": 67.9,
+   "share": 0.335,
+   "caught_at_90pct": 26
+  },
+  {
+   "channel": "NYC C",
+   "base_ppm": 18,
+   "samples": 203,
+   "r": 0.3,
+   "spots": 10,
+   "expected_caught": 89.5,
+   "share": 0.441,
+   "caught_at_90pct": 40
+  },
+  {
+   "channel": "NYC C",
+   "base_ppm": 18,
+   "samples": 203,
+   "r": 0.3,
+   "spots": 25,
+   "expected_caught": 118.7,
+   "share": 0.585,
+   "caught_at_90pct": 72
+  },
+  {
+   "channel": "NYC C",
+   "base_ppm": 18,
+   "samples": 203,
+   "r": 0.3,
+   "spots": 50,
+   "expected_caught": 139.4,
+   "share": 0.687,
+   "caught_at_90pct": 102
+  },
+  {
+   "channel": "NYC C",
+   "base_ppm": 18,
+   "samples": 203,
+   "r": 0.3,
+   "spots": 100,
+   "expected_caught": 158.9,
+   "share": 0.783,
+   "caught_at_90pct": 117
+  },
+  {
+   "channel": "NYC C",
+   "base_ppm": 18,
+   "samples": 203,
+   "r": 0.3,
+   "spots": 200,
+   "expected_caught": 176.9,
+   "share": 0.871,
+   "caught_at_90pct": 139
+  },
+  {
+   "channel": "NYC C",
+   "base_ppm": 18,
+   "samples": 203,
+   "r": 2.0,
+   "spots": 1,
+   "expected_caught": 45.6,
+   "share": 0.225,
+   "caught_at_90pct": 24
+  },
+  {
+   "channel": "NYC C",
+   "base_ppm": 18,
+   "samples": 203,
+   "r": 2.0,
+   "spots": 5,
+   "expected_caught": 76.7,
+   "share": 0.378,
+   "caught_at_90pct": 50
+  },
+  {
+   "channel": "NYC C",
+   "base_ppm": 18,
+   "samples": 203,
+   "r": 2.0,
+   "spots": 10,
+   "expected_caught": 90.4,
+   "share": 0.445,
+   "caught_at_90pct": 63
+  },
+  {
+   "channel": "NYC C",
+   "base_ppm": 18,
+   "samples": 203,
+   "r": 2.0,
+   "spots": 25,
+   "expected_caught": 107.1,
+   "share": 0.528,
+   "caught_at_90pct": 82
+  },
+  {
+   "channel": "NYC C",
+   "base_ppm": 18,
+   "samples": 203,
+   "r": 2.0,
+   "spots": 50,
+   "expected_caught": 118.3,
+   "share": 0.583,
+   "caught_at_90pct": 99
+  },
+  {
+   "channel": "NYC C",
+   "base_ppm": 18,
+   "samples": 203,
+   "r": 2.0,
+   "spots": 100,
+   "expected_caught": 128.9,
+   "share": 0.635,
+   "caught_at_90pct": 107
+  },
+  {
+   "channel": "NYC C",
+   "base_ppm": 18,
+   "samples": 203,
+   "r": 2.0,
+   "spots": 200,
+   "expected_caught": 139.9,
+   "share": 0.689,
+   "caught_at_90pct": 116
+  },
+  {
+   "channel": "NYC C",
+   "base_ppm": 18,
+   "samples": 203,
+   "r": 1000.0,
+   "spots": 1,
+   "expected_caught": 32.5,
+   "share": 0.16,
+   "caught_at_90pct": 32
+  },
+  {
+   "channel": "NYC C",
+   "base_ppm": 18,
+   "samples": 203,
+   "r": 1000.0,
+   "spots": 5,
+   "expected_caught": 33.0,
+   "share": 0.162,
+   "caught_at_90pct": 33
+  },
+  {
+   "channel": "NYC C",
+   "base_ppm": 18,
+   "samples": 203,
+   "r": 1000.0,
+   "spots": 10,
+   "expected_caught": 33.0,
+   "share": 0.163,
+   "caught_at_90pct": 33
+  },
+  {
+   "channel": "NYC C",
+   "base_ppm": 18,
+   "samples": 203,
+   "r": 1000.0,
+   "spots": 25,
+   "expected_caught": 33.0,
+   "share": 0.163,
+   "caught_at_90pct": 33
+  },
+  {
+   "channel": "NYC C",
+   "base_ppm": 18,
+   "samples": 203,
+   "r": 1000.0,
+   "spots": 50,
+   "expected_caught": 33.0,
+   "share": 0.163,
+   "caught_at_90pct": 33
+  },
+  {
+   "channel": "NYC C",
+   "base_ppm": 18,
+   "samples": 203,
+   "r": 1000.0,
+   "spots": 100,
+   "expected_caught": 33.1,
+   "share": 0.163,
+   "caught_at_90pct": 33
+  },
+  {
+   "channel": "NYC C",
+   "base_ppm": 18,
+   "samples": 203,
+   "r": 1000.0,
+   "spots": 200,
+   "expected_caught": 33.2,
+   "share": 0.163,
+   "caught_at_90pct": 33
+  },
+  {
+   "channel": "NYC C",
+   "base_ppm": 100,
+   "samples": 145,
+   "r": 1.0,
+   "spots": 1,
+   "expected_caught": 55.6,
+   "share": 0.383,
+   "caught_at_90pct": 20
+  },
+  {
+   "channel": "NYC C",
+   "base_ppm": 100,
+   "samples": 145,
+   "r": 1.0,
+   "spots": 5,
+   "expected_caught": 101.6,
+   "share": 0.701,
+   "caught_at_90pct": 59
+  },
+  {
+   "channel": "NYC C",
+   "base_ppm": 100,
+   "samples": 145,
+   "r": 1.0,
+   "spots": 10,
+   "expected_caught": 119.2,
+   "share": 0.822,
+   "caught_at_90pct": 84
+  },
+  {
+   "channel": "NYC C",
+   "base_ppm": 100,
+   "samples": 145,
+   "r": 1.0,
+   "spots": 25,
+   "expected_caught": 135.8,
+   "share": 0.936,
+   "caught_at_90pct": 112
+  },
+  {
+   "channel": "NYC C",
+   "base_ppm": 100,
+   "samples": 145,
+   "r": 1.0,
+   "spots": 50,
+   "expected_caught": 142.4,
+   "share": 0.982,
+   "caught_at_90pct": 136
+  },
+  {
+   "channel": "NYC C",
+   "base_ppm": 100,
+   "samples": 145,
+   "r": 1.0,
+   "spots": 100,
+   "expected_caught": 144.7,
+   "share": 0.998,
+   "caught_at_90pct": 145
+  },
+  {
+   "channel": "NYC C",
+   "base_ppm": 100,
+   "samples": 145,
+   "r": 1.0,
+   "spots": 200,
+   "expected_caught": 145.0,
+   "share": 1.0,
+   "caught_at_90pct": 145
+  },
+  {
+   "channel": "NYC C",
+   "base_ppm": 100,
+   "samples": 145,
+   "r": 0.3,
+   "spots": 1,
+   "expected_caught": 28.8,
+   "share": 0.199,
+   "caught_at_90pct": 3
+  },
+  {
+   "channel": "NYC C",
+   "base_ppm": 100,
+   "samples": 145,
+   "r": 0.3,
+   "spots": 5,
+   "expected_caught": 66.6,
+   "share": 0.459,
+   "caught_at_90pct": 26
+  },
+  {
+   "channel": "NYC C",
+   "base_ppm": 100,
+   "samples": 145,
+   "r": 0.3,
+   "spots": 10,
+   "expected_caught": 86.9,
+   "share": 0.599,
+   "caught_at_90pct": 40
+  },
+  {
+   "channel": "NYC C",
+   "base_ppm": 100,
+   "samples": 145,
+   "r": 0.3,
+   "spots": 25,
+   "expected_caught": 112.4,
+   "share": 0.775,
+   "caught_at_90pct": 72
+  },
+  {
+   "channel": "NYC C",
+   "base_ppm": 100,
+   "samples": 145,
+   "r": 0.3,
+   "spots": 50,
+   "expected_caught": 127.6,
+   "share": 0.88,
+   "caught_at_90pct": 102
+  },
+  {
+   "channel": "NYC C",
+   "base_ppm": 100,
+   "samples": 145,
+   "r": 0.3,
+   "spots": 100,
+   "expected_caught": 138.0,
+   "share": 0.952,
+   "caught_at_90pct": 117
+  },
+  {
+   "channel": "NYC C",
+   "base_ppm": 100,
+   "samples": 145,
+   "r": 0.3,
+   "spots": 200,
+   "expected_caught": 143.4,
+   "share": 0.989,
+   "caught_at_90pct": 139
+  },
+  {
+   "channel": "NYC C",
+   "base_ppm": 100,
+   "samples": 145,
+   "r": 2.0,
+   "spots": 1,
+   "expected_caught": 45.6,
+   "share": 0.314,
+   "caught_at_90pct": 24
+  },
+  {
+   "channel": "NYC C",
+   "base_ppm": 100,
+   "samples": 145,
+   "r": 2.0,
+   "spots": 5,
+   "expected_caught": 76.5,
+   "share": 0.528,
+   "caught_at_90pct": 50
+  },
+  {
+   "channel": "NYC C",
+   "base_ppm": 100,
+   "samples": 145,
+   "r": 2.0,
+   "spots": 10,
+   "expected_caught": 90.1,
+   "share": 0.621,
+   "caught_at_90pct": 63
+  },
+  {
+   "channel": "NYC C",
+   "base_ppm": 100,
+   "samples": 145,
+   "r": 2.0,
+   "spots": 25,
+   "expected_caught": 106.3,
+   "share": 0.733,
+   "caught_at_90pct": 82
+  },
+  {
+   "channel": "NYC C",
+   "base_ppm": 100,
+   "samples": 145,
+   "r": 2.0,
+   "spots": 50,
+   "expected_caught": 116.7,
+   "share": 0.805,
+   "caught_at_90pct": 99
+  },
+  {
+   "channel": "NYC C",
+   "base_ppm": 100,
+   "samples": 145,
+   "r": 2.0,
+   "spots": 100,
+   "expected_caught": 125.8,
+   "share": 0.868,
+   "caught_at_90pct": 107
+  },
+  {
+   "channel": "NYC C",
+   "base_ppm": 100,
+   "samples": 145,
+   "r": 2.0,
+   "spots": 200,
+   "expected_caught": 134.0,
+   "share": 0.924,
+   "caught_at_90pct": 116
+  },
+  {
+   "channel": "NYC C",
+   "base_ppm": 100,
+   "samples": 145,
+   "r": 1000.0,
+   "spots": 1,
+   "expected_caught": 32.5,
+   "share": 0.224,
+   "caught_at_90pct": 32
+  },
+  {
+   "channel": "NYC C",
+   "base_ppm": 100,
+   "samples": 145,
+   "r": 1000.0,
+   "spots": 5,
+   "expected_caught": 33.0,
+   "share": 0.227,
+   "caught_at_90pct": 33
+  },
+  {
+   "channel": "NYC C",
+   "base_ppm": 100,
+   "samples": 145,
+   "r": 1000.0,
+   "spots": 10,
+   "expected_caught": 33.0,
+   "share": 0.228,
+   "caught_at_90pct": 33
+  },
+  {
+   "channel": "NYC C",
+   "base_ppm": 100,
+   "samples": 145,
+   "r": 1000.0,
+   "spots": 25,
+   "expected_caught": 33.0,
+   "share": 0.228,
+   "caught_at_90pct": 33
+  },
+  {
+   "channel": "NYC C",
+   "base_ppm": 100,
+   "samples": 145,
+   "r": 1000.0,
+   "spots": 50,
+   "expected_caught": 33.0,
+   "share": 0.228,
+   "caught_at_90pct": 33
+  },
+  {
+   "channel": "NYC C",
+   "base_ppm": 100,
+   "samples": 145,
+   "r": 1000.0,
+   "spots": 100,
+   "expected_caught": 33.1,
+   "share": 0.228,
+   "caught_at_90pct": 33
+  },
+  {
+   "channel": "NYC C",
+   "base_ppm": 100,
+   "samples": 145,
+   "r": 1000.0,
+   "spots": 200,
+   "expected_caught": 33.2,
+   "share": 0.229,
+   "caught_at_90pct": 33
+  },
+  {
+   "channel": "NYC S",
+   "base_ppm": 18,
+   "samples": 6,
+   "r": 1.0,
+   "spots": 1,
+   "expected_caught": 0.4,
+   "share": 0.06,
+   "caught_at_90pct": 0
+  },
+  {
+   "channel": "NYC S",
+   "base_ppm": 18,
+   "samples": 6,
+   "r": 1.0,
+   "spots": 5,
+   "expected_caught": 1.3,
+   "share": 0.222,
+   "caught_at_90pct": 0
+  },
+  {
+   "channel": "NYC S",
+   "base_ppm": 18,
+   "samples": 6,
+   "r": 1.0,
+   "spots": 10,
+   "expected_caught": 1.9,
+   "share": 0.323,
+   "caught_at_90pct": 0
+  },
+  {
+   "channel": "NYC S",
+   "base_ppm": 18,
+   "samples": 6,
+   "r": 1.0,
+   "spots": 25,
+   "expected_caught": 2.6,
+   "share": 0.432,
+   "caught_at_90pct": 2
+  },
+  {
+   "channel": "NYC S",
+   "base_ppm": 18,
+   "samples": 6,
+   "r": 1.0,
+   "spots": 50,
+   "expected_caught": 3.1,
+   "share": 0.521,
+   "caught_at_90pct": 2
+  },
+  {
+   "channel": "NYC S",
+   "base_ppm": 18,
+   "samples": 6,
+   "r": 1.0,
+   "spots": 100,
+   "expected_caught": 3.9,
+   "share": 0.656,
+   "caught_at_90pct": 2
+  },
+  {
+   "channel": "NYC S",
+   "base_ppm": 18,
+   "samples": 6,
+   "r": 1.0,
+   "spots": 200,
+   "expected_caught": 4.9,
+   "share": 0.823,
+   "caught_at_90pct": 2
+  },
+  {
+   "channel": "NYC S",
+   "base_ppm": 18,
+   "samples": 6,
+   "r": 0.3,
+   "spots": 1,
+   "expected_caught": 0.1,
+   "share": 0.019,
+   "caught_at_90pct": 0
+  },
+  {
+   "channel": "NYC S",
+   "base_ppm": 18,
+   "samples": 6,
+   "r": 0.3,
+   "spots": 5,
+   "expected_caught": 0.5,
+   "share": 0.087,
+   "caught_at_90pct": 0
+  },
+  {
+   "channel": "NYC S",
+   "base_ppm": 18,
+   "samples": 6,
+   "r": 0.3,
+   "spots": 10,
+   "expected_caught": 0.9,
+   "share": 0.155,
+   "caught_at_90pct": 0
+  },
+  {
+   "channel": "NYC S",
+   "base_ppm": 18,
+   "samples": 6,
+   "r": 0.3,
+   "spots": 25,
+   "expected_caught": 1.7,
+   "share": 0.282,
+   "caught_at_90pct": 0
+  },
+  {
+   "channel": "NYC S",
+   "base_ppm": 18,
+   "samples": 6,
+   "r": 0.3,
+   "spots": 50,
+   "expected_caught": 2.3,
+   "share": 0.375,
+   "caught_at_90pct": 2
+  },
+  {
+   "channel": "NYC S",
+   "base_ppm": 18,
+   "samples": 6,
+   "r": 0.3,
+   "spots": 100,
+   "expected_caught": 2.7,
+   "share": 0.452,
+   "caught_at_90pct": 2
+  },
+  {
+   "channel": "NYC S",
+   "base_ppm": 18,
+   "samples": 6,
+   "r": 0.3,
+   "spots": 200,
+   "expected_caught": 3.3,
+   "share": 0.552,
+   "caught_at_90pct": 2
+  },
+  {
+   "channel": "NYC S",
+   "base_ppm": 18,
+   "samples": 6,
+   "r": 2.0,
+   "spots": 1,
+   "expected_caught": 0.1,
+   "share": 0.018,
+   "caught_at_90pct": 0
+  },
+  {
+   "channel": "NYC S",
+   "base_ppm": 18,
+   "samples": 6,
+   "r": 2.0,
+   "spots": 5,
+   "expected_caught": 0.5,
+   "share": 0.08,
+   "caught_at_90pct": 0
+  },
+  {
+   "channel": "NYC S",
+   "base_ppm": 18,
+   "samples": 6,
+   "r": 2.0,
+   "spots": 10,
+   "expected_caught": 0.8,
+   "share": 0.141,
+   "caught_at_90pct": 0
+  },
+  {
+   "channel": "NYC S",
+   "base_ppm": 18,
+   "samples": 6,
+   "r": 2.0,
+   "spots": 25,
+   "expected_caught": 1.5,
+   "share": 0.25,
+   "caught_at_90pct": 0
+  },
+  {
+   "channel": "NYC S",
+   "base_ppm": 18,
+   "samples": 6,
+   "r": 2.0,
+   "spots": 50,
+   "expected_caught": 1.9,
+   "share": 0.314,
+   "caught_at_90pct": 2
+  },
+  {
+   "channel": "NYC S",
+   "base_ppm": 18,
+   "samples": 6,
+   "r": 2.0,
+   "spots": 100,
+   "expected_caught": 2.0,
+   "share": 0.338,
+   "caught_at_90pct": 2
+  },
+  {
+   "channel": "NYC S",
+   "base_ppm": 18,
+   "samples": 6,
+   "r": 2.0,
+   "spots": 200,
+   "expected_caught": 2.1,
+   "share": 0.345,
+   "caught_at_90pct": 2
+  },
+  {
+   "channel": "NYC S",
+   "base_ppm": 18,
+   "samples": 6,
+   "r": 1000.0,
+   "spots": 1,
+   "expected_caught": 0.0,
+   "share": 0.0,
+   "caught_at_90pct": 0
+  },
+  {
+   "channel": "NYC S",
+   "base_ppm": 18,
+   "samples": 6,
+   "r": 1000.0,
+   "spots": 5,
+   "expected_caught": 0.0,
+   "share": 0.0,
+   "caught_at_90pct": 0
+  },
+  {
+   "channel": "NYC S",
+   "base_ppm": 18,
+   "samples": 6,
+   "r": 1000.0,
+   "spots": 10,
+   "expected_caught": 0.0,
+   "share": 0.0,
+   "caught_at_90pct": 0
+  },
+  {
+   "channel": "NYC S",
+   "base_ppm": 18,
+   "samples": 6,
+   "r": 1000.0,
+   "spots": 25,
+   "expected_caught": 0.0,
+   "share": 0.0,
+   "caught_at_90pct": 0
+  },
+  {
+   "channel": "NYC S",
+   "base_ppm": 18,
+   "samples": 6,
+   "r": 1000.0,
+   "spots": 50,
+   "expected_caught": 0.0,
+   "share": 0.0,
+   "caught_at_90pct": 0
+  },
+  {
+   "channel": "NYC S",
+   "base_ppm": 18,
+   "samples": 6,
+   "r": 1000.0,
+   "spots": 100,
+   "expected_caught": 0.0,
+   "share": 0.0,
+   "caught_at_90pct": 0
+  },
+  {
+   "channel": "NYC S",
+   "base_ppm": 18,
+   "samples": 6,
+   "r": 1000.0,
+   "spots": 200,
+   "expected_caught": 0.0,
+   "share": 0.0,
+   "caught_at_90pct": 0
+  },
+  {
+   "channel": "NYC S",
+   "base_ppm": 100,
+   "samples": 2,
+   "r": 1.0,
+   "spots": 1,
+   "expected_caught": 0.3,
+   "share": 0.168,
+   "caught_at_90pct": 0
+  },
+  {
+   "channel": "NYC S",
+   "base_ppm": 100,
+   "samples": 2,
+   "r": 1.0,
+   "spots": 5,
+   "expected_caught": 1.2,
+   "share": 0.601,
+   "caught_at_90pct": 0
+  },
+  {
+   "channel": "NYC S",
+   "base_ppm": 100,
+   "samples": 2,
+   "r": 1.0,
+   "spots": 10,
+   "expected_caught": 1.7,
+   "share": 0.841,
+   "caught_at_90pct": 0
+  },
+  {
+   "channel": "NYC S",
+   "base_ppm": 100,
+   "samples": 2,
+   "r": 1.0,
+   "spots": 25,
+   "expected_caught": 2.0,
+   "share": 0.99,
+   "caught_at_90pct": 2
+  },
+  {
+   "channel": "NYC S",
+   "base_ppm": 100,
+   "samples": 2,
+   "r": 1.0,
+   "spots": 50,
+   "expected_caught": 2.0,
+   "share": 1.0,
+   "caught_at_90pct": 2
+  },
+  {
+   "channel": "NYC S",
+   "base_ppm": 100,
+   "samples": 2,
+   "r": 1.0,
+   "spots": 100,
+   "expected_caught": 2.0,
+   "share": 1.0,
+   "caught_at_90pct": 2
+  },
+  {
+   "channel": "NYC S",
+   "base_ppm": 100,
+   "samples": 2,
+   "r": 1.0,
+   "spots": 200,
+   "expected_caught": 2.0,
+   "share": 1.0,
+   "caught_at_90pct": 2
+  },
+  {
+   "channel": "NYC S",
+   "base_ppm": 100,
+   "samples": 2,
+   "r": 0.3,
+   "spots": 1,
+   "expected_caught": 0.1,
+   "share": 0.054,
+   "caught_at_90pct": 0
+  },
+  {
+   "channel": "NYC S",
+   "base_ppm": 100,
+   "samples": 2,
+   "r": 0.3,
+   "spots": 5,
+   "expected_caught": 0.5,
+   "share": 0.241,
+   "caught_at_90pct": 0
+  },
+  {
+   "channel": "NYC S",
+   "base_ppm": 100,
+   "samples": 2,
+   "r": 0.3,
+   "spots": 10,
+   "expected_caught": 0.8,
+   "share": 0.424,
+   "caught_at_90pct": 0
+  },
+  {
+   "channel": "NYC S",
+   "base_ppm": 100,
+   "samples": 2,
+   "r": 0.3,
+   "spots": 25,
+   "expected_caught": 1.5,
+   "share": 0.748,
+   "caught_at_90pct": 0
+  },
+  {
+   "channel": "NYC S",
+   "base_ppm": 100,
+   "samples": 2,
+   "r": 0.3,
+   "spots": 50,
+   "expected_caught": 1.9,
+   "share": 0.936,
+   "caught_at_90pct": 2
+  },
+  {
+   "channel": "NYC S",
+   "base_ppm": 100,
+   "samples": 2,
+   "r": 0.3,
+   "spots": 100,
+   "expected_caught": 2.0,
+   "share": 0.996,
+   "caught_at_90pct": 2
+  },
+  {
+   "channel": "NYC S",
+   "base_ppm": 100,
+   "samples": 2,
+   "r": 0.3,
+   "spots": 200,
+   "expected_caught": 2.0,
+   "share": 1.0,
+   "caught_at_90pct": 2
+  },
+  {
+   "channel": "NYC S",
+   "base_ppm": 100,
+   "samples": 2,
+   "r": 2.0,
+   "spots": 1,
+   "expected_caught": 0.1,
+   "share": 0.053,
+   "caught_at_90pct": 0
+  },
+  {
+   "channel": "NYC S",
+   "base_ppm": 100,
+   "samples": 2,
+   "r": 2.0,
+   "spots": 5,
+   "expected_caught": 0.5,
+   "share": 0.239,
+   "caught_at_90pct": 0
+  },
+  {
+   "channel": "NYC S",
+   "base_ppm": 100,
+   "samples": 2,
+   "r": 2.0,
+   "spots": 10,
+   "expected_caught": 0.8,
+   "share": 0.421,
+   "caught_at_90pct": 0
+  },
+  {
+   "channel": "NYC S",
+   "base_ppm": 100,
+   "samples": 2,
+   "r": 2.0,
+   "spots": 25,
+   "expected_caught": 1.5,
+   "share": 0.745,
+   "caught_at_90pct": 0
+  },
+  {
+   "channel": "NYC S",
+   "base_ppm": 100,
+   "samples": 2,
+   "r": 2.0,
+   "spots": 50,
+   "expected_caught": 1.9,
+   "share": 0.934,
+   "caught_at_90pct": 2
+  },
+  {
+   "channel": "NYC S",
+   "base_ppm": 100,
+   "samples": 2,
+   "r": 2.0,
+   "spots": 100,
+   "expected_caught": 2.0,
+   "share": 0.996,
+   "caught_at_90pct": 2
+  },
+  {
+   "channel": "NYC S",
+   "base_ppm": 100,
+   "samples": 2,
+   "r": 2.0,
+   "spots": 200,
+   "expected_caught": 2.0,
+   "share": 1.0,
+   "caught_at_90pct": 2
+  },
+  {
+   "channel": "NYC S",
+   "base_ppm": 100,
+   "samples": 2,
+   "r": 1000.0,
+   "spots": 1,
+   "expected_caught": 0.0,
+   "share": 0.0,
+   "caught_at_90pct": 0
+  },
+  {
+   "channel": "NYC S",
+   "base_ppm": 100,
+   "samples": 2,
+   "r": 1000.0,
+   "spots": 5,
+   "expected_caught": 0.0,
+   "share": 0.0,
+   "caught_at_90pct": 0
+  },
+  {
+   "channel": "NYC S",
+   "base_ppm": 100,
+   "samples": 2,
+   "r": 1000.0,
+   "spots": 10,
+   "expected_caught": 0.0,
+   "share": 0.0,
+   "caught_at_90pct": 0
+  },
+  {
+   "channel": "NYC S",
+   "base_ppm": 100,
+   "samples": 2,
+   "r": 1000.0,
+   "spots": 25,
+   "expected_caught": 0.0,
+   "share": 0.0,
+   "caught_at_90pct": 0
+  },
+  {
+   "channel": "NYC S",
+   "base_ppm": 100,
+   "samples": 2,
+   "r": 1000.0,
+   "spots": 50,
+   "expected_caught": 0.0,
+   "share": 0.0,
+   "caught_at_90pct": 0
+  },
+  {
+   "channel": "NYC S",
+   "base_ppm": 100,
+   "samples": 2,
+   "r": 1000.0,
+   "spots": 100,
+   "expected_caught": 0.0,
+   "share": 0.0,
+   "caught_at_90pct": 0
+  },
+  {
+   "channel": "NYC S",
+   "base_ppm": 100,
+   "samples": 2,
+   "r": 1000.0,
+   "spots": 200,
+   "expected_caught": 0.0,
+   "share": 0.0,
+   "caught_at_90pct": 0
+  },
+  {
+   "channel": "NYC all",
+   "base_ppm": 18,
+   "samples": 268,
+   "r": 1.0,
+   "spots": 1,
+   "expected_caught": 76.1,
+   "share": 0.284,
+   "caught_at_90pct": 28
+  },
+  {
+   "channel": "NYC all",
+   "base_ppm": 18,
+   "samples": 268,
+   "r": 1.0,
+   "spots": 5,
+   "expected_caught": 140.7,
+   "share": 0.525,
+   "caught_at_90pct": 79
+  },
+  {
+   "channel": "NYC all",
+   "base_ppm": 18,
+   "samples": 268,
+   "r": 1.0,
+   "spots": 10,
+   "expected_caught": 168.5,
+   "share": 0.629,
+   "caught_at_90pct": 112
+  },
+  {
+   "channel": "NYC all",
+   "base_ppm": 18,
+   "samples": 268,
+   "r": 1.0,
+   "spots": 25,
+   "expected_caught": 201.6,
+   "share": 0.752,
+   "caught_at_90pct": 152
+  },
+  {
+   "channel": "NYC all",
+   "base_ppm": 18,
+   "samples": 268,
+   "r": 1.0,
+   "spots": 50,
+   "expected_caught": 224.8,
+   "share": 0.839,
+   "caught_at_90pct": 180
+  },
+  {
+   "channel": "NYC all",
+   "base_ppm": 18,
+   "samples": 268,
+   "r": 1.0,
+   "spots": 100,
+   "expected_caught": 245.2,
+   "share": 0.915,
+   "caught_at_90pct": 200
+  },
+  {
+   "channel": "NYC all",
+   "base_ppm": 18,
+   "samples": 268,
+   "r": 1.0,
+   "spots": 200,
+   "expected_caught": 259.7,
+   "share": 0.969,
+   "caught_at_90pct": 237
+  },
+  {
+   "channel": "NYC all",
+   "base_ppm": 18,
+   "samples": 268,
+   "r": 0.3,
+   "spots": 1,
+   "expected_caught": 40.2,
+   "share": 0.15,
+   "caught_at_90pct": 4
+  },
+  {
+   "channel": "NYC all",
+   "base_ppm": 18,
+   "samples": 268,
+   "r": 0.3,
+   "spots": 5,
+   "expected_caught": 91.0,
+   "share": 0.34,
+   "caught_at_90pct": 36
+  },
+  {
+   "channel": "NYC all",
+   "base_ppm": 18,
+   "samples": 268,
+   "r": 0.3,
+   "spots": 10,
+   "expected_caught": 119.2,
+   "share": 0.445,
+   "caught_at_90pct": 55
+  },
+  {
+   "channel": "NYC all",
+   "base_ppm": 18,
+   "samples": 268,
+   "r": 0.3,
+   "spots": 25,
+   "expected_caught": 157.3,
+   "share": 0.587,
+   "caught_at_90pct": 98
+  },
+  {
+   "channel": "NYC all",
+   "base_ppm": 18,
+   "samples": 268,
+   "r": 0.3,
+   "spots": 50,
+   "expected_caught": 183.6,
+   "share": 0.685,
+   "caught_at_90pct": 138
+  },
+  {
+   "channel": "NYC all",
+   "base_ppm": 18,
+   "samples": 268,
+   "r": 0.3,
+   "spots": 100,
+   "expected_caught": 207.9,
+   "share": 0.776,
+   "caught_at_90pct": 157
+  },
+  {
+   "channel": "NYC all",
+   "base_ppm": 18,
+   "samples": 268,
+   "r": 0.3,
+   "spots": 200,
+   "expected_caught": 230.5,
+   "share": 0.86,
+   "caught_at_90pct": 183
+  },
+  {
+   "channel": "NYC all",
+   "base_ppm": 18,
+   "samples": 268,
+   "r": 2.0,
+   "spots": 1,
+   "expected_caught": 61.9,
+   "share": 0.231,
+   "caught_at_90pct": 33
+  },
+  {
+   "channel": "NYC all",
+   "base_ppm": 18,
+   "samples": 268,
+   "r": 2.0,
+   "spots": 5,
+   "expected_caught": 102.6,
+   "share": 0.383,
+   "caught_at_90pct": 66
+  },
+  {
+   "channel": "NYC all",
+   "base_ppm": 18,
+   "samples": 268,
+   "r": 2.0,
+   "spots": 10,
+   "expected_caught": 120.9,
+   "share": 0.451,
+   "caught_at_90pct": 83
+  },
+  {
+   "channel": "NYC all",
+   "base_ppm": 18,
+   "samples": 268,
+   "r": 2.0,
+   "spots": 25,
+   "expected_caught": 143.2,
+   "share": 0.534,
+   "caught_at_90pct": 110
+  },
+  {
+   "channel": "NYC all",
+   "base_ppm": 18,
+   "samples": 268,
+   "r": 2.0,
+   "spots": 50,
+   "expected_caught": 157.7,
+   "share": 0.589,
+   "caught_at_90pct": 132
+  },
+  {
+   "channel": "NYC all",
+   "base_ppm": 18,
+   "samples": 268,
+   "r": 2.0,
+   "spots": 100,
+   "expected_caught": 170.8,
+   "share": 0.637,
+   "caught_at_90pct": 146
+  },
+  {
+   "channel": "NYC all",
+   "base_ppm": 18,
+   "samples": 268,
+   "r": 2.0,
+   "spots": 200,
+   "expected_caught": 183.8,
+   "share": 0.686,
+   "caught_at_90pct": 156
+  },
+  {
+   "channel": "NYC all",
+   "base_ppm": 18,
+   "samples": 268,
+   "r": 1000.0,
+   "spots": 1,
+   "expected_caught": 46.3,
+   "share": 0.173,
+   "caught_at_90pct": 45
+  },
+  {
+   "channel": "NYC all",
+   "base_ppm": 18,
+   "samples": 268,
+   "r": 1000.0,
+   "spots": 5,
+   "expected_caught": 47.0,
+   "share": 0.175,
+   "caught_at_90pct": 47
+  },
+  {
+   "channel": "NYC all",
+   "base_ppm": 18,
+   "samples": 268,
+   "r": 1000.0,
+   "spots": 10,
+   "expected_caught": 47.0,
+   "share": 0.175,
+   "caught_at_90pct": 47
+  },
+  {
+   "channel": "NYC all",
+   "base_ppm": 18,
+   "samples": 268,
+   "r": 1000.0,
+   "spots": 25,
+   "expected_caught": 47.0,
+   "share": 0.175,
+   "caught_at_90pct": 47
+  },
+  {
+   "channel": "NYC all",
+   "base_ppm": 18,
+   "samples": 268,
+   "r": 1000.0,
+   "spots": 50,
+   "expected_caught": 47.0,
+   "share": 0.176,
+   "caught_at_90pct": 47
+  },
+  {
+   "channel": "NYC all",
+   "base_ppm": 18,
+   "samples": 268,
+   "r": 1000.0,
+   "spots": 100,
+   "expected_caught": 47.1,
+   "share": 0.176,
+   "caught_at_90pct": 47
+  },
+  {
+   "channel": "NYC all",
+   "base_ppm": 18,
+   "samples": 268,
+   "r": 1000.0,
+   "spots": 200,
+   "expected_caught": 47.2,
+   "share": 0.176,
+   "caught_at_90pct": 47
+  },
+  {
+   "channel": "NYC all",
+   "base_ppm": 100,
+   "samples": 190,
+   "r": 1.0,
+   "spots": 1,
+   "expected_caught": 75.0,
+   "share": 0.395,
+   "caught_at_90pct": 28
+  },
+  {
+   "channel": "NYC all",
+   "base_ppm": 100,
+   "samples": 190,
+   "r": 1.0,
+   "spots": 5,
+   "expected_caught": 135.4,
+   "share": 0.713,
+   "caught_at_90pct": 79
+  },
+  {
+   "channel": "NYC all",
+   "base_ppm": 100,
+   "samples": 190,
+   "r": 1.0,
+   "spots": 10,
+   "expected_caught": 158.3,
+   "share": 0.833,
+   "caught_at_90pct": 112
+  },
+  {
+   "channel": "NYC all",
+   "base_ppm": 100,
+   "samples": 190,
+   "r": 1.0,
+   "spots": 25,
+   "expected_caught": 179.0,
+   "share": 0.942,
+   "caught_at_90pct": 152
+  },
+  {
+   "channel": "NYC all",
+   "base_ppm": 100,
+   "samples": 190,
+   "r": 1.0,
+   "spots": 50,
+   "expected_caught": 187.0,
+   "share": 0.984,
+   "caught_at_90pct": 180
+  },
+  {
+   "channel": "NYC all",
+   "base_ppm": 100,
+   "samples": 190,
+   "r": 1.0,
+   "spots": 100,
+   "expected_caught": 189.6,
+   "share": 0.998,
+   "caught_at_90pct": 190
+  },
+  {
+   "channel": "NYC all",
+   "base_ppm": 100,
+   "samples": 190,
+   "r": 1.0,
+   "spots": 200,
+   "expected_caught": 190.0,
+   "share": 1.0,
+   "caught_at_90pct": 190
+  },
+  {
+   "channel": "NYC all",
+   "base_ppm": 100,
+   "samples": 190,
+   "r": 0.3,
+   "spots": 1,
+   "expected_caught": 39.8,
+   "share": 0.21,
+   "caught_at_90pct": 4
+  },
+  {
+   "channel": "NYC all",
+   "base_ppm": 100,
+   "samples": 190,
+   "r": 0.3,
+   "spots": 5,
+   "expected_caught": 89.4,
+   "share": 0.471,
+   "caught_at_90pct": 36
+  },
+  {
+   "channel": "NYC all",
+   "base_ppm": 100,
+   "samples": 190,
+   "r": 0.3,
+   "spots": 10,
+   "expected_caught": 116.0,
+   "share": 0.61,
+   "caught_at_90pct": 55
+  },
+  {
+   "channel": "NYC all",
+   "base_ppm": 100,
+   "samples": 190,
+   "r": 0.3,
+   "spots": 25,
+   "expected_caught": 149.5,
+   "share": 0.787,
+   "caught_at_90pct": 98
+  },
+  {
+   "channel": "NYC all",
+   "base_ppm": 100,
+   "samples": 190,
+   "r": 0.3,
+   "spots": 50,
+   "expected_caught": 168.9,
+   "share": 0.889,
+   "caught_at_90pct": 138
+  },
+  {
+   "channel": "NYC all",
+   "base_ppm": 100,
+   "samples": 190,
+   "r": 0.3,
+   "spots": 100,
+   "expected_caught": 181.7,
+   "share": 0.956,
+   "caught_at_90pct": 157
+  },
+  {
+   "channel": "NYC all",
+   "base_ppm": 100,
+   "samples": 190,
+   "r": 0.3,
+   "spots": 200,
+   "expected_caught": 188.1,
+   "share": 0.99,
+   "caught_at_90pct": 183
+  },
+  {
+   "channel": "NYC all",
+   "base_ppm": 100,
+   "samples": 190,
+   "r": 2.0,
+   "spots": 1,
+   "expected_caught": 61.9,
+   "share": 0.326,
+   "caught_at_90pct": 33
+  },
+  {
+   "channel": "NYC all",
+   "base_ppm": 100,
+   "samples": 190,
+   "r": 2.0,
+   "spots": 5,
+   "expected_caught": 102.4,
+   "share": 0.539,
+   "caught_at_90pct": 66
+  },
+  {
+   "channel": "NYC all",
+   "base_ppm": 100,
+   "samples": 190,
+   "r": 2.0,
+   "spots": 10,
+   "expected_caught": 120.6,
+   "share": 0.635,
+   "caught_at_90pct": 83
+  },
+  {
+   "channel": "NYC all",
+   "base_ppm": 100,
+   "samples": 190,
+   "r": 2.0,
+   "spots": 25,
+   "expected_caught": 142.3,
+   "share": 0.749,
+   "caught_at_90pct": 110
+  },
+  {
+   "channel": "NYC all",
+   "base_ppm": 100,
+   "samples": 190,
+   "r": 2.0,
+   "spots": 50,
+   "expected_caught": 155.9,
+   "share": 0.821,
+   "caught_at_90pct": 132
+  },
+  {
+   "channel": "NYC all",
+   "base_ppm": 100,
+   "samples": 190,
+   "r": 2.0,
+   "spots": 100,
+   "expected_caught": 167.2,
+   "share": 0.88,
+   "caught_at_90pct": 146
+  },
+  {
+   "channel": "NYC all",
+   "base_ppm": 100,
+   "samples": 190,
+   "r": 2.0,
+   "spots": 200,
+   "expected_caught": 176.9,
+   "share": 0.931,
+   "caught_at_90pct": 156
+  },
+  {
+   "channel": "NYC all",
+   "base_ppm": 100,
+   "samples": 190,
+   "r": 1000.0,
+   "spots": 1,
+   "expected_caught": 46.3,
+   "share": 0.244,
+   "caught_at_90pct": 45
+  },
+  {
+   "channel": "NYC all",
+   "base_ppm": 100,
+   "samples": 190,
+   "r": 1000.0,
+   "spots": 5,
+   "expected_caught": 47.0,
+   "share": 0.247,
+   "caught_at_90pct": 47
+  },
+  {
+   "channel": "NYC all",
+   "base_ppm": 100,
+   "samples": 190,
+   "r": 1000.0,
+   "spots": 10,
+   "expected_caught": 47.0,
+   "share": 0.247,
+   "caught_at_90pct": 47
+  },
+  {
+   "channel": "NYC all",
+   "base_ppm": 100,
+   "samples": 190,
+   "r": 1000.0,
+   "spots": 25,
+   "expected_caught": 47.0,
+   "share": 0.247,
+   "caught_at_90pct": 47
+  },
+  {
+   "channel": "NYC all",
+   "base_ppm": 100,
+   "samples": 190,
+   "r": 1000.0,
+   "spots": 50,
+   "expected_caught": 47.0,
+   "share": 0.248,
+   "caught_at_90pct": 47
+  },
+  {
+   "channel": "NYC all",
+   "base_ppm": 100,
+   "samples": 190,
+   "r": 1000.0,
+   "spots": 100,
+   "expected_caught": 47.1,
+   "share": 0.248,
+   "caught_at_90pct": 47
+  },
+  {
+   "channel": "NYC all",
+   "base_ppm": 100,
+   "samples": 190,
+   "r": 1000.0,
+   "spots": 200,
+   "expected_caught": 47.2,
+   "share": 0.248,
+   "caught_at_90pct": 47
+  }
+ ],
+ "monte_carlo": [
+  {
+   "x": 0.05,
+   "r": 1.0,
+   "formula": 0.04877,
+   "simulated": 0.04871,
+   "z": -0.13
+  },
+  {
+   "x": 0.2,
+   "r": 1.0,
+   "formula": 0.18127,
+   "simulated": 0.18146,
+   "z": 0.23
+  },
+  {
+   "x": 0.3,
+   "r": 0.3,
+   "formula": 0.08607,
+   "simulated": 0.08597,
+   "z": -0.15
+  },
+  {
+   "x": 0.5,
+   "r": 2.0,
+   "formula": 0.26424,
+   "simulated": 0.26449,
+   "z": 0.26
+  },
+  {
+   "x": 1.0,
+   "r": 3.0,
+   "formula": 0.57681,
+   "simulated": 0.57696,
+   "z": 0.14
+  }
+ ]
+}
