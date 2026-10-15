@@ -142,7 +142,7 @@ Limits: NYC chose which samples to test for chromium (61 of 3,575 spices), proba
 method (Raman, XRD) does. Natural chromium can matter below about 18 ppm lead, so those pairs are left out. Pairing
 by name and date was checked by hand for every row above.
 
-### Georgia: did its crackdown reach New York homes? (new)
+### Georgia: did its crackdown reach New York homes?
 
 Georgian blends are 35 of NYC's 46 spices above the Raman limit. Georgia's food-safety authority has paid closer
 attention to lead in spices since 2018, and Forsyth et al. (2024) measured the result inside Georgia: across 765
@@ -168,12 +168,76 @@ from Georgia into New York homes where someone had high blood lead.
   methods still catch heavily laced spices, and the Georgian change is not just an artifact of testing.
 
 What it does not show: NYC's case spices from other countries also fell at 100 ppm or more (5.7% to 0.9%), so part
-of the change may be in what NYC samples, and this data alone cannot prove a Georgia-only effect. Four
-investigations is a small number, and a collection date stands in for one household visit. It agrees with Forsyth et
-al.'s in-country result. We found no earlier check of that result from a destination country's lab data.
+of the change may be in what NYC samples, and this data alone cannot prove a Georgia-only effect. Almost half of the
+earlier hot "elsewhere" samples (43 of 88) were bought in Bangladesh, which had its own crackdown (next section);
+without Bangladesh the rest fell from 45 of 1,184 (3.8%) to 11 of 1,129 (1.0%). Four investigations is a small
+number, and a collection date stands in for one household visit. It agrees with Forsyth et al.'s in-country result.
+We found no earlier check of that result from a destination country's lab data.
 
 These counts were read from NYC's API on 2026-10-15 (SoQL, purchase_country = GEORGIA). `nyc_spice_lead.py` 0.3.0
 recomputes them from the raw rows (`georgia_trend` in its summary), and its outputs go in `data/` after the run.
+
+### Bangladesh: the same check for turmeric (new)
+
+Bangladesh cracked down on lead chromate in turmeric after Forsyth et al. (2019) traced it to polishing mills.
+Forsyth et al. (2023) describe the campaign (2017-2021): news coverage of the findings, notices and meetings for
+consumers and traders, and enforcement by the Bangladesh Food Safety Authority with a rapid lead test. At the
+country's largest turmeric wholesale market, samples with detectable lead fell from 47% in 2019 to 0% in 2021
+(n = 631). NYC's case investigations again give a check from outside: turmeric that families brought from Bangladesh
+into New York homes where someone had high blood lead.
+
+| NYC case-investigation turmeric bought in Bangladesh (codes C and A) | samples | >= 100 ppm lead | highest | investigations (collection dates) | ... with a sample >= 100 ppm |
+|---|---|---|---|---|---|
+| 2011-2018 | 47 | 29 (62%) | 1,300 ppm | 44 | 29 (66%) |
+| 2019-2020 | 55 | 8 (15%) | 730 ppm | 53 | 8 (15%) |
+| 2021 | 8 | 1 | 150 ppm (July) | 8 | 1 |
+| 2022-2025 | 30 | **0** | **37 ppm** | 30 | **0** |
+
+Turmeric is matched by name (turmeric, holud, halud, haldi). By year, samples at >= 100 ppm were 4/8 (2011), 3/3,
+2/3, 1/4, 8/9, 5/8, 5/6, 1/6 (2018), 6/50 (2019), 2/5 (2020), 1/8 (2021), then 0/11, 0/9, 0/4 and 0/6 (2022-2025).
+18 of the 30 samples from 2022-2025 had no detectable lead.
+
+- The last four hot samples were collected in December 2019 (730 ppm), January 2020 (160), November 2020 (220) and
+  July 2021 (150). That trails the market data in Bangladesh by months, as expected for turmeric that families
+  bought before the crackdown and carried with them.
+- Counting all spices bought in Bangladesh, not only turmeric: 43 of 347 case samples were at >= 100 ppm in
+  2011-2020 and 1 of 160 from 2021 on. 38 of the 44 hot ones were turmeric. The other 6 (cinnamon, cumin, curry
+  powder, masala, chili powder, a spice mix) were all collected in 2013-2017. NYC's chromium tests put five of them
+  (all but the masala, which had no chromium test) near 1:1 Pb:Cr (section 2).
+- None of it was within a powder Raman screen's reach. The highest, 1,300 ppm lead, is about 0.2% w/w lead
+  chromate, under half the 0.5% limit. Every hot Bangladeshi spice in NYC's case files needed the 0.025-0.05% screen
+  of section 3.
+
+How sure is the fall? It depends on what it is compared with.
+
+- **Against NYC's whole earlier record** (97 investigations in 2011-2020, 37 with a hot sample): if the 30 later
+  investigations had been drawn at random from all 127, the chance that none found one is below 1 in 100,000
+  (hypergeometric).
+- **Against the drop everywhere else.** Case spices from countries other than Bangladesh and Georgia also fell, from
+  31 of 596 samples at >= 100 ppm (5.2%) in 2011-2018 to 10 of 1,011 (1.0%) in 2022-2025. If Bangladeshi turmeric
+  had fallen only as much, about 12% of the 30 later samples would still be hot, and the chance of none is about 2%.
+- **Against 2019-2020 only.** In 2019 NYC tested far more case spices than in any earlier year (657 from countries
+  other than Georgia, against 51-137 a year in 2011-2018), and the hot share fell that year for Bangladeshi and other
+  spices alike. Taking 2019-2020 as the baseline (8 of 53 investigations hot), the chance of 0 of 30 later is 2.2% by
+  investigation. After scaling by the other countries' fall over the same years (14 of 588 samples, 2.4%, to 1.0%),
+  it is about 16%.
+
+So NYC's data shows the Bangladeshi turmeric that reached New York homes changing from mostly heavily leaded
+(2011-2018) to none above 37 ppm (2022-2025), on the timing of the campaign. On its own it cannot separate a
+Bangladesh effect from NYC's broader sampling since 2019 and the general fall in hot case spices. It agrees with
+Forsyth et al.'s in-country result. We found no earlier check of that result from a destination country's lab data,
+and with Georgia's it is the second national spice crackdown visible in the same city's case files.
+
+These counts were read from NYC's API on 2026-10-15 (SoQL: product_type 'Food-Spice', metal 'Lead', units 'ppm',
+investigation_type C or A, purchase_country 'BANGLADESH', hot = `concentration >= 100`; a collection date stands in
+for one investigation). Anyone can rerun them, for example:
+
+```
+https://data.cityofnewyork.us/resource/da9u-wz3r.json?$select=date_extract_y(collection_date) as y,count(*) as n,sum(case(concentration>=100,1,true,0)) as hot,max(concentration) as mx&$where=product_type='Food-Spice' AND metal='Lead' AND units='ppm' AND purchase_country='BANGLADESH' AND investigation_type in('C','A')&$group=y&$order=y
+```
+
+For turmeric only, add `AND lower(product_name) like '%25turmeric%25'` (%25 is a URL-encoded %). The next version of
+`nyc_spice_lead.py` will compute this check from the raw rows next to `georgia_trend`.
 
 ## 3. How low must a lead chromate screen reach? (new in 0.3.0)
 
@@ -307,6 +371,8 @@ then writes `lod_curve.json`, `lod_curve.md` and `lod_curve.csv`.
   Environ Sci Technol (2022). doi:10.1021/acs.est.2c03241
 - Forsyth et al. Turmeric means "yellow" in Bengali: lead chromate pigments added to turmeric threaten public health
   across Bangladesh. Environ Res 179:108722 (2019).
+- Forsyth, Baker, Nurunnahar et al. Food safety policy enforcement and associated actions reduce lead chromate
+  adulteration in turmeric across Bangladesh. Environ Res 232:116328 (2023). doi:10.1016/j.envres.2023.116328
 - Forsyth et al. Evidence of turmeric adulteration with lead chromate across South Asia. Sci Total Environ 949:175003 (2024).
 - Forsyth et al. Reductions in spice lead levels in the Republic of Georgia: 2020-2022. Environ Res 250:118504 (2024).
 - Kubachka, Witkowski et al. (FDA). Detection of lead (II) chromate in cinnamon. doi:10.1177/27551857261425269
@@ -315,4 +381,4 @@ then writes `lod_curve.json`, `lod_curve.md` and `lod_curve.csv`.
 - CFIA, Lead chromates in spices, April 1, 2019 to March 31, 2021.
 - Forsyth et al. npj Sci Food (2026).
 
-Contact: MV2, Munim, Inc. - munimversion2@gmail.com
+Contact: MV2, Munim, Inc. - mv2@munimtech.com
