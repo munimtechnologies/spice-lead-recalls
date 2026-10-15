@@ -9,6 +9,9 @@ sources:
 3. **Public Health - Seattle & King County lab results** for spices from community testing events and case
    investigations, 2019-2026, used with NYC's to ask how low a screen must reach (`lod_curve.py`, new in 0.3.0).
 
+Section 4 adds a sampling model (`spot_sampling.py`, new): how many small Raman spots a screen needs when the pigment
+sits in grains, applied to the same lab data.
+
 By MV2 of Munim, Inc. Code Apache-2.0; derived data CC BY 4.0. openFDA data are public domain (CC0). NYC data:
 NYC Open Data, NYC Department of Health and Mental Hygiene (DOHMH). King County data: King County Open Data, Public
 Health - Seattle & King County. This analysis is not endorsed by either agency.
@@ -150,32 +153,48 @@ bazaar samples from 29 cities in three rounds, the highest lead fell from over 1
 the last round of 2022. NYC's case investigations give a check from outside the country: spices that families carried
 from Georgia into New York homes where someone had high blood lead.
 
+> **Correction (2026-10-15).** The first version of this check counted only spices whose purchase country NYC
+> recorded as Georgia, and said none since 2021 reached 100 ppm. That was wrong. Since 2023 NYC leaves the purchase
+> country blank ("UNKNOWN OR NOT STATED") for about half of its case spices (see "Where the hot spices come from
+> now" below). One June 2024 investigation with no recorded country held a "Georgian chilli powder" at
+> **12,700 ppm** lead and two "utskho suneli / yellow flower" samples at 146 and 1,010 ppm. The earlier text also
+> gave that 12,700 ppm sample as proof that spices from *other* countries still arrived hot. The table below now
+> counts spices bought in Georgia **plus spices with a Georgian name and no recorded purchase country**.
+
 | NYC case-investigation spices (codes C and A) | collected | samples | >= 100 ppm lead | highest | investigations (collection dates) | ... with a spice >= 100 ppm |
 |---|---|---|---|---|---|---|
-| bought in Georgia | 2011-2020 | 262 | 88 (34%) | 78,000 ppm (2020) | 77 | 52 (68%) |
-| bought in Georgia | 2021-2024 | 16 | **0** | **3.5 ppm** | 4 | **0** |
-| bought anywhere else | 2011-2020 | 1,531 | 88 (5.7%) | 21,000 ppm | | |
-| bought anywhere else | 2021-2025 | 1,289 | 12 (0.9%) | 12,700 ppm (2024) | | |
+| Georgian (bought there, or Georgian name, country not recorded) | 2011-2020 | 269 | 90 (33%) | 78,000 ppm (2020) | 78 | 53 (68%) |
+| Georgian (same rule) | 2021-2024 | 22 | **3** (all one visit) | 12,700 ppm (June 2024) | 6 | **1** |
+| everything else | 2011-2020 | 1,524 | 86 (5.6%) | 21,000 ppm | | |
+| everything else | 2021-2025 | 1,283 | 9 (0.7%) | 5,400 ppm (Morocco, 2024) | | |
 
-- 30 of the 262 earlier Georgian spices were at or above the Raman limit; none of the later 16 is. The last Georgian
-  spice above 100 ppm in NYC's data was collected in December 2020 (a kharcho suneli at 2,600 ppm and a "yellow
-  flower" at 890 ppm). Since then, 16 Georgian spices from 4 investigations (March 2021, February and December 2022,
-  June 2024) all tested at 3.5 ppm or less, including the marigold "yellow flower" (kviteli kvavili) that carried most
-  of the pigment before: 1.4 ppm in 2021 and not detected in 2024.
-- If the 4 later investigations had been drawn at random from all 81 Georgian ones, the chance that none found a
-  spice at 100 ppm or more is 1.4% (hypergeometric; 0.2% counted by sample).
-- Spices from other countries did not stop arriving hot: NYC still found 12,700 ppm in 2024. So NYC's lab and
-  methods still catch heavily laced spices, and the Georgian change is not just an artifact of testing.
+- Bought in Georgia (as NYC recorded it), the picture is as first reported: 16 spices from 4 investigations since
+  2021 (March 2021, February and December 2022, June 2024), all at 3.5 ppm or less, including the marigold "yellow
+  flower" (kviteli kvavili) that carried most of the pigment before: 1.4 ppm in 2021 and not detected in 2024.
+- But Georgian blends with no recorded origin did not all come clean. On 2024-06-24 one case investigation (NYC rows
+  8065-8068) found a Georgian chilli powder at 12,700 ppm (about 2% w/w lead chromate if all the lead is chromate,
+  four times the bench Raman limit) and an utskho suneli / yellow flower blend at 1,010 and 146 ppm (a third sample
+  7.3 ppm). Where these were bought is not recorded. A September 2024 visit (green ajika, plum sauce) found no
+  detectable lead.
+- The fall is still large: 53 of 78 earlier investigations found a Georgian spice at 100 ppm or more, against 1 of 6
+  since 2021. If the 6 later investigations had been drawn at random from all 84, the chance of 1 or fewer hot ones
+  is about 2% (hypergeometric). The pigment has not gone, though: the June 2024 Georgian chilli powder is the most
+  leaded case spice in NYC's data for 2021-2025.
+- The rule adds one earlier visit too: an April 2014 investigation (code A) with seven Georgian-named spices and no
+  recorded country, including Svanetian salt at 4,400 ppm and dry ajika at 3,400 ppm.
 
-What it does not show: NYC's case spices from other countries also fell at 100 ppm or more (5.7% to 0.9%), so part
+What it does not show: NYC's case spices from other countries also fell at 100 ppm or more (5.6% to 0.7%), so part
 of the change may be in what NYC samples, and this data alone cannot prove a Georgia-only effect. Almost half of the
-earlier hot "elsewhere" samples (43 of 88) were bought in Bangladesh, which had its own crackdown (next section);
-without Bangladesh the rest fell from 45 of 1,184 (3.8%) to 11 of 1,129 (1.0%). Four investigations is a small
-number, and a collection date stands in for one household visit. It agrees with Forsyth et al.'s in-country result.
-We found no earlier check of that result from a destination country's lab data.
+earlier hot "everything else" samples (43 of 86) were bought in Bangladesh, which had its own crackdown (next
+section); without Bangladesh the rest fell from 43 of 1,177 (3.7%) to 8 of 1,123 (0.7%). Six investigations is a
+small number, and a collection date stands in for one household visit. Georgian names were matched by hand-checked
+words (suneli, khmeli, utskho/ucxo, svanuri/svan, marili, kvavili/yvavili, yellow flower, ajika/adjika, kharcho,
+zaprana, tkemali, "Georgian"); a Georgian spice with a generic name and no recorded country is still missed. The
+result agrees with Forsyth et al.'s in-country fall, with one heavily laced exception in 2024. We found no earlier
+check of that result from a destination country's lab data.
 
-These counts were read from NYC's API on 2026-10-15 (SoQL, purchase_country = GEORGIA). `nyc_spice_lead.py` 0.3.0
-recomputes them from the raw rows (`georgia_trend` in its summary), and its outputs go in `data/` after the run.
+These counts were read from NYC's API on 2026-10-15 (SoQL). `nyc_spice_lead.py` 0.3.0 (`georgia_trend`, not yet
+published) counts by recorded purchase country only; the next version will add the name rule.
 
 ### Bangladesh: the same check for turmeric (new)
 
@@ -190,12 +209,18 @@ into New York homes where someone had high blood lead.
 |---|---|---|---|---|---|
 | 2011-2018 | 47 | 29 (62%) | 1,300 ppm | 44 | 29 (66%) |
 | 2019-2020 | 55 | 8 (15%) | 730 ppm | 53 | 8 (15%) |
-| 2021 | 8 | 1 | 150 ppm (July) | 8 | 1 |
-| 2022-2025 | 30 | **0** | **37 ppm** | 30 | **0** |
+| 2021 | 9 | 1 | 150 ppm (July) | 9 | 1 |
+| 2022-2025 | 38 | **0** | **37 ppm** | 38 | **0** |
 
-Turmeric is matched by name (turmeric, holud, halud, haldi). By year, samples at >= 100 ppm were 4/8 (2011), 3/3,
-2/3, 1/4, 8/9, 5/8, 5/6, 1/6 (2018), 6/50 (2019), 2/5 (2020), 1/8 (2021), then 0/11, 0/9, 0/4 and 0/6 (2022-2025).
-18 of the 30 samples from 2022-2025 had no detectable lead.
+Turmeric is matched by name (turmeric, holud, halud, haldi, and NYC's misspellings "tumeric" and "turmeic"). By
+year, samples at >= 100 ppm were 4/8 (2011), 3/3, 2/3, 1/4, 8/9, 5/8, 5/6, 1/6 (2018), 6/50 (2019), 2/5 (2020),
+1/9 (2021), then 0/12, 0/11, 0/6 and 0/9 (2022-2025). 23 of the 38 samples from 2022-2025 had no detectable lead.
+
+> **Correction (2026-10-15).** The first version matched only the spelling "turmeric" and missed 9 rows that NYC
+> spells "tumeric" or "turmeic" (1 in 2021, 8 in 2022-2025, all below 100 ppm, highest 14 ppm). It reported 1 of 8
+> for 2021 and 0 of 30 for 2022-2025; the table now has 1 of 9 and 0 of 38. The comparisons below are updated, and
+> so is the other-countries baseline, which had counted Georgian-named spices with no recorded country as
+> "other" (Georgia section above).
 
 - The last four hot samples were collected in December 2019 (730 ppm), January 2020 (160), November 2020 (220) and
   July 2021 (150). That trails the market data in Bangladesh by months, as expected for turmeric that families
@@ -210,23 +235,26 @@ Turmeric is matched by name (turmeric, holud, halud, haldi). By year, samples at
 
 How sure is the fall? It depends on what it is compared with.
 
-- **Against NYC's whole earlier record** (97 investigations in 2011-2020, 37 with a hot sample): if the 30 later
-  investigations had been drawn at random from all 127, the chance that none found one is below 1 in 100,000
+- **Against NYC's whole earlier record** (97 investigations in 2011-2020, 37 with a hot sample): if the 38 later
+  investigations had been drawn at random from all 135, the chance that none found one is below 1 in 100,000
   (hypergeometric).
-- **Against the drop everywhere else.** Case spices from countries other than Bangladesh and Georgia also fell, from
-  31 of 596 samples at >= 100 ppm (5.2%) in 2011-2018 to 10 of 1,011 (1.0%) in 2022-2025. If Bangladeshi turmeric
-  had fallen only as much, about 12% of the 30 later samples would still be hot, and the chance of none is about 2%.
+- **Against the drop everywhere else.** Case spices from countries other than Bangladesh and Georgia (Georgian-named
+  spices with no recorded country counted as Georgian) also fell, from 29 of 589 samples at >= 100 ppm (4.9%) in
+  2011-2018 to 7 of 1,005 (0.7%) in 2022-2025. If Bangladeshi turmeric had fallen only as much, about 9% of the 38
+  later samples would still be hot, and the chance of none is about 3%.
 - **Against 2019-2020 only.** In 2019 NYC tested far more case spices than in any earlier year (657 from countries
   other than Georgia, against 51-137 a year in 2011-2018), and the hot share fell that year for Bangladeshi and other
-  spices alike. Taking 2019-2020 as the baseline (8 of 53 investigations hot), the chance of 0 of 30 later is 2.2% by
-  investigation. After scaling by the other countries' fall over the same years (14 of 588 samples, 2.4%, to 1.0%),
-  it is about 16%.
+  spices alike. Taking 2019-2020 as the baseline (8 of 53 investigations hot), the chance of 0 of 38 later is about
+  1% by investigation. After scaling by the other countries' fall over the same years (14 of 588 samples, 2.4%, to
+  0.7%), it is about 18%.
 
 So NYC's data shows the Bangladeshi turmeric that reached New York homes changing from mostly heavily leaded
 (2011-2018) to none above 37 ppm (2022-2025), on the timing of the campaign. On its own it cannot separate a
-Bangladesh effect from NYC's broader sampling since 2019 and the general fall in hot case spices. It agrees with
-Forsyth et al.'s in-country result. We found no earlier check of that result from a destination country's lab data,
-and with Georgia's it is the second national spice crackdown visible in the same city's case files.
+Bangladesh effect from NYC's broader sampling since 2019 and the general fall in hot case spices. Two hot turmeric
+samples since 2021 have no recorded purchase country (1,200 ppm in April 2021, 1,500 ppm in September 2023), so
+some Bangladeshi turmeric may sit outside the count. It agrees with Forsyth et al.'s in-country result. We found no
+earlier check of that result from a destination country's lab data, and with Georgia's it is the second national
+spice crackdown visible in the same city's case files.
 
 These counts were read from NYC's API on 2026-10-15 (SoQL: product_type 'Food-Spice', metal 'Lead', units 'ppm',
 investigation_type C or A, purchase_country 'BANGLADESH', hot = `concentration >= 100`; a collection date stands in
@@ -236,8 +264,49 @@ for one investigation). Anyone can rerun them, for example:
 https://data.cityofnewyork.us/resource/da9u-wz3r.json?$select=date_extract_y(collection_date) as y,count(*) as n,sum(case(concentration>=100,1,true,0)) as hot,max(concentration) as mx&$where=product_type='Food-Spice' AND metal='Lead' AND units='ppm' AND purchase_country='BANGLADESH' AND investigation_type in('C','A')&$group=y&$order=y
 ```
 
-For turmeric only, add `AND lower(product_name) like '%25turmeric%25'` (%25 is a URL-encoded %). The next version of
-`nyc_spice_lead.py` will compute this check from the raw rows next to `georgia_trend`.
+For turmeric only, add `AND (lower(product_name) like '%25turmeric%25' OR lower(product_name) like '%25tumeric%25'
+OR lower(product_name) like '%25turmeic%25')` (%25 is a URL-encoded %). The next version of `nyc_spice_lead.py` will
+compute this check from the raw rows next to `georgia_trend`.
+
+### Where the hot spices come from now (new)
+
+Two things changed in NYC's case files after 2020, and both matter for anyone who uses purchase country to target
+screening.
+
+**The purchase country is now often blank.** Among NYC's case-investigation spice lead tests (codes C and A), the
+share with purchase country "UNKNOWN OR NOT STATED" was 111 of 1,793 (6%) in 2011-2020. It was 16 of 153 in 2021,
+34 of 200 in 2022, then **226 of 383 (59%) in 2023**, 153 of 338 (45%) in 2024 and 75 of 231 (32%) in 2025. Half
+of the hot case spices since 2021 (6 of 12 at >= 100 ppm) have no recorded country.
+
+**The hot spices since 2021 (all 12 at >= 100 ppm lead, codes C and A):**
+
+| collected | spice (NYC's name) | recorded purchase country | lead ppm |
+|---|---|---|---|
+| 2021-04 | Turmeric powder | not stated | 1,200 |
+| 2021-07 | Turmeric | Bangladesh | 150 |
+| 2022-11 | Mixed Spices | Pakistan | 300 |
+| 2023-08 | Tumeric | India | 1,800 |
+| 2023-09 | Tumeric | not stated | 1,500 |
+| 2023-10 | Curry | not stated | 530 |
+| 2024-03 | Turmeric | India | 2,400 |
+| 2024-06 | Georgian chilli powder | not stated | 12,700 |
+| 2024-06 | Utskho suneli / yellow flower (2 samples) | not stated | 1,010 and 146 |
+| 2024-10 | All purpose seasoning | Morocco | 5,400 |
+| 2025-12 | Red Chili Powder | Pakistan | 182 |
+
+- **Turmeric is still the most common hot spice** (5 of 12), but the recorded origin has moved: the two with a
+  recorded country since 2022 were bought in India, not Bangladesh.
+- **India shows no fall.** Case spices bought in India were at >= 100 ppm in 4 of 144 samples (2.8%, highest 2,000
+  ppm) in 2011-2020 and 2 of 78 (2.6%, highest 2,400 ppm) in 2021-2025, while Georgia, Bangladesh and Pakistan (10
+  of 65 to 2 of 46) fell. The numbers are small, but they fit King County's two hot case spices, both home-made from
+  India (2,800 ppm turmeric in 2025, 620 ppm spice mix in 2026, section 3), and Forsyth et al.'s finding of lead
+  chromate in turmeric across South Asia (2024).
+- **Two of the 12 are above the bench Raman limit** (12,700 and 5,400 ppm); the other ten (146-2,400 ppm) need the
+  0.025-0.05% screen of section 3.
+
+Read from NYC's API on 2026-10-15 (SoQL: product_type 'Food-Spice', metal 'Lead', units 'ppm', investigation_type
+C or A, grouped by purchase_country and year; the 12 hot rows are NYC rows 5478, 5560, 6539, 7159, 7217, 7392,
+7748, 8065, 8066, 8067, 8335 and 9486).
 
 ## 3. How low must a lead chromate screen reach? (new in 0.3.0)
 
@@ -302,6 +371,83 @@ chromate screen sees it at any limit. Case samples are chosen because someone wa
 heavy adulteration. The 0.5% limit is for bench FT-Raman on ground turmeric (Erasmus et al. 2021); other devices,
 lasers (Blaise uses 808 nm) and spices will differ.
 
+## 4. Many small spots instead of one big reading (new)
+
+Section 3 asks for a screen about 20 times more sensitive than bench powder Raman. There may be a way to get there
+without a better instrument. A limit like 0.5% w/w applies to the powder inside the probed volume. If the pigment
+sits in discrete grains instead of being spread evenly, a small probe that happens to hold one grain sees a local
+fraction far above the bulk one. `spot_sampling.py` works out how many random spots that takes.
+
+**Model.** Pigment grains of one size, placed at random. The instrument flags a spot when lead chromate makes up at
+least L0 = 0.5% of the probed powder. A probe holding powder mass m therefore needs ceil(m L0 / g) grains, where g
+is one grain's mass, and the number of grains it holds is Poisson with mean c m / g at bulk pigment fraction c.
+
+**Result.** The best probe is the one in which a single grain just reaches the limit (m = g / L0). One spot is then
+positive with probability 1 - exp(-c / L0), so
+
+    N = ln(10) x L0 / c   random spots catch a sample with 90% probability,
+
+whatever the grain size. Only the size of the matched probe depends on the grain: a powder cube about 11 grain
+diameters on a side (lead chromate 6.12 g/cm3, loose powder taken as 0.5 g/cm3).
+
+| lead in the spice | % w/w PbCrO4 | matched random spots for a 90% catch | one bulk reading |
+|---|---|---|---|
+| 3,206 ppm | 0.5% | 3 | at its limit |
+| 1,603 ppm | 0.25% | 5 | no |
+| 641 ppm | 0.1% | 12 | no |
+| 321 ppm | 0.05% | 23 | no |
+| 160 ppm | 0.025% | 47 | no |
+| 100 ppm | 0.016% | 74 | no |
+
+| pigment grain diameter | 1 um | 5 um | 10 um | 20 um | 50 um |
+|---|---|---|---|---|---|
+| matched probe (edge of the powder cube) | 11 um | 54 um | 109 um | 217 um | 543 um |
+
+**The probe size matters more than the spot count.** At 100 ppm lead, a probe a third of the matched size needs
+about 250 spots. A probe twice the matched size needs two grains at once, and about 1,230 spots. A probe ten times
+the matched size needs over a trillion, and a bulk reading never fires.
+
+### Applied to NYC's case files
+
+`spot_sampling.py` runs the model on every NYC and King County spice sample (the same downloads as section 3),
+assuming all the lead is lead chromate. For NYC's 190 spice samples with at least 100 ppm lead, the expected share
+caught:
+
+| probe | 1 spot | 10 spots | 25 spots | 50 spots | 100 spots |
+|---|---|---|---|---|---|
+| matched to the grain | 40% | 83% | 94% | **98%** | 99.8% |
+| a third of the matched size | 21% | 61% | 79% | 89% | 96% |
+| twice the matched size | 33% | 64% | 75% | 82% | 88% |
+| one bulk reading (more readings add nothing) | 24% | 25% | 25% | 25% | 25% |
+
+With 50 matched spots, 180 of the 190 samples are each caught with at least 90% probability; with 100, all 190 are.
+The two King County case samples at 100 ppm or more (620 and 2,800 ppm) are caught with 93% expected share at 10
+matched spots and 100% at 25. **In this model a raster of about 50 grain-matched spots does what section 3 asks for:
+the 20-fold gain comes from sampling rather than from a better instrument.** A probe that is the wrong size for the
+grains loses much of it, so in practice the grain size has to be known or several probe sizes tried.
+
+The Poisson formula was checked against a simulation that drops grains at random into 200,000 probes, for five
+combinations of pigment level and probe size: every simulated share was within 0.26 standard errors of the formula.
+
+The idea is not new in pharmaceutical analysis, where Raman mapping finds minor components below the bulk limit.
+Šašić and Whitlock (Appl Spectrosc 2008) set the number of spectra from sampling statistics to detect a form below
+1% w/w in tablets. Li et al. (Anal Chem 2015) reached a 0.03% limit with about 8,400 spectra per powder sample. We
+found no published spot budget for lead chromate in spices, and none tied to public-health lab data.
+
+The run of 2026-10-15 (spot_sampling 0.1.0, 13 offline tests passed) is in [`data/spot_sampling.md`](data/spot_sampling.md),
+[`data/spot_sampling.json`](data/spot_sampling.json) and [`data/spot_sampling.csv`](data/spot_sampling.csv) (1 to 200
+spots, four probe sizes, every channel). Its first table prints exact spot counts even when they are absurd (over a
+trillion at 100 ppm with a probe ten times the matched size, and a number with 86 digits for one bulk reading at
+0.25%): read those as "never in practice".
+
+Limits: this is a design model, not a measurement. It assumes the pigment sits in grains of one size. If the pigment
+is ground fine and coats the spice particles evenly, every spot sees the bulk fraction and more spots gain nothing.
+FDA found yellow-orange pigment particles in cinnamon (Kubachka et al.), but we found no published size distribution
+of pigment grains in adulterated spices. The model also assumes a probe's limit, as a fraction of the powder it sees,
+does not change with probe size. A small probe collects less light, so a real handheld may need a higher local
+fraction. A real beam weights grains by depth and position, and turmeric fluoresces. Random spots are the worst
+case: picking visibly yellow-orange grains, by eye or by camera, should do better.
+
 ## What this means for a screening tool
 
 This is why [spice-screen](https://github.com/munimtechnologies/spice-screen) calls itself a screen, never a lab
@@ -309,7 +455,8 @@ test. A clean Raman result on powder says nothing about the 2-50 ppm levels behi
 100-3,000 ppm chromate-laced spices in NYC's data. Raman is useful where the pigment is concentrated: grossly
 adulterated home-imported blends (NYC's 46), the polished surface of whole turmeric roots, or visible yellow-orange
 grains picked out of a powder. Section 3 sets the target for anything that claims more: about 0.025-0.05% w/w lead
-chromate. Reaching recall-level lead needs XRF or a lab.
+chromate. Section 4 shows that a raster of about 50 small, grain-matched spots could reach it in principle with
+today's limit. That has to be tested on real adulterated spices. Reaching recall-level lead needs XRF or a lab.
 
 ## Spot check of the FDA classifier (by hand, every spice row)
 
@@ -339,10 +486,11 @@ None of these changes the headline: no stated level comes near the Raman limit.
 ## Run it
 
 ```
-python -m unittest -v test_lead_recalls test_nyc_spice_lead test_lod_curve
+python -m unittest -v test_lead_recalls test_nyc_spice_lead test_lod_curve test_spot_sampling
 python lead_recalls.py --data-dir data-cache --out-dir out
 python nyc_spice_lead.py --data-dir data-cache --out-dir out
 python lod_curve.py --data-dir data-cache --out-dir out
+python spot_sampling.py --data-dir data-cache --out-dir out
 ```
 
 `lead_recalls.py` downloads `https://download.open.fda.gov/food/enforcement/food-enforcement-0001-of-0001.json.zip`
@@ -356,6 +504,9 @@ row_id.
 
 `lod_curve.py` downloads NYC's spice lead rows and King County's dataset (about 2,200 rows) through their APIs once,
 then writes `lod_curve.json`, `lod_curve.md` and `lod_curve.csv`.
+
+`spot_sampling.py` imports `lod_curve.py`, reads the same two downloads, then writes `spot_sampling.json`,
+`spot_sampling.md` and `spot_sampling.csv`.
 
 ## Sources
 
@@ -380,5 +531,10 @@ then writes `lod_curve.json`, `lod_curve.md` and `lod_curve.csv`.
 - FDA, More ground cinnamon products added to FDA public health alert due to presence of elevated levels of lead.
 - CFIA, Lead chromates in spices, April 1, 2019 to March 31, 2021.
 - Forsyth et al. npj Sci Food (2026).
+- Šašić, Whitlock. Raman mapping of low-content active-ingredient pharmaceutical formulations. Part II: statistically
+  optimized sampling for detection of less than 1% of an active pharmaceutical ingredient. Appl Spectrosc 62:916
+  (2008). doi:10.1366/000370208785284376
+- Li, Calvet, Casamayou-Boucau, Morris, Ryder. Low-content quantification in powders using Raman spectroscopy: a
+  facile chemometric approach to sub 0.1% limits of detection. Anal Chem 87:3419 (2015). doi:10.1021/ac504776m
 
 Contact: MV2, Munim, Inc. - mv2@munimtech.com
