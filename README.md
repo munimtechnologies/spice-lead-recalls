@@ -142,6 +142,39 @@ Limits: NYC chose which samples to test for chromium (61 of 3,575 spices), proba
 method (Raman, XRD) does. Natural chromium can matter below about 18 ppm lead, so those pairs are left out. Pairing
 by name and date was checked by hand for every row above.
 
+### Georgia: did its crackdown reach New York homes? (new)
+
+Georgian blends are 35 of NYC's 46 spices above the Raman limit. Georgia's food-safety authority has paid closer
+attention to lead in spices since 2018, and Forsyth et al. (2024) measured the result inside Georgia: across 765
+bazaar samples from 29 cities in three rounds, the highest lead fell from over 14,000 ug/g in 2020 to 36 ug/g in
+the last round of 2022. NYC's case investigations give a check from outside the country: spices that families carried
+from Georgia into New York homes where someone had high blood lead.
+
+| NYC case-investigation spices (codes C and A) | collected | samples | >= 100 ppm lead | highest | investigations (collection dates) | ... with a spice >= 100 ppm |
+|---|---|---|---|---|---|---|
+| bought in Georgia | 2011-2020 | 262 | 88 (34%) | 78,000 ppm (2020) | 77 | 52 (68%) |
+| bought in Georgia | 2021-2024 | 16 | **0** | **3.5 ppm** | 4 | **0** |
+| bought anywhere else | 2011-2020 | 1,531 | 88 (5.7%) | 21,000 ppm | | |
+| bought anywhere else | 2021-2025 | 1,289 | 12 (0.9%) | 12,700 ppm (2024) | | |
+
+- 30 of the 262 earlier Georgian spices were at or above the Raman limit; none of the later 16 is. The last Georgian
+  spice above 100 ppm in NYC's data was collected in December 2020 (a kharcho suneli at 2,600 ppm and a "yellow
+  flower" at 890 ppm). Since then, 16 Georgian spices from 4 investigations (March 2021, February and December 2022,
+  June 2024) all tested at 3.5 ppm or less, including the marigold "yellow flower" (kviteli kvavili) that carried most
+  of the pigment before: 1.4 ppm in 2021 and not detected in 2024.
+- If the 4 later investigations had been drawn at random from all 81 Georgian ones, the chance that none found a
+  spice at 100 ppm or more is 1.4% (hypergeometric; 0.2% counted by sample).
+- Spices from other countries did not stop arriving hot: NYC still found 12,700 ppm in 2024. So NYC's lab and
+  methods still catch heavily laced spices, and the Georgian change is not just an artifact of testing.
+
+What it does not show: NYC's case spices from other countries also fell at 100 ppm or more (5.7% to 0.9%), so part
+of the change may be in what NYC samples, and this data alone cannot prove a Georgia-only effect. Four
+investigations is a small number, and a collection date stands in for one household visit. It agrees with Forsyth et
+al.'s in-country result. We found no earlier check of that result from a destination country's lab data.
+
+These counts were read from NYC's API on 2026-10-15 (SoQL, purchase_country = GEORGIA). `nyc_spice_lead.py` 0.3.0
+recomputes them from the raw rows (`georgia_trend` in its summary), and its outputs go in `data/` after the run.
+
 ## 3. How low must a lead chromate screen reach? (new in 0.3.0)
 
 Sections 1 and 2 test one detection limit. Lopez et al. (ES&T 2022) made the same point for one dataset: vibrational
@@ -173,10 +206,11 @@ Raman, to catch 9 in 10 of NYC's spices with 100 ppm lead or more.** At 0.5% it 
 
 ### King County: none reach the Raman limit
 
-| King County spices, lab-tested | results | highest lead | >= 100 ppm | >= 3,206 ppm |
-|---|---|---|---|---|
-| community product testing events | about 185 | 1.3 ppm | 0 | 0 |
-| case investigations | 22 | 2,800 ppm | 2 | **0** |
+| King County spices, lab-tested | results | lead detected | highest lead | >= 100 ppm | >= 3,206 ppm |
+|---|---|---|---|---|---|
+| community product testing events | 185 | 124 | 1.3 ppm | 0 | 0 |
+| case investigations | 22 | 18 | 2,800 ppm | 2 | **0** |
+| all | 207 | 142 | 2,800 ppm | 2 | **0** |
 
 The two high ones are home-made spices from India found in case investigations: a turmeric powder at 2,800 ppm
 (2025) and a spice mix at 620 ppm (2026). A 0.5% screen misses both; a 0.05% screen catches both. King County's
@@ -185,7 +219,7 @@ data has no chromium results, so whether these are lead chromate is not known.
 ### What the curve says
 
 - Three open U.S. sources agree. **No FDA spice recall level (0 of 11), no NYC store-survey sample (0 of 477) and
-  no King County spice (0 of about 207) reaches the bench Raman limit.** Only NYC's case investigations do (46).
+  no King County spice (0 of 207) reaches the bench Raman limit.** Only NYC's case investigations do (46).
 - Powder Raman at 0.5% is a tool for the gross tail. To be a general screen it has to gain about 20 times
   sensitivity. Picking out and scanning the yellow-orange grains themselves (particle-level Raman, as Kubachka et
   al. at FDA did on cinnamon) is one candidate, since a picked grain can be mostly pigment rather than pigment
@@ -193,10 +227,11 @@ data has no chromium results, so whether these are lead chromate is not known.
 - The first fivefold gain (0.5% to 0.1%) lifts NYC's catch from 24% to 63%; the next fourfold (to 0.025%) adds
   another 30 points.
 
-The NYC numbers above were read from NYC's own API on 2026-10-14 (SoQL counts per threshold). The King County
-numbers were read the same way from its API. `lod_curve.py` recomputes both from the raw rows, and its outputs go
-in `data/` after the scripted run. The King County community count is approximate (one or two rows may hold no
-result) and will be replaced by the script's.
+The NYC and King County counts were first read from each agency's API on 2026-10-14 (SoQL counts per threshold).
+`lod_curve.py` then recomputed every one from the raw rows (run of 2026-10-14: 3,575 NYC spice lead rows, 2,220 King
+County products, 207 King County spice results), and all of them matched. Its outputs, with the sha256 of each
+download, are in [`data/lod_curve.md`](data/lod_curve.md), [`data/lod_curve.json`](data/lod_curve.json) and
+[`data/lod_curve.csv`](data/lod_curve.csv).
 
 Limits: the curve treats every microgram of lead as lead chromate; where the lead has another source, no
 chromate screen sees it at any limit. Case samples are chosen because someone was poisoned, so they over-represent

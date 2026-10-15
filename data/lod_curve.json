@@ -1,0 +1,921 @@
+{
+ "version": "0.1.0",
+ "sources": {
+  "nyc": {
+   "url": "https://data.cityofnewyork.us/resource/da9u-wz3r.json?%24where=product_type%3D%27Food-Spice%27+AND+metal%3D%27Lead%27+AND+units%3D%27ppm%27&%24limit=50000&%24order=row_id",
+   "rows": 3575,
+   "sha256": "161ca1bff9edb76051b7b83bc72fa19cbb84787bbae61504981b9a34b12c7950"
+  },
+  "king_county": {
+   "url": "https://data.kingcounty.gov/resource/i6sy-ckp7.json?%24limit=50000",
+   "rows": 2220,
+   "sha256": "d317c8762493abe0d7f341ea22226ebf8be9f173cb838ffba87dab3ee7bbff80"
+  }
+ },
+ "pb_in_pbcro4": 0.6411,
+ "limits_pct_pbcro4": [
+  1.0,
+  0.5,
+  0.25,
+  0.1,
+  0.05,
+  0.025,
+  0.01,
+  0.005
+ ],
+ "channels": {
+  "King County Case Investigation": {
+   "samples": 22,
+   "detected": 18,
+   "max_ppm": 2800.0,
+   "curves": [
+    {
+     "base_ppm": 18,
+     "samples_at_or_above_base": 3,
+     "rows": [
+      {
+       "limit_pct_pbcro4": 1.0,
+       "limit_ppm_pb": 6411,
+       "caught": 0,
+       "share": 0.0
+      },
+      {
+       "limit_pct_pbcro4": 0.5,
+       "limit_ppm_pb": 3206,
+       "caught": 0,
+       "share": 0.0
+      },
+      {
+       "limit_pct_pbcro4": 0.25,
+       "limit_ppm_pb": 1603,
+       "caught": 1,
+       "share": 0.333
+      },
+      {
+       "limit_pct_pbcro4": 0.1,
+       "limit_ppm_pb": 641,
+       "caught": 1,
+       "share": 0.333
+      },
+      {
+       "limit_pct_pbcro4": 0.05,
+       "limit_ppm_pb": 321,
+       "caught": 2,
+       "share": 0.667
+      },
+      {
+       "limit_pct_pbcro4": 0.025,
+       "limit_ppm_pb": 160,
+       "caught": 2,
+       "share": 0.667
+      },
+      {
+       "limit_pct_pbcro4": 0.01,
+       "limit_ppm_pb": 64,
+       "caught": 2,
+       "share": 0.667
+      },
+      {
+       "limit_pct_pbcro4": 0.005,
+       "limit_ppm_pb": 32,
+       "caught": 3,
+       "share": 1.0
+      }
+     ]
+    },
+    {
+     "base_ppm": 100,
+     "samples_at_or_above_base": 2,
+     "rows": [
+      {
+       "limit_pct_pbcro4": 1.0,
+       "limit_ppm_pb": 6411,
+       "caught": 0,
+       "share": 0.0
+      },
+      {
+       "limit_pct_pbcro4": 0.5,
+       "limit_ppm_pb": 3206,
+       "caught": 0,
+       "share": 0.0
+      },
+      {
+       "limit_pct_pbcro4": 0.25,
+       "limit_ppm_pb": 1603,
+       "caught": 1,
+       "share": 0.5
+      },
+      {
+       "limit_pct_pbcro4": 0.1,
+       "limit_ppm_pb": 641,
+       "caught": 1,
+       "share": 0.5
+      },
+      {
+       "limit_pct_pbcro4": 0.05,
+       "limit_ppm_pb": 321,
+       "caught": 2,
+       "share": 1.0
+      },
+      {
+       "limit_pct_pbcro4": 0.025,
+       "limit_ppm_pb": 160,
+       "caught": 2,
+       "share": 1.0
+      },
+      {
+       "limit_pct_pbcro4": 0.01,
+       "limit_ppm_pb": 64,
+       "caught": 2,
+       "share": 1.0
+      },
+      {
+       "limit_pct_pbcro4": 0.005,
+       "limit_ppm_pb": 32,
+       "caught": 2,
+       "share": 1.0
+      }
+     ]
+    }
+   ],
+   "needed_for_90pct": [
+    {
+     "share": 0.9,
+     "samples": 3,
+     "must_see_ppm_pb": 41.0,
+     "pct_pbcro4": 0.0064
+    },
+    {
+     "share": 0.9,
+     "samples": 2,
+     "must_see_ppm_pb": 620.0,
+     "pct_pbcro4": 0.0967
+    }
+   ]
+  },
+  "King County Community product testing event": {
+   "samples": 185,
+   "detected": 124,
+   "max_ppm": 1.3,
+   "curves": [
+    {
+     "base_ppm": 18,
+     "samples_at_or_above_base": 0,
+     "rows": [
+      {
+       "limit_pct_pbcro4": 1.0,
+       "limit_ppm_pb": 6411,
+       "caught": 0,
+       "share": null
+      },
+      {
+       "limit_pct_pbcro4": 0.5,
+       "limit_ppm_pb": 3206,
+       "caught": 0,
+       "share": null
+      },
+      {
+       "limit_pct_pbcro4": 0.25,
+       "limit_ppm_pb": 1603,
+       "caught": 0,
+       "share": null
+      },
+      {
+       "limit_pct_pbcro4": 0.1,
+       "limit_ppm_pb": 641,
+       "caught": 0,
+       "share": null
+      },
+      {
+       "limit_pct_pbcro4": 0.05,
+       "limit_ppm_pb": 321,
+       "caught": 0,
+       "share": null
+      },
+      {
+       "limit_pct_pbcro4": 0.025,
+       "limit_ppm_pb": 160,
+       "caught": 0,
+       "share": null
+      },
+      {
+       "limit_pct_pbcro4": 0.01,
+       "limit_ppm_pb": 64,
+       "caught": 0,
+       "share": null
+      },
+      {
+       "limit_pct_pbcro4": 0.005,
+       "limit_ppm_pb": 32,
+       "caught": 0,
+       "share": null
+      }
+     ]
+    },
+    {
+     "base_ppm": 100,
+     "samples_at_or_above_base": 0,
+     "rows": [
+      {
+       "limit_pct_pbcro4": 1.0,
+       "limit_ppm_pb": 6411,
+       "caught": 0,
+       "share": null
+      },
+      {
+       "limit_pct_pbcro4": 0.5,
+       "limit_ppm_pb": 3206,
+       "caught": 0,
+       "share": null
+      },
+      {
+       "limit_pct_pbcro4": 0.25,
+       "limit_ppm_pb": 1603,
+       "caught": 0,
+       "share": null
+      },
+      {
+       "limit_pct_pbcro4": 0.1,
+       "limit_ppm_pb": 641,
+       "caught": 0,
+       "share": null
+      },
+      {
+       "limit_pct_pbcro4": 0.05,
+       "limit_ppm_pb": 321,
+       "caught": 0,
+       "share": null
+      },
+      {
+       "limit_pct_pbcro4": 0.025,
+       "limit_ppm_pb": 160,
+       "caught": 0,
+       "share": null
+      },
+      {
+       "limit_pct_pbcro4": 0.01,
+       "limit_ppm_pb": 64,
+       "caught": 0,
+       "share": null
+      },
+      {
+       "limit_pct_pbcro4": 0.005,
+       "limit_ppm_pb": 32,
+       "caught": 0,
+       "share": null
+      }
+     ]
+    }
+   ],
+   "needed_for_90pct": [
+    null,
+    null
+   ]
+  },
+  "King County all": {
+   "samples": 207,
+   "detected": 142,
+   "max_ppm": 2800.0,
+   "curves": [
+    {
+     "base_ppm": 18,
+     "samples_at_or_above_base": 3,
+     "rows": [
+      {
+       "limit_pct_pbcro4": 1.0,
+       "limit_ppm_pb": 6411,
+       "caught": 0,
+       "share": 0.0
+      },
+      {
+       "limit_pct_pbcro4": 0.5,
+       "limit_ppm_pb": 3206,
+       "caught": 0,
+       "share": 0.0
+      },
+      {
+       "limit_pct_pbcro4": 0.25,
+       "limit_ppm_pb": 1603,
+       "caught": 1,
+       "share": 0.333
+      },
+      {
+       "limit_pct_pbcro4": 0.1,
+       "limit_ppm_pb": 641,
+       "caught": 1,
+       "share": 0.333
+      },
+      {
+       "limit_pct_pbcro4": 0.05,
+       "limit_ppm_pb": 321,
+       "caught": 2,
+       "share": 0.667
+      },
+      {
+       "limit_pct_pbcro4": 0.025,
+       "limit_ppm_pb": 160,
+       "caught": 2,
+       "share": 0.667
+      },
+      {
+       "limit_pct_pbcro4": 0.01,
+       "limit_ppm_pb": 64,
+       "caught": 2,
+       "share": 0.667
+      },
+      {
+       "limit_pct_pbcro4": 0.005,
+       "limit_ppm_pb": 32,
+       "caught": 3,
+       "share": 1.0
+      }
+     ]
+    },
+    {
+     "base_ppm": 100,
+     "samples_at_or_above_base": 2,
+     "rows": [
+      {
+       "limit_pct_pbcro4": 1.0,
+       "limit_ppm_pb": 6411,
+       "caught": 0,
+       "share": 0.0
+      },
+      {
+       "limit_pct_pbcro4": 0.5,
+       "limit_ppm_pb": 3206,
+       "caught": 0,
+       "share": 0.0
+      },
+      {
+       "limit_pct_pbcro4": 0.25,
+       "limit_ppm_pb": 1603,
+       "caught": 1,
+       "share": 0.5
+      },
+      {
+       "limit_pct_pbcro4": 0.1,
+       "limit_ppm_pb": 641,
+       "caught": 1,
+       "share": 0.5
+      },
+      {
+       "limit_pct_pbcro4": 0.05,
+       "limit_ppm_pb": 321,
+       "caught": 2,
+       "share": 1.0
+      },
+      {
+       "limit_pct_pbcro4": 0.025,
+       "limit_ppm_pb": 160,
+       "caught": 2,
+       "share": 1.0
+      },
+      {
+       "limit_pct_pbcro4": 0.01,
+       "limit_ppm_pb": 64,
+       "caught": 2,
+       "share": 1.0
+      },
+      {
+       "limit_pct_pbcro4": 0.005,
+       "limit_ppm_pb": 32,
+       "caught": 2,
+       "share": 1.0
+      }
+     ]
+    }
+   ],
+   "needed_for_90pct": [
+    {
+     "share": 0.9,
+     "samples": 3,
+     "must_see_ppm_pb": 41.0,
+     "pct_pbcro4": 0.0064
+    },
+    {
+     "share": 0.9,
+     "samples": 2,
+     "must_see_ppm_pb": 620.0,
+     "pct_pbcro4": 0.0967
+    }
+   ]
+  },
+  "NYC A": {
+   "samples": 308,
+   "detected": 191,
+   "max_ppm": 27000.0,
+   "curves": [
+    {
+     "base_ppm": 18,
+     "samples_at_or_above_base": 59,
+     "rows": [
+      {
+       "limit_pct_pbcro4": 1.0,
+       "limit_ppm_pb": 6411,
+       "caught": 9,
+       "share": 0.153
+      },
+      {
+       "limit_pct_pbcro4": 0.5,
+       "limit_ppm_pb": 3206,
+       "caught": 14,
+       "share": 0.237
+      },
+      {
+       "limit_pct_pbcro4": 0.25,
+       "limit_ppm_pb": 1603,
+       "caught": 19,
+       "share": 0.322
+      },
+      {
+       "limit_pct_pbcro4": 0.1,
+       "limit_ppm_pb": 641,
+       "caught": 30,
+       "share": 0.508
+      },
+      {
+       "limit_pct_pbcro4": 0.05,
+       "limit_ppm_pb": 321,
+       "caught": 37,
+       "share": 0.627
+      },
+      {
+       "limit_pct_pbcro4": 0.025,
+       "limit_ppm_pb": 160,
+       "caught": 42,
+       "share": 0.712
+      },
+      {
+       "limit_pct_pbcro4": 0.01,
+       "limit_ppm_pb": 64,
+       "caught": 43,
+       "share": 0.729
+      },
+      {
+       "limit_pct_pbcro4": 0.005,
+       "limit_ppm_pb": 32,
+       "caught": 53,
+       "share": 0.898
+      }
+     ]
+    },
+    {
+     "base_ppm": 100,
+     "samples_at_or_above_base": 43,
+     "rows": [
+      {
+       "limit_pct_pbcro4": 1.0,
+       "limit_ppm_pb": 6411,
+       "caught": 9,
+       "share": 0.209
+      },
+      {
+       "limit_pct_pbcro4": 0.5,
+       "limit_ppm_pb": 3206,
+       "caught": 14,
+       "share": 0.326
+      },
+      {
+       "limit_pct_pbcro4": 0.25,
+       "limit_ppm_pb": 1603,
+       "caught": 19,
+       "share": 0.442
+      },
+      {
+       "limit_pct_pbcro4": 0.1,
+       "limit_ppm_pb": 641,
+       "caught": 30,
+       "share": 0.698
+      },
+      {
+       "limit_pct_pbcro4": 0.05,
+       "limit_ppm_pb": 321,
+       "caught": 37,
+       "share": 0.86
+      },
+      {
+       "limit_pct_pbcro4": 0.025,
+       "limit_ppm_pb": 160,
+       "caught": 42,
+       "share": 0.977
+      },
+      {
+       "limit_pct_pbcro4": 0.01,
+       "limit_ppm_pb": 64,
+       "caught": 43,
+       "share": 1.0
+      },
+      {
+       "limit_pct_pbcro4": 0.005,
+       "limit_ppm_pb": 32,
+       "caught": 43,
+       "share": 1.0
+      }
+     ]
+    }
+   ],
+   "needed_for_90pct": [
+    {
+     "share": 0.9,
+     "samples": 59,
+     "must_see_ppm_pb": 30.0,
+     "pct_pbcro4": 0.0047
+    },
+    {
+     "share": 0.9,
+     "samples": 43,
+     "must_see_ppm_pb": 180.0,
+     "pct_pbcro4": 0.0281
+    }
+   ]
+  },
+  "NYC C": {
+   "samples": 2790,
+   "detected": 1186,
+   "max_ppm": 78000.0,
+   "curves": [
+    {
+     "base_ppm": 18,
+     "samples_at_or_above_base": 203,
+     "rows": [
+      {
+       "limit_pct_pbcro4": 1.0,
+       "limit_ppm_pb": 6411,
+       "caught": 24,
+       "share": 0.118
+      },
+      {
+       "limit_pct_pbcro4": 0.5,
+       "limit_ppm_pb": 3206,
+       "caught": 32,
+       "share": 0.158
+      },
+      {
+       "limit_pct_pbcro4": 0.25,
+       "limit_ppm_pb": 1603,
+       "caught": 55,
+       "share": 0.271
+      },
+      {
+       "limit_pct_pbcro4": 0.1,
+       "limit_ppm_pb": 641,
+       "caught": 90,
+       "share": 0.443
+      },
+      {
+       "limit_pct_pbcro4": 0.05,
+       "limit_ppm_pb": 321,
+       "caught": 109,
+       "share": 0.537
+      },
+      {
+       "limit_pct_pbcro4": 0.025,
+       "limit_ppm_pb": 160,
+       "caught": 132,
+       "share": 0.65
+      },
+      {
+       "limit_pct_pbcro4": 0.01,
+       "limit_ppm_pb": 64,
+       "caught": 157,
+       "share": 0.773
+      },
+      {
+       "limit_pct_pbcro4": 0.005,
+       "limit_ppm_pb": 32,
+       "caught": 190,
+       "share": 0.936
+      }
+     ]
+    },
+    {
+     "base_ppm": 100,
+     "samples_at_or_above_base": 145,
+     "rows": [
+      {
+       "limit_pct_pbcro4": 1.0,
+       "limit_ppm_pb": 6411,
+       "caught": 24,
+       "share": 0.166
+      },
+      {
+       "limit_pct_pbcro4": 0.5,
+       "limit_ppm_pb": 3206,
+       "caught": 32,
+       "share": 0.221
+      },
+      {
+       "limit_pct_pbcro4": 0.25,
+       "limit_ppm_pb": 1603,
+       "caught": 55,
+       "share": 0.379
+      },
+      {
+       "limit_pct_pbcro4": 0.1,
+       "limit_ppm_pb": 641,
+       "caught": 90,
+       "share": 0.621
+      },
+      {
+       "limit_pct_pbcro4": 0.05,
+       "limit_ppm_pb": 321,
+       "caught": 109,
+       "share": 0.752
+      },
+      {
+       "limit_pct_pbcro4": 0.025,
+       "limit_ppm_pb": 160,
+       "caught": 132,
+       "share": 0.91
+      },
+      {
+       "limit_pct_pbcro4": 0.01,
+       "limit_ppm_pb": 64,
+       "caught": 145,
+       "share": 1.0
+      },
+      {
+       "limit_pct_pbcro4": 0.005,
+       "limit_ppm_pb": 32,
+       "caught": 145,
+       "share": 1.0
+      }
+     ]
+    }
+   ],
+   "needed_for_90pct": [
+    {
+     "share": 0.9,
+     "samples": 203,
+     "must_see_ppm_pb": 37.0,
+     "pct_pbcro4": 0.0058
+    },
+    {
+     "share": 0.9,
+     "samples": 145,
+     "must_see_ppm_pb": 160.0,
+     "pct_pbcro4": 0.025
+    }
+   ]
+  },
+  "NYC S": {
+   "samples": 477,
+   "detected": 179,
+   "max_ppm": 610.0,
+   "curves": [
+    {
+     "base_ppm": 18,
+     "samples_at_or_above_base": 6,
+     "rows": [
+      {
+       "limit_pct_pbcro4": 1.0,
+       "limit_ppm_pb": 6411,
+       "caught": 0,
+       "share": 0.0
+      },
+      {
+       "limit_pct_pbcro4": 0.5,
+       "limit_ppm_pb": 3206,
+       "caught": 0,
+       "share": 0.0
+      },
+      {
+       "limit_pct_pbcro4": 0.25,
+       "limit_ppm_pb": 1603,
+       "caught": 0,
+       "share": 0.0
+      },
+      {
+       "limit_pct_pbcro4": 0.1,
+       "limit_ppm_pb": 641,
+       "caught": 0,
+       "share": 0.0
+      },
+      {
+       "limit_pct_pbcro4": 0.05,
+       "limit_ppm_pb": 321,
+       "caught": 2,
+       "share": 0.333
+      },
+      {
+       "limit_pct_pbcro4": 0.025,
+       "limit_ppm_pb": 160,
+       "caught": 2,
+       "share": 0.333
+      },
+      {
+       "limit_pct_pbcro4": 0.01,
+       "limit_ppm_pb": 64,
+       "caught": 2,
+       "share": 0.333
+      },
+      {
+       "limit_pct_pbcro4": 0.005,
+       "limit_ppm_pb": 32,
+       "caught": 2,
+       "share": 0.333
+      }
+     ]
+    },
+    {
+     "base_ppm": 100,
+     "samples_at_or_above_base": 2,
+     "rows": [
+      {
+       "limit_pct_pbcro4": 1.0,
+       "limit_ppm_pb": 6411,
+       "caught": 0,
+       "share": 0.0
+      },
+      {
+       "limit_pct_pbcro4": 0.5,
+       "limit_ppm_pb": 3206,
+       "caught": 0,
+       "share": 0.0
+      },
+      {
+       "limit_pct_pbcro4": 0.25,
+       "limit_ppm_pb": 1603,
+       "caught": 0,
+       "share": 0.0
+      },
+      {
+       "limit_pct_pbcro4": 0.1,
+       "limit_ppm_pb": 641,
+       "caught": 0,
+       "share": 0.0
+      },
+      {
+       "limit_pct_pbcro4": 0.05,
+       "limit_ppm_pb": 321,
+       "caught": 2,
+       "share": 1.0
+      },
+      {
+       "limit_pct_pbcro4": 0.025,
+       "limit_ppm_pb": 160,
+       "caught": 2,
+       "share": 1.0
+      },
+      {
+       "limit_pct_pbcro4": 0.01,
+       "limit_ppm_pb": 64,
+       "caught": 2,
+       "share": 1.0
+      },
+      {
+       "limit_pct_pbcro4": 0.005,
+       "limit_ppm_pb": 32,
+       "caught": 2,
+       "share": 1.0
+      }
+     ]
+    }
+   ],
+   "needed_for_90pct": [
+    {
+     "share": 0.9,
+     "samples": 6,
+     "must_see_ppm_pb": 20.0,
+     "pct_pbcro4": 0.0031
+    },
+    {
+     "share": 0.9,
+     "samples": 2,
+     "must_see_ppm_pb": 570.0,
+     "pct_pbcro4": 0.0889
+    }
+   ]
+  },
+  "NYC all": {
+   "samples": 3575,
+   "detected": 1556,
+   "max_ppm": 78000.0,
+   "curves": [
+    {
+     "base_ppm": 18,
+     "samples_at_or_above_base": 268,
+     "rows": [
+      {
+       "limit_pct_pbcro4": 1.0,
+       "limit_ppm_pb": 6411,
+       "caught": 33,
+       "share": 0.123
+      },
+      {
+       "limit_pct_pbcro4": 0.5,
+       "limit_ppm_pb": 3206,
+       "caught": 46,
+       "share": 0.172
+      },
+      {
+       "limit_pct_pbcro4": 0.25,
+       "limit_ppm_pb": 1603,
+       "caught": 74,
+       "share": 0.276
+      },
+      {
+       "limit_pct_pbcro4": 0.1,
+       "limit_ppm_pb": 641,
+       "caught": 120,
+       "share": 0.448
+      },
+      {
+       "limit_pct_pbcro4": 0.05,
+       "limit_ppm_pb": 321,
+       "caught": 148,
+       "share": 0.552
+      },
+      {
+       "limit_pct_pbcro4": 0.025,
+       "limit_ppm_pb": 160,
+       "caught": 176,
+       "share": 0.657
+      },
+      {
+       "limit_pct_pbcro4": 0.01,
+       "limit_ppm_pb": 64,
+       "caught": 202,
+       "share": 0.754
+      },
+      {
+       "limit_pct_pbcro4": 0.005,
+       "limit_ppm_pb": 32,
+       "caught": 245,
+       "share": 0.914
+      }
+     ]
+    },
+    {
+     "base_ppm": 100,
+     "samples_at_or_above_base": 190,
+     "rows": [
+      {
+       "limit_pct_pbcro4": 1.0,
+       "limit_ppm_pb": 6411,
+       "caught": 33,
+       "share": 0.174
+      },
+      {
+       "limit_pct_pbcro4": 0.5,
+       "limit_ppm_pb": 3206,
+       "caught": 46,
+       "share": 0.242
+      },
+      {
+       "limit_pct_pbcro4": 0.25,
+       "limit_ppm_pb": 1603,
+       "caught": 74,
+       "share": 0.389
+      },
+      {
+       "limit_pct_pbcro4": 0.1,
+       "limit_ppm_pb": 641,
+       "caught": 120,
+       "share": 0.632
+      },
+      {
+       "limit_pct_pbcro4": 0.05,
+       "limit_ppm_pb": 321,
+       "caught": 148,
+       "share": 0.779
+      },
+      {
+       "limit_pct_pbcro4": 0.025,
+       "limit_ppm_pb": 160,
+       "caught": 176,
+       "share": 0.926
+      },
+      {
+       "limit_pct_pbcro4": 0.01,
+       "limit_ppm_pb": 64,
+       "caught": 190,
+       "share": 1.0
+      },
+      {
+       "limit_pct_pbcro4": 0.005,
+       "limit_ppm_pb": 32,
+       "caught": 190,
+       "share": 1.0
+      }
+     ]
+    }
+   ],
+   "needed_for_90pct": [
+    {
+     "share": 0.9,
+     "samples": 268,
+     "must_see_ppm_pb": 35.0,
+     "pct_pbcro4": 0.0055
+    },
+    {
+     "share": 0.9,
+     "samples": 190,
+     "must_see_ppm_pb": 180.0,
+     "pct_pbcro4": 0.0281
+    }
+   ]
+  }
+ }
+}
