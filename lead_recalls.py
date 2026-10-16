@@ -16,6 +16,9 @@ Outputs: lead_recalls.csv (all lead recalls), spice_lead_recalls.csv,
 summary.json, summary.md. The level parser reads FDA's free text, so every
 parsed level is written next to the text it came from, for checking.
 
+0.1.1: fixes from the hand spot check of 0.1.0 (galangal, supplements and
+salted-plum candy, packaging words, levels written like ".012 ppm").
+
 Made by MV2 of Munim, Inc. with AI agents working in his name. Apache-2.0.
 """
 from __future__ import annotations
@@ -30,6 +33,8 @@ import re
 import sys
 import urllib.request
 import zipfile
+
+__version__ = "0.1.1"
 
 DATA_URL = "https://download.open.fda.gov/food/enforcement/food-enforcement-0001-of-0001.json.zip"
 USER_AGENT = "spice-lead-recalls (MV2 of Munim, Inc.; munimversion2@gmail.com)"
@@ -55,19 +60,25 @@ SPICES = [
     ("black/white pepper", ["black pepper", "white pepper", "peppercorn"]),
     ("other single spice", ["clove", "nutmeg", "mace", "cardamom", "fenugreek", "allspice", "saffron",
                             "anise", "fennel seed", "bay leaf", "bay leaves", "oregano", "thyme",
-                            "sumac", "mustard seed", "mustard powder", "asafoetida", "hing", "amchur"]),
+                            "sumac", "mustard seed", "mustard powder", "asafoetida", "hing", "amchur",
+                            "galanga", "galangal"]),
     ("mixed spice/seasoning", ["seasoning", "spice blend", "spice mix", "spices", "spice", "sazon",
                                "adobo", "za'atar", "zaatar", "garam", "five spice", "5 spice"]),
 ]
 
+# Products that name a spice word but are not spices or spiced foods.
+NOT_SPICE = ["licorice", "liquorice"]
+
 # Words that mark a food that contains a spice rather than a spice itself.
-FOOD_WORDS = ["puree", "purée", "applesauce", "apple sauce", "pouch", "candy", "candies", "lollipop",
+# Not "pouch" or "beverage": spices are sold in pouches, and firms' names say "beverage".
+FOOD_WORDS = ["puree", "purée", "applesauce", "apple sauce", "candy", "candies", "lollipop",
               "chocolate", "tea", "juice", "cereal", "cookie", "cracker", "chips", "snack", "noodle",
-              "bread", "cake", "drink", "beverage", "gum", "jelly", "tamarind", "pulparindo", "sauce",
-              "paste", "pickle", "oil", "soup", "ramen", "biscuit", "nut", "seed mix"]
+              "bread", "cake", "drink", "gum", "jelly", "tamarind", "pulparindo", "sauce",
+              "paste", "pickle", "oil", "soup", "ramen", "biscuit", "nut", "seed mix",
+              "plum", "plums", "prune", "prunes", "saladitos"]
 
 SUPPLEMENT_WORDS = ["capsule", "capsules", "caps", "tablet", "tablets", "softgel", "softgels",
-                    "supplement", "dietary supplement", "extract"]
+                    "supplement", "dietary supplement", "extract", "cleanse", "cleansing", "detox", "toxin"]
 
 METALS = ["lead", "pb", "arsenic", "cadmium", "mercury", "chromium", "aluminum", "aluminium",
           "nickel", "copper", "zinc", "thallium", "antimony", "uranium"]
@@ -80,7 +91,7 @@ _LEAD = re.compile(r"\b(lead|pb)\b", re.I)
 _NOT_METAL = re.compile(r"\b(lead|leads|leading)\s+(to|consumers|customers|people)\b"
                         r"|\b(could|may|might|would|will)\s+lead\b", re.I)
 _METAL = re.compile(r"\b(%s)\b" % "|".join(METALS), re.I)
-_NUM = r"(?<![\d.,])(\d{1,3}(?:,\d{3})+(?:\.\d+)?|\d+(?:\.\d+)?)"
+_NUM = r"(?<![\d.,])(\d{1,3}(?:,\d{3})+(?:\.\d+)?|\d+(?:\.\d+)?|\.\d+)"
 _UNIT = (r"(ppm|ppb|parts\s+per\s+million|parts\s+per\s+billion|mg\s*/\s*kg|mg\s*/\s*g"
          r"|(?:µg|μg|ug|mcg)\s*/\s*g|(?:µg|μg|ug|mcg)\s*/\s*kg)")
 _LEVEL = re.compile(_NUM + r"\s*\(?\s*" + _UNIT + r"(?![a-z])", re.I)
@@ -171,6 +182,8 @@ def classify(description):
     """(spice category, form) for a product description, or (None, None).
     form is 'spice', 'food containing spice' or 'supplement'."""
     d = (description or "").lower()
+    if any(_has_word(d, w) for w in NOT_SPICE):
+        return None, None
     for name, words in SPICES:
         if any(_has_word(d, w) for w in words):
             if any(_has_word(d, w) for w in SUPPLEMENT_WORDS):
@@ -261,6 +274,7 @@ def summarize(rows, total_records, meta):
         return v[n // 2] if n % 2 else (v[n // 2 - 1] + v[n // 2]) / 2.0
 
     return {
+        "version": __version__,
         "source": DATA_URL, "openfda_last_updated": meta.get("last_updated", ""),
         "sha256": meta.get("sha256", ""),
         "food_enforcement_records": total_records,
@@ -297,8 +311,9 @@ def write_markdown(s, path):
         return lines
 
     lines = ["# U.S. FDA food recalls for lead in spices (openFDA)", "",
-             "Source: openFDA food enforcement bulk file, last updated %s (sha256 %s). %d enforcement records read." % (
-                 s["openfda_last_updated"], s["sha256"][:12], s["food_enforcement_records"]),
+             "spice-lead-recalls %s. Source: openFDA food enforcement bulk file, last updated %s (sha256 %s). "
+             "%d enforcement records read." % (s["version"], s["openfda_last_updated"], s["sha256"][:12],
+                                               s["food_enforcement_records"]),
              "", "- Recalls naming lead: %d (%d recall events)." % (s["lead_recalls"], s["lead_recall_events"]),
              "- Of these, spices or foods containing a named spice: %d (%d events); spice products themselves: %d." % (
                  s["spice_lead_recalls"], s["spice_lead_events"], s["spice_products_only"]),
@@ -373,7 +388,7 @@ def main(argv=None):
                                         "spice_with_level", "spice_level_median_ppm",
                                         "spice_at_or_above_raman_limit")}))
     print("by spice:", json.dumps(s["spice_by_category"]))
-    print("by year:", json.dumps(s["spice_by_year"]))
+    print("by form:", json.dumps(s["spice_by_form"]))
     print("level bins:", json.dumps(s["spice_level_bins"]))
     return 0
 

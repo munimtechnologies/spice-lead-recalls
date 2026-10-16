@@ -41,6 +41,10 @@ class Levels(unittest.TestCase):
         self.assertEqual(self.ppm("lead at 7 µg/g"), [7.0])
         self.assertEqual(self.ppm("lead at 1.5 parts per million"), [1.5])
 
+    def test_no_leading_zero(self):
+        # F-0077-2014, ginger candy: missed by 0.1.0.
+        self.assertEqual(self.ppm("found that it may contain as much as .012 ppm of lead."), [0.012])
+
     def test_range(self):
         self.assertEqual(sorted(self.ppm("lead levels from 2.03 – 3.40 ppm")), [2.03, 3.40])
         self.assertEqual(sorted(self.ppm("lead ranging 2.03 to 7.68 ppm")), [2.03, 7.68])
@@ -70,6 +74,8 @@ class Classify(unittest.TestCase):
     def test_forms(self):
         self.assertEqual(lr.classify("WanaBana Apple Cinnamon Fruit Puree pouches"),
                          ("cinnamon", "food containing spice"))
+        self.assertEqual(lr.classify("Weis CINNAMON APPLE SAUCE, Net Weight: 3.2 oz (90g) Pouches"),
+                         ("cinnamon", "food containing spice"))
         self.assertEqual(lr.classify("Tamarind candy with chili"), ("chili/paprika", "food containing spice"))
         self.assertEqual(lr.classify("Turmeric Curcumin 500 mg capsules"), ("turmeric", "supplement"))
 
@@ -77,6 +83,21 @@ class Classify(unittest.TestCase):
         self.assertEqual(lr.classify("Shrimp Paste 16 oz"), (None, None))
         self.assertEqual(lr.classify("Dried apricots, Product of Chile"), (None, None))
         self.assertEqual(lr.classify("Something thing"), (None, None))
+
+    def test_spot_check_fixes(self):
+        # Rows the hand spot check of 0.1.0 found misclassified.
+        self.assertEqual(lr.classify("Dragonfly brand Galanga Powder; Net Weight: 5 oz. Product of Thailand"),
+                         ("other single spice", "spice"))
+        self.assertEqual(lr.classify("Pran Spice Powder Turmeric , 14.10 oz. (400g) clear plastic laminated pouch"),
+                         ("turmeric", "spice"))
+        self.assertEqual(lr.classify("SUPER BRAND DRIED CINNAMON POWDER Net Wt: 4oz PRODUCT OF CHINA "
+                                     "DISTRIBUTOR: IHA BEVERAGE COMMERCE, CA"), ("cinnamon", "spice"))
+        self.assertEqual(lr.classify("El Chavito Saladitos Enchilados Salted Plums with Chili, net wt. 1.7 oz."),
+                         ("chili/paprika", "food containing spice"))
+        self.assertEqual(lr.classify("Toxin Absorber with Organic Ginger Root - 14 packets and 30 packets"),
+                         ("ginger", "supplement"))
+        self.assertEqual(lr.classify("Colon Cleansing Kit Ginger"), ("ginger", "supplement"))
+        self.assertEqual(lr.classify("Red Vines Black Licorice Twists, anise flavored"), (None, None))
 
 
 class Origin(unittest.TestCase):
@@ -111,6 +132,7 @@ class EndToEnd(unittest.TestCase):
         self.assertEqual(rows[1]["recalling_firm"], "Firm A")
         self.assertTrue(rows[0]["mentions_chromate"])
         s = lr.summarize(rows, len(records), {"last_updated": "2026-10-13", "sha256": "ab" * 32})
+        self.assertEqual(s["version"], lr.__version__)
         self.assertEqual(s["lead_recalls"], 3)
         self.assertEqual(s["spice_lead_recalls"], 2)
         self.assertEqual(s["spice_products_only"], 1)
