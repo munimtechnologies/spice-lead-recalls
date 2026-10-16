@@ -1,10 +1,10 @@
 # U.S. FDA food recalls for lead in spices (openFDA)
 
-Source: openFDA food enforcement bulk file, last updated 2026-10-13 (sha256 139cb14c05a8). 29485 enforcement records read.
+spice-lead-recalls 0.1.1. Source: openFDA food enforcement bulk file, last updated 2026-10-13 (sha256 139cb14c05a8). 29485 enforcement records read.
 
 - Recalls naming lead: 179 (119 recall events).
-- Of these, spices or foods containing a named spice: 75 (58 events); spice products themselves: 61.
-- Spice recalls with a lead level stated by FDA: 11; median 2.92 ppm, highest 53.7 ppm.
+- Of these, spices or foods containing a named spice: 75 (58 events); spice products themselves: 58.
+- Spice recalls with a lead level stated by FDA: 12; median 2.6550000000000002 ppm, highest 53.7 ppm.
 - At or above about 3,206 ppm lead (0.5% w/w lead chromate, the reported Raman limit): 0.
 - Recall reasons that name chromate or chromium: 1.
 
@@ -24,20 +24,20 @@ Source: openFDA food enforcement bulk file, last updated 2026-10-13 (sha256 139c
 
 | form | recalls |
 |---|---|
-| spice | 61 |
+| spice | 58 |
 | food containing spice | 13 |
-| supplement | 1 |
+| supplement | 4 |
 
 ## By year recall began
 
 | year | recalls |
 |---|---|
-| 2012 | 1 |
 | 2013 | 5 |
 | 2016 | 11 |
 | 2017 | 1 |
 | 2018 | 8 |
 | 2019 | 4 |
+| 2020 | 1 |
 | 2021 | 5 |
 | 2022 | 5 |
 | 2023 | 4 |
@@ -49,7 +49,7 @@ Source: openFDA food enforcement bulk file, last updated 2026-10-13 (sha256 139c
 
 | level | recalls |
 |---|---|
-| <1 | 1 |
+| <1 | 2 |
 | 1-2 | 0 |
 | 2-5 | 6 |
 | 5-10 | 1 |
