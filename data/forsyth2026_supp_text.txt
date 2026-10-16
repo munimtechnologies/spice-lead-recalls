@@ -1,0 +1,1231 @@
+=== page 1 ===
+1 Systemic drivers of toxic food adulteration: lead chromate in turmeric across eastern India
+2 Jenna E. Forsyth1,2, Manu Sinha3, Amogh Bandekar2, Dinsha Mistree4, Manoj Parida5, Emily
+3 Nash6, Lavanya Nambiar6, Christlee Elmera2, Stephen P. Luby1,2
+4
+5 1School of Medicine, Stanford University, Stanford, California, U.S.A.
+6 2King Center on Global Development, Stanford, California, U.S.A.
+7 3Frameworks, Bhopal, India
+8 4Hoover Institution, Stanford University, Stanford, California, U.S.A.
+9 5DCOR, New Delhi, India
+10 6Pure Earth, New York City, U.S.A.
+11
+12
+13 Corresponding author: Jenna E. Forsyth, Stanford School of Medicine, 473 Via Ortega, Y2E2
+14 Building, Suite 226, Stanford, CA 94305. Phone: 435-232-2955, email: jforsyth@stanford.edu
+15
+16 Running title: Adulteration of turmeric with lead chromate in India
+17
+18
+19
+20
+21
+22
+23
+24
+25
+1
+=== page 2 ===
+26 Table of Contents
+27 Figure S1. Turmeric value chain map. ........................................................................................ 3
+28 Figure S2. Supply chain of turmeric from within and outside in the state of Bihar. .............. 4
+29 Figure S3. Left) Calibration curve for 7 turmeric powder samples with lead concentrations
+30 ranging from 8 to 4,537 µg g-1 as measured by ICP-MS. .......................................................... 6
+31 Figure S4. Left) Calibration curve for 9 turmeric root samples with lead concentrations
+32 ranging from 4 to 6,094 µg g-1 as measured by ICP-MS ........................................................... 7
+33 Table S1. Summary of stakeholders who participated in qualitative interviews. ................... 8
+34 Table S2. Summary of turmeric lead concentrations of polished roots and loose powder
+35 from systematic assessments in Bihar and neighboring states, 2021-2023 (n=503). ............... 9
+36 Table S3. Summary of lead concentration and price of all samples of single- and double-
+37 polished roots, and loose and packaged turmeric powder from the 2021-2023 systematic
+38 assessment across Bihar and neighboring states (n=503). ....................................................... 10
+39 Table S4. Odds ratios from a logistic regression accounting for clustering at the city level
+40 with turmeric lead levels above 10 µg/g as the outcome variable and turmeric type, state of
+41 harvest, and state of sale as predictors. ..................................................................................... 11
+42 Table S5. Gamma log link regression of samples from Bihar in 2021 with turmeric lead
+43 level as the outcome and turmeric type and price, modeled as a piecewise linear spline, as
+44 predictors. ..................................................................................................................................... 12
+45 Table S6. Source and grade-wise lead chromate adulteration of 138 turmeric roots sampled
+46 off delivery trucks before being displayed by traders (Patna, Gaya, and Bhagalpur, Bihar –
+47 2023). ............................................................................................................................................. 13
+48 Table S7. Grade-wise turmeric lead chromate adulteration of turmeric roots and powder
+49 from the major markets in trading hubs in Bihar, 2023 (n=98; source states included Tamil
+50 Nadu, Telangana, Karnataka, Maharashtra, Odisha and Bihar). .......................................... 14
+51 Table S8. Turmeric market sample data used in analyses (n=503). ....................................... 15
+52 Turmeric wholesale/vendor/businessperson interview guide .................................................. 29
+53 Turmeric grinder interview guide .............................................................................................. 33
+54 Turmeric polisher interview guide ............................................................................................. 34
+55 Turmeric farmer interview guide .............................................................................................. 36
+56 Food safety authority/inspector/police interview guide ........................................................... 38
+57 Yellow pigment wholesaler/vendor/businessperson interview guide ...................................... 39
+58 Description of qualitative methods ............................................................................................ 40
+59
+60
+61
+=== page 3 ===
+62 Figure S1. Turmeric value chain map.
+63
+64
+65
+66
+Farmer Trader
+67
+68
+69
+70
+Miller
+71
+Turmeric Roots Commission Agent
+72
+73 Wholesaler
+74 Turmeric
+75 Powder
+76
+77
+Retailer
+78
+79
+80
+81
+82
+3
+=== page 4 ===
+83 Figure S2. Supply chain of turmeric from within and outside in the state of Bihar.
+84
+85
+86
+Out-of-state Traders State-level Traders
+87
+Millers/Companies
+Commission Agents
+Farmer/ District
+Local Aggregators
+Producer Traders
+Wholesalers
+Local Market
+Retailers
+Consumers
+=== page 5 ===
+88
+5
+=== page 6 ===
+89 Figure S3. Left) Calibration curve for 7 turmeric powder samples with lead concentrations ranging from 8 to 4,537 µg g-1 as
+90 measured by ICP-MS. Right) Calibration curve for 3 low-range powder samples ranging from 8 to 223 µg g-1. Standard error bars
+91 displayed. Mean relative standard deviation was 3.96% for XRF and 2.5% for ICP-MS.
+92
+93
+94
+95
+=== page 7 ===
+96 Figure S4. Left) Calibration curve for 9 turmeric root samples with lead concentrations ranging from 4 to 6,094 µg g-1 as measured
+97 by ICP-MS. Right) Calibration curve for 4 turmeric root samples with lead concentrations ranging from 4 to 146 µg g-1. Standard error
+98 bars displayed. Mean relative standard deviation was 2.48% for XRF and 2.5% for ICP-MS.
+99
+100
+101
+7
+=== page 8 ===
+102 Table S1. Summary of stakeholders who participated in qualitative interviews.
+Number of
+Value Chain Role Interviews
+Farmers 5
+Spice Traders 61
+Spice Millers 11
+Spice Wholesalers 8
+Spice Customers 10
+Others1 3
+Regulatory (Food safety inspectors and law
+enforcement officers) 27
+Pigment Traders 3
+1 Commission agent, retailer, government research groups
+103
+104
+105
+106
+107
+108
+109
+110
+111
+112
+113
+114
+115
+=== page 9 ===
+116 Table S2. Summary of turmeric lead concentrations of polished roots and loose powder from systematic assessments in Bihar and
+117 neighboring states, 2021-2023 (n=503).
+State n Median 90th Percentile Maximum n (%) over 10
+Bihar 134 39 2456 6416 72 (54%)
+Chhattisgarh 32 <LOD 3125 5255 9 (28%)
+Jharkhand 77 <LOD 2497 5950 32 (42%)
+Uttar Pradesh 200 <LOD 908 4320 32 (16%)
+West Bengal 60 <LOD 352 2662 8 (13%)
+503 <LOD 2011 6416 153 (30%)
+118
+119
+9
+=== page 10 ===
+120 Table S3. Summary of lead concentration and price of all samples of single- and double-polished roots, and loose and packaged
+121 turmeric powder from the 2021-2023 systematic assessment across Bihar and neighboring states (n=503).
+Turmeric Type n Lead Concentration µg g⁻¹ Price per KG (₹)
+n (%) <10 n (%) 10-100 n (%) >100 Mean (SD)
+Loose powder 162 105 (65) 15 (10) 42 (26) 229 (49)
+Packaged powder (no brand) 19 16 (85) 1 (6) 2 (11) 240 (56)
+Packaged branded powder 11 11 (100) 0 (0) 0 (0) 260 (60)
+Double-polished roots 235 152 (65) 1 (1) 82 (35) 207 (57)
+Single-polished roots 76 66 (87) 5 (7) 5 (7) 196 (58)
+TOTAL 503 350 (70) 22 (5) 131 (27) 215 (56)
+122
+123
+124
+=== page 11 ===
+125 Table S4. Odds ratios from a logistic regression accounting for clustering at the city level with turmeric lead levels above 10 µg/g as
+126 the outcome variable and turmeric type, state of harvest, and state of sale as predictors.
+127
+Odds 95% CI,
+Variable Ratio 95% CI, lower upper P-value Significance
+Turmeric Type
+Single-polished roots reference
+Double-polished roots 4.57 1.36 15.32 0.014 **
+Loose powder 4.72 1.33 16.73 0.016 **
+Packaged powder 0.79 0.11 5.65 0.811
+State of Harvest
+Minor turmeric-producing states1 reference
+Major turmeric-producing states2 1.98 0.70 5.63 0.198
+State of Sale
+Other states3 reference
+Bihar 4.02 1.68 9.60 0.002 ***
+* p-value <0.1, ** p-value <0.05, *** p-value<0.01
+1Bihar, Uttar Pradesh, Jharkhand, West Bengal, Kerala
+2Maharashtra, Tamil Nadu, Telangana, Madhya Pradesh
+3Uttar Pradesh, Jharkhand, West Bengal, and Chhattisgarh
+n=408, Likelihood ratio chi²: p =0.0026
+128
+129
+130
+131
+11
+=== page 12 ===
+132 Table S5. Gamma log link regression of samples from Bihar in 2021 with turmeric lead level as the outcome and turmeric type and
+133 price, modeled as a piecewise linear spline, as predictors.
+95% CI, 95% CI,
+Variable Coefficient lower upper P-value Significance
+Turmeric Type
+Single-polished roots reference
+Doubl-polished roots 3.07 1.76 4.38 <0.001 ***
+Loose powder -2.48 -3.82 -1.15 <0.001 ***
+Packaged powder 2.63 1.18 4.08 <0.001 ***
+State of Harvest
+Minor turmeric-producing states reference
+Major turmeric-producing states 0.7431431 0.2217887 1.264497 0.005 ***
+Price
+Lowest tertile spline 0.01 -0.02 0.03 0.666
+Middle tertile spline 0.01 -0.03 0.05 0.653
+Highest tertile spline -0.04 -0.09 0.02 0.168
+* p-value <0.1, ** p-value <0.05, *** p-value<0.01
+n=116, Gamma log link regression accounting for city level clustering
+Minor-producing States: Bihar, Jharkhand, Uttar Pradesh, West Bengal, Kerala
+134
+135
+136
+137
+138
+139
+=== page 13 ===
+140 Table S6. Source and grade-wise lead chromate adulteration of 138 turmeric roots sampled off delivery trucks before being displayed
+141 by traders (Patna, Gaya, and Bhagalpur, Bihar – 2023).
+Source Samples exceeding Grade Grade-wise samples exceeding Total
+10 µg/g Pb threshold 10 µg/g Pb threshold samples
+n (%) n (%) (n)
+A 8 (89) 9
+Erode (Tamil Nadu) 42 (81) B 35 (81) 43
+C 0 (0) 1
+A 0 (0) 0
+Mysore (Karnataka) 8 (62) B 8 (73) 11
+C 0 (0) 2
+A 9 (64) 14
+Sangli (Maharashtra) 35 (67) B 26 (72) 36
+C 0 (0) 2
+A 1 (100) 1
+Nizamabad (Telangana) 18 (90) B 17 (89) 19
+C 0 (0) 0
+A 18 (75) 24
+B 86 (75) 109
+TOTAL 104 (75) C 0 (0) 5
+142
+143
+144
+145
+146
+147
+148
+13
+=== page 14 ===
+149 Table S7. Grade-wise turmeric lead chromate adulteration of turmeric roots and powder from the major markets in trading hubs in
+150 Bihar, 2023 (n=98; source states included Tamil Nadu, Telangana, Karnataka, Maharashtra, Odisha and Bihar).
+Grade Samples exceeding Type Samples exceeding 10 µg g⁻¹ Pb Total
+10 µg g⁻¹ Pb threshold threshold sample
+n (%) n (%) (n)
+A 7 (47) Root 6 (43) 14
+Powder 1 (100) 1
+B 36 (84) Root 35 (88) 40
+Powder 1 (33) 3
+C 1 (10) Root 1 (20) 5
+Powder 0 (0) 5
+Unspecified 9 (45) Root 6 (43) 14
+Powder 3 (19) 16
+TOTAL 53 (54) Root 48 (66) 73
+Powder 5 (20) 25
+151
+152
+153
+=== page 15 ===
+154 Table S8. Turmeric market sample data used in analyses (n=503). All_pb_avg: average sample
+155 lead level in µg g⁻¹. City_final: city of collection. Type_groupfull4: loose powder=1, packaged
+156 powder=2, double-polished roots=4, single-polished roots=5. Sellstate_bin: Bihar=1, Other=0.
+157 Turm_major: 1=major turmeric-producing states (Maharashtra, Tamil Nadu, Telangana, and
+158 Madhya Pradesh and Karnataka), 0=minor turmeric-producing states (Bihar, Uttar Pradesh,
+159 Jharkhand, Chhattisgarh, West Bengal, Kerala, and Andhra Pradesh).
+sampid_ city_final all_pb_avg type_groupfull4 sellstate_bin turm_major
+15_BS_5_1_1 Dhanbad 2 1 0 1
+15_BS_5_2_4 Dhanbad 3 3 0 1
+15_BS_6_1_4 Dhanbad 2 3 0 1
+15_BS_6_2_1 Dhanbad 2 1 0 1
+15_BS_6_3_3 Dhanbad 2 2 0 0
+15_BS_7_1_1 Dhanbad 2 1 0 1
+15_BS_7_2_4 Dhanbad 2 3 0 1
+15_PB_1_1_1 Dhanbad 2 1 0
+15_PB_1_2_4 Dhanbad 2 3 0 1
+15_PB_2_1_1 Dhanbad 2 1 0 1
+15_SM_3_1_2 Dhanbad 2 2 0
+15_SM_4_1_4 Dhanbad 2 3 0
+15_SM_4_2_1 Dhanbad 2 1 0
+18_PG_10_1_1 Lucknow 1521 1 0 0
+18_PG_10_2_4 Lucknow 2 3 0 0
+18_PG_10_3_6 Lucknow 1301 3 0 0
+18_PG_12_1_1 Lucknow 2 1 0 0
+18_PG_12_2_4 Lucknow 2 3 0 0
+18_PG_12_3_6 Lucknow 1741 3 0
+18_RG_1_1_4 Lucknow 2 3 0 1
+18_RG_1_2_1 Lucknow 2 1 0 1
+18_RG_1_3_5 Lucknow 2 4 0 1
+18_RG_1_4_6 Lucknow 2 3 0 1
+18_RG_1_5_6 Lucknow 2 3 0 1
+18_RG_2_1_1 Lucknow 2 1 0 0
+18_RG_2_1_1 Lucknow 2 1 0 0
+18_RG_2_2_4 Lucknow 2 3 0 0
+18_RG_2_2_4 Lucknow 2 3 0 1
+18_RG_2_3_5 Lucknow 2 4 0 0
+18_RG_2_3_5 Lucknow 2 4 0 1
+18_RG_2_4_6 Lucknow 2 3 0 1
+18_RG_2_4_6 Lucknow 2 3 0 0
+18_RG_2_5_6 Lucknow 2 3 0 1
+18_RG_3_1_1 Lucknow 2 1 0 0
+15
+=== page 16 ===
+18_RG_3_2_4 Lucknow 2 3 0 1
+18_RG_3_3_6 Lucknow 2 3 0
+18_RG_3_4_6 Lucknow 2 3 0 1
+18_RG_3_5_5 Lucknow 2 4 0
+18_RG_4_1_1 Lucknow 2 1 0 0
+18_RG_4_2_4 Lucknow 2 3 0 1
+18_RG_4_3_5 Lucknow 2 4 0 1
+18_RG_4_4_6 Lucknow 2 3 0 1
+18_RG_4_5_6 Lucknow 2 3 0 1
+18_RG_5_1_1 Lucknow 2 1 0 0
+18_RG_5_2_4 Lucknow 2 3 0 0
+18_RG_5_3_5 Lucknow 79 4 0 1
+18_RG_5_4_6 Lucknow 1398 3 0 1
+18_RG_5_5_6 Lucknow 2 3 0 1
+18_RG_6_1_1 Lucknow 2 1 0 0
+18_RG_6_2_4 Lucknow 2 3 0 1
+18_RG_6_3_6 Lucknow 1012 3 0 1
+18_RG_6_4_6 Lucknow 5 3 0 1
+18_RG_7_1_1 Lucknow 2 1 0 0
+18_RG_7_2_4 Lucknow 2 3 0 1
+18_RG_7_3_6 Lucknow 663 3 0 1
+18_RG_7_4_6 Lucknow 1997 3 0 1
+18_RG_8_1_1 Lucknow 2 1 0 0
+18_RG_8_2_4 Lucknow 218 3 0 1
+18_RG_8_3_6 Lucknow 2376 3 0 1
+18_RG_8_4_6 Lucknow 884 3 0
+18_RG_9_1_1 Lucknow 2 1 0 0
+18_RG_9_2_4 Lucknow 2 3 0 1
+18_RG_9_3_6 Lucknow 2 3 0 1
+18_RG_9_4_6 Lucknow 648 3 0 1
+26_GM_1_1_1 Muzzafarpur 2288 1 1
+26_GM_1_2_4 Muzzafarpur 1287 3 1
+26_GM_1_3_5 Muzzafarpur 2 4 1
+26_GM_1_4_7 Muzzafarpur 2 4 1
+26_GM_2_1_1 Muzzafarpur 354 1 1 0
+26_GM_2_2_4 Muzzafarpur 2296 3 1 0
+26_GM_2_3_5 Muzzafarpur 2 4 1 0
+26_GM_2_4_6 Muzzafarpur 2 3 1 0
+26_MM_3_1_1 Muzzafarpur 97 1 1
+26_MM_3_2_4 Muzzafarpur 3168 3 1
+=== page 17 ===
+26_MM_3_3_5 Muzzafarpur 75 4 1
+26_MM_4_1_1 Muzzafarpur 18 1 1
+26_MM_4_2_4 Muzzafarpur 1263 3 1
+27_GB_1_1_1 Darbhanga 2 1 1 0
+27_GB_1_2_4 Darbhanga 2 3 1 0
+27_GB_1_3_6 Darbhanga 2 3 1 0
+27_GB_2_1_1 Darbhanga 21 1 1 0
+27_GB_2_2_4 Darbhanga 2 3 1 0
+27_GB_2_3_5 Darbhanga 261 4 1 0
+27_GB_2_4_7 Darbhanga 2 4 1 0
+27_TR_3_1_1 Darbhanga 2 1 1
+27_TR_3_2_4 Darbhanga 2 3 1
+27_TR_3_3_6 Darbhanga 2 3 1
+27_TR_4_1_1 Darbhanga 143 1 1
+27_TR_4_2_4 Darbhanga 2 3 1
+27_TR_4_3_5 Darbhanga 2 4 1
+28_GC_1_1_1 Kishanganj 472 1 1 0
+28_GC_1_2_2 Kishanganj 2 2 1 0
+28_GC_1_3_5 Kishanganj 2 4 1 0
+28_GC_2_1_1 Kishanganj 2 1 1 0
+28_GC_2_2_5 Kishanganj 2 4 1 0
+29_BS_3_1_1 Purnia 106 1 1 1
+29_BS_3_2_4 Purnia 188 3 1 1
+29_BS_4_1_1 Purnia 49 1 1 0
+29_BS_4_2_4 Purnia 2 3 1 0
+29_BS_4_3_5 Purnia 80 4 1 0
+29_KB_1_1_1 Purnia 28 1 1 0
+29_KB_1_2_4 Purnia 181 3 1 0
+29_KB_1_3_5 Purnia 2 4 1 0
+29_KB_2_1_1 Purnia 1141 1 1 0
+29_KB_2_2_4 Purnia 2 3 1 0
+30_SC_3_1_1 Saharsa 1287 1 1 1
+30_SC_3_3_5 Saharsa 2 4 1 0
+30_SC_4_1_1 Saharsa 380 1 1 0
+30_SC_4_2_4 Saharsa 921 3 1 1
+30_SC_4_3_5 Saharsa 2 4 1 0
+30_SM_1_1_1 Saharsa 2 1 1 0
+30_SM_1_2_4 Saharsa 1995 3 1 0
+30_SM_1_3_5 Saharsa 2 4 1 0
+30_SM_2_1_1 Saharsa 2011 1 1 0
+17
+=== page 18 ===
+30_SM_2_2_4 Saharsa 2 3 1 0
+30_SM_2_3_4 Saharsa 2361 3 1 0
+31_GB_1_1_1 Samastipur 2 1 1 1
+31_GB_1_2_4 Samastipur 2 3 1 1
+31_GB_1_3_5 Samastipur 257 4 1 1
+31_GB_1_4_6 Samastipur 2 3 1 0
+31_GB_2_1_1 Samastipur 1162 1 1 1
+31_GB_2_2_5 Samastipur 244 4 1 1
+31_GB_2_3_6 Samastipur 1227 3 1 0
+31_MB_3_1_1 Samastipur 2 1 1 1
+31_MB_3_2_5 Samastipur 186 4 1 1
+31_MB_4_1_1 Samastipur 2 1 1 1
+31_MB_4_2_6 Samastipur 2 3 1 0
+32_PH_3_1_1 Begusarai 23 1 1 1
+32_PH_3_2_4 Begusarai 5350 3 1 1
+32_PH_4_1_2 Begusarai 2 2 1 1
+32_PH_4_2_4 Begusarai 1759 3 1 1
+32_SC_1_1_1 Begusarai 2 1 1 1
+32_SC_1_2_4 Begusarai 1790 3 1 1
+32_SC_1_3_5 Begusarai 2 4 1 1
+32_SC_2_1_1 Begusarai 2 1 1 1
+32_SC_2_2_4 Begusarai 1245 3 1 1
+32_SC_2_3_5 Begusarai 2 4 1 1
+33_LP_1_1_2 Bhagalpur 2 2 1 1
+33_LP_1_2_4 Bhagalpur 2 3 1 1
+33_LP_2_2_4 Bhagalpur 2 3 1 1
+33_SC_3_1_2 Bhagalpur 2 2 1 0
+33_SC_3_2_4 Bhagalpur 2 3 1 0
+33_SC_4_1_1 Bhagalpur 105 1 1 1
+33_SC_4_2_4 Bhagalpur 2 3 1 1
+33_SC_5_2_4 Bhagalpur 2 3 1 0
+34_GB_1_1_1 Chappra 2 1 1 1
+34_GB_2_1_1 Chappra 2 1 1 1
+34_GB_2_2_4 Chappra 1638 3 1 1
+34_GM_3_1_1 Chappra 2312 1 1 1
+34_GM_3_2_4 Chappra 2043 3 1 1
+34_MC_4_1_1 Chappra 2 1 1 0
+34_MC_4_2_4 Chappra 3006 3 1 0
+34_MC_5_1_1 Chappra 2 1 1 1
+34_MC_5_2_4 Chappra 1929 3 1 1
+=== page 19 ===
+34_MC_5_3_4 Chappra 1491 3 1 1
+35_LB_3_1_1 Betia 2804 1 1 0
+35_LB_3_2_4 Betia 160 3 1 0
+35_LB_4_1_1 Betia 759 1 1 0
+35_LB_4_2_4 Betia 2579 3 1 0
+35_MB_1_1_1 Betia 2 1 1 0
+35_MB_1_2_4 Betia 825 3 1 0
+35_MB_1_3_5 Betia 2 4 1 0
+35_MB_2_1_1 Betia 558 1 1 0
+35_MB_2_2_4 Betia 3507 3 1 0
+35_MB_2_3_5 Betia 2 4 1 0
+36_GB_1_1_1 Buxar 305 1 1 1
+36_GB_2_2_4 Buxar 2766 3 1 1
+36_MC_3_1_1 Buxar 6416 1 1 1
+36_MC_3_2_4 Buxar 2029 3 1 1
+36_MC_3_3_4 Buxar 1425 3 1 1
+36_MC_4_2_1 Buxar 2 1 1 1
+36_MC_4_3_4 Buxar 321 3 1 1
+37_CP_1_1_1 Gaya 3177 1 1 1
+37_CP_1_2_4 Gaya 1220 3 1 1
+37_CP_1_3_6 Gaya 2 3 1 1
+37_CP_2_1_1 Gaya 970 1 1 1
+37_CP_2_2_4 Gaya 3648 3 1 1
+37_PG_3_1_1 Gaya 23 1 1 1
+37_PG_3_2_4 Gaya 5107 3 1 1
+37_PG_4_1_1 Gaya 320 1 1 1
+37_PG_4_2_4 Gaya 1520 3 1 1
+37_PG_4_3_7 Gaya 2 4 1 1
+38_GD_1_1_1 Varanasi 2 1 0 1
+38_GD_1_2_4 Varanasi 1355 3 0 1
+38_GD_2_2_4 Varanasi 4320 3 0 1
+38_VG_3_1_1 Varanasi 847 1 0 1
+38_VG_3_2_4 Varanasi 1763 3 0 1
+38_VG_4_1_1 Varanasi 2330 1 0 1
+38_VG_4_2_4 Varanasi 2061 3 0 1
+38_VG_5_1_1 Varanasi 931 1 0 1
+38_VG_5_2_4 Varanasi 2022 3 0 1
+39_KP_4_1_1 Gorakhpur 1191 1 0 1
+39_KP_4_2_4 Gorakhpur 94 3 0 1
+39_KP_5_1_4 Gorakhpur 135 3 0 1
+19
+=== page 20 ===
+39_KP_5_2_4 Gorakhpur 3535 3 0 1
+39_SB_2_1_1 Gorakhpur 25 1 0 1
+39_SB_2_2_4 Gorakhpur 3522 3 0 1
+39_SG_1_1_1 Gorakhpur 73 1 0 1
+39_SG_1_2_4 Gorakhpur 1524 3 0 1
+39_SG_3_1_1 Gorakhpur 1588 1 0 1
+39_SG_3_2_4 Gorakhpur 4121 3 0 1
+39_SG_3_3_6 Gorakhpur 2 3 0 1
+40_RP_3_1_1 Daltonganj 2 1 0 0
+40_RP_3_2_4 Daltonganj 2321 3 0 0
+40_RP_4_1_1 Daltonganj 34 1 0 0
+40_RP_4_2_4 Daltonganj 3117 3 0 0
+40_RP_5_1_1 Daltonganj 2 1 0 1
+40_RP_5_2_4 Daltonganj 3291 3 0 1
+40_SM_1_1_1 Daltonganj 716 1 0 0
+40_SM_1_2_4 Daltonganj 2766 3 0 0
+40_SM_2_1_1 Daltonganj 15 1 0 0
+40_SM_2_2_4 Daltonganj 2124 3 0 0
+41_GR_3_1_1 Hazaribagh 32 1 0 0
+41_GR_3_2_4 Hazaribagh 1941 3 0 0
+41_GR_4_1_1 Hazaribagh 2497 1 0 0
+41_GR_4_2_4 Hazaribagh 4205 3 0 0
+41_SM_1_1_1 Hazaribagh 2968 1 0 1
+41_SM_1_2_4 Hazaribagh 1272 3 0 0
+41_SM_1_3_6 Hazaribagh 2 3 0 1
+41_SM_2_1_1 Hazaribagh 1887 1 0 0
+41_SM_2_2_4 Hazaribagh 1094 3 0 0
+41_SM_2_3_6 Hazaribagh 2 3 0 1
+42_DT_4_1_1 Deoghar 192 1 0 1
+42_DT_4_2_4 Deoghar 2 3 0 1
+42_DT_5_1_1 Deoghar 82 1 0 1
+42_DT_5_2_4 Deoghar 2256 3 0 1
+42_MB_1_1_1 Deoghar 332 1 0 1
+42_MB_1_2_4 Deoghar 5950 3 0 1
+42_MB_2_1_1 Deoghar 1454 1 0 1
+42_MB_2_2_4 Deoghar 2 3 0 1
+42_MB_3_1_2 Deoghar 240 2 0 1
+42_MB_3_2_4 Deoghar 469 3 0 1
+43_KB_1_1_1 Brahmpore 1886 1 0 0
+43_KB_1_2_5 Brahmpore 2 4 0 0
+=== page 21 ===
+43_KB_2_1_2 Brahmpore 54 2 0 0
+43_KB_2_2_4 Brahmpore 1204 3 0 0
+43_NB_3_1_1 Brahmpore 2054 1 0 0
+43_NB_3_2_4 Brahmpore 143 3 0 0
+43_NB_4_1_1 Brahmpore 2629 1 0 0
+43_NB_4_2_4 Brahmpore 2 3 0 0
+43_NB_5_1_1 Brahmpore 2662 1 0 0
+43_NB_5_2_4 Brahmpore 562 3 0 0
+44_AB_1_2_5 Malda 2 4 0 0
+44_AB_2_1_1 Malda 2 1 0 0
+44_AB_2_2_5 Malda 2 4 0 0
+44_RB_3_2_2 Malda 2 2 0 0
+44_RB_4_1_1 Malda 2 1 0 0
+44_RB_4_2_5 Malda 2 4 0 0
+44_RB_5_1_1 Malda 2 1 0 0
+44_RB_5_2_5 Malda 2 4 0 0
+45_LC_6_1_4 Ranchi 2220 3 0
+45_LC_6_2_1 Ranchi 2 1 0
+45_LC_7_1_4 Ranchi 4 3 0
+45_LC_7_2_3 Ranchi 2 2 0
+45_LC_7_3_3 Ranchi 2 2 0
+45_UB_1_1_4 Ranchi 2 3 0 1
+45_UB_1_2_3 Ranchi 2 2 0 1
+45_UB_2_1_4 Ranchi 2 3 0 1
+45_UB_2_2_4 Ranchi 2432 3 0 1
+45_UB_3_1_4 Ranchi 2786 3 0 1
+45_UB_3_2_1 Ranchi 173 1 0 1
+45_UB_4_1_4 Ranchi 2343 3 0 1
+45_UB_4_2_4 Ranchi 2 3 0 1
+45_UB_4_3_1 Ranchi 2 1 0 1
+45_UB_5_1_4 Ranchi 1899 3 0 1
+45_UB_5_2_4 Ranchi 1867 3 0 1
+45_UB_5_3_4 Ranchi 8 3 0 1
+45_UB_5_4_1 Ranchi 2 1 0 1
+45_UB_5_5_1 Ranchi 2 1 0 1
+46_RM_1_1_1 Jamshedpur 2 1 0 1
+46_RM_1_2_4 Jamshedpur 2 3 0 1
+46_RM_1_3_4 Jamshedpur 2 3 0 1
+46_RM_1_4_4 Jamshedpur 2 3 0 1
+46_RM_2_1_2 Jamshedpur 3 2 0 1
+21
+=== page 22 ===
+46_RM_2_2_4 Jamshedpur 2 3 0 1
+46_RM_2_3_4 Jamshedpur 2 3 0 1
+46_RM_3_1_2 Jamshedpur 2 2 0 1
+46_RM_3_2_2 Jamshedpur 2 2 0 1
+46_RM_3_3_4 Jamshedpur 2 3 0 1
+46_RM_3_4_4 Jamshedpur 2 3 0 1
+46_RM_4_1_4 Jamshedpur 2 3 0
+46_RM_4_2_2 Jamshedpur 130 2 0
+46_RM_5_1_1 Jamshedpur 2 1 0
+46_RM_5_2_4 Jamshedpur 2 3 0
+47_MB_1_1_1 Asansol 2 1 0
+47_MB_1_2_4 Asansol 2 3 0
+47_MB_2_1_1 Asansol 2 1 0 1
+47_MB_2_2_4 Asansol 2 3 0 1
+47_MB_3_1_4 Asansol 2 3 0
+47_MB_3_2_4 Asansol 2 3 0
+47_MB_4_1_1 Asansol 2 1 0
+47_MB_4_2_2 Asansol 2 2 0
+47_SM_5_1_1 Asansol 2 1 0
+47_SM_5_2_4 Asansol 2 3 0
+47_SM_5_3_4 Asansol 2 3 0
+47_SM_6_1_1 Asansol 2 1 0
+47_SM_6_2_4 Asansol 2 3 0
+48_BC_1_1_4 Durgapur 2 3 0
+48_BC_1_1_5 Durgapur 2 4 0
+48_BC_2_1_1 Durgapur 2 1 0 0
+48_BC_2_2_4 Durgapur 2 3 0 0
+48_BC_2_3_1 Durgapur 2 1 0 0
+48_SM_3_1_3 Durgapur 2 2 0 0
+48_SM_3_2_1 Durgapur 2 1 0 1
+48_SM_4_1_1 Durgapur 3 1 0 0
+48_SM_4_2_1 Durgapur 2 1 0 0
+49_MD_4_1_1 Bardhman 2 1 0
+49_MD_5_1_1 Bardhman 2 1 0
+49_NG_1_1_3 Bardhman 2 2 0 0
+49_NG_1_2_4 Bardhman 2 3 0 1
+49_NG_2_1_2 Bardhman 2 2 0 1
+49_NG_2_2_4 Bardhman 2 3 0 1
+49_NG_3_1_2 Bardhman 2 2 0 1
+49_NG_3_2_4 Bardhman 2 3 0 1
+=== page 23 ===
+50_AG-1-1-5 Ambikapur 2 4 0
+50_AG-1-2-6 Ambikapur 1114 3 0
+50_AG-1-3-7 Ambikapur 8 4 0
+50_BR-1-1-1 Ambikapur 2 1 0
+50_GD-1-1-1 Ambikapur 2 1 0
+50_GD-1-2-1 Ambikapur 210 1 0
+50_KD-1-1-4 Ambikapur 961 3 0
+50_KD-1-2-5 Ambikapur 10 4 0
+50_KD-1-3-6 Ambikapur 2 3 0
+50_KD-1-4-7 Ambikapur 2 4 0
+50_KD-1-5-8 Ambikapur 3125 3 0
+50_KM-1-1-3 Ambikapur 2 2 0
+50_MT-1-1-4 Ambikapur 2 3 0
+50_MT-1-2-5 Ambikapur 2 4 0
+50_MT-1-3-9 Ambikapur 2 4 0
+50_SD-1-1-1 Ambikapur 2 1 0
+50_SR-1-1-3 Ambikapur 2 2 0
+50_SR-1-2-5 Ambikapur 2 4 0
+51_VV_1_1_1 Bilaspur 2 1 0 0
+51_VV_1_2_4 Bilaspur 2 3 0 0
+51_VV_1_3_5 Bilaspur 2 4 0 0
+51_VV_1_4_6 Bilaspur 2 3 0 0
+51_VV_1_5_7 Bilaspur 2 4 0 0
+51_VV_2_1_1 Bilaspur 2 1 0 1
+51_VV_2_2_4 Bilaspur 3491 3 0 1
+51_VV_2_3_5 Bilaspur 16 4 0 1
+51_VV_2_4_6 Bilaspur 3383 3 0 1
+51_VV_2_5_7 Bilaspur 5255 4 0 1
+51_VV_2_6_3 Bilaspur 2 2 0 0
+51_VV_3_1_1 Bilaspur 2 1 0 0
+51_VV_3_2_6 Bilaspur 2 3 0 0
+51_VV_3_3_9 Bilaspur 2 4 0 0
+52_AG_1_1_8 Aligarh 2 3 0
+52_AG_1_2_6 Aligarh 2 3 0 1
+52_AG_1_3_1 Aligarh 3 1 0 1
+52_AG_1_4_1 Aligarh 2 1 0 1
+52_AG_2_1_1 Aligarh 22 1 0 1
+52_AG_2_2_1 Aligarh 13 1 0 1
+52_AG_3_1_5 Aligarh 2 4 0 1
+52_AG_3_2_6 Aligarh 2 3 0 1
+23
+=== page 24 ===
+52_AG_4_1_5 Aligarh 2 4 0 1
+52_AG_4_2_6 Aligarh 2 3 0 1
+52_AG_4_3_1 Aligarh 2 1 0 1
+52_AG_4_4_1 Aligarh 2 1 0 1
+52_AG_5_1_5 Aligarh 2 4 0 1
+52_AG_5_2_6 Aligarh 2 3 0 1
+52_AG_5_3_2 Aligarh 2 2 0 1
+53_GN_1_1_1 Kanpur 2 1 0 0
+53_GN_1_2_5 Kanpur 2 4 0 0
+53_GN_2_1_4 Kanpur 2 3 0
+53_GN_2_2_6 Kanpur 2 3 0
+53_GN_3_1_1 Kanpur 2 1 0
+53_GN_3_2_4 Kanpur 2 3 0
+53_GN_3_3_6 Kanpur 2 3 0
+53_NG_1_1_1 Kanpur 2 1 0 1
+53_NG_1_1_6 Kanpur 2 3 0 1
+53_NG_1_2_1 Kanpur 2 1 0 0
+53_NG_1_2_4 Kanpur 2 3 0 1
+53_NG_1_3_5 Kanpur 2 4 0
+53_NG_1_4_6 Kanpur 2 3 0
+53_NG_1_5_7 Kanpur 2 4 0
+53_NG_2_1_1 Kanpur 2 1 0 0
+53_NG_2_1_1 Kanpur 2 1 0 1
+53_NG_2_2_4 Kanpur 2 3 0 1
+53_NG_2_2_5 Kanpur 2 4 0 1
+53_NG_2_3_4 Kanpur 2 3 0 1
+53_NG_2_3_5 Kanpur 2 4 0 1
+53_NG_2_4_6 Kanpur 2 3 0 1
+53_NG_2_5_7 Kanpur 2 4 0 1
+53_NG_3_1_1 Kanpur 2 1 0 0
+53_NG_3_1_1 Kanpur 2 1 0 0
+53_NG_3_2_4 Kanpur 2 3 0 1
+53_NG_3_2_5 Kanpur 2 4 0 1
+53_NG_3_3_5 Kanpur 2 4 0 1
+53_NG_3_3_6 Kanpur 2 3 0 1
+53_NG_3_4_7 Kanpur 2 4 0 1
+53_NG_4_1_4 Kanpur 2 3 0
+53_NG_4_2_3 Kanpur 2 2 0
+53_NG_4_3_6 Kanpur 2 3 0
+53_NG_4_4_7 Kanpur 2 4 0
+=== page 25 ===
+54_RN_1_1_1 Prayagraj 2 1 0 0
+54_RN_1_2_5 Prayagraj 2 4 0 0
+54_RN_1_3_6 Prayagraj 2 3 0 0
+54_RN_2_1_1 Prayagraj 2 1 0 0
+54_RN_2_2_5 Prayagraj 2 4 0 0
+54_RN_2_3_6 Prayagraj 2 3 0 0
+54_RN_3_1_1 Prayagraj 2 1 0 0
+54_RN_3_2_5 Prayagraj 2 4 0 0
+54_RN_3_3_6 Prayagraj 2 3 0 0
+54_SM_1_1_1 Prayagraj 2 1 0
+54_SM_1_1_1 Prayagraj 2 1 0 0
+54_SM_1_2_2 Prayagraj 2 2 0 1
+54_SM_1_2_4 Prayagraj 2 3 0
+54_SM_1_3_4 Prayagraj 2 3 0 1
+54_SM_1_3_6 Prayagraj 2 3 0
+54_SM_1_4_6 Prayagraj 4 3 0 1
+54_SM_2_1_1 Prayagraj 2 1 0
+54_SM_2_2_4 Prayagraj 2 3 0 0
+54_SM_2_3_6 Prayagraj 2 3 0 0
+54_UB_1_1_1 Prayagraj 2 1 0
+54_UB_1_2_2 Prayagraj 2 2 0
+54_UB_1_3_4 Prayagraj 2 3 0
+54_UB_1_4_6 Prayagraj 2 3 0
+54_UB_3_1_1 Prayagraj 2 1 0
+54_UB_3_2_4 Prayagraj 2 3 0
+54_UB_3_3_5 Prayagraj 2 4 0
+54_UB_3_4_6 Prayagraj 2 3 0
+54_UD_1_1_1 Prayagraj 2 1 0 0
+54_UD_1_1_1 Prayagraj 2 1 0 0
+54_UD_1_2_4 Prayagraj 2 3 0 0
+54_UD_1_3_6 Prayagraj 2 3 0 0
+54_UD_3_1_1 Prayagraj 2 1 0 0
+54_UD_3_2_4 Prayagraj 2 3 0 0
+54_UD_3_3_5 Prayagraj 2 4 0 1
+54_UD_3_4_5 Prayagraj 2 4 0
+54_UD_3_5_6 Prayagraj 2 3 0
+55_CB_1_1_1 Bahraich 2 1 0 0
+55_CB_1_1_1 Bahraich 2 1 0 0
+55_CB_1_2_4 Bahraich 2 3 0 0
+55_CB_1_2_4 Bahraich 2 3 0 0
+25
+=== page 26 ===
+55_CB_1_3_5 Bahraich 2 4 0 0
+55_CB_1_4_6 Bahraich 2 3 0 0
+55_CB_2_1_1 Bahraich 2 1 0 0
+55_CB_2_2_4 Bahraich 2 3 0 0
+55_CB_2_3_5 Bahraich 2 4 0 0
+55_CB_2_4_6 Bahraich 2 3 0 0
+55_CB_3_1_1 Bahraich 2 1 0 0
+55_CB_3_2_4 Bahraich 2 3 0 0
+55_CB_3_3_6 Bahraich 2 3 0 0
+55_CL_4_1_1 Bahraich 2 1 0 0
+55_CL_4_2_4 Bahraich 2 3 0 0
+55_CL_4_3_5 Bahraich 2 4 0 0
+55_CL_4_4_6 Bahraich 2 3 0 0
+55_CL_5_1_1 Bahraich 2 1 0 0
+55_CL_5_2_4 Bahraich 2 3 0 0
+55_CL_5_3_7 Bahraich 2 4 0 0
+55_CL_5_4_6 Bahraich 2 3 0 0
+55_CL_6_1_1 Bahraich 2 1 0 0
+55_CL_6_2_4 Bahraich 2 3 0 0
+55_CL_6_3_6 Bahraich 2 3 0 0
+55_DK_10_1_1 Bahraich 2 1 0 0
+55_DK_10_2_4 Bahraich 2 3 0 0
+55_DK_10_3_5 Bahraich 2 4 0 0
+55_DK_10_4_6 Bahraich 2 3 0 0
+55_DK_11_1_1 Bahraich 2 1 0 0
+55_DK_11_2_4 Bahraich 2 3 0 0
+55_DK_11_3_6 Bahraich 2 3 0 0
+55_DK_12_1_1 Bahraich 2 1 0 0
+55_DK_12_2_6 Bahraich 2 3 0 0
+55_GG_7_1_1 Bahraich 2 1 0 0
+55_GG_7_2_4 Bahraich 2 3 0 0
+55_GG_7_3_5 Bahraich 2 4 0 0
+55_GG_7_4_6 Bahraich 2 3 0 0
+55_GG_8_1_1 Bahraich 2 1 0 0
+55_GG_8_2_4 Bahraich 2 3 0 0
+55_GG_8_3_5 Bahraich 2 4 0 0
+55_GG_8_4_6 Bahraich 2 3 0 0
+55_GG_9_1_1 Bahraich 2 1 0 0
+55_GG_9_2_4 Bahraich 2 3 0 0
+55_GG_9_3_5 Bahraich 2 4 0 0
+=== page 27 ===
+55_GG_9_4_6 Bahraich 2 3 0 0
+5_MM_1_1_1 Patna 1228 1 1 1
+5_MM_1_2_4 Patna 971 3 1 1
+5_MM_1_3_7 Patna 2 4 1 1
+5_MM_2_1_1 Patna 1959 1 1 1
+5_MM_2_2_4 Patna 2 3 1 1
+5_MM_2_3_6 Patna 2 3 1 1
+5_MM_3_1_1 Patna 3519 1 1 1
+5_MM_3_2_4 Patna 2961 3 1 1
+5_MM_3_3_6 Patna 2 3 1 1
+5_MM_4_1_4 Patna 2126 3 1 1
+5_MM_4_2_5 Patna 2 4 1 1
+5_MM_5_1_6 Patna 2 3 1 1
+5_MM_5_2_4 Patna 1726 3 1 1
+5_MM_5_3_5 Patna 2 4 1 1
+5_MM_6_1_6 Patna 2 3 1
+5_MM_6_2_4 Patna 2456 3 1
+6_BB_1_1_2 Kolkata 2 2 0 1
+6_BB_1_2_1 Kolkata 6 1 0 1
+6_BB_1_3_1 Kolkata 2 1 0 1
+6_BB_2_1_1 Kolkata 2 1 0 1
+6_BB_2_2_4 Kolkata 2 3 0 1
+6_BB_3_1_1 Kolkata 2 1 0 1
+6_BB_3_2_1 Kolkata 2 1 0 1
+6_BB_3_3_4 Kolkata 2 3 0 1
+6_BB_4_1_1 Kolkata 2 1 0 1
+6_RB_5_1_4 Kolkata 2 3 0
+6_RB_5_2_3 Kolkata 2 2 0 0
+6_RB_6_1_1 Kolkata 2 1 0
+160
+161
+27
+=== page 28 ===
+162
+163
+164
+=== page 29 ===
+165 Turmeric wholesale/vendor/businessperson interview guide
+166 Demographic information: Age, sex, religion, education level, primary occupation/title, years
+167 involved in business
+168
+169
+170 Before visiting the market check is there a specific day when the market is closed? What’s a
+171 good time to visit? Identify a time when there’s less rush, so the vendor will be free to talk.
+172 Once you arrive at the market. Walk around and locate a few wholesale vendors selling different
+173 types of turmeric. Different types refers to turmeric in whole/processed forms and turmeric
+174 grown/polished in different places.
+175
+176
+177 Figure 1. Examples of different forms of turmeric from left to right (fresh root, dried
+178 unpolished finger roots and bulbs, dried polished finger roots and bulbs, loose powder,
+179 and packaged branded powder.
+180
+181 A. Market-level questions
+182 • Date
+183 • Interviewer
+184 • City name
+185 • Market type (wholesale or retail)
+186 • Total number of spice vendors in market (approximate)
+29
+=== page 30 ===
+187 • Major supplying regions to the market (e.g., where is turmeric coming from – the
+188 state/district of harvest/notable suppliers)?
+189 • Major distribution regions from the market (e.g., where is turmeric being distributed to
+190 from the wholesalers?)
+191 • Other notable market features – predominantly what commodity types/etc.?
+192
+193 B. Vendor-level questions
+194 • Vendor number
+195 • When is turmeric season?
+196 • Types of turmeric for sale – for each, state where the spice was harvested.
+197 1 Loose Powder
+198 2 Packaged Powder (no brand)
+199 3 Packaged branded powder
+200 4 Dried polished finger
+201 5 Dried unpolished finger
+202 6 Dried polished bulb
+203 7 Dried unpolished bulb
+204 8 Mix of dried finger and bulb (polished)
+205 9 Mix of dried finger and bulb (unpolished)
+206 10 Fresh root (finger or bulb)
+207 11. Loose chili powder
+208 12. Packaged chilli powder (no brand)
+209 13. Loose dried chili
+210 14. Packaged dried chili (no brand)
+211 15. Loose coriander powder
+212 16. Packaged coriander powder (no brand)
+213 17. Loose dried coriander
+214 18. Packaged dried coriander (no brand)
+215
+216 • If packaged branded powder was selected, please write the names of the brands.
+217 • How do your purchasing patterns vary throughout the year? For example, do you
+218 purchase from different people/locations in turmeric season and out of season? If yes,
+219 who do you primarily purchase from in season and out of season?
+220 • Commodities sold by vendor - other than turmeric
+221 • Does the vendor do their own grinding? (if powder being being sold) If yes, ask “grinder
+222 interview questions”). If no, determine where grinding occurs.
+223 • Does the vendor do their own polishing? If yes, ask “polisher interview questions”).
+224 • How much turmeric do you sell per year (in kg/tn)?
+225 in-season? out-of-season?
+226 • Customers: Who are the vendor's main customers? (Probe about which are primary
+227 customers, if any).
+228 1 Companies or distributors
+229 2 Wholesale vendors
+230 3 Retail vendors
+231 4 Street vendors
+=== page 31 ===
+232 5 High-end restaurant/hotels
+233 6 Low-end restaurant/hotels
+234 7 Higher income household customers
+235 8 Lower income household customers
+236
+237
+238 • What is the geographic extent of the vendor's turmeric customers? (local domestic
+239 market, broader/regional domestic market, international/export market)
+240
+241 Suppliers
+242 ● Does the vendor have one fixed supplier or is it variable? In snowball sampling fashion,
+243 seek information about suppliers to determine if possible to interview them.
+244 ● Does the same person/entity supply the entire market?
+245 ● Does the vendor have a direct link to the turmeric polisher and/or farmer? In snowball
+246 sampling fashion, seek information about suppliers to determine if possible to interview
+247 them.
+248 ● Are there ever shortages of certain types of turmeric of different types throughout the
+249 year? If yes, which and why?
+250 Quality
+251 ● In your opinion, where does turmeric of the best quality come from in India? What about
+252 turmeric of the lowest quality?
+253 ● How does the vendor check for turmeric quality? (For example, breaking open a root to
+254 look at inner color, inner oil content, etc. Probe about differences in checking for quality
+255 based on turmeric form: turmeric powder, dried finger root, or dried bulb root, etc.)
+256 ● If they check for quality, probe further to ask about what the vendor is looking for.
+257 Specifically, what attributes make turmeric high quality? For example, they might break
+258 the roots into pieces and look for the inner color and oil content which they can feel on
+259 their fingers or they might even cook with the turmeric powder they might check for
+260 quality by the color of the resulting dish (curry) and also check to be sure the taste is
+261 good with minimal bitterness. OR if they only have dried bulb roots, they may not be
+262 able to break them open and check for any quality except what their finger can scratch
+263 off.
+264 ● Does the vendor get the quality tested personally? (What specifically is being tested for -
+265 e.g., curcumin? Where do they get it tested - e.g., government lab? What motivated them
+266 to get the turmeric tested?)
+267 ● Are there any threats to quality? Any added substances to improve colour or other traits?
+268 (Probe about differences in threats to quality if the turmeric is powder, dried finger root,
+269 or dried bulb root, etc.) (For example, if turmeric is in powder form, it is easy to add
+270 flour or other filler substances.)
+271
+272 Additives
+273 • Some people we have talked about adding color/pigments to turmeric, what have you
+274 heard about this?
+275 o How widespread is the practice across the country of India – does it occur more in
+276 some states/districts than others? Why?
+277 o Who in the supply chain adds color?
+31
+=== page 32 ===
+278 o When and why did people start adding color in this region (specify district if
+279 mentioned)?
+280 o What factors affect if people add color from year-to-year? What factors impact
+281 how much color is added or how frequently it is added?
+282 § Probe about:
+283 1. Type: Fingers vs. bulbs
+284 2. Production origin: Bihar vs. Jharkhand vs. Tamil Nadu etc.
+285 3. Destination: Turmeric for local markets versus large wholesale
+286 markets in cities in the district
+287 4. Turmeric crop quantity/quality of the year (e.g., climate affecting
+288 the yield/quantity of the turmeric crop)?
+289 5. Who, if anyone, asks for the addition of color?
+290 6. Why do they ask for color to be added?
+291 7. Do they ask for color to be added to all types of turmeric (finger
+292 vs. bulb from different regions) that are processed or only to
+293 certain types?
+294 8. Who decides to add the color? (Mill owner, operator,etc.)
+295 9. Is there any reason that color wouldn’t be added if it is requested?
+296 Inspections
+297 ● Does anyone ever do any inspections of your business? Who does inspections? What are
+298 they inspecting for? How frequently do they do inspections? What are the
+299 repercussions/penalties for not passing an inspection?
+300 ● Are there any punishments for other shops that sell adulterated products? If yes, what?
+301 (Probe specifically about turmeric and type of adulterant)
+302
+303
+304
+=== page 33 ===
+305 Turmeric grinder interview guide
+306 Demographic information: Age, sex, religion, education level, primary occupation/title, years
+307 involved in business
+308
+309 Observations
+310 ● Where is the grinding business situated (in a market, on its own…)?
+311 ● What other businesses/approximately how many are present at the location? (e.g., in a
+312 market of 20 vendors selling spices, grains, and dried goods)
+313 ● How many other grinding businesses are present at the location?
+314 ● What is the condition of the grinding stone – cracked/filled with solder, uncracked in
+315 good condition, etc.?
+316 ● What is currently being ground/what appears to have been ground recently?
+317 ● Visible color/pigments being used – what hue/what type
+318
+319 Questions
+320 ● Describe your daily operations – what you do from the moment you open your business
+321 to the moment you close your business on a typical day.
+322 ● Do you face any challenges in the operation of your business? If yes, what?
+323 ● Who are your customers? (e.g., vendors selling ground goods in the market, companies
+324 grinding spice or grains for package/sale elsewhere, or individuals grinding small
+325 quantities)
+326 ● What foods/materials do you grind? Spices, grains, etc.
+327 ● Between food types, do you do anything to clean or ready your machinery for the next
+328 item? For example, let’s say you were just grinding turmeric root and now you need to
+329 grind
+330 ● What rates do you charge for grinding materials (e.g., per kg ground)? Do your rates of
+331 grinding cost per kg vary by food type? Do rates vary by quantity ground? Do you have a
+332 minimum amount (e.g., X kg) required for grinding?
+333 ● Do you ever have to repair your grinding equipment/grinding stone? If yes, how do you
+334 do that?
+335 ● Does anyone ever do any inspections of your business? Who does inspections? What are
+336 they inspecting for? How frequently do they do inspections? What are the
+337 repercussions/penalties for not passing an inspection?
+338 ● Are there any punishments for other shops that sell adulterated products? If yes, what?
+339
+340
+341
+33
+=== page 34 ===
+342 Turmeric polisher interview guide
+343 Demographic information: Age, Sex, religion, education level, primary occupation/title, years
+344 involved in business
+345
+346 Directions: Aim to speak with two individuals per polishing mill: 1) the owner, and 2) a worker
+347 who operates the polishing machine. Ideally, send two interviewers so one person can speak with
+348 the owner at the same time as the other person is speaking with the polishing machine operator.
+349 The reason for this is that sometimes a worker will share more information more honestly when
+350 the owner is preoccupied.
+351
+352
+353 Observations
+354 • Move around the processing mill and observe is there any empty packet of yellow
+355 pigment. At the end only, after completing the data collection, ask the following about the
+356 empty packet (may not answer these questions):
+357 ● What is it? What is the local name of whatever was inside?
+358 ● What is the purpose of using it? Why?
+359 ● How do they use it?
+360 ● From where they bring it?
+361 ● What is the price?
+362 Questions
+363 Polisher ID – Assign a unique 2-digit polisher ID to the polisher starting with 01 and advancing.
+364 Date and time of visit
+365 Mill location – district, sub-district, village, GPS coordinates
+366 • Describe your daily operations – what you do from the moment you open your business
+367 to the moment you close your business on a typical day.
+368 • Do you face any challenges in the operation of your business? If yes, what?
+369 # Years Active or Inactive
+370 • Number of years the polishing mill has been active and inactive. For example, a mill may
+371 have been inactive for the past 2 years, but active for 5 years before that.
+372 Number of polishing machines and the capacity in kg for each machine
+373 • What is the maximum capacity or size of the machine(s)? For example, how many kg, or
+374 tons (tn) of roots can fit in the machine for polishing at a time? Write separately for each
+375 machine and add notes or additional machines as necessary.
+376 Seasonality
+377 • What are the typical months when turmeric is harvested, dried, and polished? What are
+378 you busiest months of operation? What are your slowest months?
+379 Employees
+380 • Write the number of employees year-round and any additional employees in turmeric
+381 season. The sum of these numbers should be the total number of employees.
+382 Quantity polished
+383 • Write the total amount (kg/tons) of turmeric you polish in turmeric season AND outside
+384 of turmeric season. Write total and whether it is in kg, or tons).
+385 Customers
+=== page 35 ===
+386 • To what cities/locations is your polished turmeric distributed? List them and mention
+387 relative proportions – e.g., 50% to Bihar, 25% to Buxar, 25% to Varanasi.
+388 • Write any contact information for customers/destination of turmeric (write in order from
+389 those who you sell the most turmeric to, to those who you sell the least by volume).
+390 Suppliers
+391 • Who supplies your turmeric throughout the year (probe about differences in turmeric
+392 season and outside of turmeric season)? Where is the turmeric grown and dried (note the
+393 name of the district/village as well as the approximate distance from the polishing mill).
+394 Quality
+395 • In your opinion, where does turmeric of the best quality come from in India? What about
+396 turmeric of the lowest quality?
+397 Additives
+398 • We have heard that some people add additives to turmeric to enhance its color or
+399 quantity. What do you know about this?
+400 • Some people have mentioned that grinding mills sometimes add rice flour or other
+401 starchy substances to turmeric powder. What do you know about this?
+402 • Some polishing mills have mentioned that additives like colored powders are added to
+403 enhance turmeric color during polishing. What do you know about this practice?
+404 • Write name of substances you know about, cost (rupees/kg), and amount added (g or kg
+405 of color per kg turmeric). Note if different for finger or bulb. Does your mill ever add
+406 these? If so, why?
+407
+408 Inspection
+409 Some people have told us that their mills have been inspected by police/the government. Has
+410 your mill ever been inspected? How frequently? When was the last inspection? What do
+411 inspectors inspect for? Do inspectors care if you are adding color?
+412
+413
+414
+415
+35
+=== page 36 ===
+416 Turmeric farmer interview guide
+417 Demographic information: Age, sex, religion, education level, primary occupation/title, years
+418 involved in business
+419
+420 Questions
+421 Date and time of visit
+422 Location – district, sub-district, village
+423 • Describe your daily operations – what you do from the moment you wake up to the
+424 moment you go to sleep on a typical day. Do you only grow turmeric or also dry, and
+425 polish it?
+426 • Do you face any challenges in the operation of your business? If yes, what?
+427 • What other crops do you grow on your land? Is there a rotation during different months
+428 • Area of land for growing turmeric
+429 Quantity/varieties grown
+430 • Write the total amount (kg/tons of fresh or dried root) of turmeric you harvest?
+431 • Where do you get your turmeric seeds? How many varieties do you grow?
+432
+433 Turmeric season
+434 ● During what months do you sow seeds?
+435 ● During what months do you harvest turmeric root?
+436 ● During what months do you dry turmeric root?
+437
+438 Employees
+439 • Write the number of employees year-round and any additional employees in turmeric
+440 season. The sum of these numbers should be the total number of employees.
+441
+442 Customers
+443 • To what cities/locations is your turmeric distributed? List them and mention relative
+444 proportions – e.g., 50% to Bihar, 25% to Buxar, 25% to Varanasi.
+445
+446 Quality
+447 • In your opinion, where does turmeric of the best quality come from in India? What about
+448 turmeric of the lowest quality?
+449
+450 Additives
+451 ● We have heard that some people add additives to turmeric to enhance its color or
+452 quantity. What do you know about this?
+453 ● Some people have mentioned that grinding mills sometimes add rice flour or other
+454 starchy substances to turmeric powder. What do you know about this?
+455 ● Some polishing mills have mentioned that additives like colored powders are added to
+456 enhance turmeric color during polishing. What do you know about this practice?
+457 ● Write name of substances you know about, cost (rupees/kg), and amount added (g or kg
+458 of color per kg turmeric). Note if different for finger or bulb.
+459
+460 Inspection
+=== page 37 ===
+461 • Some people have told us that polishing mills have been inspected by police/the
+462 government. What do you know about this? What do inspectors look for? Do they care if
+463 you people are adding color?
+464
+37
+=== page 38 ===
+465 Food safety authority/inspector/police interview guide
+466 Demographic information: Age, sex, religion, education level, primary occupation/title, years
+467 involved in business
+468
+469 Information of Job responsibilities
+470 • Who is your employer – name of agency? Who do you report to? Who reports to you?
+471 • Describe your job responsibilities
+472 • Do you conduct food safety inspections? If yes, what types of places and facilities do you
+473 inspect? What are you looking for? (Try to understand which types of issues are most to
+474 least important) How frequently do you inspect different types of food places? Who
+475 accompanies you during inspection?
+476 • What are the repercussions for failing an inspection? If you find a food safety violation
+477 and someone fails an inspection, after how many days do you revisit the same place?
+478 • Do you do any inspections related to spices? If yes, how frequently? Please follow-up
+479 with the same questions as above.
+480 • Have you ever conducted an inspection of a spice grinding facility? When? What were
+481 you looking for?
+482 • When was the last time you encountered a food safety violation related to spices. What
+483 spice? What was the problem? What happened?
+484
+485 Questions regarding turmeric
+486 • Have you ever conducted an inspection of a turmeric polishing mill? When? What were
+487 you looking for?
+488 • What kind of adulteration have you found in turmeric? (probe about specifics as
+489 sometimes vague language can be used)
+490 • What is the process of identifying adulteration? How long does it take/costs involved?
+491 • What is the action you take if you find turmeric adulteration – probe about adulteration
+492 via starchy substances adding volume versus yellow pigments adding color and when in
+493 they are added to root and/or powder?
+494 • What is the punishment for adulteration?
+495 • Have you experienced any difficulties/barriers dealing with [those people]? If yes, what
+496 kind? Please explain.
+497 • (If not mentioned earlier) Did you hear about lead chromate yellow industrial pigments
+498 being added to spices like turmeric? Probe about specifics – added to root or powder, etc.
+499 o Why do you think this turmeric adulteration occurs? Where do you think it
+500 occurs? Who is responsible?
+501 o What could be done to stop spice adulteration like that of turmeric?
+502 • What could be done to make stronger to the inspection team?
+503
+504
+=== page 39 ===
+505 Yellow pigment wholesaler/vendor/businessperson interview guide
+506 Demographic information: Age, sex, religion, education level, primary occupation/title, years
+507 involved in business
+508 ● What pigments do you sell? How many types of yellow pigments do you sell and what are
+509 their names? note colors of pigment powders available for sale, where the pigments are
+510 produced/imported from, and the cost of each unique pigment type
+511 ● Who do you sell your pigments to and what do they do with them?
+512 ● What are your most popular pigments? (note them by color/name)
+513 ● For each type of yellow pigment…
+514 o How long have you sold it?
+515 o Where do you get it from?
+516 o Is it locally produced or imported (if imported, from where?)
+517 o What do people buy it for?
+518 o How does it rank in terms of popularity compared to other types of yellow pigments?
+519 o How much does it cost per kg?
+520 o In what form is it sold (e.g., loose, packaged, dry, mixed as paint, or all)?
+521 o Who are your primary customers (what do they do with it – be specific)?
+522 o How many kg do you sell per month/year?
+523 o Are any of your pigments safe for adding to foods for consumption?
+524 o Are there any regulations or restrictions on your pigments of any color (note which
+525 colors). If yes, when were they established, how are they enforced, what do they
+526 intend to do?
+527
+528
+529
+530
+39
+=== page 40 ===
+531 Description of qualitative methods
+532 Prior to fieldwork, we compiled publicly available information on the turmeric supply
+533 chain to inform data collection. Where possible, interviewers were recruited locally from within
+534 or adjacent to the communities under study, and were extensively trained in social science
+535 research methods. Data collection instruments were designed as conceptual guides rather than
+536 rigid scripts, allowing interviewers to probe organically rather than adhering to verbatim
+537 question delivery. This method is in-line with semi-structured qualitative probing as described by
+538 Patton (2015).
+539
+540 A central component of interviewer training emphasized reframing the research objective
+541 away from individual attribution and toward the identification of broader industry practices. This
+542 approach was intended to reduce social desirability bias and encourage candid discussion of
+543 supply chain norms — recognizing that adulteration is a known phenomenon, and that the goal is
+544 to understand its mechanisms rather than assign blame.
+545
+546 Given the complexity of color adulteration across multiple supply chain stages, iterative
+547 probing over several months was used to establish precise and consistent terminology.
+548 Triangulation was employed throughout, drawing on multiple inference types to examine the
+549 same phenomena from different vantage points. This included interviews with diverse supply
+550 chain actors as well as regulatory stakeholders. Convergent accounts across sources were further
+551 verified against documentary evidence, including photographic documentation of adulteration
+552 processes.
+553
+554 Patton, M. Q. (2015). Qualitative research & evaluation methods: Integrating theory and practice
+555 (4th ed.). SAGE Publications.
+556
+557
+558
+559
+560
