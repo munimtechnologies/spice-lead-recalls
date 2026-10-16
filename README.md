@@ -206,8 +206,10 @@ Limits: the ceilings are the highest values in small published surveys (1-40 sam
 one sample, and the coriander ICP-MS values rest on two samples. NYC reports total chromium as sold; the papers
 report dry weight or do not say. The edge uses the top of the band (2.0) and ignores each lab result's own
 uncertainty. "Robust" means natural chromium cannot explain the ratio, not that the pigment is proven.
-`test_cr_baseline.py` checks the seven pairs above against the shipped table; the per-pair results for all 34 will
-be added to `data/` after the scripted run.
+`test_cr_baseline.py` checks the seven pairs above against the shipped table. The per-pair results for all 34 are in
+[`data/cr_baseline.md`](data/cr_baseline.md), [`data/cr_baseline.json`](data/cr_baseline.json) and
+[`data/cr_baseline.csv`](data/cr_baseline.csv), from a sealed run on the live NYC pairs (pairs sha256 `0dd4a2c4685d`,
+ceilings sha256 `b97b469d8006`): 34 chromate-like pairs, 32 robust and the 2 coriander pairs unresolved.
 
 ### Georgia: did its crackdown reach New York homes?
 
