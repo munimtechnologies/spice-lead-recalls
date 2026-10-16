@@ -12,3 +12,5 @@ coriander,FAAS,18.93,3,"Tefera & Teklewold 2021, Heliyon 7:e07048, PMC8138603","
 black pepper,ICP-MS,0.096,1,"Cicero et al. 2022, Foods 11:548, PMC8871210","whole, Vietnam, Saudi market"
 black pepper,ICP-MS,0.113,1,"Voica et al. 2021, Molecules 26:7081, PMC8658825","Vietnam, Romanian hypermarkets; composite of 5 lots"
 generic,ICP-MS,8.59,,"Ghuniem et al. 2025, Sci Rep, PMC12727808",highest single spice value in the ICP-MS surveys above (cumin); for blends and spices with no row of their own
+turmeric,ICP-MS,2.88,1,"Lopez et al. 2022, Environ Sci Technol 56:16996, PMC9730856","powder TP-01, Bangladesh; Pb 0.00 so the chromium is natural (ICP-MS)"
+coriander,ICP-MS,0.22,1,"Lopez et al. 2022, Environ Sci Technol 56:16996, PMC9730856","powder CP-01, India; clean sample, Pb 0.05 (ICP-MS)"

@@ -19,6 +19,11 @@ By MV2 of Munim, Inc. Prepared with AI agents. Text CC BY 4.0; code Apache-2.0.
   OLS on the Lopez 2022 series gives Cr = 0.28 + 0.193·Pb ppm, and the clean reference
   sample reads 0.22 ppm Cr. This rules out a 10–19 ppm natural chromium background for
   South-Asian coriander powder measured by ICP-MS.
+- [A direct turmeric ICP-MS ceiling, and the regrade it gives (natural_cr_ceilings 0.1.2)](natural-cr-ceilings-0.1.2-result.md) —
+  adding two lead-free Lopez 2022 ICP-MS values raises the turmeric ceiling from 1.9 to
+  2.88 ppm, yet every one of the 34 NYC verdicts holds (32 robust, 2 coriander
+  unresolved); the Algerian turmeric pair stays robust with its margin tightened to
+  0.71 ppm.
 
 ## The Cr(VI) speciation gate (cr_baseline 0.2.0)
 

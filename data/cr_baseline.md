@@ -1,6 +1,6 @@
 # Natural chromium vs NYC's chromate-like spice pairs
 
-cr_baseline 0.2.0. Pairs: https://raw.githubusercontent.com/munimtechnologies/spice-lead-recalls/main/data/nyc_spice_pb_cr_pairs.csv (sha256 0dd4a2c4685d). Ceilings sha256 6ecc36593664.
+cr_baseline 0.2.0. Pairs: https://raw.githubusercontent.com/munimtechnologies/spice-lead-recalls/main/data/nyc_spice_pb_cr_pairs.csv (sha256 0dd4a2c4685d). Ceilings sha256 6f8a9886531d.
 
 - Chromate-like pairs (molar Pb:Cr 0.7-2): 34.
 - baseline robust: 32.
@@ -14,7 +14,7 @@ The edge is the most natural chromium the pair can lose before its ratio rises a
 | Pb row | Cr row | collected | product | bought in | Pb ppm | Cr ppm | molar Pb:Cr | ceilings | edge ppm | highest ceiling | baseline verdict | speciation | final verdict | ceilings at or above the edge |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
 | 3282 | 3281 | 2019-01-22 | Coriander | GEORGIA | 51 | 9.1 | 1.406 | coriander | 2.7 | 18.93 | unresolved | untested | unresolved | ICP-OES 12.45 (Gazwi et al. 2022, Sci Rep 12:9834, PMC9013364); FAAS 18.93 (Tefera & Teklewold 2021, Heliyon 7:e07048, PMC8138603) |
-| 2968 | 2967 | 2018-09-24 | Turmeric | ALGERIA | 20 | 6.1 | 0.823 | turmeric | 3.59 | 1.9 | robust | untested | robust | - |
+| 2968 | 2967 | 2018-09-24 | Turmeric | ALGERIA | 20 | 6.1 | 0.823 | turmeric | 3.59 | 2.88 | robust | untested | robust | - |
 | 2290 | 2289 | 2017-06-07 | Coriander Powder | BANGLADESH | 52 | 12 | 1.087 | coriander | 5.48 | 18.93 | unresolved | untested | unresolved | ICP-OES 12.45 (Gazwi et al. 2022, Sci Rep 12:9834, PMC9013364); FAAS 18.93 (Tefera & Teklewold 2021, Heliyon 7:e07048, PMC8138603) |
 | 707 | 706 | 2013-02-14 | Black Pepper | BANGLADESH | 85 | 21 | 1.016 | black pepper | 10.33 | 0.113 | robust | untested | robust | - |
 | 2156 | 2155 | 2017-03-23 | Spice Mix | BANGLADESH | 170 | 38 | 1.123 | generic | 16.67 | 8.59 | robust | untested | robust | - |
@@ -27,10 +27,10 @@ The edge is the most natural chromium the pair can lose before its ratio rises a
 | 1234 | 1233 | 2015-01-20 | Curry Powder | BANGLADESH | 530 | 140 | 0.95 | curry | 73.5 | 3.55 | robust | untested | robust | - |
 | 702 | 701 | 2013-02-14 | Cinnamon Powder | BANGLADESH | 880 | 220 | 1.004 | cinnamon | 109.58 | 4 | robust | untested | robust | - |
 | 4400 | 4399 | 2019-09-11 | Khmeli Suneli | GEORGIA | 2500 | 500 | 1.255 | generic | 186.32 | 8.59 | robust | untested | robust | - |
-| 4686 | 4685 | 2019-11-19 | Turmeric | INDIA | 2000 | 460 | 1.091 | turmeric | 209.05 | 1.9 | robust | untested | robust | - |
+| 4686 | 4685 | 2019-11-19 | Turmeric | INDIA | 2000 | 460 | 1.091 | turmeric | 209.05 | 2.88 | robust | untested | robust | - |
 | 2385 | 2384 | 2017-07-19 | Svanuri Marili | GEORGIA | 2000 | 500 | 1.004 | generic | 249.05 | 8.59 | robust | untested | robust | - |
 | 1641 | 1640 | 2016-05-04 | Uckho Suneli | GEORGIA | 3500 | 740 | 1.187 | generic | 300.84 | 8.59 | robust | untested | robust | - |
-| 2219 | 2218 | 2017-04-24 | Turmeric Spice Powder | NEPAL | 2700 | 640 | 1.059 | turmeric | 301.22 | 1.9 | robust | untested | robust | - |
+| 2219 | 2218 | 2017-04-24 | Turmeric Spice Powder | NEPAL | 2700 | 640 | 1.059 | turmeric | 301.22 | 2.88 | robust | untested | robust | - |
 | 1244 | 1243 | 2015-01-29 | Svaneti salt | GEORGIA | 4100 | 880 | 1.169 | generic | 365.56 | 8.59 | robust | untested | robust | - |
 | 2604 | 2603 | 2018-01-06 | Marili Spice Mix Powder | GEORGIA | 4300 | 910 | 1.186 | generic | 370.47 | 8.59 | robust | untested | robust | - |
 | 5263 | 5262 | 2020-10-19 | Cumin Powder | UZBEKISTAN | 6700 | 1300 | 1.293 | cumin | 459.33 | 8.59 | robust | untested | robust | - |
