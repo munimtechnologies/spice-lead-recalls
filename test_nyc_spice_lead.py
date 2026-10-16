@@ -128,6 +128,47 @@ class Summary(unittest.TestCase):
         self.assertEqual(s["first_collected"], "2014-01-08")
 
 
+class GeorgiaTrend(unittest.TestCase):
+    RECS = [
+        rec(1, "Khmeli Suneli", "Lead", 22000, date="2017-04-07T00:00:00.000"),
+        rec(2, "Svanuri Marili", "Lead", 4100, date="2017-04-07T00:00:00.000"),
+        rec(3, "Yellow flower", "Lead", 50, date="2019-09-07T00:00:00.000"),
+        rec(4, "Yellow Flower or Kviteli Kvavili", "Lead", 1.4, date="2021-03-28T00:00:00.000"),
+        rec(5, "Red Ajika", "Lead", -1, date="2021-03-28T00:00:00.000"),
+        rec(6, "Ground mixed spices", "Lead", 3.5, date="2022-12-02T00:00:00.000"),
+        rec(7, "Khmeli Suneli", "Lead", 900, date="2018-01-01T00:00:00.000", inv="S"),
+        rec(8, "Chili powder", "Lead", 12700, date="2024-03-01T00:00:00.000", bought="PAKISTAN", inv="A"),
+        rec(9, "Turmeric", "Lead", 300, date="2016-01-01T00:00:00.000", bought="INDIA"),
+    ]
+
+    def test_hypergeom(self):
+        self.assertAlmostEqual(nyc.hypergeom_p0(81, 52, 4), 29 * 28 * 27 * 26 / (81 * 80 * 79 * 78))
+        self.assertEqual(nyc.hypergeom_p0(10, 0, 3), 1.0)
+        self.assertEqual(nyc.hypergeom_p0(5, 5, 1), 0.0)
+        self.assertIsNone(nyc.hypergeom_p0(3, 1, 4))
+
+    def test_groups_and_periods(self):
+        g = nyc.georgia_trend(nyc.lead_rows(self.RECS))
+        ga = g["groups"]["bought in Georgia"]
+        # Store-survey row 7 is left out; row 5 (not detected) counts as a sample at 0 ppm.
+        self.assertEqual(ga["before"], {"samples": 3, ">=100": 2, ">=3206": 2, "max_ppm": 22000.0,
+                                        "collection_dates": 2, "dates_with_hot_sample": 1})
+        self.assertEqual(ga["after"], {"samples": 3, ">=100": 0, ">=3206": 0, "max_ppm": 3.5,
+                                       "collection_dates": 2, "dates_with_hot_sample": 0})
+        el = g["groups"]["bought elsewhere"]
+        self.assertEqual(el["before"]["samples"], 1)
+        self.assertEqual(el["after"][">=3206"], 1)
+        self.assertAlmostEqual(g["p_none_hot_after_samples"], nyc.hypergeom_p0(6, 2, 3))
+        self.assertAlmostEqual(g["p_none_hot_after_dates"], nyc.hypergeom_p0(4, 1, 2))
+        self.assertEqual(sorted(g["georgia_by_year"]), ["2017", "2019", "2021", "2022"])
+        self.assertEqual(g["georgia_by_year"]["2021"]["collection_dates"], 1)
+
+    def test_no_p_when_after_has_hot(self):
+        recs = self.RECS + [rec(10, "Ajika", "Lead", 5200, date="2023-01-01T00:00:00.000")]
+        g = nyc.georgia_trend(nyc.lead_rows(recs))
+        self.assertNotIn("p_none_hot_after_samples", g)
+
+
 class EndToEnd(unittest.TestCase):
     def test_main_with_cached_file(self):
         with tempfile.TemporaryDirectory() as d:
@@ -142,6 +183,7 @@ class EndToEnd(unittest.TestCase):
                 md = fh.read()
             self.assertIn("Georgian saffron (zaprana)", md)
             self.assertIn("| S | 3 |", md)
+            self.assertIn("| bought in Georgia | 2021 on | 0 | 0 | 0 | - | 0 | 0 |", md)
 
 
 if __name__ == "__main__":

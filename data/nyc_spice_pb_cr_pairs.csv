@@ -1,0 +1,62 @@
+lead_row_id,chromium_row_id,collection_date,year,investigation_type,product_name,made_in_country,purchase_country,lead_ppm,chromium_ppm,mass_ratio_pb_cr,molar_ratio_pb_cr,verdict,georgian_style
+5235,5234,2020-09-25,2020,C,TMT Khmeli Suneli,GEORGIA,GEORGIA,78000.0,15000.0,5.2,1.305,chromate-like,True
+2376,2375,2017-07-18,2017,C,Georgian saffron (zaprana),GEORGIA,GEORGIA,48000.0,12000.0,4.0,1.004,chromate-like,True
+2193,2192,2017-04-07,2017,C,Yellow flower,GEORGIA,GEORGIA,22000.0,4100.0,5.366,1.347,chromate-like,True
+2380,2379,2017-07-19,2017,A,Hviteli Hvavili,GEORGIA,GEORGIA,21000.0,4500.0,4.667,1.171,chromate-like,True
+1776,1775,2016-08-16,2016,C,No name Seasoning,RUSSIAN FEDERATION,RUSSIAN FEDERATION,17000.0,3700.0,4.595,1.153,chromate-like,False
+2052,2051,2017-02-02,2017,C,Orange Spice,GEORGIA,GEORGIA,13000.0,3100.0,4.194,1.052,chromate-like,True
+2325,2324,2017-06-28,2017,C,Khneli suneli,GEORGIA,GEORGIA,11000.0,2000.0,5.5,1.38,chromate-like,True
+2195,2194,2017-04-07,2017,C,All purpose soup base powder,GEORGIA,GEORGIA,9600.0,1800.0,5.333,1.338,chromate-like,True
+1778,1777,2016-08-16,2016,C,Saffron,RUSSIAN FEDERATION,RUSSIAN FEDERATION,8000.0,1600.0,5.0,1.255,chromate-like,False
+814,813,2013-06-27,2013,C,Green spices,PAKISTAN,PAKISTAN,7100.0,1400.0,5.071,1.273,chromate-like,False
+872,871,2013-08-15,2013,C,Xarcho Sunely,GEORGIA,GEORGIA,7100.0,1400.0,5.071,1.273,chromate-like,True
+5263,5262,2020-10-19,2020,C,Cumin Powder,UZBEKISTAN,UZBEKISTAN,6700.0,1300.0,5.154,1.293,chromate-like,False
+2958,2957,2018-09-24,2018,A,Paprika,ALGERIA,ALGERIA,5800.0,1200.0,4.833,1.213,chromate-like,False
+3494,3493,2019-02-21,2019,C,Cumin,ECUADOR,ECUADOR,4700.0,1200.0,3.917,0.983,chromate-like,False
+2604,2603,2018-01-06,2018,C,Marili Spice Mix Powder,GEORGIA,GEORGIA,4300.0,910.0,4.725,1.186,chromate-like,True
+1244,1243,2015-01-29,2015,C,Svaneti salt,GEORGIA,GEORGIA,4100.0,880.0,4.659,1.169,chromate-like,True
+1641,1640,2016-05-04,2016,C,Uckho Suneli,GEORGIA,GEORGIA,3500.0,740.0,4.73,1.187,chromate-like,True
+2219,2218,2017-04-24,2017,C,Turmeric Spice Powder,NEPAL,NEPAL,2700.0,640.0,4.219,1.059,chromate-like,False
+4400,4399,2019-09-11,2019,C,Khmeli Suneli,UNKNOWN OR NOT STATED,GEORGIA,2500.0,500.0,5.0,1.255,chromate-like,True
+3034,3033,2018-10-20,2018,C,Raz El Hanout,ALGERIA,ALGERIA,2200.0,310.0,7.097,1.781,chromate-like,False
+2385,2384,2017-07-19,2017,A,Svanuri Marili,GEORGIA,GEORGIA,2000.0,500.0,4.0,1.004,chromate-like,True
+4686,4685,2019-11-19,2019,C,Turmeric,UNKNOWN OR NOT STATED,INDIA,2000.0,460.0,4.348,1.091,chromate-like,False
+702,701,2013-02-14,2013,C,Cinnamon Powder,UNKNOWN OR NOT STATED,BANGLADESH,880.0,220.0,4.0,1.004,chromate-like,False
+3254,3253,2019-01-15,2019,S,Balqees Spices Yemeni Spices Mix,UNKNOWN OR NOT STATED,UNITED STATES,610.0,140.0,4.357,1.093,chromate-like,False
+3227,3226,2019-01-15,2019,S,Balqees Spices Yemeni Spices Mix,UNKNOWN OR NOT STATED,UNITED STATES,570.0,130.0,4.385,1.1,chromate-like,False
+704,703,2013-02-14,2013,C,Cumin Powder,UNKNOWN OR NOT STATED,BANGLADESH,560.0,120.0,4.667,1.171,chromate-like,False
+1234,1233,2015-01-20,2015,C,Curry Powder,BANGLADESH,BANGLADESH,530.0,140.0,3.786,0.95,chromate-like,False
+2231,2230,2017-05-03,2017,C,Curry Masala,PAKISTAN,PAKISTAN,300.0,69.0,4.348,1.091,chromate-like,False
+1105,1104,2014-04-30,2014,C,Fa sauce powder,MALI,MALI,240.0,0.0,,,no chromium detected,False
+1001,1000,2014-01-08,2014,C,Berbere,ERITREA,ERITREA,220.0,0.0,,,no chromium detected,False
+2156,2155,2017-03-23,2017,C,Spice Mix,BANGLADESH,BANGLADESH,170.0,38.0,4.474,1.123,chromate-like,False
+1371,1370,2015-03-18,2015,A,Chili powder,UNKNOWN OR NOT STATED,BANGLADESH,110.0,34.0,3.235,0.812,chromate-like,False
+707,706,2013-02-14,2013,C,Black Pepper,UNKNOWN OR NOT STATED,BANGLADESH,85.0,21.0,4.048,1.016,chromate-like,False
+2290,2289,2017-06-07,2017,A,Coriander Powder,BANGLADESH,BANGLADESH,52.0,12.0,4.333,1.087,chromate-like,False
+3282,3281,2019-01-22,2019,A,Coriander,GEORGIA,GEORGIA,51.0,9.1,5.604,1.406,chromate-like,True
+7639,7638,2024-01-17,2024,C,FIVE SPICE POWDER,UNKNOWN OR NOT STATED,GUYANA,40.0,1.0,40.0,10.038,more lead than chromate,False
+3331,3330,2019-01-28,2019,A,Hot Paprika,MOROCCO,MOROCCO,23.0,0.0,,,no chromium detected,False
+7615,7614,2024-01-10,2024,S,El Servidor Corp Ground Cinnamon,UNKNOWN OR NOT STATED,UNITED STATES,23.0,1.8,12.778,3.207,more lead than chromate,False
+2968,2967,2018-09-24,2018,A,Turmeric,ALGERIA,ALGERIA,20.0,6.1,3.279,0.823,chromate-like,False
+5156,5155,2020-02-27,2020,C,Turmeric,MOROCCO,MOROCCO,15.0,0.0,,,too little lead to judge,False
+3921,3920,2019-05-20,2019,C,Garam Masala,AFGHANISTAN,AFGHANISTAN,13.0,2.7,4.815,1.208,too little lead to judge,False
+7613,7612,2024-01-10,2024,S,Maya Cinnamon Powder,UNKNOWN OR NOT STATED,UNITED STATES,6.3,0.0,,,too little lead to judge,False
+7590,7589,2024-01-04,2024,S,Lisy Ground Cinnamon,UNKNOWN OR NOT STATED,UNITED STATES,3.8,1.3,2.923,0.734,too little lead to judge,False
+7588,7587,2024-01-04,2024,S,EGN Cinnamon Powder,UNKNOWN OR NOT STATED,UNITED STATES,3.6,1.2,3.0,0.753,too little lead to judge,False
+7592,7591,2024-01-04,2024,S,Paras Cinnamon Powder,INDIA,UNITED STATES,3.6,0.0,,,too little lead to judge,False
+7622,7621,2024-01-12,2024,S,Indo-West Indian Ground Cinnamon,UNKNOWN OR NOT STATED,UNITED STATES,2.9,1.1,2.636,0.662,too little lead to judge,False
+7630,7629,2024-01-12,2024,S,Spice Class Ground Cinnamon,UNKNOWN OR NOT STATED,UNITED STATES,2.8,0.52,5.385,1.351,too little lead to judge,False
+7611,7610,2024-01-10,2024,S,Laxmi Cinnamon Powder,VIET NAM,UNITED STATES,2.3,0.8,2.875,0.721,too little lead to judge,False
+7584,7583,2024-01-04,2024,S,Shahzada Cinnamon Powder,UNKNOWN OR NOT STATED,UNITED STATES,2.2,0.95,2.316,0.581,too little lead to judge,False
+7628,7627,2024-01-12,2024,S,Comercial Mexicana Ground Cinnamon,MEXICO,UNITED STATES,2.2,0.67,3.284,0.824,too little lead to judge,False
+7582,7581,2024-01-04,2024,S,Swad Cinnamon Powder,INDIA,UNITED STATES,2.0,0.44,4.545,1.141,too little lead to judge,False
+7663,7662,2024-01-23,2024,S,La Frontera Imports Ground Cinnamon,UNKNOWN OR NOT STATED,UNITED STATES,1.7,0.0,,,too little lead to judge,False
+7586,7585,2024-01-04,2024,S,La Flor Ground Cinnamon,UNKNOWN OR NOT STATED,UNITED STATES,1.1,0.0,,,too little lead to judge,False
+7624,7623,2024-01-12,2024,S,Soogrim's Ceylon Cinnamon Powder,SRI LANKA,UNITED STATES,0.9,0.0,,,too little lead to judge,False
+7617,7616,2024-01-10,2024,S,Salma Cinnamon powder,UNKNOWN OR NOT STATED,UNITED STATES,0.74,0.0,,,too little lead to judge,False
+7626,7625,2024-01-12,2024,S,Salma Cinnamon powder,UNKNOWN OR NOT STATED,UNITED STATES,0.74,0.0,,,too little lead to judge,False
+7619,7618,2024-01-10,2024,S,Salma Cinnamon Powder,UNKNOWN OR NOT STATED,UNITED STATES,0.68,0.0,,,too little lead to judge,False
+7632,7631,2024-01-12,2024,S,Angel Brand Cinnamon Powder,UNKNOWN OR NOT STATED,UNITED STATES,0.47,0.0,,,too little lead to judge,False
+7661,7660,2024-01-23,2024,S,New York Lanka Inc. Cinnamon Powder,UNKNOWN OR NOT STATED,UNITED STATES,0.46,0.52,0.885,0.222,too little lead to judge,False
+7659,7658,2024-01-23,2024,S,Ceylon Spices Organic Cinnamon Powder,SRI LANKA,UNITED STATES,0.35,0.0,,,too little lead to judge,False
+7657,7656,2024-01-23,2024,S,GROMEX Ground Cinnamon,UNKNOWN OR NOT STATED,UNITED STATES,0.0,0.0,,,too little lead to judge,False

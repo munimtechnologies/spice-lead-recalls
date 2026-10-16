@@ -1,0 +1,1364 @@
+{
+ "version": "0.3.0",
+ "source": "https://data.cityofnewyork.us/d/da9u-wz3r",
+ "api": "https://data.cityofnewyork.us/resource/da9u-wz3r.json?$limit=50000&$order=row_id",
+ "sha256": "24eeef00bee75dd4abcf911281870f28d801b291d2303f60597445097160fb52",
+ "rows_read": 9520,
+ "spice_lead_results": 3575,
+ "detected": 1556,
+ "first_collected": "2011-01-04",
+ "last_collected": "2025-12-24",
+ "raman_limit_ppm_pb": 3206,
+ "by_investigation_type": {
+  "A": {
+   "samples": 308,
+   "detected": 191,
+   ">=2": 93,
+   ">=10": 64,
+   ">=100": 43,
+   ">=1000": 26,
+   ">=3206": 14,
+   "max_ppm": 27000.0
+  },
+  "C": {
+   "samples": 2790,
+   "detected": 1186,
+   ">=2": 403,
+   ">=10": 223,
+   ">=100": 145,
+   ">=1000": 72,
+   ">=3206": 32,
+   "max_ppm": 78000.0
+  },
+  "S": {
+   "samples": 477,
+   "detected": 179,
+   ">=2": 41,
+   ">=10": 10,
+   ">=100": 2,
+   ">=1000": 0,
+   ">=3206": 0,
+   "max_ppm": 610.0
+  }
+ },
+ "by_purchase_country_top20": {
+  "UNITED STATES": {
+   "samples": 1438,
+   "detected": 515,
+   ">=2": 110,
+   ">=10": 32,
+   ">=100": 13,
+   ">=1000": 3,
+   ">=3206": 2,
+   "max_ppm": 21000.0
+  },
+  "UNKNOWN OR NOT STATED": {
+   "samples": 615,
+   "detected": 188,
+   ">=2": 36,
+   ">=10": 16,
+   ">=100": 10,
+   ">=1000": 6,
+   ">=3206": 3,
+   "max_ppm": 12700.0
+  },
+  "BANGLADESH": {
+   "samples": 507,
+   "detected": 294,
+   ">=2": 123,
+   ">=10": 75,
+   ">=100": 44,
+   ">=1000": 3,
+   ">=3206": 0,
+   "max_ppm": 1300.0
+  },
+  "GEORGIA": {
+   "samples": 278,
+   "detected": 231,
+   ">=2": 167,
+   ">=10": 121,
+   ">=100": 88,
+   ">=1000": 63,
+   ">=3206": 30,
+   "max_ppm": 78000.0
+  },
+  "INDIA": {
+   "samples": 222,
+   "detected": 70,
+   ">=2": 26,
+   ">=10": 10,
+   ">=100": 6,
+   ">=1000": 5,
+   ">=3206": 0,
+   "max_ppm": 2400.0
+  },
+  "PAKISTAN": {
+   "samples": 111,
+   "detected": 62,
+   ">=2": 21,
+   ">=10": 16,
+   ">=100": 12,
+   ">=1000": 7,
+   ">=3206": 4,
+   "max_ppm": 10000.0
+  },
+  "MOROCCO": {
+   "samples": 50,
+   "detected": 30,
+   ">=2": 8,
+   ">=10": 5,
+   ">=100": 2,
+   ">=1000": 1,
+   ">=3206": 1,
+   "max_ppm": 5400.0
+  },
+  "MEXICO": {
+   "samples": 37,
+   "detected": 9,
+   ">=2": 2,
+   ">=10": 0,
+   ">=100": 0,
+   ">=1000": 0,
+   ">=3206": 0,
+   "max_ppm": 4.0
+  },
+  "NEPAL": {
+   "samples": 30,
+   "detected": 18,
+   ">=2": 4,
+   ">=10": 2,
+   ">=100": 2,
+   ">=1000": 1,
+   ">=3206": 0,
+   "max_ppm": 2700.0
+  },
+  "GUYANA": {
+   "samples": 24,
+   "detected": 12,
+   ">=2": 1,
+   ">=10": 1,
+   ">=100": 0,
+   ">=1000": 0,
+   ">=3206": 0,
+   "max_ppm": 40.0
+  },
+  "ALGERIA": {
+   "samples": 21,
+   "detected": 19,
+   ">=2": 7,
+   ">=10": 4,
+   ">=100": 3,
+   ">=1000": 3,
+   ">=3206": 1,
+   "max_ppm": 5800.0
+  },
+  "EGYPT": {
+   "samples": 19,
+   "detected": 8,
+   ">=2": 1,
+   ">=10": 1,
+   ">=100": 0,
+   ">=1000": 0,
+   ">=3206": 0,
+   "max_ppm": 14.0
+  },
+  "JAMAICA": {
+   "samples": 18,
+   "detected": 3,
+   ">=2": 1,
+   ">=10": 0,
+   ">=100": 0,
+   ">=1000": 0,
+   ">=3206": 0,
+   "max_ppm": 3.7
+  },
+  "TAJIKISTAN": {
+   "samples": 13,
+   "detected": 6,
+   ">=2": 3,
+   ">=10": 0,
+   ">=100": 0,
+   ">=1000": 0,
+   ">=3206": 0,
+   "max_ppm": 7.8
+  },
+  "UZBEKISTAN": {
+   "samples": 13,
+   "detected": 10,
+   ">=2": 1,
+   ">=10": 1,
+   ">=100": 1,
+   ">=1000": 1,
+   ">=3206": 1,
+   "max_ppm": 6700.0
+  },
+  "YEMEN": {
+   "samples": 12,
+   "detected": 5,
+   ">=2": 2,
+   ">=10": 0,
+   ">=100": 0,
+   ">=1000": 0,
+   ">=3206": 0,
+   "max_ppm": 6.9
+  },
+  "GHANA": {
+   "samples": 11,
+   "detected": 5,
+   ">=2": 2,
+   ">=10": 0,
+   ">=100": 0,
+   ">=1000": 0,
+   ">=3206": 0,
+   "max_ppm": 9.6
+  },
+  "LEBANON": {
+   "samples": 9,
+   "detected": 5,
+   ">=2": 0,
+   ">=10": 0,
+   ">=100": 0,
+   ">=1000": 0,
+   ">=3206": 0,
+   "max_ppm": 0.94
+  },
+  "NIGERIA": {
+   "samples": 9,
+   "detected": 1,
+   ">=2": 0,
+   ">=10": 0,
+   ">=100": 0,
+   ">=1000": 0,
+   ">=3206": 0,
+   "max_ppm": 0.72
+  },
+  "RUSSIAN FEDERATION": {
+   "samples": 9,
+   "detected": 9,
+   ">=2": 7,
+   ">=10": 6,
+   ">=100": 6,
+   ">=1000": 4,
+   ">=3206": 3,
+   "max_ppm": 17000.0
+  }
+ },
+ "bought_in_us": {
+  "samples": 1438,
+  ">=3206": 2
+ },
+ "at_or_above_raman_limit": 46,
+ "at_or_above_raman_limit_georgian_style": 35,
+ "above_limit_rows": [
+  {
+   "row_id": 5235,
+   "collection_date": "2020-09-25",
+   "investigation_type": "C",
+   "product_name": "TMT Khmeli Suneli",
+   "made_in_country": "GEORGIA",
+   "purchase_country": "GEORGIA",
+   "lead_ppm": 78000.0,
+   "georgian_style": true
+  },
+  {
+   "row_id": 2376,
+   "collection_date": "2017-07-18",
+   "investigation_type": "C",
+   "product_name": "Georgian saffron (zaprana)",
+   "made_in_country": "GEORGIA",
+   "purchase_country": "GEORGIA",
+   "lead_ppm": 48000.0,
+   "georgian_style": true
+  },
+  {
+   "row_id": 499,
+   "collection_date": "2012-06-15",
+   "investigation_type": "C",
+   "product_name": "Zaprana",
+   "made_in_country": "GEORGIA",
+   "purchase_country": "GEORGIA",
+   "lead_ppm": 27000.0,
+   "georgian_style": true
+  },
+  {
+   "row_id": 2478,
+   "collection_date": "2017-09-13",
+   "investigation_type": "A",
+   "product_name": "Zaprana Yellow Flower",
+   "made_in_country": "GEORGIA",
+   "purchase_country": "GEORGIA",
+   "lead_ppm": 27000.0,
+   "georgian_style": true
+  },
+  {
+   "row_id": 326,
+   "collection_date": "2011-12-05",
+   "investigation_type": "C",
+   "product_name": "Saffron",
+   "made_in_country": "GEORGIA",
+   "purchase_country": "GEORGIA",
+   "lead_ppm": 22000.0,
+   "georgian_style": true
+  },
+  {
+   "row_id": 1206,
+   "collection_date": "2014-11-06",
+   "investigation_type": "A",
+   "product_name": "Georgian spice (Yellow flower)",
+   "made_in_country": "GEORGIA",
+   "purchase_country": "GEORGIA",
+   "lead_ppm": 22000.0,
+   "georgian_style": true
+  },
+  {
+   "row_id": 2193,
+   "collection_date": "2017-04-07",
+   "investigation_type": "C",
+   "product_name": "Yellow flower",
+   "made_in_country": "GEORGIA",
+   "purchase_country": "GEORGIA",
+   "lead_ppm": 22000.0,
+   "georgian_style": true
+  },
+  {
+   "row_id": 2024,
+   "collection_date": "2017-01-31",
+   "investigation_type": "A",
+   "product_name": "Curry Powder",
+   "made_in_country": "UNKNOWN OR NOT STATED",
+   "purchase_country": "UNITED STATES",
+   "lead_ppm": 21000.0,
+   "georgian_style": false
+  },
+  {
+   "row_id": 2380,
+   "collection_date": "2017-07-19",
+   "investigation_type": "A",
+   "product_name": "Hviteli Hvavili",
+   "made_in_country": "GEORGIA",
+   "purchase_country": "GEORGIA",
+   "lead_ppm": 21000.0,
+   "georgian_style": true
+  },
+  {
+   "row_id": 393,
+   "collection_date": "2012-03-09",
+   "investigation_type": "A",
+   "product_name": "Georgian spice",
+   "made_in_country": "UNKNOWN OR NOT STATED",
+   "purchase_country": "GEORGIA",
+   "lead_ppm": 18000.0,
+   "georgian_style": true
+  },
+  {
+   "row_id": 1455,
+   "collection_date": "2015-09-30",
+   "investigation_type": "C",
+   "product_name": "Georgian spice",
+   "made_in_country": "GEORGIA",
+   "purchase_country": "GEORGIA",
+   "lead_ppm": 18000.0,
+   "georgian_style": true
+  },
+  {
+   "row_id": 336,
+   "collection_date": "2011-12-12",
+   "investigation_type": "A",
+   "product_name": "Georgian spice",
+   "made_in_country": "UNKNOWN OR NOT STATED",
+   "purchase_country": "GEORGIA",
+   "lead_ppm": 17000.0,
+   "georgian_style": true
+  },
+  {
+   "row_id": 1224,
+   "collection_date": "2015-01-06",
+   "investigation_type": "C",
+   "product_name": "Suneli",
+   "made_in_country": "GEORGIA",
+   "purchase_country": "GEORGIA",
+   "lead_ppm": 17000.0,
+   "georgian_style": true
+  },
+  {
+   "row_id": 1776,
+   "collection_date": "2016-08-16",
+   "investigation_type": "C",
+   "product_name": "No name Seasoning",
+   "made_in_country": "RUSSIAN FEDERATION",
+   "purchase_country": "RUSSIAN FEDERATION",
+   "lead_ppm": 17000.0,
+   "georgian_style": false
+  },
+  {
+   "row_id": 2004,
+   "collection_date": "2017-01-21",
+   "investigation_type": "C",
+   "product_name": "Yellow flower",
+   "made_in_country": "GEORGIA",
+   "purchase_country": "GEORGIA",
+   "lead_ppm": 17000.0,
+   "georgian_style": true
+  },
+  {
+   "row_id": 89,
+   "collection_date": "2011-04-07",
+   "investigation_type": "A",
+   "product_name": "Georgian spice (Yellow flour)",
+   "made_in_country": "GEORGIA",
+   "purchase_country": "GEORGIA",
+   "lead_ppm": 14000.0,
+   "georgian_style": true
+  },
+  {
+   "row_id": 147,
+   "collection_date": "2011-05-03",
+   "investigation_type": "C",
+   "product_name": "Suneli",
+   "made_in_country": "GEORGIA",
+   "purchase_country": "GEORGIA",
+   "lead_ppm": 14000.0,
+   "georgian_style": true
+  },
+  {
+   "row_id": 2052,
+   "collection_date": "2017-02-02",
+   "investigation_type": "C",
+   "product_name": "Orange Spice",
+   "made_in_country": "GEORGIA",
+   "purchase_country": "GEORGIA",
+   "lead_ppm": 13000.0,
+   "georgian_style": true
+  },
+  {
+   "row_id": 8065,
+   "collection_date": "2024-06-24",
+   "investigation_type": "C",
+   "product_name": "GEORGIAN CHILLI POWDER",
+   "made_in_country": "UNKNOWN OR NOT STATED",
+   "purchase_country": "UNKNOWN OR NOT STATED",
+   "lead_ppm": 12700.0,
+   "georgian_style": true
+  },
+  {
+   "row_id": 165,
+   "collection_date": "2011-05-04",
+   "investigation_type": "A",
+   "product_name": "Georgian spice",
+   "made_in_country": "GEORGIA",
+   "purchase_country": "GEORGIA",
+   "lead_ppm": 11000.0,
+   "georgian_style": true
+  },
+  {
+   "row_id": 275,
+   "collection_date": "2011-08-26",
+   "investigation_type": "C",
+   "product_name": "Georgian spice",
+   "made_in_country": "UNKNOWN OR NOT STATED",
+   "purchase_country": "GEORGIA",
+   "lead_ppm": 11000.0,
+   "georgian_style": true
+  },
+  {
+   "row_id": 2200,
+   "collection_date": "2017-04-14",
+   "investigation_type": "C",
+   "product_name": "Yellow flower",
+   "made_in_country": "GEORGIA",
+   "purchase_country": "GEORGIA",
+   "lead_ppm": 11000.0,
+   "georgian_style": true
+  },
+  {
+   "row_id": 2233,
+   "collection_date": "2017-05-03",
+   "investigation_type": "C",
+   "product_name": "Yellow flower",
+   "made_in_country": "GEORGIA",
+   "purchase_country": "GEORGIA",
+   "lead_ppm": 11000.0,
+   "georgian_style": true
+  },
+  {
+   "row_id": 2325,
+   "collection_date": "2017-06-28",
+   "investigation_type": "C",
+   "product_name": "Khneli suneli",
+   "made_in_country": "GEORGIA",
+   "purchase_country": "GEORGIA",
+   "lead_ppm": 11000.0,
+   "georgian_style": true
+  },
+  {
+   "row_id": 5043,
+   "collection_date": "2020-01-29",
+   "investigation_type": "C",
+   "product_name": "Turmeric",
+   "made_in_country": "UNKNOWN OR NOT STATED",
+   "purchase_country": "PAKISTAN",
+   "lead_ppm": 10000.0,
+   "georgian_style": false
+  },
+  {
+   "row_id": 2195,
+   "collection_date": "2017-04-07",
+   "investigation_type": "C",
+   "product_name": "All purpose soup base powder",
+   "made_in_country": "GEORGIA",
+   "purchase_country": "GEORGIA",
+   "lead_ppm": 9600.0,
+   "georgian_style": true
+  },
+  {
+   "row_id": 610,
+   "collection_date": "2012-10-16",
+   "investigation_type": "C",
+   "product_name": "Georgian spice",
+   "made_in_country": "UNKNOWN OR NOT STATED",
+   "purchase_country": "GEORGIA",
+   "lead_ppm": 8000.0,
+   "georgian_style": true
+  },
+  {
+   "row_id": 1778,
+   "collection_date": "2016-08-16",
+   "investigation_type": "C",
+   "product_name": "Saffron",
+   "made_in_country": "RUSSIAN FEDERATION",
+   "purchase_country": "RUSSIAN FEDERATION",
+   "lead_ppm": 8000.0,
+   "georgian_style": false
+  },
+  {
+   "row_id": 5280,
+   "collection_date": "2020-11-02",
+   "investigation_type": "A",
+   "product_name": "TMT Khmeli suneli",
+   "made_in_country": "GEORGIA",
+   "purchase_country": "UNITED STATES",
+   "lead_ppm": 7200.0,
+   "georgian_style": true
+  },
+  {
+   "row_id": 814,
+   "collection_date": "2013-06-27",
+   "investigation_type": "C",
+   "product_name": "Green spices",
+   "made_in_country": "PAKISTAN",
+   "purchase_country": "PAKISTAN",
+   "lead_ppm": 7100.0,
+   "georgian_style": false
+  },
+  {
+   "row_id": 872,
+   "collection_date": "2013-08-15",
+   "investigation_type": "C",
+   "product_name": "Xarcho Sunely",
+   "made_in_country": "GEORGIA",
+   "purchase_country": "GEORGIA",
+   "lead_ppm": 7100.0,
+   "georgian_style": true
+  },
+  {
+   "row_id": 1774,
+   "collection_date": "2016-08-16",
+   "investigation_type": "C",
+   "product_name": "Georgian Salt",
+   "made_in_country": "RUSSIAN FEDERATION",
+   "purchase_country": "RUSSIAN FEDERATION",
+   "lead_ppm": 7100.0,
+   "georgian_style": true
+  },
+  {
+   "row_id": 5263,
+   "collection_date": "2020-10-19",
+   "investigation_type": "C",
+   "product_name": "Cumin Powder",
+   "made_in_country": "UZBEKISTAN",
+   "purchase_country": "UZBEKISTAN",
+   "lead_ppm": 6700.0,
+   "georgian_style": false
+  },
+  {
+   "row_id": 2958,
+   "collection_date": "2018-09-24",
+   "investigation_type": "A",
+   "product_name": "Paprika",
+   "made_in_country": "ALGERIA",
+   "purchase_country": "ALGERIA",
+   "lead_ppm": 5800.0,
+   "georgian_style": false
+  },
+  {
+   "row_id": 8335,
+   "collection_date": "2024-10-01",
+   "investigation_type": "C",
+   "product_name": "All purpose seasoning",
+   "made_in_country": "UNKNOWN OR NOT STATED",
+   "purchase_country": "MOROCCO",
+   "lead_ppm": 5400.0,
+   "georgian_style": false
+  },
+  {
+   "row_id": 4896,
+   "collection_date": "2020-01-07",
+   "investigation_type": "C",
+   "product_name": "Ajika",
+   "made_in_country": "GEORGIA",
+   "purchase_country": "GEORGIA",
+   "lead_ppm": 5200.0,
+   "georgian_style": true
+  },
+  {
+   "row_id": 927,
+   "collection_date": "2013-10-25",
+   "investigation_type": "A",
+   "product_name": "Georgian spice (yellow flour cilantro)",
+   "made_in_country": "GEORGIA",
+   "purchase_country": "GEORGIA",
+   "lead_ppm": 4800.0,
+   "georgian_style": true
+  },
+  {
+   "row_id": 3494,
+   "collection_date": "2019-02-21",
+   "investigation_type": "C",
+   "product_name": "Cumin",
+   "made_in_country": "ECUADOR",
+   "purchase_country": "ECUADOR",
+   "lead_ppm": 4700.0,
+   "georgian_style": false
+  },
+  {
+   "row_id": 1097,
+   "collection_date": "2014-04-29",
+   "investigation_type": "A",
+   "product_name": "Svanuri Mareeli - Svanetian salt",
+   "made_in_country": "UNKNOWN OR NOT STATED",
+   "purchase_country": "UNKNOWN OR NOT STATED",
+   "lead_ppm": 4400.0,
+   "georgian_style": true
+  },
+  {
+   "row_id": 815,
+   "collection_date": "2013-06-27",
+   "investigation_type": "C",
+   "product_name": "Red hot spices",
+   "made_in_country": "PAKISTAN",
+   "purchase_country": "PAKISTAN",
+   "lead_ppm": 4300.0,
+   "georgian_style": false
+  },
+  {
+   "row_id": 2604,
+   "collection_date": "2018-01-06",
+   "investigation_type": "C",
+   "product_name": "Marili Spice Mix Powder",
+   "made_in_country": "GEORGIA",
+   "purchase_country": "GEORGIA",
+   "lead_ppm": 4300.0,
+   "georgian_style": true
+  },
+  {
+   "row_id": 1244,
+   "collection_date": "2015-01-29",
+   "investigation_type": "C",
+   "product_name": "Svaneti salt",
+   "made_in_country": "GEORGIA",
+   "purchase_country": "GEORGIA",
+   "lead_ppm": 4100.0,
+   "georgian_style": true
+  },
+  {
+   "row_id": 2889,
+   "collection_date": "2018-08-20",
+   "investigation_type": "C",
+   "product_name": "Garam Masala",
+   "made_in_country": "PAKISTAN",
+   "purchase_country": "PAKISTAN",
+   "lead_ppm": 3900.0,
+   "georgian_style": false
+  },
+  {
+   "row_id": 1641,
+   "collection_date": "2016-05-04",
+   "investigation_type": "C",
+   "product_name": "Uckho Suneli",
+   "made_in_country": "GEORGIA",
+   "purchase_country": "GEORGIA",
+   "lead_ppm": 3500.0,
+   "georgian_style": true
+  },
+  {
+   "row_id": 1100,
+   "collection_date": "2014-04-29",
+   "investigation_type": "A",
+   "product_name": "Georgian \"Dry Ajeeka\" or \"Msurali Ajeeka\"",
+   "made_in_country": "UNKNOWN OR NOT STATED",
+   "purchase_country": "UNKNOWN OR NOT STATED",
+   "lead_ppm": 3400.0,
+   "georgian_style": true
+  },
+  {
+   "row_id": 1156,
+   "collection_date": "2014-08-14",
+   "investigation_type": "A",
+   "product_name": "Kharcho",
+   "made_in_country": "GEORGIA",
+   "purchase_country": "GEORGIA",
+   "lead_ppm": 3300.0,
+   "georgian_style": true
+  }
+ ],
+ "chromate_band_molar": [
+  0.7,
+  2.0
+ ],
+ "pair_min_pb_ppm": 18.0,
+ "pb_cr_pairs": 61,
+ "pb_cr_pairs_judged": 39,
+ "pb_cr_verdicts": {
+  "chromate-like": 34,
+  "too little lead to judge": 22,
+  "no chromium detected": 3,
+  "more lead than chromate": 2
+ },
+ "chromate_like": 34,
+ "chromate_like_molar_min": 0.812,
+ "chromate_like_molar_median": 1.161,
+ "chromate_like_molar_max": 1.781,
+ "chromate_like_by_purchase_country": {
+  "GEORGIA": 14,
+  "BANGLADESH": 7,
+  "ALGERIA": 3,
+  "PAKISTAN": 2,
+  "RUSSIAN FEDERATION": 2,
+  "UNITED STATES": 2,
+  "ECUADOR": 1,
+  "INDIA": 1,
+  "NEPAL": 1,
+  "UZBEKISTAN": 1
+ },
+ "chromate_like_store_survey": 2,
+ "judged_pairs": [
+  {
+   "lead_row_id": 5235,
+   "chromium_row_id": 5234,
+   "collection_date": "2020-09-25",
+   "investigation_type": "C",
+   "product_name": "TMT Khmeli Suneli",
+   "purchase_country": "GEORGIA",
+   "lead_ppm": 78000.0,
+   "chromium_ppm": 15000.0,
+   "molar_ratio_pb_cr": 1.305,
+   "verdict": "chromate-like"
+  },
+  {
+   "lead_row_id": 2376,
+   "chromium_row_id": 2375,
+   "collection_date": "2017-07-18",
+   "investigation_type": "C",
+   "product_name": "Georgian saffron (zaprana)",
+   "purchase_country": "GEORGIA",
+   "lead_ppm": 48000.0,
+   "chromium_ppm": 12000.0,
+   "molar_ratio_pb_cr": 1.004,
+   "verdict": "chromate-like"
+  },
+  {
+   "lead_row_id": 2193,
+   "chromium_row_id": 2192,
+   "collection_date": "2017-04-07",
+   "investigation_type": "C",
+   "product_name": "Yellow flower",
+   "purchase_country": "GEORGIA",
+   "lead_ppm": 22000.0,
+   "chromium_ppm": 4100.0,
+   "molar_ratio_pb_cr": 1.347,
+   "verdict": "chromate-like"
+  },
+  {
+   "lead_row_id": 2380,
+   "chromium_row_id": 2379,
+   "collection_date": "2017-07-19",
+   "investigation_type": "A",
+   "product_name": "Hviteli Hvavili",
+   "purchase_country": "GEORGIA",
+   "lead_ppm": 21000.0,
+   "chromium_ppm": 4500.0,
+   "molar_ratio_pb_cr": 1.171,
+   "verdict": "chromate-like"
+  },
+  {
+   "lead_row_id": 1776,
+   "chromium_row_id": 1775,
+   "collection_date": "2016-08-16",
+   "investigation_type": "C",
+   "product_name": "No name Seasoning",
+   "purchase_country": "RUSSIAN FEDERATION",
+   "lead_ppm": 17000.0,
+   "chromium_ppm": 3700.0,
+   "molar_ratio_pb_cr": 1.153,
+   "verdict": "chromate-like"
+  },
+  {
+   "lead_row_id": 2052,
+   "chromium_row_id": 2051,
+   "collection_date": "2017-02-02",
+   "investigation_type": "C",
+   "product_name": "Orange Spice",
+   "purchase_country": "GEORGIA",
+   "lead_ppm": 13000.0,
+   "chromium_ppm": 3100.0,
+   "molar_ratio_pb_cr": 1.052,
+   "verdict": "chromate-like"
+  },
+  {
+   "lead_row_id": 2325,
+   "chromium_row_id": 2324,
+   "collection_date": "2017-06-28",
+   "investigation_type": "C",
+   "product_name": "Khneli suneli",
+   "purchase_country": "GEORGIA",
+   "lead_ppm": 11000.0,
+   "chromium_ppm": 2000.0,
+   "molar_ratio_pb_cr": 1.38,
+   "verdict": "chromate-like"
+  },
+  {
+   "lead_row_id": 2195,
+   "chromium_row_id": 2194,
+   "collection_date": "2017-04-07",
+   "investigation_type": "C",
+   "product_name": "All purpose soup base powder",
+   "purchase_country": "GEORGIA",
+   "lead_ppm": 9600.0,
+   "chromium_ppm": 1800.0,
+   "molar_ratio_pb_cr": 1.338,
+   "verdict": "chromate-like"
+  },
+  {
+   "lead_row_id": 1778,
+   "chromium_row_id": 1777,
+   "collection_date": "2016-08-16",
+   "investigation_type": "C",
+   "product_name": "Saffron",
+   "purchase_country": "RUSSIAN FEDERATION",
+   "lead_ppm": 8000.0,
+   "chromium_ppm": 1600.0,
+   "molar_ratio_pb_cr": 1.255,
+   "verdict": "chromate-like"
+  },
+  {
+   "lead_row_id": 814,
+   "chromium_row_id": 813,
+   "collection_date": "2013-06-27",
+   "investigation_type": "C",
+   "product_name": "Green spices",
+   "purchase_country": "PAKISTAN",
+   "lead_ppm": 7100.0,
+   "chromium_ppm": 1400.0,
+   "molar_ratio_pb_cr": 1.273,
+   "verdict": "chromate-like"
+  },
+  {
+   "lead_row_id": 872,
+   "chromium_row_id": 871,
+   "collection_date": "2013-08-15",
+   "investigation_type": "C",
+   "product_name": "Xarcho Sunely",
+   "purchase_country": "GEORGIA",
+   "lead_ppm": 7100.0,
+   "chromium_ppm": 1400.0,
+   "molar_ratio_pb_cr": 1.273,
+   "verdict": "chromate-like"
+  },
+  {
+   "lead_row_id": 5263,
+   "chromium_row_id": 5262,
+   "collection_date": "2020-10-19",
+   "investigation_type": "C",
+   "product_name": "Cumin Powder",
+   "purchase_country": "UZBEKISTAN",
+   "lead_ppm": 6700.0,
+   "chromium_ppm": 1300.0,
+   "molar_ratio_pb_cr": 1.293,
+   "verdict": "chromate-like"
+  },
+  {
+   "lead_row_id": 2958,
+   "chromium_row_id": 2957,
+   "collection_date": "2018-09-24",
+   "investigation_type": "A",
+   "product_name": "Paprika",
+   "purchase_country": "ALGERIA",
+   "lead_ppm": 5800.0,
+   "chromium_ppm": 1200.0,
+   "molar_ratio_pb_cr": 1.213,
+   "verdict": "chromate-like"
+  },
+  {
+   "lead_row_id": 3494,
+   "chromium_row_id": 3493,
+   "collection_date": "2019-02-21",
+   "investigation_type": "C",
+   "product_name": "Cumin",
+   "purchase_country": "ECUADOR",
+   "lead_ppm": 4700.0,
+   "chromium_ppm": 1200.0,
+   "molar_ratio_pb_cr": 0.983,
+   "verdict": "chromate-like"
+  },
+  {
+   "lead_row_id": 2604,
+   "chromium_row_id": 2603,
+   "collection_date": "2018-01-06",
+   "investigation_type": "C",
+   "product_name": "Marili Spice Mix Powder",
+   "purchase_country": "GEORGIA",
+   "lead_ppm": 4300.0,
+   "chromium_ppm": 910.0,
+   "molar_ratio_pb_cr": 1.186,
+   "verdict": "chromate-like"
+  },
+  {
+   "lead_row_id": 1244,
+   "chromium_row_id": 1243,
+   "collection_date": "2015-01-29",
+   "investigation_type": "C",
+   "product_name": "Svaneti salt",
+   "purchase_country": "GEORGIA",
+   "lead_ppm": 4100.0,
+   "chromium_ppm": 880.0,
+   "molar_ratio_pb_cr": 1.169,
+   "verdict": "chromate-like"
+  },
+  {
+   "lead_row_id": 1641,
+   "chromium_row_id": 1640,
+   "collection_date": "2016-05-04",
+   "investigation_type": "C",
+   "product_name": "Uckho Suneli",
+   "purchase_country": "GEORGIA",
+   "lead_ppm": 3500.0,
+   "chromium_ppm": 740.0,
+   "molar_ratio_pb_cr": 1.187,
+   "verdict": "chromate-like"
+  },
+  {
+   "lead_row_id": 2219,
+   "chromium_row_id": 2218,
+   "collection_date": "2017-04-24",
+   "investigation_type": "C",
+   "product_name": "Turmeric Spice Powder",
+   "purchase_country": "NEPAL",
+   "lead_ppm": 2700.0,
+   "chromium_ppm": 640.0,
+   "molar_ratio_pb_cr": 1.059,
+   "verdict": "chromate-like"
+  },
+  {
+   "lead_row_id": 4400,
+   "chromium_row_id": 4399,
+   "collection_date": "2019-09-11",
+   "investigation_type": "C",
+   "product_name": "Khmeli Suneli",
+   "purchase_country": "GEORGIA",
+   "lead_ppm": 2500.0,
+   "chromium_ppm": 500.0,
+   "molar_ratio_pb_cr": 1.255,
+   "verdict": "chromate-like"
+  },
+  {
+   "lead_row_id": 3034,
+   "chromium_row_id": 3033,
+   "collection_date": "2018-10-20",
+   "investigation_type": "C",
+   "product_name": "Raz El Hanout",
+   "purchase_country": "ALGERIA",
+   "lead_ppm": 2200.0,
+   "chromium_ppm": 310.0,
+   "molar_ratio_pb_cr": 1.781,
+   "verdict": "chromate-like"
+  },
+  {
+   "lead_row_id": 2385,
+   "chromium_row_id": 2384,
+   "collection_date": "2017-07-19",
+   "investigation_type": "A",
+   "product_name": "Svanuri Marili",
+   "purchase_country": "GEORGIA",
+   "lead_ppm": 2000.0,
+   "chromium_ppm": 500.0,
+   "molar_ratio_pb_cr": 1.004,
+   "verdict": "chromate-like"
+  },
+  {
+   "lead_row_id": 4686,
+   "chromium_row_id": 4685,
+   "collection_date": "2019-11-19",
+   "investigation_type": "C",
+   "product_name": "Turmeric",
+   "purchase_country": "INDIA",
+   "lead_ppm": 2000.0,
+   "chromium_ppm": 460.0,
+   "molar_ratio_pb_cr": 1.091,
+   "verdict": "chromate-like"
+  },
+  {
+   "lead_row_id": 702,
+   "chromium_row_id": 701,
+   "collection_date": "2013-02-14",
+   "investigation_type": "C",
+   "product_name": "Cinnamon Powder",
+   "purchase_country": "BANGLADESH",
+   "lead_ppm": 880.0,
+   "chromium_ppm": 220.0,
+   "molar_ratio_pb_cr": 1.004,
+   "verdict": "chromate-like"
+  },
+  {
+   "lead_row_id": 3254,
+   "chromium_row_id": 3253,
+   "collection_date": "2019-01-15",
+   "investigation_type": "S",
+   "product_name": "Balqees Spices Yemeni Spices Mix",
+   "purchase_country": "UNITED STATES",
+   "lead_ppm": 610.0,
+   "chromium_ppm": 140.0,
+   "molar_ratio_pb_cr": 1.093,
+   "verdict": "chromate-like"
+  },
+  {
+   "lead_row_id": 3227,
+   "chromium_row_id": 3226,
+   "collection_date": "2019-01-15",
+   "investigation_type": "S",
+   "product_name": "Balqees Spices Yemeni Spices Mix",
+   "purchase_country": "UNITED STATES",
+   "lead_ppm": 570.0,
+   "chromium_ppm": 130.0,
+   "molar_ratio_pb_cr": 1.1,
+   "verdict": "chromate-like"
+  },
+  {
+   "lead_row_id": 704,
+   "chromium_row_id": 703,
+   "collection_date": "2013-02-14",
+   "investigation_type": "C",
+   "product_name": "Cumin Powder",
+   "purchase_country": "BANGLADESH",
+   "lead_ppm": 560.0,
+   "chromium_ppm": 120.0,
+   "molar_ratio_pb_cr": 1.171,
+   "verdict": "chromate-like"
+  },
+  {
+   "lead_row_id": 1234,
+   "chromium_row_id": 1233,
+   "collection_date": "2015-01-20",
+   "investigation_type": "C",
+   "product_name": "Curry Powder",
+   "purchase_country": "BANGLADESH",
+   "lead_ppm": 530.0,
+   "chromium_ppm": 140.0,
+   "molar_ratio_pb_cr": 0.95,
+   "verdict": "chromate-like"
+  },
+  {
+   "lead_row_id": 2231,
+   "chromium_row_id": 2230,
+   "collection_date": "2017-05-03",
+   "investigation_type": "C",
+   "product_name": "Curry Masala",
+   "purchase_country": "PAKISTAN",
+   "lead_ppm": 300.0,
+   "chromium_ppm": 69.0,
+   "molar_ratio_pb_cr": 1.091,
+   "verdict": "chromate-like"
+  },
+  {
+   "lead_row_id": 1105,
+   "chromium_row_id": 1104,
+   "collection_date": "2014-04-30",
+   "investigation_type": "C",
+   "product_name": "Fa sauce powder",
+   "purchase_country": "MALI",
+   "lead_ppm": 240.0,
+   "chromium_ppm": 0.0,
+   "molar_ratio_pb_cr": "",
+   "verdict": "no chromium detected"
+  },
+  {
+   "lead_row_id": 1001,
+   "chromium_row_id": 1000,
+   "collection_date": "2014-01-08",
+   "investigation_type": "C",
+   "product_name": "Berbere",
+   "purchase_country": "ERITREA",
+   "lead_ppm": 220.0,
+   "chromium_ppm": 0.0,
+   "molar_ratio_pb_cr": "",
+   "verdict": "no chromium detected"
+  },
+  {
+   "lead_row_id": 2156,
+   "chromium_row_id": 2155,
+   "collection_date": "2017-03-23",
+   "investigation_type": "C",
+   "product_name": "Spice Mix",
+   "purchase_country": "BANGLADESH",
+   "lead_ppm": 170.0,
+   "chromium_ppm": 38.0,
+   "molar_ratio_pb_cr": 1.123,
+   "verdict": "chromate-like"
+  },
+  {
+   "lead_row_id": 1371,
+   "chromium_row_id": 1370,
+   "collection_date": "2015-03-18",
+   "investigation_type": "A",
+   "product_name": "Chili powder",
+   "purchase_country": "BANGLADESH",
+   "lead_ppm": 110.0,
+   "chromium_ppm": 34.0,
+   "molar_ratio_pb_cr": 0.812,
+   "verdict": "chromate-like"
+  },
+  {
+   "lead_row_id": 707,
+   "chromium_row_id": 706,
+   "collection_date": "2013-02-14",
+   "investigation_type": "C",
+   "product_name": "Black Pepper",
+   "purchase_country": "BANGLADESH",
+   "lead_ppm": 85.0,
+   "chromium_ppm": 21.0,
+   "molar_ratio_pb_cr": 1.016,
+   "verdict": "chromate-like"
+  },
+  {
+   "lead_row_id": 2290,
+   "chromium_row_id": 2289,
+   "collection_date": "2017-06-07",
+   "investigation_type": "A",
+   "product_name": "Coriander Powder",
+   "purchase_country": "BANGLADESH",
+   "lead_ppm": 52.0,
+   "chromium_ppm": 12.0,
+   "molar_ratio_pb_cr": 1.087,
+   "verdict": "chromate-like"
+  },
+  {
+   "lead_row_id": 3282,
+   "chromium_row_id": 3281,
+   "collection_date": "2019-01-22",
+   "investigation_type": "A",
+   "product_name": "Coriander",
+   "purchase_country": "GEORGIA",
+   "lead_ppm": 51.0,
+   "chromium_ppm": 9.1,
+   "molar_ratio_pb_cr": 1.406,
+   "verdict": "chromate-like"
+  },
+  {
+   "lead_row_id": 7639,
+   "chromium_row_id": 7638,
+   "collection_date": "2024-01-17",
+   "investigation_type": "C",
+   "product_name": "FIVE SPICE POWDER",
+   "purchase_country": "GUYANA",
+   "lead_ppm": 40.0,
+   "chromium_ppm": 1.0,
+   "molar_ratio_pb_cr": 10.038,
+   "verdict": "more lead than chromate"
+  },
+  {
+   "lead_row_id": 3331,
+   "chromium_row_id": 3330,
+   "collection_date": "2019-01-28",
+   "investigation_type": "A",
+   "product_name": "Hot Paprika",
+   "purchase_country": "MOROCCO",
+   "lead_ppm": 23.0,
+   "chromium_ppm": 0.0,
+   "molar_ratio_pb_cr": "",
+   "verdict": "no chromium detected"
+  },
+  {
+   "lead_row_id": 7615,
+   "chromium_row_id": 7614,
+   "collection_date": "2024-01-10",
+   "investigation_type": "S",
+   "product_name": "El Servidor Corp Ground Cinnamon",
+   "purchase_country": "UNITED STATES",
+   "lead_ppm": 23.0,
+   "chromium_ppm": 1.8,
+   "molar_ratio_pb_cr": 3.207,
+   "verdict": "more lead than chromate"
+  },
+  {
+   "lead_row_id": 2968,
+   "chromium_row_id": 2967,
+   "collection_date": "2018-09-24",
+   "investigation_type": "A",
+   "product_name": "Turmeric",
+   "purchase_country": "ALGERIA",
+   "lead_ppm": 20.0,
+   "chromium_ppm": 6.1,
+   "molar_ratio_pb_cr": 0.823,
+   "verdict": "chromate-like"
+  }
+ ],
+ "georgia_trend": {
+  "split_year": 2021,
+  "hot_ppm": 100,
+  "groups": {
+   "bought in Georgia": {
+    "before": {
+     "samples": 262,
+     ">=100": 88,
+     ">=3206": 30,
+     "max_ppm": 78000.0,
+     "collection_dates": 77,
+     "dates_with_hot_sample": 52
+    },
+    "after": {
+     "samples": 16,
+     ">=100": 0,
+     ">=3206": 0,
+     "max_ppm": 3.5,
+     "collection_dates": 4,
+     "dates_with_hot_sample": 0
+    }
+   },
+   "bought elsewhere": {
+    "before": {
+     "samples": 1531,
+     ">=100": 88,
+     ">=3206": 14,
+     "max_ppm": 21000.0,
+     "collection_dates": 483,
+     "dates_with_hot_sample": 77
+    },
+    "after": {
+     "samples": 1289,
+     ">=100": 12,
+     ">=3206": 2,
+     "max_ppm": 12700.0,
+     "collection_dates": 361,
+     "dates_with_hot_sample": 10
+    }
+   }
+  },
+  "p_none_hot_after_samples": 0.0018378958590815448,
+  "p_none_hot_after_dates": 0.014275668073136428,
+  "georgia_by_year": {
+   "2011": {
+    "samples": 39,
+    ">=100": 14,
+    ">=3206": 6,
+    "max_ppm": 22000.0,
+    "collection_dates": 10,
+    "dates_with_hot_sample": 8
+   },
+   "2012": {
+    "samples": 17,
+    ">=100": 7,
+    ">=3206": 3,
+    "max_ppm": 27000.0,
+    "collection_dates": 5,
+    "dates_with_hot_sample": 4
+   },
+   "2013": {
+    "samples": 12,
+    ">=100": 2,
+    ">=3206": 2,
+    "max_ppm": 7100.0,
+    "collection_dates": 4,
+    "dates_with_hot_sample": 2
+   },
+   "2014": {
+    "samples": 14,
+    ">=100": 5,
+    ">=3206": 2,
+    "max_ppm": 22000.0,
+    "collection_dates": 5,
+    "dates_with_hot_sample": 3
+   },
+   "2015": {
+    "samples": 13,
+    ">=100": 7,
+    ">=3206": 3,
+    "max_ppm": 18000.0,
+    "collection_dates": 4,
+    "dates_with_hot_sample": 3
+   },
+   "2016": {
+    "samples": 18,
+    ">=100": 5,
+    ">=3206": 1,
+    "max_ppm": 3500.0,
+    "collection_dates": 6,
+    "dates_with_hot_sample": 4
+   },
+   "2017": {
+    "samples": 75,
+    ">=100": 29,
+    ">=3206": 10,
+    "max_ppm": 48000.0,
+    "collection_dates": 18,
+    "dates_with_hot_sample": 16
+   },
+   "2018": {
+    "samples": 15,
+    ">=100": 5,
+    ">=3206": 1,
+    "max_ppm": 4300.0,
+    "collection_dates": 6,
+    "dates_with_hot_sample": 3
+   },
+   "2019": {
+    "samples": 51,
+    ">=100": 10,
+    ">=3206": 0,
+    "max_ppm": 2500.0,
+    "collection_dates": 15,
+    "dates_with_hot_sample": 6
+   },
+   "2020": {
+    "samples": 8,
+    ">=100": 4,
+    ">=3206": 2,
+    "max_ppm": 78000.0,
+    "collection_dates": 4,
+    "dates_with_hot_sample": 3
+   },
+   "2021": {
+    "samples": 3,
+    ">=100": 0,
+    ">=3206": 0,
+    "max_ppm": 1.4,
+    "collection_dates": 1,
+    "dates_with_hot_sample": 0
+   },
+   "2022": {
+    "samples": 10,
+    ">=100": 0,
+    ">=3206": 0,
+    "max_ppm": 3.5,
+    "collection_dates": 2,
+    "dates_with_hot_sample": 0
+   },
+   "2024": {
+    "samples": 3,
+    ">=100": 0,
+    ">=3206": 0,
+    "max_ppm": 0.0,
+    "collection_dates": 1,
+    "dates_with_hot_sample": 0
+   }
+  }
+ }
+}

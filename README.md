@@ -5,11 +5,13 @@ sources:
 
 1. **U.S. FDA food recalls** for lead in spices, from openFDA's food enforcement data (`lead_recalls.py`).
 2. **NYC Health Department lab results**: 3,575 spice lead tests and 61 spice chromium tests from New York City's
-   lead-poisoning investigations and store surveys, 2011-2025 (`nyc_spice_lead.py`, new in 0.2.0).
+   lead-poisoning investigations and store surveys, 2011-2025 (`nyc_spice_lead.py`, new in 0.2.0). Each pair that
+   looks like lead chromate is also checked against the chromium the spice could carry naturally (`cr_baseline.py`,
+   new).
 3. **Public Health - Seattle & King County lab results** for spices from community testing events and case
    investigations, 2019-2026, used with NYC's to ask how low a screen must reach (`lod_curve.py`, new in 0.3.0).
 
-Section 4 adds a sampling model (`spot_sampling.py`, new): how many small Raman spots a screen needs when the pigment
+Section 4 adds a sampling model (`spot_sampling.py`): how many small Raman spots a screen needs when the pigment
 sits in grains, applied to the same lab data.
 
 By MV2 of Munim, Inc. Code Apache-2.0; derived data CC BY 4.0. openFDA data are public domain (CC0). NYC data:
@@ -27,12 +29,18 @@ is about **3,206 ug/g (ppm) lead**.
 |---|---|
 | Recalls whose reason names lead | 179 (119 recall events) |
 | ... of a spice or a food with a named spice in it | 75 (58 events) |
-| ... where FDA's text states a lead level | **11** |
+| ... where FDA's text states a lead level | **12** |
 | ... at or above ~3,206 ppm lead (0.5% w/w lead chromate) | **0** |
 
-The stated spice levels run from 0.065 to 53.7 ppm (median 2.92 ppm). The highest, 53.7 ppm in PRAN turmeric
-powder from Bangladesh (2013), is **about 60 times below** the Raman limit. The authors of the Raman study already
-warned that their limit is "above the highest levels found in practice". This dataset puts numbers on that for U.S. recalls.
+The stated levels run from 0.012 ppm (a ginger candy) to 53.7 ppm (median 2.66 ppm). The highest, 53.7 ppm in PRAN
+turmeric powder from Bangladesh (2013), is **about 60 times below** the Raman limit. The authors of the Raman study
+already warned that their limit is "above the highest levels found in practice". This dataset puts numbers on that
+for U.S. recalls.
+
+> **Correction (2026-10-16).** Version 0.1.0 counted 11 stated levels, from 0.065 to 53.7 ppm (median 2.92 ppm). It
+> missed F-0077-2014, where FDA wrote ".012 ppm" with no leading zero. `lead_recalls.py` 0.1.1 reads it, and the
+> counts above are from its run on the same export (15 offline tests passed). The headline does not change: no
+> stated level reaches the Raman limit.
 
 ### The same picture from FDA's other public numbers (not in openFDA's text)
 
@@ -48,8 +56,11 @@ warned that their limit is "above the highest levels found in practice". This da
 
 NYC DOHMH publishes every consumer product it has tested for metals ("Metal Content of Consumer Products Tested by
 the NYC Health Department", https://data.cityofnewyork.us/d/da9u-wz3r, rows updated 2026-06-22). Spices are the
-largest group. The counts below were read from NYC's own API on 2026-10-14; `nyc_spice_lead.py` recomputes all of
-them from the raw rows (its outputs will be added to `data/` after the scripted run).
+largest group. The counts below were first read from NYC's own API on 2026-10-14. `nyc_spice_lead.py` 0.3.0 then
+recomputed every one of them from the raw rows (run of 2026-10-15, 9,520 rows, 13 offline tests passed), and all of
+them matched. Its outputs are in [`data/nyc_summary.md`](data/nyc_summary.md),
+[`data/nyc_summary.json`](data/nyc_summary.json), [`data/nyc_spice_lead.csv`](data/nyc_spice_lead.csv) and
+[`data/nyc_spice_pb_cr_pairs.csv`](data/nyc_spice_pb_cr_pairs.csv).
 
 ### Lead: who could a Raman screen help?
 
@@ -66,7 +77,7 @@ shop brands bought in New York (for example the 2024 cinnamon sweep), so S is th
 case-investigation samples, mostly brought from abroad. NYC's data dictionary defines the codes, and the next data run
 saves it.
 
-- In **477 store-survey samples, nothing came within 5x of the Raman limit**. That matches the FDA recalls (0 of 11).
+- In **477 store-survey samples, nothing came within 5x of the Raman limit**. That matches the FDA recalls (0 of 12).
 - The **46 samples at or above it all came from case investigations**. 35 of them are Georgian spice blends (khmeli
   suneli, "yellow flower"/zaprana marigold, svanuri marili, ajika), found by name or country of purchase. The other
   11 were bought in Pakistan (4), Russia (2), Algeria, Morocco, Uzbekistan and Ecuador (1 each), plus a curry powder
@@ -142,8 +153,61 @@ What this adds:
 
 Limits: NYC chose which samples to test for chromium (61 of 3,575 spices), probably ones already suspected, so 34 of
 39 is not a rate for spices in general. A ratio near 1 fits lead chromate but does not prove it; only a structural
-method (Raman, XRD) does. Natural chromium can matter below about 18 ppm lead, so those pairs are left out. Pairing
-by name and date was checked by hand for every row above.
+method (Raman, XRD) does. Natural chromium can matter below about 18 ppm lead, so those pairs are left out; the next
+part checks the chromate-like pairs that carry little chromium. Pairing by name and date was checked by hand for
+every row above.
+
+### Could the spice's own chromium explain the ratio? (new: `cr_baseline.py`)
+
+The ratio test treats all of a sample's chromium as coming with the lead. Plants carry some chromium of their own,
+and taking a natural background off the measured chromium raises the ratio. A pair leaves the 0.7-2 band once that
+background passes
+
+    edge = Cr - (Pb / 207.2) / 2 x 51.996   (ppm)
+
+`cr_baseline.py` compares each chromate-like pair's edge with the highest natural chromium published for that spice,
+by analytical method ([`data/natural_cr_ceilings.csv`](data/natural_cr_ceilings.csv); every value was read from the
+paper's own table). Blends and spices with no row of their own use a generic ceiling of 8.59 ppm, the highest
+single-spice value in the ICP-MS surveys used (cumin, Ghuniem et al. 2025). A spice's own ceiling always replaces
+the generic one. A pair is **robust** if its edge is above every ceiling for its spice, **unresolved** if it is
+above some and not others, and **background-limited** if it is above none.
+
+- **28 of the 34 pairs hold 69 ppm chromium or more.** Their edges are all 31 ppm or more, above every ceiling in
+  the table (the highest is 18.9 ppm, coriander by flame AAS), so natural chromium cannot explain any of them.
+- **Of the 6 with less chromium, 4 are robust**: Algerian turmeric, Bangladeshi black pepper, chili powder and a
+  spice mix (table below).
+- **Both coriander pairs are unresolved, and the split follows the method.** Their edges (2.7 and 5.5 ppm) are
+  above the two ICP-MS values for coriander (0.13 ppm, whole seed from India, Cicero et al. 2022; 0.91 ppm, Bulgaria,
+  Voica et al. 2021) but below the ICP-OES value (12.45 ppm, an aqueous seed extract, Gazwi et al. 2022) and the
+  flame AAS values (10.8-18.9 ppm, Ethiopian market seed, Tefera & Teklewold 2021). If ICP-MS gives the true
+  background, both are lead chromate; if the other methods do, their chromium may be natural and only their lead
+  (51-52 ppm) is a finding. The lead stands either way.
+
+| NYC rows (Pb/Cr) | collected | spice | bought in | Pb ppm | Cr ppm | molar Pb:Cr | edge ppm | ceilings for that spice (ppm) | verdict |
+|---|---|---|---|---|---|---|---|---|---|
+| 3282/3281 | 2019-01-22 | Coriander | Georgia | 51 | 9.1 | 1.41 | 2.70 | 0.129, 0.912 (ICP-MS); 12.45 (ICP-OES); 18.93 (FAAS) | **unresolved** |
+| 2968/2967 | 2018-09-24 | Turmeric | Algeria | 20 | 6.1 | 0.82 | 3.59 | 1.9 (ICP-MS) | robust |
+| 2290/2289 | 2017-06-07 | Coriander powder | Bangladesh | 52 | 12 | 1.09 | 5.48 | as for coriander above | **unresolved** |
+| 707/706 | 2013-02-14 | Black pepper | Bangladesh | 85 | 21 | 1.02 | 10.33 | 0.096, 0.113 (ICP-MS) | robust |
+| 2156/2155 | 2017-03-23 | Spice mix | Bangladesh | 170 | 38 | 1.12 | 16.67 | 8.59 (generic, ICP-MS) | robust |
+| 1371/1370 | 2015-03-18 | Chili powder | Bangladesh | 110 | 34 | 0.81 | 20.20 | 3.17 (ICP-MS) | robust |
+| 2231/2230 | 2017-05-03 | Curry masala | Pakistan | 300 | 69 | 1.09 | 31.36 | 3.55 (ICP-MS) | robust |
+
+Turmeric shows why the generic ceiling must not replace a spice's own: against 8.59 ppm the Algerian turmeric would
+look background-limited, but every turmeric in the ICP-MS survey used held 1.9 ppm or less.
+
+Coriander is the one spice here where published natural chromium spans the chromate signal, and the spread is
+between methods (0.1-0.9 ppm by ICP-MS, 10-19 ppm by ICP-OES and flame AAS) more than between samples. Flame AAS and
+ICP-OES are known to read chromium high in plant digests, but two ICP-MS samples cannot settle it. Settling a lead
+chromate claim on coriander needs a chromium blank measured by ICP-MS on clean coriander of the same origin. We have
+not found a published Pb:Cr chromate test that subtracts a spice-specific natural chromium ceiling.
+
+Limits: the ceilings are the highest values in small published surveys (1-40 samples per spice), not limits for any
+one sample, and the coriander ICP-MS values rest on two samples. NYC reports total chromium as sold; the papers
+report dry weight or do not say. The edge uses the top of the band (2.0) and ignores each lab result's own
+uncertainty. "Robust" means natural chromium cannot explain the ratio, not that the pigment is proven.
+`test_cr_baseline.py` checks the seven pairs above against the shipped table; the per-pair results for all 34 will
+be added to `data/` after the scripted run.
 
 ### Georgia: did its crackdown reach New York homes?
 
@@ -193,8 +257,9 @@ zaprana, tkemali, "Georgian"); a Georgian spice with a generic name and no recor
 result agrees with Forsyth et al.'s in-country fall, with one heavily laced exception in 2024. We found no earlier
 check of that result from a destination country's lab data.
 
-These counts were read from NYC's API on 2026-10-15 (SoQL). `nyc_spice_lead.py` 0.3.0 (`georgia_trend`, not yet
-published) counts by recorded purchase country only; the next version will add the name rule.
+These counts were read from NYC's API on 2026-10-15 (SoQL). `nyc_spice_lead.py` 0.3.0 (`georgia_trend`) counts by
+recorded purchase country only, so the Georgia table in [`data/nyc_summary.md`](data/nyc_summary.md) is the
+uncorrected view; the next version will add the name rule.
 
 ### Bangladesh: the same check for turmeric (new)
 
@@ -351,7 +416,7 @@ data has no chromium results, so whether these are lead chromate is not known.
 
 ### What the curve says
 
-- Three open U.S. sources agree. **No FDA spice recall level (0 of 11), no NYC store-survey sample (0 of 477) and
+- Three open U.S. sources agree. **No FDA spice recall level (0 of 12), no NYC store-survey sample (0 of 477) and
   no King County spice (0 of 207) reaches the bench Raman limit.** Only NYC's case investigations do (46).
 - Powder Raman at 0.5% is a tool for the gross tail. To be a general screen it has to gain about 20 times
   sensitivity. Picking out and scanning the yellow-orange grains themselves (particle-level Raman, as Kubachka et
@@ -460,24 +525,32 @@ today's limit. That has to be tested on real adulterated spices. Reaching recall
 
 ## Spot check of the FDA classifier (by hand, every spice row)
 
-All 11 parsed lead levels match FDA's own wording. The classifier makes these mistakes; fixes are in the next version:
+A hand check of 0.1.0 found that all 11 levels it parsed matched FDA's own wording, and found these mistakes.
+`lead_recalls.py` 0.1.1 fixes all but the last two:
 
-- **Missed spice:** F-0975-2020 Dragonfly Galanga (galangal) Powder; "galanga" is not in the spice word list.
-- **Not a spice:** F-2148-2012 Red Vines black licorice (candy).
+- **Missed spice:** F-0975-2020 Dragonfly Galanga (galangal) Powder; "galanga" was not in the spice word list.
+  Fixed.
+- **Not a spice:** F-2148-2012 Red Vines black licorice (candy). Fixed: no longer counted.
 - **Supplements counted as spice:** F-0408/0410/0413/0414-2019 NutraNext ginger "Toxin Absorber" and cleansing kits.
-- **Chili-coated salted plum candy (saladitos) counted as spice:** F-0821/0823/0824/0856-2022 (F-0858-2022 is correctly a food).
+  Fixed: now counted as supplements.
+- **Chili-coated salted plum candy (saladitos) counted as spice:** F-0821/0823/0824/0856-2022 (F-0858-2022 was
+  already a food). Fixed: now counted as foods containing spice.
 - **Spices counted as "food containing spice"** because of a packaging or company word ("pouch", "beverage"):
-  F-2223-2014 PRAN turmeric, F-1796-2024 Asli cinnamon, F-0267-2025 Super Brand cinnamon. F-1612-2017 Gel Spice
-  ground turmeric is also a spice but was counted as a food, because of a word in its long description.
-- **Missed level:** F-0077-2014 ginger candy, ".012 ppm" (a number with no leading zero).
-- F-2242-2019 (pumpkin spice cake roll) is a recall for pieces of metal that include lead, not lead in the spice.
+  F-2223-2014 PRAN turmeric, F-1796-2024 Asli cinnamon, F-0267-2025 Super Brand cinnamon. Fixed.
+- **Missed level:** F-0077-2014 Coconut Tree ginger candy, ".012 ppm" (a number with no leading zero). Fixed: it is
+  the 12th stated level.
+- Still open: F-1612-2017 Gel Spice ground turmeric is a spice but is still counted as a food, because of a word in
+  its long description.
+- Still open: F-2242-2019 (pumpkin spice cake roll) is a recall for pieces of metal that include lead, not lead in
+  the spice, and is still counted.
 
-None of these changes the headline: no stated level comes near the Raman limit.
+With the fixes, spice products alone fall from 61 to 58 recalls and supplements rise from 1 to 4; the total stays
+75 (galangal in, licorice out). None of these changes the headline: no stated level comes near the Raman limit.
 
 ## Limits
 
 - openFDA holds recalls FDA classified. State actions FDA did not classify, import refusals and alerts are not in it.
-- Only 11 of 75 spice recalls state a level in openFDA's text. The table in section 1 adds FDA's other published numbers.
+- Only 12 of 75 spice recalls state a level in openFDA's text. The table in section 1 adds FDA's other published numbers.
 - NYC's and King County's samples follow lead-poisoning cases, community testing events and targeted store surveys,
   so they are not a random sample of the market.
 - Lead levels are total lead from any source (soil, processing equipment, pigments). Lead chromate is one cause.
@@ -486,21 +559,26 @@ None of these changes the headline: no stated level comes near the Raman limit.
 ## Run it
 
 ```
-python -m unittest -v test_lead_recalls test_nyc_spice_lead test_lod_curve test_spot_sampling
+python -m unittest -v test_lead_recalls test_nyc_spice_lead test_cr_baseline test_lod_curve test_spot_sampling
 python lead_recalls.py --data-dir data-cache --out-dir out
 python nyc_spice_lead.py --data-dir data-cache --out-dir out
+python cr_baseline.py --pairs out/nyc_spice_pb_cr_pairs.csv --out-dir out
 python lod_curve.py --data-dir data-cache --out-dir out
 python spot_sampling.py --data-dir data-cache --out-dir out
 ```
 
 `lead_recalls.py` downloads `https://download.open.fda.gov/food/enforcement/food-enforcement-0001-of-0001.json.zip`
 (about 6 MB) once, then writes `lead_recalls.csv`, `spice_lead_recalls.csv`, `summary.json` and `summary.md`. The
-files in [`data/`](data/) are the run on the 2026-10-13 export (sha256 139cb14c05a8...). Every parsed level sits next
-to the text it came from.
+files in [`data/`](data/) are the 0.1.1 run on the 2026-10-13 export (sha256 139cb14c05a8...). Every parsed level
+sits next to the text it came from.
 
 `nyc_spice_lead.py` downloads NYC's dataset through its API (about 9,500 rows) once, then writes
 `nyc_spice_lead.csv`, `nyc_spice_pb_cr_pairs.csv`, `nyc_summary.json` and `nyc_summary.md`. Every row keeps NYC's
 row_id.
+
+`cr_baseline.py` reads `nyc_spice_pb_cr_pairs.csv` (a path or a URL) and
+[`data/natural_cr_ceilings.csv`](data/natural_cr_ceilings.csv), then writes `cr_baseline.csv`, `cr_baseline.json` and
+`cr_baseline.md`. Add a row to the ceilings table, with its source, to test a spice against new data.
 
 `lod_curve.py` downloads NYC's spice lead rows and King County's dataset (about 2,200 rows) through their APIs once,
 then writes `lod_curve.json`, `lod_curve.md` and `lod_curve.csv`.
@@ -536,5 +614,17 @@ then writes `lod_curve.json`, `lod_curve.md` and `lod_curve.csv`.
   (2008). doi:10.1366/000370208785284376
 - Li, Calvet, Casamayou-Boucau, Morris, Ryder. Low-content quantification in powders using Raman spectroscopy: a
   facile chemometric approach to sub 0.1% limits of detection. Anal Chem 87:3419 (2015). doi:10.1021/ac504776m
+- Natural chromium in spices (`data/natural_cr_ceilings.csv`):
+  - Cicero et al. Mineral and microbiological analysis of spices and aromatic herbs. Foods 11:548 (2022).
+    doi:10.3390/foods11040548 (ICP-MS)
+  - Voica et al. ICP-MS assessment of essential and toxic trace elements in foodstuffs with different geographic
+    origins. Molecules 26:7081 (2021). doi:10.3390/molecules26237081 (ICP-MS)
+  - Ghuniem et al. Health risk assessment of Sudan dyes, toxic elements, and pesticide residues in Egyptian spices.
+    Sci Rep (2025). doi:10.1038/s41598-025-31386-3 (ICP-MS)
+  - Heavy metal analysis in commercial spices and herbs by ICP-MS and estimated dietary exposure. J Environ Expo
+    Assess (2025). https://www.oaepublish.com/articles/jeea.2025.10 (ICP-MS)
+  - Gazwi et al. Sci Rep 12:9834 (2022). PMC9013364 (ICP-OES, aqueous coriander seed extract)
+  - Tefera, Teklewold. Health risk assessment of heavy metals in selected Ethiopian spices. Heliyon 7:e07048 (2021).
+    doi:10.1016/j.heliyon.2021.e07048 (flame AAS)
 
 Contact: MV2, Munim, Inc. - mv2@munimtech.com

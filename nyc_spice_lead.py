@@ -13,6 +13,12 @@ two questions:
    molar ratio near 1:1, the signature of lead chromate pigment (Forsyth et al.
    2019, 2024)?
 
+3. Did Georgia's crackdown on lead in spices (2018 on; Forsyth et al. 2024
+   measured the fall inside Georgia, 2020-2022) show up in the spices that
+   NYC's case investigations found in New York homes? Spices bought in
+   Georgia are compared, before and after 2021, with case samples bought
+   anywhere else.
+
 Outputs: nyc_spice_lead.csv, nyc_spice_pb_cr_pairs.csv, nyc_summary.json,
 nyc_summary.md. Every row keeps NYC's row_id, so each number can be checked
 against the source.
@@ -25,11 +31,12 @@ import argparse
 import csv
 import hashlib
 import json
+import math
 import os
 import sys
 import urllib.request
 
-__version__ = "0.2.0"
+__version__ = "0.3.0"
 
 DATA_URL = "https://data.cityofnewyork.us/resource/da9u-wz3r.json?$limit=50000&$order=row_id"
 SOURCE_PAGE = "https://data.cityofnewyork.us/d/da9u-wz3r"
@@ -52,6 +59,11 @@ CHROMATE_BAND = (0.7, 2.0)
 PAIR_MIN_PB = 18.0
 
 THRESHOLDS = [2, 10, 100, 1000, RAMAN_LIMIT_PPM]
+
+# Georgia trend: periods split at this year, and the level that counts as hot.
+SPLIT_YEAR = 2021
+HOT_PPM = 100
+CASE_CODES = ("C", "A")
 
 # Georgian spice blends and their ingredients, as NYC staff spelled them.
 GEORGIAN = ["georgia", "suneli", "sunely", "sunele", "zaprana", "yellow flower", "yellow flour", "svan",
@@ -218,6 +230,52 @@ def channel_table(rows, key):
     return out
 
 
+def hypergeom_p0(total, hot, drawn):
+    """Chance that `drawn` items picked at random from `total`, of which `hot`
+    are hot, include no hot one (one-sided test of 'none hot after')."""
+    if drawn > total or hot < 0:
+        return None
+    return math.comb(total - hot, drawn) / math.comb(total, drawn)
+
+
+def _period_stats(sub):
+    dates = {}
+    for r in sub:
+        dates[r["collection_date"]] = max(dates.get(r["collection_date"], 0.0), r["lead_ppm"])
+    return {"samples": len(sub),
+            ">=%g" % HOT_PPM: sum(r["lead_ppm"] >= HOT_PPM for r in sub),
+            _label(RAMAN_LIMIT_PPM): sum(r["at_or_above_raman_limit"] for r in sub),
+            "max_ppm": max((r["lead_ppm"] for r in sub), default=None),
+            "collection_dates": len(dates),
+            "dates_with_hot_sample": sum(v >= HOT_PPM for v in dates.values())}
+
+
+def georgia_trend(rows):
+    """Case-investigation spices (codes C and A) bought in Georgia vs bought
+    anywhere else, before SPLIT_YEAR and from it on. A collection date stands
+    in for one investigation (a household visit)."""
+    case = [r for r in rows if r["investigation_type"] in CASE_CODES and r["year"]]
+    groups = {"bought in Georgia": [r for r in case if r["purchase_country"] == "GEORGIA"],
+              "bought elsewhere": [r for r in case if r["purchase_country"] != "GEORGIA"]}
+    out = {"split_year": SPLIT_YEAR, "hot_ppm": HOT_PPM, "groups": {}}
+    for name, sub in groups.items():
+        before = [r for r in sub if int(r["year"]) < SPLIT_YEAR]
+        after = [r for r in sub if int(r["year"]) >= SPLIT_YEAR]
+        out["groups"][name] = {"before": _period_stats(before), "after": _period_stats(after)}
+    ga = out["groups"]["bought in Georgia"]
+    b, a = ga["before"], ga["after"]
+    hot = ">=%g" % HOT_PPM
+    if a[hot] == 0 and a["samples"]:
+        out["p_none_hot_after_samples"] = hypergeom_p0(b["samples"] + a["samples"], b[hot], a["samples"])
+        out["p_none_hot_after_dates"] = hypergeom_p0(b["collection_dates"] + a["collection_dates"],
+                                                     b["dates_with_hot_sample"], a["collection_dates"])
+    out["georgia_by_year"] = {}
+    for y in sorted({r["year"] for r in groups["bought in Georgia"]}):
+        sub = [r for r in groups["bought in Georgia"] if r["year"] == y]
+        out["georgia_by_year"][y] = _period_stats(sub)
+    return out
+
+
 def summarize(rows, pairs, meta):
     above = [r for r in rows if r["at_or_above_raman_limit"]]
     judged = [p for p in pairs if p["verdict"] != "too little lead to judge"]
@@ -257,6 +315,7 @@ def summarize(rows, pairs, meta):
         "judged_pairs": [{k: p[k] for k in ("lead_row_id", "chromium_row_id", "collection_date", "investigation_type",
                                             "product_name", "purchase_country", "lead_ppm", "chromium_ppm",
                                             "molar_ratio_pb_cr", "verdict")} for p in judged],
+        "georgia_trend": georgia_trend(rows),
     }
 
 
@@ -306,6 +365,26 @@ def write_markdown(s, path):
         lines.append("| %s | %s | %s | %s | %s | %s | %g | %s |" % (
             r["row_id"], r["collection_date"], r["investigation_type"], r["product_name"].replace("|", "/"),
             r["made_in_country"], r["purchase_country"], r["lead_ppm"], "yes" if r["georgian_style"] else ""))
+    g = s["georgia_trend"]
+    hot, lim = ">=%g" % g["hot_ppm"], _label(s["raman_limit_ppm_pb"])
+    lines += ["", "## Case-investigation spices bought in Georgia vs elsewhere (codes C and A)", "",
+              "| group | period | samples | %s ppm | %s ppm | max ppm | collection dates | dates with a %s ppm sample |"
+              % (hot, lim, hot), "|---|---|---|---|---|---|---|---|"]
+    for name, periods in g["groups"].items():
+        for label, key in (("before %d" % g["split_year"], "before"), ("%d on" % g["split_year"], "after")):
+            v = periods[key]
+            lines.append("| %s | %s | %d | %d | %d | %s | %d | %d |" % (
+                name, label, v["samples"], v[hot], v[lim], "-" if v["max_ppm"] is None else "%g" % v["max_ppm"],
+                v["collection_dates"], v["dates_with_hot_sample"]))
+    if "p_none_hot_after_samples" in g:
+        lines += ["", "If the later Georgian samples were drawn at random from all Georgian samples, the chance that "
+                  "none is %s ppm: %.2g (by sample), %.2g (by collection date)."
+                  % (hot, g["p_none_hot_after_samples"], g["p_none_hot_after_dates"])]
+    lines += ["", "| year | Georgian samples | %s ppm | %s ppm | max ppm | collection dates |" % (hot, lim),
+              "|---|---|---|---|---|---|"]
+    for y, v in g["georgia_by_year"].items():
+        lines.append("| %s | %d | %d | %d | %g | %d |" % (y, v["samples"], v[hot], v[lim], v["max_ppm"],
+                                                         v["collection_dates"]))
     lines += ["", "Not detected (-1 in the source) counts as 0 ppm. Chromium was tested on few samples, mostly "
               "ones already suspected; the ratio speaks for each pair, not for all spices."]
     with open(path, "w", encoding="utf-8") as fh:
@@ -363,6 +442,7 @@ def main(argv=None):
                                         "pb_cr_pairs_judged", "chromate_like", "chromate_like_molar_median")}))
     print("by type:", json.dumps(s["by_investigation_type"]))
     print("verdicts:", json.dumps(s["pb_cr_verdicts"]))
+    print("georgia trend:", json.dumps({k: v for k, v in s["georgia_trend"].items() if k != "georgia_by_year"}))
     return 0
 
 
