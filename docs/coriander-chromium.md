@@ -14,7 +14,9 @@ Every value below was read from the cited paper's own table or abstract.
 
 Updated 2026-10-16: added a fifth study, Haidu et al. 2017, whose coriander value was
 measured by neutron activation (no digestion, no plasma) and is below its 0.35 mg/kg
-detection limit.
+detection limit. Later the same day: added Lopez et al. 2022, an ICP-MS market study
+in which coriander powder itself carried lead chromate (section "A known lead-chromate
+coriander sample").
 
 ## The two NYC samples at issue
 
@@ -99,6 +101,52 @@ chromium. The analytical literature points the other way for ICP-MS:
   not dismissible: it is the one directly comparable measurement that disagrees with the
   sub-1-ppm cluster.
 
+## A known lead-chromate coriander sample
+
+Lopez et al. (2022, *Environ Sci Technol* 56:16996, PMC9730856) bought 12 coriander
+powders in Patna, India, in 2020 and measured them by ICP-MS (Thermo XSERIES 2, nitric
+acid microwave digest, triplicate digestions). Their lead: median 86 mg/kg, range
+0.05–250 (Table 1). Across their spices, "when Pb concentrations exceeded 1 mg/kg, the
+molar Pb/Cr ratio was near or above 1", which they read as lead chromate adulteration.
+They also ran the diphenylcarbazide (DPC) colour test, which detects hexavalent
+chromium, and list coriander powder among the spices in which it detected Cr(VI). Plant
+chromium is naturally Cr(III), as the same paper notes.
+
+One coriander powder is described with both numbers: colour developed (Cr(VI) present)
+at **87 mg/kg lead and 13 mg/kg chromium**. Run through the same arithmetic as the NYC
+pairs:
+
+| sample | Pb ppm | Cr ppm | molar Pb:Cr | edge ppm | Cr(VI) by DPC |
+|---|---|---|---|---|---|
+| Lopez 2022, Patna coriander powder | 87 | 13 | 1.68 | 2.08 | detected |
+| NYC 2019, Georgia coriander | 51 | 9.1 | 1.41 | 2.70 | not tested |
+| NYC 2017, Bangladesh coriander powder | 52 | 12 | 1.09 | 5.48 | not tested |
+
+What this adds:
+
+- **Coriander powder is a documented lead-chromate target**, measured by ICP-MS in a
+  South Asian market, not only turmeric. The NYC pairs are therefore not an unlikely
+  kind of adulteration.
+- **A sample whose chromium was shown to be hexavalent looks just like the NYC
+  pairs.** Its lead and chromium are the same size, its ratio is in the band, and its
+  edge (2.08 ppm) is *smaller* than either NYC edge. `cr_baseline.py` would also mark
+  it **unresolved**, because 2.08 ppm is below the flame-AAS and ICP-OES ceilings. So
+  for coriander the rule is conservative: being unresolved here does not argue against
+  lead chromate.
+- **A cheaper way to settle such cases is speciation, not a blank.** Natural chromium
+  in the plant is Cr(III); the pigment is Cr(VI). A Cr(VI) test (DPC colour, or a
+  speciation method in a laboratory) on the same sample answers the question that the
+  total-chromium ratio cannot. Lopez et al. also report its limit: one coriander powder
+  with 167 mg/kg lead showed no colour, so a negative DPC result is not proof of
+  absence.
+
+The tool's verdicts do not change: this sample is not a natural-chromium value, so it
+does not enter `data/natural_cr_ceilings.csv`. The per-sample lead and chromium values
+of all 12 Patna powders are in the paper's Supplementary Table S1. Lopez et al. describe
+their low-lead samples (lead under 1 mg/kg, coriander among them) as having Pb/Cr below
+0.5, which they read as geogenic. Once Table S1 is read, those coriander rows can add
+ICP-MS natural-chromium values to the ceiling table.
+
 ## What it means for the two NYC coriander flags
 
 Both edges (2.70 ppm for the Georgia 2019 sample, 5.48 ppm for the Bangladesh 2017
@@ -111,11 +159,12 @@ studies under 1 ppm, across India, Bulgaria, Pakistan and Romania, by three
 independent methods, against one flame-AAS study at 10–19 ppm. On that balance the
 chromium in NYC's two coriander samples is more consistent with being
 pigment-associated — i.e. the lead-chromate reading is probably real — than with
-ordinary natural background. It cannot be *confirmed* from the literature, because
-one comparable whole-seed study disagrees and coriander chromium plainly varies with
-soil and origin. Resolving it needs a chromium blank measured on clean coriander of
-the same origin, ideally by collision-cell ICP-MS. The lead finding (51–52 ppm) stands
-either way.
+ordinary natural background. The Lopez et al. sample adds that a coriander powder with
+the same profile did carry hexavalent chromium. It still cannot be *confirmed* from the
+literature, because one comparable whole-seed study disagrees and coriander chromium
+plainly varies with soil and origin. Resolving it needs either a Cr(VI) test on the
+product itself or a chromium blank measured on clean coriander of the same origin,
+ideally by collision-cell ICP-MS. The lead finding (51–52 ppm) stands either way.
 
 ## Limits and provenance
 
@@ -133,6 +182,11 @@ either way.
   coriander lost 7.28% of its mass at 105 °C, so on an as-sold basis the bound would
   be slightly lower still, not higher. The tobacco reference value it was checked against is a consensus,
   not a certified, value.
+- Lopez et al. (2022) do not say in the main text whether their ICP-MS used a
+  collision cell, and they give the number of coriander powders that turned colour only
+  in a figure. The 87/13 mg/kg sample is the one their text describes; the others are
+  in Supplementary Table S1, which we have not yet read. Their paper is CC BY-NC-ND, so
+  only facts and short quotes are used here.
 - No study from Georgia or the wider Caucasus was found, so none of the five values
   is origin-matched to the 2019 Georgia sample.
 - This note will be folded into the tool's ceiling table: the Ugulu value and the
@@ -165,5 +219,10 @@ either way.
   matrices using dynamic reaction cell ICP-MS. *Atomic Spectroscopy* 26(6) (2005).
   (Residual-carbon interference over-estimates chromium in standard-mode ICP-MS; the
   reaction cell corrects it.)
+- Lopez AM, Nicolini CM, Aeppli M, Luby SP, Fendorf S, Forsyth JE. Assessing analytical
+  methods for the rapid detection of lead adulteration in the global spice market.
+  *Environ Sci Technol* 56(23):16996–17006 (2022). doi:10.1021/acs.est.2c03241.
+  PMC9730856. (ICP-MS, pXRF and DPC on 69 spice samples; 12 coriander powders from
+  Patna, India, 2020.)
 
 Contact: MV2, Munim, Inc. — mv2@munimtech.com
