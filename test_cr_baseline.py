@@ -1,4 +1,8 @@
-"""Offline tests for cr_baseline.py (standard library only)."""
+"""Offline tests for cr_baseline.py (standard library only).
+
+Covers the 0.1.0 ceiling logic and the 0.2.0 Cr(VI) speciation gate. The
+speciation tests are the pre-registered predictions P0-P4 in
+docs/cr-baseline-0.2.0-prereg.md."""
 import csv
 import json
 import os
@@ -52,9 +56,31 @@ EXPECTED = {
     "Raz El Hanout": ("generic", 33.96, "robust"),
 }
 
+CEILINGS = {
+    "turmeric": [{"method": "ICP-MS", "ceiling_ppm": 1.9, "n": "", "source": "t"}],
+    "chili/paprika": [{"method": "ICP-MS", "ceiling_ppm": 3.17, "n": "", "source": "t"}],
+    "curry": [{"method": "ICP-MS", "ceiling_ppm": 3.55, "n": "", "source": "t"}],
+    "coriander": [{"method": "ICP-MS", "ceiling_ppm": 0.129, "n": "", "source": "t"},
+                  {"method": "ICP-MS", "ceiling_ppm": 0.912, "n": "", "source": "t"},
+                  {"method": "ICP-OES", "ceiling_ppm": 12.45, "n": "", "source": "t"},
+                  {"method": "FAAS", "ceiling_ppm": 18.93, "n": "", "source": "t"}],
+    "black pepper": [{"method": "ICP-MS", "ceiling_ppm": 0.096, "n": "", "source": "t"},
+                     {"method": "ICP-MS", "ceiling_ppm": 0.113, "n": "", "source": "t"}],
+    "generic": [{"method": "ICP-MS", "ceiling_ppm": 8.59, "n": "", "source": "t"}],
+}
+
 
 def _c(method, ppm, source="test"):
     return {"method": method, "ceiling_ppm": ppm, "n": "", "source": source}
+
+
+def _pair(name, pb, cr, cr6=None, verdict="chromate-like"):
+    p = {"lead_row_id": "x", "chromium_row_id": "y", "collection_date": "2022-01-01",
+         "investigation_type": "lit", "product_name": name, "purchase_country": "",
+         "lead_ppm": str(pb), "chromium_ppm": str(cr), "verdict": verdict}
+    if cr6 is not None:
+        p["cr6_result"] = cr6
+    return p
 
 
 class Edge(unittest.TestCase):
@@ -146,6 +172,78 @@ class Assess(unittest.TestCase):
         self._check(cb.assess(PAIRS, ceilings))
 
 
+class Speciation(unittest.TestCase):
+    """Pre-registered predictions P0-P4 for the 0.2.0 Cr(VI) gate."""
+
+    def test_speciation_of_normalises_and_validates(self):
+        self.assertEqual(cb.speciation_of("Positive"), "positive")
+        self.assertEqual(cb.speciation_of(" negative "), "negative")
+        self.assertEqual(cb.speciation_of(""), "")
+        self.assertEqual(cb.speciation_of(None), "")
+        with self.assertRaises(ValueError):
+            cb.speciation_of("maybe")
+
+    def test_final_of(self):
+        self.assertEqual(cb.final_of("robust", "positive"), "cr6-confirmed")
+        self.assertEqual(cb.final_of("unresolved", "positive"), "cr6-confirmed")
+        self.assertEqual(cb.final_of("background-limited", "positive"), "cr6-confirmed")
+        self.assertEqual(cb.final_of("unresolved", "negative"), "unresolved")
+        self.assertEqual(cb.final_of("robust", ""), "robust")
+
+    def test_backward_compat_no_cr6_column(self):
+        # P0: no cr6_result column -> every row untested, final == baseline,
+        # and the baseline counts are exactly the 0.1.0 result.
+        rows = cb.assess(PAIRS, CEILINGS)
+        for r in rows:
+            self.assertEqual(r["speciation"], "untested", r["product_name"])
+            self.assertEqual(r["final_verdict"], r["baseline_verdict"], r["product_name"])
+        s = cb.summarize(rows, {})
+        self.assertEqual(s["verdicts"], {"robust": 6, "unresolved": 2})
+        self.assertEqual(s["final_verdicts"], {"robust": 6, "unresolved": 2})
+        self.assertEqual(s["speciation"], {"untested": 8})
+
+    def test_positive_overrides_each_baseline(self):
+        # P1: positive -> cr6-confirmed for a robust, an unresolved and a
+        # background-limited baseline.
+        pairs = [
+            _pair("Curry Masala", 300, 69, cr6="positive"),      # curry, edge 31.36 -> robust
+            _pair("Coriander", 51, 9.1, cr6="positive"),         # coriander, edge 2.70 -> unresolved
+            _pair("Khmeli Suneli", 20, 6.1, cr6="positive"),     # generic 8.59, edge 3.59 -> background-limited
+        ]
+        rows = {r["product_name"]: r for r in cb.assess(pairs, CEILINGS)}
+        self.assertEqual(rows["Curry Masala"]["baseline_verdict"], "robust")
+        self.assertEqual(rows["Coriander"]["baseline_verdict"], "unresolved")
+        self.assertEqual(rows["Khmeli Suneli"]["baseline_verdict"], "background-limited")
+        for name in ("Curry Masala", "Coriander", "Khmeli Suneli"):
+            self.assertEqual(rows[name]["speciation"], "positive", name)
+            self.assertEqual(rows[name]["final_verdict"], "cr6-confirmed", name)
+
+    def test_negative_not_exculpatory(self):
+        # P2: negative keeps the baseline verdict and records speciation.
+        rows = {r["product_name"]: r for r in cb.assess(
+            [_pair("Coriander", 51, 9.1, cr6="negative")], CEILINGS)}
+        r = rows["Coriander"]
+        self.assertEqual(r["baseline_verdict"], "unresolved")
+        self.assertEqual(r["speciation"], "negative")
+        self.assertEqual(r["final_verdict"], "unresolved")
+
+    def test_lopez_coriander_example(self):
+        # P3: the Lopez et al. 2022 Patna coriander powder (Pb 87, Cr 13),
+        # Cr(VI)-positive by DPC, is unresolved by ceilings but cr6-confirmed.
+        rows = {r["product_name"]: r for r in cb.assess(
+            [_pair("Patna coriander powder (Lopez 2022)", 87, 13, cr6="positive")], CEILINGS)}
+        r = rows["Patna coriander powder (Lopez 2022)"]
+        self.assertEqual(r["matrix"], "coriander")
+        self.assertAlmostEqual(r["edge_ppm"], 2.08, places=2)
+        self.assertAlmostEqual(r["molar_ratio_pb_cr"], 1.679, places=2)
+        self.assertEqual(r["baseline_verdict"], "unresolved")
+        self.assertEqual(r["final_verdict"], "cr6-confirmed")
+
+    def test_bad_cr6_value_errors(self):
+        with self.assertRaises(ValueError):
+            cb.assess([_pair("Coriander", 51, 9.1, cr6="yes please")], CEILINGS)
+
+
 class EndToEnd(unittest.TestCase):
     def test_main(self):
         with tempfile.TemporaryDirectory() as d:
@@ -169,6 +267,9 @@ class EndToEnd(unittest.TestCase):
             self.assertEqual(s["chromate_like_pairs"], 8)
             # Black pepper and chili fall back to the generic 8.59 here: both edges are above it.
             self.assertEqual(s["verdicts"], {"unresolved": 2, "robust": 6})
+            # No cr6_result column -> final verdicts equal baseline verdicts.
+            self.assertEqual(s["final_verdicts"], {"unresolved": 2, "robust": 6})
+            self.assertEqual(s["speciation"], {"untested": 8})
             with open(os.path.join(out, "cr_baseline.md"), encoding="utf-8") as fh:
                 md = fh.read()
             self.assertIn("| 3282 | 3281 | 2019-01-22 | Coriander |", md)
