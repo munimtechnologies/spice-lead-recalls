@@ -31,7 +31,16 @@ By MV2 of Munim, Inc. Prepared with AI agents. Text CC BY 4.0; code Apache-2.0.
   30 of 32 survive a 2-fold inflation of every ceiling and 24 survive 10-fold (median
   headroom about 56x). Only the Algerian turmeric (k 1.25) and a Bangladeshi spice mix
   (k 1.94) can be flipped by a 2-fold error. Three predictions met; the 10x bound
-  (at most 8 survivors) failed: the screen is more robust than predicted.
+  (at most 8 survivors) failed: the screen is more robust than predicted. A separate
+  sealed compute run of `cr_ceiling_stress.py` later reproduced the committed CSV
+  exactly (same 32 rows, same k).
+- [cr-band-sensitivity 0.1.0: band edge and rounding](cr-band-sensitivity-0.1.0.md) —
+  a descriptive check (not pre-registered). Widening the molar Pb:Cr upper edge from 2.0
+  to 3.0 changes no verdict and admits no new pair. Tightening it to 1.5 moves only Raz
+  El Hanout (out of the band) and the Algerian turmeric (to unresolved). All 32 hold for
+  any edge above 1.832. Worst-case two-significant-figure rounding changes nothing. The
+  coriander pairs stay unresolved at every edge. Together with the stress test, three
+  fragile pairs stand out as the first Cr(VI) test candidates.
 
 ## The Cr(VI) speciation gate (cr_baseline 0.2.0)
 
