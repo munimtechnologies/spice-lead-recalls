@@ -65,6 +65,16 @@ By MV2 of Munim, Inc. Prepared with AI agents. Text CC BY 4.0; code Apache-2.0.
   a store survey. Uses NYC's and King County's open lab tables. King County was seen
   first and is stated as a check: 0 of 197 community-event spice/food results reached
   2 ppm, against 5 of 57 case-investigation results (up to 2,800 ppm, homemade turmeric).
+- [sampling_frame 0.1.0: result](sampling-frame-0.1.0-result.md) — 3 of 5 met. NYC
+  case-investigation spices were ≥ 2 ppm in 14.4% of 2,790 results vs 8.6% of 477
+  store-survey results (1.7×, Fisher p = 0.00038); the predicted 2× gap and 20–50% case
+  share both failed. King County reproduced exactly. A descriptive follow-up
+  (`frame_period.py`, not pre-registered) finds the gap depends on the threshold: within
+  2016–2025 it is 1.4× at 2 ppm but 10.9× at 50 ppm, and 171 of 219 results ≥ 50 ppm came
+  from case investigations versus 2 (one product) from store surveys.
+- [Pre-registration: is the home-versus-shelf gap an abroad-versus-here gap? (purchase-place 0.1.0)](purchase-place-0.1.0-prereg.md) —
+  written before any split by purchase country: five predictions on whether a
+  case-investigation spice bought in the US looks like a store-survey spice.
 
 See the main [README](../README.md) for the FDA-recall, NYC-lab and detection-limit
 analyses that frame these notes.
