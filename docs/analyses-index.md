@@ -59,6 +59,12 @@ By MV2 of Munim, Inc. Prepared with AI agents. Text CC BY 4.0; code Apache-2.0.
   0.1 %-mass screen would catch 103 (67 %) versus 16 (10.5 %) at bench Raman's 0.5 %;
   median laced lead was 1,287 µg/g. Honest limits: no chromium column in that table, and
   the contamination is heavy-tailed, so the reach estimate is lead-only.
+- [Pre-registration: where do high-lead spices turn up? (sampling_frame 0.1.0)](sampling-frame-0.1.0-prereg.md) —
+  written before the NYC split was computed: five predictions on how much more often a
+  spice from a lead-poisoning case investigation is at or above 2 ppm lead than one from
+  a store survey. Uses NYC's and King County's open lab tables. King County was seen
+  first and is stated as a check: 0 of 197 community-event spice/food results reached
+  2 ppm, against 5 of 57 case-investigation results (up to 2,800 ppm, homemade turmeric).
 
 See the main [README](../README.md) for the FDA-recall, NYC-lab and detection-limit
 analyses that frame these notes.
