@@ -120,6 +120,15 @@ By MV2 of Munim, Inc. Prepared with AI agents. Text CC BY 4.0; code Apache-2.0.
   the registered early count is zero by construction. The headline grade will add the
   2021 copy of 28-13. The registered grade is reported but flagged invalid.
   Anyone trending lead-in-spice listings from 99-42 alone will see an artificial jump.
+- [ia9942-lead-spice 0.1.1: result](ia9942-lead-spice-0.1.1-result.md) — 2 of 5 met.
+  Contrary to the prediction, the border record **fell** too: lead-spice firms went from
+  19 (2016–2020, on the 2021 copy of 28-13) to 14 (2021–2025, on the current 99-42 page),
+  12 after a robustness cut — P1 and P2 failed. But the border list is still blind to
+  Georgia, NYC's largest gross-contamination source (P5 held, 0 Georgia firms in the early
+  period), and cinnamon/cassia — not turmeric — dominates the listings in both periods
+  (P3 held, P4 failed: cinnamon tops both). The reusable finding is that the listings
+  moved from Import Alert 28-13 into 99-42 around October 2022, so a trend from 99-42
+  alone shows an artificial jump. Recomputed from a committed firm table by a pinned test.
 
 ## A third source: Canada's spice authenticity surveillance
 
