@@ -1,0 +1,132 @@
+sample,region,function,origin,product,date,matrix,pb,cr,spot,molar_ratio_pb_cr,band,ceiling_ppm,over_ceiling,nyc_verdict
+C2018CLAS00001,ATLANTIC - ATLANTIQUE,Import,Unknown,Spice Blend,2018-06-13,generic,0.03,0.25,Negative/Négatif,0.0301,0,8.59,0,too little lead to judge
+C2018CLAS00002,ATLANTIC - ATLANTIQUE,Import,Unknown,Thyme,2018-07-03,generic,1.36,3.2,Negative/Négatif,0.1067,0,8.59,0,too little lead to judge
+C2018CLAS00002R,ATLANTIC - ATLANTIQUE,Import,Unknown,Thyme,2018-12-19,generic,6.57,0.4,Negative/Négatif,4.1218,0,8.59,0,too little lead to judge
+C2018CLAS00003,ATLANTIC - ATLANTIQUE,Import,SRI LANKA,Turmeric,2018-07-03,turmeric,0.91,0.37,Negative/Négatif,0.6172,0,2.88,0,too little lead to judge
+C2018CLAS00004R,ATLANTIC - ATLANTIQUE,Import,Unknown,Cayenne Pepper,2019-03-25,chili/paprika,0.07,0.53,Negative/Négatif,0.0331,0,3.17,0,too little lead to judge
+C2018CLAS00005,ATLANTIC - ATLANTIQUE,Unknown,Unknown,Chili Powder,2018-08-22,chili/paprika,0.56,0.11,Negative/Négatif,1.2775,1,3.17,0,too little lead to judge
+C2018CLAS00006,ATLANTIC - ATLANTIQUE,Import,SOUTH AFRICA,Spice Blend,2018-09-24,generic,0.27,0.08,Negative/Négatif,0.8469,1,8.59,0,too little lead to judge
+C2018CLAS00007R,ATLANTIC - ATLANTIQUE,Unknown,Unknown,Coriander,2018-12-19,coriander,0.0,0.04,Negative/Négatif,,0,18.93,0,too little lead to judge
+C2018CLAS00008,ATLANTIC - ATLANTIQUE,Import,Unknown,Cinnamon,2018-12-19,cinnamon,1.59,0.45,Negative/Négatif,0.8867,1,4.0,0,too little lead to judge
+C2018CLAS00009,ATLANTIC - ATLANTIQUE,Import,Unknown,Cumin,2018-12-19,cumin,1.65,0.05,Negative/Négatif,8.2812,0,8.59,0,too little lead to judge
+C2018CLAS00010,ATLANTIC - ATLANTIQUE,Import,Unknown,Paprika,2018-12-19,chili/paprika,1.15,0.17,Negative/Négatif,1.6976,1,3.17,0,too little lead to judge
+C2018CLAS00011,ATLANTIC - ATLANTIQUE,Import,Unknown,Cayenne Pepper,2019-02-05,chili/paprika,0.04,0.38,Negative/Négatif,0.0264,0,3.17,0,too little lead to judge
+C2018CLAS00012R,ONTARIO,Domestic,CANADA,Spice Blend,2019-03-20,generic,0.07,0.63,Negative/Négatif,0.0279,0,8.59,0,too little lead to judge
+C2018CLAS00013,ONTARIO,Import,CHINA,Chili Powder,2018-09-26,chili/paprika,0.24,0.21,Negative/Négatif,0.2868,0,3.17,0,too little lead to judge
+C2018CLAS00014,ONTARIO,Import,BANGLADESH,Spice Blend,2018-09-27,generic,0.63,0.8,Negative/Négatif,0.1976,0,8.59,0,too little lead to judge
+C2018CLAS00015,ONTARIO,Domestic,CANADA,Turmeric,2019-03-05,turmeric,0.04,0.3,Negative/Négatif,0.0335,0,2.88,0,too little lead to judge
+C2018CLAS00016,ONTARIO,Import,INDIA,Cumin,2019-03-05,cumin,0.24,2.77,Positive/Positif,0.0217,0,8.59,0,too little lead to judge
+C2018CLAS00017,ONTARIO,Import,Unknown,Cayenne Pepper,2019-03-05,chili/paprika,0.08,0.56,Negative/Négatif,0.0358,0,3.17,0,too little lead to judge
+C2018CLAS00018,ONTARIO,Import,Unknown,Paprika,2019-03-05,chili/paprika,0.15,1.28,Negative/Négatif,0.0294,0,3.17,0,too little lead to judge
+C2018CLAS00019,ONTARIO,Import,CHINA,Star Anise,2018-06-14,generic,3.13,1.83,Negative/Négatif,0.4292,0,8.59,0,too little lead to judge
+C2018CLAS00020,ONTARIO,Import,INDIA,Cinnamon,2018-06-07,cinnamon,0.97,0.26,Negative/Négatif,0.9362,1,4.0,0,too little lead to judge
+C2018CLAS00022,ONTARIO,Import,Unknown,Paprika,2018-06-07,chili/paprika,0.25,2.74,Negative/Négatif,0.0229,0,3.17,0,too little lead to judge
+C2018CLAS00023,ONTARIO,Import,INDIA,Spice Blend,2018-07-10,generic,0.23,0.13,Negative/Négatif,0.444,0,8.59,0,too little lead to judge
+C2018CLAS00024R,ONTARIO,Import,Unknown,Spice Blend,2018-11-29,generic,0.26,0.54,Negative/Négatif,0.1208,0,8.59,0,too little lead to judge
+C2018CLAS00025,ONTARIO,Unknown,Unknown,Spice Blend,2018-10-22,generic,0.02,0.34,Negative/Négatif,0.0148,0,8.59,0,too little lead to judge
+C2018CLAS00026,ONTARIO,Unknown,Unknown,Cayenne Pepper,2018-06-14,chili/paprika,0.57,0.19,Negative/Négatif,0.7528,1,3.17,0,too little lead to judge
+C2018CLAS00027,ONTARIO,Import,INDIA,Turmeric,2018-06-07,turmeric,0.07,0.69,Negative/Négatif,0.0255,0,2.88,0,too little lead to judge
+C2018CLAS00028,ONTARIO,Import,INDIA,Spice Blend,2018-06-07,generic,0.22,0.3,Negative/Négatif,0.184,0,8.59,0,too little lead to judge
+C2018CLAS00029,ONTARIO,Import,INDIA,Cumin,2018-07-10,cumin,0.95,0.17,Negative/Négatif,1.4023,1,8.59,0,too little lead to judge
+C2018CLAS00030,ONTARIO,Import,INDIA,Spice Blend,2018-07-10,generic,2.71,0.43,Negative/Négatif,1.5815,1,8.59,0,too little lead to judge
+C2018CLAS00031,ONTARIO,Import,INDIA,Turmeric,2018-07-10,turmeric,0.38,0.03,Negative/Négatif,3.1786,0,2.88,0,too little lead to judge
+C2018CLAS00032,ONTARIO,Import,UNITED STATES,Paprika,2018-07-10,chili/paprika,0.53,0.17,Negative/Négatif,0.7824,1,3.17,0,too little lead to judge
+C2018CLAS00033,ONTARIO,Import,INDIA,Spice Blend,2018-07-10,generic,0.39,0.35,Negative/Négatif,0.2796,0,8.59,0,too little lead to judge
+C2018CLAS00034,ONTARIO,Import,INDIA,Cinnamon,2018-08-08,cinnamon,1.5,0.31,Negative/Négatif,1.2143,1,4.0,0,too little lead to judge
+C2018CLAS00035,ONTARIO,Unknown,Unknown,Cayenne Pepper,2018-08-18,chili/paprika,0.19,0.03,Negative/Négatif,1.5893,1,3.17,0,too little lead to judge
+C2018CLAS00036,ONTARIO,Import,Unknown,Paprika,2018-08-08,chili/paprika,0.27,0.34,Negative/Négatif,0.1993,0,3.17,0,too little lead to judge
+C2018CLAS00037,ONTARIO,Unknown,Unknown,Spice Blend,2018-08-08,generic,0.31,0.89,Negative/Négatif,0.0874,0,8.59,0,too little lead to judge
+C2018CLAS00038R,ONTARIO,Import,Unknown,Thyme,2018-11-26,generic,0.44,2.58,Positive/Positif,0.0428,0,8.59,0,too little lead to judge
+C2018CLAS00039,ONTARIO,Import,INDIA,Cumin,2018-09-11,cumin,2.51,0.41,Negative/Négatif,1.5363,1,8.59,0,too little lead to judge
+C2018CLAS00040,ONTARIO,Import,INDIA,Cumin,2018-09-11,cumin,1.5,0.24,Negative/Négatif,1.5684,1,8.59,0,too little lead to judge
+C2018CLAS00041,ONTARIO,Import,INDIA,Spice Blend,2018-09-11,generic,0.64,0.5,Negative/Négatif,0.3212,0,8.59,0,too little lead to judge
+C2018CLAS00042,ONTARIO,Domestic,CANADA,Spice Blend,2018-09-11,generic,4.47,0.66,Negative/Négatif,1.6996,1,8.59,0,too little lead to judge
+C2018CLAS00043,ONTARIO,Import,INDIA,Spice Blend,2018-10-28,generic,0.36,0.88,Negative/Négatif,0.1027,0,8.59,0,too little lead to judge
+C2018CLAS00044,ONTARIO,Unknown,Unknown,Turmeric,2018-10-11,turmeric,0.98,1.2,Negative/Négatif,0.2049,0,2.88,0,too little lead to judge
+C2018CLAS00045,ONTARIO,Domestic,CANADA,Spice Blend,2018-10-11,generic,0.12,0.23,Negative/Négatif,0.1309,0,8.59,0,too little lead to judge
+C2018CLAS00046,ONTARIO,Import,INDIA,Cumin,2018-11-01,cumin,0.52,16.91,Positive/Positif,0.0077,0,8.59,1,too little lead to judge
+C2018CLAS00047,ONTARIO,Unknown,Unknown,Cayenne Pepper,2018-11-01,chili/paprika,1.28,0.3,Negative/Négatif,1.0707,1,3.17,0,too little lead to judge
+C2018CLAS00048,ONTARIO,Unknown,Unknown,Turmeric,2018-11-01,turmeric,0.07,0.36,Negative/Négatif,0.0488,0,2.88,0,too little lead to judge
+C2018CLAS00049,ONTARIO,Unknown,Unknown,Chili Powder,2018-11-01,chili/paprika,1.33,0.3,Negative/Négatif,1.1125,1,3.17,0,too little lead to judge
+C2018CLAS00050,ONTARIO,Unknown,Unknown,Cayenne Pepper,2018-11-22,chili/paprika,0.07,0.19,Negative/Négatif,0.0925,0,3.17,0,too little lead to judge
+C2018CLAS00051,ONTARIO,Import,INDIA,Paprika,2018-11-22,chili/paprika,0.09,0.33,Negative/Négatif,0.0684,0,3.17,0,too little lead to judge
+C2018CLAS00052,ONTARIO,Import,INDIA,Spice Blend,2018-11-22,generic,0.24,0.83,Negative/Négatif,0.0726,0,8.59,0,too little lead to judge
+C2018CLAS00053,ONTARIO,Unknown,Unknown,Spice Blend,2018-11-22,generic,0.33,0.9,Negative/Négatif,0.092,0,8.59,0,too little lead to judge
+C2018CLAS00054,ONTARIO,Import,UNITED STATES,Paprika,2019-01-17,chili/paprika,0.19,1.48,Negative/Négatif,0.0322,0,3.17,0,too little lead to judge
+C2018CLAS00055,ONTARIO,Unknown,Unknown,Coriander,2019-01-18,coriander,0.02,0.08,Negative/Négatif,0.0627,0,18.93,0,too little lead to judge
+C2018CLAS00056,ONTARIO,Domestic,CANADA,Chili Powder,2019-01-17,chili/paprika,0.08,0.21,Negative/Négatif,0.0956,0,3.17,0,too little lead to judge
+C2018CLAS00057,ONTARIO,Unknown,Unknown,Spice Blend,2019-01-18,generic,0.19,0.69,Negative/Négatif,0.0691,0,8.59,0,too little lead to judge
+C2018CLAS00058,ONTARIO,Import,Unknown,Thyme,2019-01-21,generic,0.36,4.12,Negative/Négatif,0.0219,0,8.59,0,too little lead to judge
+C2018CLAS00059,ONTARIO,Import,INDIA,Cumin,2019-02-01,cumin,0.44,2.23,Positive/Positif,0.0495,0,8.59,0,too little lead to judge
+C2018CLAS00060,ONTARIO,Unknown,Unknown,Cayenne Pepper,2019-02-03,chili/paprika,0.39,0.86,Negative/Négatif,0.1138,0,3.17,0,too little lead to judge
+C2018CLAS00061,ONTARIO,Import,INDIA,Turmeric,2019-02-05,turmeric,0.1,0.9,Negative/Négatif,0.0279,0,2.88,0,too little lead to judge
+C2018CLAS00062,ONTARIO,Import,INDIA,Cinnamon,2019-02-01,cinnamon,0.34,0.72,Negative/Négatif,0.1185,0,4.0,0,too little lead to judge
+C2018CLAS00063,ONTARIO,Import,INDIA,Chili Powder,2019-02-01,chili/paprika,0.14,0.32,Negative/Négatif,0.1098,0,3.17,0,too little lead to judge
+C2018CLAS00064,QUEBEC - QUÉBEC,Domestic,CANADA,Spice Blend,2018-06-12,generic,0.48,0.32,Negative/Négatif,0.3764,0,8.59,0,too little lead to judge
+C2018CLAS00065,QUEBEC - QUÉBEC,Import,INDIA,Spice Blend,2018-10-17,generic,0.32,1.21,Negative/Négatif,0.0664,0,8.59,0,too little lead to judge
+C2018CLAS00066,QUEBEC - QUÉBEC,Import,INDIA,Turmeric,2018-05-22,turmeric,0.04,0.68,Negative/Négatif,0.0148,0,2.88,0,too little lead to judge
+C2018CLAS00067,QUEBEC - QUÉBEC,Unknown,Unknown,Spice Blend,2018-05-22,generic,0.21,0.07,Negative/Négatif,0.7528,1,8.59,0,too little lead to judge
+C2018CLAS00068,QUEBEC - QUÉBEC,Unknown,Unknown,Thyme,2018-05-28,generic,0.48,0.4,Negative/Négatif,0.3011,0,8.59,0,too little lead to judge
+C2018CLAS00069,QUEBEC - QUÉBEC,Unknown,Unknown,Cinnamon,2018-07-12,cinnamon,0.04,0.04,Negative/Négatif,0.2509,0,4.0,0,too little lead to judge
+C2018CLAS00070,QUEBEC - QUÉBEC,Import,SRI LANKA,Cumin,2018-07-12,cumin,0.34,2.45,Negative/Négatif,0.0348,0,8.59,0,too little lead to judge
+C2018CLAS00071,QUEBEC - QUÉBEC,Import,INDIA,Cumin,2018-07-24,cumin,0.27,6.37,Positive/Positif,0.0106,0,8.59,0,too little lead to judge
+C2018CLAS00072,QUEBEC - QUÉBEC,Unknown,Unknown,Cayenne Pepper,2018-07-12,chili/paprika,0.1,0.25,Negative/Négatif,0.1004,0,3.17,0,too little lead to judge
+C2018CLAS00073,QUEBEC - QUÉBEC,Import,SRI LANKA,Spice Blend,2018-07-12,generic,0.37,0.63,Negative/Négatif,0.1474,0,8.59,0,too little lead to judge
+C2018CLAS00075,QUEBEC - QUÉBEC,Unknown,Unknown,Paprika,2018-05-22,chili/paprika,0.5,0.31,Negative/Négatif,0.4048,0,3.17,0,too little lead to judge
+C2018CLAS00076,QUEBEC - QUÉBEC,Import,INDIA,Turmeric,2018-07-12,turmeric,0.12,1.58,Negative/Négatif,0.0191,0,2.88,0,too little lead to judge
+C2018CLAS00077,QUEBEC - QUÉBEC,Import,UNITED STATES,Paprika,2018-08-13,chili/paprika,0.85,0.12,Negative/Négatif,1.7775,1,3.17,0,too little lead to judge
+C2018CLAS00078,QUEBEC - QUÉBEC,Import,Unknown,Spice Blend,2018-10-29,generic,0.31,0.01,Negative/Négatif,7.7793,0,8.59,0,too little lead to judge
+C2018CLAS00079,QUEBEC - QUÉBEC,Import,INDIA,Cayenne Pepper,2018-10-03,chili/paprika,0.08,0.32,Negative/Négatif,0.0627,0,3.17,0,too little lead to judge
+C2018CLAS00080,QUEBEC - QUÉBEC,Import,SRI LANKA,Turmeric,2018-10-03,turmeric,0.64,0.34,Negative/Négatif,0.4724,0,2.88,0,too little lead to judge
+C2018CLAS00081,QUEBEC - QUÉBEC,Unknown,Unknown,Turmeric,2018-10-14,turmeric,0.08,1.27,Negative/Négatif,0.0158,0,2.88,0,too little lead to judge
+C2018CLAS00082,QUEBEC - QUÉBEC,Import,INDIA,Spice Blend,2018-10-14,generic,0.12,0.37,Negative/Négatif,0.0814,0,8.59,0,too little lead to judge
+C2018CLAS00083,QUEBEC - QUÉBEC,Import,JAMAICA,Cayenne Pepper,2018-11-06,chili/paprika,0.08,0.2,Negative/Négatif,0.1004,0,3.17,0,too little lead to judge
+C2018CLAS00084,QUEBEC - QUÉBEC,Unknown,Unknown,Coriander,2018-11-06,coriander,0.02,0.03,Negative/Négatif,0.1673,0,18.93,0,too little lead to judge
+C2018CLAS00085,QUEBEC - QUÉBEC,Import,INDIA,Spice Blend,2018-11-06,generic,0.22,0.59,Negative/Négatif,0.0936,0,8.59,0,too little lead to judge
+C2018CLAS00086,QUEBEC - QUÉBEC,Import,SRI LANKA,Cumin,2018-12-05,cumin,0.11,0.35,Negative/Négatif,0.0789,0,8.59,0,too little lead to judge
+C2018CLAS00087,QUEBEC - QUÉBEC,Unknown,Unknown,Cayenne Pepper,2018-12-01,chili/paprika,0.06,0.24,Negative/Négatif,0.0627,0,3.17,0,too little lead to judge
+C2018CLAS00088,QUEBEC - QUÉBEC,Unknown,Unknown,Spice Blend,2018-12-10,generic,1.75,0.32,Negative/Négatif,1.3724,1,8.59,0,too little lead to judge
+C2018CLAS00089,QUEBEC - QUÉBEC,Unknown,Unknown,Cumin,2019-03-12,cumin,0.07,0.34,Negative/Négatif,0.0517,0,8.59,0,too little lead to judge
+C2018CLAS00090,QUEBEC - QUÉBEC,Unknown,Unknown,Paprika,2019-03-12,chili/paprika,0.25,1.3,Negative/Négatif,0.0483,0,3.17,0,too little lead to judge
+C2018CLAS00091,QUEBEC - QUÉBEC,Unknown,Unknown,Chili Powder,2019-03-13,chili/paprika,0.15,1.02,Negative/Négatif,0.0369,0,3.17,0,too little lead to judge
+C2018CLAS00092,QUEBEC - QUÉBEC,Import,INDIA,Chili Powder,2019-03-19,chili/paprika,0.2,0.98,Negative/Négatif,0.0512,0,3.17,0,too little lead to judge
+C2018CLAS00093,QUEBEC - QUÉBEC,Unknown,Unknown,Anise,2019-03-12,generic,0.05,0.31,Negative/Négatif,0.0405,0,8.59,0,too little lead to judge
+C2018CLAS00094,QUEBEC - QUÉBEC,Unknown,Unknown,Paprika,2019-03-12,chili/paprika,0.35,1.58,Negative/Négatif,0.0556,0,3.17,0,too little lead to judge
+C2018CLAS00095,QUEBEC - QUÉBEC,Import,INDIA,Spice Blend,2019-03-19,generic,0.47,1.76,Positive/Positif,0.067,0,8.59,0,too little lead to judge
+C2018CLAS00096,WEST - OUEST,Import,INDIA,Cumin,2018-07-02,cumin,1.77,0.05,Negative/Négatif,8.8835,0,8.59,0,too little lead to judge
+C2018CLAS00097,WEST - OUEST,Import,INDIA,Chili Powder,2018-06-24,chili/paprika,0.2,0.07,Negative/Négatif,0.717,1,3.17,0,too little lead to judge
+C2018CLAS00098,WEST - OUEST,Import,INDIA,Spice Blend,2018-07-24,generic,0.15,0.58,Negative/Négatif,0.0649,0,8.59,0,too little lead to judge
+C2018CLAS00099,WEST - OUEST,Import,INDIA,Spice Blend,2018-07-24,generic,0.23,0.28,Negative/Négatif,0.2061,0,8.59,0,too little lead to judge
+C2018CLAS00100,WEST - OUEST,Import,INDIA,Spice Blend,2018-08-06,generic,0.55,0.92,Negative/Négatif,0.15,0,8.59,0,too little lead to judge
+C2018CLAS00101,WEST - OUEST,Import,INDIA,Turmeric,2018-09-16,turmeric,0.46,0.03,Negative/Négatif,3.8478,0,2.88,0,too little lead to judge
+C2018CLAS00102,WEST - OUEST,Unknown,Unknown,Cayenne Pepper,2018-11-12,chili/paprika,0.02,0.32,Negative/Négatif,0.0157,0,3.17,0,too little lead to judge
+C2018CLAS00103,WEST - OUEST,Domestic,CANADA,Paprika,2018-12-01,chili/paprika,0.56,0.06,Negative/Négatif,2.3422,0,3.17,0,too little lead to judge
+C2018CLAS00104,WEST - OUEST,Domestic,CANADA,Spice Blend,2019-03-01,generic,0.22,1.18,Positive/Positif,0.0468,0,8.59,0,too little lead to judge
+C2018CLAS00105,WEST - OUEST,Unknown,Unknown,Cumin,2018-05-22,cumin,0.32,6.25,Positive/Positif,0.0128,0,8.59,0,too little lead to judge
+C2018CLAS00106,WEST - OUEST,Import,SRI LANKA,Spice Blend,2018-05-23,generic,0.57,0.42,Negative/Négatif,0.3406,0,8.59,0,too little lead to judge
+C2018CLAS00107,WEST - OUEST,Import,Unknown,Paprika,2018-07-08,chili/paprika,1.2,0.11,Negative/Négatif,2.7376,0,3.17,0,too little lead to judge
+C2018CLAS00108R,WEST - OUEST,Import,Unknown,Coriander,2018-12-04,coriander,0.01,0.0,Negative/Négatif,,0,18.93,0,too little lead to judge
+C2018CLAS00109,WEST - OUEST,Import,SRI LANKA,Spice Blend,2018-05-22,generic,1.24,0.96,Negative/Négatif,0.3241,0,8.59,0,too little lead to judge
+C2018CLAS00110,WEST - OUEST,Domestic,CANADA,Spice Blend,2018-05-22,generic,0.4,0.99,Negative/Négatif,0.1014,0,8.59,0,too little lead to judge
+C2018CLAS00111,WEST - OUEST,Import,HUNGARY,Paprika,2018-05-22,chili/paprika,0.13,0.35,Negative/Négatif,0.0932,0,3.17,0,too little lead to judge
+C2018CLAS00112R,WEST - OUEST,Unknown,Unknown,Spice Blend,2018-12-03,generic,1.69,0.15,Negative/Négatif,2.8273,0,8.59,0,too little lead to judge
+C2018CLAS00113,WEST - OUEST,Import,INDIA,Chili Powder,2018-05-22,chili/paprika,0.03,0.13,Negative/Négatif,0.0579,0,3.17,0,too little lead to judge
+C2018CLAS00114,WEST - OUEST,Unknown,Unknown,Thyme,2018-05-22,generic,0.56,2.21,Negative/Négatif,0.0636,0,8.59,0,too little lead to judge
+C2018CLAS00114R,WEST - OUEST,Unknown,Unknown,Thyme,2018-12-05,generic,0.86,0.43,Negative/Négatif,0.5019,0,8.59,0,too little lead to judge
+C2018CLAS00115R,WEST - OUEST,Import,Unknown,Cinnamon,2018-11-27,cinnamon,0.81,2.18,Negative/Négatif,0.0932,0,4.0,0,too little lead to judge
+C2018CLAS00116,WEST - OUEST,Unknown,Unknown,Cayenne Pepper,2018-07-08,chili/paprika,0.13,0.3,Negative/Négatif,0.1087,0,3.17,0,too little lead to judge
+C2018CLAS00117,WEST - OUEST,Import,INDIA,Turmeric,2018-07-08,turmeric,0.48,0.52,Negative/Négatif,0.2316,0,2.88,0,too little lead to judge
+C2018CLAS00118,WEST - OUEST,Unknown,Unknown,Paprika,2018-07-08,chili/paprika,0.32,0.81,Negative/Négatif,0.0991,0,3.17,0,too little lead to judge
+C2018CLAS00119,WEST - OUEST,Domestic,CANADA,Chili Powder,2018-07-08,chili/paprika,0.14,0.63,Negative/Négatif,0.0558,0,3.17,0,too little lead to judge
+C2018CLAS00120,WEST - OUEST,Import,JAMAICA,Spice Blend,2018-08-19,generic,0.35,0.0,Negative/Négatif,,0,8.59,0,too little lead to judge
+C2018CLAS00120R,WEST - OUEST,Unknown,Unknown,Spice Blend,2018-11-27,generic,0.13,0.11,Negative/Négatif,0.2966,0,8.59,0,too little lead to judge
+C2018CLAS00121,WEST - OUEST,Import,JAMAICA,Spice Blend,2018-08-19,generic,0.24,0.0,Negative/Négatif,,0,8.59,0,too little lead to judge
+C2018CLAS00121R,WEST - OUEST,Unknown,Unknown,Spice Blend,2018-11-27,generic,0.01,0.1,Negative/Négatif,0.0251,0,8.59,0,too little lead to judge
+C2018CLAS00122,WEST - OUEST,Import,Unknown,Cayenne Pepper,2018-09-30,chili/paprika,0.07,0.7,Negative/Négatif,0.0251,0,3.17,0,too little lead to judge
+C2018CLAS00123,WEST - OUEST,Import,INDIA,Turmeric,2018-10-08,turmeric,2.97,0.29,Negative/Négatif,2.57,0,2.88,0,too little lead to judge
+C2018CLAS00124,WEST - OUEST,Import,INDIA,Turmeric,2018-10-08,turmeric,0.05,0.46,Negative/Négatif,0.0273,0,2.88,0,too little lead to judge
+C2018CLAS00126,WEST - OUEST,Import,INDIA,Cumin,2018-11-05,cumin,0.23,1.94,Negative/Négatif,0.0298,0,8.59,0,too little lead to judge
+C2018CLAS00127,WEST - OUEST,Import,Unknown,Cayenne Pepper,2018-12-03,chili/paprika,1.28,0.42,Negative/Négatif,0.7648,1,3.17,0,too little lead to judge
+C2018CLAS00128,WEST - OUEST,Import,UNITED STATES,Spice Blend,2018-12-03,generic,0.99,0.92,Negative/Négatif,0.27,0,8.59,0,too little lead to judge
+C2018CLAS00129,WEST - OUEST,Import,Unknown,Chili Powder,2019-01-23,chili/paprika,0.04,0.73,Negative/Négatif,0.0138,0,3.17,0,too little lead to judge
+C2018CLAS00130,WEST - OUEST,Domestic,CANADA,Spice Blend,2019-01-23,generic,0.06,0.19,Negative/Négatif,0.0792,0,8.59,0,too little lead to judge
