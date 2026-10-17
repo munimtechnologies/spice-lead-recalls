@@ -19,6 +19,29 @@ NYC Open Data, NYC Department of Health and Mental Hygiene (DOHMH). King County 
 Health - Seattle & King County. This analysis is not endorsed by either agency.
 The code, data runs and write-up were made with AI agents working in MV2's name.
 
+## Pre-registered follow-ups (0.3.2 onward)
+
+Since 0.3.2 most new work here is pre-registered. The predictions are committed in one release, before the data
+that grades them is read, and the result follows in a later release, with failures reported as failures.
+[`docs/analyses-index.md`](docs/analyses-index.md) lists every note. The main results so far:
+
+- **The natural-chromium check holds up.** 30 of the 32 robust lead-chromate verdicts in section 2 survive a 2-fold
+  error in every natural-chromium ceiling, and 24 survive a 10-fold error (cr-ceiling-stress).
+- **Gross lead comes from spices bought abroad.** NYC case-investigation spices bought in the U.S. were at or above
+  2 ppm lead about as often as store-survey spices (5.8% against 8.3%, 2016-2025). Spices bought abroad were 20
+  times as likely as store spices to reach 50 ppm (purchase-place).
+- **The post-2020 fall is citywide.** Georgia-bought case spices at or above 50 ppm fell from 49 of 141 (2016-2020)
+  to 0 of 16 (2021-2025), but the pre-registered Bangladesh control and every other group fell too, so NYC's data
+  alone cannot credit Georgia (georgia-trend). Since 2023 most case records leave the purchase country blank
+  (purchase-recording), and a one-page note for lead-program staff asks them to record it
+  ([`docs/ask-where-bought.md`](docs/ask-where-bought.md)).
+- **FDA's border list fell too, and listed no Georgian firm in 2016-2020.** Its lead-in-spice listings moved from
+  Import Alert 28-13 to 99-42 around October 2022, so a trend read from 99-42 alone shows an artificial jump
+  (ia9942-lead-spice).
+- **Waiting for a grade:** Canada's spice authenticity surveillance, 2020-2023 (cfia-spice-auth); Canada's 2018-19
+  survey of clean retail spices, used to test whether the chromate screen stays quiet (cfia-chromate-2018); and
+  banned Sudan dyes in red palm oil sold in Canada, by declared origin (red-palm-dyes).
+
 The Raman limit used throughout comes from Erasmus et al. 2021, the first study of FT-Raman for lead chromate in
 turmeric: limit of detection 0.6% w/w (840 cm-1 peak) and 0.5% (PLS model). PbCrO4 is 64.1% lead by mass, so 0.5% w/w
 is about **3,206 ug/g (ppm) lead**.
@@ -587,6 +610,9 @@ then writes `lod_curve.json`, `lod_curve.md` and `lod_curve.csv`.
 
 `spot_sampling.py` imports `lod_curve.py`, reads the same two downloads, then writes `spot_sampling.json`,
 `spot_sampling.md` and `spot_sampling.csv`.
+
+The pre-registered analyses each have their own script and test, named in their notes
+([`docs/analyses-index.md`](docs/analyses-index.md)).
 
 ## Sources
 

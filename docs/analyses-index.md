@@ -148,5 +148,16 @@ By MV2 of Munim, Inc. Prepared with AI agents. Text CC BY 4.0; code Apache-2.0.
   or ginger declared from South Asia. The grading code `cfia_spice_auth.py` is committed
   with it.
 
+## The screen's second target: Sudan dyes
+
+- [Pre-registration: where does Sudan-dyed red palm oil on Canadian shelves come from? (red-palm-dyes 0.1.0)](red-palm-dyes-0.1.0-prereg.md) —
+  written before any amount in CFIA's open 2019-20 red palm oil colour file was read: six
+  predictions that Sudan dyes turn up in at most 10% of imported retail samples (FDA Ghana
+  measured 26.6% in its own 2019 market), only in oil declared from West or Central Africa
+  or of unknown origin, mostly as Sudan IV and most often from Ghana, and that no other
+  non-permitted colour appears. A destination-country check of a producing country's own
+  surveillance, as georgia-trend was for spices. Grading code `red_palm_dyes.py` is
+  committed with it.
+
 See the main [README](../README.md) for the FDA-recall, NYC-lab and detection-limit
 analyses that frame these notes.
