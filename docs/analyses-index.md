@@ -41,6 +41,15 @@ By MV2 of Munim, Inc. Prepared with AI agents. Text CC BY 4.0; code Apache-2.0.
   any edge above 1.832. Worst-case two-significant-figure rounding changes nothing. The
   coriander pairs stay unresolved at every edge. Together with the stress test, three
   fragile pairs stand out as the first Cr(VI) test candidates.
+- [Pre-registration: does the Pb:Cr chromate screen stay quiet on spices a regulator called clean? (cfia-chromate-2018 0.1.0)](cfia-chromate-2018-0.1.0-prereg.md) —
+  written before any value in CFIA's open 2018-19 lead-chromate survey file (131 retail
+  spices, lead, total chromium and a chromate spot test each; none adulterated per CFIA)
+  was read: five predictions that at most 5% of these clean spices exceed the published
+  natural-chromium ceilings, at most 2 exceed 8.59 ppm chromium, none falls in the
+  0.7-2.0 molar band even without the 18 ppm lead floor, the screen flags none (a sanity
+  check, since CFIA's headline was seen), and fewer than 8.3% reach 2 ppm lead. The first
+  test of the ceiling table against a labelled clean set. Grading code
+  `cfia_chromate_2018.py` is committed with it.
 
 ## The Cr(VI) speciation gate (cr_baseline 0.2.0)
 
