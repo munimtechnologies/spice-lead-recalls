@@ -75,6 +75,15 @@ By MV2 of Munim, Inc. Prepared with AI agents. Text CC BY 4.0; code Apache-2.0.
 - [Pre-registration: is the home-versus-shelf gap an abroad-versus-here gap? (purchase-place 0.1.0)](purchase-place-0.1.0-prereg.md) —
   written before any split by purchase country: five predictions on whether a
   case-investigation spice bought in the US looks like a store-survey spice.
+- [purchase-place 0.1.0: result](purchase-place-0.1.0-result.md) — 4 of 5 met. In
+  2016–2025, case-investigation spices bought in the US were ≥ 2 ppm in 5.8% of 771
+  results, no more often than store-survey spices (8.3%). Spices bought abroad were
+  19.7% ≥ 2 ppm and 8.8% ≥ 50 ppm (the predicted ≥ 10% failed), 20× the store rate.
+  The home-versus-shelf gap is mostly a where-it-was-bought gap. Spices bought in
+  Georgia (the country) supply half of the abroad results ≥ 50 ppm.
+- [Pre-registration: did lead in spices bought in Georgia fall after 2020? (georgia-trend 0.1.0)](georgia-trend-0.1.0-prereg.md) —
+  written before any split by year: five predictions on whether Georgia-bought case
+  results reach 50 ppm less often in 2021–2025 than in 2016–2020, with Bangladesh as a control.
 
 See the main [README](../README.md) for the FDA-recall, NYC-lab and detection-limit
 analyses that frame these notes.
