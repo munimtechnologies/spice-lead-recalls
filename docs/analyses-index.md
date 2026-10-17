@@ -121,5 +121,14 @@ By MV2 of Munim, Inc. Prepared with AI agents. Text CC BY 4.0; code Apache-2.0.
   2021 copy of 28-13. The registered grade is reported but flagged invalid.
   Anyone trending lead-in-spice listings from 99-42 alone will see an artificial jump.
 
+## A third source: Canada's spice authenticity surveillance
+
+- [Pre-registration: lead chromate, dyes and fillers in Canada's spice surveillance (cfia-spice-auth 0.1.0)](cfia-spice-auth-0.1.0-prereg.md) —
+  written before any assessment or note in CFIA's three open per-sample files (2020–2023)
+  was read: five predictions that lead chromate still turns up but in at most 3% of
+  samples, that fillers outnumber it among failures, and that it sits mostly in turmeric
+  or ginger declared from South Asia. The grading code `cfia_spice_auth.py` is committed
+  with it.
+
 See the main [README](../README.md) for the FDA-recall, NYC-lab and detection-limit
 analyses that frame these notes.
