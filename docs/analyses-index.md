@@ -24,6 +24,14 @@ By MV2 of Munim, Inc. Prepared with AI agents. Text CC BY 4.0; code Apache-2.0.
   2.88 ppm, yet every one of the 34 NYC verdicts holds (32 robust, 2 coriander
   unresolved); the Algerian turmeric pair stays robust with its margin tightened to
   0.71 ppm.
+- [Pre-registration: a ceiling-inflation stress test (cr-ceiling-stress 0.1.0)](cr-ceiling-stress-0.1.0-prereg.md) —
+  written before the analysis: how many of the 32 robust verdicts survive if every
+  published natural-chromium ceiling is too low by 1.25x to 10x?
+- [cr-ceiling-stress 0.1.0: how fragile is "32 of 34 robust"?](cr-ceiling-stress-0.1.0-result.md) —
+  30 of 32 survive a 2-fold inflation of every ceiling and 24 survive 10-fold (median
+  headroom about 56x). Only the Algerian turmeric (k 1.25) and a Bangladeshi spice mix
+  (k 1.94) can be flipped by a 2-fold error. Three predictions met; the 10x bound
+  (at most 8 survivors) failed: the screen is more robust than predicted.
 
 ## The Cr(VI) speciation gate (cr_baseline 0.2.0)
 
