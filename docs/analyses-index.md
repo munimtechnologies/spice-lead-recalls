@@ -60,6 +60,13 @@ By MV2 of Munim, Inc. Prepared with AI agents. Text CC BY 4.0; code Apache-2.0.
   34 chromate-like NYC pairs, 32 robust, 2 (both coriander) unresolved. No NYC pair
   carries a Cr(VI) result, so the counts are unchanged from 0.1.0, exactly as predicted;
   the gate fires on the Lopez worked example, which has a confirmed Cr(VI) reading.
+- [Which chromate-like spices to confirm first: three Cr(VI) speciation candidates](speciation-candidates-0.1.0.md) —
+  a practitioner sheet. Of the 32 robust pairs, the three with k = edge / highest
+  natural-chromium ceiling below 5 are the only ones a five-fold ceiling error could
+  overturn: Algerian turmeric (k 1.25), a Bangladeshi spice mix (k 1.94) and Algerian Raz
+  El Hanout (k 3.95). These are the least certain pairs, not the most contaminated. The
+  sheet lists their lab values and the confirmation assays to use (sodium rhodizonate for
+  lead, diphenylcarbazide for Cr(VI), Raman near 840 cm⁻¹).
 
 ## How far a pocket screen could reach
 
@@ -114,6 +121,8 @@ By MV2 of Munim, Inc. Prepared with AI agents. Text CC BY 4.0; code Apache-2.0.
   CC BY summary of the purchase-place, georgia-trend and purchase-recording results for
   lead-program staff: gross lead comes from spices bought abroad, low-level lead persists
   in US-bought spices, and the purchase field is going unrecorded.
+- [Which chromate-like spices to confirm first](speciation-candidates-0.1.0.md) — the
+  three Cr(VI) speciation candidates listed above, written for a lab or health department.
 
 ## A second source: FDA's border list
 
@@ -158,6 +167,14 @@ By MV2 of Munim, Inc. Prepared with AI agents. Text CC BY 4.0; code Apache-2.0.
   non-permitted colour appears. A destination-country check of a producing country's own
   surveillance, as georgia-trend was for spices. Grading code `red_palm_dyes.py` is
   committed with it.
+- [red-palm-dyes 0.1.0: result (provisional)](red-palm-dyes-0.1.0-result.md) — 5 of 6 met.
+  Two of 104 imported retail samples (2019–2021) carried a Sudan dye, both Sudan IV (47.5
+  and 15.6 ppm), both declared from **Nigeria**. All 73 Malaysian and South American oils
+  were clean, and no other non-permitted colour appeared. The Ghana prediction (P5)
+  failed: 0 of 14 Ghana-declared samples were dyed (0 of 10 in 2019-20; if the dyed share
+  were Ghana's 2019 market rate of 26.6%, that has about a 4.5% chance). Different sampling
+  frames, small counts. Graded by the registered code on a committed transcription of both
+  files, which CFIA's own headlines match. The sealed download run will confirm it later.
 
 See the main [README](../README.md) for the FDA-recall, NYC-lab and detection-limit
 analyses that frame these notes.
