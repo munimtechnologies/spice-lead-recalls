@@ -91,6 +91,28 @@ By MV2 of Munim, Inc. Prepared with AI agents. Text CC BY 4.0; code Apache-2.0.
   other abroad (6.9% → 2.4%) and US-bought (9 → 0) results fell too, and Bangladesh had
   its own 2019 enforcement campaign. NYC's open table alone cannot credit the fall to
   Georgia.
+- [purchase-recording 0.1.0: since 2023, most records lack a purchase country](purchase-recording-0.1.0.md) —
+  a descriptive check (not pre-registered). Purchase country is missing for 4.8% of case
+  results in 2016–2020 but 38.9% in 2021–2025 (59.7% in 2023), and for 9 of the 18 gross
+  (≥ 50 ppm) results since 2021 against 1 of 99 before. The citywide fall (8.5% → 1.4%
+  ≥ 50 ppm) and the abroad fall survive any assignment of the missing countries.
+  Georgia's per-result share fall (georgia-trend P1–P3) does not: as a count, Georgia
+  gross results fell from 49 to between 0 and 9.
+
+## For practitioners
+
+- [On a home visit, ask where each spice was bought](ask-where-bought.md) — a one-page
+  CC BY summary of the purchase-place, georgia-trend and purchase-recording results for
+  lead-program staff: gross lead comes from spices bought abroad, low-level lead persists
+  in US-bought spices, and the purchase field is going unrecorded.
+
+## A second source: FDA's border list
+
+- [Pre-registration: did FDA's border listings for lead in spices fall after 2020? (ia9942-lead-spice 0.1.0)](ia9942-lead-spice-0.1.0-prereg.md) —
+  written before any FDA Import Alert 99-42 Red List entry was counted: five predictions
+  that FDA's lead-in-spice firm listings did **not** fall after 2020 (driven by
+  cinnamon), and that Georgia, NYC's largest source of gross contamination, has no
+  2016–2020 listing. The grading code `ia9942_lead_spice.py` is committed with it.
 
 See the main [README](../README.md) for the FDA-recall, NYC-lab and detection-limit
 analyses that frame these notes.
