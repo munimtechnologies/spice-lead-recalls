@@ -84,6 +84,13 @@ By MV2 of Munim, Inc. Prepared with AI agents. Text CC BY 4.0; code Apache-2.0.
 - [Pre-registration: did lead in spices bought in Georgia fall after 2020? (georgia-trend 0.1.0)](georgia-trend-0.1.0-prereg.md) —
   written before any split by year: five predictions on whether Georgia-bought case
   results reach 50 ppm less often in 2021–2025 than in 2016–2020, with Bangladesh as a control.
+- [georgia-trend 0.1.0: result](georgia-trend-0.1.0-result.md) — 4 of 5 met; the control
+  failed. Georgia-bought case results ≥ 50 ppm went from 49 of 141 (2016–2020) to 0 of 16
+  (2021–2025), Fisher p ≈ 0.003. The fall survives a crude one-date-one-visit
+  correction (30 of 44 dates vs 0 of 4, p ≈ 0.016). But Bangladesh-bought (7.5% → 1.9%),
+  other abroad (6.9% → 2.4%) and US-bought (9 → 0) results fell too, and Bangladesh had
+  its own 2019 enforcement campaign. NYC's open table alone cannot credit the fall to
+  Georgia.
 
 See the main [README](../README.md) for the FDA-recall, NYC-lab and detection-limit
 analyses that frame these notes.

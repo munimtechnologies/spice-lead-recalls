@@ -1,0 +1,11 @@
+series,period,n_result,n_ge2,n_ge50
+GEORGIA,early,141,85,49
+GEORGIA,late,16,1,0
+BANGLADESH,early,239,48,18
+BANGLADESH,late,159,15,3
+other_abroad,early,317,46,22
+other_abroad,late,246,25,6
+abroad,early,697,179,89
+abroad,late,421,41,9
+US,early,406,25,9
+US,late,365,20,0
