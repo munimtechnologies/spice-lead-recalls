@@ -48,7 +48,7 @@ it appears on the FDA border list only as a single *cinnamon* firm added in 2026
 ground blends that drive frame 1. A border list keyed to cinnamon and cassia (frames 5 and 6
 are both led by cinnamon/India) cannot surface a hazard that travels in checked luggage.
 
-**No frame actually confirms lead chromate.** This is the quietest and most important column.
+**None of the eight frames confirms lead chromate.** This is the quietest and most important column.
 Lead chromate is the adulterant everyone worries about — bright-yellow pigment added to
 turmeric. Yet across 823 authenticity samples (frame 6) it is named **zero** times; across
 131 chromate-tested retail spices (frame 8) eight samples gave a positive chromate *spot
@@ -58,7 +58,8 @@ lead, from which lead chromate can be inferred but never proven. What the authen
 outnumber colour failures, and the five colour failures are ordinary synthetic dyes
 (Sunset Yellow, tartrazine-class), four in turmeric and one in Iranian cinnamon, none from
 South Asia. The dye target of the pocket screen shows the same shape in frame 7: just two
-Sudan IV positives in 104 red palm oils, both declared Nigerian.
+Sudan IV positives in 104 red palm oils, both declared Nigerian. (A ninth CFIA survey, which
+has no open per-sample file, *does* name lead chromate, at trace lead. See the addendum below.)
 
 ## Why this is worth saying
 
@@ -94,3 +95,36 @@ cross-frame comparison is qualitative: it shows that the *frame* changes the ans
 any two rates are directly comparable. "Lead chromate named" counts explicit regulatory
 findings, not inference from a Pb:Cr ratio. Full methods and deviations are in each frame's
 own note.
+
+## Addendum (2026-10-17, v0.4.15): two more CFIA frames, from CFIA's reports
+
+The first version of this note said "no frame actually confirms lead chromate". That was true
+of the eight frames in the table, but too broad. CFIA ran a **second** lead chromate survey,
+and it does name the pigment. Neither frame below has a committed per-sample file, so the
+test does not cover their numbers. They are quoted from CFIA's own pages (checked 2026-10-17).
+
+| # | Frame (source) | n | What it measures | Result (CFIA's words and figures) | Lead chromate *named*? |
+|---|---|---|---|---|---|
+| 9 | CFIA **Lead Chromates in Spices**, April 2019 to March 2021 (final report; no open per-sample file found) | 132 (cumin 23, ginger 23, mustard 18, blends 46, turmeric 22; 80 imported, 8 domestic, 44 origin unknown) | Pb, total Cr, colorimetric chromate test | lead not detected to **1.84 ppm** (mean 0.31); chromium up to 10.58 ppm; no health risk, no recalls | **Yes: 2 ground gingers**, "potential adulteration" (Pb:Cr in lead chromate's ratio *and* chromate-positive) |
+| 10 | CFIA **Non-Permitted Colours in Spices** 2019-20 (open.canada.ca c2003a7b) | 63 red spices (paprika, sumac, chili, cayenne) | Sudan I-IV and other non-permitted colours | "none ... found to contain detectable amounts" | n/a (dyes) |
+
+**What frame 9 changes.** It is the one place in these sources where a regulator names lead
+chromate in retail spice, and it did so at **trace** lead. No sample in that survey exceeded
+1.84 ppm lead. That is 27 times below the gross band used above (≥50 ppm), and about 1,700 times
+below the ~3,200 ppm lead (0.5% w/w lead chromate) at which bench Raman sees the pigment in
+turmeric powder. CFIA's three-criteria test can find lead chromate at levels no field screen
+reaches, and at those levels it was not a health risk. The reading of the table holds:
+the gross, poisoning-level lead chromate is in frame 1, not in Canadian or U.S. retail.
+The sentence that needed correcting was the claim that no regulator ever named the pigment.
+
+**What frame 10 adds.** CFIA's Sudan-dye survey of red spices found nothing, while the same
+programme found Sudan IV in Nigerian-declared red palm oil (frame 7). Whether 0 of 63 means
+"clean" or "not looking where the dye is" depends on the declared origins sampled. That
+question is pre-registered in `docs/sudan-spices-0.1.0-prereg.md` and will be graded from the
+open file, which no one has yet read for this analysis.
+
+Sources: inspection.canada.ca, "Lead Chromates in Spices – April 1, 2019 to March 31, 2021"
+(Food chemistry – Targeted surveys – Final report; page modified 2023-07-18; Government of
+Canada Publications A104-386/2023E-PDF); open.canada.ca dataset
+c2003a7b-9ca8-46cd-ba83-ecafd1c8569c. Contains information licensed under the Open Government
+Licence - Canada.
