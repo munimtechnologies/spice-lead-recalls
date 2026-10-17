@@ -50,6 +50,15 @@ By MV2 of Munim, Inc. Prepared with AI agents. Text CC BY 4.0; code Apache-2.0.
   check, since CFIA's headline was seen), and fewer than 8.3% reach 2 ppm lead. The first
   test of the ceiling table against a labelled clean set. Grading code
   `cfia_chromate_2018.py` is committed with it.
+- [cfia-chromate-2018 0.1.0: result](cfia-chromate-2018-0.1.0-result.md) — 4 of 5 met.
+  On 131 retail spices CFIA cleared, the published screen (lead ≥ 18 ppm *and* the molar
+  band) flags **none**, agreeing exactly with CFIA, and the natural-Cr ceilings are quiet
+  (1 of 81 over a ceiling; 1 over 8.59 ppm Cr). P3 failed, and that is the point: drop the
+  lead floor and **21** clean samples fall in the molar band, each with lead under 5 ppm
+  and a negative spot test — the lead floor is what makes the screen specific. The one
+  over-ceiling sample (Indian cumin, Cr 16.9 ppm, positive spot test) carries only 0.52
+  ppm lead, so it is not the lead-chromate signature. A low-level lead tail remains (6 of
+  131 ≥ 2 ppm; top: thyme 6.57, a domestic Canadian blend 4.47). Computed by a sealed run.
 
 ## The Cr(VI) speciation gate (cr_baseline 0.2.0)
 
@@ -156,6 +165,17 @@ By MV2 of Munim, Inc. Prepared with AI agents. Text CC BY 4.0; code Apache-2.0.
   samples, that fillers outnumber it among failures, and that it sits mostly in turmeric
   or ginger declared from South Asia. The grading code `cfia_spice_auth.py` is committed
   with it.
+- [cfia-spice-auth 0.1.0: result](cfia-spice-auth-0.1.0-result.md) — 2 of 3 gradable met,
+  computed by a sealed compute run (it supersedes an earlier provisional transcription).
+  No note in 823 samples names lead or chromate (P1 failed; P4 and P5 not gradable), and
+  allergen-protein "filler" notes — peanut in cumin, gluten in pepper and coriander, up to
+  19,000 ppm gluten in a Vietnamese white pepper — outnumber it among the 57 failures
+  (53 to 0). Five samples drew an undeclared-colour failure: four turmerics (declared from
+  the United States ×2, Iran and Madagascar) and one Iranian cinnamon (Sunset Yellow FCF
+  486.8 ppm); none of the colour-failed turmerics was declared from South Asia. Because
+  CFIA tests a turmeric "for colours" by both dye HPLC and metals ICP-MS, the open note
+  cannot separate a banned dye from lead chromate — the gap a point-of-use screen closes.
+  No sample declares Georgia.
 
 ## The screen's second target: Sudan dyes
 
@@ -167,14 +187,13 @@ By MV2 of Munim, Inc. Prepared with AI agents. Text CC BY 4.0; code Apache-2.0.
   non-permitted colour appears. A destination-country check of a producing country's own
   surveillance, as georgia-trend was for spices. Grading code `red_palm_dyes.py` is
   committed with it.
-- [red-palm-dyes 0.1.0: result (provisional)](red-palm-dyes-0.1.0-result.md) — 5 of 6 met.
-  Two of 104 imported retail samples (2019–2021) carried a Sudan dye, both Sudan IV (47.5
-  and 15.6 ppm), both declared from **Nigeria**. All 73 Malaysian and South American oils
-  were clean, and no other non-permitted colour appeared. The Ghana prediction (P5)
-  failed: 0 of 14 Ghana-declared samples were dyed (0 of 10 in 2019-20; if the dyed share
-  were Ghana's 2019 market rate of 26.6%, that has about a 4.5% chance). Different sampling
-  frames, small counts. Graded by the registered code on a committed transcription of both
-  files, which CFIA's own headlines match. The sealed download run will confirm it later.
+- [red-palm-dyes 0.1.0: result](red-palm-dyes-0.1.0-result.md) — 5 of 6 met, now confirmed
+  by a sealed compute run (job red-palm-dyes-v1, 2026-10-17): same two positives, same
+  grades. Two of 104 imported retail samples (2019–2021) carried a Sudan dye, both Sudan IV
+  (47.5 and 15.6 ppm), both declared from **Nigeria**. All 73 Malaysian and South American
+  oils were clean, and no other non-permitted colour appeared. The Ghana prediction (P5)
+  failed: 0 of 14 Ghana-declared samples were dyed. Different sampling frames, small
+  counts. The sealed per-sample table is in `data/red_palm_dyes_sealed_samples.csv`.
 
 See the main [README](../README.md) for the FDA-recall, NYC-lab and detection-limit
 analyses that frame these notes.

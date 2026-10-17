@@ -5,15 +5,15 @@
 **Grades:** [red-palm-dyes-0.1.0-prereg.md](red-palm-dyes-0.1.0-prereg.md) (release v0.4.8),
 written before any amount in the 2019-20 file was read.
 
-**Status: provisional.** The pre-registered plan was to grade from a sealed run of
-`red_palm_dyes.py` that downloads and freezes both CFIA files. That run is still waiting
-for a compute slot. This grade comes from reading the two files directly, over several passes,
-and transcribing every sample number, its declared origin and every non-zero amount into
-`data/red_palm_dyes_transcribed_samples.csv`. The committed grader then ran unchanged on
-that transcription (`test_red_palm_dyes_result.py`). The method, thresholds and predictions
-are exactly as registered. When the sealed run returns, its frozen files will be committed
-and compared row by row with the transcription. Any difference will be published as a
-correction.
+**Status: confirmed by a sealed compute run (2026-10-17).** This grade was first produced by
+reading the two CFIA files directly and transcribing every sample number, declared origin and
+non-zero amount into `data/red_palm_dyes_transcribed_samples.csv`, then running the committed
+grader on it. The pre-registered sealed run of `red_palm_dyes.py` (job `red-palm-dyes-v1`) has
+now downloaded and frozen both files (2019-20 sha256 `4454588b…`, 2020-21 sha256 `13d83be3…`)
+and graded them with no network at analysis time. **It reproduced the transcription exactly:**
+same 72 + 32 samples, same two Sudan IV positives (47.5 and 15.61 ppm, both Nigeria), same
+per-origin counts, same 5-of-6 grade. The sealed per-sample table is committed as
+`data/red_palm_dyes_sealed_samples.csv`; it agrees row for row with the transcription.
 
 ## Checks on the transcription
 
@@ -21,7 +21,7 @@ correction.
   Each block's row count and every non-zero value were read in three overlapping chunks,
   and the Sudan blocks were read twice, with different questions. The 2020-21 file (576 rows,
   sorted by sample) was read twice. Across both files there are two non-zero amounts, and
-  both passes found the same two.
+  both passes found the same two. The sealed run later confirmed these are the only two.
 - **CFIA's own reports agree.** The 2019-20 report says "Of the 72 samples tested, 1 sample
   was positive for Sudan IV with a concentration of 47.5 ppm". The 2020-21 report says 1 of 32,
   Sudan IV at 15.6 ppm. Neither report names a country of origin or breaks results down by
@@ -111,6 +111,9 @@ and no comparison of a destination country's retail results with Ghana's market 
 
 - `data/red_palm_dyes_transcribed_samples.csv`: 104 rows (year, sample id, declared origin,
   non-zero colours), transcribed from the CFIA files (Open Government Licence - Canada).
+- `data/red_palm_dyes_sealed_samples.csv`: the sealed run's 104-row per-sample table
+  (adds CFIA region, date, Sudan dye list, highest Sudan ug/g and component count), produced
+  by `red_palm_dyes.py` from the frozen downloads; agrees with the transcription.
 - `test_red_palm_dyes_result.py`: rebuilds CFIA's 18-colour layout from the transcription,
   runs the registered `red_palm_dyes.py` grader, and pins every number above.
 - Sources: open.canada.ca datasets f0aa9c6f-984f-4cc8-a7d7-b679c6e64e10 (2019-20) and
