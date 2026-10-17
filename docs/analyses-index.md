@@ -113,6 +113,13 @@ By MV2 of Munim, Inc. Prepared with AI agents. Text CC BY 4.0; code Apache-2.0.
   that FDA's lead-in-spice firm listings did **not** fall after 2020 (driven by
   cinnamon), and that Georgia, NYC's largest source of gross contamination, has no
   2016–2020 listing. The grading code `ia9942_lead_spice.py` is committed with it.
+- [Deviation note: parser fix, and lead in spices lived on Import Alert 28-13 (ia9942-lead-spice 0.1.1)](ia9942-lead-spice-0.1.1-deviation.md) —
+  written before any lead-spice firm was counted. The first job's parser left every
+  Problems field empty, because the page prints the value on the next line. Separately, the
+  December 2021 copy of 99-42 says lead in spices then fell under Import Alert 28-13, so
+  the registered early count is zero by construction. The headline grade will add the
+  2021 copy of 28-13. The registered grade is reported but flagged invalid.
+  Anyone trending lead-in-spice listings from 99-42 alone will see an artificial jump.
 
 See the main [README](../README.md) for the FDA-recall, NYC-lab and detection-limit
 analyses that frame these notes.
