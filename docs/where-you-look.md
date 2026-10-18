@@ -128,3 +128,60 @@ Sources: inspection.canada.ca, "Lead Chromates in Spices – April 1, 2019 to Ma
 Canada Publications A104-386/2023E-PDF); open.canada.ca dataset
 c2003a7b-9ca8-46cd-ba83-ecafd1c8569c. Contains information licensed under the Open Government
 Licence - Canada.
+
+## Addendum 2 (2026-10-18, v0.4.25): three more graded CFIA frames — a dye, a mould toxin, an authenticity marker
+
+Since the v0.4.15 addendum, three more CFIA surveys have been graded against pre-registered
+predictions and shipped from this repository, each with its own committed per-sample file and
+offline test (releases **v0.4.22**, **v0.4.23**, **v0.4.24**). The figures below are quoted
+from those result notes, not recomputed by `test_where_you_look.py`; each note holds the full
+predictions, deviations and limits. These frames do not look for lead, but read through the
+same lens they extend the central pattern rather than break it.
+
+| # | Frame (source, release) | n | What it measures | Headline | Declared-origin pattern |
+|---|---|---|---|---|---|
+| 11 | CFIA **Food Colours** in essences/oils/sweets/processed vegetables 2018-19 (v0.4.22) | 399 | 43 colours, incl. non-permitted dyes | **1** Rhodamine B hit (10.8 ppm) + 2 trace Orange II; 181/399 carried any colour | the one Rhodamine B sample is a pickled vegetable declared **Lebanon**; all 23 palm oils (incl. 5 West African) clean of Sudan dyes |
+| 12 | CFIA **Ochratoxin A** in selected foods 2012-2022 (v0.4.23; parse gate failed, figures exploratory) | 714 "Spice -" | mould toxin OTA vs EU limits | 106/714 over the EU limit; survey max **1,770 ppb** in a paprika | **77%** of over-limit spices declare no origin; every Hungarian paprika over (4/4), Spain 6/15 |
+| 13 | CFIA **Coumarin** in cinnamon 2011-2016, pooled (v0.4.24) | 176 cinnamon | coumarin → cassia vs true cinnamon | **168/176 (95.5%)** cassia-type | 17/17 samples declaring Indonesia/Vietnam/China are cassia; Sri Lanka-declared 4/6 true cinnamon, one ground sample at **4,717 ppm** |
+
+**The dye frame repeats the Sudan-IV shape.** Frame 7 found Sudan IV only in red palm oil
+declared Nigeria — a product-origin pair with a long public record of that dye. Frame 11 adds
+the single non-permitted dye in a 399-sample colour survey: Rhodamine B in a pickled vegetable
+declared **Lebanon**, the same product family and country whose own authorities were
+prosecuting Rhodamine B in pickled turnips that very autumn (RASFF 2018.2883; Lebanon's
+Ministry of Public Health, December 2018). Neither hit came from a survey aimed at that origin,
+and the same colour survey sampled five West African palm oils and found them clean. The dye
+the pocket screen targets keeps appearing as one sample that matches an alert already public
+abroad — not as a retail-wide rate.
+
+**Two non-lead frames show the same origin blindness.** Ochratoxin A (frame 12) and coumarin
+(frame 13) are not lead, but the frame decides the headline just as plainly. The OTA tail is
+not spread across spices: it concentrates in paprika and nutmeg, and among the few over-limit
+spices that declare a country, Hungarian paprika is 4 of 4 over the EU limit — while 77% of
+the over-limit spices declare no origin at all. Coumarin cleanly separates cassia from true
+cinnamon, and 95% of Canadian retail cinnamon is cassia; every sample declaring a
+cassia-growing country is cassia without exception, and the "Sri Lanka" samples are mostly —
+not always — true cinnamon (one ground sample reached a cassia-level 4,717 ppm). In each
+frame the signal that can be pinned to an origin fits a known product-origin pairing, while
+the majority of samples carry no declared origin, so the frame still sets what can be said.
+
+**What does not change.** These three frames add no lead and no confirmed lead chromate. They
+sharpen the central claim: across now thirteen data frames, the adulteration that can be
+*located* travels with a specific product from a specific place that had a prior public alert —
+Georgia ground blends (frame 1), Nigerian palm oil (frame 7), Lebanese pickles (frame 11),
+Hungarian paprika (frame 12) — while broad retail surveys, where most samples name no origin,
+report low rates and cannot see that pathway. The honest screen names its frame.
+
+Caveats carried from the notes: frame 12's parse gate failed, so its figures are exploratory
+under a post-hoc rule (CFIA's own "Spice -" product prefix), and its origin counts are small
+(4 Hungarian paprikas). Neither OTA nor coumarin breaches Canadian law in these foods — Canada
+sets no OTA limit for spices and no coumarin limit for cinnamon; the EU limits are a yardstick
+only. A declared origin is a label (often the packer's country), not verified provenance, and
+"no origin" means the open file carries none. CFIA and Health Canada judged none of these
+surveys a health concern.
+
+Sources: open.canada.ca datasets 1b0c4141-7a22-4c93-8679-63eb49f7be24 (food colours 2018-19),
+37300d06-0887-4353-bc9b-4f030f1089a2 (ochratoxin A 2012-2022), and CFIA's coumarin surveys
+2011-12 to 2015-16; full result notes `docs/food-colours-2018-0.1.0-result.md`,
+`docs/ota-spices-0.1.0-result.md` and `docs/coumarin-cinnamon-0.1.0-result.md`. Contains
+information licensed under the Open Government Licence – Canada.
