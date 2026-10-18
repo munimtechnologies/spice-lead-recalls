@@ -1,0 +1,400 @@
+sample,category,commodity,product,origin,positive,non_permitted,max_permitted_ppm,components_tested
+C2018FCOL00001,oils,IMFD,Oil - Olive,ITALY,,,0.0,43
+C2018FCOL00003,unclassified,IMFD,Salad Dressing,CANADA,allura red,,36.3,43
+C2018FCOL00004,oils,IMFD,Oil - Other,CANADA,,,0.0,43
+C2018FCOL00005,sweets,IMFD,Preserve - Jam/Jelly,UNITED STATES,,,0.0,43
+C2018FCOL00006,sweets,IMFD,Preserve - Jam/Jelly,UNKNOWN,amaranth;sunset yellow fcf,,20.0,43
+C2018FCOL00007,unclassified,IMFD,Fruit Snacks,UNKNOWN,,,0.0,43
+C2018FCOL00008,unclassified,IMFD,Baked Goods,UNKNOWN,allura red;brilliant blue fcf,,21.0,43
+C2018FCOL00009,unclassified,IMFD,Baked Goods,UNKNOWN,allura red,,18.5,43
+C2018FCOL00010,sweets,IMFD,Candy - Soft,UNKNOWN,allura red;brilliant blue fcf;erythrosin b;tartrazine,,74.5,43
+C2018FCOL00011,sweets,IMFD,Candy - Soft,UNKNOWN,allura red;brilliant blue fcf;tartrazine,,38.3,43
+C2018FCOL00012,sweets,IMFD,Candy - Hard,CANADA,allura red,,193.0,43
+C2018FCOL00013,sweets,IMFD,Candy - Hard,UNITED STATES,brilliant blue fcf;erythrosin b;tartrazine,,9.0,43
+C2018FCOL00014,unclassified,IMFD,Bakery Product - Cookie,NORTHERN MARIANA ISLANDS,,,0.0,43
+C2018FCOL00015,unclassified,IMFD,Pudding,UNITED STATES,,,0.0,43
+C2018FCOL00016,unclassified,IMFD,Pudding,UNITED STATES,sunset yellow fcf;tartrazine,,43.4,43
+C2018FCOL00017,essences/flavourings,IMFD,Essence/Flavour,UNITED STATES,,,0.0,43
+C2018FCOL00018,essences/flavourings,IMFD,Essence/Flavour,UNITED STATES,,,0.0,43
+C2018FCOL00019,essences/flavourings,IMFD,Essence/Flavour,UNITED STATES,,,0.0,43
+C2018FCOL00020,essences/flavourings,IMFD,Essence/Flavour,UNITED STATES,,,0.0,43
+C2018FCOL00021,processed vegetables,IMFD,Beet - Pickled,UNITED STATES,amaranth,,8.0,43
+C2018FCOL00022,processed vegetables,IMFD,Pickled Vegetable - Misc,INDIA,tartrazine,,16.7,43
+C2018FCOL00023,processed vegetables,IMFD,Gherkin - Pickled,CANADA,brilliant blue fcf;tartrazine,,75.1,43
+C2018FCOL00024,processed vegetables,IMFD,Onion - Pickled,GERMANY,,,0.0,43
+C2018FCOL00025,oils,IMFD,Oil - Olive,TUNISIA,,,0.0,43
+C2018FCOL00026,oils,IMFD,Oil - Olive,UNKNOWN,,,0.0,43
+C2018FCOL00027,oils,IMFD,Oil - Palm,ECUADOR,,,0.0,43
+C2018FCOL00028,oils,IMFD,Oil - Palm,ECUADOR,,,0.0,43
+C2018FCOL00029,unclassified,IMFD,Salad Dressing,UNKNOWN,allura red,,47.0,43
+C2018FCOL00030,unclassified,IMFD,Salad Dressing,CANADA,allura red,,72.7,43
+C2018FCOL00031,oils,IMFD,Oil - Other,CANADA,,,0.0,43
+C2018FCOL00032,oils,IMFD,Oil - Other,ITALY,,,0.0,43
+C2018FCOL00033,unclassified,IMFD,Preserve - Strawberry,CANADA,,,0.0,43
+C2018FCOL00034,sweets,IMFD,Preserve - Jam/Jelly,UNKNOWN,brilliant blue fcf;tartrazine,,16.7,43
+C2018FCOL00035,unclassified,IMFD,Fruit Snacks,UNITED STATES,,,0.0,43
+C2018FCOL00036,unclassified,IMFD,Fruit Snacks,UNITED STATES,,,0.0,43
+C2018FCOL00037,unclassified,IMFD,Baked Goods,UNKNOWN,tartrazine,,4.7,43
+C2018FCOL00038,unclassified,IMFD,Baked Goods,UNKNOWN,,,0.0,43
+C2018FCOL00039,sweets,IMFD,Candy - Soft,BRAZIL,allura red;brilliant blue fcf;sunset yellow fcf;tartrazine,,19.4,43
+C2018FCOL00040,sweets,IMFD,Candy - Soft,UNITED KINGDOM,,,0.0,43
+C2018FCOL00041,sweets,IMFD,Candy - Hard,UNITED STATES,allura red;brilliant blue fcf;indigo carmine;sunset yellow fcf;tartrazine,,74.2,43
+C2018FCOL00042,sweets,IMFD,Candy - Hard,UNKNOWN,allura red;brilliant blue fcf;erythrosin b;tartrazine,,24.0,43
+C2018FCOL00043,unclassified,IMFD,Bakery Product - Cookie,UNKNOWN,,,0.0,43
+C2018FCOL00044,unclassified,IMFD,Bakery Product - Cookie,CANADA,,,0.0,43
+C2018FCOL00045,unclassified,IMFD,Pudding,UNKNOWN,sunset yellow fcf;tartrazine,,14.8,43
+C2018FCOL00046,unclassified,IMFD,Pudding,UNITED STATES,,,0.0,43
+C2018FCOL00047,essences/flavourings,IMFD,Essence/Flavour,UNITED STATES,,,0.0,43
+C2018FCOL00048,essences/flavourings,IMFD,Essence/Flavour,UNKNOWN,,,0.0,43
+C2018FCOL00049,essences/flavourings,IMFD,Essence/Flavour,UNITED STATES,,,0.0,43
+C2018FCOL00050,essences/flavourings,IMFD,Essence/Flavour,UNITED STATES,,,0.0,43
+C2018FCOL00051,processed vegetables,IMFD,Gherkin - Pickled,INDIA,brilliant blue fcf;tartrazine,,33.9,43
+C2018FCOL00052,processed vegetables,IMFD,Gherkin - Pickled,UNITED STATES,brilliant blue fcf;sunset yellow fcf;tartrazine,,4.4,43
+C2018FCOL00053,processed vegetables,IMFD,Pickled Vegetable - Misc,CANADA,,,0.0,43
+C2018FCOL00054,processed vegetables,IMFD,Gherkin - Pickled,UNKNOWN,brilliant blue fcf;sunset yellow fcf;tartrazine,,3.7,43
+C2018FCOL00055,oils,IMFD,Oil - Olive,UNKNOWN,,,0.0,43
+C2018FCOL00056,oils,IMFD,Oil - Olive,CHILE,,,0.0,43
+C2018FCOL00057,oils,IMFD,Oil - Olive,UNKNOWN,,,0.0,43
+C2018FCOL00058,oils,IMFD,Oil - Olive,ITALY,,,0.0,43
+C2018FCOL00059,oils,IMFD,Oil - Olive,UNKNOWN,,,0.0,43
+C2018FCOL00060,oils,IMFD,Oil - Olive,UNKNOWN,,,0.0,43
+C2018FCOL00061,oils,IMFD,Oil - Olive,UNKNOWN,,,0.0,43
+C2018FCOL00062,oils,IMFD,Oil - Olive,UNKNOWN,,,0.0,43
+C2018FCOL00063,oils,IMFD,Oil - Palm,MALAYSIA,,,0.0,43
+C2018FCOL00064,oils,IMFD,Oil - Palm,ECUADOR,,,0.0,43
+C2018FCOL00065,oils,IMFD,Oil - Palm,TOGO,,,0.0,43
+C2018FCOL00066,oils,IMFD,Oil - Palm,ECUADOR,,,0.0,43
+C2018FCOL00067,oils,IMFD,Oil - Palm,ECUADOR,,,0.0,43
+C2018FCOL00068,oils,IMFD,Oil - Palm,ECUADOR,,,0.0,43
+C2018FCOL00069,oils,IMFD,Oil - Palm,COLOMBIA,,,0.0,43
+C2018FCOL00070,oils,IMFD,Oil - Palm,COLOMBIA,,,0.0,43
+C2018FCOL00071,unclassified,IMFD,Salad Dressing,UNITED STATES,,,0.0,43
+C2018FCOL00072,unclassified,IMFD,Salad Dressing,UNKNOWN,,,0.0,43
+C2018FCOL00073,unclassified,IMFD,Salad Dressing,UNKNOWN,allura red,,35.9,43
+C2018FCOL00074,unclassified,IMFD,Salad Dressing,UNKNOWN,,,0.0,43
+C2018FCOL00075,unclassified,IMFD,Salad Dressing,UNKNOWN,allura red,,47.6,43
+C2018FCOL00076,unclassified,IMFD,Salad Dressing,UNKNOWN,,,0.0,43
+C2018FCOL00077,unclassified,IMFD,Salad Dressing,UNKNOWN,allura red,,180.0,43
+C2018FCOL00078,unclassified,IMFD,Salad Dressing,UNKNOWN,,,0.0,43
+C2018FCOL00079,oils,IMFD,Oil - Olive,CANADA,,,0.0,43
+C2018FCOL00080,oils,IMFD,Oil - Olive,CANADA,,,0.0,43
+C2018FCOL00081,oils,IMFD,Oil - Olive,CANADA,,,0.0,43
+C2018FCOL00082,oils,IMFD,Oil - Olive,CANADA,,,0.0,43
+C2018FCOL00083,oils,IMFD,Oil - Olive,ARGENTINA,,,0.0,43
+C2018FCOL00084,oils,IMFD,Oil - Blend,CANADA,,,0.0,43
+C2018FCOL00085,oils,IMFD,Oil - Soybean,"TAIWAN, PROVINCE OF CHINA",,,0.0,43
+C2018FCOL00086,oils,IMFD,Oil - Olive,CANADA,,,0.0,43
+C2018FCOL00087,sweets,IMFD,Preserve - Jam/Jelly,JAMAICA,,,0.0,43
+C2018FCOL00088,sweets,IMFD,Preserve - Jam/Jelly,UNKNOWN,amaranth;sunset yellow fcf,,22.0,43
+C2018FCOL00089,sweets,IMFD,Preserve - Jam/Jelly,UNITED STATES,allura red;brilliant blue fcf,,82.1,43
+C2018FCOL00090,sweets,IMFD,Preserve - Jam/Jelly,UNKNOWN,amaranth;sunset yellow fcf,,21.1,43
+C2018FCOL00091,sweets,IMFD,Preserve - Jam/Jelly,PORTUGAL,,,0.0,43
+C2018FCOL00092,sweets,IMFD,Preserve - Jam/Jelly,UNKNOWN,amaranth;sunset yellow fcf,,23.6,43
+C2018FCOL00093,sweets,IMFD,Preserve - Jam/Jelly,GERMANY,,,0.0,43
+C2018FCOL00094,sweets,IMFD,Preserve - Jam/Jelly,EGYPT,,,0.0,43
+C2018FCOL00095,sweets,IMFD,Preserve - Jam/Jelly,COSTA RICA,,,0.0,43
+C2018FCOL00096,unclassified,IMFD,Fruit Snacks,UNITED STATES,,,0.0,43
+C2018FCOL00097,unclassified,IMFD,Fruit Snacks,UNKNOWN,,,0.0,43
+C2018FCOL00098,unclassified,IMFD,Fruit Snacks,UNKNOWN,,,0.0,43
+C2018FCOL00099,unclassified,IMFD,Fruit Snacks,MALAYSIA,tartrazine,,47.5,43
+C2018FCOL00100,unclassified,IMFD,Fruit Snacks,MALAYSIA,brilliant blue fcf,,3.3,43
+C2018FCOL00101,unclassified,IMFD,Fruit Snacks,UNKNOWN,,,0.0,43
+C2018FCOL00102,unclassified,IMFD,Fruit Snacks,UNKNOWN,,,0.0,43
+C2018FCOL00103,unclassified,IMFD,Fruit Snacks,UNKNOWN,,,0.0,43
+C2018FCOL00104,unclassified,IMFD,Baked Goods,UNKNOWN,allura red;tartrazine,,41.8,43
+C2018FCOL00105,unclassified,IMFD,Baked Goods,CANADA,,,0.0,43
+C2018FCOL00106,unclassified,IMFD,Baked Goods,UNITED STATES,allura red;brilliant blue fcf,,10.9,43
+C2018FCOL00107,unclassified,IMFD,Baked Goods,UNKNOWN,,,0.0,43
+C2018FCOL00108,unclassified,IMFD,Baked Goods,UNKNOWN,allura red;brilliant blue fcf,,11.3,43
+C2018FCOL00109,unclassified,IMFD,Baked Goods,UNKNOWN,allura red;brilliant blue fcf;tartrazine,,102.0,43
+C2018FCOL00110,unclassified,IMFD,Baked Goods,ITALY,,,0.0,43
+C2018FCOL00111,unclassified,IMFD,Baked Goods,UNKNOWN,allura red,,176.0,43
+C2018FCOL00112,unclassified,IMFD,Baked Goods,UNKNOWN,allura red;tartrazine,,43.5,43
+C2018FCOL00113,sweets,IMFD,Candy - Soft,UNKNOWN,allura red;brilliant blue fcf;tartrazine,,58.7,43
+C2018FCOL00114,sweets,IMFD,Candy - Soft,UNKNOWN,allura red,,204.0,43
+C2018FCOL00115,sweets,IMFD,Candy - Soft,GERMANY,,,0.0,43
+C2018FCOL00116,sweets,IMFD,Candy - Soft,UNKNOWN,allura red;tartrazine,,59.4,43
+C2018FCOL00117,sweets,IMFD,Candy - Soft,UNKNOWN,,,0.0,43
+C2018FCOL00118,sweets,IMFD,Candy - Soft,UNKNOWN,allura red;brilliant blue fcf;tartrazine,,30.5,43
+C2018FCOL00119,sweets,IMFD,Candy - Soft,UNKNOWN,allura red,,77.7,43
+C2018FCOL00120,sweets,IMFD,Candy - Soft,UNKNOWN,allura red,,88.0,43
+C2018FCOL00121,sweets,IMFD,Candy - Soft,JAPAN,allura red,,1.6,43
+C2018FCOL00122,sweets,IMFD,Candy - Hard,CROATIA,,,0.0,43
+C2018FCOL00123,sweets,IMFD,Candy - Hard,GERMANY,,,0.0,43
+C2018FCOL00124,sweets,IMFD,Candy - Hard,GERMANY,,,0.0,43
+C2018FCOL00125,sweets,IMFD,Candy - Hard,GERMANY,,,0.0,43
+C2018FCOL00126,sweets,IMFD,Candy - Hard,GERMANY,,,0.0,43
+C2018FCOL00127,sweets,IMFD,Candy - Hard,GERMANY,,,0.0,43
+C2018FCOL00128,sweets,IMFD,Candy - Hard,GERMANY,,,0.0,43
+C2018FCOL00129,sweets,IMFD,Candy - Hard,TRINIDAD & TOBAGO,brilliant blue fcf;tartrazine,,23.0,43
+C2018FCOL00130,sweets,IMFD,Candy - Hard,HONG KONG,,,0.0,43
+C2018FCOL00131,unclassified,IMFD,Bakery Product - Cookie,UNKNOWN,allura red;tartrazine,,17.6,43
+C2018FCOL00132,unclassified,IMFD,Bakery Product - Cookie,CANADA,,,0.0,43
+C2018FCOL00133,unclassified,IMFD,Bakery Product - Cookie,CANADA,,,0.0,43
+C2018FCOL00134,unclassified,IMFD,Bakery Product - Cookie,UNKNOWN,,,0.0,43
+C2018FCOL00135,unclassified,IMFD,Bakery Product - Cookie,UNKNOWN,,,0.0,43
+C2018FCOL00136,unclassified,IMFD,Bakery Product - Cookie,UNKNOWN,,,0.0,43
+C2018FCOL00137,unclassified,IMFD,Bakery Product - Cookie,UNKNOWN,allura red;tartrazine,,22.9,43
+C2018FCOL00138,unclassified,IMFD,Bakery Product - Cookie,UNKNOWN,brilliant blue fcf,,0.68,43
+C2018FCOL00139,unclassified,IMFD,Pudding,UNITED STATES,,,0.0,43
+C2018FCOL00140,unclassified,IMFD,Pudding,UNKNOWN,sunset yellow fcf;tartrazine,,43.0,43
+C2018FCOL00141,unclassified,IMFD,Pudding,UNKNOWN,sunset yellow fcf;tartrazine,,14.6,43
+C2018FCOL00142,unclassified,IMFD,Pudding,UNKNOWN,sunset yellow fcf;tartrazine,,7.9,43
+C2018FCOL00143,unclassified,IMFD,Pudding,UNITED STATES,sunset yellow fcf;tartrazine,,7.5,43
+C2018FCOL00144,unclassified,IMFD,Pudding,UNITED STATES,sunset yellow fcf;tartrazine,,14.9,43
+C2018FCOL00145,unclassified,IMFD,Pudding,MALAYSIA,allura red,,2.0,43
+C2018FCOL00146,unclassified,IMFD,Pudding,UNITED STATES,sunset yellow fcf;tartrazine,,4.9,43
+C2018FCOL00147,unclassified,IMFD,Pudding,MALAYSIA,allura red;tartrazine,,26.0,43
+C2018FCOL00148,essences/flavourings,IMFD,Essence/Flavour,UNKNOWN,,,0.0,43
+C2018FCOL00149,essences/flavourings,IMFD,Essence/Flavour,UNITED STATES,,,0.0,43
+C2018FCOL00150,essences/flavourings,IMFD,Essence/Flavour,UNKNOWN,,,0.0,43
+C2018FCOL00151,essences/flavourings,IMFD,Essence/Flavour,CANADA,,,0.0,43
+C2018FCOL00152,essences/flavourings,IMFD,Essence/Flavour,UNKNOWN,,,0.0,43
+C2018FCOL00153,essences/flavourings,IMFD,Essence/Flavour,UNKNOWN,tartrazine,,8.0,43
+C2018FCOL00154,essences/flavourings,IMFD,Essence/Flavour,UNKNOWN,,,0.0,43
+C2018FCOL00155,essences/flavourings,IMFD,Essence/Flavour,UNKNOWN,,,0.0,43
+C2018FCOL00156,essences/flavourings,IMFD,Essence/Flavour,UNKNOWN,,,0.0,43
+C2018FCOL00157,essences/flavourings,IMFD,Essence/Flavour,UNKNOWN,tartrazine,,56.3,43
+C2018FCOL00158,essences/flavourings,IMFD,Essence/Flavour,UNKNOWN,tartrazine,,49.0,43
+C2018FCOL00159,essences/flavourings,IMFD,Essence/Flavour,UNKNOWN,,,0.0,43
+C2018FCOL00160,essences/flavourings,IMFD,Essence/Flavour,THAILAND,brilliant blue fcf;tartrazine,,105.0,43
+C2018FCOL00161,essences/flavourings,IMFD,Essence/Flavour,UNKNOWN,,,0.0,43
+C2018FCOL00162,processed vegetables,IMFD,Cucumber - Pickled,UNITED STATES,,,0.0,43
+C2018FCOL00163,processed vegetables,IMFD,Gherkin - Pickled,INDIA,brilliant blue fcf;tartrazine,,25.1,43
+C2018FCOL00164,processed vegetables,IMFD,Cucumber - Pickled Sweet,UNITED STATES,tartrazine,,75.4,43
+C2018FCOL00165,processed vegetables,IMFD,Pepper - Pickled Hot,UNKNOWN,,,0.0,43
+C2018FCOL00166,processed vegetables,IMFD,Cucumber - Pickled Sweet,UNITED STATES,tartrazine,,52.0,43
+C2018FCOL00167,processed vegetables,IMFD,Cucumber - Pickled,UNITED STATES,tartrazine,,15.3,43
+C2018FCOL00168,processed vegetables,IMFD,Onion - Pickled,CANADA,,,0.0,43
+C2018FCOL00169,processed vegetables,IMFD,Cucumber - Pickled,UNITED STATES,,,0.0,43
+C2018FCOL00170,processed vegetables,IMFD,Pepper - Pickled Hot,CANADA,,,0.0,43
+C2018FCOL00171,processed vegetables,IMFD,Beet - Pickled,UNITED STATES,,,0.0,43
+C2018FCOL00172,processed vegetables,IMFD,Gherkin - Pickled,UNITED STATES,brilliant blue fcf;sunset yellow fcf;tartrazine,,4.6,43
+C2018FCOL00173,processed vegetables,IMFD,Beet - Pickled,GERMANY,,,0.0,43
+C2018FCOL00174,processed vegetables,IMFD,Cucumber - Pickled,TURKEY,,,0.0,43
+C2018FCOL00175,processed vegetables,IMFD,Pickled Vegetable - Misc,CANADA,,,0.0,43
+C2018FCOL00176,oils,IMFD,Oil - Olive,UNKNOWN,,,0.0,43
+C2018FCOL00177,oils,IMFD,Oil - Olive,UNKNOWN,,,0.0,43
+C2018FCOL00178,oils,IMFD,Oil - Olive,LEBANON,,,0.0,43
+C2018FCOL00179,oils,IMFD,Oil - Olive,UNKNOWN,,,0.0,43
+C2018FCOL00180,oils,IMFD,Oil - Olive,ITALY,,,0.0,43
+C2018FCOL00181,oils,IMFD,Oil - Olive,UNKNOWN,,,0.0,43
+C2018FCOL00182,oils,IMFD,Oil - Palm,MALAYSIA,,,0.0,43
+C2018FCOL00183,oils,IMFD,Oil - Olive,TUNISIA,,,0.0,43
+C2018FCOL00184,oils,IMFD,Oil - Palm,TOGO,,,0.0,43
+C2018FCOL00185,oils,IMFD,Oil - Palm,GHANA,,,0.0,43
+C2018FCOL00186,oils,IMFD,Oil - Palm,TOGO,,,0.0,43
+C2018FCOL00187,oils,IMFD,Oil - Palm,UNKNOWN,,,0.0,43
+C2018FCOL00188,unclassified,IMFD,Salad Dressing,CANADA,allura red,,34.3,43
+C2018FCOL00189,unclassified,IMFD,Salad Dressing,UNKNOWN,allura red,,40.3,43
+C2018FCOL00190,unclassified,IMFD,Salad Dressing,UNKNOWN,allura red,,35.0,43
+C2018FCOL00191,unclassified,IMFD,Salad Dressing,UNITED STATES,,,0.0,43
+C2018FCOL00192,unclassified,IMFD,Salad Dressing,UNKNOWN,allura red,,36.8,43
+C2018FCOL00193,unclassified,IMFD,Salad Dressing,CANADA,,,0.0,43
+C2018FCOL00194,oils,IMFD,Oil - Olive,TUNISIA,,,0.0,43
+C2018FCOL00195,oils,IMFD,Oil - Blend,UNKNOWN,,,0.0,43
+C2018FCOL00196,oils,IMFD,Oil - Olive,CANADA,,,0.0,43
+C2018FCOL00197,oils,IMFD,Oil - Olive,TUNISIA,,,0.0,43
+C2018FCOL00198,oils,IMFD,Oil - Blend,UNKNOWN,,,0.0,43
+C2018FCOL00199,oils,IMFD,Oil - Olive,ITALY,,,0.0,43
+C2018FCOL00200,sweets,IMFD,Preserve - Jam/Jelly,UNKNOWN,amaranth;sunset yellow fcf,,28.0,43
+C2018FCOL00201,sweets,IMFD,Preserve - Jam/Jelly,UNITED STATES,,,0.0,43
+C2018FCOL00202,sweets,IMFD,Preserve - Jam/Jelly,CANADA,allura red,,65.7,43
+C2018FCOL00203,sweets,IMFD,Preserve - Jam/Jelly,UNKNOWN,amaranth;sunset yellow fcf,,19.6,43
+C2018FCOL00204,sweets,IMFD,Preserve - Jam/Jelly,UNKNOWN,allura red,,42.5,43
+C2018FCOL00205,sweets,IMFD,Preserve - Jam/Jelly,UNKNOWN,amaranth;sunset yellow fcf,,33.3,43
+C2018FCOL00206,sweets,IMFD,Preserve - Jam/Jelly,TURKEY,,,0.0,43
+C2018FCOL00207,unclassified,IMFD,Fruit Snacks,UNITED STATES,,,0.0,43
+C2018FCOL00208,unclassified,IMFD,Fruit Snacks,UNKNOWN,,,0.0,43
+C2018FCOL00209,unclassified,IMFD,Fruit Snacks,UNITED STATES,allura red,,217.0,43
+C2018FCOL00210,unclassified,IMFD,Fruit Snacks,UNITED STATES,,,0.0,43
+C2018FCOL00211,unclassified,IMFD,Fruit Snacks,UNITED STATES,allura red;brilliant blue fcf,,84.0,43
+C2018FCOL00212,unclassified,IMFD,Fruit Snacks,UNKNOWN,,,0.0,43
+C2018FCOL00213,unclassified,IMFD,Baked Goods,UNKNOWN,allura red;brilliant blue fcf,,13.3,43
+C2018FCOL00214,unclassified,IMFD,Baked Goods,UNKNOWN,allura red;tartrazine,,41.7,43
+C2018FCOL00215,unclassified,IMFD,Baked Goods,UNKNOWN,,,0.0,43
+C2018FCOL00216,unclassified,IMFD,Baked Goods,UNKNOWN,tartrazine,,5.9,43
+C2018FCOL00217,unclassified,IMFD,Baked Goods,UNITED STATES,allura red,,10.2,43
+C2018FCOL00218,unclassified,IMFD,Baked Goods,UNKNOWN,allura red;brilliant blue fcf;tartrazine,,113.0,43
+C2018FCOL00219,unclassified,IMFD,Baked Goods,UNKNOWN,allura red;brilliant blue fcf,,10.0,43
+C2018FCOL00220,sweets,IMFD,Candy - Soft,UNKNOWN,brilliant blue fcf;sunset yellow fcf;tartrazine,,41.3,43
+C2018FCOL00221,sweets,IMFD,Candy - Soft,UNKNOWN,allura red,,108.0,43
+C2018FCOL00222,sweets,IMFD,Candy - Soft,UNKNOWN,allura red,,101.0,43
+C2018FCOL00223,sweets,IMFD,Candy - Soft,UNKNOWN,allura red,,90.2,43
+C2018FCOL00224,sweets,IMFD,Candy - Soft,UNKNOWN,allura red;tartrazine,,46.0,43
+C2018FCOL00225,sweets,IMFD,Candy - Soft,UNITED STATES,allura red;tartrazine,,38.0,43
+C2018FCOL00226,sweets,IMFD,Candy - Soft,UNKNOWN,allura red;brilliant blue fcf,,112.0,43
+C2018FCOL00227,sweets,IMFD,Candy - Hard,CANADA,erythrosin b,,117.0,43
+C2018FCOL00228,sweets,IMFD,Candy - Hard,CANADA,erythrosin b,,124.0,43
+C2018FCOL00229,sweets,IMFD,Candy - Hard,CANADA,erythrosin b,,91.3,43
+C2018FCOL00230,sweets,IMFD,Candy - Hard,GERMANY,,,0.0,43
+C2018FCOL00231,sweets,IMFD,Candy - Hard,CANADA,erythrosin b,,49.4,43
+C2018FCOL00232,sweets,IMFD,Candy - Hard,UNKNOWN,allura red;brilliant blue fcf;erythrosin b;tartrazine,,65.4,43
+C2018FCOL00233,sweets,IMFD,Candy - Hard,CHINA,allura red;brilliant blue fcf;tartrazine,,26.5,43
+C2018FCOL00234,unclassified,IMFD,Bakery Product - Cookie,CANADA,,,0.0,43
+C2018FCOL00235,unclassified,IMFD,Bakery Product - Cookie,CANADA,allura red,,147.0,43
+C2018FCOL00236,unclassified,IMFD,Bakery Product - Cookie,CANADA,allura red,,30.1,43
+C2018FCOL00237,unclassified,IMFD,Bakery Product - Cookie,CANADA,,,0.0,43
+C2018FCOL00238,unclassified,IMFD,Bakery Product - Cookie,UNKNOWN,allura red;tartrazine,,19.5,43
+C2018FCOL00239,unclassified,IMFD,Bakery Product - Cookie,UNKNOWN,brilliant blue fcf,,0.51,43
+C2018FCOL00240,unclassified,IMFD,Pudding,UNITED STATES,allura red;brilliant blue fcf;sunset yellow fcf,,26.1,43
+C2018FCOL00241,unclassified,IMFD,Pudding,UNITED STATES,allura red;sunset yellow fcf,,23.0,43
+C2018FCOL00242,unclassified,IMFD,Pudding,UNITED STATES,,,0.0,43
+C2018FCOL00243,unclassified,IMFD,Pudding,UNITED STATES,sunset yellow fcf;tartrazine,,10.2,43
+C2018FCOL00244,unclassified,IMFD,Pudding,UNITED STATES,,,0.0,43
+C2018FCOL00245,unclassified,IMFD,Pudding,UNITED STATES,,,0.0,43
+C2018FCOL00246,unclassified,IMFD,Pudding,UNITED STATES,sunset yellow fcf;tartrazine,,9.8,43
+C2018FCOL00247,essences/flavourings,IMFD,Essence/Flavour,CANADA,,,0.0,43
+C2018FCOL00248,essences/flavourings,IMFD,Essence/Flavour,CANADA,,,0.0,43
+C2018FCOL00249,essences/flavourings,IMFD,Essence/Flavour,CANADA,amaranth;brilliant blue fcf;sunset yellow fcf;tartrazine,,47.7,43
+C2018FCOL00250,essences/flavourings,IMFD,Essence/Flavour,UNITED STATES,,,0.0,43
+C2018FCOL00251,essences/flavourings,IMFD,Essence/Flavour,UNKNOWN,,,0.0,43
+C2018FCOL00252,essences/flavourings,IMFD,Essence/Flavour,UNITED STATES,,,0.0,43
+C2018FCOL00253,essences/flavourings,IMFD,Essence/Flavour,CANADA,amaranth;brilliant blue fcf;sunset yellow fcf;tartrazine,,47.4,43
+C2018FCOL00254,essences/flavourings,IMFD,Essence/Flavour,CANADA,amaranth;brilliant blue fcf;sunset yellow fcf;tartrazine,,144.0,43
+C2018FCOL00255,essences/flavourings,IMFD,Essence/Flavour,UNKNOWN,,,0.0,43
+C2018FCOL00256,essences/flavourings,IMFD,Essence/Flavour,UNKNOWN,,,0.0,43
+C2018FCOL00257,essences/flavourings,IMFD,Essence/Flavour,UNKNOWN,,,0.0,43
+C2018FCOL00258,essences/flavourings,IMFD,Essence/Flavour,UNKNOWN,,,0.0,43
+C2018FCOL00259,processed vegetables,IMFD,Cucumber - Pickled,INDIA,,,0.0,43
+C2018FCOL00260,processed vegetables,IMFD,Pickled Vegetable - Misc,UNITED STATES,tartrazine,,10.0,43
+C2018FCOL00261,processed vegetables,IMFD,Gherkin - Pickled,INDIA,tartrazine,,22.3,43
+C2018FCOL00262,processed vegetables,IMFD,Pickled Vegetable - Misc,UNITED STATES,tartrazine,,48.6,43
+C2018FCOL00263,processed vegetables,IMFD,Pickled Vegetable - Misc,LEBANON,erythrosin b;rhodamine b,rhodamine b,13.3,43
+C2018FCOL00264,processed vegetables,IMFD,Gherkin - Pickled,INDIA,tartrazine,,16.7,43
+C2018FCOL00265,processed vegetables,IMFD,Pickled Vegetable - Misc,UNITED STATES,tartrazine,,10.6,43
+C2018FCOL00266,processed vegetables,IMFD,Gherkin - Pickled,CANADA,brilliant blue fcf;tartrazine,,66.7,43
+C2018FCOL00267,processed vegetables,IMFD,Cucumber - Pickled,UNITED STATES,tartrazine,,13.1,43
+C2018FCOL00268,processed vegetables,IMFD,Gherkin - Pickled,INDIA,brilliant blue fcf;tartrazine,,11.3,43
+C2018FCOL00269,processed vegetables,IMFD,Cucumber - Pickled,VIETNAM,tartrazine,,31.6,43
+C2018FCOL00270,processed vegetables,IMFD,Cucumber - Pickled,VIETNAM,tartrazine,,33.3,43
+C2018FCOL00271,oils,IMFD,Oil - Olive,TUNISIA,,,0.0,43
+C2018FCOL00272,oils,IMFD,Oil - Olive,UNKNOWN,,,0.0,43
+C2018FCOL00273,oils,IMFD,Oil - Olive,ITALY,,,0.0,43
+C2018FCOL00274,oils,IMFD,Oil - Palm,ECUADOR,,,0.0,43
+C2018FCOL00275,oils,IMFD,Oil - Palm,ECUADOR,,,0.0,43
+C2018FCOL00276,oils,IMFD,Oil - Palm,ECUADOR,,,0.0,43
+C2018FCOL00277,unclassified,IMFD,Salad Dressing,UNITED STATES,,,0.0,43
+C2018FCOL00278,unclassified,IMFD,Salad Dressing,UNKNOWN,allura red,,145.0,43
+C2018FCOL00279,unclassified,IMFD,Salad Dressing,UNKNOWN,,,0.0,43
+C2018FCOL00280,oils,IMFD,Oil - Olive,ITALY,,,0.0,43
+C2018FCOL00281,oils,IMFD,Oil - Soybean,CHINA,,,0.0,43
+C2018FCOL00282,oils,IMFD,Oil - Olive,UNKNOWN,,,0.0,43
+C2018FCOL00283,sweets,IMFD,Preserve - Jam/Jelly,UNKNOWN,,,0.0,43
+C2018FCOL00284,sweets,IMFD,Preserve - Jam/Jelly,FRANCE,,,0.0,43
+C2018FCOL00285,sweets,IMFD,Preserve - Jam/Jelly,UNKNOWN,allura red,,16.8,43
+C2018FCOL00286,unclassified,IMFD,Fruit Snacks,UNITED STATES,,,0.0,43
+C2018FCOL00287,unclassified,IMFD,Fruit Snacks,UNITED STATES,allura red,,182.0,43
+C2018FCOL00288,unclassified,IMFD,Fruit Snacks,UNKNOWN,,,0.0,43
+C2018FCOL00289,unclassified,IMFD,Baked Goods,UNKNOWN,allura red,,30.0,43
+C2018FCOL00290,unclassified,IMFD,Baked Goods,UNKNOWN,allura red,,35.1,43
+C2018FCOL00291,unclassified,IMFD,Baked Goods,UNKNOWN,allura red;brilliant blue fcf;tartrazine,,122.0,43
+C2018FCOL00292,sweets,IMFD,Candy - Soft,UNKNOWN,allura red,,172.0,43
+C2018FCOL00293,sweets,IMFD,Candy - Soft,UNKNOWN,brilliant blue fcf;erythrosin b;indigo carmine;orange ii;sunset yellow fcf;tartrazine,orange ii,78.8,43
+C2018FCOL00294,sweets,IMFD,Candy - Soft,UNKNOWN,brilliant blue fcf;erythrosin b;tartrazine,,44.6,43
+C2018FCOL00295,sweets,IMFD,Candy - Hard,UNKNOWN,brilliant blue fcf;tartrazine,,14.8,43
+C2018FCOL00296,sweets,IMFD,Candy - Hard,UNKNOWN,brilliant blue fcf;tartrazine,,8.0,43
+C2018FCOL00297,sweets,IMFD,Candy - Hard,UNKNOWN,allura red,,475.0,43
+C2018FCOL00298,unclassified,IMFD,Bakery Product - Cookie,CANADA,,,0.0,43
+C2018FCOL00299,unclassified,IMFD,Bakery Product - Cookie,UNKNOWN,,,0.0,43
+C2018FCOL00300,unclassified,IMFD,Bakery Product - Cookie,UNKNOWN,,,0.0,43
+C2018FCOL00301,unclassified,IMFD,Pudding,UNITED STATES,,,0.0,43
+C2018FCOL00302,unclassified,IMFD,Pudding,UNITED STATES,allura red;brilliant blue fcf;sunset yellow fcf,,25.6,43
+C2018FCOL00303,unclassified,IMFD,Pudding,UNITED STATES,,,0.0,43
+C2018FCOL00304,essences/flavourings,IMFD,Essence/Flavour,PHILIPPINES,,,0.0,43
+C2018FCOL00305,essences/flavourings,IMFD,Essence/Flavour,UNITED STATES,,,0.0,43
+C2018FCOL00306,essences/flavourings,IMFD,Essence/Flavour,CANADA,,,0.0,43
+C2018FCOL00307,essences/flavourings,IMFD,Essence/Flavour,UNKNOWN,allura red;tartrazine,,101.0,43
+C2018FCOL00308,essences/flavourings,IMFD,Essence/Flavour,UNKNOWN,,,0.0,43
+C2018FCOL00309,processed vegetables,IMFD,Pickled Vegetable - Misc,LEBANON,,,0.0,43
+C2018FCOL00310,processed vegetables,IMFD,Beet - Pickled,CANADA,,,0.0,43
+C2018FCOL00311,processed vegetables,IMFD,Beet - Pickled,GERMANY,,,0.0,43
+C2018FCOL00312,processed vegetables,IMFD,Pepper - Pickled Hot,CANADA,,,0.0,43
+C2018FCOL00313,processed vegetables,IMFD,Beet - Pickled,POLAND,,,0.0,43
+C2018FCOL00314,oils,IMFD,Oil - Olive,TUNISIA,,,0.0,43
+C2018FCOL00315,oils,IMFD,Oil - Olive,UNKNOWN,,,0.0,43
+C2018FCOL00316,oils,IMFD,Oil - Olive,UNKNOWN,,,0.0,43
+C2018FCOL00317,oils,IMFD,Oil - Olive,TUNISIA,,,0.0,43
+C2018FCOL00318,oils,IMFD,Oil - Olive,TUNISIA,,,0.0,43
+C2018FCOL00319,oils,IMFD,Oil - Palm,ECUADOR,,,0.0,43
+C2018FCOL00320,oils,IMFD,Oil - Palm,ECUADOR,,,0.0,43
+C2018FCOL00321,oils,IMFD,Oil - Palm,GHANA,,,0.0,43
+C2018FCOL00322,oils,IMFD,Oil - Palm,ECUADOR,,,0.0,43
+C2018FCOL00323,oils,IMFD,Oil - Palm,ECUADOR,,,0.0,43
+C2018FCOL00324,unclassified,IMFD,Salad Dressing,UNKNOWN,,,0.0,43
+C2018FCOL00325,unclassified,IMFD,Salad Dressing,CANADA,allura red,,41.7,43
+C2018FCOL00326,unclassified,IMFD,Salad Dressing,CANADA,allura red,,150.0,43
+C2018FCOL00327,unclassified,IMFD,Salad Dressing,UNITED STATES,,,0.0,43
+C2018FCOL00328,unclassified,IMFD,Salad Dressing,UNKNOWN,,,0.0,43
+C2018FCOL00329,oils,IMFD,Oil - Olive,SPAIN,,,0.0,43
+C2018FCOL00330,oils,IMFD,Oil - Soybean,CHINA,,,0.0,43
+C2018FCOL00331,oils,IMFD,Oil - Soybean,CHINA,,,0.0,43
+C2018FCOL00332,oils,IMFD,Oil - Soybean,HONG KONG,,,0.0,43
+C2018FCOL00333,oils,IMFD,Oil - Soybean,CHINA,,,0.0,43
+C2018FCOL00334,unclassified,IMFD,Preserve - Strawberry,UNITED STATES,allura red;sunset yellow fcf,,58.4,43
+C2018FCOL00335,sweets,IMFD,Preserve - Jam/Jelly,CANADA,allura red,,35.8,43
+C2018FCOL00336,sweets,IMFD,Preserve - Jam/Jelly,UNITED STATES,allura red;brilliant blue fcf,,86.6,43
+C2018FCOL00337,sweets,IMFD,Preserve - Jam/Jelly,UNKNOWN,allura red;brilliant blue fcf;tartrazine,,14.3,43
+C2018FCOL00338,sweets,IMFD,Preserve - Jam/Jelly,CANADA,allura red,,57.3,43
+C2018FCOL00339,sweets,IMFD,Preserve - Jam/Jelly,UNITED STATES,allura red,,180.0,43
+C2018FCOL00340,unclassified,IMFD,Preserve - Raspberry,UNKNOWN,,,0.0,43
+C2018FCOL00341,unclassified,IMFD,Fruit Snacks,UNITED STATES,allura red;brilliant blue fcf;sunset yellow fcf;tartrazine,,92.0,43
+C2018FCOL00342,unclassified,IMFD,Fruit Snacks,UNITED STATES,allura red;brilliant blue fcf;sunset yellow fcf;tartrazine,,74.7,43
+C2018FCOL00343,unclassified,IMFD,Fruit Snacks,UNKNOWN,,,0.0,43
+C2018FCOL00344,unclassified,IMFD,Fruit Snacks,UNITED STATES,allura red;brilliant blue fcf,,85.0,43
+C2018FCOL00345,unclassified,IMFD,Fruit Snacks,UNITED STATES,allura red;brilliant blue fcf;tartrazine,,118.0,43
+C2018FCOL00346,unclassified,IMFD,Baked Goods,UNKNOWN,allura red;brilliant blue fcf,,11.6,43
+C2018FCOL00347,unclassified,IMFD,Baked Goods,UNKNOWN,sunset yellow fcf;tartrazine,,1.3,43
+C2018FCOL00348,unclassified,IMFD,Baked Goods,UNKNOWN,allura red;erythrosin b,,51.5,43
+C2018FCOL00349,unclassified,IMFD,Baked Goods,UNKNOWN,allura red,,312.0,43
+C2018FCOL00350,unclassified,IMFD,Baked Goods,UNKNOWN,allura red,,152.0,43
+C2018FCOL00351,unclassified,IMFD,Baked Goods,UNKNOWN,sunset yellow fcf;tartrazine,,17.2,43
+C2018FCOL00352,unclassified,IMFD,Baked Goods,PHILIPPINES,brilliant blue fcf;tartrazine,,37.9,43
+C2018FCOL00353,sweets,IMFD,Candy - Soft,UNKNOWN,allura red;tartrazine,,62.8,43
+C2018FCOL00354,sweets,IMFD,Candy - Soft,CANADA,allura red,,121.0,43
+C2018FCOL00355,sweets,IMFD,Candy - Soft,UNKNOWN,allura red;sunset yellow fcf;tartrazine,,33.1,43
+C2018FCOL00356,sweets,IMFD,Candy - Soft,UNKNOWN,allura red,,189.0,43
+C2018FCOL00357,sweets,IMFD,Candy - Soft,UNITED STATES,allura red,,201.0,43
+C2018FCOL00358,sweets,IMFD,Candy - Soft,UNKNOWN,allura red;brilliant blue fcf;sunset yellow fcf;tartrazine,,98.6,43
+C2018FCOL00359,sweets,IMFD,Candy - Soft,NEW ZEALAND,allura red,,141.0,43
+C2018FCOL00360,sweets,IMFD,Candy - Hard,UNKNOWN,allura red;brilliant blue fcf;indigo carmine;sunset yellow fcf;tartrazine,,61.9,43
+C2018FCOL00361,sweets,IMFD,Candy - Hard,UNKNOWN,brilliant blue fcf;tartrazine,,8.2,43
+C2018FCOL00362,sweets,IMFD,Candy - Hard,UNITED STATES,allura red;brilliant blue fcf;tartrazine,,31.6,43
+C2018FCOL00363,sweets,IMFD,Candy - Hard,GERMANY,,,0.0,43
+C2018FCOL00364,sweets,IMFD,Candy - Hard,UNKNOWN,brilliant blue fcf;tartrazine,,6.0,43
+C2018FCOL00365,sweets,IMFD,Candy - Hard,UNKNOWN,allura red;brilliant blue fcf;tartrazine,,79.6,43
+C2018FCOL00366,sweets,IMFD,Candy - Hard,UNKNOWN,allura red,,539.0,43
+C2018FCOL00367,unclassified,IMFD,Bakery Product - Cookie,CANADA,allura red,,206.0,43
+C2018FCOL00368,unclassified,IMFD,Bakery Product - Cookie,CANADA,allura red,,159.0,43
+C2018FCOL00369,unclassified,IMFD,Bakery Product - Cookie,CANADA,allura red;erythrosin b;tartrazine,,30.0,43
+C2018FCOL00370,unclassified,IMFD,Bakery Product - Cookie,UNKNOWN,allura red;tartrazine,,21.6,43
+C2018FCOL00371,unclassified,IMFD,Bakery Product - Cookie,CANADA,,,0.0,43
+C2018FCOL00372,unclassified,IMFD,Pudding,UNITED STATES,sunset yellow fcf;tartrazine,,54.0,43
+C2018FCOL00373,unclassified,IMFD,Pudding,UNITED STATES,allura red;brilliant blue fcf;sunset yellow fcf,,22.9,43
+C2018FCOL00374,unclassified,IMFD,Pudding,UNITED STATES,sunset yellow fcf;tartrazine,,55.9,43
+C2018FCOL00375,unclassified,IMFD,Pudding,UNITED STATES,,,0.0,43
+C2018FCOL00376,unclassified,IMFD,Pudding,UNITED STATES,orange ii;sunset yellow fcf;tartrazine,orange ii,46.9,43
+C2018FCOL00377,unclassified,IMFD,Pudding,UNITED STATES,sunset yellow fcf;tartrazine,,37.0,43
+C2018FCOL00378,unclassified,IMFD,Pudding,MALAYSIA,allura red;tartrazine,,28.8,43
+C2018FCOL00379,essences/flavourings,IMFD,Essence/Flavour,UNKNOWN,,,0.0,43
+C2018FCOL00380,essences/flavourings,IMFD,Essence/Flavour,UNITED STATES,,,0.0,43
+C2018FCOL00381,essences/flavourings,IMFD,Essence/Flavour,CANADA,amaranth;brilliant blue fcf;sunset yellow fcf;tartrazine,,47.2,43
+C2018FCOL00382,essences/flavourings,IMFD,Essence/Flavour,UNKNOWN,,,0.0,43
+C2018FCOL00383,essences/flavourings,IMFD,Essence/Flavour,CANADA,,,0.0,43
+C2018FCOL00384,essences/flavourings,IMFD,Essence/Flavour,CANADA,,,0.0,43
+C2018FCOL00385,essences/flavourings,IMFD,Essence/Flavour,UNKNOWN,,,0.0,43
+C2018FCOL00386,essences/flavourings,IMFD,Essence/Flavour,UNKNOWN,,,0.0,43
+C2018FCOL00387,essences/flavourings,IMFD,Essence/Flavour,UNKNOWN,,,0.0,43
+C2018FCOL00388,essences/flavourings,IMFD,Essence/Flavour,UNKNOWN,,,0.0,43
+C2018FCOL00389,essences/flavourings,IMFD,Essence/Flavour,UNKNOWN,,,0.0,43
+C2018FCOL00390,processed vegetables,IMFD,Beet - Pickled,UNKNOWN,,,0.0,43
+C2018FCOL00391,processed vegetables,IMFD,Pickled Vegetable - Misc,GREECE,tartrazine,,23.3,43
+C2018FCOL00392,processed vegetables,IMFD,Pickled Vegetable - Misc,LEBANON,,,0.0,43
+C2018FCOL00393,processed vegetables,IMFD,Cucumber - Pickled,INDIA,tartrazine,,41.2,43
+C2018FCOL00394,processed vegetables,IMFD,Gherkin - Pickled,GERMANY,,,0.0,43
+C2018FCOL00395,processed vegetables,IMFD,Cucumber - Pickled,UNITED STATES,tartrazine,,18.5,43
+C2018FCOL00396,processed vegetables,IMFD,Cucumber - Pickled,INDIA,tartrazine,,36.5,43
+C2018FCOL00397,processed vegetables,IMFD,Beet - Pickled,GERMANY,,,0.0,43
+C2018FCOL00398,processed vegetables,IMFD,Pepper - Pickled,UNKNOWN,tartrazine,,20.0,43
+C2018FCOL00399,processed vegetables,IMFD,Pickled Vegetable - Misc,THAILAND,tartrazine,,26.5,43
+C2018FCOL00400,processed vegetables,IMFD,Beet - Pickled,GERMANY,,,0.0,43
