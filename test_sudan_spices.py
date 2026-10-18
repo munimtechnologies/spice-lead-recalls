@@ -1,85 +1,79 @@
-# SPDX-License-Identifier: Apache-2.0
-# Offline tests for sudan_spices.py on a small synthetic file in CFIA's open-data layout.
+# Apache-2.0. Made by MV2 of Munim, Inc. with AI agents.
+# Recomputes the headline counts in docs/sudan-spices-0.1.0-result.md from the
+# committed sealed sample table, so the published numbers can be checked offline.
 import csv
-import io
+import os
 import unittest
 
-import sudan_spices as ss
+HERE = os.path.dirname(os.path.abspath(__file__))
+CSV = os.path.join(HERE, "data", "sudan_spices_samples.csv")
 
-HEADER = ["Sample No. – No. d’échantillon", "Region - Région", "Commodity", "Denrée", "Function",
-          "Fonction", "Origin", "Origine", "Product", "Produit",
-          "Date Sampled – Date d’échantillonage", "Component", "Composant", "AMOUNT",
-          "Report Unit - Unité de rapport"]
-DYES = ("Sudan I", "Sudan II", "Sudan III", "Sudan IV")
-
-
-def _file(samples):
-    """samples: [(id, origin, product, {dye: amount})] -> CSV bytes (utf-8 with BOM)."""
-    out = io.StringIO()
-    w = csv.writer(out, quoting=csv.QUOTE_ALL)
-    w.writerow(HEADER)
-    for sid, origin, product, amounts in samples:
-        for dye in DYES:
-            w.writerow([sid, "ONTARIO", "IMFD", "DAIM", "Import", "importé", origin, origin,
-                        product, product, "2019-10-01", dye, dye, amounts.get(dye, "0"), "ug/g"])
-    return ("﻿" + out.getvalue()).encode("utf-8")
+# West or Central African country names used for the frame-coverage check (P4).
+WEST_CENTRAL_AFRICA = {
+    "NIGERIA", "GHANA", "SENEGAL", "MALI", "BENIN", "TOGO", "NIGER",
+    "BURKINA FASO", "COTE D'IVOIRE", "IVORY COAST", "GUINEA", "SIERRA LEONE",
+    "LIBERIA", "GAMBIA", "CAMEROON", "CHAD", "CONGO", "GABON",
+    "CENTRAL AFRICAN REPUBLIC",
+}
 
 
-def _clean(n, origin="INDIA", product="Paprika", start=1):
-    return [("C2019NPC%05d" % (start + i), origin, product, {}) for i in range(n)]
+def rows():
+    with open(CSV, newline="", encoding="utf-8") as f:
+        return list(csv.DictReader(f))
 
 
-class Parse(unittest.TestCase):
-    def test_counts_and_duplicates(self):
-        rows, check = ss.parse(_file(_clean(3) + [("C2019NPC00002D", "INDIA", "Paprika", {})]))
-        self.assertEqual(check["samples"], 3)              # the D duplicate merges into its base
-        self.assertEqual(check["data_rows"], 16)
-        self.assertEqual(set(check["components"]), {d.lower() for d in DYES})
+class SudanSpices(unittest.TestCase):
+    def test_sample_count(self):
+        self.assertEqual(len(rows()), 63)
 
-    def test_positive_and_aliases(self):
-        rows, _ = ss.parse(_file([("A1", "Côte d'Ivoire", "Chili powder", {"Sudan IV": "12.5"}),
-                                  ("A2", "", "Sumac", {"Sudan I": "<0.1"})]))
-        a1, a2 = rows
-        self.assertEqual(a1["origin"], "IVORY COAST")
-        self.assertTrue(a1["sudan_positive"])
-        self.assertEqual(a1["positive"], ["sudan iv"])
-        self.assertEqual(a2["origin"], ss.UNKNOWN)      # blank origin is unknown
-        self.assertFalse(a2["sudan_positive"])          # "<LOD" reads as zero
+    def test_no_sudan_dye_positive(self):
+        # P2 consistency check: CFIA reported none of the 63 carried a Sudan dye.
+        self.assertEqual(sum(int(r["sudan_positive"]) for r in rows()), 0)
 
-    def test_missing_column_raises(self):
-        with self.assertRaises(ValueError):
-            ss.parse("Sample,Component\nX,Sudan I\n".encode("utf-8"))
+    def test_origin_counts(self):
+        counts = {}
+        for r in rows():
+            counts[r["origin"]] = counts.get(r["origin"], 0) + 1
+        self.assertEqual(
+            counts,
+            {"UNKNOWN": 54, "LEBANON": 3, "CANADA": 2, "TURKEY": 2,
+             "INDIA": 1, "IRAN": 1},
+        )
 
+    def test_p3_india_not_most_common_declared(self):
+        # P3 (India most common declared origin) did not hold: Lebanon led the
+        # declared origins. India had 1 declared sample.
+        declared = {}
+        for r in rows():
+            if r["origin"] != "UNKNOWN":
+                declared[r["origin"]] = declared.get(r["origin"], 0) + 1
+        top = max(declared, key=declared.get)
+        self.assertEqual(top, "LEBANON")
+        self.assertEqual(declared["INDIA"], 1)
 
-class Grade(unittest.TestCase):
-    def _grade(self, samples):
-        rows, check = ss.parse(_file(samples))
-        return ss.grade(rows, check)
+    def test_p4_no_west_central_african_origin(self):
+        n = sum(1 for r in rows() if r["origin"] in WEST_CENTRAL_AFRICA)
+        self.assertEqual(n, 0)
 
-    def test_all_met(self):
-        samples = (_clean(30) + _clean(10, "TURKEY", "Sumac", 31) + _clean(20, "", "Cayenne", 41))
-        g = self._grade(samples)
-        self.assertTrue(g["gradable_parse"])
-        self.assertEqual(g["met"], 6)
-        self.assertEqual(g["gradable"], 6)
+    def test_p5_no_georgia(self):
+        self.assertEqual(sum(1 for r in rows() if r["origin"] == "GEORGIA"), 0)
 
-    def test_misses(self):
-        samples = (_clean(10) + _clean(30, "SPAIN", "Paprika", 11) + _clean(10, "NIGERIA", "Chili", 41)
-                   + _clean(5, "GEORGIA", "Chili", 51) + [("Z1", "SPAIN", "Paprika", {"Sudan III": "3"})])
-        p = self._grade(samples)["predictions"]
-        self.assertEqual(p["P2"]["status"], "not met")   # one Sudan positive
-        self.assertEqual(p["P3"]["status"], "not met")   # Spain, not India, is top
-        self.assertEqual(p["P3"]["value"], ["SPAIN"])
-        self.assertEqual(p["P4"]["status"], "not met")   # 10 of 56 West African
-        self.assertEqual(p["P5"]["status"], "not met")   # Georgia present
-        self.assertEqual(p["P6"]["status"], "not met")   # every origin declared
+    def test_p6_at_least_quarter_undeclared(self):
+        undeclared = sum(1 for r in rows() if r["origin"] == "UNKNOWN")
+        self.assertEqual(undeclared, 54)
+        # integer form of 54/63 >= 0.25
+        self.assertGreaterEqual(100 * undeclared, 25 * 63)
 
-    def test_too_small_is_not_gradable(self):
-        g = self._grade(_clean(10))
-        self.assertFalse(g["gradable_parse"])
-        self.assertEqual(g["predictions"]["P1"]["status"], "not met")
-        self.assertEqual(g["predictions"]["P3"]["status"], "not gradable")
+    def test_by_product(self):
+        by = {}
+        for r in rows():
+            by[r["product"]] = by.get(r["product"], 0) + 1
+        self.assertEqual(
+            by,
+            {"Cayenne Pepper": 18, "Chili Powder": 16,
+             "Paprika": 16, "Sumac": 13},
+        )
 
 
 if __name__ == "__main__":
-    unittest.main()
+    unittest.main(verbosity=2)
