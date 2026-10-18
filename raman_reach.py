@@ -1,9 +1,10 @@
 #!/usr/bin/env python3
-"""raman_reach 0.1.0: how much of the lead-adulterated turmeric in eastern Indian markets sits at or above
+"""raman_reach 0.1.1: how much of the lead-adulterated turmeric in eastern Indian markets sits at or above
 the level at which bench Raman sees lead chromate?
 
 Grades docs/raman-reach-0.1.0-prereg.md, which was written and committed before any row, header or caption
-of the data table was read.
+of the data table was read. 0.1.1 fixes the parser only (docs/raman-reach-0.1.1-deviation.md); the
+predictions and their thresholds are unchanged.
 
 Data: Supplementary Table 8 of Forsyth J.E., Sinha M., Bandekar A., Mistree D., Luby S.P., "Systemic drivers
 of toxic food adulteration: lead chromate in turmeric across eastern India", npj Science of Food (2026),
@@ -23,7 +24,7 @@ import statistics
 import sys
 import urllib.request
 
-VERSION = "0.1.0"
+VERSION = "0.1.1"
 UA = ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) "
       "Chrome/126.0 Safari/537.36 raman_reach/%s (MV2 of Munim, Inc.; mv2@munimtech.com)" % VERSION)
 CITATION = ("Forsyth J.E. et al., \"Systemic drivers of toxic food adulteration: lead chromate in turmeric "
@@ -35,6 +36,7 @@ PDF_URLS = [
     "https://pmc.ncbi.nlm.nih.gov/articles/instance/13357593/bin/41538_2026_867_MOESM1_ESM.pdf",
     "https://europepmc.org/articles/PMC13357593/bin/41538_2026_867_MOESM1_ESM.pdf",
 ]
+V1_SHA256 = "f728f8c613ed9dafdc730f595049fd326affd29e9827e4f4a1e20b69079b9193"
 
 LEGAL = 10.0          # India's limit for lead in turmeric, ug/g; "above" is strict
 RAMAN_PB = 3200.0     # 0.5% w/w PbCrO4 x 0.641 lead mass fraction
@@ -80,15 +82,45 @@ NOT_TURMERIC = re.compile(r"chil+i|coriander|cumin|mirch|dhania", re.I)
 PURPOSIVE = re.compile(r"truck|purposive|follow[- ]?up|dec(?:ember)?[\s\-/]*2023", re.I)
 FOOTNOTE = re.compile(r"[*†‡§]+$")
 
-CAPTION_8 = re.compile(r"^\s*(Supplementary\s+Table\s+8|Table\s+S8)\b", re.I | re.M)
-CAPTION_ANY = re.compile(r"^\s*(Supplementary\s+(Table|Fig)|Table\s+S\d|Fig(?:ure)?\s+S\d)", re.I)
+# 0.1.1 (deviation D1): the supplement prints a line number before each caption ("154 Table S8.").
+CAPTION_8 = re.compile(r"^\s*(?:\d+\s+)?(Supplementary\s+Table\s+8|Table\s+S8)\b", re.I | re.M)
+CAPTION_ANY = re.compile(r"^\s*(?:\d+\s+)?(Supplementary\s+(Table|Fig)|Table\s+S\d|Fig(?:ure)?\s+S\d)", re.I)
 CAP8_SEARCH = r"(Supplementary\s+Table\s+8|Table\s+S8)\b"
 OTHER_SEARCH = r"(Supplementary\s+(Table\s+(?!8\b)\d+|Fig(ure)?\.?\s*\d+)|Table\s+S(?!8\b)\d+)\b"
 TEXT_SETTINGS = {"vertical_strategy": "text", "horizontal_strategy": "text"}
 
+# 0.1.1 (deviations D2-D4): Supplementary Table 8 is unruled text with these six variable names.
+S8_HEADER = ["sampid_", "city_final", "all_pb_avg", "type_groupfull4", "sellstate_bin", "turm_major"]
+S8_ROW = re.compile(r"^(\d+_\S+)\s+([A-Za-z]+)\s+(\d+(?:\.\d+)?)\s+(\d)\s+([01])(?:\s+([01]))?\s*$")
+CITY_STATE = {
+    "Patna": "Bihar", "Muzzafarpur": "Bihar", "Darbhanga": "Bihar", "Kishanganj": "Bihar", "Purnia": "Bihar",
+    "Saharsa": "Bihar", "Samastipur": "Bihar", "Begusarai": "Bihar", "Bhagalpur": "Bihar", "Chappra": "Bihar",
+    "Betia": "Bihar", "Buxar": "Bihar", "Gaya": "Bihar",
+    "Dhanbad": "Jharkhand", "Daltonganj": "Jharkhand", "Hazaribagh": "Jharkhand", "Deoghar": "Jharkhand",
+    "Ranchi": "Jharkhand", "Jamshedpur": "Jharkhand",
+    "Lucknow": "Uttar Pradesh", "Varanasi": "Uttar Pradesh", "Gorakhpur": "Uttar Pradesh",
+    "Aligarh": "Uttar Pradesh", "Kanpur": "Uttar Pradesh", "Prayagraj": "Uttar Pradesh",
+    "Bahraich": "Uttar Pradesh",
+    "Kolkata": "West Bengal", "Brahmpore": "West Bengal", "Malda": "West Bengal", "Asansol": "West Bengal",
+    "Durgapur": "West Bengal", "Bardhman": "West Bengal",
+    "Ambikapur": "Chhattisgarh", "Bilaspur": "Chhattisgarh",
+}
+FORM_BY_COUNTS = {"1": "loose_powder", "2": "packaged_powder", "3": "root_double", "4": "root_single"}
+FORM_BY_CAPTION = {"1": "loose_powder", "2": "packaged_powder", "4": "root_double", "5": "root_single"}
+TABLE_S2_N = {"Bihar": 134, "Chhattisgarh": 32, "Jharkhand": 77, "Uttar Pradesh": 200, "West Bengal": 60}
+TABLE_S3_N = {"1": 162, "2": 30, "3": 235, "4": 76}
+S8_ROLES = {"pb": 2, "pb_factor": 1.0, "city": 1, "form": 3}
+READINGS = [("frozen", None, None), ("A", "state_city_map", "form_class_counts"),
+            ("B", "state_city_map", "form_class_caption")]
+
 
 def norm(cell):
     return re.sub(r"\s+", " ", str(cell if cell is not None else "")).strip()
+
+
+def hnorm(cell):
+    """Header text with underscores as spaces, so "all_pb_avg" reads as "all pb avg" (deviation D2)."""
+    return norm(str(cell if cell is not None else "").replace("_", " "))
 
 
 def parse_value(cell):
@@ -106,21 +138,21 @@ def parse_value(cell):
 
 
 def pb_score(h):
-    h = norm(h)
+    h = hnorm(h)
     if not PB_HEAD.search(h) or RATIO_HEAD.search(h) or BAD_HEAD.search(h):
         return None
     return 3 * bool(MEAN_HEAD.search(h)) + 2 * bool(UNIT_HEAD.search(h))
 
 
 def cr_score(h):
-    h = norm(h)
+    h = hnorm(h)
     if not CR_HEAD.search(h) or RATIO_HEAD.search(h) or BAD_HEAD.search(h):
         return None
     return 3 * bool(MEAN_HEAD.search(h)) + 2 * bool(UNIT_HEAD.search(h))
 
 
 def unit_factor(h):
-    return 0.001 if PPB_HEAD.search(norm(h)) else 1.0
+    return 0.001 if PPB_HEAD.search(hnorm(h)) else 1.0
 
 
 def is_header_row(cells):
@@ -143,7 +175,7 @@ def find_header(rows):
 
 
 def roles_from_header(header):
-    header = [norm(h) for h in header]
+    header = [hnorm(h) for h in header]
     pbs = [(pb_score(h), -j, j) for j, h in enumerate(header) if pb_score(h) is not None]
     if not pbs:
         return None
@@ -230,6 +262,68 @@ def build_records(rows, header_idx, roles):
     return records, skipped
 
 
+def find_s8_header(lines):
+    for i, line in enumerate(lines):
+        if line.split() == S8_HEADER:
+            return i
+    return None
+
+
+def build_s8_records(lines, header_idx):
+    """One record per Table S8 data line after the header. The frozen rules see no state or form column
+    ("state", "form_class"); readings A and B use the city map and the two form codebooks."""
+    records = []
+    for line in lines[header_idx + 1:]:
+        raw = norm(line)
+        m = S8_ROW.match(raw)
+        if not m:
+            continue
+        sample, city, pb, code, sell, major = m.groups()
+        v = parse_value(pb)
+        records.append({
+            "row": len(records) + 1, "sample": sample, "city": city, "market": "", "form": code,
+            "polish": "", "spice": "", "period": "",
+            "state": find_state(raw), "state_city_map": CITY_STATE.get(city, ""),
+            "form_code": code, "form_class": form_class(code),
+            "form_class_counts": FORM_BY_COUNTS.get(code, "unknown"),
+            "form_class_caption": FORM_BY_CAPTION.get(code, "unknown"),
+            "sellstate_bin": sell, "turm_major": major or "",
+            "pb": v[0], "pb_detected": v[1], "cr": None, "cr_detected": False,
+            "turmeric": not NOT_TURMERIC.search(raw), "purposive": bool(PURPOSIVE.search(raw)), "raw": raw})
+    return records
+
+
+def reading(records, state_key, form_key):
+    out = []
+    for r in records:
+        c = dict(r)
+        if state_key:
+            c["state"] = r[state_key]
+        if form_key:
+            c["form_class"] = r[form_key]
+        out.append(c)
+    return out
+
+
+def s8_checks(records):
+    """Consistency of the table with the article's own Tables S2 and S3."""
+    states, codes, ids = {}, {}, {}
+    for r in records:
+        s = r["state_city_map"] or "(unmapped)"
+        states[s] = states.get(s, 0) + 1
+        codes[r["form_code"]] = codes.get(r["form_code"], 0) + 1
+        ids[r["sample"]] = ids.get(r["sample"], 0) + 1
+    return {
+        "state_n": states, "state_n_matches_table_s2": states == TABLE_S2_N,
+        "sellstate_agrees": sum(1 for r in records
+                                if (r["sellstate_bin"] == "1") == (r["state_city_map"] == "Bihar")),
+        "form_code_n": codes, "form_code_n_matches_table_s3": codes == TABLE_S3_N,
+        "unmapped_cities": sorted({r["city"] for r in records if not r["state_city_map"]}),
+        "repeated_sample_ids": sorted(k for k, n in ids.items() if n > 1),
+        "pb_exactly_10": sum(1 for r in records if r["pb"] == LEGAL),
+    }
+
+
 def systematic(records):
     return [r for r in records if r["turmeric"] and not r["purposive"]]
 
@@ -304,6 +398,12 @@ def grade(records, roles):
     return g
 
 
+def tally(grades):
+    met = sum(1 for v in grades.values() if v["result"] == "met")
+    gradable = sum(1 for v in grades.values() if v["result"] in ("met", "not met"))
+    return met, gradable
+
+
 def pct(k, n):
     return "%.1f%%" % (100.0 * k / n) if n else "n/a"
 
@@ -325,8 +425,7 @@ def group_table(S, key, title):
 def summarize(records, roles, grades, structure):
     S = systematic(records)
     E = [r for r in S if r["pb"] > LEGAL]
-    met = sum(1 for v in grades.values() if v["result"] == "met")
-    gradable = sum(1 for v in grades.values() if v["result"] in ("met", "not met"))
+    met, gradable = tally(grades)
     L = ["# raman-reach %s: result" % VERSION, "",
          "Source: %s." % CITATION,
          "Supplement sha256 %s; extraction method %s; Table 8 pages %s." % (
@@ -371,6 +470,8 @@ def summarize(records, roles, grades, structure):
 
 CSV_COLS = ["row", "state", "city", "market", "form", "polish", "form_class", "spice", "period", "turmeric",
             "purposive", "pb", "pb_detected", "cr", "cr_detected", "raw"]
+S8_COLS = ["row", "sample", "city", "state_city_map", "form_code", "form_class_counts", "form_class_caption",
+           "sellstate_bin", "turm_major", "pb"]
 
 
 def write_outputs(out_dir, records, roles, grades, structure):
@@ -386,6 +487,46 @@ def write_outputs(out_dir, records, roles, grades, structure):
     with open(os.path.join(out_dir, "summary.md"), "w", encoding="utf-8") as f:
         f.write(text)
     return met, gradable
+
+
+def s8_head(graded, checks):
+    L = ["# raman-reach %s: three readings of Supplementary Table 8" % VERSION, "",
+         "- **frozen**: the pre-registered rules as written. The table has no state, form-name or chromium "
+         "column, so state and form are unknown.",
+         "- **A** (deviations D3 + D4): state from the city of collection (checked against Table S2) and form "
+         "codes matched to the counts in Table S3 (1 loose powder, 2 packaged powder, 3 double-polished root, "
+         "4 single-polished root).",
+         "- **B**: as A, but form codes read literally from the Table S8 caption (1 loose, 2 packaged, "
+         "4 double-polished, 5 single-polished; code 3 is undefined there).", "",
+         "| | frozen | A | B |", "|---|---|---|---|"]
+    for p in sorted(graded["A"], key=lambda x: int(x[1:])):
+        L.append("| %s | %s |" % (p, " | ".join("%s (%s)" % (graded[k][p]["result"], graded[k][p]["detail"])
+                                                for k in ("frozen", "A", "B"))))
+    L.append("")
+    for k in ("frozen", "A", "B"):
+        L.append("- %s: %d of %d gradable predictions met." % ((k,) + tally(graded[k])))
+    L += ["", "## Consistency checks", ""]
+    L += ["- %s: %s" % (k, json.dumps(v, sort_keys=True)) for k, v in sorted(checks.items())]
+    L += ["", "Full detail below uses reading A.", "", "---", ""]
+    return "\n".join(L)
+
+
+def write_s8_outputs(out_dir, records, structure):
+    os.makedirs(out_dir, exist_ok=True)
+    graded = {name: grade(reading(records, sk, fk), S8_ROLES) for name, sk, fk in READINGS}
+    checks = s8_checks(records)
+    with open(os.path.join(out_dir, "raman_reach_samples.csv"), "w", newline="", encoding="utf-8") as f:
+        w = csv.DictWriter(f, fieldnames=S8_COLS, extrasaction="ignore")
+        w.writeheader()
+        for r in records:
+            w.writerow(r)
+    with open(os.path.join(out_dir, "grades.json"), "w", encoding="utf-8") as f:
+        json.dump({"readings": graded, "checks": checks}, f, indent=1, sort_keys=True)
+    text = summarize(reading(records, "state_city_map", "form_class_counts"), S8_ROLES, graded["A"],
+                     structure)[0]
+    with open(os.path.join(out_dir, "summary.md"), "w", encoding="utf-8") as f:
+        f.write(s8_head(graded, checks) + text)
+    return {name: tally(g) for name, g in graded.items()}
 
 
 def download(data_dir):
@@ -486,6 +627,18 @@ def extract(path):
     return structure, best[1], best[2], "\n\f\n".join(raw_text)
 
 
+def extract_s8(path):
+    """Every text line of the supplement with its page number (1-based), as 0.1.0 sealed them."""
+    import pdfplumber
+    lines, pages = [], []
+    with pdfplumber.open(path) as pdf:
+        for i, page in enumerate(pdf.pages):
+            for line in (page.extract_text() or "").splitlines():
+                lines.append(line)
+                pages.append(i + 1)
+    return lines, pages
+
+
 def main(argv=None):
     ap = argparse.ArgumentParser(description=__doc__.splitlines()[0])
     ap.add_argument("--data-dir", default="data")
@@ -497,6 +650,19 @@ def main(argv=None):
     path = args.pdf or download(args.data_dir)
     with open(path, "rb") as f:
         sha = hashlib.sha256(f.read()).hexdigest()
+    lines, line_pages = extract_s8(path)
+    hi = find_s8_header(lines)
+    records = build_s8_records(lines, hi) if hi is not None else []
+    if records:
+        pages = sorted({line_pages[i] for i in range(hi, len(lines)) if S8_ROW.match(norm(lines[i]))})
+        structure = {"sha256": sha, "sha256_matches_0.1.0": sha == V1_SHA256, "pages_total": max(line_pages),
+                     "method": "s8-text-lines", "pages": pages, "header": list(S8_HEADER),
+                     "roles": S8_ROLES, "n_records": len(records)}
+        with open(os.path.join(args.out_dir, "structure.json"), "w", encoding="utf-8") as f:
+            json.dump(structure, f, indent=1, sort_keys=True)
+        results = write_s8_outputs(args.out_dir, records, structure)
+        print("raman_reach %s: %d rows; met/gradable %s" % (VERSION, len(records), json.dumps(results)))
+        return 0
     structure, rows, hi, raw_text = extract(path)
     structure["sha256"] = sha
     records, roles = [], None
