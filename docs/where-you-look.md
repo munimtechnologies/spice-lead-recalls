@@ -185,3 +185,67 @@ Sources: open.canada.ca datasets 1b0c4141-7a22-4c93-8679-63eb49f7be24 (food colo
 2011-12 to 2015-16; full result notes `docs/food-colours-2018-0.1.0-result.md`,
 `docs/ota-spices-0.1.0-result.md` and `docs/coumarin-cinnamon-0.1.0-result.md`. Contains
 information licensed under the Open Government Licence – Canada.
+
+## Addendum 3 (2026-10-18, v0.4.29): two more graded frames, and the first one sampled at the source
+
+Two more pre-registered analyses have been graded and shipped since Addendum 2: CFIA's Alternaria
+toxin file (release **v0.4.26**) and the open per-sample table of an eastern Indian turmeric market
+survey (release **v0.4.28**). The figures below are quoted from those result notes, which each ship a
+committed per-sample file and an offline test; `test_where_you_look.py` does not recompute them. A
+third frame is quoted from a preprint's abstract only, because its per-sample data are not open.
+
+| # | Frame (source, release) | n | What it measures | Headline | Gross lead (Pb ≥50 ppm) | Declared-origin pattern |
+|---|---|---|---|---|---|---|
+| 14 | CFIA **Alternaria toxins** (AOH + AME) in foods 2014-2022 (v0.4.26) | 2,596 records | mould toxins vs EU indicative levels | only **3** records over an applicable EU level, all Canada-declared sunflower oils (2017); survey max 871 ppb in a pomegranate juice, a food with no EU level | n/a (no lead) | **38 of 50** pomegranate records at ≥100 ppb (76%) declare no country; of the rest, United States 11, Canada 1, Turkey 0 |
+| 15 | Forsyth et al. 2026, *npj Sci Food*, **eastern Indian market turmeric** 2021-23, Suppl. Table 8 (v0.4.28) | 503 | Pb by handheld XRF calibrated to ICP-MS | **152 / 503** above India's 10 µg/g limit; median exceedance **1,294 µg/g**; max 6,416 µg/g (Buxar, Bihar) | **139 / 503 = 27.6%** | sampled in the source region itself: exceedances in all five states (Bihar 72, Uttar Pradesh 32, Jharkhand 32, Chhattisgarh 8, West Bengal 8) |
+| 16 | Yin et al. 2026, SSRN preprint 6918427, **national India**, 104 cities (abstract only; no open per-sample file found) | 2,961 turmeric | Pb by XRF, ICP-MS re-test | 207 / 2,961 (7%) above 10 µg/g; roots 11%, loose powder 3%, **no packaged** sample above 10; 36 cities in 10 states; max above 8,000 µg/g | not reported in the abstract | not reported in the abstract |
+
+**Frame 15 is the first frame here that samples the markets where the adulterated spice is polished
+and sold, and it has the highest gross-lead rate of any frame that reports one.** 27.6% of the 503
+market samples hold at least 50 ppm lead, against 11.0% in frame 1 (spice bought abroad and tied to a
+New York City lead case) and under 1.5% in every commerce or retail frame that measures lead (2-4, 8).
+The adulteration is not a low-level tail: 105 of the 152 exceedances sit at or above 500 µg/g, and
+only 21 sit between 10 and 100 µg/g. Nor is it one state's problem: Bihar has the most exceedances but
+only 47 of the 105 at ≥500 µg/g. So the pattern of the first thirteen frames holds from the other end.
+Measured at the source, adulteration is gross and widespread. Measured far from the source, on retail
+shelves in Canada and the U.S., it almost vanishes. The one far-from-source frame that still sees it
+(frame 1) samples spice that travelled in personal luggage, not through commerce.
+
+**Frame 16 shows that the frame still sets the number inside the source country.** The same research
+group's national sweep of 104 cities reports 7% of turmeric over the limit, a quarter of eastern
+India's 30%, with adulteration confined to 36 cities in 10 states. The form of the product also
+moves the number. The national abstract reports no packaged turmeric above 10 µg/g, while the
+eastern table holds 3 of 30 packaged powders above it (240 µg/g in Deoghar, 130 in Jamshedpur, 54 in
+Brahmpore). The two studies differ in years, cities and design, so this is a difference between
+frames, not a trend. We have checked only the abstract of frame 16; its numbers are the authors'.
+
+**Frame 14 does not fit the "known product from a known place" reading, and we say so.** The only
+records over an applicable EU level are domestic (Canada-declared sunflower oils). The high-toxin tail
+sits in foods that have no EU level at all, and three quarters of it declares no country. Like the
+ochratoxin frame (12), where Canada-declared spices exceeded more often than imports (5/34 vs
+19/199), it is a reminder that "imported" is not the same as "risky". For mould toxins, the frame's
+blind spot is missing origin, not the wrong origin.
+
+**What this means for a field screen.** The gross lead-chromate problem is real and common where
+turmeric is polished and sold loose, and it is gross enough that a screen far less sensitive than
+lab instruments can reach most of it. A screen detecting 0.1% w/w lead chromate (about 640 µg/g
+lead) would flag 103 of frame 15's 152 exceedances. A screen detecting only 0.5% (about 3,200 µg/g,
+the best published bench Raman figure) would flag 16. A screen pointed at Canadian or U.S. retail
+shelves would find almost nothing to flag, at any sensitivity. Where you look still decides what
+you see, and the honest screen names its frame.
+
+Caveats: frame 15 is one sample per distinct product type on sale, not market shares, and its lead
+values are XRF readings calibrated to ICP-MS (the article reports an 18% mean error for roots). Its
+form codes depend on a codebook reading recorded in its result note; the packaged-powder count is
+the same under both readings. Frame 14's EU levels are indicative levels that trigger investigation,
+not legal limits, and Health Canada found no health concern. Frame 16 is an unreviewed preprint
+quoted from its abstract. Nothing here is advice to any person about any food.
+
+Sources: open.canada.ca Alternaria toxins dataset (2014-2022) via `docs/alternaria-eu-0.1.0-result.md`
+(Open Government Licence – Canada); Forsyth J.E. et al., "Systemic drivers of toxic food
+adulteration: lead chromate in turmeric across eastern India", *npj Science of Food* (2026),
+doi:10.1038/s41538-026-00867-8, Supplementary Table 8 (CC BY 4.0), via
+`docs/raman-reach-0.1.1-result.md` and `data/raman_reach_samples.csv`; Yin E., Sinha M., Bandekar A.,
+Saletore A., Mistree D., Luby S., Forsyth J.E., "Lead Chromate Adulteration of Turmeric in India: A
+Nationwide Spice Market Assessment across 104 Cities", SSRN abstract 6918427 (preprint, posted
+2026-06-12; abstract read 2026-10-18).
