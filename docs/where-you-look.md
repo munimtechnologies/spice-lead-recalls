@@ -249,3 +249,47 @@ doi:10.1038/s41538-026-00867-8, Supplementary Table 8 (CC BY 4.0), via
 Saletore A., Mistree D., Luby S., Forsyth J.E., "Lead Chromate Adulteration of Turmeric in India: A
 Nationwide Spice Market Assessment across 104 Cities", SSRN abstract 6918427 (preprint, posted
 2026-06-12; abstract read 2026-10-18).
+
+## Addendum 4 (2026-10-21, v0.4.32): a different bar finds a different problem
+
+Every frame above is graded at a gross bar (lead at or above 50 ppm) or at a legal limit. Release
+**v0.4.31** grades two of them again against a much lower bar: the American Spice Trade
+Association's *Guidance Levels for Heavy Metals in Spices* V3 (2026-06-08), which sets lead levels of
+0.60 to 2.0 µg/g by spice category. These are voluntary industry guidance, not law. The figures below
+are quoted from `docs/asta-yardstick-0.1.0-result.md`, whose test recomputes every count and lists
+every exceeding row; `test_where_you_look.py` does not recompute them.
+
+| # | Frame | n | Over the ASTA level | Gross (Pb ≥50 ppm) | What the lower bar shows |
+|---|---|---|---|---|---|
+| 3 | NYC DOHMH store survey | 477 | **41 (8.6%)** with blends; 29 (6.1%) single spices | 2 (0.4%) | cinnamon: **10 of 21** rows bought in January 2024 over 2.0 µg/g; Georgian "saffron" (probably marigold): **7 of 7** over 1.0 µg/g, five at 14-21 µg/g |
+| 15 | Eastern-India market turmeric | 503 | **at least 163 (32.4%)**; the true count lies between 163 and 503 | 139 (27.6%) | nothing new: the field XRF's detection limit (4 µg/g) sits above ASTA's 1.50 µg/g, so 340 non-detects can't be judged |
+
+**A different bar finds a different problem.** At 50 ppm the NYC store frame shows two Yemeni spice
+blends. At ASTA's levels it shows a cinnamon buying round (January 2024, weeks after the late-2023
+recall of lead-tainted cinnamon applesauce pouches) and Georgian "saffron" at 14-21 µg/g. Neither
+is visible at the gross bar. We pre-registered that the extra exceedances would be low-level
+background in pepper and cumin. That part failed: fruit and seed spices held only 6 of the 29
+single-spice exceedances. As with the earlier "background" predictions, the exceedances cluster by
+product and buying round.
+
+**A bar below the instrument's detection limit can't be graded.** For eastern-Indian turmeric the
+lower bar adds nothing a reader can trust: the study's handheld XRF can't see below 4 µg/g, so it
+can't tell whether a sample is under 1.50 µg/g. A naive comparison of the table's non-detect code
+(2 µg/g) with the level would report 503 of 503 over it, an artefact rather than a finding. The
+honest report is a bound.
+
+**What this means for a field screen.** The frame decides what you see, and so does the bar. A
+Raman screen reaches lead chromate at about 0.1-0.5% w/w (about 640-3,200 µg/g lead). It targets
+gross adulteration where spice is polished and sold loose. It cannot speak to guidance-level
+compliance on retail shelves, where the problems at 0.6-2.0 µg/g are specific products that only a
+lab method can find.
+
+Caveats: ASTA levels are voluntary guidance; exceeding one is not illegal and is not a finding about
+any person's health. The NYC store survey is what DOHMH chose to buy, not a random sample of shelves,
+and its open table gives no per-row detection limit, so its non-detects also count as below the
+level. The category map is name-based and published in full in the grader. Nothing here is advice
+to any person about any food.
+
+Sources: NYC DOHMH, NYC Open Data da9u-wz3r (snapshot 2026-10-17); Forsyth J.E. et al., *npj
+Science of Food* (2026), doi:10.1038/s41538-026-00867-8, Supplementary Table 8 (CC BY 4.0); ASTA
+Guidance Levels for Heavy Metals in Spices V3 (2026-06-08), via `docs/asta-yardstick-0.1.0-result.md`.
