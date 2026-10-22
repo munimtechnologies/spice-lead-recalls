@@ -1,0 +1,75 @@
+row_id,frame,kind,date,period,group,status,value,product_name
+106,A,cinnamon,2011-04-14,before-2019,abroad,value,0.91,Cardamon | Chili pepper | Cinnamon
+2961,A,cinnamon,2018-09-24,before-2019,abroad,value,1.4,Cinnamon
+3332,A,cinnamon,2019-01-28,2019-2022,abroad,value,1.7,Cinnamon
+665,C,cinnamon,2012-12-12,before-2019,abroad,value,4.4,Cinnamon Powder
+702,C,cinnamon,2013-02-14,before-2019,abroad,value,880.0,Cinnamon Powder
+765,C,cinnamon,2013-04-01,before-2019,US,value,2.0,Cinnamon
+881,C,cinnamon,2013-08-29,before-2019,abroad,nd,,Cinnamon stick
+1238,C,cinnamon,2015-01-26,before-2019,abroad,value,1.5,Cinnamon
+1253,C,cinnamon,2015-02-19,before-2019,abroad,value,4.9,Cinnamon bark
+1747,C,cinnamon,2016-07-29,before-2019,abroad,value,0.93,Cinnamon Powder
+2390,C,blend,2017-07-25,before-2019,abroad,value,0.33,Cinnamon spice mix
+2570,C,cinnamon,2017-11-06,before-2019,abroad,nd,,Cinnamon Daving
+2625,C,cinnamon,2018-02-13,before-2019,US,value,1.5,Cinnamon sticks
+3532,C,cinnamon,2019-02-26,2019-2022,US,nd,,Ground cinnamon
+3703,C,cinnamon,2019-03-27,2019-2022,unknown,value,1.8,Cinnamon
+3725,C,cinnamon,2019-03-29,2019-2022,abroad,value,2.3,Cinnamon bark
+3778,C,cinnamon,2019-04-05,2019-2022,US,value,0.758,Ground Cinnamon
+4341,C,cinnamon,2019-08-27,2019-2022,abroad,value,0.42,Cinnamon Stick
+4362,C,cinnamon,2019-09-03,2019-2022,US,nd,,Cinnamon sticks
+5525,C,cinnamon,2021-05-14,2019-2022,US,value,5.3,Cinnamon
+5632,C,cinnamon,2021-09-03,2019-2022,US,value,0.71,Cinnamon
+5762,C,cinnamon,2021-12-01,2019-2022,abroad,nd,,"Black Pepper, Cinnamon and Coriander"
+6257,C,cinnamon,2022-06-22,2019-2022,US,value,0.93,Ceylon Cinnamon
+6259,C,cinnamon,2022-06-22,2019-2022,US,nd,,Cinnamon
+6489,C,cinnamon,2022-10-11,2019-2022,unknown,nd,,Cinnamon sticks
+6653,C,cinnamon,2023-02-01,2023-to-oct,US,value,0.31,Ground cinnamon
+7341,C,cinnamon,2023-09-27,2023-to-oct,US,value,1.0,Saigon Cinnamon
+7457,C,cinnamon,2023-11-28,post-recall,US,nd,,Cinnamon
+7781,C,cinnamon,2024-03-11,post-recall,unknown,nd,,Cinnamon
+7833,C,cinnamon,2024-03-22,post-recall,US,value,3.2,GROUND CINNAMON
+7877,C,cinnamon,2024-04-16,post-recall,US,nd,,McCormick Cinnamon Ground
+8127,C,cinnamon,2024-07-11,post-recall,unknown,value,0.814,Ceylon Cinnamon Sticks
+8258,C,cinnamon,2024-09-04,post-recall,unknown,nd,,Cinnamon
+8278,C,cinnamon,2024-09-10,post-recall,US,value,2.43,Cinnamon Stick Flat
+8382,C,cinnamon,2024-10-15,post-recall,US,nd,,Canela Entera
+8429,C,cinnamon,2024-10-24,post-recall,US,value,12.3,Canela Ceylon Cinnamon Sticks
+8493,C,cinnamon,2024-11-18,post-recall,unknown,nd,,Cinnamon
+8515,C,cinnamon,2024-12-12,post-recall,US,nd,,Cinnamon
+8595,C,cinnamon,2025-02-03,2025-on,US,value,0.647,Cinnamon Sticks
+8729,C,cinnamon,2025-04-28,2025-on,abroad,value,0.81,Cinnamon Sticks
+8746,C,cinnamon,2025-04-30,2025-on,unknown,value,1.65,Organic Saigon Cinnamon Ground
+8764,C,cinnamon,2025-05-01,2025-on,abroad,nd,,Cinnamon sticks
+8927,C,cinnamon,2025-06-12,2025-on,US,nd,,Cinnamon Sticks
+9066,C,cinnamon,2025-07-09,2025-on,US,nd,,Cinnamon
+9070,C,cinnamon,2025-07-10,2025-on,US,value,0.534,Cinnamon
+9308,C,cinnamon,2025-09-19,2025-on,unknown,value,0.905,Ground Cinnamon
+9419,C,cinnamon,2025-10-22,2025-on,abroad,value,0.686,Cinnamon Sticks
+9463,C,cinnamon,2025-11-25,2025-on,US,nd,,Cinnamon Sticks
+9489,C,cinnamon,2025-12-10,2025-on,unknown,nd,,Cinnamon
+6166,S,cinnamon,2022-06-02,2019-2022,US,value,1.1,Ground Cinnamon (Canela Molida)
+6448,S,cinnamon,2022-09-29,2019-2022,US,nd,,Therbal Brand Ground Cinnamon
+7582,S,cinnamon,2024-01-04,post-recall,US,value,2.0,Swad Cinnamon Powder
+7584,S,cinnamon,2024-01-04,post-recall,US,value,2.2,Shahzada Cinnamon Powder
+7586,S,cinnamon,2024-01-04,post-recall,US,value,1.1,La Flor Ground Cinnamon
+7588,S,cinnamon,2024-01-04,post-recall,US,value,3.6,EGN Cinnamon Powder
+7590,S,cinnamon,2024-01-04,post-recall,US,value,3.8,Lisy Ground Cinnamon
+7592,S,cinnamon,2024-01-04,post-recall,US,value,3.6,Paras Cinnamon Powder
+7611,S,cinnamon,2024-01-10,post-recall,US,value,2.3,Laxmi Cinnamon Powder
+7613,S,cinnamon,2024-01-10,post-recall,US,value,6.3,Maya Cinnamon Powder
+7615,S,cinnamon,2024-01-10,post-recall,US,value,23.0,El Servidor Corp Ground Cinnamon
+7617,S,cinnamon,2024-01-10,post-recall,US,value,0.74,Salma Cinnamon powder
+7619,S,cinnamon,2024-01-10,post-recall,US,value,0.68,Salma Cinnamon Powder
+7622,S,cinnamon,2024-01-12,post-recall,US,value,2.9,Indo-West Indian Ground Cinnamon
+7624,S,cinnamon,2024-01-12,post-recall,US,value,0.9,Soogrim's Ceylon Cinnamon Powder
+7626,S,cinnamon,2024-01-12,post-recall,US,value,0.74,Salma Cinnamon powder
+7628,S,cinnamon,2024-01-12,post-recall,US,value,2.2,Comercial Mexicana Ground Cinnamon
+7630,S,cinnamon,2024-01-12,post-recall,US,value,2.8,Spice Class Ground Cinnamon
+7632,S,cinnamon,2024-01-12,post-recall,US,value,0.47,Angel Brand Cinnamon Powder
+7657,S,cinnamon,2024-01-23,post-recall,US,nd,,GROMEX Ground Cinnamon
+7659,S,cinnamon,2024-01-23,post-recall,US,value,0.35,Ceylon Spices Organic Cinnamon Powder
+7661,S,cinnamon,2024-01-23,post-recall,US,value,0.46,New York Lanka Inc. Cinnamon Powder
+7663,S,cinnamon,2024-01-23,post-recall,US,value,1.7,La Frontera Imports Ground Cinnamon
+8705,S,cinnamon,2025-04-17,2025-on,US,value,2.94,Lucky Foods Georgian Cinnamon Powder
+8924,S,cinnamon,2025-06-11,2025-on,US,nd,,Eagle Spice & Extract CO. Ground Cinnamon

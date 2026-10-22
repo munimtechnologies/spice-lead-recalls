@@ -1,0 +1,181 @@
+{
+ "P4_ratio": 3.1429,
+ "blends": {
+  "A": {
+   "detected": 0,
+   "ge_50": 0,
+   "missing": 0,
+   "over_2": 0,
+   "rows": 0
+  },
+  "C": {
+   "detected": 1,
+   "ge_50": 0,
+   "missing": 0,
+   "over_2": 0,
+   "rows": 1
+  },
+  "S": {
+   "detected": 0,
+   "ge_50": 0,
+   "missing": 0,
+   "over_2": 0,
+   "rows": 0
+  }
+ },
+ "case": {
+  "detected": 26,
+  "ge_50": 1,
+  "missing": 0,
+  "over_2": 8,
+  "rows": 45
+ },
+ "case_by_group": {
+  "US": {
+   "detected": 13,
+   "ge_50": 0,
+   "missing": 0,
+   "over_2": 4,
+   "rows": 23
+  },
+  "abroad": {
+   "detected": 9,
+   "ge_50": 1,
+   "missing": 0,
+   "over_2": 4,
+   "rows": 13
+  },
+  "unknown": {
+   "detected": 4,
+   "ge_50": 0,
+   "missing": 0,
+   "over_2": 0,
+   "rows": 9
+  }
+ },
+ "case_by_period": {
+  "2019-2022": {
+   "detected": 7,
+   "ge_50": 0,
+   "missing": 0,
+   "over_2": 2,
+   "rows": 12
+  },
+  "2023-to-oct": {
+   "detected": 2,
+   "ge_50": 0,
+   "missing": 0,
+   "over_2": 0,
+   "rows": 2
+  },
+  "2025-on": {
+   "detected": 6,
+   "ge_50": 0,
+   "missing": 0,
+   "over_2": 0,
+   "rows": 11
+  },
+  "before-2019": {
+   "detected": 7,
+   "ge_50": 1,
+   "missing": 0,
+   "over_2": 3,
+   "rows": 9
+  },
+  "no-date": {
+   "detected": 0,
+   "ge_50": 0,
+   "missing": 0,
+   "over_2": 0,
+   "rows": 0
+  },
+  "post-recall": {
+   "detected": 4,
+   "ge_50": 0,
+   "missing": 0,
+   "over_2": 3,
+   "rows": 11
+  }
+ },
+ "case_ge_50_rate_all": 0.0222,
+ "case_over_2_rate_detected": 0.3077,
+ "hypotheses": {
+  "H1_gross_below_11pct": true,
+  "H2_case_rate_ge_store_outside_jan2024": false,
+  "H3_post_recall_not_majority": true
+ },
+ "other_frames": {
+  "detected": 3,
+  "ge_50": 0,
+  "missing": 0,
+  "over_2": 0,
+  "rows": 3
+ },
+ "predictions": {
+  "P1_rows_45_in_15_120": true,
+  "P2_over2_40pct_in_15_65": true,
+  "P3_ge50_4pct_in_0_12": true,
+  "P4_ratio_ge_2": true,
+  "P4_ratio_in_0.8_5": true
+ },
+ "store": {
+  "detected": 22,
+  "ge_50": 0,
+  "missing": 0,
+  "over_2": 11,
+  "rows": 25
+ },
+ "store_by_period": {
+  "2019-2022": {
+   "detected": 1,
+   "ge_50": 0,
+   "missing": 0,
+   "over_2": 0,
+   "rows": 2
+  },
+  "2023-to-oct": {
+   "detected": 0,
+   "ge_50": 0,
+   "missing": 0,
+   "over_2": 0,
+   "rows": 0
+  },
+  "2025-on": {
+   "detected": 1,
+   "ge_50": 0,
+   "missing": 0,
+   "over_2": 1,
+   "rows": 2
+  },
+  "before-2019": {
+   "detected": 0,
+   "ge_50": 0,
+   "missing": 0,
+   "over_2": 0,
+   "rows": 0
+  },
+  "no-date": {
+   "detected": 0,
+   "ge_50": 0,
+   "missing": 0,
+   "over_2": 0,
+   "rows": 0
+  },
+  "post-recall": {
+   "detected": 20,
+   "ge_50": 0,
+   "missing": 0,
+   "over_2": 10,
+   "rows": 21
+  }
+ },
+ "store_outside_jan2024": {
+  "detected": 2,
+  "ge_50": 0,
+  "missing": 0,
+  "over_2": 1,
+  "rows": 4
+ },
+ "store_outside_jan2024_rate": 0.5,
+ "underpowered": false
+}
