@@ -1,10 +1,17 @@
 #!/usr/bin/env python3
 # SPDX-License-Identifier: Apache-2.0
-"""coumarin_eu_limits 0.1.0: how often does coumarin in Canadian cinnamon-containing foods
+"""coumarin_eu_limits 0.1.1: how often does coumarin in Canadian cinnamon-containing foods
 exceed the EU maximum level that would apply to the same food category in Europe?
 
-Grades docs/coumarin-eu-limits-0.1.0-prereg.md, which was committed before any coumarin value of
-any product was read. Made with AI agents working in MV2's (Munim, Inc.) name.
+Grades docs/coumarin-eu-limits-0.1.0-prereg.md as amended by
+docs/coumarin-eu-limits-0.1.1-amendment.md. Made with AI agents working in MV2's (Munim, Inc.)
+name.
+
+0.1.1 fixes one unit-conversion bug that the pre-registered G0 gate caught in 0.1.0: CFIA's
+2013-14 file reports coumarin in micrograms per gram (ug/g, which equals mg/kg), but 0.1.0 divided
+any unit containing "ug" by 1000, so every value came out 1000x too small (pooled max 2.51 instead
+of CFIA's 2,510 mg/kg). Units are now converted by an explicit table, and the grader reports a
+census of the units it saw. Classification, limits and every prediction threshold are unchanged.
 
 The EU sets maximum levels for coumarin in specific finished-food categories (Regulation (EC) No
 1334/2008, Annex III Part B). Canada (CFIA) sets none, but publishes per-sample coumarin
@@ -31,7 +38,7 @@ import sys
 import time
 import urllib.request
 
-VERSION = "0.1.0"
+VERSION = "0.1.1"
 
 # CFIA 2013-14 coumarin survey, pinned resource and expected digest (set by the names-only job).
 API = "https://ouvert.canada.ca/data/api/action/resource_show?id="
@@ -45,7 +52,7 @@ UA = ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like
 # EU Annex III Part B coumarin maximum levels (mg/kg) for the mapped analogue groups.
 LIMITS = {"fine-bakery": 15.0, "breakfast-cereal": 20.0}
 
-# Pre-registered prediction thresholds.
+# Pre-registered prediction thresholds (unchanged from 0.1.0).
 G0_N_ROWS = (740, 749)
 G0_MAX_PPM = (2200.0, 2800.0)
 P1_FINE_SHARE = (0.20, 0.50)      # fine-bakery share with ppm > 15
@@ -55,15 +62,44 @@ P2_CEREAL_SHARE = (0.03, 0.22)    # cereal-core share with ppm > 20
 ND_TOKENS = {"nd", "n.d.", "n/d", "n.d", "trace", "<lod", "<loq", "nq", "not detected"}
 _NUM_RE = re.compile(r"\d+(?:\.\d+)?")
 
+# Multiplier taking a normalised unit to mg/kg (0.1.1). Both micro signs normalise to "u".
+MICRO_SIGNS = ("µ", "μ")
+UNIT_FACTORS = {
+    "": 1.0, "mg/kg": 1.0, "ppm": 1.0, "ug/g": 1.0, "mcg/g": 1.0,
+    "ppb": 0.001, "ug/kg": 0.001, "mcg/kg": 0.001, "ng/g": 0.001,
+    "mg/g": 1000.0, "g/kg": 1000.0, "%": 10000.0,
+}
+
 
 # ---------------------------------------------------------------------------
 # Pure functions (unit-tested offline).
 # ---------------------------------------------------------------------------
+def norm_unit(unit):
+    """Lower-case a unit, drop spaces and write either micro sign as "u"."""
+    u = (unit or "").strip().lower().replace(" ", "")
+    for m in MICRO_SIGNS:
+        u = u.replace(m, "u")
+    return u
+
+
+def unit_factor(unit):
+    """Multiplier taking `unit` to mg/kg, or None if the unit is not recognised.
+
+    A trailing parenthetical (e.g. "ug/g (ppm)") is ignored if the full string is unknown.
+    """
+    u = norm_unit(unit)
+    if u in UNIT_FACTORS:
+        return UNIT_FACTORS[u]
+    head = u.split("(")[0]
+    return UNIT_FACTORS.get(head) if head != u else None
+
+
 def parse_ppm(result, unit=""):
     """Parse a CFIA Result/Unit pair into coumarin mg/kg. Returns float or None.
 
-    Non-detect / below-detection -> 0.0. A blank result -> None (not measured). Units in
-    ppb / ug/kg / ng/g are divided by 1000; mg/kg, ppm or a blank unit are taken as mg/kg.
+    Non-detect / below-detection -> 0.0. A blank result -> None (not measured). The value is
+    multiplied by unit_factor(unit); an unrecognised unit is taken as mg/kg, as in 0.1.0, and
+    shows up in the summary's unit census.
     """
     if result is None:
         return None
@@ -78,10 +114,8 @@ def parse_ppm(result, unit=""):
     if not m:
         return None
     val = float(m.group(0))
-    u = (unit or "").strip().lower()
-    if ("ppb" in u) or ("µg" in u) or ("ug/kg" in u) or ("ng/g" in u):
-        val = val / 1000.0
-    return val
+    f = unit_factor(unit)
+    return val * (1.0 if f is None else f)
 
 
 def classify(product):
@@ -146,6 +180,10 @@ def summarise(rows):
     cereal_core = [r for r in measured if r["subcat"] == "cereal"]
     oatmeal = [r for r in measured if r["subcat"] == "oatmeal"]
     cereal_all = [r for r in measured if r["group"] == "breakfast-cereal"]
+    units = {}
+    for r in measured:
+        k = norm_unit(r.get("unit_raw", ""))
+        units[k] = units.get(k, 0) + 1
     return {
         "n_rows": len(measured),
         "pooled_max_ppm": pooled_max,
@@ -153,6 +191,8 @@ def summarise(rows):
         "cereal_core": _stat(cereal_core, LIMITS["breakfast-cereal"]),
         "oatmeal": _stat(oatmeal, LIMITS["breakfast-cereal"]),
         "cereal_all": _stat(cereal_all, LIMITS["breakfast-cereal"]),
+        "units": dict(sorted(units.items())),
+        "n_unrecognised_unit": sum(c for k, c in units.items() if unit_factor(k) is None),
     }
 
 
@@ -310,14 +350,15 @@ def write_outputs(out_dir, rows, summary, preds, provenance):
               encoding="utf-8") as fh:
         w = csv.writer(fh)
         w.writerow(["group", "subcat", "product", "region", "origin", "coumarin_ppm",
-                    "eu_limit", "over_limit"])
+                    "eu_limit", "over_limit", "unit"])
         for r in sorted(rows, key=lambda x: (x["group"], -(x["ppm"] if x["ppm"] is not None else -1))):
             limit = LIMITS.get(r["group"], "")
             over = ""
             if r["ppm"] is not None and r["group"] in LIMITS:
                 over = "yes" if r["ppm"] > LIMITS[r["group"]] else "no"
             w.writerow([r["group"], r["subcat"], r["product"], r["region"], r["origin"],
-                        "" if r["ppm"] is None else round(r["ppm"], 4), limit, over])
+                        "" if r["ppm"] is None else round(r["ppm"], 4), limit, over,
+                        norm_unit(r["unit_raw"])])
     result = {
         "study": "coumarin-eu-limits", "version": VERSION,
         "eu_limits_mg_per_kg": LIMITS, "provenance": provenance,
@@ -347,14 +388,19 @@ def main(argv=None):
     result = write_outputs(args.out_dir, rows, summary, preds, provenance)
 
     print(json.dumps({
+        "version": VERSION,
         "n_rows": summary["n_rows"],
         "pooled_max_ppm": summary["pooled_max_ppm"],
+        "units": summary["units"],
+        "n_unrecognised_unit": summary["n_unrecognised_unit"],
         "fine_bakery": {k: summary["fine_bakery"][k]
                         for k in ("n", "n_over_limit", "share_over_all", "ppm_median", "ppm_max")},
         "cereal_core": {k: summary["cereal_core"][k]
                         for k in ("n", "n_over_limit", "share_over_all", "ppm_median", "ppm_max")},
         "oatmeal": {k: summary["oatmeal"][k]
                     for k in ("n", "n_over_limit", "share_over_all")},
+        "cereal_all": {k: summary["cereal_all"][k]
+                       for k in ("n", "n_over_limit", "share_over_all")},
         "predictions": [(p["id"], p["met"]) for p in preds],
         "n_met": result["n_met"]}, indent=2))
     return 0

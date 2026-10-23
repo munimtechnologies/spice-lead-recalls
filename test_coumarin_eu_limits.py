@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 # SPDX-License-Identifier: Apache-2.0
 """Offline tests for coumarin_eu_limits (no network, no CFIA download). Validates the
-concentration parse, the EU-analogue classifier, the per-group summary and the pre-registered
-grading on a small hand-computed CSV fixture."""
+concentration parse (including the 0.1.1 unit fix), the EU-analogue classifier, the per-group
+summary and the pre-registered grading on small hand-computed CSV fixtures."""
 import csv
 import io
 import unittest
@@ -23,6 +23,24 @@ class TestParsePpm(unittest.TestCase):
     def test_ppb_conversion(self):
         self.assertAlmostEqual(cel.parse_ppm("2000", "ppb"), 2.0)
         self.assertAlmostEqual(cel.parse_ppm("2000", "µg/kg"), 2.0)
+        self.assertAlmostEqual(cel.parse_ppm("2000", "ug/kg"), 2.0)
+        self.assertAlmostEqual(cel.parse_ppm("2000", "ng/g"), 2.0)
+
+    def test_microgram_per_gram_is_mg_per_kg(self):
+        # 0.1.1 fix: CFIA's 2013-14 file reports ug/g (= mg/kg); 0.1.0 divided it by 1000.
+        self.assertAlmostEqual(cel.parse_ppm("2510", "µg/g"), 2510.0)
+        self.assertAlmostEqual(cel.parse_ppm("12.2", "μg/g"), 12.2)
+        self.assertAlmostEqual(cel.parse_ppm("5.6", "ug/g"), 5.6)
+        self.assertAlmostEqual(cel.parse_ppm("5.6", "µg/g (ppm)"), 5.6)
+
+    def test_larger_units(self):
+        self.assertAlmostEqual(cel.parse_ppm("2.51", "mg/g"), 2510.0)
+        self.assertAlmostEqual(cel.parse_ppm("2.51", "g/kg"), 2510.0)
+        self.assertAlmostEqual(cel.parse_ppm("0.25", "%"), 2500.0)
+
+    def test_unrecognised_unit_taken_as_mg_kg(self):
+        self.assertIsNone(cel.unit_factor("furlongs"))
+        self.assertAlmostEqual(cel.parse_ppm("7", "furlongs"), 7.0)
 
     def test_non_detect_is_zero(self):
         for tok in ("ND", "N.D.", "trace", "<0.1", "<LOD", "NQ"):
@@ -94,6 +112,10 @@ class TestSummarise(unittest.TestCase):
         self.assertEqual(self.s["n_rows"], 13)
         self.assertAlmostEqual(self.s["pooled_max_ppm"], 2510.0)
 
+    def test_unit_census(self):
+        self.assertEqual(self.s["units"], {"mg/kg": 13})
+        self.assertEqual(self.s["n_unrecognised_unit"], 0)
+
     def test_fine_bakery(self):
         fb = self.s["fine_bakery"]
         self.assertEqual(fb["n"], 3)
@@ -112,6 +134,32 @@ class TestSummarise(unittest.TestCase):
         ca = self.s["cereal_all"]
         self.assertEqual(ca["n"], 6)
         self.assertEqual(ca["n_over_limit"], 2)             # 25 and 30
+
+
+class TestCp1252MicroGramFile(unittest.TestCase):
+    """Mirrors the real file: cp1252 bytes, French accents, unit written with the micro sign."""
+
+    def setUp(self):
+        text = ("Product,Origin,Region - Région,Result - Résultat,Unit - Unité\r\n"
+                "Spice - Mixed,CANADA,ONTARIO,2260,µg/g\r\n"
+                "Baked Goods,UNKNOWN,ATLANTIC,83.3,µg/g\r\n"
+                "Baked Goods,UNKNOWN,WEST,14.6,µg/g\r\n"
+                "Cereal - Adult,UNITED STATES,WEST,70.7,µg/g\r\n"
+                "Cereal - Adult,UNITED STATES,WEST,19.8,µg/g\r\n")
+        self.rows = cel.parse_rows(text.encode("cp1252"))
+        self.s = cel.summarise(self.rows)
+
+    def test_values_are_not_divided(self):
+        self.assertAlmostEqual(self.s["pooled_max_ppm"], 2260.0)
+        self.assertEqual([round(r["ppm"], 1) for r in self.rows], [2260.0, 83.3, 14.6, 70.7, 19.8])
+
+    def test_over_limit_counts(self):
+        self.assertEqual(self.s["fine_bakery"]["n_over_limit"], 1)   # 83.3 > 15; 14.6 is not
+        self.assertEqual(self.s["cereal_core"]["n_over_limit"], 1)   # 70.7 > 20; 19.8 is not
+
+    def test_unit_census(self):
+        self.assertEqual(self.s["units"], {"ug/g": 5})
+        self.assertEqual(self.s["n_unrecognised_unit"], 0)
 
 
 class TestGrade(unittest.TestCase):
@@ -139,6 +187,16 @@ class TestGrade(unittest.TestCase):
             "n_rows": 745, "pooled_max_ppm": 5000.0,
             "fine_bakery": {"share_over_all": 0.33, "n": 100, "n_over_limit": 33},
             "cereal_core": {"share_over_all": 0.09, "n": 136, "n_over_limit": 12},
+        }
+        preds = {p["id"]: p for p in cel.grade(stats)}
+        self.assertFalse(preds["G0"]["met"])
+
+    def test_grade_g0_fails_on_the_0_1_0_bug(self):
+        # The 0.1.0 run: 749 rows, pooled max 2.51 (1000x too small) -> the gate must fail.
+        stats = {
+            "n_rows": 749, "pooled_max_ppm": 2.51,
+            "fine_bakery": {"share_over_all": 0.0, "n": 100, "n_over_limit": 0},
+            "cereal_core": {"share_over_all": 0.0, "n": 136, "n_over_limit": 0},
         }
         preds = {p["id"]: p for p in cel.grade(stats)}
         self.assertFalse(preds["G0"]["met"])
