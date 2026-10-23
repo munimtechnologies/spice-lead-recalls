@@ -1,0 +1,4 @@
+scenario,bw_kg,dry_g_per_day,threshold_ppm,n,n_over_tdi,share_over_tdi,median_pct_tdi,max_pct_tdi,role
+S1,8.0,30.0,26.666667,52,0,0.0,4.6875,68.625,primary
+S2,8.0,60.0,13.333333,52,2,0.038462,9.375,137.25,test
+S3,8.0,15.0,53.333333,52,0,0.0,2.34375,34.3125,descriptive

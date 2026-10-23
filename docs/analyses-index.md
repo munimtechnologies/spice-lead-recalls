@@ -218,6 +218,22 @@ By MV2 of Munim, Inc. Prepared with AI agents. Text CC BY 4.0; code Apache-2.0.
   136 breakfast cereals exceed 20 mg/kg (none of 65 children's cereals), plus 3 of 12
   flavoured oatmeals. A reference comparison (Canada sets no coumarin limit), recomputed
   from `data/coumarin-eu-limits.csv` and the sealed per-sample table by a pinned test.
+- [Pre-registration: how much of the coumarin TDI do infant cereals give? (coumarin-infant 0.1.0)](coumarin-infant-0.1.0-prereg.md) —
+  written before any infant-cereal value was read (public at tag `v0.4.41` first): a parse
+  gate and four predictions on how much of EFSA's coumarin TDI the 52 cinnamon-containing
+  infant cereals in CFIA's 2013-14 survey would give an 8 kg infant eating them daily, with
+  the children's-cereal median as the direction comparator. Grading reuses the
+  `coumarin_eu_limits.py` parser, checked against the published copy inside the sealed job.
+- [coumarin-infant 0.1.0: result](coumarin-infant-0.1.0-result.md) — 5 of 5 met, a
+  genuinely blind pre-registered test. The 52 infant cereals carry little coumarin (median
+  1.25 mg/kg, max 18.3, detected in 51 of 52): for an 8 kg infant eating one 30 g dry
+  serving a day, none reach the coumarin TDI (the highest sample reaches 69% of it), and
+  only at a doubled 60 g/day serving do 2 of 52 cross it. Infant cereals sit below the
+  children's breakfast cereals (median 3.4). CFIA's own report for this survey gives only
+  survey-wide figures and does not break out infant cereals; this is, as far as we found,
+  the first open per-sample screen of commercial infant cereals against the coumarin TDI.
+  Recomputed from `data/coumarin_infant_samples.csv`, `data/coumarin-infant.csv` and the
+  published children's-cereal rows by a pinned test.
 
 ## The screen's second target: Sudan dyes
 
