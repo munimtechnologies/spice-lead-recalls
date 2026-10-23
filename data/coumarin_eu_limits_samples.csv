@@ -1,0 +1,750 @@
+group,subcat,product,region,origin,coumarin_ppm,eu_limit,over_limit,unit
+breakfast-cereal,cereal,Cereal - Adult,WEST,UNITED STATES,70.7,20.0,yes,ug/g
+breakfast-cereal,oatmeal,Oatmeal,QUEBEC,CANADA,51.8,20.0,yes,ug/g
+breakfast-cereal,oatmeal,Oatmeal,WEST,UNKNOWN,36.0,20.0,yes,ug/g
+breakfast-cereal,cereal,Cereal - Adult,ONTARIO,UNITED STATES,26.1,20.0,yes,ug/g
+breakfast-cereal,oatmeal,Oatmeal,WEST,UNITED STATES,23.6,20.0,yes,ug/g
+breakfast-cereal,cereal,Cereal - Adult,QUEBEC,UNITED STATES,23.1,20.0,yes,ug/g
+breakfast-cereal,cereal,Cereal - Adult,WEST,CANADA,19.8,20.0,no,ug/g
+breakfast-cereal,cereal,Cereal - Adult,WEST,UNKNOWN,18.2,20.0,no,ug/g
+breakfast-cereal,oatmeal,Oatmeal,ATLANTIC,UNITED STATES,17.8,20.0,no,ug/g
+breakfast-cereal,cereal,Cereal - Adult,ONTARIO,UNKNOWN,17.2,20.0,no,ug/g
+breakfast-cereal,cereal,Cereal - Adult,WEST,UNKNOWN,17.0,20.0,no,ug/g
+breakfast-cereal,cereal,Cereal - Adult,ONTARIO,UNITED STATES,16.1,20.0,no,ug/g
+breakfast-cereal,cereal,Cereal - Adult,ONTARIO,UNKNOWN,15.6,20.0,no,ug/g
+breakfast-cereal,cereal,Cereal - Adult,ONTARIO,UNKNOWN,15.5,20.0,no,ug/g
+breakfast-cereal,cereal,Cereal - Adult,ONTARIO,UNITED STATES,15.5,20.0,no,ug/g
+breakfast-cereal,oatmeal,Oatmeal,ATLANTIC,UNKNOWN,14.3,20.0,no,ug/g
+breakfast-cereal,oatmeal,Oatmeal,ONTARIO,UNITED STATES,14.2,20.0,no,ug/g
+breakfast-cereal,cereal,Cereal - Children,ONTARIO,UNITED STATES,13.9,20.0,no,ug/g
+breakfast-cereal,cereal,Cereal - Adult,ONTARIO,UNITED STATES,13.0,20.0,no,ug/g
+breakfast-cereal,cereal,Cereal - Adult,WEST,UNKNOWN,12.6,20.0,no,ug/g
+breakfast-cereal,oatmeal,Oatmeal,WEST,UNKNOWN,12.4,20.0,no,ug/g
+breakfast-cereal,cereal,Cereal - Children,ATLANTIC,UNITED STATES,12.3,20.0,no,ug/g
+breakfast-cereal,cereal,Cereal - Adult,ONTARIO,UNKNOWN,12.0,20.0,no,ug/g
+breakfast-cereal,cereal,Cereal - Children,WEST,UNITED STATES,11.8,20.0,no,ug/g
+breakfast-cereal,cereal,Cereal - Children,ONTARIO,UNITED STATES,11.7,20.0,no,ug/g
+breakfast-cereal,cereal,Cereal - Children,WEST,UNITED STATES,11.7,20.0,no,ug/g
+breakfast-cereal,cereal,Cereal - Children,ONTARIO,UNITED STATES,11.6,20.0,no,ug/g
+breakfast-cereal,cereal,Cereal - Children,QUEBEC,UNITED STATES,11.5,20.0,no,ug/g
+breakfast-cereal,cereal,Cereal - Adult,ONTARIO,UNKNOWN,11.1,20.0,no,ug/g
+breakfast-cereal,cereal,Cereal - Children,QUEBEC,UNITED STATES,10.7,20.0,no,ug/g
+breakfast-cereal,oatmeal,Oatmeal,ONTARIO,CANADA,10.6,20.0,no,ug/g
+breakfast-cereal,oatmeal,Oatmeal,QUEBEC,UNKNOWN,10.3,20.0,no,ug/g
+breakfast-cereal,cereal,Cereal - Children,WEST,UNITED STATES,10.0,20.0,no,ug/g
+breakfast-cereal,cereal,Cereal - Children,WEST,UNITED STATES,9.4,20.0,no,ug/g
+breakfast-cereal,oatmeal,Oatmeal,WEST,UNKNOWN,9.2,20.0,no,ug/g
+breakfast-cereal,cereal,Cereal - Children,WEST,UNITED STATES,9.0,20.0,no,ug/g
+breakfast-cereal,cereal,Cereal - Children,WEST,UNITED STATES,8.8,20.0,no,ug/g
+breakfast-cereal,cereal,Cereal - Children,ONTARIO,UNITED STATES,8.4,20.0,no,ug/g
+breakfast-cereal,cereal,Cereal - Children,ONTARIO,UNKNOWN,8.0,20.0,no,ug/g
+breakfast-cereal,cereal,Cereal - Children,ONTARIO,UNKNOWN,7.8,20.0,no,ug/g
+breakfast-cereal,cereal,Cereal - Children,ONTARIO,UNITED STATES,7.2,20.0,no,ug/g
+breakfast-cereal,cereal,Cereal - Adult,QUEBEC,UNITED STATES,7.2,20.0,no,ug/g
+breakfast-cereal,cereal,Cereal - Children,WEST,UNKNOWN,7.0,20.0,no,ug/g
+breakfast-cereal,cereal,Cereal - Adult,ONTARIO,UNITED STATES,6.7,20.0,no,ug/g
+breakfast-cereal,cereal,Cereal - Children,WEST,UNKNOWN,6.5,20.0,no,ug/g
+breakfast-cereal,cereal,Cereal - Children,WEST,UNITED STATES,6.3,20.0,no,ug/g
+breakfast-cereal,cereal,Cereal - Children,QUEBEC,UNKNOWN,6.0,20.0,no,ug/g
+breakfast-cereal,oatmeal,Oatmeal,WEST,UNKNOWN,6.0,20.0,no,ug/g
+breakfast-cereal,cereal,Cereal - Children,QUEBEC,UNKNOWN,5.8,20.0,no,ug/g
+breakfast-cereal,cereal,Cereal - Adult,QUEBEC,UNKNOWN,5.8,20.0,no,ug/g
+breakfast-cereal,cereal,Cereal - Children,ONTARIO,UNKNOWN,5.5,20.0,no,ug/g
+breakfast-cereal,cereal,Cereal - Children,WEST,UNITED STATES,5.4,20.0,no,ug/g
+breakfast-cereal,cereal,Cereal - Children,WEST,UNKNOWN,5.3,20.0,no,ug/g
+breakfast-cereal,cereal,Cereal - Adult,ONTARIO,POLAND,5.0,20.0,no,ug/g
+breakfast-cereal,cereal,Cereal - Adult,QUEBEC,CANADA,4.9,20.0,no,ug/g
+breakfast-cereal,cereal,Cereal - Children,ONTARIO,UNITED STATES,4.6,20.0,no,ug/g
+breakfast-cereal,cereal,Cereal - Children,ONTARIO,UNKNOWN,4.6,20.0,no,ug/g
+breakfast-cereal,cereal,Cereal - Adult,ONTARIO,UNITED STATES,4.2,20.0,no,ug/g
+breakfast-cereal,cereal,Cereal - Children,ATLANTIC,UNITED STATES,4.0,20.0,no,ug/g
+breakfast-cereal,cereal,Cereal - Children,ONTARIO,UNKNOWN,4.0,20.0,no,ug/g
+breakfast-cereal,cereal,Cereal - Adult,WEST,CANADA,3.9,20.0,no,ug/g
+breakfast-cereal,cereal,Cereal - Children,QUEBEC,UNKNOWN,3.7,20.0,no,ug/g
+breakfast-cereal,cereal,Cereal - Adult,QUEBEC,UNITED STATES,3.7,20.0,no,ug/g
+breakfast-cereal,cereal,Cereal - Children,QUEBEC,UNKNOWN,3.6,20.0,no,ug/g
+breakfast-cereal,cereal,Cereal - Children,WEST,UNITED STATES,3.5,20.0,no,ug/g
+breakfast-cereal,cereal,Cereal - Children,ATLANTIC,UNITED STATES,3.4,20.0,no,ug/g
+breakfast-cereal,cereal,Cereal - Adult,ONTARIO,UNITED STATES,3.4,20.0,no,ug/g
+breakfast-cereal,cereal,Cereal - Children,WEST,UNITED STATES,3.4,20.0,no,ug/g
+breakfast-cereal,cereal,Cereal - Children,WEST,UNKNOWN,3.2,20.0,no,ug/g
+breakfast-cereal,cereal,Cereal - Adult,ATLANTIC,UNITED STATES,3.1,20.0,no,ug/g
+breakfast-cereal,cereal,Cereal - Children,ONTARIO,UNITED STATES,3.0,20.0,no,ug/g
+breakfast-cereal,cereal,Cereal - Adult,ONTARIO,UNITED STATES,3.0,20.0,no,ug/g
+breakfast-cereal,cereal,Cereal - Adult,WEST,UNKNOWN,3.0,20.0,no,ug/g
+breakfast-cereal,cereal,Cereal - Children,QUEBEC,UNITED STATES,2.9,20.0,no,ug/g
+breakfast-cereal,cereal,Cereal - Adult,QUEBEC,UNITED STATES,2.9,20.0,no,ug/g
+breakfast-cereal,cereal,Cereal - Adult,ATLANTIC,UNITED STATES,2.8,20.0,no,ug/g
+breakfast-cereal,cereal,Cereal - Children,ONTARIO,UNKNOWN,2.8,20.0,no,ug/g
+breakfast-cereal,cereal,Cereal - Adult,WEST,UNITED STATES,2.8,20.0,no,ug/g
+breakfast-cereal,cereal,Cereal - Children,ONTARIO,UNKNOWN,2.7,20.0,no,ug/g
+breakfast-cereal,cereal,Cereal - Children,ONTARIO,UNITED STATES,2.7,20.0,no,ug/g
+breakfast-cereal,cereal,Cereal - Children,ONTARIO,UNKNOWN,2.7,20.0,no,ug/g
+breakfast-cereal,cereal,Cereal - Children,ONTARIO,UNKNOWN,2.6,20.0,no,ug/g
+breakfast-cereal,cereal,Cereal - Children,WEST,UNKNOWN,2.6,20.0,no,ug/g
+breakfast-cereal,cereal,Cereal - Adult,WEST,UNITED STATES,2.6,20.0,no,ug/g
+breakfast-cereal,cereal,Cereal - Adult,ONTARIO,CANADA,2.5,20.0,no,ug/g
+breakfast-cereal,cereal,Cereal - Children,ONTARIO,UNKNOWN,2.5,20.0,no,ug/g
+breakfast-cereal,cereal,Cereal - Adult,WEST,UNITED STATES,2.5,20.0,no,ug/g
+breakfast-cereal,cereal,Cereal - Children,ONTARIO,UNKNOWN,2.4,20.0,no,ug/g
+breakfast-cereal,cereal,Cereal - Children,QUEBEC,UNKNOWN,2.4,20.0,no,ug/g
+breakfast-cereal,cereal,Cereal - Children,ATLANTIC,UNKNOWN,2.3,20.0,no,ug/g
+breakfast-cereal,cereal,Cereal - Adult,ONTARIO,UNITED STATES,2.3,20.0,no,ug/g
+breakfast-cereal,cereal,Cereal - Adult,QUEBEC,UNITED STATES,2.3,20.0,no,ug/g
+breakfast-cereal,cereal,Cereal - Adult,ONTARIO,UNITED STATES,2.2,20.0,no,ug/g
+breakfast-cereal,cereal,Cereal - Adult,WEST,UNITED STATES,2.2,20.0,no,ug/g
+breakfast-cereal,oatmeal,Oatmeal,QUEBEC,CANADA,2.1,20.0,no,ug/g
+breakfast-cereal,cereal,Cereal - Adult,WEST,UNITED STATES,2.1,20.0,no,ug/g
+breakfast-cereal,cereal,Cereal - Children,ONTARIO,UNITED STATES,2.0,20.0,no,ug/g
+breakfast-cereal,cereal,Cereal - Adult,QUEBEC,UNITED STATES,2.0,20.0,no,ug/g
+breakfast-cereal,cereal,Cereal - Children,QUEBEC,UNKNOWN,2.0,20.0,no,ug/g
+breakfast-cereal,cereal,Cereal - Adult,ONTARIO,UNITED STATES,1.9,20.0,no,ug/g
+breakfast-cereal,cereal,Cereal - Children,QUEBEC,UNKNOWN,1.9,20.0,no,ug/g
+breakfast-cereal,cereal,Cereal - Children,WEST,UNKNOWN,1.9,20.0,no,ug/g
+breakfast-cereal,cereal,Cereal - Adult,WEST,UNITED STATES,1.9,20.0,no,ug/g
+breakfast-cereal,cereal,Cereal - Children,ONTARIO,UNKNOWN,1.8,20.0,no,ug/g
+breakfast-cereal,cereal,Cereal - Adult,WEST,UNITED STATES,1.8,20.0,no,ug/g
+breakfast-cereal,cereal,Cereal - Adult,ONTARIO,UNITED STATES,1.7,20.0,no,ug/g
+breakfast-cereal,cereal,Cereal - Adult,WEST,UNITED STATES,1.7,20.0,no,ug/g
+breakfast-cereal,cereal,Cereal - Adult,QUEBEC,UNITED STATES,1.6,20.0,no,ug/g
+breakfast-cereal,cereal,Cereal - Adult,ONTARIO,UNITED STATES,1.4,20.0,no,ug/g
+breakfast-cereal,cereal,Cereal - Adult,QUEBEC,UNITED STATES,1.4,20.0,no,ug/g
+breakfast-cereal,cereal,Cereal - Adult,ATLANTIC,UNITED STATES,1.3,20.0,no,ug/g
+breakfast-cereal,cereal,Cereal - Adult,QUEBEC,UNITED STATES,1.3,20.0,no,ug/g
+breakfast-cereal,cereal,Cereal - Adult,QUEBEC,UNITED STATES,1.3,20.0,no,ug/g
+breakfast-cereal,cereal,Cereal - Children,WEST,UNKNOWN,1.3,20.0,no,ug/g
+breakfast-cereal,cereal,Cereal - Adult,ONTARIO,UNITED STATES,1.0,20.0,no,ug/g
+breakfast-cereal,cereal,Cereal - Adult,ONTARIO,UNITED STATES,1.0,20.0,no,ug/g
+breakfast-cereal,cereal,Cereal - Children,QUEBEC,UNKNOWN,1.0,20.0,no,ug/g
+breakfast-cereal,cereal,Cereal - Adult,QUEBEC,UNITED STATES,1.0,20.0,no,ug/g
+breakfast-cereal,cereal,Cereal - Adult,ONTARIO,UNITED KINGDOM,0.9,20.0,no,ug/g
+breakfast-cereal,cereal,Cereal - Adult,ATLANTIC,UNITED STATES,0.7,20.0,no,ug/g
+breakfast-cereal,cereal,Cereal - Adult,ONTARIO,UNKNOWN,0.6,20.0,no,ug/g
+breakfast-cereal,cereal,Cereal - Children,ONTARIO,UNKNOWN,0.6,20.0,no,ug/g
+breakfast-cereal,cereal,Cereal - Children,ONTARIO,UNKNOWN,0.5,20.0,no,ug/g
+breakfast-cereal,cereal,Cereal - Children,ONTARIO,UNKNOWN,0.5,20.0,no,ug/g
+breakfast-cereal,cereal,Cereal - Adult,WEST,UNKNOWN,0.5,20.0,no,ug/g
+breakfast-cereal,cereal,Cereal - Adult,WEST,UNITED STATES,0.5,20.0,no,ug/g
+breakfast-cereal,cereal,Cereal - Children,WEST,UNKNOWN,0.5,20.0,no,ug/g
+breakfast-cereal,cereal,Cereal - Children,WEST,UNKNOWN,0.5,20.0,no,ug/g
+breakfast-cereal,cereal,Cereal - Adult,QUEBEC,UNITED STATES,0.4,20.0,no,ug/g
+breakfast-cereal,cereal,Cereal - Adult,QUEBEC,UNITED STATES,0.4,20.0,no,ug/g
+breakfast-cereal,cereal,Cereal - Adult,WEST,UNITED STATES,0.4,20.0,no,ug/g
+breakfast-cereal,cereal,Cereal - Adult,ONTARIO,UNITED STATES,0.3,20.0,no,ug/g
+breakfast-cereal,cereal,Cereal - Children,ONTARIO,UNKNOWN,0.3,20.0,no,ug/g
+breakfast-cereal,cereal,Cereal - Adult,QUEBEC,UNITED STATES,0.3,20.0,no,ug/g
+breakfast-cereal,cereal,Cereal - Children,WEST,UNKNOWN,0.3,20.0,no,ug/g
+breakfast-cereal,cereal,Cereal - Adult,ONTARIO,UNITED STATES,0.2,20.0,no,ug/g
+breakfast-cereal,cereal,Cereal - Adult,WEST,UNITED STATES,0.1,20.0,no,ug/g
+breakfast-cereal,cereal,Cereal - Adult,ONTARIO,UNKNOWN,0.0,20.0,no,ug/g
+breakfast-cereal,cereal,Cereal - Children,ONTARIO,UNITED STATES,0.0,20.0,no,ug/g
+breakfast-cereal,cereal,Cereal - Adult,ONTARIO,UNITED STATES,0.0,20.0,no,ug/g
+breakfast-cereal,cereal,Cereal - Adult,ONTARIO,UNKNOWN,0.0,20.0,no,ug/g
+breakfast-cereal,cereal,Cereal - Adult,QUEBEC,UNITED STATES,0.0,20.0,no,ug/g
+breakfast-cereal,cereal,Cereal - Children,QUEBEC,UNITED STATES,0.0,20.0,no,ug/g
+breakfast-cereal,cereal,Cereal - Children,QUEBEC,UNITED STATES,0.0,20.0,no,ug/g
+breakfast-cereal,cereal,Cereal - Children,QUEBEC,UNITED STATES,0.0,20.0,no,ug/g
+breakfast-cereal,cereal,Cereal - Children,QUEBEC,UNITED STATES,0.0,20.0,no,ug/g
+breakfast-cereal,cereal,Cereal - Adult,WEST,UNITED STATES,0.0,20.0,no,ug/g
+breakfast-cereal,cereal,Cereal - Adult,WEST,UNITED STATES,0.0,20.0,no,ug/g
+fine-bakery,baked-goods,Baked Goods,ATLANTIC,UNKNOWN,83.3,15.0,yes,ug/g
+fine-bakery,baked-goods,Baked Goods,ONTARIO,UNKNOWN,78.4,15.0,yes,ug/g
+fine-bakery,baked-goods,Baked Goods,ONTARIO,CANADA,73.8,15.0,yes,ug/g
+fine-bakery,baked-goods,Baked Goods,WEST,UNKNOWN,71.8,15.0,yes,ug/g
+fine-bakery,baked-goods,Baked Goods,ONTARIO,UNKNOWN,70.8,15.0,yes,ug/g
+fine-bakery,baked-goods,Baked Goods,WEST,UNKNOWN,67.5,15.0,yes,ug/g
+fine-bakery,baked-goods,Baked Goods,ONTARIO,UNKNOWN,57.6,15.0,yes,ug/g
+fine-bakery,baked-goods,Baked Goods,WEST,UNKNOWN,56.8,15.0,yes,ug/g
+fine-bakery,baked-goods,Baked Goods,ONTARIO,CANADA,53.7,15.0,yes,ug/g
+fine-bakery,baked-goods,Baked Goods,ONTARIO,UNKNOWN,53.4,15.0,yes,ug/g
+fine-bakery,baked-goods,Baked Goods,ONTARIO,UNITED STATES,52.6,15.0,yes,ug/g
+fine-bakery,baked-goods,Baked Goods,ONTARIO,UNKNOWN,48.4,15.0,yes,ug/g
+fine-bakery,baked-goods,Baked Goods,WEST,UNKNOWN,47.9,15.0,yes,ug/g
+fine-bakery,baked-goods,Baked Goods,QUEBEC,UNKNOWN,47.5,15.0,yes,ug/g
+fine-bakery,baked-goods,Baked Goods,QUEBEC,UNKNOWN,47.4,15.0,yes,ug/g
+fine-bakery,baked-goods,Baked Goods,QUEBEC,UNKNOWN,45.8,15.0,yes,ug/g
+fine-bakery,baked-goods,Baked Goods,QUEBEC,UNKNOWN,44.3,15.0,yes,ug/g
+fine-bakery,baked-goods,Baked Goods,ONTARIO,UNITED STATES,40.6,15.0,yes,ug/g
+fine-bakery,baked-goods,Baked Goods,WEST,UNKNOWN,37.9,15.0,yes,ug/g
+fine-bakery,cookie,Bakery Product - Cookie,ONTARIO,UNITED STATES,36.1,15.0,yes,ug/g
+fine-bakery,baked-goods,Baked Goods,WEST,CANADA,35.6,15.0,yes,ug/g
+fine-bakery,baked-goods,Baked Goods,QUEBEC,UNKNOWN,32.4,15.0,yes,ug/g
+fine-bakery,baked-goods,Baked Goods,ONTARIO,UNKNOWN,32.2,15.0,yes,ug/g
+fine-bakery,baked-goods,Baked Goods,WEST,CANADA,29.7,15.0,yes,ug/g
+fine-bakery,baked-goods,Baked Goods,ONTARIO,UNKNOWN,29.4,15.0,yes,ug/g
+fine-bakery,baked-goods,Baked Goods,ONTARIO,UNKNOWN,28.4,15.0,yes,ug/g
+fine-bakery,baked-goods,Baked Goods,WEST,UNKNOWN,27.0,15.0,yes,ug/g
+fine-bakery,baked-goods,Baked Goods,ONTARIO,UNKNOWN,26.7,15.0,yes,ug/g
+fine-bakery,baked-goods,Baked Goods,ONTARIO,UNKNOWN,24.8,15.0,yes,ug/g
+fine-bakery,baked-goods,Baked Goods,WEST,CANADA,24.7,15.0,yes,ug/g
+fine-bakery,baked-goods,Baked Goods,ONTARIO,UNKNOWN,22.8,15.0,yes,ug/g
+fine-bakery,baked-goods,Baked Goods,ONTARIO,UNKNOWN,22.5,15.0,yes,ug/g
+fine-bakery,muffin,Bakery Product - English Muffin,ONTARIO,UNKNOWN,20.7,15.0,yes,ug/g
+fine-bakery,baked-goods,Baked Goods,WEST,CANADA,20.6,15.0,yes,ug/g
+fine-bakery,baked-goods,Baked Goods,QUEBEC,CANADA,20.2,15.0,yes,ug/g
+fine-bakery,baked-goods,Baked Goods,ONTARIO,UNKNOWN,19.7,15.0,yes,ug/g
+fine-bakery,baked-goods,Baked Goods,WEST,UNITED STATES,18.8,15.0,yes,ug/g
+fine-bakery,baked-goods,Baked Goods,ONTARIO,UNITED STATES,18.7,15.0,yes,ug/g
+fine-bakery,cookie,Bakery Product - Cookie,WEST,UNKNOWN,18.6,15.0,yes,ug/g
+fine-bakery,baked-goods,Baked Goods,QUEBEC,UNKNOWN,18.0,15.0,yes,ug/g
+fine-bakery,baked-goods,Baked Goods,ONTARIO,CANADA,17.4,15.0,yes,ug/g
+fine-bakery,baked-goods,Baked Goods,WEST,UNKNOWN,16.7,15.0,yes,ug/g
+fine-bakery,baked-goods,Baked Goods,WEST,UNKNOWN,14.6,15.0,no,ug/g
+fine-bakery,baked-goods,Baked Goods,WEST,UNKNOWN,13.4,15.0,no,ug/g
+fine-bakery,baked-goods,Baked Goods,ONTARIO,CANADA,13.0,15.0,no,ug/g
+fine-bakery,cookie,Bakery Product - Cookie,ONTARIO,UNKNOWN,10.6,15.0,no,ug/g
+fine-bakery,baked-goods,Baked Goods,ONTARIO,UNKNOWN,9.4,15.0,no,ug/g
+fine-bakery,baked-goods,Baked Goods,QUEBEC,UNKNOWN,8.9,15.0,no,ug/g
+fine-bakery,cookie,Bakery Product - Cookie,ONTARIO,CANADA,8.5,15.0,no,ug/g
+fine-bakery,baked-goods,Baked Goods,ONTARIO,UNKNOWN,8.4,15.0,no,ug/g
+fine-bakery,cookie,Bakery Product - Cookie,QUEBEC,UNKNOWN,8.4,15.0,no,ug/g
+fine-bakery,cookie,Bakery Product - Cookie,WEST,UNKNOWN,8.3,15.0,no,ug/g
+fine-bakery,cookie,Bakery Product - Cookie,ONTARIO,UNKNOWN,8.0,15.0,no,ug/g
+fine-bakery,cookie,Bakery Product - Cookie,QUEBEC,CANADA,7.6,15.0,no,ug/g
+fine-bakery,cookie,Bakery Product - Cookie,QUEBEC,UNKNOWN,7.6,15.0,no,ug/g
+fine-bakery,baked-goods,Baked Goods,ATLANTIC,UNKNOWN,7.4,15.0,no,ug/g
+fine-bakery,baked-goods,Baked Goods,ONTARIO,UNKNOWN,7.4,15.0,no,ug/g
+fine-bakery,baked-goods,Baked Goods,WEST,UNKNOWN,7.3,15.0,no,ug/g
+fine-bakery,cookie,Bakery Product - Cookie,WEST,UNKNOWN,7.1,15.0,no,ug/g
+fine-bakery,baked-goods,Baked Goods,WEST,UNITED STATES,6.6,15.0,no,ug/g
+fine-bakery,baked-goods,Baked Goods,ATLANTIC,CANADA,6.5,15.0,no,ug/g
+fine-bakery,cookie,Bakery Product - Cookie,ATLANTIC,UNKNOWN,6.5,15.0,no,ug/g
+fine-bakery,baked-goods,Baked Goods,ONTARIO,CANADA,6.4,15.0,no,ug/g
+fine-bakery,baked-goods,Baked Goods,QUEBEC,UNKNOWN,6.4,15.0,no,ug/g
+fine-bakery,cookie,Bakery Product - Cookie,WEST,UNKNOWN,6.0,15.0,no,ug/g
+fine-bakery,baked-goods,Baked Goods,ONTARIO,CANADA,5.9,15.0,no,ug/g
+fine-bakery,cookie,Bakery Product - Cookie,ONTARIO,UNKNOWN,5.7,15.0,no,ug/g
+fine-bakery,cookie,Bakery Product - Cookie,QUEBEC,UNKNOWN,5.6,15.0,no,ug/g
+fine-bakery,baked-goods,Baked Goods,WEST,CANADA,5.6,15.0,no,ug/g
+fine-bakery,cookie,Bakery Product - Cookie,ATLANTIC,UNKNOWN,5.5,15.0,no,ug/g
+fine-bakery,cookie,Bakery Product - Cookie,WEST,CANADA,5.5,15.0,no,ug/g
+fine-bakery,cookie,Bakery Product - Cookie,WEST,UNKNOWN,5.3,15.0,no,ug/g
+fine-bakery,cookie,Bakery Product - Cookie,ONTARIO,CANADA,5.0,15.0,no,ug/g
+fine-bakery,cookie,Bakery Product - Cookie,WEST,UNKNOWN,4.9,15.0,no,ug/g
+fine-bakery,cookie,Bakery Product - Cookie,ONTARIO,UNKNOWN,4.8,15.0,no,ug/g
+fine-bakery,baked-goods,Baked Goods,QUEBEC,UNKNOWN,4.8,15.0,no,ug/g
+fine-bakery,baked-goods,Baked Goods,ONTARIO,UNKNOWN,4.6,15.0,no,ug/g
+fine-bakery,cookie,Bakery Product - Cookie,QUEBEC,UNKNOWN,4.5,15.0,no,ug/g
+fine-bakery,cookie,Bakery Product - Cookie,WEST,UNKNOWN,4.4,15.0,no,ug/g
+fine-bakery,cookie,Bakery Product - Cookie,ONTARIO,UNKNOWN,4.3,15.0,no,ug/g
+fine-bakery,cookie,Bakery Product - Cookie,ONTARIO,SWEDEN,4.3,15.0,no,ug/g
+fine-bakery,baked-goods,Baked Goods,QUEBEC,UNKNOWN,3.9,15.0,no,ug/g
+fine-bakery,cookie,Bakery Product - Cookie,ONTARIO,UNKNOWN,3.6,15.0,no,ug/g
+fine-bakery,cookie,Bakery Product - Cookie,WEST,UNKNOWN,3.2,15.0,no,ug/g
+fine-bakery,cookie,Bakery Product - Cookie,WEST,CANADA,3.1,15.0,no,ug/g
+fine-bakery,baked-goods,Baked Goods,WEST,CANADA,2.9,15.0,no,ug/g
+fine-bakery,cookie,Bakery Product - Cookie,ONTARIO,CANADA,2.6,15.0,no,ug/g
+fine-bakery,baked-goods,Baked Goods,QUEBEC,UNKNOWN,2.5,15.0,no,ug/g
+fine-bakery,baked-goods,Baked Goods,ONTARIO,UNITED STATES,1.9,15.0,no,ug/g
+fine-bakery,baked-goods,Baked Goods,QUEBEC,UNKNOWN,1.8,15.0,no,ug/g
+fine-bakery,baked-goods,Baked Goods,QUEBEC,CANADA,1.7,15.0,no,ug/g
+fine-bakery,cookie,Bakery Product - Cookie,QUEBEC,UNKNOWN,1.4,15.0,no,ug/g
+fine-bakery,baked-goods,Baked Goods,WEST,UNKNOWN,1.3,15.0,no,ug/g
+fine-bakery,baked-goods,Baked Goods,ATLANTIC,UNITED STATES,1.2,15.0,no,ug/g
+fine-bakery,baked-goods,Baked Goods,ONTARIO,UNKNOWN,1.2,15.0,no,ug/g
+fine-bakery,baked-goods,Baked Goods,ONTARIO,UNITED STATES,1.2,15.0,no,ug/g
+fine-bakery,cookie,Bakery Product - Cookie,WEST,SWEDEN,1.2,15.0,no,ug/g
+fine-bakery,baked-goods,Baked Goods,ONTARIO,UNITED STATES,1.1,15.0,no,ug/g
+fine-bakery,cookie,Bakery Product - Cookie,QUEBEC,CANADA,0.7,15.0,no,ug/g
+fine-bakery,baked-goods,Baked Goods,QUEBEC,UNKNOWN,0.3,15.0,no,ug/g
+out-of-scope,spice,Spice - Mixed,WEST,UNKNOWN,2510.0,,,ug/g
+out-of-scope,tea,Tea - Herbal,WEST,UNITED STATES,2430.0,,,ug/g
+out-of-scope,spice,Spice - Mixed,ONTARIO,CANADA,2260.0,,,ug/g
+out-of-scope,spice,Spice - Mixed,ONTARIO,UNKNOWN,1900.0,,,ug/g
+out-of-scope,tea,Tea - Herbal,ONTARIO,UNITED STATES,1670.0,,,ug/g
+out-of-scope,tea,Tea - Herbal,ONTARIO,UNKNOWN,1670.0,,,ug/g
+out-of-scope,tea,Tea - Herbal,QUEBEC,UNITED STATES,1670.0,,,ug/g
+out-of-scope,spice,Spice - Mixed,ONTARIO,UNKNOWN,1620.0,,,ug/g
+out-of-scope,tea,Tea - Herbal,QUEBEC,UNITED STATES,1610.0,,,ug/g
+out-of-scope,tea,Tea - Herbal,ONTARIO,UNKNOWN,1560.0,,,ug/g
+out-of-scope,tea,Tea - Herbal,ONTARIO,UNITED STATES,1510.0,,,ug/g
+out-of-scope,tea,Tea - Herbal,QUEBEC,UNKNOWN,1470.0,,,ug/g
+out-of-scope,tea,Tea - Herbal,QUEBEC,UNKNOWN,1450.0,,,ug/g
+out-of-scope,tea,Tea - Herbal,ONTARIO,UNKNOWN,1440.0,,,ug/g
+out-of-scope,spice,Spice - Mixed,ONTARIO,UNKNOWN,1430.0,,,ug/g
+out-of-scope,tea,Tea - Herbal,WEST,UNKNOWN,1430.0,,,ug/g
+out-of-scope,tea,Tea - Herbal,ATLANTIC,UNKNOWN,1420.0,,,ug/g
+out-of-scope,tea,Tea - Herbal,WEST,UNKNOWN,1370.0,,,ug/g
+out-of-scope,tea,Tea - Herbal,ONTARIO,UNKNOWN,1360.0,,,ug/g
+out-of-scope,tea,Tea - Herbal,WEST,UNKNOWN,1340.0,,,ug/g
+out-of-scope,tea,Tea - Herbal,WEST,UNITED STATES,1310.0,,,ug/g
+out-of-scope,spice,Spice - Mixed,ATLANTIC,UNKNOWN,1290.0,,,ug/g
+out-of-scope,tea,Tea - Herbal,QUEBEC,UNKNOWN,1290.0,,,ug/g
+out-of-scope,tea,Tea - Herbal,WEST,UNITED STATES,1260.0,,,ug/g
+out-of-scope,tea,Tea - Herbal,ATLANTIC,UNKNOWN,1250.0,,,ug/g
+out-of-scope,spice,Spice - Mixed,WEST,UNKNOWN,1190.0,,,ug/g
+out-of-scope,tea,Tea - Herbal,WEST,UNITED STATES,1160.0,,,ug/g
+out-of-scope,spice,Spice - Mixed,QUEBEC,CANADA,1140.0,,,ug/g
+out-of-scope,tea,Tea - Herbal,WEST,UNKNOWN,1130.0,,,ug/g
+out-of-scope,spice,Spice - Mixed,QUEBEC,UNKNOWN,1120.0,,,ug/g
+out-of-scope,spice,Spice - Mixed,ONTARIO,UNKNOWN,1110.0,,,ug/g
+out-of-scope,spice,Spice - Mixed,WEST,UNKNOWN,1100.0,,,ug/g
+out-of-scope,tea,Tea - Herbal,WEST,UNKNOWN,1070.0,,,ug/g
+out-of-scope,tea,Tea - Herbal,ONTARIO,UNITED STATES,1050.0,,,ug/g
+out-of-scope,spice,Spice - Mixed,WEST,UNKNOWN,1040.0,,,ug/g
+out-of-scope,tea,Tea - Herbal,WEST,UNITED STATES,1030.0,,,ug/g
+out-of-scope,spice,Spice - Mixed,WEST,UNKNOWN,1020.0,,,ug/g
+out-of-scope,spice,Spice - Mixed,WEST,UNKNOWN,993.0,,,ug/g
+out-of-scope,spice,Spice - Mixed,ONTARIO,UNKNOWN,988.0,,,ug/g
+out-of-scope,spice,Spice - Mixed,ONTARIO,UNKNOWN,969.0,,,ug/g
+out-of-scope,tea,Tea - Herbal,ONTARIO,UNITED STATES,967.0,,,ug/g
+out-of-scope,spice,Spice - Mixed,ONTARIO,UNKNOWN,950.0,,,ug/g
+out-of-scope,tea,Tea - Herbal,WEST,UNITED STATES,946.0,,,ug/g
+out-of-scope,tea,Tea - Herbal,ONTARIO,CANADA,939.0,,,ug/g
+out-of-scope,spice,Spice - Mixed,QUEBEC,UNKNOWN,935.0,,,ug/g
+out-of-scope,tea,Tea - Herbal,QUEBEC,UNITED STATES,928.0,,,ug/g
+out-of-scope,spice,Spice - Mixed,ATLANTIC,UNKNOWN,908.0,,,ug/g
+out-of-scope,tea,Tea - Herbal,ONTARIO,UNITED STATES,905.0,,,ug/g
+out-of-scope,tea,Tea - Herbal,ONTARIO,UNITED STATES,887.0,,,ug/g
+out-of-scope,spice,Spice - Mixed,WEST,UNKNOWN,887.0,,,ug/g
+out-of-scope,tea,Tea - Herbal,ONTARIO,CANADA,777.0,,,ug/g
+out-of-scope,tea,Tea - Herbal,ATLANTIC,CANADA,760.0,,,ug/g
+out-of-scope,tea,Tea - Herbal,QUEBEC,UNITED STATES,754.0,,,ug/g
+out-of-scope,tea,Tea - Herbal,ONTARIO,CANADA,729.0,,,ug/g
+out-of-scope,spice,Spice - Mixed,QUEBEC,CANADA,720.0,,,ug/g
+out-of-scope,spice,Spice - Mixed,WEST,UNKNOWN,704.0,,,ug/g
+out-of-scope,spice,Spice - Mixed,QUEBEC,UNKNOWN,688.0,,,ug/g
+out-of-scope,tea,Tea - Herbal,ONTARIO,CANADA,629.0,,,ug/g
+out-of-scope,spice,Spice - Mixed,QUEBEC,UNKNOWN,627.0,,,ug/g
+out-of-scope,tea,Tea - Herbal,WEST,UNITED STATES,603.0,,,ug/g
+out-of-scope,tea,Tea - Herbal,QUEBEC,CANADA,549.0,,,ug/g
+out-of-scope,tea,Tea - Black,ONTARIO,UNKNOWN,512.0,,,ug/g
+out-of-scope,tea,Tea - Herbal,QUEBEC,CANADA,510.0,,,ug/g
+out-of-scope,tea,Tea - Herbal,WEST,CANADA,473.0,,,ug/g
+out-of-scope,tea,Tea - Herbal,ONTARIO,CANADA,469.0,,,ug/g
+out-of-scope,tea,Tea - Herbal,QUEBEC,UNKNOWN,457.0,,,ug/g
+out-of-scope,spice,Spice - Mixed,WEST,UNKNOWN,397.0,,,ug/g
+out-of-scope,tea,Tea - Black,WEST,UNITED STATES,389.0,,,ug/g
+out-of-scope,tea,Tea - Black,QUEBEC,UNITED STATES,386.0,,,ug/g
+out-of-scope,spice,Spice - Mixed,ONTARIO,UNKNOWN,385.0,,,ug/g
+out-of-scope,spice,Spice - Mixed,ONTARIO,UNKNOWN,382.0,,,ug/g
+out-of-scope,tea,Tea - Herbal,ONTARIO,UNKNOWN,380.0,,,ug/g
+out-of-scope,spice,Spice - Mixed,QUEBEC,CANADA,376.0,,,ug/g
+out-of-scope,spice,Spice - Mixed,WEST,CANADA,368.0,,,ug/g
+out-of-scope,tea,Tea - Herbal,WEST,UNKNOWN,359.0,,,ug/g
+out-of-scope,spice,Spice - Mixed,ATLANTIC,UNKNOWN,357.0,,,ug/g
+out-of-scope,tea,Tea - Black,QUEBEC,UNITED STATES,352.0,,,ug/g
+out-of-scope,tea,Tea - Black,QUEBEC,UNKNOWN,347.0,,,ug/g
+out-of-scope,tea,Tea - Herbal,ONTARIO,CANADA,330.0,,,ug/g
+out-of-scope,tea,Tea - Herbal,QUEBEC,UNKNOWN,317.0,,,ug/g
+out-of-scope,tea,Tea - Green,QUEBEC,UNITED STATES,315.0,,,ug/g
+out-of-scope,tea,Tea - Black,ONTARIO,UNKNOWN,309.0,,,ug/g
+out-of-scope,spice,Spice - Mixed,ONTARIO,UNKNOWN,307.0,,,ug/g
+out-of-scope,spice,Spice - Mixed,ONTARIO,INDIA,293.0,,,ug/g
+out-of-scope,spice,Spice - Mixed,WEST,UNKNOWN,287.0,,,ug/g
+out-of-scope,spice,Spice - Mixed,ONTARIO,UNKNOWN,279.0,,,ug/g
+out-of-scope,spice,Spice - Mixed,QUEBEC,UNKNOWN,275.0,,,ug/g
+out-of-scope,tea,Tea - Herbal,ONTARIO,UNKNOWN,272.0,,,ug/g
+out-of-scope,tea,Tea - Herbal,WEST,CANADA,268.0,,,ug/g
+out-of-scope,tea,Tea - Black,WEST,UNKNOWN,266.0,,,ug/g
+out-of-scope,tea,Tea - Black,QUEBEC,UNITED STATES,263.0,,,ug/g
+out-of-scope,spice,Spice - Mixed,ONTARIO,UNKNOWN,262.0,,,ug/g
+out-of-scope,spice,Spice - Mixed,QUEBEC,UNKNOWN,255.0,,,ug/g
+out-of-scope,spice,Spice - Mixed,WEST,UNKNOWN,249.0,,,ug/g
+out-of-scope,tea,Tea - Black,QUEBEC,UNITED STATES,241.0,,,ug/g
+out-of-scope,tea,Tea - Herbal,ATLANTIC,UNKNOWN,240.0,,,ug/g
+out-of-scope,tea,Tea - Black,ONTARIO,UNKNOWN,237.0,,,ug/g
+out-of-scope,tea,Tea - Herbal,WEST,UNKNOWN,225.0,,,ug/g
+out-of-scope,mix,Dried mixes,WEST,UNKNOWN,217.0,,,ug/g
+out-of-scope,mix,Dried mixes,ONTARIO,UNKNOWN,212.0,,,ug/g
+out-of-scope,tea,Tea - Black,QUEBEC,UNKNOWN,204.0,,,ug/g
+out-of-scope,tea,Tea - Herbal,QUEBEC,CANADA,204.0,,,ug/g
+out-of-scope,spice,Spice - Mixed,ONTARIO,UNKNOWN,201.0,,,ug/g
+out-of-scope,spice,Spice - Mixed,ONTARIO,UNKNOWN,199.0,,,ug/g
+out-of-scope,spice,Spice - Mixed,ONTARIO,SOUTH AFRICA,190.0,,,ug/g
+out-of-scope,spice,Spice - Mixed,ONTARIO,UNKNOWN,188.0,,,ug/g
+out-of-scope,spice,Spice - Mixed,QUEBEC,UNKNOWN,184.0,,,ug/g
+out-of-scope,tea,Tea - Herbal,WEST,UNKNOWN,181.0,,,ug/g
+out-of-scope,tea,Tea - Black,WEST,UNKNOWN,176.0,,,ug/g
+out-of-scope,tea,Tea - Black,ATLANTIC,UNITED STATES,172.0,,,ug/g
+out-of-scope,spice,Spice - Mixed,WEST,"TAIWAN, PROVINCE OF CHINA",168.0,,,ug/g
+out-of-scope,tea,Tea - Black,QUEBEC,UNKNOWN,167.0,,,ug/g
+out-of-scope,tea,Tea - Black,QUEBEC,UNKNOWN,165.0,,,ug/g
+out-of-scope,tea,Tea - Green,ONTARIO,UNITED STATES,164.0,,,ug/g
+out-of-scope,tea,Tea - Black,WEST,UNITED STATES,160.0,,,ug/g
+out-of-scope,tea,Tea - Herbal,ONTARIO,UNITED KINGDOM,158.0,,,ug/g
+out-of-scope,tea,Tea - Black,ONTARIO,UNITED STATES,157.0,,,ug/g
+out-of-scope,tea,Tea - Herbal,ONTARIO,UNKNOWN,152.0,,,ug/g
+out-of-scope,tea,Tea - Black,ONTARIO,UNITED STATES,151.0,,,ug/g
+out-of-scope,tea,Tea - Herbal,ONTARIO,CANADA,148.0,,,ug/g
+out-of-scope,spice,Spice - Mixed,QUEBEC,UNKNOWN,139.0,,,ug/g
+out-of-scope,tea,Tea - Herbal,WEST,UNKNOWN,138.0,,,ug/g
+out-of-scope,tea,Tea - Herbal,ONTARIO,UNKNOWN,136.0,,,ug/g
+out-of-scope,tea,Tea - Black,ATLANTIC,UNITED STATES,135.0,,,ug/g
+out-of-scope,tea,Tea - Black,QUEBEC,UNITED STATES,134.0,,,ug/g
+out-of-scope,tea,Tea - Herbal,WEST,UNKNOWN,128.0,,,ug/g
+out-of-scope,tea,Tea - Black,WEST,UNKNOWN,127.0,,,ug/g
+out-of-scope,mix,Baking Mixes,ONTARIO,CANADA,125.0,,,ug/g
+out-of-scope,tea,Tea - Herbal,QUEBEC,CANADA,125.0,,,ug/g
+out-of-scope,tea,Tea - Herbal,ONTARIO,UNITED STATES,123.0,,,ug/g
+out-of-scope,tea,Tea - Herbal,WEST,UNKNOWN,122.0,,,ug/g
+out-of-scope,tea,Tea - Herbal,ONTARIO,UNITED STATES,121.0,,,ug/g
+out-of-scope,mix,Dried mixes,WEST,UNKNOWN,121.0,,,ug/g
+out-of-scope,spice,Spice - Mixed,QUEBEC,UNKNOWN,114.0,,,ug/g
+out-of-scope,tea,Tea - Herbal,ATLANTIC,UNKNOWN,113.0,,,ug/g
+out-of-scope,mix,Dried mixes,ONTARIO,UNKNOWN,111.0,,,ug/g
+out-of-scope,spice,Spice - Mixed,ONTARIO,UNKNOWN,105.0,,,ug/g
+out-of-scope,spice,Spice - Mixed,ONTARIO,UNKNOWN,102.0,,,ug/g
+out-of-scope,tea,Tea - Green,ONTARIO,UNKNOWN,98.0,,,ug/g
+out-of-scope,tea,Tea - Herbal,WEST,UNITED STATES,90.5,,,ug/g
+out-of-scope,mix,Baking Mixes,ONTARIO,CANADA,88.4,,,ug/g
+out-of-scope,mix,Baking Mixes,ONTARIO,UNKNOWN,79.3,,,ug/g
+out-of-scope,spice,Spice - Mixed,WEST,UNKNOWN,77.1,,,ug/g
+out-of-scope,mix,Dried mixes,QUEBEC,UNKNOWN,75.7,,,ug/g
+out-of-scope,tea,Tea - Black,WEST,UNKNOWN,74.6,,,ug/g
+out-of-scope,spice,Spice - Mixed,WEST,UNITED STATES,69.4,,,ug/g
+out-of-scope,spice,Spice - Mixed,QUEBEC,UNKNOWN,65.9,,,ug/g
+out-of-scope,bread,Bakery Product - Bread - Other,WEST,UNKNOWN,63.4,,,ug/g
+out-of-scope,tea,Tea - Black,ATLANTIC,UNITED STATES,62.4,,,ug/g
+out-of-scope,spice,Spice - Mixed,WEST,INDIA,62.1,,,ug/g
+out-of-scope,mix,Baking Mixes,WEST,CANADA,59.4,,,ug/g
+out-of-scope,tea,Tea - Black,WEST,UNKNOWN,58.6,,,ug/g
+out-of-scope,spice,Spice - Mixed,QUEBEC,UNKNOWN,58.4,,,ug/g
+out-of-scope,spice,Spice - Mixed,WEST,UNKNOWN,57.9,,,ug/g
+out-of-scope,tea,Tea - Herbal,ONTARIO,CANADA,57.7,,,ug/g
+out-of-scope,mix,Baking Mixes,WEST,CANADA,55.8,,,ug/g
+out-of-scope,spice,Spice - Mixed,QUEBEC,UNKNOWN,54.8,,,ug/g
+out-of-scope,tea,Tea - Black,ATLANTIC,UNITED STATES,54.5,,,ug/g
+out-of-scope,tea,Tea - Herbal,ONTARIO,CANADA,52.0,,,ug/g
+out-of-scope,tea,Tea - Herbal,WEST,UNITED STATES,50.5,,,ug/g
+out-of-scope,mix,Baking Mixes,ONTARIO,UNKNOWN,49.8,,,ug/g
+out-of-scope,spice,Spice - Mixed,ONTARIO,UNKNOWN,48.8,,,ug/g
+out-of-scope,bread,Bakery Product - Bagel,QUEBEC,UNKNOWN,47.4,,,ug/g
+out-of-scope,spice,Spice - Mixed,WEST,UNKNOWN,46.4,,,ug/g
+out-of-scope,mix,Dried mixes,ONTARIO,UNKNOWN,45.4,,,ug/g
+out-of-scope,spice,Spice - Mixed,QUEBEC,CANADA,44.8,,,ug/g
+out-of-scope,bread,Bakery Product - Bagel,WEST,UNKNOWN,44.8,,,ug/g
+out-of-scope,bread,Bakery Product - Bagel,QUEBEC,UNKNOWN,44.7,,,ug/g
+out-of-scope,mix,Baking Mixes,QUEBEC,CANADA,43.8,,,ug/g
+out-of-scope,tea,Tea - Herbal,WEST,UNKNOWN,42.7,,,ug/g
+out-of-scope,mix,Dried mixes,WEST,UNKNOWN,42.5,,,ug/g
+out-of-scope,tea,Tea - Black,WEST,UNKNOWN,41.9,,,ug/g
+out-of-scope,mix,Baking Mixes,ONTARIO,UNITED STATES,41.0,,,ug/g
+out-of-scope,bread,Bakery Product - Bread,WEST,UNKNOWN,40.0,,,ug/g
+out-of-scope,spice,Spice - Mixed,ATLANTIC,UNKNOWN,39.3,,,ug/g
+out-of-scope,mix,Baking Mixes,ONTARIO,UNITED STATES,38.8,,,ug/g
+out-of-scope,mix,Dried mixes,ONTARIO,UNKNOWN,37.2,,,ug/g
+out-of-scope,spice,Spice - Mixed,WEST,UNKNOWN,37.2,,,ug/g
+out-of-scope,bread,Bakery Product - Bagel,WEST,UNKNOWN,36.4,,,ug/g
+out-of-scope,tea,Tea - Black,WEST,UNITED STATES,36.3,,,ug/g
+out-of-scope,tea,Tea - Herbal,ONTARIO,POLAND,35.9,,,ug/g
+out-of-scope,tea,Tea - Black,ONTARIO,UNITED STATES,35.5,,,ug/g
+out-of-scope,mix,Baking Mixes,ONTARIO,UNITED STATES,35.0,,,ug/g
+out-of-scope,tea,Tea - Other,ONTARIO,UNITED STATES,34.4,,,ug/g
+out-of-scope,bread,Bakery Product - Bread - Other,WEST,UNITED STATES,33.8,,,ug/g
+out-of-scope,tea,Tea - Herbal,WEST,CANADA,33.6,,,ug/g
+out-of-scope,spice,Spice - Mixed,ONTARIO,INDIA,33.5,,,ug/g
+out-of-scope,spice,Spice - Mixed,ONTARIO,UNKNOWN,32.9,,,ug/g
+out-of-scope,bread,Bakery Product - Bagel,ONTARIO,UNKNOWN,31.7,,,ug/g
+out-of-scope,spice,Spice - Mixed,ONTARIO,INDIA,31.4,,,ug/g
+out-of-scope,bread,Bakery Product - Bagel,WEST,UNKNOWN,31.0,,,ug/g
+out-of-scope,mix,Baking Mixes,WEST,UNITED STATES,30.9,,,ug/g
+out-of-scope,bread,Bakery Product - Bagel,ONTARIO,UNKNOWN,29.9,,,ug/g
+out-of-scope,spice,Spice - Mixed,ONTARIO,INDIA,29.6,,,ug/g
+out-of-scope,bread,Bakery Product - Bagel,ONTARIO,UNKNOWN,29.5,,,ug/g
+out-of-scope,bread,Bakery Product - Bread - Other,ONTARIO,CANADA,29.2,,,ug/g
+out-of-scope,mix,Baking Mixes,QUEBEC,UNITED STATES,28.6,,,ug/g
+out-of-scope,mix,Baking Mixes,WEST,UNITED STATES,28.5,,,ug/g
+out-of-scope,bread,Bakery Product - Bread - Other,WEST,UNKNOWN,28.5,,,ug/g
+out-of-scope,bread,Bakery Product - Bagel,ATLANTIC,UNKNOWN,28.4,,,ug/g
+out-of-scope,bread,Bakery Product - Bagel,ONTARIO,UNKNOWN,27.9,,,ug/g
+out-of-scope,bread,Bakery Product - Bagel,ONTARIO,UNKNOWN,27.7,,,ug/g
+out-of-scope,bread,Bakery Product - Bagel,WEST,UNKNOWN,27.6,,,ug/g
+out-of-scope,bread,Bakery Product - Bread,WEST,UNKNOWN,27.6,,,ug/g
+out-of-scope,bread,Bakery Product - Bagel,ONTARIO,UNKNOWN,26.9,,,ug/g
+out-of-scope,tea,Tea - Black,QUEBEC,UNITED KINGDOM,26.6,,,ug/g
+out-of-scope,bread,Bakery Product - Bagel,QUEBEC,UNITED STATES,25.9,,,ug/g
+out-of-scope,bread,Bakery Product - Bagel,WEST,CANADA,24.3,,,ug/g
+out-of-scope,mix,Dried mixes,QUEBEC,UNKNOWN,24.2,,,ug/g
+out-of-scope,mix,Dried mixes,QUEBEC,UNKNOWN,23.7,,,ug/g
+out-of-scope,tea,Tea - Black,WEST,UNITED KINGDOM,22.7,,,ug/g
+out-of-scope,bread,Bakery Product - Bread,WEST,UNITED STATES,22.6,,,ug/g
+out-of-scope,bread,Bakery Product - Bagel,ATLANTIC,UNKNOWN,22.4,,,ug/g
+out-of-scope,mix,Baking Mixes,ONTARIO,UNITED STATES,22.3,,,ug/g
+out-of-scope,bread,Bakery Product - Bagel,ONTARIO,UNKNOWN,22.3,,,ug/g
+out-of-scope,bread,Bakery Product - Bread - Other,ONTARIO,UNKNOWN,21.8,,,ug/g
+out-of-scope,bread,Bakery Product - Bread - Other,QUEBEC,UNKNOWN,21.1,,,ug/g
+out-of-scope,mix,Baking Mixes,ONTARIO,UNITED STATES,20.7,,,ug/g
+out-of-scope,mix,Dried mixes,WEST,UNKNOWN,20.4,,,ug/g
+out-of-scope,mix,Baking Mixes,QUEBEC,UNITED STATES,20.2,,,ug/g
+out-of-scope,mix,Baking Mixes,WEST,CANADA,20.2,,,ug/g
+out-of-scope,bread,Bakery Product - Bagel,WEST,UNITED STATES,19.8,,,ug/g
+out-of-scope,spice,Spice - Mixed,ONTARIO,UNKNOWN,19.6,,,ug/g
+out-of-scope,mix,Baking Mixes,QUEBEC,CANADA,19.5,,,ug/g
+out-of-scope,spice,Spice - Mixed,QUEBEC,UNKNOWN,19.0,,,ug/g
+out-of-scope,bread,Bakery Product - Bread - Other,ONTARIO,UNKNOWN,18.6,,,ug/g
+out-of-scope,bread,Bakery Product - Bread - Other,WEST,UNKNOWN,18.4,,,ug/g
+out-of-scope,infant,Infant Food - Cereal,ONTARIO,UNITED STATES,18.3,,,ug/g
+out-of-scope,bread,Bakery Product - Bagel,WEST,UNKNOWN,18.3,,,ug/g
+out-of-scope,spice,Spice - Mixed,WEST,UNKNOWN,18.1,,,ug/g
+out-of-scope,mix,Baking Mixes,QUEBEC,UNKNOWN,17.9,,,ug/g
+out-of-scope,bread,Bakery Product - Bagel,QUEBEC,UNKNOWN,17.7,,,ug/g
+out-of-scope,bread,Bakery Product - Bread - Other,QUEBEC,UNKNOWN,17.7,,,ug/g
+out-of-scope,mix,Baking Mixes,QUEBEC,CANADA,17.4,,,ug/g
+out-of-scope,bread,Bakery Product - Bread - Other,QUEBEC,UNKNOWN,17.3,,,ug/g
+out-of-scope,mix,Baking Mixes,ONTARIO,UNKNOWN,17.2,,,ug/g
+out-of-scope,spice,Spice - Mixed,ONTARIO,INDIA,16.5,,,ug/g
+out-of-scope,mix,Baking Mixes,ONTARIO,UNKNOWN,16.4,,,ug/g
+out-of-scope,bread,Bakery Product - Bread - Other,QUEBEC,UNKNOWN,15.9,,,ug/g
+out-of-scope,bar,Granola/Cereal Bar,ONTARIO,UNITED STATES,15.8,,,ug/g
+out-of-scope,spice,Spice - Mixed,ATLANTIC,UNKNOWN,15.7,,,ug/g
+out-of-scope,bread,Bakery Product - Bread - Other,ONTARIO,UNKNOWN,15.2,,,ug/g
+out-of-scope,bread,Bakery Product - Bread - Other,QUEBEC,UNKNOWN,15.0,,,ug/g
+out-of-scope,mix,Baking Mixes,ONTARIO,UNKNOWN,14.7,,,ug/g
+out-of-scope,tea,Tea - Black,ONTARIO,UNKNOWN,14.7,,,ug/g
+out-of-scope,mix,Baking Mixes,ONTARIO,CANADA,14.5,,,ug/g
+out-of-scope,bread,Bakery Product - Bread - Other,ONTARIO,UNKNOWN,14.2,,,ug/g
+out-of-scope,infant,Infant Food - Cereal,WEST,UNITED STATES,14.2,,,ug/g
+out-of-scope,bread,Bakery Product - Bagel,QUEBEC,CANADA,14.0,,,ug/g
+out-of-scope,tea,Tea - Black,ATLANTIC,UNITED STATES,13.8,,,ug/g
+out-of-scope,mix,Baking Mixes,QUEBEC,UNKNOWN,13.7,,,ug/g
+out-of-scope,mix,Baking Mixes,ONTARIO,UNKNOWN,13.6,,,ug/g
+out-of-scope,bar,Granola/Cereal Bar,QUEBEC,CANADA,13.4,,,ug/g
+out-of-scope,mix,Baking Mixes,ONTARIO,CANADA,12.6,,,ug/g
+out-of-scope,mix,Baking Mixes,ONTARIO,CANADA,12.6,,,ug/g
+out-of-scope,infant,Infant Food - Cereal,ONTARIO,UNITED STATES,12.5,,,ug/g
+out-of-scope,tea,Tea - Herbal,ONTARIO,UNKNOWN,12.4,,,ug/g
+out-of-scope,bread,Bakery Product - Bread - Other,ONTARIO,UNKNOWN,12.3,,,ug/g
+out-of-scope,mix,Baking Mixes,ATLANTIC,UNKNOWN,12.2,,,ug/g
+out-of-scope,mix,Baking Mixes,QUEBEC,UNKNOWN,12.2,,,ug/g
+out-of-scope,mix,Baking Mixes,ONTARIO,UNKNOWN,11.7,,,ug/g
+out-of-scope,bread,Bakery Product - Bread - Other,WEST,UNKNOWN,11.5,,,ug/g
+out-of-scope,mix,Baking Mixes,WEST,UNKNOWN,11.4,,,ug/g
+out-of-scope,bread,Bakery Product - Bagel,QUEBEC,UNITED STATES,11.3,,,ug/g
+out-of-scope,tea,Tea - White,QUEBEC,CANADA,11.2,,,ug/g
+out-of-scope,mix,Baking Mixes,ONTARIO,UNKNOWN,10.9,,,ug/g
+out-of-scope,mix,Baking Mixes,QUEBEC,UNKNOWN,10.9,,,ug/g
+out-of-scope,mix,Baking Mixes,WEST,UNKNOWN,10.8,,,ug/g
+out-of-scope,bread,Bakery Product - Bagel,QUEBEC,CANADA,10.7,,,ug/g
+out-of-scope,bread,Bakery Product - Bread - Other,ATLANTIC,UNKNOWN,10.6,,,ug/g
+out-of-scope,mix,Baking Mixes,QUEBEC,CANADA,10.5,,,ug/g
+out-of-scope,mix,Baking Mixes,WEST,UNKNOWN,10.5,,,ug/g
+out-of-scope,spice,Spice - Mixed,ONTARIO,CHINA,10.2,,,ug/g
+out-of-scope,mix,Baking Mixes,WEST,UNKNOWN,10.2,,,ug/g
+out-of-scope,bread,Bakery Product - Bread,WEST,UNKNOWN,10.2,,,ug/g
+out-of-scope,bar,Granola/Cereal Bar,ONTARIO,UNKNOWN,10.1,,,ug/g
+out-of-scope,bar,Granola/Cereal Bar,WEST,UNKNOWN,10.1,,,ug/g
+out-of-scope,mix,Baking Mixes,ONTARIO,UNITED STATES,9.9,,,ug/g
+out-of-scope,bread,Bakery Product - Bread - Other,ONTARIO,UNKNOWN,9.8,,,ug/g
+out-of-scope,mix,Baking Mixes,WEST,UNKNOWN,9.8,,,ug/g
+out-of-scope,mix,Baking Mixes,QUEBEC,UNITED STATES,9.7,,,ug/g
+out-of-scope,mix,Baking Mixes,ONTARIO,UNKNOWN,9.5,,,ug/g
+out-of-scope,mix,Baking Mixes,WEST,UNKNOWN,9.4,,,ug/g
+out-of-scope,mix,Baking Mixes,QUEBEC,UNKNOWN,9.2,,,ug/g
+out-of-scope,bar,Granola/Cereal Bar,WEST,UNKNOWN,9.1,,,ug/g
+out-of-scope,mix,Baking Mixes,ATLANTIC,CANADA,9.0,,,ug/g
+out-of-scope,tea,Tea - Black,WEST,UNITED KINGDOM,9.0,,,ug/g
+out-of-scope,mix,Baking Mixes,ONTARIO,UNITED STATES,8.9,,,ug/g
+out-of-scope,mix,Baking Mixes,ONTARIO,UNKNOWN,8.9,,,ug/g
+out-of-scope,mix,Baking Mixes,QUEBEC,UNKNOWN,8.9,,,ug/g
+out-of-scope,mix,Baking Mixes,QUEBEC,UNKNOWN,8.7,,,ug/g
+out-of-scope,mix,Dried mixes,ONTARIO,INDIA,8.6,,,ug/g
+out-of-scope,bread,Bakery Product - Bread - Other,QUEBEC,UNKNOWN,8.6,,,ug/g
+out-of-scope,mix,Baking Mixes,ONTARIO,UNKNOWN,8.4,,,ug/g
+out-of-scope,mix,Baking Mixes,ONTARIO,UNITED STATES,8.4,,,ug/g
+out-of-scope,mix,Baking Mixes,QUEBEC,UNITED STATES,8.4,,,ug/g
+out-of-scope,bar,Granola/Cereal Bar,WEST,UNKNOWN,8.4,,,ug/g
+out-of-scope,bread,Bakery Product - Bread,WEST,UNKNOWN,8.4,,,ug/g
+out-of-scope,bar,Granola/Cereal Bar,QUEBEC,UNKNOWN,8.3,,,ug/g
+out-of-scope,bar,Granola/Cereal Bar,ATLANTIC,UNKNOWN,8.2,,,ug/g
+out-of-scope,bar,Granola/Cereal Bar,ONTARIO,UNKNOWN,8.2,,,ug/g
+out-of-scope,mix,Baking Mixes,WEST,UNITED STATES,8.2,,,ug/g
+out-of-scope,mix,Baking Mixes,QUEBEC,UNITED STATES,8.1,,,ug/g
+out-of-scope,mix,Baking Mixes,WEST,UNKNOWN,8.1,,,ug/g
+out-of-scope,mix,Baking Mixes,WEST,CANADA,8.0,,,ug/g
+out-of-scope,bread,Bakery Product - Bagel,ONTARIO,UNKNOWN,7.9,,,ug/g
+out-of-scope,spice,Spice - Mixed,WEST,UNITED STATES,7.9,,,ug/g
+out-of-scope,bar,Granola/Cereal Bar,ONTARIO,UNKNOWN,7.8,,,ug/g
+out-of-scope,mix,Baking Mixes,WEST,UNKNOWN,7.7,,,ug/g
+out-of-scope,mix,Baking Mixes,WEST,CANADA,7.7,,,ug/g
+out-of-scope,mix,Baking Mixes,ATLANTIC,UNKNOWN,7.6,,,ug/g
+out-of-scope,mix,Baking Mixes,ONTARIO,UNKNOWN,7.6,,,ug/g
+out-of-scope,mix,Baking Mixes,WEST,UNKNOWN,7.6,,,ug/g
+out-of-scope,tea,Tea - Black,WEST,UNITED KINGDOM,7.6,,,ug/g
+out-of-scope,mix,Baking Mixes,WEST,UNITED STATES,7.6,,,ug/g
+out-of-scope,bar,Granola/Cereal Bar,ONTARIO,UNKNOWN,7.5,,,ug/g
+out-of-scope,mix,Baking Mixes,QUEBEC,UNKNOWN,7.4,,,ug/g
+out-of-scope,mix,Baking Mixes,QUEBEC,UNKNOWN,7.3,,,ug/g
+out-of-scope,mix,Baking Mixes,WEST,UNKNOWN,7.3,,,ug/g
+out-of-scope,tea,Tea - Black,QUEBEC,UNITED KINGDOM,7.1,,,ug/g
+out-of-scope,mix,Baking Mixes,QUEBEC,UNKNOWN,7.1,,,ug/g
+out-of-scope,tea,Tea - Black,QUEBEC,UNITED KINGDOM,7.0,,,ug/g
+out-of-scope,mix,Baking Mixes,WEST,UNITED STATES,7.0,,,ug/g
+out-of-scope,mix,Baking Mixes,ONTARIO,UNITED STATES,6.9,,,ug/g
+out-of-scope,bar,Granola/Cereal Bar,WEST,UNKNOWN,6.9,,,ug/g
+out-of-scope,spice,Spice - Mixed,WEST,UNKNOWN,6.9,,,ug/g
+out-of-scope,mix,Baking Mixes,WEST,UNKNOWN,6.9,,,ug/g
+out-of-scope,mix,Baking Mixes,ATLANTIC,UNKNOWN,6.8,,,ug/g
+out-of-scope,bread,Bakery Product - Bread - Other,ONTARIO,UNKNOWN,6.7,,,ug/g
+out-of-scope,mix,Baking Mixes,WEST,UNKNOWN,6.7,,,ug/g
+out-of-scope,mix,Baking Mixes,WEST,UNKNOWN,6.7,,,ug/g
+out-of-scope,mix,Baking Mixes,WEST,UNITED STATES,6.7,,,ug/g
+out-of-scope,mix,Baking Mixes,WEST,UNKNOWN,6.5,,,ug/g
+out-of-scope,mix,Baking Mixes,ONTARIO,UNITED STATES,6.4,,,ug/g
+out-of-scope,mix,Baking Mixes,WEST,UNITED STATES,6.4,,,ug/g
+out-of-scope,tea,Tea - Black,ONTARIO,UNKNOWN,6.3,,,ug/g
+out-of-scope,bread,Bakery Product - Bagel,ATLANTIC,UNKNOWN,6.1,,,ug/g
+out-of-scope,bread,Bakery Product - Bread - Other,ATLANTIC,UNKNOWN,6.1,,,ug/g
+out-of-scope,bar,Granola/Cereal Bar,ONTARIO,UNKNOWN,6.0,,,ug/g
+out-of-scope,mix,Baking Mixes,WEST,UNITED STATES,6.0,,,ug/g
+out-of-scope,bar,Granola/Cereal Bar,ONTARIO,UNKNOWN,5.9,,,ug/g
+out-of-scope,bar,Granola/Cereal Bar,ATLANTIC,UNKNOWN,5.8,,,ug/g
+out-of-scope,bar,Granola/Cereal Bar,WEST,UNKNOWN,5.8,,,ug/g
+out-of-scope,bar,Granola/Cereal Bar,QUEBEC,UNKNOWN,5.7,,,ug/g
+out-of-scope,mix,Baking Mixes,WEST,UNITED STATES,5.7,,,ug/g
+out-of-scope,bread,Bakery Product - Bread,ATLANTIC,CANADA,5.6,,,ug/g
+out-of-scope,mix,Baking Mixes,ONTARIO,UNITED STATES,5.6,,,ug/g
+out-of-scope,bar,Granola/Cereal Bar,QUEBEC,UNKNOWN,5.6,,,ug/g
+out-of-scope,bar,Granola/Cereal Bar,QUEBEC,UNKNOWN,5.6,,,ug/g
+out-of-scope,bar,Granola/Cereal Bar,ONTARIO,UNKNOWN,5.5,,,ug/g
+out-of-scope,mix,Baking Mixes,ONTARIO,UNITED STATES,5.5,,,ug/g
+out-of-scope,mix,Baking Mixes,QUEBEC,UNITED STATES,5.5,,,ug/g
+out-of-scope,spice,Spice - Mixed,ONTARIO,INDIA,5.3,,,ug/g
+out-of-scope,mix,Baking Mixes,ONTARIO,UNKNOWN,5.3,,,ug/g
+out-of-scope,bar,Granola/Cereal Bar,WEST,UNKNOWN,5.2,,,ug/g
+out-of-scope,bread,Bakery Product - Bread,QUEBEC,CANADA,5.0,,,ug/g
+out-of-scope,mix,Baking Mixes,WEST,UNITED STATES,5.0,,,ug/g
+out-of-scope,bar,Granola/Cereal Bar,WEST,UNKNOWN,4.9,,,ug/g
+out-of-scope,bar,Granola/Cereal Bar,ONTARIO,UNKNOWN,4.8,,,ug/g
+out-of-scope,mix,Dried mixes,ONTARIO,UNKNOWN,4.8,,,ug/g
+out-of-scope,mix,Baking Mixes,ONTARIO,UNKNOWN,4.7,,,ug/g
+out-of-scope,mix,Baking Mixes,ONTARIO,UNITED STATES,4.7,,,ug/g
+out-of-scope,mix,Baking Mixes,ONTARIO,UNKNOWN,4.6,,,ug/g
+out-of-scope,bar,Granola/Cereal Bar,WEST,UNKNOWN,4.6,,,ug/g
+out-of-scope,mix,Baking Mixes,WEST,UNKNOWN,4.6,,,ug/g
+out-of-scope,mix,Baking Mixes,ONTARIO,UNKNOWN,4.3,,,ug/g
+out-of-scope,bar,Granola/Cereal Bar,ONTARIO,CANADA,4.3,,,ug/g
+out-of-scope,bread,Bakery Product - Bread - Other,ONTARIO,CANADA,4.3,,,ug/g
+out-of-scope,mix,Baking Mixes,ONTARIO,UNKNOWN,4.2,,,ug/g
+out-of-scope,mix,Baking Mixes,ATLANTIC,UNKNOWN,4.1,,,ug/g
+out-of-scope,mix,Baking Mixes,QUEBEC,UNKNOWN,4.1,,,ug/g
+out-of-scope,spice,Spice - Mixed,ONTARIO,PAKISTAN,4.0,,,ug/g
+out-of-scope,mix,Baking Mixes,WEST,CANADA,3.9,,,ug/g
+out-of-scope,spice,Spice - Mixed,ONTARIO,INDIA,3.7,,,ug/g
+out-of-scope,bar,Granola/Cereal Bar,ONTARIO,UNKNOWN,3.7,,,ug/g
+out-of-scope,spice,Spice - Mixed,QUEBEC,CANADA,3.5,,,ug/g
+out-of-scope,bar,Granola/Cereal Bar,QUEBEC,UNKNOWN,3.5,,,ug/g
+out-of-scope,bread,Bakery Product - Bread,WEST,UNKNOWN,3.2,,,ug/g
+out-of-scope,mix,Baking Mixes,QUEBEC,UNITED STATES,3.1,,,ug/g
+out-of-scope,bread,Bakery Product - Bread - Other,ONTARIO,UNKNOWN,3.0,,,ug/g
+out-of-scope,tea,Tea - Black,ONTARIO,UNKNOWN,2.9,,,ug/g
+out-of-scope,mix,Dried mixes,QUEBEC,FRANCE,2.9,,,ug/g
+out-of-scope,bar,Granola/Cereal Bar,QUEBEC,UNITED STATES,2.8,,,ug/g
+out-of-scope,bar,Granola/Cereal Bar,QUEBEC,CANADA,2.7,,,ug/g
+out-of-scope,bar,Granola/Cereal Bar,WEST,CANADA,2.6,,,ug/g
+out-of-scope,spice,Spice - Mixed,ONTARIO,PAKISTAN,2.5,,,ug/g
+out-of-scope,bar,Granola/Cereal Bar,ONTARIO,CANADA,2.5,,,ug/g
+out-of-scope,infant,Infant Food - Cereal,QUEBEC,UNKNOWN,2.5,,,ug/g
+out-of-scope,infant,Infant Food - Cereal,WEST,CANADA,2.5,,,ug/g
+out-of-scope,mix,Baking Mixes,ATLANTIC,UNITED STATES,2.4,,,ug/g
+out-of-scope,infant,Infant Food - Cereal,ONTARIO,UNKNOWN,2.4,,,ug/g
+out-of-scope,infant,Infant Food - Cereal,ONTARIO,CANADA,2.4,,,ug/g
+out-of-scope,spice,Spice - Mixed,ONTARIO,INDIA,2.4,,,ug/g
+out-of-scope,infant,Infant Food - Cereal,WEST,CANADA,2.4,,,ug/g
+out-of-scope,infant,Infant Food - Cereal,ONTARIO,CANADA,2.3,,,ug/g
+out-of-scope,bar,Granola/Cereal Bar,ONTARIO,UNITED STATES,2.3,,,ug/g
+out-of-scope,infant,Infant Food - Cereal,ONTARIO,CANADA,2.3,,,ug/g
+out-of-scope,infant,Infant Food - Cereal,QUEBEC,CANADA,2.3,,,ug/g
+out-of-scope,infant,Infant Food - Cereal,QUEBEC,UNKNOWN,2.3,,,ug/g
+out-of-scope,bar,Granola/Cereal Bar,WEST,CANADA,2.3,,,ug/g
+out-of-scope,infant,Infant Food - Cereal,ONTARIO,UNKNOWN,2.2,,,ug/g
+out-of-scope,mix,Baking Mixes,ATLANTIC,UNKNOWN,2.1,,,ug/g
+out-of-scope,mix,Baking Mixes,ONTARIO,UNKNOWN,2.1,,,ug/g
+out-of-scope,infant,Infant Food - Cereal,QUEBEC,UNKNOWN,2.1,,,ug/g
+out-of-scope,mix,Baking Mixes,QUEBEC,UNITED STATES,2.1,,,ug/g
+out-of-scope,infant,Infant Food - Cereal,QUEBEC,UNKNOWN,2.0,,,ug/g
+out-of-scope,mix,Dried mixes,WEST,CANADA,2.0,,,ug/g
+out-of-scope,spice,Spice - Mixed,WEST,"TAIWAN, PROVINCE OF CHINA",2.0,,,ug/g
+out-of-scope,spice,Spice - Mixed,ONTARIO,INDIA,1.9,,,ug/g
+out-of-scope,infant,Infant Food - Cereal,ONTARIO,CANADA,1.9,,,ug/g
+out-of-scope,infant,Infant Food - Cereal,ONTARIO,CANADA,1.8,,,ug/g
+out-of-scope,bar,Granola/Cereal Bar,WEST,UNKNOWN,1.8,,,ug/g
+out-of-scope,bar,Granola/Cereal Bar,QUEBEC,UNKNOWN,1.7,,,ug/g
+out-of-scope,infant,Infant Food - Cereal,QUEBEC,UNKNOWN,1.7,,,ug/g
+out-of-scope,infant,Infant Food - Cereal,QUEBEC,CANADA,1.7,,,ug/g
+out-of-scope,infant,Infant Food - Cereal,ONTARIO,UNKNOWN,1.6,,,ug/g
+out-of-scope,spice,Spice - Mixed,ONTARIO,INDIA,1.6,,,ug/g
+out-of-scope,mix,Dried mixes,ONTARIO,UNITED STATES,1.6,,,ug/g
+out-of-scope,infant,Infant Food - Cereal,ONTARIO,CANADA,1.6,,,ug/g
+out-of-scope,infant,Infant Food - Cereal,WEST,CANADA,1.6,,,ug/g
+out-of-scope,spice,Spice - Mixed,ONTARIO,CHINA,1.5,,,ug/g
+out-of-scope,infant,Infant Food - Cereal,ONTARIO,CANADA,1.5,,,ug/g
+out-of-scope,mix,Baking Mixes,QUEBEC,UNKNOWN,1.5,,,ug/g
+out-of-scope,bar,Granola/Cereal Bar,ONTARIO,UNKNOWN,1.4,,,ug/g
+out-of-scope,infant,Infant Food - Cereal,ONTARIO,CANADA,1.3,,,ug/g
+out-of-scope,mix,Dried mixes,WEST,UNKNOWN,1.3,,,ug/g
+out-of-scope,infant,Infant Food - Cereal,WEST,CANADA,1.3,,,ug/g
+out-of-scope,infant,Infant Food - Cereal,WEST,CANADA,1.3,,,ug/g
+out-of-scope,infant,Infant Food - Cereal,WEST,CANADA,1.2,,,ug/g
+out-of-scope,infant,Infant Food - Cereal,WEST,UNKNOWN,1.2,,,ug/g
+out-of-scope,spice,Spice - Mixed,WEST,SRI LANKA,1.2,,,ug/g
+out-of-scope,spice,Spice - Mixed,ONTARIO,PAKISTAN,1.1,,,ug/g
+out-of-scope,infant,Infant Food - Cereal,ATLANTIC,CANADA,1.0,,,ug/g
+out-of-scope,infant,Infant Food - Cereal,QUEBEC,CANADA,1.0,,,ug/g
+out-of-scope,bread,Bakery Product - Bread - Other,QUEBEC,NETHERLANDS,1.0,,,ug/g
+out-of-scope,infant,Infant Food - Cereal,WEST,CANADA,1.0,,,ug/g
+out-of-scope,infant,Infant Food - Cereal,ONTARIO,CANADA,0.9,,,ug/g
+out-of-scope,mix,Baking Mixes,ONTARIO,UNKNOWN,0.9,,,ug/g
+out-of-scope,infant,Infant Food - Cereal,WEST,CANADA,0.9,,,ug/g
+out-of-scope,infant,Infant Food - Cereal,ONTARIO,CANADA,0.8,,,ug/g
+out-of-scope,infant,Infant Food - Cereal,QUEBEC,CANADA,0.8,,,ug/g
+out-of-scope,spice,Spice - Mixed,WEST,UNITED KINGDOM,0.8,,,ug/g
+out-of-scope,infant,Infant Food - Cereal,ATLANTIC,CANADA,0.7,,,ug/g
+out-of-scope,infant,Infant Food - Cereal,ONTARIO,UNKNOWN,0.7,,,ug/g
+out-of-scope,infant,Infant Food - Cereal,QUEBEC,CANADA,0.7,,,ug/g
+out-of-scope,infant,Infant Food - Cereal,QUEBEC,CANADA,0.7,,,ug/g
+out-of-scope,infant,Infant Food - Cereal,ATLANTIC,CANADA,0.6,,,ug/g
+out-of-scope,spice,Spice - Mixed,ONTARIO,UNITED KINGDOM,0.6,,,ug/g
+out-of-scope,infant,Infant Food - Cereal,QUEBEC,CANADA,0.6,,,ug/g
+out-of-scope,infant,Infant Food - Cereal,WEST,CANADA,0.6,,,ug/g
+out-of-scope,infant,Infant Food - Cereal,WEST,CANADA,0.6,,,ug/g
+out-of-scope,infant,Infant Food - Cereal,WEST,CANADA,0.6,,,ug/g
+out-of-scope,spice,Spice - Mixed,WEST,UNITED KINGDOM,0.6,,,ug/g
+out-of-scope,infant,Infant Food - Cereal,ATLANTIC,CANADA,0.5,,,ug/g
+out-of-scope,infant,Infant Food - Cereal,ONTARIO,UNKNOWN,0.5,,,ug/g
+out-of-scope,mix,Dried mixes,ONTARIO,UNKNOWN,0.5,,,ug/g
+out-of-scope,infant,Infant Food - Cereal,ONTARIO,CANADA,0.5,,,ug/g
+out-of-scope,infant,Infant Food - Cereal,ONTARIO,CANADA,0.5,,,ug/g
+out-of-scope,infant,Infant Food - Cereal,QUEBEC,CANADA,0.5,,,ug/g
+out-of-scope,spice,Spice - Mixed,QUEBEC,UNITED KINGDOM,0.5,,,ug/g
+out-of-scope,mix,Dried mixes,QUEBEC,UNKNOWN,0.5,,,ug/g
+out-of-scope,infant,Infant Food - Cereal,WEST,CANADA,0.5,,,ug/g
+out-of-scope,spice,Spice - Mixed,ONTARIO,PAKISTAN,0.4,,,ug/g
+out-of-scope,bread,Bakery Product - Bread - Other,WEST,UNKNOWN,0.4,,,ug/g
+out-of-scope,bar,Granola/Cereal Bar,WEST,CANADA,0.4,,,ug/g
+out-of-scope,infant,Infant Food - Cereal,ONTARIO,CANADA,0.3,,,ug/g
+out-of-scope,mix,Dried mixes,ONTARIO,UNKNOWN,0.3,,,ug/g
+out-of-scope,tea,Tea - Herbal,ONTARIO,UNKNOWN,0.3,,,ug/g
+out-of-scope,mix,Dried mixes,QUEBEC,UNKNOWN,0.2,,,ug/g
+out-of-scope,spice,Spice - Mixed,WEST,UNITED KINGDOM,0.2,,,ug/g
+out-of-scope,bread,Bakery Product - Bread - Other,WEST,UNKNOWN,0.2,,,ug/g
+out-of-scope,bar,Granola/Cereal Bar,ATLANTIC,UNKNOWN,0.1,,,ug/g
+out-of-scope,bar,Granola/Cereal Bar,WEST,CANADA,0.1,,,ug/g
+out-of-scope,spice,Spice - Mixed,ATLANTIC,INDIA,0.0,,,ug/g
+out-of-scope,mix,Dried mixes,ATLANTIC,CANADA,0.0,,,ug/g
+out-of-scope,bread,Bakery Product - Bread - Other,ONTARIO,SPAIN,0.0,,,ug/g
+out-of-scope,mix,Dried mixes,ONTARIO,CANADA,0.0,,,ug/g
+out-of-scope,mix,Dried mixes,ONTARIO,UNKNOWN,0.0,,,ug/g
+out-of-scope,mix,Dried mixes,ONTARIO,UNKNOWN,0.0,,,ug/g
+out-of-scope,spice,Spice - Mixed,ONTARIO,UNKNOWN,0.0,,,ug/g
+out-of-scope,mix,Dried mixes,ONTARIO,UNKNOWN,0.0,,,ug/g
+out-of-scope,bar,Granola/Cereal Bar,ONTARIO,CANADA,0.0,,,ug/g
+out-of-scope,spice,Spice - Mixed,ONTARIO,SRI LANKA,0.0,,,ug/g
+out-of-scope,tea,Tea - Herbal,ONTARIO,UNITED STATES,0.0,,,ug/g
+out-of-scope,mix,Dried mixes,QUEBEC,CANADA,0.0,,,ug/g
+out-of-scope,spice,Spice - Mixed,QUEBEC,UNKNOWN,0.0,,,ug/g
+out-of-scope,spice,Spice - Mixed,QUEBEC,UNKNOWN,0.0,,,ug/g
+out-of-scope,spice,Spice - Mixed,QUEBEC,UNITED KINGDOM,0.0,,,ug/g
+out-of-scope,mix,Dried mixes,QUEBEC,UNKNOWN,0.0,,,ug/g
+out-of-scope,spice,Spice - Mixed,QUEBEC,UNITED KINGDOM,0.0,,,ug/g
+out-of-scope,spice,Spice - Mixed,QUEBEC,UNKNOWN,0.0,,,ug/g
+out-of-scope,spice,Spice - Mixed,WEST,UNITED KINGDOM,0.0,,,ug/g
+out-of-scope,spice,Spice - Mixed,WEST,UNITED KINGDOM,0.0,,,ug/g
+out-of-scope,spice,Spice - Mixed,WEST,UNITED KINGDOM,0.0,,,ug/g
+out-of-scope,mix,Dried mixes,WEST,CANADA,0.0,,,ug/g
+out-of-scope,infant,Infant Food - Cereal,WEST,POLAND,0.0,,,ug/g
+out-of-scope,mix,Dried mixes,WEST,UNKNOWN,0.0,,,ug/g
+out-of-scope,spice,Spice - Mixed,WEST,UNKNOWN,0.0,,,ug/g
+out-of-scope,mix,Dried mixes,WEST,CANADA,0.0,,,ug/g
+out-of-scope,spice,Spice - Mixed,WEST,UNITED KINGDOM,0.0,,,ug/g
+out-of-scope,mix,Dried mixes,WEST,CANADA,0.0,,,ug/g

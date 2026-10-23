@@ -200,6 +200,24 @@ By MV2 of Munim, Inc. Prepared with AI agents. Text CC BY 4.0; code Apache-2.0.
   over for 97% (170 of 176). The figures agree with BfR's illustrative 2 g adult / 0.5 g
   child at an assumed 3000 mg/kg; the novelty is the open per-sample Canadian table
   (`data/coumarin_tdi_samples.csv`). An information/research note, not individual dietary advice.
+- [Pre-registration: Canadian cinnamon-containing foods against the EU's coumarin maximum levels (coumarin-eu-limits 0.1.0)](coumarin-eu-limits-0.1.0-prereg.md) —
+  written before any value in CFIA's 2013-14 survey of cinnamon-containing foods (749
+  samples) was read: a parse gate tied to CFIA's published 2,510 mg/kg maximum, and three
+  predictions on how often bakery products and breakfast cereals exceed the EU's 15 and
+  20 mg/kg levels.
+- [Amendment: the parse gate caught a unit bug (coumarin-eu-limits 0.1.1)](coumarin-eu-limits-0.1.1-amendment.md) —
+  the 0.1.0 grader read CFIA's µg/g (= mg/kg) as µg/kg and divided every value by 1000; the
+  gate failed as designed. 0.1.1 converts units by an explicit table and reports a unit
+  census, with every threshold unchanged. Because the 0.1.0 output exposed the values, the
+  amendment states the implied outcome before the re-grade ran, so the re-grade is a check,
+  not a blind test.
+- [coumarin-eu-limits 0.1.1: result](coumarin-eu-limits-0.1.1-result.md) — 3 of 4 met
+  (gate passed; the cereal prediction failed). 42 of 100 bakery samples exceed the EU's
+  15 mg/kg fine-bakery level, almost all in CFIA's "Baked Goods" category (39 of 68), against
+  2 of 31 cookies; even against the 50 mg/kg seasonal-bakery row, 11 of 100 exceed. Only 3 of
+  136 breakfast cereals exceed 20 mg/kg (none of 65 children's cereals), plus 3 of 12
+  flavoured oatmeals. A reference comparison (Canada sets no coumarin limit), recomputed
+  from `data/coumarin-eu-limits.csv` and the sealed per-sample table by a pinned test.
 
 ## The screen's second target: Sudan dyes
 
