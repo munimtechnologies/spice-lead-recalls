@@ -177,6 +177,30 @@ By MV2 of Munim, Inc. Prepared with AI agents. Text CC BY 4.0; code Apache-2.0.
   cannot separate a banned dye from lead chromate — the gap a point-of-use screen closes.
   No sample declares Georgia.
 
+## A different adulterant: coumarin in Canadian retail cinnamon
+
+- [Pre-registration: is Canadian retail cinnamon mostly cassia? (coumarin-cinnamon 0.1.0)](coumarin-cinnamon-0.1.0-prereg.md) —
+  written before any CFIA coumarin value was read: predictions that most cinnamon sold at
+  Canadian retail is cassia-type (high-coumarin) rather than verum/Ceylon, inferred from
+  coumarin content in CFIA's open 2011–2016 coumarin survey files. Grading code
+  `coumarin_cinnamon.py` is committed with it.
+- [coumarin-cinnamon 0.1.0: Canadian retail cinnamon is almost all cassia](coumarin-cinnamon-0.1.0-result.md) —
+  4 of 4 gradable predictions met (5 not gradable). Of 176 CFIA retail samples (2011–2016),
+  168 (95.5%) sit at cassia coumarin levels (1,268–7,816 ppm) and only 5 look like true
+  Ceylon cinnamon; the pooled maximum is 7,816.3 ppm (a 2011–12 Vietnamese ground cinnamon).
+  Species is inferred from coumarin, not DNA, so borderline samples are left "intermediate".
+- [Pre-registration: how small a serving of Canadian cinnamon reaches the coumarin TDI? (coumarin-tdi 0.1.0)](coumarin-tdi-0.1.0-prereg.md) —
+  written before any row was graded (public at tag `v0.4.35` first): four predictions on the
+  per-sample serving of cinnamon that reaches EFSA's tolerable daily intake (TDI) for coumarin,
+  reusing the `coumarin_cinnamon.py` loader pinned at `v0.4.34`.
+- [coumarin-tdi 0.1.0: a teaspoon of most Canadian retail cinnamon exceeds the coumarin TDI](coumarin-tdi-0.1.0-result.md) —
+  4 of 4 met. Across the same 176 samples, the median sample reaches a 60 kg adult's TDI
+  (6 mg/day) in 1.80 g of cinnamon and a 15 kg child's (1.5 mg/day) in 0.45 g; one level
+  teaspoon (2.6 g) puts an adult over the TDI for 88% of samples (155 of 176) and a child
+  over for 97% (170 of 176). The figures agree with BfR's illustrative 2 g adult / 0.5 g
+  child at an assumed 3000 mg/kg; the novelty is the open per-sample Canadian table
+  (`data/coumarin_tdi_samples.csv`). An information/research note, not individual dietary advice.
+
 ## The screen's second target: Sudan dyes
 
 - [Pre-registration: where does Sudan-dyed red palm oil on Canadian shelves come from? (red-palm-dyes 0.1.0)](red-palm-dyes-0.1.0-prereg.md) —
