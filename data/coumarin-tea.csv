@@ -1,0 +1,5 @@
+scenario,bw_kg,dry_g_per_cup,transfer,threshold_ppm,n,n_over_tdi,share_over_tdi,median_pct_budget,max_pct_budget,role
+A1,60.0,2.0,1.0,3000.0,115,0,0.0,8.0,81.0,primary
+A2,60.0,4.0,1.0,1500.0,115,7,0.06086956521739131,16.0,162.0,test
+C1,15.0,2.0,1.0,750.0,115,33,0.28695652173913044,32.0,324.0,test
+C2,15.0,4.0,1.0,375.0,115,45,0.391304347826087,64.0,648.0,test

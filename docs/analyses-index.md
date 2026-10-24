@@ -243,6 +243,18 @@ By MV2 of Munim, Inc. Prepared with AI agents. Text CC BY 4.0; code Apache-2.0.
   confirmed the bucket is five genuine dried teas (Herbal, Black, Green, Other, White).
   Grading reuses the `coumarin_eu_limits.py` parser, checked against the published copy
   inside the sealed job.
+- [coumarin-tea 0.1.0: result](coumarin-tea-0.1.0-result.md) — 5 of 5 met. The 115
+  cinnamon-containing teas in CFIA's 2013-14 survey carry a wide coumarin range (median
+  240, mean 496, max 2,430 mg/kg, detected in 114 of 115). Screened per brewed cup at a
+  100% leaf-to-cup transfer ceiling: a 60 kg adult's standard 2 g cup puts **none** of
+  the 115 over the whole-day coumarin TDI (the top tea reaches 81% of it), a strong 4 g
+  adult cup puts 7 over (6.1%), a 15 kg child's 2 g cup 33 (28.7%) and a child's 4 g cup
+  45 (39.1%). CFIA's report gives a tea-category headline but no per-cup exposure; this is
+  the first open, per-sample, reproducible per-cup screen of commercial cinnamon teas
+  against the coumarin TDI, with an explicit transfer upper bound. A reference screen, not
+  a compliance finding (Canada sets no coumarin limit). Recomputed from
+  `data/coumarin_tea_samples.csv`, `data/coumarin-tea.csv` and the published 749-row table
+  by a pinned test.
 
 ## The screen's second target: Sudan dyes
 
