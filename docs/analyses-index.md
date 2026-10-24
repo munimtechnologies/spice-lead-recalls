@@ -254,7 +254,16 @@ By MV2 of Munim, Inc. Prepared with AI agents. Text CC BY 4.0; code Apache-2.0.
   against the coumarin TDI, with an explicit transfer upper bound. A reference screen, not
   a compliance finding (Canada sets no coumarin limit). Recomputed from
   `data/coumarin_tea_samples.csv`, `data/coumarin-tea.csv` and the published 749-row table
-  by a pinned test.
+  by a pinned test. A sealed job later fetched the published files from GitHub and re-ran
+  that test on them: 12 of 12 passed (job `coumarin-tea-result-v1`, 2026-10-24).
+- [Pre-registration: does the per-cup tea screen replicate in CFIA's 2014-15 and 2015-16 surveys? (coumarin-tea-replication 0.1.0)](coumarin-tea-replication-0.1.0-prereg.md) —
+  written before any 2014-15 or 2015-16 tea value was read: the same per-cup scenarios and
+  published code applied to 507 new teas (210 from 2014-15, 297 from 2015-16, a survey that
+  also targeted licorice-flavoured teas). A parse gate is tied to CFIA's published tea
+  headlines (max 1,920 and 2,230 mg/kg, detected 178 and 245) and to a names-only census of
+  six tea types. Ten predictions; the primary one says a child's 2 g cup crosses the TDI
+  less often in each later survey than 2013-14's 28.7%. Also a pooled three-survey per-cup
+  table (622 teas) and per-type tables.
 
 ## The screen's second target: Sudan dyes
 
