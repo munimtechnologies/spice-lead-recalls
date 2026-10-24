@@ -1,0 +1,14 @@
+group,entry,level,n,n_detected,n_over,share_over,max
+infant_cereal,processed cereal-based food for infants and young children,0.5,409,190,95,0.2323,4.85
+breakfast_cereal,"breakfast cereals (3.0 if with oilseeds, nuts or dried fruit; 2.0 without)",3.0,609,360,3,0.0049,6.95
+bakery_snacks,"bakery wares and cereal snacks without oilseeds, nuts or dried fruit",2.0,1274,924,9,0.0071,65.4
+oat,products derived from cereals / cereals sold to the final consumer,3.0,320,143,8,0.025,21.2
+wheat,products derived from cereals / cereals sold to the final consumer,3.0,294,220,6,0.0204,12.8
+roasted_coffee,roasted coffee beans and ground roasted coffee,3.0,601,150,4,0.0067,9.103
+instant_coffee,soluble coffee (instant coffee),5.0,56,36,4,0.0714,10.9
+cocoa_powder,cocoa powder,3.0,242,219,10,0.0413,6.58
+licorice,liquorice confectionery (other than >97% extract),10.0,140,111,6,0.0429,36.1
+dried_vine_fruit,"dried vine fruit (currants, raisins, sultanas)",8.0,203,144,4,0.0197,116.4
+fig,dried figs,8.0,48,11,0,0.0,0.14
+other_dried_fruit,other dried fruit,2.0,441,70,7,0.0159,18.0
+pistachio_seeds_soybean,"pistachios to the final consumer; sunflower, pumpkin and hemp seeds; soybeans",5.0,214,43,2,0.0093,64.7

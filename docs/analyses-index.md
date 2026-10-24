@@ -349,6 +349,23 @@ By MV2 of Munim, Inc. Prepared with AI agents. Text CC BY 4.0; code Apache-2.0.
   11), and P3–P12 count samples over the EU maximum levels in force since 2023 (infant
   cereals 0.5, roasted coffee 3, cocoa powder 3, bakery 2 ppb and others), which CFIA's
   report does not use. Grading code `ota_foods.py` is committed with it.
+- [ota-foods 0.1.0: result](ota-foods-0.1.0-result.md) — gate passed (blind), 20 of 21
+  met; C5 the only miss. The headline is a confirmed CFIA report error: Table 2 prints
+  infant formula as 13 positives, maximum 11 ppb, average 1.1, but the open file holds 60
+  of 192 detected and a maximum of 0.886 ppb — matching the same report's Table 8 and
+  Appendix B to the digit (2012: 148 samples, 52 detected = 35%, max 0.89; 2014: 44, 8 =
+  18%, max 0.46; no dairy formula detected). For ochratoxin A the Table 2 averages really
+  are positives-only means (V1, V2 held), unlike the coumarin tables under the same note.
+  All twelve blind predictions held: counting against the EU levels in force since 2023,
+  158 of 4,851 samples exceed their level, most of them infant cereals (95 of 409 over
+  0.5 ppb, at a modest 4.85 ppb maximum). C5 failed and is reported honestly: the file
+  flags 125 grain-based foods over Health Canada's proposed levels (126 at or above) where
+  CFIA printed 119; reclassifying the twelve label-ambiguous pulse samples removes only
+  one (a 2017 `Flour - Other` at 3.34 ppb). Non-detects in this file are a literal 0 (no
+  `<`, no token), so the detection-limit trap that caught the 2011-12 coumarin file does
+  not arise. Recomputed from `data/ota_foods_samples.csv`, `data/ota_foods_categories.csv`
+  and `data/ota_foods_eu.csv` by a pinned test. A reference comparison, not a compliance
+  finding (Canada has no OTA maximum level for these foods).
 
 ## The screen's second target: Sudan dyes
 
