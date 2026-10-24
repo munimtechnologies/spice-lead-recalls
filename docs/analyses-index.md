@@ -323,6 +323,32 @@ By MV2 of Munim, Inc. Prepared with AI agents. Text CC BY 4.0; code Apache-2.0.
   averages are all-sample means under a positives-only note (positives: 418 and 367), as in
   2014-15; the registered "positives" predictions fail either way. Recomputed from
   `data/coumarin_early_samples.csv` and `data/coumarin_early_surveys.csv` by a pinned test.
+  A sealed job later fetched the published files from GitHub and re-ran that test on them:
+  15 of 15 passed (job `coumarin-early-result-v1`, 2026-10-24).
+
+## A mycotoxin: ochratoxin A in Canadian retail foods
+
+- [Pre-registration: which declared origins carry the Canadian retail spices that would fail the EU's ochratoxin A limits? (ota-spices 0.1.0)](ota-spices-0.1.0-prereg.md) —
+  written before any row of CFIA's open 2012–2022 ochratoxin A file (8,384 retail foods,
+  released 2026-10-06) was read: eight predictions on the 778 spices against the EU's
+  20 µg/kg (Capsicum) and 15 µg/kg (other spices and mixtures) levels, by declared origin.
+- [ota-spices 0.1.0: result](ota-spices-0.1.0-result.md) — the registered gate failed (the
+  keyword rule counted 1,024 "spices", catching baking mixes and fresh peppers), so formally
+  nothing is graded. Under CFIA's own `Spice - …` labels (714 samples, chosen after seeing
+  the data, exploratory), 6 of 8 hold: 106 spices (14.8%) exceed the EU level, led by
+  paprika (53 of 122) and nutmeg (33 of 96); all four Hungarian paprikas exceed it,
+  including the 1,770 ppb survey maximum; 67% of spices declare no country.
+- [Pre-registration: ochratoxin A in Canada's retail foods beyond spices (ota-foods 0.1.0)](ota-foods-0.1.0-prereg.md) —
+  written before any of the 7,606 non-spice samples in the same file was read (cereals and
+  infant cereals, coffee, cocoa, dried fruit, licorice, nuts, seeds, pulses, soy, infant
+  formula). A gate on SHA-256, label-derived category sizes and the published spice
+  maximum; six consistency checks against CFIA's Tables 2 and 5 and Health Canada's
+  proposed levels (CFIA: 119 grain-based foods over); two verdicts on which mean the printed
+  averages are; and twelve blind predictions. P1 says the file follows CFIA's Table 8 for
+  infant formula (about 60 detected, maximum 0.89 ppb), not Table 2 (13 detected, maximum
+  11), and P3–P12 count samples over the EU maximum levels in force since 2023 (infant
+  cereals 0.5, roasted coffee 3, cocoa powder 3, bakery 2 ppb and others), which CFIA's
+  report does not use. Grading code `ota_foods.py` is committed with it.
 
 ## The screen's second target: Sudan dyes
 
