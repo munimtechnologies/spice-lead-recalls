@@ -264,6 +264,21 @@ By MV2 of Munim, Inc. Prepared with AI agents. Text CC BY 4.0; code Apache-2.0.
   six tea types. Ten predictions; the primary one says a child's 2 g cup crosses the TDI
   less often in each later survey than 2013-14's 28.7%. Also a pooled three-survey per-cup
   table (622 teas) and per-type tables.
+- [Amendment: the gate caught a mislabelled CFIA average (coumarin-tea-replication 0.1.1)](coumarin-tea-replication-0.1.1-amendment.md) —
+  the sealed 0.1.0 job failed its gate on 1 of 14 checks, so P1–P10 were not graded. CFIA's
+  2014-15 report prints the tea average as 302 under a note saying only positive results
+  were used. In CFIA's own file the positives mean is 356.2, while the mean of all 210 teas
+  (non-detects as 0) is 301.9. Every count, the unit census, the maximum and the 2013-14
+  reproduction matched exactly. 0.1.1 changes only that one check. Because the 0.1.0
+  output had already shown every value, the re-grade is a verification, not a blind test.
+- [Pre-registration: do CFIA's coumarin summary tables match its open files? (coumarin-cfia-table-audit 0.1.0)](coumarin-cfia-table-audit-0.1.0-prereg.md) —
+  written before any non-tea value in the 2014-15 or 2015-16 file was read: every Table 2
+  row of both reports is rebuilt from the open files, and the audit asks whether each
+  printed average is the footnoted positives-only mean or the all-sample mean. CFIA's own
+  printed figures predict all-sample means throughout 2014-15 (its grand total of 149 is
+  only reproduced that way: 148.9 against 186.5) and positives means throughout 2015-16
+  (391.8, printed as 392). Eight graded verdicts, with a gate on the label mapping, row
+  sizes and units.
 
 ## The screen's second target: Sudan dyes
 

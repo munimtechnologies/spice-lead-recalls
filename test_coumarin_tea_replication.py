@@ -1,5 +1,5 @@
 # Apache-2.0. Made by MV2 of Munim, Inc. with AI agents.
-"""Offline tests for coumarin_tea_replication 0.1.0 (no network, no CFIA values)."""
+"""Offline tests for coumarin_tea_replication 0.1.1 (no network, no CFIA values)."""
 import csv
 import hashlib
 import json
@@ -40,13 +40,16 @@ def _fake(label, a2, c1, c2, medians=None, units=None, n_rows=None):
     g = ctr.GATE[label]
     n = g["n_tea"]
     scen = {"A1": 0, "A2": a2, "C1": c1, "C2": c2}
+    mean_key, bounds = g["mean"]
+    tea = {"n": n, "n_detected": g["detected"][0], "ppm_max": sum(g["tea_max"]) / 2,
+           "ppm_mean": -1.0, "ppm_mean_detected": -1.0}
+    tea[mean_key] = sum(bounds) / 2
     return {
         "n_rows": n_rows if n_rows is not None else g["n_rows"][1],
         "tea_rows": n,
         "tea_types": dict(sorted(g["types"].items())),
         "tea_units": units if units is not None else {"ug/g": n},
-        "tea": {"n": n, "n_detected": g["detected"][0], "ppm_max": sum(g["tea_max"]) / 2,
-                "ppm_mean_detected": sum(g["mean_detected"]) / 2},
+        "tea": tea,
         "scenarios": {s: {"n_over_tdi": k, "share_over_tdi": k / n} for s, k in scen.items()},
         "by_type": {t: {"ppm_median": m} for t, m in (medians or {}).items()},
     }
@@ -93,6 +96,7 @@ class TestSummary(unittest.TestCase):
         t = self.s["tea"]
         self.assertEqual((t["n"], t["n_detected"]), (4, 3))
         self.assertAlmostEqual(t["ppm_median"], 600.0)
+        self.assertAlmostEqual(t["ppm_mean"], 2800.0 / 4)
         self.assertAlmostEqual(t["ppm_mean_detected"], 2800.0 / 3)
         self.assertEqual(t["ppm_max"], 1600.0)
 
@@ -125,6 +129,7 @@ class TestGrade(unittest.TestCase):
         self.assertEqual([p["id"] for p in preds],
                          ["G0"] + ["P%d" % i for i in range(1, 11)])
         self.assertTrue(all(p["met"] for p in preds), [p["id"] for p in preds if not p["met"]])
+        self.assertTrue(all(p["blind"] is False for p in preds[1:]))
 
     def test_gate_failure_blocks_every_prediction(self):
         s = _good()
@@ -141,6 +146,21 @@ class TestGrade(unittest.TestCase):
         s = _good()
         s["2015-16"]["tea_types"] = dict(s["2015-16"]["tea_types"], **{"Tea - Black": 80})
         self.assertFalse(ctr.gate_survey("2015-16", s["2015-16"])[0])
+
+    def test_amended_mean_check(self):
+        # 0.1.1: 2014-15 compares CFIA's 302 with the all-sample mean, 2015-16 with positives.
+        self.assertEqual(ctr.GATE["2014-15"]["mean"], ("ppm_mean", (285.0, 320.0)))
+        self.assertEqual(ctr.GATE["2015-16"]["mean"], ("ppm_mean_detected", (420.0, 465.0)))
+        s = _good()
+        s["2014-15"]["tea"].update(ppm_mean=301.9, ppm_mean_detected=356.2)
+        ok, chk = ctr.gate_survey("2014-15", s["2014-15"])
+        self.assertTrue(ok and chk["mean"])
+        s["2014-15"]["tea"].update(ppm_mean=356.2, ppm_mean_detected=301.9)
+        self.assertFalse(ctr.gate_survey("2014-15", s["2014-15"])[1]["mean"])
+        s["2015-16"]["tea"].update(ppm_mean=364.3, ppm_mean_detected=441.6)
+        self.assertTrue(ctr.gate_survey("2015-16", s["2015-16"])[1]["mean"])
+        s["2015-16"]["tea"].update(ppm_mean=441.6, ppm_mean_detected=500.0)
+        self.assertFalse(ctr.gate_survey("2015-16", s["2015-16"])[1]["mean"])
 
     def test_primary_needs_both_surveys_below_2013(self):
         s = _good()
@@ -180,6 +200,8 @@ class TestGrade(unittest.TestCase):
 
 class TestPinned(unittest.TestCase):
     def test_constants(self):
+        self.assertEqual(ctr.VERSION, "0.1.1")
+        self.assertIn("verification", ctr.GRADING_STATUS)
         for label, spec in ctr.SURVEYS.items():
             self.assertEqual(len(spec["sha256"]), 64)
             int(spec["sha256"], 16)
@@ -190,6 +212,11 @@ class TestPinned(unittest.TestCase):
             self.assertEqual(set(g["types"]), set(ctr.TEA_TYPES))
         self.assertEqual(ctr.REF_1314, {"n": 115, "A1": 0, "A2": 7, "C1": 33, "C2": 45})
         self.assertEqual(ctr.ct.SCENARIOS["C1"], (15.0, 2.0, 1.0))
+        # The predictions are the 0.1.0 ones, unchanged by the amendment.
+        self.assertEqual((ctr.P3_C1_1415, ctr.P4_C1_1516, ctr.P5_C2_1415, ctr.P6_C2_1516,
+                          ctr.P7_A2_1415_N, ctr.P8_A2_1516_N),
+                         ((0.04, 0.22), (0.10, 0.32), (0.12, 0.40), (0.18, 0.45), (1, 12),
+                          (2, 30)))
 
 
 class TestUrls(unittest.TestCase):
@@ -269,7 +296,11 @@ class TestOutputs(unittest.TestCase):
                       encoding="utf-8") as fh:
                 self.assertEqual(len(list(csv.reader(fh))) - 1, 9)
             with open(os.path.join(d, "summary.json"), encoding="utf-8") as fh:
-                self.assertEqual(json.load(fh)["n_predictions"], 11)
+                got = json.load(fh)
+            self.assertEqual(got["n_predictions"], 11)
+            self.assertEqual(got["version"], "0.1.1")
+            with open(os.path.join(d, "grades.json"), encoding="utf-8") as fh:
+                self.assertIn("verification", json.load(fh)["grading_status"])
         self.assertEqual(res["n_met"], 0)                       # fixture fails the gate
 
 

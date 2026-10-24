@@ -1,9 +1,10 @@
 #!/usr/bin/env python3
 # SPDX-License-Identifier: Apache-2.0
-"""coumarin_tea_replication 0.1.0: does the coumarin-tea per-cup screen replicate in CFIA's two
+"""coumarin_tea_replication 0.1.1: does the coumarin-tea per-cup screen replicate in CFIA's two
 later tea surveys (2014-15: 210 teas; 2015-16: 297 teas)?
 
-Grades docs/coumarin-tea-replication-0.1.0-prereg.md. Made with AI agents working in MV2's
+Grades docs/coumarin-tea-replication-0.1.0-prereg.md as amended by
+docs/coumarin-tea-replication-0.1.1-amendment.md. Made with AI agents working in MV2's
 (Munim, Inc.) name.
 
 coumarin-tea 0.1.0 screened the 115 teas in CFIA's 2013-14 coumarin survey per brewed cup against
@@ -15,6 +16,13 @@ teas. It also re-selects the 2013-14 teas by the same rule as a reproduction che
 pooled three-survey per-cup table. A bounded exposure screen on open data: not a compliance
 finding (Canada sets no coumarin limit), not about any brand, not individual dietary or medical
 advice.
+
+0.1.1 (amendment): the 0.1.0 gate failed on one of its 14 checks. CFIA's 2014-15 tea average
+(302 mg/kg) is footnoted "only positive results", but the file's positives mean is 356.2 while
+its mean over all 210 teas (non-detects as 0) is 301.9. The amended gate compares the 2014-15
+headline with the all-sample mean; nothing else changes. Because the 0.1.0 job had already
+printed every observed value, P1-P10 graded under this amendment are a verification, not a
+blind test.
 
 Data: CFIA FSAP targeted-survey files (Open Government Licence - Canada), SHA-256 pinned, parsed
 by coumarin_eu_limits 0.1.1 (explicit unit table). Code Apache-2.0; derived data CC BY 4.0.
@@ -32,7 +40,9 @@ import sys
 import coumarin_eu_limits as cel
 import coumarin_tea as ct
 
-VERSION = "0.1.0"
+VERSION = "0.1.1"
+GRADING_STATUS = ("verification: the gate was amended (0.1.1) after the 0.1.0 job had printed "
+                  "every observed value, so P1-P10 are not a blind test")
 
 _OPEN = "https://open.canada.ca/"
 _OUVERT = "https://ouvert.canada.ca/"
@@ -68,6 +78,8 @@ TEA_TYPES = ("Tea - Black", "Tea - Green", "Tea - Herbal", "Tea - Oolong", "Tea 
 HERBAL = "Tea - Herbal"
 
 # Gate G0, from CFIA's published tea headlines and the names-only / zero-token census.
+# "mean" = (which dist_stats key CFIA's printed average is compared with, bounds).
+# 0.1.1: 2014-15 uses the all-sample mean (see the amendment); 2015-16 is unchanged.
 GATE = {
     "2014-15": {
         "n_rows": (730, 739), "n_tea": 210,
@@ -75,7 +87,7 @@ GATE = {
                   "Tea - White": 15, "Tea - Other": 21},
         "tea_max": (1910.0, 1930.0),        # CFIA 1920
         "detected": (178, 178),             # CFIA 178 of 210 (85%)
-        "mean_detected": (285.0, 320.0),    # CFIA 302, positives only
+        "mean": ("ppm_mean", (285.0, 320.0)),   # CFIA 302 = mean of all 210 (amendment 0.1.1)
     },
     "2015-16": {
         "n_rows": (740, 747), "n_tea": 297,
@@ -83,7 +95,7 @@ GATE = {
                   "Tea - White": 42, "Tea - Other": 25},
         "tea_max": (2220.0, 2240.0),        # CFIA 2230
         "detected": (245, 245),             # CFIA 245 of 297 (82%)
-        "mean_detected": (420.0, 465.0),    # CFIA 442, positives only
+        "mean": ("ppm_mean_detected", (420.0, 465.0)),  # CFIA 442, positives only
     },
 }
 UNIT = "ug/g"
@@ -91,7 +103,8 @@ UNIT = "ug/g"
 # Published coumarin-tea 0.1.0 result (2013-14), the replication reference.
 REF_1314 = {"n": 115, "A1": 0, "A2": 7, "C1": 33, "C2": 45}
 
-# Pre-registered prediction thresholds (fixed before any 2014-15 or 2015-16 tea value was read).
+# Pre-registered prediction thresholds (fixed before any 2014-15 or 2015-16 tea value was read;
+# unchanged by the amendment).
 P3_C1_1415 = (0.04, 0.22)
 P4_C1_1516 = (0.10, 0.32)
 P5_C2_1415 = (0.12, 0.40)
@@ -204,6 +217,7 @@ def _in(x, lo_hi):
 def gate_survey(label, s):
     g = GATE[label]
     t = s["tea"]
+    mean_key, mean_bounds = g["mean"]
     checks = {
         "n_rows": _in(s["n_rows"], g["n_rows"]),
         "tea_rows": s["tea_rows"] == g["n_tea"] and t["n"] == g["n_tea"],
@@ -211,7 +225,7 @@ def gate_survey(label, s):
         "tea_units": s["tea_units"] == {UNIT: g["n_tea"]},
         "tea_max": _in(t["ppm_max"], g["tea_max"]),
         "detected": _in(t["n_detected"], g["detected"]),
-        "mean_detected": _in(t["ppm_mean_detected"], g["mean_detected"]),
+        "mean": _in(t.get(mean_key), mean_bounds),
     }
     return all(checks.values()), checks
 
@@ -236,7 +250,8 @@ def grade(summ):
         "id": "G0", "kind": "gate",
         "text": ("both later surveys parse to CFIA's published tea headline: measured rows, exact "
                  "tea count and six-type census, unit census all ug/g, tea max, detected count "
-                 "and mean of detected values within the registered bounds"),
+                 "and CFIA's printed average within the registered bounds (amended 0.1.1: the "
+                 "2014-15 average is compared with the mean of all 210 teas)"),
         "observed": {"2014-15": {"checks": chk_a, "n_rows": a["n_rows"], "tea": a["tea"],
                                  "tea_types": a["tea_types"], "tea_units": a["tea_units"]},
                      "2015-16": {"checks": chk_b, "n_rows": b["n_rows"], "tea": b["tea"],
@@ -245,7 +260,8 @@ def grade(summ):
 
     def add(pid, kind, text, observed, met):
         preds.append({"id": pid, "kind": kind, "text": text, "observed": observed,
-                      "met": bool(gate_ok and met), "graded": gate_ok})
+                      "met": bool(gate_ok and met), "graded": gate_ok,
+                      "blind": False})
 
     ref_c1 = REF_1314["C1"] / REF_1314["n"]
     add("P1", "check",
@@ -384,6 +400,7 @@ def write_outputs(out_dir, rows_by_survey, summ, preds, extra):
                            + [v["scenarios"][s]["n_over_tdi"] for s in SIDS])
     result = {
         "study": "coumarin-tea-replication", "version": VERSION,
+        "grading_status": GRADING_STATUS,
         "tdi_mg_per_kg_bw": ct.TDI_MG_PER_KG_BW,
         "scenarios": {k: {"bw_kg": v[0], "dry_g_per_cup": v[1], "transfer": v[2]}
                       for k, v in ct.SCENARIOS.items()},
@@ -394,7 +411,8 @@ def write_outputs(out_dir, rows_by_survey, summ, preds, extra):
     with open(os.path.join(out_dir, "summary.json"), "w", encoding="utf-8") as fh:
         json.dump(result, fh, indent=2, sort_keys=True)
     with open(os.path.join(out_dir, "grades.json"), "w", encoding="utf-8") as fh:
-        json.dump({"predictions": preds}, fh, indent=2, sort_keys=True)
+        json.dump({"grading_status": GRADING_STATUS, "predictions": preds}, fh, indent=2,
+                  sort_keys=True)
     return result
 
 
@@ -429,6 +447,7 @@ def main(argv=None):
 
     print(json.dumps({
         "version": VERSION,
+        "grading_status": GRADING_STATUS,
         "reproduction_2013_14": repro,
         "surveys": {k: {"n_rows": summ[k]["n_rows"], "tea_rows": summ[k]["tea_rows"],
                         "tea_types": summ[k]["tea_types"], "tea_units": summ[k]["tea_units"],
