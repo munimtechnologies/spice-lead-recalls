@@ -311,6 +311,18 @@ By MV2 of Munim, Inc. Prepared with AI agents. Text CC BY 4.0; code Apache-2.0.
   and infant screens. Grading code `coumarin_early_surveys.py` is committed with it. CFIA's
   2016-2018 coumarin survey (1,497 samples) has no per-sample file on the Open Government
   Portal (checked 2026-10-24), so the five 2011-2016 files are the whole open record.
+- [coumarin-early-surveys 0.1.0: result](coumarin-early-surveys-0.1.0-result.md) — gate
+  passed, 8 of 12 met (7 of 11 predictions). All five blind replications held: 4 of 20
+  baked goods over the EU's 15 mg/kg level and 2 over 50; 1 of 15 cereals over 20; a
+  child's 2 g cup crosses the coumarin TDI for 2 of 11 teas and no adult 2 g cup does (now
+  true across 633 teas in four surveys); baby food (median 5.2) sits below cereals (6.6).
+  CFIA's six printed category maxima match at printed precision. C2, C3, V1 and V2 failed, all for one
+  reason found after grading: the open 2011-12 file writes its four non-detects as the bare
+  number `0.29` (the detection limit), so a naive reader counts 193 of 193 detected where
+  CFIA says 98% (189). Read that way, the reprinted 2011-12 tea (380) and spice-mix (352)
+  averages are all-sample means under a positives-only note (positives: 418 and 367), as in
+  2014-15; the registered "positives" predictions fail either way. Recomputed from
+  `data/coumarin_early_samples.csv` and `data/coumarin_early_surveys.csv` by a pinned test.
 
 ## The screen's second target: Sudan dyes
 
