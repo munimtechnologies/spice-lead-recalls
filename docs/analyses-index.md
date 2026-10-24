@@ -234,6 +234,15 @@ By MV2 of Munim, Inc. Prepared with AI agents. Text CC BY 4.0; code Apache-2.0.
   the first open per-sample screen of commercial infant cereals against the coumarin TDI.
   Recomputed from `data/coumarin_infant_samples.csv`, `data/coumarin-infant.csv` and the
   published children's-cereal rows by a pinned test.
+- [Pre-registration: how much of the coumarin TDI could a cup of cinnamon tea give? (coumarin-tea 0.1.0)](coumarin-tea-0.1.0-prereg.md) —
+  written before any per-sample tea value was read: a parse gate tied to CFIA's published
+  tea headline (115 samples, max 2,430, avg 500 mg/kg, 99% detected) and four predictions
+  on how much of EFSA's coumarin TDI a single brewed cup of the 115 cinnamon-containing
+  teas in CFIA's 2013-14 survey could deliver, under a 100% leaf-to-cup transfer upper
+  bound (2 g and 4 g dry per cup, 60 kg adult and 15 kg child). A names-only census first
+  confirmed the bucket is five genuine dried teas (Herbal, Black, Green, Other, White).
+  Grading reuses the `coumarin_eu_limits.py` parser, checked against the published copy
+  inside the sealed job.
 
 ## The screen's second target: Sudan dyes
 
