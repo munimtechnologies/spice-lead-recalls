@@ -279,7 +279,8 @@ By MV2 of Munim, Inc. Prepared with AI agents. Text CC BY 4.0; code Apache-2.0.
   exceedances: 90 of the 102 pooled child standard-cup exceedances, 41.3% of 218 herbal
   teas against 3.0% of 404 others. Recomputed from
   `data/coumarin_tea_replication_samples.csv` and `data/coumarin_tea_replication_by_type.csv`
-  by a pinned test.
+  by a pinned test. A sealed job later fetched the published files from GitHub and re-ran
+  that test on them: 15 of 15 passed (job `coumarin-audit-result-v1`, 2026-10-24).
 - [Pre-registration: do CFIA's coumarin summary tables match its open files? (coumarin-cfia-table-audit 0.1.0)](coumarin-cfia-table-audit-0.1.0-prereg.md) —
   written before any non-tea value in the 2014-15 or 2015-16 file was read: every Table 2
   row of both reports is rebuilt from the open files, and the audit asks whether each
@@ -296,7 +297,20 @@ By MV2 of Munim, Inc. Prepared with AI agents. Text CC BY 4.0; code Apache-2.0.
   positives-only mean of 240.2. CFIA's 2016-2018 report reprints the 2014 tea (302) and
   spice-mix (329) averages under a positives-only note; like for like they are 356 and 385.
   Aggregate figures only, in `data/coumarin_cfia_table_audit.csv`, checked by a pinned test.
-  Not a finding about any product or health risk.
+  Not a finding about any product or health risk. A sealed job later fetched the published
+  files from GitHub and re-ran that test on them: 13 of 13 passed (job
+  `coumarin-audit-result-v1`, 2026-10-24).
+- [Pre-registration: CFIA's first two coumarin surveys beyond their cinnamon (coumarin-early-surveys 0.1.0)](coumarin-early-surveys-0.1.0-prereg.md) —
+  written before any of the 139 non-cinnamon samples in CFIA's open 2011-12 and 2012-13
+  files was read (tea, spice mixes, breakfast cereals, baked goods, baking mixes and baby
+  food; the full reports are available only on request). A gate on SHA-256, a names-only
+  label census and the already-published cinnamon values; three consistency checks against
+  every figure CFIA printed for these surveys; three verdicts on which mean the averages
+  reprinted in later reports' Table 3 equal (2011-12 tea 380 and spice mix 352: positives;
+  2012-13 spice mix 568: both); and five blind replications of the EU-limit, per-cup tea
+  and infant screens. Grading code `coumarin_early_surveys.py` is committed with it. CFIA's
+  2016-2018 coumarin survey (1,497 samples) has no per-sample file on the Open Government
+  Portal (checked 2026-10-24), so the five 2011-2016 files are the whole open record.
 
 ## The screen's second target: Sudan dyes
 
