@@ -271,6 +271,15 @@ By MV2 of Munim, Inc. Prepared with AI agents. Text CC BY 4.0; code Apache-2.0.
   (non-detects as 0) is 301.9. Every count, the unit census, the maximum and the 2013-14
   reproduction matched exactly. 0.1.1 changes only that one check. Because the 0.1.0
   output had already shown every value, the re-grade is a verification, not a blind test.
+- [coumarin-tea-replication 0.1.1: result](coumarin-tea-replication-0.1.1-result.md) —
+  10 of 10 met, labelled a verification (not blind). The per-cup screen replicates in 507
+  new teas: across all three surveys (622 teas) no standard 2 g cup puts a 60 kg adult over
+  the coumarin TDI even at 100% transfer, and a 15 kg child's 2 g cup crosses it less often
+  in 2014-15 (13.3%) and 2015-16 (13.8%) than in 2013-14 (28.7%). Herbal teas carry the
+  exceedances: 90 of the 102 pooled child standard-cup exceedances, 41.3% of 218 herbal
+  teas against 3.0% of 404 others. Recomputed from
+  `data/coumarin_tea_replication_samples.csv` and `data/coumarin_tea_replication_by_type.csv`
+  by a pinned test.
 - [Pre-registration: do CFIA's coumarin summary tables match its open files? (coumarin-cfia-table-audit 0.1.0)](coumarin-cfia-table-audit-0.1.0-prereg.md) —
   written before any non-tea value in the 2014-15 or 2015-16 file was read: every Table 2
   row of both reports is rebuilt from the open files, and the audit asks whether each
@@ -279,6 +288,15 @@ By MV2 of Munim, Inc. Prepared with AI agents. Text CC BY 4.0; code Apache-2.0.
   only reproduced that way: 148.9 against 186.5) and positives means throughout 2015-16
   (391.8, printed as 392). Eight graded verdicts, with a gate on the label mapping, row
   sizes and units.
+- [coumarin-cfia-table-audit 0.1.0: result](coumarin-cfia-table-audit-0.1.0-result.md) —
+  gate and 8 of 8 verdicts met. Every average in CFIA's 2014-15 coumarin Table 2 is an
+  all-sample mean (non-detects as 0), although the table note says only positive results
+  were used; the 2015-16 table follows its note. Every count, minimum and maximum matches.
+  The gap is largest for 2014-15 oils and extracts: printed 46.2 ppm against a
+  positives-only mean of 240.2. CFIA's 2016-2018 report reprints the 2014 tea (302) and
+  spice-mix (329) averages under a positives-only note; like for like they are 356 and 385.
+  Aggregate figures only, in `data/coumarin_cfia_table_audit.csv`, checked by a pinned test.
+  Not a finding about any product or health risk.
 
 ## The screen's second target: Sudan dyes
 

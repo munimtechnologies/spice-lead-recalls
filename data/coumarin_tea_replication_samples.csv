@@ -1,0 +1,623 @@
+survey,tea_type,region,origin,coumarin_ppm,pct_budget_a1,pct_budget_a2,pct_budget_c1,pct_budget_c2,over_tdi_a1,over_tdi_a2,over_tdi_c1,over_tdi_c2,unit
+2013-14,Tea - Black,ONTARIO,UNKNOWN,512.0,17.07,34.13,68.27,136.53,no,no,no,yes,ug/g
+2013-14,Tea - Black,WEST,UNITED STATES,389.0,12.97,25.93,51.87,103.73,no,no,no,yes,ug/g
+2013-14,Tea - Black,QUEBEC,UNITED STATES,386.0,12.87,25.73,51.47,102.93,no,no,no,yes,ug/g
+2013-14,Tea - Black,QUEBEC,UNITED STATES,352.0,11.73,23.47,46.93,93.87,no,no,no,no,ug/g
+2013-14,Tea - Black,QUEBEC,UNKNOWN,347.0,11.57,23.13,46.27,92.53,no,no,no,no,ug/g
+2013-14,Tea - Black,ONTARIO,UNKNOWN,309.0,10.3,20.6,41.2,82.4,no,no,no,no,ug/g
+2013-14,Tea - Black,WEST,UNKNOWN,266.0,8.87,17.73,35.47,70.93,no,no,no,no,ug/g
+2013-14,Tea - Black,QUEBEC,UNITED STATES,263.0,8.77,17.53,35.07,70.13,no,no,no,no,ug/g
+2013-14,Tea - Black,QUEBEC,UNITED STATES,241.0,8.03,16.07,32.13,64.27,no,no,no,no,ug/g
+2013-14,Tea - Black,ONTARIO,UNKNOWN,237.0,7.9,15.8,31.6,63.2,no,no,no,no,ug/g
+2013-14,Tea - Black,QUEBEC,UNKNOWN,204.0,6.8,13.6,27.2,54.4,no,no,no,no,ug/g
+2013-14,Tea - Black,WEST,UNKNOWN,176.0,5.87,11.73,23.47,46.93,no,no,no,no,ug/g
+2013-14,Tea - Black,ATLANTIC,UNITED STATES,172.0,5.73,11.47,22.93,45.87,no,no,no,no,ug/g
+2013-14,Tea - Black,QUEBEC,UNKNOWN,167.0,5.57,11.13,22.27,44.53,no,no,no,no,ug/g
+2013-14,Tea - Black,QUEBEC,UNKNOWN,165.0,5.5,11.0,22.0,44.0,no,no,no,no,ug/g
+2013-14,Tea - Black,WEST,UNITED STATES,160.0,5.33,10.67,21.33,42.67,no,no,no,no,ug/g
+2013-14,Tea - Black,ONTARIO,UNITED STATES,157.0,5.23,10.47,20.93,41.87,no,no,no,no,ug/g
+2013-14,Tea - Black,ONTARIO,UNITED STATES,151.0,5.03,10.07,20.13,40.27,no,no,no,no,ug/g
+2013-14,Tea - Black,ATLANTIC,UNITED STATES,135.0,4.5,9.0,18.0,36.0,no,no,no,no,ug/g
+2013-14,Tea - Black,QUEBEC,UNITED STATES,134.0,4.47,8.93,17.87,35.73,no,no,no,no,ug/g
+2013-14,Tea - Black,WEST,UNKNOWN,127.0,4.23,8.47,16.93,33.87,no,no,no,no,ug/g
+2013-14,Tea - Black,WEST,UNKNOWN,74.6,2.49,4.97,9.95,19.89,no,no,no,no,ug/g
+2013-14,Tea - Black,ATLANTIC,UNITED STATES,62.4,2.08,4.16,8.32,16.64,no,no,no,no,ug/g
+2013-14,Tea - Black,WEST,UNKNOWN,58.6,1.95,3.91,7.81,15.63,no,no,no,no,ug/g
+2013-14,Tea - Black,ATLANTIC,UNITED STATES,54.5,1.82,3.63,7.27,14.53,no,no,no,no,ug/g
+2013-14,Tea - Black,WEST,UNKNOWN,41.9,1.4,2.79,5.59,11.17,no,no,no,no,ug/g
+2013-14,Tea - Black,WEST,UNITED STATES,36.3,1.21,2.42,4.84,9.68,no,no,no,no,ug/g
+2013-14,Tea - Black,ONTARIO,UNITED STATES,35.5,1.18,2.37,4.73,9.47,no,no,no,no,ug/g
+2013-14,Tea - Black,QUEBEC,UNITED KINGDOM,26.6,0.89,1.77,3.55,7.09,no,no,no,no,ug/g
+2013-14,Tea - Black,WEST,UNITED KINGDOM,22.7,0.76,1.51,3.03,6.05,no,no,no,no,ug/g
+2013-14,Tea - Black,ONTARIO,UNKNOWN,14.7,0.49,0.98,1.96,3.92,no,no,no,no,ug/g
+2013-14,Tea - Black,ATLANTIC,UNITED STATES,13.8,0.46,0.92,1.84,3.68,no,no,no,no,ug/g
+2013-14,Tea - Black,WEST,UNITED KINGDOM,9.0,0.3,0.6,1.2,2.4,no,no,no,no,ug/g
+2013-14,Tea - Black,WEST,UNITED KINGDOM,7.6,0.25,0.51,1.01,2.03,no,no,no,no,ug/g
+2013-14,Tea - Black,QUEBEC,UNITED KINGDOM,7.1,0.24,0.47,0.95,1.89,no,no,no,no,ug/g
+2013-14,Tea - Black,QUEBEC,UNITED KINGDOM,7.0,0.23,0.47,0.93,1.87,no,no,no,no,ug/g
+2013-14,Tea - Black,ONTARIO,UNKNOWN,6.3,0.21,0.42,0.84,1.68,no,no,no,no,ug/g
+2013-14,Tea - Black,ONTARIO,UNKNOWN,2.9,0.1,0.19,0.39,0.77,no,no,no,no,ug/g
+2013-14,Tea - Green,QUEBEC,UNITED STATES,315.0,10.5,21.0,42.0,84.0,no,no,no,no,ug/g
+2013-14,Tea - Green,ONTARIO,UNITED STATES,164.0,5.47,10.93,21.87,43.73,no,no,no,no,ug/g
+2013-14,Tea - Green,ONTARIO,UNKNOWN,98.0,3.27,6.53,13.07,26.13,no,no,no,no,ug/g
+2013-14,Tea - Herbal,WEST,UNITED STATES,2430.0,81.0,162.0,324.0,648.0,no,yes,yes,yes,ug/g
+2013-14,Tea - Herbal,ONTARIO,UNITED STATES,1670.0,55.67,111.33,222.67,445.33,no,yes,yes,yes,ug/g
+2013-14,Tea - Herbal,ONTARIO,UNKNOWN,1670.0,55.67,111.33,222.67,445.33,no,yes,yes,yes,ug/g
+2013-14,Tea - Herbal,QUEBEC,UNITED STATES,1670.0,55.67,111.33,222.67,445.33,no,yes,yes,yes,ug/g
+2013-14,Tea - Herbal,QUEBEC,UNITED STATES,1610.0,53.67,107.33,214.67,429.33,no,yes,yes,yes,ug/g
+2013-14,Tea - Herbal,ONTARIO,UNKNOWN,1560.0,52.0,104.0,208.0,416.0,no,yes,yes,yes,ug/g
+2013-14,Tea - Herbal,ONTARIO,UNITED STATES,1510.0,50.33,100.67,201.33,402.67,no,yes,yes,yes,ug/g
+2013-14,Tea - Herbal,QUEBEC,UNKNOWN,1470.0,49.0,98.0,196.0,392.0,no,no,yes,yes,ug/g
+2013-14,Tea - Herbal,QUEBEC,UNKNOWN,1450.0,48.33,96.67,193.33,386.67,no,no,yes,yes,ug/g
+2013-14,Tea - Herbal,ONTARIO,UNKNOWN,1440.0,48.0,96.0,192.0,384.0,no,no,yes,yes,ug/g
+2013-14,Tea - Herbal,WEST,UNKNOWN,1430.0,47.67,95.33,190.67,381.33,no,no,yes,yes,ug/g
+2013-14,Tea - Herbal,ATLANTIC,UNKNOWN,1420.0,47.33,94.67,189.33,378.67,no,no,yes,yes,ug/g
+2013-14,Tea - Herbal,WEST,UNKNOWN,1370.0,45.67,91.33,182.67,365.33,no,no,yes,yes,ug/g
+2013-14,Tea - Herbal,ONTARIO,UNKNOWN,1360.0,45.33,90.67,181.33,362.67,no,no,yes,yes,ug/g
+2013-14,Tea - Herbal,WEST,UNKNOWN,1340.0,44.67,89.33,178.67,357.33,no,no,yes,yes,ug/g
+2013-14,Tea - Herbal,WEST,UNITED STATES,1310.0,43.67,87.33,174.67,349.33,no,no,yes,yes,ug/g
+2013-14,Tea - Herbal,QUEBEC,UNKNOWN,1290.0,43.0,86.0,172.0,344.0,no,no,yes,yes,ug/g
+2013-14,Tea - Herbal,WEST,UNITED STATES,1260.0,42.0,84.0,168.0,336.0,no,no,yes,yes,ug/g
+2013-14,Tea - Herbal,ATLANTIC,UNKNOWN,1250.0,41.67,83.33,166.67,333.33,no,no,yes,yes,ug/g
+2013-14,Tea - Herbal,WEST,UNITED STATES,1160.0,38.67,77.33,154.67,309.33,no,no,yes,yes,ug/g
+2013-14,Tea - Herbal,WEST,UNKNOWN,1130.0,37.67,75.33,150.67,301.33,no,no,yes,yes,ug/g
+2013-14,Tea - Herbal,WEST,UNKNOWN,1070.0,35.67,71.33,142.67,285.33,no,no,yes,yes,ug/g
+2013-14,Tea - Herbal,ONTARIO,UNITED STATES,1050.0,35.0,70.0,140.0,280.0,no,no,yes,yes,ug/g
+2013-14,Tea - Herbal,WEST,UNITED STATES,1030.0,34.33,68.67,137.33,274.67,no,no,yes,yes,ug/g
+2013-14,Tea - Herbal,ONTARIO,UNITED STATES,967.0,32.23,64.47,128.93,257.87,no,no,yes,yes,ug/g
+2013-14,Tea - Herbal,WEST,UNITED STATES,946.0,31.53,63.07,126.13,252.27,no,no,yes,yes,ug/g
+2013-14,Tea - Herbal,ONTARIO,CANADA,939.0,31.3,62.6,125.2,250.4,no,no,yes,yes,ug/g
+2013-14,Tea - Herbal,QUEBEC,UNITED STATES,928.0,30.93,61.87,123.73,247.47,no,no,yes,yes,ug/g
+2013-14,Tea - Herbal,ONTARIO,UNITED STATES,905.0,30.17,60.33,120.67,241.33,no,no,yes,yes,ug/g
+2013-14,Tea - Herbal,ONTARIO,UNITED STATES,887.0,29.57,59.13,118.27,236.53,no,no,yes,yes,ug/g
+2013-14,Tea - Herbal,ONTARIO,CANADA,777.0,25.9,51.8,103.6,207.2,no,no,yes,yes,ug/g
+2013-14,Tea - Herbal,ATLANTIC,CANADA,760.0,25.33,50.67,101.33,202.67,no,no,yes,yes,ug/g
+2013-14,Tea - Herbal,QUEBEC,UNITED STATES,754.0,25.13,50.27,100.53,201.07,no,no,yes,yes,ug/g
+2013-14,Tea - Herbal,ONTARIO,CANADA,729.0,24.3,48.6,97.2,194.4,no,no,no,yes,ug/g
+2013-14,Tea - Herbal,ONTARIO,CANADA,629.0,20.97,41.93,83.87,167.73,no,no,no,yes,ug/g
+2013-14,Tea - Herbal,WEST,UNITED STATES,603.0,20.1,40.2,80.4,160.8,no,no,no,yes,ug/g
+2013-14,Tea - Herbal,QUEBEC,CANADA,549.0,18.3,36.6,73.2,146.4,no,no,no,yes,ug/g
+2013-14,Tea - Herbal,QUEBEC,CANADA,510.0,17.0,34.0,68.0,136.0,no,no,no,yes,ug/g
+2013-14,Tea - Herbal,WEST,CANADA,473.0,15.77,31.53,63.07,126.13,no,no,no,yes,ug/g
+2013-14,Tea - Herbal,ONTARIO,CANADA,469.0,15.63,31.27,62.53,125.07,no,no,no,yes,ug/g
+2013-14,Tea - Herbal,QUEBEC,UNKNOWN,457.0,15.23,30.47,60.93,121.87,no,no,no,yes,ug/g
+2013-14,Tea - Herbal,ONTARIO,UNKNOWN,380.0,12.67,25.33,50.67,101.33,no,no,no,yes,ug/g
+2013-14,Tea - Herbal,WEST,UNKNOWN,359.0,11.97,23.93,47.87,95.73,no,no,no,no,ug/g
+2013-14,Tea - Herbal,ONTARIO,CANADA,330.0,11.0,22.0,44.0,88.0,no,no,no,no,ug/g
+2013-14,Tea - Herbal,QUEBEC,UNKNOWN,317.0,10.57,21.13,42.27,84.53,no,no,no,no,ug/g
+2013-14,Tea - Herbal,ONTARIO,UNKNOWN,272.0,9.07,18.13,36.27,72.53,no,no,no,no,ug/g
+2013-14,Tea - Herbal,WEST,CANADA,268.0,8.93,17.87,35.73,71.47,no,no,no,no,ug/g
+2013-14,Tea - Herbal,ATLANTIC,UNKNOWN,240.0,8.0,16.0,32.0,64.0,no,no,no,no,ug/g
+2013-14,Tea - Herbal,WEST,UNKNOWN,225.0,7.5,15.0,30.0,60.0,no,no,no,no,ug/g
+2013-14,Tea - Herbal,QUEBEC,CANADA,204.0,6.8,13.6,27.2,54.4,no,no,no,no,ug/g
+2013-14,Tea - Herbal,WEST,UNKNOWN,181.0,6.03,12.07,24.13,48.27,no,no,no,no,ug/g
+2013-14,Tea - Herbal,ONTARIO,UNITED KINGDOM,158.0,5.27,10.53,21.07,42.13,no,no,no,no,ug/g
+2013-14,Tea - Herbal,ONTARIO,UNKNOWN,152.0,5.07,10.13,20.27,40.53,no,no,no,no,ug/g
+2013-14,Tea - Herbal,ONTARIO,CANADA,148.0,4.93,9.87,19.73,39.47,no,no,no,no,ug/g
+2013-14,Tea - Herbal,WEST,UNKNOWN,138.0,4.6,9.2,18.4,36.8,no,no,no,no,ug/g
+2013-14,Tea - Herbal,ONTARIO,UNKNOWN,136.0,4.53,9.07,18.13,36.27,no,no,no,no,ug/g
+2013-14,Tea - Herbal,WEST,UNKNOWN,128.0,4.27,8.53,17.07,34.13,no,no,no,no,ug/g
+2013-14,Tea - Herbal,QUEBEC,CANADA,125.0,4.17,8.33,16.67,33.33,no,no,no,no,ug/g
+2013-14,Tea - Herbal,ONTARIO,UNITED STATES,123.0,4.1,8.2,16.4,32.8,no,no,no,no,ug/g
+2013-14,Tea - Herbal,WEST,UNKNOWN,122.0,4.07,8.13,16.27,32.53,no,no,no,no,ug/g
+2013-14,Tea - Herbal,ONTARIO,UNITED STATES,121.0,4.03,8.07,16.13,32.27,no,no,no,no,ug/g
+2013-14,Tea - Herbal,ATLANTIC,UNKNOWN,113.0,3.77,7.53,15.07,30.13,no,no,no,no,ug/g
+2013-14,Tea - Herbal,WEST,UNITED STATES,90.5,3.02,6.03,12.07,24.13,no,no,no,no,ug/g
+2013-14,Tea - Herbal,ONTARIO,CANADA,57.7,1.92,3.85,7.69,15.39,no,no,no,no,ug/g
+2013-14,Tea - Herbal,ONTARIO,CANADA,52.0,1.73,3.47,6.93,13.87,no,no,no,no,ug/g
+2013-14,Tea - Herbal,WEST,UNITED STATES,50.5,1.68,3.37,6.73,13.47,no,no,no,no,ug/g
+2013-14,Tea - Herbal,WEST,UNKNOWN,42.7,1.42,2.85,5.69,11.39,no,no,no,no,ug/g
+2013-14,Tea - Herbal,ONTARIO,POLAND,35.9,1.2,2.39,4.79,9.57,no,no,no,no,ug/g
+2013-14,Tea - Herbal,WEST,CANADA,33.6,1.12,2.24,4.48,8.96,no,no,no,no,ug/g
+2013-14,Tea - Herbal,ONTARIO,UNKNOWN,12.4,0.41,0.83,1.65,3.31,no,no,no,no,ug/g
+2013-14,Tea - Herbal,ONTARIO,UNKNOWN,0.3,0.01,0.02,0.04,0.08,no,no,no,no,ug/g
+2013-14,Tea - Herbal,ONTARIO,UNITED STATES,0.0,0.0,0.0,0.0,0.0,no,no,no,no,ug/g
+2013-14,Tea - White,QUEBEC,CANADA,11.2,0.37,0.75,1.49,2.99,no,no,no,no,ug/g
+2013-14,Tea - Other,ONTARIO,UNITED STATES,34.4,1.15,2.29,4.59,9.17,no,no,no,no,ug/g
+2014-15,Tea - Black,ATLANTIC,INDIA,1900.0,63.33,126.67,253.33,506.67,no,yes,yes,yes,ug/g
+2014-15,Tea - Black,QUEBEC,UNITED KINGDOM,893.0,29.77,59.53,119.07,238.13,no,no,yes,yes,ug/g
+2014-15,Tea - Black,ONTARIO,CANADA,877.0,29.23,58.47,116.93,233.87,no,no,yes,yes,ug/g
+2014-15,Tea - Black,ONTARIO,CANADA,850.0,28.33,56.67,113.33,226.67,no,no,yes,yes,ug/g
+2014-15,Tea - Black,ONTARIO,UNKNOWN,638.0,21.27,42.53,85.07,170.13,no,no,no,yes,ug/g
+2014-15,Tea - Black,ONTARIO,CANADA,620.0,20.67,41.33,82.67,165.33,no,no,no,yes,ug/g
+2014-15,Tea - Black,WEST,GERMANY,614.0,20.47,40.93,81.87,163.73,no,no,no,yes,ug/g
+2014-15,Tea - Black,WEST,UNKNOWN,602.0,20.07,40.13,80.27,160.53,no,no,no,yes,ug/g
+2014-15,Tea - Black,ONTARIO,UNITED STATES,546.0,18.2,36.4,72.8,145.6,no,no,no,yes,ug/g
+2014-15,Tea - Black,QUEBEC,CANADA,505.0,16.83,33.67,67.33,134.67,no,no,no,yes,ug/g
+2014-15,Tea - Black,ATLANTIC,UNITED STATES,497.0,16.57,33.13,66.27,132.53,no,no,no,yes,ug/g
+2014-15,Tea - Black,QUEBEC,UNITED STATES,453.0,15.1,30.2,60.4,120.8,no,no,no,yes,ug/g
+2014-15,Tea - Black,ONTARIO,UNITED STATES,445.0,14.83,29.67,59.33,118.67,no,no,no,yes,ug/g
+2014-15,Tea - Black,ONTARIO,UNKNOWN,421.0,14.03,28.07,56.13,112.27,no,no,no,yes,ug/g
+2014-15,Tea - Black,QUEBEC,CANADA,387.0,12.9,25.8,51.6,103.2,no,no,no,yes,ug/g
+2014-15,Tea - Black,ONTARIO,UNITED STATES,370.0,12.33,24.67,49.33,98.67,no,no,no,no,ug/g
+2014-15,Tea - Black,ONTARIO,UNITED STATES,362.0,12.07,24.13,48.27,96.53,no,no,no,no,ug/g
+2014-15,Tea - Black,WEST,CANADA,347.0,11.57,23.13,46.27,92.53,no,no,no,no,ug/g
+2014-15,Tea - Black,ONTARIO,UNITED STATES,339.0,11.3,22.6,45.2,90.4,no,no,no,no,ug/g
+2014-15,Tea - Black,WEST,CANADA,339.0,11.3,22.6,45.2,90.4,no,no,no,no,ug/g
+2014-15,Tea - Black,QUEBEC,UNKNOWN,325.0,10.83,21.67,43.33,86.67,no,no,no,no,ug/g
+2014-15,Tea - Black,QUEBEC,UNITED STATES,315.0,10.5,21.0,42.0,84.0,no,no,no,no,ug/g
+2014-15,Tea - Black,ONTARIO,UNKNOWN,297.0,9.9,19.8,39.6,79.2,no,no,no,no,ug/g
+2014-15,Tea - Black,ONTARIO,UNKNOWN,279.0,9.3,18.6,37.2,74.4,no,no,no,no,ug/g
+2014-15,Tea - Black,ONTARIO,UNKNOWN,269.0,8.97,17.93,35.87,71.73,no,no,no,no,ug/g
+2014-15,Tea - Black,ONTARIO,UNKNOWN,262.0,8.73,17.47,34.93,69.87,no,no,no,no,ug/g
+2014-15,Tea - Black,WEST,CANADA,226.0,7.53,15.07,30.13,60.27,no,no,no,no,ug/g
+2014-15,Tea - Black,ATLANTIC,UNITED STATES,210.0,7.0,14.0,28.0,56.0,no,no,no,no,ug/g
+2014-15,Tea - Black,WEST,UNKNOWN,207.0,6.9,13.8,27.6,55.2,no,no,no,no,ug/g
+2014-15,Tea - Black,QUEBEC,CANADA,203.0,6.77,13.53,27.07,54.13,no,no,no,no,ug/g
+2014-15,Tea - Black,ONTARIO,UNKNOWN,180.0,6.0,12.0,24.0,48.0,no,no,no,no,ug/g
+2014-15,Tea - Black,WEST,UNITED STATES,154.0,5.13,10.27,20.53,41.07,no,no,no,no,ug/g
+2014-15,Tea - Black,ONTARIO,UNKNOWN,150.0,5.0,10.0,20.0,40.0,no,no,no,no,ug/g
+2014-15,Tea - Black,WEST,UNKNOWN,146.0,4.87,9.73,19.47,38.93,no,no,no,no,ug/g
+2014-15,Tea - Black,ONTARIO,UNKNOWN,132.0,4.4,8.8,17.6,35.2,no,no,no,no,ug/g
+2014-15,Tea - Black,WEST,UNKNOWN,122.0,4.07,8.13,16.27,32.53,no,no,no,no,ug/g
+2014-15,Tea - Black,WEST,UNKNOWN,119.0,3.97,7.93,15.87,31.73,no,no,no,no,ug/g
+2014-15,Tea - Black,ONTARIO,UNKNOWN,99.8,3.33,6.65,13.31,26.61,no,no,no,no,ug/g
+2014-15,Tea - Black,QUEBEC,UNKNOWN,97.6,3.25,6.51,13.01,26.03,no,no,no,no,ug/g
+2014-15,Tea - Black,QUEBEC,UNKNOWN,93.9,3.13,6.26,12.52,25.04,no,no,no,no,ug/g
+2014-15,Tea - Black,QUEBEC,CANADA,93.0,3.1,6.2,12.4,24.8,no,no,no,no,ug/g
+2014-15,Tea - Black,WEST,UNKNOWN,78.6,2.62,5.24,10.48,20.96,no,no,no,no,ug/g
+2014-15,Tea - Black,ONTARIO,UNKNOWN,77.5,2.58,5.17,10.33,20.67,no,no,no,no,ug/g
+2014-15,Tea - Black,ONTARIO,UNKNOWN,73.1,2.44,4.87,9.75,19.49,no,no,no,no,ug/g
+2014-15,Tea - Black,QUEBEC,UNKNOWN,66.0,2.2,4.4,8.8,17.6,no,no,no,no,ug/g
+2014-15,Tea - Black,WEST,UNITED STATES,34.9,1.16,2.33,4.65,9.31,no,no,no,no,ug/g
+2014-15,Tea - Black,QUEBEC,UNKNOWN,34.5,1.15,2.3,4.6,9.2,no,no,no,no,ug/g
+2014-15,Tea - Black,ATLANTIC,UNITED STATES,27.5,0.92,1.83,3.67,7.33,no,no,no,no,ug/g
+2014-15,Tea - Black,ONTARIO,CANADA,23.2,0.77,1.55,3.09,6.19,no,no,no,no,ug/g
+2014-15,Tea - Black,WEST,UNKNOWN,22.8,0.76,1.52,3.04,6.08,no,no,no,no,ug/g
+2014-15,Tea - Black,WEST,SRI LANKA,15.8,0.53,1.05,2.11,4.21,no,no,no,no,ug/g
+2014-15,Tea - Black,WEST,UNITED KINGDOM,14.0,0.47,0.93,1.87,3.73,no,no,no,no,ug/g
+2014-15,Tea - Black,QUEBEC,UNITED KINGDOM,13.9,0.46,0.93,1.85,3.71,no,no,no,no,ug/g
+2014-15,Tea - Black,ATLANTIC,UNITED KINGDOM,13.3,0.44,0.89,1.77,3.55,no,no,no,no,ug/g
+2014-15,Tea - Black,QUEBEC,UNITED KINGDOM,12.3,0.41,0.82,1.64,3.28,no,no,no,no,ug/g
+2014-15,Tea - Black,WEST,UNITED KINGDOM,12.2,0.41,0.81,1.63,3.25,no,no,no,no,ug/g
+2014-15,Tea - Black,WEST,UNITED KINGDOM,10.3,0.34,0.69,1.37,2.75,no,no,no,no,ug/g
+2014-15,Tea - Black,QUEBEC,UNITED KINGDOM,10.2,0.34,0.68,1.36,2.72,no,no,no,no,ug/g
+2014-15,Tea - Black,WEST,UNITED KINGDOM,9.0,0.3,0.6,1.2,2.4,no,no,no,no,ug/g
+2014-15,Tea - Black,WEST,UNITED KINGDOM,9.0,0.3,0.6,1.2,2.4,no,no,no,no,ug/g
+2014-15,Tea - Black,QUEBEC,UNITED KINGDOM,8.4,0.28,0.56,1.12,2.24,no,no,no,no,ug/g
+2014-15,Tea - Black,QUEBEC,UNITED KINGDOM,8.1,0.27,0.54,1.08,2.16,no,no,no,no,ug/g
+2014-15,Tea - Black,QUEBEC,UNITED KINGDOM,7.8,0.26,0.52,1.04,2.08,no,no,no,no,ug/g
+2014-15,Tea - Black,WEST,UNITED KINGDOM,7.6,0.25,0.51,1.01,2.03,no,no,no,no,ug/g
+2014-15,Tea - Black,WEST,INDIA,6.8,0.23,0.45,0.91,1.81,no,no,no,no,ug/g
+2014-15,Tea - Black,QUEBEC,UNITED KINGDOM,6.6,0.22,0.44,0.88,1.76,no,no,no,no,ug/g
+2014-15,Tea - Black,QUEBEC,UNITED KINGDOM,5.1,0.17,0.34,0.68,1.36,no,no,no,no,ug/g
+2014-15,Tea - Black,ONTARIO,UNITED KINGDOM,5.1,0.17,0.34,0.68,1.36,no,no,no,no,ug/g
+2014-15,Tea - Black,QUEBEC,UNITED KINGDOM,4.3,0.14,0.29,0.57,1.15,no,no,no,no,ug/g
+2014-15,Tea - Black,ONTARIO,UNKNOWN,3.5,0.12,0.23,0.47,0.93,no,no,no,no,ug/g
+2014-15,Tea - Black,ONTARIO,UNKNOWN,2.0,0.07,0.13,0.27,0.53,no,no,no,no,ug/g
+2014-15,Tea - Black,WEST,UNKNOWN,0.5,0.02,0.03,0.07,0.13,no,no,no,no,ug/g
+2014-15,Tea - Black,ONTARIO,SRI LANKA,0.3,0.01,0.02,0.04,0.08,no,no,no,no,ug/g
+2014-15,Tea - Black,WEST,CANADA,0.0,0.0,0.0,0.0,0.0,no,no,no,no,ug/g
+2014-15,Tea - Black,WEST,CANADA,0.0,0.0,0.0,0.0,0.0,no,no,no,no,ug/g
+2014-15,Tea - Black,ONTARIO,SRI LANKA,0.0,0.0,0.0,0.0,0.0,no,no,no,no,ug/g
+2014-15,Tea - Black,WEST,UNKNOWN,0.0,0.0,0.0,0.0,0.0,no,no,no,no,ug/g
+2014-15,Tea - Green,ONTARIO,UNITED KINGDOM,628.0,20.93,41.87,83.73,167.47,no,no,no,yes,ug/g
+2014-15,Tea - Green,WEST,UNKNOWN,314.0,10.47,20.93,41.87,83.73,no,no,no,no,ug/g
+2014-15,Tea - Green,WEST,UNITED STATES,237.0,7.9,15.8,31.6,63.2,no,no,no,no,ug/g
+2014-15,Tea - Green,WEST,UNITED STATES,233.0,7.77,15.53,31.07,62.13,no,no,no,no,ug/g
+2014-15,Tea - Green,WEST,UNITED STATES,210.0,7.0,14.0,28.0,56.0,no,no,no,no,ug/g
+2014-15,Tea - Green,ONTARIO,UNITED STATES,202.0,6.73,13.47,26.93,53.87,no,no,no,no,ug/g
+2014-15,Tea - Green,WEST,UNITED STATES,199.0,6.63,13.27,26.53,53.07,no,no,no,no,ug/g
+2014-15,Tea - Green,ONTARIO,UNITED STATES,192.0,6.4,12.8,25.6,51.2,no,no,no,no,ug/g
+2014-15,Tea - Green,QUEBEC,UNITED STATES,162.0,5.4,10.8,21.6,43.2,no,no,no,no,ug/g
+2014-15,Tea - Green,WEST,UNITED STATES,142.0,4.73,9.47,18.93,37.87,no,no,no,no,ug/g
+2014-15,Tea - Green,ONTARIO,UNITED STATES,134.0,4.47,8.93,17.87,35.73,no,no,no,no,ug/g
+2014-15,Tea - Green,ONTARIO,UNKNOWN,126.0,4.2,8.4,16.8,33.6,no,no,no,no,ug/g
+2014-15,Tea - Green,ONTARIO,UNKNOWN,121.0,4.03,8.07,16.13,32.27,no,no,no,no,ug/g
+2014-15,Tea - Green,ONTARIO,UNITED STATES,112.0,3.73,7.47,14.93,29.87,no,no,no,no,ug/g
+2014-15,Tea - Green,ONTARIO,UNKNOWN,73.3,2.44,4.89,9.77,19.55,no,no,no,no,ug/g
+2014-15,Tea - Green,ONTARIO,UNKNOWN,35.4,1.18,2.36,4.72,9.44,no,no,no,no,ug/g
+2014-15,Tea - Green,QUEBEC,CANADA,17.4,0.58,1.16,2.32,4.64,no,no,no,no,ug/g
+2014-15,Tea - Green,QUEBEC,CANADA,10.3,0.34,0.69,1.37,2.75,no,no,no,no,ug/g
+2014-15,Tea - Green,QUEBEC,CANADA,9.9,0.33,0.66,1.32,2.64,no,no,no,no,ug/g
+2014-15,Tea - Green,ONTARIO,SRI LANKA,1.2,0.04,0.08,0.16,0.32,no,no,no,no,ug/g
+2014-15,Tea - Green,WEST,CANADA,0.9,0.03,0.06,0.12,0.24,no,no,no,no,ug/g
+2014-15,Tea - Green,QUEBEC,CHINA,0.0,0.0,0.0,0.0,0.0,no,no,no,no,ug/g
+2014-15,Tea - Green,ONTARIO,CANADA,0.0,0.0,0.0,0.0,0.0,no,no,no,no,ug/g
+2014-15,Tea - Green,ONTARIO,UNITED STATES,0.0,0.0,0.0,0.0,0.0,no,no,no,no,ug/g
+2014-15,Tea - Green,ONTARIO,UNITED STATES,0.0,0.0,0.0,0.0,0.0,no,no,no,no,ug/g
+2014-15,Tea - Green,ONTARIO,CANADA,0.0,0.0,0.0,0.0,0.0,no,no,no,no,ug/g
+2014-15,Tea - Green,ONTARIO,UNKNOWN,0.0,0.0,0.0,0.0,0.0,no,no,no,no,ug/g
+2014-15,Tea - Green,ONTARIO,CANADA,0.0,0.0,0.0,0.0,0.0,no,no,no,no,ug/g
+2014-15,Tea - Green,ONTARIO,UNKNOWN,0.0,0.0,0.0,0.0,0.0,no,no,no,no,ug/g
+2014-15,Tea - Green,ONTARIO,UNITED STATES,0.0,0.0,0.0,0.0,0.0,no,no,no,no,ug/g
+2014-15,Tea - Herbal,WEST,UNITED STATES,1920.0,64.0,128.0,256.0,512.0,no,yes,yes,yes,ug/g
+2014-15,Tea - Herbal,ONTARIO,UNITED KINGDOM,1660.0,55.33,110.67,221.33,442.67,no,yes,yes,yes,ug/g
+2014-15,Tea - Herbal,ONTARIO,UNITED STATES,1650.0,55.0,110.0,220.0,440.0,no,yes,yes,yes,ug/g
+2014-15,Tea - Herbal,QUEBEC,UNKNOWN,1630.0,54.33,108.67,217.33,434.67,no,yes,yes,yes,ug/g
+2014-15,Tea - Herbal,WEST,UNITED STATES,1500.0,50.0,100.0,200.0,400.0,no,no,yes,yes,ug/g
+2014-15,Tea - Herbal,ATLANTIC,UNITED STATES,1500.0,50.0,100.0,200.0,400.0,no,no,yes,yes,ug/g
+2014-15,Tea - Herbal,ONTARIO,UNKNOWN,1490.0,49.67,99.33,198.67,397.33,no,no,yes,yes,ug/g
+2014-15,Tea - Herbal,WEST,UNKNOWN,1420.0,47.33,94.67,189.33,378.67,no,no,yes,yes,ug/g
+2014-15,Tea - Herbal,QUEBEC,UNKNOWN,1390.0,46.33,92.67,185.33,370.67,no,no,yes,yes,ug/g
+2014-15,Tea - Herbal,WEST,UNKNOWN,1380.0,46.0,92.0,184.0,368.0,no,no,yes,yes,ug/g
+2014-15,Tea - Herbal,ONTARIO,UNKNOWN,1260.0,42.0,84.0,168.0,336.0,no,no,yes,yes,ug/g
+2014-15,Tea - Herbal,QUEBEC,UNKNOWN,1130.0,37.67,75.33,150.67,301.33,no,no,yes,yes,ug/g
+2014-15,Tea - Herbal,QUEBEC,UNKNOWN,1130.0,37.67,75.33,150.67,301.33,no,no,yes,yes,ug/g
+2014-15,Tea - Herbal,ONTARIO,UNKNOWN,1110.0,37.0,74.0,148.0,296.0,no,no,yes,yes,ug/g
+2014-15,Tea - Herbal,WEST,UNITED STATES,1100.0,36.67,73.33,146.67,293.33,no,no,yes,yes,ug/g
+2014-15,Tea - Herbal,WEST,UNKNOWN,1050.0,35.0,70.0,140.0,280.0,no,no,yes,yes,ug/g
+2014-15,Tea - Herbal,WEST,UNKNOWN,1010.0,33.67,67.33,134.67,269.33,no,no,yes,yes,ug/g
+2014-15,Tea - Herbal,QUEBEC,UNITED STATES,988.0,32.93,65.87,131.73,263.47,no,no,yes,yes,ug/g
+2014-15,Tea - Herbal,QUEBEC,UNKNOWN,983.0,32.77,65.53,131.07,262.13,no,no,yes,yes,ug/g
+2014-15,Tea - Herbal,QUEBEC,UNITED STATES,975.0,32.5,65.0,130.0,260.0,no,no,yes,yes,ug/g
+2014-15,Tea - Herbal,ONTARIO,UNITED STATES,944.0,31.47,62.93,125.87,251.73,no,no,yes,yes,ug/g
+2014-15,Tea - Herbal,ATLANTIC,UNKNOWN,903.0,30.1,60.2,120.4,240.8,no,no,yes,yes,ug/g
+2014-15,Tea - Herbal,ATLANTIC,UNITED STATES,853.0,28.43,56.87,113.73,227.47,no,no,yes,yes,ug/g
+2014-15,Tea - Herbal,ONTARIO,UNITED STATES,750.0,25.0,50.0,100.0,200.0,no,no,no,yes,ug/g
+2014-15,Tea - Herbal,ONTARIO,UNITED STATES,691.0,23.03,46.07,92.13,184.27,no,no,no,yes,ug/g
+2014-15,Tea - Herbal,ONTARIO,UNITED STATES,680.0,22.67,45.33,90.67,181.33,no,no,no,yes,ug/g
+2014-15,Tea - Herbal,WEST,UNITED KINGDOM,621.0,20.7,41.4,82.8,165.6,no,no,no,yes,ug/g
+2014-15,Tea - Herbal,WEST,CANADA,560.0,18.67,37.33,74.67,149.33,no,no,no,yes,ug/g
+2014-15,Tea - Herbal,ONTARIO,CANADA,520.0,17.33,34.67,69.33,138.67,no,no,no,yes,ug/g
+2014-15,Tea - Herbal,WEST,UNITED STATES,520.0,17.33,34.67,69.33,138.67,no,no,no,yes,ug/g
+2014-15,Tea - Herbal,WEST,UNKNOWN,497.0,16.57,33.13,66.27,132.53,no,no,no,yes,ug/g
+2014-15,Tea - Herbal,ONTARIO,UNITED STATES,424.0,14.13,28.27,56.53,113.07,no,no,no,yes,ug/g
+2014-15,Tea - Herbal,WEST,UNITED STATES,408.0,13.6,27.2,54.4,108.8,no,no,no,yes,ug/g
+2014-15,Tea - Herbal,ONTARIO,CANADA,310.0,10.33,20.67,41.33,82.67,no,no,no,no,ug/g
+2014-15,Tea - Herbal,ONTARIO,UNITED KINGDOM,291.0,9.7,19.4,38.8,77.6,no,no,no,no,ug/g
+2014-15,Tea - Herbal,QUEBEC,UNKNOWN,290.0,9.67,19.33,38.67,77.33,no,no,no,no,ug/g
+2014-15,Tea - Herbal,QUEBEC,UNKNOWN,267.0,8.9,17.8,35.6,71.2,no,no,no,no,ug/g
+2014-15,Tea - Herbal,ONTARIO,UNITED STATES,246.0,8.2,16.4,32.8,65.6,no,no,no,no,ug/g
+2014-15,Tea - Herbal,ONTARIO,CANADA,223.0,7.43,14.87,29.73,59.47,no,no,no,no,ug/g
+2014-15,Tea - Herbal,ONTARIO,INDIA,191.0,6.37,12.73,25.47,50.93,no,no,no,no,ug/g
+2014-15,Tea - Herbal,WEST,CANADA,143.0,4.77,9.53,19.07,38.13,no,no,no,no,ug/g
+2014-15,Tea - Herbal,WEST,UNKNOWN,135.0,4.5,9.0,18.0,36.0,no,no,no,no,ug/g
+2014-15,Tea - Herbal,ONTARIO,INDIA,122.0,4.07,8.13,16.27,32.53,no,no,no,no,ug/g
+2014-15,Tea - Herbal,ATLANTIC,UNKNOWN,121.0,4.03,8.07,16.13,32.27,no,no,no,no,ug/g
+2014-15,Tea - Herbal,QUEBEC,UNITED STATES,120.0,4.0,8.0,16.0,32.0,no,no,no,no,ug/g
+2014-15,Tea - Herbal,QUEBEC,CANADA,107.0,3.57,7.13,14.27,28.53,no,no,no,no,ug/g
+2014-15,Tea - Herbal,WEST,UNKNOWN,93.5,3.12,6.23,12.47,24.93,no,no,no,no,ug/g
+2014-15,Tea - Herbal,WEST,CANADA,51.1,1.7,3.41,6.81,13.63,no,no,no,no,ug/g
+2014-15,Tea - Herbal,ONTARIO,UNKNOWN,33.1,1.1,2.21,4.41,8.83,no,no,no,no,ug/g
+2014-15,Tea - Herbal,WEST,UNKNOWN,22.6,0.75,1.51,3.01,6.03,no,no,no,no,ug/g
+2014-15,Tea - Herbal,ONTARIO,UNKNOWN,1.3,0.04,0.09,0.17,0.35,no,no,no,no,ug/g
+2014-15,Tea - Herbal,WEST,UNITED STATES,0.4,0.01,0.03,0.05,0.11,no,no,no,no,ug/g
+2014-15,Tea - Herbal,QUEBEC,CANADA,0.0,0.0,0.0,0.0,0.0,no,no,no,no,ug/g
+2014-15,Tea - Herbal,ONTARIO,CANADA,0.0,0.0,0.0,0.0,0.0,no,no,no,no,ug/g
+2014-15,Tea - Herbal,ONTARIO,CANADA,0.0,0.0,0.0,0.0,0.0,no,no,no,no,ug/g
+2014-15,Tea - Herbal,ONTARIO,UNITED KINGDOM,0.0,0.0,0.0,0.0,0.0,no,no,no,no,ug/g
+2014-15,Tea - Herbal,ONTARIO,UNITED KINGDOM,0.0,0.0,0.0,0.0,0.0,no,no,no,no,ug/g
+2014-15,Tea - Herbal,ONTARIO,UNKNOWN,0.0,0.0,0.0,0.0,0.0,no,no,no,no,ug/g
+2014-15,Tea - Herbal,ONTARIO,UNKNOWN,0.0,0.0,0.0,0.0,0.0,no,no,no,no,ug/g
+2014-15,Tea - Herbal,WEST,CANADA,0.0,0.0,0.0,0.0,0.0,no,no,no,no,ug/g
+2014-15,Tea - Oolong,QUEBEC,UNKNOWN,189.0,6.3,12.6,25.2,50.4,no,no,no,no,ug/g
+2014-15,Tea - Oolong,QUEBEC,UNKNOWN,186.0,6.2,12.4,24.8,49.6,no,no,no,no,ug/g
+2014-15,Tea - Oolong,WEST,UNITED STATES,0.5,0.02,0.03,0.07,0.13,no,no,no,no,ug/g
+2014-15,Tea - Oolong,ONTARIO,UNITED STATES,0.5,0.02,0.03,0.07,0.13,no,no,no,no,ug/g
+2014-15,Tea - Oolong,WEST,UNITED STATES,0.0,0.0,0.0,0.0,0.0,no,no,no,no,ug/g
+2014-15,Tea - Oolong,ATLANTIC,INDIA,0.0,0.0,0.0,0.0,0.0,no,no,no,no,ug/g
+2014-15,Tea - Oolong,QUEBEC,UNKNOWN,0.0,0.0,0.0,0.0,0.0,no,no,no,no,ug/g
+2014-15,Tea - White,WEST,UNKNOWN,325.0,10.83,21.67,43.33,86.67,no,no,no,no,ug/g
+2014-15,Tea - White,QUEBEC,CANADA,323.0,10.77,21.53,43.07,86.13,no,no,no,no,ug/g
+2014-15,Tea - White,QUEBEC,JAPAN,273.0,9.1,18.2,36.4,72.8,no,no,no,no,ug/g
+2014-15,Tea - White,ONTARIO,UNITED STATES,260.0,8.67,17.33,34.67,69.33,no,no,no,no,ug/g
+2014-15,Tea - White,ONTARIO,UNITED STATES,235.0,7.83,15.67,31.33,62.67,no,no,no,no,ug/g
+2014-15,Tea - White,QUEBEC,UNKNOWN,190.0,6.33,12.67,25.33,50.67,no,no,no,no,ug/g
+2014-15,Tea - White,QUEBEC,CANADA,19.3,0.64,1.29,2.57,5.15,no,no,no,no,ug/g
+2014-15,Tea - White,QUEBEC,CANADA,18.9,0.63,1.26,2.52,5.04,no,no,no,no,ug/g
+2014-15,Tea - White,QUEBEC,CANADA,17.3,0.58,1.15,2.31,4.61,no,no,no,no,ug/g
+2014-15,Tea - White,QUEBEC,CANADA,15.0,0.5,1.0,2.0,4.0,no,no,no,no,ug/g
+2014-15,Tea - White,ONTARIO,CANADA,14.6,0.49,0.97,1.95,3.89,no,no,no,no,ug/g
+2014-15,Tea - White,ONTARIO,CANADA,13.4,0.45,0.89,1.79,3.57,no,no,no,no,ug/g
+2014-15,Tea - White,QUEBEC,CANADA,11.4,0.38,0.76,1.52,3.04,no,no,no,no,ug/g
+2014-15,Tea - White,ATLANTIC,UNKNOWN,0.2,0.01,0.01,0.03,0.05,no,no,no,no,ug/g
+2014-15,Tea - White,WEST,UNKNOWN,0.0,0.0,0.0,0.0,0.0,no,no,no,no,ug/g
+2014-15,Tea - Other,QUEBEC,UNITED KINGDOM,753.0,25.1,50.2,100.4,200.8,no,no,yes,yes,ug/g
+2014-15,Tea - Other,ONTARIO,UNITED KINGDOM,743.0,24.77,49.53,99.07,198.13,no,no,no,yes,ug/g
+2014-15,Tea - Other,WEST,UNKNOWN,712.0,23.73,47.47,94.93,189.87,no,no,no,yes,ug/g
+2014-15,Tea - Other,ONTARIO,UNITED STATES,536.0,17.87,35.73,71.47,142.93,no,no,no,yes,ug/g
+2014-15,Tea - Other,WEST,UNITED STATES,416.0,13.87,27.73,55.47,110.93,no,no,no,yes,ug/g
+2014-15,Tea - Other,ONTARIO,UNITED STATES,338.0,11.27,22.53,45.07,90.13,no,no,no,no,ug/g
+2014-15,Tea - Other,WEST,UNITED STATES,293.0,9.77,19.53,39.07,78.13,no,no,no,no,ug/g
+2014-15,Tea - Other,WEST,UNITED STATES,227.0,7.57,15.13,30.27,60.53,no,no,no,no,ug/g
+2014-15,Tea - Other,QUEBEC,CANADA,60.9,2.03,4.06,8.12,16.24,no,no,no,no,ug/g
+2014-15,Tea - Other,QUEBEC,UNKNOWN,30.9,1.03,2.06,4.12,8.24,no,no,no,no,ug/g
+2014-15,Tea - Other,WEST,UNITED STATES,19.1,0.64,1.27,2.55,5.09,no,no,no,no,ug/g
+2014-15,Tea - Other,QUEBEC,CANADA,0.5,0.02,0.03,0.07,0.13,no,no,no,no,ug/g
+2014-15,Tea - Other,QUEBEC,UNITED STATES,0.4,0.01,0.03,0.05,0.11,no,no,no,no,ug/g
+2014-15,Tea - Other,ONTARIO,SRI LANKA,0.2,0.01,0.01,0.03,0.05,no,no,no,no,ug/g
+2014-15,Tea - Other,QUEBEC,UNKNOWN,0.0,0.0,0.0,0.0,0.0,no,no,no,no,ug/g
+2014-15,Tea - Other,QUEBEC,UNKNOWN,0.0,0.0,0.0,0.0,0.0,no,no,no,no,ug/g
+2014-15,Tea - Other,ONTARIO,JAPAN,0.0,0.0,0.0,0.0,0.0,no,no,no,no,ug/g
+2014-15,Tea - Other,ONTARIO,UNKNOWN,0.0,0.0,0.0,0.0,0.0,no,no,no,no,ug/g
+2014-15,Tea - Other,ONTARIO,UNKNOWN,0.0,0.0,0.0,0.0,0.0,no,no,no,no,ug/g
+2014-15,Tea - Other,ONTARIO,UNITED STATES,0.0,0.0,0.0,0.0,0.0,no,no,no,no,ug/g
+2014-15,Tea - Other,WEST,UNITED STATES,0.0,0.0,0.0,0.0,0.0,no,no,no,no,ug/g
+2015-16,Tea - Black,QUEBEC,UNITED KINGDOM,963.0,32.1,64.2,128.4,256.8,no,no,yes,yes,ug/g
+2015-16,Tea - Black,WEST,UNITED STATES,899.0,29.97,59.93,119.87,239.73,no,no,yes,yes,ug/g
+2015-16,Tea - Black,QUEBEC,UNITED STATES,876.0,29.2,58.4,116.8,233.6,no,no,yes,yes,ug/g
+2015-16,Tea - Black,QUEBEC,CANADA,702.0,23.4,46.8,93.6,187.2,no,no,no,yes,ug/g
+2015-16,Tea - Black,ATLANTIC,CANADA,666.0,22.2,44.4,88.8,177.6,no,no,no,yes,ug/g
+2015-16,Tea - Black,WEST,UNITED STATES,643.0,21.43,42.87,85.73,171.47,no,no,no,yes,ug/g
+2015-16,Tea - Black,WEST,CANADA,591.0,19.7,39.4,78.8,157.6,no,no,no,yes,ug/g
+2015-16,Tea - Black,QUEBEC,UNITED STATES,587.0,19.57,39.13,78.27,156.53,no,no,no,yes,ug/g
+2015-16,Tea - Black,ONTARIO,UNITED STATES,584.0,19.47,38.93,77.87,155.73,no,no,no,yes,ug/g
+2015-16,Tea - Black,ONTARIO,CANADA,577.0,19.23,38.47,76.93,153.87,no,no,no,yes,ug/g
+2015-16,Tea - Black,ONTARIO,CANADA,570.0,19.0,38.0,76.0,152.0,no,no,no,yes,ug/g
+2015-16,Tea - Black,WEST,UNITED STATES,552.0,18.4,36.8,73.6,147.2,no,no,no,yes,ug/g
+2015-16,Tea - Black,WEST,UNKNOWN,541.0,18.03,36.07,72.13,144.27,no,no,no,yes,ug/g
+2015-16,Tea - Black,ONTARIO,UNITED KINGDOM,536.0,17.87,35.73,71.47,142.93,no,no,no,yes,ug/g
+2015-16,Tea - Black,WEST,CANADA,526.0,17.53,35.07,70.13,140.27,no,no,no,yes,ug/g
+2015-16,Tea - Black,ONTARIO,CANADA,475.0,15.83,31.67,63.33,126.67,no,no,no,yes,ug/g
+2015-16,Tea - Black,WEST,UNITED STATES,461.0,15.37,30.73,61.47,122.93,no,no,no,yes,ug/g
+2015-16,Tea - Black,QUEBEC,CANADA,448.0,14.93,29.87,59.73,119.47,no,no,no,yes,ug/g
+2015-16,Tea - Black,ONTARIO,UNKNOWN,434.0,14.47,28.93,57.87,115.73,no,no,no,yes,ug/g
+2015-16,Tea - Black,WEST,INDIA,387.0,12.9,25.8,51.6,103.2,no,no,no,yes,ug/g
+2015-16,Tea - Black,ONTARIO,UNITED STATES,386.0,12.87,25.73,51.47,102.93,no,no,no,yes,ug/g
+2015-16,Tea - Black,ONTARIO,UNITED STATES,379.0,12.63,25.27,50.53,101.07,no,no,no,yes,ug/g
+2015-16,Tea - Black,QUEBEC,UNKNOWN,338.0,11.27,22.53,45.07,90.13,no,no,no,no,ug/g
+2015-16,Tea - Black,ONTARIO,UNITED STATES,318.0,10.6,21.2,42.4,84.8,no,no,no,no,ug/g
+2015-16,Tea - Black,ONTARIO,UNKNOWN,297.0,9.9,19.8,39.6,79.2,no,no,no,no,ug/g
+2015-16,Tea - Black,ONTARIO,UNKNOWN,289.0,9.63,19.27,38.53,77.07,no,no,no,no,ug/g
+2015-16,Tea - Black,QUEBEC,UNKNOWN,288.0,9.6,19.2,38.4,76.8,no,no,no,no,ug/g
+2015-16,Tea - Black,ONTARIO,CANADA,270.0,9.0,18.0,36.0,72.0,no,no,no,no,ug/g
+2015-16,Tea - Black,WEST,UNKNOWN,236.0,7.87,15.73,31.47,62.93,no,no,no,no,ug/g
+2015-16,Tea - Black,ONTARIO,CANADA,227.0,7.57,15.13,30.27,60.53,no,no,no,no,ug/g
+2015-16,Tea - Black,ATLANTIC,CANADA,219.0,7.3,14.6,29.2,58.4,no,no,no,no,ug/g
+2015-16,Tea - Black,ONTARIO,UNKNOWN,215.0,7.17,14.33,28.67,57.33,no,no,no,no,ug/g
+2015-16,Tea - Black,ONTARIO,UNITED STATES,208.0,6.93,13.87,27.73,55.47,no,no,no,no,ug/g
+2015-16,Tea - Black,QUEBEC,UNITED STATES,201.0,6.7,13.4,26.8,53.6,no,no,no,no,ug/g
+2015-16,Tea - Black,QUEBEC,UNITED STATES,199.0,6.63,13.27,26.53,53.07,no,no,no,no,ug/g
+2015-16,Tea - Black,ONTARIO,UNKNOWN,198.0,6.6,13.2,26.4,52.8,no,no,no,no,ug/g
+2015-16,Tea - Black,ONTARIO,UNITED STATES,192.0,6.4,12.8,25.6,51.2,no,no,no,no,ug/g
+2015-16,Tea - Black,ONTARIO,CANADA,192.0,6.4,12.8,25.6,51.2,no,no,no,no,ug/g
+2015-16,Tea - Black,ONTARIO,UNKNOWN,191.0,6.37,12.73,25.47,50.93,no,no,no,no,ug/g
+2015-16,Tea - Black,WEST,UNITED STATES,186.0,6.2,12.4,24.8,49.6,no,no,no,no,ug/g
+2015-16,Tea - Black,ONTARIO,CANADA,184.0,6.13,12.27,24.53,49.07,no,no,no,no,ug/g
+2015-16,Tea - Black,ONTARIO,UNITED STATES,182.0,6.07,12.13,24.27,48.53,no,no,no,no,ug/g
+2015-16,Tea - Black,ATLANTIC,UNITED STATES,172.0,5.73,11.47,22.93,45.87,no,no,no,no,ug/g
+2015-16,Tea - Black,QUEBEC,UNITED STATES,163.0,5.43,10.87,21.73,43.47,no,no,no,no,ug/g
+2015-16,Tea - Black,QUEBEC,UNITED STATES,156.0,5.2,10.4,20.8,41.6,no,no,no,no,ug/g
+2015-16,Tea - Black,WEST,UNKNOWN,153.0,5.1,10.2,20.4,40.8,no,no,no,no,ug/g
+2015-16,Tea - Black,WEST,UNITED STATES,151.0,5.03,10.07,20.13,40.27,no,no,no,no,ug/g
+2015-16,Tea - Black,ONTARIO,UNITED STATES,143.0,4.77,9.53,19.07,38.13,no,no,no,no,ug/g
+2015-16,Tea - Black,QUEBEC,CANADA,113.0,3.77,7.53,15.07,30.13,no,no,no,no,ug/g
+2015-16,Tea - Black,QUEBEC,CANADA,27.0,0.9,1.8,3.6,7.2,no,no,no,no,ug/g
+2015-16,Tea - Black,WEST,CANADA,25.4,0.85,1.69,3.39,6.77,no,no,no,no,ug/g
+2015-16,Tea - Black,ONTARIO,UNKNOWN,22.7,0.76,1.51,3.03,6.05,no,no,no,no,ug/g
+2015-16,Tea - Black,WEST,UNITED KINGDOM,22.2,0.74,1.48,2.96,5.92,no,no,no,no,ug/g
+2015-16,Tea - Black,WEST,UNITED KINGDOM,21.7,0.72,1.45,2.89,5.79,no,no,no,no,ug/g
+2015-16,Tea - Black,ONTARIO,UNKNOWN,20.1,0.67,1.34,2.68,5.36,no,no,no,no,ug/g
+2015-16,Tea - Black,ONTARIO,UNKNOWN,19.1,0.64,1.27,2.55,5.09,no,no,no,no,ug/g
+2015-16,Tea - Black,ONTARIO,UNKNOWN,17.2,0.57,1.15,2.29,4.59,no,no,no,no,ug/g
+2015-16,Tea - Black,ONTARIO,UNITED KINGDOM,16.8,0.56,1.12,2.24,4.48,no,no,no,no,ug/g
+2015-16,Tea - Black,ATLANTIC,UNITED KINGDOM,15.3,0.51,1.02,2.04,4.08,no,no,no,no,ug/g
+2015-16,Tea - Black,ONTARIO,UNITED KINGDOM,14.0,0.47,0.93,1.87,3.73,no,no,no,no,ug/g
+2015-16,Tea - Black,ATLANTIC,UNITED KINGDOM,13.0,0.43,0.87,1.73,3.47,no,no,no,no,ug/g
+2015-16,Tea - Black,QUEBEC,UNITED KINGDOM,12.8,0.43,0.85,1.71,3.41,no,no,no,no,ug/g
+2015-16,Tea - Black,ATLANTIC,UNITED KINGDOM,12.7,0.42,0.85,1.69,3.39,no,no,no,no,ug/g
+2015-16,Tea - Black,ATLANTIC,UNITED KINGDOM,10.5,0.35,0.7,1.4,2.8,no,no,no,no,ug/g
+2015-16,Tea - Black,ONTARIO,UNITED KINGDOM,10.1,0.34,0.67,1.35,2.69,no,no,no,no,ug/g
+2015-16,Tea - Black,ONTARIO,UNITED KINGDOM,9.2,0.31,0.61,1.23,2.45,no,no,no,no,ug/g
+2015-16,Tea - Black,ONTARIO,UNITED KINGDOM,9.1,0.3,0.61,1.21,2.43,no,no,no,no,ug/g
+2015-16,Tea - Black,ONTARIO,ISRAEL,8.6,0.29,0.57,1.15,2.29,no,no,no,no,ug/g
+2015-16,Tea - Black,WEST,UNITED KINGDOM,8.0,0.27,0.53,1.07,2.13,no,no,no,no,ug/g
+2015-16,Tea - Black,QUEBEC,UNITED KINGDOM,7.7,0.26,0.51,1.03,2.05,no,no,no,no,ug/g
+2015-16,Tea - Black,QUEBEC,UNITED KINGDOM,7.1,0.24,0.47,0.95,1.89,no,no,no,no,ug/g
+2015-16,Tea - Black,QUEBEC,UNITED KINGDOM,5.2,0.17,0.35,0.69,1.39,no,no,no,no,ug/g
+2015-16,Tea - Black,WEST,UNKNOWN,4.3,0.14,0.29,0.57,1.15,no,no,no,no,ug/g
+2015-16,Tea - Black,WEST,UNKNOWN,1.4,0.05,0.09,0.19,0.37,no,no,no,no,ug/g
+2015-16,Tea - Black,WEST,UNKNOWN,0.8,0.03,0.05,0.11,0.21,no,no,no,no,ug/g
+2015-16,Tea - Black,WEST,UNKNOWN,0.5,0.02,0.03,0.07,0.13,no,no,no,no,ug/g
+2015-16,Tea - Black,QUEBEC,SRI LANKA,0.4,0.01,0.03,0.05,0.11,no,no,no,no,ug/g
+2015-16,Tea - Black,WEST,CANADA,0.4,0.01,0.03,0.05,0.11,no,no,no,no,ug/g
+2015-16,Tea - Black,QUEBEC,CANADA,0.0,0.0,0.0,0.0,0.0,no,no,no,no,ug/g
+2015-16,Tea - Black,QUEBEC,CANADA,0.0,0.0,0.0,0.0,0.0,no,no,no,no,ug/g
+2015-16,Tea - Black,WEST,UNKNOWN,0.0,0.0,0.0,0.0,0.0,no,no,no,no,ug/g
+2015-16,Tea - Green,WEST,UNKNOWN,730.0,24.33,48.67,97.33,194.67,no,no,no,yes,ug/g
+2015-16,Tea - Green,WEST,UNITED STATES,484.0,16.13,32.27,64.53,129.07,no,no,no,yes,ug/g
+2015-16,Tea - Green,WEST,UNITED STATES,368.0,12.27,24.53,49.07,98.13,no,no,no,no,ug/g
+2015-16,Tea - Green,WEST,UNITED STATES,317.0,10.57,21.13,42.27,84.53,no,no,no,no,ug/g
+2015-16,Tea - Green,QUEBEC,UNITED STATES,288.0,9.6,19.2,38.4,76.8,no,no,no,no,ug/g
+2015-16,Tea - Green,ATLANTIC,UNITED STATES,286.0,9.53,19.07,38.13,76.27,no,no,no,no,ug/g
+2015-16,Tea - Green,WEST,UNITED STATES,278.0,9.27,18.53,37.07,74.13,no,no,no,no,ug/g
+2015-16,Tea - Green,WEST,UNITED STATES,242.0,8.07,16.13,32.27,64.53,no,no,no,no,ug/g
+2015-16,Tea - Green,ONTARIO,UNITED STATES,236.0,7.87,15.73,31.47,62.93,no,no,no,no,ug/g
+2015-16,Tea - Green,ONTARIO,UNKNOWN,235.0,7.83,15.67,31.33,62.67,no,no,no,no,ug/g
+2015-16,Tea - Green,ATLANTIC,UNITED STATES,220.0,7.33,14.67,29.33,58.67,no,no,no,no,ug/g
+2015-16,Tea - Green,QUEBEC,UNITED STATES,207.0,6.9,13.8,27.6,55.2,no,no,no,no,ug/g
+2015-16,Tea - Green,ONTARIO,UNKNOWN,180.0,6.0,12.0,24.0,48.0,no,no,no,no,ug/g
+2015-16,Tea - Green,ONTARIO,UNKNOWN,170.0,5.67,11.33,22.67,45.33,no,no,no,no,ug/g
+2015-16,Tea - Green,WEST,UNKNOWN,164.0,5.47,10.93,21.87,43.73,no,no,no,no,ug/g
+2015-16,Tea - Green,ONTARIO,UNKNOWN,147.0,4.9,9.8,19.6,39.2,no,no,no,no,ug/g
+2015-16,Tea - Green,WEST,UNKNOWN,140.0,4.67,9.33,18.67,37.33,no,no,no,no,ug/g
+2015-16,Tea - Green,ONTARIO,UNKNOWN,132.0,4.4,8.8,17.6,35.2,no,no,no,no,ug/g
+2015-16,Tea - Green,QUEBEC,CANADA,0.8,0.03,0.05,0.11,0.21,no,no,no,no,ug/g
+2015-16,Tea - Green,QUEBEC,CANADA,0.6,0.02,0.04,0.08,0.16,no,no,no,no,ug/g
+2015-16,Tea - Green,WEST,UNKNOWN,0.2,0.01,0.01,0.03,0.05,no,no,no,no,ug/g
+2015-16,Tea - Green,ONTARIO,UNKNOWN,0.0,0.0,0.0,0.0,0.0,no,no,no,no,ug/g
+2015-16,Tea - Green,ONTARIO,UNKNOWN,0.0,0.0,0.0,0.0,0.0,no,no,no,no,ug/g
+2015-16,Tea - Green,ONTARIO,UNITED STATES,0.0,0.0,0.0,0.0,0.0,no,no,no,no,ug/g
+2015-16,Tea - Green,ONTARIO,UNITED STATES,0.0,0.0,0.0,0.0,0.0,no,no,no,no,ug/g
+2015-16,Tea - Green,ONTARIO,UNITED STATES,0.0,0.0,0.0,0.0,0.0,no,no,no,no,ug/g
+2015-16,Tea - Green,QUEBEC,CHINA,0.0,0.0,0.0,0.0,0.0,no,no,no,no,ug/g
+2015-16,Tea - Green,QUEBEC,UNKNOWN,0.0,0.0,0.0,0.0,0.0,no,no,no,no,ug/g
+2015-16,Tea - Green,QUEBEC,UNKNOWN,0.0,0.0,0.0,0.0,0.0,no,no,no,no,ug/g
+2015-16,Tea - Green,QUEBEC,CHINA,0.0,0.0,0.0,0.0,0.0,no,no,no,no,ug/g
+2015-16,Tea - Green,WEST,UNKNOWN,0.0,0.0,0.0,0.0,0.0,no,no,no,no,ug/g
+2015-16,Tea - Herbal,QUEBEC,UNKNOWN,2230.0,74.33,148.67,297.33,594.67,no,yes,yes,yes,ug/g
+2015-16,Tea - Herbal,WEST,UNITED STATES,2230.0,74.33,148.67,297.33,594.67,no,yes,yes,yes,ug/g
+2015-16,Tea - Herbal,QUEBEC,UNITED STATES,2220.0,74.0,148.0,296.0,592.0,no,yes,yes,yes,ug/g
+2015-16,Tea - Herbal,QUEBEC,UNITED STATES,2100.0,70.0,140.0,280.0,560.0,no,yes,yes,yes,ug/g
+2015-16,Tea - Herbal,QUEBEC,UNITED STATES,1960.0,65.33,130.67,261.33,522.67,no,yes,yes,yes,ug/g
+2015-16,Tea - Herbal,ONTARIO,UNITED STATES,1900.0,63.33,126.67,253.33,506.67,no,yes,yes,yes,ug/g
+2015-16,Tea - Herbal,QUEBEC,UNITED STATES,1880.0,62.67,125.33,250.67,501.33,no,yes,yes,yes,ug/g
+2015-16,Tea - Herbal,ATLANTIC,UNITED STATES,1850.0,61.67,123.33,246.67,493.33,no,yes,yes,yes,ug/g
+2015-16,Tea - Herbal,ONTARIO,ISRAEL,1830.0,61.0,122.0,244.0,488.0,no,yes,yes,yes,ug/g
+2015-16,Tea - Herbal,ONTARIO,UNITED STATES,1730.0,57.67,115.33,230.67,461.33,no,yes,yes,yes,ug/g
+2015-16,Tea - Herbal,ONTARIO,UNITED STATES,1700.0,56.67,113.33,226.67,453.33,no,yes,yes,yes,ug/g
+2015-16,Tea - Herbal,WEST,UNKNOWN,1660.0,55.33,110.67,221.33,442.67,no,yes,yes,yes,ug/g
+2015-16,Tea - Herbal,ATLANTIC,UNITED STATES,1560.0,52.0,104.0,208.0,416.0,no,yes,yes,yes,ug/g
+2015-16,Tea - Herbal,ONTARIO,UNITED STATES,1500.0,50.0,100.0,200.0,400.0,no,no,yes,yes,ug/g
+2015-16,Tea - Herbal,ONTARIO,UNITED STATES,1490.0,49.67,99.33,198.67,397.33,no,no,yes,yes,ug/g
+2015-16,Tea - Herbal,QUEBEC,UNITED STATES,1460.0,48.67,97.33,194.67,389.33,no,no,yes,yes,ug/g
+2015-16,Tea - Herbal,ONTARIO,UNITED STATES,1420.0,47.33,94.67,189.33,378.67,no,no,yes,yes,ug/g
+2015-16,Tea - Herbal,QUEBEC,UNITED STATES,1380.0,46.0,92.0,184.0,368.0,no,no,yes,yes,ug/g
+2015-16,Tea - Herbal,WEST,UNITED STATES,1340.0,44.67,89.33,178.67,357.33,no,no,yes,yes,ug/g
+2015-16,Tea - Herbal,ONTARIO,UNKNOWN,1300.0,43.33,86.67,173.33,346.67,no,no,yes,yes,ug/g
+2015-16,Tea - Herbal,QUEBEC,UNITED STATES,1300.0,43.33,86.67,173.33,346.67,no,no,yes,yes,ug/g
+2015-16,Tea - Herbal,WEST,UNKNOWN,1290.0,43.0,86.0,172.0,344.0,no,no,yes,yes,ug/g
+2015-16,Tea - Herbal,ONTARIO,UNKNOWN,1280.0,42.67,85.33,170.67,341.33,no,no,yes,yes,ug/g
+2015-16,Tea - Herbal,ONTARIO,UNKNOWN,1230.0,41.0,82.0,164.0,328.0,no,no,yes,yes,ug/g
+2015-16,Tea - Herbal,ONTARIO,UNKNOWN,1220.0,40.67,81.33,162.67,325.33,no,no,yes,yes,ug/g
+2015-16,Tea - Herbal,ONTARIO,UNKNOWN,1190.0,39.67,79.33,158.67,317.33,no,no,yes,yes,ug/g
+2015-16,Tea - Herbal,WEST,UNITED STATES,1190.0,39.67,79.33,158.67,317.33,no,no,yes,yes,ug/g
+2015-16,Tea - Herbal,QUEBEC,UNITED KINGDOM,1110.0,37.0,74.0,148.0,296.0,no,no,yes,yes,ug/g
+2015-16,Tea - Herbal,WEST,UNKNOWN,1080.0,36.0,72.0,144.0,288.0,no,no,yes,yes,ug/g
+2015-16,Tea - Herbal,WEST,UNKNOWN,1070.0,35.67,71.33,142.67,285.33,no,no,yes,yes,ug/g
+2015-16,Tea - Herbal,ATLANTIC,UNITED KINGDOM,1030.0,34.33,68.67,137.33,274.67,no,no,yes,yes,ug/g
+2015-16,Tea - Herbal,ONTARIO,UNKNOWN,919.0,30.63,61.27,122.53,245.07,no,no,yes,yes,ug/g
+2015-16,Tea - Herbal,ONTARIO,UNITED STATES,871.0,29.03,58.07,116.13,232.27,no,no,yes,yes,ug/g
+2015-16,Tea - Herbal,WEST,UNITED STATES,824.0,27.47,54.93,109.87,219.73,no,no,yes,yes,ug/g
+2015-16,Tea - Herbal,ATLANTIC,UNKNOWN,708.0,23.6,47.2,94.4,188.8,no,no,no,yes,ug/g
+2015-16,Tea - Herbal,QUEBEC,UNKNOWN,680.0,22.67,45.33,90.67,181.33,no,no,no,yes,ug/g
+2015-16,Tea - Herbal,WEST,UNKNOWN,679.0,22.63,45.27,90.53,181.07,no,no,no,yes,ug/g
+2015-16,Tea - Herbal,QUEBEC,UNITED KINGDOM,663.0,22.1,44.2,88.4,176.8,no,no,no,yes,ug/g
+2015-16,Tea - Herbal,ONTARIO,UNITED STATES,575.0,19.17,38.33,76.67,153.33,no,no,no,yes,ug/g
+2015-16,Tea - Herbal,ONTARIO,CANADA,488.0,16.27,32.53,65.07,130.13,no,no,no,yes,ug/g
+2015-16,Tea - Herbal,ONTARIO,UNITED KINGDOM,460.0,15.33,30.67,61.33,122.67,no,no,no,yes,ug/g
+2015-16,Tea - Herbal,WEST,UNITED STATES,446.0,14.87,29.73,59.47,118.93,no,no,no,yes,ug/g
+2015-16,Tea - Herbal,ONTARIO,UNITED STATES,402.0,13.4,26.8,53.6,107.2,no,no,no,yes,ug/g
+2015-16,Tea - Herbal,ONTARIO,UNKNOWN,382.0,12.73,25.47,50.93,101.87,no,no,no,yes,ug/g
+2015-16,Tea - Herbal,ONTARIO,CANADA,380.0,12.67,25.33,50.67,101.33,no,no,no,yes,ug/g
+2015-16,Tea - Herbal,WEST,UNKNOWN,358.0,11.93,23.87,47.73,95.47,no,no,no,no,ug/g
+2015-16,Tea - Herbal,QUEBEC,CANADA,320.0,10.67,21.33,42.67,85.33,no,no,no,no,ug/g
+2015-16,Tea - Herbal,ONTARIO,UNKNOWN,302.0,10.07,20.13,40.27,80.53,no,no,no,no,ug/g
+2015-16,Tea - Herbal,ONTARIO,UNKNOWN,264.0,8.8,17.6,35.2,70.4,no,no,no,no,ug/g
+2015-16,Tea - Herbal,QUEBEC,UNKNOWN,262.0,8.73,17.47,34.93,69.87,no,no,no,no,ug/g
+2015-16,Tea - Herbal,QUEBEC,JORDAN,242.0,8.07,16.13,32.27,64.53,no,no,no,no,ug/g
+2015-16,Tea - Herbal,WEST,UNKNOWN,229.0,7.63,15.27,30.53,61.07,no,no,no,no,ug/g
+2015-16,Tea - Herbal,ONTARIO,UNKNOWN,194.0,6.47,12.93,25.87,51.73,no,no,no,no,ug/g
+2015-16,Tea - Herbal,ONTARIO,INDIA,189.0,6.3,12.6,25.2,50.4,no,no,no,no,ug/g
+2015-16,Tea - Herbal,ONTARIO,UNITED KINGDOM,142.0,4.73,9.47,18.93,37.87,no,no,no,no,ug/g
+2015-16,Tea - Herbal,ONTARIO,CANADA,140.0,4.67,9.33,18.67,37.33,no,no,no,no,ug/g
+2015-16,Tea - Herbal,WEST,CANADA,115.0,3.83,7.67,15.33,30.67,no,no,no,no,ug/g
+2015-16,Tea - Herbal,WEST,UNKNOWN,98.8,3.29,6.59,13.17,26.35,no,no,no,no,ug/g
+2015-16,Tea - Herbal,WEST,CANADA,96.5,3.22,6.43,12.87,25.73,no,no,no,no,ug/g
+2015-16,Tea - Herbal,ONTARIO,CANADA,59.0,1.97,3.93,7.87,15.73,no,no,no,no,ug/g
+2015-16,Tea - Herbal,ONTARIO,CANADA,40.4,1.35,2.69,5.39,10.77,no,no,no,no,ug/g
+2015-16,Tea - Herbal,ONTARIO,UNKNOWN,31.8,1.06,2.12,4.24,8.48,no,no,no,no,ug/g
+2015-16,Tea - Herbal,WEST,UNITED STATES,25.0,0.83,1.67,3.33,6.67,no,no,no,no,ug/g
+2015-16,Tea - Herbal,ONTARIO,CANADA,20.8,0.69,1.39,2.77,5.55,no,no,no,no,ug/g
+2015-16,Tea - Herbal,ONTARIO,UNITED KINGDOM,1.6,0.05,0.11,0.21,0.43,no,no,no,no,ug/g
+2015-16,Tea - Herbal,WEST,UNITED KINGDOM,0.6,0.02,0.04,0.08,0.16,no,no,no,no,ug/g
+2015-16,Tea - Herbal,ONTARIO,UNITED STATES,0.4,0.01,0.03,0.05,0.11,no,no,no,no,ug/g
+2015-16,Tea - Herbal,QUEBEC,UNITED KINGDOM,0.2,0.01,0.01,0.03,0.05,no,no,no,no,ug/g
+2015-16,Tea - Herbal,ONTARIO,CANADA,0.0,0.0,0.0,0.0,0.0,no,no,no,no,ug/g
+2015-16,Tea - Herbal,ONTARIO,UNITED STATES,0.0,0.0,0.0,0.0,0.0,no,no,no,no,ug/g
+2015-16,Tea - Herbal,ONTARIO,CANADA,0.0,0.0,0.0,0.0,0.0,no,no,no,no,ug/g
+2015-16,Tea - Herbal,ONTARIO,UNITED KINGDOM,0.0,0.0,0.0,0.0,0.0,no,no,no,no,ug/g
+2015-16,Tea - Herbal,ONTARIO,UNKNOWN,0.0,0.0,0.0,0.0,0.0,no,no,no,no,ug/g
+2015-16,Tea - Herbal,QUEBEC,UNKNOWN,0.0,0.0,0.0,0.0,0.0,no,no,no,no,ug/g
+2015-16,Tea - Herbal,QUEBEC,UNITED KINGDOM,0.0,0.0,0.0,0.0,0.0,no,no,no,no,ug/g
+2015-16,Tea - Herbal,QUEBEC,UNITED KINGDOM,0.0,0.0,0.0,0.0,0.0,no,no,no,no,ug/g
+2015-16,Tea - Herbal,WEST,UNITED STATES,0.0,0.0,0.0,0.0,0.0,no,no,no,no,ug/g
+2015-16,Tea - Herbal,WEST,UNKNOWN,0.0,0.0,0.0,0.0,0.0,no,no,no,no,ug/g
+2015-16,Tea - Herbal,WEST,UNITED STATES,0.0,0.0,0.0,0.0,0.0,no,no,no,no,ug/g
+2015-16,Tea - Herbal,WEST,UNITED STATES,0.0,0.0,0.0,0.0,0.0,no,no,no,no,ug/g
+2015-16,Tea - Herbal,WEST,CANADA,0.0,0.0,0.0,0.0,0.0,no,no,no,no,ug/g
+2015-16,Tea - Herbal,WEST,UNITED STATES,0.0,0.0,0.0,0.0,0.0,no,no,no,no,ug/g
+2015-16,Tea - Herbal,WEST,CANADA,0.0,0.0,0.0,0.0,0.0,no,no,no,no,ug/g
+2015-16,Tea - Herbal,WEST,UNITED STATES,0.0,0.0,0.0,0.0,0.0,no,no,no,no,ug/g
+2015-16,Tea - Herbal,WEST,UNITED STATES,0.0,0.0,0.0,0.0,0.0,no,no,no,no,ug/g
+2015-16,Tea - Herbal,WEST,UNITED STATES,0.0,0.0,0.0,0.0,0.0,no,no,no,no,ug/g
+2015-16,Tea - Oolong,ATLANTIC,UNITED STATES,1630.0,54.33,108.67,217.33,434.67,no,yes,yes,yes,ug/g
+2015-16,Tea - Oolong,ONTARIO,UNITED STATES,939.0,31.3,62.6,125.2,250.4,no,no,yes,yes,ug/g
+2015-16,Tea - Oolong,ONTARIO,CANADA,688.0,22.93,45.87,91.73,183.47,no,no,no,yes,ug/g
+2015-16,Tea - Oolong,ONTARIO,UNITED STATES,667.0,22.23,44.47,88.93,177.87,no,no,no,yes,ug/g
+2015-16,Tea - Oolong,ATLANTIC,UNKNOWN,647.0,21.57,43.13,86.27,172.53,no,no,no,yes,ug/g
+2015-16,Tea - Oolong,ONTARIO,UNITED STATES,610.0,20.33,40.67,81.33,162.67,no,no,no,yes,ug/g
+2015-16,Tea - Oolong,QUEBEC,UNKNOWN,590.0,19.67,39.33,78.67,157.33,no,no,no,yes,ug/g
+2015-16,Tea - Oolong,WEST,UNKNOWN,586.0,19.53,39.07,78.13,156.27,no,no,no,yes,ug/g
+2015-16,Tea - Oolong,WEST,INDIA,412.0,13.73,27.47,54.93,109.87,no,no,no,yes,ug/g
+2015-16,Tea - Oolong,WEST,UNKNOWN,389.0,12.97,25.93,51.87,103.73,no,no,no,yes,ug/g
+2015-16,Tea - Oolong,WEST,UNITED STATES,386.0,12.87,25.73,51.47,102.93,no,no,no,yes,ug/g
+2015-16,Tea - Oolong,WEST,UNKNOWN,372.0,12.4,24.8,49.6,99.2,no,no,no,no,ug/g
+2015-16,Tea - Oolong,ONTARIO,CANADA,364.0,12.13,24.27,48.53,97.07,no,no,no,no,ug/g
+2015-16,Tea - Oolong,WEST,UNKNOWN,348.0,11.6,23.2,46.4,92.8,no,no,no,no,ug/g
+2015-16,Tea - Oolong,QUEBEC,UNKNOWN,326.0,10.87,21.73,43.47,86.93,no,no,no,no,ug/g
+2015-16,Tea - Oolong,WEST,CANADA,210.0,7.0,14.0,28.0,56.0,no,no,no,no,ug/g
+2015-16,Tea - Oolong,ATLANTIC,"TAIWAN, PROVINCE OF CHINA",187.0,6.23,12.47,24.93,49.87,no,no,no,no,ug/g
+2015-16,Tea - Oolong,ONTARIO,UNITED STATES,167.0,5.57,11.13,22.27,44.53,no,no,no,no,ug/g
+2015-16,Tea - Oolong,QUEBEC,UNKNOWN,155.0,5.17,10.33,20.67,41.33,no,no,no,no,ug/g
+2015-16,Tea - Oolong,ONTARIO,UNITED STATES,143.0,4.77,9.53,19.07,38.13,no,no,no,no,ug/g
+2015-16,Tea - Oolong,WEST,UNKNOWN,142.0,4.73,9.47,18.93,37.87,no,no,no,no,ug/g
+2015-16,Tea - Oolong,QUEBEC,UNKNOWN,124.0,4.13,8.27,16.53,33.07,no,no,no,no,ug/g
+2015-16,Tea - Oolong,WEST,UNKNOWN,124.0,4.13,8.27,16.53,33.07,no,no,no,no,ug/g
+2015-16,Tea - Oolong,QUEBEC,UNKNOWN,99.1,3.3,6.61,13.21,26.43,no,no,no,no,ug/g
+2015-16,Tea - Oolong,QUEBEC,UNKNOWN,19.8,0.66,1.32,2.64,5.28,no,no,no,no,ug/g
+2015-16,Tea - Oolong,ONTARIO,UNITED KINGDOM,7.6,0.25,0.51,1.01,2.03,no,no,no,no,ug/g
+2015-16,Tea - Oolong,ONTARIO,UNKNOWN,1.2,0.04,0.08,0.16,0.32,no,no,no,no,ug/g
+2015-16,Tea - Oolong,WEST,SRI LANKA,0.9,0.03,0.06,0.12,0.24,no,no,no,no,ug/g
+2015-16,Tea - Oolong,WEST,UNKNOWN,0.2,0.01,0.01,0.03,0.05,no,no,no,no,ug/g
+2015-16,Tea - Oolong,ATLANTIC,UNKNOWN,0.0,0.0,0.0,0.0,0.0,no,no,no,no,ug/g
+2015-16,Tea - Oolong,QUEBEC,UNITED STATES,0.0,0.0,0.0,0.0,0.0,no,no,no,no,ug/g
+2015-16,Tea - Oolong,QUEBEC,UNKNOWN,0.0,0.0,0.0,0.0,0.0,no,no,no,no,ug/g
+2015-16,Tea - White,WEST,UNITED STATES,642.0,21.4,42.8,85.6,171.2,no,no,no,yes,ug/g
+2015-16,Tea - White,WEST,CANADA,589.0,19.63,39.27,78.53,157.07,no,no,no,yes,ug/g
+2015-16,Tea - White,ONTARIO,CANADA,518.0,17.27,34.53,69.07,138.13,no,no,no,yes,ug/g
+2015-16,Tea - White,ONTARIO,UNITED STATES,514.0,17.13,34.27,68.53,137.07,no,no,no,yes,ug/g
+2015-16,Tea - White,WEST,UNITED STATES,420.0,14.0,28.0,56.0,112.0,no,no,no,yes,ug/g
+2015-16,Tea - White,WEST,UNKNOWN,389.0,12.97,25.93,51.87,103.73,no,no,no,yes,ug/g
+2015-16,Tea - White,WEST,UNKNOWN,388.0,12.93,25.87,51.73,103.47,no,no,no,yes,ug/g
+2015-16,Tea - White,ATLANTIC,UNITED STATES,369.0,12.3,24.6,49.2,98.4,no,no,no,no,ug/g
+2015-16,Tea - White,QUEBEC,UNITED STATES,310.0,10.33,20.67,41.33,82.67,no,no,no,no,ug/g
+2015-16,Tea - White,WEST,UNITED STATES,294.0,9.8,19.6,39.2,78.4,no,no,no,no,ug/g
+2015-16,Tea - White,ONTARIO,UNITED STATES,258.0,8.6,17.2,34.4,68.8,no,no,no,no,ug/g
+2015-16,Tea - White,WEST,CANADA,252.0,8.4,16.8,33.6,67.2,no,no,no,no,ug/g
+2015-16,Tea - White,ONTARIO,CANADA,242.0,8.07,16.13,32.27,64.53,no,no,no,no,ug/g
+2015-16,Tea - White,ONTARIO,CANADA,221.0,7.37,14.73,29.47,58.93,no,no,no,no,ug/g
+2015-16,Tea - White,WEST,CANADA,205.0,6.83,13.67,27.33,54.67,no,no,no,no,ug/g
+2015-16,Tea - White,ONTARIO,UNITED STATES,180.0,6.0,12.0,24.0,48.0,no,no,no,no,ug/g
+2015-16,Tea - White,WEST,UNITED STATES,179.0,5.97,11.93,23.87,47.73,no,no,no,no,ug/g
+2015-16,Tea - White,ONTARIO,UNITED STATES,176.0,5.87,11.73,23.47,46.93,no,no,no,no,ug/g
+2015-16,Tea - White,ONTARIO,CANADA,146.0,4.87,9.73,19.47,38.93,no,no,no,no,ug/g
+2015-16,Tea - White,WEST,UNKNOWN,34.7,1.16,2.31,4.63,9.25,no,no,no,no,ug/g
+2015-16,Tea - White,WEST,UNKNOWN,24.0,0.8,1.6,3.2,6.4,no,no,no,no,ug/g
+2015-16,Tea - White,ONTARIO,UNKNOWN,23.3,0.78,1.55,3.11,6.21,no,no,no,no,ug/g
+2015-16,Tea - White,QUEBEC,CANADA,19.4,0.65,1.29,2.59,5.17,no,no,no,no,ug/g
+2015-16,Tea - White,WEST,UNKNOWN,5.3,0.18,0.35,0.71,1.41,no,no,no,no,ug/g
+2015-16,Tea - White,ATLANTIC,UNKNOWN,0.9,0.03,0.06,0.12,0.24,no,no,no,no,ug/g
+2015-16,Tea - White,ONTARIO,CANADA,0.4,0.01,0.03,0.05,0.11,no,no,no,no,ug/g
+2015-16,Tea - White,QUEBEC,UNKNOWN,0.4,0.01,0.03,0.05,0.11,no,no,no,no,ug/g
+2015-16,Tea - White,QUEBEC,CANADA,0.4,0.01,0.03,0.05,0.11,no,no,no,no,ug/g
+2015-16,Tea - White,WEST,UNITED STATES,0.3,0.01,0.02,0.04,0.08,no,no,no,no,ug/g
+2015-16,Tea - White,ATLANTIC,UNKNOWN,0.0,0.0,0.0,0.0,0.0,no,no,no,no,ug/g
+2015-16,Tea - White,ATLANTIC,UNKNOWN,0.0,0.0,0.0,0.0,0.0,no,no,no,no,ug/g
+2015-16,Tea - White,ONTARIO,UNKNOWN,0.0,0.0,0.0,0.0,0.0,no,no,no,no,ug/g
+2015-16,Tea - White,ONTARIO,UNKNOWN,0.0,0.0,0.0,0.0,0.0,no,no,no,no,ug/g
+2015-16,Tea - White,ONTARIO,UNKNOWN,0.0,0.0,0.0,0.0,0.0,no,no,no,no,ug/g
+2015-16,Tea - White,ONTARIO,UNKNOWN,0.0,0.0,0.0,0.0,0.0,no,no,no,no,ug/g
+2015-16,Tea - White,ONTARIO,UNKNOWN,0.0,0.0,0.0,0.0,0.0,no,no,no,no,ug/g
+2015-16,Tea - White,ONTARIO,UNKNOWN,0.0,0.0,0.0,0.0,0.0,no,no,no,no,ug/g
+2015-16,Tea - White,QUEBEC,UNKNOWN,0.0,0.0,0.0,0.0,0.0,no,no,no,no,ug/g
+2015-16,Tea - White,QUEBEC,UNKNOWN,0.0,0.0,0.0,0.0,0.0,no,no,no,no,ug/g
+2015-16,Tea - White,QUEBEC,UNKNOWN,0.0,0.0,0.0,0.0,0.0,no,no,no,no,ug/g
+2015-16,Tea - White,QUEBEC,UNKNOWN,0.0,0.0,0.0,0.0,0.0,no,no,no,no,ug/g
+2015-16,Tea - White,WEST,UNITED STATES,0.0,0.0,0.0,0.0,0.0,no,no,no,no,ug/g
+2015-16,Tea - Other,WEST,UNITED STATES,1240.0,41.33,82.67,165.33,330.67,no,no,yes,yes,ug/g
+2015-16,Tea - Other,QUEBEC,UNKNOWN,1180.0,39.33,78.67,157.33,314.67,no,no,yes,yes,ug/g
+2015-16,Tea - Other,ONTARIO,UNKNOWN,735.0,24.5,49.0,98.0,196.0,no,no,no,yes,ug/g
+2015-16,Tea - Other,QUEBEC,UNKNOWN,627.0,20.9,41.8,83.6,167.2,no,no,no,yes,ug/g
+2015-16,Tea - Other,WEST,UNITED STATES,583.0,19.43,38.87,77.73,155.47,no,no,no,yes,ug/g
+2015-16,Tea - Other,QUEBEC,UNKNOWN,553.0,18.43,36.87,73.73,147.47,no,no,no,yes,ug/g
+2015-16,Tea - Other,ATLANTIC,CHINA,522.0,17.4,34.8,69.6,139.2,no,no,no,yes,ug/g
+2015-16,Tea - Other,ONTARIO,CANADA,437.0,14.57,29.13,58.27,116.53,no,no,no,yes,ug/g
+2015-16,Tea - Other,ONTARIO,UNITED STATES,411.0,13.7,27.4,54.8,109.6,no,no,no,yes,ug/g
+2015-16,Tea - Other,ONTARIO,UNITED STATES,408.0,13.6,27.2,54.4,108.8,no,no,no,yes,ug/g
+2015-16,Tea - Other,WEST,UNKNOWN,372.0,12.4,24.8,49.6,99.2,no,no,no,no,ug/g
+2015-16,Tea - Other,WEST,UNITED STATES,323.0,10.77,21.53,43.07,86.13,no,no,no,no,ug/g
+2015-16,Tea - Other,QUEBEC,UNITED STATES,320.0,10.67,21.33,42.67,85.33,no,no,no,no,ug/g
+2015-16,Tea - Other,ONTARIO,UNITED STATES,246.0,8.2,16.4,32.8,65.6,no,no,no,no,ug/g
+2015-16,Tea - Other,WEST,UNITED STATES,164.0,5.47,10.93,21.87,43.73,no,no,no,no,ug/g
+2015-16,Tea - Other,QUEBEC,CANADA,157.0,5.23,10.47,20.93,41.87,no,no,no,no,ug/g
+2015-16,Tea - Other,ONTARIO,UNKNOWN,153.0,5.1,10.2,20.4,40.8,no,no,no,no,ug/g
+2015-16,Tea - Other,QUEBEC,CANADA,40.0,1.33,2.67,5.33,10.67,no,no,no,no,ug/g
+2015-16,Tea - Other,WEST,UNKNOWN,17.9,0.6,1.19,2.39,4.77,no,no,no,no,ug/g
+2015-16,Tea - Other,WEST,SRI LANKA,0.7,0.02,0.05,0.09,0.19,no,no,no,no,ug/g
+2015-16,Tea - Other,ONTARIO,UNITED STATES,0.0,0.0,0.0,0.0,0.0,no,no,no,no,ug/g
+2015-16,Tea - Other,ONTARIO,UNITED KINGDOM,0.0,0.0,0.0,0.0,0.0,no,no,no,no,ug/g
+2015-16,Tea - Other,QUEBEC,UNKNOWN,0.0,0.0,0.0,0.0,0.0,no,no,no,no,ug/g
+2015-16,Tea - Other,QUEBEC,UNKNOWN,0.0,0.0,0.0,0.0,0.0,no,no,no,no,ug/g
+2015-16,Tea - Other,WEST,UNKNOWN,0.0,0.0,0.0,0.0,0.0,no,no,no,no,ug/g
