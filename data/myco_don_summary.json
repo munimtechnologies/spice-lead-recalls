@@ -1,0 +1,297 @@
+{
+  "descriptive": {
+    "cooccurrence": {
+      "both": 275,
+      "don_only": 280,
+      "fisher_p": 1.3799560223117804e-39,
+      "haldane_corrected": false,
+      "n_pairs": 943,
+      "neither": 348,
+      "odds_ratio": 8.544642857142858,
+      "ota_only": 40
+    },
+    "don2011": {
+      "don_detected": 883,
+      "don_max": 2460.0,
+      "don_min": 1.0,
+      "n_samples": 1395,
+      "result_kinds": {
+        "positive": 883,
+        "zero": 512
+      }
+    },
+    "infant": {
+      "don_detected": 119,
+      "don_max": 250.0,
+      "don_min": 0.6,
+      "n_samples": 286,
+      "result_kinds": {
+        "positive": 119,
+        "zero": 167
+      }
+    },
+    "otadon2010": {
+      "don_detected": 555,
+      "don_max": 2060.0,
+      "don_min": 1.0,
+      "n_samples": 943,
+      "ota_detected": 315,
+      "result_kinds": {
+        "positive": 870,
+        "zero": 1016
+      }
+    }
+  },
+  "n_graded": 13,
+  "n_met": 12,
+  "predictions": [
+    {
+      "graded": true,
+      "id": "G",
+      "kind": "gate",
+      "met": true,
+      "observed": {
+        "don2011": {
+          "checks": {
+            "all_parsed": true,
+            "components": true,
+            "format_literal_zero": true,
+            "rows": true,
+            "rows_per_sample": true,
+            "samples": true,
+            "sha256": true,
+            "units": true
+          },
+          "met": true,
+          "result_kinds": {
+            "positive": 883,
+            "zero": 512
+          },
+          "rows_per_sample": {
+            "1": 1395
+          }
+        },
+        "infant": {
+          "checks": {
+            "all_parsed": true,
+            "components": true,
+            "format_literal_zero": true,
+            "rows": true,
+            "rows_per_sample": true,
+            "samples": true,
+            "sha256": true,
+            "units": true
+          },
+          "met": true,
+          "result_kinds": {
+            "positive": 119,
+            "zero": 167
+          },
+          "rows_per_sample": {
+            "1": 286
+          }
+        },
+        "otadon2010": {
+          "checks": {
+            "all_parsed": true,
+            "components": true,
+            "format_literal_zero": true,
+            "rows": true,
+            "rows_per_sample": true,
+            "samples": true,
+            "sha256": true,
+            "units": true
+          },
+          "met": true,
+          "result_kinds": {
+            "positive": 870,
+            "zero": 1016
+          },
+          "rows_per_sample": {
+            "2": 943
+          }
+        }
+      },
+      "text": "SHA-256, row and sample counts, rows per sample, unit ng/g, component split and non-detect-as-literal-0 format for all three files"
+    },
+    {
+      "graded": true,
+      "id": "P1",
+      "kind": "prediction",
+      "met": true,
+      "observed": {
+        "n_at_or_above_20": 13,
+        "n_detected": 119,
+        "table2": 13,
+        "table3": 123
+      },
+      "text": "infant cereals follow Table 3 (100-135 detected), with exactly 13 at or above the 20 ppb reporting limit of Table 2"
+    },
+    {
+      "graded": true,
+      "id": "P2",
+      "kind": "prediction",
+      "met": true,
+      "observed": {
+        "max": 250.0,
+        "min_detected": 0.6
+      },
+      "text": "infant-cereal maximum 250 ppb and minimum detected below 1 ppb"
+    },
+    {
+      "graded": true,
+      "id": "P3",
+      "kind": "prediction",
+      "met": true,
+      "observed": {
+        "smallest_at_or_above_20": 22.3,
+        "text_min": 44.1
+      },
+      "text": "the smallest value at or above 20 ppb is 22 (the text's 44.1 is wrong)"
+    },
+    {
+      "graded": true,
+      "id": "P4",
+      "kind": "prediction",
+      "met": true,
+      "observed": {
+        "n_over_150": 2
+      },
+      "text": "1-4 infant cereals exceed the EU 2024/1022 baby-food DON level of 150"
+    },
+    {
+      "graded": true,
+      "id": "P5",
+      "kind": "prediction",
+      "met": true,
+      "observed": {
+        "n_detected": 555,
+        "printed_nd": 388
+      },
+      "text": "DON detected in exactly 555 of 943 samples (2010-11)"
+    },
+    {
+      "graded": true,
+      "id": "P6",
+      "kind": "prediction",
+      "met": true,
+      "observed": {
+        "max": 2060.0,
+        "min_detected": 1.0
+      },
+      "text": "2010-11 DON minimum rounds to 1 and maximum is 2060 ng/g"
+    },
+    {
+      "graded": true,
+      "id": "P7",
+      "kind": "prediction",
+      "met": true,
+      "observed": {
+        "dried_fruit_detected": 0,
+        "dried_fruit_n": 97,
+        "wine_detected": 0,
+        "wine_n": 139
+      },
+      "text": "no 2010-11 wine or dried-fruit sample has detected DON"
+    },
+    {
+      "graded": true,
+      "id": "P8",
+      "kind": "prediction",
+      "met": true,
+      "observed": {
+        "max": 128.0,
+        "min_detected": 1.1,
+        "n": 93,
+        "n_detected": 76,
+        "table3_n": 91
+      },
+      "text": "2010-11 infant cereals (n 93): DON detected 73-77, max 128, min ~1.1"
+    },
+    {
+      "graded": true,
+      "id": "P9",
+      "kind": "prediction",
+      "met": true,
+      "observed": {
+        "max": 6.773,
+        "min_detected": 0.04,
+        "n_detected": 315
+      },
+      "text": "OTA detected in exactly 315 of 943, min 0.040, max 6.773 ppb"
+    },
+    {
+      "graded": true,
+      "id": "P10",
+      "kind": "prediction",
+      "met": true,
+      "observed": {
+        "by_product": {
+          "Cereal - Adult": 1,
+          "Flour - Wheat": 1,
+          "Infant Food - Cereal": 5,
+          "Wheat Products": 1
+        },
+        "infant_cereal_over": 5,
+        "n_over": 8
+      },
+      "text": "8 grain-based samples exceed Health Canada's proposed OTA levels, 5 of them infant cereals"
+    },
+    {
+      "graded": true,
+      "id": "P11",
+      "kind": "prediction",
+      "met": false,
+      "observed": {
+        "both": 275,
+        "don_only": 280,
+        "fisher_p": 1.3799560223117804e-39,
+        "haldane_corrected": false,
+        "n_pairs": 943,
+        "neither": 348,
+        "odds_ratio": 8.544642857142858,
+        "ota_only": 40
+      },
+      "text": "within-sample OTA x DON detection odds ratio in [0.5, 2.0]"
+    },
+    {
+      "graded": true,
+      "id": "P12",
+      "kind": "prediction",
+      "met": true,
+      "observed": {
+        "dried_fruit_detected": 0,
+        "dried_fruit_n": 105,
+        "max": 2460.0,
+        "min_detected": 1.0,
+        "nd_share": 37
+      },
+      "text": "2011-12: ND share rounds to 37%, min ~1.0, max 2460, no dried fruit detected"
+    }
+  ],
+  "provenance": {
+    "don2011": {
+      "bytes": 227533,
+      "encoding": "utf-8-sig",
+      "resource": "cef65485-68e2-4580-8bd4-aa47c5a84c96",
+      "sha256": "4d4c90fb4b157bbb4c5a3f9aaf1c47b33b7b00a4d66437e2ea7ee6f5cb8a74ad",
+      "source": "data-volume"
+    },
+    "infant": {
+      "bytes": 63721,
+      "encoding": "utf-8-sig",
+      "resource": "7e3c4cf6-69fa-4931-9f31-cd78225acf01",
+      "sha256": "7427bd2905b8730ffc2403d379fd40549a42297fec0c3fc040d9a65446197583",
+      "source": "data-volume"
+    },
+    "otadon2010": {
+      "bytes": 301694,
+      "encoding": "utf-8-sig",
+      "resource": "b87d36bc-a568-4dc5-8391-9d8afdbf6048",
+      "sha256": "fdd0aec2e70e8cbf0805b8cac5a98c98b48bc86a6ccafd1ce6f1f9d05395102a",
+      "source": "data-volume"
+    }
+  },
+  "study": "myco-don",
+  "version": "0.1.0"
+}

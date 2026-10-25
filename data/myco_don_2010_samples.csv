@@ -1,0 +1,1887 @@
+sample,plan,function,origin,product,component,result_raw,ppb,detected
+2010MYC0001,2010_SB437,Import,PORTUGAL,Wine,Deoxynivalenol,0,0.0,0
+2010MYC0001,2010_SB437,Import,PORTUGAL,Wine,Ochratoxin A,0,0.0,0
+2010MYC0002,2010_SB437,Import,UNKNOWN,Infant Food - Cereal,Deoxynivalenol,28.8,28.8,1
+2010MYC0002,2010_SB437,Import,UNKNOWN,Infant Food - Cereal,Ochratoxin A,0,0.0,0
+2010MYC0003,2010_SB437,Domestic,CANADA,Flour - Wheat,Deoxynivalenol,136,136.0,1
+2010MYC0003,2010_SB437,Domestic,CANADA,Flour - Wheat,Ochratoxin A,0.791,0.791,1
+2010MYC0004,2010_SB437,Domestic,CANADA,Flour - Wheat,Deoxynivalenol,81.5,81.5,1
+2010MYC0004,2010_SB437,Domestic,CANADA,Flour - Wheat,Ochratoxin A,0.732,0.732,1
+2010MYC0005,2010_SB437,Import,UNITED STATES,Cornmeal,Deoxynivalenol,0,0.0,0
+2010MYC0005,2010_SB437,Import,UNITED STATES,Cornmeal,Ochratoxin A,0,0.0,0
+2010MYC0006,2010_SB437,Domestic,CANADA,Beer,Deoxynivalenol,51,51.0,1
+2010MYC0006,2010_SB437,Domestic,CANADA,Beer,Ochratoxin A,0,0.0,0
+2010MYC0007,2010_SB437,Import,PORTUGAL,Wine,Deoxynivalenol,0,0.0,0
+2010MYC0007,2010_SB437,Import,PORTUGAL,Wine,Ochratoxin A,0.065,0.065,1
+2010MYC0008,2010_SB437,Import,UNITED STATES,Fig,Deoxynivalenol,0,0.0,0
+2010MYC0008,2010_SB437,Import,UNITED STATES,Fig,Ochratoxin A,0,0.0,0
+2010MYC0009,2010_SB437,Import,"IRAN, ISLAMIC REPUBLIC OF",Date,Deoxynivalenol,0,0.0,0
+2010MYC0009,2010_SB437,Import,"IRAN, ISLAMIC REPUBLIC OF",Date,Ochratoxin A,0,0.0,0
+2010MYC0010,2010_SB437,Import,"IRAN, ISLAMIC REPUBLIC OF",Date,Deoxynivalenol,0,0.0,0
+2010MYC0010,2010_SB437,Import,"IRAN, ISLAMIC REPUBLIC OF",Date,Ochratoxin A,0,0.0,0
+2010MYC0011,2010_SB437,Unknown,UNKNOWN,Wheat Products,Deoxynivalenol,492,492.0,1
+2010MYC0011,2010_SB437,Unknown,UNKNOWN,Wheat Products,Ochratoxin A,1.384,1.384,1
+2010MYC0012,2010_SB437,Unknown,UNKNOWN,Wheat Products,Deoxynivalenol,422,422.0,1
+2010MYC0012,2010_SB437,Unknown,UNKNOWN,Wheat Products,Ochratoxin A,0.806,0.806,1
+2010MYC0013,2010_SB437,Import,AUSTRALIA,Wine,Deoxynivalenol,0,0.0,0
+2010MYC0013,2010_SB437,Import,AUSTRALIA,Wine,Ochratoxin A,0,0.0,0
+2010MYC0014,2010_SB437,Import,UNITED STATES,Fig,Deoxynivalenol,0,0.0,0
+2010MYC0014,2010_SB437,Import,UNITED STATES,Fig,Ochratoxin A,0,0.0,0
+2010MYC0015,2010_SB437,Import,UNKNOWN,Infant Food - Cereal,Deoxynivalenol,3.5,3.5,1
+2010MYC0015,2010_SB437,Import,UNKNOWN,Infant Food - Cereal,Ochratoxin A,0,0.0,0
+2010MYC0018,2010_SB437,Import,SOUTH AFRICA,Wine,Deoxynivalenol,0,0.0,0
+2010MYC0018,2010_SB437,Import,SOUTH AFRICA,Wine,Ochratoxin A,0,0.0,0
+2010MYC0019,2010_SB437,Import,UNKNOWN,Date,Deoxynivalenol,0,0.0,0
+2010MYC0019,2010_SB437,Import,UNKNOWN,Date,Ochratoxin A,0,0.0,0
+2010MYC0020,2010_SB437,Import,POLAND,Infant Food - Cereal,Deoxynivalenol,0,0.0,0
+2010MYC0020,2010_SB437,Import,POLAND,Infant Food - Cereal,Ochratoxin A,0,0.0,0
+2010MYC0021,2010_SB437,Domestic,CANADA,Flour - Wheat,Deoxynivalenol,195,195.0,1
+2010MYC0021,2010_SB437,Domestic,CANADA,Flour - Wheat,Ochratoxin A,0,0.0,0
+2010MYC0022,2010_SB437,Domestic,CANADA,Chips - Corn,Deoxynivalenol,106,106.0,1
+2010MYC0022,2010_SB437,Domestic,CANADA,Chips - Corn,Ochratoxin A,0,0.0,0
+2010MYC0023,2010_SB437,Domestic,CANADA,Chips - Corn,Deoxynivalenol,45.3,45.3,1
+2010MYC0023,2010_SB437,Domestic,CANADA,Chips - Corn,Ochratoxin A,0,0.0,0
+2010MYC0024,2010_SB437,Domestic,CANADA,Chips - Corn,Deoxynivalenol,29,29.0,1
+2010MYC0024,2010_SB437,Domestic,CANADA,Chips - Corn,Ochratoxin A,0,0.0,0
+2010MYC0025,2010_SB437,Import,UNITED STATES,Chips - Corn,Deoxynivalenol,2.1,2.1,1
+2010MYC0025,2010_SB437,Import,UNITED STATES,Chips - Corn,Ochratoxin A,0,0.0,0
+2010MYC0026,2010_SB437,Domestic,CANADA,Cornmeal,Deoxynivalenol,411,411.0,1
+2010MYC0026,2010_SB437,Domestic,CANADA,Cornmeal,Ochratoxin A,0,0.0,0
+2010MYC0027,2010_SB437,Domestic,CANADA,Beer,Deoxynivalenol,5.8,5.8,1
+2010MYC0027,2010_SB437,Domestic,CANADA,Beer,Ochratoxin A,0,0.0,0
+2010MYC0028,2010_SB437,Import,AUSTRALIA,Wine,Deoxynivalenol,0,0.0,0
+2010MYC0028,2010_SB437,Import,AUSTRALIA,Wine,Ochratoxin A,0,0.0,0
+2010MYC0029,2010_SB437,Import,"IRAN, ISLAMIC REPUBLIC OF",Date,Deoxynivalenol,0,0.0,0
+2010MYC0029,2010_SB437,Import,"IRAN, ISLAMIC REPUBLIC OF",Date,Ochratoxin A,0,0.0,0
+2010MYC0030,2010_SB437,Import,UNITED STATES,Infant Food - Cereal,Deoxynivalenol,0,0.0,0
+2010MYC0030,2010_SB437,Import,UNITED STATES,Infant Food - Cereal,Ochratoxin A,0,0.0,0
+2010MYC0031,2010_SB437,Domestic,CANADA,Wheat Products,Deoxynivalenol,64,64.0,1
+2010MYC0031,2010_SB437,Domestic,CANADA,Wheat Products,Ochratoxin A,0.704,0.704,1
+2010MYC0032,2010_SB437,Domestic,CANADA,Flour - Wheat,Deoxynivalenol,860,860.0,1
+2010MYC0032,2010_SB437,Domestic,CANADA,Flour - Wheat,Ochratoxin A,0.2,0.2,1
+2010MYC0033,2010_SB437,Domestic,CANADA,Flour - Wheat,Deoxynivalenol,229,229.0,1
+2010MYC0033,2010_SB437,Domestic,CANADA,Flour - Wheat,Ochratoxin A,0.271,0.271,1
+2010MYC0034,2010_SB437,Domestic,CANADA,Wheat Products,Deoxynivalenol,613,613.0,1
+2010MYC0034,2010_SB437,Domestic,CANADA,Wheat Products,Ochratoxin A,1.36,1.36,1
+2010MYC0035,2010_SB437,Import,UNITED STATES,Wheat Products,Deoxynivalenol,146,146.0,1
+2010MYC0035,2010_SB437,Import,UNITED STATES,Wheat Products,Ochratoxin A,0.498,0.498,1
+2010MYC0036,2010_SB437,Domestic,CANADA,Chips - Corn,Deoxynivalenol,2.9,2.9,1
+2010MYC0036,2010_SB437,Domestic,CANADA,Chips - Corn,Ochratoxin A,0,0.0,0
+2010MYC0037,2010_SB437,Domestic,CANADA,Cornmeal,Deoxynivalenol,318,318.0,1
+2010MYC0037,2010_SB437,Domestic,CANADA,Cornmeal,Ochratoxin A,0,0.0,0
+2010MYC0038,2010_SB437,Domestic,CANADA,Beer,Deoxynivalenol,5.8,5.8,1
+2010MYC0038,2010_SB437,Domestic,CANADA,Beer,Ochratoxin A,0,0.0,0
+2010MYC0039,2010_SB437,Domestic,CANADA,Beer,Deoxynivalenol,30.8,30.8,1
+2010MYC0039,2010_SB437,Domestic,CANADA,Beer,Ochratoxin A,0,0.0,0
+2010MYC0040,2010_SB437,Import,PORTUGAL,Wine,Deoxynivalenol,0,0.0,0
+2010MYC0040,2010_SB437,Import,PORTUGAL,Wine,Ochratoxin A,0,0.0,0
+2010MYC0041,2010_SB437,Import,AUSTRALIA,Wine,Deoxynivalenol,0,0.0,0
+2010MYC0041,2010_SB437,Import,AUSTRALIA,Wine,Ochratoxin A,0,0.0,0
+2010MYC0042,2010_SB437,Import,SOUTH AFRICA,Wine,Deoxynivalenol,0,0.0,0
+2010MYC0042,2010_SB437,Import,SOUTH AFRICA,Wine,Ochratoxin A,0,0.0,0
+2010MYC0043,2010_SB437,Import,ARGENTINA,Wine,Deoxynivalenol,0,0.0,0
+2010MYC0043,2010_SB437,Import,ARGENTINA,Wine,Ochratoxin A,0,0.0,0
+2010MYC0044,2010_SB437,Import,CHILE,Wine,Deoxynivalenol,0,0.0,0
+2010MYC0044,2010_SB437,Import,CHILE,Wine,Ochratoxin A,0,0.0,0
+2010MYC0045,2010_SB437,Import,TÜRKIYE,Fig,Deoxynivalenol,0,0.0,0
+2010MYC0045,2010_SB437,Import,TÜRKIYE,Fig,Ochratoxin A,0,0.0,0
+2010MYC0046,2010_SB437,Unknown,UNKNOWN,Fig,Deoxynivalenol,0,0.0,0
+2010MYC0046,2010_SB437,Unknown,UNKNOWN,Fig,Ochratoxin A,0,0.0,0
+2010MYC0047,2010_SB437,Import,UNITED STATES,Fig,Deoxynivalenol,0,0.0,0
+2010MYC0047,2010_SB437,Import,UNITED STATES,Fig,Ochratoxin A,0,0.0,0
+2010MYC0048,2010_SB437,Import,UNITED STATES,Fig,Deoxynivalenol,0,0.0,0
+2010MYC0048,2010_SB437,Import,UNITED STATES,Fig,Ochratoxin A,0,0.0,0
+2010MYC0049,2010_SB437,Unknown,UNKNOWN,Date,Deoxynivalenol,0,0.0,0
+2010MYC0049,2010_SB437,Unknown,UNKNOWN,Date,Ochratoxin A,0,0.0,0
+2010MYC0050,2010_SB437,Domestic,CANADA,Beer,Deoxynivalenol,6.1,6.1,1
+2010MYC0050,2010_SB437,Domestic,CANADA,Beer,Ochratoxin A,0,0.0,0
+2010MYC0051,2010_SB437,Import,"IRAN, ISLAMIC REPUBLIC OF",Date,Deoxynivalenol,0,0.0,0
+2010MYC0051,2010_SB437,Import,"IRAN, ISLAMIC REPUBLIC OF",Date,Ochratoxin A,0,0.0,0
+2010MYC0052,2010_SB437,Domestic,CANADA,Infant Food - Cereal,Deoxynivalenol,3.2,3.2,1
+2010MYC0052,2010_SB437,Domestic,CANADA,Infant Food - Cereal,Ochratoxin A,0,0.0,0
+2010MYC0053,2010_SB437,Import,UNKNOWN,Infant Food - Cereal,Deoxynivalenol,2,2.0,1
+2010MYC0053,2010_SB437,Import,UNKNOWN,Infant Food - Cereal,Ochratoxin A,0,0.0,0
+2010MYC0054,2010_SB437,Domestic,CANADA,Flour - Wheat,Deoxynivalenol,57,57.0,1
+2010MYC0054,2010_SB437,Domestic,CANADA,Flour - Wheat,Ochratoxin A,0.617,0.617,1
+2010MYC0055,2010_SB437,Domestic,CANADA,Flour - Wheat,Deoxynivalenol,99.7,99.7,1
+2010MYC0055,2010_SB437,Domestic,CANADA,Flour - Wheat,Ochratoxin A,0.91,0.91,1
+2010MYC0056,2010_SB437,Domestic,CANADA,Flour - Wheat,Deoxynivalenol,174,174.0,1
+2010MYC0056,2010_SB437,Domestic,CANADA,Flour - Wheat,Ochratoxin A,1.06,1.06,1
+2010MYC0057,2010_SB437,Domestic,CANADA,Flour - Wheat,Deoxynivalenol,56.5,56.5,1
+2010MYC0057,2010_SB437,Domestic,CANADA,Flour - Wheat,Ochratoxin A,0.883,0.883,1
+2010MYC0058,2010_SB437,Domestic,CANADA,Cornmeal,Deoxynivalenol,173,173.0,1
+2010MYC0058,2010_SB437,Domestic,CANADA,Cornmeal,Ochratoxin A,0,0.0,0
+2010MYC0059,2010_SB437,Domestic,CANADA,Cornmeal,Deoxynivalenol,302,302.0,1
+2010MYC0059,2010_SB437,Domestic,CANADA,Cornmeal,Ochratoxin A,0.37,0.37,1
+2010MYC0060,2010_SB437,Domestic,CANADA,Beer,Deoxynivalenol,34.3,34.3,1
+2010MYC0060,2010_SB437,Domestic,CANADA,Beer,Ochratoxin A,0.125,0.125,1
+2010MYC0061,2010_SB437,Domestic,CANADA,Beer,Deoxynivalenol,7.1,7.1,1
+2010MYC0061,2010_SB437,Domestic,CANADA,Beer,Ochratoxin A,0,0.0,0
+2010MYC0062,2010_SB437,Import,UNITED STATES,Raisin,Deoxynivalenol,0,0.0,0
+2010MYC0062,2010_SB437,Import,UNITED STATES,Raisin,Ochratoxin A,1.431,1.431,1
+2010MYC0063,2010_SB437,Unknown,UNKNOWN,Raisin,Deoxynivalenol,0,0.0,0
+2010MYC0063,2010_SB437,Unknown,UNKNOWN,Raisin,Ochratoxin A,0.178,0.178,1
+2010MYC0064,2010_SB437,Domestic,CANADA,Cereal - Adult,Deoxynivalenol,462,462.0,1
+2010MYC0064,2010_SB437,Domestic,CANADA,Cereal - Adult,Ochratoxin A,0,0.0,0
+2010MYC0065,2010_SB437,Domestic,CANADA,Cereal - Adult,Deoxynivalenol,15.1,15.1,1
+2010MYC0065,2010_SB437,Domestic,CANADA,Cereal - Adult,Ochratoxin A,0,0.0,0
+2010MYC0066,2010_SB437,Domestic,CANADA,Cereal - Adult,Deoxynivalenol,525,525.0,1
+2010MYC0066,2010_SB437,Domestic,CANADA,Cereal - Adult,Ochratoxin A,0.974,0.974,1
+2010MYC0067,2010_SB437,Domestic,CANADA,Beer,Deoxynivalenol,5.6,5.6,1
+2010MYC0067,2010_SB437,Domestic,CANADA,Beer,Ochratoxin A,0,0.0,0
+2010MYC0068,2010_SB437,Import,UNITED STATES,Infant Formula - Dairy,Deoxynivalenol,0,0.0,0
+2010MYC0068,2010_SB437,Import,UNITED STATES,Infant Formula - Dairy,Ochratoxin A,0,0.0,0
+2010MYC0069,2010_SB437,Import,UNITED STATES,Infant Formula - Dairy,Deoxynivalenol,0,0.0,0
+2010MYC0069,2010_SB437,Import,UNITED STATES,Infant Formula - Dairy,Ochratoxin A,0,0.0,0
+2010MYC0070,2010_SB437,Import,UNITED STATES,Raisin,Deoxynivalenol,0,0.0,0
+2010MYC0070,2010_SB437,Import,UNITED STATES,Raisin,Ochratoxin A,0,0.0,0
+2010MYC0071,2010_SB437,Import,UNKNOWN,Raisin,Deoxynivalenol,0,0.0,0
+2010MYC0071,2010_SB437,Import,UNKNOWN,Raisin,Ochratoxin A,3.82,3.82,1
+2010MYC0072,2010_SB437,Import,UNKNOWN,Raisin,Deoxynivalenol,0,0.0,0
+2010MYC0072,2010_SB437,Import,UNKNOWN,Raisin,Ochratoxin A,0,0.0,0
+2010MYC0073,2010_SB437,Import,UNITED STATES,Cereal - Adult,Deoxynivalenol,30.8,30.8,1
+2010MYC0073,2010_SB437,Import,UNITED STATES,Cereal - Adult,Ochratoxin A,0.959,0.959,1
+2010MYC0074,2010_SB437,Import,UNITED STATES,Cereal - Adult,Deoxynivalenol,122,122.0,1
+2010MYC0074,2010_SB437,Import,UNITED STATES,Cereal - Adult,Ochratoxin A,0.438,0.438,1
+2010MYC0075,2010_SB437,Import,SWITZERLAND,Cereal - Adult,Deoxynivalenol,16.3,16.3,1
+2010MYC0075,2010_SB437,Import,SWITZERLAND,Cereal - Adult,Ochratoxin A,0,0.0,0
+2010MYC0076,2010_SB437,Import,UNKNOWN,Cereal - Adult,Deoxynivalenol,56.6,56.6,1
+2010MYC0076,2010_SB437,Import,UNKNOWN,Cereal - Adult,Ochratoxin A,0.285,0.285,1
+2010MYC0077,2010_SB437,Domestic,CANADA,Beer,Deoxynivalenol,3.4,3.4,1
+2010MYC0077,2010_SB437,Domestic,CANADA,Beer,Ochratoxin A,0,0.0,0
+2010MYC0078,2010_SB437,Import,UNITED STATES,Infant Formula - Dairy,Deoxynivalenol,0,0.0,0
+2010MYC0078,2010_SB437,Import,UNITED STATES,Infant Formula - Dairy,Ochratoxin A,0,0.0,0
+2010MYC0079,2010_SB437,Domestic,CANADA,Beer,Deoxynivalenol,6.5,6.5,1
+2010MYC0079,2010_SB437,Domestic,CANADA,Beer,Ochratoxin A,0,0.0,0
+2010MYC0080,2010_SB437,Domestic,CANADA,Beer,Deoxynivalenol,3.1,3.1,1
+2010MYC0080,2010_SB437,Domestic,CANADA,Beer,Ochratoxin A,0,0.0,0
+2010MYC0081,2010_SB437,Import,SWITZERLAND,Infant Formula - Dairy,Deoxynivalenol,0,0.0,0
+2010MYC0081,2010_SB437,Import,SWITZERLAND,Infant Formula - Dairy,Ochratoxin A,0,0.0,0
+2010MYC0082,2010_SB437,Import,SWITZERLAND,Infant Formula - Dairy,Deoxynivalenol,0,0.0,0
+2010MYC0082,2010_SB437,Import,SWITZERLAND,Infant Formula - Dairy,Ochratoxin A,0,0.0,0
+2010MYC0083,2010_SB437,Import,UNITED STATES,Cereal - Adult,Deoxynivalenol,188,188.0,1
+2010MYC0083,2010_SB437,Import,UNITED STATES,Cereal - Adult,Ochratoxin A,0,0.0,0
+2010MYC0084,2010_SB437,Domestic,CANADA,Cereal - Adult,Deoxynivalenol,79,79.0,1
+2010MYC0084,2010_SB437,Domestic,CANADA,Cereal - Adult,Ochratoxin A,0.166,0.166,1
+2010MYC0085,2010_SB437,Domestic,CANADA,Cereal - Adult,Deoxynivalenol,359,359.0,1
+2010MYC0085,2010_SB437,Domestic,CANADA,Cereal - Adult,Ochratoxin A,1.336,1.336,1
+2010MYC0086,2010_SB437,Domestic,CANADA,Beer,Deoxynivalenol,1.2,1.2,1
+2010MYC0086,2010_SB437,Domestic,CANADA,Beer,Ochratoxin A,0.285,0.285,1
+2010MYC0087,2010_SB437,Import,UNITED STATES,Infant Formula - Soy,Deoxynivalenol,0,0.0,0
+2010MYC0087,2010_SB437,Import,UNITED STATES,Infant Formula - Soy,Ochratoxin A,0.063,0.063,1
+2010MYC0088,2010_SB437,Import,UNITED STATES,Infant Formula - Dairy,Deoxynivalenol,0,0.0,0
+2010MYC0088,2010_SB437,Import,UNITED STATES,Infant Formula - Dairy,Ochratoxin A,0,0.0,0
+2010MYC0089,2010_SB437,Import,SOUTH AFRICA,Raisin,Deoxynivalenol,0,0.0,0
+2010MYC0089,2010_SB437,Import,SOUTH AFRICA,Raisin,Ochratoxin A,0.115,0.115,1
+2010MYC0090,2010_SB437,Domestic,CANADA,Cereal - Adult,Deoxynivalenol,125,125.0,1
+2010MYC0090,2010_SB437,Domestic,CANADA,Cereal - Adult,Ochratoxin A,0.111,0.111,1
+2010MYC0091,2010_SB437,Domestic,CANADA,Cereal - Adult,Deoxynivalenol,314,314.0,1
+2010MYC0091,2010_SB437,Domestic,CANADA,Cereal - Adult,Ochratoxin A,0.438,0.438,1
+2010MYC0092,2010_SB437,Import,UNITED STATES,Cereal - Adult,Deoxynivalenol,40.5,40.5,1
+2010MYC0092,2010_SB437,Import,UNITED STATES,Cereal - Adult,Ochratoxin A,0.361,0.361,1
+2010MYC0093,2010_SB437,Import,UNITED STATES,Infant Formula - Dairy,Deoxynivalenol,0,0.0,0
+2010MYC0093,2010_SB437,Import,UNITED STATES,Infant Formula - Dairy,Ochratoxin A,0,0.0,0
+2010MYC0094,2010_SB437,Domestic,CANADA,Cereal - Adult,Deoxynivalenol,300,300.0,1
+2010MYC0094,2010_SB437,Domestic,CANADA,Cereal - Adult,Ochratoxin A,0,0.0,0
+2010MYC0095,2010_SB437,Domestic,CANADA,Cereal - Adult,Deoxynivalenol,271,271.0,1
+2010MYC0095,2010_SB437,Domestic,CANADA,Cereal - Adult,Ochratoxin A,0.77,0.77,1
+2010MYC0096,2010_SB437,Domestic,CANADA,Cereal - Adult,Deoxynivalenol,188,188.0,1
+2010MYC0096,2010_SB437,Domestic,CANADA,Cereal - Adult,Ochratoxin A,0.339,0.339,1
+2010MYC0097,2010_SB437,Domestic,CANADA,Cereal - Adult,Deoxynivalenol,2,2.0,1
+2010MYC0097,2010_SB437,Domestic,CANADA,Cereal - Adult,Ochratoxin A,0,0.0,0
+2010MYC0098,2010_SB437,Domestic,CANADA,Cereal - Adult,Deoxynivalenol,1.7,1.7,1
+2010MYC0098,2010_SB437,Domestic,CANADA,Cereal - Adult,Ochratoxin A,0,0.0,0
+2010MYC0099,2010_SB437,Domestic,CANADA,Cereal - Adult,Deoxynivalenol,97.4,97.4,1
+2010MYC0099,2010_SB437,Domestic,CANADA,Cereal - Adult,Ochratoxin A,0.655,0.655,1
+2010MYC0100,2010_SB437,Domestic,CANADA,Cereal - Adult,Deoxynivalenol,62.8,62.8,1
+2010MYC0100,2010_SB437,Domestic,CANADA,Cereal - Adult,Ochratoxin A,0.063,0.063,1
+2010MYC0101,2010_SB437,Import,UNITED STATES,Infant Formula - Dairy,Deoxynivalenol,0,0.0,0
+2010MYC0101,2010_SB437,Import,UNITED STATES,Infant Formula - Dairy,Ochratoxin A,0,0.0,0
+2010MYC0102,2010_SB437,Import,UNITED STATES,Infant Formula - Dairy,Deoxynivalenol,0,0.0,0
+2010MYC0102,2010_SB437,Import,UNITED STATES,Infant Formula - Dairy,Ochratoxin A,0,0.0,0
+2010MYC0103,2010_SB437,Import,AUSTRALIA,Wine,Deoxynivalenol,0,0.0,0
+2010MYC0103,2010_SB437,Import,AUSTRALIA,Wine,Ochratoxin A,0,0.0,0
+2010MYC0104,2010_SB437,Import,AUSTRALIA,Wine,Deoxynivalenol,0,0.0,0
+2010MYC0104,2010_SB437,Import,AUSTRALIA,Wine,Ochratoxin A,0,0.0,0
+2010MYC0105,2010_SB437,Import,NEW ZEALAND,Wine,Deoxynivalenol,0,0.0,0
+2010MYC0105,2010_SB437,Import,NEW ZEALAND,Wine,Ochratoxin A,0,0.0,0
+2010MYC0106,2010_SB437,Import,TÜRKIYE,Raisin,Deoxynivalenol,0,0.0,0
+2010MYC0106,2010_SB437,Import,TÜRKIYE,Raisin,Ochratoxin A,0.055,0.055,1
+2010MYC0107,2010_SB437,Import,SOUTH AFRICA,Raisin,Deoxynivalenol,0,0.0,0
+2010MYC0107,2010_SB437,Import,SOUTH AFRICA,Raisin,Ochratoxin A,0.088,0.088,1
+2010MYC0108,2010_SB437,Domestic,CANADA,Cereal - Adult,Deoxynivalenol,179,179.0,1
+2010MYC0108,2010_SB437,Domestic,CANADA,Cereal - Adult,Ochratoxin A,0,0.0,0
+2010MYC0109,2010_SB437,Import,UNITED STATES,Cereal - Adult,Deoxynivalenol,29,29.0,1
+2010MYC0109,2010_SB437,Import,UNITED STATES,Cereal - Adult,Ochratoxin A,0.271,0.271,1
+2010MYC0110,2010_SB437,Import,UNITED STATES,Cereal - Adult,Deoxynivalenol,115,115.0,1
+2010MYC0110,2010_SB437,Import,UNITED STATES,Cereal - Adult,Ochratoxin A,0.827,0.827,1
+2010MYC0111,2010_SB437,Import,UNITED STATES,Cereal - Adult,Deoxynivalenol,72.9,72.9,1
+2010MYC0111,2010_SB437,Import,UNITED STATES,Cereal - Adult,Ochratoxin A,0.496,0.496,1
+2010MYC0112,2010_SB437,Import,UNITED STATES,Cereal - Adult,Deoxynivalenol,25.9,25.9,1
+2010MYC0112,2010_SB437,Import,UNITED STATES,Cereal - Adult,Ochratoxin A,0,0.0,0
+2010MYC0113,2010_SB437,Domestic,CANADA,Cereal - Adult,Deoxynivalenol,156,156.0,1
+2010MYC0113,2010_SB437,Domestic,CANADA,Cereal - Adult,Ochratoxin A,0.205,0.205,1
+2010MYC0114,2010_SB437,Import,UNITED STATES,Cereal - Adult,Deoxynivalenol,0,0.0,0
+2010MYC0114,2010_SB437,Import,UNITED STATES,Cereal - Adult,Ochratoxin A,0,0.0,0
+2010MYC0115,2010_SB437,Domestic,CANADA,Chips - Corn,Deoxynivalenol,1440,1440.0,1
+2010MYC0115,2010_SB437,Domestic,CANADA,Chips - Corn,Ochratoxin A,0,0.0,0
+2010MYC0116,2010_SB437,Import,UNITED STATES,Infant Formula - Dairy,Deoxynivalenol,0,0.0,0
+2010MYC0116,2010_SB437,Import,UNITED STATES,Infant Formula - Dairy,Ochratoxin A,0,0.0,0
+2010MYC0117,2010_SB437,Unknown,UNKNOWN,Infant Formula - Dairy,Deoxynivalenol,0,0.0,0
+2010MYC0117,2010_SB437,Unknown,UNKNOWN,Infant Formula - Dairy,Ochratoxin A,0,0.0,0
+2010MYC0118,2010_SB437,Import,UNITED STATES,Infant Formula - Dairy,Deoxynivalenol,0,0.0,0
+2010MYC0118,2010_SB437,Import,UNITED STATES,Infant Formula - Dairy,Ochratoxin A,0,0.0,0
+2010MYC0119,2010_SB437,Import,UNITED STATES,Infant Formula - Dairy,Deoxynivalenol,0,0.0,0
+2010MYC0119,2010_SB437,Import,UNITED STATES,Infant Formula - Dairy,Ochratoxin A,0,0.0,0
+2010MYC0120,2010_SB437,Import,AUSTRALIA,Wine,Deoxynivalenol,0,0.0,0
+2010MYC0120,2010_SB437,Import,AUSTRALIA,Wine,Ochratoxin A,0,0.0,0
+2010MYC0121,2010_SB437,Domestic,CANADA,Cereal - Adult,Deoxynivalenol,56.9,56.9,1
+2010MYC0121,2010_SB437,Domestic,CANADA,Cereal - Adult,Ochratoxin A,0.207,0.207,1
+2010MYC0122,2010_SB437,Domestic,CANADA,Cereal - Adult,Deoxynivalenol,322,322.0,1
+2010MYC0122,2010_SB437,Domestic,CANADA,Cereal - Adult,Ochratoxin A,0,0.0,0
+2010MYC0123,2010_SB437,Import,UNITED KINGDOM,Cereal - Adult,Deoxynivalenol,4.1,4.1,1
+2010MYC0123,2010_SB437,Import,UNITED KINGDOM,Cereal - Adult,Ochratoxin A,0.065,0.065,1
+2010MYC0124,2010_SB437,Import,POLAND,Infant Food - Cereal,Deoxynivalenol,5.3,5.3,1
+2010MYC0124,2010_SB437,Import,POLAND,Infant Food - Cereal,Ochratoxin A,0,0.0,0
+2010MYC0125,2010_SB437,Unknown,UNKNOWN,Infant Food - Cereal,Deoxynivalenol,1.8,1.8,1
+2010MYC0125,2010_SB437,Unknown,UNKNOWN,Infant Food - Cereal,Ochratoxin A,0,0.0,0
+2010MYC0126,2010_SB437,Domestic,CANADA,Infant Food - Cereal,Deoxynivalenol,3.1,3.1,1
+2010MYC0126,2010_SB437,Domestic,CANADA,Infant Food - Cereal,Ochratoxin A,0.116,0.116,1
+2010MYC0127,2010_SB437,Domestic,CANADA,Chips - Corn,Deoxynivalenol,34,34.0,1
+2010MYC0127,2010_SB437,Domestic,CANADA,Chips - Corn,Ochratoxin A,0,0.0,0
+2010MYC0128,2010_SB437,Domestic,CANADA,Chips - Corn,Deoxynivalenol,82.9,82.9,1
+2010MYC0128,2010_SB437,Domestic,CANADA,Chips - Corn,Ochratoxin A,0,0.0,0
+2010MYC0129,2010_SB437,Import,UNITED STATES,Infant Formula - Dairy,Deoxynivalenol,0,0.0,0
+2010MYC0129,2010_SB437,Import,UNITED STATES,Infant Formula - Dairy,Ochratoxin A,0,0.0,0
+2010MYC0130,2010_SB437,Import,UNITED STATES,Infant Formula - Dairy,Deoxynivalenol,0,0.0,0
+2010MYC0130,2010_SB437,Import,UNITED STATES,Infant Formula - Dairy,Ochratoxin A,0,0.0,0
+2010MYC0131,2010_SB437,Import,UNITED STATES,Infant Formula - Dairy,Deoxynivalenol,0,0.0,0
+2010MYC0131,2010_SB437,Import,UNITED STATES,Infant Formula - Dairy,Ochratoxin A,0,0.0,0
+2010MYC0132,2010_SB437,Import,UNITED STATES,Infant Formula - Dairy,Deoxynivalenol,0,0.0,0
+2010MYC0132,2010_SB437,Import,UNITED STATES,Infant Formula - Dairy,Ochratoxin A,0,0.0,0
+2010MYC0133,2010_SB437,Import,AUSTRALIA,Wine,Deoxynivalenol,0,0.0,0
+2010MYC0133,2010_SB437,Import,AUSTRALIA,Wine,Ochratoxin A,0,0.0,0
+2010MYC0134,2010_SB437,Import,AUSTRALIA,Wine,Deoxynivalenol,0,0.0,0
+2010MYC0134,2010_SB437,Import,AUSTRALIA,Wine,Ochratoxin A,0,0.0,0
+2010MYC0135,2010_SB437,Import,AUSTRALIA,Wine,Deoxynivalenol,0,0.0,0
+2010MYC0135,2010_SB437,Import,AUSTRALIA,Wine,Ochratoxin A,0,0.0,0
+2010MYC0136,2010_SB437,Import,AUSTRALIA,Wine,Deoxynivalenol,0,0.0,0
+2010MYC0136,2010_SB437,Import,AUSTRALIA,Wine,Ochratoxin A,0,0.0,0
+2010MYC0137,2010_SB437,Import,AUSTRALIA,Wine,Deoxynivalenol,0,0.0,0
+2010MYC0137,2010_SB437,Import,AUSTRALIA,Wine,Ochratoxin A,0,0.0,0
+2010MYC0138,2010_SB437,Import,UNITED STATES,Raisin,Deoxynivalenol,0,0.0,0
+2010MYC0138,2010_SB437,Import,UNITED STATES,Raisin,Ochratoxin A,0.483,0.483,1
+2010MYC0139,2010_SB437,Domestic,CANADA,Cereal - Adult,Deoxynivalenol,203,203.0,1
+2010MYC0139,2010_SB437,Domestic,CANADA,Cereal - Adult,Ochratoxin A,0,0.0,0
+2010MYC0140,2010_SB437,Domestic,CANADA,Cereal - Adult,Deoxynivalenol,650,650.0,1
+2010MYC0140,2010_SB437,Domestic,CANADA,Cereal - Adult,Ochratoxin A,0.403,0.403,1
+2010MYC0141,2010_SB437,Import,UNITED STATES,Cereal - Adult,Deoxynivalenol,0,0.0,0
+2010MYC0141,2010_SB437,Import,UNITED STATES,Cereal - Adult,Ochratoxin A,0,0.0,0
+2010MYC0142,2010_SB437,Import,SWITZERLAND,Cereal - Adult,Deoxynivalenol,9.5,9.5,1
+2010MYC0142,2010_SB437,Import,SWITZERLAND,Cereal - Adult,Ochratoxin A,0.063,0.063,1
+2010MYC0143,2010_SB437,Import,UNKNOWN,Infant Food - Cereal,Deoxynivalenol,27.3,27.3,1
+2010MYC0143,2010_SB437,Import,UNKNOWN,Infant Food - Cereal,Ochratoxin A,0,0.0,0
+2010MYC0144,2010_SB437,Import,UNITED STATES,Infant Food - Cereal,Deoxynivalenol,0,0.0,0
+2010MYC0144,2010_SB437,Import,UNITED STATES,Infant Food - Cereal,Ochratoxin A,0,0.0,0
+2010MYC0145,2010_SB437,Domestic,CANADA,Infant Food - Cereal,Deoxynivalenol,9.9,9.9,1
+2010MYC0145,2010_SB437,Domestic,CANADA,Infant Food - Cereal,Ochratoxin A,1.587,1.587,1
+2010MYC0146,2010_SB437,Import,POLAND,Infant Food - Cereal,Deoxynivalenol,7.7,7.7,1
+2010MYC0146,2010_SB437,Import,POLAND,Infant Food - Cereal,Ochratoxin A,0,0.0,0
+2010MYC0147,2010_SB437,Domestic,CANADA,Flour - Wheat,Deoxynivalenol,85.3,85.3,1
+2010MYC0147,2010_SB437,Domestic,CANADA,Flour - Wheat,Ochratoxin A,2.201,2.201,1
+2010MYC0148,2010_SB437,Domestic,CANADA,Flour - Wheat,Deoxynivalenol,5.2,5.2,1
+2010MYC0148,2010_SB437,Domestic,CANADA,Flour - Wheat,Ochratoxin A,2.513,2.513,1
+2010MYC0149,2010_SB437,Import,UNITED STATES,Chips - Corn,Deoxynivalenol,51.5,51.5,1
+2010MYC0149,2010_SB437,Import,UNITED STATES,Chips - Corn,Ochratoxin A,0,0.0,0
+2010MYC0150,2010_SB437,Import,UNKNOWN,Chips - Corn,Deoxynivalenol,51.9,51.9,1
+2010MYC0150,2010_SB437,Import,UNKNOWN,Chips - Corn,Ochratoxin A,0,0.0,0
+2010MYC0151,2010_SB437,Domestic,CANADA,Beer,Deoxynivalenol,7,7.0,1
+2010MYC0151,2010_SB437,Domestic,CANADA,Beer,Ochratoxin A,0,0.0,0
+2010MYC0152,2010_SB437,Import,UNITED STATES,Infant Formula - Dairy,Deoxynivalenol,0,0.0,0
+2010MYC0152,2010_SB437,Import,UNITED STATES,Infant Formula - Dairy,Ochratoxin A,0,0.0,0
+2010MYC0153,2010_SB437,Import,AUSTRALIA,Wine,Deoxynivalenol,0,0.0,0
+2010MYC0153,2010_SB437,Import,AUSTRALIA,Wine,Ochratoxin A,0,0.0,0
+2010MYC0154,2010_SB437,Import,AUSTRALIA,Wine,Deoxynivalenol,0,0.0,0
+2010MYC0154,2010_SB437,Import,AUSTRALIA,Wine,Ochratoxin A,0,0.0,0
+2010MYC0155,2010_SB437,Import,AUSTRALIA,Wine,Deoxynivalenol,0,0.0,0
+2010MYC0155,2010_SB437,Import,AUSTRALIA,Wine,Ochratoxin A,0,0.0,0
+2010MYC0156,2010_SB437,Domestic,CANADA,Cereal - Adult,Deoxynivalenol,404,404.0,1
+2010MYC0156,2010_SB437,Domestic,CANADA,Cereal - Adult,Ochratoxin A,2.848,2.848,1
+2010MYC0157,2010_SB437,Domestic,CANADA,Cereal - Adult,Deoxynivalenol,172,172.0,1
+2010MYC0157,2010_SB437,Domestic,CANADA,Cereal - Adult,Ochratoxin A,0,0.0,0
+2010MYC0158,2010_SB437,Domestic,CANADA,Cereal - Adult,Deoxynivalenol,22.4,22.4,1
+2010MYC0158,2010_SB437,Domestic,CANADA,Cereal - Adult,Ochratoxin A,0,0.0,0
+2010MYC0159,2010_SB437,Import,UNKNOWN,Infant Food - Cereal,Deoxynivalenol,1.7,1.7,1
+2010MYC0159,2010_SB437,Import,UNKNOWN,Infant Food - Cereal,Ochratoxin A,0,0.0,0
+2010MYC0160,2010_SB437,Domestic,CANADA,Infant Food - Cereal,Deoxynivalenol,20.9,20.9,1
+2010MYC0160,2010_SB437,Domestic,CANADA,Infant Food - Cereal,Ochratoxin A,0.366,0.366,1
+2010MYC0161,2010_SB437,Domestic,CANADA,Flour - Wheat,Deoxynivalenol,147,147.0,1
+2010MYC0161,2010_SB437,Domestic,CANADA,Flour - Wheat,Ochratoxin A,0.735,0.735,1
+2010MYC0162,2010_SB437,Domestic,CANADA,Chips - Corn,Deoxynivalenol,107,107.0,1
+2010MYC0162,2010_SB437,Domestic,CANADA,Chips - Corn,Ochratoxin A,0,0.0,0
+2010MYC0163,2010_SB437,Domestic,CANADA,Beer,Deoxynivalenol,3.8,3.8,1
+2010MYC0163,2010_SB437,Domestic,CANADA,Beer,Ochratoxin A,0,0.0,0
+2010MYC0164,2010_SB437,Import,UNITED STATES,Infant Formula - Dairy,Deoxynivalenol,0,0.0,0
+2010MYC0164,2010_SB437,Import,UNITED STATES,Infant Formula - Dairy,Ochratoxin A,0,0.0,0
+2010MYC0165,2010_SB437,Import,UNITED STATES,Infant Formula - Dairy,Deoxynivalenol,0,0.0,0
+2010MYC0165,2010_SB437,Import,UNITED STATES,Infant Formula - Dairy,Ochratoxin A,0,0.0,0
+2010MYC0166,2010_SB437,Import,AUSTRALIA,Wine,Deoxynivalenol,0,0.0,0
+2010MYC0166,2010_SB437,Import,AUSTRALIA,Wine,Ochratoxin A,0,0.0,0
+2010MYC0167,2010_SB437,Import,AUSTRALIA,Wine,Deoxynivalenol,0,0.0,0
+2010MYC0167,2010_SB437,Import,AUSTRALIA,Wine,Ochratoxin A,0,0.0,0
+2010MYC0168,2010_SB437,Import,AUSTRALIA,Wine,Deoxynivalenol,0,0.0,0
+2010MYC0168,2010_SB437,Import,AUSTRALIA,Wine,Ochratoxin A,0,0.0,0
+2010MYC0169,2010_SB437,Import,SOUTH AFRICA,Raisin,Deoxynivalenol,0,0.0,0
+2010MYC0169,2010_SB437,Import,SOUTH AFRICA,Raisin,Ochratoxin A,0.106,0.106,1
+2010MYC0170,2010_SB437,Import,UNITED STATES,Raisin,Deoxynivalenol,0,0.0,0
+2010MYC0170,2010_SB437,Import,UNITED STATES,Raisin,Ochratoxin A,0,0.0,0
+2010MYC0171,2010_SB437,Import,UNITED STATES,Cereal - Children,Deoxynivalenol,29.2,29.2,1
+2010MYC0171,2010_SB437,Import,UNITED STATES,Cereal - Children,Ochratoxin A,0,0.0,0
+2010MYC0172,2010_SB437,Domestic,CANADA,Cereal - Adult,Deoxynivalenol,66.9,66.9,1
+2010MYC0172,2010_SB437,Domestic,CANADA,Cereal - Adult,Ochratoxin A,0.23,0.23,1
+2010MYC0173,2010_SB437,Import,SWITZERLAND,Cereal - Adult,Deoxynivalenol,6.1,6.1,1
+2010MYC0173,2010_SB437,Import,SWITZERLAND,Cereal - Adult,Ochratoxin A,0.147,0.147,1
+2010MYC0174,2010_SB437,Import,UNITED KINGDOM,Cereal - Adult,Deoxynivalenol,1.5,1.5,1
+2010MYC0174,2010_SB437,Import,UNITED KINGDOM,Cereal - Adult,Ochratoxin A,0,0.0,0
+2010MYC0175,2010_SB437,Import,UNITED KINGDOM,Cereal - Adult,Deoxynivalenol,1.3,1.3,1
+2010MYC0175,2010_SB437,Import,UNITED KINGDOM,Cereal - Adult,Ochratoxin A,1.088,1.088,1
+2010MYC0176,2010_SB437,Domestic,CANADA,Infant Food - Cereal,Deoxynivalenol,0,0.0,0
+2010MYC0176,2010_SB437,Domestic,CANADA,Infant Food - Cereal,Ochratoxin A,0,0.0,0
+2010MYC0177,2010_SB437,Import,SWITZERLAND,Infant Food - Cereal,Deoxynivalenol,28.7,28.7,1
+2010MYC0177,2010_SB437,Import,SWITZERLAND,Infant Food - Cereal,Ochratoxin A,0,0.0,0
+2010MYC0178,2010_SB437,Import,POLAND,Infant Food - Cereal,Deoxynivalenol,5.8,5.8,1
+2010MYC0178,2010_SB437,Import,POLAND,Infant Food - Cereal,Ochratoxin A,0,0.0,0
+2010MYC0179,2010_SB437,Import,SWITZERLAND,Infant Food - Cereal,Deoxynivalenol,2.1,2.1,1
+2010MYC0179,2010_SB437,Import,SWITZERLAND,Infant Food - Cereal,Ochratoxin A,0,0.0,0
+2010MYC0180,2010_SB437,Domestic,CANADA,Flour - Wheat,Deoxynivalenol,302,302.0,1
+2010MYC0180,2010_SB437,Domestic,CANADA,Flour - Wheat,Ochratoxin A,0.171,0.171,1
+2010MYC0181,2010_SB437,Import,UNKNOWN,Chips - Corn,Deoxynivalenol,2.3,2.3,1
+2010MYC0181,2010_SB437,Import,UNKNOWN,Chips - Corn,Ochratoxin A,0,0.0,0
+2010MYC0182,2010_SB437,Domestic,CANADA,Chips - Corn,Deoxynivalenol,27,27.0,1
+2010MYC0182,2010_SB437,Domestic,CANADA,Chips - Corn,Ochratoxin A,0,0.0,0
+2010MYC0183,2010_SB437,Domestic,CANADA,Beer,Deoxynivalenol,4.3,4.3,1
+2010MYC0183,2010_SB437,Domestic,CANADA,Beer,Ochratoxin A,0,0.0,0
+2010MYC0184,2010_SB437,Domestic,CANADA,Beer,Deoxynivalenol,6.1,6.1,1
+2010MYC0184,2010_SB437,Domestic,CANADA,Beer,Ochratoxin A,0,0.0,0
+2010MYC0185,2010_SB437,Import,UNITED STATES,Infant Formula - Dairy,Deoxynivalenol,0,0.0,0
+2010MYC0185,2010_SB437,Import,UNITED STATES,Infant Formula - Dairy,Ochratoxin A,0,0.0,0
+2010MYC0186,2010_SB437,Import,SWITZERLAND,Infant Formula - Dairy,Deoxynivalenol,0,0.0,0
+2010MYC0186,2010_SB437,Import,SWITZERLAND,Infant Formula - Dairy,Ochratoxin A,0,0.0,0
+2010MYC0187,2010_SB437,Import,AUSTRALIA,Wine,Deoxynivalenol,0,0.0,0
+2010MYC0187,2010_SB437,Import,AUSTRALIA,Wine,Ochratoxin A,0,0.0,0
+2010MYC0188,2010_SB437,Import,SOUTH AFRICA,Raisin,Deoxynivalenol,0,0.0,0
+2010MYC0188,2010_SB437,Import,SOUTH AFRICA,Raisin,Ochratoxin A,0.053,0.053,1
+2010MYC0189,2010_SB437,Import,UNKNOWN,Cereal - Children,Deoxynivalenol,2.7,2.7,1
+2010MYC0189,2010_SB437,Import,UNKNOWN,Cereal - Children,Ochratoxin A,0.04,0.04,1
+2010MYC0190,2010_SB437,Import,UNKNOWN,Cereal - Children,Deoxynivalenol,97.4,97.4,1
+2010MYC0190,2010_SB437,Import,UNKNOWN,Cereal - Children,Ochratoxin A,0,0.0,0
+2010MYC0191,2010_SB437,Domestic,CANADA,Cereal - Adult,Deoxynivalenol,62.2,62.2,1
+2010MYC0191,2010_SB437,Domestic,CANADA,Cereal - Adult,Ochratoxin A,0.844,0.844,1
+2010MYC0192,2010_SB437,Domestic,CANADA,Cereal - Adult,Deoxynivalenol,64,64.0,1
+2010MYC0192,2010_SB437,Domestic,CANADA,Cereal - Adult,Ochratoxin A,0.066,0.066,1
+2010MYC0193,2010_SB437,Import,UNITED STATES,Cereal - Adult,Deoxynivalenol,13.7,13.7,1
+2010MYC0193,2010_SB437,Import,UNITED STATES,Cereal - Adult,Ochratoxin A,2.55,2.55,1
+2010MYC0194,2010_SB437,Domestic,CANADA,Cereal - Adult,Deoxynivalenol,183,183.0,1
+2010MYC0194,2010_SB437,Domestic,CANADA,Cereal - Adult,Ochratoxin A,1.073,1.073,1
+2010MYC0195,2010_SB437,Import,UNITED STATES,Cereal - Adult,Deoxynivalenol,17.2,17.2,1
+2010MYC0195,2010_SB437,Import,UNITED STATES,Cereal - Adult,Ochratoxin A,0.879,0.879,1
+2010MYC0196,2010_SB437,Domestic,CANADA,Cereal - Adult,Deoxynivalenol,20.7,20.7,1
+2010MYC0196,2010_SB437,Domestic,CANADA,Cereal - Adult,Ochratoxin A,0.466,0.466,1
+2010MYC0197,2010_SB437,Import,UNITED STATES,Cereal - Adult,Deoxynivalenol,31.7,31.7,1
+2010MYC0197,2010_SB437,Import,UNITED STATES,Cereal - Adult,Ochratoxin A,0.21,0.21,1
+2010MYC0198,2010_SB437,Import,UNITED STATES,Cereal - Adult,Deoxynivalenol,12.8,12.8,1
+2010MYC0198,2010_SB437,Import,UNITED STATES,Cereal - Adult,Ochratoxin A,0.338,0.338,1
+2010MYC0199,2010_SB437,Import,UNKNOWN,Cereal - Adult,Deoxynivalenol,12.8,12.8,1
+2010MYC0199,2010_SB437,Import,UNKNOWN,Cereal - Adult,Ochratoxin A,0,0.0,0
+2010MYC0200,2010_SB437,Domestic,CANADA,Infant Food - Cereal,Deoxynivalenol,0,0.0,0
+2010MYC0200,2010_SB437,Domestic,CANADA,Infant Food - Cereal,Ochratoxin A,0,0.0,0
+2010MYC0201,2010_SB437,Import,SWITZERLAND,Infant Food - Cereal,Deoxynivalenol,31.9,31.9,1
+2010MYC0201,2010_SB437,Import,SWITZERLAND,Infant Food - Cereal,Ochratoxin A,0,0.0,0
+2010MYC0202,2010_SB437,Import,SWITZERLAND,Infant Food - Cereal,Deoxynivalenol,3.3,3.3,1
+2010MYC0202,2010_SB437,Import,SWITZERLAND,Infant Food - Cereal,Ochratoxin A,0.057,0.057,1
+2010MYC0203,2010_SB437,Import,POLAND,Infant Food - Cereal,Deoxynivalenol,15.8,15.8,1
+2010MYC0203,2010_SB437,Import,POLAND,Infant Food - Cereal,Ochratoxin A,0,0.0,0
+2010MYC0204,2010_SB437,Import,SWITZERLAND,Infant Food - Cereal,Deoxynivalenol,1.3,1.3,1
+2010MYC0204,2010_SB437,Import,SWITZERLAND,Infant Food - Cereal,Ochratoxin A,0,0.0,0
+2010MYC0205,2010_SB437,Domestic,CANADA,Chips - Corn,Deoxynivalenol,1,1.0,1
+2010MYC0205,2010_SB437,Domestic,CANADA,Chips - Corn,Ochratoxin A,0,0.0,0
+2010MYC0206,2010_SB437,Import,UNITED STATES,Infant Formula - Dairy,Deoxynivalenol,0,0.0,0
+2010MYC0206,2010_SB437,Import,UNITED STATES,Infant Formula - Dairy,Ochratoxin A,0,0.0,0
+2010MYC0207,2010_SB437,Import,AUSTRALIA,Wine,Deoxynivalenol,0,0.0,0
+2010MYC0207,2010_SB437,Import,AUSTRALIA,Wine,Ochratoxin A,0,0.0,0
+2010MYC0208,2010_SB437,Import,AUSTRALIA,Wine,Deoxynivalenol,0,0.0,0
+2010MYC0208,2010_SB437,Import,AUSTRALIA,Wine,Ochratoxin A,0,0.0,0
+2010MYC0209,2010_SB437,Import,AUSTRALIA,Wine,Deoxynivalenol,0,0.0,0
+2010MYC0209,2010_SB437,Import,AUSTRALIA,Wine,Ochratoxin A,0,0.0,0
+2010MYC0210,2010_SB437,Import,AUSTRALIA,Wine,Deoxynivalenol,0,0.0,0
+2010MYC0210,2010_SB437,Import,AUSTRALIA,Wine,Ochratoxin A,0,0.0,0
+2010MYC0211,2010_SB437,Import,AUSTRALIA,Wine,Deoxynivalenol,0,0.0,0
+2010MYC0211,2010_SB437,Import,AUSTRALIA,Wine,Ochratoxin A,0,0.0,0
+2010MYC0212,2010_SB437,Import,NEW ZEALAND,Wine,Deoxynivalenol,0,0.0,0
+2010MYC0212,2010_SB437,Import,NEW ZEALAND,Wine,Ochratoxin A,0,0.0,0
+2010MYC0213,2010_SB437,Import,NEW ZEALAND,Wine,Deoxynivalenol,0,0.0,0
+2010MYC0213,2010_SB437,Import,NEW ZEALAND,Wine,Ochratoxin A,0,0.0,0
+2010MYC0214,2010_SB437,Import,NEW ZEALAND,Wine,Deoxynivalenol,0,0.0,0
+2010MYC0214,2010_SB437,Import,NEW ZEALAND,Wine,Ochratoxin A,0,0.0,0
+2010MYC0215,2010_SB437,Import,SOUTH AFRICA,Raisin,Deoxynivalenol,0,0.0,0
+2010MYC0215,2010_SB437,Import,SOUTH AFRICA,Raisin,Ochratoxin A,0,0.0,0
+2010MYC0216,2010_SB437,Import,SOUTH AFRICA,Raisin,Deoxynivalenol,0,0.0,0
+2010MYC0216,2010_SB437,Import,SOUTH AFRICA,Raisin,Ochratoxin A,0.331,0.331,1
+2010MYC0217,2010_SB437,Import,SOUTH AFRICA,Raisin,Deoxynivalenol,0,0.0,0
+2010MYC0217,2010_SB437,Import,SOUTH AFRICA,Raisin,Ochratoxin A,0.343,0.343,1
+2010MYC0218,2010_SB437,Import,SOUTH AFRICA,Raisin,Deoxynivalenol,0,0.0,0
+2010MYC0218,2010_SB437,Import,SOUTH AFRICA,Raisin,Ochratoxin A,0.395,0.395,1
+2010MYC0219,2010_SB437,Import,UNKNOWN,Cereal - Children,Deoxynivalenol,60.7,60.7,1
+2010MYC0219,2010_SB437,Import,UNKNOWN,Cereal - Children,Ochratoxin A,0.258,0.258,1
+2010MYC0220,2010_SB437,Domestic,CANADA,Cereal - Adult,Deoxynivalenol,80,80.0,1
+2010MYC0220,2010_SB437,Domestic,CANADA,Cereal - Adult,Ochratoxin A,0,0.0,0
+2010MYC0221,2010_SB437,Import,UNITED STATES,Cereal - Adult,Deoxynivalenol,2.9,2.9,1
+2010MYC0221,2010_SB437,Import,UNITED STATES,Cereal - Adult,Ochratoxin A,0.096,0.096,1
+2010MYC0222,2010_SB437,Import,UNITED STATES,Cereal - Adult,Deoxynivalenol,6.8,6.8,1
+2010MYC0222,2010_SB437,Import,UNITED STATES,Cereal - Adult,Ochratoxin A,0.287,0.287,1
+2010MYC0223,2010_SB437,Domestic,CANADA,Cereal - Adult,Deoxynivalenol,94.8,94.8,1
+2010MYC0223,2010_SB437,Domestic,CANADA,Cereal - Adult,Ochratoxin A,0.556,0.556,1
+2010MYC0224,2010_SB437,Domestic,CANADA,Infant Food - Cereal,Deoxynivalenol,4.1,4.1,1
+2010MYC0224,2010_SB437,Domestic,CANADA,Infant Food - Cereal,Ochratoxin A,0.344,0.344,1
+2010MYC0225,2010_SB437,Domestic,CANADA,Flour - Wheat,Deoxynivalenol,32.6,32.6,1
+2010MYC0225,2010_SB437,Domestic,CANADA,Flour - Wheat,Ochratoxin A,0.433,0.433,1
+2010MYC0226,2010_SB437,Import,UNITED STATES,Chips - Corn,Deoxynivalenol,5.1,5.1,1
+2010MYC0226,2010_SB437,Import,UNITED STATES,Chips - Corn,Ochratoxin A,0,0.0,0
+2010MYC0227,2010_SB437,Import,UNITED STATES,Infant Formula - Dairy,Deoxynivalenol,0,0.0,0
+2010MYC0227,2010_SB437,Import,UNITED STATES,Infant Formula - Dairy,Ochratoxin A,0,0.0,0
+2010MYC0228,2010_SB437,Import,UNITED STATES,Infant Formula - Dairy,Deoxynivalenol,0,0.0,0
+2010MYC0228,2010_SB437,Import,UNITED STATES,Infant Formula - Dairy,Ochratoxin A,0,0.0,0
+2010MYC0229,2010_SB437,Import,SWITZERLAND,Infant Formula - Dairy,Deoxynivalenol,0,0.0,0
+2010MYC0229,2010_SB437,Import,SWITZERLAND,Infant Formula - Dairy,Ochratoxin A,0,0.0,0
+2010MYC0230,2010_SB437,Import,AUSTRALIA,Wine,Deoxynivalenol,0,0.0,0
+2010MYC0230,2010_SB437,Import,AUSTRALIA,Wine,Ochratoxin A,0,0.0,0
+2010MYC0231,2010_SB437,Import,AUSTRALIA,Wine,Deoxynivalenol,0,0.0,0
+2010MYC0231,2010_SB437,Import,AUSTRALIA,Wine,Ochratoxin A,0,0.0,0
+2010MYC0232,2010_SB437,Import,AUSTRALIA,Wine,Deoxynivalenol,0,0.0,0
+2010MYC0232,2010_SB437,Import,AUSTRALIA,Wine,Ochratoxin A,0,0.0,0
+2010MYC0233,2010_SB437,Import,NEW ZEALAND,Wine,Deoxynivalenol,0,0.0,0
+2010MYC0233,2010_SB437,Import,NEW ZEALAND,Wine,Ochratoxin A,0,0.0,0
+2010MYC0234,2010_SB437,Import,SOUTH AFRICA,Wine,Deoxynivalenol,0,0.0,0
+2010MYC0234,2010_SB437,Import,SOUTH AFRICA,Wine,Ochratoxin A,0,0.0,0
+2010MYC0235,2010_SB437,Domestic,CANADA,Beer,Deoxynivalenol,2.2,2.2,1
+2010MYC0235,2010_SB437,Domestic,CANADA,Beer,Ochratoxin A,0,0.0,0
+2010MYC0236,2010_SB437,Domestic,CANADA,Beer,Deoxynivalenol,2.1,2.1,1
+2010MYC0236,2010_SB437,Domestic,CANADA,Beer,Ochratoxin A,0.083,0.083,1
+2010MYC0237,2010_SB437,Domestic,CANADA,Beer,Deoxynivalenol,5.1,5.1,1
+2010MYC0237,2010_SB437,Domestic,CANADA,Beer,Ochratoxin A,0,0.0,0
+2010MYC0238,2010_SB437,Import,TÜRKIYE,Fig,Deoxynivalenol,0,0.0,0
+2010MYC0238,2010_SB437,Import,TÜRKIYE,Fig,Ochratoxin A,0,0.0,0
+2010MYC0239,2010_SB437,Import,UNITED STATES,Fig,Deoxynivalenol,0,0.0,0
+2010MYC0239,2010_SB437,Import,UNITED STATES,Fig,Ochratoxin A,0,0.0,0
+2010MYC0240,2010_SB437,Domestic,CANADA,Cereal - Children,Deoxynivalenol,12.1,12.1,1
+2010MYC0240,2010_SB437,Domestic,CANADA,Cereal - Children,Ochratoxin A,0,0.0,0
+2010MYC0241,2010_SB437,Domestic,CANADA,Cereal - Adult,Deoxynivalenol,690,690.0,1
+2010MYC0241,2010_SB437,Domestic,CANADA,Cereal - Adult,Ochratoxin A,0.051,0.051,1
+2010MYC0242,2010_SB437,Domestic,CANADA,Cereal - Children,Deoxynivalenol,101,101.0,1
+2010MYC0242,2010_SB437,Domestic,CANADA,Cereal - Children,Ochratoxin A,0,0.0,0
+2010MYC0243,2010_SB437,Domestic,CANADA,Cereal - Adult,Deoxynivalenol,6.33,6.33,1
+2010MYC0243,2010_SB437,Domestic,CANADA,Cereal - Adult,Ochratoxin A,0,0.0,0
+2010MYC0244,2010_SB437,Import,UNITED STATES,Cereal - Children,Deoxynivalenol,436,436.0,1
+2010MYC0244,2010_SB437,Import,UNITED STATES,Cereal - Children,Ochratoxin A,0.074,0.074,1
+2010MYC0245,2010_SB437,Domestic,CANADA,Cereal - Children,Deoxynivalenol,56.8,56.8,1
+2010MYC0245,2010_SB437,Domestic,CANADA,Cereal - Children,Ochratoxin A,0,0.0,0
+2010MYC0246,2010_SB437,Import,UNITED STATES,Cereal - Adult,Deoxynivalenol,39,39.0,1
+2010MYC0246,2010_SB437,Import,UNITED STATES,Cereal - Adult,Ochratoxin A,0.319,0.319,1
+2010MYC0247,2010_SB437,Import,POLAND,Infant Food - Cereal,Deoxynivalenol,1.54,1.54,1
+2010MYC0247,2010_SB437,Import,POLAND,Infant Food - Cereal,Ochratoxin A,0,0.0,0
+2010MYC0248,2010_SB437,Domestic,CANADA,Infant Food - Cereal,Deoxynivalenol,0,0.0,0
+2010MYC0248,2010_SB437,Domestic,CANADA,Infant Food - Cereal,Ochratoxin A,0,0.0,0
+2010MYC0249,2010_SB437,Import,SWITZERLAND,Infant Food - Cereal,Deoxynivalenol,12.6,12.6,1
+2010MYC0249,2010_SB437,Import,SWITZERLAND,Infant Food - Cereal,Ochratoxin A,0,0.0,0
+2010MYC0250,2010_SB437,Domestic,CANADA,Flour - Wheat,Deoxynivalenol,310,310.0,1
+2010MYC0250,2010_SB437,Domestic,CANADA,Flour - Wheat,Ochratoxin A,0.286,0.286,1
+2010MYC0251,2010_SB437,Import,UNITED STATES,Wheat Products,Deoxynivalenol,319,319.0,1
+2010MYC0251,2010_SB437,Import,UNITED STATES,Wheat Products,Ochratoxin A,0.937,0.937,1
+2010MYC0252,2010_SB437,Import,UNITED STATES,Chips - Corn,Deoxynivalenol,3,3.0,1
+2010MYC0252,2010_SB437,Import,UNITED STATES,Chips - Corn,Ochratoxin A,0.086,0.086,1
+2010MYC0253,2010_SB437,Import,UNITED STATES,Cornmeal,Deoxynivalenol,0,0.0,0
+2010MYC0253,2010_SB437,Import,UNITED STATES,Cornmeal,Ochratoxin A,0,0.0,0
+2010MYC0254,2010_SB437,Domestic,CANADA,Cornmeal,Deoxynivalenol,580,580.0,1
+2010MYC0254,2010_SB437,Domestic,CANADA,Cornmeal,Ochratoxin A,0,0.0,0
+2010MYC0255,2010_SB437,Import,COLOMBIA,Cornmeal,Deoxynivalenol,1.3,1.3,1
+2010MYC0255,2010_SB437,Import,COLOMBIA,Cornmeal,Ochratoxin A,0,0.0,0
+2010MYC0256,2010_SB437,Import,COLOMBIA,Cornmeal,Deoxynivalenol,0,0.0,0
+2010MYC0256,2010_SB437,Import,COLOMBIA,Cornmeal,Ochratoxin A,0,0.0,0
+2010MYC0257,2010_SB437,Domestic,CANADA,Grain - Oat,Deoxynivalenol,1.9,1.9,1
+2010MYC0257,2010_SB437,Domestic,CANADA,Grain - Oat,Ochratoxin A,0.19,0.19,1
+2010MYC0258,2010_SB437,Domestic,CANADA,Grain - Oat,Deoxynivalenol,2.3,2.3,1
+2010MYC0258,2010_SB437,Domestic,CANADA,Grain - Oat,Ochratoxin A,0,0.0,0
+2010MYC0259,2010_SB437,Domestic,CANADA,Beer,Deoxynivalenol,10.5,10.5,1
+2010MYC0259,2010_SB437,Domestic,CANADA,Beer,Ochratoxin A,0.046,0.046,1
+2010MYC0260,2010_SB437,Domestic,CANADA,Beer,Deoxynivalenol,8.2,8.2,1
+2010MYC0260,2010_SB437,Domestic,CANADA,Beer,Ochratoxin A,0.056,0.056,1
+2010MYC0261,2010_SB437,Import,SWITZERLAND,Infant Formula - Soy,Deoxynivalenol,0,0.0,0
+2010MYC0261,2010_SB437,Import,SWITZERLAND,Infant Formula - Soy,Ochratoxin A,0.37,0.37,1
+2010MYC0262,2010_SB437,Import,SWITZERLAND,Infant Formula - Dairy,Deoxynivalenol,0,0.0,0
+2010MYC0262,2010_SB437,Import,SWITZERLAND,Infant Formula - Dairy,Ochratoxin A,0,0.0,0
+2010MYC0263,2010_SB437,Import,UNITED STATES,Infant Formula - Dairy,Deoxynivalenol,0,0.0,0
+2010MYC0263,2010_SB437,Import,UNITED STATES,Infant Formula - Dairy,Ochratoxin A,0,0.0,0
+2010MYC0264,2010_SB437,Import,AUSTRALIA,Wine,Deoxynivalenol,0,0.0,0
+2010MYC0264,2010_SB437,Import,AUSTRALIA,Wine,Ochratoxin A,0,0.0,0
+2010MYC0265,2010_SB437,Import,AUSTRALIA,Wine,Deoxynivalenol,0,0.0,0
+2010MYC0265,2010_SB437,Import,AUSTRALIA,Wine,Ochratoxin A,0,0.0,0
+2010MYC0266,2010_SB437,Import,AUSTRALIA,Wine,Deoxynivalenol,0,0.0,0
+2010MYC0266,2010_SB437,Import,AUSTRALIA,Wine,Ochratoxin A,0,0.0,0
+2010MYC0267,2010_SB437,Import,NEW ZEALAND,Wine,Deoxynivalenol,0,0.0,0
+2010MYC0267,2010_SB437,Import,NEW ZEALAND,Wine,Ochratoxin A,0,0.0,0
+2010MYC0268,2010_SB437,Import,NEW ZEALAND,Wine,Deoxynivalenol,0,0.0,0
+2010MYC0268,2010_SB437,Import,NEW ZEALAND,Wine,Ochratoxin A,0,0.0,0
+2010MYC0269,2010_SB437,Import,ARGENTINA,Wine,Deoxynivalenol,0,0.0,0
+2010MYC0269,2010_SB437,Import,ARGENTINA,Wine,Ochratoxin A,0,0.0,0
+2010MYC0270,2010_SB437,Domestic,CANADA,Beer,Deoxynivalenol,3.9,3.9,1
+2010MYC0270,2010_SB437,Domestic,CANADA,Beer,Ochratoxin A,0,0.0,0
+2010MYC0271,2010_SB437,Domestic,CANADA,Beer,Deoxynivalenol,3,3.0,1
+2010MYC0271,2010_SB437,Domestic,CANADA,Beer,Ochratoxin A,0,0.0,0
+2010MYC0272,2010_SB437,Domestic,CANADA,Beer,Deoxynivalenol,11.3,11.3,1
+2010MYC0272,2010_SB437,Domestic,CANADA,Beer,Ochratoxin A,0,0.0,0
+2010MYC0273,2010_SB437,Domestic,CANADA,Beer,Deoxynivalenol,2.3,2.3,1
+2010MYC0273,2010_SB437,Domestic,CANADA,Beer,Ochratoxin A,0.049,0.049,1
+2010MYC0278,2010_SB437,Domestic,CANADA,Cereal - Adult,Deoxynivalenol,6,6.0,1
+2010MYC0278,2010_SB437,Domestic,CANADA,Cereal - Adult,Ochratoxin A,0,0.0,0
+2010MYC0284,2010_SB437,Domestic,CANADA,Flour - Wheat,Deoxynivalenol,36.5,36.5,1
+2010MYC0284,2010_SB437,Domestic,CANADA,Flour - Wheat,Ochratoxin A,0.217,0.217,1
+2010MYC0285,2010_SB437,Domestic,CANADA,Flour - Wheat,Deoxynivalenol,93.3,93.3,1
+2010MYC0285,2010_SB437,Domestic,CANADA,Flour - Wheat,Ochratoxin A,0.393,0.393,1
+2010MYC0289,2010_SB437,Domestic,CANADA,Grain - Oat,Deoxynivalenol,192,192.0,1
+2010MYC0289,2010_SB437,Domestic,CANADA,Grain - Oat,Ochratoxin A,0.186,0.186,1
+2010MYC0292,2010_SB437,Import,UNITED STATES,Infant Formula - Dairy,Deoxynivalenol,1.1,1.1,1
+2010MYC0292,2010_SB437,Import,UNITED STATES,Infant Formula - Dairy,Ochratoxin A,0,0.0,0
+2010MYC0293,2010_SB437,Import,UNITED STATES,Infant Formula - Dairy,Deoxynivalenol,0,0.0,0
+2010MYC0293,2010_SB437,Import,UNITED STATES,Infant Formula - Dairy,Ochratoxin A,0,0.0,0
+2010MYC0294,2010_SB437,Import,GERMANY,Wine,Deoxynivalenol,0,0.0,0
+2010MYC0294,2010_SB437,Import,GERMANY,Wine,Ochratoxin A,0,0.0,0
+2010MYC0295,2010_SB437,Import,HUNGARY,Wine,Deoxynivalenol,0,0.0,0
+2010MYC0295,2010_SB437,Import,HUNGARY,Wine,Ochratoxin A,0,0.0,0
+2010MYC0299,2010_SB437,Import,AUSTRALIA,Wine,Deoxynivalenol,0,0.0,0
+2010MYC0299,2010_SB437,Import,AUSTRALIA,Wine,Ochratoxin A,0,0.0,0
+2010MYC0300,2010_SB437,Import,AUSTRALIA,Wine,Deoxynivalenol,0,0.0,0
+2010MYC0300,2010_SB437,Import,AUSTRALIA,Wine,Ochratoxin A,0,0.0,0
+2010MYC0302,2010_SB437,Domestic,CANADA,Beer,Deoxynivalenol,0,0.0,0
+2010MYC0302,2010_SB437,Domestic,CANADA,Beer,Ochratoxin A,0,0.0,0
+2010MYC0303,2010_SB437,Domestic,CANADA,Beer,Deoxynivalenol,1.2,1.2,1
+2010MYC0303,2010_SB437,Domestic,CANADA,Beer,Ochratoxin A,0,0.0,0
+2010MYC0304,2010_SB437,Domestic,CANADA,Beer,Deoxynivalenol,6.1,6.1,1
+2010MYC0304,2010_SB437,Domestic,CANADA,Beer,Ochratoxin A,0,0.0,0
+2010MYC0305,2010_SB437,Domestic,CANADA,Beer,Deoxynivalenol,5,5.0,1
+2010MYC0305,2010_SB437,Domestic,CANADA,Beer,Ochratoxin A,0,0.0,0
+2010MYC0306,2010_SB437,Import,UNKNOWN,Cereal - Children,Deoxynivalenol,7.6,7.6,1
+2010MYC0306,2010_SB437,Import,UNKNOWN,Cereal - Children,Ochratoxin A,0,0.0,0
+2010MYC0307,2010_SB437,Import,UNKNOWN,Cereal - Adult,Deoxynivalenol,15,15.0,1
+2010MYC0307,2010_SB437,Import,UNKNOWN,Cereal - Adult,Ochratoxin A,0.067,0.067,1
+2010MYC0308,2010_SB437,Import,UNKNOWN,Cereal - Adult,Deoxynivalenol,222,222.0,1
+2010MYC0308,2010_SB437,Import,UNKNOWN,Cereal - Adult,Ochratoxin A,0.494,0.494,1
+2010MYC0309,2010_SB437,Import,UNITED STATES,Cereal - Adult,Deoxynivalenol,5.1,5.1,1
+2010MYC0309,2010_SB437,Import,UNITED STATES,Cereal - Adult,Ochratoxin A,0.089,0.089,1
+2010MYC0310,2010_SB437,Import,UNKNOWN,Infant Food - Cereal,Deoxynivalenol,3.9,3.9,1
+2010MYC0310,2010_SB437,Import,UNKNOWN,Infant Food - Cereal,Ochratoxin A,0,0.0,0
+2010MYC0311,2010_SB437,Import,UNKNOWN,Infant Food - Cereal,Deoxynivalenol,6.8,6.8,1
+2010MYC0311,2010_SB437,Import,UNKNOWN,Infant Food - Cereal,Ochratoxin A,0.305,0.305,1
+2010MYC0312,2010_SB437,Import,UNKNOWN,Flour - Wheat,Deoxynivalenol,585,585.0,1
+2010MYC0312,2010_SB437,Import,UNKNOWN,Flour - Wheat,Ochratoxin A,1.142,1.142,1
+2010MYC0313,2010_SB437,Domestic,CANADA,Chips - Corn,Deoxynivalenol,28.8,28.8,1
+2010MYC0313,2010_SB437,Domestic,CANADA,Chips - Corn,Ochratoxin A,0,0.0,0
+2010MYC0314,2010_SB437,Domestic,CANADA,Chips - Corn,Deoxynivalenol,83.9,83.9,1
+2010MYC0314,2010_SB437,Domestic,CANADA,Chips - Corn,Ochratoxin A,0,0.0,0
+2010MYC0315,2010_SB437,Domestic,CANADA,Cornmeal,Deoxynivalenol,173,173.0,1
+2010MYC0315,2010_SB437,Domestic,CANADA,Cornmeal,Ochratoxin A,0,0.0,0
+2010MYC0316,2010_SB437,Import,UNKNOWN,Grain - Oat,Deoxynivalenol,2.2,2.2,1
+2010MYC0316,2010_SB437,Import,UNKNOWN,Grain - Oat,Ochratoxin A,0.085,0.085,1
+2010MYC0317,2010_SB437,Domestic,CANADA,Beer,Deoxynivalenol,3.5,3.5,1
+2010MYC0317,2010_SB437,Domestic,CANADA,Beer,Ochratoxin A,0.054,0.054,1
+2010MYC0318,2010_SB437,Domestic,CANADA,Beer,Deoxynivalenol,10.2,10.2,1
+2010MYC0318,2010_SB437,Domestic,CANADA,Beer,Ochratoxin A,0,0.0,0
+2010MYC0319,2010_SB437,Domestic,CANADA,Beer,Deoxynivalenol,12.5,12.5,1
+2010MYC0319,2010_SB437,Domestic,CANADA,Beer,Ochratoxin A,0,0.0,0
+2010MYC0320,2010_SB437,Import,UNITED STATES,Infant Formula - Dairy,Deoxynivalenol,0,0.0,0
+2010MYC0320,2010_SB437,Import,UNITED STATES,Infant Formula - Dairy,Ochratoxin A,0,0.0,0
+2010MYC0321,2010_SB437,Import,UNITED STATES,Infant Formula - Dairy,Deoxynivalenol,0,0.0,0
+2010MYC0321,2010_SB437,Import,UNITED STATES,Infant Formula - Dairy,Ochratoxin A,0,0.0,0
+2010MYC0322,2010_SB437,Domestic,CANADA,Infant Formula - Dairy,Deoxynivalenol,0,0.0,0
+2010MYC0322,2010_SB437,Domestic,CANADA,Infant Formula - Dairy,Ochratoxin A,0,0.0,0
+2010MYC0332,2010_SB437,Import,CHINA,Date,Deoxynivalenol,0,0.0,0
+2010MYC0332,2010_SB437,Import,CHINA,Date,Ochratoxin A,0,0.0,0
+2010MYC0333,2010_SB437,Import,CHINA,Date,Deoxynivalenol,0,0.0,0
+2010MYC0333,2010_SB437,Import,CHINA,Date,Ochratoxin A,0,0.0,0
+2010MYC0334,2010_SB437,Import,HONG KONG,Date,Deoxynivalenol,0,0.0,0
+2010MYC0334,2010_SB437,Import,HONG KONG,Date,Ochratoxin A,0,0.0,0
+2010MYC0335,2010_SB437,Import,CHINA,Date,Deoxynivalenol,0,0.0,0
+2010MYC0335,2010_SB437,Import,CHINA,Date,Ochratoxin A,0,0.0,0
+2010MYC0336,2010_SB437,Domestic,CANADA,Cereal - Adult,Deoxynivalenol,113,113.0,1
+2010MYC0336,2010_SB437,Domestic,CANADA,Cereal - Adult,Ochratoxin A,0,0.0,0
+2010MYC0338,2010_SB437,Domestic,CANADA,Cereal - Adult,Deoxynivalenol,25.2,25.2,1
+2010MYC0338,2010_SB437,Domestic,CANADA,Cereal - Adult,Ochratoxin A,0,0.0,0
+2010MYC0339,2010_SB437,Domestic,CANADA,Cereal - Adult,Deoxynivalenol,243,243.0,1
+2010MYC0339,2010_SB437,Domestic,CANADA,Cereal - Adult,Ochratoxin A,0.09,0.09,1
+2010MYC0343,2010_SB437,Import,SWITZERLAND,Infant Food - Cereal,Deoxynivalenol,17.7,17.7,1
+2010MYC0343,2010_SB437,Import,SWITZERLAND,Infant Food - Cereal,Ochratoxin A,0,0.0,0
+2010MYC0344,2010_SB437,Import,SWITZERLAND,Infant Food - Cereal,Deoxynivalenol,3.1,3.1,1
+2010MYC0344,2010_SB437,Import,SWITZERLAND,Infant Food - Cereal,Ochratoxin A,0,0.0,0
+2010MYC0345,2010_SB437,Domestic,CANADA,Infant Food - Cereal,Deoxynivalenol,13.6,13.6,1
+2010MYC0345,2010_SB437,Domestic,CANADA,Infant Food - Cereal,Ochratoxin A,0.927,0.927,1
+2010MYC0346,2010_SB437,Domestic,CANADA,Flour - Wheat,Deoxynivalenol,119,119.0,1
+2010MYC0346,2010_SB437,Domestic,CANADA,Flour - Wheat,Ochratoxin A,0.097,0.097,1
+2010MYC0347,2010_SB437,Domestic,CANADA,Flour - Wheat,Deoxynivalenol,182,182.0,1
+2010MYC0347,2010_SB437,Domestic,CANADA,Flour - Wheat,Ochratoxin A,1.222,1.222,1
+2010MYC0349,2010_SB437,Domestic,CANADA,Chips - Corn,Deoxynivalenol,0,0.0,0
+2010MYC0349,2010_SB437,Domestic,CANADA,Chips - Corn,Ochratoxin A,0,0.0,0
+2010MYC0350,2010_SB437,Domestic,CANADA,Cornmeal,Deoxynivalenol,665,665.0,1
+2010MYC0350,2010_SB437,Domestic,CANADA,Cornmeal,Ochratoxin A,0,0.0,0
+2010MYC0353,2010_SB437,Domestic,CANADA,Infant Formula - Dairy,Deoxynivalenol,0,0.0,0
+2010MYC0353,2010_SB437,Domestic,CANADA,Infant Formula - Dairy,Ochratoxin A,0,0.0,0
+2010MYC0354,2010_SB437,Domestic,CANADA,Infant Formula - Dairy,Deoxynivalenol,0,0.0,0
+2010MYC0354,2010_SB437,Domestic,CANADA,Infant Formula - Dairy,Ochratoxin A,0,0.0,0
+2010MYC0355,2010_SB437,Import,AUSTRALIA,Wine,Deoxynivalenol,0,0.0,0
+2010MYC0355,2010_SB437,Import,AUSTRALIA,Wine,Ochratoxin A,0,0.0,0
+2010MYC0356,2010_SB437,Import,AUSTRALIA,Wine,Deoxynivalenol,0,0.0,0
+2010MYC0356,2010_SB437,Import,AUSTRALIA,Wine,Ochratoxin A,0,0.0,0
+2010MYC0357,2010_SB437,Import,ISRAEL,Wine,Deoxynivalenol,0,0.0,0
+2010MYC0357,2010_SB437,Import,ISRAEL,Wine,Ochratoxin A,0,0.0,0
+2010MYC0358,2010_SB437,Import,NEW ZEALAND,Wine,Deoxynivalenol,0,0.0,0
+2010MYC0358,2010_SB437,Import,NEW ZEALAND,Wine,Ochratoxin A,0,0.0,0
+2010MYC0359,2010_SB437,Import,AUSTRALIA,Wine,Deoxynivalenol,0,0.0,0
+2010MYC0359,2010_SB437,Import,AUSTRALIA,Wine,Ochratoxin A,0,0.0,0
+2010MYC0360,2010_SB437,Import,SOUTH AFRICA,Wine,Deoxynivalenol,0,0.0,0
+2010MYC0360,2010_SB437,Import,SOUTH AFRICA,Wine,Ochratoxin A,0,0.0,0
+2010MYC0361,2010_SB437,Domestic,CANADA,Beer,Deoxynivalenol,5.6,5.6,1
+2010MYC0361,2010_SB437,Domestic,CANADA,Beer,Ochratoxin A,0.041,0.041,1
+2010MYC0362,2010_SB437,Domestic,CANADA,Beer,Deoxynivalenol,0,0.0,0
+2010MYC0362,2010_SB437,Domestic,CANADA,Beer,Ochratoxin A,0,0.0,0
+2010MYC0367,2010_SB437,Import,TÜRKIYE,Fig,Deoxynivalenol,0,0.0,0
+2010MYC0367,2010_SB437,Import,TÜRKIYE,Fig,Ochratoxin A,0,0.0,0
+2010MYC0368,2010_SB437,Import,UNITED STATES,Fig,Deoxynivalenol,0,0.0,0
+2010MYC0368,2010_SB437,Import,UNITED STATES,Fig,Ochratoxin A,0,0.0,0
+2010MYC0370,2010_SB437,Domestic,CANADA,Cereal - Adult,Deoxynivalenol,198,198.0,1
+2010MYC0370,2010_SB437,Domestic,CANADA,Cereal - Adult,Ochratoxin A,0.215,0.215,1
+2010MYC0371,2010_SB437,Import,UNKNOWN,Cereal - Adult,Deoxynivalenol,378,378.0,1
+2010MYC0371,2010_SB437,Import,UNKNOWN,Cereal - Adult,Ochratoxin A,0,0.0,0
+2010MYC0372,2010_SB437,Import,UNKNOWN,Cereal - Adult,Deoxynivalenol,266,266.0,1
+2010MYC0372,2010_SB437,Import,UNKNOWN,Cereal - Adult,Ochratoxin A,0,0.0,0
+2010MYC0373,2010_SB437,Domestic,CANADA,Cereal - Adult,Deoxynivalenol,53.6,53.6,1
+2010MYC0373,2010_SB437,Domestic,CANADA,Cereal - Adult,Ochratoxin A,0.623,0.623,1
+2010MYC0374,2010_SB437,Domestic,CANADA,Cereal - Adult,Deoxynivalenol,0,0.0,0
+2010MYC0374,2010_SB437,Domestic,CANADA,Cereal - Adult,Ochratoxin A,0.079,0.079,1
+2010MYC0375,2010_SB437,Import,POLAND,Infant Food - Cereal,Deoxynivalenol,5.4,5.4,1
+2010MYC0375,2010_SB437,Import,POLAND,Infant Food - Cereal,Ochratoxin A,0,0.0,0
+2010MYC0376,2010_SB437,Import,UNITED STATES,Infant Food - Cereal,Deoxynivalenol,2.6,2.6,1
+2010MYC0376,2010_SB437,Import,UNITED STATES,Infant Food - Cereal,Ochratoxin A,1.043,1.043,1
+2010MYC0377,2010_SB437,Import,UNITED STATES,Infant Food - Cereal,Deoxynivalenol,0,0.0,0
+2010MYC0377,2010_SB437,Import,UNITED STATES,Infant Food - Cereal,Ochratoxin A,0,0.0,0
+2010MYC0378,2010_SB437,Import,UNKNOWN,Cornmeal,Deoxynivalenol,108,108.0,1
+2010MYC0378,2010_SB437,Import,UNKNOWN,Cornmeal,Ochratoxin A,0,0.0,0
+2010MYC0379,2010_SB437,Domestic,CANADA,Grain - Oat,Deoxynivalenol,4.4,4.4,1
+2010MYC0379,2010_SB437,Domestic,CANADA,Grain - Oat,Ochratoxin A,0.098,0.098,1
+2010MYC0380,2010_SB437,Import,UNKNOWN,Grain - Oat,Deoxynivalenol,89.5,89.5,1
+2010MYC0380,2010_SB437,Import,UNKNOWN,Grain - Oat,Ochratoxin A,0,0.0,0
+2010MYC0381,2010_SB437,Import,UNITED STATES,Infant Formula - Dairy,Deoxynivalenol,2.5,2.5,1
+2010MYC0381,2010_SB437,Import,UNITED STATES,Infant Formula - Dairy,Ochratoxin A,0,0.0,0
+2010MYC0382,2010_SB437,Import,UNITED STATES,Infant Formula - Dairy,Deoxynivalenol,0,0.0,0
+2010MYC0382,2010_SB437,Import,UNITED STATES,Infant Formula - Dairy,Ochratoxin A,0,0.0,0
+2010MYC0383,2010_SB437,Import,UNITED STATES,Infant Formula - Dairy,Deoxynivalenol,0,0.0,0
+2010MYC0383,2010_SB437,Import,UNITED STATES,Infant Formula - Dairy,Ochratoxin A,0,0.0,0
+2010MYC0384,2010_SB437,Import,UNITED STATES,Infant Formula - Dairy,Deoxynivalenol,0,0.0,0
+2010MYC0384,2010_SB437,Import,UNITED STATES,Infant Formula - Dairy,Ochratoxin A,0,0.0,0
+2010MYC0385,2010_SB437,Import,UNITED STATES,Infant Formula - Dairy,Deoxynivalenol,0,0.0,0
+2010MYC0385,2010_SB437,Import,UNITED STATES,Infant Formula - Dairy,Ochratoxin A,0,0.0,0
+2010MYC0386,2010_SB437,Import,ISRAEL,Wine,Deoxynivalenol,0,0.0,0
+2010MYC0386,2010_SB437,Import,ISRAEL,Wine,Ochratoxin A,0,0.0,0
+2010MYC0387,2010_SB437,Import,NEW ZEALAND,Wine,Deoxynivalenol,0,0.0,0
+2010MYC0387,2010_SB437,Import,NEW ZEALAND,Wine,Ochratoxin A,0,0.0,0
+2010MYC0388,2010_SB437,Import,HUNGARY,Wine,Deoxynivalenol,0,0.0,0
+2010MYC0388,2010_SB437,Import,HUNGARY,Wine,Ochratoxin A,0,0.0,0
+2010MYC0389,2010_SB437,Import,HUNGARY,Wine,Deoxynivalenol,0,0.0,0
+2010MYC0389,2010_SB437,Import,HUNGARY,Wine,Ochratoxin A,0,0.0,0
+2010MYC0390,2010_SB437,Import,ISRAEL,Wine,Deoxynivalenol,0,0.0,0
+2010MYC0390,2010_SB437,Import,ISRAEL,Wine,Ochratoxin A,0.044,0.044,1
+2010MYC0391,2010_SB437,Domestic,CANADA,Beer,Deoxynivalenol,3.4,3.4,1
+2010MYC0391,2010_SB437,Domestic,CANADA,Beer,Ochratoxin A,0.064,0.064,1
+2010MYC0392,2010_SB437,Domestic,CANADA,Beer,Deoxynivalenol,1.1,1.1,1
+2010MYC0392,2010_SB437,Domestic,CANADA,Beer,Ochratoxin A,0,0.0,0
+2010MYC0393,2010_SB437,Import,FRANCE,Fig,Deoxynivalenol,0,0.0,0
+2010MYC0393,2010_SB437,Import,FRANCE,Fig,Ochratoxin A,0.284,0.284,1
+2010MYC0394,2010_SB437,Domestic,CANADA,Fig,Deoxynivalenol,0,0.0,0
+2010MYC0394,2010_SB437,Domestic,CANADA,Fig,Ochratoxin A,0,0.0,0
+2010MYC0395,2010_SB437,Domestic,CANADA,Fig,Deoxynivalenol,0,0.0,0
+2010MYC0395,2010_SB437,Domestic,CANADA,Fig,Ochratoxin A,0,0.0,0
+2010MYC0396,2010_SB437,Import,LEBANON,Date,Deoxynivalenol,0,0.0,0
+2010MYC0396,2010_SB437,Import,LEBANON,Date,Ochratoxin A,0,0.0,0
+2010MYC0397,2010_SB437,Import,FRANCE,Prune,Deoxynivalenol,0,0.0,0
+2010MYC0397,2010_SB437,Import,FRANCE,Prune,Ochratoxin A,0,0.0,0
+2010MYC0398,2010_SB437,Import,UNITED STATES,Cereal - Adult,Deoxynivalenol,0,0.0,0
+2010MYC0398,2010_SB437,Import,UNITED STATES,Cereal - Adult,Ochratoxin A,0,0.0,0
+2010MYC0399,2010_SB437,Import,UNITED STATES,Cereal - Adult,Deoxynivalenol,0,0.0,0
+2010MYC0399,2010_SB437,Import,UNITED STATES,Cereal - Adult,Ochratoxin A,0.545,0.545,1
+2010MYC0400,2010_SB437,Import,UNITED STATES,Cereal - Adult,Deoxynivalenol,7.06,7.06,1
+2010MYC0400,2010_SB437,Import,UNITED STATES,Cereal - Adult,Ochratoxin A,0.272,0.272,1
+2010MYC0401,2010_SB437,Domestic,CANADA,Cereal - Adult,Deoxynivalenol,205,205.0,1
+2010MYC0401,2010_SB437,Domestic,CANADA,Cereal - Adult,Ochratoxin A,0,0.0,0
+2010MYC0402,2010_SB437,Import,UNITED STATES,Cereal - Adult,Deoxynivalenol,181,181.0,1
+2010MYC0402,2010_SB437,Import,UNITED STATES,Cereal - Adult,Ochratoxin A,0.353,0.353,1
+2010MYC0403,2010_SB437,Domestic,CANADA,Cereal - Adult,Deoxynivalenol,31.2,31.2,1
+2010MYC0403,2010_SB437,Domestic,CANADA,Cereal - Adult,Ochratoxin A,0.411,0.411,1
+2010MYC0404,2010_SB437,Import,UNITED STATES,Cereal - Adult,Deoxynivalenol,1.71,1.71,1
+2010MYC0404,2010_SB437,Import,UNITED STATES,Cereal - Adult,Ochratoxin A,0,0.0,0
+2010MYC0405,2010_SB437,Import,POLAND,Infant Food - Cereal,Deoxynivalenol,11.3,11.3,1
+2010MYC0405,2010_SB437,Import,POLAND,Infant Food - Cereal,Ochratoxin A,0,0.0,0
+2010MYC0406,2010_SB437,Import,UNITED STATES,Infant Food - Cereal,Deoxynivalenol,1.4,1.4,1
+2010MYC0406,2010_SB437,Import,UNITED STATES,Infant Food - Cereal,Ochratoxin A,0,0.0,0
+2010MYC0407,2010_SB437,Import,SWITZERLAND,Infant Food - Cereal,Deoxynivalenol,49.6,49.6,1
+2010MYC0407,2010_SB437,Import,SWITZERLAND,Infant Food - Cereal,Ochratoxin A,0.222,0.222,1
+2010MYC0408,2010_SB437,Domestic,CANADA,Flour - Wheat,Deoxynivalenol,87.4,87.4,1
+2010MYC0408,2010_SB437,Domestic,CANADA,Flour - Wheat,Ochratoxin A,0.338,0.338,1
+2010MYC0409,2010_SB437,Import,UNITED STATES,Flour - Wheat,Deoxynivalenol,336,336.0,1
+2010MYC0409,2010_SB437,Import,UNITED STATES,Flour - Wheat,Ochratoxin A,0.895,0.895,1
+2010MYC0410,2010_SB437,Domestic,CANADA,Flour - Wheat,Deoxynivalenol,1430,1430.0,1
+2010MYC0410,2010_SB437,Domestic,CANADA,Flour - Wheat,Ochratoxin A,1.453,1.453,1
+2010MYC0411,2010_SB437,Domestic,CANADA,Bran - Wheat,Deoxynivalenol,500,500.0,1
+2010MYC0411,2010_SB437,Domestic,CANADA,Bran - Wheat,Ochratoxin A,0.675,0.675,1
+2010MYC0412,2010_SB437,Import,UNITED STATES,Wheat Products,Deoxynivalenol,110,110.0,1
+2010MYC0412,2010_SB437,Import,UNITED STATES,Wheat Products,Ochratoxin A,0.111,0.111,1
+2010MYC0413,2010_SB437,Import,GERMANY,Wheat Products,Deoxynivalenol,14.4,14.4,1
+2010MYC0413,2010_SB437,Import,GERMANY,Wheat Products,Ochratoxin A,0,0.0,0
+2010MYC0414,2010_SB437,Domestic,CANADA,Chips - Corn,Deoxynivalenol,3.8,3.8,1
+2010MYC0414,2010_SB437,Domestic,CANADA,Chips - Corn,Ochratoxin A,0,0.0,0
+2010MYC0415,2010_SB437,Import,ITALY,Cornmeal,Deoxynivalenol,856,856.0,1
+2010MYC0415,2010_SB437,Import,ITALY,Cornmeal,Ochratoxin A,0,0.0,0
+2010MYC0416,2010_SB437,Domestic,CANADA,Cereal - Adult,Deoxynivalenol,3.52,3.52,1
+2010MYC0416,2010_SB437,Domestic,CANADA,Cereal - Adult,Ochratoxin A,0,0.0,0
+2010MYC0417,2010_SB437,Domestic,CANADA,Beer,Deoxynivalenol,5.2,5.2,1
+2010MYC0417,2010_SB437,Domestic,CANADA,Beer,Ochratoxin A,0.08,0.08,1
+2010MYC0418,2010_SB437,Domestic,CANADA,Beer,Deoxynivalenol,1.5,1.5,1
+2010MYC0418,2010_SB437,Domestic,CANADA,Beer,Ochratoxin A,0.089,0.089,1
+2010MYC0429,2010_SB437,Import,ALGERIA,Date,Deoxynivalenol,0,0.0,0
+2010MYC0429,2010_SB437,Import,ALGERIA,Date,Ochratoxin A,0,0.0,0
+2010MYC0430,2010_SB437,Domestic,CANADA,Cereal - Adult,Deoxynivalenol,133,133.0,1
+2010MYC0430,2010_SB437,Domestic,CANADA,Cereal - Adult,Ochratoxin A,0,0.0,0
+2010MYC0431,2010_SB437,Domestic,CANADA,Cereal - Adult,Deoxynivalenol,204,204.0,1
+2010MYC0431,2010_SB437,Domestic,CANADA,Cereal - Adult,Ochratoxin A,0,0.0,0
+2010MYC0433,2010_SB437,Domestic,CANADA,Infant Food - Cereal,Deoxynivalenol,0,0.0,0
+2010MYC0433,2010_SB437,Domestic,CANADA,Infant Food - Cereal,Ochratoxin A,0,0.0,0
+2010MYC0434,2010_SB437,Import,SWITZERLAND,Infant Food - Cereal,Deoxynivalenol,2.3,2.3,1
+2010MYC0434,2010_SB437,Import,SWITZERLAND,Infant Food - Cereal,Ochratoxin A,0,0.0,0
+2010MYC0435,2010_SB437,Import,POLAND,Infant Food - Cereal,Deoxynivalenol,7.6,7.6,1
+2010MYC0435,2010_SB437,Import,POLAND,Infant Food - Cereal,Ochratoxin A,0,0.0,0
+2010MYC0437,2010_SB437,Domestic,CANADA,Wheat Products,Deoxynivalenol,132,132.0,1
+2010MYC0437,2010_SB437,Domestic,CANADA,Wheat Products,Ochratoxin A,0.239,0.239,1
+2010MYC0438,2010_SB437,Import,UNITED STATES,Cereal - Children,Deoxynivalenol,1.2,1.2,1
+2010MYC0438,2010_SB437,Import,UNITED STATES,Cereal - Children,Ochratoxin A,0,0.0,0
+2010MYC0439,2010_SB437,Domestic,CANADA,Bran - Wheat,Deoxynivalenol,28.1,28.1,1
+2010MYC0439,2010_SB437,Domestic,CANADA,Bran - Wheat,Ochratoxin A,0.327,0.327,1
+2010MYC0440,2010_SB437,Domestic,CANADA,Wheat Products,Deoxynivalenol,4.4,4.4,1
+2010MYC0440,2010_SB437,Domestic,CANADA,Wheat Products,Ochratoxin A,1.405,1.405,1
+2010MYC0441,2010_SB437,Import,PHILIPPINES,Chips - Corn,Deoxynivalenol,0,0.0,0
+2010MYC0441,2010_SB437,Import,PHILIPPINES,Chips - Corn,Ochratoxin A,0.101,0.101,1
+2010MYC0442,2010_SB437,Import,PHILIPPINES,Chips - Corn,Deoxynivalenol,2.7,2.7,1
+2010MYC0442,2010_SB437,Import,PHILIPPINES,Chips - Corn,Ochratoxin A,0,0.0,0
+2010MYC0443,2010_SB437,Domestic,CANADA,Chips - Corn,Deoxynivalenol,2.5,2.5,1
+2010MYC0443,2010_SB437,Domestic,CANADA,Chips - Corn,Ochratoxin A,0.337,0.337,1
+2010MYC0444,2010_SB437,Import,COLOMBIA,Cornmeal,Deoxynivalenol,1.2,1.2,1
+2010MYC0444,2010_SB437,Import,COLOMBIA,Cornmeal,Ochratoxin A,0,0.0,0
+2010MYC0445,2010_SB437,Import,UNITED STATES,Cornmeal,Deoxynivalenol,174,174.0,1
+2010MYC0445,2010_SB437,Import,UNITED STATES,Cornmeal,Ochratoxin A,0,0.0,0
+2010MYC0446,2010_SB437,Domestic,CANADA,Grain - Oat,Deoxynivalenol,2.1,2.1,1
+2010MYC0446,2010_SB437,Domestic,CANADA,Grain - Oat,Ochratoxin A,0.368,0.368,1
+2010MYC0447,2010_SB437,Import,JAMAICA,Grain - Oat,Deoxynivalenol,12.3,12.3,1
+2010MYC0447,2010_SB437,Import,JAMAICA,Grain - Oat,Ochratoxin A,0.149,0.149,1
+2010MYC0449,2010_SB437,Import,UNITED STATES,Infant Formula - Dairy,Deoxynivalenol,0,0.0,0
+2010MYC0449,2010_SB437,Import,UNITED STATES,Infant Formula - Dairy,Ochratoxin A,0,0.0,0
+2010MYC0450,2010_SB437,Import,UNKNOWN,Infant Formula - Dairy,Deoxynivalenol,0,0.0,0
+2010MYC0450,2010_SB437,Import,UNKNOWN,Infant Formula - Dairy,Ochratoxin A,0,0.0,0
+2010MYC0451,2010_SB437,Import,AUSTRALIA,Wine,Deoxynivalenol,0,0.0,0
+2010MYC0451,2010_SB437,Import,AUSTRALIA,Wine,Ochratoxin A,0,0.0,0
+2010MYC0452,2010_SB437,Import,AUSTRALIA,Wine,Deoxynivalenol,0,0.0,0
+2010MYC0452,2010_SB437,Import,AUSTRALIA,Wine,Ochratoxin A,0,0.0,0
+2010MYC0453,2010_SB437,Import,ARGENTINA,Wine,Deoxynivalenol,0,0.0,0
+2010MYC0453,2010_SB437,Import,ARGENTINA,Wine,Ochratoxin A,0,0.0,0
+2010MYC0454,2010_SB437,Import,ARGENTINA,Wine,Deoxynivalenol,0,0.0,0
+2010MYC0454,2010_SB437,Import,ARGENTINA,Wine,Ochratoxin A,0,0.0,0
+2010MYC0455,2010_SB437,Import,ARGENTINA,Wine,Deoxynivalenol,0,0.0,0
+2010MYC0455,2010_SB437,Import,ARGENTINA,Wine,Ochratoxin A,0,0.0,0
+2010MYC0456,2010_SB437,Import,GERMANY,Wine,Deoxynivalenol,0,0.0,0
+2010MYC0456,2010_SB437,Import,GERMANY,Wine,Ochratoxin A,0,0.0,0
+2010MYC0457,2010_SB437,Import,UNKNOWN,Fig,Deoxynivalenol,0,0.0,0
+2010MYC0457,2010_SB437,Import,UNKNOWN,Fig,Ochratoxin A,0,0.0,0
+2010MYC0458,2010_SB437,Import,UNITED STATES,Date,Deoxynivalenol,0,0.0,0
+2010MYC0458,2010_SB437,Import,UNITED STATES,Date,Ochratoxin A,0,0.0,0
+2010MYC0459,2010_SB437,Import,UNKNOWN,Apricot,Deoxynivalenol,0,0.0,0
+2010MYC0459,2010_SB437,Import,UNKNOWN,Apricot,Ochratoxin A,0,0.0,0
+2010MYC0460,2010_SB437,Import,UNKNOWN,Cereal - Children,Deoxynivalenol,13.4,13.4,1
+2010MYC0460,2010_SB437,Import,UNKNOWN,Cereal - Children,Ochratoxin A,0,0.0,0
+2010MYC0461,2010_SB437,Import,UNKNOWN,Cereal - Adult,Deoxynivalenol,92.3,92.3,1
+2010MYC0461,2010_SB437,Import,UNKNOWN,Cereal - Adult,Ochratoxin A,0.441,0.441,1
+2010MYC0462,2010_SB437,Import,UNKNOWN,Cereal - Adult,Deoxynivalenol,76.7,76.7,1
+2010MYC0462,2010_SB437,Import,UNKNOWN,Cereal - Adult,Ochratoxin A,0.088,0.088,1
+2010MYC0463,2010_SB437,Import,UNKNOWN,Cereal - Children,Deoxynivalenol,1.4,1.4,1
+2010MYC0463,2010_SB437,Import,UNKNOWN,Cereal - Children,Ochratoxin A,0,0.0,0
+2010MYC0464,2010_SB437,Import,UNKNOWN,Cereal - Children,Deoxynivalenol,3.4,3.4,1
+2010MYC0464,2010_SB437,Import,UNKNOWN,Cereal - Children,Ochratoxin A,0,0.0,0
+2010MYC0465,2010_SB437,Domestic,CANADA,Flour - Wheat,Deoxynivalenol,192,192.0,1
+2010MYC0465,2010_SB437,Domestic,CANADA,Flour - Wheat,Ochratoxin A,0.271,0.271,1
+2010MYC0466,2010_SB437,Import,UNKNOWN,Chips - Corn,Deoxynivalenol,95.7,95.7,1
+2010MYC0466,2010_SB437,Import,UNKNOWN,Chips - Corn,Ochratoxin A,1.328,1.328,1
+2010MYC0467,2010_SB437,Import,UNITED STATES,Chips - Corn,Deoxynivalenol,177,177.0,1
+2010MYC0467,2010_SB437,Import,UNITED STATES,Chips - Corn,Ochratoxin A,0,0.0,0
+2010MYC0468,2010_SB437,Import,UNKNOWN,Flour - Corn,Deoxynivalenol,98.3,98.3,1
+2010MYC0468,2010_SB437,Import,UNKNOWN,Flour - Corn,Ochratoxin A,0,0.0,0
+2010MYC0469,2010_SB437,Import,UNKNOWN,Grain - Oat,Deoxynivalenol,158,158.0,1
+2010MYC0469,2010_SB437,Import,UNKNOWN,Grain - Oat,Ochratoxin A,0.165,0.165,1
+2010MYC0470,2010_SB437,Import,UNKNOWN,Oatmeal,Deoxynivalenol,97.7,97.7,1
+2010MYC0470,2010_SB437,Import,UNKNOWN,Oatmeal,Ochratoxin A,0,0.0,0
+2010MYC0471,2010_SB437,Domestic,CANADA,Beer,Deoxynivalenol,11.4,11.4,1
+2010MYC0471,2010_SB437,Domestic,CANADA,Beer,Ochratoxin A,0,0.0,0
+2010MYC0472,2010_SB437,Domestic,CANADA,Beer,Deoxynivalenol,4.5,4.5,1
+2010MYC0472,2010_SB437,Domestic,CANADA,Beer,Ochratoxin A,0,0.0,0
+2010MYC0473,2010_SB437,Domestic,CANADA,Beer,Deoxynivalenol,43.6,43.6,1
+2010MYC0473,2010_SB437,Domestic,CANADA,Beer,Ochratoxin A,0.051,0.051,1
+2010MYC0474,2010_SB437,Domestic,CANADA,Beer,Deoxynivalenol,28.6,28.6,1
+2010MYC0474,2010_SB437,Domestic,CANADA,Beer,Ochratoxin A,0.059,0.059,1
+2010MYC0475,2010_SB437,Domestic,CANADA,Beer,Deoxynivalenol,59.5,59.5,1
+2010MYC0475,2010_SB437,Domestic,CANADA,Beer,Ochratoxin A,0,0.0,0
+2010MYC0476,2010_SB437,Import,UNITED STATES,Infant Formula - Dairy,Deoxynivalenol,0,0.0,0
+2010MYC0476,2010_SB437,Import,UNITED STATES,Infant Formula - Dairy,Ochratoxin A,0,0.0,0
+2010MYC0477,2010_SB437,Import,AUSTRALIA,Wine,Deoxynivalenol,0,0.0,0
+2010MYC0477,2010_SB437,Import,AUSTRALIA,Wine,Ochratoxin A,0,0.0,0
+2010MYC0478,2010_SB437,Import,GERMANY,Wine,Deoxynivalenol,0,0.0,0
+2010MYC0478,2010_SB437,Import,GERMANY,Wine,Ochratoxin A,0,0.0,0
+2010MYC0479,2010_SB437,Import,UNITED STATES,Fig,Deoxynivalenol,0,0.0,0
+2010MYC0479,2010_SB437,Import,UNITED STATES,Fig,Ochratoxin A,0,0.0,0
+2010MYC0480,2010_SB437,Import,GREECE,Fig,Deoxynivalenol,0,0.0,0
+2010MYC0480,2010_SB437,Import,GREECE,Fig,Ochratoxin A,0,0.0,0
+2010MYC0481,2010_SB437,Import,UNITED STATES,Fig,Deoxynivalenol,0,0.0,0
+2010MYC0481,2010_SB437,Import,UNITED STATES,Fig,Ochratoxin A,0,0.0,0
+2010MYC0482,2010_SB437,Import,UNKNOWN,Apricot,Deoxynivalenol,0,0.0,0
+2010MYC0482,2010_SB437,Import,UNKNOWN,Apricot,Ochratoxin A,0,0.0,0
+2010MYC0483,2010_SB437,Domestic,CANADA,Cereal - Children,Deoxynivalenol,15,15.0,1
+2010MYC0483,2010_SB437,Domestic,CANADA,Cereal - Children,Ochratoxin A,0,0.0,0
+2010MYC0484,2010_SB437,Domestic,CANADA,Cereal - Adult,Deoxynivalenol,93,93.0,1
+2010MYC0484,2010_SB437,Domestic,CANADA,Cereal - Adult,Ochratoxin A,0,0.0,0
+2010MYC0485,2010_SB437,Import,UNITED STATES,Cereal - Adult,Deoxynivalenol,255,255.0,1
+2010MYC0485,2010_SB437,Import,UNITED STATES,Cereal - Adult,Ochratoxin A,1.011,1.011,1
+2010MYC0486,2010_SB437,Domestic,CANADA,Cereal - Adult,Deoxynivalenol,153,153.0,1
+2010MYC0486,2010_SB437,Domestic,CANADA,Cereal - Adult,Ochratoxin A,0.265,0.265,1
+2010MYC0487,2010_SB437,Domestic,CANADA,Infant Food - Cereal,Deoxynivalenol,36.1,36.1,1
+2010MYC0487,2010_SB437,Domestic,CANADA,Infant Food - Cereal,Ochratoxin A,0.057,0.057,1
+2010MYC0488,2010_SB437,Import,UNITED STATES,Wheat Products,Deoxynivalenol,109,109.0,1
+2010MYC0488,2010_SB437,Import,UNITED STATES,Wheat Products,Ochratoxin A,1.29,1.29,1
+2010MYC0489,2010_SB437,Domestic,CANADA,Chips - Corn,Deoxynivalenol,48.4,48.4,1
+2010MYC0489,2010_SB437,Domestic,CANADA,Chips - Corn,Ochratoxin A,0,0.0,0
+2010MYC0490,2010_SB437,Domestic,CANADA,Chips - Corn,Deoxynivalenol,142,142.0,1
+2010MYC0490,2010_SB437,Domestic,CANADA,Chips - Corn,Ochratoxin A,0,0.0,0
+2010MYC0493,2010_SB437,Domestic,CANADA,Grain - Oat,Deoxynivalenol,25.2,25.2,1
+2010MYC0493,2010_SB437,Domestic,CANADA,Grain - Oat,Ochratoxin A,0.042,0.042,1
+2010MYC0494,2010_SB437,Domestic,CANADA,Beer,Deoxynivalenol,3.9,3.9,1
+2010MYC0494,2010_SB437,Domestic,CANADA,Beer,Ochratoxin A,0,0.0,0
+2010MYC0495,2010_SB437,Domestic,CANADA,Beer,Deoxynivalenol,3,3.0,1
+2010MYC0495,2010_SB437,Domestic,CANADA,Beer,Ochratoxin A,0,0.0,0
+2010MYC0496,2010_SB437,Domestic,CANADA,Beer,Deoxynivalenol,3.4,3.4,1
+2010MYC0496,2010_SB437,Domestic,CANADA,Beer,Ochratoxin A,0,0.0,0
+2010MYC0497,2010_SB437,Import,UNITED STATES,Infant Formula - Dairy,Deoxynivalenol,0,0.0,0
+2010MYC0497,2010_SB437,Import,UNITED STATES,Infant Formula - Dairy,Ochratoxin A,0,0.0,0
+2010MYC0498,2010_SB437,Import,AUSTRALIA,Wine,Deoxynivalenol,0,0.0,0
+2010MYC0498,2010_SB437,Import,AUSTRALIA,Wine,Ochratoxin A,0,0.0,0
+2010MYC0499,2010_SB437,Import,UNITED STATES,Fig,Deoxynivalenol,0,0.0,0
+2010MYC0499,2010_SB437,Import,UNITED STATES,Fig,Ochratoxin A,0,0.0,0
+2010MYC0500,2010_SB437,Import,UNKNOWN,Date,Deoxynivalenol,0,0.0,0
+2010MYC0500,2010_SB437,Import,UNKNOWN,Date,Ochratoxin A,0,0.0,0
+2010MYC0501,2010_SB437,Import,TÜRKIYE,Apricot,Deoxynivalenol,0,0.0,0
+2010MYC0501,2010_SB437,Import,TÜRKIYE,Apricot,Ochratoxin A,0,0.0,0
+2010MYC0502,2010_SB437,Domestic,CANADA,Cereal - Adult,Deoxynivalenol,128,128.0,1
+2010MYC0502,2010_SB437,Domestic,CANADA,Cereal - Adult,Ochratoxin A,0.081,0.081,1
+2010MYC0503,2010_SB437,Domestic,CANADA,Infant Food - Cereal,Deoxynivalenol,128,128.0,1
+2010MYC0503,2010_SB437,Domestic,CANADA,Infant Food - Cereal,Ochratoxin A,0.073,0.073,1
+2010MYC0504,2010_SB437,Domestic,CANADA,Infant Food - Cereal,Deoxynivalenol,1.5,1.5,1
+2010MYC0504,2010_SB437,Domestic,CANADA,Infant Food - Cereal,Ochratoxin A,0,0.0,0
+2010MYC0505,2010_SB437,Domestic,CANADA,Infant Food - Cereal,Deoxynivalenol,2.2,2.2,1
+2010MYC0505,2010_SB437,Domestic,CANADA,Infant Food - Cereal,Ochratoxin A,0,0.0,0
+2010MYC0506,2010_SB437,Domestic,CANADA,Infant Food - Cereal,Deoxynivalenol,56,56.0,1
+2010MYC0506,2010_SB437,Domestic,CANADA,Infant Food - Cereal,Ochratoxin A,0.132,0.132,1
+2010MYC0507,2010_SB437,Domestic,CANADA,Infant Food - Cereal,Deoxynivalenol,7,7.0,1
+2010MYC0507,2010_SB437,Domestic,CANADA,Infant Food - Cereal,Ochratoxin A,0.168,0.168,1
+2010MYC0508,2010_SB437,Domestic,CANADA,Infant Food - Cereal,Deoxynivalenol,3.1,3.1,1
+2010MYC0508,2010_SB437,Domestic,CANADA,Infant Food - Cereal,Ochratoxin A,0,0.0,0
+2010MYC0509,2010_SB437,Domestic,CANADA,Flour - Wheat,Deoxynivalenol,412,412.0,1
+2010MYC0509,2010_SB437,Domestic,CANADA,Flour - Wheat,Ochratoxin A,0.286,0.286,1
+2010MYC0510,2010_SB437,Domestic,CANADA,Flour - Wheat,Deoxynivalenol,60.9,60.9,1
+2010MYC0510,2010_SB437,Domestic,CANADA,Flour - Wheat,Ochratoxin A,0,0.0,0
+2010MYC0511,2010_SB437,Import,UNITED STATES,Bran - Wheat,Deoxynivalenol,204,204.0,1
+2010MYC0511,2010_SB437,Import,UNITED STATES,Bran - Wheat,Ochratoxin A,0.722,0.722,1
+2010MYC0512,2010_SB437,Import,UNITED STATES,Wheat Products,Deoxynivalenol,83.5,83.5,1
+2010MYC0512,2010_SB437,Import,UNITED STATES,Wheat Products,Ochratoxin A,0.071,0.071,1
+2010MYC0513,2010_SB437,Import,UNKNOWN,Chips - Corn,Deoxynivalenol,101,101.0,1
+2010MYC0513,2010_SB437,Import,UNKNOWN,Chips - Corn,Ochratoxin A,0,0.0,0
+2010MYC0514,2010_SB437,Import,UNITED STATES,Cornmeal,Deoxynivalenol,21.3,21.3,1
+2010MYC0514,2010_SB437,Import,UNITED STATES,Cornmeal,Ochratoxin A,0,0.0,0
+2010MYC0515,2010_SB437,Domestic,CANADA,Beer,Deoxynivalenol,28.4,28.4,1
+2010MYC0515,2010_SB437,Domestic,CANADA,Beer,Ochratoxin A,0,0.0,0
+2010MYC0516,2010_SB437,Import,UNKNOWN,Infant Formula - Dairy,Deoxynivalenol,0,0.0,0
+2010MYC0516,2010_SB437,Import,UNKNOWN,Infant Formula - Dairy,Ochratoxin A,0,0.0,0
+2010MYC0517,2010_SB437,Import,UNKNOWN,Infant Formula - Dairy,Deoxynivalenol,0,0.0,0
+2010MYC0517,2010_SB437,Import,UNKNOWN,Infant Formula - Dairy,Ochratoxin A,0,0.0,0
+2010MYC0518,2010_SB437,Import,AUSTRALIA,Wine,Deoxynivalenol,0,0.0,0
+2010MYC0518,2010_SB437,Import,AUSTRALIA,Wine,Ochratoxin A,0,0.0,0
+2010MYC0519,2010_SB437,Import,AUSTRALIA,Wine,Deoxynivalenol,0,0.0,0
+2010MYC0519,2010_SB437,Import,AUSTRALIA,Wine,Ochratoxin A,0,0.0,0
+2010MYC0520,2010_SB437,Import,AUSTRALIA,Wine,Deoxynivalenol,0,0.0,0
+2010MYC0520,2010_SB437,Import,AUSTRALIA,Wine,Ochratoxin A,0,0.0,0
+2010MYC0521,2010_SB437,Import,AUSTRALIA,Wine,Deoxynivalenol,0,0.0,0
+2010MYC0521,2010_SB437,Import,AUSTRALIA,Wine,Ochratoxin A,0,0.0,0
+2010MYC0522,2010_SB437,Import,TÜRKIYE,Fig,Deoxynivalenol,0,0.0,0
+2010MYC0522,2010_SB437,Import,TÜRKIYE,Fig,Ochratoxin A,0,0.0,0
+2010MYC0523,2010_SB437,Import,UNITED STATES,Date,Deoxynivalenol,0,0.0,0
+2010MYC0523,2010_SB437,Import,UNITED STATES,Date,Ochratoxin A,0,0.0,0
+2010MYC0524,2010_SB437,Import,UNKNOWN,Date,Deoxynivalenol,0,0.0,0
+2010MYC0524,2010_SB437,Import,UNKNOWN,Date,Ochratoxin A,0,0.0,0
+2010MYC0525,2010_SB437,Import,ALGERIA,Date,Deoxynivalenol,0,0.0,0
+2010MYC0525,2010_SB437,Import,ALGERIA,Date,Ochratoxin A,0,0.0,0
+2010MYC0526,2010_SB437,Domestic,CANADA,Cereal - Children,Deoxynivalenol,62.5,62.5,1
+2010MYC0526,2010_SB437,Domestic,CANADA,Cereal - Children,Ochratoxin A,0,0.0,0
+2010MYC0527,2010_SB437,Domestic,CANADA,Cereal - Adult,Deoxynivalenol,58.2,58.2,1
+2010MYC0527,2010_SB437,Domestic,CANADA,Cereal - Adult,Ochratoxin A,0.164,0.164,1
+2010MYC0528,2010_SB437,Domestic,CANADA,Cereal - Adult,Deoxynivalenol,120,120.0,1
+2010MYC0528,2010_SB437,Domestic,CANADA,Cereal - Adult,Ochratoxin A,0.16,0.16,1
+2010MYC0529,2010_SB437,Import,UNKNOWN,Cereal - Children,Deoxynivalenol,319,319.0,1
+2010MYC0529,2010_SB437,Import,UNKNOWN,Cereal - Children,Ochratoxin A,0.377,0.377,1
+2010MYC0530,2010_SB437,Domestic,CANADA,Flour - Wheat,Deoxynivalenol,335,335.0,1
+2010MYC0530,2010_SB437,Domestic,CANADA,Flour - Wheat,Ochratoxin A,0.059,0.059,1
+2010MYC0531,2010_SB437,Import,UNKNOWN,Bran - Wheat,Deoxynivalenol,17.2,17.2,1
+2010MYC0531,2010_SB437,Import,UNKNOWN,Bran - Wheat,Ochratoxin A,1.336,1.336,1
+2010MYC0532,2010_SB437,Import,UNKNOWN,Bran - Oat,Deoxynivalenol,50.3,50.3,1
+2010MYC0532,2010_SB437,Import,UNKNOWN,Bran - Oat,Ochratoxin A,0.468,0.468,1
+2010MYC0533,2010_SB437,Import,UNITED STATES,Infant Formula - Soy,Deoxynivalenol,0,0.0,0
+2010MYC0533,2010_SB437,Import,UNITED STATES,Infant Formula - Soy,Ochratoxin A,0,0.0,0
+2010MYC0534,2010_SB437,Import,SWITZERLAND,Infant Formula - Soy,Deoxynivalenol,0,0.0,0
+2010MYC0534,2010_SB437,Import,SWITZERLAND,Infant Formula - Soy,Ochratoxin A,0,0.0,0
+2010MYC0535,2010_SB437,Import,AUSTRALIA,Wine,Deoxynivalenol,0,0.0,0
+2010MYC0535,2010_SB437,Import,AUSTRALIA,Wine,Ochratoxin A,0,0.0,0
+2010MYC0536,2010_SB437,Import,ARGENTINA,Wine,Deoxynivalenol,0,0.0,0
+2010MYC0536,2010_SB437,Import,ARGENTINA,Wine,Ochratoxin A,0,0.0,0
+2010MYC0537,2010_SB437,Import,GERMANY,Wine,Deoxynivalenol,0,0.0,0
+2010MYC0537,2010_SB437,Import,GERMANY,Wine,Ochratoxin A,0,0.0,0
+2010MYC0538,2010_SB437,Import,"IRAN, ISLAMIC REPUBLIC OF",Date,Deoxynivalenol,0,0.0,0
+2010MYC0538,2010_SB437,Import,"IRAN, ISLAMIC REPUBLIC OF",Date,Ochratoxin A,0,0.0,0
+2010MYC0539,2010_SB437,Domestic,CANADA,Cereal - Children,Deoxynivalenol,9.3,9.3,1
+2010MYC0539,2010_SB437,Domestic,CANADA,Cereal - Children,Ochratoxin A,0,0.0,0
+2010MYC0540,2010_SB437,Import,UNITED STATES,Cereal - Adult,Deoxynivalenol,14.3,14.3,1
+2010MYC0540,2010_SB437,Import,UNITED STATES,Cereal - Adult,Ochratoxin A,0.12,0.12,1
+2010MYC0541,2010_SB437,Import,UNITED STATES,Cereal - Adult,Deoxynivalenol,30.6,30.6,1
+2010MYC0541,2010_SB437,Import,UNITED STATES,Cereal - Adult,Ochratoxin A,0.474,0.474,1
+2010MYC0542,2010_SB437,Import,UNITED STATES,Cereal - Adult,Deoxynivalenol,23.6,23.6,1
+2010MYC0542,2010_SB437,Import,UNITED STATES,Cereal - Adult,Ochratoxin A,0.282,0.282,1
+2010MYC0543,2010_SB437,Domestic,CANADA,Infant Food - Cereal,Deoxynivalenol,1.8,1.8,1
+2010MYC0543,2010_SB437,Domestic,CANADA,Infant Food - Cereal,Ochratoxin A,0.389,0.389,1
+2010MYC0544,2010_SB437,Domestic,CANADA,Flour - Wheat,Deoxynivalenol,43.2,43.2,1
+2010MYC0544,2010_SB437,Domestic,CANADA,Flour - Wheat,Ochratoxin A,1.359,1.359,1
+2010MYC0545,2010_SB437,Domestic,CANADA,Flour - Wheat,Deoxynivalenol,28,28.0,1
+2010MYC0545,2010_SB437,Domestic,CANADA,Flour - Wheat,Ochratoxin A,0.044,0.044,1
+2010MYC0546,2010_SB437,Domestic,CANADA,Bran - Wheat,Deoxynivalenol,1500,1500.0,1
+2010MYC0546,2010_SB437,Domestic,CANADA,Bran - Wheat,Ochratoxin A,1.843,1.843,1
+2010MYC0547,2010_SB437,Domestic,CANADA,Wheat Products,Deoxynivalenol,740,740.0,1
+2010MYC0547,2010_SB437,Domestic,CANADA,Wheat Products,Ochratoxin A,6.773,6.773,1
+2010MYC0548,2010_SB437,Domestic,CANADA,Chips - Corn,Deoxynivalenol,8.7,8.7,1
+2010MYC0548,2010_SB437,Domestic,CANADA,Chips - Corn,Ochratoxin A,0,0.0,0
+2010MYC0549,2010_SB437,Import,UNITED STATES,Cornmeal,Deoxynivalenol,14.2,14.2,1
+2010MYC0549,2010_SB437,Import,UNITED STATES,Cornmeal,Ochratoxin A,0,0.0,0
+2010MYC0550,2010_SB437,Import,ARGENTINA,Wine,Deoxynivalenol,0,0.0,0
+2010MYC0550,2010_SB437,Import,ARGENTINA,Wine,Ochratoxin A,0,0.0,0
+2010MYC0551,2010_SB437,Import,CHILE,Wine,Deoxynivalenol,0,0.0,0
+2010MYC0551,2010_SB437,Import,CHILE,Wine,Ochratoxin A,0,0.0,0
+2010MYC0552,2010_SB437,Import,PORTUGAL,Wine,Deoxynivalenol,0,0.0,0
+2010MYC0552,2010_SB437,Import,PORTUGAL,Wine,Ochratoxin A,0,0.0,0
+2010MYC0553,2010_SB437,Import,UNITED STATES,Date,Deoxynivalenol,0,0.0,0
+2010MYC0553,2010_SB437,Import,UNITED STATES,Date,Ochratoxin A,0,0.0,0
+2010MYC0554,2010_SB437,Import,UNKNOWN,Apricot,Deoxynivalenol,0,0.0,0
+2010MYC0554,2010_SB437,Import,UNKNOWN,Apricot,Ochratoxin A,0,0.0,0
+2010MYC0555,2010_SB437,Import,TÜRKIYE,Apricot,Deoxynivalenol,0,0.0,0
+2010MYC0555,2010_SB437,Import,TÜRKIYE,Apricot,Ochratoxin A,0,0.0,0
+2010MYC0556,2010_SB437,Domestic,CANADA,Cereal - Adult,Deoxynivalenol,27.7,27.7,1
+2010MYC0556,2010_SB437,Domestic,CANADA,Cereal - Adult,Ochratoxin A,0.21,0.21,1
+2010MYC0557,2010_SB437,Domestic,CANADA,Flour - Wheat,Deoxynivalenol,280,280.0,1
+2010MYC0557,2010_SB437,Domestic,CANADA,Flour - Wheat,Ochratoxin A,0.276,0.276,1
+2010MYC0558,2010_SB437,Domestic,CANADA,Chips - Corn,Deoxynivalenol,16.8,16.8,1
+2010MYC0558,2010_SB437,Domestic,CANADA,Chips - Corn,Ochratoxin A,0,0.0,0
+2010MYC0559,2010_SB437,Domestic,CANADA,Chips - Corn,Deoxynivalenol,122,122.0,1
+2010MYC0559,2010_SB437,Domestic,CANADA,Chips - Corn,Ochratoxin A,0,0.0,0
+2010MYC0560,2010_SB437,Domestic,CANADA,Grain - Oat,Deoxynivalenol,4.8,4.8,1
+2010MYC0560,2010_SB437,Domestic,CANADA,Grain - Oat,Ochratoxin A,0.735,0.735,1
+2010MYC0561,2010_SB437,Domestic,CANADA,Beer,Deoxynivalenol,29.2,29.2,1
+2010MYC0561,2010_SB437,Domestic,CANADA,Beer,Ochratoxin A,0.071,0.071,1
+2010MYC0562,2010_SB437,Import,UNKNOWN,Infant Formula - Dairy,Deoxynivalenol,0,0.0,0
+2010MYC0562,2010_SB437,Import,UNKNOWN,Infant Formula - Dairy,Ochratoxin A,0,0.0,0
+2010MYC0563,2010_SB437,Import,UNITED STATES,Infant Formula - Dairy,Deoxynivalenol,0,0.0,0
+2010MYC0563,2010_SB437,Import,UNITED STATES,Infant Formula - Dairy,Ochratoxin A,0,0.0,0
+2010MYC0564,2010_SB437,Import,AUSTRALIA,Wine,Deoxynivalenol,0,0.0,0
+2010MYC0564,2010_SB437,Import,AUSTRALIA,Wine,Ochratoxin A,0,0.0,0
+2010MYC0565,2010_SB437,Import,GERMANY,Wine,Deoxynivalenol,0,0.0,0
+2010MYC0565,2010_SB437,Import,GERMANY,Wine,Ochratoxin A,0,0.0,0
+2010MYC0566,2010_SB437,Import,TÜRKIYE,Fig,Deoxynivalenol,0,0.0,0
+2010MYC0566,2010_SB437,Import,TÜRKIYE,Fig,Ochratoxin A,0,0.0,0
+2010MYC0567,2010_SB437,Import,UNITED STATES,Fig,Deoxynivalenol,0,0.0,0
+2010MYC0567,2010_SB437,Import,UNITED STATES,Fig,Ochratoxin A,0,0.0,0
+2010MYC0568,2010_SB437,Domestic,CANADA,Cereal - Adult,Deoxynivalenol,21.9,21.9,1
+2010MYC0568,2010_SB437,Domestic,CANADA,Cereal - Adult,Ochratoxin A,0.358,0.358,1
+2010MYC0569,2010_SB437,Domestic,CANADA,Cereal - Adult,Deoxynivalenol,3.6,3.6,1
+2010MYC0569,2010_SB437,Domestic,CANADA,Cereal - Adult,Ochratoxin A,0,0.0,0
+2010MYC0570,2010_SB437,Domestic,CANADA,Cereal - Adult,Deoxynivalenol,86.7,86.7,1
+2010MYC0570,2010_SB437,Domestic,CANADA,Cereal - Adult,Ochratoxin A,0,0.0,0
+2010MYC0571,2010_SB437,Domestic,CANADA,Cereal - Adult,Deoxynivalenol,20.7,20.7,1
+2010MYC0571,2010_SB437,Domestic,CANADA,Cereal - Adult,Ochratoxin A,0.351,0.351,1
+2010MYC0572,2010_SB437,Domestic,CANADA,Cereal - Adult,Deoxynivalenol,12.8,12.8,1
+2010MYC0572,2010_SB437,Domestic,CANADA,Cereal - Adult,Ochratoxin A,0,0.0,0
+2010MYC0573,2010_SB437,Domestic,CANADA,Cereal - Adult,Deoxynivalenol,94.9,94.9,1
+2010MYC0573,2010_SB437,Domestic,CANADA,Cereal - Adult,Ochratoxin A,0.074,0.074,1
+2010MYC0574,2010_SB437,Import,UNITED STATES,Infant Food - Cereal,Deoxynivalenol,0,0.0,0
+2010MYC0574,2010_SB437,Import,UNITED STATES,Infant Food - Cereal,Ochratoxin A,0.099,0.099,1
+2010MYC0575,2010_SB437,Domestic,CANADA,Infant Food - Cereal,Deoxynivalenol,0,0.0,0
+2010MYC0575,2010_SB437,Domestic,CANADA,Infant Food - Cereal,Ochratoxin A,0.112,0.112,1
+2010MYC0576,2010_SB437,Domestic,CANADA,Flour - Wheat,Deoxynivalenol,720,720.0,1
+2010MYC0576,2010_SB437,Domestic,CANADA,Flour - Wheat,Ochratoxin A,0.094,0.094,1
+2010MYC0577,2010_SB437,Domestic,CANADA,Chips - Corn,Deoxynivalenol,8.3,8.3,1
+2010MYC0577,2010_SB437,Domestic,CANADA,Chips - Corn,Ochratoxin A,0,0.0,0
+2010MYC0578,2010_SB437,Domestic,CANADA,Chips - Corn,Deoxynivalenol,25.1,25.1,1
+2010MYC0578,2010_SB437,Domestic,CANADA,Chips - Corn,Ochratoxin A,0,0.0,0
+2010MYC0579,2010_SB437,Domestic,CANADA,Beer,Deoxynivalenol,41.6,41.6,1
+2010MYC0579,2010_SB437,Domestic,CANADA,Beer,Ochratoxin A,0,0.0,0
+2010MYC0580,2010_SB437,Domestic,CANADA,Beer,Deoxynivalenol,26.7,26.7,1
+2010MYC0580,2010_SB437,Domestic,CANADA,Beer,Ochratoxin A,0,0.0,0
+2010MYC0581,2010_SB437,Domestic,CANADA,Beer,Deoxynivalenol,102,102.0,1
+2010MYC0581,2010_SB437,Domestic,CANADA,Beer,Ochratoxin A,0,0.0,0
+2010MYC0582,2010_SB437,Import,UNITED STATES,Infant Formula - Dairy,Deoxynivalenol,0,0.0,0
+2010MYC0582,2010_SB437,Import,UNITED STATES,Infant Formula - Dairy,Ochratoxin A,0,0.0,0
+2010MYC0583,2010_SB437,Import,UNITED STATES,Raisin,Deoxynivalenol,0,0.0,0
+2010MYC0583,2010_SB437,Import,UNITED STATES,Raisin,Ochratoxin A,0,0.0,0
+2010MYC0584,2010_SB437,Import,UNITED STATES,Raisin,Deoxynivalenol,0,0.0,0
+2010MYC0584,2010_SB437,Import,UNITED STATES,Raisin,Ochratoxin A,0.397,0.397,1
+2010MYC0585,2010_SB437,Domestic,CANADA,Cereal - Adult,Deoxynivalenol,201,201.0,1
+2010MYC0585,2010_SB437,Domestic,CANADA,Cereal - Adult,Ochratoxin A,0,0.0,0
+2010MYC0586,2010_SB437,Domestic,CANADA,Cereal - Adult,Deoxynivalenol,81,81.0,1
+2010MYC0586,2010_SB437,Domestic,CANADA,Cereal - Adult,Ochratoxin A,0.182,0.182,1
+2010MYC0587,2010_SB437,Import,UNKNOWN,Cereal - Adult,Deoxynivalenol,6,6.0,1
+2010MYC0587,2010_SB437,Import,UNKNOWN,Cereal - Adult,Ochratoxin A,0.251,0.251,1
+2010MYC0588,2010_SB437,Domestic,CANADA,Infant Food - Cereal,Deoxynivalenol,6.2,6.2,1
+2010MYC0588,2010_SB437,Domestic,CANADA,Infant Food - Cereal,Ochratoxin A,0,0.0,0
+2010MYC0589,2010_SB437,Domestic,CANADA,Chips - Corn,Deoxynivalenol,94.1,94.1,1
+2010MYC0589,2010_SB437,Domestic,CANADA,Chips - Corn,Ochratoxin A,0.152,0.152,1
+2010MYC0590,2010_SB437,Domestic,CANADA,Chips - Corn,Deoxynivalenol,31.8,31.8,1
+2010MYC0590,2010_SB437,Domestic,CANADA,Chips - Corn,Ochratoxin A,0,0.0,0
+2010MYC0591,2010_SB437,Import,UNITED STATES,Infant Formula - Dairy,Deoxynivalenol,0,0.0,0
+2010MYC0591,2010_SB437,Import,UNITED STATES,Infant Formula - Dairy,Ochratoxin A,0,0.0,0
+2010MYC0592,2010_SB437,Import,UNITED STATES,Raisin,Deoxynivalenol,0,0.0,0
+2010MYC0592,2010_SB437,Import,UNITED STATES,Raisin,Ochratoxin A,0.049,0.049,1
+2010MYC0593,2010_SB437,Import,SOUTH AFRICA,Raisin,Deoxynivalenol,0,0.0,0
+2010MYC0593,2010_SB437,Import,SOUTH AFRICA,Raisin,Ochratoxin A,0.135,0.135,1
+2010MYC0594,2010_SB437,Domestic,CANADA,Cereal - Adult,Deoxynivalenol,1610,1610.0,1
+2010MYC0594,2010_SB437,Domestic,CANADA,Cereal - Adult,Ochratoxin A,0.157,0.157,1
+2010MYC0595,2010_SB437,Domestic,CANADA,Cereal - Adult,Deoxynivalenol,850,850.0,1
+2010MYC0595,2010_SB437,Domestic,CANADA,Cereal - Adult,Ochratoxin A,0.45,0.45,1
+2010MYC0596,2010_SB437,Domestic,CANADA,Cereal - Adult,Deoxynivalenol,767,767.0,1
+2010MYC0596,2010_SB437,Domestic,CANADA,Cereal - Adult,Ochratoxin A,0.773,0.773,1
+2010MYC0597,2010_SB437,Import,POLAND,Infant Food - Cereal,Deoxynivalenol,2.19,2.19,1
+2010MYC0597,2010_SB437,Import,POLAND,Infant Food - Cereal,Ochratoxin A,0,0.0,0
+2010MYC0598,2010_SB437,Domestic,CANADA,Infant Food - Cereal,Deoxynivalenol,2.3,2.3,1
+2010MYC0598,2010_SB437,Domestic,CANADA,Infant Food - Cereal,Ochratoxin A,0,0.0,0
+2010MYC0599,2010_SB437,Import,UNITED STATES,Infant Formula - Dairy,Deoxynivalenol,0,0.0,0
+2010MYC0599,2010_SB437,Import,UNITED STATES,Infant Formula - Dairy,Ochratoxin A,0,0.0,0
+2010MYC0600,2010_SB437,Domestic,CANADA,Infant Formula - Dairy,Deoxynivalenol,0,0.0,0
+2010MYC0600,2010_SB437,Domestic,CANADA,Infant Formula - Dairy,Ochratoxin A,0,0.0,0
+2010MYC0601,2010_SB437,Import,UNKNOWN,Raisin,Deoxynivalenol,0,0.0,0
+2010MYC0601,2010_SB437,Import,UNKNOWN,Raisin,Ochratoxin A,0.077,0.077,1
+2010MYC0602,2010_SB437,Domestic,CANADA,Cereal - Adult,Deoxynivalenol,108,108.0,1
+2010MYC0602,2010_SB437,Domestic,CANADA,Cereal - Adult,Ochratoxin A,0,0.0,0
+2010MYC0603,2010_SB437,Import,SWITZERLAND,Infant Food - Cereal,Deoxynivalenol,25,25.0,1
+2010MYC0603,2010_SB437,Import,SWITZERLAND,Infant Food - Cereal,Ochratoxin A,0,0.0,0
+2010MYC0604,2010_SB437,Import,POLAND,Infant Food - Cereal,Deoxynivalenol,0,0.0,0
+2010MYC0604,2010_SB437,Import,POLAND,Infant Food - Cereal,Ochratoxin A,0,0.0,0
+2010MYC0605,2010_SB437,Domestic,CANADA,Beer,Deoxynivalenol,9,9.0,1
+2010MYC0605,2010_SB437,Domestic,CANADA,Beer,Ochratoxin A,0,0.0,0
+2010MYC0606,2010_SB437,Domestic,CANADA,Infant Formula - Dairy,Deoxynivalenol,0,0.0,0
+2010MYC0606,2010_SB437,Domestic,CANADA,Infant Formula - Dairy,Ochratoxin A,0,0.0,0
+2010MYC0607,2010_SB437,Import,SWITZERLAND,Infant Formula - Dairy,Deoxynivalenol,0,0.0,0
+2010MYC0607,2010_SB437,Import,SWITZERLAND,Infant Formula - Dairy,Ochratoxin A,0,0.0,0
+2010MYC0608,2010_SB437,Import,PORTUGAL,Wine,Deoxynivalenol,0,0.0,0
+2010MYC0608,2010_SB437,Import,PORTUGAL,Wine,Ochratoxin A,0,0.0,0
+2010MYC0609,2010_SB437,Import,PORTUGAL,Wine,Deoxynivalenol,0,0.0,0
+2010MYC0609,2010_SB437,Import,PORTUGAL,Wine,Ochratoxin A,0,0.0,0
+2010MYC0610,2010_SB437,Import,PORTUGAL,Wine,Deoxynivalenol,0,0.0,0
+2010MYC0610,2010_SB437,Import,PORTUGAL,Wine,Ochratoxin A,0.049,0.049,1
+2010MYC0612,2010_SB437,Import,UNITED STATES,Raisin,Deoxynivalenol,0,0.0,0
+2010MYC0612,2010_SB437,Import,UNITED STATES,Raisin,Ochratoxin A,0,0.0,0
+2010MYC0613,2010_SB437,Import,UNITED STATES,Raisin,Deoxynivalenol,0,0.0,0
+2010MYC0613,2010_SB437,Import,UNITED STATES,Raisin,Ochratoxin A,0.374,0.374,1
+2010MYC0614,2010_SB437,Domestic,CANADA,Cereal - Adult,Deoxynivalenol,2060,2060.0,1
+2010MYC0614,2010_SB437,Domestic,CANADA,Cereal - Adult,Ochratoxin A,0.269,0.269,1
+2010MYC0615,2010_SB437,Import,UNKNOWN,Cereal - Adult,Deoxynivalenol,534,534.0,1
+2010MYC0615,2010_SB437,Import,UNKNOWN,Cereal - Adult,Ochratoxin A,0,0.0,0
+2010MYC0616,2010_SB437,Domestic,CANADA,Cereal - Children,Deoxynivalenol,508,508.0,1
+2010MYC0616,2010_SB437,Domestic,CANADA,Cereal - Children,Ochratoxin A,0.085,0.085,1
+2010MYC0617,2010_SB437,Domestic,CANADA,Cereal - Children,Deoxynivalenol,15.3,15.3,1
+2010MYC0617,2010_SB437,Domestic,CANADA,Cereal - Children,Ochratoxin A,0,0.0,0
+2010MYC0618,2010_SB437,Domestic,CANADA,Cereal - Adult,Deoxynivalenol,105,105.0,1
+2010MYC0618,2010_SB437,Domestic,CANADA,Cereal - Adult,Ochratoxin A,0.221,0.221,1
+2010MYC0619,2010_SB437,Domestic,CANADA,Cereal - Adult,Deoxynivalenol,9.8,9.8,1
+2010MYC0619,2010_SB437,Domestic,CANADA,Cereal - Adult,Ochratoxin A,0.146,0.146,1
+2010MYC0620,2010_SB437,Import,UNITED KINGDOM,Cereal - Adult,Deoxynivalenol,3.6,3.6,1
+2010MYC0620,2010_SB437,Import,UNITED KINGDOM,Cereal - Adult,Ochratoxin A,0.192,0.192,1
+2010MYC0621,2010_SB437,Import,POLAND,Infant Food - Cereal,Deoxynivalenol,18.2,18.2,1
+2010MYC0621,2010_SB437,Import,POLAND,Infant Food - Cereal,Ochratoxin A,0,0.0,0
+2010MYC0622,2010_SB437,Import,SWITZERLAND,Infant Food - Cereal,Deoxynivalenol,1.2,1.2,1
+2010MYC0622,2010_SB437,Import,SWITZERLAND,Infant Food - Cereal,Ochratoxin A,0,0.0,0
+2010MYC0623,2010_SB437,Domestic,CANADA,Infant Food - Cereal,Deoxynivalenol,6,6.0,1
+2010MYC0623,2010_SB437,Domestic,CANADA,Infant Food - Cereal,Ochratoxin A,0,0.0,0
+2010MYC0624,2010_SB437,Import,SWITZERLAND,Infant Formula - Dairy,Deoxynivalenol,0,0.0,0
+2010MYC0624,2010_SB437,Import,SWITZERLAND,Infant Formula - Dairy,Ochratoxin A,0,0.0,0
+2010MYC0625,2010_SB437,Domestic,CANADA,Cereal - Adult,Deoxynivalenol,54.7,54.7,1
+2010MYC0625,2010_SB437,Domestic,CANADA,Cereal - Adult,Ochratoxin A,0.356,0.356,1
+2010MYC0626,2010_SB437,Domestic,CANADA,Infant Food - Cereal,Deoxynivalenol,21.7,21.7,1
+2010MYC0626,2010_SB437,Domestic,CANADA,Infant Food - Cereal,Ochratoxin A,0,0.0,0
+2010MYC0627,2010_SB437,Domestic,CANADA,Chips - Corn,Deoxynivalenol,46.4,46.4,1
+2010MYC0627,2010_SB437,Domestic,CANADA,Chips - Corn,Ochratoxin A,0,0.0,0
+2010MYC0628,2010_SB437,Domestic,CANADA,Chips - Corn,Deoxynivalenol,3.5,3.5,1
+2010MYC0628,2010_SB437,Domestic,CANADA,Chips - Corn,Ochratoxin A,0,0.0,0
+2010MYC0629,2010_SB437,Domestic,CANADA,Beer,Deoxynivalenol,0,0.0,0
+2010MYC0629,2010_SB437,Domestic,CANADA,Beer,Ochratoxin A,0,0.0,0
+2010MYC0630,2010_SB437,Domestic,CANADA,Beer,Deoxynivalenol,0,0.0,0
+2010MYC0630,2010_SB437,Domestic,CANADA,Beer,Ochratoxin A,0,0.0,0
+2010MYC0631,2010_SB437,Domestic,CANADA,Infant Formula - Dairy,Deoxynivalenol,0,0.0,0
+2010MYC0631,2010_SB437,Domestic,CANADA,Infant Formula - Dairy,Ochratoxin A,0,0.0,0
+2010MYC0632,2010_SB437,Domestic,CANADA,Cereal - Adult,Deoxynivalenol,4.9,4.9,1
+2010MYC0632,2010_SB437,Domestic,CANADA,Cereal - Adult,Ochratoxin A,0,0.0,0
+2010MYC0633,2010_SB437,Domestic,CANADA,Cereal - Adult,Deoxynivalenol,8.9,8.9,1
+2010MYC0633,2010_SB437,Domestic,CANADA,Cereal - Adult,Ochratoxin A,0.197,0.197,1
+2010MYC0634,2010_SB437,Domestic,CANADA,Cereal - Adult,Deoxynivalenol,261,261.0,1
+2010MYC0634,2010_SB437,Domestic,CANADA,Cereal - Adult,Ochratoxin A,0.374,0.374,1
+2010MYC0635,2010_SB437,Import,UNITED STATES,Infant Formula - Dairy,Deoxynivalenol,0,0.0,0
+2010MYC0635,2010_SB437,Import,UNITED STATES,Infant Formula - Dairy,Ochratoxin A,0,0.0,0
+2010MYC0636,2010_SB437,Import,SWITZERLAND,Infant Formula - Dairy,Deoxynivalenol,0,0.0,0
+2010MYC0636,2010_SB437,Import,SWITZERLAND,Infant Formula - Dairy,Ochratoxin A,0,0.0,0
+2010MYC0637,2010_SB437,Domestic,CANADA,Cereal - Adult,Deoxynivalenol,7.9,7.9,1
+2010MYC0637,2010_SB437,Domestic,CANADA,Cereal - Adult,Ochratoxin A,0,0.0,0
+2010MYC0638,2010_SB437,Import,UNITED STATES,Cereal - Children,Deoxynivalenol,65.6,65.6,1
+2010MYC0638,2010_SB437,Import,UNITED STATES,Cereal - Children,Ochratoxin A,0.108,0.108,1
+2010MYC0639,2010_SB437,Domestic,CANADA,Cereal - Adult,Deoxynivalenol,169,169.0,1
+2010MYC0639,2010_SB437,Domestic,CANADA,Cereal - Adult,Ochratoxin A,0.104,0.104,1
+2010MYC0640,2010_SB437,Domestic,CANADA,Cereal - Adult,Deoxynivalenol,37.2,37.2,1
+2010MYC0640,2010_SB437,Domestic,CANADA,Cereal - Adult,Ochratoxin A,0.177,0.177,1
+2010MYC0641,2010_SB437,Domestic,CANADA,Infant Food - Cereal,Deoxynivalenol,0,0.0,0
+2010MYC0641,2010_SB437,Domestic,CANADA,Infant Food - Cereal,Ochratoxin A,0,0.0,0
+2010MYC0642,2010_SB437,Unknown,UNKNOWN,Chips - Corn,Deoxynivalenol,11.8,11.8,1
+2010MYC0642,2010_SB437,Unknown,UNKNOWN,Chips - Corn,Ochratoxin A,0,0.0,0
+2010MYC0643,2010_SB437,Domestic,CANADA,Beer,Deoxynivalenol,20.9,20.9,1
+2010MYC0643,2010_SB437,Domestic,CANADA,Beer,Ochratoxin A,0,0.0,0
+2010MYC0644,2010_SB437,Import,SWITZERLAND,Infant Formula - Dairy,Deoxynivalenol,0,0.0,0
+2010MYC0644,2010_SB437,Import,SWITZERLAND,Infant Formula - Dairy,Ochratoxin A,0,0.0,0
+2010MYC0645,2010_SB437,Import,UNITED STATES,Infant Formula - Dairy,Deoxynivalenol,0,0.0,0
+2010MYC0645,2010_SB437,Import,UNITED STATES,Infant Formula - Dairy,Ochratoxin A,0,0.0,0
+2010MYC0646,2010_SB437,Import,SOUTH AFRICA,Wine,Deoxynivalenol,0,0.0,0
+2010MYC0646,2010_SB437,Import,SOUTH AFRICA,Wine,Ochratoxin A,0,0.0,0
+2010MYC0647,2010_SB437,Import,SOUTH AFRICA,Wine,Deoxynivalenol,0,0.0,0
+2010MYC0647,2010_SB437,Import,SOUTH AFRICA,Wine,Ochratoxin A,0,0.0,0
+2010MYC0648,2010_SB437,Import,UNITED STATES,Raisin,Deoxynivalenol,0,0.0,0
+2010MYC0648,2010_SB437,Import,UNITED STATES,Raisin,Ochratoxin A,0,0.0,0
+2010MYC0649,2010_SB437,Domestic,CANADA,Cereal - Adult,Deoxynivalenol,1.7,1.7,1
+2010MYC0649,2010_SB437,Domestic,CANADA,Cereal - Adult,Ochratoxin A,0.272,0.272,1
+2010MYC0650,2010_SB437,Import,UNITED STATES,Cereal - Adult,Deoxynivalenol,152,152.0,1
+2010MYC0650,2010_SB437,Import,UNITED STATES,Cereal - Adult,Ochratoxin A,0,0.0,0
+2010MYC0651,2010_SB437,Import,UNITED STATES,Cereal - Adult,Deoxynivalenol,2.2,2.2,1
+2010MYC0651,2010_SB437,Import,UNITED STATES,Cereal - Adult,Ochratoxin A,0,0.0,0
+2010MYC0652,2010_SB437,Import,UNITED STATES,Cereal - Adult,Deoxynivalenol,405,405.0,1
+2010MYC0652,2010_SB437,Import,UNITED STATES,Cereal - Adult,Ochratoxin A,0.214,0.214,1
+2010MYC0653,2010_SB437,Domestic,CANADA,Flour - Wheat,Deoxynivalenol,1.6,1.6,1
+2010MYC0653,2010_SB437,Domestic,CANADA,Flour - Wheat,Ochratoxin A,0,0.0,0
+2010MYC0654,2010_SB437,Domestic,CANADA,Bran - Wheat,Deoxynivalenol,49.1,49.1,1
+2010MYC0654,2010_SB437,Domestic,CANADA,Bran - Wheat,Ochratoxin A,1.987,1.987,1
+2010MYC0655,2010_SB437,Domestic,CANADA,Beer,Deoxynivalenol,3.8,3.8,1
+2010MYC0655,2010_SB437,Domestic,CANADA,Beer,Ochratoxin A,0,0.0,0
+2010MYC0656,2010_SB437,Domestic,CANADA,Beer,Deoxynivalenol,0,0.0,0
+2010MYC0656,2010_SB437,Domestic,CANADA,Beer,Ochratoxin A,0,0.0,0
+2010MYC0657,2010_SB437,Domestic,CANADA,Beer,Deoxynivalenol,6.5,6.5,1
+2010MYC0657,2010_SB437,Domestic,CANADA,Beer,Ochratoxin A,0,0.0,0
+2010MYC0658,2010_SB437,Import,UNITED STATES,Infant Formula - Dairy,Deoxynivalenol,0,0.0,0
+2010MYC0658,2010_SB437,Import,UNITED STATES,Infant Formula - Dairy,Ochratoxin A,0,0.0,0
+2010MYC0659,2010_SB437,Import,CHILE,Wine,Deoxynivalenol,0,0.0,0
+2010MYC0659,2010_SB437,Import,CHILE,Wine,Ochratoxin A,0,0.0,0
+2010MYC0660,2010_SB437,Import,CHILE,Wine,Deoxynivalenol,0,0.0,0
+2010MYC0660,2010_SB437,Import,CHILE,Wine,Ochratoxin A,0,0.0,0
+2010MYC0661,2010_SB437,Import,UNITED STATES,Raisin,Deoxynivalenol,0,0.0,0
+2010MYC0661,2010_SB437,Import,UNITED STATES,Raisin,Ochratoxin A,0.289,0.289,1
+2010MYC0662,2010_SB437,Domestic,CANADA,Cereal - Adult,Deoxynivalenol,34.2,34.2,1
+2010MYC0662,2010_SB437,Domestic,CANADA,Cereal - Adult,Ochratoxin A,3.077,3.077,1
+2010MYC0663,2010_SB437,Domestic,CANADA,Infant Food - Cereal,Deoxynivalenol,20.1,20.1,1
+2010MYC0663,2010_SB437,Domestic,CANADA,Infant Food - Cereal,Ochratoxin A,0.124,0.124,1
+2010MYC0664,2010_SB437,Import,POLAND,Infant Food - Cereal,Deoxynivalenol,63.5,63.5,1
+2010MYC0664,2010_SB437,Import,POLAND,Infant Food - Cereal,Ochratoxin A,0,0.0,0
+2010MYC0665,2010_SB437,Import,SWITZERLAND,Infant Food - Cereal,Deoxynivalenol,0,0.0,0
+2010MYC0665,2010_SB437,Import,SWITZERLAND,Infant Food - Cereal,Ochratoxin A,0,0.0,0
+2010MYC0666,2010_SB437,Domestic,CANADA,Flour - Wheat,Deoxynivalenol,52.7,52.7,1
+2010MYC0666,2010_SB437,Domestic,CANADA,Flour - Wheat,Ochratoxin A,0.492,0.492,1
+2010MYC0667,2010_SB437,Domestic,CANADA,Beer,Deoxynivalenol,0,0.0,0
+2010MYC0667,2010_SB437,Domestic,CANADA,Beer,Ochratoxin A,0,0.0,0
+2010MYC0668,2010_SB437,Domestic,CANADA,Beer,Deoxynivalenol,28.5,28.5,1
+2010MYC0668,2010_SB437,Domestic,CANADA,Beer,Ochratoxin A,0.05,0.05,1
+2010MYC0669,2010_SB437,Import,UNITED STATES,Infant Formula - Dairy,Deoxynivalenol,0,0.0,0
+2010MYC0669,2010_SB437,Import,UNITED STATES,Infant Formula - Dairy,Ochratoxin A,0,0.0,0
+2010MYC0670,2010_SB437,Import,SOUTH AFRICA,Wine,Deoxynivalenol,0,0.0,0
+2010MYC0670,2010_SB437,Import,SOUTH AFRICA,Wine,Ochratoxin A,0,0.0,0
+2010MYC0671,2010_SB437,Import,UNITED STATES,Raisin,Deoxynivalenol,0,0.0,0
+2010MYC0671,2010_SB437,Import,UNITED STATES,Raisin,Ochratoxin A,1.082,1.082,1
+2010MYC0672,2010_SB437,Domestic,CANADA,Cereal - Adult,Deoxynivalenol,6.5,6.5,1
+2010MYC0672,2010_SB437,Domestic,CANADA,Cereal - Adult,Ochratoxin A,1.065,1.065,1
+2010MYC0673,2010_SB437,Domestic,CANADA,Flour - Wheat,Deoxynivalenol,101,101.0,1
+2010MYC0673,2010_SB437,Domestic,CANADA,Flour - Wheat,Ochratoxin A,0.42,0.42,1
+2010MYC0674,2010_SB437,Domestic,CANADA,Bran - Wheat,Deoxynivalenol,344,344.0,1
+2010MYC0674,2010_SB437,Domestic,CANADA,Bran - Wheat,Ochratoxin A,3.147,3.147,1
+2010MYC0675,2010_SB437,Domestic,CANADA,Infant Formula - Dairy,Deoxynivalenol,0,0.0,0
+2010MYC0675,2010_SB437,Domestic,CANADA,Infant Formula - Dairy,Ochratoxin A,0,0.0,0
+2010MYC0676,2010_SB437,Import,SWITZERLAND,Infant Formula - Dairy,Deoxynivalenol,0,0.0,0
+2010MYC0676,2010_SB437,Import,SWITZERLAND,Infant Formula - Dairy,Ochratoxin A,0,0.0,0
+2010MYC0677,2010_SB437,Import,UNITED STATES,Raisin,Deoxynivalenol,0,0.0,0
+2010MYC0677,2010_SB437,Import,UNITED STATES,Raisin,Ochratoxin A,0,0.0,0
+2010MYC0678,2010_SB437,Domestic,CANADA,Cereal - Adult,Deoxynivalenol,161,161.0,1
+2010MYC0678,2010_SB437,Domestic,CANADA,Cereal - Adult,Ochratoxin A,0,0.0,0
+2010MYC0679,2010_SB437,Domestic,CANADA,Cereal - Adult,Deoxynivalenol,206,206.0,1
+2010MYC0679,2010_SB437,Domestic,CANADA,Cereal - Adult,Ochratoxin A,0.098,0.098,1
+2010MYC0680,2010_SB437,Domestic,CANADA,Cereal - Adult,Deoxynivalenol,6.4,6.4,1
+2010MYC0680,2010_SB437,Domestic,CANADA,Cereal - Adult,Ochratoxin A,0.243,0.243,1
+2010MYC0681,2010_SB437,Domestic,CANADA,Infant Food - Cereal,Deoxynivalenol,3.4,3.4,1
+2010MYC0681,2010_SB437,Domestic,CANADA,Infant Food - Cereal,Ochratoxin A,0,0.0,0
+2010MYC0682,2010_SB437,Import,POLAND,Infant Food - Cereal,Deoxynivalenol,0,0.0,0
+2010MYC0682,2010_SB437,Import,POLAND,Infant Food - Cereal,Ochratoxin A,0,0.0,0
+2010MYC0683,2010_SB437,Domestic,CANADA,Flour - Wheat,Deoxynivalenol,4.8,4.8,1
+2010MYC0683,2010_SB437,Domestic,CANADA,Flour - Wheat,Ochratoxin A,0.479,0.479,1
+2010MYC0684,2010_SB437,Domestic,CANADA,Flour - Wheat,Deoxynivalenol,1.7,1.7,1
+2010MYC0684,2010_SB437,Domestic,CANADA,Flour - Wheat,Ochratoxin A,0.053,0.053,1
+2010MYC0685,2010_SB437,Domestic,CANADA,Wheat Products,Deoxynivalenol,6.3,6.3,1
+2010MYC0685,2010_SB437,Domestic,CANADA,Wheat Products,Ochratoxin A,0.469,0.469,1
+2010MYC0686,2010_SB437,Domestic,CANADA,Beer,Deoxynivalenol,16.6,16.6,1
+2010MYC0686,2010_SB437,Domestic,CANADA,Beer,Ochratoxin A,0,0.0,0
+2010MYC0687,2010_SB437,Domestic,CANADA,Beer,Deoxynivalenol,0,0.0,0
+2010MYC0687,2010_SB437,Domestic,CANADA,Beer,Ochratoxin A,0,0.0,0
+2010MYC0688,2010_SB437,Import,SOUTH AFRICA,Wine,Deoxynivalenol,0,0.0,0
+2010MYC0688,2010_SB437,Import,SOUTH AFRICA,Wine,Ochratoxin A,0,0.0,0
+2010MYC0689,2010_SB437,Import,CHILE,Wine,Deoxynivalenol,0,0.0,0
+2010MYC0689,2010_SB437,Import,CHILE,Wine,Ochratoxin A,0,0.0,0
+2010MYC0690,2010_SB437,Import,CHILE,Wine,Deoxynivalenol,0,0.0,0
+2010MYC0690,2010_SB437,Import,CHILE,Wine,Ochratoxin A,0,0.0,0
+2010MYC0691,2010_SB437,Import,UNITED STATES,Raisin,Deoxynivalenol,0,0.0,0
+2010MYC0691,2010_SB437,Import,UNITED STATES,Raisin,Ochratoxin A,0,0.0,0
+2010MYC0692,2010_SB437,Import,UNITED STATES,Raisin,Deoxynivalenol,0,0.0,0
+2010MYC0692,2010_SB437,Import,UNITED STATES,Raisin,Ochratoxin A,0,0.0,0
+2010MYC0693,2010_SB437,Domestic,CANADA,Cereal - Children,Deoxynivalenol,39.7,39.7,1
+2010MYC0693,2010_SB437,Domestic,CANADA,Cereal - Children,Ochratoxin A,0,0.0,0
+2010MYC0694,2010_SB437,Domestic,CANADA,Cereal - Children,Deoxynivalenol,38,38.0,1
+2010MYC0694,2010_SB437,Domestic,CANADA,Cereal - Children,Ochratoxin A,1.538,1.538,1
+2010MYC0695,2010_SB437,Domestic,CANADA,Cereal - Adult,Deoxynivalenol,785,785.0,1
+2010MYC0695,2010_SB437,Domestic,CANADA,Cereal - Adult,Ochratoxin A,0.85,0.85,1
+2010MYC0696,2010_SB437,Domestic,CANADA,Cereal - Adult,Deoxynivalenol,511,511.0,1
+2010MYC0696,2010_SB437,Domestic,CANADA,Cereal - Adult,Ochratoxin A,0.615,0.615,1
+2010MYC0697,2010_SB437,Domestic,CANADA,Cereal - Children,Deoxynivalenol,277,277.0,1
+2010MYC0697,2010_SB437,Domestic,CANADA,Cereal - Children,Ochratoxin A,0.343,0.343,1
+2010MYC0698,2010_SB437,Domestic,CANADA,Flour - Wheat,Deoxynivalenol,28.7,28.7,1
+2010MYC0698,2010_SB437,Domestic,CANADA,Flour - Wheat,Ochratoxin A,3.094,3.094,1
+2010MYC0699,2010_SB437,Domestic,CANADA,Flour - Wheat,Deoxynivalenol,1.2,1.2,1
+2010MYC0699,2010_SB437,Domestic,CANADA,Flour - Wheat,Ochratoxin A,0.158,0.158,1
+2010MYC0700,2010_SB437,Domestic,CANADA,Flour - Wheat,Deoxynivalenol,76.6,76.6,1
+2010MYC0700,2010_SB437,Domestic,CANADA,Flour - Wheat,Ochratoxin A,0.283,0.283,1
+2010MYC0701,2010_SB437,Domestic,CANADA,Wheat Products,Deoxynivalenol,26.9,26.9,1
+2010MYC0701,2010_SB437,Domestic,CANADA,Wheat Products,Ochratoxin A,0.784,0.784,1
+2010MYC0702,2010_SB437,Domestic,CANADA,Beer,Deoxynivalenol,0,0.0,0
+2010MYC0702,2010_SB437,Domestic,CANADA,Beer,Ochratoxin A,0,0.0,0
+2010MYC0703,2010_SB437,Domestic,CANADA,Beer,Deoxynivalenol,0,0.0,0
+2010MYC0703,2010_SB437,Domestic,CANADA,Beer,Ochratoxin A,0,0.0,0
+2010MYC0704,2010_SB437,Domestic,CANADA,Beer,Deoxynivalenol,0,0.0,0
+2010MYC0704,2010_SB437,Domestic,CANADA,Beer,Ochratoxin A,0.138,0.138,1
+2010MYC0705,2010_SB437,Domestic,CANADA,Beer,Deoxynivalenol,1.4,1.4,1
+2010MYC0705,2010_SB437,Domestic,CANADA,Beer,Ochratoxin A,0,0.0,0
+2010MYC0706,2010_SB437,Domestic,CANADA,Infant Formula - Dairy,Deoxynivalenol,0,0.0,0
+2010MYC0706,2010_SB437,Domestic,CANADA,Infant Formula - Dairy,Ochratoxin A,0,0.0,0
+2010MYC0707,2010_SB437,Import,CHILE,Wine,Deoxynivalenol,0,0.0,0
+2010MYC0707,2010_SB437,Import,CHILE,Wine,Ochratoxin A,0,0.0,0
+2010MYC0708,2010_SB437,Domestic,CANADA,Cereal - Children,Deoxynivalenol,198,198.0,1
+2010MYC0708,2010_SB437,Domestic,CANADA,Cereal - Children,Ochratoxin A,0.34,0.34,1
+2010MYC0709,2010_SB437,Domestic,CANADA,Cereal - Adult,Deoxynivalenol,57.4,57.4,1
+2010MYC0709,2010_SB437,Domestic,CANADA,Cereal - Adult,Ochratoxin A,0,0.0,0
+2010MYC0710,2010_SB437,Domestic,CANADA,Cereal - Adult,Deoxynivalenol,71.3,71.3,1
+2010MYC0710,2010_SB437,Domestic,CANADA,Cereal - Adult,Ochratoxin A,0,0.0,0
+2010MYC0711,2010_SB437,Domestic,CANADA,Infant Food - Cereal,Deoxynivalenol,19,19.0,1
+2010MYC0711,2010_SB437,Domestic,CANADA,Infant Food - Cereal,Ochratoxin A,0.043,0.043,1
+2010MYC0712,2010_SB437,Domestic,CANADA,Infant Food - Cereal,Deoxynivalenol,9.1,9.1,1
+2010MYC0712,2010_SB437,Domestic,CANADA,Infant Food - Cereal,Ochratoxin A,0.324,0.324,1
+2010MYC0713,2010_SB437,Domestic,CANADA,Infant Food - Cereal,Deoxynivalenol,5.4,5.4,1
+2010MYC0713,2010_SB437,Domestic,CANADA,Infant Food - Cereal,Ochratoxin A,0.887,0.887,1
+2010MYC0714,2010_SB437,Domestic,CANADA,Bran - Wheat,Deoxynivalenol,29.2,29.2,1
+2010MYC0714,2010_SB437,Domestic,CANADA,Bran - Wheat,Ochratoxin A,0.634,0.634,1
+2010MYC0715,2010_SB437,Domestic,CANADA,Wheat Products,Deoxynivalenol,81,81.0,1
+2010MYC0715,2010_SB437,Domestic,CANADA,Wheat Products,Ochratoxin A,1.275,1.275,1
+2010MYC0716,2010_SB437,Domestic,CANADA,Beer,Deoxynivalenol,0,0.0,0
+2010MYC0716,2010_SB437,Domestic,CANADA,Beer,Ochratoxin A,0.11,0.11,1
+2010MYC0717,2010_SB437,Domestic,CANADA,Infant Formula - Dairy,Deoxynivalenol,0,0.0,0
+2010MYC0717,2010_SB437,Domestic,CANADA,Infant Formula - Dairy,Ochratoxin A,0,0.0,0
+2010MYC0718,2010_SB437,Import,UNITED STATES,Infant Formula - Dairy,Deoxynivalenol,0,0.0,0
+2010MYC0718,2010_SB437,Import,UNITED STATES,Infant Formula - Dairy,Ochratoxin A,0,0.0,0
+2010MYC0719,2010_SB437,Import,UNITED STATES,Infant Formula - Dairy,Deoxynivalenol,0,0.0,0
+2010MYC0719,2010_SB437,Import,UNITED STATES,Infant Formula - Dairy,Ochratoxin A,0,0.0,0
+2010MYC0720,2010_SB437,Import,SOUTH AFRICA,Wine,Deoxynivalenol,0,0.0,0
+2010MYC0720,2010_SB437,Import,SOUTH AFRICA,Wine,Ochratoxin A,0,0.0,0
+2010MYC0721,2010_SB437,Import,CHILE,Wine,Deoxynivalenol,0,0.0,0
+2010MYC0721,2010_SB437,Import,CHILE,Wine,Ochratoxin A,0,0.0,0
+2010MYC0722,2010_SB437,Import,CHILE,Wine,Deoxynivalenol,0,0.0,0
+2010MYC0722,2010_SB437,Import,CHILE,Wine,Ochratoxin A,0,0.0,0
+2010MYC0723,2010_SB437,Import,CHILE,Wine,Deoxynivalenol,0,0.0,0
+2010MYC0723,2010_SB437,Import,CHILE,Wine,Ochratoxin A,0,0.0,0
+2010MYC0724,2010_SB437,Import,UNITED STATES,Raisin,Deoxynivalenol,0,0.0,0
+2010MYC0724,2010_SB437,Import,UNITED STATES,Raisin,Ochratoxin A,0.137,0.137,1
+2010MYC0725,2010_SB437,Domestic,CANADA,Cereal - Children,Deoxynivalenol,89.6,89.6,1
+2010MYC0725,2010_SB437,Domestic,CANADA,Cereal - Children,Ochratoxin A,0,0.0,0
+2010MYC0726,2010_SB437,Domestic,CANADA,Cereal - Adult,Deoxynivalenol,44.8,44.8,1
+2010MYC0726,2010_SB437,Domestic,CANADA,Cereal - Adult,Ochratoxin A,0,0.0,0
+2010MYC0727,2010_SB437,Domestic,CANADA,Cereal - Adult,Deoxynivalenol,4.5,4.5,1
+2010MYC0727,2010_SB437,Domestic,CANADA,Cereal - Adult,Ochratoxin A,0.076,0.076,1
+2010MYC0728,2010_SB437,Import,SWITZERLAND,Infant Food - Cereal,Deoxynivalenol,3.6,3.6,1
+2010MYC0728,2010_SB437,Import,SWITZERLAND,Infant Food - Cereal,Ochratoxin A,0,0.0,0
+2010MYC0729,2010_SB437,Import,SWITZERLAND,Infant Food - Cereal,Deoxynivalenol,0,0.0,0
+2010MYC0729,2010_SB437,Import,SWITZERLAND,Infant Food - Cereal,Ochratoxin A,0,0.0,0
+2010MYC0730,2010_SB437,Import,UNITED STATES,Infant Formula - Dairy,Deoxynivalenol,0,0.0,0
+2010MYC0730,2010_SB437,Import,UNITED STATES,Infant Formula - Dairy,Ochratoxin A,0,0.0,0
+2010MYC0731,2010_SB437,Import,UNITED STATES,Infant Formula - Dairy,Deoxynivalenol,0,0.0,0
+2010MYC0731,2010_SB437,Import,UNITED STATES,Infant Formula - Dairy,Ochratoxin A,0,0.0,0
+2010MYC0732,2010_SB437,Domestic,CANADA,Beer,Deoxynivalenol,1.9,1.9,1
+2010MYC0732,2010_SB437,Domestic,CANADA,Beer,Ochratoxin A,0,0.0,0
+2010MYC0733,2010_SB437,Domestic,CANADA,Beer,Deoxynivalenol,1.7,1.7,1
+2010MYC0733,2010_SB437,Domestic,CANADA,Beer,Ochratoxin A,0,0.0,0
+2010MYC0734,2010_SB437,Import,UNITED STATES,Infant Formula - Dairy,Deoxynivalenol,0,0.0,0
+2010MYC0734,2010_SB437,Import,UNITED STATES,Infant Formula - Dairy,Ochratoxin A,0,0.0,0
+2010MYC0735,2010_SB437,Import,UNITED STATES,Infant Formula - Dairy,Deoxynivalenol,0,0.0,0
+2010MYC0735,2010_SB437,Import,UNITED STATES,Infant Formula - Dairy,Ochratoxin A,0,0.0,0
+2010MYC0736,2010_SB437,Import,SWITZERLAND,Infant Formula - Dairy,Deoxynivalenol,0,0.0,0
+2010MYC0736,2010_SB437,Import,SWITZERLAND,Infant Formula - Dairy,Ochratoxin A,0,0.0,0
+2010MYC0737,2010_SB437,Import,IRELAND,Infant Formula - Dairy,Deoxynivalenol,0,0.0,0
+2010MYC0737,2010_SB437,Import,IRELAND,Infant Formula - Dairy,Ochratoxin A,0,0.0,0
+2010MYC0738,2010_SB437,Import,UNITED STATES,Infant Formula - Dairy,Deoxynivalenol,0,0.0,0
+2010MYC0738,2010_SB437,Import,UNITED STATES,Infant Formula - Dairy,Ochratoxin A,0,0.0,0
+2010MYC0739,2010_SB437,Import,UNITED STATES,Infant Formula - Dairy,Deoxynivalenol,0,0.0,0
+2010MYC0739,2010_SB437,Import,UNITED STATES,Infant Formula - Dairy,Ochratoxin A,0,0.0,0
+2010MYC0740,2010_SB437,Import,UNITED STATES,Infant Formula - Dairy,Deoxynivalenol,0,0.0,0
+2010MYC0740,2010_SB437,Import,UNITED STATES,Infant Formula - Dairy,Ochratoxin A,0,0.0,0
+2010MYC0741,2010_SB437,Domestic,CANADA,Beer,Deoxynivalenol,1.2,1.2,1
+2010MYC0741,2010_SB437,Domestic,CANADA,Beer,Ochratoxin A,0,0.0,0
+2010MYC0742,2010_SB437,Domestic,CANADA,Beer,Deoxynivalenol,0,0.0,0
+2010MYC0742,2010_SB437,Domestic,CANADA,Beer,Ochratoxin A,0,0.0,0
+2010MYC0743,2010_SB437,Import,IRELAND,Infant Formula - Dairy,Deoxynivalenol,0,0.0,0
+2010MYC0743,2010_SB437,Import,IRELAND,Infant Formula - Dairy,Ochratoxin A,0,0.0,0
+2010MYC0744,2010_SB437,Domestic,CANADA,Beer,Deoxynivalenol,5.1,5.1,1
+2010MYC0744,2010_SB437,Domestic,CANADA,Beer,Ochratoxin A,0,0.0,0
+2010MYC0745,2010_SB437,Import,UNITED STATES,Infant Formula - Dairy,Deoxynivalenol,0,0.0,0
+2010MYC0745,2010_SB437,Import,UNITED STATES,Infant Formula - Dairy,Ochratoxin A,0,0.0,0
+2010MYC0746,2010_SB437,Import,CHILE,Wine,Deoxynivalenol,0,0.0,0
+2010MYC0746,2010_SB437,Import,CHILE,Wine,Ochratoxin A,0,0.0,0
+2010MYC0747,2010_SB437,Import,CHILE,Wine,Deoxynivalenol,0,0.0,0
+2010MYC0747,2010_SB437,Import,CHILE,Wine,Ochratoxin A,0,0.0,0
+2010MYC0748,2010_SB437,Import,CHILE,Wine,Deoxynivalenol,0,0.0,0
+2010MYC0748,2010_SB437,Import,CHILE,Wine,Ochratoxin A,0,0.0,0
+2010MYC0749,2010_SB437,Domestic,CANADA,Infant Food - Cereal,Deoxynivalenol,5.7,5.7,1
+2010MYC0749,2010_SB437,Domestic,CANADA,Infant Food - Cereal,Ochratoxin A,0,0.0,0
+2010MYC0750,2010_SB437,Domestic,CANADA,Infant Food - Cereal,Deoxynivalenol,0,0.0,0
+2010MYC0750,2010_SB437,Domestic,CANADA,Infant Food - Cereal,Ochratoxin A,0,0.0,0
+2010MYC0751,2010_SB437,Import,SWITZERLAND,Infant Food - Cereal,Deoxynivalenol,1.5,1.5,1
+2010MYC0751,2010_SB437,Import,SWITZERLAND,Infant Food - Cereal,Ochratoxin A,0,0.0,0
+2010MYC0752,2010_SB437,Domestic,CANADA,Flour - Wheat,Deoxynivalenol,165,165.0,1
+2010MYC0752,2010_SB437,Domestic,CANADA,Flour - Wheat,Ochratoxin A,0.824,0.824,1
+2010MYC0753,2010_SB437,Domestic,CANADA,Beer,Deoxynivalenol,2.1,2.1,1
+2010MYC0753,2010_SB437,Domestic,CANADA,Beer,Ochratoxin A,0,0.0,0
+2010MYC0754,2010_SB437,Domestic,CANADA,Beer,Deoxynivalenol,8.1,8.1,1
+2010MYC0754,2010_SB437,Domestic,CANADA,Beer,Ochratoxin A,0,0.0,0
+2010MYC0755,2010_SB437,Domestic,CANADA,Infant Formula - Soy,Deoxynivalenol,1.5,1.5,1
+2010MYC0755,2010_SB437,Domestic,CANADA,Infant Formula - Soy,Ochratoxin A,0.143,0.143,1
+2010MYC0756,2010_SB437,Import,UNITED STATES,Infant Formula - Dairy,Deoxynivalenol,0,0.0,0
+2010MYC0756,2010_SB437,Import,UNITED STATES,Infant Formula - Dairy,Ochratoxin A,0,0.0,0
+2010MYC0757,2010_SB437,Domestic,CANADA,Infant Formula - Dairy,Deoxynivalenol,1.7,1.7,1
+2010MYC0757,2010_SB437,Domestic,CANADA,Infant Formula - Dairy,Ochratoxin A,0,0.0,0
+2010MYC0758,2010_SB437,Domestic,CANADA,Apricot,Deoxynivalenol,0,0.0,0
+2010MYC0758,2010_SB437,Domestic,CANADA,Apricot,Ochratoxin A,0,0.0,0
+2010MYC0759,2010_SB437,Domestic,CANADA,Apricot,Deoxynivalenol,0,0.0,0
+2010MYC0759,2010_SB437,Domestic,CANADA,Apricot,Ochratoxin A,0,0.0,0
+2010MYC0760,2010_SB437,Domestic,CANADA,Bran - Wheat,Deoxynivalenol,34.3,34.3,1
+2010MYC0760,2010_SB437,Domestic,CANADA,Bran - Wheat,Ochratoxin A,1.327,1.327,1
+2010MYC0761,2010_SB437,Domestic,CANADA,Wheat Products,Deoxynivalenol,13.6,13.6,1
+2010MYC0761,2010_SB437,Domestic,CANADA,Wheat Products,Ochratoxin A,1.025,1.025,1
+2010MYC0762,2010_SB437,Import,SWITZERLAND,Infant Formula - Dairy,Deoxynivalenol,0,0.0,0
+2010MYC0762,2010_SB437,Import,SWITZERLAND,Infant Formula - Dairy,Ochratoxin A,0,0.0,0
+2010MYC0763,2010_SB437,Domestic,CANADA,Infant Food - Cereal,Deoxynivalenol,7.8,7.8,1
+2010MYC0763,2010_SB437,Domestic,CANADA,Infant Food - Cereal,Ochratoxin A,0.35,0.35,1
+2010MYC0764,2010_SB437,Domestic,CANADA,Flour - Wheat,Deoxynivalenol,10,10.0,1
+2010MYC0764,2010_SB437,Domestic,CANADA,Flour - Wheat,Ochratoxin A,0.249,0.249,1
+2010MYC0765,2010_SB437,Domestic,CANADA,Flour - Wheat,Deoxynivalenol,42.9,42.9,1
+2010MYC0765,2010_SB437,Domestic,CANADA,Flour - Wheat,Ochratoxin A,1.251,1.251,1
+2010MYC0766,2010_SB437,Domestic,CANADA,Flour - Wheat,Deoxynivalenol,39.1,39.1,1
+2010MYC0766,2010_SB437,Domestic,CANADA,Flour - Wheat,Ochratoxin A,1.161,1.161,1
+2010MYC0767,2010_SB437,Domestic,CANADA,Beer,Deoxynivalenol,7.1,7.1,1
+2010MYC0767,2010_SB437,Domestic,CANADA,Beer,Ochratoxin A,0,0.0,0
+2010MYC0768,2010_SB437,Domestic,CANADA,Beer,Deoxynivalenol,1.3,1.3,1
+2010MYC0768,2010_SB437,Domestic,CANADA,Beer,Ochratoxin A,0.058,0.058,1
+2010MYC0769,2010_SB437,Import,CHILE,Wine,Deoxynivalenol,0,0.0,0
+2010MYC0769,2010_SB437,Import,CHILE,Wine,Ochratoxin A,0,0.0,0
+2010MYC0770,2010_SB437,Domestic,CANADA,Infant Food - Cereal,Deoxynivalenol,4.6,4.6,1
+2010MYC0770,2010_SB437,Domestic,CANADA,Infant Food - Cereal,Ochratoxin A,0,0.0,0
+2010MYC0771,2010_SB437,Domestic,CANADA,Flour - Wheat,Deoxynivalenol,10.4,10.4,1
+2010MYC0771,2010_SB437,Domestic,CANADA,Flour - Wheat,Ochratoxin A,0.95,0.95,1
+2010MYC0772,2010_SB437,Domestic,CANADA,Flour - Wheat,Deoxynivalenol,1.3,1.3,1
+2010MYC0772,2010_SB437,Domestic,CANADA,Flour - Wheat,Ochratoxin A,0.435,0.435,1
+2010MYC0773,2010_SB437,Domestic,CANADA,Bran - Wheat,Deoxynivalenol,32.7,32.7,1
+2010MYC0773,2010_SB437,Domestic,CANADA,Bran - Wheat,Ochratoxin A,0.606,0.606,1
+2010MYC0774,2010_SB437,Domestic,CANADA,Bran - Wheat,Deoxynivalenol,74.4,74.4,1
+2010MYC0774,2010_SB437,Domestic,CANADA,Bran - Wheat,Ochratoxin A,0.088,0.088,1
+2010MYC0775,2010_SB437,Domestic,CANADA,Wheat Products,Deoxynivalenol,70.5,70.5,1
+2010MYC0775,2010_SB437,Domestic,CANADA,Wheat Products,Ochratoxin A,1.706,1.706,1
+2010MYC0776,2010_SB437,Domestic,CANADA,Beer,Deoxynivalenol,5.1,5.1,1
+2010MYC0776,2010_SB437,Domestic,CANADA,Beer,Ochratoxin A,0,0.0,0
+2010MYC0777,2010_SB437,Domestic,CANADA,Beer,Deoxynivalenol,7,7.0,1
+2010MYC0777,2010_SB437,Domestic,CANADA,Beer,Ochratoxin A,0,0.0,0
+2010MYC0778,2010_SB437,Import,CHILE,Wine,Deoxynivalenol,0,0.0,0
+2010MYC0778,2010_SB437,Import,CHILE,Wine,Ochratoxin A,0,0.0,0
+2010MYC0779,2010_SB437,Import,CHILE,Wine,Deoxynivalenol,0,0.0,0
+2010MYC0779,2010_SB437,Import,CHILE,Wine,Ochratoxin A,0,0.0,0
+2010MYC0780,2010_SB437,Import,UNKNOWN,Apricot,Deoxynivalenol,0,0.0,0
+2010MYC0780,2010_SB437,Import,UNKNOWN,Apricot,Ochratoxin A,0,0.0,0
+2010MYC0781,2010_SB437,Import,SWITZERLAND,Infant Food - Cereal,Deoxynivalenol,1.6,1.6,1
+2010MYC0781,2010_SB437,Import,SWITZERLAND,Infant Food - Cereal,Ochratoxin A,0,0.0,0
+2010MYC0782,2010_SB437,Import,SWITZERLAND,Infant Food - Cereal,Deoxynivalenol,2,2.0,1
+2010MYC0782,2010_SB437,Import,SWITZERLAND,Infant Food - Cereal,Ochratoxin A,0,0.0,0
+2010MYC0783,2010_SB437,Domestic,CANADA,Flour - Wheat,Deoxynivalenol,7.4,7.4,1
+2010MYC0783,2010_SB437,Domestic,CANADA,Flour - Wheat,Ochratoxin A,0.642,0.642,1
+2010MYC0784,2010_SB437,Domestic,CANADA,Beer,Deoxynivalenol,19.6,19.6,1
+2010MYC0784,2010_SB437,Domestic,CANADA,Beer,Ochratoxin A,0,0.0,0
+2010MYC0785,2010_SB437,Domestic,CANADA,Beer,Deoxynivalenol,4.5,4.5,1
+2010MYC0785,2010_SB437,Domestic,CANADA,Beer,Ochratoxin A,0,0.0,0
+2010MYC0786,2010_SB437,Import,SWITZERLAND,Infant Formula - Dairy,Deoxynivalenol,0,0.0,0
+2010MYC0786,2010_SB437,Import,SWITZERLAND,Infant Formula - Dairy,Ochratoxin A,0,0.0,0
+2010MYC0787,2010_SB437,Import,CHILE,Wine,Deoxynivalenol,0,0.0,0
+2010MYC0787,2010_SB437,Import,CHILE,Wine,Ochratoxin A,0,0.0,0
+2010MYC0788,2010_SB437,Import,TÜRKIYE,Apricot,Deoxynivalenol,0,0.0,0
+2010MYC0788,2010_SB437,Import,TÜRKIYE,Apricot,Ochratoxin A,0,0.0,0
+2010MYC0789,2010_SB437,Import,TÜRKIYE,Apricot,Deoxynivalenol,0,0.0,0
+2010MYC0789,2010_SB437,Import,TÜRKIYE,Apricot,Ochratoxin A,0,0.0,0
+2010MYC0790,2010_SB437,Import,SWITZERLAND,Infant Food - Cereal,Deoxynivalenol,1.4,1.4,1
+2010MYC0790,2010_SB437,Import,SWITZERLAND,Infant Food - Cereal,Ochratoxin A,0,0.0,0
+2010MYC0791,2010_SB437,Import,SWITZERLAND,Infant Food - Cereal,Deoxynivalenol,18.9,18.9,1
+2010MYC0791,2010_SB437,Import,SWITZERLAND,Infant Food - Cereal,Ochratoxin A,0,0.0,0
+2010MYC0792,2010_SB437,Domestic,CANADA,Flour - Wheat,Deoxynivalenol,58.8,58.8,1
+2010MYC0792,2010_SB437,Domestic,CANADA,Flour - Wheat,Ochratoxin A,0.071,0.071,1
+2010MYC0793,2010_SB437,Domestic,CANADA,Wheat Products,Deoxynivalenol,7.4,7.4,1
+2010MYC0793,2010_SB437,Domestic,CANADA,Wheat Products,Ochratoxin A,1.826,1.826,1
+2010MYC0794,2010_SB437,Import,CHILE,Wine,Deoxynivalenol,0,0.0,0
+2010MYC0794,2010_SB437,Import,CHILE,Wine,Ochratoxin A,0,0.0,0
+2010MYC0795,2010_SB437,Import,SWITZERLAND,Infant Food - Cereal,Deoxynivalenol,1.5,1.5,1
+2010MYC0795,2010_SB437,Import,SWITZERLAND,Infant Food - Cereal,Ochratoxin A,0,0.0,0
+2010MYC0796,2010_SB437,Domestic,CANADA,Beer,Deoxynivalenol,36.5,36.5,1
+2010MYC0796,2010_SB437,Domestic,CANADA,Beer,Ochratoxin A,0,0.0,0
+2010MYC0797,2010_SB437,Domestic,CANADA,Beer,Deoxynivalenol,3.8,3.8,1
+2010MYC0797,2010_SB437,Domestic,CANADA,Beer,Ochratoxin A,0,0.0,0
+2010MYC0798,2010_SB437,Import,UNITED STATES,Infant Formula - Dairy,Deoxynivalenol,0,0.0,0
+2010MYC0798,2010_SB437,Import,UNITED STATES,Infant Formula - Dairy,Ochratoxin A,0,0.0,0
+2010MYC0799,2010_SB437,Import,UNITED STATES,Infant Formula - Dairy,Deoxynivalenol,0,0.0,0
+2010MYC0799,2010_SB437,Import,UNITED STATES,Infant Formula - Dairy,Ochratoxin A,0,0.0,0
+2010MYC0800,2010_SB437,Domestic,CANADA,Wine,Deoxynivalenol,0,0.0,0
+2010MYC0800,2010_SB437,Domestic,CANADA,Wine,Ochratoxin A,0,0.0,0
+2010MYC0801,2010_SB437,Domestic,CANADA,Wine,Deoxynivalenol,0,0.0,0
+2010MYC0801,2010_SB437,Domestic,CANADA,Wine,Ochratoxin A,0,0.0,0
+2010MYC0802,2010_SB437,Domestic,CANADA,Wine,Deoxynivalenol,0,0.0,0
+2010MYC0802,2010_SB437,Domestic,CANADA,Wine,Ochratoxin A,0,0.0,0
+2010MYC0803,2010_SB437,Import,DENMARK,Beer,Deoxynivalenol,2.9,2.9,1
+2010MYC0803,2010_SB437,Import,DENMARK,Beer,Ochratoxin A,0,0.0,0
+2010MYC0804,2010_SB437,Import,BELGIUM,Beer,Deoxynivalenol,3.9,3.9,1
+2010MYC0804,2010_SB437,Import,BELGIUM,Beer,Ochratoxin A,0,0.0,0
+2010MYC0805,2010_SB437,Import,NETHERLANDS,Beer,Deoxynivalenol,3.6,3.6,1
+2010MYC0805,2010_SB437,Import,NETHERLANDS,Beer,Ochratoxin A,0,0.0,0
+2010MYC0806,2010_SB437,Import,GERMANY,Beer,Deoxynivalenol,2,2.0,1
+2010MYC0806,2010_SB437,Import,GERMANY,Beer,Ochratoxin A,0,0.0,0
+2010MYC0807,2010_SB437,Import,SAUDI ARABIA,Date,Deoxynivalenol,0,0.0,0
+2010MYC0807,2010_SB437,Import,SAUDI ARABIA,Date,Ochratoxin A,0,0.0,0
+2010MYC0808,2010_SB437,Domestic,CANADA,Cereal - Children,Deoxynivalenol,156,156.0,1
+2010MYC0808,2010_SB437,Domestic,CANADA,Cereal - Children,Ochratoxin A,0,0.0,0
+2010MYC0809,2010_SB437,Import,UNITED STATES,Cereal - Adult,Deoxynivalenol,27,27.0,1
+2010MYC0809,2010_SB437,Import,UNITED STATES,Cereal - Adult,Ochratoxin A,1.006,1.006,1
+2010MYC0810,2010_SB437,Import,SWITZERLAND,Infant Food - Cereal,Deoxynivalenol,15.4,15.4,1
+2010MYC0810,2010_SB437,Import,SWITZERLAND,Infant Food - Cereal,Ochratoxin A,0,0.0,0
+2010MYC0811,2010_SB437,Import,UNITED STATES,Bran - Wheat,Deoxynivalenol,5.8,5.8,1
+2010MYC0811,2010_SB437,Import,UNITED STATES,Bran - Wheat,Ochratoxin A,0,0.0,0
+2010MYC0812,2010_SB437,Domestic,CANADA,Chips - Corn,Deoxynivalenol,1.3,1.3,1
+2010MYC0812,2010_SB437,Domestic,CANADA,Chips - Corn,Ochratoxin A,0,0.0,0
+2010MYC0813,2010_SB437,Domestic,CANADA,Beer,Deoxynivalenol,0,0.0,0
+2010MYC0813,2010_SB437,Domestic,CANADA,Beer,Ochratoxin A,0,0.0,0
+2010MYC0814,2010_SB437,Domestic,CANADA,Beer,Deoxynivalenol,0,0.0,0
+2010MYC0814,2010_SB437,Domestic,CANADA,Beer,Ochratoxin A,0,0.0,0
+2010MYC0815,2010_SB437,Domestic,CANADA,Beer,Deoxynivalenol,2.1,2.1,1
+2010MYC0815,2010_SB437,Domestic,CANADA,Beer,Ochratoxin A,0.116,0.116,1
+2010MYC0816,2010_SB437,Domestic,CANADA,Beer,Deoxynivalenol,0,0.0,0
+2010MYC0816,2010_SB437,Domestic,CANADA,Beer,Ochratoxin A,0,0.0,0
+2010MYC0817,2010_SB437,Domestic,CANADA,Beer,Deoxynivalenol,1.3,1.3,1
+2010MYC0817,2010_SB437,Domestic,CANADA,Beer,Ochratoxin A,0,0.0,0
+2010MYC0818,2010_SB437,Domestic,CANADA,Beer,Deoxynivalenol,0,0.0,0
+2010MYC0818,2010_SB437,Domestic,CANADA,Beer,Ochratoxin A,0,0.0,0
+2010MYC0819,2010_SB437,Import,UNITED STATES,Infant Formula - Dairy,Deoxynivalenol,0,0.0,0
+2010MYC0819,2010_SB437,Import,UNITED STATES,Infant Formula - Dairy,Ochratoxin A,0,0.0,0
+2010MYC0820,2010_SB437,Domestic,CANADA,Wine,Deoxynivalenol,0,0.0,0
+2010MYC0820,2010_SB437,Domestic,CANADA,Wine,Ochratoxin A,0,0.0,0
+2010MYC0821,2010_SB437,Domestic,CANADA,Wine,Deoxynivalenol,0,0.0,0
+2010MYC0821,2010_SB437,Domestic,CANADA,Wine,Ochratoxin A,0,0.0,0
+2010MYC0822,2010_SB437,Domestic,CANADA,Wine,Deoxynivalenol,0,0.0,0
+2010MYC0822,2010_SB437,Domestic,CANADA,Wine,Ochratoxin A,0,0.0,0
+2010MYC0823,2010_SB437,Import,NETHERLANDS ANTILLES,Beer,Deoxynivalenol,2.3,2.3,1
+2010MYC0823,2010_SB437,Import,NETHERLANDS ANTILLES,Beer,Ochratoxin A,0,0.0,0
+2010MYC0824,2010_SB437,Import,MEXICO,Beer,Deoxynivalenol,0,0.0,0
+2010MYC0824,2010_SB437,Import,MEXICO,Beer,Ochratoxin A,0,0.0,0
+2010MYC0825,2010_SB437,Import,DENMARK,Beer,Deoxynivalenol,2,2.0,1
+2010MYC0825,2010_SB437,Import,DENMARK,Beer,Ochratoxin A,0,0.0,0
+2010MYC0826,2010_SB437,Import,IRELAND,Beer,Deoxynivalenol,5,5.0,1
+2010MYC0826,2010_SB437,Import,IRELAND,Beer,Ochratoxin A,0,0.0,0
+2010MYC0827,2010_SB437,Import,UNITED STATES,Date,Deoxynivalenol,0,0.0,0
+2010MYC0827,2010_SB437,Import,UNITED STATES,Date,Ochratoxin A,0,0.0,0
+2010MYC0828,2010_SB437,Domestic,CANADA,Cereal - Adult,Deoxynivalenol,198.7,198.7,1
+2010MYC0828,2010_SB437,Domestic,CANADA,Cereal - Adult,Ochratoxin A,0.747,0.747,1
+2010MYC0829,2010_SB437,Domestic,CANADA,Cereal - Adult,Deoxynivalenol,556,556.0,1
+2010MYC0829,2010_SB437,Domestic,CANADA,Cereal - Adult,Ochratoxin A,0.643,0.643,1
+2010MYC0830,2010_SB437,Domestic,CANADA,Cereal - Adult,Deoxynivalenol,838,838.0,1
+2010MYC0830,2010_SB437,Domestic,CANADA,Cereal - Adult,Ochratoxin A,0.549,0.549,1
+2010MYC0831,2010_SB437,Domestic,CANADA,Cereal - Adult,Deoxynivalenol,246,246.0,1
+2010MYC0831,2010_SB437,Domestic,CANADA,Cereal - Adult,Ochratoxin A,0,0.0,0
+2010MYC0832,2010_SB437,Import,UNITED STATES,Cereal - Adult,Deoxynivalenol,43.6,43.6,1
+2010MYC0832,2010_SB437,Import,UNITED STATES,Cereal - Adult,Ochratoxin A,1.076,1.076,1
+2010MYC0833,2010_SB437,Import,UNITED STATES,Cereal - Adult,Deoxynivalenol,24.2,24.2,1
+2010MYC0833,2010_SB437,Import,UNITED STATES,Cereal - Adult,Ochratoxin A,0.277,0.277,1
+2010MYC0834,2010_SB437,Import,UNITED STATES,Infant Food - Cereal,Deoxynivalenol,1.7,1.7,1
+2010MYC0834,2010_SB437,Import,UNITED STATES,Infant Food - Cereal,Ochratoxin A,0.61,0.61,1
+2010MYC0835,2010_SB437,Import,POLAND,Infant Food - Cereal,Deoxynivalenol,1.9,1.9,1
+2010MYC0835,2010_SB437,Import,POLAND,Infant Food - Cereal,Ochratoxin A,0,0.0,0
+2010MYC0836,2010_SB437,Domestic,CANADA,Flour - Wheat,Deoxynivalenol,66,66.0,1
+2010MYC0836,2010_SB437,Domestic,CANADA,Flour - Wheat,Ochratoxin A,0,0.0,0
+2010MYC0837,2010_SB437,Import,UNITED STATES,Wheat Products,Deoxynivalenol,53.4,53.4,1
+2010MYC0837,2010_SB437,Import,UNITED STATES,Wheat Products,Ochratoxin A,0.195,0.195,1
+2010MYC0838,2010_SB437,Domestic,CANADA,Chips - Corn,Deoxynivalenol,7.2,7.2,1
+2010MYC0838,2010_SB437,Domestic,CANADA,Chips - Corn,Ochratoxin A,0,0.0,0
+2010MYC0839,2010_SB437,Import,UNITED STATES,Chips - Corn,Deoxynivalenol,3.9,3.9,1
+2010MYC0839,2010_SB437,Import,UNITED STATES,Chips - Corn,Ochratoxin A,0,0.0,0
+2010MYC0840,2010_SB437,Domestic,CANADA,Chips - Corn,Deoxynivalenol,7.2,7.2,1
+2010MYC0840,2010_SB437,Domestic,CANADA,Chips - Corn,Ochratoxin A,0,0.0,0
+2010MYC0841,2010_SB437,Domestic,CANADA,Beer,Deoxynivalenol,2.3,2.3,1
+2010MYC0841,2010_SB437,Domestic,CANADA,Beer,Ochratoxin A,0.116,0.116,1
+2010MYC0842,2010_SB437,Domestic,CANADA,Wine,Deoxynivalenol,0,0.0,0
+2010MYC0842,2010_SB437,Domestic,CANADA,Wine,Ochratoxin A,0,0.0,0
+2010MYC0843,2010_SB437,Domestic,CANADA,Wine,Deoxynivalenol,0,0.0,0
+2010MYC0843,2010_SB437,Domestic,CANADA,Wine,Ochratoxin A,0,0.0,0
+2010MYC0844,2010_SB437,Domestic,CANADA,Wine,Deoxynivalenol,0,0.0,0
+2010MYC0844,2010_SB437,Domestic,CANADA,Wine,Ochratoxin A,0,0.0,0
+2010MYC0845,2010_SB437,Import,NETHERLANDS,Beer,Deoxynivalenol,3.7,3.7,1
+2010MYC0845,2010_SB437,Import,NETHERLANDS,Beer,Ochratoxin A,0,0.0,0
+2010MYC0846,2010_SB437,Import,GERMANY,Beer,Deoxynivalenol,2.4,2.4,1
+2010MYC0846,2010_SB437,Import,GERMANY,Beer,Ochratoxin A,0,0.0,0
+2010MYC0847,2010_SB437,Import,NETHERLANDS,Beer,Deoxynivalenol,2.6,2.6,1
+2010MYC0847,2010_SB437,Import,NETHERLANDS,Beer,Ochratoxin A,0,0.0,0
+2010MYC0848,2010_SB437,Import,SAUDI ARABIA,Date,Deoxynivalenol,0,0.0,0
+2010MYC0848,2010_SB437,Import,SAUDI ARABIA,Date,Ochratoxin A,0,0.0,0
+2010MYC0849,2010_SB437,Import,SAUDI ARABIA,Date,Deoxynivalenol,0,0.0,0
+2010MYC0849,2010_SB437,Import,SAUDI ARABIA,Date,Ochratoxin A,0,0.0,0
+2010MYC0850,2010_SB437,Domestic,CANADA,Cereal - Adult,Deoxynivalenol,128,128.0,1
+2010MYC0850,2010_SB437,Domestic,CANADA,Cereal - Adult,Ochratoxin A,0,0.0,0
+2010MYC0851,2010_SB437,Domestic,CANADA,Cereal - Adult,Deoxynivalenol,398,398.0,1
+2010MYC0851,2010_SB437,Domestic,CANADA,Cereal - Adult,Ochratoxin A,0.862,0.862,1
+2010MYC0852,2010_SB437,Domestic,CANADA,Cereal - Adult,Deoxynivalenol,395,395.0,1
+2010MYC0852,2010_SB437,Domestic,CANADA,Cereal - Adult,Ochratoxin A,1.43,1.43,1
+2010MYC0853,2010_SB437,Domestic,CANADA,Chips - Corn,Deoxynivalenol,55.5,55.5,1
+2010MYC0853,2010_SB437,Domestic,CANADA,Chips - Corn,Ochratoxin A,1.844,1.844,1
+2010MYC0854,2010_SB437,Domestic,CANADA,Flour - Wheat,Deoxynivalenol,15.7,15.7,1
+2010MYC0854,2010_SB437,Domestic,CANADA,Flour - Wheat,Ochratoxin A,0.437,0.437,1
+2010MYC0855,2010_SB437,Domestic,CANADA,Flour - Wheat,Deoxynivalenol,925,925.0,1
+2010MYC0855,2010_SB437,Domestic,CANADA,Flour - Wheat,Ochratoxin A,0,0.0,0
+2010MYC0856,2010_SB437,Import,UNITED STATES,Grain - Oat,Deoxynivalenol,5.3,5.3,1
+2010MYC0856,2010_SB437,Import,UNITED STATES,Grain - Oat,Ochratoxin A,0.341,0.341,1
+2010MYC0857,2010_SB437,Domestic,CANADA,Beer,Deoxynivalenol,1.8,1.8,1
+2010MYC0857,2010_SB437,Domestic,CANADA,Beer,Ochratoxin A,0,0.0,0
+2010MYC0858,2010_SB437,Domestic,CANADA,Beer,Deoxynivalenol,3.1,3.1,1
+2010MYC0858,2010_SB437,Domestic,CANADA,Beer,Ochratoxin A,0,0.0,0
+2010MYC0859,2010_SB437,Import,UNITED STATES,Infant Formula - Dairy,Deoxynivalenol,0,0.0,0
+2010MYC0859,2010_SB437,Import,UNITED STATES,Infant Formula - Dairy,Ochratoxin A,0,0.0,0
+2010MYC0860,2010_SB437,Import,UNITED STATES,Infant Formula - Dairy,Deoxynivalenol,0,0.0,0
+2010MYC0860,2010_SB437,Import,UNITED STATES,Infant Formula - Dairy,Ochratoxin A,0,0.0,0
+2010MYC0861,2010_SB437,Import,UNITED STATES,Infant Formula - Dairy,Deoxynivalenol,0,0.0,0
+2010MYC0861,2010_SB437,Import,UNITED STATES,Infant Formula - Dairy,Ochratoxin A,0,0.0,0
+2010MYC0862,2010_SB437,Import,UNITED STATES,Infant Formula - Soy,Deoxynivalenol,0,0.0,0
+2010MYC0862,2010_SB437,Import,UNITED STATES,Infant Formula - Soy,Ochratoxin A,0,0.0,0
+2010MYC0863,2010_SB437,Domestic,CANADA,Wine,Deoxynivalenol,0,0.0,0
+2010MYC0863,2010_SB437,Domestic,CANADA,Wine,Ochratoxin A,0,0.0,0
+2010MYC0864,2010_SB437,Domestic,CANADA,Wine,Deoxynivalenol,0,0.0,0
+2010MYC0864,2010_SB437,Domestic,CANADA,Wine,Ochratoxin A,0,0.0,0
+2010MYC0865,2010_SB437,Domestic,CANADA,Wine,Deoxynivalenol,0,0.0,0
+2010MYC0865,2010_SB437,Domestic,CANADA,Wine,Ochratoxin A,0,0.0,0
+2010MYC0866,2010_SB437,Domestic,CANADA,Wine,Deoxynivalenol,0,0.0,0
+2010MYC0866,2010_SB437,Domestic,CANADA,Wine,Ochratoxin A,0,0.0,0
+2010MYC0867,2010_SB437,Import,MEXICO,Beer,Deoxynivalenol,0,0.0,0
+2010MYC0867,2010_SB437,Import,MEXICO,Beer,Ochratoxin A,0,0.0,0
+2010MYC0868,2010_SB437,Import,NETHERLANDS,Beer,Deoxynivalenol,4.1,4.1,1
+2010MYC0868,2010_SB437,Import,NETHERLANDS,Beer,Ochratoxin A,0,0.0,0
+2010MYC0869,2010_SB437,Domestic,CANADA,Cereal - Adult,Deoxynivalenol,14.8,14.8,1
+2010MYC0869,2010_SB437,Domestic,CANADA,Cereal - Adult,Ochratoxin A,0,0.0,0
+2010MYC0870,2010_SB437,Domestic,CANADA,Cereal - Adult,Deoxynivalenol,110,110.0,1
+2010MYC0870,2010_SB437,Domestic,CANADA,Cereal - Adult,Ochratoxin A,0.464,0.464,1
+2010MYC0871,2010_SB437,Domestic,CANADA,Infant Food - Cereal,Deoxynivalenol,5.6,5.6,1
+2010MYC0871,2010_SB437,Domestic,CANADA,Infant Food - Cereal,Ochratoxin A,0,0.0,0
+2010MYC0872,2010_SB437,Domestic,CANADA,Infant Food - Cereal,Deoxynivalenol,44.1,44.1,1
+2010MYC0872,2010_SB437,Domestic,CANADA,Infant Food - Cereal,Ochratoxin A,0.223,0.223,1
+2010MYC0873,2010_SB437,Import,POLAND,Infant Food - Cereal,Deoxynivalenol,1.9,1.9,1
+2010MYC0873,2010_SB437,Import,POLAND,Infant Food - Cereal,Ochratoxin A,0,0.0,0
+2010MYC0874,2010_SB437,Domestic,CANADA,Flour - Wheat,Deoxynivalenol,4.8,4.8,1
+2010MYC0874,2010_SB437,Domestic,CANADA,Flour - Wheat,Ochratoxin A,0.45,0.45,1
+2010MYC0875,2010_SB437,Domestic,CANADA,Flour - Wheat,Deoxynivalenol,49.5,49.5,1
+2010MYC0875,2010_SB437,Domestic,CANADA,Flour - Wheat,Ochratoxin A,0.859,0.859,1
+2010MYC0876,2010_SB437,Import,UNITED STATES,Wheat Products,Deoxynivalenol,39.6,39.6,1
+2010MYC0876,2010_SB437,Import,UNITED STATES,Wheat Products,Ochratoxin A,2.948,2.948,1
+2010MYC0877,2010_SB437,Domestic,CANADA,Chips - Corn,Deoxynivalenol,308,308.0,1
+2010MYC0877,2010_SB437,Domestic,CANADA,Chips - Corn,Ochratoxin A,0,0.0,0
+2010MYC0878,2010_SB437,Domestic,CANADA,Grain - Oat,Deoxynivalenol,1.8,1.8,1
+2010MYC0878,2010_SB437,Domestic,CANADA,Grain - Oat,Ochratoxin A,0.096,0.096,1
+2010MYC0879,2010_SB437,Domestic,CANADA,Beer,Deoxynivalenol,1.5,1.5,1
+2010MYC0879,2010_SB437,Domestic,CANADA,Beer,Ochratoxin A,0,0.0,0
+2010MYC0880,2010_SB437,Domestic,CANADA,Beer,Deoxynivalenol,2.7,2.7,1
+2010MYC0880,2010_SB437,Domestic,CANADA,Beer,Ochratoxin A,0.054,0.054,1
+2010MYC0881,2010_SB437,Domestic,CANADA,Beer,Deoxynivalenol,1.1,1.1,1
+2010MYC0881,2010_SB437,Domestic,CANADA,Beer,Ochratoxin A,0.055,0.055,1
+2010MYC0882,2010_SB437,Domestic,CANADA,Wine,Deoxynivalenol,0,0.0,0
+2010MYC0882,2010_SB437,Domestic,CANADA,Wine,Ochratoxin A,0,0.0,0
+2010MYC0883,2010_SB437,Domestic,CANADA,Wine,Deoxynivalenol,0,0.0,0
+2010MYC0883,2010_SB437,Domestic,CANADA,Wine,Ochratoxin A,0,0.0,0
+2010MYC0884,2010_SB437,Domestic,CANADA,Wine,Deoxynivalenol,0,0.0,0
+2010MYC0884,2010_SB437,Domestic,CANADA,Wine,Ochratoxin A,0,0.0,0
+2010MYC0885,2010_SB437,Domestic,CANADA,Wine,Deoxynivalenol,0,0.0,0
+2010MYC0885,2010_SB437,Domestic,CANADA,Wine,Ochratoxin A,0,0.0,0
+2010MYC0886,2010_SB437,Domestic,CANADA,Wine,Deoxynivalenol,0,0.0,0
+2010MYC0886,2010_SB437,Domestic,CANADA,Wine,Ochratoxin A,0,0.0,0
+2010MYC0887,2010_SB437,Domestic,CANADA,Wine,Deoxynivalenol,0,0.0,0
+2010MYC0887,2010_SB437,Domestic,CANADA,Wine,Ochratoxin A,0,0.0,0
+2010MYC0888,2010_SB437,Import,NETHERLANDS,Beer,Deoxynivalenol,3.8,3.8,1
+2010MYC0888,2010_SB437,Import,NETHERLANDS,Beer,Ochratoxin A,0,0.0,0
+2010MYC0889,2010_SB437,Import,UNITED STATES,Fig,Deoxynivalenol,0,0.0,0
+2010MYC0889,2010_SB437,Import,UNITED STATES,Fig,Ochratoxin A,0,0.0,0
+2010MYC0890,2010_SB437,Import,UNITED STATES,Fig,Deoxynivalenol,0,0.0,0
+2010MYC0890,2010_SB437,Import,UNITED STATES,Fig,Ochratoxin A,0,0.0,0
+2010MYC0891,2010_SB437,Import,UNITED STATES,Date,Deoxynivalenol,0,0.0,0
+2010MYC0891,2010_SB437,Import,UNITED STATES,Date,Ochratoxin A,0,0.0,0
+2010MYC0892,2010_SB437,Import,UNITED STATES,Date,Deoxynivalenol,0,0.0,0
+2010MYC0892,2010_SB437,Import,UNITED STATES,Date,Ochratoxin A,0,0.0,0
+2010MYC0893,2010_SB437,Domestic,CANADA,Cereal - Adult,Deoxynivalenol,47.6,47.6,1
+2010MYC0893,2010_SB437,Domestic,CANADA,Cereal - Adult,Ochratoxin A,0.501,0.501,1
+2010MYC0894,2010_SB437,Import,UNITED STATES,Cereal - Adult,Deoxynivalenol,0,0.0,0
+2010MYC0894,2010_SB437,Import,UNITED STATES,Cereal - Adult,Ochratoxin A,1.014,1.014,1
+2010MYC0895,2010_SB437,Import,UNITED STATES,Infant Food - Cereal,Deoxynivalenol,0,0.0,0
+2010MYC0895,2010_SB437,Import,UNITED STATES,Infant Food - Cereal,Ochratoxin A,0.235,0.235,1
+2010MYC0896,2010_SB437,Domestic,CANADA,Flour - Wheat,Deoxynivalenol,5,5.0,1
+2010MYC0896,2010_SB437,Domestic,CANADA,Flour - Wheat,Ochratoxin A,0.219,0.219,1
+2010MYC0897,2010_SB437,Domestic,CANADA,Flour - Wheat,Deoxynivalenol,152,152.0,1
+2010MYC0897,2010_SB437,Domestic,CANADA,Flour - Wheat,Ochratoxin A,1.797,1.797,1
+2010MYC0898,2010_SB437,Domestic,CANADA,Wheat Products,Deoxynivalenol,80.9,80.9,1
+2010MYC0898,2010_SB437,Domestic,CANADA,Wheat Products,Ochratoxin A,0.925,0.925,1
+2010MYC0899,2010_SB437,Domestic,CANADA,Chips - Corn,Deoxynivalenol,176,176.0,1
+2010MYC0899,2010_SB437,Domestic,CANADA,Chips - Corn,Ochratoxin A,0,0.0,0
+2010MYC0900,2010_SB437,Domestic,CANADA,Chips - Corn,Deoxynivalenol,231,231.0,1
+2010MYC0900,2010_SB437,Domestic,CANADA,Chips - Corn,Ochratoxin A,0,0.0,0
+2010MYC0901,2010_SB437,Domestic,CANADA,Chips - Corn,Deoxynivalenol,189,189.0,1
+2010MYC0901,2010_SB437,Domestic,CANADA,Chips - Corn,Ochratoxin A,0,0.0,0
+2010MYC0902,2010_SB437,Domestic,CANADA,Grain - Oat,Deoxynivalenol,3.5,3.5,1
+2010MYC0902,2010_SB437,Domestic,CANADA,Grain - Oat,Ochratoxin A,0.411,0.411,1
+2010MYC0903,2010_SB437,Domestic,CANADA,Grain - Oat,Deoxynivalenol,52.4,52.4,1
+2010MYC0903,2010_SB437,Domestic,CANADA,Grain - Oat,Ochratoxin A,0.163,0.163,1
+2010MYC0904,2010_SB437,Import,UNITED STATES,Infant Formula - Dairy,Deoxynivalenol,0,0.0,0
+2010MYC0904,2010_SB437,Import,UNITED STATES,Infant Formula - Dairy,Ochratoxin A,0,0.0,0
+2010MYC0905,2010_SB437,Domestic,CANADA,Wine,Deoxynivalenol,0,0.0,0
+2010MYC0905,2010_SB437,Domestic,CANADA,Wine,Ochratoxin A,0,0.0,0
+2010MYC0906,2010_SB437,Domestic,CANADA,Wine,Deoxynivalenol,0,0.0,0
+2010MYC0906,2010_SB437,Domestic,CANADA,Wine,Ochratoxin A,0,0.0,0
+2010MYC0907,2010_SB437,Domestic,CANADA,Wine,Deoxynivalenol,0,0.0,0
+2010MYC0907,2010_SB437,Domestic,CANADA,Wine,Ochratoxin A,0,0.0,0
+2010MYC0908,2010_SB437,Import,NETHERLANDS,Beer,Deoxynivalenol,3.3,3.3,1
+2010MYC0908,2010_SB437,Import,NETHERLANDS,Beer,Ochratoxin A,0,0.0,0
+2010MYC0909,2010_SB437,Import,NETHERLANDS,Beer,Deoxynivalenol,6.9,6.9,1
+2010MYC0909,2010_SB437,Import,NETHERLANDS,Beer,Ochratoxin A,0,0.0,0
+2010MYC0910,2010_SB437,Import,UNITED STATES,Fig,Deoxynivalenol,0,0.0,0
+2010MYC0910,2010_SB437,Import,UNITED STATES,Fig,Ochratoxin A,0,0.0,0
+2010MYC0911,2010_SB437,Import,UNITED STATES,Fig,Deoxynivalenol,0,0.0,0
+2010MYC0911,2010_SB437,Import,UNITED STATES,Fig,Ochratoxin A,0,0.0,0
+2010MYC0912,2010_SB437,Import,UNITED STATES,Date,Deoxynivalenol,0,0.0,0
+2010MYC0912,2010_SB437,Import,UNITED STATES,Date,Ochratoxin A,0,0.0,0
+2010MYC0913,2010_SB437,Import,UNITED STATES,Cereal - Children,Deoxynivalenol,0,0.0,0
+2010MYC0913,2010_SB437,Import,UNITED STATES,Cereal - Children,Ochratoxin A,0,0.0,0
+2010MYC0914,2010_SB437,Domestic,CANADA,Cereal - Children,Deoxynivalenol,402,402.0,1
+2010MYC0914,2010_SB437,Domestic,CANADA,Cereal - Children,Ochratoxin A,0.888,0.888,1
+2010MYC0915,2010_SB437,Domestic,CANADA,Cereal - Adult,Deoxynivalenol,54.5,54.5,1
+2010MYC0915,2010_SB437,Domestic,CANADA,Cereal - Adult,Ochratoxin A,0.094,0.094,1
+2010MYC0916,2010_SB437,Import,POLAND,Infant Food - Cereal,Deoxynivalenol,12.8,12.8,1
+2010MYC0916,2010_SB437,Import,POLAND,Infant Food - Cereal,Ochratoxin A,0,0.0,0
+2010MYC0917,2010_SB437,Import,UNITED STATES,Infant Food - Cereal,Deoxynivalenol,1.1,1.1,1
+2010MYC0917,2010_SB437,Import,UNITED STATES,Infant Food - Cereal,Ochratoxin A,0.066,0.066,1
+2010MYC0918,2010_SB437,Import,SWITZERLAND,Infant Food - Cereal,Deoxynivalenol,2,2.0,1
+2010MYC0918,2010_SB437,Import,SWITZERLAND,Infant Food - Cereal,Ochratoxin A,0,0.0,0
+2010MYC0919,2010_SB437,Domestic,CANADA,Bran - Wheat,Deoxynivalenol,191,191.0,1
+2010MYC0919,2010_SB437,Domestic,CANADA,Bran - Wheat,Ochratoxin A,1.585,1.585,1
+2010MYC0920,2010_SB437,Import,UNITED STATES,Wheat Products,Deoxynivalenol,1.8,1.8,1
+2010MYC0920,2010_SB437,Import,UNITED STATES,Wheat Products,Ochratoxin A,0.147,0.147,1
+2010MYC0921,2010_SB437,Domestic,CANADA,Beer,Deoxynivalenol,1.2,1.2,1
+2010MYC0921,2010_SB437,Domestic,CANADA,Beer,Ochratoxin A,0,0.0,0
+2010MYC0922,2010_SB437,Domestic,CANADA,Beer,Deoxynivalenol,0,0.0,0
+2010MYC0922,2010_SB437,Domestic,CANADA,Beer,Ochratoxin A,0,0.0,0
+2010MYC0923,2010_SB437,Import,UNITED STATES,Infant Formula - Soy,Deoxynivalenol,0,0.0,0
+2010MYC0923,2010_SB437,Import,UNITED STATES,Infant Formula - Soy,Ochratoxin A,0,0.0,0
+2010MYC0924,2010_SB437,Import,UNITED STATES,Infant Formula - Dairy,Deoxynivalenol,0,0.0,0
+2010MYC0924,2010_SB437,Import,UNITED STATES,Infant Formula - Dairy,Ochratoxin A,0,0.0,0
+2010MYC0925,2010_SB437,Domestic,CANADA,Wine,Deoxynivalenol,0,0.0,0
+2010MYC0925,2010_SB437,Domestic,CANADA,Wine,Ochratoxin A,0,0.0,0
+2010MYC0926,2010_SB437,Domestic,CANADA,Wine,Deoxynivalenol,0,0.0,0
+2010MYC0926,2010_SB437,Domestic,CANADA,Wine,Ochratoxin A,0,0.0,0
+2010MYC0927,2010_SB437,Domestic,CANADA,Wine,Deoxynivalenol,0,0.0,0
+2010MYC0927,2010_SB437,Domestic,CANADA,Wine,Ochratoxin A,0,0.0,0
+2010MYC0928,2010_SB437,Domestic,CANADA,Wine,Deoxynivalenol,0,0.0,0
+2010MYC0928,2010_SB437,Domestic,CANADA,Wine,Ochratoxin A,0,0.0,0
+2010MYC0929,2010_SB437,Domestic,CANADA,Wine,Deoxynivalenol,0,0.0,0
+2010MYC0929,2010_SB437,Domestic,CANADA,Wine,Ochratoxin A,0,0.0,0
+2010MYC0930,2010_SB437,Domestic,CANADA,Wine,Deoxynivalenol,0,0.0,0
+2010MYC0930,2010_SB437,Domestic,CANADA,Wine,Ochratoxin A,0,0.0,0
+2010MYC0931,2010_SB437,Domestic,CANADA,Wine,Deoxynivalenol,0,0.0,0
+2010MYC0931,2010_SB437,Domestic,CANADA,Wine,Ochratoxin A,0,0.0,0
+2010MYC0932,2010_SB437,Domestic,CANADA,Wine,Deoxynivalenol,0,0.0,0
+2010MYC0932,2010_SB437,Domestic,CANADA,Wine,Ochratoxin A,0,0.0,0
+2010MYC0933,2010_SB437,Import,FRANCE,Beer,Deoxynivalenol,9.7,9.7,1
+2010MYC0933,2010_SB437,Import,FRANCE,Beer,Ochratoxin A,0,0.0,0
+2010MYC0934,2010_SB437,Import,NETHERLANDS,Beer,Deoxynivalenol,4,4.0,1
+2010MYC0934,2010_SB437,Import,NETHERLANDS,Beer,Ochratoxin A,0,0.0,0
+2010MYC0935,2010_SB437,Import,BELGIUM,Beer,Deoxynivalenol,3.8,3.8,1
+2010MYC0935,2010_SB437,Import,BELGIUM,Beer,Ochratoxin A,0.06,0.06,1
+2010MYC0936,2010_SB437,Import,GERMANY,Beer,Deoxynivalenol,2.2,2.2,1
+2010MYC0936,2010_SB437,Import,GERMANY,Beer,Ochratoxin A,0,0.0,0
+2010MYC0937,2010_SB437,Import,GREECE,Fig,Deoxynivalenol,0,0.0,0
+2010MYC0937,2010_SB437,Import,GREECE,Fig,Ochratoxin A,0,0.0,0
+2010MYC0938,2010_SB437,Import,UNITED STATES,Fig,Deoxynivalenol,0,0.0,0
+2010MYC0938,2010_SB437,Import,UNITED STATES,Fig,Ochratoxin A,0,0.0,0
+2010MYC0939,2010_SB437,Import,UNITED STATES,Fig,Deoxynivalenol,0,0.0,0
+2010MYC0939,2010_SB437,Import,UNITED STATES,Fig,Ochratoxin A,0,0.0,0
+2010MYC0940,2010_SB437,Import,UNITED STATES,Fig,Deoxynivalenol,0,0.0,0
+2010MYC0940,2010_SB437,Import,UNITED STATES,Fig,Ochratoxin A,0,0.0,0
+2010MYC0941,2010_SB437,Import,UNITED STATES,Date,Deoxynivalenol,0,0.0,0
+2010MYC0941,2010_SB437,Import,UNITED STATES,Date,Ochratoxin A,0,0.0,0
+2010MYC0942,2010_SB437,Import,UNITED STATES,Cereal - Adult,Deoxynivalenol,2.1,2.1,1
+2010MYC0942,2010_SB437,Import,UNITED STATES,Cereal - Adult,Ochratoxin A,0.059,0.059,1
+2010MYC0943,2010_SB437,Import,UNITED STATES,Cereal - Adult,Deoxynivalenol,426,426.0,1
+2010MYC0943,2010_SB437,Import,UNITED STATES,Cereal - Adult,Ochratoxin A,0.138,0.138,1
+2010MYC0944,2010_SB437,Import,UNITED STATES,Infant Food - Cereal,Deoxynivalenol,1.2,1.2,1
+2010MYC0944,2010_SB437,Import,UNITED STATES,Infant Food - Cereal,Ochratoxin A,0.06,0.06,1
+2010MYC0945,2010_SB437,Domestic,CANADA,Flour - Wheat,Deoxynivalenol,62,62.0,1
+2010MYC0945,2010_SB437,Domestic,CANADA,Flour - Wheat,Ochratoxin A,0.508,0.508,1
+2010MYC0946,2010_SB437,Import,UNITED STATES,Chips - Corn,Deoxynivalenol,0,0.0,0
+2010MYC0946,2010_SB437,Import,UNITED STATES,Chips - Corn,Ochratoxin A,0,0.0,0
+2010MYC0947,2010_SB437,Import,UNITED STATES,Grain - Oat,Deoxynivalenol,0,0.0,0
+2010MYC0947,2010_SB437,Import,UNITED STATES,Grain - Oat,Ochratoxin A,0,0.0,0
+2010MYC0948,2010_SB437,Domestic,CANADA,Beer,Deoxynivalenol,2.2,2.2,1
+2010MYC0948,2010_SB437,Domestic,CANADA,Beer,Ochratoxin A,0,0.0,0
+2010MYC0949,2010_SB437,Domestic,CANADA,Beer,Deoxynivalenol,1.9,1.9,1
+2010MYC0949,2010_SB437,Domestic,CANADA,Beer,Ochratoxin A,0.114,0.114,1
+2010MYC0950,2010_SB437,Domestic,CANADA,Beer,Deoxynivalenol,11.4,11.4,1
+2010MYC0950,2010_SB437,Domestic,CANADA,Beer,Ochratoxin A,0,0.0,0
+2010MYC0951,2010_SB437,Domestic,CANADA,Beer,Deoxynivalenol,0,0.0,0
+2010MYC0951,2010_SB437,Domestic,CANADA,Beer,Ochratoxin A,0,0.0,0
+2010MYC0952,2010_SB437,Domestic,CANADA,Cereal - Children,Deoxynivalenol,156,156.0,1
+2010MYC0952,2010_SB437,Domestic,CANADA,Cereal - Children,Ochratoxin A,0,0.0,0
+2010MYC0953,2010_SB437,Domestic,CANADA,Cereal - Adult,Deoxynivalenol,109,109.0,1
+2010MYC0953,2010_SB437,Domestic,CANADA,Cereal - Adult,Ochratoxin A,0.349,0.349,1
+2010MYC0954,2010_SB437,Import,UNITED STATES,Cereal - Adult,Deoxynivalenol,202,202.0,1
+2010MYC0954,2010_SB437,Import,UNITED STATES,Cereal - Adult,Ochratoxin A,0.276,0.276,1
+2010MYC0955,2010_SB437,Import,UNITED STATES,Cereal - Adult,Deoxynivalenol,20.1,20.1,1
+2010MYC0955,2010_SB437,Import,UNITED STATES,Cereal - Adult,Ochratoxin A,0.232,0.232,1
+2010MYC0956,2010_SB437,Domestic,CANADA,Flour - Wheat,Deoxynivalenol,92.2,92.2,1
+2010MYC0956,2010_SB437,Domestic,CANADA,Flour - Wheat,Ochratoxin A,0.682,0.682,1
+2010MYC0957,2010_SB437,Domestic,CANADA,Beer,Deoxynivalenol,1.4,1.4,1
+2010MYC0957,2010_SB437,Domestic,CANADA,Beer,Ochratoxin A,0,0.0,0
+2010MYC0958,2010_SB437,Domestic,CANADA,Beer,Deoxynivalenol,0,0.0,0
+2010MYC0958,2010_SB437,Domestic,CANADA,Beer,Ochratoxin A,0,0.0,0
+2010MYC0959,2010_SB437,Import,SOUTH AFRICA,Wine,Deoxynivalenol,0,0.0,0
+2010MYC0959,2010_SB437,Import,SOUTH AFRICA,Wine,Ochratoxin A,0,0.0,0
+2010MYC0960,2010_SB437,Domestic,CANADA,Cereal - Adult,Deoxynivalenol,784,784.0,1
+2010MYC0960,2010_SB437,Domestic,CANADA,Cereal - Adult,Ochratoxin A,0.56,0.56,1
+2010MYC0961,2010_SB437,Domestic,CANADA,Cereal - Adult,Deoxynivalenol,425,425.0,1
+2010MYC0961,2010_SB437,Domestic,CANADA,Cereal - Adult,Ochratoxin A,0,0.0,0
+2010MYC0962,2010_SB437,Domestic,CANADA,Cereal - Adult,Deoxynivalenol,85.9,85.9,1
+2010MYC0962,2010_SB437,Domestic,CANADA,Cereal - Adult,Ochratoxin A,1.774,1.774,1
+2010MYC0963,2010_SB437,Domestic,CANADA,Chips - Corn,Deoxynivalenol,369,369.0,1
+2010MYC0963,2010_SB437,Domestic,CANADA,Chips - Corn,Ochratoxin A,0,0.0,0
+2010MYC0964,2010_SB437,Domestic,CANADA,Chips - Corn,Deoxynivalenol,271,271.0,1
+2010MYC0964,2010_SB437,Domestic,CANADA,Chips - Corn,Ochratoxin A,0,0.0,0
+2010MYC0965,2010_SB437,Domestic,CANADA,Beer,Deoxynivalenol,1.4,1.4,1
+2010MYC0965,2010_SB437,Domestic,CANADA,Beer,Ochratoxin A,0,0.0,0
+2010MYC0966,2010_SB437,Domestic,CANADA,Beer,Deoxynivalenol,1.4,1.4,1
+2010MYC0966,2010_SB437,Domestic,CANADA,Beer,Ochratoxin A,0,0.0,0
+2010MYC0967,2010_SB437,Import,SOUTH AFRICA,Wine,Deoxynivalenol,0,0.0,0
+2010MYC0967,2010_SB437,Import,SOUTH AFRICA,Wine,Ochratoxin A,0,0.0,0
+2010MYC0968,2010_SB437,Domestic,CANADA,Cereal - Children,Deoxynivalenol,113,113.0,1
+2010MYC0968,2010_SB437,Domestic,CANADA,Cereal - Children,Ochratoxin A,0.658,0.658,1
+2010MYC0969,2010_SB437,Domestic,CANADA,Cereal - Children,Deoxynivalenol,189,189.0,1
+2010MYC0969,2010_SB437,Domestic,CANADA,Cereal - Children,Ochratoxin A,0,0.0,0
+2010MYC0970,2010_SB437,Domestic,CANADA,Cereal - Children,Deoxynivalenol,193,193.0,1
+2010MYC0970,2010_SB437,Domestic,CANADA,Cereal - Children,Ochratoxin A,0,0.0,0
+2010MYC0971,2010_SB437,Domestic,CANADA,Cereal - Adult,Deoxynivalenol,85.8,85.8,1
+2010MYC0971,2010_SB437,Domestic,CANADA,Cereal - Adult,Ochratoxin A,0.496,0.496,1
+2010MYC0972,2010_SB437,Domestic,CANADA,Cereal - Adult,Deoxynivalenol,94.4,94.4,1
+2010MYC0972,2010_SB437,Domestic,CANADA,Cereal - Adult,Ochratoxin A,0.052,0.052,1
+2010MYC0973,2010_SB437,Domestic,CANADA,Flour - Wheat,Deoxynivalenol,10.4,10.4,1
+2010MYC0973,2010_SB437,Domestic,CANADA,Flour - Wheat,Ochratoxin A,0.524,0.524,1
+2010MYC0974,2010_SB437,Import,UNKNOWN,Chips - Corn,Deoxynivalenol,260,260.0,1
+2010MYC0974,2010_SB437,Import,UNKNOWN,Chips - Corn,Ochratoxin A,0,0.0,0
+2010MYC0975,2010_SB437,Domestic,CANADA,Beer,Deoxynivalenol,0,0.0,0
+2010MYC0975,2010_SB437,Domestic,CANADA,Beer,Ochratoxin A,0.058,0.058,1
+2010MYC0976,2010_SB437,Import,SOUTH AFRICA,Wine,Deoxynivalenol,0,0.0,0
+2010MYC0976,2010_SB437,Import,SOUTH AFRICA,Wine,Ochratoxin A,0,0.0,0
+2010MYC0977,2010_SB437,Domestic,CANADA,Cereal - Adult,Deoxynivalenol,9.7,9.7,1
+2010MYC0977,2010_SB437,Domestic,CANADA,Cereal - Adult,Ochratoxin A,0,0.0,0
+2010MYC0978,2010_SB437,Domestic,CANADA,Cereal - Adult,Deoxynivalenol,75.9,75.9,1
+2010MYC0978,2010_SB437,Domestic,CANADA,Cereal - Adult,Ochratoxin A,0.262,0.262,1
+2010MYC0979,2010_SB437,Domestic,CANADA,Chips - Corn,Deoxynivalenol,186,186.0,1
+2010MYC0979,2010_SB437,Domestic,CANADA,Chips - Corn,Ochratoxin A,0,0.0,0
+2010MYC0980,2010_SB437,Domestic,CANADA,Beer,Deoxynivalenol,0,0.0,0
+2010MYC0980,2010_SB437,Domestic,CANADA,Beer,Ochratoxin A,0.054,0.054,1
+2010MYC0981,2010_SB437,Import,SOUTH AFRICA,Wine,Deoxynivalenol,0,0.0,0
+2010MYC0981,2010_SB437,Import,SOUTH AFRICA,Wine,Ochratoxin A,0,0.0,0
+2010MYC0982,2010_SB437,Domestic,CANADA,Cereal - Children,Deoxynivalenol,89.9,89.9,1
+2010MYC0982,2010_SB437,Domestic,CANADA,Cereal - Children,Ochratoxin A,0,0.0,0
+2010MYC0983,2010_SB437,Domestic,CANADA,Cereal - Adult,Deoxynivalenol,102,102.0,1
+2010MYC0983,2010_SB437,Domestic,CANADA,Cereal - Adult,Ochratoxin A,0.23,0.23,1
+2010MYC0984,2010_SB437,Domestic,CANADA,Cereal - Adult,Deoxynivalenol,157,157.0,1
+2010MYC0984,2010_SB437,Domestic,CANADA,Cereal - Adult,Ochratoxin A,0,0.0,0
+2010MYC0985,2010_SB437,Domestic,CANADA,Flour - Wheat,Deoxynivalenol,123,123.0,1
+2010MYC0985,2010_SB437,Domestic,CANADA,Flour - Wheat,Ochratoxin A,1.205,1.205,1
+2010MYC0986,2010_SB437,Domestic,CANADA,Flour - Wheat,Deoxynivalenol,203,203.0,1
+2010MYC0986,2010_SB437,Domestic,CANADA,Flour - Wheat,Ochratoxin A,0.308,0.308,1
+2010MYC0987,2010_SB437,Import,UNKNOWN,Chips - Corn,Deoxynivalenol,84.4,84.4,1
+2010MYC0987,2010_SB437,Import,UNKNOWN,Chips - Corn,Ochratoxin A,0,0.0,0
+2010MYC0988,2010_SB437,Import,UNKNOWN,Chips - Corn,Deoxynivalenol,70.8,70.8,1
+2010MYC0988,2010_SB437,Import,UNKNOWN,Chips - Corn,Ochratoxin A,0,0.0,0
+2010MYC0989,2010_SB437,Domestic,CANADA,Beer,Deoxynivalenol,0,0.0,0
+2010MYC0989,2010_SB437,Domestic,CANADA,Beer,Ochratoxin A,0.087,0.087,1
+2010MYC0990,2010_SB437,Domestic,CANADA,Cereal - Children,Deoxynivalenol,207,207.0,1
+2010MYC0990,2010_SB437,Domestic,CANADA,Cereal - Children,Ochratoxin A,0.129,0.129,1
+2010MYC0991,2010_SB437,Import,UNITED STATES,Cereal - Adult,Deoxynivalenol,7.4,7.4,1
+2010MYC0991,2010_SB437,Import,UNITED STATES,Cereal - Adult,Ochratoxin A,0,0.0,0
+2010MYC0992,2010_SB437,Domestic,CANADA,Cereal - Adult,Deoxynivalenol,13.2,13.2,1
+2010MYC0992,2010_SB437,Domestic,CANADA,Cereal - Adult,Ochratoxin A,0.259,0.259,1
+2010MYC0993,2010_SB437,Domestic,CANADA,Flour - Wheat,Deoxynivalenol,44.5,44.5,1
+2010MYC0993,2010_SB437,Domestic,CANADA,Flour - Wheat,Ochratoxin A,1.096,1.096,1
+2010MYC0994,2010_SB437,Domestic,CANADA,Chips - Corn,Deoxynivalenol,13.4,13.4,1
+2010MYC0994,2010_SB437,Domestic,CANADA,Chips - Corn,Ochratoxin A,0,0.0,0
+2010MYC0995,2010_SB437,Domestic,CANADA,Chips - Corn,Deoxynivalenol,159,159.0,1
+2010MYC0995,2010_SB437,Domestic,CANADA,Chips - Corn,Ochratoxin A,0.047,0.047,1
+2010MYC0996,2010_SB437,Domestic,CANADA,Beer,Deoxynivalenol,0,0.0,0
+2010MYC0996,2010_SB437,Domestic,CANADA,Beer,Ochratoxin A,0,0.0,0
+2010MYC0997,2010_SB437,Domestic,CANADA,Beer,Deoxynivalenol,0,0.0,0
+2010MYC0997,2010_SB437,Domestic,CANADA,Beer,Ochratoxin A,0.059,0.059,1
+2010MYC0998,2010_SB437,Unknown,UNKNOWN,Chips - Corn,Deoxynivalenol,4.3,4.3,1
+2010MYC0998,2010_SB437,Unknown,UNKNOWN,Chips - Corn,Ochratoxin A,0,0.0,0
+2010MYC0999,2010_SB437,Unknown,UNKNOWN,Chips - Corn,Deoxynivalenol,96.8,96.8,1
+2010MYC0999,2010_SB437,Unknown,UNKNOWN,Chips - Corn,Ochratoxin A,0,0.0,0
+2010MYC1000,2010_SB437,Domestic,CANADA,Beer,Deoxynivalenol,0,0.0,0
+2010MYC1000,2010_SB437,Domestic,CANADA,Beer,Ochratoxin A,0.041,0.041,1

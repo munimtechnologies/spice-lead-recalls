@@ -397,6 +397,22 @@ By MV2 of Munim, Inc. Prepared with AI agents. Text CC BY 4.0; code Apache-2.0.
   not gradable because every infant-cereal sample carries the single label
   "Infant Food - Cereal". Grading code `myco_don.py` is committed with it. Not a finding
   about any product or health risk.
+- [myco-don 0.1.0: result](myco-don-0.1.0-result.md) — gate passed, 12 of 13 met (11 of 12
+  blind predictions). The open file settles the 2018-19 report's self-contradiction: 119 of
+  286 infant-cereal samples carry detected DON and exactly 13 reach the 20 ppb reporting
+  limit, so Table 2's 13 counts results ≥ 20 ppb while Table 3's 123 counts down to the
+  0.2 ppb LOD — the same data under two reporting limits. A confirmed report error: the
+  results text's stated minimum of 44.1 ppb is contradicted by the file's smallest ≥ 20 ppb
+  value of 22.3 (Table 2 prints 22). Every CFIA 2010-11 and 2011-12 summary figure
+  reproduces (DON detected 555 of 943, OTA 315 of 943, the ranges, no DON in wine or dried
+  fruit, 8 grain-based over Health Canada's proposed OTA levels, 5 of them infant cereals).
+  The one miss is the study's point: within a sample, OTA and DON detection are **not**
+  independent (P11 registered an odds ratio in [0.5, 2.0]); the 943-sample 2×2 gives OR 8.54,
+  Fisher exact p = 1.4×10⁻³⁹ — the first per-sample OTA × DON co-occurrence table from CFIA's
+  open retail data, with the honest caveat that much of the signal is commodity composition
+  (grain foods carry both toxins, wine and dried fruit neither). Recomputed from
+  `data/myco_don_2010_samples.csv` and `data/myco_don_cooccurrence.json` by a pinned test; a
+  sealed job re-runs it on the published files. Not a finding about any product or health risk.
 
 ## The screen's second target: Sudan dyes
 
