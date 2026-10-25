@@ -367,6 +367,20 @@ By MV2 of Munim, Inc. Prepared with AI agents. Text CC BY 4.0; code Apache-2.0.
   and `data/ota_foods_eu.csv` by a pinned test. A reference comparison, not a compliance
   finding (Canada has no OTA maximum level for these foods).
 
+## A second mycotoxin: deoxynivalenol (DON) in infant cereals
+
+- [CFIA's 2018-19 DON in infant cereals report: what its own tables say (don-infant-report-check 0.1.0)](don-infant-report-check-0.1.0.md) —
+  a record of the report alone (PDF SHA-256 pinned), written before any value in CFIA's
+  open per-sample file for the survey (released 2026-10-06) was read. The report disagrees
+  with itself: Table 2, the text and the summary give 13 of 288 samples with DON (all at or
+  above the 20 ppb reporting limit the methods impose), while Table 3 gives 123 for the same
+  samples with minima of 0.60–1.3 ppb; the multigrain maximum is 150 ppb in Table 2 but 110
+  in Table 3; the lowest positive is 44.1 (text), 22 (Table 2) or 25 ppb (Table 4); and
+  barley is "100%" positive in the discussion, 6 of 7 in the tables and "mostly not
+  detected" in the results text. The open file can settle which reading CFIA published
+  as data; the pre-registered check (myco-don 0.1.0) follows. Not a finding about any
+  product or health risk.
+
 ## The screen's second target: Sudan dyes
 
 - [Pre-registration: where does Sudan-dyed red palm oil on Canadian shelves come from? (red-palm-dyes 0.1.0)](red-palm-dyes-0.1.0-prereg.md) —
