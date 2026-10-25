@@ -411,8 +411,9 @@ By MV2 of Munim, Inc. Prepared with AI agents. Text CC BY 4.0; code Apache-2.0.
   Fisher exact p = 1.4×10⁻³⁹ — the first per-sample OTA × DON co-occurrence table from CFIA's
   open retail data, with the honest caveat that much of the signal is commodity composition
   (grain foods carry both toxins, wine and dried fruit neither). Recomputed from
-  `data/myco_don_2010_samples.csv` and `data/myco_don_cooccurrence.json` by a pinned test; a
-  sealed job re-runs it on the published files. Not a finding about any product or health risk.
+  `data/myco_don_2010_samples.csv` and `data/myco_don_cooccurrence.json` by a pinned test. A
+  sealed job later fetched the published files from GitHub and re-ran that test on them: 17 of
+  17 passed (job `myco-don-result-v1`, 2026-10-25). Not a finding about any product or health risk.
 
 ## The screen's second target: Sudan dyes
 
