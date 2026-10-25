@@ -380,6 +380,23 @@ By MV2 of Munim, Inc. Prepared with AI agents. Text CC BY 4.0; code Apache-2.0.
   detected" in the results text. The open file can settle which reading CFIA published
   as data; the pre-registered check (myco-don 0.1.0) follows. Not a finding about any
   product or health risk.
+- [Pre-registration: deoxynivalenol in CFIA's open infant-cereal and selected-foods files (myco-don 0.1.0)](myco-don-0.1.0-prereg.md) —
+  written before any DON or ochratoxin A value in CFIA's three open files (the 2018-19
+  infant-cereal survey, 2011-12 DON in selected foods, and 2010-11 OTA-and-DON in selected
+  foods, all released 2026-10-06) was read by the grader; a names-only census read the
+  labels, counts and result format only. Twelve blind predictions plus a gate: whether the
+  2018-19 file follows Table 3's 123 positives or Table 2's 13 (the difference is the
+  imposed 20 ppb reporting limit), with exactly 13 at or above 20 ppb; that the lowest value
+  at or above 20 ppb is 22, not the text's 44.1; the figures CFIA printed on the 2010-11 and
+  2011-12 summary pages (DON detected 555 of 943 and OTA 315 of 943, ranges, no DON in wine
+  or dried fruit, 8 grain-based samples over Health Canada's proposed OTA levels); and the
+  first per-sample ochratoxin A × deoxynivalenol co-occurrence table from CFIA's open retail
+  data (943 samples), predicted to show no strong within-sample association (odds ratio
+  0.5–2.0). The census already shows the 2018-19 file carries 286 samples where the report
+  says 288, and the 2011-12 file 1395 where the summary says 1,391; grain-level checks are
+  not gradable because every infant-cereal sample carries the single label
+  "Infant Food - Cereal". Grading code `myco_don.py` is committed with it. Not a finding
+  about any product or health risk.
 
 ## The screen's second target: Sudan dyes
 
