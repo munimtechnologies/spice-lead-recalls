@@ -1,0 +1,96 @@
+{
+  "3-ADON share by period": {
+    "fisher_p": 1.0,
+    "groups": [
+      "late",
+      "early"
+    ],
+    "n": [
+      546,
+      456
+    ],
+    "n_3adon": [
+      95,
+      79
+    ],
+    "share": [
+      0.17399267399267399,
+      0.17324561403508773
+    ]
+  },
+  "3-ADON share by region": {
+    "fisher_p": 0.002407962127782989,
+    "groups": [
+      "West",
+      "East"
+    ],
+    "n": [
+      36,
+      966
+    ],
+    "n_3adon": [
+      14,
+      160
+    ],
+    "share": [
+      0.3888888888888889,
+      0.16563146997929606
+    ]
+  },
+  "3-ADON split by period": {
+    "early": [
+      456,
+      79
+    ],
+    "late": [
+      546,
+      95
+    ]
+  },
+  "3-ADON split by region": {
+    "East": [
+      966,
+      160
+    ],
+    "West": [
+      36,
+      14
+    ]
+  },
+  "DON x 15-ADON": {
+    "both": 917,
+    "fisher_p": 5.181855488479847e-131,
+    "haldane_corrected": false,
+    "n_pairs": 3238,
+    "neither": 780,
+    "odds_ratio": 464.45454545454544,
+    "x": "DON",
+    "x_only": 1540,
+    "y": "15-ADON",
+    "y_only": 1
+  },
+  "DON x ZEA": {
+    "both": 328,
+    "fisher_p": 3.112036960925091e-38,
+    "haldane_corrected": false,
+    "n_pairs": 3227,
+    "neither": 770,
+    "odds_ratio": 59.370004701457454,
+    "x": "DON",
+    "x_only": 2127,
+    "y": "ZEA",
+    "y_only": 2
+  },
+  "OTA x DON": {
+    "both": 136,
+    "fisher_p": 0.03046700385346491,
+    "haldane_corrected": false,
+    "n_pairs": 3219,
+    "neither": 711,
+    "odds_ratio": 0.6970588235294117,
+    "x": "OTA",
+    "x_only": 60,
+    "y": "DON",
+    "y_only": 2312
+  }
+}

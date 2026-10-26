@@ -415,6 +415,38 @@ By MV2 of Munim, Inc. Prepared with AI agents. Text CC BY 4.0; code Apache-2.0.
   sealed job later fetched the published files from GitHub and re-ran that test on them: 17 of
   17 passed (job `myco-don-result-v1`, 2026-10-25). Not a finding about any product or health risk.
 
+## A feed mycotoxin monitoring program: CFIA livestock feeds 2000-2018
+
+- [Pre-registration: CFIA's open livestock-feed mycotoxin file against its own report (feed-myco 0.1.0)](feed-myco-0.1.0-prereg.md) —
+  written before any result in CFIA's open per-sample file from its Mycotoxin Monitoring
+  Program for Livestock Feeds (April 2000 – March 2018; 40,862 results on 3,258 samples, 17
+  analytes) was read; a names-only census read labels, counts and result format only. A gate
+  on census facts, seven consistency checks against every 2000-2018 cell of Table 1 of CFIA's
+  Program-15B report, a registered explanation of the one size gap (HT-2: 3,202 samples in
+  the report, 3,243 rows in the file), and thirteen blind predictions on Fusarium toxin
+  co-occurrence, an OTA × DON replication of myco-don in feed, a 3-acetyl-DON vs
+  15-acetyl-DON chemotype-proxy split, fumonisins in corn and censoring-limit drift. From the
+  report alone: the file holds its last 18 of 28 years, and its text quotes Table 1's DON
+  figure as 81.3% where the table prints 82.22%.
+- [feed-myco 0.1.0: result](feed-myco-0.1.0-result.md) — gate passed, 17 of 21 met (all 7
+  consistency checks, 9 of 13 blind predictions). Every 2000-2018 cell of the report's Table
+  1 rebuilds from the open file once two things are known: the 41 extra HT-2 rows are, year
+  by year and exactly, non-detects with a 0.5 ppm quantification limit (above the 0.1 ppm
+  action level, so indeterminate), which the report leaves out without saying so (the
+  registered mechanism, C5); and one fumonisin row with a blank fiscal year belongs to
+  2016-17, where it restores the printed 164 samples and 98.17%. The OTA × DON association
+  found in retail foods does **not** replicate in feed. It reverses (OR 0.70, p 0.030; P5
+  missed), which supports reading the retail OR of 8.54 as commodity composition. The 3-ADON
+  share of acetyl-DON-positive samples is 38.9% in western provinces against 16.6% in the
+  east (p 0.0024), with no change between the two nine-year periods. Also missed: DON detected in
+  75.9% (band 35–75%), fumonisins 2.3× (not 3×) as often in corn, and no fall in the modal
+  DON limit. Exploratory: the file's sharpest detection-rate changes (T-2 1.9% → 25.5% and
+  HT-2 4.4% → 34.5% in 2014-15; OTA 7.0% → 2.4%; fumonisins 44.6% → 8.6% in 2016-17) fall in
+  the same years as changes in the quantification limit, so they are method changes, not
+  feed-supply trends. Recomputed from `data/feed_myco_table1.csv`,
+  `data/feed_myco_samples.csv`, `data/feed_myco_limits.csv` and the sealed record by a
+  pinned test. A reference comparison, not a compliance finding about any feed, mill or farm.
+
 ## The screen's second target: Sudan dyes
 
 - [Pre-registration: where does Sudan-dyed red palm oil on Canadian shelves come from? (red-palm-dyes 0.1.0)](red-palm-dyes-0.1.0-prereg.md) —
