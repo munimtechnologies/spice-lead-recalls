@@ -1,0 +1,366 @@
+{
+  "feed_by_ingredient": {
+    "cmh_chi2": 0.233920263682,
+    "cmh_p": 0.628632125298,
+    "large_strata": {
+      "(blank)": [
+        33,
+        8,
+        244,
+        71
+      ],
+      "Bakery waste dehydrated": [
+        0,
+        0,
+        23,
+        1
+      ],
+      "Barley": [
+        42,
+        22,
+        277,
+        135
+      ],
+      "Canola meal": [
+        0,
+        0,
+        0,
+        36
+      ],
+      "Corn": [
+        11,
+        2,
+        1188,
+        96
+      ],
+      "Corn gluten meal": [
+        0,
+        0,
+        10,
+        2
+      ],
+      "Dried corn distillers grains": [
+        3,
+        0,
+        53,
+        5
+      ],
+      "Dried corn distillers grains with solubles": [
+        0,
+        0,
+        32,
+        2
+      ],
+      "Dried distillers grains": [
+        5,
+        0,
+        30,
+        5
+      ],
+      "Dried distillers grains with solubles": [
+        0,
+        0,
+        16,
+        0
+      ],
+      "Grain screenings": [
+        1,
+        1,
+        6,
+        2
+      ],
+      "Mixed grains": [
+        2,
+        1,
+        21,
+        9
+      ],
+      "Oats": [
+        4,
+        8,
+        75,
+        56
+      ],
+      "Scratch grains": [
+        2,
+        0,
+        15,
+        1
+      ],
+      "Soybean meal": [
+        0,
+        3,
+        1,
+        65
+      ],
+      "Wet distillers grains": [
+        0,
+        0,
+        5,
+        11
+      ],
+      "Wheat": [
+        18,
+        13,
+        190,
+        129
+      ],
+      "Wheat shorts": [
+        2,
+        0,
+        31,
+        0
+      ]
+    },
+    "mh_den": 32.98370917429,
+    "mh_num": 29.771312826809,
+    "mh_or": 0.902606576765,
+    "n": 3219,
+    "n_in_informative": 2867,
+    "n_informative": 14,
+    "n_strata": 101,
+    "pooled": [
+      136,
+      60,
+      2312,
+      711
+    ],
+    "pooled_or": 0.697058823529
+  },
+  "feed_by_ingredient_type (sensitivity, not graded)": {
+    "cmh_chi2": 7.367006281326,
+    "cmh_p": 0.006643143867,
+    "large_strata": {
+      "(blank)": [
+        33,
+        8,
+        249,
+        73
+      ],
+      "Cereal by-products": [
+        15,
+        1,
+        211,
+        50
+      ],
+      "Cereals": [
+        82,
+        47,
+        1788,
+        429
+      ],
+      "Forages and roughages": [
+        4,
+        0,
+        19,
+        11
+      ],
+      "Plant protein products": [
+        1,
+        4,
+        2,
+        118
+      ],
+      "Recycled food products": [
+        1,
+        0,
+        42,
+        21
+      ]
+    },
+    "mh_den": 42.134308024778,
+    "mh_num": 26.905072421345,
+    "mh_or": 0.638554984824,
+    "n": 3219,
+    "n_in_informative": 3209,
+    "n_informative": 6,
+    "n_strata": 8,
+    "pooled": [
+      136,
+      60,
+      2312,
+      711
+    ],
+    "pooled_or": 0.697058823529
+  },
+  "n_graded": 5,
+  "n_met": 4,
+  "predictions": [
+    {
+      "graded": true,
+      "id": "G",
+      "kind": "gate",
+      "met": true,
+      "observed": {
+        "feed_pooled": true,
+        "feed_samples": true,
+        "retail_pooled": true,
+        "retail_rows": true,
+        "retail_samples": true
+      },
+      "text": "retail table 1,886 rows / 943 samples with pooled OTA x DON (275, 40, 280, 348); feed table 3,258 samples with pooled (136, 60, 2,312, 711)"
+    },
+    {
+      "graded": true,
+      "id": "M1",
+      "kind": "prediction",
+      "met": true,
+      "observed": {
+        "bound": 2.9231221078057716,
+        "mh_or": 1.3994718597938918
+      },
+      "text": "retail: the within-product Mantel-Haenszel OR is at most sqrt(8.54) = 2.92 (more than half of the pooled log-odds ratio lies between products)"
+    },
+    {
+      "graded": true,
+      "id": "M2",
+      "kind": "prediction",
+      "met": false,
+      "observed": {
+        "cmh_p": 0.3791371508438096,
+        "mh_or": 1.3994718597938918
+      },
+      "text": "retail: a positive association remains within products (MH OR > 1, CMH p < 0.05)"
+    },
+    {
+      "graded": true,
+      "id": "M3",
+      "kind": "prediction",
+      "met": true,
+      "observed": {
+        "cmh_p": 0.6286321252978528,
+        "mh_or": 0.9026065767647049
+      },
+      "text": "feed: within ingredients the MH OR lies in [0.5, 1.5] and the CMH p >= 0.05"
+    },
+    {
+      "graded": true,
+      "id": "M4",
+      "kind": "prediction",
+      "met": true,
+      "observed": {
+        "mh_or": 0.9026065767647049,
+        "pooled_or": 0.6970588235294117
+      },
+      "text": "feed: the within-ingredient MH OR is closer to 1 than the pooled 0.70 (|ln MH OR| < |ln pooled OR|)"
+    }
+  ],
+  "retail_by_product": {
+    "cmh_chi2": 0.773497798175,
+    "cmh_p": 0.379137150844,
+    "large_strata": {
+      "Apricot": [
+        0,
+        0,
+        0,
+        10
+      ],
+      "Beer": [
+        22,
+        7,
+        81,
+        20
+      ],
+      "Bran - Wheat": [
+        12,
+        0,
+        1,
+        0
+      ],
+      "Cereal - Adult": [
+        107,
+        3,
+        49,
+        3
+      ],
+      "Cereal - Children": [
+        12,
+        0,
+        21,
+        1
+      ],
+      "Chips - Corn": [
+        6,
+        1,
+        49,
+        2
+      ],
+      "Cornmeal": [
+        1,
+        0,
+        13,
+        3
+      ],
+      "Date": [
+        0,
+        0,
+        0,
+        27
+      ],
+      "Fig": [
+        0,
+        1,
+        0,
+        28
+      ],
+      "Flour - Wheat": [
+        55,
+        0,
+        5,
+        0
+      ],
+      "Grain - Oat": [
+        13,
+        0,
+        2,
+        1
+      ],
+      "Infant Food - Cereal": [
+        23,
+        3,
+        53,
+        14
+      ],
+      "Infant Formula - Dairy": [
+        0,
+        0,
+        3,
+        88
+      ],
+      "Raisin": [
+        0,
+        20,
+        0,
+        10
+      ],
+      "Wheat Products": [
+        22,
+        0,
+        1,
+        0
+      ],
+      "Wine": [
+        0,
+        3,
+        0,
+        136
+      ]
+    },
+    "mh_den": 7.823450874508,
+    "mh_num": 10.948699345353,
+    "mh_or": 1.399471859794,
+    "n": 943,
+    "n_in_informative": 517,
+    "n_informative": 8,
+    "n_strata": 21,
+    "pooled": [
+      275,
+      40,
+      280,
+      348
+    ],
+    "pooled_or": 8.544642857143
+  },
+  "study": "cooc-strata",
+  "version": "0.1.0"
+}

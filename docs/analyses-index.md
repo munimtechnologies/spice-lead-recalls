@@ -445,7 +445,41 @@ By MV2 of Munim, Inc. Prepared with AI agents. Text CC BY 4.0; code Apache-2.0.
   the same years as changes in the quantification limit, so they are method changes, not
   feed-supply trends. Recomputed from `data/feed_myco_table1.csv`,
   `data/feed_myco_samples.csv`, `data/feed_myco_limits.csv` and the sealed record by a
-  pinned test. A reference comparison, not a compliance finding about any feed, mill or farm.
+  pinned test. A sealed job later fetched the published files from GitHub and re-ran that
+  test on them: 24 of 24 passed (job `feed-myco-result-v1`, 2026-10-26). A reference
+  comparison, not a compliance finding about any feed, mill or farm.
+
+## Is the ochratoxin A × DON co-occurrence a commodity effect?
+
+- [Pre-registration: OTA × DON within commodities (cooc-strata 0.1.0)](cooc-strata-0.1.0-prereg.md) —
+  written before any within-commodity table was computed. The two committed per-sample tables
+  give opposite pooled answers (retail foods OR 8.54; livestock feeds OR 0.70). Four
+  predictions on Mantel-Haenszel odds ratios and CMH tests within CFIA's retail product labels
+  and feed ingredient names. Grading code `cooc_strata.py` and offline tests are committed with it.
+- [cooc-strata 0.1.0: result](cooc-strata-0.1.0-result.md) — gate passed, 4 of 5 met. Both
+  pooled figures are mostly composition. Within retail products the odds ratio falls from 8.54
+  to **1.40** (CMH p 0.38; RBG 95% interval 0.72–2.70, computed after grading), so about 84% of
+  the pooled log odds ratio lies between products: grain foods carry both toxins, while wine,
+  dairy formula and dried fruit carry neither. M2 (a positive within-product association, p <
+  0.05) missed. Within feed ingredient names the reversal shrinks from 0.70 to **0.90** (p 0.63;
+  0.64–1.28). It is mostly corn against the small grains: corn has DON in 92.4% of samples and
+  OTA in 1.0%, against 55–67% DON and 8–13% OTA in barley, wheat and oats. Sensitivity (not
+  graded): CFIA's coarser `ingredient_type` keeps the reversal (MH 0.64, p 0.0066), because its
+  `Cereals` type mixes corn with small grains. Recomputed from the two committed per-sample tables
+  by an independent pinned test. Not a finding about any product, feed, mill or farm.
+
+## Multi-mycotoxins in grain foods: CFIA 2018-19
+
+- [CFIA's 2018-19 multi-mycotoxin survey: what its report and file labels say (multimyco-2018-report-check 0.1.0)](multimyco-2018-report-check-0.1.0.md) —
+  a record of CFIA's report (750 corn products, crackers, other grain products, pasta and
+  gluten-free products; 25 analytes per sample) and the names-only census of its open file. It
+  was written before any value was read. The text says 388 samples had mycotoxins; Table 2's
+  total says 386. The report's origin table is one sample off the file's `Origin` labels. Its
+  five product categories (136/102/70/297/145) do not follow the file's 30 product labels
+  (obvious grouping: 150/101/71/299/128). Its "17 different mycotoxins detected" holds only if
+  the "alpha-/beta-zeranol" it lists as never detected are the file's α-/β-zearalenol rows,
+  which the file stores under one garbled label. The report also gives an OTA compliance of 99.1%
+  without a count (7 of 750 if the base is all samples). A pre-registered check follows.
 
 ## The screen's second target: Sudan dyes
 

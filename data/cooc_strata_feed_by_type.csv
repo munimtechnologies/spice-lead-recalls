@@ -1,0 +1,9 @@
+stratum,n,ota_and_don,ota_only,don_only,neither,odds_ratio,haldane_corrected,informative
+Cereals,2346,82,47,1788,429,0.418606,0,1
+(blank),363,33,8,249,73,1.209337,0,1
+Cereal by-products,277,15,1,211,50,3.554502,0,1
+Plant protein products,125,1,4,2,118,14.75,0,1
+Recycled food products,64,1,0,42,21,1.517647,1,1
+Forages and roughages,34,4,0,19,11,5.307692,1,1
+Others,7,0,0,0,7,15.0,1,0
+Animal by-products,3,0,0,1,2,1.666667,1,0

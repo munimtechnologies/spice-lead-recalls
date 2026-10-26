@@ -1,0 +1,22 @@
+stratum,n,ota_and_don,ota_only,don_only,neither,odds_ratio,haldane_corrected,informative
+Cereal - Adult,162,107,3,49,3,2.183673,0,1
+Wine,139,0,3,0,136,39.0,1,0
+Beer,130,22,7,81,20,0.776014,0,1
+Infant Food - Cereal,93,23,3,53,14,2.025157,0,1
+Infant Formula - Dairy,91,0,0,3,88,25.285714,1,0
+Flour - Wheat,60,55,0,5,0,10.090909,1,0
+Chips - Corn,58,6,1,49,2,0.244898,0,1
+Cereal - Children,34,12,0,21,1,1.744186,1,1
+Raisin,30,0,20,0,10,0.512195,1,0
+Fig,29,0,1,0,28,19.0,1,0
+Date,27,0,0,0,27,55.0,1,0
+Wheat Products,23,22,0,1,0,15.0,1,0
+Cornmeal,17,1,0,13,3,0.777778,1,1
+Grain - Oat,16,13,0,2,1,16.2,1,1
+Bran - Wheat,13,12,0,1,0,8.333333,1,0
+Apricot,10,0,0,0,10,21.0,1,0
+Infant Formula - Soy,7,1,2,0,4,5.4,1,1
+Bran - Oat,1,1,0,0,0,3.0,1,0
+Flour - Corn,1,0,0,1,0,0.333333,1,0
+Oatmeal,1,0,0,1,0,0.333333,1,0
+Prune,1,0,0,0,1,3.0,1,0

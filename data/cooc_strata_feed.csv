@@ -1,0 +1,102 @@
+stratum,n,ota_and_don,ota_only,don_only,neither,odds_ratio,haldane_corrected,informative
+Corn,1297,11,2,1188,96,0.444444,0,1
+Barley,476,42,22,277,135,0.930423,0,1
+(blank),356,33,8,244,71,1.200307,0,1
+Wheat,350,18,13,190,129,0.940081,0,1
+Oats,143,4,8,75,56,0.373333,0,1
+Soybean meal,69,0,3,1,65,6.238095,1,1
+Dried corn distillers grains,61,3,0,53,5,0.719626,1,1
+Dried distillers grains,40,5,0,30,5,1.983607,1,1
+Canola meal,36,0,0,0,36,73.0,1,0
+Dried corn distillers grains with solubles,34,0,0,32,2,0.076923,1,0
+Mixed grains,33,2,1,21,9,0.857143,0,1
+Wheat shorts,33,2,0,31,0,0.079365,1,0
+Bakery waste dehydrated,24,0,0,23,1,0.06383,1,0
+Scratch grains,18,2,0,15,1,0.483871,1,1
+Dried distillers grains with solubles,16,0,0,16,0,0.030303,1,0
+Wet distillers grains,16,0,0,5,11,2.090909,1,0
+Corn gluten meal,12,0,0,10,2,0.238095,1,0
+Grain screenings,10,1,1,6,2,0.333333,0,1
+Mixed chop,9,2,0,7,0,0.333333,1,0
+Food waste dry,8,0,0,6,2,0.384615,1,0
+Soybean,8,0,0,0,8,17.0,1,0
+Thin stillage,8,0,0,0,8,17.0,1,0
+Potato chip waste,7,0,0,0,7,15.0,1,0
+Recycled food products heat-treated and dehydrated,7,0,0,7,0,0.066667,1,0
+Wheat middlings,7,1,0,4,2,1.666667,1,1
+"Mixed grains - barley, corn and oats",6,2,0,4,0,0.555556,1,0
+Wheat screenings,6,0,0,6,0,0.076923,1,0
+Mixed grains - barley and oats,5,0,0,5,0,0.090909,1,0
+Oat hulls,5,2,0,3,0,0.714286,1,0
+Sugar,5,0,0,0,5,11.0,1,0
+Alfalfa,4,0,0,1,3,2.333333,1,0
+Barley screenings,4,1,0,2,1,1.8,1,1
+Canola,4,0,0,0,4,9.0,1,0
+"Mixed grains - barley, corn, oats and wheat",4,0,0,4,0,0.111111,1,0
+Bakery waste dehydrated - biscuit flour,3,1,0,2,0,0.6,1,0
+Barley malt sprouts,3,1,0,2,0,0.6,1,0
+Chocolate manufacturing by-product,3,0,0,0,3,7.0,1,0
+Grain shorts,3,0,0,2,1,0.6,1,0
+"Mixed grains - barley, corn and wheat",3,1,0,2,0,0.6,1,0
+Rye,3,0,1,1,1,0.333333,1,1
+Soybean hulls,3,0,0,1,2,1.666667,1,0
+Alfalfa cubes,2,0,0,0,2,5.0,1,0
+Brewers wet grains,2,0,0,0,2,5.0,1,0
+Cereals greenfeed,2,0,0,2,0,0.2,1,0
+Corn distillers solubles condensed,2,0,0,2,0,0.2,1,0
+Distillers solubles condensed,2,0,0,1,1,1.0,1,0
+Dried wheat distillers grains,2,0,0,0,2,5.0,1,0
+Food waste dehydrated,2,0,0,0,2,5.0,1,0
+Food waste heat-treated and dehydrated,2,0,0,2,0,0.2,1,0
+Gluten meal,2,0,0,1,1,1.0,1,0
+Grains mill run,2,0,0,1,1,1.0,1,0
+Mixed chop - barley and oats,2,0,0,2,0,0.2,1,0
+Mixed grains - wheat and oats,2,0,0,2,0,0.2,1,0
+Potato waste - heat treated,2,0,0,0,2,5.0,1,0
+"Scratch grains - barley, corn and oats",2,0,0,2,0,0.2,1,0
+Snack food waste dehydrated - corn chips,2,0,0,0,2,5.0,1,0
+Stillage,2,0,0,1,1,1.0,1,0
+Wet raw potato process residue,2,0,0,0,2,5.0,1,0
+Bakery waste dehydrated - bread flour,1,0,0,1,0,0.333333,1,0
+Barley and molasses,1,0,0,0,1,3.0,1,0
+Barley chop,1,0,0,0,1,3.0,1,0
+Barley wet distillers grains,1,0,0,0,1,3.0,1,0
+Beet pulp pellets,1,0,0,0,1,3.0,1,0
+Bran,1,0,0,1,0,0.333333,1,0
+Canola and pea meal,1,0,0,0,1,3.0,1,0
+Cheese powder,1,0,0,0,1,3.0,1,0
+Corn 20%,1,0,0,1,0,0.333333,1,0
+Corn chop,1,0,0,1,0,0.333333,1,0
+Corn screenings,1,0,0,1,0,0.333333,1,0
+Corn silage,1,0,0,1,0,0.333333,1,0
+Corn wet distillers grains,1,0,0,1,0,0.333333,1,0
+Cotton seeds,1,0,0,0,1,3.0,1,0
+Dried distillers grains with solubles - corn and wheat,1,0,0,0,1,3.0,1,0
+Dried whey,1,0,0,0,1,3.0,1,0
+Dry molassed beet pulp,1,0,0,0,1,3.0,1,0
+Feather meal,1,0,0,0,1,3.0,1,0
+Fish meal,1,0,0,1,0,0.333333,1,0
+Hay,1,0,0,1,0,0.333333,1,0
+Lentil and pea screenings,1,1,0,0,0,3.0,1,0
+Lentil screenings,1,0,1,0,0,0.333333,1,0
+Linseed meal,1,0,0,0,1,3.0,1,0
+Microbial product and wheat shorts,1,0,0,1,0,0.333333,1,0
+"Mixed feed - barley, corn, soybean, wheat chop and others",1,0,0,1,0,0.333333,1,0
+Mixed feed - grains,1,0,0,1,0,0.333333,1,0
+"Mixed grain screenings - barley, corn and soybean",1,0,0,1,0,0.333333,1,0
+"Mixed grains - barley, corn, oats and molasses",1,0,0,1,0,0.333333,1,0
+Mixed grains - corn and oats,1,0,0,1,0,0.333333,1,0
+Mixed grains - corn and wheat,1,0,0,0,1,3.0,1,0
+"Mixed grains - oats, wheat and peas",1,0,0,1,0,0.333333,1,0
+Oat screenings,1,1,0,0,0,3.0,1,0
+Peas,1,0,0,0,1,3.0,1,0
+Peas screenings,1,0,0,1,0,0.333333,1,0
+Recycled food waste dried,1,0,0,1,0,0.333333,1,0
+Rice,1,0,0,0,1,3.0,1,0
+Rice hulls,1,0,0,0,1,3.0,1,0
+Silage,1,0,0,0,1,3.0,1,0
+Sunflower meal,1,0,0,0,1,3.0,1,0
+Wet distillers grains with solubles,1,0,0,1,0,0.333333,1,0
+Wheat Shorts,1,0,0,1,0,0.333333,1,0
+Wheat chop,1,0,0,0,1,3.0,1,0
+Wheat mill run,1,0,0,0,1,3.0,1,0
