@@ -1,0 +1,220 @@
+{
+  "census": {
+    "categorical": {
+      "feed_type": {
+        "distinct": 6,
+        "values": {
+          "Complete feed": 3549,
+          "Macro-premix": 45,
+          "Single ingredient feed": 36559,
+          "Specialty product": 199,
+          "Supplement": 499,
+          "Trace mineral salt feed": 11
+        }
+      },
+      "fiscal_year": {
+        "distinct": 19,
+        "values": {
+          "": 1,
+          "2000-2001": 1947,
+          "2001-2002": 1541,
+          "2002-2003": 1923,
+          "2003-2004": 2130,
+          "2004-2005": 2253,
+          "2005-2006": 1304,
+          "2006-2007": 2228,
+          "2007-2008": 1931,
+          "2008-2009": 2550,
+          "2009-2010": 2401,
+          "2010-2011": 2428,
+          "2011-2012": 2398,
+          "2012-2013": 2255,
+          "2013-2014": 1827,
+          "2014-2015": 3343,
+          "2015-2016": 2386,
+          "2016-2017": 2858,
+          "2017-2018": 3158
+        }
+      },
+      "ingredient_name": {
+        "distinct": 106,
+        "note": "high cardinality (106); showing 40 most common labels only",
+        "top": {
+          "": 4151,
+          "Alfalfa": 48,
+          "Bakery waste dehydrated": 299,
+          "Bakery waste dehydrated - biscuit flour": 38,
+          "Barley": 5631,
+          "Barley screenings": 55,
+          "Canola": 44,
+          "Canola meal": 473,
+          "Corn": 17257,
+          "Corn gluten meal": 205,
+          "Corn wet distillers grains": 34,
+          "Dried corn distillers grains": 858,
+          "Dried corn distillers grains with solubles": 524,
+          "Dried distillers grains": 563,
+          "Dried distillers grains with solubles": 236,
+          "Food waste dry": 90,
+          "Gluten meal": 38,
+          "Grain screenings": 120,
+          "Grain shorts": 39,
+          "Mixed chop": 99,
+          "Mixed grains": 373,
+          "Mixed grains - barley and oats": 67,
+          "Mixed grains - barley, corn and oats": 68,
+          "Mixed grains - barley, corn and wheat": 49,
+          "Mixed grains - barley, corn, oats and wheat": 50,
+          "Oat hulls": 66,
+          "Oats": 1663,
+          "Potato chip waste": 77,
+          "Recycled food products heat-treated and dehydrated": 88,
+          "Scratch grains": 222,
+          "Soybean": 94,
+          "Soybean hulls": 39,
+          "Soybean meal": 946,
+          "Sugar": 65,
+          "Thin stillage": 94,
+          "Wet distillers grains": 198,
+          "Wheat": 4291,
+          "Wheat middlings": 88,
+          "Wheat screenings": 66,
+          "Wheat shorts": 441
+        }
+      },
+      "ingredient_type": {
+        "distinct": 8,
+        "values": {
+          "": 4248,
+          "Animal by-products": 33,
+          "Cereal by-products": 3860,
+          "Cereals": 29798,
+          "Forages and roughages": 408,
+          "Others": 91,
+          "Plant protein products": 1656,
+          "Recycled food products": 768
+        }
+      },
+      "mycotoxin": {
+        "distinct": 18,
+        "values": {
+          "15-Acetyldeoxynivalenol": 3244,
+          "3-AcetyldeoxyNivalenol": 184,
+          "3-Acetyldeoxynivalenol": 3063,
+          "Aflatoxin B1": 699,
+          "Aflatoxin B2": 699,
+          "Aflatoxin G1": 699,
+          "Aflatoxin G2": 697,
+          "Aflatoxins (total)": 713,
+          "Deoxynivalenol": 3238,
+          "Diacetoxyscirpenol": 3247,
+          "Fumonisins (total B1 and B2)": 1673,
+          "Fusarenon X": 3247,
+          "HT-2": 3243,
+          "Neosolaniol": 3247,
+          "Nivalenol": 3246,
+          "Ochratoxin A": 3240,
+          "T-2": 3243,
+          "Zearalenone": 3240
+        }
+      },
+      "province": {
+        "distinct": 10,
+        "values": {
+          "Alberta": 3217,
+          "British Columbia": 1330,
+          "Manitoba": 2807,
+          "New Brunswick": 739,
+          "Newfoundland and Labrador": 217,
+          "Nova Scotia": 751,
+          "Ontario": 12375,
+          "Prince Edward Island": 936,
+          "Quebec": 16723,
+          "Saskatchewan": 1767
+        }
+      },
+      "species": {
+        "distinct": 13,
+        "values": {
+          "Beef cattle": 580,
+          "Broiler chickens": 308,
+          "Dairy cattle": 1001,
+          "Layer chickens": 772,
+          "Miscellaneous - bison": 11,
+          "Miscellaneous - fish": 88,
+          "Miscellaneous - goat": 33,
+          "Miscellaneous - horse": 143,
+          "Miscellaneous- duck and geese": 11,
+          "Multiple species": 36270,
+          "Sheep": 33,
+          "Swine": 1574,
+          "Turkey": 38
+        }
+      },
+      "unit": {
+        "distinct": 2,
+        "values": {
+          "mg/kg": 32019,
+          "\u00b5g/kg": 8843
+        }
+      }
+    },
+    "column_index": {
+      "feed_type": 3,
+      "fiscal_year": 0,
+      "ingredient_name": 5,
+      "ingredient_type": 4,
+      "mycotoxin": 7,
+      "province": 6,
+      "result": 8,
+      "species": 2,
+      "system_id": 1,
+      "unit": 9
+    },
+    "columns_in_order": [
+      "Fiscal Year",
+      "System ID",
+      "Target Species",
+      "Feed Type",
+      "Ingredient Type",
+      "Ingredient Common Name",
+      "Sampled at - Province",
+      "Mycotoxin",
+      "Test Result",
+      "Unit"
+    ],
+    "distinct_system_ids": 3258,
+    "n_columns": 10,
+    "n_rows": 40862,
+    "result_format_kinds": {
+      "censored": 35368,
+      "numeric": 5494
+    },
+    "rows_per_sample_distribution": {
+      "1": 6,
+      "10": 10,
+      "11": 1423,
+      "12": 1094,
+      "13": 17,
+      "14": 2,
+      "15": 1,
+      "16": 163,
+      "17": 530,
+      "2": 1,
+      "8": 8,
+      "9": 3
+    }
+  },
+  "dataset": "2d636f59-5f04-4725-afae-376850bc71d4",
+  "filename": "Mycotoxin_Monitoring_Program_for_Livestock_Feeds_-_Results_from_April_1_2000_-_March_31_2018.csv",
+  "note": "Names-only census: labels, counts and result FORMAT only. No detection rate, numeric distribution or distinct LOQ value is reported, so a later blind pre-registration stays blind.",
+  "provenance": {
+    "bytes": 5872784,
+    "encoding": "utf-8-sig",
+    "sha256": "6de28d69d6d2fe0552aae55720b2b481b6673efafbcccf90dc87f7002a2c1491",
+    "source": "data-volume"
+  },
+  "resource": "b8cad53e-0a93-4366-a764-246fbc980c1f",
+  "study": "feed-myco-census",
+  "version": "0.1.0"
+}
