@@ -466,7 +466,9 @@ By MV2 of Munim, Inc. Prepared with AI agents. Text CC BY 4.0; code Apache-2.0.
   OTA in 1.0%, against 55–67% DON and 8–13% OTA in barley, wheat and oats. Sensitivity (not
   graded): CFIA's coarser `ingredient_type` keeps the reversal (MH 0.64, p 0.0066), because its
   `Cereals` type mixes corn with small grains. Recomputed from the two committed per-sample tables
-  by an independent pinned test. Not a finding about any product, feed, mill or farm.
+  by an independent pinned test. A sealed job later fetched the published files from GitHub and
+  re-ran that test on them: 10 of 10 passed (job `cooc-strata-result-v1`, 2026-10-27). Not a
+  finding about any product, feed, mill or farm.
 
 ## Multi-mycotoxins in grain foods: CFIA 2018-19
 
@@ -480,6 +482,54 @@ By MV2 of Munim, Inc. Prepared with AI agents. Text CC BY 4.0; code Apache-2.0.
   the "alpha-/beta-zeranol" it lists as never detected are the file's α-/β-zearalenol rows,
   which the file stores under one garbled label. The report also gives an OTA compliance of 99.1%
   without a count (7 of 750 if the base is all samples). A pre-registered check follows.
+- [Pre-registration: CFIA's open 2018-19 multi-mycotoxin file against its own report (multimyco-2018 0.1.0)](multimyco-2018-0.1.0-prereg.md) —
+  written before any AMOUNT value was read (public at tag `v0.4.61`): a gate on census facts
+  and a clean AMOUNT format, one consistency check and eight blind predictions on 388 vs 386,
+  the DON row, the "17 mycotoxins", Table 3's group counts, the uncounted OTA figure, the
+  crackers OTA gap, whether DON × fumonisin co-occurrence is a commodity effect, and the most
+  toxin groups in one sample. Grading code `multimyco_2018.py` is committed with it.
+- [multimyco-2018 0.1.0: result](multimyco-2018-0.1.0-result.md) — gate passed, 4 of 10 met;
+  most misses are the finding. The file gives a third answer to "388 or 386": **387**. It
+  reproduces Table 3's DON count (306) and maximum (2,570 ppb), but the average of its
+  positives is **181 ppb**, not the printed 282. Three group counts are off (fumonisins 106 vs
+  105, zearalenone 38 vs 34, aflatoxins 10 vs 11), and the zearalenol label the report lists as
+  never detected has a detection, so 18 labels are detected, not 17. The two figures CFIA left
+  uncounted hold: exactly 7 of 750 samples carry OTA above the proposed 3 ppb level, and OTA
+  is found in only 2 of 101 crackers (75% in CFIA's OTA-only survey the same year). Unlike OTA ×
+  DON, the DON × fumonisin association survives stratification by product label (pooled OR
+  2.42, Mantel-Haenszel 2.48, CMH p 0.0016; within the corn labels 7.5). Recomputed from
+  `data/multimyco_2018_samples.csv` and the sealed record by an independent pinned test. Not a
+  finding about any product or health risk.
+
+## Alternaria toxins: CFIA 2014-2022, and the EU's indicative levels
+
+- [CFIA's Alternaria toxin surveys 2014-2022: what the report and the file labels say (alternaria-report-check 0.1.0)](alternaria-report-check-0.1.0.md) —
+  a record of CFIA's report (2,597 retail samples; alternariol (AOH) and alternariol monomethyl
+  ether (AME), printed only as sums) and the names-only census of its two open per-sample files,
+  written before any value was read. Seven points from the report's own arithmetic: Table 1
+  swaps two rows; the total maximum (871) is below a row maximum (880); the infant row's
+  maximum and average match 2019 alone; five positive samples move between juices and
+  pomegranate; Table 9 omits 48 processed peppers; sorghum is in the total with no row; and
+  cherry juice's average exceeds its maximum.
+- [Pre-registration: CFIA's open Alternaria files against its report and the EU's indicative levels (alternaria 0.1.0)](alternaria-0.1.0-prereg.md) —
+  written before any value was read (public at tag `v0.4.63`): a gate, 17 consistency checks
+  (every report row the labels identify), six predictions on the report's open points and five
+  on EU Recommendation 2022/553, the first per-toxin comparison of CFIA's open data with those
+  levels. Grading code `alternaria.py` is committed with it.
+- [alternaria 0.1.0: result](alternaria-0.1.0-result.md) — gate passed, 17 of 29 met (11 of
+  17 consistency checks). The report's two largest tomato results (880 and about 345 ppb) are
+  **not in the open file**: its tomato maximum is 6.72 ppb, and its only total above 700 ppb is
+  the 871 ppb pomegranate juice that Table 2's Total prints. The whole 2-sample, 3-positive gap
+  between report and file sits in four rows (2014–15 juices, 2015 and 2016 tomato products,
+  2014 wine). Confirmed: the infant row's 26 and 5.2 are 2019-only (all years: 37.1 and 5.04),
+  and Table 1's swap (13 of 187 2019 pomegranate samples are Canadian-origin). Table 6's 2018
+  juice row counts F2's 5 pomegranate juices among its positives (125) and average (17) but not
+  in its n (174). Against EU 2022/553: 3 of 51 sunflower oils and 2 of 3 sesame seeds exceed
+  the indicative levels; no sunflower seed (0 of 51) and no tomato product (0 of 200) does.
+  AME carries 61% of the toxin mass in sunflower products and AOH 75% in fruit products.
+  Recomputed from `data/alternaria_samples.csv` and the sealed record by an independent pinned
+  test. A reference comparison (EU indicative levels trigger investigation; Canada sets no
+  limit), not a finding about any product or health risk.
 
 ## The screen's second target: Sudan dyes
 

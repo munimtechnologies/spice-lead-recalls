@@ -1,0 +1,427 @@
+{
+  "analysis": {
+    "analytes": {
+      "CPA": {
+        "avg_all": 0.2672,
+        "avg_pos": 11.133333333333333,
+        "max": 47.2,
+        "n_detected": 18
+      },
+      "DON": {
+        "avg_all": 73.97333333333333,
+        "avg_pos": 181.30718954248366,
+        "max": 2570.0,
+        "n_detected": 306
+      },
+      "NIV": {
+        "avg_all": 0.204,
+        "avg_pos": 21.857142857142858,
+        "max": 86.0,
+        "n_detected": 7
+      },
+      "OTA": {
+        "avg_all": 0.11106666666666666,
+        "avg_pos": 4.165,
+        "max": 33.8,
+        "n_detected": 20
+      },
+      "STE": {
+        "avg_all": 0.042666666666666665,
+        "avg_pos": 2.6666666666666665,
+        "max": 11.8,
+        "n_detected": 12
+      }
+    },
+    "any_detected": 387,
+    "crackers_n": 101,
+    "crackers_ota_n": 2,
+    "crackers_ota_rate": 0.019801980198019802,
+    "detected_analytes": [
+      "?-Zearalenol(ppb)",
+      "Aflatoxin B1",
+      "Aflatoxin B2",
+      "Aflatoxin G1",
+      "Cyclopiazonic acid",
+      "Deoxynivalenol",
+      "Ergocristine",
+      "Ergocryptine",
+      "Ergosine",
+      "Fumonisin B1",
+      "Fumonisin B2",
+      "Fumonisin B3",
+      "HT-2 Toxin",
+      "Nivalenol",
+      "Ochratoxin A",
+      "Sterigmatocystin",
+      "T-2 Toxin",
+      "Zearalenone(ppb)"
+    ],
+    "don_fumonisin": {
+      "cmh_chi2": 10.001807912621047,
+      "cmh_p": 0.0015638662297948194,
+      "mh_or": 2.479446997227098,
+      "n_strata": 30,
+      "pooled": [
+        63,
+        243,
+        43,
+        401
+      ],
+      "pooled_or": 2.417743324720069
+    },
+    "groups": {
+      "Aflatoxins": 10,
+      "CPA": 18,
+      "DON": 306,
+      "Ergot": 46,
+      "Fumonisins": 106,
+      "HT2T2": 8,
+      "NIV": 7,
+      "OTA": 20,
+      "STE": 12,
+      "Zearalenone": 38
+    },
+    "max_groups": 6,
+    "max_groups_products": [
+      "Flour - Corn"
+    ],
+    "n_detected_analytes": 18,
+    "never_detected": [
+      "15-acetyldeoxynivalenol",
+      "3-acetyldeoxynivalenol",
+      "Aflatoxin G2",
+      "Diacetoxyscirpenol",
+      "Fusarenon-X",
+      "Neosolaniol"
+    ],
+    "ota_over_3": 7
+  },
+  "census": {
+    "amount_distinct": 207,
+    "amount_kinds": {
+      "pos": 722,
+      "zero": 18028
+    },
+    "components": {
+      "15-acetyldeoxynivalenol": 750,
+      "3-acetyldeoxynivalenol": 750,
+      "?-Zearalenol(ppb)": 1500,
+      "Aflatoxin B1": 750,
+      "Aflatoxin B2": 750,
+      "Aflatoxin G1": 750,
+      "Aflatoxin G2": 750,
+      "Cyclopiazonic acid": 750,
+      "Deoxynivalenol": 750,
+      "Diacetoxyscirpenol": 750,
+      "Ergocristine": 750,
+      "Ergocryptine": 750,
+      "Ergosine": 750,
+      "Fumonisin B1": 750,
+      "Fumonisin B2": 750,
+      "Fumonisin B3": 750,
+      "Fusarenon-X": 750,
+      "HT-2 Toxin": 750,
+      "Neosolaniol": 750,
+      "Nivalenol": 750,
+      "Ochratoxin A": 750,
+      "Sterigmatocystin": 750,
+      "T-2 Toxin": 750,
+      "Zearalenone(ppb)": 750
+    },
+    "distinct_samples": 750,
+    "functions": {
+      "Domestic": 154,
+      "Import": 363,
+      "Unknown": 233
+    },
+    "n_rows": 18750,
+    "origins": {
+      "ARGENTINA": 1,
+      "AUSTRIA": 2,
+      "BOLIVIA, PLURINATIONAL STATE OF": 4,
+      "CANADA": 155,
+      "CHINA": 11,
+      "COLOMBIA": 1,
+      "FINLAND": 2,
+      "GERMANY": 7,
+      "INDIA": 2,
+      "ISRAEL": 1,
+      "ITALY": 53,
+      "JAPAN": 1,
+      "KOREA, REPUBLIC OF": 7,
+      "MEXICO": 4,
+      "MOROCCO": 1,
+      "NETHERLANDS": 1,
+      "PERU": 8,
+      "POLAND": 1,
+      "RUSSIAN FEDERATION": 2,
+      "SCOTLAND": 3,
+      "SINGAPORE": 2,
+      "SPAIN": 4,
+      "SWEDEN": 1,
+      "TAIWAN, PROVINCE OF CHINA": 1,
+      "THAILAND": 3,
+      "TURKEY": 2,
+      "UNITED KINGDOM": 2,
+      "UNITED STATES": 176,
+      "UNKNOWN": 291,
+      "VIETNAM": 1
+    },
+    "plans": {
+      "2018_SB427": 18750
+    },
+    "products": {
+      "Amaranth Products": 14,
+      "Arrowroot Products": 15,
+      "Barley Products": 14,
+      "Bread": 2,
+      "Buckwheat Products": 15,
+      "Chips - Corn": 18,
+      "Chips - Other": 1,
+      "Corn Products": 30,
+      "Corn Starch": 25,
+      "Cornmeal": 25,
+      "Crackers": 101,
+      "Flour - Corn": 52,
+      "Gluten-free Products": 71,
+      "Grain - Barley": 36,
+      "Grain - Buckwheat": 14,
+      "Grain - Kamut": 13,
+      "Grain - Other": 15,
+      "Grain - Quinoa": 28,
+      "Grain - Rye": 2,
+      "Kamut Products": 15,
+      "Millet": 15,
+      "Millet Products": 14,
+      "Pasta": 26,
+      "Pasta - Dry": 62,
+      "Pasta - Fresh": 40,
+      "Quinoa Products": 15,
+      "Rye Products": 26,
+      "Spelt": 5,
+      "Spelt Products": 25,
+      "Teff Products": 16
+    },
+    "rows_per_sample": {
+      "25": 750
+    },
+    "units": {
+      "ng/g": 18750
+    }
+  },
+  "n_graded": 10,
+  "n_met": 4,
+  "predictions": [
+    {
+      "graded": true,
+      "id": "G",
+      "kind": "gate",
+      "met": true,
+      "observed": {
+        "amount_format": true,
+        "components": true,
+        "one_plan": true,
+        "one_unit": true,
+        "origin_canada": true,
+        "origin_distinct": true,
+        "origin_foreign": true,
+        "origin_unknown": true,
+        "products": true,
+        "rows": true,
+        "rows_per_sample": true,
+        "samples": true,
+        "sha256": true
+      },
+      "text": "SHA-256, 18,750 rows / 750 samples / 25 rows each, the 24 component labels and 30 product labels by count, one plan code, one report unit, origin split (CANADA 155, UNKNOWN 291, 304 foreign over 30 origins), and a clean AMOUNT format (no comma or unparseable cell)"
+    },
+    {
+      "graded": true,
+      "id": "P1",
+      "kind": "prediction",
+      "met": false,
+      "observed": {
+        "any_detected": 387,
+        "table2": 386,
+        "text": 388
+      },
+      "text": "exactly 386 of 750 samples carry >=1 detected mycotoxin (Table 2's grand total), not the 388 the summary text prints"
+    },
+    {
+      "graded": true,
+      "id": "P2",
+      "kind": "prediction",
+      "met": false,
+      "observed": {
+        "avg_all": 73.97333333333333,
+        "avg_pos": 181.30718954248366,
+        "max": 2570.0,
+        "n_detected": 306
+      },
+      "text": "DON detected in 306 of 750 samples; maximum 2570 and average-of-positives 282 ppb"
+    },
+    {
+      "graded": true,
+      "id": "P3",
+      "kind": "prediction",
+      "met": false,
+      "observed": {
+        "n_detected_analytes": 18,
+        "never_detected": [
+          "15-acetyldeoxynivalenol",
+          "3-acetyldeoxynivalenol",
+          "Aflatoxin G2",
+          "Diacetoxyscirpenol",
+          "Fusarenon-X",
+          "Neosolaniol"
+        ]
+      },
+      "text": "exactly 17 of the 24 English component labels are detected in >=1 sample; the 7 never detected are the two zearalenols (one `?-Zearalenol(ppb)` label), 3- and 15-acetyl-DON, aflatoxin G2, diacetoxyscirpenol, fusarenon-X and neosolaniol -- so the report's 'alpha-/beta-zeranol' are its zearalenols and Zearalenone alone carries the 34 ZEN-group positives"
+    },
+    {
+      "graded": true,
+      "id": "P4",
+      "kind": "prediction",
+      "met": false,
+      "observed": {
+        "Aflatoxins": {
+          "file": 10,
+          "table3": 11
+        },
+        "CPA": {
+          "file": 18,
+          "table3": 18
+        },
+        "Ergot": {
+          "file": 46,
+          "table3": 46
+        },
+        "Fumonisins": {
+          "file": 106,
+          "table3": 105
+        },
+        "HT2T2": {
+          "file": 8,
+          "table3": 8
+        },
+        "NIV": {
+          "file": 7,
+          "table3": 7
+        },
+        "OTA": {
+          "file": 20,
+          "table3": 20
+        },
+        "STE": {
+          "file": 12,
+          "table3": 12
+        },
+        "Zearalenone": {
+          "file": 38,
+          "table3": 34
+        }
+      },
+      "text": "the nine non-DON toxin groups reproduce CFIA's Table 3 positive counts exactly (fumonisins 105, ergot 46, Zearalenone 34, OTA 20, CPA 18, sterigmatocystin 12, aflatoxins 11, HT-2/T-2 8, nivalenol 7)"
+    },
+    {
+      "graded": true,
+      "id": "C1",
+      "kind": "consistency",
+      "met": true,
+      "observed": {
+        "CPA": {
+          "avg_pos": 11.133333333333333,
+          "max": 47.2,
+          "ok": true,
+          "printed_avg": "11",
+          "printed_max": "47"
+        },
+        "NIV": {
+          "avg_pos": 21.857142857142858,
+          "max": 86.0,
+          "ok": true,
+          "printed_avg": "22",
+          "printed_max": "86"
+        },
+        "OTA": {
+          "avg_pos": 4.165,
+          "max": 33.8,
+          "ok": true,
+          "printed_avg": "4.2",
+          "printed_max": "34"
+        },
+        "STE": {
+          "avg_pos": 2.6666666666666665,
+          "max": 11.8,
+          "ok": true,
+          "printed_avg": "2.7",
+          "printed_max": "12"
+        }
+      },
+      "text": "the four single-analyte groups match Table 3's max and average-of-positives (OTA 34/4.2, CPA 47/11, sterigmatocystin 12/2.7, nivalenol 86/22 ppb)"
+    },
+    {
+      "graded": true,
+      "id": "P5",
+      "kind": "prediction",
+      "met": true,
+      "observed": {
+        "implied": 7,
+        "ota_over_3": 7
+      },
+      "text": "exactly 7 of 750 samples carry OTA above the proposed 3 ppb level (CFIA prints only a 99.1% compliance rate, no count)"
+    },
+    {
+      "graded": true,
+      "id": "P6",
+      "kind": "prediction",
+      "met": true,
+      "observed": {
+        "crackers_n": 101,
+        "crackers_ota_n": 2,
+        "crackers_ota_rate": 0.019801980198019802
+      },
+      "text": "OTA is detected in fewer than 25% of the 101 crackers, far below the 75% (30 of 40) CFIA reported for the same year's OTA-only crackers survey -- pointing to a higher detection limit in this multi-toxin method"
+    },
+    {
+      "graded": true,
+      "id": "P7",
+      "kind": "prediction",
+      "met": false,
+      "observed": {
+        "cmh_p": 0.0015638662297948194,
+        "mh_or": 2.479446997227098,
+        "n_strata": 30,
+        "pooled": [
+          63,
+          243,
+          43,
+          401
+        ],
+        "pooled_or": 2.417743324720069
+      },
+      "text": "the pooled DON x fumonisin co-occurrence (odds ratio > 1) is mostly composition: within the finest product label the Mantel-Haenszel odds ratio is pulled toward 1 (|ln MH| < |ln pooled|), as cooc-strata found for OTA x DON"
+    },
+    {
+      "graded": true,
+      "id": "P8",
+      "kind": "prediction",
+      "met": false,
+      "observed": {
+        "max_groups": 6,
+        "max_groups_products": [
+          "Flour - Corn"
+        ]
+      },
+      "text": "the most toxin groups detected in any one sample is 9 (of 10), and that sample is a corn-type product"
+    }
+  ],
+  "provenance": {
+    "bytes": 3484399,
+    "encoding": "cp1252",
+    "resource": "09a3c285-8552-4a38-b4be-cdf6d5fc3fd2",
+    "sha256": "ba5084945f0a0e1fab2b8bab7f8f196a7dd0033d4bdc4e80768f12ec4c553835",
+    "source": "https://open.canada.ca/data/dataset/03f184ee-e5e0-4e33-a763-fa3e44ed2dc0/resource/09a3c285-8552-4a38-b4be-cdf6d5fc3fd2/download/cfia_acia-1134_2018-19_multi-mycotoxins_in_selected_foods_-_2019-2019_presence-de-plusieurs-myco.csv"
+  },
+  "study": "multimyco-2018",
+  "version": "0.1.0"
+}
