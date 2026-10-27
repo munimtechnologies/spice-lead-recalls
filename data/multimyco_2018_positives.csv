@@ -1,0 +1,723 @@
+sample,product,component,composant,ppb
+C2018MUMY00330,Pasta - Fresh,?-Zearalenol(ppb),alpha-zéaralenol,11.0
+C2018MUMY00324,Pasta - Fresh,Aflatoxin B1,Aflatoxine B1,1.2
+C2018MUMY00382,Corn Products,Aflatoxin B1,Aflatoxine B1,0.9
+C2018MUMY00388,Corn Products,Aflatoxin B1,Aflatoxine B1,0.9
+C2018MUMY00398,Corn Starch,Aflatoxin B1,Aflatoxine B1,0.6
+C2018MUMY00566,Flour - Corn,Aflatoxin B1,Aflatoxine B1,1.1
+C2018MUMY00640,Pasta - Dry,Aflatoxin B1,Aflatoxine B1,1.1
+C2018MUMY00663,Flour - Corn,Aflatoxin B1,Aflatoxine B1,9.3
+C2018MUMY00663,Flour - Corn,Aflatoxin B2,Aflatoxine B2,0.7
+C2018MUMY00690,Quinoa Products,Aflatoxin G1,Aflatoxine G1,1.0
+C2018MUMY00695,Grain - Quinoa,Aflatoxin G1,Aflatoxine G1,0.9
+C2018MUMY00696,Grain - Quinoa,Aflatoxin G1,Aflatoxine G1,0.7
+C2018MUMY00016,Flour - Corn,Cyclopiazonic acid,Acide cyclopiazonique,0.9
+C2018MUMY00103,Teff Products,Cyclopiazonic acid,Acide cyclopiazonique,1.0
+C2018MUMY00187,Flour - Corn,Cyclopiazonic acid,Acide cyclopiazonique,47.2
+C2018MUMY00191,Flour - Corn,Cyclopiazonic acid,Acide cyclopiazonique,31.0
+C2018MUMY00384,Chips - Corn,Cyclopiazonic acid,Acide cyclopiazonique,11.4
+C2018MUMY00398,Corn Starch,Cyclopiazonic acid,Acide cyclopiazonique,2.9
+C2018MUMY00408,Flour - Corn,Cyclopiazonic acid,Acide cyclopiazonique,9.7
+C2018MUMY00411,Flour - Corn,Cyclopiazonic acid,Acide cyclopiazonique,15.6
+C2018MUMY00427,Grain - Barley,Cyclopiazonic acid,Acide cyclopiazonique,1.1
+C2018MUMY00444,Arrowroot Products,Cyclopiazonic acid,Acide cyclopiazonique,3.2
+C2018MUMY00477,Millet,Cyclopiazonic acid,Acide cyclopiazonique,4.3
+C2018MUMY00535,Gluten-free Products,Cyclopiazonic acid,Acide cyclopiazonique,1.0
+C2018MUMY00541,Gluten-free Products,Cyclopiazonic acid,Acide cyclopiazonique,11.9
+C2018MUMY00566,Flour - Corn,Cyclopiazonic acid,Acide cyclopiazonique,4.1
+C2018MUMY00634,Crackers,Cyclopiazonic acid,Acide cyclopiazonique,1.9
+C2018MUMY00659,Flour - Corn,Cyclopiazonic acid,Acide cyclopiazonique,7.2
+C2018MUMY00663,Flour - Corn,Cyclopiazonic acid,Acide cyclopiazonique,44.5
+C2018MUMY00686,Grain - Quinoa,Cyclopiazonic acid,Acide cyclopiazonique,1.5
+C2018MUMY00001,Crackers,Deoxynivalenol,Désoxynivalénol,40.0
+C2018MUMY00002,Crackers,Deoxynivalenol,Désoxynivalénol,270.0
+C2018MUMY00004,Crackers,Deoxynivalenol,Désoxynivalénol,270.0
+C2018MUMY00005,Crackers,Deoxynivalenol,Désoxynivalénol,70.0
+C2018MUMY00006,Crackers,Deoxynivalenol,Désoxynivalénol,360.0
+C2018MUMY00019,Grain - Barley,Deoxynivalenol,Désoxynivalénol,10.0
+C2018MUMY00020,Grain - Barley,Deoxynivalenol,Désoxynivalénol,1290.0
+C2018MUMY00025,Kamut Products,Deoxynivalenol,Désoxynivalénol,80.0
+C2018MUMY00031,Rye Products,Deoxynivalenol,Désoxynivalénol,120.0
+C2018MUMY00032,Millet,Deoxynivalenol,Désoxynivalénol,90.0
+C2018MUMY00037,Pasta,Deoxynivalenol,Désoxynivalénol,20.0
+C2018MUMY00038,Pasta - Dry,Deoxynivalenol,Désoxynivalénol,60.0
+C2018MUMY00039,Pasta - Dry,Deoxynivalenol,Désoxynivalénol,100.0
+C2018MUMY00040,Pasta - Dry,Deoxynivalenol,Désoxynivalénol,30.0
+C2018MUMY00041,Pasta - Dry,Deoxynivalenol,Désoxynivalénol,20.0
+C2018MUMY00042,Pasta - Dry,Deoxynivalenol,Désoxynivalénol,360.0
+C2018MUMY00043,Pasta - Fresh,Deoxynivalenol,Désoxynivalénol,100.0
+C2018MUMY00044,Pasta - Fresh,Deoxynivalenol,Désoxynivalénol,140.0
+C2018MUMY00045,Pasta - Fresh,Deoxynivalenol,Désoxynivalénol,160.0
+C2018MUMY00047,Gluten-free Products,Deoxynivalenol,Désoxynivalénol,10.0
+C2018MUMY00049,Gluten-free Products,Deoxynivalenol,Désoxynivalénol,40.0
+C2018MUMY00050,Gluten-free Products,Deoxynivalenol,Désoxynivalénol,90.0
+C2018MUMY00051,Crackers,Deoxynivalenol,Désoxynivalénol,80.0
+C2018MUMY00052,Crackers,Deoxynivalenol,Désoxynivalénol,460.0
+C2018MUMY00053,Crackers,Deoxynivalenol,Désoxynivalénol,250.0
+C2018MUMY00054,Crackers,Deoxynivalenol,Désoxynivalénol,50.0
+C2018MUMY00055,Crackers,Deoxynivalenol,Désoxynivalénol,230.0
+C2018MUMY00056,Crackers,Deoxynivalenol,Désoxynivalénol,50.0
+C2018MUMY00057,Corn Products,Deoxynivalenol,Désoxynivalénol,10.0
+C2018MUMY00063,Cornmeal,Deoxynivalenol,Désoxynivalénol,1070.0
+C2018MUMY00065,Flour - Corn,Deoxynivalenol,Désoxynivalénol,100.0
+C2018MUMY00066,Flour - Corn,Deoxynivalenol,Désoxynivalénol,160.0
+C2018MUMY00081,Kamut Products,Deoxynivalenol,Désoxynivalénol,20.0
+C2018MUMY00092,Rye Products,Deoxynivalenol,Désoxynivalénol,150.0
+C2018MUMY00094,Rye Products,Deoxynivalenol,Désoxynivalénol,70.0
+C2018MUMY00102,Spelt Products,Deoxynivalenol,Désoxynivalénol,40.0
+C2018MUMY00105,Pasta,Deoxynivalenol,Désoxynivalénol,290.0
+C2018MUMY00106,Pasta,Deoxynivalenol,Désoxynivalénol,50.0
+C2018MUMY00108,Pasta - Dry,Deoxynivalenol,Désoxynivalénol,20.0
+C2018MUMY00109,Pasta - Dry,Deoxynivalenol,Désoxynivalénol,50.0
+C2018MUMY00112,Pasta - Fresh,Deoxynivalenol,Désoxynivalénol,40.0
+C2018MUMY00114,Pasta - Fresh,Deoxynivalenol,Désoxynivalénol,110.0
+C2018MUMY00116,Gluten-free Products,Deoxynivalenol,Désoxynivalénol,60.0
+C2018MUMY00123,Crackers,Deoxynivalenol,Désoxynivalénol,70.0
+C2018MUMY00124,Crackers,Deoxynivalenol,Désoxynivalénol,240.0
+C2018MUMY00126,Crackers,Deoxynivalenol,Désoxynivalénol,140.0
+C2018MUMY00128,Crackers,Deoxynivalenol,Désoxynivalénol,790.0
+C2018MUMY00129,Crackers,Deoxynivalenol,Désoxynivalénol,100.0
+C2018MUMY00130,Crackers,Deoxynivalenol,Désoxynivalénol,410.0
+C2018MUMY00131,Crackers,Deoxynivalenol,Désoxynivalénol,40.0
+C2018MUMY00132,Crackers,Deoxynivalenol,Désoxynivalénol,220.0
+C2018MUMY00134,Crackers,Deoxynivalenol,Désoxynivalénol,440.0
+C2018MUMY00135,Crackers,Deoxynivalenol,Désoxynivalénol,280.0
+C2018MUMY00136,Crackers,Deoxynivalenol,Désoxynivalénol,200.0
+C2018MUMY00137,Crackers,Deoxynivalenol,Désoxynivalénol,210.0
+C2018MUMY00138,Crackers,Deoxynivalenol,Désoxynivalénol,60.0
+C2018MUMY00141,Crackers,Deoxynivalenol,Désoxynivalénol,250.0
+C2018MUMY00143,Crackers,Deoxynivalenol,Désoxynivalénol,140.0
+C2018MUMY00144,Crackers,Deoxynivalenol,Désoxynivalénol,190.0
+C2018MUMY00145,Crackers,Deoxynivalenol,Désoxynivalénol,340.0
+C2018MUMY00146,Crackers,Deoxynivalenol,Désoxynivalénol,210.0
+C2018MUMY00150,Crackers,Deoxynivalenol,Désoxynivalénol,170.0
+C2018MUMY00151,Crackers,Deoxynivalenol,Désoxynivalénol,70.0
+C2018MUMY00154,Corn Products,Deoxynivalenol,Désoxynivalénol,20.0
+C2018MUMY00157,Corn Products,Deoxynivalenol,Désoxynivalénol,30.0
+C2018MUMY00158,Corn Products,Deoxynivalenol,Désoxynivalénol,310.0
+C2018MUMY00159,Corn Products,Deoxynivalenol,Désoxynivalénol,260.0
+C2018MUMY00161,Chips - Corn,Deoxynivalenol,Désoxynivalénol,30.0
+C2018MUMY00162,Corn Products,Deoxynivalenol,Désoxynivalénol,220.0
+C2018MUMY00164,Corn Products,Deoxynivalenol,Désoxynivalénol,180.0
+C2018MUMY00165,Corn Products,Deoxynivalenol,Désoxynivalénol,70.0
+C2018MUMY00176,Cornmeal,Deoxynivalenol,Désoxynivalénol,50.0
+C2018MUMY00177,Cornmeal,Deoxynivalenol,Désoxynivalénol,30.0
+C2018MUMY00180,Cornmeal,Deoxynivalenol,Désoxynivalénol,30.0
+C2018MUMY00183,Flour - Corn,Deoxynivalenol,Désoxynivalénol,2570.0
+C2018MUMY00184,Flour - Corn,Deoxynivalenol,Désoxynivalénol,80.0
+C2018MUMY00186,Flour - Corn,Deoxynivalenol,Désoxynivalénol,70.0
+C2018MUMY00187,Flour - Corn,Deoxynivalenol,Désoxynivalénol,270.0
+C2018MUMY00190,Flour - Corn,Deoxynivalenol,Désoxynivalénol,410.0
+C2018MUMY00191,Flour - Corn,Deoxynivalenol,Désoxynivalénol,390.0
+C2018MUMY00192,Flour - Corn,Deoxynivalenol,Désoxynivalénol,1180.0
+C2018MUMY00193,Flour - Corn,Deoxynivalenol,Désoxynivalénol,1130.0
+C2018MUMY00194,Flour - Corn,Deoxynivalenol,Désoxynivalénol,40.0
+C2018MUMY00195,Flour - Corn,Deoxynivalenol,Désoxynivalénol,110.0
+C2018MUMY00197,Flour - Corn,Deoxynivalenol,Désoxynivalénol,100.0
+C2018MUMY00198,Grain - Barley,Deoxynivalenol,Désoxynivalénol,40.0
+C2018MUMY00199,Grain - Barley,Deoxynivalenol,Désoxynivalénol,120.0
+C2018MUMY00201,Grain - Barley,Deoxynivalenol,Désoxynivalénol,40.0
+C2018MUMY00202,Barley Products,Deoxynivalenol,Désoxynivalénol,20.0
+C2018MUMY00204,Grain - Barley,Deoxynivalenol,Désoxynivalénol,80.0
+C2018MUMY00205,Grain - Barley,Deoxynivalenol,Désoxynivalénol,160.0
+C2018MUMY00206,Grain - Barley,Deoxynivalenol,Désoxynivalénol,40.0
+C2018MUMY00207,Grain - Barley,Deoxynivalenol,Désoxynivalénol,160.0
+C2018MUMY00209,Grain - Barley,Deoxynivalenol,Désoxynivalénol,850.0
+C2018MUMY00214,Buckwheat Products,Deoxynivalenol,Désoxynivalénol,20.0
+C2018MUMY00262,Rye Products,Deoxynivalenol,Désoxynivalénol,90.0
+C2018MUMY00264,Rye Products,Deoxynivalenol,Désoxynivalénol,700.0
+C2018MUMY00266,Rye Products,Deoxynivalenol,Désoxynivalénol,60.0
+C2018MUMY00267,Rye Products,Deoxynivalenol,Désoxynivalénol,100.0
+C2018MUMY00268,Rye Products,Deoxynivalenol,Désoxynivalénol,70.0
+C2018MUMY00269,Bread,Deoxynivalenol,Désoxynivalénol,40.0
+C2018MUMY00270,Bread,Deoxynivalenol,Désoxynivalénol,130.0
+C2018MUMY00281,Spelt Products,Deoxynivalenol,Désoxynivalénol,20.0
+C2018MUMY00283,Spelt,Deoxynivalenol,Désoxynivalénol,290.0
+C2018MUMY00284,Spelt Products,Deoxynivalenol,Désoxynivalénol,300.0
+C2018MUMY00285,Spelt,Deoxynivalenol,Désoxynivalénol,40.0
+C2018MUMY00289,Spelt Products,Deoxynivalenol,Désoxynivalénol,70.0
+C2018MUMY00291,Grain - Quinoa,Deoxynivalenol,Désoxynivalénol,850.0
+C2018MUMY00296,Pasta,Deoxynivalenol,Désoxynivalénol,60.0
+C2018MUMY00298,Pasta,Deoxynivalenol,Désoxynivalénol,20.0
+C2018MUMY00300,Pasta,Deoxynivalenol,Désoxynivalénol,10.0
+C2018MUMY00301,Pasta,Deoxynivalenol,Désoxynivalénol,70.0
+C2018MUMY00302,Pasta,Deoxynivalenol,Désoxynivalénol,50.0
+C2018MUMY00304,Pasta - Dry,Deoxynivalenol,Désoxynivalénol,100.0
+C2018MUMY00307,Pasta - Dry,Deoxynivalenol,Désoxynivalénol,20.0
+C2018MUMY00308,Pasta - Dry,Deoxynivalenol,Désoxynivalénol,340.0
+C2018MUMY00311,Pasta - Dry,Deoxynivalenol,Désoxynivalénol,50.0
+C2018MUMY00312,Pasta - Dry,Deoxynivalenol,Désoxynivalénol,30.0
+C2018MUMY00314,Pasta - Dry,Deoxynivalenol,Désoxynivalénol,540.0
+C2018MUMY00315,Pasta - Dry,Deoxynivalenol,Désoxynivalénol,100.0
+C2018MUMY00318,Pasta - Dry,Deoxynivalenol,Désoxynivalénol,10.0
+C2018MUMY00319,Pasta - Dry,Deoxynivalenol,Désoxynivalénol,10.0
+C2018MUMY00320,Pasta - Dry,Deoxynivalenol,Désoxynivalénol,100.0
+C2018MUMY00322,Pasta - Fresh,Deoxynivalenol,Désoxynivalénol,120.0
+C2018MUMY00323,Pasta - Fresh,Deoxynivalenol,Désoxynivalénol,100.0
+C2018MUMY00326,Pasta - Fresh,Deoxynivalenol,Désoxynivalénol,110.0
+C2018MUMY00328,Pasta - Fresh,Deoxynivalenol,Désoxynivalénol,10.0
+C2018MUMY00329,Pasta - Fresh,Deoxynivalenol,Désoxynivalénol,90.0
+C2018MUMY00330,Pasta - Fresh,Deoxynivalenol,Désoxynivalénol,50.0
+C2018MUMY00331,Pasta - Fresh,Deoxynivalenol,Désoxynivalénol,40.0
+C2018MUMY00332,Pasta - Fresh,Deoxynivalenol,Désoxynivalénol,100.0
+C2018MUMY00333,Gluten-free Products,Deoxynivalenol,Désoxynivalénol,670.0
+C2018MUMY00337,Gluten-free Products,Deoxynivalenol,Désoxynivalénol,30.0
+C2018MUMY00346,Gluten-free Products,Deoxynivalenol,Désoxynivalénol,50.0
+C2018MUMY00353,Gluten-free Products,Deoxynivalenol,Désoxynivalénol,60.0
+C2018MUMY00356,Gluten-free Products,Deoxynivalenol,Désoxynivalénol,60.0
+C2018MUMY00357,Crackers,Deoxynivalenol,Désoxynivalénol,40.0
+C2018MUMY00358,Crackers,Deoxynivalenol,Désoxynivalénol,100.0
+C2018MUMY00359,Crackers,Deoxynivalenol,Désoxynivalénol,60.0
+C2018MUMY00360,Crackers,Deoxynivalenol,Désoxynivalénol,10.0
+C2018MUMY00361,Crackers,Deoxynivalenol,Désoxynivalénol,60.0
+C2018MUMY00363,Crackers,Deoxynivalenol,Désoxynivalénol,10.0
+C2018MUMY00364,Crackers,Deoxynivalenol,Désoxynivalénol,160.0
+C2018MUMY00366,Crackers,Deoxynivalenol,Désoxynivalénol,30.0
+C2018MUMY00367,Crackers,Deoxynivalenol,Désoxynivalénol,50.0
+C2018MUMY00368,Crackers,Deoxynivalenol,Désoxynivalénol,450.0
+C2018MUMY00370,Crackers,Deoxynivalenol,Désoxynivalénol,530.0
+C2018MUMY00371,Crackers,Deoxynivalenol,Désoxynivalénol,150.0
+C2018MUMY00372,Crackers,Deoxynivalenol,Désoxynivalénol,270.0
+C2018MUMY00374,Crackers,Deoxynivalenol,Désoxynivalénol,180.0
+C2018MUMY00376,Crackers,Deoxynivalenol,Désoxynivalénol,300.0
+C2018MUMY00379,Crackers,Deoxynivalenol,Désoxynivalénol,320.0
+C2018MUMY00381,Corn Products,Deoxynivalenol,Désoxynivalénol,10.0
+C2018MUMY00384,Chips - Corn,Deoxynivalenol,Désoxynivalénol,60.0
+C2018MUMY00385,Corn Products,Deoxynivalenol,Désoxynivalénol,180.0
+C2018MUMY00386,Corn Products,Deoxynivalenol,Désoxynivalénol,40.0
+C2018MUMY00389,Corn Products,Deoxynivalenol,Désoxynivalénol,10.0
+C2018MUMY00390,Pasta - Dry,Deoxynivalenol,Désoxynivalénol,30.0
+C2018MUMY00399,Cornmeal,Deoxynivalenol,Désoxynivalénol,80.0
+C2018MUMY00401,Cornmeal,Deoxynivalenol,Désoxynivalénol,80.0
+C2018MUMY00402,Cornmeal,Deoxynivalenol,Désoxynivalénol,10.0
+C2018MUMY00403,Cornmeal,Deoxynivalenol,Désoxynivalénol,110.0
+C2018MUMY00405,Flour - Corn,Deoxynivalenol,Désoxynivalénol,220.0
+C2018MUMY00407,Flour - Corn,Deoxynivalenol,Désoxynivalénol,430.0
+C2018MUMY00409,Flour - Corn,Deoxynivalenol,Désoxynivalénol,80.0
+C2018MUMY00410,Flour - Corn,Deoxynivalenol,Désoxynivalénol,960.0
+C2018MUMY00412,Flour - Corn,Deoxynivalenol,Désoxynivalénol,130.0
+C2018MUMY00413,Flour - Corn,Deoxynivalenol,Désoxynivalénol,310.0
+C2018MUMY00416,Flour - Corn,Deoxynivalenol,Désoxynivalénol,190.0
+C2018MUMY00417,Barley Products,Deoxynivalenol,Désoxynivalénol,20.0
+C2018MUMY00423,Grain - Barley,Deoxynivalenol,Désoxynivalénol,1140.0
+C2018MUMY00424,Grain - Barley,Deoxynivalenol,Désoxynivalénol,20.0
+C2018MUMY00426,Grain - Barley,Deoxynivalenol,Désoxynivalénol,20.0
+C2018MUMY00427,Grain - Barley,Deoxynivalenol,Désoxynivalénol,150.0
+C2018MUMY00428,Grain - Barley,Deoxynivalenol,Désoxynivalénol,10.0
+C2018MUMY00434,Grain - Buckwheat,Deoxynivalenol,Désoxynivalénol,320.0
+C2018MUMY00435,Grain - Buckwheat,Deoxynivalenol,Désoxynivalénol,30.0
+C2018MUMY00445,Kamut Products,Deoxynivalenol,Désoxynivalénol,100.0
+C2018MUMY00448,Kamut Products,Deoxynivalenol,Désoxynivalénol,40.0
+C2018MUMY00450,Grain - Kamut,Deoxynivalenol,Désoxynivalénol,330.0
+C2018MUMY00451,Grain - Kamut,Deoxynivalenol,Désoxynivalénol,330.0
+C2018MUMY00452,Pasta,Deoxynivalenol,Désoxynivalénol,70.0
+C2018MUMY00455,Grain - Other,Deoxynivalenol,Désoxynivalénol,10.0
+C2018MUMY00467,Rye Products,Deoxynivalenol,Désoxynivalénol,180.0
+C2018MUMY00468,Rye Products,Deoxynivalenol,Désoxynivalénol,150.0
+C2018MUMY00469,Rye Products,Deoxynivalenol,Désoxynivalénol,50.0
+C2018MUMY00470,Rye Products,Deoxynivalenol,Désoxynivalénol,140.0
+C2018MUMY00471,Rye Products,Deoxynivalenol,Désoxynivalénol,530.0
+C2018MUMY00472,Rye Products,Deoxynivalenol,Désoxynivalénol,340.0
+C2018MUMY00473,Rye Products,Deoxynivalenol,Désoxynivalénol,280.0
+C2018MUMY00474,Grain - Rye,Deoxynivalenol,Désoxynivalénol,520.0
+C2018MUMY00476,Millet,Deoxynivalenol,Désoxynivalénol,60.0
+C2018MUMY00478,Millet,Deoxynivalenol,Désoxynivalénol,60.0
+C2018MUMY00479,Millet Products,Deoxynivalenol,Désoxynivalénol,450.0
+C2018MUMY00483,Spelt Products,Deoxynivalenol,Désoxynivalénol,100.0
+C2018MUMY00484,Spelt Products,Deoxynivalenol,Désoxynivalénol,420.0
+C2018MUMY00485,Spelt Products,Deoxynivalenol,Désoxynivalénol,810.0
+C2018MUMY00486,Spelt Products,Deoxynivalenol,Désoxynivalénol,1050.0
+C2018MUMY00487,Spelt Products,Deoxynivalenol,Désoxynivalénol,380.0
+C2018MUMY00488,Spelt Products,Deoxynivalenol,Désoxynivalénol,540.0
+C2018MUMY00490,Spelt Products,Deoxynivalenol,Désoxynivalénol,80.0
+C2018MUMY00495,Pasta,Deoxynivalenol,Désoxynivalénol,90.0
+C2018MUMY00497,Pasta,Deoxynivalenol,Désoxynivalénol,30.0
+C2018MUMY00498,Pasta,Deoxynivalenol,Désoxynivalénol,30.0
+C2018MUMY00499,Pasta,Deoxynivalenol,Désoxynivalénol,10.0
+C2018MUMY00500,Pasta,Deoxynivalenol,Désoxynivalénol,30.0
+C2018MUMY00501,Pasta - Dry,Deoxynivalenol,Désoxynivalénol,100.0
+C2018MUMY00502,Pasta - Dry,Deoxynivalenol,Désoxynivalénol,190.0
+C2018MUMY00503,Pasta - Dry,Deoxynivalenol,Désoxynivalénol,50.0
+C2018MUMY00504,Pasta - Dry,Deoxynivalenol,Désoxynivalénol,160.0
+C2018MUMY00505,Pasta - Dry,Deoxynivalenol,Désoxynivalénol,280.0
+C2018MUMY00507,Pasta - Dry,Deoxynivalenol,Désoxynivalénol,130.0
+C2018MUMY00509,Pasta - Dry,Deoxynivalenol,Désoxynivalénol,10.0
+C2018MUMY00510,Pasta - Dry,Deoxynivalenol,Désoxynivalénol,30.0
+C2018MUMY00511,Pasta - Dry,Deoxynivalenol,Désoxynivalénol,70.0
+C2018MUMY00513,Pasta - Dry,Deoxynivalenol,Désoxynivalénol,30.0
+C2018MUMY00514,Pasta - Dry,Deoxynivalenol,Désoxynivalénol,110.0
+C2018MUMY00516,Pasta - Fresh,Deoxynivalenol,Désoxynivalénol,100.0
+C2018MUMY00519,Pasta - Fresh,Deoxynivalenol,Désoxynivalénol,80.0
+C2018MUMY00520,Pasta - Fresh,Deoxynivalenol,Désoxynivalénol,50.0
+C2018MUMY00521,Pasta - Fresh,Deoxynivalenol,Désoxynivalénol,80.0
+C2018MUMY00522,Pasta - Fresh,Deoxynivalenol,Désoxynivalénol,20.0
+C2018MUMY00523,Pasta - Fresh,Deoxynivalenol,Désoxynivalénol,60.0
+C2018MUMY00526,Gluten-free Products,Deoxynivalenol,Désoxynivalénol,20.0
+C2018MUMY00540,Gluten-free Products,Deoxynivalenol,Désoxynivalénol,20.0
+C2018MUMY00542,Crackers,Deoxynivalenol,Désoxynivalénol,100.0
+C2018MUMY00543,Crackers,Deoxynivalenol,Désoxynivalénol,240.0
+C2018MUMY00544,Crackers,Deoxynivalenol,Désoxynivalénol,30.0
+C2018MUMY00545,Crackers,Deoxynivalenol,Désoxynivalénol,50.0
+C2018MUMY00546,Crackers,Deoxynivalenol,Désoxynivalénol,90.0
+C2018MUMY00547,Crackers,Deoxynivalenol,Désoxynivalénol,160.0
+C2018MUMY00549,Crackers,Deoxynivalenol,Désoxynivalénol,70.0
+C2018MUMY00550,Crackers,Deoxynivalenol,Désoxynivalénol,120.0
+C2018MUMY00551,Crackers,Deoxynivalenol,Désoxynivalénol,260.0
+C2018MUMY00552,Crackers,Deoxynivalenol,Désoxynivalénol,160.0
+C2018MUMY00554,Corn Products,Deoxynivalenol,Désoxynivalénol,150.0
+C2018MUMY00555,Chips - Corn,Deoxynivalenol,Désoxynivalénol,10.0
+C2018MUMY00557,Corn Products,Deoxynivalenol,Désoxynivalénol,10.0
+C2018MUMY00561,Cornmeal,Deoxynivalenol,Désoxynivalénol,50.0
+C2018MUMY00565,Flour - Corn,Deoxynivalenol,Désoxynivalénol,100.0
+C2018MUMY00567,Flour - Corn,Deoxynivalenol,Désoxynivalénol,60.0
+C2018MUMY00568,Flour - Corn,Deoxynivalenol,Désoxynivalénol,50.0
+C2018MUMY00570,Grain - Barley,Deoxynivalenol,Désoxynivalénol,20.0
+C2018MUMY00571,Grain - Barley,Deoxynivalenol,Désoxynivalénol,70.0
+C2018MUMY00572,Grain - Barley,Deoxynivalenol,Désoxynivalénol,120.0
+C2018MUMY00573,Grain - Barley,Deoxynivalenol,Désoxynivalénol,110.0
+C2018MUMY00578,Kamut Products,Deoxynivalenol,Désoxynivalénol,100.0
+C2018MUMY00579,Grain - Kamut,Deoxynivalenol,Désoxynivalénol,90.0
+C2018MUMY00592,Pasta,Deoxynivalenol,Désoxynivalénol,30.0
+C2018MUMY00593,Pasta,Deoxynivalenol,Désoxynivalénol,80.0
+C2018MUMY00596,Pasta - Dry,Deoxynivalenol,Désoxynivalénol,90.0
+C2018MUMY00598,Pasta - Dry,Deoxynivalenol,Désoxynivalénol,20.0
+C2018MUMY00599,Pasta - Dry,Deoxynivalenol,Désoxynivalénol,170.0
+C2018MUMY00600,Pasta - Dry,Deoxynivalenol,Désoxynivalénol,30.0
+C2018MUMY00601,Pasta - Dry,Deoxynivalenol,Désoxynivalénol,190.0
+C2018MUMY00602,Pasta - Fresh,Deoxynivalenol,Désoxynivalénol,70.0
+C2018MUMY00603,Pasta - Fresh,Deoxynivalenol,Désoxynivalénol,70.0
+C2018MUMY00604,Pasta - Fresh,Deoxynivalenol,Désoxynivalénol,240.0
+C2018MUMY00611,Gluten-free Products,Deoxynivalenol,Désoxynivalénol,40.0
+C2018MUMY00614,Gluten-free Products,Deoxynivalenol,Désoxynivalénol,60.0
+C2018MUMY00615,Crackers,Deoxynivalenol,Désoxynivalénol,170.0
+C2018MUMY00616,Crackers,Deoxynivalenol,Désoxynivalénol,70.0
+C2018MUMY00617,Crackers,Deoxynivalenol,Désoxynivalénol,50.0
+C2018MUMY00620,Crackers,Deoxynivalenol,Désoxynivalénol,70.0
+C2018MUMY00621,Crackers,Deoxynivalenol,Désoxynivalénol,80.0
+C2018MUMY00622,Crackers,Deoxynivalenol,Désoxynivalénol,380.0
+C2018MUMY00625,Crackers,Deoxynivalenol,Désoxynivalénol,190.0
+C2018MUMY00626,Crackers,Deoxynivalenol,Désoxynivalénol,70.0
+C2018MUMY00627,Crackers,Deoxynivalenol,Désoxynivalénol,300.0
+C2018MUMY00628,Crackers,Deoxynivalenol,Désoxynivalénol,30.0
+C2018MUMY00634,Crackers,Deoxynivalenol,Désoxynivalénol,60.0
+C2018MUMY00636,Corn Products,Deoxynivalenol,Désoxynivalénol,20.0
+C2018MUMY00637,Corn Products,Deoxynivalenol,Désoxynivalénol,20.0
+C2018MUMY00650,Cornmeal,Deoxynivalenol,Désoxynivalénol,1450.0
+C2018MUMY00651,Cornmeal,Deoxynivalenol,Désoxynivalénol,1040.0
+C2018MUMY00652,Cornmeal,Deoxynivalenol,Désoxynivalénol,50.0
+C2018MUMY00654,Cornmeal,Deoxynivalenol,Désoxynivalénol,150.0
+C2018MUMY00655,Flour - Corn,Deoxynivalenol,Désoxynivalénol,400.0
+C2018MUMY00656,Flour - Corn,Deoxynivalenol,Désoxynivalénol,10.0
+C2018MUMY00658,Flour - Corn,Deoxynivalenol,Désoxynivalénol,400.0
+C2018MUMY00663,Flour - Corn,Deoxynivalenol,Désoxynivalénol,80.0
+C2018MUMY00664,Flour - Corn,Deoxynivalenol,Désoxynivalénol,110.0
+C2018MUMY00668,Barley Products,Deoxynivalenol,Désoxynivalénol,110.0
+C2018MUMY00670,Grain - Barley,Deoxynivalenol,Désoxynivalénol,110.0
+C2018MUMY00672,Grain - Barley,Deoxynivalenol,Désoxynivalénol,90.0
+C2018MUMY00673,Grain - Barley,Deoxynivalenol,Désoxynivalénol,20.0
+C2018MUMY00675,Grain - Barley,Deoxynivalenol,Désoxynivalénol,40.0
+C2018MUMY00691,Quinoa Products,Deoxynivalenol,Désoxynivalénol,140.0
+C2018MUMY00697,Rye Products,Deoxynivalenol,Désoxynivalénol,40.0
+C2018MUMY00708,Spelt Products,Deoxynivalenol,Désoxynivalénol,30.0
+C2018MUMY00716,Pasta - Dry,Deoxynivalenol,Désoxynivalénol,50.0
+C2018MUMY00717,Pasta - Dry,Deoxynivalenol,Désoxynivalénol,230.0
+C2018MUMY00718,Pasta - Dry,Deoxynivalenol,Désoxynivalénol,230.0
+C2018MUMY00719,Pasta - Dry,Deoxynivalenol,Désoxynivalénol,410.0
+C2018MUMY00721,Pasta - Dry,Deoxynivalenol,Désoxynivalénol,160.0
+C2018MUMY00722,Pasta - Dry,Deoxynivalenol,Désoxynivalénol,90.0
+C2018MUMY00726,Pasta - Dry,Deoxynivalenol,Désoxynivalénol,180.0
+C2018MUMY00727,Pasta - Dry,Deoxynivalenol,Désoxynivalénol,280.0
+C2018MUMY00728,Pasta - Fresh,Deoxynivalenol,Désoxynivalénol,20.0
+C2018MUMY00729,Pasta - Fresh,Deoxynivalenol,Désoxynivalénol,30.0
+C2018MUMY00730,Pasta - Fresh,Deoxynivalenol,Désoxynivalénol,1280.0
+C2018MUMY00732,Pasta - Fresh,Deoxynivalenol,Désoxynivalénol,70.0
+C2018MUMY00733,Pasta - Fresh,Deoxynivalenol,Désoxynivalénol,540.0
+C2018MUMY00736,Gluten-free Products,Deoxynivalenol,Désoxynivalénol,50.0
+C2018MUMY00739,Flour - Corn,Deoxynivalenol,Désoxynivalénol,60.0
+C2018MUMY00744,Gluten-free Products,Deoxynivalenol,Désoxynivalénol,20.0
+C2018MUMY00025,Kamut Products,Ergocristine,Ergocristine,33.0
+C2018MUMY00030,Rye Products,Ergocristine,Ergocristine,95.0
+C2018MUMY00031,Rye Products,Ergocristine,Ergocristine,13.0
+C2018MUMY00050,Gluten-free Products,Ergocristine,Ergocristine,40.0
+C2018MUMY00053,Crackers,Ergocristine,Ergocristine,9.0
+C2018MUMY00093,Rye Products,Ergocristine,Ergocristine,157.0
+C2018MUMY00114,Pasta - Fresh,Ergocristine,Ergocristine,9.0
+C2018MUMY00123,Crackers,Ergocristine,Ergocristine,11.0
+C2018MUMY00124,Crackers,Ergocristine,Ergocristine,6.0
+C2018MUMY00132,Crackers,Ergocristine,Ergocristine,14.0
+C2018MUMY00145,Crackers,Ergocristine,Ergocristine,15.0
+C2018MUMY00199,Grain - Barley,Ergocristine,Ergocristine,9.0
+C2018MUMY00213,Buckwheat Products,Ergocristine,Ergocristine,6.0
+C2018MUMY00269,Bread,Ergocristine,Ergocristine,6.0
+C2018MUMY00270,Bread,Ergocristine,Ergocristine,20.0
+C2018MUMY00283,Spelt,Ergocristine,Ergocristine,23.0
+C2018MUMY00301,Pasta,Ergocristine,Ergocristine,8.0
+C2018MUMY00323,Pasta - Fresh,Ergocristine,Ergocristine,10.0
+C2018MUMY00330,Pasta - Fresh,Ergocristine,Ergocristine,6.0
+C2018MUMY00332,Pasta - Fresh,Ergocristine,Ergocristine,6.0
+C2018MUMY00468,Rye Products,Ergocristine,Ergocristine,229.0
+C2018MUMY00470,Rye Products,Ergocristine,Ergocristine,185.0
+C2018MUMY00471,Rye Products,Ergocristine,Ergocristine,507.0
+C2018MUMY00472,Rye Products,Ergocristine,Ergocristine,60.0
+C2018MUMY00473,Rye Products,Ergocristine,Ergocristine,253.0
+C2018MUMY00474,Grain - Rye,Ergocristine,Ergocristine,150.0
+C2018MUMY00486,Spelt Products,Ergocristine,Ergocristine,24.0
+C2018MUMY00487,Spelt Products,Ergocristine,Ergocristine,11.0
+C2018MUMY00504,Pasta - Dry,Ergocristine,Ergocristine,7.0
+C2018MUMY00510,Pasta - Dry,Ergocristine,Ergocristine,6.0
+C2018MUMY00542,Crackers,Ergocristine,Ergocristine,8.0
+C2018MUMY00552,Crackers,Ergocristine,Ergocristine,7.0
+C2018MUMY00574,Buckwheat Products,Ergocristine,Ergocristine,10.0
+C2018MUMY00585,Rye Products,Ergocristine,Ergocristine,85.0
+C2018MUMY00666,Barley Products,Ergocristine,Ergocristine,7.0
+C2018MUMY00697,Rye Products,Ergocristine,Ergocristine,42.0
+C2018MUMY00698,Rye Products,Ergocristine,Ergocristine,290.0
+C2018MUMY00716,Pasta - Dry,Ergocristine,Ergocristine,6.0
+C2018MUMY00721,Pasta - Dry,Ergocristine,Ergocristine,34.0
+C2018MUMY00726,Pasta - Dry,Ergocristine,Ergocristine,8.0
+C2018MUMY00728,Pasta - Fresh,Ergocristine,Ergocristine,6.0
+C2018MUMY00730,Pasta - Fresh,Ergocristine,Ergocristine,9.0
+C2018MUMY00025,Kamut Products,Ergocryptine,Ergocryptine,9.0
+C2018MUMY00030,Rye Products,Ergocryptine,Ergocryptine,15.0
+C2018MUMY00031,Rye Products,Ergocryptine,Ergocryptine,10.0
+C2018MUMY00050,Gluten-free Products,Ergocryptine,Ergocryptine,13.0
+C2018MUMY00093,Rye Products,Ergocryptine,Ergocryptine,51.0
+C2018MUMY00270,Bread,Ergocryptine,Ergocryptine,8.0
+C2018MUMY00323,Pasta - Fresh,Ergocryptine,Ergocryptine,15.0
+C2018MUMY00357,Crackers,Ergocryptine,Ergocryptine,10.0
+C2018MUMY00468,Rye Products,Ergocryptine,Ergocryptine,66.0
+C2018MUMY00470,Rye Products,Ergocryptine,Ergocryptine,65.0
+C2018MUMY00471,Rye Products,Ergocryptine,Ergocryptine,70.0
+C2018MUMY00472,Rye Products,Ergocryptine,Ergocryptine,25.0
+C2018MUMY00473,Rye Products,Ergocryptine,Ergocryptine,11.0
+C2018MUMY00474,Grain - Rye,Ergocryptine,Ergocryptine,20.0
+C2018MUMY00503,Pasta - Dry,Ergocryptine,Ergocryptine,7.0
+C2018MUMY00516,Pasta - Fresh,Ergocryptine,Ergocryptine,6.0
+C2018MUMY00585,Rye Products,Ergocryptine,Ergocryptine,12.0
+C2018MUMY00697,Rye Products,Ergocryptine,Ergocryptine,8.0
+C2018MUMY00698,Rye Products,Ergocryptine,Ergocryptine,48.0
+C2018MUMY00721,Pasta - Dry,Ergocryptine,Ergocryptine,17.0
+C2018MUMY00050,Gluten-free Products,Ergosine,Ergosine,11.0
+C2018MUMY00093,Rye Products,Ergosine,Ergosine,20.0
+C2018MUMY00102,Spelt Products,Ergosine,Ergosine,31.0
+C2018MUMY00468,Rye Products,Ergosine,Ergosine,227.0
+C2018MUMY00470,Rye Products,Ergosine,Ergosine,102.0
+C2018MUMY00471,Rye Products,Ergosine,Ergosine,87.0
+C2018MUMY00472,Rye Products,Ergosine,Ergosine,103.0
+C2018MUMY00473,Rye Products,Ergosine,Ergosine,43.0
+C2018MUMY00474,Grain - Rye,Ergosine,Ergosine,47.0
+C2018MUMY00487,Spelt Products,Ergosine,Ergosine,22.0
+C2018MUMY00698,Rye Products,Ergosine,Ergosine,20.0
+C2018MUMY00009,Chips - Corn,Fumonisin B1,Fumonisine B1,11.0
+C2018MUMY00013,Cornmeal,Fumonisin B1,Fumonisine B1,30.0
+C2018MUMY00014,Flour - Corn,Fumonisin B1,Fumonisine B1,290.0
+C2018MUMY00015,Flour - Corn,Fumonisin B1,Fumonisine B1,194.0
+C2018MUMY00016,Flour - Corn,Fumonisin B1,Fumonisine B1,58.0
+C2018MUMY00017,Flour - Corn,Fumonisin B1,Fumonisine B1,456.0
+C2018MUMY00049,Gluten-free Products,Fumonisin B1,Fumonisine B1,6.0
+C2018MUMY00057,Corn Products,Fumonisin B1,Fumonisine B1,26.0
+C2018MUMY00059,Corn Products,Fumonisin B1,Fumonisine B1,52.0
+C2018MUMY00060,Corn Products,Fumonisin B1,Fumonisine B1,6.0
+C2018MUMY00063,Cornmeal,Fumonisin B1,Fumonisine B1,9.0
+C2018MUMY00064,Cornmeal,Fumonisin B1,Fumonisine B1,339.0
+C2018MUMY00065,Flour - Corn,Fumonisin B1,Fumonisine B1,235.0
+C2018MUMY00067,Flour - Corn,Fumonisin B1,Fumonisine B1,2370.0
+C2018MUMY00068,Flour - Corn,Fumonisin B1,Fumonisine B1,76.0
+C2018MUMY00116,Gluten-free Products,Fumonisin B1,Fumonisine B1,33.0
+C2018MUMY00137,Crackers,Fumonisin B1,Fumonisine B1,5.0
+C2018MUMY00152,Corn Products,Fumonisin B1,Fumonisine B1,39.0
+C2018MUMY00157,Corn Products,Fumonisin B1,Fumonisine B1,4.0
+C2018MUMY00158,Corn Products,Fumonisin B1,Fumonisine B1,184.0
+C2018MUMY00159,Corn Products,Fumonisin B1,Fumonisine B1,336.0
+C2018MUMY00162,Corn Products,Fumonisin B1,Fumonisine B1,8.0
+C2018MUMY00164,Corn Products,Fumonisin B1,Fumonisine B1,41.0
+C2018MUMY00176,Cornmeal,Fumonisin B1,Fumonisine B1,230.0
+C2018MUMY00177,Cornmeal,Fumonisin B1,Fumonisine B1,158.0
+C2018MUMY00182,Cornmeal,Fumonisin B1,Fumonisine B1,55.0
+C2018MUMY00183,Flour - Corn,Fumonisin B1,Fumonisine B1,149.0
+C2018MUMY00184,Flour - Corn,Fumonisin B1,Fumonisine B1,103.0
+C2018MUMY00186,Flour - Corn,Fumonisin B1,Fumonisine B1,11.0
+C2018MUMY00187,Flour - Corn,Fumonisin B1,Fumonisine B1,244.0
+C2018MUMY00189,Flour - Corn,Fumonisin B1,Fumonisine B1,24.0
+C2018MUMY00190,Flour - Corn,Fumonisin B1,Fumonisine B1,109.0
+C2018MUMY00191,Flour - Corn,Fumonisin B1,Fumonisine B1,34.0
+C2018MUMY00192,Flour - Corn,Fumonisin B1,Fumonisine B1,105.0
+C2018MUMY00193,Flour - Corn,Fumonisin B1,Fumonisine B1,80.0
+C2018MUMY00194,Flour - Corn,Fumonisin B1,Fumonisine B1,195.0
+C2018MUMY00195,Flour - Corn,Fumonisin B1,Fumonisine B1,8.0
+C2018MUMY00196,Flour - Corn,Fumonisin B1,Fumonisine B1,58.0
+C2018MUMY00197,Flour - Corn,Fumonisin B1,Fumonisine B1,154.0
+C2018MUMY00291,Grain - Quinoa,Fumonisin B1,Fumonisine B1,15.0
+C2018MUMY00300,Pasta,Fumonisin B1,Fumonisine B1,45.0
+C2018MUMY00303,Pasta,Fumonisin B1,Fumonisine B1,32.0
+C2018MUMY00317,Pasta - Dry,Fumonisin B1,Fumonisine B1,12.0
+C2018MUMY00324,Pasta - Fresh,Fumonisin B1,Fumonisine B1,29.0
+C2018MUMY00333,Gluten-free Products,Fumonisin B1,Fumonisine B1,26.0
+C2018MUMY00341,Gluten-free Products,Fumonisin B1,Fumonisine B1,1010.0
+C2018MUMY00381,Corn Products,Fumonisin B1,Fumonisine B1,8.0
+C2018MUMY00382,Corn Products,Fumonisin B1,Fumonisine B1,19.0
+C2018MUMY00383,Chips - Corn,Fumonisin B1,Fumonisine B1,19.0
+C2018MUMY00384,Chips - Corn,Fumonisin B1,Fumonisine B1,33.0
+C2018MUMY00385,Corn Products,Fumonisin B1,Fumonisine B1,99.0
+C2018MUMY00386,Corn Products,Fumonisin B1,Fumonisine B1,204.0
+C2018MUMY00388,Corn Products,Fumonisin B1,Fumonisine B1,17.0
+C2018MUMY00389,Corn Products,Fumonisin B1,Fumonisine B1,8.0
+C2018MUMY00390,Pasta - Dry,Fumonisin B1,Fumonisine B1,22.0
+C2018MUMY00391,Corn Products,Fumonisin B1,Fumonisine B1,24.0
+C2018MUMY00399,Cornmeal,Fumonisin B1,Fumonisine B1,191.0
+C2018MUMY00401,Cornmeal,Fumonisin B1,Fumonisine B1,167.0
+C2018MUMY00404,Cornmeal,Fumonisin B1,Fumonisine B1,790.0
+C2018MUMY00406,Flour - Corn,Fumonisin B1,Fumonisine B1,1470.0
+C2018MUMY00407,Flour - Corn,Fumonisin B1,Fumonisine B1,8.0
+C2018MUMY00408,Flour - Corn,Fumonisin B1,Fumonisine B1,1700.0
+C2018MUMY00409,Flour - Corn,Fumonisin B1,Fumonisine B1,161.0
+C2018MUMY00410,Flour - Corn,Fumonisin B1,Fumonisine B1,10.0
+C2018MUMY00411,Flour - Corn,Fumonisin B1,Fumonisine B1,1970.0
+C2018MUMY00412,Flour - Corn,Fumonisin B1,Fumonisine B1,231.0
+C2018MUMY00455,Grain - Other,Fumonisin B1,Fumonisine B1,4.0
+C2018MUMY00506,Pasta - Dry,Fumonisin B1,Fumonisine B1,22.0
+C2018MUMY00554,Corn Products,Fumonisin B1,Fumonisine B1,8.0
+C2018MUMY00555,Chips - Corn,Fumonisin B1,Fumonisine B1,32.0
+C2018MUMY00556,Corn Products,Fumonisin B1,Fumonisine B1,23.0
+C2018MUMY00557,Corn Products,Fumonisin B1,Fumonisine B1,20.0
+C2018MUMY00561,Cornmeal,Fumonisin B1,Fumonisine B1,72.0
+C2018MUMY00562,Cornmeal,Fumonisin B1,Fumonisine B1,21.0
+C2018MUMY00563,Cornmeal,Fumonisin B1,Fumonisine B1,7.0
+C2018MUMY00565,Flour - Corn,Fumonisin B1,Fumonisine B1,63.0
+C2018MUMY00566,Flour - Corn,Fumonisin B1,Fumonisine B1,1710.0
+C2018MUMY00567,Flour - Corn,Fumonisin B1,Fumonisine B1,485.0
+C2018MUMY00568,Flour - Corn,Fumonisin B1,Fumonisine B1,144.0
+C2018MUMY00600,Pasta - Dry,Fumonisin B1,Fumonisine B1,36.0
+C2018MUMY00614,Gluten-free Products,Fumonisin B1,Fumonisine B1,51.0
+C2018MUMY00636,Corn Products,Fumonisin B1,Fumonisine B1,92.0
+C2018MUMY00637,Corn Products,Fumonisin B1,Fumonisine B1,26.0
+C2018MUMY00638,Chips - Corn,Fumonisin B1,Fumonisine B1,5.0
+C2018MUMY00639,Corn Products,Fumonisin B1,Fumonisine B1,7.0
+C2018MUMY00640,Pasta - Dry,Fumonisin B1,Fumonisine B1,13.0
+C2018MUMY00641,Chips - Corn,Fumonisin B1,Fumonisine B1,20.0
+C2018MUMY00643,Chips - Corn,Fumonisin B1,Fumonisine B1,34.0
+C2018MUMY00644,Chips - Corn,Fumonisin B1,Fumonisine B1,17.0
+C2018MUMY00650,Cornmeal,Fumonisin B1,Fumonisine B1,9.0
+C2018MUMY00651,Cornmeal,Fumonisin B1,Fumonisine B1,12.0
+C2018MUMY00652,Cornmeal,Fumonisin B1,Fumonisine B1,48.0
+C2018MUMY00653,Cornmeal,Fumonisin B1,Fumonisine B1,174.0
+C2018MUMY00654,Cornmeal,Fumonisin B1,Fumonisine B1,54.0
+C2018MUMY00655,Flour - Corn,Fumonisin B1,Fumonisine B1,76.0
+C2018MUMY00656,Flour - Corn,Fumonisin B1,Fumonisine B1,29.0
+C2018MUMY00658,Flour - Corn,Fumonisin B1,Fumonisine B1,84.0
+C2018MUMY00660,Flour - Corn,Fumonisin B1,Fumonisine B1,148.0
+C2018MUMY00661,Flour - Corn,Fumonisin B1,Fumonisine B1,146.0
+C2018MUMY00662,Flour - Corn,Fumonisin B1,Fumonisine B1,124.0
+C2018MUMY00663,Flour - Corn,Fumonisin B1,Fumonisine B1,431.0
+C2018MUMY00664,Flour - Corn,Fumonisin B1,Fumonisine B1,60.0
+C2018MUMY00675,Grain - Barley,Fumonisin B1,Fumonisine B1,36.0
+C2018MUMY00736,Gluten-free Products,Fumonisin B1,Fumonisine B1,58.0
+C2018MUMY00739,Flour - Corn,Fumonisin B1,Fumonisine B1,89.0
+C2018MUMY00746,Crackers,Fumonisin B1,Fumonisine B1,6.0
+C2018MUMY00014,Flour - Corn,Fumonisin B2,Fumonisine B2,90.0
+C2018MUMY00015,Flour - Corn,Fumonisin B2,Fumonisine B2,90.0
+C2018MUMY00016,Flour - Corn,Fumonisin B2,Fumonisine B2,30.0
+C2018MUMY00017,Flour - Corn,Fumonisin B2,Fumonisine B2,170.0
+C2018MUMY00059,Corn Products,Fumonisin B2,Fumonisine B2,10.0
+C2018MUMY00064,Cornmeal,Fumonisin B2,Fumonisine B2,110.0
+C2018MUMY00065,Flour - Corn,Fumonisin B2,Fumonisine B2,60.0
+C2018MUMY00067,Flour - Corn,Fumonisin B2,Fumonisine B2,780.0
+C2018MUMY00068,Flour - Corn,Fumonisin B2,Fumonisine B2,10.0
+C2018MUMY00116,Gluten-free Products,Fumonisin B2,Fumonisine B2,10.0
+C2018MUMY00158,Corn Products,Fumonisin B2,Fumonisine B2,110.0
+C2018MUMY00159,Corn Products,Fumonisin B2,Fumonisine B2,150.0
+C2018MUMY00176,Cornmeal,Fumonisin B2,Fumonisine B2,70.0
+C2018MUMY00177,Cornmeal,Fumonisin B2,Fumonisine B2,50.0
+C2018MUMY00182,Cornmeal,Fumonisin B2,Fumonisine B2,20.0
+C2018MUMY00183,Flour - Corn,Fumonisin B2,Fumonisine B2,50.0
+C2018MUMY00184,Flour - Corn,Fumonisin B2,Fumonisine B2,40.0
+C2018MUMY00187,Flour - Corn,Fumonisin B2,Fumonisine B2,70.0
+C2018MUMY00190,Flour - Corn,Fumonisin B2,Fumonisine B2,30.0
+C2018MUMY00191,Flour - Corn,Fumonisin B2,Fumonisine B2,10.0
+C2018MUMY00192,Flour - Corn,Fumonisin B2,Fumonisine B2,30.0
+C2018MUMY00193,Flour - Corn,Fumonisin B2,Fumonisine B2,30.0
+C2018MUMY00194,Flour - Corn,Fumonisin B2,Fumonisine B2,60.0
+C2018MUMY00196,Flour - Corn,Fumonisin B2,Fumonisine B2,20.0
+C2018MUMY00197,Flour - Corn,Fumonisin B2,Fumonisine B2,40.0
+C2018MUMY00300,Pasta,Fumonisin B2,Fumonisine B2,30.0
+C2018MUMY00341,Gluten-free Products,Fumonisin B2,Fumonisine B2,220.0
+C2018MUMY00384,Chips - Corn,Fumonisin B2,Fumonisine B2,20.0
+C2018MUMY00385,Corn Products,Fumonisin B2,Fumonisine B2,50.0
+C2018MUMY00386,Corn Products,Fumonisin B2,Fumonisine B2,60.0
+C2018MUMY00399,Cornmeal,Fumonisin B2,Fumonisine B2,70.0
+C2018MUMY00401,Cornmeal,Fumonisin B2,Fumonisine B2,40.0
+C2018MUMY00404,Cornmeal,Fumonisin B2,Fumonisine B2,180.0
+C2018MUMY00406,Flour - Corn,Fumonisin B2,Fumonisine B2,760.0
+C2018MUMY00408,Flour - Corn,Fumonisin B2,Fumonisine B2,670.0
+C2018MUMY00409,Flour - Corn,Fumonisin B2,Fumonisine B2,40.0
+C2018MUMY00411,Flour - Corn,Fumonisin B2,Fumonisine B2,980.0
+C2018MUMY00412,Flour - Corn,Fumonisin B2,Fumonisine B2,60.0
+C2018MUMY00555,Chips - Corn,Fumonisin B2,Fumonisine B2,10.0
+C2018MUMY00557,Corn Products,Fumonisin B2,Fumonisine B2,10.0
+C2018MUMY00561,Cornmeal,Fumonisin B2,Fumonisine B2,20.0
+C2018MUMY00565,Flour - Corn,Fumonisin B2,Fumonisine B2,20.0
+C2018MUMY00566,Flour - Corn,Fumonisin B2,Fumonisine B2,540.0
+C2018MUMY00567,Flour - Corn,Fumonisin B2,Fumonisine B2,130.0
+C2018MUMY00568,Flour - Corn,Fumonisin B2,Fumonisine B2,30.0
+C2018MUMY00600,Pasta - Dry,Fumonisin B2,Fumonisine B2,10.0
+C2018MUMY00614,Gluten-free Products,Fumonisin B2,Fumonisine B2,20.0
+C2018MUMY00636,Corn Products,Fumonisin B2,Fumonisine B2,20.0
+C2018MUMY00643,Chips - Corn,Fumonisin B2,Fumonisine B2,20.0
+C2018MUMY00652,Cornmeal,Fumonisin B2,Fumonisine B2,10.0
+C2018MUMY00653,Cornmeal,Fumonisin B2,Fumonisine B2,60.0
+C2018MUMY00654,Cornmeal,Fumonisin B2,Fumonisine B2,10.0
+C2018MUMY00655,Flour - Corn,Fumonisin B2,Fumonisine B2,10.0
+C2018MUMY00656,Flour - Corn,Fumonisin B2,Fumonisine B2,10.0
+C2018MUMY00658,Flour - Corn,Fumonisin B2,Fumonisine B2,20.0
+C2018MUMY00660,Flour - Corn,Fumonisin B2,Fumonisine B2,40.0
+C2018MUMY00661,Flour - Corn,Fumonisin B2,Fumonisine B2,40.0
+C2018MUMY00662,Flour - Corn,Fumonisin B2,Fumonisine B2,60.0
+C2018MUMY00663,Flour - Corn,Fumonisin B2,Fumonisine B2,150.0
+C2018MUMY00664,Flour - Corn,Fumonisin B2,Fumonisine B2,10.0
+C2018MUMY00736,Gluten-free Products,Fumonisin B2,Fumonisine B2,10.0
+C2018MUMY00739,Flour - Corn,Fumonisin B2,Fumonisine B2,40.0
+C2018MUMY00014,Flour - Corn,Fumonisin B3,Fumonisine B3,49.0
+C2018MUMY00015,Flour - Corn,Fumonisin B3,Fumonisine B3,33.0
+C2018MUMY00016,Flour - Corn,Fumonisin B3,Fumonisine B3,12.0
+C2018MUMY00017,Flour - Corn,Fumonisin B3,Fumonisine B3,63.0
+C2018MUMY00059,Corn Products,Fumonisin B3,Fumonisine B3,9.0
+C2018MUMY00064,Cornmeal,Fumonisin B3,Fumonisine B3,70.0
+C2018MUMY00065,Flour - Corn,Fumonisin B3,Fumonisine B3,31.0
+C2018MUMY00067,Flour - Corn,Fumonisin B3,Fumonisine B3,353.0
+C2018MUMY00068,Flour - Corn,Fumonisin B3,Fumonisine B3,11.0
+C2018MUMY00158,Corn Products,Fumonisin B3,Fumonisine B3,33.0
+C2018MUMY00159,Corn Products,Fumonisin B3,Fumonisine B3,54.0
+C2018MUMY00176,Cornmeal,Fumonisin B3,Fumonisine B3,45.0
+C2018MUMY00177,Cornmeal,Fumonisin B3,Fumonisine B3,30.0
+C2018MUMY00182,Cornmeal,Fumonisin B3,Fumonisine B3,11.0
+C2018MUMY00183,Flour - Corn,Fumonisin B3,Fumonisine B3,17.0
+C2018MUMY00184,Flour - Corn,Fumonisin B3,Fumonisine B3,14.0
+C2018MUMY00187,Flour - Corn,Fumonisin B3,Fumonisine B3,36.0
+C2018MUMY00190,Flour - Corn,Fumonisin B3,Fumonisine B3,13.0
+C2018MUMY00191,Flour - Corn,Fumonisin B3,Fumonisine B3,8.0
+C2018MUMY00192,Flour - Corn,Fumonisin B3,Fumonisine B3,11.0
+C2018MUMY00193,Flour - Corn,Fumonisin B3,Fumonisine B3,8.0
+C2018MUMY00194,Flour - Corn,Fumonisin B3,Fumonisine B3,18.0
+C2018MUMY00196,Flour - Corn,Fumonisin B3,Fumonisine B3,12.0
+C2018MUMY00197,Flour - Corn,Fumonisin B3,Fumonisine B3,22.0
+C2018MUMY00300,Pasta,Fumonisin B3,Fumonisine B3,14.0
+C2018MUMY00341,Gluten-free Products,Fumonisin B3,Fumonisine B3,148.0
+C2018MUMY00384,Chips - Corn,Fumonisin B3,Fumonisine B3,10.0
+C2018MUMY00385,Corn Products,Fumonisin B3,Fumonisine B3,18.0
+C2018MUMY00386,Corn Products,Fumonisin B3,Fumonisine B3,40.0
+C2018MUMY00399,Cornmeal,Fumonisin B3,Fumonisine B3,42.0
+C2018MUMY00401,Cornmeal,Fumonisin B3,Fumonisine B3,27.0
+C2018MUMY00404,Cornmeal,Fumonisin B3,Fumonisine B3,88.0
+C2018MUMY00406,Flour - Corn,Fumonisin B3,Fumonisine B3,303.0
+C2018MUMY00408,Flour - Corn,Fumonisin B3,Fumonisine B3,386.0
+C2018MUMY00409,Flour - Corn,Fumonisin B3,Fumonisine B3,19.0
+C2018MUMY00411,Flour - Corn,Fumonisin B3,Fumonisine B3,502.0
+C2018MUMY00412,Flour - Corn,Fumonisin B3,Fumonisine B3,36.0
+C2018MUMY00557,Corn Products,Fumonisin B3,Fumonisine B3,9.0
+C2018MUMY00561,Cornmeal,Fumonisin B3,Fumonisine B3,13.0
+C2018MUMY00562,Cornmeal,Fumonisin B3,Fumonisine B3,8.0
+C2018MUMY00565,Flour - Corn,Fumonisin B3,Fumonisine B3,11.0
+C2018MUMY00566,Flour - Corn,Fumonisin B3,Fumonisine B3,307.0
+C2018MUMY00567,Flour - Corn,Fumonisin B3,Fumonisine B3,60.0
+C2018MUMY00568,Flour - Corn,Fumonisin B3,Fumonisine B3,21.0
+C2018MUMY00600,Pasta - Dry,Fumonisin B3,Fumonisine B3,9.0
+C2018MUMY00614,Gluten-free Products,Fumonisin B3,Fumonisine B3,9.0
+C2018MUMY00636,Corn Products,Fumonisin B3,Fumonisine B3,12.0
+C2018MUMY00643,Chips - Corn,Fumonisin B3,Fumonisine B3,11.0
+C2018MUMY00653,Cornmeal,Fumonisin B3,Fumonisine B3,47.0
+C2018MUMY00654,Cornmeal,Fumonisin B3,Fumonisine B3,87.0
+C2018MUMY00660,Flour - Corn,Fumonisin B3,Fumonisine B3,21.0
+C2018MUMY00661,Flour - Corn,Fumonisin B3,Fumonisine B3,22.0
+C2018MUMY00662,Flour - Corn,Fumonisin B3,Fumonisine B3,31.0
+C2018MUMY00663,Flour - Corn,Fumonisin B3,Fumonisine B3,110.0
+C2018MUMY00664,Flour - Corn,Fumonisin B3,Fumonisine B3,15.0
+C2018MUMY00736,Gluten-free Products,Fumonisin B3,Fumonisine B3,9.0
+C2018MUMY00739,Flour - Corn,Fumonisin B3,Fumonisine B3,12.0
+C2018MUMY00007,Crackers,HT-2 Toxin,HT-2,24.0
+C2018MUMY00183,Flour - Corn,HT-2 Toxin,HT-2,36.0
+C2018MUMY00260,Grain - Quinoa,HT-2 Toxin,HT-2,15.0
+C2018MUMY00410,Flour - Corn,HT-2 Toxin,HT-2,28.0
+C2018MUMY00479,Millet Products,HT-2 Toxin,HT-2,54.0
+C2018MUMY00483,Spelt Products,HT-2 Toxin,HT-2,9.0
+C2018MUMY00486,Spelt Products,HT-2 Toxin,HT-2,19.0
+C2018MUMY00650,Cornmeal,HT-2 Toxin,HT-2,12.0
+C2018MUMY00324,Pasta - Fresh,Nivalenol,Nivalenol,11.0
+C2018MUMY00382,Corn Products,Nivalenol,Nivalenol,8.0
+C2018MUMY00388,Corn Products,Nivalenol,Nivalenol,8.0
+C2018MUMY00406,Flour - Corn,Nivalenol,Nivalenol,16.0
+C2018MUMY00566,Flour - Corn,Nivalenol,Nivalenol,13.0
+C2018MUMY00640,Pasta - Dry,Nivalenol,Nivalenol,11.0
+C2018MUMY00663,Flour - Corn,Nivalenol,Nivalenol,86.0
+C2018MUMY00081,Kamut Products,Ochratoxin A,Ochratoxine A,1.3
+C2018MUMY00092,Rye Products,Ochratoxin A,Ochratoxine A,2.5
+C2018MUMY00150,Crackers,Ochratoxin A,Ochratoxine A,2.7
+C2018MUMY00213,Buckwheat Products,Ochratoxin A,Ochratoxine A,2.2
+C2018MUMY00217,Buckwheat Products,Ochratoxin A,Ochratoxine A,0.8
+C2018MUMY00260,Grain - Quinoa,Ochratoxin A,Ochratoxine A,2.5
+C2018MUMY00283,Spelt,Ochratoxin A,Ochratoxine A,0.9
+C2018MUMY00367,Crackers,Ochratoxin A,Ochratoxine A,1.2
+C2018MUMY00450,Grain - Kamut,Ochratoxin A,Ochratoxine A,3.7
+C2018MUMY00452,Pasta,Ochratoxin A,Ochratoxine A,1.0
+C2018MUMY00466,Grain - Quinoa,Ochratoxin A,Ochratoxine A,4.1
+C2018MUMY00467,Rye Products,Ochratoxin A,Ochratoxine A,1.7
+C2018MUMY00501,Pasta - Dry,Ochratoxin A,Ochratoxine A,1.2
+C2018MUMY00567,Flour - Corn,Ochratoxin A,Ochratoxine A,3.9
+C2018MUMY00589,Spelt Products,Ochratoxin A,Ochratoxine A,4.3
+C2018MUMY00658,Flour - Corn,Ochratoxin A,Ochratoxine A,9.1
+C2018MUMY00686,Grain - Quinoa,Ochratoxin A,Ochratoxine A,33.8
+C2018MUMY00693,Grain - Quinoa,Ochratoxin A,Ochratoxine A,1.1
+C2018MUMY00694,Grain - Quinoa,Ochratoxin A,Ochratoxine A,3.8
+C2018MUMY00726,Pasta - Dry,Ochratoxin A,Ochratoxine A,1.5
+C2018MUMY00050,Gluten-free Products,Sterigmatocystin,Sterigmatocystine,0.4
+C2018MUMY00051,Crackers,Sterigmatocystin,Sterigmatocystine,0.5
+C2018MUMY00077,Amaranth Products,Sterigmatocystin,Sterigmatocystine,1.9
+C2018MUMY00086,Grain - Other,Sterigmatocystin,Sterigmatocystine,1.1
+C2018MUMY00110,Pasta - Dry,Sterigmatocystin,Sterigmatocystine,1.5
+C2018MUMY00144,Crackers,Sterigmatocystin,Sterigmatocystine,0.7
+C2018MUMY00225,Amaranth Products,Sterigmatocystin,Sterigmatocystine,2.0
+C2018MUMY00437,Amaranth Products,Sterigmatocystin,Sterigmatocystine,2.7
+C2018MUMY00440,Amaranth Products,Sterigmatocystin,Sterigmatocystine,1.9
+C2018MUMY00453,Grain - Other,Sterigmatocystin,Sterigmatocystine,11.8
+C2018MUMY00525,Gluten-free Products,Sterigmatocystin,Sterigmatocystine,1.2
+C2018MUMY00681,Amaranth Products,Sterigmatocystin,Sterigmatocystine,6.3
+C2018MUMY00183,Flour - Corn,T-2 Toxin,Toxine T-2,32.0
+C2018MUMY00410,Flour - Corn,T-2 Toxin,Toxine T-2,23.0
+C2018MUMY00479,Millet Products,T-2 Toxin,Toxine T-2,44.0
+C2018MUMY00063,Cornmeal,Zearalenone(ppb),Zéaralenone,51.0
+C2018MUMY00073,Buckwheat Products,Zearalenone(ppb),Zéaralenone,9.0
+C2018MUMY00158,Corn Products,Zearalenone(ppb),Zéaralenone,19.0
+C2018MUMY00159,Corn Products,Zearalenone(ppb),Zéaralenone,22.0
+C2018MUMY00162,Corn Products,Zearalenone(ppb),Zéaralenone,23.0
+C2018MUMY00164,Corn Products,Zearalenone(ppb),Zéaralenone,16.0
+C2018MUMY00183,Flour - Corn,Zearalenone(ppb),Zéaralenone,170.0
+C2018MUMY00187,Flour - Corn,Zearalenone(ppb),Zéaralenone,25.0
+C2018MUMY00190,Flour - Corn,Zearalenone(ppb),Zéaralenone,33.0
+C2018MUMY00191,Flour - Corn,Zearalenone(ppb),Zéaralenone,24.0
+C2018MUMY00192,Flour - Corn,Zearalenone(ppb),Zéaralenone,82.0
+C2018MUMY00193,Flour - Corn,Zearalenone(ppb),Zéaralenone,224.0
+C2018MUMY00197,Flour - Corn,Zearalenone(ppb),Zéaralenone,10.0
+C2018MUMY00291,Grain - Quinoa,Zearalenone(ppb),Zéaralenone,18.0
+C2018MUMY00333,Gluten-free Products,Zearalenone(ppb),Zéaralenone,15.0
+C2018MUMY00370,Crackers,Zearalenone(ppb),Zéaralenone,13.0
+C2018MUMY00384,Chips - Corn,Zearalenone(ppb),Zéaralenone,9.0
+C2018MUMY00387,Chips - Corn,Zearalenone(ppb),Zéaralenone,26.0
+C2018MUMY00401,Cornmeal,Zearalenone(ppb),Zéaralenone,20.0
+C2018MUMY00407,Flour - Corn,Zearalenone(ppb),Zéaralenone,13.0
+C2018MUMY00410,Flour - Corn,Zearalenone(ppb),Zéaralenone,29.0
+C2018MUMY00412,Flour - Corn,Zearalenone(ppb),Zéaralenone,9.0
+C2018MUMY00413,Flour - Corn,Zearalenone(ppb),Zéaralenone,11.0
+C2018MUMY00423,Grain - Barley,Zearalenone(ppb),Zéaralenone,15.0
+C2018MUMY00435,Grain - Buckwheat,Zearalenone(ppb),Zéaralenone,10.0
+C2018MUMY00554,Corn Products,Zearalenone(ppb),Zéaralenone,25.0
+C2018MUMY00565,Flour - Corn,Zearalenone(ppb),Zéaralenone,10.0
+C2018MUMY00622,Crackers,Zearalenone(ppb),Zéaralenone,15.0
+C2018MUMY00625,Crackers,Zearalenone(ppb),Zéaralenone,8.0
+C2018MUMY00647,Corn Starch,Zearalenone(ppb),Zéaralenone,11.0
+C2018MUMY00648,Corn Starch,Zearalenone(ppb),Zéaralenone,13.0
+C2018MUMY00650,Cornmeal,Zearalenone(ppb),Zéaralenone,89.0
+C2018MUMY00651,Cornmeal,Zearalenone(ppb),Zéaralenone,38.0
+C2018MUMY00655,Flour - Corn,Zearalenone(ppb),Zéaralenone,25.0
+C2018MUMY00656,Flour - Corn,Zearalenone(ppb),Zéaralenone,7.0
+C2018MUMY00663,Flour - Corn,Zearalenone(ppb),Zéaralenone,36.0
+C2018MUMY00664,Flour - Corn,Zearalenone(ppb),Zéaralenone,9.0
+C2018MUMY00675,Grain - Barley,Zearalenone(ppb),Zéaralenone,450.0
