@@ -1,0 +1,1797 @@
+{
+  "analysis": {
+    "c17": {
+      "oils": {
+        "detail": {
+          "avg": [
+            7.1038,
+            "7.1",
+            true
+          ],
+          "max": [
+            56.58,
+            "57",
+            true
+          ],
+          "min": [
+            0.1,
+            "0.10",
+            true
+          ],
+          "n": [
+            90,
+            90
+          ],
+          "pos": [
+            50,
+            50
+          ]
+        },
+        "ok": true
+      },
+      "overall": {
+        "detail": {
+          "max": [
+            573.0,
+            "573",
+            true
+          ],
+          "min": [
+            0.05,
+            "0.050",
+            true
+          ],
+          "n": [
+            399,
+            399
+          ],
+          "pos": [
+            232,
+            232
+          ]
+        },
+        "ok": true
+      },
+      "seeds": {
+        "detail": {
+          "avg": [
+            5.97825,
+            "6.0",
+            true
+          ],
+          "max": [
+            55.1,
+            "55",
+            true
+          ],
+          "min": [
+            0.113,
+            "0.054",
+            false
+          ],
+          "n": [
+            50,
+            50
+          ],
+          "pos": [
+            36,
+            36
+          ]
+        },
+        "ok": false
+      }
+    },
+    "categories": {
+      "barley_2021": {
+        "ame_pos": 35,
+        "aoh_pos": 77,
+        "aoh_share": 0.8805358796167189,
+        "avg": 5.746602564102564,
+        "max": 237.6,
+        "min": 0.093,
+        "n": 123,
+        "pos": 78
+      },
+      "corn_2020": {
+        "ame_pos": 36,
+        "aoh_pos": 36,
+        "aoh_share": 0.5889982411149451,
+        "avg": 2.012945945945946,
+        "max": 6.720000000000001,
+        "min": 0.2,
+        "n": 52,
+        "pos": 37
+      },
+      "f2_beer": {
+        "ame_pos": 3,
+        "aoh_pos": 21,
+        "aoh_share": 0.9051229887183281,
+        "avg": 0.25747619047619047,
+        "max": 1.174,
+        "min": 0.091,
+        "n": 80,
+        "pos": 21
+      },
+      "f2_juice": {
+        "ame_pos": 87,
+        "aoh_pos": 107,
+        "aoh_share": 0.7798382816646374,
+        "avg": 7.4739,
+        "max": 573.0,
+        "min": 0.05,
+        "n": 174,
+        "pos": 120
+      },
+      "f2_oil": {
+        "ame_pos": 50,
+        "aoh_pos": 30,
+        "aoh_share": 0.17478532616346182,
+        "avg": 7.1038,
+        "max": 56.58,
+        "min": 0.1,
+        "n": 90,
+        "pos": 50
+      },
+      "f2_pomegranate_juice": {
+        "ame_pos": 5,
+        "aoh_pos": 5,
+        "aoh_share": 0.712050957049112,
+        "avg": 249.308,
+        "max": 485.0,
+        "min": 12.629999999999999,
+        "n": 5,
+        "pos": 5
+      },
+      "f2_seed": {
+        "ame_pos": 28,
+        "aoh_pos": 34,
+        "aoh_share": 0.48517078111859196,
+        "avg": 5.97825,
+        "max": 55.1,
+        "min": 0.113,
+        "n": 50,
+        "pos": 36
+      },
+      "fresh_pepper_2020": {
+        "ame_pos": 0,
+        "aoh_pos": 0,
+        "aoh_share": null,
+        "avg": null,
+        "max": 0.0,
+        "min": null,
+        "n": 79,
+        "pos": 0
+      },
+      "fruit_2016": {
+        "ame_pos": 51,
+        "aoh_pos": 103,
+        "aoh_share": 0.7961865163794644,
+        "avg": 3.389229357798165,
+        "max": 146.31,
+        "min": 0.05,
+        "n": 333,
+        "pos": 109
+      },
+      "juice_pom_2014_15": {
+        "ame_pos": 116,
+        "aoh_pos": 122,
+        "aoh_share": 0.7996415158549531,
+        "avg": 72.51120588235294,
+        "max": 619.0,
+        "min": 0.05,
+        "n": 272,
+        "pos": 136
+      },
+      "meal_2016": {
+        "ame_pos": 1,
+        "aoh_pos": 1,
+        "aoh_share": 0.5697865353037767,
+        "avg": 1.218,
+        "max": 1.218,
+        "min": 1.218,
+        "n": 2,
+        "pos": 1
+      },
+      "meal_2019": {
+        "ame_pos": 42,
+        "aoh_pos": 58,
+        "aoh_share": 0.7444228086045905,
+        "avg": 1.0870166666666667,
+        "max": 11.94,
+        "min": 0.1,
+        "n": 90,
+        "pos": 60
+      },
+      "pomegranate_2019": {
+        "ame_pos": 115,
+        "aoh_pos": 120,
+        "aoh_share": 0.7464637760972913,
+        "avg": 162.22368548387098,
+        "max": 871.0,
+        "min": 0.06,
+        "n": 187,
+        "pos": 124
+      },
+      "processed_pepper_2020": {
+        "ame_pos": 6,
+        "aoh_pos": 3,
+        "aoh_share": 0.5734874881216344,
+        "avg": 1.0523333333333333,
+        "max": 2.4,
+        "min": 0.099,
+        "n": 48,
+        "pos": 6
+      },
+      "puree_2016": {
+        "ame_pos": 38,
+        "aoh_pos": 42,
+        "aoh_share": 0.682385575589459,
+        "avg": 4.446166666666667,
+        "max": 37.1,
+        "min": 0.2,
+        "n": 58,
+        "pos": 42
+      },
+      "puree_2019": {
+        "ame_pos": 93,
+        "aoh_pos": 93,
+        "aoh_share": 0.6676742306059712,
+        "avg": 7.869553191489362,
+        "max": 25.939999999999998,
+        "min": 0.518,
+        "n": 108,
+        "pos": 94
+      },
+      "rice_wheat_nutseed_2020": {
+        "ame_pos": 77,
+        "aoh_pos": 100,
+        "aoh_share": 0.6417825992061889,
+        "avg": 1.2010388349514565,
+        "max": 6.15,
+        "min": 0.091,
+        "n": 167,
+        "pos": 103
+      },
+      "sunoil_2017": {
+        "ame_pos": 31,
+        "aoh_pos": 8,
+        "aoh_share": 0.19826470812086155,
+        "avg": 5.933741935483871,
+        "max": 62.3,
+        "min": 0.1,
+        "n": 41,
+        "pos": 31
+      },
+      "sunseed_2017": {
+        "ame_pos": 31,
+        "aoh_pos": 29,
+        "aoh_share": 0.5454867175816523,
+        "avg": 5.651419354838709,
+        "max": 20.46,
+        "min": 0.2,
+        "n": 34,
+        "pos": 31
+      },
+      "tomato_2015": {
+        "ame_pos": 19,
+        "aoh_pos": 33,
+        "aoh_share": 0.8334161538167502,
+        "avg": 0.7266944444444445,
+        "max": 3.91,
+        "min": 0.08,
+        "n": 100,
+        "pos": 36
+      },
+      "tomato_2016": {
+        "ame_pos": 23,
+        "aoh_pos": 33,
+        "aoh_share": 0.8636952325098355,
+        "avg": 1.023075,
+        "max": 6.72,
+        "min": 0.06,
+        "n": 100,
+        "pos": 40
+      },
+      "wheat_2017": {
+        "ame_pos": 217,
+        "aoh_pos": 234,
+        "aoh_share": 0.7275597445310312,
+        "avg": 2.1825384615384613,
+        "max": 37.3,
+        "min": 0.09,
+        "n": 283,
+        "pos": 247
+      },
+      "wheat_sorghum_2021": {
+        "ame_pos": 183,
+        "aoh_pos": 200,
+        "aoh_share": 0.6996708493313981,
+        "avg": 7.142480952380953,
+        "max": 163.6,
+        "min": 0.1,
+        "n": 243,
+        "pos": 210
+      },
+      "wine_2014": {
+        "ame_pos": 4,
+        "aoh_pos": 25,
+        "aoh_share": 0.9804305283757339,
+        "avg": 2.044,
+        "max": 6.0,
+        "min": 0.5,
+        "n": 75,
+        "pos": 25
+      },
+      "wine_2015": {
+        "ame_pos": 30,
+        "aoh_pos": 141,
+        "aoh_share": 0.9701370233328265,
+        "avg": 1.679063829787234,
+        "max": 10.6,
+        "min": 0.092,
+        "n": 200,
+        "pos": 141
+      }
+    },
+    "eu": {
+      "fruit_aoh_share": 0.7499801301071304,
+      "puree_n": 166,
+      "puree_over_2": 79,
+      "sesame_exceed": 2,
+      "sesame_n": 3,
+      "sunflower_aoh_share": 0.3886760170521125,
+      "sunoil_ame_over": 2,
+      "sunoil_aoh_over": 3,
+      "sunoil_exceed": 3,
+      "sunoil_n": 51,
+      "sunseed_exceed": 0,
+      "sunseed_n": 51,
+      "tomato_ame_over": 0,
+      "tomato_aoh_over": 0,
+      "tomato_exceed": 0,
+      "tomato_n": 200
+    },
+    "f1_overall": {
+      "avg": 22.40194584139265,
+      "max": 871.0,
+      "min": 0.05,
+      "n": 2595,
+      "pos": 1551
+    },
+    "f1_top": {
+      "category": "pomegranate_2019",
+      "plan": "2019_TS025",
+      "product": "Juice - Pomegranate",
+      "total": 871.0
+    },
+    "f2_beer": {
+      "avg": 0.25747619047619047,
+      "max": 1.174,
+      "min": 0.091,
+      "n": 80,
+      "pos": 21
+    },
+    "f2_pomegranate_juice": {
+      "avg": 249.308,
+      "max": 485.0,
+      "min": 12.629999999999999,
+      "n": 5,
+      "pos": 5
+    },
+    "infant_all": {
+      "avg": 5.040182741116752,
+      "max": 37.1,
+      "min": 0.1,
+      "n": 258,
+      "pos": 197
+    },
+    "pomegranate_2019_canada": 13,
+    "pomegranate_2019_max": 871.0,
+    "pomegranate_2019_n": 187,
+    "rows": {
+      "C1": {
+        "detail": {
+          "max": [
+            0.0,
+            "0",
+            true
+          ],
+          "n": [
+            79,
+            79
+          ],
+          "pos": [
+            0,
+            0
+          ]
+        },
+        "ok": true,
+        "text": "fresh pepper 2020 (Table 3)"
+      },
+      "C10": {
+        "detail": {
+          "avg": [
+            162.22368548387098,
+            "160",
+            true
+          ],
+          "max": [
+            871.0,
+            "870",
+            true
+          ],
+          "min": [
+            0.06,
+            "0.060",
+            true
+          ],
+          "n": [
+            187,
+            187
+          ],
+          "pos": [
+            124,
+            124
+          ]
+        },
+        "ok": true,
+        "text": "pomegranate products 2019 (Table 8)"
+      },
+      "C11": {
+        "detail": {
+          "avg": [
+            3.389229357798165,
+            "3.4",
+            true
+          ],
+          "max": [
+            146.31,
+            "150",
+            true
+          ],
+          "min": [
+            0.05,
+            "0.050",
+            true
+          ],
+          "n": [
+            333,
+            333
+          ],
+          "pos": [
+            109,
+            109
+          ]
+        },
+        "ok": true,
+        "text": "fruit-based processed 2016 (Table 9)"
+      },
+      "C12": {
+        "detail": {
+          "avg": [
+            1.023075,
+            "9.4",
+            false
+          ],
+          "max": [
+            6.72,
+            "350",
+            false
+          ],
+          "min": [
+            0.06,
+            "0.060",
+            true
+          ],
+          "n": [
+            100,
+            100
+          ],
+          "pos": [
+            40,
+            41
+          ]
+        },
+        "ok": false,
+        "text": "tomato-based 2016 (Table 9)"
+      },
+      "C13": {
+        "detail": {
+          "avg": [
+            5.933741935483871,
+            "5.9",
+            true
+          ],
+          "max": [
+            62.3,
+            "62",
+            true
+          ],
+          "min": [
+            0.1,
+            "0.10",
+            true
+          ],
+          "n": [
+            41,
+            41
+          ],
+          "pos": [
+            31,
+            31
+          ]
+        },
+        "ok": true,
+        "text": "sunflower oil 2017 (Table 10)"
+      },
+      "C14": {
+        "detail": {
+          "avg": [
+            2.044,
+            "2.6",
+            false
+          ],
+          "max": [
+            6.0,
+            "11",
+            false
+          ],
+          "min": [
+            0.5,
+            "0.50",
+            true
+          ],
+          "n": [
+            75,
+            75
+          ],
+          "pos": [
+            25,
+            26
+          ]
+        },
+        "ok": false,
+        "text": "wine 2014 (Table 11)"
+      },
+      "C15": {
+        "detail": {
+          "avg": [
+            1.679063829787234,
+            "1.8",
+            false
+          ],
+          "max": [
+            10.6,
+            "21",
+            false
+          ],
+          "min": [
+            0.092,
+            "0.092",
+            true
+          ],
+          "n": [
+            200,
+            200
+          ],
+          "pos": [
+            141,
+            141
+          ]
+        },
+        "ok": false,
+        "text": "wine 2015 (Table 11)"
+      },
+      "C16": {
+        "detail": {
+          "avg": [
+            7.4739,
+            "17",
+            false
+          ],
+          "max": [
+            573.0,
+            "570",
+            true
+          ],
+          "min": [
+            0.05,
+            "0.050",
+            true
+          ],
+          "n": [
+            174,
+            174
+          ],
+          "pos": [
+            120,
+            125
+          ]
+        },
+        "ok": false,
+        "text": "F2 juices 2018 without pomegranate juice (Table 6)"
+      },
+      "C2": {
+        "detail": {
+          "avg": [
+            5.746602564102564,
+            "5.7",
+            true
+          ],
+          "max": [
+            237.6,
+            "240",
+            true
+          ],
+          "min": [
+            0.093,
+            "0.093",
+            true
+          ],
+          "n": [
+            123,
+            123
+          ],
+          "pos": [
+            78,
+            78
+          ]
+        },
+        "ok": true,
+        "text": "barley-based foods 2021 (Table 4)"
+      },
+      "C3": {
+        "detail": {
+          "avg": [
+            2.012945945945946,
+            "2.0",
+            true
+          ],
+          "max": [
+            6.720000000000001,
+            "6.7",
+            true
+          ],
+          "min": [
+            0.2,
+            "0.20",
+            true
+          ],
+          "n": [
+            52,
+            52
+          ],
+          "pos": [
+            37,
+            37
+          ]
+        },
+        "ok": true,
+        "text": "corn-based foods 2020 (Table 4)"
+      },
+      "C4": {
+        "detail": {
+          "avg": [
+            2.1825384615384613,
+            "2.2",
+            true
+          ],
+          "max": [
+            37.3,
+            "37",
+            true
+          ],
+          "min": [
+            0.09,
+            "0.090",
+            true
+          ],
+          "n": [
+            283,
+            283
+          ],
+          "pos": [
+            247,
+            247
+          ]
+        },
+        "ok": true,
+        "text": "wheat-based foods 2017 (Table 4)"
+      },
+      "C5": {
+        "detail": {
+          "avg": [
+            7.869553191489362,
+            "7.9",
+            true
+          ],
+          "max": [
+            25.939999999999998,
+            "26",
+            true
+          ],
+          "min": [
+            0.518,
+            "0.52",
+            true
+          ],
+          "n": [
+            108,
+            108
+          ],
+          "pos": [
+            94,
+            94
+          ]
+        },
+        "ok": true,
+        "text": "infant puree 2019 (Table 5)"
+      },
+      "C6": {
+        "detail": {
+          "avg": [
+            4.446166666666667,
+            "4.4",
+            true
+          ],
+          "max": [
+            37.1,
+            "37",
+            true
+          ],
+          "min": [
+            0.2,
+            "0.20",
+            true
+          ],
+          "n": [
+            58,
+            58
+          ],
+          "pos": [
+            42,
+            42
+          ]
+        },
+        "ok": true,
+        "text": "infant puree 2016 (Table 5)"
+      },
+      "C7": {
+        "detail": {
+          "avg": [
+            1.0870166666666667,
+            "1.1",
+            true
+          ],
+          "max": [
+            11.94,
+            "12",
+            true
+          ],
+          "min": [
+            0.1,
+            "0.10",
+            true
+          ],
+          "n": [
+            90,
+            90
+          ],
+          "pos": [
+            60,
+            60
+          ]
+        },
+        "ok": true,
+        "text": "toddler/baby meals 2019 (Table 5)"
+      },
+      "C8": {
+        "detail": {
+          "max": [
+            1.218,
+            "1.2",
+            true
+          ],
+          "n": [
+            2,
+            2
+          ],
+          "pos": [
+            1,
+            1
+          ]
+        },
+        "ok": true,
+        "text": "toddler/baby meals 2016 (Table 5)"
+      },
+      "C9": {
+        "detail": {
+          "avg": [
+            5.651419354838709,
+            "5.6",
+            false
+          ],
+          "max": [
+            20.46,
+            "20",
+            true
+          ],
+          "min": [
+            0.2,
+            "0.20",
+            true
+          ],
+          "n": [
+            34,
+            34
+          ],
+          "pos": [
+            31,
+            31
+          ]
+        },
+        "ok": false,
+        "text": "sunflower seeds 2017 (Table 7 nut/seed)"
+      }
+    },
+    "tomato_2015": {
+      "avg": 0.7266944444444445,
+      "max": 3.91,
+      "min": 0.08,
+      "n": 100,
+      "pos": 36
+    }
+  },
+  "census": {
+    "F1": {
+      "amount_kinds": {
+        "pos": 2606,
+        "zero": 2584
+      },
+      "components": {
+        "Alternariol": 2595,
+        "Alternariol Monomethyl Ether": 2595
+      },
+      "distinct_samples": 2595,
+      "n_rows": 5190,
+      "one_of_each": true,
+      "plans": {
+        "2014_TS025": 298,
+        "2015_TS025": 996,
+        "2016_TS025": 986,
+        "2017_TS025": 716,
+        "2019_TS025": 770,
+        "2020_TS025": 692,
+        "2021_TS025": 732
+      },
+      "products": {
+        "Baked Goods": 2,
+        "Bakery Product - Cookie": 10,
+        "Bakery Product - Tortilla/Wrap/Pita": 2,
+        "Baking Mixes": 26,
+        "Barley Products": 52,
+        "Berries - Other": 2,
+        "Beverage - Fruit": 86,
+        "Beverage - Lemonade": 10,
+        "Blackberry": 2,
+        "Blueberry": 6,
+        "Bran - Wheat": 2,
+        "Cereal": 4,
+        "Cereal - Adult": 2,
+        "Cereal - Corn": 88,
+        "Cereal - Mixed Grains": 16,
+        "Cereal - Rice": 96,
+        "Cherry": 4,
+        "Couscous": 166,
+        "Crackers": 88,
+        "Cranberry - dried": 48,
+        "Crispbread/Crouton": 2,
+        "Date": 50,
+        "Dried Fruit": 54,
+        "Fig": 50,
+        "Flour - Wheat": 376,
+        "Grain - Barley": 194,
+        "Grain - Sorghum": 64,
+        "Granola/Cereal Bar": 34,
+        "Infant Food (non-cereal)": 184,
+        "Infant Food - Puree": 332,
+        "Juice - Apple": 28,
+        "Juice - Blend": 132,
+        "Juice - Concentrate": 8,
+        "Juice - Cranberry": 2,
+        "Juice - Grape": 18,
+        "Juice - Lemon": 8,
+        "Juice - Orange": 32,
+        "Juice - Other": 198,
+        "Juice - Pineapple": 4,
+        "Juice - Pomegranate": 180,
+        "Juice/Nectar - Other": 2,
+        "Mango": 16,
+        "Mango - Organic": 2,
+        "Marmalade": 48,
+        "Mixed Fruit": 98,
+        "Mixed Fruit & Nuts": 2,
+        "Nectar - Apricot": 2,
+        "Nectar - Blend": 2,
+        "Nectar - Mango": 4,
+        "Nectar - Other": 2,
+        "Oil - Sunflower": 82,
+        "Pasta - Dry": 34,
+        "Peach": 6,
+        "Pepper (GH)": 15,
+        "Pepper - Fresh": 80,
+        "Pepper - Hot - Fresh": 53,
+        "Pepper - Organic": 10,
+        "Pepper - Pickled": 14,
+        "Pepper - Pickled Hot": 40,
+        "Pineapple": 2,
+        "Pomegranate": 188,
+        "Preserve - Jam/Jelly": 100,
+        "Preserve - Raspberry": 2,
+        "Protein Bar": 38,
+        "Prune": 48,
+        "Prune - Organic": 2,
+        "Raisin": 50,
+        "Raspberry": 8,
+        "Rice Products": 2,
+        "Seed - Sunflower": 68,
+        "Snack Bar": 82,
+        "Sorghum Products": 174,
+        "Strawberry": 26,
+        "Strawberry - Organic": 6,
+        "Tomato": 16,
+        "Tomato - Organic": 6,
+        "Tomato Sauce": 378,
+        "Topping - Dessert/Fruit": 36,
+        "Vegetable Products": 42,
+        "Wheat Products": 180,
+        "Wine": 550,
+        "juice - pineapple": 12
+      },
+      "rows_per_sample": {
+        "2": 2595
+      },
+      "units": {
+        "ng/g": 5190
+      }
+    },
+    "F2": {
+      "amount_kinds": {
+        "pos": 370,
+        "zero": 428
+      },
+      "components": {
+        "Alternariol": 399,
+        "Alternariol Monomethyl Ether": 399
+      },
+      "distinct_samples": 399,
+      "n_rows": 798,
+      "one_of_each": true,
+      "plans": {
+        "2018_TS025": 798
+      },
+      "products": {
+        "Beer": 160,
+        "Beverage - Other": 2,
+        "Cider - Apple": 6,
+        "Juice - Apple": 48,
+        "Juice - Blend": 156,
+        "Juice - Concentrate": 2,
+        "Juice - Cranberry": 4,
+        "Juice - Grape": 8,
+        "Juice - Grapefruit": 6,
+        "Juice - Orange": 68,
+        "Juice - Other": 20,
+        "Juice - Pomegranate": 10,
+        "Nectar - Mango": 2,
+        "Nectar - Peach": 2,
+        "Oil - Canola": 16,
+        "Oil - Corn": 18,
+        "Oil - Olive": 20,
+        "Oil - Other": 14,
+        "Oil - Palm": 20,
+        "Oil - Peanut": 18,
+        "Oil - Sesame": 18,
+        "Oil - Soybean": 22,
+        "Oil - Sunflower": 20,
+        "Oil - Vegetable": 14,
+        "Seed - Chia": 16,
+        "Seed - Flax": 20,
+        "Seed - Pumpkin": 24,
+        "Seed - Sesame": 6,
+        "Seed - Sunflower": 34,
+        "juice - pineapple": 24
+      },
+      "rows_per_sample": {
+        "2": 399
+      },
+      "units": {
+        "ng/g": 798
+      }
+    }
+  },
+  "n_graded": 29,
+  "n_met": 17,
+  "predictions": [
+    {
+      "graded": true,
+      "id": "G",
+      "kind": "gate",
+      "met": true,
+      "observed": {
+        "f1_components": true,
+        "f1_one_aoh_one_ame": true,
+        "f1_plans": true,
+        "f1_products": true,
+        "f1_rows": true,
+        "f1_rows_per_sample": true,
+        "f1_samples": true,
+        "f1_sha256": true,
+        "f1_unit": true,
+        "f1_value_format": true,
+        "f2_components": true,
+        "f2_one_aoh_one_ame": true,
+        "f2_products": true,
+        "f2_rows": true,
+        "f2_rows_per_sample": true,
+        "f2_samples": true,
+        "f2_sha256": true,
+        "f2_units_known": true,
+        "f2_value_format": true
+      },
+      "text": "both files: SHA-256, rows, samples, one AOH + one AME row per sample, component and product-label row counts, F1 plan codes and unit, F2 units in the unit table, and a clean value format"
+    },
+    {
+      "graded": true,
+      "id": "C1",
+      "kind": "consistency",
+      "met": true,
+      "observed": {
+        "max": [
+          0.0,
+          "0",
+          true
+        ],
+        "n": [
+          79,
+          79
+        ],
+        "pos": [
+          0,
+          0
+        ]
+      },
+      "text": "fresh pepper 2020 (Table 3): n 79, positives 0, min None, max 0, avg None (printed)"
+    },
+    {
+      "graded": true,
+      "id": "C2",
+      "kind": "consistency",
+      "met": true,
+      "observed": {
+        "avg": [
+          5.746602564102564,
+          "5.7",
+          true
+        ],
+        "max": [
+          237.6,
+          "240",
+          true
+        ],
+        "min": [
+          0.093,
+          "0.093",
+          true
+        ],
+        "n": [
+          123,
+          123
+        ],
+        "pos": [
+          78,
+          78
+        ]
+      },
+      "text": "barley-based foods 2021 (Table 4): n 123, positives 78, min 0.093, max 240, avg 5.7 (printed)"
+    },
+    {
+      "graded": true,
+      "id": "C3",
+      "kind": "consistency",
+      "met": true,
+      "observed": {
+        "avg": [
+          2.012945945945946,
+          "2.0",
+          true
+        ],
+        "max": [
+          6.720000000000001,
+          "6.7",
+          true
+        ],
+        "min": [
+          0.2,
+          "0.20",
+          true
+        ],
+        "n": [
+          52,
+          52
+        ],
+        "pos": [
+          37,
+          37
+        ]
+      },
+      "text": "corn-based foods 2020 (Table 4): n 52, positives 37, min 0.20, max 6.7, avg 2.0 (printed)"
+    },
+    {
+      "graded": true,
+      "id": "C4",
+      "kind": "consistency",
+      "met": true,
+      "observed": {
+        "avg": [
+          2.1825384615384613,
+          "2.2",
+          true
+        ],
+        "max": [
+          37.3,
+          "37",
+          true
+        ],
+        "min": [
+          0.09,
+          "0.090",
+          true
+        ],
+        "n": [
+          283,
+          283
+        ],
+        "pos": [
+          247,
+          247
+        ]
+      },
+      "text": "wheat-based foods 2017 (Table 4): n 283, positives 247, min 0.090, max 37, avg 2.2 (printed)"
+    },
+    {
+      "graded": true,
+      "id": "C5",
+      "kind": "consistency",
+      "met": true,
+      "observed": {
+        "avg": [
+          7.869553191489362,
+          "7.9",
+          true
+        ],
+        "max": [
+          25.939999999999998,
+          "26",
+          true
+        ],
+        "min": [
+          0.518,
+          "0.52",
+          true
+        ],
+        "n": [
+          108,
+          108
+        ],
+        "pos": [
+          94,
+          94
+        ]
+      },
+      "text": "infant puree 2019 (Table 5): n 108, positives 94, min 0.52, max 26, avg 7.9 (printed)"
+    },
+    {
+      "graded": true,
+      "id": "C6",
+      "kind": "consistency",
+      "met": true,
+      "observed": {
+        "avg": [
+          4.446166666666667,
+          "4.4",
+          true
+        ],
+        "max": [
+          37.1,
+          "37",
+          true
+        ],
+        "min": [
+          0.2,
+          "0.20",
+          true
+        ],
+        "n": [
+          58,
+          58
+        ],
+        "pos": [
+          42,
+          42
+        ]
+      },
+      "text": "infant puree 2016 (Table 5): n 58, positives 42, min 0.20, max 37, avg 4.4 (printed)"
+    },
+    {
+      "graded": true,
+      "id": "C7",
+      "kind": "consistency",
+      "met": true,
+      "observed": {
+        "avg": [
+          1.0870166666666667,
+          "1.1",
+          true
+        ],
+        "max": [
+          11.94,
+          "12",
+          true
+        ],
+        "min": [
+          0.1,
+          "0.10",
+          true
+        ],
+        "n": [
+          90,
+          90
+        ],
+        "pos": [
+          60,
+          60
+        ]
+      },
+      "text": "toddler/baby meals 2019 (Table 5): n 90, positives 60, min 0.10, max 12, avg 1.1 (printed)"
+    },
+    {
+      "graded": true,
+      "id": "C8",
+      "kind": "consistency",
+      "met": true,
+      "observed": {
+        "max": [
+          1.218,
+          "1.2",
+          true
+        ],
+        "n": [
+          2,
+          2
+        ],
+        "pos": [
+          1,
+          1
+        ]
+      },
+      "text": "toddler/baby meals 2016 (Table 5): n 2, positives 1, min None, max 1.2, avg None (printed)"
+    },
+    {
+      "graded": true,
+      "id": "C9",
+      "kind": "consistency",
+      "met": false,
+      "observed": {
+        "avg": [
+          5.651419354838709,
+          "5.6",
+          false
+        ],
+        "max": [
+          20.46,
+          "20",
+          true
+        ],
+        "min": [
+          0.2,
+          "0.20",
+          true
+        ],
+        "n": [
+          34,
+          34
+        ],
+        "pos": [
+          31,
+          31
+        ]
+      },
+      "text": "sunflower seeds 2017 (Table 7 nut/seed): n 34, positives 31, min 0.20, max 20, avg 5.6 (printed)"
+    },
+    {
+      "graded": true,
+      "id": "C10",
+      "kind": "consistency",
+      "met": true,
+      "observed": {
+        "avg": [
+          162.22368548387098,
+          "160",
+          true
+        ],
+        "max": [
+          871.0,
+          "870",
+          true
+        ],
+        "min": [
+          0.06,
+          "0.060",
+          true
+        ],
+        "n": [
+          187,
+          187
+        ],
+        "pos": [
+          124,
+          124
+        ]
+      },
+      "text": "pomegranate products 2019 (Table 8): n 187, positives 124, min 0.060, max 870, avg 160 (printed)"
+    },
+    {
+      "graded": true,
+      "id": "C11",
+      "kind": "consistency",
+      "met": true,
+      "observed": {
+        "avg": [
+          3.389229357798165,
+          "3.4",
+          true
+        ],
+        "max": [
+          146.31,
+          "150",
+          true
+        ],
+        "min": [
+          0.05,
+          "0.050",
+          true
+        ],
+        "n": [
+          333,
+          333
+        ],
+        "pos": [
+          109,
+          109
+        ]
+      },
+      "text": "fruit-based processed 2016 (Table 9): n 333, positives 109, min 0.050, max 150, avg 3.4 (printed)"
+    },
+    {
+      "graded": true,
+      "id": "C12",
+      "kind": "consistency",
+      "met": false,
+      "observed": {
+        "avg": [
+          1.023075,
+          "9.4",
+          false
+        ],
+        "max": [
+          6.72,
+          "350",
+          false
+        ],
+        "min": [
+          0.06,
+          "0.060",
+          true
+        ],
+        "n": [
+          100,
+          100
+        ],
+        "pos": [
+          40,
+          41
+        ]
+      },
+      "text": "tomato-based 2016 (Table 9): n 100, positives 41, min 0.060, max 350, avg 9.4 (printed)"
+    },
+    {
+      "graded": true,
+      "id": "C13",
+      "kind": "consistency",
+      "met": true,
+      "observed": {
+        "avg": [
+          5.933741935483871,
+          "5.9",
+          true
+        ],
+        "max": [
+          62.3,
+          "62",
+          true
+        ],
+        "min": [
+          0.1,
+          "0.10",
+          true
+        ],
+        "n": [
+          41,
+          41
+        ],
+        "pos": [
+          31,
+          31
+        ]
+      },
+      "text": "sunflower oil 2017 (Table 10): n 41, positives 31, min 0.10, max 62, avg 5.9 (printed)"
+    },
+    {
+      "graded": true,
+      "id": "C14",
+      "kind": "consistency",
+      "met": false,
+      "observed": {
+        "avg": [
+          2.044,
+          "2.6",
+          false
+        ],
+        "max": [
+          6.0,
+          "11",
+          false
+        ],
+        "min": [
+          0.5,
+          "0.50",
+          true
+        ],
+        "n": [
+          75,
+          75
+        ],
+        "pos": [
+          25,
+          26
+        ]
+      },
+      "text": "wine 2014 (Table 11): n 75, positives 26, min 0.50, max 11, avg 2.6 (printed)"
+    },
+    {
+      "graded": true,
+      "id": "C15",
+      "kind": "consistency",
+      "met": false,
+      "observed": {
+        "avg": [
+          1.679063829787234,
+          "1.8",
+          false
+        ],
+        "max": [
+          10.6,
+          "21",
+          false
+        ],
+        "min": [
+          0.092,
+          "0.092",
+          true
+        ],
+        "n": [
+          200,
+          200
+        ],
+        "pos": [
+          141,
+          141
+        ]
+      },
+      "text": "wine 2015 (Table 11): n 200, positives 141, min 0.092, max 21, avg 1.8 (printed)"
+    },
+    {
+      "graded": true,
+      "id": "C16",
+      "kind": "consistency",
+      "met": false,
+      "observed": {
+        "avg": [
+          7.4739,
+          "17",
+          false
+        ],
+        "max": [
+          573.0,
+          "570",
+          true
+        ],
+        "min": [
+          0.05,
+          "0.050",
+          true
+        ],
+        "n": [
+          174,
+          174
+        ],
+        "pos": [
+          120,
+          125
+        ]
+      },
+      "text": "F2 juices 2018 without pomegranate juice (Table 6): n 174, positives 125, min 0.050, max 570, avg 17 (printed)"
+    },
+    {
+      "graded": true,
+      "id": "C17",
+      "kind": "consistency",
+      "met": false,
+      "observed": {
+        "oils": {
+          "detail": {
+            "avg": [
+              7.1038,
+              "7.1",
+              true
+            ],
+            "max": [
+              56.58,
+              "57",
+              true
+            ],
+            "min": [
+              0.1,
+              "0.10",
+              true
+            ],
+            "n": [
+              90,
+              90
+            ],
+            "pos": [
+              50,
+              50
+            ]
+          },
+          "ok": true
+        },
+        "overall": {
+          "detail": {
+            "max": [
+              573.0,
+              "573",
+              true
+            ],
+            "min": [
+              0.05,
+              "0.050",
+              true
+            ],
+            "n": [
+              399,
+              399
+            ],
+            "pos": [
+              232,
+              232
+            ]
+          },
+          "ok": true
+        },
+        "seeds": {
+          "detail": {
+            "avg": [
+              5.97825,
+              "6.0",
+              true
+            ],
+            "max": [
+              55.1,
+              "55",
+              true
+            ],
+            "min": [
+              0.113,
+              "0.054",
+              false
+            ],
+            "n": [
+              50,
+              50
+            ],
+            "pos": [
+              36,
+              36
+            ]
+          },
+          "ok": false
+        }
+      },
+      "text": "F2 seeds 50/36/0.054-55/6.0, oils 90/50/0.10-57/7.1, overall 399/232/0.050-573"
+    },
+    {
+      "graded": true,
+      "id": "P1",
+      "kind": "prediction",
+      "met": true,
+      "observed": {
+        "avg": 5.040182741116752,
+        "max": 37.1,
+        "min": 0.1,
+        "n": 258,
+        "pos": 197
+      },
+      "text": "all 258 infant samples: 197 positive, max matches 37 (not Table 2's 26), average of positives in [4.95, 5.15) (not 5.2) -- Table 2's max and average are 2019-only"
+    },
+    {
+      "graded": true,
+      "id": "P2",
+      "kind": "prediction",
+      "met": true,
+      "observed": {
+        "canada": 13,
+        "n": 187
+      },
+      "text": "at most 24 of the 187 pomegranate-label 2019 samples have Origin CANADA (Table 1's pomegranate and processed-fruit rows are swapped)"
+    },
+    {
+      "graded": true,
+      "id": "P3",
+      "kind": "prediction",
+      "met": false,
+      "observed": {
+        "pomegranate_max": 871.0,
+        "top": {
+          "category": "pomegranate_2019",
+          "plan": "2019_TS025",
+          "product": "Juice - Pomegranate",
+          "total": 871.0
+        }
+      },
+      "text": "F1's largest total matches 880 and is a 2015 tomato-label sample; the largest 2019 pomegranate total is in [870.5, 871.5) (Table 2's 871 is the pomegranate maximum)"
+    },
+    {
+      "graded": true,
+      "id": "P4",
+      "kind": "prediction",
+      "met": false,
+      "observed": {
+        "avg": 0.7266944444444445,
+        "max": 3.91,
+        "min": 0.08,
+        "n": 100,
+        "pos": 36
+      },
+      "text": "2015 tomato labels: 100 samples, 35 or 36 positive, min matches 0.080, max matches 880"
+    },
+    {
+      "graded": true,
+      "id": "P5",
+      "kind": "prediction",
+      "met": false,
+      "observed": {
+        "avg": 22.40194584139265,
+        "max": 871.0,
+        "min": 0.05,
+        "n": 2595,
+        "pos": 1551
+      },
+      "text": "F1 has 1,552-1,554 positive samples and its smallest positive total matches 0.046"
+    },
+    {
+      "graded": true,
+      "id": "P6",
+      "kind": "prediction",
+      "met": false,
+      "observed": {
+        "beer": {
+          "avg": 0.25747619047619047,
+          "max": 1.174,
+          "min": 0.091,
+          "n": 80,
+          "pos": 21
+        },
+        "pomegranate_juice": {
+          "avg": 249.308,
+          "max": 485.0,
+          "min": 12.629999999999999,
+          "n": 5,
+          "pos": 5
+        }
+      },
+      "text": "F2: all 5 pomegranate juices positive and 16 of 80 beers positive"
+    },
+    {
+      "graded": true,
+      "id": "E1",
+      "kind": "prediction",
+      "met": false,
+      "observed": {
+        "tomato_ame_over": 0,
+        "tomato_aoh_over": 0,
+        "tomato_exceed": 0,
+        "tomato_n": 200
+      },
+      "text": "2 to 4 of the 200 2015-16 tomato-label samples exceed the EU indicative level for processed tomato products (AOH 10 or AME 5 ug/kg)"
+    },
+    {
+      "graded": true,
+      "id": "E2",
+      "kind": "prediction",
+      "met": false,
+      "observed": {
+        "sesame_exceed": 2,
+        "sesame_n": 3,
+        "sunseed_exceed": 0,
+        "sunseed_n": 51
+      },
+      "text": "at most 1 of the 51 sunflower-seed samples exceeds AOH 30 or AME 30 ug/kg, and none of F2's 3 sesame seeds"
+    },
+    {
+      "graded": true,
+      "id": "E3",
+      "kind": "prediction",
+      "met": true,
+      "observed": {
+        "sunoil_ame_over": 2,
+        "sunoil_aoh_over": 3,
+        "sunoil_exceed": 3,
+        "sunoil_n": 51
+      },
+      "text": "2 to 8 of the 51 sunflower-oil samples exceed AOH 10 or AME 10 ug/kg"
+    },
+    {
+      "graded": true,
+      "id": "E4",
+      "kind": "prediction",
+      "met": true,
+      "observed": {
+        "fruit_aoh_share": 0.7499801301071304,
+        "sunflower_aoh_share": 0.3886760170521125
+      },
+      "text": "AME carries more than half the AOH+AME mass in sunflower seeds and oil (pooled); AOH carries more than half in the fruit-based rows (2019 pomegranate, wine, 2015-16 tomato)"
+    },
+    {
+      "graded": true,
+      "id": "E5",
+      "kind": "prediction",
+      "met": true,
+      "observed": {
+        "puree_n": 166,
+        "puree_over_2": 79,
+        "share": 0.4759036144578313
+      },
+      "text": "25-60% of the 166 infant purees have AOH or AME above 2 ug/kg (a benchmark only: the EU level is for cereal-based infant food)"
+    }
+  ],
+  "provenance": {
+    "F1": {
+      "bytes": 925935,
+      "encoding": "utf-8-sig",
+      "resource": "c93db5ad-283a-45e1-8995-f1dc33c9392c",
+      "sha256": "9b79ec399c2d7e016ee52aef0279767b68e9d09f8fbda3316e772bf1cca3722a",
+      "source": "https://open.canada.ca/data/dataset/8888649b-c059-4f76-ae0f-30ab6c1159c5/resource/c93db5ad-283a-45e1-8995-f1dc33c9392c/download/fsap-chem-ts-alternaria-in-selected-foods-2014-2018-and-2019-2022_paaspa-chem-ec-alternaria-dans.csv"
+    },
+    "F2": {
+      "bytes": 147136,
+      "encoding": "cp1252",
+      "resource": "7e210ca5-2e37-406c-9144-4d0e055d45fd",
+      "sha256": "39ec24c7b20ab71334cf1915ef790a48a3d2a0abf5b9c7068f35a2e6557ac5e8",
+      "source": "https://open.canada.ca/data/dataset/c97c7e25-7acc-449a-91f1-1ac811490ec4/resource/7e210ca5-2e37-406c-9144-4d0e055d45fd/download/cfia_acia-1141_2018-19_alternaria_in_beverages__oils_and_seeds_-_2018-2019_toxines-dalternaria-d.csv"
+    }
+  },
+  "study": "alternaria",
+  "version": "0.1.0"
+}
