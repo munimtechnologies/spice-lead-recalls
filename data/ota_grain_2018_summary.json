@@ -1,0 +1,1395 @@
+{
+  "analysis": {
+    "bran_oat_over_7": 0,
+    "crackers_crispbread": {
+      "avg": 0.3878695652173913,
+      "ge_cut": 4,
+      "max": 2.21,
+      "min": 0.047,
+      "n": 31,
+      "pos": 23
+    },
+    "cross": {
+      "at_cut": {
+        "Buckwheat Products": [
+          6,
+          17,
+          2,
+          13
+        ],
+        "Crackers": [
+          4,
+          25,
+          2,
+          99
+        ],
+        "Grain - Kamut": [
+          0,
+          1,
+          1,
+          12
+        ],
+        "Kamut Products": [
+          2,
+          22,
+          1,
+          14
+        ],
+        "Pasta - Dry": [
+          0,
+          28,
+          2,
+          60
+        ],
+        "Quinoa Products": [
+          2,
+          22,
+          0,
+          15
+        ],
+        "Rye Products": [
+          1,
+          20,
+          2,
+          24
+        ]
+      },
+      "at_cut_cmh_chi2": 2.108419218866576,
+      "at_cut_cmh_p": 0.1464905736989984,
+      "at_cut_mh_or": 2.09452431164821,
+      "at_cut_pooled": [
+        15,
+        135,
+        10,
+        237
+      ],
+      "cut_ppb": 0.8,
+      "labels": [
+        "Buckwheat Products",
+        "Crackers",
+        "Grain - Kamut",
+        "Kamut Products",
+        "Pasta - Dry",
+        "Quinoa Products",
+        "Rye Products"
+      ],
+      "own_cmh_chi2": 129.21837800292147,
+      "own_cmh_p": 6.0752673044973885e-30,
+      "own_limits": {
+        "Buckwheat Products": [
+          9,
+          14,
+          2,
+          13
+        ],
+        "Crackers": [
+          21,
+          8,
+          2,
+          99
+        ],
+        "Grain - Kamut": [
+          0,
+          1,
+          1,
+          12
+        ],
+        "Kamut Products": [
+          10,
+          14,
+          1,
+          14
+        ],
+        "Pasta - Dry": [
+          21,
+          7,
+          2,
+          60
+        ],
+        "Quinoa Products": [
+          8,
+          16,
+          0,
+          15
+        ],
+        "Rye Products": [
+          13,
+          8,
+          2,
+          24
+        ]
+      },
+      "own_mh_or": 25.962123111217014,
+      "own_pooled": [
+        82,
+        68,
+        10,
+        237
+      ]
+    },
+    "families": {
+      "buckwheat": {
+        "avg": 2.906777777777778,
+        "ge_cut": 6,
+        "max": 7.62,
+        "min": 0.06,
+        "n": 23,
+        "pos": 9
+      },
+      "generic": {
+        "avg": 0.2684732142857143,
+        "ge_cut": 10,
+        "max": 2.21,
+        "min": 0.042,
+        "n": 203,
+        "pos": 112
+      },
+      "kamut": {
+        "avg": 0.48460000000000003,
+        "ge_cut": 2,
+        "max": 1.24,
+        "min": 0.05,
+        "n": 25,
+        "pos": 10
+      },
+      "oat": {
+        "avg": 0.2616153846153846,
+        "ge_cut": 3,
+        "max": 1.65,
+        "min": 0.05,
+        "n": 97,
+        "pos": 52
+      },
+      "quinoa": {
+        "avg": 1.33,
+        "ge_cut": 2,
+        "max": 5.75,
+        "min": 0.054,
+        "n": 24,
+        "pos": 8
+      },
+      "rice": {
+        "avg": 1.1267142857142856,
+        "ge_cut": 3,
+        "max": 11.1,
+        "min": 0.049,
+        "n": 99,
+        "pos": 14
+      },
+      "rye": {
+        "avg": 0.2366,
+        "ge_cut": 1,
+        "max": 1.87,
+        "min": 0.05,
+        "n": 25,
+        "pos": 15
+      }
+    },
+    "infant_over_0_5": 0,
+    "labels": {
+      "Bakery Product - Cookie": {
+        "avg": 0.18540909090909088,
+        "ge_cut": 1,
+        "max": 0.835,
+        "min": 0.042,
+        "n": 29,
+        "pos": 22
+      },
+      "Baking Mixes": {
+        "avg": 0.16233333333333333,
+        "ge_cut": 0,
+        "max": 0.455,
+        "min": 0.051,
+        "n": 28,
+        "pos": 9
+      },
+      "Bran - Oat": {
+        "avg": 0.24707142857142858,
+        "ge_cut": 1,
+        "max": 1.65,
+        "min": 0.054,
+        "n": 25,
+        "pos": 14
+      },
+      "Buckwheat Products": {
+        "avg": 2.906777777777778,
+        "ge_cut": 6,
+        "max": 7.62,
+        "min": 0.06,
+        "n": 23,
+        "pos": 9
+      },
+      "Cereal": {
+        "avg": null,
+        "ge_cut": 0,
+        "max": null,
+        "min": null,
+        "n": 1,
+        "pos": 0
+      },
+      "Cereal - Children": {
+        "avg": 0.3245,
+        "ge_cut": 1,
+        "max": 1.97,
+        "min": 0.05,
+        "n": 26,
+        "pos": 12
+      },
+      "Crackers": {
+        "avg": 0.41209523809523807,
+        "ge_cut": 4,
+        "max": 2.21,
+        "min": 0.047,
+        "n": 29,
+        "pos": 21
+      },
+      "Crispbread/Crouton": {
+        "avg": 0.1335,
+        "ge_cut": 0,
+        "max": 0.18,
+        "min": 0.087,
+        "n": 2,
+        "pos": 2
+      },
+      "Flour - Oat": {
+        "avg": 0.3576153846153846,
+        "ge_cut": 2,
+        "max": 1.03,
+        "min": 0.05,
+        "n": 23,
+        "pos": 13
+      },
+      "Flour - Other": {
+        "avg": 0.18,
+        "ge_cut": 0,
+        "max": 0.19,
+        "min": 0.17,
+        "n": 3,
+        "pos": 2
+      },
+      "Flour - rye": {
+        "avg": 0.0625,
+        "ge_cut": 0,
+        "max": 0.064,
+        "min": 0.061,
+        "n": 4,
+        "pos": 2
+      },
+      "Grain - Kamut": {
+        "avg": null,
+        "ge_cut": 0,
+        "max": null,
+        "min": null,
+        "n": 1,
+        "pos": 0
+      },
+      "Grain - Rice": {
+        "avg": 1.1267142857142856,
+        "ge_cut": 3,
+        "max": 11.1,
+        "min": 0.049,
+        "n": 99,
+        "pos": 14
+      },
+      "Infant Food - Cereal": {
+        "avg": 0.0766,
+        "ge_cut": 0,
+        "max": 0.172,
+        "min": 0.05,
+        "n": 28,
+        "pos": 5
+      },
+      "Kamut Products": {
+        "avg": 0.48460000000000003,
+        "ge_cut": 2,
+        "max": 1.24,
+        "min": 0.05,
+        "n": 24,
+        "pos": 10
+      },
+      "Oat Products": {
+        "avg": 0.2070625,
+        "ge_cut": 0,
+        "max": 0.686,
+        "min": 0.059,
+        "n": 24,
+        "pos": 16
+      },
+      "Oatmeal": {
+        "avg": 0.24255555555555552,
+        "ge_cut": 0,
+        "max": 0.48,
+        "min": 0.069,
+        "n": 25,
+        "pos": 9
+      },
+      "Pasta - Dry": {
+        "avg": 0.17661904761904762,
+        "ge_cut": 0,
+        "max": 0.342,
+        "min": 0.049,
+        "n": 28,
+        "pos": 21
+      },
+      "Quinoa Products": {
+        "avg": 1.33,
+        "ge_cut": 2,
+        "max": 5.75,
+        "min": 0.054,
+        "n": 24,
+        "pos": 8
+      },
+      "Rye Products": {
+        "avg": 0.2633846153846154,
+        "ge_cut": 1,
+        "max": 1.87,
+        "min": 0.05,
+        "n": 21,
+        "pos": 13
+      },
+      "Wheat Products": {
+        "avg": 0.40344444444444444,
+        "ge_cut": 4,
+        "max": 1.48,
+        "min": 0.06,
+        "n": 29,
+        "pos": 18
+      }
+    },
+    "over_3": [
+      {
+        "ota": 11.1,
+        "product": "Grain - Rice",
+        "sample": "C2018OCTA00004"
+      },
+      {
+        "ota": 7.62,
+        "product": "Buckwheat Products",
+        "sample": "C2018OCTA00282"
+      },
+      {
+        "ota": 5.75,
+        "product": "Quinoa Products",
+        "sample": "C2018OCTA00269"
+      },
+      {
+        "ota": 5.68,
+        "product": "Buckwheat Products",
+        "sample": "C2018OCTA00298"
+      },
+      {
+        "ota": 5.35,
+        "product": "Buckwheat Products",
+        "sample": "C2018OCTA00291"
+      },
+      {
+        "ota": 4.34,
+        "product": "Quinoa Products",
+        "sample": "C2018OCTA00255"
+      },
+      {
+        "ota": 3.41,
+        "product": "Buckwheat Products",
+        "sample": "C2018OCTA00296"
+      }
+    ],
+    "over_3_outside_no_limit": [
+      {
+        "ota": 11.1,
+        "product": "Grain - Rice",
+        "sample": "C2018OCTA00004"
+      }
+    ],
+    "overall": {
+      "avg": 0.47565,
+      "ge_cut": 27,
+      "max": 11.1,
+      "min": 0.042,
+      "n": 496,
+      "pos": 220
+    },
+    "rice_other_pos": 206,
+    "rows": {
+      "C1": {
+        "detail": {
+          "avg": [
+            0.2366,
+            "0.24",
+            true
+          ],
+          "max": [
+            1.87,
+            "1.9",
+            true
+          ],
+          "min": [
+            0.05,
+            "0.050",
+            true
+          ],
+          "n": [
+            25,
+            25
+          ],
+          "pos": [
+            15,
+            15
+          ]
+        },
+        "ok": true,
+        "text": "R20 rye (Table 2)"
+      },
+      "C10": {
+        "detail": {
+          "avg": [
+            0.2439891304347826,
+            "0.24",
+            true
+          ],
+          "max": [
+            2.21,
+            "2.2",
+            true
+          ],
+          "min": [
+            0.042,
+            "0.042",
+            true
+          ],
+          "n": [
+            171,
+            171
+          ],
+          "pct": [
+            54,
+            54
+          ],
+          "pos": 92
+        },
+        "ok": true,
+        "text": "R22 grain-based foods 2018"
+      },
+      "C2": {
+        "detail": {
+          "avg": [
+            0.16233333333333333,
+            "0.16",
+            true
+          ],
+          "max": [
+            0.455,
+            "0.46",
+            true
+          ],
+          "min": [
+            0.051,
+            "0.051",
+            true
+          ],
+          "n": [
+            28,
+            28
+          ],
+          "pos": [
+            9,
+            9
+          ]
+        },
+        "ok": true,
+        "text": "R20 baking mixes 2018-19 (Table 3)"
+      },
+      "C3": {
+        "detail": {
+          "avg": [
+            0.0766,
+            "0.077",
+            true
+          ],
+          "max": [
+            0.172,
+            "0.17",
+            true
+          ],
+          "min": [
+            0.05,
+            "0.050",
+            true
+          ],
+          "n": [
+            28,
+            28
+          ],
+          "pos": [
+            5,
+            5
+          ]
+        },
+        "ok": true,
+        "text": "R20 infant cereal (wheat) 2018-19 (Table 3)"
+      },
+      "C4": {
+        "detail": {
+          "avg": [
+            0.17661904761904762,
+            "0.18",
+            true
+          ],
+          "max": [
+            0.342,
+            "0.34",
+            true
+          ],
+          "min": [
+            0.049,
+            "0.049",
+            true
+          ],
+          "n": [
+            28,
+            28
+          ],
+          "pos": [
+            21,
+            21
+          ]
+        },
+        "ok": true,
+        "text": "R20 pasta 2018-19 (Table 3)"
+      },
+      "C6": {
+        "detail": {
+          "avg": [
+            1.0353636363636363,
+            "1.0",
+            true
+          ],
+          "max": [
+            7.62,
+            "7.6",
+            true
+          ],
+          "min": [
+            0.05,
+            "0.05",
+            true
+          ],
+          "n": [
+            100,
+            100
+          ],
+          "pct": [
+            44,
+            44
+          ],
+          "pos": 44
+        },
+        "ok": true,
+        "text": "R22 less commonly consumed grains 2018"
+      },
+      "C7": {
+        "detail": {
+          "avg": [
+            0.2616153846153846,
+            "0.26",
+            true
+          ],
+          "max": [
+            1.65,
+            "1.6",
+            true
+          ],
+          "min": [
+            0.05,
+            "0.05",
+            true
+          ],
+          "n": [
+            97,
+            97
+          ],
+          "pct": [
+            54,
+            54
+          ],
+          "pos": 52
+        },
+        "ok": true,
+        "text": "R22 oat 2018"
+      },
+      "C8": {
+        "detail": {
+          "avg": [
+            1.1267142857142856,
+            "1.1",
+            true
+          ],
+          "max": [
+            11.1,
+            "11",
+            true
+          ],
+          "min": [
+            0.049,
+            "0.049",
+            true
+          ],
+          "n": [
+            99,
+            99
+          ],
+          "pct": [
+            14,
+            14
+          ],
+          "pos": 14
+        },
+        "ok": true,
+        "text": "R22 rice 2018"
+      },
+      "C9": {
+        "detail": {
+          "avg": [
+            0.40344444444444444,
+            "0.4",
+            true
+          ],
+          "max": [
+            1.48,
+            "1.5",
+            true
+          ],
+          "min": [
+            0.06,
+            "0.06",
+            true
+          ],
+          "n": [
+            29,
+            29
+          ],
+          "pct": [
+            62,
+            62
+          ],
+          "pos": 18
+        },
+        "ok": true,
+        "text": "R22 wheat 2018"
+      }
+    }
+  },
+  "census": {
+    "MM": {
+      "components": {
+        "15-acetyldeoxynivalenol": 750,
+        "3-acetyldeoxynivalenol": 750,
+        "?-Zearalenol(ppb)": 1500,
+        "Aflatoxin B1": 750,
+        "Aflatoxin B2": 750,
+        "Aflatoxin G1": 750,
+        "Aflatoxin G2": 750,
+        "Cyclopiazonic acid": 750,
+        "Deoxynivalenol": 750,
+        "Diacetoxyscirpenol": 750,
+        "Ergocristine": 750,
+        "Ergocryptine": 750,
+        "Ergosine": 750,
+        "Fumonisin B1": 750,
+        "Fumonisin B2": 750,
+        "Fumonisin B3": 750,
+        "Fusarenon-X": 750,
+        "HT-2 Toxin": 750,
+        "Neosolaniol": 750,
+        "Nivalenol": 750,
+        "Ochratoxin A": 750,
+        "Sterigmatocystin": 750,
+        "T-2 Toxin": 750,
+        "Zearalenone(ppb)": 750
+      },
+      "distinct_samples": 750,
+      "n_rows": 18750,
+      "n_selected_rows": 750,
+      "origins": {
+        "ARGENTINA": 1,
+        "AUSTRIA": 2,
+        "BOLIVIA, PLURINATIONAL STATE OF": 4,
+        "CANADA": 155,
+        "CHINA": 11,
+        "COLOMBIA": 1,
+        "FINLAND": 2,
+        "GERMANY": 7,
+        "INDIA": 2,
+        "ISRAEL": 1,
+        "ITALY": 53,
+        "JAPAN": 1,
+        "KOREA, REPUBLIC OF": 7,
+        "MEXICO": 4,
+        "MOROCCO": 1,
+        "NETHERLANDS": 1,
+        "PERU": 8,
+        "POLAND": 1,
+        "RUSSIAN FEDERATION": 2,
+        "SCOTLAND": 3,
+        "SINGAPORE": 2,
+        "SPAIN": 4,
+        "SWEDEN": 1,
+        "TAIWAN, PROVINCE OF CHINA": 1,
+        "THAILAND": 3,
+        "TURKEY": 2,
+        "UNITED KINGDOM": 2,
+        "UNITED STATES": 176,
+        "UNKNOWN": 291,
+        "VIETNAM": 1
+      },
+      "products": {
+        "Amaranth Products": 14,
+        "Arrowroot Products": 15,
+        "Barley Products": 14,
+        "Bread": 2,
+        "Buckwheat Products": 15,
+        "Chips - Corn": 18,
+        "Chips - Other": 1,
+        "Corn Products": 30,
+        "Corn Starch": 25,
+        "Cornmeal": 25,
+        "Crackers": 101,
+        "Flour - Corn": 52,
+        "Gluten-free Products": 71,
+        "Grain - Barley": 36,
+        "Grain - Buckwheat": 14,
+        "Grain - Kamut": 13,
+        "Grain - Other": 15,
+        "Grain - Quinoa": 28,
+        "Grain - Rye": 2,
+        "Kamut Products": 15,
+        "Millet": 15,
+        "Millet Products": 14,
+        "Pasta": 26,
+        "Pasta - Dry": 62,
+        "Pasta - Fresh": 40,
+        "Quinoa Products": 15,
+        "Rye Products": 26,
+        "Spelt": 5,
+        "Spelt Products": 25,
+        "Teff Products": 16
+      },
+      "rows_per_sample": {
+        "1": 750
+      },
+      "text_tokens": {},
+      "units": {
+        "ng/g": 750
+      },
+      "value_kinds": {
+        "pos": 20,
+        "zero": 730
+      }
+    },
+    "OG": {
+      "components": {
+        "Ochratoxin A": 496
+      },
+      "distinct_samples": 496,
+      "n_rows": 496,
+      "n_selected_rows": 496,
+      "origins": {
+        "AUSTRALIA": 2,
+        "BELGIUM": 1,
+        "BOLIVIA, PLURINATIONAL STATE OF": 4,
+        "CANADA": 92,
+        "CHINA": 2,
+        "FINLAND": 1,
+        "FRANCE": 1,
+        "GERMANY": 2,
+        "GREECE": 1,
+        "INDIA": 6,
+        "IRELAND": 2,
+        "ITALY": 16,
+        "MALAYSIA": 1,
+        "PAKISTAN": 1,
+        "PERU": 3,
+        "PHILIPPINES": 1,
+        "PORTUGAL": 1,
+        "SCOTLAND": 4,
+        "SPAIN": 1,
+        "SWEDEN": 2,
+        "TAIWAN, PROVINCE OF CHINA": 2,
+        "THAILAND": 2,
+        "TURKEY": 2,
+        "UNITED KINGDOM": 5,
+        "UNITED STATES": 108,
+        "UNKNOWN": 232,
+        "VIETNAM": 1
+      },
+      "products": {
+        "Bakery Product - Cookie": 29,
+        "Baking Mixes": 28,
+        "Bran - Oat": 25,
+        "Buckwheat Products": 23,
+        "Cereal": 1,
+        "Cereal - Children": 26,
+        "Crackers": 29,
+        "Crispbread/Crouton": 2,
+        "Flour - Oat": 23,
+        "Flour - Other": 3,
+        "Flour - rye": 4,
+        "Grain - Kamut": 1,
+        "Grain - Rice": 99,
+        "Infant Food - Cereal": 28,
+        "Kamut Products": 24,
+        "Oat Products": 24,
+        "Oatmeal": 25,
+        "Pasta - Dry": 28,
+        "Quinoa Products": 24,
+        "Rye Products": 21,
+        "Wheat Products": 29
+      },
+      "rows_per_sample": {
+        "1": 496
+      },
+      "text_tokens": {
+        "Not Detected/ Non-détecté": 276
+      },
+      "units": {
+        "ng/g": 496
+      },
+      "value_kinds": {
+        "pos": 220,
+        "text": 276
+      }
+    }
+  },
+  "n_graded": 17,
+  "n_met": 16,
+  "predictions": [
+    {
+      "graded": true,
+      "id": "G",
+      "kind": "gate",
+      "met": true,
+      "observed": {
+        "mm_ota_kinds": true,
+        "mm_ota_min": true,
+        "mm_ota_samples": true,
+        "mm_rows": true,
+        "mm_sha256": true,
+        "mm_unit": true,
+        "og_component": true,
+        "og_origins": true,
+        "og_products": true,
+        "og_rows": true,
+        "og_rows_per_sample": true,
+        "og_samples": true,
+        "og_sha256": true,
+        "og_tokens": true,
+        "og_unit": true,
+        "og_value_kinds": true,
+        "shared_labels": true
+      },
+      "text": "OG: SHA-256, rows, samples, one OTA row each, product-label counts, origin facts, one known unit, 220 positive and 276 token cells, at most 10 tokens; MM: SHA-256, rows, 750 OTA rows, 20 OTA positives, minimum 0.8, known units; the 7 shared product labels"
+    },
+    {
+      "graded": true,
+      "id": "C1",
+      "kind": "consistency",
+      "met": true,
+      "observed": {
+        "avg": [
+          0.2366,
+          "0.24",
+          true
+        ],
+        "max": [
+          1.87,
+          "1.9",
+          true
+        ],
+        "min": [
+          0.05,
+          "0.050",
+          true
+        ],
+        "n": [
+          25,
+          25
+        ],
+        "pos": [
+          15,
+          15
+        ]
+      },
+      "text": "R20 rye (Table 2): n 25, positives 15, min 0.050, max 1.9, avg 0.24 (printed)"
+    },
+    {
+      "graded": true,
+      "id": "C2",
+      "kind": "consistency",
+      "met": true,
+      "observed": {
+        "avg": [
+          0.16233333333333333,
+          "0.16",
+          true
+        ],
+        "max": [
+          0.455,
+          "0.46",
+          true
+        ],
+        "min": [
+          0.051,
+          "0.051",
+          true
+        ],
+        "n": [
+          28,
+          28
+        ],
+        "pos": [
+          9,
+          9
+        ]
+      },
+      "text": "R20 baking mixes 2018-19 (Table 3): n 28, positives 9, min 0.051, max 0.46, avg 0.16 (printed)"
+    },
+    {
+      "graded": true,
+      "id": "C3",
+      "kind": "consistency",
+      "met": true,
+      "observed": {
+        "avg": [
+          0.0766,
+          "0.077",
+          true
+        ],
+        "max": [
+          0.172,
+          "0.17",
+          true
+        ],
+        "min": [
+          0.05,
+          "0.050",
+          true
+        ],
+        "n": [
+          28,
+          28
+        ],
+        "pos": [
+          5,
+          5
+        ]
+      },
+      "text": "R20 infant cereal (wheat) 2018-19 (Table 3): n 28, positives 5, min 0.050, max 0.17, avg 0.077 (printed)"
+    },
+    {
+      "graded": true,
+      "id": "C4",
+      "kind": "consistency",
+      "met": true,
+      "observed": {
+        "avg": [
+          0.17661904761904762,
+          "0.18",
+          true
+        ],
+        "max": [
+          0.342,
+          "0.34",
+          true
+        ],
+        "min": [
+          0.049,
+          "0.049",
+          true
+        ],
+        "n": [
+          28,
+          28
+        ],
+        "pos": [
+          21,
+          21
+        ]
+      },
+      "text": "R20 pasta 2018-19 (Table 3): n 28, positives 21, min 0.049, max 0.34, avg 0.18 (printed)"
+    },
+    {
+      "graded": true,
+      "id": "C5",
+      "kind": "consistency",
+      "met": true,
+      "observed": {
+        "max": 11.1,
+        "min": 0.042
+      },
+      "text": "the file's smallest positive matches 0.042 and its largest 11"
+    },
+    {
+      "graded": true,
+      "id": "C6",
+      "kind": "consistency",
+      "met": true,
+      "observed": {
+        "avg": [
+          1.0353636363636363,
+          "1.0",
+          true
+        ],
+        "max": [
+          7.62,
+          "7.6",
+          true
+        ],
+        "min": [
+          0.05,
+          "0.05",
+          true
+        ],
+        "n": [
+          100,
+          100
+        ],
+        "pct": [
+          44,
+          44
+        ],
+        "pos": 44
+      },
+      "text": "R22 less commonly consumed grains 2018: n 100, 44% positive, min 0.05, max 7.6, avg 1.0 (printed)"
+    },
+    {
+      "graded": true,
+      "id": "C7",
+      "kind": "consistency",
+      "met": true,
+      "observed": {
+        "avg": [
+          0.2616153846153846,
+          "0.26",
+          true
+        ],
+        "max": [
+          1.65,
+          "1.6",
+          true
+        ],
+        "min": [
+          0.05,
+          "0.05",
+          true
+        ],
+        "n": [
+          97,
+          97
+        ],
+        "pct": [
+          54,
+          54
+        ],
+        "pos": 52
+      },
+      "text": "R22 oat 2018: n 97, 54% positive, min 0.05, max 1.6, avg 0.26 (printed)"
+    },
+    {
+      "graded": true,
+      "id": "C8",
+      "kind": "consistency",
+      "met": true,
+      "observed": {
+        "avg": [
+          1.1267142857142856,
+          "1.1",
+          true
+        ],
+        "max": [
+          11.1,
+          "11",
+          true
+        ],
+        "min": [
+          0.049,
+          "0.049",
+          true
+        ],
+        "n": [
+          99,
+          99
+        ],
+        "pct": [
+          14,
+          14
+        ],
+        "pos": 14
+      },
+      "text": "R22 rice 2018: n 99, 14% positive, min 0.049, max 11, avg 1.1 (printed)"
+    },
+    {
+      "graded": true,
+      "id": "C9",
+      "kind": "consistency",
+      "met": true,
+      "observed": {
+        "avg": [
+          0.40344444444444444,
+          "0.4",
+          true
+        ],
+        "max": [
+          1.48,
+          "1.5",
+          true
+        ],
+        "min": [
+          0.06,
+          "0.06",
+          true
+        ],
+        "n": [
+          29,
+          29
+        ],
+        "pct": [
+          62,
+          62
+        ],
+        "pos": 18
+      },
+      "text": "R22 wheat 2018: n 29, 62% positive, min 0.06, max 1.5, avg 0.4 (printed)"
+    },
+    {
+      "graded": true,
+      "id": "C10",
+      "kind": "consistency",
+      "met": true,
+      "observed": {
+        "avg": [
+          0.2439891304347826,
+          "0.24",
+          true
+        ],
+        "max": [
+          2.21,
+          "2.2",
+          true
+        ],
+        "min": [
+          0.042,
+          "0.042",
+          true
+        ],
+        "n": [
+          171,
+          171
+        ],
+        "pct": [
+          54,
+          54
+        ],
+        "pos": 92
+      },
+      "text": "R22 grain-based foods 2018: n 171, 54% positive, min 0.042, max 2.2, avg 0.24 (printed)"
+    },
+    {
+      "graded": true,
+      "id": "P1",
+      "kind": "prediction",
+      "met": true,
+      "observed": {
+        "buckwheat": {
+          "avg": 2.906777777777778,
+          "ge_cut": 6,
+          "max": 7.62,
+          "min": 0.06,
+          "n": 23,
+          "pos": 9
+        },
+        "quinoa": {
+          "avg": 1.33,
+          "ge_cut": 2,
+          "max": 5.75,
+          "min": 0.054,
+          "n": 24,
+          "pos": 8
+        }
+      },
+      "text": "Buckwheat Products: maximum matches 7.6, 9-11 positives; Quinoa Products: maximum matches 5.8, 7-8 positives"
+    },
+    {
+      "graded": true,
+      "id": "P2",
+      "kind": "prediction",
+      "met": true,
+      "observed": {
+        "avg": 0.48460000000000003,
+        "ge_cut": 2,
+        "max": 1.24,
+        "min": 0.05,
+        "n": 25,
+        "pos": 10
+      },
+      "text": "the 25 kamut-labelled samples: 9-10 positives, maximum at most 1.25"
+    },
+    {
+      "graded": true,
+      "id": "P3",
+      "kind": "prediction",
+      "met": true,
+      "observed": {
+        "outside": [
+          {
+            "ota": 11.1,
+            "product": "Grain - Rice",
+            "sample": "C2018OCTA00004"
+          }
+        ],
+        "over_3": [
+          {
+            "ota": 11.1,
+            "product": "Grain - Rice",
+            "sample": "C2018OCTA00004"
+          },
+          {
+            "ota": 7.62,
+            "product": "Buckwheat Products",
+            "sample": "C2018OCTA00282"
+          },
+          {
+            "ota": 5.75,
+            "product": "Quinoa Products",
+            "sample": "C2018OCTA00269"
+          },
+          {
+            "ota": 5.68,
+            "product": "Buckwheat Products",
+            "sample": "C2018OCTA00298"
+          },
+          {
+            "ota": 5.35,
+            "product": "Buckwheat Products",
+            "sample": "C2018OCTA00291"
+          },
+          {
+            "ota": 4.34,
+            "product": "Quinoa Products",
+            "sample": "C2018OCTA00255"
+          },
+          {
+            "ota": 3.41,
+            "product": "Buckwheat Products",
+            "sample": "C2018OCTA00296"
+          }
+        ]
+      },
+      "text": "exactly one sample outside the Buckwheat Products and Quinoa Products labels is above 3 ppb, and it is a Grain - Rice sample (CFIA's 99.8% compliance)"
+    },
+    {
+      "graded": true,
+      "id": "P4",
+      "kind": "prediction",
+      "met": true,
+      "observed": {
+        "at_cut": {
+          "Buckwheat Products": [
+            6,
+            17,
+            2,
+            13
+          ],
+          "Crackers": [
+            4,
+            25,
+            2,
+            99
+          ],
+          "Grain - Kamut": [
+            0,
+            1,
+            1,
+            12
+          ],
+          "Kamut Products": [
+            2,
+            22,
+            1,
+            14
+          ],
+          "Pasta - Dry": [
+            0,
+            28,
+            2,
+            60
+          ],
+          "Quinoa Products": [
+            2,
+            22,
+            0,
+            15
+          ],
+          "Rye Products": [
+            1,
+            20,
+            2,
+            24
+          ]
+        },
+        "at_cut_cmh_chi2": 2.108419218866576,
+        "at_cut_cmh_p": 0.1464905736989984,
+        "at_cut_mh_or": 2.09452431164821,
+        "at_cut_pooled": [
+          15,
+          135,
+          10,
+          237
+        ]
+      },
+      "text": "on the 7 shared product labels, at a common 0.8 ppb cut, OTA detection in the OTA-only file does not differ from the multi-mycotoxin file (CMH two-sided p >= 0.05)"
+    },
+    {
+      "graded": true,
+      "id": "P5",
+      "kind": "prediction",
+      "met": false,
+      "observed": {
+        "avg": 0.41209523809523807,
+        "ge_cut": 4,
+        "max": 2.21,
+        "min": 0.047,
+        "n": 29,
+        "pos": 21
+      },
+      "text": "Crackers (29): at least 20 positive, and at most 3 at or above 0.8 ppb"
+    },
+    {
+      "graded": true,
+      "id": "P6",
+      "kind": "prediction",
+      "met": true,
+      "observed": {
+        "ge_cut": 27,
+        "n": 496
+      },
+      "text": "10 to 39 of the 496 samples are at or above 0.8 ppb"
+    }
+  ],
+  "provenance": {
+    "MM": {
+      "bytes": 3484399,
+      "encoding": "cp1252",
+      "resource": "09a3c285-8552-4a38-b4be-cdf6d5fc3fd2",
+      "sha256": "ba5084945f0a0e1fab2b8bab7f8f196a7dd0033d4bdc4e80768f12ec4c553835",
+      "source": "data-volume"
+    },
+    "OG": {
+      "bytes": 139876,
+      "encoding": "utf-8-sig",
+      "resource": "d9d79110-e472-4aec-89ee-e51861f4d88d",
+      "sha256": "36dde7d7438fc50d43a22635a5e09deecebd27c301adc24e3e2e2469e7d47403",
+      "source": "data-volume"
+    }
+  },
+  "study": "ota-grain-2018",
+  "version": "0.1.0"
+}

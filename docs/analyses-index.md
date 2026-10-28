@@ -498,8 +498,50 @@ By MV2 of Munim, Inc. Prepared with AI agents. Text CC BY 4.0; code Apache-2.0.
   is found in only 2 of 101 crackers (75% in CFIA's OTA-only survey the same year). Unlike OTA ×
   DON, the DON × fumonisin association survives stratification by product label (pooled OR
   2.42, Mantel-Haenszel 2.48, CMH p 0.0016; within the corn labels 7.5). Recomputed from
-  `data/multimyco_2018_samples.csv` and the sealed record by an independent pinned test. Not a
-  finding about any product or health risk.
+  `data/multimyco_2018_samples.csv` and the sealed record by an independent pinned test. A
+  sealed job later fetched the published files from GitHub and re-ran that test on them: 10 of
+  10 passed (job `multimyco-2018-result-v1`, 2026-10-27). Not a finding about any product or
+  health risk.
+- [multimyco-2018 detail 0.1.0: how CFIA built Table 3's group rows, and the aflatoxin result the open file lacks](multimyco-2018-detail-0.1.0.md) —
+  exploratory, not pre-registered, worked out from a sealed listing of all 722 positive cells.
+  Table 3's multi-analyte rows are per-sample sums: the fumonisin maximum 3,503 = 2,370 + 780 +
+  353 in one corn flour, ergot 664 and HT-2/T-2 98 likewise, and the ergot and HT-2/T-2 rows
+  reproduce exactly. Under the same rule the file's aflatoxin group is 10 samples, total 18.4
+  ppb, maximum 10.0, while Table 3 prints 11 / 30 / 4.4: one result of 29.5–30.5 ppb missing
+  from the open file reproduces all three printed figures. The zearalenone (34 / 44) and DON
+  (282) gaps stay unexplained. Rebuilt from `data/multimyco_2018_positives.csv` by a pinned
+  test; a sealed job later fetched the published files from GitHub and re-ran it: 8 of 8 passed
+  (job `multimyco-2018-detail-v1`, 2026-10-28).
+
+## Ochratoxin A in grain foods: CFIA 2018-19, and two CFIA methods compared
+
+- [CFIA's 2018-19 ochratoxin A grain survey: what its two reports and the file's labels say (ota-grain-2018-report-check 0.1.0)](ota-grain-2018-report-check-0.1.0.md) —
+  written before any result value in the open file (496 samples) was read. The survey report
+  says 495 samples and its Table 2 positives add up to 219; its own Table 5 gives rice 14
+  positives where Table 2 gives 13; CFIA's later "Ochratoxin A in Selected Foods" report
+  reprints the survey as five 2018 rows that add up to 496 and are exactly the file's product
+  labels; Table 4 prints an oat average (2.6 ppb) above its maximum (1.6); and the headline
+  "45%" follows from no count. CFIA's same-year multi-mycotoxin survey found OTA in 2 of 101
+  crackers where this one found 75%, with a ~20-fold difference in the smallest result.
+- [Pre-registration: CFIA's open 2018-19 ochratoxin A grain file against its two reports, and against the multi-mycotoxin survey at a common cut (ota-grain-2018 0.1.0)](ota-grain-2018-0.1.0-prereg.md) —
+  public at tag `v0.4.67` before grading: a gate (including a new value rule, because this
+  file writes non-detects as text), ten consistency checks against every report row the labels
+  identify, and six blind predictions. The new part, P4: on the seven product labels both
+  files share, read at the multi-mycotoxin method's 0.8 ppb limit, the two methods' OTA
+  detection does not differ (CMH p ≥ 0.05). Grading code `ota_grain_2018.py` is committed with it.
+- [ota-grain-2018 0.1.0: result](ota-grain-2018-0.1.0-result.md) — gate passed, 16 of 17 met
+  (all ten consistency checks; five of six predictions). The file settles the report's
+  contradictions: 496 samples, rice 14 positives, oat average 0.26, and 220 of 496 (44.4%)
+  positive, so "45%" comes from no count. On the seven shared labels the OTA-only file detects
+  OTA in 82 of 150 samples against the multi-mycotoxin file's 10 of 247 (Mantel-Haenszel OR
+  26.0). At a common 0.8 ppb cut the OTA-only file has 15 of 150 and the OR falls to **2.09**
+  (CMH p 0.146; P4 held), so most of the cracker gap is a reporting-limit effect. But the 95%
+  interval is 0.86–5.08, and crackers alone still differ at the cut (4 of 29 against 2 of 101;
+  P5 missed, with two of the four within 0.06 ppb of the cut). Exploratory: the report's grain
+  rows gain exactly the 7 samples and 5 positives its wheat row lacks, and its 495 is the file
+  minus one rice sample with no OTA. Recomputed from `data/ota_grain_2018_samples.csv` and
+  `data/ota_grain_2018_crossmethod.csv` by an independent pinned test. Not a finding about any
+  product or health risk; Health Canada's OTA levels for these foods are proposed, not in force.
 
 ## Alternaria toxins: CFIA 2014-2022, and the EU's indicative levels
 
@@ -528,8 +570,10 @@ By MV2 of Munim, Inc. Prepared with AI agents. Text CC BY 4.0; code Apache-2.0.
   the indicative levels; no sunflower seed (0 of 51) and no tomato product (0 of 200) does.
   AME carries 61% of the toxin mass in sunflower products and AOH 75% in fruit products.
   Recomputed from `data/alternaria_samples.csv` and the sealed record by an independent pinned
-  test. A reference comparison (EU indicative levels trigger investigation; Canada sets no
-  limit), not a finding about any product or health risk.
+  test. A sealed job later fetched the published files from GitHub and re-ran that test on
+  them: 13 of 13 passed (job `alternaria-result-v1`, 2026-10-27). A reference comparison (EU
+  indicative levels trigger investigation; Canada sets no limit), not a finding about any
+  product or health risk.
 
 ## The screen's second target: Sudan dyes
 
