@@ -132,6 +132,14 @@ By MV2 of Munim, Inc. Prepared with AI agents. Text CC BY 4.0; code Apache-2.0.
   in US-bought spices, and the purchase field is going unrecorded.
 - [Which chromate-like spices to confirm first](speciation-candidates-0.1.0.md) — the
   three Cr(VI) speciation candidates listed above, written for a lab or health department.
+- [Reading CFIA's mycotoxin detection rates: the reporting limit decides the number](reading-cfia-detection-rates-0.1.0.md) —
+  a one-page CC BY note for anyone comparing "percent detected" across CFIA surveys. Five
+  cases from CFIA's own files (infant-cereal DON 123 vs 13 under two limits; OTA odds ratio
+  26.0 → 2.09 and DON 6.44 → 1.28 at a common cut; feed detection jumps that coincide with
+  limit changes; a non-detect written as the bare limit) and a seven-point checklist: find
+  each limit, re-cut at the higher one, compare within product labels, give an interval,
+  check non-detect coding, check which mean an average is, and look for limit changes before
+  reading a trend.
 
 ## A second source: FDA's border list
 
@@ -540,8 +548,38 @@ By MV2 of Munim, Inc. Prepared with AI agents. Text CC BY 4.0; code Apache-2.0.
   P5 missed, with two of the four within 0.06 ppb of the cut). Exploratory: the report's grain
   rows gain exactly the 7 samples and 5 positives its wheat row lacks, and its 495 is the file
   minus one rice sample with no OTA. Recomputed from `data/ota_grain_2018_samples.csv` and
-  `data/ota_grain_2018_crossmethod.csv` by an independent pinned test. Not a finding about any
-  product or health risk; Health Canada's OTA levels for these foods are proposed, not in force.
+  `data/ota_grain_2018_crossmethod.csv` by an independent pinned test. A sealed job later
+  fetched the published files from GitHub and re-ran that test on them: 19 of 19 passed (job
+  `ota-grain-2018-result-v1`, 2026-10-28). Not a finding about any product or health risk;
+  Health Canada's OTA levels for these foods are proposed, not in force.
+
+## Deoxynivalenol in grains, pseudo-cereals and pulses: CFIA 2015-16
+
+- [Pre-registration: CFIA's open 2015-16 deoxynivalenol file for grains, pseudo-cereals and pulses, and a second look at two CFIA methods (don-grains-2015 0.1.0)](don-grains-2015-0.1.0-prereg.md) —
+  public at tag `v0.4.69` before any result value in the file (997 samples) was read. CFIA's
+  only public report is a summary page (997 products, 46% detected); the full report is on
+  request. A gate on census facts, one consistency check, four blind predictions on where DON
+  sits (pulses and soy, small grains against pseudo-cereals, the maximum), one reference count
+  against the EU's 2024 DON levels, and two on the 18 product labels shared with the 2018-19
+  multi-mycotoxin file: the DON-only method detects more at its own limit, and at a common
+  10 ppb cut the within-label odds ratio lies in [0.5, 2.0]. Grading code `don_grains_2015.py`
+  is committed with it.
+- [don-grains-2015 0.1.0: result](don-grains-2015-0.1.0-result.md) — gate passed, 7 of 9 met.
+  The file reproduces the summary page (457 of 997 = 45.8%), but 243 of those positives are
+  below 10 ppb (smallest 0.412), so at the multi-mycotoxin method's limit the survey detects
+  DON in 214 of 997 (21%). On the 18 shared labels the within-label odds ratio is 6.44 at each
+  method's own limit and **1.28** at 10 ppb (CMH p 0.237; RBG 95% interval 0.87–1.90): across
+  three crop years, the two CFIA methods agree once read at the same limit (P6, P7 held).
+  Small grains are positive in 86.1% against 15.1% for pseudo-cereals (P2, P3 held), and 9 of
+  802 grain-type samples reach the EU's 750 ppb level and 30 its 400 ppb level, all small
+  grains (P5 held). P1 missed by one sample (29 of 189 pulse and soy samples positive, at most
+  33.8 ppb). P4 missed on its level: the maximum is a rye at 5,720 ppb, and all four results
+  above 2,000 ppb are rye. Exploratory: every small-grain result at or above 400 ppb is
+  Canadian (24) or of unknown origin (6); none of 119 imported small grains reaches 400 ppb.
+  Recomputed from `data/don_grains_2015_samples.csv` and
+  `data/don_grains_2015_crossmethod.csv` by an independent pinned test. A reference
+  comparison (Canada sets no DON maximum level for these foods), not a finding about any
+  product or health risk.
 
 ## Alternaria toxins: CFIA 2014-2022, and the EU's indicative levels
 

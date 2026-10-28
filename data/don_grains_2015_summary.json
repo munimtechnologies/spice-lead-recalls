@@ -1,0 +1,1801 @@
+{
+  "analysis": {
+    "by_function": {
+      "OG|Domestic": {
+        "avg": 10.981875,
+        "below_cut": 11,
+        "ge_400": 0,
+        "ge_750": 0,
+        "ge_cut": 5,
+        "max": 57.4,
+        "median": 3.3200000000000003,
+        "min": 0.9,
+        "n": 25,
+        "pos": 16,
+        "rate": 0.64
+      },
+      "OG|Import": {
+        "avg": 6.089173913043478,
+        "below_cut": 39,
+        "ge_400": 0,
+        "ge_750": 0,
+        "ge_cut": 7,
+        "max": 55.8,
+        "median": 2.3499999999999996,
+        "min": 0.412,
+        "n": 110,
+        "pos": 46,
+        "rate": 0.41818181818181815
+      },
+      "OG|Unknown": {
+        "avg": 2.850761904761905,
+        "below_cut": 21,
+        "ge_400": 0,
+        "ge_750": 0,
+        "ge_cut": 0,
+        "max": 8.38,
+        "median": 2.42,
+        "min": 0.526,
+        "n": 62,
+        "pos": 21,
+        "rate": 0.3387096774193548
+      },
+      "PS|Domestic": {
+        "avg": 8.041,
+        "below_cut": 6,
+        "ge_400": 0,
+        "ge_750": 0,
+        "ge_cut": 4,
+        "max": 18.7,
+        "median": 7.859999999999999,
+        "min": 1.2,
+        "n": 27,
+        "pos": 10,
+        "rate": 0.37037037037037035
+      },
+      "PS|Import": {
+        "avg": 3.1894117647058824,
+        "below_cut": 17,
+        "ge_400": 0,
+        "ge_750": 0,
+        "ge_cut": 0,
+        "max": 7.8,
+        "median": 2.5,
+        "min": 0.7,
+        "n": 114,
+        "pos": 17,
+        "rate": 0.14912280701754385
+      },
+      "PS|Unknown": {
+        "avg": 1.7254545454545456,
+        "below_cut": 11,
+        "ge_400": 0,
+        "ge_750": 0,
+        "ge_cut": 0,
+        "max": 4.4,
+        "median": 1.25,
+        "min": 0.6,
+        "n": 111,
+        "pos": 11,
+        "rate": 0.0990990990990991
+      },
+      "SG|Domestic": {
+        "avg": 292.18451612903226,
+        "below_cut": 18,
+        "ge_400": 24,
+        "ge_750": 8,
+        "ge_cut": 106,
+        "max": 5720.0,
+        "median": 76.25,
+        "min": 0.9,
+        "n": 129,
+        "pos": 124,
+        "rate": 0.9612403100775194
+      },
+      "SG|Import": {
+        "avg": 15.142474226804124,
+        "below_cut": 56,
+        "ge_400": 0,
+        "ge_750": 0,
+        "ge_cut": 41,
+        "max": 130.0,
+        "median": 6.6,
+        "min": 0.5,
+        "n": 119,
+        "pos": 97,
+        "rate": 0.8151260504201681
+      },
+      "SG|Unknown": {
+        "avg": 108.25197590361446,
+        "below_cut": 42,
+        "ge_400": 6,
+        "ge_750": 1,
+        "ge_cut": 41,
+        "max": 3010.0,
+        "median": 9.5,
+        "min": 0.824,
+        "n": 105,
+        "pos": 83,
+        "rate": 0.7904761904761904
+      }
+    },
+    "cross": {
+      "at_cut": {
+        "Amaranth Products": [
+          0,
+          41,
+          0,
+          14
+        ],
+        "Arrowroot Products": [
+          0,
+          39,
+          0,
+          15
+        ],
+        "Barley Products": [
+          19,
+          27,
+          3,
+          11
+        ],
+        "Buckwheat Products": [
+          3,
+          43,
+          1,
+          14
+        ],
+        "Grain - Barley": [
+          41,
+          10,
+          23,
+          13
+        ],
+        "Grain - Buckwheat": [
+          1,
+          43,
+          2,
+          12
+        ],
+        "Grain - Kamut": [
+          27,
+          25,
+          3,
+          10
+        ],
+        "Grain - Other": [
+          3,
+          42,
+          1,
+          14
+        ],
+        "Grain - Quinoa": [
+          0,
+          45,
+          1,
+          27
+        ],
+        "Grain - Rye": [
+          22,
+          22,
+          1,
+          1
+        ],
+        "Kamut Products": [
+          6,
+          35,
+          5,
+          10
+        ],
+        "Millet": [
+          0,
+          45,
+          3,
+          12
+        ],
+        "Millet Products": [
+          5,
+          34,
+          1,
+          13
+        ],
+        "Quinoa Products": [
+          0,
+          37,
+          1,
+          14
+        ],
+        "Rye Products": [
+          25,
+          15,
+          16,
+          10
+        ],
+        "Spelt": [
+          23,
+          21,
+          2,
+          3
+        ],
+        "Spelt Products": [
+          21,
+          8,
+          12,
+          13
+        ],
+        "Teff Products": [
+          0,
+          26,
+          0,
+          16
+        ]
+      },
+      "at_cut_cmh_chi2": 1.3979476034913703,
+      "at_cut_cmh_p": 0.23706751113644614,
+      "at_cut_mh_or": 1.2827710917388457,
+      "at_cut_pooled": [
+        196,
+        558,
+        75,
+        222
+      ],
+      "cut_ppb": 10.0,
+      "labels": [
+        "Amaranth Products",
+        "Arrowroot Products",
+        "Barley Products",
+        "Buckwheat Products",
+        "Grain - Barley",
+        "Grain - Buckwheat",
+        "Grain - Kamut",
+        "Grain - Other",
+        "Grain - Quinoa",
+        "Grain - Rye",
+        "Kamut Products",
+        "Millet",
+        "Millet Products",
+        "Quinoa Products",
+        "Rye Products",
+        "Spelt",
+        "Spelt Products",
+        "Teff Products"
+      ],
+      "own_cmh_chi2": 98.16098340577959,
+      "own_cmh_p": 3.857154025719043e-23,
+      "own_limits": {
+        "Amaranth Products": [
+          3,
+          38,
+          0,
+          14
+        ],
+        "Arrowroot Products": [
+          0,
+          39,
+          0,
+          15
+        ],
+        "Barley Products": [
+          39,
+          7,
+          3,
+          11
+        ],
+        "Buckwheat Products": [
+          22,
+          24,
+          1,
+          14
+        ],
+        "Grain - Barley": [
+          46,
+          5,
+          23,
+          13
+        ],
+        "Grain - Buckwheat": [
+          9,
+          35,
+          2,
+          12
+        ],
+        "Grain - Kamut": [
+          50,
+          2,
+          3,
+          10
+        ],
+        "Grain - Other": [
+          18,
+          27,
+          1,
+          14
+        ],
+        "Grain - Quinoa": [
+          4,
+          41,
+          1,
+          27
+        ],
+        "Grain - Rye": [
+          36,
+          8,
+          1,
+          1
+        ],
+        "Kamut Products": [
+          32,
+          9,
+          5,
+          10
+        ],
+        "Millet": [
+          23,
+          22,
+          3,
+          12
+        ],
+        "Millet Products": [
+          15,
+          24,
+          1,
+          13
+        ],
+        "Quinoa Products": [
+          0,
+          37,
+          1,
+          14
+        ],
+        "Rye Products": [
+          31,
+          9,
+          16,
+          10
+        ],
+        "Spelt": [
+          38,
+          6,
+          2,
+          3
+        ],
+        "Spelt Products": [
+          27,
+          2,
+          12,
+          13
+        ],
+        "Teff Products": [
+          11,
+          15,
+          0,
+          16
+        ]
+      },
+      "own_mh_or": 6.440976317522663,
+      "own_pooled": [
+        404,
+        350,
+        75,
+        222
+      ]
+    },
+    "grains": {
+      "avg": 111.42094588235294,
+      "below_cut": 221,
+      "ge_400": 30,
+      "ge_750": 9,
+      "ge_cut": 204,
+      "max": 5720.0,
+      "median": 8.4,
+      "min": 0.412,
+      "n": 802,
+      "pos": 425,
+      "rate": 0.529925187032419
+    },
+    "groups": {
+      "MA": {
+        "avg": 13.799999999999999,
+        "below_cut": 1,
+        "ge_400": 0,
+        "ge_750": 0,
+        "ge_cut": 2,
+        "max": 22.0,
+        "median": 16.5,
+        "min": 2.9,
+        "n": 6,
+        "pos": 3,
+        "rate": 0.5
+      },
+      "OG": {
+        "avg": 6.212987951807229,
+        "below_cut": 71,
+        "ge_400": 0,
+        "ge_750": 0,
+        "ge_cut": 12,
+        "max": 57.4,
+        "median": 2.55,
+        "min": 0.412,
+        "n": 197,
+        "pos": 83,
+        "rate": 0.4213197969543147
+      },
+      "PS": {
+        "avg": 4.042368421052632,
+        "below_cut": 34,
+        "ge_400": 0,
+        "ge_750": 0,
+        "ge_cut": 4,
+        "max": 18.7,
+        "median": 2.35,
+        "min": 0.6,
+        "n": 252,
+        "pos": 38,
+        "rate": 0.15079365079365079
+      },
+      "PU": {
+        "avg": 6.002068965517242,
+        "below_cut": 21,
+        "ge_400": 0,
+        "ge_750": 0,
+        "ge_cut": 8,
+        "max": 33.8,
+        "median": 2.41,
+        "min": 0.6,
+        "n": 189,
+        "pos": 29,
+        "rate": 0.15343915343915343
+      },
+      "SG": {
+        "avg": 153.56780921052632,
+        "below_cut": 116,
+        "ge_400": 30,
+        "ge_750": 9,
+        "ge_cut": 188,
+        "max": 5720.0,
+        "median": 17.25,
+        "min": 0.5,
+        "n": 353,
+        "pos": 304,
+        "rate": 0.8611898016997167
+      }
+    },
+    "labels": {
+      "Amaranth Products": {
+        "avg": 1.0466666666666666,
+        "below_cut": 3,
+        "ge_400": 0,
+        "ge_750": 0,
+        "ge_cut": 0,
+        "max": 1.25,
+        "median": 1.19,
+        "min": 0.7,
+        "n": 41,
+        "pos": 3,
+        "rate": 0.07317073170731707
+      },
+      "Arrowroot Products": {
+        "avg": null,
+        "below_cut": 0,
+        "ge_400": 0,
+        "ge_750": 0,
+        "ge_cut": 0,
+        "max": null,
+        "median": null,
+        "min": null,
+        "n": 39,
+        "pos": 0,
+        "rate": 0.0
+      },
+      "Barley Products": {
+        "avg": 77.32717948717948,
+        "below_cut": 20,
+        "ge_400": 3,
+        "ge_750": 0,
+        "ge_cut": 19,
+        "max": 546.0,
+        "median": 6.33,
+        "min": 0.6,
+        "n": 46,
+        "pos": 39,
+        "rate": 0.8478260869565217
+      },
+      "Bean - Black": {
+        "avg": null,
+        "below_cut": 0,
+        "ge_400": 0,
+        "ge_750": 0,
+        "ge_cut": 0,
+        "max": null,
+        "median": null,
+        "min": null,
+        "n": 8,
+        "pos": 0,
+        "rate": 0.0
+      },
+      "Bean - Fava": {
+        "avg": 1.9,
+        "below_cut": 1,
+        "ge_400": 0,
+        "ge_750": 0,
+        "ge_cut": 0,
+        "max": 1.9,
+        "median": 1.9,
+        "min": 1.9,
+        "n": 8,
+        "pos": 1,
+        "rate": 0.125
+      },
+      "Bean - Kidney": {
+        "avg": 13.633333333333333,
+        "below_cut": 2,
+        "ge_400": 0,
+        "ge_750": 0,
+        "ge_cut": 1,
+        "max": 33.8,
+        "median": 6.3,
+        "min": 0.8,
+        "n": 8,
+        "pos": 3,
+        "rate": 0.375
+      },
+      "Bean - Lima": {
+        "avg": 2.0,
+        "below_cut": 1,
+        "ge_400": 0,
+        "ge_750": 0,
+        "ge_cut": 0,
+        "max": 2.0,
+        "median": 2.0,
+        "min": 2.0,
+        "n": 8,
+        "pos": 1,
+        "rate": 0.125
+      },
+      "Bean - Other": {
+        "avg": 5.576666666666667,
+        "below_cut": 2,
+        "ge_400": 0,
+        "ge_750": 0,
+        "ge_cut": 1,
+        "max": 10.8,
+        "median": 5.13,
+        "min": 0.8,
+        "n": 12,
+        "pos": 3,
+        "rate": 0.25
+      },
+      "Bean - Pinto": {
+        "avg": 14.8,
+        "below_cut": 0,
+        "ge_400": 0,
+        "ge_750": 0,
+        "ge_cut": 1,
+        "max": 14.8,
+        "median": 14.8,
+        "min": 14.8,
+        "n": 8,
+        "pos": 1,
+        "rate": 0.125
+      },
+      "Bean - Soy": {
+        "avg": null,
+        "below_cut": 0,
+        "ge_400": 0,
+        "ge_750": 0,
+        "ge_cut": 0,
+        "max": null,
+        "median": null,
+        "min": null,
+        "n": 8,
+        "pos": 0,
+        "rate": 0.0
+      },
+      "Bean Products": {
+        "avg": null,
+        "below_cut": 0,
+        "ge_400": 0,
+        "ge_750": 0,
+        "ge_cut": 0,
+        "max": null,
+        "median": null,
+        "min": null,
+        "n": 8,
+        "pos": 0,
+        "rate": 0.0
+      },
+      "Beverage - Soy": {
+        "avg": 0.6,
+        "below_cut": 1,
+        "ge_400": 0,
+        "ge_750": 0,
+        "ge_cut": 0,
+        "max": 0.6,
+        "median": 0.6,
+        "min": 0.6,
+        "n": 8,
+        "pos": 1,
+        "rate": 0.125
+      },
+      "Buckwheat Products": {
+        "avg": 4.574090909090909,
+        "below_cut": 19,
+        "ge_400": 0,
+        "ge_750": 0,
+        "ge_cut": 3,
+        "max": 13.5,
+        "median": 2.7800000000000002,
+        "min": 0.6,
+        "n": 46,
+        "pos": 22,
+        "rate": 0.4782608695652174
+      },
+      "Chickpea": {
+        "avg": null,
+        "below_cut": 0,
+        "ge_400": 0,
+        "ge_750": 0,
+        "ge_cut": 0,
+        "max": null,
+        "median": null,
+        "min": null,
+        "n": 8,
+        "pos": 0,
+        "rate": 0.0
+      },
+      "Chickpea Products": {
+        "avg": 0.8,
+        "below_cut": 1,
+        "ge_400": 0,
+        "ge_750": 0,
+        "ge_cut": 0,
+        "max": 0.8,
+        "median": 0.8,
+        "min": 0.8,
+        "n": 8,
+        "pos": 1,
+        "rate": 0.125
+      },
+      "Flour - Bean": {
+        "avg": 1.3,
+        "below_cut": 1,
+        "ge_400": 0,
+        "ge_750": 0,
+        "ge_cut": 0,
+        "max": 1.3,
+        "median": 1.3,
+        "min": 1.3,
+        "n": 8,
+        "pos": 1,
+        "rate": 0.125
+      },
+      "Flour - Chickpea": {
+        "avg": null,
+        "below_cut": 0,
+        "ge_400": 0,
+        "ge_750": 0,
+        "ge_cut": 0,
+        "max": null,
+        "median": null,
+        "min": null,
+        "n": 8,
+        "pos": 0,
+        "rate": 0.0
+      },
+      "Flour - Lentil": {
+        "avg": 0.9,
+        "below_cut": 1,
+        "ge_400": 0,
+        "ge_750": 0,
+        "ge_cut": 0,
+        "max": 0.9,
+        "median": 0.9,
+        "min": 0.9,
+        "n": 8,
+        "pos": 1,
+        "rate": 0.125
+      },
+      "Flour - Other": {
+        "avg": 9.513125,
+        "below_cut": 12,
+        "ge_400": 0,
+        "ge_750": 0,
+        "ge_cut": 4,
+        "max": 57.4,
+        "median": 3.42,
+        "min": 1.0,
+        "n": 42,
+        "pos": 16,
+        "rate": 0.38095238095238093
+      },
+      "Flour - Pea": {
+        "avg": null,
+        "below_cut": 0,
+        "ge_400": 0,
+        "ge_750": 0,
+        "ge_cut": 0,
+        "max": null,
+        "median": null,
+        "min": null,
+        "n": 8,
+        "pos": 0,
+        "rate": 0.0
+      },
+      "Flour - Soy": {
+        "avg": 11.5,
+        "below_cut": 0,
+        "ge_400": 0,
+        "ge_750": 0,
+        "ge_cut": 2,
+        "max": 12.4,
+        "median": 11.5,
+        "min": 10.6,
+        "n": 8,
+        "pos": 2,
+        "rate": 0.25
+      },
+      "Flour - rye": {
+        "avg": 305.366,
+        "below_cut": 1,
+        "ge_400": 3,
+        "ge_750": 0,
+        "ge_cut": 4,
+        "max": 695.0,
+        "median": 401.0,
+        "min": 3.63,
+        "n": 6,
+        "pos": 5,
+        "rate": 0.8333333333333334
+      },
+      "Grain - Barley": {
+        "avg": 167.1854347826087,
+        "below_cut": 5,
+        "ge_400": 5,
+        "ge_750": 1,
+        "ge_cut": 41,
+        "max": 794.5,
+        "median": 88.35,
+        "min": 1.0,
+        "n": 51,
+        "pos": 46,
+        "rate": 0.9019607843137255
+      },
+      "Grain - Buckwheat": {
+        "avg": 3.816666666666667,
+        "below_cut": 8,
+        "ge_400": 0,
+        "ge_750": 0,
+        "ge_cut": 1,
+        "max": 18.7,
+        "median": 1.32,
+        "min": 0.7,
+        "n": 44,
+        "pos": 9,
+        "rate": 0.20454545454545456
+      },
+      "Grain - Kamut": {
+        "avg": 37.9914,
+        "below_cut": 23,
+        "ge_400": 0,
+        "ge_750": 0,
+        "ge_cut": 27,
+        "max": 266.0,
+        "median": 19.5,
+        "min": 1.44,
+        "n": 52,
+        "pos": 50,
+        "rate": 0.9615384615384616
+      },
+      "Grain - Other": {
+        "avg": 6.9944444444444445,
+        "below_cut": 15,
+        "ge_400": 0,
+        "ge_750": 0,
+        "ge_cut": 3,
+        "max": 44.5,
+        "median": 2.8499999999999996,
+        "min": 0.7,
+        "n": 45,
+        "pos": 18,
+        "rate": 0.4
+      },
+      "Grain - Quinoa": {
+        "avg": 3.8725,
+        "below_cut": 4,
+        "ge_400": 0,
+        "ge_750": 0,
+        "ge_cut": 0,
+        "max": 9.02,
+        "median": 2.885,
+        "min": 0.7,
+        "n": 45,
+        "pos": 4,
+        "rate": 0.08888888888888889
+      },
+      "Grain - Rye": {
+        "avg": 408.3905555555555,
+        "below_cut": 14,
+        "ge_400": 6,
+        "ge_750": 3,
+        "ge_cut": 22,
+        "max": 5720.0,
+        "median": 15.55,
+        "min": 0.5,
+        "n": 44,
+        "pos": 36,
+        "rate": 0.8181818181818182
+      },
+      "Infant Formula - Soy": {
+        "avg": 5.4625,
+        "below_cut": 3,
+        "ge_400": 0,
+        "ge_750": 0,
+        "ge_cut": 1,
+        "max": 13.3,
+        "median": 3.5,
+        "min": 1.55,
+        "n": 8,
+        "pos": 4,
+        "rate": 0.5
+      },
+      "Kamut Products": {
+        "avg": 23.6835625,
+        "below_cut": 26,
+        "ge_400": 1,
+        "ge_750": 0,
+        "ge_cut": 6,
+        "max": 519.0,
+        "median": 3.4,
+        "min": 0.824,
+        "n": 41,
+        "pos": 32,
+        "rate": 0.7804878048780488
+      },
+      "Lentil": {
+        "avg": 4.242,
+        "below_cut": 4,
+        "ge_400": 0,
+        "ge_750": 0,
+        "ge_cut": 1,
+        "max": 15.5,
+        "median": 1.9,
+        "min": 0.6,
+        "n": 8,
+        "pos": 5,
+        "rate": 0.625
+      },
+      "Lentil Products": {
+        "avg": 4.5,
+        "below_cut": 1,
+        "ge_400": 0,
+        "ge_750": 0,
+        "ge_cut": 0,
+        "max": 4.5,
+        "median": 4.5,
+        "min": 4.5,
+        "n": 8,
+        "pos": 1,
+        "rate": 0.125
+      },
+      "Meat Alternative": {
+        "avg": 13.799999999999999,
+        "below_cut": 1,
+        "ge_400": 0,
+        "ge_750": 0,
+        "ge_cut": 2,
+        "max": 22.0,
+        "median": 16.5,
+        "min": 2.9,
+        "n": 6,
+        "pos": 3,
+        "rate": 0.5
+      },
+      "Millet": {
+        "avg": 2.700086956521739,
+        "below_cut": 23,
+        "ge_400": 0,
+        "ge_750": 0,
+        "ge_cut": 0,
+        "max": 8.38,
+        "median": 2.27,
+        "min": 0.412,
+        "n": 45,
+        "pos": 23,
+        "rate": 0.5111111111111111
+      },
+      "Millet Products": {
+        "avg": 10.553333333333335,
+        "below_cut": 10,
+        "ge_400": 0,
+        "ge_750": 0,
+        "ge_cut": 5,
+        "max": 55.8,
+        "median": 4.96,
+        "min": 0.8,
+        "n": 39,
+        "pos": 15,
+        "rate": 0.38461538461538464
+      },
+      "Pea": {
+        "avg": 1.1,
+        "below_cut": 1,
+        "ge_400": 0,
+        "ge_750": 0,
+        "ge_cut": 0,
+        "max": 1.1,
+        "median": 1.1,
+        "min": 1.1,
+        "n": 8,
+        "pos": 1,
+        "rate": 0.125
+      },
+      "Pea Products": {
+        "avg": 5.77,
+        "below_cut": 1,
+        "ge_400": 0,
+        "ge_750": 0,
+        "ge_cut": 0,
+        "max": 5.77,
+        "median": 5.77,
+        "min": 5.77,
+        "n": 8,
+        "pos": 1,
+        "rate": 0.125
+      },
+      "Quinoa Products": {
+        "avg": null,
+        "below_cut": 0,
+        "ge_400": 0,
+        "ge_750": 0,
+        "ge_cut": 0,
+        "max": null,
+        "median": null,
+        "min": null,
+        "n": 37,
+        "pos": 0,
+        "rate": 0.0
+      },
+      "Rye Products": {
+        "avg": 331.6629032258064,
+        "below_cut": 6,
+        "ge_400": 5,
+        "ge_750": 2,
+        "ge_cut": 25,
+        "max": 3330.0,
+        "median": 26.5,
+        "min": 0.7,
+        "n": 40,
+        "pos": 31,
+        "rate": 0.775
+      },
+      "Soy Products": {
+        "avg": 8.35,
+        "below_cut": 1,
+        "ge_400": 0,
+        "ge_750": 0,
+        "ge_cut": 1,
+        "max": 15.2,
+        "median": 8.35,
+        "min": 1.5,
+        "n": 8,
+        "pos": 2,
+        "rate": 0.25
+      },
+      "Spelt": {
+        "avg": 92.27105263157895,
+        "below_cut": 15,
+        "ge_400": 4,
+        "ge_750": 2,
+        "ge_cut": 23,
+        "max": 904.0,
+        "median": 11.55,
+        "min": 1.2,
+        "n": 44,
+        "pos": 38,
+        "rate": 0.8636363636363636
+      },
+      "Spelt Products": {
+        "avg": 122.37555555555555,
+        "below_cut": 6,
+        "ge_400": 3,
+        "ge_750": 1,
+        "ge_cut": 21,
+        "max": 833.5,
+        "median": 19.7,
+        "min": 1.89,
+        "n": 29,
+        "pos": 27,
+        "rate": 0.9310344827586207
+      },
+      "Teff Products": {
+        "avg": 1.5605454545454547,
+        "below_cut": 11,
+        "ge_400": 0,
+        "ge_750": 0,
+        "ge_cut": 0,
+        "max": 3.0,
+        "median": 1.5,
+        "min": 0.526,
+        "n": 26,
+        "pos": 11,
+        "rate": 0.4230769230769231
+      },
+      "Tofu": {
+        "avg": null,
+        "below_cut": 0,
+        "ge_400": 0,
+        "ge_750": 0,
+        "ge_cut": 0,
+        "max": null,
+        "median": null,
+        "min": null,
+        "n": 9,
+        "pos": 0,
+        "rate": 0.0
+      }
+    },
+    "max_sample": {
+      "don": 5720.0,
+      "group": "SG",
+      "product": "Grain - Rye",
+      "sample": "C2015DEOV00249"
+    },
+    "overall": {
+      "avg": 104.09050765864333,
+      "below_cut": 243,
+      "ge_400": 30,
+      "ge_750": 9,
+      "ge_cut": 214,
+      "max": 5720.0,
+      "median": 7.8,
+      "min": 0.412,
+      "n": 997,
+      "pos": 457,
+      "rate": 0.4583751253761284
+    },
+    "pulses_positive": [
+      {
+        "don": 33.8,
+        "product": "Bean - Kidney",
+        "sample": "C2015DEOV00772"
+      },
+      {
+        "don": 15.5,
+        "product": "Lentil",
+        "sample": "C2015DEOV00617"
+      },
+      {
+        "don": 15.2,
+        "product": "Soy Products",
+        "sample": "C2015DEOV00443"
+      },
+      {
+        "don": 14.8,
+        "product": "Bean - Pinto",
+        "sample": "C2015DEOV00221"
+      },
+      {
+        "don": 13.3,
+        "product": "Infant Formula - Soy",
+        "sample": "C2015DEOV00865"
+      },
+      {
+        "don": 12.4,
+        "product": "Flour - Soy",
+        "sample": "C2015DEOV00913"
+      },
+      {
+        "don": 10.8,
+        "product": "Bean - Other",
+        "sample": "C2015DEOV00739"
+      },
+      {
+        "don": 10.6,
+        "product": "Flour - Soy",
+        "sample": "C2015DEOV00674"
+      },
+      {
+        "don": 6.3,
+        "product": "Bean - Kidney",
+        "sample": "C2015DEOV00282"
+      },
+      {
+        "don": 5.77,
+        "product": "Pea Products",
+        "sample": "C2015DEOV00709"
+      },
+      {
+        "don": 5.13,
+        "product": "Bean - Other",
+        "sample": "C2015DEOV00041"
+      },
+      {
+        "don": 4.5,
+        "product": "Lentil Products",
+        "sample": "C2015DEOV00864"
+      },
+      {
+        "don": 4.3,
+        "product": "Infant Formula - Soy",
+        "sample": "C2015DEOV00552"
+      },
+      {
+        "don": 2.7,
+        "product": "Infant Formula - Soy",
+        "sample": "C2015DEOV00810"
+      },
+      {
+        "don": 2.41,
+        "product": "Lentil",
+        "sample": "C2015DEOV00795"
+      },
+      {
+        "don": 2.0,
+        "product": "Bean - Lima",
+        "sample": "C2015DEOV00954"
+      },
+      {
+        "don": 1.9,
+        "product": "Bean - Fava",
+        "sample": "C2015DEOV00517"
+      },
+      {
+        "don": 1.9,
+        "product": "Lentil",
+        "sample": "C2015DEOV00673"
+      },
+      {
+        "don": 1.55,
+        "product": "Infant Formula - Soy",
+        "sample": "C2015DEOV00797"
+      },
+      {
+        "don": 1.5,
+        "product": "Soy Products",
+        "sample": "C2015DEOV00257"
+      },
+      {
+        "don": 1.3,
+        "product": "Flour - Bean",
+        "sample": "C2015DEOV00252"
+      },
+      {
+        "don": 1.1,
+        "product": "Pea",
+        "sample": "C2015DEOV00637"
+      },
+      {
+        "don": 0.9,
+        "product": "Flour - Lentil",
+        "sample": "C2015DEOV00958"
+      },
+      {
+        "don": 0.8,
+        "product": "Lentil",
+        "sample": "C2015DEOV00188"
+      },
+      {
+        "don": 0.8,
+        "product": "Bean - Other",
+        "sample": "C2015DEOV00955"
+      },
+      {
+        "don": 0.8,
+        "product": "Bean - Kidney",
+        "sample": "C2015DEOV00518"
+      },
+      {
+        "don": 0.8,
+        "product": "Chickpea Products",
+        "sample": "C2015DEOV00600"
+      },
+      {
+        "don": 0.6,
+        "product": "Beverage - Soy",
+        "sample": "C2015DEOV00352"
+      },
+      {
+        "don": 0.6,
+        "product": "Lentil",
+        "sample": "C2015DEOV00886"
+      }
+    ],
+    "shared_dg": {
+      "avg": 113.0565891089109,
+      "below_cut": 208,
+      "ge_400": 27,
+      "ge_750": 9,
+      "ge_cut": 196,
+      "max": 5720.0,
+      "median": 8.5,
+      "min": 0.412,
+      "n": 754,
+      "pos": 404,
+      "rate": 0.5358090185676393
+    },
+    "top10": [
+      {
+        "don": 5720.0,
+        "group": "SG",
+        "product": "Grain - Rye",
+        "sample": "C2015DEOV00249"
+      },
+      {
+        "don": 4690.0,
+        "group": "SG",
+        "product": "Grain - Rye",
+        "sample": "C2015DEOV00248"
+      },
+      {
+        "don": 3330.0,
+        "group": "SG",
+        "product": "Rye Products",
+        "sample": "C2015DEOV00201"
+      },
+      {
+        "don": 3010.0,
+        "group": "SG",
+        "product": "Rye Products",
+        "sample": "C2015DEOV00165"
+      },
+      {
+        "don": 1110.0,
+        "group": "SG",
+        "product": "Grain - Rye",
+        "sample": "C2015DEOV00308"
+      },
+      {
+        "don": 904.0,
+        "group": "SG",
+        "product": "Spelt",
+        "sample": "C2015DEOV00570"
+      },
+      {
+        "don": 833.5,
+        "group": "SG",
+        "product": "Spelt Products",
+        "sample": "C2015DEOV00484"
+      },
+      {
+        "don": 794.5,
+        "group": "SG",
+        "product": "Grain - Barley",
+        "sample": "C2015DEOV00336"
+      },
+      {
+        "don": 777.0,
+        "group": "SG",
+        "product": "Spelt",
+        "sample": "C2015DEOV00573"
+      },
+      {
+        "don": 745.0,
+        "group": "SG",
+        "product": "Spelt",
+        "sample": "C2015DEOV00615"
+      }
+    ]
+  },
+  "census": {
+    "DG": {
+      "components": {
+        "Deoxynivalenol": 997
+      },
+      "distinct_samples": 997,
+      "functions": {
+        "Domestic": 254,
+        "Import": 425,
+        "Unknown": 318
+      },
+      "n_rows": 997,
+      "n_selected_rows": 997,
+      "origins": {
+        "AUSTRALIA": 1,
+        "BOLIVIA": 14,
+        "CANADA": 254,
+        "CHINA": 13,
+        "FRANCE": 6,
+        "HONG KONG": 1,
+        "INDIA": 23,
+        "ITALY": 5,
+        "JAPAN": 3,
+        "LEBANON": 3,
+        "NETHERLANDS": 3,
+        "PERU": 27,
+        "POLAND": 3,
+        "RUSSIA": 1,
+        "SOUTH AFRICA": 1,
+        "SPAIN": 1,
+        "TAIWAN": 5,
+        "THAILAND": 3,
+        "TURKEY": 2,
+        "UKRAINE": 1,
+        "UNITED KINGDOM": 1,
+        "UNITED STATES": 217,
+        "UNKNOWN": 407,
+        "VIETNAM": 2
+      },
+      "products": {
+        "Amaranth Products": 41,
+        "Arrowroot Products": 39,
+        "Barley Products": 46,
+        "Bean - Black": 8,
+        "Bean - Fava": 8,
+        "Bean - Kidney": 8,
+        "Bean - Lima": 8,
+        "Bean - Other": 12,
+        "Bean - Pinto": 8,
+        "Bean - Soy": 8,
+        "Bean Products": 8,
+        "Beverage - Soy": 8,
+        "Buckwheat Products": 46,
+        "Chickpea": 8,
+        "Chickpea Products": 8,
+        "Flour - Bean": 8,
+        "Flour - Chickpea": 8,
+        "Flour - Lentil": 8,
+        "Flour - Other": 42,
+        "Flour - Pea": 8,
+        "Flour - Soy": 8,
+        "Flour - rye": 6,
+        "Grain - Barley": 51,
+        "Grain - Buckwheat": 44,
+        "Grain - Kamut": 52,
+        "Grain - Other": 45,
+        "Grain - Quinoa": 45,
+        "Grain - Rye": 44,
+        "Infant Formula - Soy": 8,
+        "Kamut Products": 41,
+        "Lentil": 8,
+        "Lentil Products": 8,
+        "Meat Alternative": 6,
+        "Millet": 45,
+        "Millet Products": 39,
+        "Pea": 8,
+        "Pea Products": 8,
+        "Quinoa Products": 37,
+        "Rye Products": 40,
+        "Soy Products": 8,
+        "Spelt": 44,
+        "Spelt Products": 29,
+        "Teff Products": 26,
+        "Tofu": 9
+      },
+      "rows_per_sample": {
+        "1": 997
+      },
+      "units": {
+        "ng/g": 997
+      },
+      "value_kinds": {
+        "pos": 457,
+        "zero": 540
+      }
+    },
+    "MM": {
+      "components": {
+        "15-acetyldeoxynivalenol": 750,
+        "3-acetyldeoxynivalenol": 750,
+        "?-Zearalenol(ppb)": 1500,
+        "Aflatoxin B1": 750,
+        "Aflatoxin B2": 750,
+        "Aflatoxin G1": 750,
+        "Aflatoxin G2": 750,
+        "Cyclopiazonic acid": 750,
+        "Deoxynivalenol": 750,
+        "Diacetoxyscirpenol": 750,
+        "Ergocristine": 750,
+        "Ergocryptine": 750,
+        "Ergosine": 750,
+        "Fumonisin B1": 750,
+        "Fumonisin B2": 750,
+        "Fumonisin B3": 750,
+        "Fusarenon-X": 750,
+        "HT-2 Toxin": 750,
+        "Neosolaniol": 750,
+        "Nivalenol": 750,
+        "Ochratoxin A": 750,
+        "Sterigmatocystin": 750,
+        "T-2 Toxin": 750,
+        "Zearalenone(ppb)": 750
+      },
+      "distinct_samples": 750,
+      "functions": {
+        "Domestic": 154,
+        "Import": 363,
+        "Unknown": 233
+      },
+      "n_rows": 18750,
+      "n_selected_rows": 750,
+      "origins": {
+        "ARGENTINA": 1,
+        "AUSTRIA": 2,
+        "BOLIVIA, PLURINATIONAL STATE OF": 4,
+        "CANADA": 155,
+        "CHINA": 11,
+        "COLOMBIA": 1,
+        "FINLAND": 2,
+        "GERMANY": 7,
+        "INDIA": 2,
+        "ISRAEL": 1,
+        "ITALY": 53,
+        "JAPAN": 1,
+        "KOREA, REPUBLIC OF": 7,
+        "MEXICO": 4,
+        "MOROCCO": 1,
+        "NETHERLANDS": 1,
+        "PERU": 8,
+        "POLAND": 1,
+        "RUSSIAN FEDERATION": 2,
+        "SCOTLAND": 3,
+        "SINGAPORE": 2,
+        "SPAIN": 4,
+        "SWEDEN": 1,
+        "TAIWAN, PROVINCE OF CHINA": 1,
+        "THAILAND": 3,
+        "TURKEY": 2,
+        "UNITED KINGDOM": 2,
+        "UNITED STATES": 176,
+        "UNKNOWN": 291,
+        "VIETNAM": 1
+      },
+      "products": {
+        "Amaranth Products": 14,
+        "Arrowroot Products": 15,
+        "Barley Products": 14,
+        "Bread": 2,
+        "Buckwheat Products": 15,
+        "Chips - Corn": 18,
+        "Chips - Other": 1,
+        "Corn Products": 30,
+        "Corn Starch": 25,
+        "Cornmeal": 25,
+        "Crackers": 101,
+        "Flour - Corn": 52,
+        "Gluten-free Products": 71,
+        "Grain - Barley": 36,
+        "Grain - Buckwheat": 14,
+        "Grain - Kamut": 13,
+        "Grain - Other": 15,
+        "Grain - Quinoa": 28,
+        "Grain - Rye": 2,
+        "Kamut Products": 15,
+        "Millet": 15,
+        "Millet Products": 14,
+        "Pasta": 26,
+        "Pasta - Dry": 62,
+        "Pasta - Fresh": 40,
+        "Quinoa Products": 15,
+        "Rye Products": 26,
+        "Spelt": 5,
+        "Spelt Products": 25,
+        "Teff Products": 16
+      },
+      "rows_per_sample": {
+        "1": 750
+      },
+      "units": {
+        "ng/g": 750
+      },
+      "value_kinds": {
+        "pos": 306,
+        "zero": 444
+      }
+    }
+  },
+  "n_graded": 9,
+  "n_met": 7,
+  "predictions": [
+    {
+      "graded": true,
+      "id": "G",
+      "kind": "gate",
+      "met": true,
+      "observed": {
+        "dg_component": true,
+        "dg_origins": true,
+        "dg_products": true,
+        "dg_rows": true,
+        "dg_rows_per_sample": true,
+        "dg_samples": true,
+        "dg_sha256": true,
+        "dg_unit": true,
+        "dg_value_kinds": true,
+        "mm_don_kinds": true,
+        "mm_don_min": true,
+        "mm_don_samples": true,
+        "mm_rows": true,
+        "mm_sha256": true,
+        "mm_unit": true,
+        "shared_labels": true
+      },
+      "text": "DG: SHA-256, 997 rows and samples, one DON row each, all 44 product-label counts, origin facts, one known unit, every cell a number above 0 or a literal 0 (both present); MM: SHA-256, rows, 750 DON rows, 306 DON positives, minimum 10, known units; the 18 shared product labels"
+    },
+    {
+      "graded": true,
+      "id": "C1",
+      "kind": "consistency",
+      "met": true,
+      "observed": {
+        "n": 997,
+        "pct": 46,
+        "pos": 457
+      },
+      "text": "the summary page: 997 products, DON detected in 46% (454-463 positives)"
+    },
+    {
+      "graded": true,
+      "id": "P1",
+      "kind": "prediction",
+      "met": false,
+      "observed": {
+        "avg": 6.002068965517242,
+        "below_cut": 21,
+        "ge_400": 0,
+        "ge_750": 0,
+        "ge_cut": 8,
+        "max": 33.8,
+        "median": 2.41,
+        "min": 0.6,
+        "n": 189,
+        "pos": 29,
+        "rate": 0.15343915343915343
+      },
+      "text": "pulses and soy (189): DON detected in at most 15%, and none at or above 100 ppb"
+    },
+    {
+      "graded": true,
+      "id": "P2",
+      "kind": "prediction",
+      "met": true,
+      "observed": {
+        "PS": {
+          "avg": 4.042368421052632,
+          "below_cut": 34,
+          "ge_400": 0,
+          "ge_750": 0,
+          "ge_cut": 4,
+          "max": 18.7,
+          "median": 2.35,
+          "min": 0.6,
+          "n": 252,
+          "pos": 38,
+          "rate": 0.15079365079365079
+        },
+        "SG": {
+          "avg": 153.56780921052632,
+          "below_cut": 116,
+          "ge_400": 30,
+          "ge_750": 9,
+          "ge_cut": 188,
+          "max": 5720.0,
+          "median": 17.25,
+          "min": 0.5,
+          "n": 353,
+          "pos": 304,
+          "rate": 0.8611898016997167
+        }
+      },
+      "text": "small-grain cereals (353) are DON-positive at least twice as often as pseudo-cereals and arrowroot (252)"
+    },
+    {
+      "graded": true,
+      "id": "P3",
+      "kind": "prediction",
+      "met": true,
+      "observed": {
+        "avg": 153.56780921052632,
+        "below_cut": 116,
+        "ge_400": 30,
+        "ge_750": 9,
+        "ge_cut": 188,
+        "max": 5720.0,
+        "median": 17.25,
+        "min": 0.5,
+        "n": 353,
+        "pos": 304,
+        "rate": 0.8611898016997167
+      },
+      "text": "at least 60% of the 353 small-grain cereal samples are DON-positive"
+    },
+    {
+      "graded": true,
+      "id": "P4",
+      "kind": "prediction",
+      "met": false,
+      "observed": {
+        "don": 5720.0,
+        "group": "SG",
+        "product": "Grain - Rye",
+        "sample": "C2015DEOV00249"
+      },
+      "text": "the file's highest DON result is in a small-grain cereal label and below 2,000 ppb"
+    },
+    {
+      "graded": true,
+      "id": "P5",
+      "kind": "prediction",
+      "met": true,
+      "observed": {
+        "avg": 111.42094588235294,
+        "below_cut": 221,
+        "ge_400": 30,
+        "ge_750": 9,
+        "ge_cut": 204,
+        "max": 5720.0,
+        "median": 8.4,
+        "min": 0.412,
+        "n": 802,
+        "pos": 425,
+        "rate": 0.529925187032419
+      },
+      "text": "of the 802 grain-type samples (SG, PS, OG), at most 16 are at or above 750 ppb and at most 40 at or above 400 ppb"
+    },
+    {
+      "graded": true,
+      "id": "P6",
+      "kind": "prediction",
+      "met": true,
+      "observed": {
+        "own_cmh_chi2": 98.16098340577959,
+        "own_cmh_p": 3.857154025719043e-23,
+        "own_mh_or": 6.440976317522663,
+        "own_pooled": [
+          404,
+          350,
+          75,
+          222
+        ],
+        "shared_below_cut": 208,
+        "shared_pos": 404
+      },
+      "text": "on the 18 shared labels, at each method's own limit, DG detects DON more often than MM (MH OR >= 2 and CMH p < 0.05), and at least 25% of DG's positives on those labels are below 10 ppb"
+    },
+    {
+      "graded": true,
+      "id": "P7",
+      "kind": "prediction",
+      "met": true,
+      "observed": {
+        "at_cut": {
+          "Amaranth Products": [
+            0,
+            41,
+            0,
+            14
+          ],
+          "Arrowroot Products": [
+            0,
+            39,
+            0,
+            15
+          ],
+          "Barley Products": [
+            19,
+            27,
+            3,
+            11
+          ],
+          "Buckwheat Products": [
+            3,
+            43,
+            1,
+            14
+          ],
+          "Grain - Barley": [
+            41,
+            10,
+            23,
+            13
+          ],
+          "Grain - Buckwheat": [
+            1,
+            43,
+            2,
+            12
+          ],
+          "Grain - Kamut": [
+            27,
+            25,
+            3,
+            10
+          ],
+          "Grain - Other": [
+            3,
+            42,
+            1,
+            14
+          ],
+          "Grain - Quinoa": [
+            0,
+            45,
+            1,
+            27
+          ],
+          "Grain - Rye": [
+            22,
+            22,
+            1,
+            1
+          ],
+          "Kamut Products": [
+            6,
+            35,
+            5,
+            10
+          ],
+          "Millet": [
+            0,
+            45,
+            3,
+            12
+          ],
+          "Millet Products": [
+            5,
+            34,
+            1,
+            13
+          ],
+          "Quinoa Products": [
+            0,
+            37,
+            1,
+            14
+          ],
+          "Rye Products": [
+            25,
+            15,
+            16,
+            10
+          ],
+          "Spelt": [
+            23,
+            21,
+            2,
+            3
+          ],
+          "Spelt Products": [
+            21,
+            8,
+            12,
+            13
+          ],
+          "Teff Products": [
+            0,
+            26,
+            0,
+            16
+          ]
+        },
+        "at_cut_cmh_chi2": 1.3979476034913703,
+        "at_cut_cmh_p": 0.23706751113644614,
+        "at_cut_mh_or": 1.2827710917388457,
+        "at_cut_pooled": [
+          196,
+          558,
+          75,
+          222
+        ]
+      },
+      "text": "on the 18 shared labels, at a common 10 ppb cut, the MH odds ratio (DG vs MM) is between 0.5 and 2.0"
+    }
+  ],
+  "provenance": {
+    "DG": {
+      "bytes": 201445,
+      "encoding": "utf-8-sig",
+      "resource": "90b59896-d874-4da5-9c03-580d7ee6c584",
+      "sha256": "b662d980c6f25d5e3e4814b47c1c1fcb61773aeffa83a8c0fe8ccf62be4912d7",
+      "source": "https://open.canada.ca/data/dataset/debeebfe-8e35-4914-8ad5-8432340e1e5a/resource/90b59896-d874-4da5-9c03-580d7ee6c584/download/2015-2016_deoxynivalenol_in_selected_foods_-_2015-2016_donnees_de_deoxynivalenol_dans_certains_a.csv"
+    },
+    "MM": {
+      "bytes": 3484399,
+      "encoding": "cp1252",
+      "resource": "09a3c285-8552-4a38-b4be-cdf6d5fc3fd2",
+      "sha256": "ba5084945f0a0e1fab2b8bab7f8f196a7dd0033d4bdc4e80768f12ec4c553835",
+      "source": "data-volume"
+    }
+  },
+  "study": "don-grains-2015",
+  "version": "0.1.0"
+}

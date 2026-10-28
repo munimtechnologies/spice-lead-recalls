@@ -1,0 +1,19 @@
+product,dg_n,dg_detected,dg_ge_10,mm_n,mm_detected
+Amaranth Products,41,3,0,14,0
+Arrowroot Products,39,0,0,15,0
+Barley Products,46,39,19,14,3
+Buckwheat Products,46,22,3,15,1
+Grain - Barley,51,46,41,36,23
+Grain - Buckwheat,44,9,1,14,2
+Grain - Kamut,52,50,27,13,3
+Grain - Other,45,18,3,15,1
+Grain - Quinoa,45,4,0,28,1
+Grain - Rye,44,36,22,2,1
+Kamut Products,41,32,6,15,5
+Millet,45,23,0,15,3
+Millet Products,39,15,5,14,1
+Quinoa Products,37,0,0,15,1
+Rye Products,40,31,25,26,16
+Spelt,44,38,23,5,2
+Spelt Products,29,27,21,25,12
+Teff Products,26,11,0,16,0
