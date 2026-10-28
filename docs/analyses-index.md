@@ -577,9 +577,45 @@ By MV2 of Munim, Inc. Prepared with AI agents. Text CC BY 4.0; code Apache-2.0.
   above 2,000 ppb are rye. Exploratory: every small-grain result at or above 400 ppb is
   Canadian (24) or of unknown origin (6); none of 119 imported small grains reaches 400 ppb.
   Recomputed from `data/don_grains_2015_samples.csv` and
-  `data/don_grains_2015_crossmethod.csv` by an independent pinned test. A reference
-  comparison (Canada sets no DON maximum level for these foods), not a finding about any
-  product or health risk.
+  `data/don_grains_2015_crossmethod.csv` by an independent pinned test. A sealed job later
+  fetched the published files from GitHub and re-ran that test on them: 14 of 14 passed (job
+  `don-grains-2015-result-v1`, 2026-10-28). A reference comparison (Canada sets no DON maximum
+  level for these foods), not a finding about any product or health risk.
+
+## Aflatoxins in dried figs and dates: CFIA 2009-10
+
+- [Pre-registration: CFIA's open 2009-10 aflatoxin file for dried figs and dried dates (aflatoxin-figs-2009 0.1.0)](aflatoxin-figs-2009-0.1.0-prereg.md) —
+  public at tag `v0.4.71` before any result value in the file (100 samples, five rows each:
+  B1, B2, G1, G2 and Total Aflatoxins) was read. CFIA's only public report is a summary page
+  (49 dates, 51 figs; no date positive; four figs at 7.5–78.7 ppb). From the labels alone the
+  file has 50 dates and 50 figs, and 10 named countries plus 5 `UNKNOWN` where the page says
+  11 countries. A gate on census facts, two consistency checks and six blind predictions.
+  Grading code `aflatoxin_figs_2009.py` is committed with it.
+- [aflatoxin-figs-2009 0.1.0: result](aflatoxin-figs-2009-0.1.0-result.md) — gate passed, 8 of
+  9 met. The file reproduces every result the summary page prints: no date positive (0 of 50),
+  four figs positive, totals 7.46–78.66 ppb. The 49/51 against 50/50 product split stays open,
+  because both print as "92%" of figs without aflatoxin. `Total Aflatoxins` is the per-sample
+  sum of the four forms in all 100 samples (largest gap 0.01 ppb), the fourth CFIA file where a
+  group row is a per-sample sum. Three positives, a Greek and two Turkish figs (71.5–78.7 ppb),
+  exceed both of the EU's current dried-fig levels (B1 6.0, sum 10.0 µg/kg) at least seven-fold
+  on the sum; a US fig (7.46 ppb) exceeds neither. P6 missed: G1 is in one positive only, the
+  Greek fig, where it is 68% of the total. The note also corrects the pre-registration's
+  sampling range: the file runs from 2 November 2009 to 10 March 2010, not to 27 January (the
+  census had taken the text-order maximum of `DD-Mon-YY` strings). Recomputed from
+  `data/aflatoxin_figs_2009_samples.csv` by an independent pinned test. A reference comparison
+  (Canada sets no aflatoxin maximum level for dried fruit), not a finding about any product or
+  health risk.
+
+## Patulin in apple juice and concentrate: CFIA 2008-09
+
+- [Pre-registration: CFIA's open 2008-09 patulin file for apple juice and apple juice concentrate (patulin-2008 0.1.0)](patulin-2008-0.1.0-prereg.md) —
+  written before any result value in the file (104 samples, one patulin result each) was read.
+  CFIA's only public report is a summary page (12 of 104 at or above the 10 ppb reporting
+  limit; maxima 26.7 ppb in juice and 24.0 in concentrate; origin not linked to patulin). A gate
+  on census facts and a registered rule for below-limit entries, four consistency checks
+  (including Fisher tests of the page's origin claim), and five blind predictions on whether
+  the open file is censored at the reporting limit, how the domestic label maps to origin, and
+  where the quantified results sit. Grading code `patulin_2008.py` is committed with it.
 
 ## Alternaria toxins: CFIA 2014-2022, and the EU's indicative levels
 
