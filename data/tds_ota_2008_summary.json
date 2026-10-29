@@ -1,0 +1,1548 @@
+{
+  "analysis": {
+    "above_file_loq": {
+      "2008": 47,
+      "2009": 40
+    },
+    "above_paper_loq": {
+      "2008": 47,
+      "2009": 41
+    },
+    "c1_mismatch": [
+      {
+        "code": "AA09",
+        "file": "0.004",
+        "op": "=",
+        "sample": "5583",
+        "table3": "nd",
+        "year": "2008"
+      },
+      {
+        "code": "AA11",
+        "file": "0.004",
+        "op": "=",
+        "sample": "5584",
+        "table3": "nd",
+        "year": "2008"
+      },
+      {
+        "code": "FF19",
+        "file": "0.003",
+        "op": "=",
+        "sample": "6922",
+        "table3": "nd",
+        "year": "2009"
+      },
+      {
+        "code": "GG01",
+        "file": "0.004",
+        "op": "=",
+        "sample": "6925",
+        "table3": "nd",
+        "year": "2009"
+      },
+      {
+        "code": "GG27",
+        "file": "0.003",
+        "op": "=",
+        "sample": "6928",
+        "table3": "nd",
+        "year": "2009"
+      },
+      {
+        "code": "HH10",
+        "file": "0.003",
+        "op": "=",
+        "sample": "6930",
+        "table3": "nd",
+        "year": "2009"
+      },
+      {
+        "code": "JJ02",
+        "file": "0.002",
+        "op": "=",
+        "sample": "6934",
+        "table3": "nd",
+        "year": "2009"
+      },
+      {
+        "code": "JJ07",
+        "file": "0.002",
+        "op": "=",
+        "sample": "6935",
+        "table3": "nd",
+        "year": "2009"
+      },
+      {
+        "code": "LL02",
+        "file": "0.003",
+        "op": "=",
+        "sample": "5566",
+        "table3": "nd",
+        "year": "2008"
+      },
+      {
+        "code": "LL03",
+        "file": "0.004",
+        "op": "=",
+        "sample": "5571",
+        "table3": "nd",
+        "year": "2008"
+      },
+      {
+        "code": "LL05",
+        "file": "0.004",
+        "op": "=",
+        "sample": "6947",
+        "table3": "nd",
+        "year": "2009"
+      },
+      {
+        "code": "LL05",
+        "file": "0.004",
+        "op": "=",
+        "sample": "5567",
+        "table3": "nd",
+        "year": "2008"
+      },
+      {
+        "code": "MM01",
+        "file": "0.001",
+        "op": "=",
+        "sample": "5585",
+        "table3": "nd",
+        "year": "2008"
+      },
+      {
+        "code": "PP07",
+        "file": "0.004",
+        "op": "=",
+        "sample": "5519",
+        "table3": "nd",
+        "year": "2008"
+      }
+    ],
+    "c2_checked": 94,
+    "c2_mismatch": [],
+    "detected": {
+      "2008": 56,
+      "2009": 52
+    },
+    "eu_reference_over": [],
+    "expected_ng_ml": [
+      [
+        "AA02",
+        "2008"
+      ],
+      [
+        "AA02",
+        "2009"
+      ],
+      [
+        "AA07",
+        "2008"
+      ],
+      [
+        "AA07",
+        "2009"
+      ],
+      [
+        "AA13",
+        "2008"
+      ],
+      [
+        "AA13",
+        "2009"
+      ],
+      [
+        "HH10",
+        "2008"
+      ],
+      [
+        "HH10",
+        "2009"
+      ],
+      [
+        "KK01",
+        "2008"
+      ],
+      [
+        "KK02",
+        "2008"
+      ],
+      [
+        "KK04",
+        "2008"
+      ],
+      [
+        "KK04",
+        "2009"
+      ],
+      [
+        "KK06",
+        "2008"
+      ],
+      [
+        "KK06",
+        "2009"
+      ],
+      [
+        "KK07",
+        "2008"
+      ],
+      [
+        "KK07",
+        "2009"
+      ],
+      [
+        "LL05",
+        "2008"
+      ],
+      [
+        "LL05",
+        "2009"
+      ],
+      [
+        "LL06",
+        "2008"
+      ],
+      [
+        "LL06",
+        "2009"
+      ],
+      [
+        "PP05",
+        "2008"
+      ],
+      [
+        "PP05",
+        "2009"
+      ],
+      [
+        "PP07",
+        "2008"
+      ],
+      [
+        "PP07",
+        "2009"
+      ]
+    ],
+    "lod_vs_paper_range": {
+      "in 0.001-0.008": 134,
+      "outside": 3
+    },
+    "maxima": {
+      "2008": {
+        "code": "HH17",
+        "food": "Fruits, Raisins, Semi-Moist",
+        "value": 2.348
+      },
+      "2009": {
+        "code": "FF12",
+        "food": "Flour, white (wheat)",
+        "value": 1.695
+      }
+    },
+    "n_shared_foods": 67,
+    "ng_ml": [
+      [
+        "AA02",
+        "2008"
+      ],
+      [
+        "AA02",
+        "2009"
+      ],
+      [
+        "AA07",
+        "2008"
+      ],
+      [
+        "AA07",
+        "2009"
+      ],
+      [
+        "AA13",
+        "2008"
+      ],
+      [
+        "AA13",
+        "2009"
+      ],
+      [
+        "HH10",
+        "2008"
+      ],
+      [
+        "HH10",
+        "2009"
+      ],
+      [
+        "KK01",
+        "2008"
+      ],
+      [
+        "KK02",
+        "2008"
+      ],
+      [
+        "KK04",
+        "2008"
+      ],
+      [
+        "KK04",
+        "2009"
+      ],
+      [
+        "KK06",
+        "2008"
+      ],
+      [
+        "KK06",
+        "2009"
+      ],
+      [
+        "KK07",
+        "2008"
+      ],
+      [
+        "KK07",
+        "2009"
+      ],
+      [
+        "LL05",
+        "2008"
+      ],
+      [
+        "LL05",
+        "2009"
+      ],
+      [
+        "LL06",
+        "2008"
+      ],
+      [
+        "LL06",
+        "2009"
+      ],
+      [
+        "PP05",
+        "2008"
+      ],
+      [
+        "PP05",
+        "2009"
+      ],
+      [
+        "PP07",
+        "2008"
+      ],
+      [
+        "PP07",
+        "2009"
+      ]
+    ],
+    "spearman_2008_2009": 0.8095645169058802,
+    "top20": [
+      {
+        "cereal": false,
+        "code": "HH17",
+        "food": "Raisins",
+        "y2008": 2.348,
+        "y2009": 0.166
+      },
+      {
+        "cereal": true,
+        "code": "FF20",
+        "food": "Buns and rolls",
+        "y2008": 1.015,
+        "y2009": 1.236
+      },
+      {
+        "cereal": true,
+        "code": "FF02",
+        "food": "Bread, whole wheat",
+        "y2008": 1.272,
+        "y2009": 0.833
+      },
+      {
+        "cereal": true,
+        "code": "FF12",
+        "food": "Flour, white (wheat)",
+        "y2008": 0.394,
+        "y2009": 1.695
+      },
+      {
+        "cereal": true,
+        "code": "FF03",
+        "food": "Bread, rye",
+        "y2008": 0.997,
+        "y2009": 0.565
+      },
+      {
+        "cereal": true,
+        "code": "FF01",
+        "food": "Bread, white",
+        "y2008": 0.769,
+        "y2009": 0.666
+      },
+      {
+        "cereal": true,
+        "code": "FF21",
+        "food": "Bread, other",
+        "y2008": 0.453,
+        "y2009": 0.419
+      },
+      {
+        "cereal": true,
+        "code": "NN05",
+        "food": "Hot dogs",
+        "y2008": 0.382,
+        "y2009": 0.414
+      },
+      {
+        "cereal": true,
+        "code": "NN03",
+        "food": "Hamburger",
+        "y2008": 0.44,
+        "y2009": 0.218
+      },
+      {
+        "cereal": true,
+        "code": "FF11",
+        "food": "Danish, donuts and croissants",
+        "y2008": 0.241,
+        "y2009": 0.351
+      },
+      {
+        "cereal": true,
+        "code": "NN04",
+        "food": "Chicken burger",
+        "y2008": 0.32,
+        "y2009": 0.234
+      },
+      {
+        "cereal": true,
+        "code": "FF08",
+        "food": "Cereals, rice and bran",
+        "y2008": 0.266,
+        "y2009": 0.264
+      },
+      {
+        "cereal": false,
+        "code": "GG02",
+        "food": "Beans, string",
+        "y2008": 0.525,
+        "y2009": 0.0
+      },
+      {
+        "cereal": true,
+        "code": "FF10",
+        "food": "Crackers",
+        "y2008": 0.439,
+        "y2009": 0.033
+      },
+      {
+        "cereal": true,
+        "code": "NN01",
+        "food": "Pizza",
+        "y2008": 0.21,
+        "y2009": 0.225
+      },
+      {
+        "cereal": true,
+        "code": "LL01",
+        "food": "Cereals, mixed",
+        "y2008": 0.425,
+        "y2009": 0.007
+      },
+      {
+        "cereal": false,
+        "code": "JJ01",
+        "food": "Chocolate bars",
+        "y2008": 0.297,
+        "y2009": 0.134
+      },
+      {
+        "cereal": false,
+        "code": "JJ11",
+        "food": "Seeds, shelled",
+        "y2008": 0.072,
+        "y2009": 0.348
+      },
+      {
+        "cereal": true,
+        "code": "FF09",
+        "food": "Cookies",
+        "y2008": 0.214,
+        "y2009": 0.2
+      },
+      {
+        "cereal": true,
+        "code": "FF16",
+        "food": "Pasta, plain",
+        "y2008": 0.343,
+        "y2009": 0.07
+      }
+    ],
+    "top20_cereal": 16
+  },
+  "census": {
+    "analytes": {
+      "Ochratoxin A": 137
+    },
+    "cities": {
+      "Calgary": 68,
+      "Quebec City": 69
+    },
+    "distinct_pairs": 137,
+    "distinct_samples": 137,
+    "kinds": {
+      "below": 29,
+      "det": 108
+    },
+    "n_rows": 137,
+    "operators": {
+      "<LOD/MDL": 29,
+      "=": 108
+    },
+    "pairs": [
+      [
+        "AA02",
+        "2008"
+      ],
+      [
+        "AA02",
+        "2009"
+      ],
+      [
+        "AA07",
+        "2008"
+      ],
+      [
+        "AA07",
+        "2009"
+      ],
+      [
+        "AA09",
+        "2008"
+      ],
+      [
+        "AA09",
+        "2009"
+      ],
+      [
+        "AA11",
+        "2008"
+      ],
+      [
+        "AA11",
+        "2009"
+      ],
+      [
+        "AA13",
+        "2008"
+      ],
+      [
+        "AA13",
+        "2009"
+      ],
+      [
+        "BB04",
+        "2008"
+      ],
+      [
+        "BB04",
+        "2009"
+      ],
+      [
+        "BB05",
+        "2008"
+      ],
+      [
+        "BB05",
+        "2009"
+      ],
+      [
+        "BB06",
+        "2008"
+      ],
+      [
+        "BB06",
+        "2009"
+      ],
+      [
+        "BB07",
+        "2008"
+      ],
+      [
+        "BB07",
+        "2009"
+      ],
+      [
+        "BB09",
+        "2008"
+      ],
+      [
+        "BB09",
+        "2009"
+      ],
+      [
+        "BB10",
+        "2008"
+      ],
+      [
+        "BB10",
+        "2009"
+      ],
+      [
+        "BB11",
+        "2008"
+      ],
+      [
+        "BB11",
+        "2009"
+      ],
+      [
+        "CC01",
+        "2008"
+      ],
+      [
+        "CC01",
+        "2009"
+      ],
+      [
+        "FF01",
+        "2008"
+      ],
+      [
+        "FF01",
+        "2009"
+      ],
+      [
+        "FF02",
+        "2008"
+      ],
+      [
+        "FF02",
+        "2009"
+      ],
+      [
+        "FF03",
+        "2008"
+      ],
+      [
+        "FF03",
+        "2009"
+      ],
+      [
+        "FF04",
+        "2008"
+      ],
+      [
+        "FF04",
+        "2009"
+      ],
+      [
+        "FF05",
+        "2008"
+      ],
+      [
+        "FF05",
+        "2009"
+      ],
+      [
+        "FF06",
+        "2008"
+      ],
+      [
+        "FF06",
+        "2009"
+      ],
+      [
+        "FF07",
+        "2008"
+      ],
+      [
+        "FF07",
+        "2009"
+      ],
+      [
+        "FF08",
+        "2008"
+      ],
+      [
+        "FF08",
+        "2009"
+      ],
+      [
+        "FF09",
+        "2008"
+      ],
+      [
+        "FF09",
+        "2009"
+      ],
+      [
+        "FF10",
+        "2008"
+      ],
+      [
+        "FF10",
+        "2009"
+      ],
+      [
+        "FF11",
+        "2008"
+      ],
+      [
+        "FF11",
+        "2009"
+      ],
+      [
+        "FF12",
+        "2008"
+      ],
+      [
+        "FF12",
+        "2009"
+      ],
+      [
+        "FF13",
+        "2008"
+      ],
+      [
+        "FF13",
+        "2009"
+      ],
+      [
+        "FF14",
+        "2008"
+      ],
+      [
+        "FF14",
+        "2009"
+      ],
+      [
+        "FF15",
+        "2008"
+      ],
+      [
+        "FF15",
+        "2009"
+      ],
+      [
+        "FF16",
+        "2008"
+      ],
+      [
+        "FF16",
+        "2009"
+      ],
+      [
+        "FF17",
+        "2008"
+      ],
+      [
+        "FF17",
+        "2009"
+      ],
+      [
+        "FF18",
+        "2008"
+      ],
+      [
+        "FF18",
+        "2009"
+      ],
+      [
+        "FF19",
+        "2008"
+      ],
+      [
+        "FF19",
+        "2009"
+      ],
+      [
+        "FF20",
+        "2008"
+      ],
+      [
+        "FF20",
+        "2009"
+      ],
+      [
+        "FF21",
+        "2008"
+      ],
+      [
+        "FF21",
+        "2009"
+      ],
+      [
+        "GG01",
+        "2008"
+      ],
+      [
+        "GG01",
+        "2009"
+      ],
+      [
+        "GG02",
+        "2008"
+      ],
+      [
+        "GG02",
+        "2009"
+      ],
+      [
+        "GG14",
+        "2008"
+      ],
+      [
+        "GG14",
+        "2009"
+      ],
+      [
+        "GG27",
+        "2008"
+      ],
+      [
+        "GG27",
+        "2009"
+      ],
+      [
+        "HH05",
+        "2008"
+      ],
+      [
+        "HH05",
+        "2009"
+      ],
+      [
+        "HH10",
+        "2008"
+      ],
+      [
+        "HH10",
+        "2009"
+      ],
+      [
+        "HH11",
+        "2008"
+      ],
+      [
+        "HH11",
+        "2009"
+      ],
+      [
+        "HH17",
+        "2008"
+      ],
+      [
+        "HH17",
+        "2009"
+      ],
+      [
+        "JJ01",
+        "2008"
+      ],
+      [
+        "JJ01",
+        "2009"
+      ],
+      [
+        "JJ02",
+        "2008"
+      ],
+      [
+        "JJ02",
+        "2009"
+      ],
+      [
+        "JJ07",
+        "2008"
+      ],
+      [
+        "JJ07",
+        "2009"
+      ],
+      [
+        "JJ08",
+        "2008"
+      ],
+      [
+        "JJ08",
+        "2009"
+      ],
+      [
+        "JJ11",
+        "2008"
+      ],
+      [
+        "JJ11",
+        "2009"
+      ],
+      [
+        "JJ12",
+        "2008"
+      ],
+      [
+        "JJ12",
+        "2009"
+      ],
+      [
+        "KK01",
+        "2008"
+      ],
+      [
+        "KK02",
+        "2008"
+      ],
+      [
+        "KK04",
+        "2008"
+      ],
+      [
+        "KK04",
+        "2009"
+      ],
+      [
+        "KK06",
+        "2008"
+      ],
+      [
+        "KK06",
+        "2009"
+      ],
+      [
+        "KK07",
+        "2008"
+      ],
+      [
+        "KK07",
+        "2009"
+      ],
+      [
+        "LL01",
+        "2008"
+      ],
+      [
+        "LL01",
+        "2009"
+      ],
+      [
+        "LL02",
+        "2008"
+      ],
+      [
+        "LL02",
+        "2009"
+      ],
+      [
+        "LL03",
+        "2008"
+      ],
+      [
+        "LL03",
+        "2009"
+      ],
+      [
+        "LL05",
+        "2008"
+      ],
+      [
+        "LL05",
+        "2009"
+      ],
+      [
+        "LL06",
+        "2008"
+      ],
+      [
+        "LL06",
+        "2009"
+      ],
+      [
+        "LL08",
+        "2008"
+      ],
+      [
+        "LL08",
+        "2009"
+      ],
+      [
+        "LL09",
+        "2009"
+      ],
+      [
+        "MM01",
+        "2008"
+      ],
+      [
+        "MM01",
+        "2009"
+      ],
+      [
+        "MM02",
+        "2008"
+      ],
+      [
+        "MM02",
+        "2009"
+      ],
+      [
+        "NN01",
+        "2008"
+      ],
+      [
+        "NN01",
+        "2009"
+      ],
+      [
+        "NN03",
+        "2008"
+      ],
+      [
+        "NN03",
+        "2009"
+      ],
+      [
+        "NN04",
+        "2008"
+      ],
+      [
+        "NN04",
+        "2009"
+      ],
+      [
+        "NN05",
+        "2008"
+      ],
+      [
+        "NN05",
+        "2009"
+      ],
+      [
+        "NN06",
+        "2008"
+      ],
+      [
+        "NN06",
+        "2009"
+      ],
+      [
+        "PP05",
+        "2008"
+      ],
+      [
+        "PP05",
+        "2009"
+      ],
+      [
+        "PP06",
+        "2008"
+      ],
+      [
+        "PP06",
+        "2009"
+      ],
+      [
+        "PP07",
+        "2008"
+      ],
+      [
+        "PP07",
+        "2009"
+      ]
+    ],
+    "rows_per_sample": {
+      "1": 137
+    },
+    "units": {
+      "ng/g": 113,
+      "ng/ml": 24
+    },
+    "unmapped_foods": []
+  },
+  "n_graded": 11,
+  "n_met": 7,
+  "predictions": [
+    {
+      "graded": true,
+      "id": "G",
+      "kind": "gate",
+      "met": true,
+      "observed": {
+        "analyte": true,
+        "cities": true,
+        "foods_mapped": true,
+        "pairs": true,
+        "results": true,
+        "rows": true,
+        "samples": true,
+        "sha256": true,
+        "units": true
+      },
+      "text": "SHA-256; 137 rows, one per sample; 69 Quebec City and 68 Calgary rows; every food name mapped to Table 3 and the 137 food-year pairs as in the census; one analyte; units ng/g 113 and ng/ml 24; every result '=' with a number above 0 or a below-limit operator with 0, both present"
+    },
+    {
+      "graded": true,
+      "id": "C1",
+      "kind": "consistency",
+      "met": false,
+      "observed": {
+        "mismatch": [
+          {
+            "code": "AA09",
+            "file": "0.004",
+            "op": "=",
+            "sample": "5583",
+            "table3": "nd",
+            "year": "2008"
+          },
+          {
+            "code": "AA11",
+            "file": "0.004",
+            "op": "=",
+            "sample": "5584",
+            "table3": "nd",
+            "year": "2008"
+          },
+          {
+            "code": "FF19",
+            "file": "0.003",
+            "op": "=",
+            "sample": "6922",
+            "table3": "nd",
+            "year": "2009"
+          },
+          {
+            "code": "GG01",
+            "file": "0.004",
+            "op": "=",
+            "sample": "6925",
+            "table3": "nd",
+            "year": "2009"
+          },
+          {
+            "code": "GG27",
+            "file": "0.003",
+            "op": "=",
+            "sample": "6928",
+            "table3": "nd",
+            "year": "2009"
+          },
+          {
+            "code": "HH10",
+            "file": "0.003",
+            "op": "=",
+            "sample": "6930",
+            "table3": "nd",
+            "year": "2009"
+          },
+          {
+            "code": "JJ02",
+            "file": "0.002",
+            "op": "=",
+            "sample": "6934",
+            "table3": "nd",
+            "year": "2009"
+          },
+          {
+            "code": "JJ07",
+            "file": "0.002",
+            "op": "=",
+            "sample": "6935",
+            "table3": "nd",
+            "year": "2009"
+          },
+          {
+            "code": "LL02",
+            "file": "0.003",
+            "op": "=",
+            "sample": "5566",
+            "table3": "nd",
+            "year": "2008"
+          },
+          {
+            "code": "LL03",
+            "file": "0.004",
+            "op": "=",
+            "sample": "5571",
+            "table3": "nd",
+            "year": "2008"
+          },
+          {
+            "code": "LL05",
+            "file": "0.004",
+            "op": "=",
+            "sample": "6947",
+            "table3": "nd",
+            "year": "2009"
+          },
+          {
+            "code": "LL05",
+            "file": "0.004",
+            "op": "=",
+            "sample": "5567",
+            "table3": "nd",
+            "year": "2008"
+          },
+          {
+            "code": "MM01",
+            "file": "0.001",
+            "op": "=",
+            "sample": "5585",
+            "table3": "nd",
+            "year": "2008"
+          },
+          {
+            "code": "PP07",
+            "file": "0.004",
+            "op": "=",
+            "sample": "5519",
+            "table3": "nd",
+            "year": "2008"
+          }
+        ]
+      },
+      "text": "Table 3: each file row is detected exactly when Table 3 prints a value (not n.d.) for that food and year"
+    },
+    {
+      "graded": true,
+      "id": "C2",
+      "kind": "consistency",
+      "met": true,
+      "observed": {
+        "checked": 94,
+        "mismatch": []
+      },
+      "text": "Table 3: every detected value rounds to Table 3's figure at its printed precision"
+    },
+    {
+      "graded": true,
+      "id": "C3",
+      "kind": "consistency",
+      "met": true,
+      "observed": {
+        "maxima": {
+          "2008": {
+            "code": "HH17",
+            "food": "Fruits, Raisins, Semi-Moist",
+            "value": 2.348
+          },
+          "2009": {
+            "code": "FF12",
+            "food": "Flour, white (wheat)",
+            "value": 1.695
+          }
+        }
+      },
+      "text": "the text: the highest value is raisins at 2.3 ng/g in 2008 (Quebec City) and white wheat flour at 1.7 ng/g in 2009 (Calgary)"
+    },
+    {
+      "graded": true,
+      "id": "C4",
+      "kind": "consistency",
+      "met": false,
+      "observed": {
+        "detected": {
+          "2008": 56,
+          "2009": 52
+        }
+      },
+      "text": "the text: 51 composites above the LOD in each year (102/140)"
+    },
+    {
+      "graded": true,
+      "id": "C5",
+      "kind": "consistency",
+      "met": false,
+      "observed": {
+        "above_file_loq": {
+          "2008": 47,
+          "2009": 40
+        },
+        "above_paper_loq": {
+          "2008": 47,
+          "2009": 41
+        }
+      },
+      "text": "the text: 47 (2008) and 43 (2009) composites above the LOQ, using the file's own LOQ for each row"
+    },
+    {
+      "graded": true,
+      "id": "P1",
+      "kind": "prediction",
+      "met": false,
+      "observed": {
+        "detected": {
+          "2008": 56,
+          "2009": 52
+        }
+      },
+      "text": "the file follows Table 3, not the text: 49 of 69 Quebec City and 45 of 68 Calgary rows detected"
+    },
+    {
+      "graded": true,
+      "id": "P2",
+      "kind": "prediction",
+      "met": true,
+      "observed": {
+        "expected": [
+          [
+            "AA02",
+            "2008"
+          ],
+          [
+            "AA02",
+            "2009"
+          ],
+          [
+            "AA07",
+            "2008"
+          ],
+          [
+            "AA07",
+            "2009"
+          ],
+          [
+            "AA13",
+            "2008"
+          ],
+          [
+            "AA13",
+            "2009"
+          ],
+          [
+            "HH10",
+            "2008"
+          ],
+          [
+            "HH10",
+            "2009"
+          ],
+          [
+            "KK01",
+            "2008"
+          ],
+          [
+            "KK02",
+            "2008"
+          ],
+          [
+            "KK04",
+            "2008"
+          ],
+          [
+            "KK04",
+            "2009"
+          ],
+          [
+            "KK06",
+            "2008"
+          ],
+          [
+            "KK06",
+            "2009"
+          ],
+          [
+            "KK07",
+            "2008"
+          ],
+          [
+            "KK07",
+            "2009"
+          ],
+          [
+            "LL05",
+            "2008"
+          ],
+          [
+            "LL05",
+            "2009"
+          ],
+          [
+            "LL06",
+            "2008"
+          ],
+          [
+            "LL06",
+            "2009"
+          ],
+          [
+            "PP05",
+            "2008"
+          ],
+          [
+            "PP05",
+            "2009"
+          ],
+          [
+            "PP07",
+            "2008"
+          ],
+          [
+            "PP07",
+            "2009"
+          ]
+        ],
+        "ng_ml": [
+          [
+            "AA02",
+            "2008"
+          ],
+          [
+            "AA02",
+            "2009"
+          ],
+          [
+            "AA07",
+            "2008"
+          ],
+          [
+            "AA07",
+            "2009"
+          ],
+          [
+            "AA13",
+            "2008"
+          ],
+          [
+            "AA13",
+            "2009"
+          ],
+          [
+            "HH10",
+            "2008"
+          ],
+          [
+            "HH10",
+            "2009"
+          ],
+          [
+            "KK01",
+            "2008"
+          ],
+          [
+            "KK02",
+            "2008"
+          ],
+          [
+            "KK04",
+            "2008"
+          ],
+          [
+            "KK04",
+            "2009"
+          ],
+          [
+            "KK06",
+            "2008"
+          ],
+          [
+            "KK06",
+            "2009"
+          ],
+          [
+            "KK07",
+            "2008"
+          ],
+          [
+            "KK07",
+            "2009"
+          ],
+          [
+            "LL05",
+            "2008"
+          ],
+          [
+            "LL05",
+            "2009"
+          ],
+          [
+            "LL06",
+            "2008"
+          ],
+          [
+            "LL06",
+            "2009"
+          ],
+          [
+            "PP05",
+            "2008"
+          ],
+          [
+            "PP05",
+            "2009"
+          ],
+          [
+            "PP07",
+            "2008"
+          ],
+          [
+            "PP07",
+            "2009"
+          ]
+        ]
+      },
+      "text": "the ng/ml rows are exactly Table 3's starred foods plus the soy infant formula"
+    },
+    {
+      "graded": true,
+      "id": "P3",
+      "kind": "prediction",
+      "met": true,
+      "observed": {
+        "all_agree": true,
+        "duplicate_fr": 0,
+        "n_fr_rows": 137,
+        "op_disagree": [],
+        "paired": 137,
+        "unpaired_en": [],
+        "value_disagree": []
+      },
+      "text": "the English and French files agree: all 137 rows pair by sample code, with the same operator class and value"
+    },
+    {
+      "graded": true,
+      "id": "P4",
+      "kind": "prediction",
+      "met": true,
+      "observed": {
+        "top20_cereal": 16
+      },
+      "text": "at least 16 of the top 20 foods by two-year mean are cereal-containing (the paper's Table 4: 16/20)"
+    },
+    {
+      "graded": true,
+      "id": "P5",
+      "kind": "prediction",
+      "met": true,
+      "observed": {
+        "n": 67,
+        "rho": 0.8095645169058802
+      },
+      "text": "food rankings hold across city-years: Spearman rho between the 2008 and 2009 values of the foods in both cities is at least 0.7"
+    }
+  ],
+  "provenance": {
+    "EN": {
+      "bytes": 74452,
+      "encoding": "cp1252",
+      "resource": "d1cbf697-ff08-4518-b69f-b633efbfb620",
+      "sha256": "3d80ade4162746fc4afac633951eead03b79a9b77a0bd37500fff7ffc06aaf79",
+      "source": "https://open.canada.ca/data/dataset/71fa9c90-f690-4928-9239-69b4ecbeccee/resource/d1cbf697-ff08-4518-b69f-b633efbfb620/download/total-diet-study-mycotoxin-results-2008-2009.csv"
+    },
+    "FR": {
+      "bytes": 86687,
+      "encoding": "cp1252",
+      "resource": "237fe2c2-2f86-4ef4-b11d-485a28f8a57a",
+      "sha256": "6fd5a22576fb0d1509712ecb92a6fa477c767ce5097d22e8965ab1fb59cda171",
+      "source": "https://open.canada.ca/data/dataset/71fa9c90-f690-4928-9239-69b4ecbeccee/resource/237fe2c2-2f86-4ef4-b11d-485a28f8a57a/download/les-resultats-des-mycotoxines-de-letude-canadienne-sur-lalimentation-totale-2008-2009.csv"
+    }
+  },
+  "study": "tds-ota-2008",
+  "version": "0.1.0"
+}

@@ -1,0 +1,138 @@
+sample,food,code,city,year,operator,value_raw,kind,value,unit,lod,loq,table3
+5582,"Milk, 2%",AA02,Quebec City,2008,<LOD/MDL,0,below,0.0,ng/ml,0.002,0.007,nd
+6891,"Milk, 2%",AA02,Calgary,2009,<LOD/MDL,0,below,0.0,ng/ml,0.002,0.007,nd
+5627,Ice Cream,AA07,Quebec City,2008,=,0.019,det,0.019,ng/ml,0.001,0.004,0.02
+6892,Ice Cream,AA07,Calgary,2009,=,0.026,det,0.026,ng/ml,0.003,0.01,0.03
+5583,"Cheese, Hard",AA09,Quebec City,2008,=,0.004,det,0.004,ng/g,0.012,0.039,nd
+6893,"Cheese, Hard",AA09,Calgary,2009,<LOD/MDL,0,below,0.0,ng/g,0.003,0.01,nd
+5584,"Cheese, Processed",AA11,Quebec City,2008,=,0.004,det,0.004,ng/g,0.006,0.021,nd
+6894,"Cheese, Processed",AA11,Calgary,2009,<LOD/MDL,0,below,0.0,ng/g,0.005,0.017,nd
+5523,Chocolate Milk 1%,AA13,Quebec City,2008,=,0.016,det,0.016,ng/ml,0.001,0.005,0.02
+6895,Chocolate Milk 1%,AA13,Calgary,2009,=,0.009,det,0.009,ng/ml,0.002,0.007,0.01
+5586,"Pork Ground, other",BB04,Quebec City,2008,=,0.031,det,0.031,ng/g,0.005,0.016,0.03
+6896,"Pork Ground, other",BB04,Calgary,2009,=,0.228,det,0.228,ng/g,0.002,0.007,0.23
+5573,"Bologna, Chicken",BB05,Quebec City,2008,=,0.063,det,0.063,ng/g,0.005,0.018,0.06
+6897,"Bologna, Chicken",BB05,Calgary,2009,=,0.195,det,0.195,ng/g,0.002,0.006,0.20
+5578,"Veal Cutlets, Bone-In",BB06,Quebec City,2008,<LOD/MDL,0,below,0.0,ng/g,0.005,0.017,nd
+6898,"Veal Cutlets, Bone-In",BB06,Calgary,2009,<LOD/MDL,0,below,0.0,ng/g,0.002,0.007,nd
+5546,"Lamb, Ground",BB07,Quebec City,2008,<LOD/MDL,0,below,0.0,ng/g,0.005,0.017,nd
+6899,"Lamb, Ground",BB07,Calgary,2009,<LOD/MDL,0,below,0.0,ng/g,0.002,0.007,nd
+5552,Canned Luncheon Meat,BB09,Quebec City,2008,=,0.012,det,0.012,ng/g,0.003,0.011,0.01
+6900,Canned Luncheon Meat,BB09,Calgary,2009,=,0.014,det,0.014,ng/g,0.002,0.006,0.01
+5559,Organ Meat,BB10,Quebec City,2008,<LOD/MDL,0,below,0.0,ng/g,0.003,0.01,nd
+6901,Organ Meat,BB10,Calgary,2009,=,0.008,det,0.008,ng/g,0.006,0.02,0.01
+5561,Wieners,BB11,Quebec City,2008,=,0.117,det,0.117,ng/g,0.003,0.009,0.12
+6902,Wieners,BB11,Calgary,2009,=,0.061,det,0.061,ng/g,0.002,0.006,0.06
+5579,"Eggs, fresh",CC01,Quebec City,2008,<LOD/MDL,0,below,0.0,ng/g,0.006,0.02,nd
+6903,"Eggs, fresh",CC01,Calgary,2009,<LOD/MDL,0,below,0.0,ng/g,0.004,0.013,nd
+5580,"Bread, White",FF01,Quebec City,2008,=,0.769,det,0.769,ng/g,0.002,0.008,0.77
+6904,"Bread, White",FF01,Calgary,2009,=,0.666,det,0.666,ng/g,0.003,0.011,0.67
+5581,"Bread, Whole Wheat",FF02,Quebec City,2008,=,1.272,det,1.272,ng/g,0.004,0.013,1.3
+6905,"Bread, Whole Wheat",FF02,Calgary,2009,=,0.833,det,0.833,ng/g,0.003,0.011,0.83
+5577,"Bread, Rye",FF03,Quebec City,2008,=,0.997,det,0.997,ng/g,0.003,0.009,1.0
+6906,"Bread, Rye",FF03,Calgary,2009,=,0.565,det,0.565,ng/g,0.003,0.009,0.57
+5544,Cake,FF04,Quebec City,2008,=,0.072,det,0.072,ng/g,0.002,0.005,0.07
+6907,Cake,FF04,Calgary,2009,=,0.042,det,0.042,ng/g,0.001,0.005,0.04
+5540,"Hot Cereals, Wheat-Based",FF05,Quebec City,2008,=,0.037,det,0.037,ng/g,0.002,0.008,0.04
+6908,"Hot Cereals, Wheat-Based",FF05,Calgary,2009,=,0.007,det,0.007,ng/g,0.003,0.01,0.01
+5536,"Cold Cereals, Corn Based",FF06,Quebec City,2008,=,0.007,det,0.007,ng/g,0.003,0.009,0.01
+6909,"Cold Cereals, Corn Based",FF06,Calgary,2009,=,0.011,det,0.011,ng/g,0.003,0.011,0.01
+5532,"Cold Cereals, Oat Based",FF07,Quebec City,2008,=,0.11,det,0.11,ng/g,0.003,0.01,0.11
+6910,"Cold Cereals, Oat Based",FF07,Calgary,2009,=,0.111,det,0.111,ng/g,0.002,0.008,0.11
+5528,"Cereal, Rice, Bran",FF08,Quebec City,2008,=,0.266,det,0.266,ng/g,0.005,0.015,0.27
+6911,"Cereal, Rice, Bran",FF08,Calgary,2009,=,0.264,det,0.264,ng/g,0.002,0.007,0.26
+5527,Cookies,FF09,Quebec City,2008,=,0.214,det,0.214,ng/g,0.003,0.009,0.21
+6912,Cookies,FF09,Calgary,2009,=,0.2,det,0.2,ng/g,0.002,0.008,0.20
+5531,"Crackers, other",FF10,Quebec City,2008,=,0.439,det,0.439,ng/g,0.003,0.011,0.44
+6913,"Crackers, other",FF10,Calgary,2009,=,0.033,det,0.033,ng/g,0.003,0.009,0.03
+5535,"Danish, Donuts, Croissants",FF11,Quebec City,2008,=,0.241,det,0.241,ng/g,0.002,0.006,0.24
+6914,"Danish, Donuts, Croissants",FF11,Calgary,2009,=,0.351,det,0.351,ng/g,0.003,0.01,0.35
+5539,"Flour, white (wheat)",FF12,Quebec City,2008,=,0.394,det,0.394,ng/g,0.004,0.014,0.39
+6915,"Flour, white (wheat)",FF12,Calgary,2009,=,1.695,det,1.695,ng/g,0.004,0.014,1.7
+5543,"Muffins, Regular",FF13,Quebec City,2008,=,0.195,det,0.195,ng/g,0.002,0.006,0.20
+6916,"Muffins, Regular",FF13,Calgary,2009,=,0.186,det,0.186,ng/g,0.002,0.008,0.19
+5576,"Mixes, Pancake & Waffle",FF14,Quebec City,2008,=,0.099,det,0.099,ng/g,0.002,0.006,0.10
+6917,"Mixes, Pancake & Waffle",FF14,Calgary,2009,=,0.157,det,0.157,ng/g,0.003,0.012,0.16
+5542,"Pasta, Mixed Dishes",FF15,Quebec City,2008,=,0.132,det,0.132,ng/g,0.002,0.006,0.13
+6918,"Pasta, Mixed Dishes",FF15,Calgary,2009,=,0.067,det,0.067,ng/g,0.001,0.004,0.07
+5538,"Pasta, Plain",FF16,Quebec City,2008,=,0.343,det,0.343,ng/g,0.002,0.005,0.34
+6919,"Pasta, Plain",FF16,Calgary,2009,=,0.07,det,0.07,ng/g,0.001,0.005,0.07
+5534,"Pies, apple",FF17,Quebec City,2008,=,0.111,det,0.111,ng/g,0.002,0.006,0.11
+6920,"Pies, apple",FF17,Calgary,2009,=,0.135,det,0.135,ng/g,0.002,0.006,0.13
+5530,"Pie, Other",FF18,Quebec City,2008,=,0.112,det,0.112,ng/g,0.001,0.005,0.11
+6921,"Pie, Other",FF18,Calgary,2009,=,0.088,det,0.088,ng/g,0.002,0.005,0.09
+5526,"White Rice (Long, Med, Short Grain)",FF19,Quebec City,2008,<LOD/MDL,0,below,0.0,ng/g,0.0,0.001,nd
+6922,"White Rice (Long, Med, Short Grain)",FF19,Calgary,2009,=,0.003,det,0.003,ng/g,0.002,0.007,nd
+5575,Buns & Rolls,FF20,Quebec City,2008,=,1.015,det,1.015,ng/g,0.002,0.008,1.0
+6923,Buns & Rolls,FF20,Calgary,2009,=,1.236,det,1.236,ng/g,0.004,0.014,1.2
+5518,Bread,FF21,Quebec City,2008,=,0.453,det,0.453,ng/g,0.002,0.007,0.45
+6924,Bread,FF21,Calgary,2009,=,0.419,det,0.419,ng/g,0.002,0.005,0.42
+5549,"Beans, Baked, canned",GG01,Quebec City,2008,=,0.012,det,0.012,ng/g,0.003,0.01,0.01
+6925,"Beans, Baked, canned",GG01,Calgary,2009,=,0.004,det,0.004,ng/g,0.002,0.007,nd
+5565,"Beans, String",GG02,Quebec City,2008,=,0.525,det,0.525,ng/g,0.002,0.006,0.53
+6926,"Beans, String",GG02,Calgary,2009,<LOD/MDL,0,below,0.0,ng/g,0.002,0.007,nd
+5557,"Peas, Green",GG14,Quebec City,2008,<LOD/MDL,0,below,0.0,ng/g,0.003,0.01,nd
+6927,"Peas, Green",GG14,Calgary,2009,<LOD/MDL,0,below,0.0,ng/g,0.003,0.01,nd
+5563,"Snack Food, Corn Chips",GG27,Quebec City,2008,=,0.028,det,0.028,ng/g,0.004,0.013,0.03
+6928,"Snack Food, Corn Chips",GG27,Calgary,2009,=,0.003,det,0.003,ng/g,0.001,0.004,nd
+5558,"Fruits, Blueberries",HH05,Quebec City,2008,<LOD/MDL,0,below,0.0,ng/g,0.002,0.007,nd
+6929,"Fruits, Blueberries",HH05,Calgary,2009,<LOD/MDL,0,below,0.0,ng/g,0.001,0.003,nd
+5545,"Juice, Grape",HH10,Quebec City,2008,<LOD/MDL,0,below,0.0,ng/ml,0.002,0.007,nd
+6930,"Juice, Grape",HH10,Calgary,2009,=,0.003,det,0.003,ng/ml,0.001,0.004,nd
+5548,"Fruits, Grapes, Green & White Seedless",HH11,Quebec City,2008,<LOD/MDL,0,below,0.0,ng/g,0.003,0.01,nd
+6931,"Fruits, Grapes, Green & White Seedless",HH11,Calgary,2009,<LOD/MDL,0,below,0.0,ng/g,0.001,0.003,nd
+5564,"Fruits, Raisins, Semi-Moist",HH17,Quebec City,2008,=,2.348,det,2.348,ng/g,0.006,0.021,2.3
+6932,"Fruits, Raisins, Semi-Moist",HH17,Calgary,2009,=,0.166,det,0.166,ng/g,0.001,0.004,0.17
+5560,Chocolate Candy Bars,JJ01,Quebec City,2008,=,0.297,det,0.297,ng/g,0.002,0.008,0.30
+6933,Chocolate Candy Bars,JJ01,Calgary,2009,=,0.134,det,0.134,ng/g,0.003,0.01,0.13
+5562,Penny Candy,JJ02,Quebec City,2008,=,0.005,det,0.005,ng/g,0.004,0.012,0.01
+6934,Penny Candy,JJ02,Calgary,2009,=,0.002,det,0.002,ng/g,0.002,0.008,nd
+5551,Peanut Butter,JJ07,Quebec City,2008,=,0.038,det,0.038,ng/g,0.002,0.007,0.04
+6935,Peanut Butter,JJ07,Calgary,2009,=,0.002,det,0.002,ng/g,0.002,0.008,nd
+5574,Pudding,JJ08,Quebec City,2008,=,0.026,det,0.026,ng/g,0.002,0.006,0.03
+6936,Pudding,JJ08,Calgary,2009,=,0.016,det,0.016,ng/g,0.001,0.004,0.02
+5556,"Snack Foods, Seeds, Shelled",JJ11,Quebec City,2008,=,0.072,det,0.072,ng/g,0.003,0.009,0.07
+6937,"Snack Foods, Seeds, Shelled",JJ11,Calgary,2009,=,0.348,det,0.348,ng/g,0.002,0.007,0.35
+5522,"Snack Foods, Mixed Nuts",JJ12,Quebec City,2008,=,0.017,det,0.017,ng/g,0.002,0.007,0.02
+6938,"Snack Foods, Mixed Nuts",JJ12,Calgary,2009,=,0.035,det,0.035,ng/g,0.002,0.006,0.03
+5529,Beer & Malt,KK01,Quebec City,2008,=,0.043,det,0.043,ng/ml,0.002,0.007,0.04
+5547,"Wine, Other",KK02,Quebec City,2008,=,0.022,det,0.022,ng/ml,0.002,0.007,0.02
+5555,"Coffee, Roast & Ground",KK04,Quebec City,2008,=,0.015,det,0.015,ng/ml,0.003,0.01,0.02
+6941,"Coffee, Roast & Ground",KK04,Calgary,2009,=,0.011,det,0.011,ng/ml,0.002,0.006,0.01
+5525,Tea,KK06,Quebec City,2008,<LOD/MDL,0,below,0.0,ng/ml,0.002,0.007,nd
+6942,Tea,KK06,Calgary,2009,<LOD/MDL,0,below,0.0,ng/ml,0.002,0.007,nd
+5520,"Soya Beverage, fortified",KK07,Quebec City,2008,=,0.052,det,0.052,ng/ml,0.001,0.004,0.05
+6943,"Soya Beverage, fortified",KK07,Calgary,2009,=,0.02,det,0.02,ng/ml,0.002,0.007,0.02
+5572,"Infant cereals, Mixed Grain Base",LL01,Quebec City,2008,=,0.425,det,0.425,ng/g,0.003,0.01,0.43
+6944,"Infant cereals, Mixed Grain Base",LL01,Calgary,2009,=,0.007,det,0.007,ng/g,0.003,0.009,0.01
+5566,"Dessert, Baby Food",LL02,Quebec City,2008,=,0.003,det,0.003,ng/g,0.01,0.035,nd
+6945,"Dessert, Baby Food",LL02,Calgary,2009,<LOD/MDL,0,below,0.0,ng/g,0.002,0.007,nd
+5571,"Baby Food, Dinners Cereal, Vegetable, Meat",LL03,Quebec City,2008,=,0.004,det,0.004,ng/g,0.002,0.008,nd
+6946,"Baby Food, Dinners Cereal, Vegetable, Meat",LL03,Calgary,2009,=,0.008,det,0.008,ng/g,0.003,0.009,0.01
+5567,"Infant Formula, Ready To Use, Milk, 0-12",LL05,Quebec City,2008,=,0.004,det,0.004,ng/ml,0.007,0.022,nd
+6947,"Infant Formula, Ready To Use, Milk, 0-12",LL05,Calgary,2009,=,0.004,det,0.004,ng/ml,0.003,0.011,nd
+5568,"Infant Formula, Ready To Use, Soy, 0-12",LL06,Quebec City,2008,=,0.014,det,0.014,ng/ml,0.001,0.004,0.01
+6948,"Infant Formula, Ready To Use, Soy, 0-12",LL06,Calgary,2009,=,0.017,det,0.017,ng/ml,0.002,0.008,0.02
+5569,"Baby Food, Dinners, Meat Or Poultry Or Eggs",LL08,Quebec City,2008,<LOD/MDL,0,below,0.0,ng/g,0.002,0.007,nd
+6949,"Baby Food, Dinners, Meat Or Poultry Or Eggs",LL08,Calgary,2009,<LOD/MDL,0,below,0.0,ng/g,0.002,0.007,nd
+6950,"Mixed Vegetable, Baby Food",LL09,Calgary,2009,<LOD/MDL,0,below,0.0,ng/g,0.002,0.007,nd
+5585,"Snack Foods, Popcorn, Microwave",MM01,Quebec City,2008,=,0.001,det,0.001,ng/g,0.001,0.003,nd
+6951,"Snack Foods, Popcorn, Microwave",MM01,Calgary,2009,<LOD/MDL,0,below,0.0,ng/g,0.003,0.01,nd
+5550,"Dinners, Frozen Entrées",MM02,Quebec City,2008,=,0.064,det,0.064,ng/g,0.002,0.008,0.06
+6952,"Dinners, Frozen Entrées",MM02,Calgary,2009,=,0.051,det,0.051,ng/g,0.001,0.005,0.05
+5554,"Fast Food, Pizza",NN01,Quebec City,2008,=,0.21,det,0.21,ng/g,0.003,0.01,0.21
+6953,"Fast Food, Pizza",NN01,Calgary,2009,=,0.225,det,0.225,ng/g,0.001,0.004,0.22
+5541,"Fast Food, Hamburgers",NN03,Quebec City,2008,=,0.44,det,0.44,ng/g,0.001,0.003,0.44
+6954,"Fast Food, Hamburgers",NN03,Calgary,2009,=,0.218,det,0.218,ng/g,0.001,0.004,0.22
+5537,"Fast Food, Chicken Burgers",NN04,Quebec City,2008,=,0.32,det,0.32,ng/g,0.004,0.012,0.32
+6955,"Fast Food, Chicken Burgers",NN04,Calgary,2009,=,0.234,det,0.234,ng/g,0.002,0.007,0.23
+5533,"Fast Food, Hot Dogs",NN05,Quebec City,2008,=,0.382,det,0.382,ng/g,0.005,0.017,0.38
+6956,"Fast Food, Hot Dogs",NN05,Calgary,2009,=,0.414,det,0.414,ng/g,0.002,0.008,0.41
+5553,"Fast Food, Chicken Nuggets",NN06,Quebec City,2008,=,0.094,det,0.094,ng/g,0.004,0.014,0.09
+6957,"Fast Food, Chicken Nuggets",NN06,Calgary,2009,=,0.036,det,0.036,ng/g,0.002,0.006,0.04
+5524,Vanilla,PP05,Quebec City,2008,<LOD/MDL,0,below,0.0,ng/ml,0.002,0.007,nd
+6958,Vanilla,PP05,Calgary,2009,=,0.018,det,0.018,ng/ml,0.001,0.005,0.02
+5521,Herbs & Spices Mixed,PP06,Quebec City,2008,=,0.084,det,0.084,ng/g,0.008,0.026,0.08
+6959,Herbs & Spices Mixed,PP06,Calgary,2009,=,0.075,det,0.075,ng/g,0.005,0.016,0.07
+5519,Soya Sauce,PP07,Quebec City,2008,=,0.004,det,0.004,ng/ml,0.002,0.007,nd
+6960,Soya Sauce,PP07,Calgary,2009,<LOD/MDL,0,below,0.0,ng/ml,0.002,0.007,nd

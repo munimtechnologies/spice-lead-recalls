@@ -644,6 +644,22 @@ By MV2 of Munim, Inc. Prepared with AI agents. Text CC BY 4.0; code Apache-2.0.
   against the table and the text, and five blind predictions (the file follows Table 3;
   which rows are liquids; English and French agree; cereal foods lead the top 20; rankings
   hold between years). Grading code `tds_ota_2008.py` is committed with it.
+- [tds-ota-2008 0.1.0: result](tds-ota-2008-0.1.0-result.md) — gate passed, 7 of 11 met. The
+  open file is the more complete record: of the 137 composites it carries, Table 3 prints a
+  value for 94 (the file matches every one at printed precision, C2) and "n.d." for 43, yet
+  the file reports a measured result (an `=` value 0.001–0.004 ng/g) for 14 of those 43, seven
+  in each city-year. So the file detects OTA in **108 of 137 (79%)**, against the 94 Table 3
+  prints and the "51 of 70 in each year" (73%, 102/140) of the paper's text — three different
+  detection counts for one study (C1, C4, P1 all turn on this; C5 is the same at the LOQ, where
+  only 2008's printed 47 reproduces). The two maxima match (raisins 2.348 ng/g in 2008, white
+  wheat flour 1.695 in 2009; C3), the English and French open files agree to the row even
+  though the portal flags the English one's validation as "failure" (P3), the 24 `ng/ml` rows
+  are exactly Table 3's starred liquids plus the soy infant formula (P2), 16 of the top 20
+  foods by two-year mean are cereal (P4), and the 2008/2009 food rankings correlate at Spearman
+  0.81 (P5). No composite exceeds any EU OTA level that fits it. Recomputed from
+  `data/tds_ota_2008_samples.csv` by an independent pinned test (the Spearman and top-20 from
+  scratch). A reference comparison (Canada sets no OTA maximum level for these foods), not a
+  finding about any product or health risk.
 
 ## Alternaria toxins: CFIA 2014-2022, and the EU's indicative levels
 
