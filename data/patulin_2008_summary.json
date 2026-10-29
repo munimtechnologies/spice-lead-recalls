@@ -1,0 +1,398 @@
+{
+  "analysis": {
+    "below_15": 7,
+    "below_rl_entries": {
+      "<0": 75,
+      "<10": 17
+    },
+    "between": [],
+    "by_origin": {
+      "CANADA": {
+        "ge_rl": 1,
+        "n": 10
+      },
+      "CHILE": {
+        "ge_rl": 1,
+        "n": 17
+      },
+      "CHINA": {
+        "ge_rl": 3,
+        "n": 42
+      },
+      "JORDAN": {
+        "ge_rl": 1,
+        "n": 1
+      },
+      "MOLDOVA": {
+        "ge_rl": 1,
+        "n": 1
+      },
+      "SOUTH AFRICA": {
+        "ge_rl": 0,
+        "n": 5
+      },
+      "TURKEY": {
+        "ge_rl": 0,
+        "n": 2
+      },
+      "UNITED STATES": {
+        "ge_rl": 4,
+        "n": 23
+      },
+      "UNKNOWN": {
+        "ge_rl": 1,
+        "n": 3
+      }
+    },
+    "by_product": {
+      "Apple Juice": {
+        "ge_rl": 7,
+        "max": 26.7,
+        "n": 44
+      },
+      "Apple Juice Concentrate": {
+        "ge_rl": 5,
+        "max": 24.0,
+        "n": 60
+      }
+    },
+    "china_ge": 3,
+    "china_p": 0.35249008956696076,
+    "china_table": [
+      3,
+      39,
+      9,
+      53
+    ],
+    "conc_ge": 5,
+    "conc_max": 24.0,
+    "date_max": "2009-03-23",
+    "date_min": "2008-11-03",
+    "dates_parsed": 104,
+    "domestic_ge": 1,
+    "domestic_origins": [
+      "CANADA"
+    ],
+    "function_p": 1.0,
+    "function_table": [
+      11,
+      83,
+      1,
+      9
+    ],
+    "imported_canada": 0,
+    "juice_ge": 7,
+    "juice_max": 26.7,
+    "n_between": 0,
+    "n_ge_ml": 0,
+    "n_ge_rl": 12,
+    "n_over_eu_infant": 12,
+    "quantified": [
+      {
+        "date": "28-Nov-08",
+        "function": "imported",
+        "origin": "JORDAN",
+        "ppb": 26.7,
+        "product": "Apple Juice",
+        "raw": "26.7",
+        "region": "WEST",
+        "sample": "FSAP8-00015"
+      },
+      {
+        "date": "6-Feb-09",
+        "function": "imported",
+        "origin": "CHINA",
+        "ppb": 24.0,
+        "product": "Apple Juice Concentrate",
+        "raw": "24",
+        "region": "ONTARIO",
+        "sample": "FSAP8-00094"
+      },
+      {
+        "date": "7-Nov-08",
+        "function": "imported",
+        "origin": "UNITED STATES",
+        "ppb": 21.5,
+        "product": "Apple Juice",
+        "raw": "21.5",
+        "region": "WEST",
+        "sample": "FSAP8-00003"
+      },
+      {
+        "date": "22-Jan-09",
+        "function": "domestic",
+        "origin": "CANADA",
+        "ppb": 19.9,
+        "product": "Apple Juice Concentrate",
+        "raw": "19.9",
+        "region": "ONTARIO",
+        "sample": "FSAP8-00032"
+      },
+      {
+        "date": "3-Feb-09",
+        "function": "imported",
+        "origin": "CHILE",
+        "ppb": 17.4,
+        "product": "Apple Juice",
+        "raw": "17.4",
+        "region": "ONTARIO",
+        "sample": "FSAP8-00084"
+      },
+      {
+        "date": "2-Mar-09",
+        "function": "imported",
+        "origin": "UNITED STATES",
+        "ppb": 12.6,
+        "product": "Apple Juice",
+        "raw": "12.6",
+        "region": "ONTARIO",
+        "sample": "FSAP8-00135"
+      },
+      {
+        "date": "4-Mar-09",
+        "function": "imported",
+        "origin": "MOLDOVA",
+        "ppb": 12.5,
+        "product": "Apple Juice",
+        "raw": "12.5",
+        "region": "ONTARIO",
+        "sample": "FSAP8-00134"
+      },
+      {
+        "date": "10-Mar-09",
+        "function": "imported",
+        "origin": "UNITED STATES",
+        "ppb": 12.5,
+        "product": "Apple Juice Concentrate",
+        "raw": "12.5",
+        "region": "ONTARIO",
+        "sample": "FSAP8-00220"
+      },
+      {
+        "date": "12-Jan-09",
+        "function": "imported",
+        "origin": "UNITED STATES",
+        "ppb": 10.4,
+        "product": "Apple Juice Concentrate",
+        "raw": "10.4",
+        "region": "ONTARIO",
+        "sample": "FSAP8-00030"
+      },
+      {
+        "date": "19-Mar-09",
+        "function": "imported",
+        "origin": "UNKNOWN",
+        "ppb": 10.3,
+        "product": "Apple Juice",
+        "raw": "10.3",
+        "region": "WEST",
+        "sample": "FSAP8-00294"
+      },
+      {
+        "date": "6-Feb-09",
+        "function": "imported",
+        "origin": "CHINA",
+        "ppb": 10.1,
+        "product": "Apple Juice Concentrate",
+        "raw": "10.1",
+        "region": "ONTARIO",
+        "sample": "FSAP8-00098"
+      },
+      {
+        "date": "2-Mar-09",
+        "function": "imported",
+        "origin": "CHINA",
+        "ppb": 10.1,
+        "product": "Apple Juice",
+        "raw": "10.1",
+        "region": "ONTARIO",
+        "sample": "FSAP8-00117"
+      }
+    ]
+  },
+  "census": {
+    "components": {
+      "Patulin": 104
+    },
+    "distinct_samples": 104,
+    "functions": {
+      "domestic": 10,
+      "imported": 94
+    },
+    "n_rows": 104,
+    "origins": {
+      "CANADA": 10,
+      "CHILE": 17,
+      "CHINA": 42,
+      "JORDAN": 1,
+      "MOLDOVA": 1,
+      "SOUTH AFRICA": 5,
+      "TURKEY": 2,
+      "UNITED STATES": 23,
+      "UNKNOWN": 3
+    },
+    "plans": {
+      "2008_FP8APL7": 104
+    },
+    "products": {
+      "Apple Juice": 44,
+      "Apple Juice Concentrate": 60
+    },
+    "rows_per_sample": {
+      "1": 104
+    },
+    "units": {
+      "ng/g": 104
+    },
+    "value_kinds": {
+      "lt": 17,
+      "num": 12,
+      "text": 75
+    }
+  },
+  "n_graded": 1,
+  "n_met": 0,
+  "predictions": [
+    {
+      "graded": true,
+      "id": "G",
+      "kind": "gate",
+      "met": false,
+      "observed": {
+        "component": true,
+        "functions": true,
+        "origins": true,
+        "products": true,
+        "rows": true,
+        "rows_per_sample": true,
+        "samples": true,
+        "sha256": true,
+        "unit": true,
+        "value_kinds": false
+      },
+      "text": "SHA-256; 104 rows and samples, one row each; product, function and origin row counts; one component (Patulin); one known unit; every AMOUNT cell a number, a literal 0, a '<' entry or an ND-type token, with numbers present"
+    },
+    {
+      "graded": false,
+      "id": "C1",
+      "kind": "consistency",
+      "met": false,
+      "observed": {
+        "conc_ge": 5,
+        "juice_ge": 7,
+        "n_ge_rl": 12
+      },
+      "text": "the summary page: 7 of 44 apple juices and 5 of 60 concentrates at or above the 10 ppb reporting limit (37/44 and 55/60 below; 88.5% overall)"
+    },
+    {
+      "graded": false,
+      "id": "C2",
+      "kind": "consistency",
+      "met": false,
+      "observed": {
+        "conc_max": 24.0,
+        "juice_max": 26.7
+      },
+      "text": "the summary page: maxima 26.7 ppb (apple juice) and 24.0 ppb (concentrate)"
+    },
+    {
+      "graded": false,
+      "id": "C3",
+      "kind": "consistency",
+      "met": false,
+      "observed": {
+        "n_ge_ml": 0
+      },
+      "text": "the summary page: no sample at or above 50 ppb"
+    },
+    {
+      "graded": false,
+      "id": "C4",
+      "kind": "consistency",
+      "met": false,
+      "observed": {
+        "china_p": 0.35249008956696076,
+        "china_table": [
+          3,
+          39,
+          9,
+          53
+        ],
+        "function_p": 1.0,
+        "function_table": [
+          11,
+          83,
+          1,
+          9
+        ]
+      },
+      "text": "the summary page: origin not linked to patulin; Fisher two-sided p >= 0.05 for China against all other origins and for imported against domestic (at or above 10 ppb)"
+    },
+    {
+      "graded": false,
+      "id": "P1",
+      "kind": "prediction",
+      "met": false,
+      "observed": {
+        "between": [],
+        "n_between": 0
+      },
+      "text": "no AMOUNT cell holds a number above 0 and below 10 ppb (the open file is censored at the reporting limit)"
+    },
+    {
+      "graded": false,
+      "id": "P2",
+      "kind": "prediction",
+      "met": false,
+      "observed": {
+        "domestic_origins": [
+          "CANADA"
+        ],
+        "imported_canada": 0
+      },
+      "text": "every domestic sample declares CANADA, and no imported sample does"
+    },
+    {
+      "graded": false,
+      "id": "P3",
+      "kind": "prediction",
+      "met": false,
+      "observed": {
+        "below_15": 7,
+        "n_ge_rl": 12
+      },
+      "text": "at least 8 of the quantified (>= 10 ppb) results are below 15 ppb"
+    },
+    {
+      "graded": false,
+      "id": "P4",
+      "kind": "prediction",
+      "met": false,
+      "observed": {
+        "domestic_ge": 1
+      },
+      "text": "at most 1 of the 10 domestic samples is at or above 10 ppb"
+    },
+    {
+      "graded": false,
+      "id": "P5",
+      "kind": "prediction",
+      "met": false,
+      "observed": {
+        "china_ge": 3
+      },
+      "text": "at least 3 of the quantified samples declare China as origin"
+    }
+  ],
+  "provenance": {
+    "PA": {
+      "bytes": 372295,
+      "encoding": "cp1252",
+      "resource": "60694a95-9060-49e4-b1ec-b61910e4c8c9",
+      "sha256": "4039e4a8b3e915b329b7e2afd9bc778c4a4707a7b7e5d99bd1319db0a745be66",
+      "source": "https://open.canada.ca/data/dataset/a3c93b73-f001-47b7-abbd-4df1438a9b06/resource/60694a95-9060-49e4-b1ec-b61910e4c8c9/download/copy-of-cfia_acia-1483-v1-chem_ts_fsap_2008-09_patulin_in_apple_juices_and_apple_juice_concentra.csv"
+    }
+  },
+  "study": "patulin-2008",
+  "version": "0.1.0"
+}

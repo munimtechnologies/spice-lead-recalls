@@ -1,0 +1,105 @@
+sample,product,origin,function,region,date,amount,kind,ppb
+FSAP8-00001,Apple Juice,UNITED STATES,imported,WEST,3-Nov-08,<10,lt,0.0
+FSAP8-00002,Apple Juice Concentrate,UNITED STATES,imported,WEST,3-Nov-08,<10,lt,0.0
+FSAP8-00003,Apple Juice,UNITED STATES,imported,WEST,7-Nov-08,21.5,num,21.5
+FSAP8-00004,Apple Juice Concentrate,UNITED STATES,imported,WEST,7-Nov-08,<10,lt,0.0
+FSAP8-00005,Apple Juice Concentrate,CHINA,imported,WEST,7-Nov-08,<10,lt,0.0
+FSAP8-00006,Apple Juice,CANADA,domestic,WEST,7-Nov-08,<10,lt,0.0
+FSAP8-00007,Apple Juice,UNITED STATES,imported,WEST,7-Nov-08,<10,lt,0.0
+FSAP8-00008,Apple Juice,TURKEY,imported,WEST,21-Nov-08,<10,lt,0.0
+FSAP8-00009,Apple Juice Concentrate,UNITED STATES,imported,QUEBEC,21-Nov-08,<10,lt,0.0
+FSAP8-00010,Apple Juice,CHINA,imported,WEST,21-Nov-08,<10,lt,0.0
+FSAP8-00011,Apple Juice Concentrate,CHINA,imported,QUEBEC,21-Nov-08,<10,lt,0.0
+FSAP8-00012,Apple Juice,CHINA,imported,WEST,21-Nov-08,<10,lt,0.0
+FSAP8-00012A,Apple Juice,CHINA,imported,ONTARIO,21-Nov-08,<0,text,0.0
+FSAP8-00013,Apple Juice,CANADA,domestic,ONTARIO,21-Nov-08,<10,lt,0.0
+FSAP8-00014,Apple Juice,CANADA,domestic,WEST,28-Nov-08,<10,lt,0.0
+FSAP8-00015,Apple Juice,JORDAN,imported,WEST,28-Nov-08,26.7,num,26.7
+FSAP8-00016,Apple Juice,UNKNOWN,imported,WEST,28-Nov-08,<0,text,0.0
+FSAP8-00017,Apple Juice,UNITED STATES,imported,ONTARIO,4-Dec-08,<0,text,0.0
+FSAP8-00018,Apple Juice,UNITED STATES,imported,WEST,4-Dec-08,<0,text,0.0
+FSAP8-00019,Apple Juice Concentrate,CANADA,domestic,WEST,4-Dec-08,<10,lt,0.0
+FSAP8-00020,Apple Juice Concentrate,CANADA,domestic,WEST,4-Dec-08,<10,lt,0.0
+FSAP8-00021,Apple Juice Concentrate,CHINA,imported,ONTARIO,16-Dec-08,<0,text,0.0
+FSAP8-00024,Apple Juice Concentrate,CHINA,imported,QUEBEC,16-Dec-08,<0,text,0.0
+FSAP8-00026,Apple Juice Concentrate,UNITED STATES,imported,WEST,16-Dec-08,<10,lt,0.0
+FSAP8-00027,Apple Juice Concentrate,CANADA,domestic,ATLANTIC,16-Dec-08,<10,lt,0.0
+FSAP8-00028,Apple Juice Concentrate,CANADA,domestic,QUEBEC,12-Jan-09,<0,text,0.0
+FSAP8-00029,Apple Juice Concentrate,CANADA,domestic,WEST,12-Jan-09,<0,text,0.0
+FSAP8-00030,Apple Juice Concentrate,UNITED STATES,imported,ONTARIO,12-Jan-09,10.4,num,10.4
+FSAP8-00031,Apple Juice Concentrate,UNITED STATES,imported,ONTARIO,3-Feb-09,<0,text,0.0
+FSAP8-00032,Apple Juice Concentrate,CANADA,domestic,ONTARIO,22-Jan-09,19.9,num,19.9
+FSAP8-00048,Apple Juice Concentrate,UNITED STATES,imported,ONTARIO,12-Jan-09,<0,text,0.0
+FSAP8-00060,Apple Juice Concentrate,CHILE,imported,ONTARIO,29-Jan-09,<0,text,0.0
+FSAP8-00072,Apple Juice Concentrate,CHINA,imported,ONTARIO,29-Jan-09,<0,text,0.0
+FSAP8-00073,Apple Juice,CHINA,imported,ONTARIO,29-Jan-09,<0,text,0.0
+FSAP8-00075,Apple Juice,TURKEY,imported,ONTARIO,29-Jan-09,<0,text,0.0
+FSAP8-00076,Apple Juice,CANADA,domestic,ONTARIO,29-Jan-09,<0,text,0.0
+FSAP8-00079,Apple Juice,CHILE,imported,ONTARIO,29-Jan-09,<0,text,0.0
+FSAP8-00080,Apple Juice,CHILE,imported,ONTARIO,29-Jan-09,<0,text,0.0
+FSAP8-00081,Apple Juice,CHILE,imported,ONTARIO,29-Jan-09,<0,text,0.0
+FSAP8-00082,Apple Juice,CHILE,imported,ONTARIO,29-Jan-09,<0,text,0.0
+FSAP8-00083,Apple Juice,CHILE,imported,ONTARIO,3-Feb-09,<0,text,0.0
+FSAP8-00084,Apple Juice,CHILE,imported,ONTARIO,3-Feb-09,17.4,num,17.4
+FSAP8-00089,Apple Juice,CHINA,imported,WEST,3-Feb-09,<0,text,0.0
+FSAP8-00090,Apple Juice,CHINA,imported,ONTARIO,3-Feb-09,<0,text,0.0
+FSAP8-00091,Apple Juice Concentrate,CHINA,imported,QUEBEC,3-Feb-09,<0,text,0.0
+FSAP8-00092,Apple Juice Concentrate,CHINA,imported,ONTARIO,3-Feb-09,<0,text,0.0
+FSAP8-00093,Apple Juice Concentrate,CHINA,imported,ONTARIO,6-Feb-09,<0,text,0.0
+FSAP8-00094,Apple Juice Concentrate,CHINA,imported,ONTARIO,6-Feb-09,24,num,24.0
+FSAP8-00095,Apple Juice Concentrate,CHINA,imported,ONTARIO,6-Feb-09,<0,text,0.0
+FSAP8-00096,Apple Juice Concentrate,CHINA,imported,WEST,6-Feb-09,<0,text,0.0
+FSAP8-00097,Apple Juice Concentrate,CHINA,imported,WEST,6-Feb-09,<0,text,0.0
+FSAP8-00098,Apple Juice Concentrate,CHINA,imported,ONTARIO,6-Feb-09,10.1,num,10.1
+FSAP8-00099,Apple Juice Concentrate,CHINA,imported,ONTARIO,6-Feb-09,<0,text,0.0
+FSAP8-00100,Apple Juice Concentrate,CHINA,imported,ONTARIO,2-Mar-09,<0,text,0.0
+FSAP8-00101,Apple Juice Concentrate,CHINA,imported,ONTARIO,26-Feb-09,<0,text,0.0
+FSAP8-00102,Apple Juice Concentrate,CHINA,imported,WEST,26-Feb-09,<0,text,0.0
+FSAP8-00103,Apple Juice Concentrate,CHINA,imported,ONTARIO,26-Feb-09,<0,text,0.0
+FSAP8-00104,Apple Juice Concentrate,CHINA,imported,ONTARIO,26-Feb-09,<0,text,0.0
+FSAP8-00105,Apple Juice Concentrate,CHINA,imported,ONTARIO,26-Feb-09,<0,text,0.0
+FSAP8-00106,Apple Juice Concentrate,CHINA,imported,ONTARIO,26-Feb-09,<0,text,0.0
+FSAP8-00107,Apple Juice Concentrate,CHINA,imported,ONTARIO,26-Feb-09,<0,text,0.0
+FSAP8-00108,Apple Juice Concentrate,CHINA,imported,ONTARIO,26-Feb-09,<0,text,0.0
+FSAP8-00109,Apple Juice Concentrate,CHINA,imported,ONTARIO,26-Feb-09,<0,text,0.0
+FSAP8-00110,Apple Juice Concentrate,CHINA,imported,ONTARIO,26-Feb-09,<0,text,0.0
+FSAP8-00111,Apple Juice Concentrate,CHILE,imported,ONTARIO,17-Feb-09,<0,text,0.0
+FSAP8-00112,Apple Juice,CHINA,imported,ONTARIO,17-Feb-09,<0,text,0.0
+FSAP8-00113,Apple Juice Concentrate,CHINA,imported,ONTARIO,17-Feb-09,<0,text,0.0
+FSAP8-00114,Apple Juice Concentrate,CHINA,imported,ONTARIO,17-Feb-09,<0,text,0.0
+FSAP8-00115,Apple Juice Concentrate,CHINA,imported,ONTARIO,17-Feb-09,<0,text,0.0
+FSAP8-00116,Apple Juice,CHINA,imported,ONTARIO,2-Mar-09,<0,text,0.0
+FSAP8-00117,Apple Juice,CHINA,imported,ONTARIO,2-Mar-09,10.1,num,10.1
+FSAP8-00118,Apple Juice,CHILE,imported,ONTARIO,2-Mar-09,<0,text,0.0
+FSAP8-00118A,Apple Juice,CHILE,imported,ONTARIO,2-Mar-09,<0,text,0.0
+FSAP8-00123,Apple Juice,CHILE,imported,ONTARIO,4-Mar-09,<0,text,0.0
+FSAP8-00133,Apple Juice,UNITED STATES,imported,ONTARIO,4-Mar-09,<0,text,0.0
+FSAP8-00134,Apple Juice,MOLDOVA,imported,ONTARIO,4-Mar-09,12.5,num,12.5
+FSAP8-00135,Apple Juice,UNITED STATES,imported,ONTARIO,2-Mar-09,12.6,num,12.6
+FSAP8-00136,Apple Juice,UNITED STATES,imported,WEST,2-Mar-09,<0,text,0.0
+FSAP8-00137,Apple Juice,UNITED STATES,imported,WEST,4-Mar-09,<0,text,0.0
+FSAP8-00138,Apple Juice Concentrate,UNITED STATES,imported,ONTARIO,4-Mar-09,<0,text,0.0
+FSAP8-00139,Apple Juice Concentrate,UNITED STATES,imported,ONTARIO,2-Mar-09,<0,text,0.0
+FSAP8-00140,Apple Juice Concentrate,CHILE,imported,ONTARIO,2-Mar-09,<0,text,0.0
+FSAP8-00141,Apple Juice Concentrate,CHILE,imported,ONTARIO,2-Mar-09,<0,text,0.0
+FSAP8-00142,Apple Juice Concentrate,UNITED STATES,imported,ONTARIO,4-Mar-09,<0,text,0.0
+FSAP8-00160,Apple Juice Concentrate,CHILE,imported,ONTARIO,4-Mar-09,<0,text,0.0
+FSAP8-00161,Apple Juice Concentrate,CHILE,imported,ONTARIO,10-Mar-09,<0,text,0.0
+FSAP8-00162,Apple Juice Concentrate,CHILE,imported,ONTARIO,10-Mar-09,<0,text,0.0
+FSAP8-00163,Apple Juice,CHILE,imported,WEST,10-Mar-09,<0,text,0.0
+FSAP8-00168,Apple Juice,UNITED STATES,imported,WEST,10-Mar-09,<0,text,0.0
+FSAP8-00169,Apple Juice,UNITED STATES,imported,ONTARIO,10-Mar-09,<0,text,0.0
+FSAP8-00180,Apple Juice Concentrate,CHINA,imported,ONTARIO,10-Mar-09,<0,text,0.0
+FSAP8-00220,Apple Juice Concentrate,UNITED STATES,imported,ONTARIO,10-Mar-09,12.5,num,12.5
+FSAP8-00221,Apple Juice Concentrate,UNITED STATES,imported,ONTARIO,10-Mar-09,<0,text,0.0
+FSAP8-00286,Apple Juice Concentrate,SOUTH AFRICA,imported,ONTARIO,10-Mar-09,<0,text,0.0
+FSAP8-00287,Apple Juice Concentrate,SOUTH AFRICA,imported,ONTARIO,10-Mar-09,<0,text,0.0
+FSAP8-00288,Apple Juice Concentrate,SOUTH AFRICA,imported,ONTARIO,19-Mar-09,<0,text,0.0
+FSAP8-00292,Apple Juice,SOUTH AFRICA,imported,WEST,19-Mar-09,<0,text,0.0
+FSAP8-00293,Apple Juice Concentrate,CHINA,imported,ONTARIO,19-Mar-09,<0,text,0.0
+FSAP8-00294,Apple Juice,UNKNOWN,imported,WEST,19-Mar-09,10.3,num,10.3
+FSAP8-00294A,Apple Juice Concentrate,UNKNOWN,imported,ONTARIO,16-Mar-09,<0,text,0.0
+FSAP8-00296,Apple Juice,CHINA,imported,ONTARIO,19-Mar-09,<0,text,0.0
+FSAP8-00297,Apple Juice,CHINA,imported,ONTARIO,19-Mar-09,<0,text,0.0
+FSAP8-00298,Apple Juice,CHINA,imported,WEST,19-Mar-09,<0,text,0.0
+FSAP8-00300,Apple Juice Concentrate,SOUTH AFRICA,imported,WEST,23-Mar-09,<0,text,0.0

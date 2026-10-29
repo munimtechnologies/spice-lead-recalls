@@ -139,7 +139,7 @@ By MV2 of Munim, Inc. Prepared with AI agents. Text CC BY 4.0; code Apache-2.0.
   limit changes; a non-detect written as the bare limit) and a seven-point checklist: find
   each limit, re-cut at the higher one, compare within product labels, give an interval,
   check non-detect coding, check which mean an average is, and look for limit changes before
-  reading a trend.
+  reading a trend. The patulin-2008 result below adds a further coding to check for: `<0`.
 
 ## A second source: FDA's border list
 
@@ -602,9 +602,10 @@ By MV2 of Munim, Inc. Prepared with AI agents. Text CC BY 4.0; code Apache-2.0.
   Greek fig, where it is 68% of the total. The note also corrects the pre-registration's
   sampling range: the file runs from 2 November 2009 to 10 March 2010, not to 27 January (the
   census had taken the text-order maximum of `DD-Mon-YY` strings). Recomputed from
-  `data/aflatoxin_figs_2009_samples.csv` by an independent pinned test. A reference comparison
-  (Canada sets no aflatoxin maximum level for dried fruit), not a finding about any product or
-  health risk.
+  `data/aflatoxin_figs_2009_samples.csv` by an independent pinned test. A sealed job later
+  fetched the published files from GitHub and re-ran that test on them: 10 of 10 passed (job
+  `aflatoxin-figs-2009-result-v1`, 2026-10-29). A reference comparison (Canada sets no
+  aflatoxin maximum level for dried fruit), not a finding about any product or health risk.
 
 ## Patulin in apple juice and concentrate: CFIA 2008-09
 
@@ -616,6 +617,33 @@ By MV2 of Munim, Inc. Prepared with AI agents. Text CC BY 4.0; code Apache-2.0.
   (including Fisher tests of the page's origin claim), and five blind predictions on whether
   the open file is censored at the reporting limit, how the domestic label maps to origin, and
   where the quantified results sit. Grading code `patulin_2008.py` is committed with it.
+- [patulin-2008 0.1.0: result](patulin-2008-0.1.0-result.md) — **the gate failed, so nothing
+  is graded.** Nine of ten gate checks passed. The value rule failed because 75 of the 104
+  `AMOUNT` cells read `<0`, "less than zero", which the registered rule did not cover. That
+  coding is the finding. The file writes "below the 10 ppb reporting limit" two ways: `<10` (17
+  samples, all taken 3 November – 16 December 2008) and `<0` (75; every below-limit sample from
+  12 January 2009 on). 17 + 75 = 92, exactly the page's count below 10 ppb. Taken literally,
+  the cells' own limits give an upper-bound mean of 3.44 ppb, against 10.65 with every
+  below-limit entry at 10 ppb (lower bound 1.81). Exploratory, read after the gate failed with
+  every value seen: the file agrees with every figure CFIA printed (7 juices and 5 concentrates
+  at or above 10 ppb; maxima 26.7 and 24; none at 50; origin not linked, Fisher p 0.35 and 1.0),
+  and four of the five predictions would hold. P3 would not (7 of 12 quantified results under
+  15 ppb, not 8). Rebuilt from `data/patulin_2008_samples.csv` by an independent pinned test. A
+  reference reading, not a finding about any product or health risk.
+
+## Ochratoxin A in the Canadian Total Diet Study, 2008-09
+
+- [Pre-registration: Health Canada's open Total Diet Study ochratoxin A file (2008-09) against the paper that reports it (tds-ota-2008 0.1.0)](tds-ota-2008-0.1.0-prereg.md) —
+  public at tag `v0.4.74` before any result value in the file was read. The paper (Tam et
+  al. 2011, *Food Addit Contam A* 28:754-761, open access) reports OTA in 140 composites,
+  the same 70 foods from Quebec City (2008) and Calgary (2009). Its text says 51 of 70 were
+  detected in each year, but its own Table 3 has 49 and 46 entries that are not "n.d.". A
+  names-only census found 137 composites in the open file, not 140, per-row detection limits
+  outside the paper's stated range in three rows, and a French copy in a different row
+  order. Registered: a gate with every food name mapped to Table 3, five consistency checks
+  against the table and the text, and five blind predictions (the file follows Table 3;
+  which rows are liquids; English and French agree; cereal foods lead the top 20; rankings
+  hold between years). Grading code `tds_ota_2008.py` is committed with it.
 
 ## Alternaria toxins: CFIA 2014-2022, and the EU's indicative levels
 
