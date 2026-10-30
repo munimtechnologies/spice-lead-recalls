@@ -1,0 +1,469 @@
+year,sample,product,class,formula_type,origin,unit,n_rows,values_raw,kind,value_stored,unit_factor_to_ppb
+2012-13,C2012ARSS00043,Infant Formula - Milk,formula,milk,UNITED STATES,ng/g,1,0,nd,0.0,1.0
+2012-13,C2012ARSS00045,Infant Formula - Soy,formula,soy,NETHERLANDS,ng/g,1,0,nd,0.0,1.0
+2012-13,C2012ARSS00047,Infant Formula - Milk,formula,milk,UNITED STATES,ng/g,1,0,nd,0.0,1.0
+2012-13,C2012ARSS00136,Infant Formula - Milk,formula,milk,IRELAND,ng/g,1,0,nd,0.0,1.0
+2012-13,C2012ARSS00137,Infant Formula - Milk,formula,milk,UNITED STATES,ng/g,1,0,nd,0.0,1.0
+2012-13,C2012ARSS00139,Infant Formula - Milk,formula,milk,UNITED STATES,ng/g,1,0.136,det,0.136,1.0
+2012-13,C2012ARSS00141,Infant Formula - Milk,formula,milk,SWITZERLAND,ng/g,1,0,nd,0.0,1.0
+2012-13,C2012ARSS00142,Infant Formula - Milk,formula,milk,UNITED STATES,ng/g,1,0,nd,0.0,1.0
+2012-13,C2012ARSS00418,Infant Formula - Milk,formula,milk,UNITED STATES,ng/g,1,0,nd,0.0,1.0
+2012-13,C2012ARSS00419,Infant Formula - Milk,formula,milk,UNITED STATES,ng/g,1,0,nd,0.0,1.0
+2012-13,C2012ARSS00420,Infant Formula - Milk,formula,milk,SWITZERLAND,ng/g,1,0,nd,0.0,1.0
+2012-13,C2012ARSS00421,Infant Formula - Milk,formula,milk,UNITED STATES,ng/g,1,0.069,det,0.069,1.0
+2012-13,C2012ARSS00422,Infant Formula - Milk,formula,milk,IRELAND,ng/g,1,0,nd,0.0,1.0
+2012-13,C2012ARSS00423,Infant Formula - Milk,formula,milk,UNITED STATES,ng/g,1,0.022,det,0.022,1.0
+2012-13,C2012ARSS00426,Infant Formula - Milk,formula,milk,UNITED STATES,ng/g,1,0.069,det,0.069,1.0
+2012-13,C2012ARSS00430,Infant Formula - Milk,formula,milk,SWITZERLAND,ng/g,1,0,nd,0.0,1.0
+2012-13,C2012ARSS00432,Infant Formula - Milk,formula,milk,UNITED STATES,ng/g,1,0,nd,0.0,1.0
+2012-13,C2012ARSS00436,Infant Formula - Milk,formula,milk,IRELAND,ng/g,1,0,nd,0.0,1.0
+2012-13,C2012ARSS00437,Infant Formula - Specialized,formula,specialized,UNITED STATES,ng/g,1,0,nd,0.0,1.0
+2012-13,C2012ARSS00439,Infant Formula - Specialized,formula,specialized,UNITED STATES,ng/g,1,0,nd,0.0,1.0
+2012-13,C2012ARSS00440,Infant Formula - Milk,formula,milk,SWITZERLAND,ng/g,1,0,nd,0.0,1.0
+2012-13,C2012ARSS00442,Infant Formula - Specialized,formula,specialized,UNITED STATES,ng/g,1,0,nd,0.0,1.0
+2012-13,C2012ARSS00444,Infant Formula - Milk,formula,milk,CANADA,ng/g,1,0,nd,0.0,1.0
+2012-13,C2012ARSS00445,Infant Formula - Milk,formula,milk,SWITZERLAND,ng/g,1,0,nd,0.0,1.0
+2012-13,C2012ARSS00446,Infant Formula - Milk,formula,milk,SWITZERLAND,ng/g,1,0,nd,0.0,1.0
+2012-13,C2012ARSS00680,Infant Formula - Milk,formula,milk,UNITED STATES,ng/g,1,0,nd,0.0,1.0
+2012-13,C2012ARSS00681,Infant Formula - Milk,formula,milk,SWITZERLAND,ng/g,1,0,nd,0.0,1.0
+2012-13,C2012ARSS00682,Infant Formula - Milk,formula,milk,SWITZERLAND,ng/g,1,0,nd,0.0,1.0
+2012-13,C2012ARSS00684,Infant Formula - Milk,formula,milk,UNITED STATES,ng/g,1,0,nd,0.0,1.0
+2012-13,C2012ARSS00685,Infant Formula - Specialized,formula,specialized,UNITED STATES,ng/g,1,0,nd,0.0,1.0
+2012-13,C2012ARSS00686,Infant Formula - Milk,formula,milk,IRELAND,ng/g,1,0,nd,0.0,1.0
+2012-13,C2012ARSS00687,Infant Formula - Milk,formula,milk,UNITED STATES,ng/g,1,0,nd,0.0,1.0
+2012-13,C2012ARSS00688,Infant Formula - Milk,formula,milk,SWITZERLAND,ng/g,1,0,nd,0.0,1.0
+2012-13,C2012ARSS00690,Infant Formula - Milk,formula,milk,IRELAND,ng/g,1,0,nd,0.0,1.0
+2012-13,C2012ARSS00692,Infant Formula - Milk,formula,milk,UNITED STATES,ng/g,1,0,nd,0.0,1.0
+2012-13,C2012ARSS00693,Infant Formula - Milk,formula,milk,UNITED STATES,ng/g,1,0,nd,0.0,1.0
+2012-13,C2012ARSS00696,Infant Formula - Milk,formula,milk,SWITZERLAND,ng/g,1,0,nd,0.0,1.0
+2012-13,C2012ARSS00698,Infant Formula - Milk,formula,milk,UNITED STATES,ng/g,1,0,nd,0.0,1.0
+2012-13,C2012ARSS00779,Infant Formula - Milk,formula,milk,IRELAND,ng/g,1,0,nd,0.0,1.0
+2012-13,C2012ARSS00780,Infant Formula - Milk,formula,milk,UNITED STATES,ng/g,1,0,nd,0.0,1.0
+2012-13,C2012ARSS00854,Infant Formula - Specialized,formula,specialized,UNITED STATES,ng/g,1,0.055,det,0.055,1.0
+2012-13,C2012ARSS00855,Infant Formula - Milk,formula,milk,UNITED STATES,ng/g,1,0.01,det,0.01,1.0
+2012-13,C2012ARSS00857,Infant Formula - Milk,formula,milk,UNITED STATES,ng/g,1,0,nd,0.0,1.0
+2012-13,C2012ARSS00858,Infant Formula - Specialized,formula,specialized,UNITED STATES,ng/g,1,0.021,det,0.021,1.0
+2012-13,C2012ARSS00859,Infant Formula - Milk,formula,milk,SWITZERLAND,ng/g,1,0,nd,0.0,1.0
+2012-13,C2012ARSS00910,Infant Formula - Milk,formula,milk,UNITED STATES,ng/g,1,0,nd,0.0,1.0
+2012-13,C2012ARSS00911,Infant Formula - Milk,formula,milk,UNITED STATES,ng/g,1,0.13,det,0.13,1.0
+2012-13,C2012ARSS01040,Infant Formula - Milk,formula,milk,SWITZERLAND,ng/g,1,0,nd,0.0,1.0
+2012-13,C2012ARSS01042,Infant Formula - Milk,formula,milk,UNITED STATES,ng/g,1,0.013,det,0.013,1.0
+2012-13,C2012ARSS01043,Infant Formula - Milk,formula,milk,SWITZERLAND,ng/g,1,0,nd,0.0,1.0
+2012-13,C2012ARSS01044,Infant Formula - Milk,formula,milk,UNITED STATES,ng/g,1,0,nd,0.0,1.0
+2012-13,C2012ARSS01045,Infant Formula - Milk,formula,milk,SWITZERLAND,ng/g,1,0,nd,0.0,1.0
+2012-13,C2012ARSS01046,Infant Formula - Milk,formula,milk,SWITZERLAND,ng/g,1,0,nd,0.0,1.0
+2012-13,C2012ARSS01047,Infant Formula - Milk,formula,milk,IRELAND,ng/g,1,0,nd,0.0,1.0
+2012-13,C2012ARSS01050,Infant Formula - Milk,formula,milk,IRELAND,ng/g,1,0,nd,0.0,1.0
+2012-13,C2012ARSS01052,Infant Formula - Milk,formula,milk,SWITZERLAND,ng/g,1,0,nd,0.0,1.0
+2012-13,C2012ARSS01053,Infant Formula - Milk,formula,milk,SWITZERLAND,ng/g,1,0,nd,0.0,1.0
+2012-13,C2012ARSS01133,Infant Formula - Milk,formula,milk,IRELAND,ng/g,1,0,nd,0.0,1.0
+2012-13,C2012ARSS01134,Infant Formula - Milk,formula,milk,UNITED STATES,ng/g,1,0,nd,0.0,1.0
+2012-13,C2012ARSS01135,Infant Formula - Milk,formula,milk,UNITED STATES,ng/g,1,0,nd,0.0,1.0
+2012-13,C2012ARSS01136,Infant Formula - Milk,formula,milk,UNITED STATES,ng/g,1,0,nd,0.0,1.0
+2012-13,C2012CFPD00001,Infant Formula - Milk,formula,milk,IRELAND,ng/g,1,0,nd,0.0,1.0
+2012-13,C2012CFPD00002,Infant Formula - Milk,formula,milk,UNITED STATES,ng/g,1,0,nd,0.0,1.0
+2012-13,C2012CFPD00003,Infant Formula - Specialized,formula,specialized,UNITED STATES,ng/g,1,0.023,det,0.023,1.0
+2012-13,C2012CFPD00004,Infant formula - Specialized,formula,specialized,UNITED STATES,ng/g,1,0,nd,0.0,1.0
+2012-13,C2012CFPD00005,Infant formula - Specialized,formula,specialized,UNITED STATES,ng/g,1,0,nd,0.0,1.0
+2012-13,C2012CFPD00007,Infant Formula - Milk,formula,milk,UNITED STATES,ng/g,1,0,nd,0.0,1.0
+2012-13,C2012CFPD00009,Infant Formula - Milk,formula,milk,UNITED STATES,ng/g,1,0,nd,0.0,1.0
+2012-13,C2012CFPD00010,Infant Formula - Milk,formula,milk,UNITED STATES,ng/g,1,0,nd,0.0,1.0
+2012-13,C2012CFPD00011,Infant Formula - Milk,formula,milk,UNITED STATES,ng/g,1,0,nd,0.0,1.0
+2012-13,C2012CFPD00012,Infant Formula - Milk,formula,milk,UNITED STATES,ng/g,1,0.064,det,0.064,1.0
+2012-13,C2012CFPD00014,Infant Formula - Milk,formula,milk,UNITED STATES,ng/g,1,0,nd,0.0,1.0
+2012-13,C2012CFPD00015,Infant Formula - Specialized,formula,specialized,UNITED STATES,ng/g,1,0,nd,0.0,1.0
+2012-13,C2012CFPD00017,Infant Formula - Milk,formula,milk,UNITED STATES,ng/g,1,0,nd,0.0,1.0
+2012-13,C2012CFPD00018,Infant Formula - Milk,formula,milk,UNITED STATES,ng/g,1,0,nd,0.0,1.0
+2012-13,C2012CFPD00020,Infant Formula - Milk,formula,milk,UNITED STATES,ng/g,1,0,nd,0.0,1.0
+2012-13,C2012CFPD00021,Infant Formula - Milk,formula,milk,UNITED STATES,ng/g,1,0,nd,0.0,1.0
+2012-13,C2012CFPD00022,Infant Formula - Milk,formula,milk,UNITED STATES,ng/g,1,0,nd,0.0,1.0
+2012-13,C2012CFPD00023,Infant Formula - Milk,formula,milk,UNITED STATES,ng/g,1,0.025,det,0.025,1.0
+2012-13,C2012CFPD00026,Infant Formula - Milk,formula,milk,SWITZERLAND,ng/g,1,0,nd,0.0,1.0
+2012-13,C2012CFPD00027,Infant Formula - Milk,formula,milk,UNITED STATES,ng/g,1,0,nd,0.0,1.0
+2012-13,C2012CFPD00028,Infant Formula - Milk,formula,milk,UNITED STATES,ng/g,1,0,nd,0.0,1.0
+2012-13,C2012CFPD00029,Infant Formula - Milk,formula,milk,SWITZERLAND,ng/g,1,0,nd,0.0,1.0
+2012-13,C2012CFPD00030,Infant Formula - Milk,formula,milk,UNITED STATES,ng/g,1,0,nd,0.0,1.0
+2012-13,C2012CFPD00032,Infant Formula - Specialized,formula,specialized,UNITED STATES,ng/g,1,0,nd,0.0,1.0
+2012-13,C2012CFPD00033,Infant Formula - Milk,formula,milk,UNITED STATES,ng/g,1,0,nd,0.0,1.0
+2012-13,C2012CFPD00034,Infant Formula - Milk,formula,milk,UNITED STATES,ng/g,1,0,nd,0.0,1.0
+2012-13,C2012CFPD00035,Infant Formula - Milk,formula,milk,UNITED STATES,ng/g,1,0,nd,0.0,1.0
+2012-13,C2012CFPD00036,Infant Formula - Milk,formula,milk,UNITED STATES,ng/g,1,0,nd,0.0,1.0
+2012-13,C2012CFPD00037,Infant Formula - Specialized,formula,specialized,UNITED STATES,ng/g,1,0,nd,0.0,1.0
+2012-13,C2012CFPD00038,Infant Formula - Milk,formula,milk,UNITED STATES,ng/g,1,0,nd,0.0,1.0
+2012-13,C2012CFPD00039,Infant Formula - Milk,formula,milk,UNITED STATES,ng/g,1,0,nd,0.0,1.0
+2012-13,C2012CFPD00040,Infant Formula - Milk,formula,milk,UNITED STATES,ng/g,1,0,nd,0.0,1.0
+2012-13,C2012CFPD00041,Infant Formula - Milk,formula,milk,UNITED STATES,ng/g,1,0,nd,0.0,1.0
+2012-13,C2012CFPD00043,Infant Formula - Specialized,formula,specialized,UNITED STATES,ng/g,1,0,nd,0.0,1.0
+2012-13,C2012CFPD00044,Infant Formula - Milk,formula,milk,UNITED STATES,ng/g,1,0,nd,0.0,1.0
+2012-13,C2012CFPD00045,Infant Formula - Milk,formula,milk,SWITZERLAND,ng/g,1,0,nd,0.0,1.0
+2012-13,C2012CFPD00046,Infant Formula - Milk,formula,milk,UNITED STATES,ng/g,1,0,nd,0.0,1.0
+2012-13,C2012CFPD00048,Infant Formula - Milk,formula,milk,UNITED STATES,ng/g,1,0,nd,0.0,1.0
+2012-13,C2012CFPD00049,Infant Formula - Milk,formula,milk,UNITED STATES,ng/g,1,0,nd,0.0,1.0
+2012-13,C2012CFPD00050,Infant Formula - Milk,formula,milk,UNITED STATES,ng/g,1,0,nd,0.0,1.0
+2014-15,CFP2014-0020,Infant Formula,formula,other,IRELAND,µg/g,1,0,nd,0.0,1000.0
+2014-15,CFP2014-0021,Toddler snacks,other,,UNITED STATES,µg/g,1,0,nd,0.0,1000.0
+2014-15,CFP2014-0024,Infant Formula,formula,other,SWITZERLAND,µg/g,1,0,nd,0.0,1000.0
+2014-15,CFP2014-0025,Infant Formula,formula,other,IRELAND,µg/g,1,0,nd,0.0,1000.0
+2014-15,CFP2014-0042,Infant Formula,formula,other,UNITED STATES,µg/g,1,0,nd,0.0,1000.0
+2014-15,CFP2014-0049,Infant Formula,formula,other,UNITED STATES,µg/g,1,0,nd,0.0,1000.0
+2014-15,CFP2014-0073,Infant Formula,formula,other,UNITED STATES,µg/g,1,0,nd,0.0,1000.0
+2014-15,CFP2014-0090,Infant Formula,formula,other,UNITED STATES,µg/g,1,0.011,det,0.011,1000.0
+2014-15,CFP2014-0092,Toddler snacks,other,,UNITED STATES,µg/g,1,0,nd,0.0,1000.0
+2014-15,CFP2014-0098,Infant Formula,formula,other,UNITED STATES,µg/g,1,0,nd,0.0,1000.0
+2014-15,CFP2014-0112,Toddler snacks,other,,UNITED STATES,µg/g,1,0,nd,0.0,1000.0
+2014-15,CFP2014-0122,Infant Formula,formula,other,UNITED STATES,µg/g,1,0,nd,0.0,1000.0
+2014-15,CFP2014-0125,Infant Formula,formula,other,CANADA,µg/g,1,0,nd,0.0,1000.0
+2014-15,CFP2014-0137,Infant Formula,formula,other,UNITED STATES,µg/g,1,0,nd,0.0,1000.0
+2014-15,CFP2014-0224,Yogurt,dairy-dessert,,CANADA,µg/g,1,0,nd,0.0,1000.0
+2014-15,CFP2014-0245,Infant Formula,formula,other,UNITED STATES,µg/g,1,0,nd,0.0,1000.0
+2014-15,CFP2014-0249,Infant Formula,formula,other,CANADA,µg/g,1,0,nd,0.0,1000.0
+2014-15,CFP2014-0290,Infant Formula,formula,other,UNITED STATES,µg/g,1,0,nd,0.0,1000.0
+2014-15,CFP2014-0291,Infant Formula,formula,other,UNITED STATES,µg/g,1,0,nd,0.0,1000.0
+2014-15,CFP2014-0314,Yogurt,dairy-dessert,,CANADA,µg/g,1,0,nd,0.0,1000.0
+2014-15,CFP2014-0315,Infant Formula,formula,other,UNITED STATES,µg/g,1,0.052,det,0.052,1000.0
+2014-15,CFP2014-0329,Infant Formula,formula,other,SWITZERLAND,µg/g,1,0,nd,0.0,1000.0
+2014-15,CFP2014-0341,Infant Formula,formula,other,SWITZERLAND,µg/g,1,0,nd,0.0,1000.0
+2014-15,CFP2014-0346,Yogurt,dairy-dessert,,CANADA,µg/g,1,0,nd,0.0,1000.0
+2014-15,CFP2014-0352,Toddler snacks,other,,UNITED STATES,µg/g,1,0,nd,0.0,1000.0
+2014-15,CFP2014-0354,Infant Formula,formula,other,UNITED STATES,µg/g,1,0,nd,0.0,1000.0
+2014-15,CFP2014-0365,Infant Formula,formula,other,UNITED STATES,µg/g,1,0.061,det,0.061,1000.0
+2014-15,CFP2014-0368,Infant Formula,formula,other,UNITED STATES,µg/g,1,0.022,det,0.022,1000.0
+2014-15,CFP2014-0370,Infant Formula,formula,other,SWITZERLAND,µg/g,1,0,nd,0.0,1000.0
+2014-15,CFP2014-0383,Yogurt,dairy-dessert,,CANADA,µg/g,1,0,nd,0.0,1000.0
+2014-15,CFP2014-0387,Yogurt,dairy-dessert,,CANADA,µg/g,1,0,nd,0.0,1000.0
+2014-15,CFP2014-0390,Yogurt,dairy-dessert,,CANADA,µg/g,1,0,nd,0.0,1000.0
+2016,CFP2016-0001,Yogurt,dairy-dessert,,CANADA,ng/g,1,0,nd,0.0,1.0
+2016,CFP2016-0002,Yogurt,dairy-dessert,,UNKNOWN,ng/g,1,0,nd,0.0,1.0
+2016,CFP2016-0003,Pudding,dairy-dessert,,UNKNOWN,ng/g,1,0,nd,0.0,1.0
+2016,CFP2016-0004,Yogurt,dairy-dessert,,UNKNOWN,ng/g,1,0,nd,0.0,1.0
+2016,CFP2016-0005,Yogurt,dairy-dessert,,UNKNOWN,ng/g,1,0,nd,0.0,1.0
+2016,CFP2016-0006,Yogurt,dairy-dessert,,UNKNOWN,ng/g,1,0,nd,0.0,1.0
+2016,CFP2016-0007,Yogurt,dairy-dessert,,CANADA,ng/g,1,0,nd,0.0,1.0
+2016,CFP2016-0008,Yogurt,dairy-dessert,,UNKNOWN,ng/g,1,0,nd,0.0,1.0
+2016,CFP2016-0009,Yogurt,dairy-dessert,,UNKNOWN,ng/g,1,0,nd,0.0,1.0
+2016,CFP2016-0010,Yogurt,dairy-dessert,,UNKNOWN,ng/g,1,0,nd,0.0,1.0
+2016,CFP2016-0011,Yogurt,dairy-dessert,,UNKNOWN,ng/g,1,0,nd,0.0,1.0
+2016,CFP2016-0012,Yogurt,dairy-dessert,,UNKNOWN,ng/g,1,0,nd,0.0,1.0
+2016,CFP2016-0013,Yogurt,dairy-dessert,,UNKNOWN,ng/g,1,0,nd,0.0,1.0
+2016,CFP2016-0014,Yogurt,dairy-dessert,,UNKNOWN,ng/g,1,0,nd,0.0,1.0
+2016,CFP2016-0015,Yogurt,dairy-dessert,,UNKNOWN,ng/g,1,0,nd,0.0,1.0
+2016,CFP2016-0016,Yogurt,dairy-dessert,,UNKNOWN,ng/g,1,0,nd,0.0,1.0
+2016,CFP2016-0017,Yogurt,dairy-dessert,,UNKNOWN,ng/g,1,0,nd,0.0,1.0
+2016,CFP2016-0018,Yogurt,dairy-dessert,,UNKNOWN,ng/g,1,0,nd,0.0,1.0
+2016,CFP2016-0019,Yogurt,dairy-dessert,,UNKNOWN,ng/g,1,0,nd,0.0,1.0
+2016,CFP2016-0036,Infant Formula - Dairy,formula,milk,UNITED STATES,ng/g,1,0,nd,0.0,1.0
+2016,CFP2016-0037,Infant Formula - Dairy,formula,milk,UNITED STATES,ng/g,1,0,nd,0.0,1.0
+2016,CFP2016-0038,Infant Formula - Dairy,formula,milk,UNITED STATES,ng/g,1,0,nd,0.0,1.0
+2016,CFP2016-0039,Infant Formula - Dairy,formula,milk,UNKNOWN,ng/g,1,0,nd,0.0,1.0
+2016,CFP2016-0040,Infant Formula - Dairy,formula,milk,UNKNOWN,ng/g,1,0,nd,0.0,1.0
+2016,CFP2016-0041,Infant Formula - Dairy,formula,milk,UNITED STATES,ng/g,1,0,nd,0.0,1.0
+2016,CFP2016-0042,Infant Formula - Dairy,formula,milk,UNITED STATES,ng/g,1,0,nd,0.0,1.0
+2016,CFP2016-0045,Infant Formula - Dairy,formula,milk,UNITED STATES,ng/g,1,0.0264,det,0.0264,1.0
+2016,CFP2016-0046,Infant Formula - Dairy,formula,milk,UNITED STATES,ng/g,1,0,nd,0.0,1.0
+2016,CFP2016-0049,Infant Formula - Dairy,formula,milk,UNITED STATES,ng/g,1,0,nd,0.0,1.0
+2016,CFP2016-0050,Infant Formula - Dairy,formula,milk,CANADA,ng/g,1,0,nd,0.0,1.0
+2016,CFP2016-0051,Infant Formula - Dairy,formula,milk,UNKNOWN,ng/g,1,0,nd,0.0,1.0
+2016,CFP2016-0052,Infant Formula - Dairy,formula,milk,UNITED STATES,ng/g,1,0,nd,0.0,1.0
+2016,CFP2016-0053,Infant Formula - Dairy,formula,milk,UNITED STATES,ng/g,1,0,nd,0.0,1.0
+2016,CFP2016-0054,Infant Formula - Dairy,formula,milk,UNITED STATES,ng/g,1,0,nd,0.0,1.0
+2016,CFP2016-0055,Infant Formula - Dairy,formula,milk,UNITED STATES,ng/g,1,0,nd,0.0,1.0
+2016,CFP2016-0056,Infant Formula - Dairy,formula,milk,UNITED STATES,ng/g,1,0,nd,0.0,1.0
+2016,CFP2016-0057,Infant Formula - Dairy,formula,milk,UNITED STATES,ng/g,1,0,nd,0.0,1.0
+2016,CFP2016-0059,Infant Formula - Dairy,formula,milk,UNITED STATES,ng/g,1,0,nd,0.0,1.0
+2016,CFP2016-0061,Infant Formula - Dairy,formula,milk,UNITED STATES,ng/g,1,0.0795,det,0.0795,1.0
+2016,CFP2016-0062,Infant Formula - Dairy,formula,milk,UNITED STATES,ng/g,1,0,nd,0.0,1.0
+2016,CFP2016-0063,Infant Formula - Dairy,formula,milk,UNKNOWN,ng/g,1,0,nd,0.0,1.0
+2016,CFP2016-0064,Infant Formula - Dairy,formula,milk,UNITED STATES,ng/g,1,0.0405,det,0.0405,1.0
+2016,CFP2016-0065,Infant Formula - Dairy,formula,milk,UNITED STATES,ng/g,1,0,nd,0.0,1.0
+2016,CFP2016-0066,Infant Formula - Dairy,formula,milk,UNITED STATES,ng/g,1,0,nd,0.0,1.0
+2016,CFP2016-0067,Infant Formula - Dairy,formula,milk,UNITED STATES,ng/g,1,0,nd,0.0,1.0
+2016,CFP2016-0070,Infant Formula - Dairy,formula,milk,UNITED STATES,ng/g,1,0,nd,0.0,1.0
+2016,CFP2016-0107,Meal - Toddler/Baby,other,,UNITED STATES,ng/g,1,0,nd,0.0,1.0
+2016,CFP2016-0113,Infant Food (non-cereal),other,,UNITED STATES,ng/g,1,0,nd,0.0,1.0
+2016,CFP2016-0129,Meal - Toddler/Baby,other,,UNITED STATES,ng/g,1,0,nd,0.0,1.0
+2016,CFP2016-0137,Infant Biscuit,other,,UNKNOWN,ng/g,1,0,nd,0.0,1.0
+2016,CFP2016-0138,Infant Biscuit,other,,UNKNOWN,ng/g,1,0,nd,0.0,1.0
+2016,CFP2016-0139,Meal - Toddler/Baby,other,,UNKNOWN,ng/g,1,0,nd,0.0,1.0
+2016,CFP2016-0141,Meal - Toddler/Baby,other,,UNITED STATES,ng/g,1,0,nd,0.0,1.0
+2016,CFP2016-0145,Infant Biscuit,other,,UNKNOWN,ng/g,1,0,nd,0.0,1.0
+2016,CFP2016-0146,Infant Food (non-cereal),other,,UNKNOWN,ng/g,1,0,nd,0.0,1.0
+2016,CFP2016-0152,Infant Food - Cereal,other,,POLAND,ng/g,1,0,nd,0.0,1.0
+2016,CFP2016-0153,Infant Food - Cereal,other,,POLAND,ng/g,1,0,nd,0.0,1.0
+2016,CFP2016-0154,Infant Biscuit,other,,UNKNOWN,ng/g,1,0,nd,0.0,1.0
+2016,CFP2016-0155,Infant Biscuit,other,,UNKNOWN,ng/g,1,0.0217,det,0.0217,1.0
+2016,CFP2016-0156,Infant Biscuit,other,,SINGAPORE,ng/g,1,0,nd,0.0,1.0
+2016,CFP2016-0157,Infant Food (non-cereal),other,,UNKNOWN,ng/g,1,0,nd,0.0,1.0
+2016,CFP2016-0159,Infant Food (non-cereal),other,,UNKNOWN,ng/g,1,0,nd,0.0,1.0
+2016,CFP2016-0170,Meal - Toddler/Baby,other,,UNKNOWN,ng/g,1,0,nd,0.0,1.0
+2016,CFP2016-0171,Meal - Toddler/Baby,other,,UNKNOWN,ng/g,1,0,nd,0.0,1.0
+2016,CFP2016-0172,Meal - Toddler/Baby,other,,FRANCE,ng/g,1,0,nd,0.0,1.0
+2016,CFP2016-0173,Meal - Toddler/Baby,other,,FRANCE,ng/g,1,0,nd,0.0,1.0
+2016,CFP2016-0174,Meal - Toddler/Baby,other,,CANADA,ng/g,1,0,nd,0.0,1.0
+2016,CFP2016-0175,Infant Food (non-cereal),other,,UNKNOWN,ng/g,1,0,nd,0.0,1.0
+2016,CFP2016-0176,Infant Food (non-cereal),other,,UNKNOWN,ng/g,1,0,nd,0.0,1.0
+2016,CFP2016-0177,Infant Food (non-cereal),other,,UNITED STATES,ng/g,1,0,nd,0.0,1.0
+2016,CFP2016-0178,Infant Food (non-cereal),other,,UNITED STATES,ng/g,1,0,nd,0.0,1.0
+2016,CFP2016-0179,Infant Food (non-cereal),other,,UNITED STATES,ng/g,1,0,nd,0.0,1.0
+2016,CFP2016-0180,Infant Food (non-cereal),other,,UNITED STATES,ng/g,1,0,nd,0.0,1.0
+2016,CFP2016-0181,Infant Food (non-cereal),other,,CANADA,ng/g,1,0,nd,0.0,1.0
+2016,CFP2016-0182,Infant Food (non-cereal),other,,UNITED STATES,ng/g,1,0,nd,0.0,1.0
+2016,CFP2016-0183,Infant Food (non-cereal),other,,CANADA,ng/g,1,0,nd,0.0,1.0
+2016,CFP2016-0184,Infant Food (non-cereal),other,,CANADA,ng/g,1,0,nd,0.0,1.0
+2016,CFP2016-0185,Infant Food (non-cereal),other,,CANADA,ng/g,1,0,nd,0.0,1.0
+2016,CFP2016-0186,Infant Formula - Dairy,formula,milk,UNITED STATES,ng/g,1,0,nd,0.0,1.0
+2016,CFP2016-0188,Infant Formula - Dairy,formula,milk,UNITED STATES,ng/g,1,0,nd,0.0,1.0
+2016,CFP2016-0189,Infant Formula - Dairy,formula,milk,UNITED STATES,ng/g,1,0,nd,0.0,1.0
+2016,CFP2016-0190,Infant Formula - Dairy,formula,milk,UNKNOWN,ng/g,1,0.042,det,0.042,1.0
+2016,CFP2016-0191,Infant Formula - Dairy,formula,milk,UNITED STATES,ng/g,1,0,nd,0.0,1.0
+2016,CFP2016-0192,Infant Formula - Dairy,formula,milk,UNITED STATES,ng/g,1,0,nd,0.0,1.0
+2016,CFP2016-0193,Infant Formula - Dairy,formula,milk,UNITED STATES,ng/g,1,0.0454,det,0.0454,1.0
+2016,CFP2016-0194,Infant Formula - Dairy,formula,milk,UNITED STATES,ng/g,1,0,nd,0.0,1.0
+2016,CFP2016-0195,Infant Formula - Dairy,formula,milk,UNITED STATES,ng/g,1,0,nd,0.0,1.0
+2016,CFP2016-0196,Infant Formula - Dairy,formula,milk,UNITED STATES,ng/g,1,0,nd,0.0,1.0
+2016,CFP2016-0197,Infant Formula - Dairy,formula,milk,UNITED STATES,ng/g,1,0,nd,0.0,1.0
+2016,CFP2016-0198,Infant Formula - Dairy,formula,milk,UNITED STATES,ng/g,1,0,nd,0.0,1.0
+2016,CFP2016-0199,Infant Formula - Dairy,formula,milk,UNITED STATES,ng/g,1,0,nd,0.0,1.0
+2016,CFP2016-0202,Infant Formula - Dairy,formula,milk,CANADA,ng/g,1,0,nd,0.0,1.0
+2016,CFP2016-0209,Infant Formula - Dairy,formula,milk,UNITED STATES,ng/g,1,0,nd,0.0,1.0
+2016,CFP2016-0210,Infant Formula - Dairy,formula,milk,UNITED STATES,ng/g,1,0,nd,0.0,1.0
+2016,CFP2016-0213,Infant Formula - Dairy,formula,milk,UNITED STATES,ng/g,1,0,nd,0.0,1.0
+2016,CFP2016-0214,Infant Formula - Dairy,formula,milk,UNITED STATES,ng/g,1,0,nd,0.0,1.0
+2016,CFP2016-0215,Infant Formula - Dairy,formula,milk,UNITED STATES,ng/g,1,0,nd,0.0,1.0
+2016,CFP2016-0216,Infant Formula - Dairy,formula,milk,UNITED STATES,ng/g,1,0,nd,0.0,1.0
+2016,CFP2016-0218,Infant Formula - Dairy,formula,milk,UNITED STATES,ng/g,1,0,nd,0.0,1.0
+2016,CFP2016-0219,Infant Formula - Dairy,formula,milk,UNITED STATES,ng/g,1,0.0374,det,0.0374,1.0
+2016,CFP2016-0220,Infant Formula - Dairy,formula,milk,UNITED STATES,ng/g,1,0,nd,0.0,1.0
+2016,CFP2016-0222,Infant Formula - Dairy,formula,milk,UNITED STATES,ng/g,1,0,nd,0.0,1.0
+2016,CFP2016-0223,Infant Formula - Dairy,formula,milk,UNKNOWN,ng/g,1,0.0184,det,0.0184,1.0
+2016,CFP2016-0227,Infant Formula - Dairy,formula,milk,UNITED STATES,ng/g,1,0,nd,0.0,1.0
+2016,CFP2016-0228,Infant Formula - Dairy,formula,milk,UNITED STATES,ng/g,1,0,nd,0.0,1.0
+2016,CFP2016-0229,Infant Formula - Dairy,formula,milk,UNITED STATES,ng/g,1,0,nd,0.0,1.0
+2016,CFP2016-0232,Infant Formula - Dairy,formula,milk,UNITED STATES,ng/g,1,0,nd,0.0,1.0
+2016,CFP2016-0234,Infant Formula - Dairy,formula,milk,UNITED STATES,ng/g,1,0,nd,0.0,1.0
+2016,CFP2016-0236,Infant Formula - Dairy,formula,milk,UNKNOWN,ng/g,1,0,nd,0.0,1.0
+2016,CFP2016-0237,Infant Formula - Dairy,formula,milk,UNITED STATES,ng/g,1,0,nd,0.0,1.0
+2016,CFP2016-0238,Infant Formula - Dairy,formula,milk,UNITED STATES,ng/g,1,0,nd,0.0,1.0
+2016,CFP2016-0239,Infant Formula - Dairy,formula,milk,UNITED STATES,ng/g,1,0,nd,0.0,1.0
+2016,CFP2016-0240,Infant Formula - Dairy,formula,milk,UNITED STATES,ng/g,1,0,nd,0.0,1.0
+2016,CFP2016-0241,Infant Formula - Dairy,formula,milk,UNKNOWN,ng/g,1,0,nd,0.0,1.0
+2018,CFP2018-0001,Infant Formula - Dairy,formula,milk,UNITED STATES,ng/g,1,0,nd,0.0,1.0
+2018,CFP2018-0002,Infant Formula - Dairy,formula,milk,IRELAND,ng/g,1,0,nd,0.0,1.0
+2018,CFP2018-0003,Infant Formula - Dairy,formula,milk,UNITED STATES,ng/g,1,0.0459,det,0.0459,1.0
+2018,CFP2018-0004,Infant Formula - Dairy,formula,milk,UNITED STATES,ng/g,1,0,nd,0.0,1.0
+2018,CFP2018-0005,Infant Formula - Dairy,formula,milk,UNKNOWN,ng/g,1,0.0339,det,0.0339,1.0
+2018,CFP2018-0008,Infant Formula - Dairy,formula,milk,UNITED STATES,ng/g,1,0,nd,0.0,1.0
+2018,CFP2018-0009,Infant Formula - Dairy,formula,milk,UNKNOWN,ng/g,1,0,nd,0.0,1.0
+2018,CFP2018-0010,Infant Formula - Dairy,formula,milk,UNITED STATES,ng/g,1,0.0272,det,0.0272,1.0
+2018,CFP2018-0011,Infant Formula - Dairy,formula,milk,UNITED STATES,ng/g,1,0,nd,0.0,1.0
+2018,CFP2018-0012,Infant Formula - Dairy,formula,milk,IRELAND,ng/g,1,0,nd,0.0,1.0
+2018,CFP2018-0013,Infant Formula - Dairy,formula,milk,UNITED STATES,ng/g,1,0,nd,0.0,1.0
+2018,CFP2018-0014,Infant Formula - Dairy,formula,milk,UNITED STATES,ng/g,1,0,nd,0.0,1.0
+2018,CFP2018-0015,Infant Formula - Dairy,formula,milk,UNITED STATES,ng/g,1,0,nd,0.0,1.0
+2018,CFP2018-0016,Infant Formula - Dairy,formula,milk,UNITED STATES,ng/g,1,0.0365,det,0.0365,1.0
+2018,CFP2018-0017,Infant Formula - Dairy,formula,milk,UNITED STATES,ng/g,1,0,nd,0.0,1.0
+2018,CFP2018-0018,Infant Formula - Dairy,formula,milk,UNITED STATES,ng/g,1,0.0231,det,0.0231,1.0
+2018,CFP2018-0019,Infant Formula - Dairy,formula,milk,UNITED STATES,ng/g,1,0,nd,0.0,1.0
+2018,CFP2018-0020,Infant Formula - Dairy,formula,milk,UNKNOWN,ng/g,1,0,nd,0.0,1.0
+2018,CFP2018-0021,Infant Formula - Dairy,formula,milk,UNKNOWN,ng/g,1,0,nd,0.0,1.0
+2018,CFP2018-0022,Infant Formula - Dairy,formula,milk,UNKNOWN,ng/g,1,0,nd,0.0,1.0
+2018,CFP2018-0023,Infant Formula - Dairy,formula,milk,UNITED STATES,ng/g,1,0.01,det,0.01,1.0
+2018,CFP2018-0027,Infant Formula - Dairy,formula,milk,UNKNOWN,ng/g,1,0,nd,0.0,1.0
+2018,CFP2018-0028,Infant Formula - Dairy,formula,milk,UNITED STATES,ng/g,1,0,nd,0.0,1.0
+2018,CFP2018-0029,Infant Formula - Dairy,formula,milk,UNKNOWN,ng/g,1,0,nd,0.0,1.0
+2018,CFP2018-0030,Infant Formula - Dairy,formula,milk,UNKNOWN,ng/g,1,0,nd,0.0,1.0
+2018,CFP2018-0031,Infant Formula - Dairy,formula,milk,UNITED STATES,ng/g,1,0,nd,0.0,1.0
+2018,CFP2018-0032,Infant Formula - Dairy,formula,milk,UNITED STATES,ng/g,1,0,nd,0.0,1.0
+2018,CFP2018-0033,Infant Formula - Dairy,formula,milk,UNITED STATES,ng/g,1,0,nd,0.0,1.0
+2018,CFP2018-0034,Infant Formula - Dairy,formula,milk,UNITED STATES,ng/g,1,0,nd,0.0,1.0
+2018,CFP2018-0035,Infant Formula - Dairy,formula,milk,UNITED STATES,ng/g,1,0,nd,0.0,1.0
+2018,CFP2018-0036,Infant Formula - Dairy,formula,milk,UNITED STATES,ng/g,1,0.0416,det,0.0416,1.0
+2018,CFP2018-0037,Infant Formula - Dairy,formula,milk,UNITED STATES,ng/g,1,0,nd,0.0,1.0
+2018,CFP2018-0038,Infant Formula - Dairy,formula,milk,IRELAND,ng/g,1,0,nd,0.0,1.0
+2018,CFP2018-0087,Infant Formula - Dairy,formula,milk,UNITED STATES,ng/g,1,0,nd,0.0,1.0
+2018,CFP2018-0088,Infant Formula - Dairy,formula,milk,UNITED STATES,ng/g,1,0,nd,0.0,1.0
+2018,CFP2018-0089,Infant Formula - Dairy,formula,milk,UNITED STATES,ng/g,1,0,nd,0.0,1.0
+2018,CFP2018-0090,Infant Formula - Dairy,formula,milk,UNKNOWN,ng/g,1,0.0255,det,0.0255,1.0
+2018,CFP2018-0091,Infant Formula - Dairy,formula,milk,UNITED STATES,ng/g,1,0,nd,0.0,1.0
+2018,CFP2018-0092,Infant Formula - Dairy,formula,milk,UNITED STATES,ng/g,1,0,nd,0.0,1.0
+2018,CFP2018-0093,Infant Formula - Dairy,formula,milk,UNITED STATES,ng/g,1,0,nd,0.0,1.0
+2018,CFP2018-0097,Infant Formula - Dairy,formula,milk,UNITED STATES,ng/g,1,0.039,det,0.039,1.0
+2018,CFP2018-0098,Infant Formula - Dairy,formula,milk,IRELAND,ng/g,1,0,nd,0.0,1.0
+2018,CFP2018-0104,Infant Formula - Dairy,formula,milk,UNITED STATES,ng/g,1,0,nd,0.0,1.0
+2018,CFP2018-0105,Infant Formula - Dairy,formula,milk,UNITED STATES,ng/g,1,0,nd,0.0,1.0
+2018,CFP2018-0106,Infant Formula - Dairy,formula,milk,UNITED STATES,ng/g,1,0,nd,0.0,1.0
+2018,CFP2018-0109,Infant Formula - Dairy,formula,milk,UNITED STATES,ng/g,1,0,nd,0.0,1.0
+2018,CFP2018-0110,Infant Formula - Dairy,formula,milk,UNITED STATES,ng/g,1,0,nd,0.0,1.0
+2018,CFP2018-0113,Infant Formula - Dairy,formula,milk,UNITED STATES,ng/g,1,0,nd,0.0,1.0
+2018,CFP2018-0114,Infant Formula - Dairy,formula,milk,UNITED STATES,ng/g,1,0,nd,0.0,1.0
+2018,CFP2018-0115,Infant Formula - Dairy,formula,milk,UNITED STATES,ng/g,1,0,nd,0.0,1.0
+2018,CFP2018-0116,Infant Formula - Dairy,formula,milk,UNITED STATES,ng/g,1,0,nd,0.0,1.0
+2018,CFP2018-0117,Infant Formula - Dairy,formula,milk,UNITED STATES,ng/g,1,0.086,det,0.086,1.0
+2020,CFP2020-0001,Yogurt,dairy-dessert,,CANADA,ng/g,2,0;0,nd,0.0,1.0
+2020,CFP2020-0002,Yogurt,dairy-dessert,,CANADA,ng/g,2,0;0,nd,0.0,1.0
+2020,CFP2020-0003,Yogurt,dairy-dessert,,UNKNOWN,ng/g,2,0;0,nd,0.0,1.0
+2020,CFP2020-0004,Yogurt,dairy-dessert,,CANADA,ng/g,2,0;0,nd,0.0,1.0
+2020,CFP2020-0005,Yogurt,dairy-dessert,,CANADA,ng/g,2,0;0,nd,0.0,1.0
+2020,CFP2020-0006,Pudding,dairy-dessert,,UNKNOWN,ng/g,2,0;0,nd,0.0,1.0
+2020,CFP2020-0007,Pudding,dairy-dessert,,UNKNOWN,ng/g,2,0;0,nd,0.0,1.0
+2020,CFP2020-0008,Beverage - Yogurt,dairy-dessert,,UNKNOWN,ng/g,2,0;0,nd,0.0,1.0
+2020,CFP2020-0009,Pudding,dairy-dessert,,UNKNOWN,ng/g,2,0;0,nd,0.0,1.0
+2020,CFP2020-0010,Beverage - Yogurt,dairy-dessert,,CANADA,ng/g,2,0;0,nd,0.0,1.0
+2020,CFP2020-0011,Beverage - Yogurt,dairy-dessert,,UNKNOWN,ng/g,2,0;0,nd,0.0,1.0
+2020,CFP2020-0012,Beverage - Yogurt,dairy-dessert,,CANADA,ng/g,2,0;0,nd,0.0,1.0
+2020,CFP2020-0013,Beverage - Yogurt,dairy-dessert,,CANADA,ng/g,2,0;0,nd,0.0,1.0
+2020,CFP2020-0014,Beverage - Yogurt,dairy-dessert,,CANADA,ng/g,2,0;0,nd,0.0,1.0
+2020,CFP2020-0015,Pudding,dairy-dessert,,UNKNOWN,ng/g,2,0;0,nd,0.0,1.0
+2020,CFP2020-0016,Pudding,dairy-dessert,,UNITED STATES,ng/g,2,0;0,nd,0.0,1.0
+2020,CFP2020-0017,Pudding,dairy-dessert,,UNITED STATES,ng/g,2,0;0,nd,0.0,1.0
+2020,CFP2020-0018,Yogurt,dairy-dessert,,CANADA,ng/g,2,0;0,nd,0.0,1.0
+2020,CFP2020-0019,Yogurt,dairy-dessert,,CANADA,ng/g,2,0;0,nd,0.0,1.0
+2020,CFP2020-0020,Yogurt,dairy-dessert,,UNKNOWN,ng/g,2,0;0,nd,0.0,1.0
+2020,CFP2020-0021,Yogurt,dairy-dessert,,CANADA,ng/g,2,0;0,nd,0.0,1.0
+2020,CFP2020-0022,Yogurt,dairy-dessert,,CANADA,ng/g,2,0;0,nd,0.0,1.0
+2020,CFP2020-0023,Yogurt,dairy-dessert,,CANADA,ng/g,2,0;0,nd,0.0,1.0
+2020,CFP2020-0024,Yogurt,dairy-dessert,,CANADA,ng/g,2,0;0,nd,0.0,1.0
+2020,CFP2020-0025,Yogurt,dairy-dessert,,CANADA,ng/g,2,0;0,nd,0.0,1.0
+2020,CFP2020-0026,Yogurt,dairy-dessert,,CANADA,ng/g,2,0;0,nd,0.0,1.0
+2020,CFP2020-0027,Yogurt,dairy-dessert,,CANADA,ng/g,2,0;0,nd,0.0,1.0
+2020,CFP2020-0028,Yogurt,dairy-dessert,,UNKNOWN,ng/g,2,0;0,nd,0.0,1.0
+2020,CFP2020-0029,Yogurt,dairy-dessert,,CANADA,ng/g,2,0;0,nd,0.0,1.0
+2020,CFP2020-0030,Yogurt,dairy-dessert,,CANADA,ng/g,2,0;0,nd,0.0,1.0
+2020,CFP2020-0031,Yogurt,dairy-dessert,,CANADA,ng/g,2,0;0,nd,0.0,1.0
+2020,CFP2020-0032,Yogurt,dairy-dessert,,UNKNOWN,ng/g,2,0;0,nd,0.0,1.0
+2020,CFP2020-0033,Yogurt,dairy-dessert,,UNKNOWN,ng/g,2,0;0,nd,0.0,1.0
+2020,CFP2020-0034,Yogurt,dairy-dessert,,CANADA,ng/g,2,0;0,nd,0.0,1.0
+2020,CFP2020-0035,Yogurt,dairy-dessert,,CANADA,ng/g,2,0;0,nd,0.0,1.0
+2020,CFP2020-0036,Yogurt,dairy-dessert,,CANADA,ng/g,2,0;0,nd,0.0,1.0
+2020,CFP2020-0037,Yogurt,dairy-dessert,,CANADA,ng/g,2,0;0,nd,0.0,1.0
+2020,CFP2020-0038,Yogurt,dairy-dessert,,UNKNOWN,ng/g,2,0;0,nd,0.0,1.0
+2020,CFP2020-0039,Beverage - Yogurt,dairy-dessert,,CANADA,ng/g,2,0;0,nd,0.0,1.0
+2020,CFP2020-0040,Beverage - Yogurt,dairy-dessert,,CANADA,ng/g,2,0;0,nd,0.0,1.0
+2020,CFP2020-0041,Yogurt,dairy-dessert,,CANADA,ng/g,2,0;0,nd,0.0,1.0
+2020,CFP2020-0042,Beverage - Yogurt,dairy-dessert,,CANADA,ng/g,2,0;0,nd,0.0,1.0
+2020,CFP2020-0043,Pudding,dairy-dessert,,UNITED STATES,ng/g,2,0;0,nd,0.0,1.0
+2020,CFP2020-0044,Pudding,dairy-dessert,,UNITED STATES,ng/g,2,0;0,nd,0.0,1.0
+2020,CFP2020-0045,Pudding,dairy-dessert,,UNITED STATES,ng/g,2,0;0,nd,0.0,1.0
+2020,CFP2020-0046,Pudding,dairy-dessert,,UNITED STATES,ng/g,2,0;0,nd,0.0,1.0
+2020,CFP2020-0047,Yogurt,dairy-dessert,,CANADA,ng/g,2,0;0,nd,0.0,1.0
+2020,CFP2020-0048,Pudding,dairy-dessert,,UNITED STATES,ng/g,2,0;0,nd,0.0,1.0
+2020,CFP2020-0049,Beverage - Yogurt,dairy-dessert,,CANADA,ng/g,2,0;0,nd,0.0,1.0
+2020,CFP2020-0050,Beverage - Yogurt,dairy-dessert,,CANADA,ng/g,2,0;0,nd,0.0,1.0
+2020,CFP2020-0051,Pudding,dairy-dessert,,UNITED STATES,ng/g,2,0;0,nd,0.0,1.0
+2020,CFP2020-0052,Pudding,dairy-dessert,,UNITED STATES,ng/g,2,0;0,nd,0.0,1.0
+2020,CFP2020-0053,Pudding,dairy-dessert,,UNKNOWN,ng/g,2,0;0,nd,0.0,1.0
+2020,CFP2020-0054,Pudding,dairy-dessert,,UNKNOWN,ng/g,2,0;0,nd,0.0,1.0
+2020,CFP2020-0055,Pudding,dairy-dessert,,UNKNOWN,ng/g,2,0;0,nd,0.0,1.0
+2020,CFP2020-0082,Pudding,dairy-dessert,,UNKNOWN,ng/g,2,0;0,nd,0.0,1.0
+2020,CFP2020-0083,Pudding,dairy-dessert,,UNITED STATES,ng/g,2,0;0,nd,0.0,1.0
+2020,CFP2020-0084,Pudding,dairy-dessert,,UNITED STATES,ng/g,2,0;0,nd,0.0,1.0
+2020,CFP2020-0085,Pudding,dairy-dessert,,UNKNOWN,ng/g,2,0;0,nd,0.0,1.0
+2020,CFP2020-0086,Pudding,dairy-dessert,,UNITED STATES,ng/g,2,0;0,nd,0.0,1.0
+2020,CFP2020-0119,Pudding,dairy-dessert,,UNITED STATES,ng/g,2,0;0,nd,0.0,1.0
+2020,CFP2020-0120,Pudding,dairy-dessert,,UNITED STATES,ng/g,2,0;0,nd,0.0,1.0
+2020,CFP2020-0121,Pudding,dairy-dessert,,UNITED STATES,ng/g,2,0;0,nd,0.0,1.0
+2020,CFP2020-0122,Pudding,dairy-dessert,,UNITED STATES,ng/g,2,0;0,nd,0.0,1.0
+2020,CFP2020-0123,Pudding,dairy-dessert,,UNITED STATES,ng/g,2,0;0,nd,0.0,1.0
+2020,CFP2020-0124,Pudding,dairy-dessert,,UNITED STATES,ng/g,2,0;0,nd,0.0,1.0
+2020,CFP2020-0125,Pudding,dairy-dessert,,UNITED STATES,ng/g,2,0;0,nd,0.0,1.0
+2020,CFP2020-0126,Pudding,dairy-dessert,,UNITED STATES,ng/g,2,0;0,nd,0.0,1.0
+2020,CFP2020-0127,Pudding,dairy-dessert,,UNITED STATES,ng/g,2,0;0,nd,0.0,1.0
+2020,CFP2020-0128,Pudding,dairy-dessert,,UNITED STATES,ng/g,2,0;0,nd,0.0,1.0
+2020,CFP2020-0146,Pudding,dairy-dessert,,UNITED STATES,ng/g,2,0;0,nd,0.0,1.0
+2020,CFP2020-0147,Pudding,dairy-dessert,,UNITED STATES,ng/g,2,0;0,nd,0.0,1.0
+2020,CFP2020-0148,Pudding,dairy-dessert,,UNITED STATES,ng/g,2,0;0,nd,0.0,1.0
+2020,CFP2020-0160,Pudding,dairy-dessert,,UNITED STATES,ng/g,2,0;0,nd,0.0,1.0
+2020,CFP2020-0161,Pudding,dairy-dessert,,BELGIUM,ng/g,2,0;0,nd,0.0,1.0
+2020,CFP2020-0165,Yogurt,dairy-dessert,,CANADA,ng/g,2,0;0,nd,0.0,1.0
+2022,CFP2022-0032,Infant Formula - Dairy,formula,milk,UNITED STATES,ng/g,1,0,nd,0.0,1.0
+2022,CFP2022-0033,Infant Formula - Dairy,formula,milk,UNKNOWN,ng/g,1,0,nd,0.0,1.0
+2022,CFP2022-0034,Infant Formula - Dairy,formula,milk,IRELAND,ng/g,1,0,nd,0.0,1.0
+2022,CFP2022-0035,Infant Formula - Dairy,formula,milk,UNKNOWN,ng/g,1,0,nd,0.0,1.0
+2022,CFP2022-0036,Infant Formula - Dairy,formula,milk,UNKNOWN,ng/g,1,0,nd,0.0,1.0
+2022,CFP2022-0037,Infant Formula - Dairy,formula,milk,UNITED STATES,ng/g,1,0,nd,0.0,1.0
+2022,CFP2022-0038,Infant Formula - Dairy,formula,milk,UNITED STATES,ng/g,1,0,nd,0.0,1.0
+2022,CFP2022-0039,Infant Formula - Dairy,formula,milk,UNKNOWN,ng/g,1,0,nd,0.0,1.0
+2022,CFP2022-0080,Infant Formula - Dairy,formula,milk,UNITED STATES,ng/g,1,0,nd,0.0,1.0
+2022,CFP2022-0081,Infant Formula - Dairy,formula,milk,UNKNOWN,ng/g,1,0,nd,0.0,1.0
+2022,CFP2022-0082,Infant Formula - Dairy,formula,milk,UNITED STATES,ng/g,1,0,nd,0.0,1.0
+2022,CFP2022-0083,Infant Formula - Dairy,formula,milk,IRELAND,ng/g,1,0,nd,0.0,1.0
+2022,CFP2022-0084,Infant Formula - Dairy,formula,milk,UNITED STATES,ng/g,1,0,nd,0.0,1.0
+2022,CFP2022-0085,Infant Formula - Dairy,formula,milk,UNITED STATES,ng/g,1,0,nd,0.0,1.0
+2022,CFP2022-0086,Infant Formula - Dairy,formula,milk,UNITED STATES,ng/g,1,0,nd,0.0,1.0
+2022,CFP2022-0087,Infant Formula - Dairy,formula,milk,CANADA,ng/g,1,0,nd,0.0,1.0
+2022,CFP2022-0123,Infant Formula - Dairy,formula,milk,UNITED STATES,ng/g,1,0,nd,0.0,1.0
+2022,CFP2022-0124,Infant Formula - Dairy,formula,milk,UNITED STATES,ng/g,1,0,nd,0.0,1.0
+2022,CFP2022-0125,Infant Formula - Dairy,formula,milk,UNITED STATES,ng/g,1,0,nd,0.0,1.0
+2022,CFP2022-0126,Infant Formula - Dairy,formula,milk,UNITED STATES,ng/g,1,0,nd,0.0,1.0
+2022,CFP2022-0127,Infant Formula - Dairy,formula,milk,UNITED STATES,ng/g,1,0,nd,0.0,1.0
+2022,CFP2022-0128,Infant Formula - Dairy,formula,milk,UNITED STATES,ng/g,1,0,nd,0.0,1.0
+2022,CFP2022-0129,Infant Formula - Other,formula,other,UNITED STATES,ng/g,1,0,nd,0.0,1.0
+2022,CFP2022-0130,Infant Formula - Dairy,formula,milk,UNITED STATES,ng/g,1,0.0566,det,0.0566,1.0
+2022,CFP2022-0131,Infant Formula - Dairy,formula,milk,UNITED STATES,ng/g,1,0,nd,0.0,1.0
+2022,CFP2022-0132,Yogurt,dairy-dessert,,CANADA,ng/g,1,0,nd,0.0,1.0
+2022,CFP2022-0133,Yogurt,dairy-dessert,,CANADA,ng/g,1,0,nd,0.0,1.0
+2022,CFP2022-0134,Yogurt,dairy-dessert,,CANADA,ng/g,1,0,nd,0.0,1.0
+2022,CFP2022-0135,Yogurt,dairy-dessert,,CANADA,ng/g,1,0,nd,0.0,1.0
+2022,CFP2022-0136,Yogurt,dairy-dessert,,CANADA,ng/g,1,0,nd,0.0,1.0
+2022,CFP2022-0137,Yogurt,dairy-dessert,,CANADA,ng/g,1,0,nd,0.0,1.0
+2022,CFP2022-0138,Yogurt,dairy-dessert,,CANADA,ng/g,1,0,nd,0.0,1.0
+2022,CFP2022-0139,Yogurt,dairy-dessert,,UNKNOWN,ng/g,1,0,nd,0.0,1.0
+2022,CFP2022-0140,Yogurt,dairy-dessert,,UNKNOWN,ng/g,1,0,nd,0.0,1.0
+2022,CFP2022-0141,Yogurt,dairy-dessert,,CANADA,ng/g,1,0,nd,0.0,1.0
+2022,CFP2022-0142,Yogurt,dairy-dessert,,UNKNOWN,ng/g,1,0,nd,0.0,1.0
+2022,CFP2022-0143,Yogurt,dairy-dessert,,UNKNOWN,ng/g,1,0,nd,0.0,1.0
+2022,CFP2022-0144,Yogurt,dairy-dessert,,CANADA,ng/g,1,0,nd,0.0,1.0
+2022,CFP2022-0145,Yogurt,dairy-dessert,,CANADA,ng/g,1,0,nd,0.0,1.0
+2022,CFP2022-0146,Yogurt,dairy-dessert,,UNKNOWN,ng/g,1,0,nd,0.0,1.0
+2022,CFP2022-0147,Yogurt,dairy-dessert,,UNKNOWN,ng/g,1,0,nd,0.0,1.0
+2022,CFP2022-0148,Yogurt,dairy-dessert,,CANADA,ng/g,1,0,nd,0.0,1.0
+2022,CFP2022-0149,Yogurt,dairy-dessert,,CANADA,ng/g,1,0,nd,0.0,1.0
+2022,CFP2022-0150,Yogurt,dairy-dessert,,CANADA,ng/g,1,0,nd,0.0,1.0
+2022,CFP2022-0151,Yogurt,dairy-dessert,,CANADA,ng/g,1,0,nd,0.0,1.0
+2022,CFP2022-0152,Yogurt,dairy-dessert,,CANADA,ng/g,1,0,nd,0.0,1.0
+2022,CFP2022-0153,Yogurt,dairy-dessert,,CANADA,ng/g,1,0,nd,0.0,1.0
+2022,CFP2022-0154,Yogurt,dairy-dessert,,CANADA,ng/g,1,0,nd,0.0,1.0
+2022,CFP2022-0155,Yogurt,dairy-dessert,,CANADA,ng/g,1,0,nd,0.0,1.0
+2022,CFP2022-0156,Yogurt,dairy-dessert,,CANADA,ng/g,1,0,nd,0.0,1.0
+2022,CFP2022-0157,Yogurt,dairy-dessert,,CANADA,ng/g,1,0,nd,0.0,1.0
+2022,CFP2022-0158,Yogurt,dairy-dessert,,CANADA,ng/g,1,0,nd,0.0,1.0
+2022,CFP2022-0159,Yogurt,dairy-dessert,,CANADA,ng/g,1,0,nd,0.0,1.0
+2022,CFP2022-0160,Yogurt,dairy-dessert,,CANADA,ng/g,1,0,nd,0.0,1.0
+2022,CFP2022-0161,Yogurt,dairy-dessert,,UNKNOWN,ng/g,1,0,nd,0.0,1.0
+2022,CFP2022-0162,Yogurt,dairy-dessert,,CANADA,ng/g,1,0,nd,0.0,1.0
+2022,CFP2022-0163,Yogurt,dairy-dessert,,CANADA,ng/g,1,0,nd,0.0,1.0
+2022,CFP2022-0164,Yogurt,dairy-dessert,,CANADA,ng/g,1,0,nd,0.0,1.0
+2022,CFP2022-0165,Yogurt,dairy-dessert,,CANADA,ng/g,1,0,nd,0.0,1.0
+2022,CFP2022-0166,Yogurt,dairy-dessert,,CANADA,ng/g,1,0,nd,0.0,1.0
+2022,CFP2022-0167,Yogurt,dairy-dessert,,CANADA,ng/g,1,0,nd,0.0,1.0
+2022,CFP2022-0168,Yogurt,dairy-dessert,,UNKNOWN,ng/g,1,0,nd,0.0,1.0
+2022,CFP2022-0169,Yogurt,dairy-dessert,,UNKNOWN,ng/g,1,0,nd,0.0,1.0
+2022,CFP2022-0170,Yogurt,dairy-dessert,,CANADA,ng/g,1,0,nd,0.0,1.0
+2022,CFP2022-0171,Yogurt,dairy-dessert,,CANADA,ng/g,1,0,nd,0.0,1.0
+2022,CFP2022-0172,Yogurt,dairy-dessert,,CANADA,ng/g,1,0,nd,0.0,1.0
+2022,CFP2022-0173,Yogurt,dairy-dessert,,CANADA,ng/g,1,0,nd,0.0,1.0
+2022,CFP2022-0174,Yogurt,dairy-dessert,,CANADA,ng/g,1,0,nd,0.0,1.0
+2022,CFP2022-0175,Yogurt,dairy-dessert,,UNKNOWN,ng/g,1,0,nd,0.0,1.0
+2022,CFP2022-0176,Yogurt,dairy-dessert,,UNKNOWN,ng/g,1,0,nd,0.0,1.0
+2022,CFP2022-0177,Yogurt,dairy-dessert,,UNKNOWN,ng/g,1,0,nd,0.0,1.0
+2022,CFP2022-0178,Beverage - Yogurt,dairy-dessert,,CANADA,ng/g,1,0,nd,0.0,1.0
+2022,CFP2022-0179,Beverage - Yogurt,dairy-dessert,,CANADA,ng/g,1,0,nd,0.0,1.0
+2022,CFP2022-0180,Beverage - Yogurt,dairy-dessert,,CANADA,ng/g,1,0,nd,0.0,1.0
+2022,CFP2022-0181,Beverage - Yogurt,dairy-dessert,,CANADA,ng/g,1,0,nd,0.0,1.0
+2022,CFP2022-0182,Beverage - Yogurt,dairy-dessert,,CANADA,ng/g,1,0,nd,0.0,1.0
+2022,CFP2022-0183,Beverage - Yogurt,dairy-dessert,,CANADA,ng/g,1,0,nd,0.0,1.0
+2022,CFP2022-0184,Beverage - Yogurt,dairy-dessert,,CANADA,ng/g,1,0,nd,0.0,1.0
+2022,CFP2022-0185,Beverage - Yogurt,dairy-dessert,,UNKNOWN,ng/g,1,0,nd,0.0,1.0
+2022,CFP2022-0186,Yogurt,dairy-dessert,,CANADA,ng/g,1,0,nd,0.0,1.0
+2022,CFP2022-0187,Yogurt,dairy-dessert,,CANADA,ng/g,1,0,nd,0.0,1.0
+2022,CFP2022-0188,Yogurt,dairy-dessert,,CANADA,ng/g,1,0,nd,0.0,1.0
+2022,CFP2022-0189,Yogurt,dairy-dessert,,CANADA,ng/g,1,0,nd,0.0,1.0
+2022,CFP2022-0190,Yogurt,dairy-dessert,,CANADA,ng/g,1,0,nd,0.0,1.0
+2022,CFP2022-0193,Infant Formula - Dairy,formula,milk,UNITED STATES,ng/g,1,0,nd,0.0,1.0
+2022,CFP2022-0194,Infant Formula - Dairy,formula,milk,UNITED STATES,ng/g,1,0,nd,0.0,1.0
+2022,CFP2022-0195,Infant Formula - Dairy,formula,milk,UNKNOWN,ng/g,1,0,nd,0.0,1.0
+2022,CFP2022-0196,Infant Formula - Dairy,formula,milk,UNKNOWN,ng/g,1,0,nd,0.0,1.0
+2022,CFP2022-0197,Infant Formula - Dairy,formula,milk,IRELAND,ng/g,1,0,nd,0.0,1.0
+2022,CFP2022-0198,Infant Formula - Dairy,formula,milk,UNKNOWN,ng/g,1,0,nd,0.0,1.0
+2022,CFP2022-0199,Infant Formula - Dairy,formula,milk,UNITED STATES,ng/g,1,0,nd,0.0,1.0
+2022,CFP2022-0200,Infant Formula - Dairy,formula,milk,UNKNOWN,ng/g,1,0,nd,0.0,1.0
+2022,CFP2022-0201,Infant Formula - Dairy,formula,milk,UNKNOWN,ng/g,1,0,nd,0.0,1.0

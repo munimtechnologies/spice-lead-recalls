@@ -1,0 +1,883 @@
+{
+  "analysis": {
+    "dairy_dessert": {
+      "ci95": [
+        0.0,
+        0.02344619517150519
+      ],
+      "det": 0,
+      "n": 160,
+      "years": {
+        "2014-15": {
+          "det": 0,
+          "n": 6
+        },
+        "2016": {
+          "det": 0,
+          "n": 19
+        },
+        "2020": {
+          "det": 0,
+          "n": 76
+        },
+        "2022": {
+          "det": 0,
+          "n": 59
+        }
+      }
+    },
+    "formula_at_cut": {
+      "2012-13": {
+        "ci95": [
+          0.05467303296704735,
+          0.1727318418684808
+        ],
+        "k": 10,
+        "n": 101,
+        "rate": 0.09900990099009901
+      },
+      "2014-15": {
+        "ci95": [
+          0.04749003714055253,
+          0.33334987166571717
+        ],
+        "k": 3,
+        "n": 22,
+        "rate": 0.13636363636363635
+      },
+      "2016": {
+        "ci95": [
+          0.04438348427689201,
+          0.19261701062836892
+        ],
+        "k": 6,
+        "n": 63,
+        "rate": 0.09523809523809523
+      },
+      "2018": {
+        "ci95": [
+          0.09382474391310205,
+          0.29730864124480794
+        ],
+        "k": 9,
+        "n": 52,
+        "rate": 0.17307692307692307
+      },
+      "2022": {
+        "ci95": [
+          0.0052109062762689395,
+          0.1491557329268593
+        ],
+        "k": 1,
+        "n": 34,
+        "rate": 0.029411764705882353
+      }
+    },
+    "p1": {
+      "max_ppb": 0.136,
+      "years": [
+        "2012-13",
+        "2016",
+        "2018",
+        "2020",
+        "2022"
+      ]
+    },
+    "p4": {
+      "det_types": {
+        "milk": 9,
+        "specialized": 3
+      },
+      "types": {
+        "milk": 87,
+        "soy": 1,
+        "specialized": 13
+      }
+    },
+    "p5": {
+      "cut_ppb": 0.02,
+      "earlier_years": [
+        "2012-13",
+        "2014-15",
+        "2016",
+        "2018"
+      ],
+      "fisher_one_sided_p": 0.09409471991125325,
+      "pooled_ci95": [
+        0.08266236135452784,
+        0.16477849974721454
+      ],
+      "pooled_k": 28,
+      "pooled_n": 238,
+      "pooled_rate": 0.11764705882352941,
+      "y2022": {
+        "ci95": [
+          0.0052109062762689395,
+          0.1491557329268593
+        ],
+        "k": 1,
+        "n": 34,
+        "rate": 0.029411764705882353
+      }
+    },
+    "ppb_factor": {
+      "2012-13": 1.0,
+      "2014-15": 1.0,
+      "2016": 1.0,
+      "2018": 1.0,
+      "2020": 1.0,
+      "2022": 1.0
+    },
+    "stats": {
+      "2012-13": {
+        "by_class": {
+          "formula": {
+            "det": 12,
+            "det_products": {
+              "Infant Formula - Milk": 9,
+              "Infant Formula - Specialized": 3
+            },
+            "max": 0.136,
+            "min": 0.01,
+            "n": 101,
+            "values": [
+              0.01,
+              0.013,
+              0.021,
+              0.022,
+              0.023,
+              0.025,
+              0.055,
+              0.064,
+              0.069,
+              0.069,
+              0.13,
+              0.136
+            ]
+          }
+        },
+        "det": 12,
+        "max": 0.136,
+        "n": 101
+      },
+      "2014-15": {
+        "by_class": {
+          "dairy-dessert": {
+            "det": 0,
+            "det_products": {},
+            "max": null,
+            "min": null,
+            "n": 6,
+            "values": []
+          },
+          "formula": {
+            "det": 4,
+            "det_products": {
+              "Infant Formula": 4
+            },
+            "max": 0.061,
+            "min": 0.011,
+            "n": 22,
+            "values": [
+              0.011,
+              0.022,
+              0.052,
+              0.061
+            ]
+          },
+          "other": {
+            "det": 0,
+            "det_products": {},
+            "max": null,
+            "min": null,
+            "n": 4,
+            "values": []
+          }
+        },
+        "det": 4,
+        "max": 0.061,
+        "n": 32
+      },
+      "2016": {
+        "by_class": {
+          "dairy-dessert": {
+            "det": 0,
+            "det_products": {},
+            "max": null,
+            "min": null,
+            "n": 19,
+            "values": []
+          },
+          "formula": {
+            "det": 7,
+            "det_products": {
+              "Infant Formula - Dairy": 7
+            },
+            "max": 0.0795,
+            "min": 0.0184,
+            "n": 63,
+            "values": [
+              0.0184,
+              0.0264,
+              0.0374,
+              0.0405,
+              0.042,
+              0.0454,
+              0.0795
+            ]
+          },
+          "other": {
+            "det": 1,
+            "det_products": {
+              "Infant Biscuit": 1
+            },
+            "max": 0.0217,
+            "min": 0.0217,
+            "n": 32,
+            "values": [
+              0.0217
+            ]
+          }
+        },
+        "det": 8,
+        "max": 0.0795,
+        "n": 114
+      },
+      "2018": {
+        "by_class": {
+          "formula": {
+            "det": 10,
+            "det_products": {
+              "Infant Formula - Dairy": 10
+            },
+            "max": 0.086,
+            "min": 0.01,
+            "n": 52,
+            "values": [
+              0.01,
+              0.0231,
+              0.0255,
+              0.0272,
+              0.0339,
+              0.0365,
+              0.039,
+              0.0416,
+              0.0459,
+              0.086
+            ]
+          }
+        },
+        "det": 10,
+        "max": 0.086,
+        "n": 52
+      },
+      "2020": {
+        "by_class": {
+          "dairy-dessert": {
+            "det": 0,
+            "det_products": {},
+            "max": null,
+            "min": null,
+            "n": 76,
+            "values": []
+          }
+        },
+        "det": 0,
+        "max": null,
+        "n": 76
+      },
+      "2022": {
+        "by_class": {
+          "dairy-dessert": {
+            "det": 0,
+            "det_products": {},
+            "max": null,
+            "min": null,
+            "n": 59,
+            "values": []
+          },
+          "formula": {
+            "det": 1,
+            "det_products": {
+              "Infant Formula - Dairy": 1
+            },
+            "max": 0.0566,
+            "min": 0.0566,
+            "n": 34,
+            "values": [
+              0.0566
+            ]
+          }
+        },
+        "det": 1,
+        "max": 0.0566,
+        "n": 93
+      }
+    },
+    "unit_2014_15": {
+      "as_labelled": false,
+      "as_stored": true,
+      "formula_max_stored": 0.061,
+      "formula_min_stored": 0.011,
+      "reading": "stored"
+    }
+  },
+  "census": {
+    "2012-13": {
+      "bad_shapes": [],
+      "classes": {
+        "formula": 101
+      },
+      "columns": {
+        "component": 11,
+        "origin": 4,
+        "product": 6,
+        "sample": 0,
+        "unit": 14,
+        "value": 13
+      },
+      "kinds": {
+        "det": 12,
+        "nd": 89
+      },
+      "rows": 101,
+      "samples": 101,
+      "units": {
+        "ng/g": 101
+      }
+    },
+    "2014-15": {
+      "bad_shapes": [],
+      "classes": {
+        "dairy-dessert": 6,
+        "formula": 22,
+        "other": 4
+      },
+      "columns": {
+        "component": 11,
+        "origin": 4,
+        "product": 6,
+        "sample": 0,
+        "unit": 14,
+        "value": 13
+      },
+      "kinds": {
+        "det": 4,
+        "nd": 28
+      },
+      "rows": 32,
+      "samples": 32,
+      "units": {
+        "µg/g": 32
+      }
+    },
+    "2016": {
+      "bad_shapes": [],
+      "classes": {
+        "dairy-dessert": 19,
+        "formula": 63,
+        "other": 32
+      },
+      "columns": {
+        "component": 11,
+        "origin": 6,
+        "product": 8,
+        "sample": 0,
+        "unit": 14,
+        "value": 13
+      },
+      "kinds": {
+        "det": 8,
+        "nd": 106
+      },
+      "rows": 114,
+      "samples": 114,
+      "units": {
+        "ng/g": 114
+      }
+    },
+    "2018": {
+      "bad_shapes": [],
+      "classes": {
+        "formula": 52
+      },
+      "columns": {
+        "component": 11,
+        "origin": 6,
+        "product": 8,
+        "sample": 0,
+        "unit": 14,
+        "value": 13
+      },
+      "kinds": {
+        "det": 10,
+        "nd": 42
+      },
+      "rows": 52,
+      "samples": 52,
+      "units": {
+        "ng/g": 52
+      }
+    },
+    "2020": {
+      "bad_shapes": [],
+      "classes": {
+        "dairy-dessert": 76
+      },
+      "columns": {
+        "component": 11,
+        "origin": 6,
+        "product": 8,
+        "sample": 0,
+        "unit": 14,
+        "value": 13
+      },
+      "kinds": {
+        "nd": 152
+      },
+      "rows": 152,
+      "samples": 76,
+      "units": {
+        "ng/g": 152
+      }
+    },
+    "2022": {
+      "bad_shapes": [],
+      "classes": {
+        "dairy-dessert": 59,
+        "formula": 34
+      },
+      "columns": {
+        "component": 11,
+        "origin": 3,
+        "product": 5,
+        "sample": 0,
+        "unit": 14,
+        "value": 13
+      },
+      "kinds": {
+        "det": 1,
+        "nd": 92
+      },
+      "rows": 93,
+      "samples": 93,
+      "units": {
+        "ng/g": 93
+      }
+    }
+  },
+  "n_graded": 12,
+  "n_met": 10,
+  "predictions": [
+    {
+      "graded": true,
+      "id": "G",
+      "kind": "gate",
+      "met": true,
+      "observed": {
+        "passing": [
+          "2012-13",
+          "2014-15",
+          "2016",
+          "2018",
+          "2020",
+          "2022"
+        ],
+        "per_year": {
+          "2012-13": {
+            "classes": true,
+            "columns": true,
+            "rows": true,
+            "samples": true,
+            "sha256": true,
+            "units": true,
+            "values": true
+          },
+          "2014-15": {
+            "classes": true,
+            "columns": true,
+            "rows": true,
+            "samples": true,
+            "sha256": true,
+            "units": true,
+            "values": true
+          },
+          "2016": {
+            "classes": true,
+            "columns": true,
+            "rows": true,
+            "samples": true,
+            "sha256": true,
+            "units": true,
+            "values": true
+          },
+          "2018": {
+            "classes": true,
+            "columns": true,
+            "rows": true,
+            "samples": true,
+            "sha256": true,
+            "units": true,
+            "values": true
+          },
+          "2020": {
+            "classes": true,
+            "columns": true,
+            "rows": true,
+            "samples": true,
+            "sha256": true,
+            "units": true,
+            "values": true
+          },
+          "2022": {
+            "classes": true,
+            "columns": true,
+            "rows": true,
+            "samples": true,
+            "sha256": true,
+            "units": true,
+            "values": true
+          }
+        }
+      },
+      "text": "per year: SHA-256; AFM1 rows and distinct samples, units and samples per product class as in the census; every AFM1 result detected (a number above 0) or not detected (0, '<' with a number >= 0, or a not-detected token). Each year is graded only if its own gate passes."
+    },
+    {
+      "graded": true,
+      "id": "C1",
+      "kind": "consistency",
+      "met": true,
+      "observed": {
+        "classes": {
+          "formula": {
+            "det": 12,
+            "det_products": {
+              "Infant Formula - Milk": 9,
+              "Infant Formula - Specialized": 3
+            },
+            "max": 0.136,
+            "min": 0.01,
+            "n": 101
+          }
+        },
+        "det": 12,
+        "max": 0.136,
+        "n": 101,
+        "pct_of_101": 11.881188118811881,
+        "pct_of_148": 8.108108108108109
+      },
+      "text": "2012-13 report: detectable AFM1 in 12% of samples (12 of the 101 AFM1 samples; no other count rounds to 12%), all below the Codex 0.5 ppb"
+    },
+    {
+      "graded": true,
+      "id": "C2",
+      "kind": "consistency",
+      "met": true,
+      "observed": {
+        "classes": {
+          "dairy-dessert": {
+            "det": 0,
+            "det_products": {},
+            "max": null,
+            "min": null,
+            "n": 6
+          },
+          "formula": {
+            "det": 4,
+            "det_products": {
+              "Infant Formula": 4
+            },
+            "max": 0.061,
+            "min": 0.011,
+            "n": 22
+          },
+          "other": {
+            "det": 0,
+            "det_products": {},
+            "max": null,
+            "min": null,
+            "n": 4
+          }
+        },
+        "det": 4,
+        "max": 0.061,
+        "n": 32
+      },
+      "text": "2014-15 report: AFM1 in 4 infant formulas and in no yogurt, pudding or other sample"
+    },
+    {
+      "graded": true,
+      "id": "C3",
+      "kind": "consistency",
+      "met": true,
+      "observed": {
+        "classes": {
+          "dairy-dessert": {
+            "det": 0,
+            "det_products": {},
+            "max": null,
+            "min": null,
+            "n": 19
+          },
+          "formula": {
+            "det": 7,
+            "det_products": {
+              "Infant Formula - Dairy": 7
+            },
+            "max": 0.0795,
+            "min": 0.0184,
+            "n": 63
+          },
+          "other": {
+            "det": 1,
+            "det_products": {
+              "Infant Biscuit": 1
+            },
+            "max": 0.0217,
+            "min": 0.0217,
+            "n": 32
+          }
+        },
+        "det": 8,
+        "max": 0.0795,
+        "n": 114
+      },
+      "text": "2016 report: AFM1 in 7 of 63 formulas at 0.018-0.080 ppb and in 1 infant biscuit at 0.022 ppb; nothing else"
+    },
+    {
+      "graded": true,
+      "id": "C4",
+      "kind": "consistency",
+      "met": true,
+      "observed": {
+        "classes": {
+          "formula": {
+            "det": 10,
+            "det_products": {
+              "Infant Formula - Dairy": 10
+            },
+            "max": 0.086,
+            "min": 0.01,
+            "n": 52
+          }
+        },
+        "det": 10,
+        "max": 0.086,
+        "n": 52
+      },
+      "text": "2018 report: AFM1 in 10 of 52 formulas at 0.01-0.086 ppb"
+    },
+    {
+      "graded": true,
+      "id": "C5",
+      "kind": "consistency",
+      "met": true,
+      "observed": {
+        "classes": {
+          "dairy-dessert": {
+            "det": 0,
+            "det_products": {},
+            "max": null,
+            "min": null,
+            "n": 76
+          }
+        },
+        "det": 0,
+        "max": null,
+        "n": 76
+      },
+      "text": "2020 report: no AFM1 in any of 76 yogurts, yogurt beverages and puddings"
+    },
+    {
+      "graded": true,
+      "id": "C6",
+      "kind": "consistency",
+      "met": true,
+      "observed": {
+        "classes": {
+          "dairy-dessert": {
+            "det": 0,
+            "det_products": {},
+            "max": null,
+            "min": null,
+            "n": 59
+          },
+          "formula": {
+            "det": 1,
+            "det_products": {
+              "Infant Formula - Dairy": 1
+            },
+            "max": 0.0566,
+            "min": 0.0566,
+            "n": 34
+          }
+        },
+        "det": 1,
+        "max": 0.0566,
+        "n": 93
+      },
+      "text": "2022 report: AFM1 in 1 of 93 samples, an infant formula, at 0.0566 ppb"
+    },
+    {
+      "graded": true,
+      "id": "P1",
+      "kind": "prediction",
+      "met": false,
+      "observed": {
+        "max_ppb": 0.136,
+        "years": [
+          "2012-13",
+          "2016",
+          "2018",
+          "2020",
+          "2022"
+        ]
+      },
+      "text": "every detected AFM1 value in the ng/g years is below 0.1 ppb (a fifth of the Codex 0.5 ppb)"
+    },
+    {
+      "graded": true,
+      "id": "P2",
+      "kind": "prediction",
+      "met": true,
+      "observed": {
+        "as_labelled": false,
+        "as_stored": true,
+        "formula_max_stored": 0.061,
+        "formula_min_stored": 0.011,
+        "reading": "stored"
+      },
+      "text": "2014-15's ug/g label is 1000x off: the stored formula positives already match the printed 0.011-0.061 ppb"
+    },
+    {
+      "graded": true,
+      "id": "P3",
+      "kind": "prediction",
+      "met": true,
+      "observed": {
+        "ci95": [
+          0.0,
+          0.02344619517150519
+        ],
+        "det": 0,
+        "n": 160,
+        "years": {
+          "2014-15": {
+            "det": 0,
+            "n": 6
+          },
+          "2016": {
+            "det": 0,
+            "n": 19
+          },
+          "2020": {
+            "det": 0,
+            "n": 76
+          },
+          "2022": {
+            "det": 0,
+            "n": 59
+          }
+        }
+      },
+      "text": "no AFM1 in any yogurt, yogurt beverage or pudding in any graded year"
+    },
+    {
+      "graded": true,
+      "id": "P4",
+      "kind": "prediction",
+      "met": false,
+      "observed": {
+        "det_types": {
+          "milk": 9,
+          "specialized": 3
+        },
+        "types": {
+          "milk": 87,
+          "soy": 1,
+          "specialized": 13
+        }
+      },
+      "text": "2012-13: every detection is a milk-based formula (none in the specialized or soy formulas)"
+    },
+    {
+      "graded": true,
+      "id": "P5",
+      "kind": "prediction",
+      "met": true,
+      "observed": {
+        "cut_ppb": 0.02,
+        "earlier_years": [
+          "2012-13",
+          "2014-15",
+          "2016",
+          "2018"
+        ],
+        "fisher_one_sided_p": 0.09409471991125325,
+        "pooled_ci95": [
+          0.08266236135452784,
+          0.16477849974721454
+        ],
+        "pooled_k": 28,
+        "pooled_n": 238,
+        "pooled_rate": 0.11764705882352941,
+        "y2022": {
+          "ci95": [
+            0.0052109062762689395,
+            0.1491557329268593
+          ],
+          "k": 1,
+          "n": 34,
+          "rate": 0.029411764705882353
+        }
+      },
+      "text": "infant formula at a common 0.02 ppb cut: the 2022 rate is below the pooled 2012-13 to 2018 rate (point estimates; Fisher p and Wilson intervals reported)"
+    }
+  ],
+  "provenance": {
+    "2012-13": {
+      "bytes": 709320,
+      "encoding": "cp1252",
+      "resource": "94d64ebb-83d0-4ca3-8c4f-ff6470dafb24",
+      "sha256": "0b0ae681f0224b5602a6b635fb62b33e519733662b7da5d40b131b1730792931",
+      "source": "data-volume"
+    },
+    "2014-15": {
+      "bytes": 39825,
+      "encoding": "cp1252",
+      "resource": "b2a54434-7683-4ea3-bf60-392366153403",
+      "sha256": "d2cfa733ff78e3cdc04f92e47a4b9e578e7cab8839fe1778972ecd6f98f7da59",
+      "source": "data-volume"
+    },
+    "2016": {
+      "bytes": 7001019,
+      "encoding": "cp1252",
+      "resource": "ee83840e-5441-40fe-8d38-37dfe209ef57",
+      "sha256": "6a8b9c788e9f07128c4b7313fa4add6e706e7cd0540e7eb59639c1490b1cfdbe",
+      "source": "data-volume"
+    },
+    "2018": {
+      "bytes": 4653124,
+      "encoding": "cp1252",
+      "resource": "3ab80a87-25a7-4aea-b510-0301c1232081",
+      "sha256": "be6a1d7c1648570f18266af0e31eefc7d4791cfbb82e4f3add45bf0bb4659755",
+      "source": "data-volume"
+    },
+    "2020": {
+      "bytes": 10588430,
+      "encoding": "cp1252",
+      "resource": "feebccc6-1eaf-4a5b-83e7-a3b468a912b8",
+      "sha256": "e1c895c55ae52386cdd43898afc236a92086affb6409cd272e7604291eb27b46",
+      "source": "data-volume"
+    },
+    "2022": {
+      "bytes": 828727,
+      "encoding": "utf-8-sig",
+      "resource": "517c84f1-d317-4566-b118-b17359919f1f",
+      "sha256": "14d3712ee0d4b9fcfaefe940670b1f7b352c5c9b249f25190f2cf725eb851c61",
+      "source": "data-volume"
+    }
+  },
+  "study": "cfp-afm1-trend",
+  "version": "0.1.0"
+}
