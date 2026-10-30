@@ -1,0 +1,2181 @@
+{
+  "analysis": {
+    "cats": {
+      "2017": {
+        "juice": {
+          "det": 2,
+          "max": 0.009,
+          "mean_all": 0.00031372549019607844,
+          "mean_positives": 0.008,
+          "min": 0.007,
+          "n": 51,
+          "nd": 49,
+          "sum": 0.016,
+          "values": [
+            0.007,
+            0.009
+          ]
+        }
+      },
+      "2018": {
+        "formula-dairy": {
+          "det": 3,
+          "max": 0.019,
+          "mean_all": 0.0010192307692307692,
+          "mean_positives": 0.017666666666666667,
+          "min": 0.016,
+          "n": 52,
+          "nd": 49,
+          "sum": 0.053,
+          "values": [
+            0.016,
+            0.018,
+            0.019
+          ]
+        },
+        "formula-soy": {
+          "det": 0,
+          "max": null,
+          "mean_all": 0.0,
+          "mean_positives": null,
+          "min": null,
+          "n": 7,
+          "nd": 7,
+          "sum": 0,
+          "values": []
+        },
+        "meal": {
+          "det": 0,
+          "max": null,
+          "mean_all": 0.0,
+          "mean_positives": null,
+          "min": null,
+          "n": 11,
+          "nd": 11,
+          "sum": 0,
+          "values": []
+        },
+        "pasta": {
+          "det": 1,
+          "max": 0.03,
+          "mean_all": 0.0008571428571428571,
+          "mean_positives": 0.03,
+          "min": 0.03,
+          "n": 35,
+          "nd": 34,
+          "sum": 0.03,
+          "values": [
+            0.03
+          ]
+        },
+        "puree": {
+          "det": 0,
+          "max": null,
+          "mean_all": 0.0,
+          "mean_positives": null,
+          "min": null,
+          "n": 38,
+          "nd": 38,
+          "sum": 0,
+          "values": []
+        }
+      },
+      "2019": {
+        "infant-cereal": {
+          "det": 11,
+          "max": 0.093,
+          "mean_all": 0.007833333333333333,
+          "mean_positives": 0.03418181818181818,
+          "min": 0.015,
+          "n": 48,
+          "nd": 37,
+          "sum": 0.376,
+          "values": [
+            0.015,
+            0.016,
+            0.016,
+            0.016,
+            0.016,
+            0.026,
+            0.031,
+            0.038,
+            0.039,
+            0.07,
+            0.093
+          ]
+        },
+        "puree": {
+          "det": 1,
+          "max": 0.015,
+          "mean_all": 0.0001530612244897959,
+          "mean_positives": 0.015,
+          "min": 0.015,
+          "n": 98,
+          "nd": 97,
+          "sum": 0.015,
+          "values": [
+            0.015
+          ]
+        },
+        "snack": {
+          "det": 7,
+          "max": 0.04,
+          "mean_all": 0.0025,
+          "mean_positives": 0.027857142857142858,
+          "min": 0.015,
+          "n": 78,
+          "nd": 71,
+          "sum": 0.195,
+          "values": [
+            0.015,
+            0.017,
+            0.02,
+            0.028,
+            0.036,
+            0.039,
+            0.04
+          ]
+        },
+        "yogurt": {
+          "det": 0,
+          "max": null,
+          "mean_all": 0.0,
+          "mean_positives": null,
+          "min": null,
+          "n": 16,
+          "nd": 16,
+          "sum": 0,
+          "values": []
+        },
+        "yogurt-beverage": {
+          "det": 0,
+          "max": null,
+          "mean_all": 0.0,
+          "mean_positives": null,
+          "min": null,
+          "n": 11,
+          "nd": 11,
+          "sum": 0,
+          "values": []
+        }
+      },
+      "2020": {
+        "children-cereal": {
+          "det": 3,
+          "max": 0.095,
+          "mean_all": 0.00344,
+          "mean_positives": 0.057333333333333326,
+          "min": 0.037,
+          "n": 50,
+          "nd": 47,
+          "sum": 0.172,
+          "values": [
+            0.037,
+            0.04,
+            0.095
+          ]
+        },
+        "fruit-snack": {
+          "det": 1,
+          "max": 0.027,
+          "mean_all": 0.00135,
+          "mean_positives": 0.027,
+          "min": 0.027,
+          "n": 20,
+          "nd": 19,
+          "sum": 0.027,
+          "values": [
+            0.027
+          ]
+        },
+        "granola-bar": {
+          "det": 1,
+          "max": 0.029,
+          "mean_all": 0.001,
+          "mean_positives": 0.029,
+          "min": 0.029,
+          "n": 29,
+          "nd": 28,
+          "sum": 0.029,
+          "values": [
+            0.029
+          ]
+        },
+        "pudding": {
+          "det": 0,
+          "max": null,
+          "mean_all": 0.0,
+          "mean_positives": null,
+          "min": null,
+          "n": 36,
+          "nd": 36,
+          "sum": 0,
+          "values": []
+        }
+      },
+      "2021": {
+        "juice": {
+          "det": 0,
+          "max": null,
+          "mean_all": 0.0,
+          "mean_positives": null,
+          "min": null,
+          "n": 67,
+          "nd": 67,
+          "sum": 0,
+          "values": []
+        },
+        "pasta": {
+          "det": 3,
+          "max": 0.047,
+          "mean_all": 0.0021063829787234044,
+          "mean_positives": 0.033,
+          "min": 0.022,
+          "n": 47,
+          "nd": 44,
+          "sum": 0.099,
+          "values": [
+            0.022,
+            0.03,
+            0.047
+          ]
+        },
+        "puree-meal": {
+          "det": 3,
+          "max": 0.022,
+          "mean_all": 0.0003163841807909604,
+          "mean_positives": 0.018666666666666665,
+          "min": 0.016,
+          "n": 177,
+          "nd": 174,
+          "sum": 0.055999999999999994,
+          "values": [
+            0.016,
+            0.018,
+            0.022
+          ]
+        }
+      },
+      "2022": {
+        "infant-cereal": {
+          "det": 23,
+          "max": 0.0211,
+          "mean_all": 0.005225641025641026,
+          "mean_positives": 0.008860869565217392,
+          "min": 0.005,
+          "n": 39,
+          "nd": 16,
+          "sum": 0.2038,
+          "values": [
+            0.005,
+            0.0051,
+            0.0051,
+            0.0059,
+            0.006,
+            0.0061,
+            0.0062,
+            0.0062,
+            0.0063,
+            0.0064,
+            0.0066,
+            0.0067,
+            0.0067,
+            0.0075,
+            0.0083,
+            0.0092,
+            0.0101,
+            0.0105,
+            0.0109,
+            0.0124,
+            0.0173,
+            0.0182,
+            0.0211
+          ]
+        },
+        "snack": {
+          "det": 41,
+          "max": 0.196,
+          "mean_all": 0.009008695652173914,
+          "mean_positives": 0.015160975609756098,
+          "min": 0.005,
+          "n": 69,
+          "nd": 28,
+          "sum": 0.6216,
+          "values": [
+            0.005,
+            0.0051,
+            0.0052,
+            0.0052,
+            0.0053,
+            0.0055,
+            0.0056,
+            0.0056,
+            0.0058,
+            0.0059,
+            0.0059,
+            0.0061,
+            0.0062,
+            0.0065,
+            0.0067,
+            0.0067,
+            0.0068,
+            0.0071,
+            0.0071,
+            0.0074,
+            0.0077,
+            0.008,
+            0.0087,
+            0.0088,
+            0.0089,
+            0.0092,
+            0.0093,
+            0.0094,
+            0.0097,
+            0.01,
+            0.0129,
+            0.0137,
+            0.0137,
+            0.0153,
+            0.0158,
+            0.0172,
+            0.0197,
+            0.0199,
+            0.0395,
+            0.0475,
+            0.196
+          ]
+        }
+      }
+    },
+    "common_cut": {
+      "2019/infant-cereal": {
+        "ci95": [
+          0.13307826266911232,
+          0.3653926409000346
+        ],
+        "k": 11,
+        "n": 48,
+        "rate": 0.22916666666666666
+      },
+      "2019/snack": {
+        "ci95": [
+          0.04415300851677373,
+          0.17384724560605236
+        ],
+        "k": 7,
+        "n": 78,
+        "rate": 0.08974358974358974
+      },
+      "2022/infant-cereal": {
+        "ci95": [
+          0.02650739530377974,
+          0.20321071167954996
+        ],
+        "k": 3,
+        "n": 39,
+        "rate": 0.07692307692307693
+      },
+      "2022/snack": {
+        "ci95": [
+          0.059934981421761596,
+          0.21245740530316223
+        ],
+        "k": 8,
+        "n": 69,
+        "rate": 0.11594202898550725
+      }
+    },
+    "fda": [
+      {
+        "above": 0,
+        "above_0_020": 0,
+        "category": "puree",
+        "ci95": [
+          0.0,
+          0.09180986822558396
+        ],
+        "detected": 0,
+        "level_ppm": 0.01,
+        "n": 38,
+        "year": "2018"
+      },
+      {
+        "above": 0,
+        "category": "meal",
+        "ci95": [
+          0.0,
+          0.2588329669680317
+        ],
+        "detected": 0,
+        "level_ppm": 0.01,
+        "n": 11,
+        "year": "2018"
+      },
+      {
+        "above": 1,
+        "above_0_020": 0,
+        "category": "puree",
+        "ci95": [
+          0.0018035477567974675,
+          0.055554809913420274
+        ],
+        "detected": 1,
+        "level_ppm": 0.01,
+        "n": 98,
+        "year": "2019"
+      },
+      {
+        "above": 6,
+        "category": "infant-cereal",
+        "ci95": [
+          0.058570514385719794,
+          0.24700458286386834
+        ],
+        "detected": 11,
+        "level_ppm": 0.02,
+        "n": 48,
+        "year": "2019"
+      },
+      {
+        "above": 0,
+        "category": "yogurt",
+        "ci95": [
+          0.0,
+          0.1936076805344365
+        ],
+        "detected": 0,
+        "level_ppm": 0.01,
+        "n": 16,
+        "year": "2019"
+      },
+      {
+        "above": 0,
+        "category": "pudding",
+        "ci95": [
+          0.0,
+          0.09641862859446367
+        ],
+        "detected": 0,
+        "level_ppm": 0.01,
+        "n": 36,
+        "year": "2020"
+      },
+      {
+        "above": 3,
+        "above_0_020": 1,
+        "category": "puree-meal",
+        "ci95": [
+          0.005780703080104092,
+          0.04863966537341528
+        ],
+        "detected": 3,
+        "level_ppm": 0.01,
+        "n": 177,
+        "year": "2021"
+      },
+      {
+        "above": 1,
+        "category": "infant-cereal",
+        "ci95": [
+          0.004540703100990098,
+          0.13180990169850076
+        ],
+        "detected": 23,
+        "level_ppm": 0.02,
+        "n": 39,
+        "year": "2022"
+      }
+    ],
+    "means": {
+      "2017": {
+        "juice": {
+          "all_matches": true,
+          "mean_all": 0.00031372549019607844,
+          "mean_positives": 0.008,
+          "met": true,
+          "positives_matches": false,
+          "predicted": "all",
+          "printed": "0.000"
+        }
+      },
+      "2018": {
+        "formula-dairy": {
+          "all_matches": false,
+          "mean_all": 0.0010192307692307692,
+          "mean_positives": 0.017666666666666667,
+          "met": true,
+          "positives_matches": true,
+          "predicted": "positives",
+          "printed": "0.02"
+        },
+        "pasta": {
+          "all_matches": false,
+          "mean_all": 0.0008571428571428571,
+          "mean_positives": 0.03,
+          "met": true,
+          "positives_matches": true,
+          "predicted": "positives",
+          "printed": "0.03"
+        }
+      },
+      "2019": {
+        "infant-cereal": {
+          "all_matches": true,
+          "mean_all": 0.007833333333333333,
+          "mean_positives": 0.03418181818181818,
+          "met": true,
+          "positives_matches": false,
+          "predicted": "all",
+          "printed": "0.01"
+        },
+        "puree": {
+          "all_matches": true,
+          "mean_all": 0.0001530612244897959,
+          "mean_positives": 0.015,
+          "met": true,
+          "positives_matches": false,
+          "predicted": "all",
+          "printed": "0.0002"
+        },
+        "snack": {
+          "all_matches": true,
+          "mean_all": 0.0025,
+          "mean_positives": 0.027857142857142858,
+          "met": true,
+          "positives_matches": false,
+          "predicted": "all",
+          "printed": "0.0025"
+        }
+      },
+      "2020": {
+        "children-cereal": {
+          "all_matches": true,
+          "mean_all": 0.00344,
+          "mean_positives": 0.057333333333333326,
+          "met": true,
+          "positives_matches": false,
+          "predicted": "all",
+          "printed": "0.003"
+        },
+        "fruit-snack": {
+          "all_matches": true,
+          "mean_all": 0.00135,
+          "mean_positives": 0.027,
+          "met": true,
+          "positives_matches": false,
+          "predicted": "all",
+          "printed": "0.001"
+        },
+        "granola-bar": {
+          "all_matches": true,
+          "mean_all": 0.001,
+          "mean_positives": 0.029,
+          "met": true,
+          "positives_matches": false,
+          "predicted": "all",
+          "printed": "0.001"
+        }
+      },
+      "2021": {
+        "pasta": {
+          "all_matches": true,
+          "mean_all": 0.0021063829787234044,
+          "mean_positives": 0.033,
+          "met": true,
+          "positives_matches": false,
+          "predicted": "all",
+          "printed": "0.002"
+        }
+      },
+      "2022": {
+        "infant-cereal": {
+          "all_matches": false,
+          "mean_all": 0.005225641025641026,
+          "mean_positives": 0.008860869565217392,
+          "met": true,
+          "positives_matches": true,
+          "predicted": "positives",
+          "printed": "0.0089"
+        },
+        "snack": {
+          "all_matches": false,
+          "mean_all": 0.009008695652173914,
+          "mean_positives": 0.015160975609756098,
+          "met": true,
+          "positives_matches": true,
+          "predicted": "positives",
+          "printed": "0.0152"
+        }
+      }
+    },
+    "p1": {
+      "any_2021_value_matching_0_18": false,
+      "puree_meal_max": 0.022,
+      "puree_meal_values": [
+        0.016,
+        0.018,
+        0.022
+      ]
+    },
+    "p2": {
+      "matching_0_018": [
+        0.018
+      ],
+      "puree_meal_values": [
+        0.016,
+        0.018,
+        0.022
+      ]
+    },
+    "p3": {
+      "2017": 0.007,
+      "2018": 0.016,
+      "2019": 0.015,
+      "2020": 0.027,
+      "2021": 0.016,
+      "2022": 0.005
+    },
+    "p6": {
+      "cut_ppm": 0.015,
+      "fisher_one_sided_p": 0.04920370246058137,
+      "y2019": {
+        "ci95": [
+          0.13307826266911232,
+          0.3653926409000346
+        ],
+        "k": 11,
+        "n": 48,
+        "rate": 0.22916666666666666
+      },
+      "y2022": {
+        "ci95": [
+          0.02650739530377974,
+          0.20321071167954996
+        ],
+        "k": 3,
+        "n": 39,
+        "rate": 0.07692307692307693
+      }
+    },
+    "snack_cut_fisher_greater_p": 0.39981831848284627,
+    "table": {
+      "2017": {
+        "juice": {
+          "file": {
+            "det": 2,
+            "max": 0.009,
+            "n": 51,
+            "nd": 49
+          },
+          "ok": {
+            "max": true,
+            "negative": true,
+            "positive": true,
+            "tested": true
+          },
+          "printed": {
+            "det": 2,
+            "max": "0.009",
+            "n": 51,
+            "nd": 49
+          }
+        }
+      },
+      "2018": {
+        "formula-dairy": {
+          "file": {
+            "det": 3,
+            "max": 0.019,
+            "n": 52,
+            "nd": 49
+          },
+          "ok": {
+            "max": true,
+            "negative": true,
+            "positive": true,
+            "tested": true
+          },
+          "printed": {
+            "det": 3,
+            "max": "0.019",
+            "n": 52,
+            "nd": 49
+          }
+        },
+        "formula-soy": {
+          "file": {
+            "det": 0,
+            "max": null,
+            "n": 7,
+            "nd": 7
+          },
+          "ok": {
+            "negative": true,
+            "positive": true,
+            "tested": true
+          },
+          "printed": {
+            "det": 0,
+            "max": null,
+            "n": 7,
+            "nd": 7
+          }
+        },
+        "meal": {
+          "file": {
+            "det": 0,
+            "max": null,
+            "n": 11,
+            "nd": 11
+          },
+          "ok": {
+            "negative": true,
+            "positive": true,
+            "tested": true
+          },
+          "printed": {
+            "det": 0,
+            "max": null,
+            "n": 11,
+            "nd": 11
+          }
+        },
+        "pasta": {
+          "file": {
+            "det": 1,
+            "max": 0.03,
+            "n": 35,
+            "nd": 34
+          },
+          "ok": {
+            "max": true,
+            "negative": true,
+            "positive": true,
+            "tested": true
+          },
+          "printed": {
+            "det": 1,
+            "max": "0.03",
+            "n": 35,
+            "nd": 34
+          }
+        },
+        "puree": {
+          "file": {
+            "det": 0,
+            "max": null,
+            "n": 38,
+            "nd": 38
+          },
+          "ok": {
+            "negative": true,
+            "positive": true,
+            "tested": true
+          },
+          "printed": {
+            "det": 0,
+            "max": null,
+            "n": 38,
+            "nd": 38
+          }
+        }
+      },
+      "2019": {
+        "infant-cereal": {
+          "file": {
+            "det": 11,
+            "max": 0.093,
+            "n": 48,
+            "nd": 37
+          },
+          "ok": {
+            "max": true,
+            "negative": true,
+            "positive": true,
+            "tested": true
+          },
+          "printed": {
+            "det": 11,
+            "max": "0.093",
+            "n": 48,
+            "nd": 37
+          }
+        },
+        "puree": {
+          "file": {
+            "det": 1,
+            "max": 0.015,
+            "n": 98,
+            "nd": 97
+          },
+          "ok": {
+            "max": true,
+            "negative": true,
+            "positive": true,
+            "tested": true
+          },
+          "printed": {
+            "det": 1,
+            "max": "0.015",
+            "n": 98,
+            "nd": 97
+          }
+        },
+        "snack": {
+          "file": {
+            "det": 7,
+            "max": 0.04,
+            "n": 78,
+            "nd": 71
+          },
+          "ok": {
+            "max": true,
+            "negative": true,
+            "positive": true,
+            "tested": true
+          },
+          "printed": {
+            "det": 7,
+            "max": "0.04",
+            "n": 78,
+            "nd": 71
+          }
+        },
+        "yogurt": {
+          "file": {
+            "det": 0,
+            "max": null,
+            "n": 16,
+            "nd": 16
+          },
+          "ok": {
+            "negative": true,
+            "positive": true,
+            "tested": true
+          },
+          "printed": {
+            "det": 0,
+            "max": null,
+            "n": 16,
+            "nd": 16
+          }
+        },
+        "yogurt-beverage": {
+          "file": {
+            "det": 0,
+            "max": null,
+            "n": 11,
+            "nd": 11
+          },
+          "ok": {
+            "negative": true,
+            "positive": true,
+            "tested": true
+          },
+          "printed": {
+            "det": 0,
+            "max": null,
+            "n": 11,
+            "nd": 11
+          }
+        }
+      },
+      "2020": {
+        "children-cereal": {
+          "file": {
+            "det": 3,
+            "max": 0.095,
+            "n": 50,
+            "nd": 47
+          },
+          "ok": {
+            "max": true,
+            "negative": true,
+            "positive": true,
+            "tested": true
+          },
+          "printed": {
+            "det": 3,
+            "max": "0.10",
+            "n": 50,
+            "nd": 47
+          }
+        },
+        "fruit-snack": {
+          "file": {
+            "det": 1,
+            "max": 0.027,
+            "n": 20,
+            "nd": 19
+          },
+          "ok": {
+            "max": true,
+            "negative": true,
+            "positive": true,
+            "tested": true
+          },
+          "printed": {
+            "det": 1,
+            "max": "0.03",
+            "n": 20,
+            "nd": 19
+          }
+        },
+        "granola-bar": {
+          "file": {
+            "det": 1,
+            "max": 0.029,
+            "n": 29,
+            "nd": 28
+          },
+          "ok": {
+            "max": true,
+            "negative": true,
+            "positive": true,
+            "tested": true
+          },
+          "printed": {
+            "det": 1,
+            "max": "0.03",
+            "n": 29,
+            "nd": 28
+          }
+        },
+        "pudding": {
+          "file": {
+            "det": 0,
+            "max": null,
+            "n": 36,
+            "nd": 36
+          },
+          "ok": {
+            "negative": true,
+            "positive": true,
+            "tested": true
+          },
+          "printed": {
+            "det": 0,
+            "max": null,
+            "n": 36,
+            "nd": 36
+          }
+        }
+      },
+      "2021": {
+        "juice": {
+          "file": {
+            "det": 0,
+            "max": null,
+            "n": 67,
+            "nd": 67
+          },
+          "ok": {
+            "negative": true,
+            "positive": true,
+            "tested": true
+          },
+          "printed": {
+            "det": 0,
+            "max": null,
+            "n": 67,
+            "nd": 67
+          }
+        },
+        "pasta": {
+          "file": {
+            "det": 3,
+            "max": 0.047,
+            "n": 47,
+            "nd": 44
+          },
+          "ok": {
+            "max": true,
+            "negative": true,
+            "positive": true,
+            "tested": true
+          },
+          "printed": {
+            "det": 3,
+            "max": "0.05",
+            "n": 47,
+            "nd": 44
+          }
+        },
+        "puree-meal": {
+          "file": {
+            "det": 3,
+            "max": 0.022,
+            "n": 177,
+            "nd": 174
+          },
+          "ok": {
+            "negative": true,
+            "positive": true,
+            "tested": true
+          },
+          "printed": {
+            "det": 3,
+            "max": null,
+            "n": 177,
+            "nd": 174
+          }
+        }
+      },
+      "2022": {
+        "infant-cereal": {
+          "file": {
+            "det": 23,
+            "max": 0.0211,
+            "n": 39,
+            "nd": 16
+          },
+          "ok": {
+            "max": true,
+            "negative": true,
+            "positive": true,
+            "tested": true
+          },
+          "printed": {
+            "det": 23,
+            "max": "0.0211",
+            "n": 39,
+            "nd": 16
+          }
+        },
+        "snack": {
+          "file": {
+            "det": 41,
+            "max": 0.196,
+            "n": 69,
+            "nd": 28
+          },
+          "ok": {
+            "max": true,
+            "negative": true,
+            "positive": true,
+            "tested": true
+          },
+          "printed": {
+            "det": 41,
+            "max": "0.196",
+            "n": 69,
+            "nd": 28
+          }
+        }
+      }
+    },
+    "text": {
+      "2017": {},
+      "2018": {
+        "formula_det": true,
+        "formula_n": true,
+        "formula_range": true
+      },
+      "2019": {
+        "det": true
+      },
+      "2020": {
+        "nd": true
+      },
+      "2021": {
+        "max_category": true,
+        "nd": true,
+        "range": false
+      },
+      "2022": {
+        "max_product": true,
+        "min_infant-cereal": true,
+        "min_snack": true,
+        "nd": true,
+        "range": true
+      }
+    },
+    "years": {
+      "2017": {
+        "det": 2,
+        "max": 0.009,
+        "max_category": "juice",
+        "max_product": "Juice - Toddler/Infant",
+        "min": 0.007,
+        "n": 51,
+        "nd": 49
+      },
+      "2018": {
+        "det": 4,
+        "max": 0.03,
+        "max_category": "pasta",
+        "max_product": "Pasta - Dry",
+        "min": 0.016,
+        "n": 143,
+        "nd": 139
+      },
+      "2019": {
+        "det": 19,
+        "max": 0.093,
+        "max_category": "infant-cereal",
+        "max_product": "Infant Food - Cereal",
+        "min": 0.015,
+        "n": 251,
+        "nd": 232
+      },
+      "2020": {
+        "det": 5,
+        "max": 0.095,
+        "max_category": "children-cereal",
+        "max_product": "Cereal - Children",
+        "min": 0.027,
+        "n": 135,
+        "nd": 130
+      },
+      "2021": {
+        "det": 6,
+        "max": 0.047,
+        "max_category": "pasta",
+        "max_product": "Pasta - Dry",
+        "min": 0.016,
+        "n": 291,
+        "nd": 285
+      },
+      "2022": {
+        "det": 64,
+        "max": 0.196,
+        "max_category": "snack",
+        "max_product": "Crackers",
+        "min": 0.005,
+        "n": 108,
+        "nd": 44
+      }
+    }
+  },
+  "census": {
+    "2017": {
+      "bad_shapes": [],
+      "columns": {
+        "component": 11,
+        "function": 4,
+        "origin": 6,
+        "product": 8,
+        "sample": 0,
+        "unit": 14,
+        "value": 13
+      },
+      "kinds": {
+        "det": 2,
+        "nd": 49
+      },
+      "products": {
+        "Juice - Toddler/Infant": 51
+      },
+      "rows": 51,
+      "samples": 51,
+      "units": {
+        "µg/g": 51
+      }
+    },
+    "2018": {
+      "bad_shapes": [],
+      "columns": {
+        "component": 11,
+        "function": 4,
+        "origin": 6,
+        "product": 8,
+        "sample": 0,
+        "unit": 14,
+        "value": 13
+      },
+      "kinds": {
+        "det": 4,
+        "nd": 139
+      },
+      "products": {
+        "Infant Food - Puree": 38,
+        "Infant Formula - Dairy": 52,
+        "Infant Formula - Soy": 7,
+        "Meal - Toddler/Baby": 11,
+        "Pasta - Canned": 16,
+        "Pasta - Dry": 19
+      },
+      "rows": 143,
+      "samples": 143,
+      "units": {
+        "µg/g": 143
+      }
+    },
+    "2019": {
+      "bad_shapes": [],
+      "columns": {
+        "component": 11,
+        "function": 4,
+        "origin": 6,
+        "product": 8,
+        "sample": 0,
+        "unit": 14,
+        "value": 13
+      },
+      "kinds": {
+        "det": 19,
+        "nd": 232
+      },
+      "products": {
+        "Beverage - Yogurt": 11,
+        "Infant Food - Cereal": 48,
+        "Infant Food - Puree": 98,
+        "Infant Food - Snack": 78,
+        "Yogurt": 16
+      },
+      "rows": 251,
+      "samples": 251,
+      "units": {
+        "µg/g": 251
+      }
+    },
+    "2020": {
+      "bad_shapes": [],
+      "columns": {
+        "component": 11,
+        "function": 4,
+        "origin": 6,
+        "product": 8,
+        "sample": 0,
+        "unit": 14,
+        "value": 13
+      },
+      "kinds": {
+        "det": 5,
+        "nd": 130
+      },
+      "products": {
+        "Cereal - Children": 48,
+        "Fruit Snacks": 16,
+        "Granola/Cereal Bar": 29,
+        "Oatmeal": 2,
+        "Pudding": 36,
+        "Raisin": 4
+      },
+      "rows": 135,
+      "samples": 135,
+      "units": {
+        "µg/g": 135
+      }
+    },
+    "2021": {
+      "bad_shapes": [],
+      "columns": {
+        "component": 11,
+        "function": 1,
+        "origin": 3,
+        "product": 5,
+        "sample": 0,
+        "unit": 14,
+        "value": 13
+      },
+      "kinds": {
+        "det": 6,
+        "nd": 285
+      },
+      "products": {
+        "Beverage - Fruit": 15,
+        "Fruit & Vegetable Purée": 2,
+        "Fruit Purée": 11,
+        "Infant Food - Puree": 159,
+        "Juice - Apple": 12,
+        "Juice - Blend": 28,
+        "Juice - Cranberry": 1,
+        "Juice - Grape": 1,
+        "Juice - Orange": 7,
+        "Juice - Other": 2,
+        "Juice - Pineapple": 1,
+        "Meal - Toddler/Baby": 5,
+        "Pasta - Canned": 11,
+        "Pasta - Dry": 36
+      },
+      "rows": 291,
+      "samples": 291,
+      "units": {
+        "µg/g": 291
+      }
+    },
+    "2022": {
+      "bad_shapes": [],
+      "columns": {
+        "component": 11,
+        "function": 1,
+        "origin": 3,
+        "product": 5,
+        "sample": 0,
+        "unit": 14,
+        "value": 13
+      },
+      "kinds": {
+        "det": 64,
+        "nd": 44
+      },
+      "products": {
+        "Baking Mixes": 2,
+        "Cookies": 23,
+        "Crackers": 25,
+        "Granola/Cereal Bar": 5,
+        "Infant Food - Cereal": 39,
+        "Infant Food - Snack": 14
+      },
+      "rows": 108,
+      "samples": 108,
+      "units": {
+        "µg/g": 108
+      }
+    }
+  },
+  "n_graded": 13,
+  "n_met": 12,
+  "predictions": [
+    {
+      "graded": true,
+      "id": "G",
+      "kind": "gate",
+      "met": true,
+      "observed": {
+        "passing": [
+          "2017",
+          "2018",
+          "2019",
+          "2020",
+          "2021",
+          "2022"
+        ],
+        "per_year": {
+          "2017": {
+            "columns": true,
+            "products": true,
+            "rows": true,
+            "samples": true,
+            "sha256": true,
+            "units": true,
+            "values": true
+          },
+          "2018": {
+            "columns": true,
+            "products": true,
+            "rows": true,
+            "samples": true,
+            "sha256": true,
+            "units": true,
+            "values": true
+          },
+          "2019": {
+            "columns": true,
+            "products": true,
+            "rows": true,
+            "samples": true,
+            "sha256": true,
+            "units": true,
+            "values": true
+          },
+          "2020": {
+            "columns": true,
+            "products": true,
+            "rows": true,
+            "samples": true,
+            "sha256": true,
+            "units": true,
+            "values": true
+          },
+          "2021": {
+            "columns": true,
+            "products": true,
+            "rows": true,
+            "samples": true,
+            "sha256": true,
+            "units": true,
+            "values": true
+          },
+          "2022": {
+            "columns": true,
+            "products": true,
+            "rows": true,
+            "samples": true,
+            "sha256": true,
+            "units": true,
+            "values": true
+          }
+        }
+      },
+      "text": "per year: SHA-256; lead rows and samples, unit ug/g and samples per product label as in the census; every lead result detected (a number above 0) or not detected (0, '<' with a number >= 0, or a not-detected token). Each year is graded only if its own gate passes."
+    },
+    {
+      "graded": true,
+      "id": "C2017",
+      "kind": "consistency",
+      "met": true,
+      "observed": {
+        "table": {
+          "juice": {
+            "file": {
+              "det": 2,
+              "max": 0.009,
+              "n": 51,
+              "nd": 49
+            },
+            "ok": {
+              "max": true,
+              "negative": true,
+              "positive": true,
+              "tested": true
+            },
+            "printed": {
+              "det": 2,
+              "max": "0.009",
+              "n": 51,
+              "nd": 49
+            }
+          }
+        },
+        "text": {}
+      },
+      "text": "2017 report: every lead table row (tested, negative, positive, maximum) and every printed lead text figure"
+    },
+    {
+      "graded": true,
+      "id": "C2018",
+      "kind": "consistency",
+      "met": true,
+      "observed": {
+        "table": {
+          "formula-dairy": {
+            "file": {
+              "det": 3,
+              "max": 0.019,
+              "n": 52,
+              "nd": 49
+            },
+            "ok": {
+              "max": true,
+              "negative": true,
+              "positive": true,
+              "tested": true
+            },
+            "printed": {
+              "det": 3,
+              "max": "0.019",
+              "n": 52,
+              "nd": 49
+            }
+          },
+          "formula-soy": {
+            "file": {
+              "det": 0,
+              "max": null,
+              "n": 7,
+              "nd": 7
+            },
+            "ok": {
+              "negative": true,
+              "positive": true,
+              "tested": true
+            },
+            "printed": {
+              "det": 0,
+              "max": null,
+              "n": 7,
+              "nd": 7
+            }
+          },
+          "meal": {
+            "file": {
+              "det": 0,
+              "max": null,
+              "n": 11,
+              "nd": 11
+            },
+            "ok": {
+              "negative": true,
+              "positive": true,
+              "tested": true
+            },
+            "printed": {
+              "det": 0,
+              "max": null,
+              "n": 11,
+              "nd": 11
+            }
+          },
+          "pasta": {
+            "file": {
+              "det": 1,
+              "max": 0.03,
+              "n": 35,
+              "nd": 34
+            },
+            "ok": {
+              "max": true,
+              "negative": true,
+              "positive": true,
+              "tested": true
+            },
+            "printed": {
+              "det": 1,
+              "max": "0.03",
+              "n": 35,
+              "nd": 34
+            }
+          },
+          "puree": {
+            "file": {
+              "det": 0,
+              "max": null,
+              "n": 38,
+              "nd": 38
+            },
+            "ok": {
+              "negative": true,
+              "positive": true,
+              "tested": true
+            },
+            "printed": {
+              "det": 0,
+              "max": null,
+              "n": 38,
+              "nd": 38
+            }
+          }
+        },
+        "text": {
+          "formula_det": true,
+          "formula_n": true,
+          "formula_range": true
+        }
+      },
+      "text": "2018 report: every lead table row (tested, negative, positive, maximum) and every printed lead text figure"
+    },
+    {
+      "graded": true,
+      "id": "C2019",
+      "kind": "consistency",
+      "met": true,
+      "observed": {
+        "table": {
+          "infant-cereal": {
+            "file": {
+              "det": 11,
+              "max": 0.093,
+              "n": 48,
+              "nd": 37
+            },
+            "ok": {
+              "max": true,
+              "negative": true,
+              "positive": true,
+              "tested": true
+            },
+            "printed": {
+              "det": 11,
+              "max": "0.093",
+              "n": 48,
+              "nd": 37
+            }
+          },
+          "puree": {
+            "file": {
+              "det": 1,
+              "max": 0.015,
+              "n": 98,
+              "nd": 97
+            },
+            "ok": {
+              "max": true,
+              "negative": true,
+              "positive": true,
+              "tested": true
+            },
+            "printed": {
+              "det": 1,
+              "max": "0.015",
+              "n": 98,
+              "nd": 97
+            }
+          },
+          "snack": {
+            "file": {
+              "det": 7,
+              "max": 0.04,
+              "n": 78,
+              "nd": 71
+            },
+            "ok": {
+              "max": true,
+              "negative": true,
+              "positive": true,
+              "tested": true
+            },
+            "printed": {
+              "det": 7,
+              "max": "0.04",
+              "n": 78,
+              "nd": 71
+            }
+          },
+          "yogurt": {
+            "file": {
+              "det": 0,
+              "max": null,
+              "n": 16,
+              "nd": 16
+            },
+            "ok": {
+              "negative": true,
+              "positive": true,
+              "tested": true
+            },
+            "printed": {
+              "det": 0,
+              "max": null,
+              "n": 16,
+              "nd": 16
+            }
+          },
+          "yogurt-beverage": {
+            "file": {
+              "det": 0,
+              "max": null,
+              "n": 11,
+              "nd": 11
+            },
+            "ok": {
+              "negative": true,
+              "positive": true,
+              "tested": true
+            },
+            "printed": {
+              "det": 0,
+              "max": null,
+              "n": 11,
+              "nd": 11
+            }
+          }
+        },
+        "text": {
+          "det": true
+        }
+      },
+      "text": "2019 report: every lead table row (tested, negative, positive, maximum) and every printed lead text figure"
+    },
+    {
+      "graded": true,
+      "id": "C2020",
+      "kind": "consistency",
+      "met": true,
+      "observed": {
+        "table": {
+          "children-cereal": {
+            "file": {
+              "det": 3,
+              "max": 0.095,
+              "n": 50,
+              "nd": 47
+            },
+            "ok": {
+              "max": true,
+              "negative": true,
+              "positive": true,
+              "tested": true
+            },
+            "printed": {
+              "det": 3,
+              "max": "0.10",
+              "n": 50,
+              "nd": 47
+            }
+          },
+          "fruit-snack": {
+            "file": {
+              "det": 1,
+              "max": 0.027,
+              "n": 20,
+              "nd": 19
+            },
+            "ok": {
+              "max": true,
+              "negative": true,
+              "positive": true,
+              "tested": true
+            },
+            "printed": {
+              "det": 1,
+              "max": "0.03",
+              "n": 20,
+              "nd": 19
+            }
+          },
+          "granola-bar": {
+            "file": {
+              "det": 1,
+              "max": 0.029,
+              "n": 29,
+              "nd": 28
+            },
+            "ok": {
+              "max": true,
+              "negative": true,
+              "positive": true,
+              "tested": true
+            },
+            "printed": {
+              "det": 1,
+              "max": "0.03",
+              "n": 29,
+              "nd": 28
+            }
+          },
+          "pudding": {
+            "file": {
+              "det": 0,
+              "max": null,
+              "n": 36,
+              "nd": 36
+            },
+            "ok": {
+              "negative": true,
+              "positive": true,
+              "tested": true
+            },
+            "printed": {
+              "det": 0,
+              "max": null,
+              "n": 36,
+              "nd": 36
+            }
+          }
+        },
+        "text": {
+          "nd": true
+        }
+      },
+      "text": "2020 report: every lead table row (tested, negative, positive, maximum) and every printed lead text figure"
+    },
+    {
+      "graded": true,
+      "id": "C2021",
+      "kind": "consistency",
+      "met": false,
+      "observed": {
+        "table": {
+          "juice": {
+            "file": {
+              "det": 0,
+              "max": null,
+              "n": 67,
+              "nd": 67
+            },
+            "ok": {
+              "negative": true,
+              "positive": true,
+              "tested": true
+            },
+            "printed": {
+              "det": 0,
+              "max": null,
+              "n": 67,
+              "nd": 67
+            }
+          },
+          "pasta": {
+            "file": {
+              "det": 3,
+              "max": 0.047,
+              "n": 47,
+              "nd": 44
+            },
+            "ok": {
+              "max": true,
+              "negative": true,
+              "positive": true,
+              "tested": true
+            },
+            "printed": {
+              "det": 3,
+              "max": "0.05",
+              "n": 47,
+              "nd": 44
+            }
+          },
+          "puree-meal": {
+            "file": {
+              "det": 3,
+              "max": 0.022,
+              "n": 177,
+              "nd": 174
+            },
+            "ok": {
+              "negative": true,
+              "positive": true,
+              "tested": true
+            },
+            "printed": {
+              "det": 3,
+              "max": null,
+              "n": 177,
+              "nd": 174
+            }
+          }
+        },
+        "text": {
+          "max_category": true,
+          "nd": true,
+          "range": false
+        }
+      },
+      "text": "2021 report: every lead table row (tested, negative, positive, maximum) and every printed lead text figure"
+    },
+    {
+      "graded": true,
+      "id": "C2022",
+      "kind": "consistency",
+      "met": true,
+      "observed": {
+        "table": {
+          "infant-cereal": {
+            "file": {
+              "det": 23,
+              "max": 0.0211,
+              "n": 39,
+              "nd": 16
+            },
+            "ok": {
+              "max": true,
+              "negative": true,
+              "positive": true,
+              "tested": true
+            },
+            "printed": {
+              "det": 23,
+              "max": "0.0211",
+              "n": 39,
+              "nd": 16
+            }
+          },
+          "snack": {
+            "file": {
+              "det": 41,
+              "max": 0.196,
+              "n": 69,
+              "nd": 28
+            },
+            "ok": {
+              "max": true,
+              "negative": true,
+              "positive": true,
+              "tested": true
+            },
+            "printed": {
+              "det": 41,
+              "max": "0.196",
+              "n": 69,
+              "nd": 28
+            }
+          }
+        },
+        "text": {
+          "max_product": true,
+          "min_infant-cereal": true,
+          "min_snack": true,
+          "nd": true,
+          "range": true
+        }
+      },
+      "text": "2022 report: every lead table row (tested, negative, positive, maximum) and every printed lead text figure"
+    },
+    {
+      "graded": true,
+      "id": "P1",
+      "kind": "prediction",
+      "met": true,
+      "observed": {
+        "any_2021_value_matching_0_18": false,
+        "puree_meal_max": 0.022,
+        "puree_meal_values": [
+          0.016,
+          0.018,
+          0.022
+        ]
+      },
+      "text": "2021: the appendix's 0.18 ppm meal maximum is not in the file: the largest puree/meal value is below 0.05 ppm and no 2021 value rounds to 0.18"
+    },
+    {
+      "graded": true,
+      "id": "P2",
+      "kind": "prediction",
+      "met": true,
+      "observed": {
+        "matching_0_018": [
+          0.018
+        ],
+        "puree_meal_values": [
+          0.016,
+          0.018,
+          0.022
+        ]
+      },
+      "text": "2021: one puree/meal positive rounds to 0.018 ppm (0.18 with its decimal point moved)"
+    },
+    {
+      "graded": true,
+      "id": "P3",
+      "kind": "prediction",
+      "met": true,
+      "observed": {
+        "all_years": {
+          "2017": 0.007,
+          "2018": 0.016,
+          "2019": 0.015,
+          "2020": 0.027,
+          "2021": 0.016,
+          "2022": 0.005
+        },
+        "floor": 0.01,
+        "min_detected": {
+          "2018": 0.016,
+          "2019": 0.015,
+          "2020": 0.027,
+          "2021": 0.016
+        }
+      },
+      "text": "the smallest detected lead value is at least 0.010 ppm in each of 2018, 2019, 2020 and 2021 (graded on the years that pass)"
+    },
+    {
+      "graded": true,
+      "id": "P4",
+      "kind": "prediction",
+      "met": true,
+      "observed": {
+        "2019": {
+          "above": 6,
+          "category": "infant-cereal",
+          "ci95": [
+            0.058570514385719794,
+            0.24700458286386834
+          ],
+          "detected": 11,
+          "level_ppm": 0.02,
+          "n": 48,
+          "year": "2019"
+        },
+        "2022": {
+          "above": 1,
+          "category": "infant-cereal",
+          "ci95": [
+            0.004540703100990098,
+            0.13180990169850076
+          ],
+          "detected": 23,
+          "level_ppm": 0.02,
+          "n": 39,
+          "year": "2022"
+        }
+      },
+      "text": "FDA dry-infant-cereal action level (0.020 ppm): at least 6 of the 48 2019 infant cereals and 1 to 3 of the 39 2022 infant cereals are above it"
+    },
+    {
+      "graded": true,
+      "id": "P5",
+      "kind": "prediction",
+      "met": true,
+      "observed": {
+        "2017": {
+          "juice": {
+            "all_matches": true,
+            "mean_all": 0.00031372549019607844,
+            "mean_positives": 0.008,
+            "met": true,
+            "positives_matches": false,
+            "predicted": "all",
+            "printed": "0.000"
+          }
+        },
+        "2018": {
+          "formula-dairy": {
+            "all_matches": false,
+            "mean_all": 0.0010192307692307692,
+            "mean_positives": 0.017666666666666667,
+            "met": true,
+            "positives_matches": true,
+            "predicted": "positives",
+            "printed": "0.02"
+          },
+          "pasta": {
+            "all_matches": false,
+            "mean_all": 0.0008571428571428571,
+            "mean_positives": 0.03,
+            "met": true,
+            "positives_matches": true,
+            "predicted": "positives",
+            "printed": "0.03"
+          }
+        },
+        "2019": {
+          "infant-cereal": {
+            "all_matches": true,
+            "mean_all": 0.007833333333333333,
+            "mean_positives": 0.03418181818181818,
+            "met": true,
+            "positives_matches": false,
+            "predicted": "all",
+            "printed": "0.01"
+          },
+          "puree": {
+            "all_matches": true,
+            "mean_all": 0.0001530612244897959,
+            "mean_positives": 0.015,
+            "met": true,
+            "positives_matches": false,
+            "predicted": "all",
+            "printed": "0.0002"
+          },
+          "snack": {
+            "all_matches": true,
+            "mean_all": 0.0025,
+            "mean_positives": 0.027857142857142858,
+            "met": true,
+            "positives_matches": false,
+            "predicted": "all",
+            "printed": "0.0025"
+          }
+        },
+        "2020": {
+          "children-cereal": {
+            "all_matches": true,
+            "mean_all": 0.00344,
+            "mean_positives": 0.057333333333333326,
+            "met": true,
+            "positives_matches": false,
+            "predicted": "all",
+            "printed": "0.003"
+          },
+          "fruit-snack": {
+            "all_matches": true,
+            "mean_all": 0.00135,
+            "mean_positives": 0.027,
+            "met": true,
+            "positives_matches": false,
+            "predicted": "all",
+            "printed": "0.001"
+          },
+          "granola-bar": {
+            "all_matches": true,
+            "mean_all": 0.001,
+            "mean_positives": 0.029,
+            "met": true,
+            "positives_matches": false,
+            "predicted": "all",
+            "printed": "0.001"
+          }
+        },
+        "2021": {
+          "pasta": {
+            "all_matches": true,
+            "mean_all": 0.0021063829787234044,
+            "mean_positives": 0.033,
+            "met": true,
+            "positives_matches": false,
+            "predicted": "all",
+            "printed": "0.002"
+          }
+        },
+        "2022": {
+          "infant-cereal": {
+            "all_matches": false,
+            "mean_all": 0.005225641025641026,
+            "mean_positives": 0.008860869565217392,
+            "met": true,
+            "positives_matches": true,
+            "predicted": "positives",
+            "printed": "0.0089"
+          },
+          "snack": {
+            "all_matches": false,
+            "mean_all": 0.009008695652173914,
+            "mean_positives": 0.015160975609756098,
+            "met": true,
+            "positives_matches": true,
+            "predicted": "positives",
+            "printed": "0.0152"
+          }
+        }
+      },
+      "text": "each printed mean is reproduced by the predicted convention: all-sample in 2017, 2019, 2020 and 2021; positives-only in 2018 and 2022"
+    },
+    {
+      "graded": true,
+      "id": "P6",
+      "kind": "prediction",
+      "met": true,
+      "observed": {
+        "cut_ppm": 0.015,
+        "fisher_one_sided_p": 0.04920370246058137,
+        "y2019": {
+          "ci95": [
+            0.13307826266911232,
+            0.3653926409000346
+          ],
+          "k": 11,
+          "n": 48,
+          "rate": 0.22916666666666666
+        },
+        "y2022": {
+          "ci95": [
+            0.02650739530377974,
+            0.20321071167954996
+          ],
+          "k": 3,
+          "n": 39,
+          "rate": 0.07692307692307693
+        }
+      },
+      "text": "infant cereal at a common 0.015 ppm cut: the 2022 rate is below the 2019 rate (point estimates; Fisher p and Wilson intervals reported)"
+    }
+  ],
+  "provenance": {
+    "2017": {
+      "bytes": 43197262,
+      "encoding": "cp1252",
+      "resource": "3e34dce9-2844-4cc4-8e06-05c45830509c",
+      "sha256": "6fe317c9f791d0e4a893fff2449e2d2fc9c00e90dd77d3df10b285fc5f4c87e7",
+      "source": "data-volume"
+    },
+    "2018": {
+      "bytes": 4653124,
+      "encoding": "cp1252",
+      "resource": "3ab80a87-25a7-4aea-b510-0301c1232081",
+      "sha256": "be6a1d7c1648570f18266af0e31eefc7d4791cfbb82e4f3add45bf0bb4659755",
+      "source": "data-volume"
+    },
+    "2019": {
+      "bytes": 24734362,
+      "encoding": "cp1252",
+      "resource": "50fcc8c9-6a62-49d6-92ea-b8a1c8c787c2",
+      "sha256": "6b5b7019494ec36bba593f3e560cab29a38a93c060f9278fd86e73fac94cbce2",
+      "source": "data-volume"
+    },
+    "2020": {
+      "bytes": 10588430,
+      "encoding": "cp1252",
+      "resource": "feebccc6-1eaf-4a5b-83e7-a3b468a912b8",
+      "sha256": "e1c895c55ae52386cdd43898afc236a92086affb6409cd272e7604291eb27b46",
+      "source": "data-volume"
+    },
+    "2021": {
+      "bytes": 1167512,
+      "encoding": "utf-8-sig",
+      "resource": "ba052b71-9000-4fc1-8eb8-de693bb1e606",
+      "sha256": "5364b9cd385d25428868c3f1354d6f1d5eccf5e4f58a3143e263c10aa7f1c544",
+      "source": "data-volume"
+    },
+    "2022": {
+      "bytes": 828727,
+      "encoding": "utf-8-sig",
+      "resource": "517c84f1-d317-4566-b118-b17359919f1f",
+      "sha256": "14d3712ee0d4b9fcfaefe940670b1f7b352c5c9b249f25190f2cf725eb851c61",
+      "source": "data-volume"
+    }
+  },
+  "study": "cfp-lead",
+  "version": "0.1.0"
+}
