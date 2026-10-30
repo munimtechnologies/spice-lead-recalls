@@ -1,0 +1,1337 @@
+{
+  "analysis": {
+    "all4": 120,
+    "all4_pct": 12.158054711246201,
+    "any": 687,
+    "any_pct": 69.6048632218845,
+    "as_top": [
+      {
+        "As": 1.13,
+        "product": "Bran - Rice",
+        "sample": "C2018TMET00945"
+      },
+      {
+        "As": 1.12,
+        "product": "Bran - Rice",
+        "sample": "C2018TMET00934"
+      }
+    ],
+    "cells": {
+      "R1": {
+        "bran": {
+          "As_avg": false,
+          "As_max": false,
+          "As_pct": false,
+          "Cd_avg": true,
+          "Cd_max": true,
+          "Cd_pct": false,
+          "Hg_avg": false,
+          "Hg_max": false,
+          "Hg_pct": false,
+          "Pb_avg": false,
+          "Pb_max": true,
+          "Pb_pct": false
+        },
+        "infant-formula": {
+          "As_avg": true,
+          "As_max": true,
+          "As_pct": true,
+          "Cd_avg": true,
+          "Cd_max": true,
+          "Cd_pct": true,
+          "Hg_avg": true,
+          "Hg_max": true,
+          "Hg_pct": true,
+          "Pb_avg": true,
+          "Pb_max": true,
+          "Pb_pct": true
+        },
+        "meal-replacement": {
+          "As_avg": true,
+          "As_max": true,
+          "As_pct": true,
+          "Cd_avg": true,
+          "Cd_max": true,
+          "Cd_pct": true,
+          "Hg_avg": true,
+          "Hg_max": true,
+          "Hg_pct": true,
+          "Pb_avg": true,
+          "Pb_max": true,
+          "Pb_pct": true
+        },
+        "protein-powder": {
+          "As_avg": true,
+          "As_max": true,
+          "As_pct": true,
+          "Cd_avg": true,
+          "Cd_max": true,
+          "Cd_pct": true,
+          "Hg_avg": true,
+          "Hg_max": true,
+          "Hg_pct": false,
+          "Pb_avg": true,
+          "Pb_max": true,
+          "Pb_pct": true
+        },
+        "rice": {
+          "As_avg": false,
+          "As_max": true,
+          "As_pct": false,
+          "Cd_avg": true,
+          "Cd_max": true,
+          "Cd_pct": false,
+          "Hg_avg": true,
+          "Hg_max": true,
+          "Hg_pct": false,
+          "Pb_avg": true,
+          "Pb_max": true,
+          "Pb_pct": false
+        }
+      },
+      "R2": {
+        "bran": {
+          "As_avg": false,
+          "As_max": true,
+          "As_pct": false,
+          "Cd_avg": true,
+          "Cd_max": true,
+          "Cd_pct": false,
+          "Hg_avg": false,
+          "Hg_max": false,
+          "Hg_pct": false,
+          "Pb_avg": false,
+          "Pb_max": true,
+          "Pb_pct": true
+        },
+        "infant-formula": {
+          "As_avg": true,
+          "As_max": true,
+          "As_pct": true,
+          "Cd_avg": true,
+          "Cd_max": true,
+          "Cd_pct": true,
+          "Hg_avg": true,
+          "Hg_max": true,
+          "Hg_pct": true,
+          "Pb_avg": true,
+          "Pb_max": true,
+          "Pb_pct": true
+        },
+        "meal-replacement": {
+          "As_avg": true,
+          "As_max": true,
+          "As_pct": true,
+          "Cd_avg": true,
+          "Cd_max": true,
+          "Cd_pct": true,
+          "Hg_avg": true,
+          "Hg_max": true,
+          "Hg_pct": true,
+          "Pb_avg": true,
+          "Pb_max": true,
+          "Pb_pct": true
+        },
+        "protein-powder": {
+          "As_avg": true,
+          "As_max": true,
+          "As_pct": true,
+          "Cd_avg": true,
+          "Cd_max": true,
+          "Cd_pct": true,
+          "Hg_avg": true,
+          "Hg_max": true,
+          "Hg_pct": false,
+          "Pb_avg": true,
+          "Pb_max": true,
+          "Pb_pct": true
+        },
+        "rice": {
+          "As_avg": false,
+          "As_max": true,
+          "As_pct": false,
+          "Cd_avg": false,
+          "Cd_max": true,
+          "Cd_pct": false,
+          "Hg_avg": true,
+          "Hg_max": true,
+          "Hg_pct": false,
+          "Pb_avg": false,
+          "Pb_max": true,
+          "Pb_pct": true
+        }
+      }
+    },
+    "drop_d": {
+      "cells": {
+        "bran": {
+          "As_avg": false,
+          "As_max": false,
+          "As_pct": false,
+          "Cd_avg": true,
+          "Cd_max": true,
+          "Cd_pct": false,
+          "Hg_avg": false,
+          "Hg_max": false,
+          "Hg_pct": false,
+          "Pb_avg": false,
+          "Pb_max": true,
+          "Pb_pct": false
+        },
+        "infant-formula": {
+          "As_avg": true,
+          "As_max": true,
+          "As_pct": true,
+          "Cd_avg": true,
+          "Cd_max": true,
+          "Cd_pct": true,
+          "Hg_avg": true,
+          "Hg_max": true,
+          "Hg_pct": true,
+          "Pb_avg": true,
+          "Pb_max": true,
+          "Pb_pct": true
+        },
+        "meal-replacement": {
+          "As_avg": true,
+          "As_max": true,
+          "As_pct": true,
+          "Cd_avg": true,
+          "Cd_max": true,
+          "Cd_pct": true,
+          "Hg_avg": true,
+          "Hg_max": true,
+          "Hg_pct": true,
+          "Pb_avg": true,
+          "Pb_max": true,
+          "Pb_pct": true
+        },
+        "protein-powder": {
+          "As_avg": true,
+          "As_max": true,
+          "As_pct": true,
+          "Cd_avg": true,
+          "Cd_max": true,
+          "Cd_pct": true,
+          "Hg_avg": true,
+          "Hg_max": true,
+          "Hg_pct": false,
+          "Pb_avg": true,
+          "Pb_max": true,
+          "Pb_pct": true
+        },
+        "rice": {
+          "As_avg": false,
+          "As_max": true,
+          "As_pct": false,
+          "Cd_avg": true,
+          "Cd_max": true,
+          "Cd_pct": false,
+          "Hg_avg": true,
+          "Hg_max": true,
+          "Hg_pct": false,
+          "Pb_avg": true,
+          "Pb_max": true,
+          "Pb_pct": false
+        }
+      },
+      "n": 987,
+      "tables": {
+        "bran": {
+          "As": {
+            "k": 78,
+            "max": 0.158,
+            "mean": 0.02525128205128205,
+            "min": 0.01,
+            "n": 99,
+            "pct": 78.78787878787878
+          },
+          "Cd": {
+            "k": 71,
+            "max": 0.186,
+            "mean": 0.04262676056338028,
+            "min": 0.01,
+            "n": 99,
+            "pct": 71.71717171717172
+          },
+          "Hg": {
+            "k": 5,
+            "max": 0.0032,
+            "mean": 0.00166,
+            "min": 0.001,
+            "n": 99,
+            "pct": 5.05050505050505
+          },
+          "Pb": {
+            "k": 25,
+            "max": 0.13,
+            "mean": 0.022404,
+            "min": 0.01,
+            "n": 99,
+            "pct": 25.252525252525253
+          },
+          "n": 99
+        },
+        "infant-formula": {
+          "As": {
+            "k": 205,
+            "max": 0.0399,
+            "mean": 0.016247317073170734,
+            "min": 0.01,
+            "n": 396,
+            "pct": 51.76767676767677
+          },
+          "Cd": {
+            "k": 36,
+            "max": 0.0199,
+            "mean": 0.0108,
+            "min": 0.01,
+            "n": 396,
+            "pct": 9.090909090909092
+          },
+          "Hg": {
+            "k": 2,
+            "max": 0.0028,
+            "mean": 0.0019,
+            "min": 0.001,
+            "n": 396,
+            "pct": 0.5050505050505051
+          },
+          "Pb": {
+            "k": 51,
+            "max": 0.0197,
+            "mean": 0.01175294117647059,
+            "min": 0.01,
+            "n": 396,
+            "pct": 12.878787878787879
+          },
+          "n": 396
+        },
+        "meal-replacement": {
+          "As": {
+            "k": 88,
+            "max": 0.139,
+            "mean": 0.021609090909090908,
+            "min": 0.01,
+            "n": 198,
+            "pct": 44.44444444444444
+          },
+          "Cd": {
+            "k": 62,
+            "max": 0.19,
+            "mean": 0.037461290322580644,
+            "min": 0.01,
+            "n": 198,
+            "pct": 31.31313131313131
+          },
+          "Hg": {
+            "k": 18,
+            "max": 0.0056,
+            "mean": 0.002472222222222222,
+            "min": 0.001,
+            "n": 198,
+            "pct": 9.090909090909092
+          },
+          "Pb": {
+            "k": 79,
+            "max": 0.231,
+            "mean": 0.023886075949367088,
+            "min": 0.01,
+            "n": 198,
+            "pct": 39.898989898989896
+          },
+          "n": 198
+        },
+        "protein-powder": {
+          "As": {
+            "k": 164,
+            "max": 0.214,
+            "mean": 0.02823216804878049,
+            "min": 0.01,
+            "n": 196,
+            "pct": 83.6734693877551
+          },
+          "Cd": {
+            "k": 160,
+            "max": 0.219,
+            "mean": 0.059735,
+            "min": 0.01,
+            "n": 196,
+            "pct": 81.63265306122449
+          },
+          "Hg": {
+            "k": 99,
+            "max": 0.0219,
+            "mean": 0.0033656565656565657,
+            "min": 0.001,
+            "n": 196,
+            "pct": 50.51020408163265
+          },
+          "Pb": {
+            "k": 140,
+            "max": 0.237,
+            "mean": 0.03507071428571429,
+            "min": 0.01,
+            "n": 196,
+            "pct": 71.42857142857143
+          },
+          "n": 196
+        },
+        "rice": {
+          "As": {
+            "k": 92,
+            "max": 1.13,
+            "mean": 0.264525,
+            "min": 0.0154,
+            "n": 98,
+            "pct": 93.87755102040816
+          },
+          "Cd": {
+            "k": 61,
+            "max": 0.0558,
+            "mean": 0.016050819672131147,
+            "min": 0.01,
+            "n": 98,
+            "pct": 62.244897959183675
+          },
+          "Hg": {
+            "k": 69,
+            "max": 0.0064,
+            "mean": 0.002863768115942029,
+            "min": 0.001,
+            "n": 98,
+            "pct": 70.40816326530613
+          },
+          "Pb": {
+            "k": 35,
+            "max": 0.05,
+            "mean": 0.017882857142857145,
+            "min": 0.01,
+            "n": 98,
+            "pct": 35.714285714285715
+          },
+          "n": 98
+        }
+      }
+    },
+    "dups": [
+      {
+        "base": "C2018TMET00039",
+        "base_present": false,
+        "function": "Domestic",
+        "product": "Protein Powder",
+        "sample": "C2018TMET00039D"
+      },
+      {
+        "base": "C2018TMET00113",
+        "base_present": false,
+        "function": "Unknown",
+        "product": "Protein Powder",
+        "sample": "C2018TMET00113D"
+      },
+      {
+        "base": "C2018TMET00183",
+        "base_present": false,
+        "function": "Domestic",
+        "product": "Protein Powder",
+        "sample": "C2018TMET00183D"
+      },
+      {
+        "base": "C2018TMET00191",
+        "base_present": false,
+        "function": "Domestic",
+        "product": "Protein Powder",
+        "sample": "C2018TMET00191D"
+      }
+    ],
+    "hg_top": {
+      "holders": [
+        {
+          "product": "Protein Powder",
+          "sample": "C2018TMET00200"
+        }
+      ],
+      "max": 0.0219
+    },
+    "if_hg": 2,
+    "labels": {
+      "Bakery Product - Cookie": 2,
+      "Baking Mixes": 2,
+      "Bran - Oat": 22,
+      "Bran - Rice": 2,
+      "Bran - Wheat": 8,
+      "Cereal": 1,
+      "Cereal - Corn": 22,
+      "Cereal - Mixed Grains": 5,
+      "Cereal - Oat": 1,
+      "Cereal - Rice": 6,
+      "Cereal - Wheat": 20,
+      "Corn Products": 3,
+      "Crackers": 1,
+      "Grain - Rice": 3,
+      "Granola/Cereal Bar": 7,
+      "Infant Formula - Dairy": 177,
+      "Infant Formula - Other": 86,
+      "Infant Formula - Soy": 133,
+      "Meal Replacement": 198,
+      "Oat Products": 1,
+      "Oil - Other": 4,
+      "Popcorn": 3,
+      "Protein Powder": 196,
+      "Rice Products": 82,
+      "Snack Bar": 2
+    },
+    "lowest_positive": {
+      "As": 0.01,
+      "Cd": 0.01,
+      "Hg": 0.001,
+      "Pb": 0.01
+    },
+    "n": 987,
+    "nd": {
+      "As": 360,
+      "Cd": 597,
+      "Hg": 794,
+      "Pb": 657
+    },
+    "origins": {
+      "R1": {
+        "bran": [
+          23,
+          41,
+          35,
+          99
+        ],
+        "infant-formula": [
+          0,
+          387,
+          9,
+          396
+        ],
+        "meal-replacement": [
+          16,
+          135,
+          47,
+          198
+        ],
+        "protein-powder": [
+          72,
+          34,
+          90,
+          196
+        ],
+        "rice": [
+          77,
+          19,
+          2,
+          98
+        ]
+      },
+      "R2": {
+        "bran": [
+          23,
+          41,
+          35,
+          99
+        ],
+        "infant-formula": [
+          0,
+          387,
+          9,
+          396
+        ],
+        "meal-replacement": [
+          16,
+          135,
+          47,
+          198
+        ],
+        "protein-powder": [
+          72,
+          34,
+          90,
+          196
+        ],
+        "rice": [
+          77,
+          19,
+          2,
+          98
+        ]
+      }
+    },
+    "overall": {
+      "As": {
+        "k": 627,
+        "max": 1.13,
+        "mean": 0.05768465001594896,
+        "min": 0.01,
+        "n": 987,
+        "pct": 63.525835866261396
+      },
+      "Cd": {
+        "k": 390,
+        "max": 0.219,
+        "mean": 0.04172974358974359,
+        "min": 0.01,
+        "n": 987,
+        "pct": 39.51367781155015
+      },
+      "Hg": {
+        "k": 193,
+        "max": 0.0219,
+        "mean": 0.0030435233160621762,
+        "min": 0.001,
+        "n": 987,
+        "pct": 19.55420466058764
+      },
+      "Pb": {
+        "k": 330,
+        "max": 0.237,
+        "mean": 0.0260069696969697,
+        "min": 0.01,
+        "n": 987,
+        "pct": 33.43465045592705
+      }
+    },
+    "printed_internal": {
+      "counts": {
+        "As": {
+          "max": 629,
+          "min": 624
+        },
+        "Cd": {
+          "max": 391,
+          "min": 386,
+          "text_detected": 389,
+          "text_fits": true
+        },
+        "Hg": {
+          "max": 195,
+          "min": 190
+        },
+        "Pb": {
+          "max": 332,
+          "min": 327,
+          "text_detected": 329,
+          "text_fits": true
+        }
+      },
+      "table1_total": 985,
+      "table2_total": 985
+    },
+    "tables": {
+      "R1": {
+        "bran": {
+          "As": {
+            "k": 78,
+            "max": 0.158,
+            "mean": 0.02525128205128205,
+            "min": 0.01,
+            "n": 99,
+            "pct": 78.78787878787878
+          },
+          "Cd": {
+            "k": 71,
+            "max": 0.186,
+            "mean": 0.04262676056338028,
+            "min": 0.01,
+            "n": 99,
+            "pct": 71.71717171717172
+          },
+          "Hg": {
+            "k": 5,
+            "max": 0.0032,
+            "mean": 0.00166,
+            "min": 0.001,
+            "n": 99,
+            "pct": 5.05050505050505
+          },
+          "Pb": {
+            "k": 25,
+            "max": 0.13,
+            "mean": 0.022404,
+            "min": 0.01,
+            "n": 99,
+            "pct": 25.252525252525253
+          },
+          "n": 99
+        },
+        "infant-formula": {
+          "As": {
+            "k": 205,
+            "max": 0.0399,
+            "mean": 0.016247317073170734,
+            "min": 0.01,
+            "n": 396,
+            "pct": 51.76767676767677
+          },
+          "Cd": {
+            "k": 36,
+            "max": 0.0199,
+            "mean": 0.0108,
+            "min": 0.01,
+            "n": 396,
+            "pct": 9.090909090909092
+          },
+          "Hg": {
+            "k": 2,
+            "max": 0.0028,
+            "mean": 0.0019,
+            "min": 0.001,
+            "n": 396,
+            "pct": 0.5050505050505051
+          },
+          "Pb": {
+            "k": 51,
+            "max": 0.0197,
+            "mean": 0.01175294117647059,
+            "min": 0.01,
+            "n": 396,
+            "pct": 12.878787878787879
+          },
+          "n": 396
+        },
+        "meal-replacement": {
+          "As": {
+            "k": 88,
+            "max": 0.139,
+            "mean": 0.021609090909090908,
+            "min": 0.01,
+            "n": 198,
+            "pct": 44.44444444444444
+          },
+          "Cd": {
+            "k": 62,
+            "max": 0.19,
+            "mean": 0.037461290322580644,
+            "min": 0.01,
+            "n": 198,
+            "pct": 31.31313131313131
+          },
+          "Hg": {
+            "k": 18,
+            "max": 0.0056,
+            "mean": 0.002472222222222222,
+            "min": 0.001,
+            "n": 198,
+            "pct": 9.090909090909092
+          },
+          "Pb": {
+            "k": 79,
+            "max": 0.231,
+            "mean": 0.023886075949367088,
+            "min": 0.01,
+            "n": 198,
+            "pct": 39.898989898989896
+          },
+          "n": 198
+        },
+        "protein-powder": {
+          "As": {
+            "k": 164,
+            "max": 0.214,
+            "mean": 0.02823216804878049,
+            "min": 0.01,
+            "n": 196,
+            "pct": 83.6734693877551
+          },
+          "Cd": {
+            "k": 160,
+            "max": 0.219,
+            "mean": 0.059735,
+            "min": 0.01,
+            "n": 196,
+            "pct": 81.63265306122449
+          },
+          "Hg": {
+            "k": 99,
+            "max": 0.0219,
+            "mean": 0.0033656565656565657,
+            "min": 0.001,
+            "n": 196,
+            "pct": 50.51020408163265
+          },
+          "Pb": {
+            "k": 140,
+            "max": 0.237,
+            "mean": 0.03507071428571429,
+            "min": 0.01,
+            "n": 196,
+            "pct": 71.42857142857143
+          },
+          "n": 196
+        },
+        "rice": {
+          "As": {
+            "k": 92,
+            "max": 1.13,
+            "mean": 0.264525,
+            "min": 0.0154,
+            "n": 98,
+            "pct": 93.87755102040816
+          },
+          "Cd": {
+            "k": 61,
+            "max": 0.0558,
+            "mean": 0.016050819672131147,
+            "min": 0.01,
+            "n": 98,
+            "pct": 62.244897959183675
+          },
+          "Hg": {
+            "k": 69,
+            "max": 0.0064,
+            "mean": 0.002863768115942029,
+            "min": 0.001,
+            "n": 98,
+            "pct": 70.40816326530613
+          },
+          "Pb": {
+            "k": 35,
+            "max": 0.05,
+            "mean": 0.017882857142857145,
+            "min": 0.01,
+            "n": 98,
+            "pct": 35.714285714285715
+          },
+          "n": 98
+        }
+      },
+      "R2": {
+        "bran": {
+          "As": {
+            "k": 74,
+            "max": 0.0788,
+            "mean": 0.023416216216216215,
+            "min": 0.01,
+            "n": 99,
+            "pct": 74.74747474747475
+          },
+          "Cd": {
+            "k": 68,
+            "max": 0.186,
+            "mean": 0.043052941176470585,
+            "min": 0.01,
+            "n": 99,
+            "pct": 68.68686868686869
+          },
+          "Hg": {
+            "k": 7,
+            "max": 0.0064,
+            "mean": 0.0027285714285714283,
+            "min": 0.001,
+            "n": 99,
+            "pct": 7.070707070707071
+          },
+          "Pb": {
+            "k": 24,
+            "max": 0.13,
+            "mean": 0.024591666666666668,
+            "min": 0.01,
+            "n": 99,
+            "pct": 24.242424242424242
+          },
+          "n": 99
+        },
+        "infant-formula": {
+          "As": {
+            "k": 205,
+            "max": 0.0399,
+            "mean": 0.016247317073170734,
+            "min": 0.01,
+            "n": 396,
+            "pct": 51.76767676767677
+          },
+          "Cd": {
+            "k": 36,
+            "max": 0.0199,
+            "mean": 0.0108,
+            "min": 0.01,
+            "n": 396,
+            "pct": 9.090909090909092
+          },
+          "Hg": {
+            "k": 2,
+            "max": 0.0028,
+            "mean": 0.0019,
+            "min": 0.001,
+            "n": 396,
+            "pct": 0.5050505050505051
+          },
+          "Pb": {
+            "k": 51,
+            "max": 0.0197,
+            "mean": 0.01175294117647059,
+            "min": 0.01,
+            "n": 396,
+            "pct": 12.878787878787879
+          },
+          "n": 396
+        },
+        "meal-replacement": {
+          "As": {
+            "k": 88,
+            "max": 0.139,
+            "mean": 0.021609090909090908,
+            "min": 0.01,
+            "n": 198,
+            "pct": 44.44444444444444
+          },
+          "Cd": {
+            "k": 62,
+            "max": 0.19,
+            "mean": 0.037461290322580644,
+            "min": 0.01,
+            "n": 198,
+            "pct": 31.31313131313131
+          },
+          "Hg": {
+            "k": 18,
+            "max": 0.0056,
+            "mean": 0.002472222222222222,
+            "min": 0.001,
+            "n": 198,
+            "pct": 9.090909090909092
+          },
+          "Pb": {
+            "k": 79,
+            "max": 0.231,
+            "mean": 0.023886075949367088,
+            "min": 0.01,
+            "n": 198,
+            "pct": 39.898989898989896
+          },
+          "n": 198
+        },
+        "protein-powder": {
+          "As": {
+            "k": 164,
+            "max": 0.214,
+            "mean": 0.02823216804878049,
+            "min": 0.01,
+            "n": 196,
+            "pct": 83.6734693877551
+          },
+          "Cd": {
+            "k": 160,
+            "max": 0.219,
+            "mean": 0.059735,
+            "min": 0.01,
+            "n": 196,
+            "pct": 81.63265306122449
+          },
+          "Hg": {
+            "k": 99,
+            "max": 0.0219,
+            "mean": 0.0033656565656565657,
+            "min": 0.001,
+            "n": 196,
+            "pct": 50.51020408163265
+          },
+          "Pb": {
+            "k": 140,
+            "max": 0.237,
+            "mean": 0.03507071428571429,
+            "min": 0.01,
+            "n": 196,
+            "pct": 71.42857142857143
+          },
+          "n": 196
+        },
+        "rice": {
+          "As": {
+            "k": 96,
+            "max": 1.13,
+            "mean": 0.25596979166666667,
+            "min": 0.0154,
+            "n": 98,
+            "pct": 97.95918367346938
+          },
+          "Cd": {
+            "k": 64,
+            "max": 0.0558,
+            "mean": 0.01684375,
+            "min": 0.01,
+            "n": 98,
+            "pct": 65.3061224489796
+          },
+          "Hg": {
+            "k": 67,
+            "max": 0.0056,
+            "mean": 0.002788059701492537,
+            "min": 0.001,
+            "n": 98,
+            "pct": 68.36734693877551
+          },
+          "Pb": {
+            "k": 36,
+            "max": 0.05,
+            "mean": 0.01655,
+            "min": 0.01,
+            "n": 98,
+            "pct": 36.734693877551024
+          },
+          "n": 98
+        }
+      }
+    }
+  },
+  "census": {
+    "bad_shapes": [],
+    "columns": {
+      "component": 13,
+      "function": 4,
+      "origin": 6,
+      "plan": 17,
+      "product": 8,
+      "region": 1,
+      "sample": 0,
+      "unit": 16,
+      "value": 15
+    },
+    "components": {
+      "Aluminum": 987,
+      "Antimony": 987,
+      "Arsenic": 987,
+      "Beryllium": 987,
+      "Boron": 987,
+      "Cadmium": 987,
+      "Chromium": 987,
+      "Copper": 987,
+      "Iron": 987,
+      "Lead": 987,
+      "Magnesium": 987,
+      "Manganese": 987,
+      "Mercury": 987,
+      "Molybdenum": 987,
+      "Nickel": 987,
+      "Selenium": 987,
+      "Tin": 987,
+      "Titanium": 987,
+      "Zinc": 987
+    },
+    "ids_bad": [],
+    "kinds": {
+      "det": 12941,
+      "nd": 5812
+    },
+    "missing": {},
+    "plans": {
+      "2018_TS013": 18753
+    },
+    "products": {
+      "Bakery Product - Cookie": 2,
+      "Baking Mixes": 2,
+      "Bran - Oat": 22,
+      "Bran - Rice": 2,
+      "Bran - Wheat": 8,
+      "Cereal": 1,
+      "Cereal - Corn": 22,
+      "Cereal - Mixed Grains": 5,
+      "Cereal - Oat": 1,
+      "Cereal - Rice": 6,
+      "Cereal - Wheat": 20,
+      "Corn Products": 3,
+      "Crackers": 1,
+      "Grain - Rice": 3,
+      "Granola/Cereal Bar": 7,
+      "Infant Formula - Dairy": 177,
+      "Infant Formula - Other": 86,
+      "Infant Formula - Soy": 133,
+      "Meal Replacement": 198,
+      "Oat Products": 1,
+      "Oil - Other": 4,
+      "Popcorn": 3,
+      "Protein Powder": 196,
+      "Rice Products": 82,
+      "Snack Bar": 2
+    },
+    "repeated": {},
+    "rows": 18753,
+    "rows_per_sample": {
+      "19": 987
+    },
+    "samples": 987,
+    "units": {
+      "µg/g": 18753
+    },
+    "unknown_components": 0
+  },
+  "n_graded": 8,
+  "n_met": 5,
+  "predictions": [
+    {
+      "graded": true,
+      "id": "G",
+      "kind": "gate",
+      "met": true,
+      "observed": {
+        "columns": true,
+        "components": true,
+        "per_sample": true,
+        "plan": true,
+        "products": true,
+        "rows": true,
+        "samples": true,
+        "size": true,
+        "units": true,
+        "values": true
+      },
+      "text": "byte size as on the portal record; columns; 18,753 rows; 987 samples with IDs C2018TMET##### (or a D suffix), each with one row per the 19 components; unit ug/g and plan 2018_TS013 on every row; the 25 known product labels; every value a number >= 0, a '<' or a not-detected token"
+    },
+    {
+      "graded": true,
+      "id": "C1",
+      "kind": "consistency",
+      "met": true,
+      "observed": {
+        "cells": {
+          "As_avg": true,
+          "As_max": true,
+          "As_pct": true,
+          "Cd_avg": true,
+          "Cd_max": true,
+          "Cd_pct": true,
+          "Hg_avg": true,
+          "Hg_max": true,
+          "Hg_pct": true,
+          "Pb_avg": true,
+          "Pb_max": true,
+          "Pb_pct": true
+        },
+        "matched": 12,
+        "n": 198
+      },
+      "text": "Table 2, meal replacements (198 samples, Table 1 origins exact): all 12 cells (% positive, average of positives and maximum for As, Cd, Pb and Hg)"
+    },
+    {
+      "graded": true,
+      "id": "P1",
+      "kind": "prediction",
+      "met": true,
+      "observed": {
+        "cells": {
+          "As_avg": true,
+          "As_max": true,
+          "As_pct": true,
+          "Cd_avg": true,
+          "Cd_max": true,
+          "Cd_pct": true,
+          "Hg_avg": true,
+          "Hg_max": true,
+          "Hg_pct": true,
+          "Pb_avg": true,
+          "Pb_max": true,
+          "Pb_pct": true
+        },
+        "if_hg": 2,
+        "matched": 12,
+        "n": 396
+      },
+      "text": "infant formula (396 samples in the file, 395 printed): at least 10 of Table 2's 12 cells match, and exactly 2 infant formula samples have mercury above 0"
+    },
+    {
+      "graded": true,
+      "id": "P2",
+      "kind": "prediction",
+      "met": true,
+      "observed": {
+        "cells": {
+          "As_avg": true,
+          "As_max": true,
+          "As_pct": true,
+          "Cd_avg": true,
+          "Cd_max": true,
+          "Cd_pct": true,
+          "Hg_avg": true,
+          "Hg_max": true,
+          "Hg_pct": false,
+          "Pb_avg": true,
+          "Pb_max": true,
+          "Pb_pct": true
+        },
+        "hg_top": {
+          "holders": [
+            {
+              "product": "Protein Powder",
+              "sample": "C2018TMET00200"
+            }
+          ],
+          "max": 0.0219
+        },
+        "matched": 11,
+        "n": 196
+      },
+      "text": "protein powders (196 in the file, 195 printed): at least 10 of Table 2's 12 cells match, and the file's highest mercury value rounds to 0.022 ppm and belongs only to Protein Powder samples"
+    },
+    {
+      "graded": true,
+      "id": "P3",
+      "kind": "prediction",
+      "met": false,
+      "observed": {
+        "R1": {
+          "bran": 3,
+          "cells": {
+            "bran": {
+              "As_avg": false,
+              "As_max": false,
+              "As_pct": false,
+              "Cd_avg": true,
+              "Cd_max": true,
+              "Cd_pct": false,
+              "Hg_avg": false,
+              "Hg_max": false,
+              "Hg_pct": false,
+              "Pb_avg": false,
+              "Pb_max": true,
+              "Pb_pct": false
+            },
+            "rice": {
+              "As_avg": false,
+              "As_max": true,
+              "As_pct": false,
+              "Cd_avg": true,
+              "Cd_max": true,
+              "Cd_pct": false,
+              "Hg_avg": true,
+              "Hg_max": true,
+              "Hg_pct": false,
+              "Pb_avg": true,
+              "Pb_max": true,
+              "Pb_pct": false
+            }
+          },
+          "rice": 7,
+          "total": 10
+        },
+        "R2": {
+          "bran": 5,
+          "cells": {
+            "bran": {
+              "As_avg": false,
+              "As_max": true,
+              "As_pct": false,
+              "Cd_avg": true,
+              "Cd_max": true,
+              "Cd_pct": false,
+              "Hg_avg": false,
+              "Hg_max": false,
+              "Hg_pct": false,
+              "Pb_avg": false,
+              "Pb_max": true,
+              "Pb_pct": true
+            },
+            "rice": {
+              "As_avg": false,
+              "As_max": true,
+              "As_pct": false,
+              "Cd_avg": false,
+              "Cd_max": true,
+              "Cd_pct": false,
+              "Hg_avg": true,
+              "Hg_max": true,
+              "Hg_pct": false,
+              "Pb_avg": false,
+              "Pb_max": true,
+              "Pb_pct": true
+            }
+          },
+          "rice": 6,
+          "total": 11
+        }
+      },
+      "text": "the bran/rice split is reading R1 ('Oil - Other' and 'Crackers' are rice products): R1 matches at least 20 of the 24 bran and rice cells, and more of them than reading R2 ('Popcorn' and 'Snack Bar')"
+    },
+    {
+      "graded": true,
+      "id": "P4",
+      "kind": "prediction",
+      "met": true,
+      "observed": {
+        "as_top": [
+          {
+            "As": 1.13,
+            "product": "Bran - Rice",
+            "sample": "C2018TMET00945"
+          },
+          {
+            "As": 1.12,
+            "product": "Bran - Rice",
+            "sample": "C2018TMET00934"
+          }
+        ]
+      },
+      "text": "the file's two highest arsenic values round to 1.13 and 1.12 ppm and both are 'Bran - Rice' samples (the text's brown rice bran and germ powder)"
+    },
+    {
+      "graded": true,
+      "id": "P5",
+      "kind": "prediction",
+      "met": false,
+      "observed": {
+        "As_pct": 63.525835866261396,
+        "Cd_nd": 597,
+        "Hg_pct": 19.55420466058764,
+        "Pb_nd": 657,
+        "all4_pct": 12.158054711246201,
+        "any_pct": 69.6048632218845,
+        "n": 987
+      },
+      "text": "the text over all 987 samples: arsenic in 64%, mercury in 19%, one or more of the four in 70%, all four in 12%; cadmium not detected in 596-598 samples and lead in 656-658 (the printed 596 and 656 plus at most the 2 extra samples)"
+    },
+    {
+      "graded": true,
+      "id": "P6",
+      "kind": "prediction",
+      "met": false,
+      "observed": {
+        "dups": [
+          {
+            "base": "C2018TMET00039",
+            "base_present": false,
+            "function": "Domestic",
+            "product": "Protein Powder",
+            "sample": "C2018TMET00039D"
+          },
+          {
+            "base": "C2018TMET00113",
+            "base_present": false,
+            "function": "Unknown",
+            "product": "Protein Powder",
+            "sample": "C2018TMET00113D"
+          },
+          {
+            "base": "C2018TMET00183",
+            "base_present": false,
+            "function": "Domestic",
+            "product": "Protein Powder",
+            "sample": "C2018TMET00183D"
+          },
+          {
+            "base": "C2018TMET00191",
+            "base_present": false,
+            "function": "Domestic",
+            "product": "Protein Powder",
+            "sample": "C2018TMET00191D"
+          }
+        ]
+      },
+      "text": "the D-suffixed sample IDs explain the two extra samples: at least one is infant formula and at least one is a Protein Powder"
+    }
+  ],
+  "provenance": {
+    "bytes": 3221954,
+    "dataset": "2b47b561-44dc-4aeb-8a4d-72262f0dfe68",
+    "encoding": "cp1252",
+    "md5": "57017a0e02e19f4c1c3c9c97f3705e18",
+    "md5_matches_portal": true,
+    "portal_md5": "57017a0e02e19f4c1c3c9c97f3705e18",
+    "resource": "0e040e20-f157-46ce-860b-186b294ce1f7",
+    "sha256": "5eedfe002aecec4ffa8bd65850ec6b9de6fab4d03dc2b037636c207997e332a8",
+    "source": "https://open.canada.ca/data/dataset/2b47b561-44dc-4aeb-8a4d-72262f0dfe68/resource/0e040e20-f157-46ce-860b-186b294ce1f7/download/cfia-acia-1148_2018-19_toxic_metals_in_selected_foods_-_-2018-2019_metaux-toxiques-dans-certains.csv"
+  },
+  "study": "tmet-2018",
+  "version": "0.1.0"
+}
