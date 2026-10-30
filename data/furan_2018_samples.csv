@@ -1,0 +1,251 @@
+sample,product,category,origin,function,date,n_rows,values_raw,furan_ppb,methylfuran_2_ppb,methylfuran_3_ppb,furans_ppb,n_detected,kind
+C2018FRAN00001,Fish/Seafood - Canned,canned-fish,THAILAND,Import,2-Oct-18,3,2MF=51.62;3MF=0;F=10.51,10.51,51.62,0.0,62.129999999999995,2,det
+C2018FRAN00002,Fish/Seafood - Canned,canned-fish,THAILAND,Import,17-Jul-18,3,2MF=10.363;3MF=0;F=17.47,17.47,10.363,0.0,27.833,2,det
+C2018FRAN00003,Fish/Seafood - Canned,canned-fish,UNITED STATES,Import,10-Oct-18,3,2MF=19.94;3MF=6.53;F=6.99,6.99,19.94,6.53,33.46,3,det
+C2018FRAN00004,Fish/Seafood - Canned,canned-fish,UNITED STATES,Import,11-Sep-18,3,2MF=60.69;3MF=8.85;F=12.33,12.33,60.69,8.85,81.87,3,det
+C2018FRAN00005,Fish/Seafood - Canned,canned-fish,THAILAND,Import,10-Mar-19,3,2MF=18.77;3MF=1.41;F=33.76,33.76,18.77,1.41,53.94,3,det
+C2018FRAN00006,Fish/Seafood - Canned,canned-fish,UNITED STATES,Import,10-Mar-19,3,2MF=49.57;3MF=7.51;F=18.5,18.5,49.57,7.51,75.58,3,det
+C2018FRAN00007,Fish/Seafood - Canned,canned-fish,UNITED STATES,Import,23-May-18,3,2MF=13.49;3MF=1.44;F=2.2,2.2,13.49,1.44,17.13,3,det
+C2018FRAN00008,Fish/Seafood - Canned,canned-fish,UNITED STATES,Import,12-Nov-18,3,2MF=29.76;3MF=4.19;F=7.61,7.61,29.76,4.19,41.56,3,det
+C2018FRAN00009,Fish/Seafood - Canned,canned-fish,UNITED STATES,Import,12-Nov-18,3,2MF=19.15;3MF=2.01;F=5.86,5.86,19.15,2.01,27.02,3,det
+C2018FRAN00010,Fish/Seafood - Canned,canned-fish,THAILAND,Import,3-Jul-18,3,2MF=15.96;3MF=1.27;F=28.27,28.27,15.96,1.27,45.5,3,det
+C2018FRAN00011,Fish/Seafood - Canned,canned-fish,THAILAND,Import,8-Jun-18,3,2MF=31.02;3MF=0;F=4.85,4.85,31.02,0.0,35.87,2,det
+C2018FRAN00012,Fish/Seafood - Canned,canned-fish,THAILAND,Import,31-May-18,3,2MF=9.87;3MF=0;F=15.15,15.15,9.87,0.0,25.02,2,det
+C2018FRAN00013,Fish/Seafood - Canned,canned-fish,THAILAND,Import,22-Nov-18,3,2MF=17.32;3MF=1.62;F=29.5,29.5,17.32,1.62,48.44,3,det
+C2018FRAN00014,Fish/Seafood - Canned,canned-fish,UNITED STATES,Import,13-Feb-19,3,2MF=19.6;3MF=3.55;F=4.04,4.04,19.6,3.55,27.19,3,det
+C2018FRAN00015,Fish/Seafood - Canned,canned-fish,THAILAND,Import,22-Nov-18,3,2MF=18.99;3MF=1.15;F=18.11,18.11,18.99,1.15,38.25,3,det
+C2018FRAN00016,Fish/Seafood - Canned,canned-fish,THAILAND,Import,8-Nov-18,3,2MF=12.77;3MF=0;F=12.35,12.35,12.77,0.0,25.119999999999997,2,det
+C2018FRAN00017,Fish/Seafood - Canned,canned-fish,UNITED STATES,Import,31-May-18,3,2MF=12.17;3MF=1.27;F=3.71,3.71,12.17,1.27,17.15,3,det
+C2018FRAN00018,Fish/Seafood - Canned,canned-fish,THAILAND,Import,31-May-18,3,2MF=17;3MF=0;F=18.06,18.06,17.0,0.0,35.06,2,det
+C2018FRAN00019,Fish/Seafood - Canned,canned-fish,THAILAND,Import,31-May-18,3,2MF=13.14;3MF=0;F=22.61,22.61,13.14,0.0,35.75,2,det
+C2018FRAN00020,Fish/Seafood - Canned,canned-fish,CHILE,Import,12-Jul-18,3,2MF=14.96;3MF=0;F=12.82,12.82,14.96,0.0,27.78,2,det
+C2018FRAN00021,Fish/Seafood - Canned,canned-fish,UNITED STATES,Import,5-Mar-19,3,2MF=64.42;3MF=9.92;F=17.33,17.33,64.42,9.92,91.67,3,det
+C2018FRAN00022,Fish/Seafood - Canned,canned-fish,THAILAND,Import,10-Jun-18,3,2MF=19.8;3MF=0;F=14.44,14.44,19.8,0.0,34.24,2,det
+C2018FRAN00023,Fish/Seafood - Canned,canned-fish,THAILAND,Import,21-Nov-18,3,2MF=67.8;3MF=0;F=6.38,6.38,67.8,0.0,74.17999999999999,2,det
+C2018FRAN00024,Fish/Seafood - Canned,canned-fish,THAILAND,Import,5-Jul-18,3,2MF=16.29;3MF=0;F=7.34,7.34,16.29,0.0,23.63,2,det
+C2018FRAN00025,Fish/Seafood - Canned,canned-fish,UNITED STATES,Import,13-Nov-18,3,2MF=24.38;3MF=8.74;F=4.54,4.54,24.38,8.74,37.66,3,det
+C2018FRAN00026,Fish/Seafood - Canned,canned-fish,CANADA,Domestic,29-May-18,3,2MF=45.58;3MF=5.35;F=10.68,10.68,45.58,5.35,61.61,3,det
+C2018FRAN00027,Fish/Seafood - Canned,canned-fish,CANADA,Domestic,16-Oct-18,3,2MF=42.32;3MF=2.55;F=6.79,6.79,42.32,2.55,51.66,3,det
+C2018FRAN00028,Fish/Seafood - Canned,canned-fish,UNITED STATES,Import,13-Nov-18,3,2MF=14.6;3MF=2.43;F=3.33,3.33,14.6,2.43,20.36,3,det
+C2018FRAN00029,Fish/Seafood - Canned,canned-fish,THAILAND,Import,28-Jan-19,3,2MF=16.19;3MF=0;F=3.97,3.97,16.19,0.0,20.16,2,det
+C2018FRAN00030,Fish/Seafood - Canned,canned-fish,FRANCE,Import,17-Jul-18,3,2MF=33.1;3MF=11.48;F=68.09,68.09,33.1,11.48,112.67,3,det
+C2018FRAN00031,Fish/Seafood - Canned,canned-fish,THAILAND,Import,2-Nov-18,3,2MF=10.28;3MF=0;F=12.87,12.87,10.28,0.0,23.15,2,det
+C2018FRAN00032,Fish/Seafood - Canned,canned-fish,UNITED STATES,Import,1-Aug-18,3,2MF=43.71;3MF=8.26;F=11.93,11.93,43.71,8.26,63.9,3,det
+C2018FRAN00033,Fish/Seafood - Canned,canned-fish,UNITED STATES,Import,4-Jul-18,3,2MF=35.73;3MF=3.8;F=6.55,6.55,35.73,3.8,46.08,3,det
+C2018FRAN00034,Fish/Seafood - Canned,canned-fish,CANADA,Domestic,13-Dec-18,3,2MF=79.2;3MF=9.02;F=57.29,57.29,79.2,9.02,145.51,3,det
+C2018FRAN00035,Fish/Seafood - Canned,canned-fish,UNITED STATES,Import,9-Nov-18,3,2MF=12.73;3MF=1.12;F=2.4,2.4,12.73,1.12,16.25,3,det
+C2018FRAN00036,Fish/Seafood - Canned,canned-fish,THAILAND,Import,3-Aug-18,3,2MF=16.16;3MF=1.66;F=21.42,21.42,16.16,1.66,39.24,3,det
+C2018FRAN00037,Fish/Seafood - Canned,canned-fish,THAILAND,Import,25-Jan-19,3,2MF=28.61;3MF=1.09;F=10.42,10.42,28.61,1.09,40.12,3,det
+C2018FRAN00038,Fish/Seafood - Canned,canned-fish,PORTUGAL,Import,7-Jun-18,3,2MF=23.43;3MF=1.45;F=37.21,37.21,23.43,1.45,62.09,3,det
+C2018FRAN00039,Fish/Seafood - Canned,canned-fish,THAILAND,Import,5-Mar-19,3,2MF=20.93;3MF=1.24;F=23.86,23.86,20.93,1.24,46.03,3,det
+C2018FRAN00040,Fish/Seafood - Canned,canned-fish,THAILAND,Import,25-Sep-18,3,2MF=12.08;3MF=0;F=15.42,15.42,12.08,0.0,27.5,2,det
+C2018FRAN00041,Fish/Seafood - Canned,canned-fish,UNKNOWN,Unknown,5-Nov-18,3,2MF=11.76;3MF=1.82;F=32.02,32.02,11.76,1.82,45.6,3,det
+C2018FRAN00042,Fish/Seafood - Canned,canned-fish,PHILIPPINES,Import,27-Nov-18,3,2MF=18.71;3MF=1.31;F=37.34,37.34,18.71,1.31,57.36000000000001,3,det
+C2018FRAN00043,Fish/Seafood - Canned,canned-fish,CANADA,Domestic,13-Jun-18,3,2MF=39.09;3MF=0;F=17.36,17.36,39.09,0.0,56.45,2,det
+C2018FRAN00044,Fish/Seafood - Canned,canned-fish,THAILAND,Import,12-Mar-19,3,2MF=35.36;3MF=3.92;F=39.79,39.79,35.36,3.92,79.07,3,det
+C2018FRAN00045,Fish/Seafood - Canned,canned-fish,THAILAND,Import,27-Sep-18,3,2MF=24.62;3MF=0;F=13.53,13.53,24.62,0.0,38.15,2,det
+C2018FRAN00046,Fish/Seafood - Canned,canned-fish,UNITED STATES,Import,23-Oct-18,3,2MF=16.07;3MF=2.1;F=3.77,3.77,16.07,2.1,21.94,3,det
+C2018FRAN00047,Fish/Seafood - Canned,canned-fish,THAILAND,Import,18-Jan-19,3,2MF=36.28;3MF=1.46;F=23.53,23.53,36.28,1.46,61.27,3,det
+C2018FRAN00048,Fish/Seafood - Canned,canned-fish,THAILAND,Import,12-Aug-18,3,2MF=14.98;3MF=1.32;F=21.13,21.13,14.98,1.32,37.43,3,det
+C2018FRAN00049,Fish/Seafood - Canned,canned-fish,PHILIPPINES,Import,5-Nov-18,3,2MF=17.77;3MF=3.19;F=62.8,62.8,17.77,3.19,83.75999999999999,3,det
+C2018FRAN00050,Fish/Seafood - Canned,canned-fish,THAILAND,Import,11-Feb-19,3,2MF=15.83;3MF=0;F=13.88,13.88,15.83,0.0,29.71,2,det
+C2018FRAN00051,Meat - Canned,canned-meat,BRAZIL,Import,4-Feb-19,3,2MF=36.45;3MF=4.02;F=18.62,18.62,36.45,4.02,59.09,3,det
+C2018FRAN00052,Meat - Canned,canned-meat,UNITED STATES,Import,1-Aug-18,3,2MF=14.72;3MF=0;F=9.93,9.93,14.72,0.0,24.65,2,det
+C2018FRAN00053,Meat - Canned,canned-meat,BRAZIL,Import,3-Jul-18,3,2MF=15.26;3MF=1.62;F=10.44,10.44,15.26,1.62,27.32,3,det
+C2018FRAN00054,Meat - Canned,canned-meat,BRAZIL,Import,5-Sep-18,3,2MF=17.5;3MF=2.07;F=11.53,11.53,17.5,2.07,31.099999999999998,3,det
+C2018FRAN00055,Meat - Canned,canned-meat,UNITED STATES,Import,9-Jul-18,3,2MF=12.17;3MF=4.88;F=46.94,46.94,12.17,4.88,63.989999999999995,3,det
+C2018FRAN00056,Meat - Canned,canned-meat,CANADA,Domestic,7-Mar-19,3,2MF=14.23;3MF=0;F=26.92,26.92,14.23,0.0,41.150000000000006,2,det
+C2018FRAN00057,Meat - Canned,canned-meat,BRAZIL,Import,28-Nov-18,3,2MF=12.39;3MF=1.08;F=8.15,8.15,12.39,1.08,21.62,3,det
+C2018FRAN00058,Meat - Canned,canned-meat,CANADA,Domestic,9-Jul-18,3,2MF=16.49;3MF=0;F=15.14,15.14,16.49,0.0,31.63,2,det
+C2018FRAN00059,Meat - Canned,canned-meat,CANADA,Domestic,7-Mar-19,3,2MF=14.85;3MF=0;F=28.64,28.64,14.85,0.0,43.49,2,det
+C2018FRAN00060,Meat - Canned,canned-meat,CANADA,Domestic,16-Nov-18,3,2MF=13;3MF=0;F=14.27,14.27,13.0,0.0,27.27,2,det
+C2018FRAN00061,Meat - Canned,canned-meat,UNITED STATES,Import,25-Oct-18,3,2MF=13.25;3MF=0;F=6.16,6.16,13.25,0.0,19.41,2,det
+C2018FRAN00062,Meat - Canned,canned-meat,CANADA,Domestic,12-Oct-18,3,2MF=6.17;3MF=0;F=17.22,17.22,6.17,0.0,23.39,2,det
+C2018FRAN00063,Meat - Canned,canned-meat,BRAZIL,Import,12-Jul-18,3,2MF=15.54;3MF=1.44;F=5.86,5.86,15.54,1.44,22.84,3,det
+C2018FRAN00064,Meat - Canned,canned-meat,BRAZIL,Import,22-Nov-18,3,2MF=12.98;3MF=1.64;F=10.2,10.2,12.98,1.64,24.82,3,det
+C2018FRAN00065,Meat - Canned,canned-meat,CANADA,Domestic,5-Sep-18,3,2MF=26.96;3MF=0;F=9.48,9.48,26.96,0.0,36.44,2,det
+C2018FRAN00066,Meat - Canned,canned-meat,FRANCE,Import,31-May-18,3,2MF=27.3;3MF=0;F=9.12,9.12,27.3,0.0,36.42,2,det
+C2018FRAN00067,Meat - Canned,canned-meat,CANADA,Domestic,8-Nov-18,3,2MF=46.2;3MF=0;F=7.82,7.82,46.2,0.0,54.02,2,det
+C2018FRAN00068,Meat - Canned,canned-meat,CANADA,Domestic,31-May-18,3,2MF=11.79;3MF=0;F=14.12,14.12,11.79,0.0,25.909999999999997,2,det
+C2018FRAN00069,Meat - Canned,canned-meat,BRAZIL,Import,7-Mar-19,3,2MF=21.43;3MF=2.32;F=18.63,18.63,21.43,2.32,42.379999999999995,3,det
+C2018FRAN00070,Meat - Canned,canned-meat,BRAZIL,Import,10-Feb-19,3,2MF=24.72;3MF=1.93;F=11.35,11.35,24.72,1.93,38.0,3,det
+C2018FRAN00071,Meat - Canned,canned-meat,BRAZIL,Import,3-Sep-18,3,2MF=25.03;3MF=2.67;F=18.78,18.78,25.03,2.67,46.480000000000004,3,det
+C2018FRAN00072,Meat - Canned,canned-meat,BRAZIL,Import,1-Jul-18,3,2MF=21.81;3MF=1.91;F=14.45,14.45,21.81,1.91,38.169999999999995,3,det
+C2018FRAN00073,Meat - Canned,canned-meat,CANADA,Domestic,3-Sep-18,3,2MF=40;3MF=0;F=13.95,13.95,40.0,0.0,53.95,2,det
+C2018FRAN00074,Meat - Canned,canned-meat,BRAZIL,Import,29-May-18,3,2MF=22.79;3MF=1.28;F=7.59,7.59,22.79,1.28,31.66,3,det
+C2018FRAN00075,Meat - Canned,canned-meat,NEW ZEALAND,Import,16-Oct-18,3,2MF=6.54;3MF=0;F=4.46,4.46,6.54,0.0,11.0,2,det
+C2018FRAN00076,Meat - Canned,canned-meat,UNITED STATES,Import,5-Jul-18,3,2MF=16.88;3MF=0;F=7.28,7.28,16.88,0.0,24.16,2,det
+C2018FRAN00077,Meat - Canned,canned-meat,CANADA,Domestic,6-Aug-18,3,2MF=7.33;3MF=0;F=12.97,12.97,7.33,0.0,20.3,2,det
+C2018FRAN00078,Meat - Canned,canned-meat,BRAZIL,Import,13-Nov-18,3,2MF=26.6;3MF=2.47;F=12.9,12.9,26.6,2.47,41.97,3,det
+C2018FRAN00079,Meat - Canned,canned-meat,UNITED STATES,Import,28-Jan-19,3,2MF=16.77;3MF=0;F=7.86,7.86,16.77,0.0,24.63,2,det
+C2018FRAN00080,Meat - Canned,canned-meat,UNITED STATES,Import,18-Dec-18,3,2MF=20.35;3MF=0;F=10.49,10.49,20.35,0.0,30.840000000000003,2,det
+C2018FRAN00081,Meat - Canned,canned-meat,CANADA,Domestic,5-Sep-18,3,2MF=18.1;3MF=0;F=15.8,15.8,18.1,0.0,33.900000000000006,2,det
+C2018FRAN00082,Meat - Canned,canned-meat,CANADA,Domestic,4-Jul-18,3,2MF=15.84;3MF=0;F=13.23,13.23,15.84,0.0,29.07,2,det
+C2018FRAN00083,Meat - Canned,canned-meat,BRAZIL,Import,10-Oct-18,3,2MF=22.95;3MF=1.69;F=11.71,11.71,22.95,1.69,36.35,3,det
+C2018FRAN00084,Meat - Canned,canned-meat,CANADA,Domestic,21-Feb-19,3,2MF=12.03;3MF=0;F=16.85,16.85,12.03,0.0,28.880000000000003,2,det
+C2018FRAN00085,Meat - Canned,canned-meat,BRAZIL,Import,3-Jul-18,3,2MF=14.31;3MF=1.2;F=11.27,11.27,14.31,1.2,26.78,3,det
+C2018FRAN00086,Meat - Canned,canned-meat,UNITED STATES,Import,7-Jun-18,3,2MF=18.66;3MF=1.28;F=8.22,8.22,18.66,1.28,28.16,3,det
+C2018FRAN00087,Meat - Canned,canned-meat,UNITED STATES,Import,3-Jul-18,3,2MF=13.12;3MF=0;F=6.4,6.4,13.12,0.0,19.52,2,det
+C2018FRAN00088,Meat - Canned,canned-meat,BRAZIL,Import,29-Nov-18,3,2MF=12.85;3MF=1.15;F=7.58,7.58,12.85,1.15,21.58,3,det
+C2018FRAN00089,Meat - Canned,canned-meat,BRAZIL,Import,23-Sep-18,3,2MF=19.19;3MF=1.87;F=18.61,18.61,19.19,1.87,39.67,3,det
+C2018FRAN00090,Meat - Canned,canned-meat,UNKNOWN,Unknown,23-May-18,3,2MF=11.79;3MF=1.77;F=16.51,16.51,11.79,1.77,30.07,3,det
+C2018FRAN00091,Meat - Canned,canned-meat,BRAZIL,Import,23-May-18,3,2MF=11.16;3MF=1.19;F=6.78,6.78,11.16,1.19,19.13,3,det
+C2018FRAN00092,Meat - Canned,canned-meat,DENMARK,Import,25-Sep-18,3,2MF=7.05;3MF=0;F=3.79,3.79,7.05,0.0,10.84,2,det
+C2018FRAN00093,Meat - Canned,canned-meat,UNITED STATES,Import,22-Aug-18,3,2MF=23.5;3MF=0;F=4.16,4.16,23.5,0.0,27.66,2,det
+C2018FRAN00094,Meat - Canned,canned-meat,URUGUAY,Import,10-Jul-18,3,2MF=11.84;3MF=2.36;F=8.34,8.34,11.84,2.36,22.54,3,det
+C2018FRAN00095,Meat - Canned,canned-meat,BRAZIL,Import,28-Sep-18,3,2MF=16.52;3MF=1.47;F=10.88,10.88,16.52,1.47,28.87,3,det
+C2018FRAN00096,Meat - Canned,canned-meat,BRAZIL,Import,11-Oct-18,3,2MF=17.34;3MF=1.52;F=9.7,9.7,17.34,1.52,28.56,3,det
+C2018FRAN00097,Meat - Canned,canned-meat,BRAZIL,Import,16-Oct-18,3,2MF=31.53;3MF=1.76;F=11.03,11.03,31.53,1.76,44.32,3,det
+C2018FRAN00098,Meat - Canned,canned-meat,CANADA,Domestic,22-Jul-18,3,2MF=12.39;3MF=0;F=4.42,4.42,12.39,0.0,16.810000000000002,2,det
+C2018FRAN00099,Meat - Canned,canned-meat,BRAZIL,Import,22-May-18,3,2MF=19.44;3MF=1.39;F=8.73,8.73,19.44,1.39,29.560000000000002,3,det
+C2018FRAN00100,Meat - Canned,canned-meat,DENMARK,Import,8-Oct-18,3,2MF=8.48;3MF=1.3;F=6.76,6.76,8.48,1.3,16.54,3,det
+C2018FRAN00101,Sauce - Soy,soy-sauce,CANADA,Domestic,18-Dec-18,3,2MF=1.35;3MF=0;F=11.36,11.36,1.35,0.0,12.709999999999999,2,det
+C2018FRAN00102,Sauce - Soy,soy-sauce,CANADA,Domestic,29-Jan-19,3,2MF=1.14;3MF=0;F=6.36,6.36,1.14,0.0,7.5,2,det
+C2018FRAN00103,Sauce - Soy,soy-sauce,UNITED STATES,Import,7-Mar-19,3,2MF=20.24;3MF=0;F=159.09,159.09,20.24,0.0,179.33,2,det
+C2018FRAN00104,Sauce - Soy,soy-sauce,CHINA,Import,3-Jul-18,3,2MF=8.46;3MF=0;F=93.59,93.59,8.46,0.0,102.05000000000001,2,det
+C2018FRAN00105,Sauce - Soy,soy-sauce,CANADA,Domestic,28-Nov-18,3,2MF=9.18;3MF=0;F=40.66,40.66,9.18,0.0,49.839999999999996,2,det
+C2018FRAN00106,Sauce - Soy,soy-sauce,UNKNOWN,Unknown,10-Oct-18,3,2MF=10.68;3MF=0;F=115.78,115.78,10.68,0.0,126.46000000000001,2,det
+C2018FRAN00107,Sauce - Soy,soy-sauce,CANADA,Domestic,7-Mar-19,3,2MF=1.07;3MF=0;F=16.35,16.35,1.07,0.0,17.42,2,det
+C2018FRAN00108,Sauce - Soy,soy-sauce,CANADA,Domestic,7-Mar-19,3,2MF=2.05;3MF=0;F=13.25,13.25,2.05,0.0,15.3,2,det
+C2018FRAN00109,Sauce - Soy,soy-sauce,UNITED STATES,Import,28-Nov-18,3,2MF=16.48;3MF=0;F=100.03,100.03,16.48,0.0,116.51,2,det
+C2018FRAN00110,Sauce - Soy,soy-sauce,CHINA,Import,22-Feb-19,3,2MF=6.08;3MF=0;F=111.11,111.11,6.08,0.0,117.19,2,det
+C2018FRAN00111,Sauce - Soy,soy-sauce,CANADA,Domestic,8-Jun-18,3,2MF=1.95;3MF=0;F=13.12,13.12,1.95,0.0,15.069999999999999,2,det
+C2018FRAN00112,Sauce - Soy,soy-sauce,CANADA,Domestic,31-May-18,3,2MF=1.09;3MF=0;F=12.53,12.53,1.09,0.0,13.62,2,det
+C2018FRAN00113,Sauce - Soy,soy-sauce,PHILIPPINES,Import,5-Sep-18,3,2MF=0;3MF=0;F=10.25,10.25,0.0,0.0,10.25,1,det
+C2018FRAN00114,Sauce - Soy,soy-sauce,"TAIWAN, PROVINCE OF CHINA",Import,12-Jul-18,3,2MF=5.18;3MF=0;F=94.64,94.64,5.18,0.0,99.82,2,det
+C2018FRAN00115,Sauce - Soy,soy-sauce,UNITED STATES,Import,22-Nov-18,3,2MF=15.35;3MF=0;F=83.7,83.7,15.35,0.0,99.05,2,det
+C2018FRAN00116,Sauce - Soy,soy-sauce,CANADA,Domestic,15-Jan-19,3,2MF=11.73;3MF=0;F=62.48,62.48,11.73,0.0,74.21,2,det
+C2018FRAN00117,Sauce - Soy,soy-sauce,UNKNOWN,Unknown,9-Aug-18,3,2MF=0;3MF=0;F=11.21,11.21,0.0,0.0,11.21,1,det
+C2018FRAN00118,Sauce - Soy,soy-sauce,PHILIPPINES,Import,12-Jul-18,3,2MF=0;3MF=0;F=18.5,18.5,0.0,0.0,18.5,1,det
+C2018FRAN00119,Sauce - Soy,soy-sauce,CHINA,Import,12-Jul-18,3,2MF=8.68;3MF=0;F=101.58,101.58,8.68,0.0,110.25999999999999,2,det
+C2018FRAN00120,Sauce - Soy,soy-sauce,UNITED STATES,Import,10-Feb-19,3,2MF=14.63;3MF=0;F=98.53,98.53,14.63,0.0,113.16,2,det
+C2018FRAN00121,Sauce - Soy,soy-sauce,CHINA,Import,18-Nov-18,3,2MF=16.61;3MF=0;F=61.83,61.83,16.61,0.0,78.44,2,det
+C2018FRAN00122,Sauce - Soy,soy-sauce,UNITED STATES,Import,12-Jun-18,3,2MF=12.56;3MF=0;F=72.86,72.86,12.56,0.0,85.42,2,det
+C2018FRAN00123,Sauce - Soy,soy-sauce,CANADA,Domestic,1-Jul-18,3,2MF=1.23;3MF=0;F=14.36,14.36,1.23,0.0,15.59,2,det
+C2018FRAN00124,Sauce - Soy,soy-sauce,CHINA,Import,5-Jul-18,3,2MF=7.02;3MF=0;F=120.67,120.67,7.02,0.0,127.69,2,det
+C2018FRAN00125,Sauce - Soy,soy-sauce,JAPAN,Import,16-Oct-18,3,2MF=10.36;3MF=0;F=101.82,101.82,10.36,0.0,112.17999999999999,2,det
+C2018FRAN00126,Sauce - Soy,soy-sauce,UNITED STATES,Import,29-May-18,3,2MF=6.1;3MF=0;F=60.62,60.62,6.1,0.0,66.72,2,det
+C2018FRAN00127,Sauce - Soy,soy-sauce,CHINA,Import,5-Jul-18,3,2MF=8.77;3MF=0;F=89.83,89.83,8.77,0.0,98.6,2,det
+C2018FRAN00128,Sauce - Soy,soy-sauce,CHINA,Import,28-Jan-19,3,2MF=6;3MF=0;F=125.33,125.33,6.0,0.0,131.32999999999998,2,det
+C2018FRAN00129,Sauce - Soy,soy-sauce,UNITED STATES,Import,4-Dec-18,3,2MF=15.47;3MF=0;F=82.95,82.95,15.47,0.0,98.42,2,det
+C2018FRAN00130,Sauce - Soy,soy-sauce,UNITED STATES,Import,18-Dec-18,3,2MF=6.5;3MF=0;F=60.77,60.77,6.5,0.0,67.27000000000001,2,det
+C2018FRAN00131,Sauce - Soy,soy-sauce,UNITED STATES,Import,31-May-18,3,2MF=4.13;3MF=0;F=79.84,79.84,4.13,0.0,83.97,2,det
+C2018FRAN00132,Sauce - Soy,soy-sauce,CHINA,Import,2-Nov-18,3,2MF=6.6;3MF=0;F=48.41,48.41,6.6,0.0,55.01,2,det
+C2018FRAN00133,Sauce - Soy,soy-sauce,CANADA,Domestic,1-Aug-18,3,2MF=7.72;3MF=0;F=57.31,57.31,7.72,0.0,65.03,2,det
+C2018FRAN00134,Sauce - Soy,soy-sauce,UNITED STATES,Import,2-Oct-18,3,2MF=0;3MF=0;F=1.23,1.23,0.0,0.0,1.23,1,det
+C2018FRAN00135,Sauce - Soy,soy-sauce,CANADA,Domestic,18-Jan-19,3,2MF=1.14;3MF=0;F=10.79,10.79,1.14,0.0,11.93,2,det
+C2018FRAN00136,Sauce - Soy,soy-sauce,UNITED STATES,Import,3-Aug-18,3,2MF=11.96;3MF=0;F=75.52,75.52,11.96,0.0,87.47999999999999,2,det
+C2018FRAN00137,Sauce - Soy,soy-sauce,UNITED STATES,Import,25-Jan-19,3,2MF=14.21;3MF=0;F=83.18,83.18,14.21,0.0,97.39000000000001,2,det
+C2018FRAN00138,Sauce - Soy,soy-sauce,UNKNOWN,Unknown,3-Jul-18,3,2MF=2.39;3MF=0;F=29.18,29.18,2.39,0.0,31.57,2,det
+C2018FRAN00139,Sauce - Soy,soy-sauce,UNITED STATES,Import,5-Mar-19,3,2MF=14.03;3MF=0;F=112.48,112.48,14.03,0.0,126.51,2,det
+C2018FRAN00140,Sauce - Soy,soy-sauce,CHINA,Import,15-Oct-18,3,2MF=14.64;3MF=0;F=150.01,150.01,14.64,0.0,164.64999999999998,2,det
+C2018FRAN00141,Sauce - Soy,soy-sauce,CANADA,Domestic,23-May-18,3,2MF=0;3MF=0;F=24.35,24.35,0.0,0.0,24.35,1,det
+C2018FRAN00142,Sauce - Soy,soy-sauce,CHINA,Import,25-Sep-18,3,2MF=10.22;3MF=0;F=135.03,135.03,10.22,0.0,145.25,2,det
+C2018FRAN00143,Sauce - Soy,soy-sauce,UNITED STATES,Import,17-Jul-18,3,2MF=17.53;3MF=0;F=61.3,61.3,17.53,0.0,78.83,2,det
+C2018FRAN00144,Sauce - Soy,soy-sauce,UNITED STATES,Import,22-May-18,3,2MF=5.33;3MF=0;F=59.55,59.55,5.33,0.0,64.88,2,det
+C2018FRAN00145,Sauce - Soy,soy-sauce,CANADA,Domestic,5-Mar-19,3,2MF=10.07;3MF=0;F=139.11,139.11,10.07,0.0,149.18,2,det
+C2018FRAN00146,Sauce - Soy,soy-sauce,UNKNOWN,Unknown,10-Jul-18,3,2MF=0;3MF=0;F=8.46,8.46,0.0,0.0,8.46,1,det
+C2018FRAN00147,Sauce - Soy,soy-sauce,UNITED STATES,Import,28-Jul-18,3,2MF=9.84;3MF=0;F=86.32,86.32,9.84,0.0,96.16,2,det
+C2018FRAN00148,Sauce - Soy,soy-sauce,CHINA,Import,6-Aug-18,3,2MF=7.45;3MF=0;F=83.93,83.93,7.45,0.0,91.38000000000001,2,det
+C2018FRAN00149,Sauce - Soy,soy-sauce,UNITED STATES,Import,21-Jan-19,3,2MF=13.92;3MF=0;F=57.62,57.62,13.92,0.0,71.53999999999999,2,det
+C2018FRAN00150,Sauce - Soy,soy-sauce,UNITED STATES,Import,21-Jan-19,3,2MF=22.77;3MF=0;F=22.29,22.29,22.77,0.0,45.06,2,det
+C2018FRAN00151,Milk Powder,dried-dairy,CANADA,Domestic,29-Jan-19,3,2MF=0;3MF=0;F=0,0.0,0.0,0.0,0.0,0,nd
+C2018FRAN00152,Milk Powder,dried-dairy,UNKNOWN,Unknown,10-Oct-18,3,2MF=0;3MF=0;F=0,0.0,0.0,0.0,0.0,0,nd
+C2018FRAN00153,Beverage - Powdered Mixes - Hot,dried-beverage,UNITED STATES,Import,9-Jul-18,3,2MF=7.03;3MF=0;F=6.05,6.05,7.03,0.0,13.08,2,det
+C2018FRAN00154,Milk Powder,dried-dairy,CANADA,Domestic,7-Aug-18,3,2MF=0;3MF=0;F=0,0.0,0.0,0.0,0.0,0,nd
+C2018FRAN00155,Milk Powder,dried-dairy,UNKNOWN,Unknown,23-May-18,3,2MF=0;3MF=0;F=0,0.0,0.0,0.0,0.0,0,nd
+C2018FRAN00156,Dairy Alternative,dried-dairy,UNITED STATES,Import,25-Oct-18,3,2MF=0;3MF=0;F=0,0.0,0.0,0.0,0.0,0,nd
+C2018FRAN00157,Milk Powder,dried-dairy,UNKNOWN,Unknown,22-Nov-18,3,2MF=0;3MF=0;F=0,0.0,0.0,0.0,0.0,0,nd
+C2018FRAN00158,Milk Powder,dried-dairy,UNKNOWN,Unknown,12-Jul-18,3,2MF=0;3MF=0;F=0,0.0,0.0,0.0,0.0,0,nd
+C2018FRAN00159,Milk Powder,dried-dairy,CANADA,Domestic,9-Aug-18,3,2MF=0;3MF=0;F=0,0.0,0.0,0.0,0.0,0,nd
+C2018FRAN00160,Beverage - Powdered Mixes - Hot,dried-beverage,UNITED STATES,Import,31-May-18,3,2MF=0;3MF=0;F=0,0.0,0.0,0.0,0.0,0,nd
+C2018FRAN00161,Milk Powder,dried-dairy,CANADA,Domestic,5-Sep-18,3,2MF=0;3MF=0;F=0,0.0,0.0,0.0,0.0,0,nd
+C2018FRAN00162,Milk Powder,dried-dairy,UNKNOWN,Unknown,30-Sep-18,3,2MF=0;3MF=0;F=0,0.0,0.0,0.0,0.0,0,nd
+C2018FRAN00163,Milk Powder,dried-dairy,CANADA,Domestic,3-Oct-18,3,2MF=0;3MF=0;F=0,0.0,0.0,0.0,0.0,0,nd
+C2018FRAN00164,Milk Powder,dried-dairy,CANADA,Domestic,5-Jul-18,3,2MF=0;3MF=0;F=0,0.0,0.0,0.0,0.0,0,nd
+C2018FRAN00165,Milk Powder,dried-dairy,CANADA,Domestic,4-Feb-19,3,2MF=0;3MF=0;F=0,0.0,0.0,0.0,0.0,0,nd
+C2018FRAN00166,Milk Powder,dried-dairy,UNKNOWN,Unknown,5-Jul-18,3,2MF=0;3MF=0;F=0,0.0,0.0,0.0,0.0,0,nd
+C2018FRAN00167,Milk Powder,dried-dairy,UNITED STATES,Import,19-Jul-18,3,2MF=0;3MF=0;F=0,0.0,0.0,0.0,0.0,0,nd
+C2018FRAN00168,Milk Powder,dried-dairy,UNKNOWN,Unknown,5-Jun-18,3,2MF=0;3MF=0;F=0,0.0,0.0,0.0,0.0,0,nd
+C2018FRAN00169,Beverage - Powdered Mixes - Hot,dried-beverage,CANADA,Domestic,16-Oct-18,3,2MF=0;3MF=0;F=0,0.0,0.0,0.0,0.0,0,nd
+C2018FRAN00170,Beverage - Powdered Mixes - Hot,dried-beverage,CANADA,Domestic,5-Feb-19,3,2MF=0;3MF=0;F=3,3.0,0.0,0.0,3.0,1,det
+C2018FRAN00171,Milk Powder,dried-dairy,CANADA,Domestic,2-Jul-18,3,2MF=0;3MF=0;F=0,0.0,0.0,0.0,0.0,0,nd
+C2018FRAN00172,Milk Powder,dried-dairy,CANADA,Domestic,17-Jul-18,3,3MF=0;3MF=0;F=0,0.0,,0.0,0.0,0,nd
+C2018FRAN00173,Beverage - Powdered Mixes - Cold,dried-beverage,THAILAND,Import,28-May-18,3,2MF=12.98;3MF=0;F=6.78,6.78,12.98,0.0,19.76,2,det
+C2018FRAN00174,Milk Powder,dried-dairy,CANADA,Domestic,9-Feb-19,3,2MF=0;3MF=0;F=0,0.0,0.0,0.0,0.0,0,nd
+C2018FRAN00175,Evaporated Milk,canned-milk,CANADA,Domestic,11-Feb-19,3,2MF=1.18;3MF=0;F=15.97,15.97,1.18,0.0,17.150000000000002,2,det
+C2018FRAN00176,Milk Powder,dried-dairy,UNKNOWN,Unknown,12-Nov-18,3,2MF=0;3MF=0;F=0,0.0,0.0,0.0,0.0,0,nd
+C2018FRAN00177,Milk Powder,dried-dairy,UNKNOWN,Unknown,12-Nov-18,3,2MF=0;3MF=0;F=0,0.0,0.0,0.0,0.0,0,nd
+C2018FRAN00178,Evaporated Milk,canned-milk,CANADA,Domestic,28-May-18,3,2MF=1.38;3MF=0;F=14.46,14.46,1.38,0.0,15.84,2,det
+C2018FRAN00179,Milk Powder,dried-dairy,CANADA,Domestic,28-Nov-18,3,2MF=0;3MF=0;F=0,0.0,0.0,0.0,0.0,0,nd
+C2018FRAN00180,Evaporated Milk,canned-milk,CANADA,Domestic,11-Sep-18,3,2MF=0;3MF=0;F=0,0.0,0.0,0.0,0.0,0,nd
+C2018FRAN00181,Milk Powder,dried-dairy,CANADA,Domestic,26-Feb-19,3,2MF=0;3MF=0;F=0,0.0,0.0,0.0,0.0,0,nd
+C2018FRAN00182,Milk Powder,dried-dairy,CANADA,Domestic,8-Nov-18,3,2MF=0;3MF=0;F=0,0.0,0.0,0.0,0.0,0,nd
+C2018FRAN00183,Milk Powder,dried-dairy,UNKNOWN,Unknown,8-Nov-18,3,2MF=0;3MF=0;F=0,0.0,0.0,0.0,0.0,0,nd
+C2018FRAN00184,Evaporated Milk,canned-milk,CANADA,Domestic,31-May-18,3,2MF=0;3MF=0;F=0,0.0,0.0,0.0,0.0,0,nd
+C2018FRAN00185,Evaporated Milk,canned-milk,CANADA,Domestic,31-May-18,3,2MF=1.64;3MF=0;F=21.37,21.37,1.64,0.0,23.01,2,det
+C2018FRAN00186,Evaporated Milk,canned-milk,CANADA,Domestic,5-Sep-18,3,2MF=1.27;3MF=0;F=16.65,16.65,1.27,0.0,17.919999999999998,2,det
+C2018FRAN00187,Milk Powder,dried-dairy,CANADA,Domestic,1-Dec-18,3,2MF=0;3MF=0;F=0,0.0,0.0,0.0,0.0,0,nd
+C2018FRAN00188,Milk Powder,dried-dairy,CANADA,Domestic,5-Mar-19,3,2MF=0;3MF=0;F=0,0.0,0.0,0.0,0.0,0,nd
+C2018FRAN00189,Evaporated Milk,canned-milk,CANADA,Domestic,10-Sep-18,3,2MF=1.09;3MF=0;F=15.65,15.65,1.09,0.0,16.740000000000002,2,det
+C2018FRAN00190,Evaporated Milk,canned-milk,CANADA,Domestic,6-Aug-18,3,2MF=1.36;3MF=0;F=20.84,20.84,1.36,0.0,22.2,2,det
+C2018FRAN00191,Evaporated Milk,canned-milk,UNKNOWN,Unknown,10-Sep-18,3,2MF=0;3MF=0;F=0,0.0,0.0,0.0,0.0,0,nd
+C2018FRAN00192,Milk Powder,dried-dairy,UNKNOWN,Unknown,24-Sep-18,3,2MF=0;3MF=0;F=0,0.0,0.0,0.0,0.0,0,nd
+C2018FRAN00193,Evaporated Milk,canned-milk,CANADA,Domestic,4-Jul-18,3,2MF=1.68;3MF=0;F=21.63,21.63,1.68,0.0,23.31,2,det
+C2018FRAN00194,Milk Powder,dried-dairy,CANADA,Domestic,4-Feb-19,3,2MF=0;3MF=0;F=0,0.0,0.0,0.0,0.0,0,nd
+C2018FRAN00195,Evaporated Milk,canned-milk,CANADA,Domestic,7-Jun-18,3,2MF=1.32;3MF=0;F=13.83,13.83,1.32,0.0,15.15,2,det
+C2018FRAN00196,Evaporated Milk,canned-milk,CANADA,Domestic,2-Jul-18,3,2MF=2.21;3MF=0;F=31.02,31.02,2.21,0.0,33.23,2,det
+C2018FRAN00197,Evaporated Milk,canned-milk,CANADA,Domestic,17-Jul-18,3,2MF=0;3MF=0;F=13.9,13.9,0.0,0.0,13.9,1,det
+C2018FRAN00198,Milk Powder,dried-dairy,CANADA,Domestic,10-Dec-18,3,2MF=0;3MF=0;F=0,0.0,0.0,0.0,0.0,0,nd
+C2018FRAN00199,Evaporated Milk,canned-milk,CANADA,Domestic,11-Oct-18,3,2MF=0;3MF=0;F=0,0.0,0.0,0.0,0.0,0,nd
+C2018FRAN00200,Evaporated Milk,canned-milk,UNKNOWN,Unknown,12-Aug-18,3,2MF=0;3MF=0;F=0,0.0,0.0,0.0,0.0,0,nd
+C2018FRAN00201,Milk Powder,dried-dairy,UNKNOWN,Unknown,13-Jun-18,3,2MF=0;3MF=0;F=0,0.0,0.0,0.0,0.0,0,nd
+C2018FRAN00202,Milk Powder,dried-dairy,UNKNOWN,Unknown,24-Sep-18,3,2MF=0;3MF=0;F=0,0.0,0.0,0.0,0.0,0,nd
+C2018FRAN00203,Beverage - Powdered Mixes - Hot,dried-beverage,UNITED STATES,Import,7-Aug-18,3,2MF=0;3MF=0;F=0,0.0,0.0,0.0,0.0,0,nd
+C2018FRAN00204,Beverage - Powdered Mixes - Hot,dried-beverage,UNKNOWN,Unknown,10-Oct-18,3,2MF=0;3MF=0;F=0,0.0,0.0,0.0,0.0,0,nd
+C2018FRAN00205,Beverage - Powdered Mixes - Hot,dried-beverage,UNITED STATES,Import,10-Mar-19,3,2MF=0;3MF=0;F=0,0.0,0.0,0.0,0.0,0,nd
+C2018FRAN00206,Beverage - Powdered Mixes - Hot,dried-beverage,UNKNOWN,Unknown,7-Aug-18,3,2MF=0;3MF=0;F=0,0.0,0.0,0.0,0.0,0,nd
+C2018FRAN00207,Beverage - Powdered Mixes - Hot,dried-beverage,UNKNOWN,Unknown,9-Jul-18,3,2MF=6.48;3MF=0;F=6.44,6.44,6.48,0.0,12.920000000000002,2,det
+C2018FRAN00208,Beverage - Powdered Mixes - Hot,dried-beverage,UNKNOWN,Unknown,7-Aug-18,3,2MF=0;3MF=0;F=0,0.0,0.0,0.0,0.0,0,nd
+C2018FRAN00209,Beverage - Powdered Mixes - Hot,dried-beverage,UNKNOWN,Unknown,28-May-18,3,2MF=0;3MF=0;F=0,0.0,0.0,0.0,0.0,0,nd
+C2018FRAN00210,Dairy Alternative,dried-dairy,UNKNOWN,Unknown,3-Jul-18,3,2MF=0;3MF=0;F=0,0.0,0.0,0.0,0.0,0,nd
+C2018FRAN00211,Dairy Alternative,dried-dairy,UNITED STATES,Import,25-Jun-18,3,2MF=0;3MF=0;F=0,0.0,0.0,0.0,0.0,0,nd
+C2018FRAN00212,Dairy Alternative,dried-dairy,UNKNOWN,Unknown,7-Mar-19,3,2MF=0;3MF=0;F=0,0.0,0.0,0.0,0.0,0,nd
+C2018FRAN00213,Beverage - Powdered Mixes - Cold,dried-beverage,UNKNOWN,Unknown,31-May-18,3,2MF=0;3MF=0;F=0,0.0,0.0,0.0,0.0,0,nd
+C2018FRAN00214,Beverage - Powdered Mixes - Hot,dried-beverage,UNKNOWN,Unknown,12-Oct-18,3,2MF=13.8;3MF=0;F=8.74,8.74,13.8,0.0,22.54,2,det
+C2018FRAN00215,Beverage - Powdered Mixes - Hot,dried-beverage,UNKNOWN,Unknown,5-Sep-18,3,2MF=0;3MF=0;F=0,0.0,0.0,0.0,0.0,0,nd
+C2018FRAN00216,Beverage - Powdered Mixes - Hot,dried-beverage,UNKNOWN,Unknown,12-Oct-18,3,2MF=0;3MF=0;F=0,0.0,0.0,0.0,0.0,0,nd
+C2018FRAN00217,Beverage - Powdered Mixes - Hot,dried-beverage,UNKNOWN,Unknown,12-Jul-18,3,2MF=0;3MF=0;F=0,0.0,0.0,0.0,0.0,0,nd
+C2018FRAN00218,Milk Powder,dried-dairy,CANADA,Domestic,9-Nov-18,3,2MF=0;3MF=0;F=0,0.0,0.0,0.0,0.0,0,nd
+C2018FRAN00219,Beverage - Powdered Mixes - Hot,dried-beverage,UNKNOWN,Unknown,12-Jul-18,3,2MF=0;3MF=0;F=0,0.0,0.0,0.0,0.0,0,nd
+C2018FRAN00220,Milk Powder,dried-dairy,CANADA,Domestic,15-Jan-19,3,2MF=0;3MF=0;F=0,0.0,0.0,0.0,0.0,0,nd
+C2018FRAN00221,Beverage - Powdered Mixes - Hot,dried-beverage,UNITED STATES,Import,1-Dec-18,3,2MF=0;3MF=0;F=0,0.0,0.0,0.0,0.0,0,nd
+C2018FRAN00222,Beverage - Powdered Mixes - Hot,dried-beverage,UNKNOWN,Unknown,2-Jul-18,3,2MF=0;3MF=0;F=0,0.0,0.0,0.0,0.0,0,nd
+C2018FRAN00223,Beverage - Powdered Mixes - Hot,dried-beverage,UNKNOWN,Unknown,29-Jul-18,3,2MF=0;3MF=0;F=6.12,6.12,0.0,0.0,6.12,1,det
+C2018FRAN00224,Beverage - Powdered Mixes - Hot,dried-beverage,CANADA,Domestic,6-Aug-18,3,2MF=0;3MF=0;F=5.64,5.64,0.0,0.0,5.64,1,det
+C2018FRAN00225,Beverage - Powdered Mixes - Cold,dried-beverage,CANADA,Domestic,4-Dec-18,3,2MF=0;3MF=0;F=0,0.0,0.0,0.0,0.0,0,nd
+C2018FRAN00226,Beverage - Powdered Mixes - Hot,dried-beverage,UNKNOWN,Unknown,4-Feb-19,3,2MF=0;3MF=0;F=5.05,5.05,0.0,0.0,5.05,1,det
+C2018FRAN00227,Beverage - Powdered Mixes - Hot,dried-beverage,CANADA,Domestic,6-Aug-18,3,2MF=0;3MF=0;F=0,0.0,0.0,0.0,0.0,0,nd
+C2018FRAN00228,Beverage - Powdered Mixes - Cold,dried-beverage,UNKNOWN,Unknown,29-May-18,3,2MF=0;3MF=0;F=0,0.0,0.0,0.0,0.0,0,nd
+C2018FRAN00229,Beverage - Powdered Mixes - Cold,dried-beverage,CANADA,Domestic,4-Dec-18,3,2MF=0;3MF=0;F=0,0.0,0.0,0.0,0.0,0,nd
+C2018FRAN00230,Milk Powder,dried-dairy,UNKNOWN,Unknown,13-Jun-18,3,2MF=0;3MF=0;F=0,0.0,0.0,0.0,0.0,0,nd
+C2018FRAN00231,Beverage - Powdered Mixes - Hot,dried-beverage,UNKNOWN,Unknown,31-May-18,3,2MF=0;3MF=0;F=0,0.0,0.0,0.0,0.0,0,nd
+C2018FRAN00232,Beverage - Powdered Mixes - Hot,dried-beverage,UNITED STATES,Import,4-Jul-18,3,2MF=0;3MF=0;F=0,0.0,0.0,0.0,0.0,0,nd
+C2018FRAN00233,Beverage - Powdered Mixes - Hot,dried-beverage,CANADA,Domestic,31-May-18,3,2MF=5.42;3MF=0;F=0,0.0,5.42,0.0,5.42,1,det
+C2018FRAN00234,Milk Powder,dried-dairy,CANADA,Domestic,11-Mar-19,3,2MF=0;3MF=0;F=0,0.0,0.0,0.0,0.0,0,nd
+C2018FRAN00235,Beverage - Powdered Mixes - Hot,dried-beverage,UNKNOWN,Unknown,13-Sep-18,3,2MF=5.26;3MF=0;F=6.12,6.12,5.26,0.0,11.379999999999999,2,det
+C2018FRAN00236,Beverage - Powdered Mixes - Hot,dried-beverage,UNKNOWN,Unknown,3-Dec-18,3,2MF=0;3MF=0;F=0,0.0,0.0,0.0,0.0,0,nd
+C2018FRAN00237,Beverage - Powdered Mixes - Hot,dried-beverage,UNKNOWN,Unknown,3-Aug-18,3,2MF=0;3MF=0;F=0,0.0,0.0,0.0,0.0,0,nd
+C2018FRAN00238,Beverage - Powdered Mixes - Cold,dried-beverage,UNKNOWN,Unknown,19-Aug-18,3,2MF=0;3MF=0;F=0,0.0,0.0,0.0,0.0,0,nd
+C2018FRAN00239,Beverage - Powdered Mixes - Hot,dried-beverage,CANADA,Domestic,2-Jul-18,3,2MF=11.05;3MF=0;F=5.39,5.39,11.05,0.0,16.44,2,det
+C2018FRAN00240,Beverage - Powdered Mixes - Cold,dried-beverage,CANADA,Domestic,28-May-18,3,2MF=8.09;3MF=0;F=0,0.0,8.09,0.0,8.09,1,det
+C2018FRAN00241,Beverage - Powdered Mixes - Cold,dried-beverage,UNKNOWN,Unknown,28-May-18,3,2MF=0;3MF=0;F=0,0.0,0.0,0.0,0.0,0,nd
+C2018FRAN00242,Dairy Alternative,dried-dairy,UNITED STATES,Import,4-Feb-19,3,2MF=0;3MF=0;F=0,0.0,0.0,0.0,0.0,0,nd
+C2018FRAN00243,Milk Powder,dried-dairy,UNKNOWN,Unknown,22-Oct-18,3,2MF=0;3MF=0;F=0,0.0,0.0,0.0,0.0,0,nd
+C2018FRAN00244,Beverage - Powdered Mixes - Hot,dried-beverage,UNKNOWN,Unknown,28-May-18,3,2MF=6.38;3MF=0;F=5.99,5.99,6.38,0.0,12.370000000000001,2,det
+C2018FRAN00245,Milk Powder,dried-dairy,CANADA,Domestic,11-Mar-19,3,2MF=0;3MF=0;F=0,0.0,0.0,0.0,0.0,0,nd
+C2018FRAN00246,Beverage - Powdered Mixes - Hot,dried-beverage,UNKNOWN,Unknown,11-Oct-18,3,2MF=0;3MF=0;F=5.08,5.08,0.0,0.0,5.08,1,det
+C2018FRAN00247,Milk Powder,dried-dairy,NETHERLANDS,Import,1-Nov-18,3,2MF=0;3MF=0;F=0,0.0,0.0,0.0,0.0,0,nd
+C2018FRAN00248,Beverage - Powdered Mixes - Hot,dried-beverage,UNKNOWN,Unknown,24-Jun-18,3,2MF=0;3MF=0;F=0,0.0,0.0,0.0,0.0,0,nd
+C2018FRAN00249,Beverage - Powdered Mixes - Hot,dried-beverage,UNKNOWN,Unknown,23-Jul-18,3,2MF=0;3MF=0;F=0,0.0,0.0,0.0,0.0,0,nd
+C2018FRAN00250,Beverage - Powdered Mixes - Hot,dried-beverage,CANADA,Domestic,26-Nov-18,3,2MF=0;3MF=0;F=5.4,5.4,0.0,0.0,5.4,1,det

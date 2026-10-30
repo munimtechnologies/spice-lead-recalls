@@ -1,0 +1,1050 @@
+{
+  "analysis": {
+    "all3": {
+      "canned_meat": 26,
+      "n": 59
+    },
+    "cats": {
+      "canned-fish": {
+        "furan": [
+          2.2,
+          2.4,
+          3.33,
+          3.71,
+          3.77,
+          3.97,
+          4.04,
+          4.54,
+          4.85,
+          5.86,
+          6.38,
+          6.55,
+          6.79,
+          6.99,
+          7.34,
+          7.61,
+          10.42,
+          10.51,
+          10.68,
+          11.93,
+          12.33,
+          12.35,
+          12.82,
+          12.87,
+          13.53,
+          13.88,
+          14.44,
+          15.15,
+          15.42,
+          17.33,
+          17.36,
+          17.47,
+          18.06,
+          18.11,
+          18.5,
+          21.13,
+          21.42,
+          22.61,
+          23.53,
+          23.86,
+          28.27,
+          29.5,
+          32.02,
+          33.76,
+          37.21,
+          37.34,
+          39.79,
+          57.29,
+          62.8,
+          68.09
+        ],
+        "furan_stats": {
+          "k": 50,
+          "max": 68.09,
+          "mean": 17.842200000000002,
+          "min": 2.2,
+          "sum": 892.11
+        },
+        "furans_stats": {
+          "k": 50,
+          "max": 145.51,
+          "mean": 46.60206,
+          "min": 16.25,
+          "sum": 2330.103
+        },
+        "n": 50,
+        "sums": [
+          16.25,
+          17.13,
+          17.15,
+          20.16,
+          20.36,
+          21.94,
+          23.15,
+          23.63,
+          25.02,
+          25.119999999999997,
+          27.02,
+          27.19,
+          27.5,
+          27.78,
+          27.833,
+          29.71,
+          33.46,
+          34.24,
+          35.06,
+          35.75,
+          35.87,
+          37.43,
+          37.66,
+          38.15,
+          38.25,
+          39.24,
+          40.12,
+          41.56,
+          45.5,
+          45.6,
+          46.03,
+          46.08,
+          48.44,
+          51.66,
+          53.94,
+          56.45,
+          57.36000000000001,
+          61.27,
+          61.61,
+          62.09,
+          62.129999999999995,
+          63.9,
+          74.17999999999999,
+          75.58,
+          79.07,
+          81.87,
+          83.75999999999999,
+          91.67,
+          112.67,
+          145.51
+        ]
+      },
+      "canned-meat": {
+        "furan": [
+          3.79,
+          4.16,
+          4.42,
+          4.46,
+          5.86,
+          6.16,
+          6.4,
+          6.76,
+          6.78,
+          7.28,
+          7.58,
+          7.59,
+          7.82,
+          7.86,
+          8.15,
+          8.22,
+          8.34,
+          8.73,
+          9.12,
+          9.48,
+          9.7,
+          9.93,
+          10.2,
+          10.44,
+          10.49,
+          10.88,
+          11.03,
+          11.27,
+          11.35,
+          11.53,
+          11.71,
+          12.9,
+          12.97,
+          13.23,
+          13.95,
+          14.12,
+          14.27,
+          14.45,
+          15.14,
+          15.8,
+          16.51,
+          16.85,
+          17.22,
+          18.61,
+          18.62,
+          18.63,
+          18.78,
+          26.92,
+          28.64,
+          46.94
+        ],
+        "furan_stats": {
+          "k": 50,
+          "max": 46.94,
+          "mean": 12.2408,
+          "min": 3.79,
+          "sum": 612.04
+        },
+        "furans_stats": {
+          "k": 50,
+          "max": 63.989999999999995,
+          "mean": 31.1382,
+          "min": 10.84,
+          "sum": 1556.91
+        },
+        "n": 50,
+        "sums": [
+          10.84,
+          11.0,
+          16.54,
+          16.810000000000002,
+          19.13,
+          19.41,
+          19.52,
+          20.3,
+          21.58,
+          21.62,
+          22.54,
+          22.84,
+          23.39,
+          24.16,
+          24.63,
+          24.65,
+          24.82,
+          25.909999999999997,
+          26.78,
+          27.27,
+          27.32,
+          27.66,
+          28.16,
+          28.56,
+          28.87,
+          28.880000000000003,
+          29.07,
+          29.560000000000002,
+          30.07,
+          30.840000000000003,
+          31.099999999999998,
+          31.63,
+          31.66,
+          33.900000000000006,
+          36.35,
+          36.42,
+          36.44,
+          38.0,
+          38.169999999999995,
+          39.67,
+          41.150000000000006,
+          41.97,
+          42.379999999999995,
+          43.49,
+          44.32,
+          46.480000000000004,
+          53.95,
+          54.02,
+          59.09,
+          63.989999999999995
+        ]
+      },
+      "canned-milk": {
+        "furan": [
+          13.83,
+          13.9,
+          14.46,
+          15.65,
+          15.97,
+          16.65,
+          20.84,
+          21.37,
+          21.63,
+          31.02
+        ],
+        "furan_stats": {
+          "k": 10,
+          "max": 31.02,
+          "mean": 18.532,
+          "min": 13.83,
+          "sum": 185.32
+        },
+        "furans_stats": {
+          "k": 10,
+          "max": 33.23,
+          "mean": 19.845,
+          "min": 13.9,
+          "sum": 198.45
+        },
+        "n": 15,
+        "sums": [
+          13.9,
+          15.15,
+          15.84,
+          16.740000000000002,
+          17.150000000000002,
+          17.919999999999998,
+          22.2,
+          23.01,
+          23.31,
+          33.23
+        ]
+      },
+      "dried-beverage": {
+        "furan": [
+          3.0,
+          5.05,
+          5.08,
+          5.39,
+          5.4,
+          5.64,
+          5.99,
+          6.05,
+          6.12,
+          6.12,
+          6.44,
+          6.78,
+          8.74
+        ],
+        "furan_stats": {
+          "k": 13,
+          "max": 8.74,
+          "mean": 5.8307692307692305,
+          "min": 3.0,
+          "sum": 75.8
+        },
+        "furans_stats": {
+          "k": 15,
+          "max": 22.54,
+          "mean": 10.152666666666667,
+          "min": 3.0,
+          "sum": 152.29
+        },
+        "n": 42,
+        "sums": [
+          3.0,
+          5.05,
+          5.08,
+          5.4,
+          5.42,
+          5.64,
+          6.12,
+          8.09,
+          11.379999999999999,
+          12.370000000000001,
+          12.920000000000002,
+          13.08,
+          16.44,
+          19.76,
+          22.54
+        ]
+      },
+      "dried-dairy": {
+        "furan": [],
+        "furan_stats": {
+          "k": 0,
+          "max": null,
+          "mean": null,
+          "min": null,
+          "sum": 0
+        },
+        "furans_stats": {
+          "k": 0,
+          "max": null,
+          "mean": null,
+          "min": null,
+          "sum": 0
+        },
+        "n": 43,
+        "sums": []
+      },
+      "soy-sauce": {
+        "furan": [
+          1.23,
+          6.36,
+          8.46,
+          10.25,
+          10.79,
+          11.21,
+          11.36,
+          12.53,
+          13.12,
+          13.25,
+          14.36,
+          16.35,
+          18.5,
+          22.29,
+          24.35,
+          29.18,
+          40.66,
+          48.41,
+          57.31,
+          57.62,
+          59.55,
+          60.62,
+          60.77,
+          61.3,
+          61.83,
+          62.48,
+          72.86,
+          75.52,
+          79.84,
+          82.95,
+          83.18,
+          83.7,
+          83.93,
+          86.32,
+          89.83,
+          93.59,
+          94.64,
+          98.53,
+          100.03,
+          101.58,
+          101.82,
+          111.11,
+          112.48,
+          115.78,
+          120.67,
+          125.33,
+          135.03,
+          139.11,
+          150.01,
+          159.09
+        ],
+        "furan_stats": {
+          "k": 50,
+          "max": 159.09,
+          "mean": 65.8214,
+          "min": 1.23,
+          "sum": 3291.07
+        },
+        "furans_stats": {
+          "k": 50,
+          "max": 179.33,
+          "mean": 73.8196,
+          "min": 1.23,
+          "sum": 3690.98
+        },
+        "n": 50,
+        "sums": [
+          1.23,
+          7.5,
+          8.46,
+          10.25,
+          11.21,
+          11.93,
+          12.709999999999999,
+          13.62,
+          15.069999999999999,
+          15.3,
+          15.59,
+          17.42,
+          18.5,
+          24.35,
+          31.57,
+          45.06,
+          49.839999999999996,
+          55.01,
+          64.88,
+          65.03,
+          66.72,
+          67.27000000000001,
+          71.53999999999999,
+          74.21,
+          78.44,
+          78.83,
+          83.97,
+          85.42,
+          87.47999999999999,
+          91.38000000000001,
+          96.16,
+          97.39000000000001,
+          98.42,
+          98.6,
+          99.05,
+          99.82,
+          102.05000000000001,
+          110.25999999999999,
+          112.17999999999999,
+          113.16,
+          116.51,
+          117.19,
+          126.46000000000001,
+          126.51,
+          127.69,
+          131.32999999999998,
+          145.25,
+          149.18,
+          164.64999999999998,
+          179.33
+        ]
+      }
+    },
+    "figure": {
+      "canned-fish": {
+        "extras": [],
+        "matched": 50,
+        "printed": 50,
+        "unmatched": []
+      },
+      "canned-meat": {
+        "extras": [],
+        "matched": 50,
+        "printed": 50,
+        "unmatched": []
+      },
+      "canned-milk": {
+        "extras": [],
+        "matched": 10,
+        "printed": 10,
+        "unmatched": []
+      },
+      "dried-beverage": {
+        "extras": [
+          3.0
+        ],
+        "matched": 14,
+        "printed": 15,
+        "unmatched": [
+          "5.89"
+        ]
+      },
+      "soy-sauce": {
+        "extras": [],
+        "matched": 50,
+        "printed": 50,
+        "unmatched": []
+      }
+    },
+    "grand": {
+      "k": 175,
+      "max": 179.33,
+      "mean": 45.307045714285714,
+      "min": 1.23,
+      "sum": 7928.733
+    },
+    "labels": {
+      "Beverage - Powdered Mixes - Cold": 8,
+      "Beverage - Powdered Mixes - Hot": 34,
+      "Dairy Alternative": 5,
+      "Evaporated Milk": 15,
+      "Fish/Seafood - Canned": 50,
+      "Meat - Canned": 50,
+      "Milk Powder": 38,
+      "Sauce - Soy": 50
+    },
+    "n": 250,
+    "n_f_2mf": 160,
+    "n_f_2mf_only": 101,
+    "n_one": 15,
+    "origin": {
+      "canned-fish": {
+        "Domestic": 4,
+        "Import": 45,
+        "Unknown": 1
+      },
+      "canned-meat": {
+        "Domestic": 14,
+        "Import": 35,
+        "Unknown": 1
+      },
+      "canned-milk": {
+        "Domestic": 13,
+        "Unknown": 2
+      },
+      "dried-beverage": {
+        "Domestic": 10,
+        "Import": 7,
+        "Unknown": 25
+      },
+      "dried-dairy": {
+        "Domestic": 21,
+        "Import": 5,
+        "Unknown": 17
+      },
+      "soy-sauce": {
+        "Domestic": 13,
+        "Import": 33,
+        "Unknown": 4
+      }
+    },
+    "printed_internal": {
+      "beverage_sum_over_16": 9.69875,
+      "figure": {
+        "canned-fish": {
+          "mean": 46.60206,
+          "mean_matches_table2": true,
+          "n": 50,
+          "sum": 2330.103,
+          "table2_mean": "46.6"
+        },
+        "canned-meat": {
+          "mean": 31.1382,
+          "mean_matches_table2": true,
+          "n": 50,
+          "sum": 1556.91,
+          "table2_mean": "31.1"
+        },
+        "canned-milk": {
+          "mean": 19.845,
+          "mean_matches_table2": true,
+          "n": 10,
+          "sum": 198.45,
+          "table2_mean": "19.8"
+        },
+        "dried-beverage": {
+          "mean": 10.345333333333334,
+          "mean_matches_table2": false,
+          "n": 15,
+          "sum": 155.18,
+          "table2_mean": "9.7"
+        },
+        "soy-sauce": {
+          "mean": 73.8196,
+          "mean_matches_table2": true,
+          "n": 50,
+          "sum": 3690.98,
+          "table2_mean": "73.8"
+        }
+      },
+      "figure_mean_all": 45.32356,
+      "figure_n": 175,
+      "figure_sum_over_176": 45.06603977272727,
+      "table2_detected_sum": 175,
+      "table2_samples_sum": 250
+    },
+    "split": [
+      {
+        "category": "dried-dairy",
+        "sample": "C2018FRAN00156",
+        "sum": 0.0
+      },
+      {
+        "category": "dried-dairy",
+        "sample": "C2018FRAN00210",
+        "sum": 0.0
+      },
+      {
+        "category": "dried-dairy",
+        "sample": "C2018FRAN00211",
+        "sum": 0.0
+      },
+      {
+        "category": "dried-dairy",
+        "sample": "C2018FRAN00212",
+        "sum": 0.0
+      },
+      {
+        "category": "dried-dairy",
+        "sample": "C2018FRAN00242",
+        "sum": 0.0
+      }
+    ]
+  },
+  "census": {
+    "bad_shapes": [],
+    "columns": {
+      "component": 13,
+      "date": 10,
+      "function": 4,
+      "origin": 6,
+      "plan": 17,
+      "product": 8,
+      "sample": 0,
+      "unit": 16,
+      "value": 15
+    },
+    "components": {
+      "2-Methylfuran": 249,
+      "3-Methylfuran": 251,
+      "Furan": 250
+    },
+    "ids_expected": true,
+    "kinds": {
+      "det": 394,
+      "nd": 356
+    },
+    "missing_analyte": {
+      "C2018FRAN00172": [
+        "2MF"
+      ]
+    },
+    "plans": {
+      "2018_TS023": 750
+    },
+    "products": {
+      "Beverage - Powdered Mixes - Cold": 8,
+      "Beverage - Powdered Mixes - Hot": 34,
+      "Dairy Alternative": 5,
+      "Evaporated Milk": 15,
+      "Fish/Seafood - Canned": 50,
+      "Meat - Canned": 50,
+      "Milk Powder": 38,
+      "Sauce - Soy": 50
+    },
+    "repeated_analyte": {
+      "C2018FRAN00172": [
+        "3MF"
+      ]
+    },
+    "rows": 750,
+    "rows_per_sample": {
+      "3": 250
+    },
+    "samples": 250,
+    "units": {
+      "ng/g": 750
+    },
+    "unknown_components": 0
+  },
+  "n_graded": 9,
+  "n_met": 2,
+  "predictions": [
+    {
+      "graded": true,
+      "id": "G",
+      "kind": "gate",
+      "met": true,
+      "observed": {
+        "columns": true,
+        "components": true,
+        "plan": true,
+        "products": true,
+        "rows": true,
+        "samples": true,
+        "size": true,
+        "units": true,
+        "values": true
+      },
+      "text": "byte size as on the portal record; columns; 750 rows and samples C2018FRAN00001-00250; only the three analyte labels; unit ng/g and plan 2018_TS023 on every row; known product labels; every value a number >= 0, a '<' or a not-detected token"
+    },
+    {
+      "graded": true,
+      "id": "C2",
+      "kind": "consistency",
+      "met": false,
+      "observed": {
+        "canned-fish": {
+          "file": {
+            "k": 50,
+            "max": 145.51,
+            "mean": 46.60206,
+            "min": 16.25,
+            "sum": 2330.103
+          },
+          "ok": {
+            "detected": true,
+            "max": true,
+            "mean": true,
+            "min": true,
+            "n": true
+          }
+        },
+        "canned-meat": {
+          "file": {
+            "k": 50,
+            "max": 63.989999999999995,
+            "mean": 31.1382,
+            "min": 10.84,
+            "sum": 1556.91
+          },
+          "ok": {
+            "detected": true,
+            "max": true,
+            "mean": true,
+            "min": true,
+            "n": true
+          }
+        },
+        "canned-milk": {
+          "file": {
+            "k": 10,
+            "max": 33.23,
+            "mean": 19.845,
+            "min": 13.9,
+            "sum": 198.45
+          },
+          "ok": {
+            "detected": true,
+            "max": true,
+            "mean": true,
+            "min": true,
+            "n": false
+          }
+        },
+        "dried-dairy": {
+          "file": {
+            "k": 0,
+            "max": null,
+            "mean": null,
+            "min": null,
+            "sum": 0
+          },
+          "ok": {
+            "detected": true,
+            "n": false
+          }
+        },
+        "soy-sauce": {
+          "file": {
+            "k": 50,
+            "max": 179.33,
+            "mean": 73.8196,
+            "min": 1.23,
+            "sum": 3690.98
+          },
+          "ok": {
+            "detected": true,
+            "max": true,
+            "mean": true,
+            "min": true,
+            "n": true
+          }
+        }
+      },
+      "text": "Table 2 (furans), every row but dried beverage mixes: samples, detected, minimum, maximum and positives-only average"
+    },
+    {
+      "graded": true,
+      "id": "C3",
+      "kind": "consistency",
+      "met": false,
+      "observed": {
+        "canned-fish": {
+          "file": {
+            "k": 50,
+            "max": 68.09,
+            "mean": 17.842200000000002,
+            "min": 2.2,
+            "sum": 892.11
+          },
+          "ok": {
+            "max": false,
+            "mean": false,
+            "min": false,
+            "n": true
+          }
+        },
+        "canned-meat": {
+          "file": {
+            "k": 50,
+            "max": 46.94,
+            "mean": 12.2408,
+            "min": 3.79,
+            "sum": 612.04
+          },
+          "ok": {
+            "max": false,
+            "mean": false,
+            "min": false,
+            "n": true
+          }
+        },
+        "canned-milk": {
+          "file": {
+            "k": 10,
+            "max": 31.02,
+            "mean": 18.532,
+            "min": 13.83,
+            "sum": 185.32
+          },
+          "ok": {
+            "max": false,
+            "mean": false,
+            "min": false,
+            "n": false
+          }
+        },
+        "dried-dairy": {
+          "file": {
+            "k": 0,
+            "max": null,
+            "mean": null,
+            "min": null,
+            "sum": 0
+          },
+          "ok": {
+            "n": false,
+            "none_detected": true
+          }
+        },
+        "soy-sauce": {
+          "file": {
+            "k": 50,
+            "max": 159.09,
+            "mean": 65.8214,
+            "min": 1.23,
+            "sum": 3291.07
+          },
+          "ok": {
+            "max": true,
+            "mean": false,
+            "min": false,
+            "n": true
+          }
+        }
+      },
+      "text": "Table 3 (furan only), every CFIA row but dried beverage mixes: samples, minimum, maximum and positives-only average"
+    },
+    {
+      "graded": true,
+      "id": "CF",
+      "kind": "consistency",
+      "met": false,
+      "observed": {
+        "canned-fish": {
+          "extras": [],
+          "matched": 50,
+          "printed": 50,
+          "unmatched": []
+        },
+        "canned-meat": {
+          "extras": [],
+          "matched": 50,
+          "printed": 50,
+          "unmatched": []
+        },
+        "canned-milk": {
+          "extras": [],
+          "matched": 10,
+          "printed": 10,
+          "unmatched": []
+        },
+        "dried-beverage": {
+          "extras": [
+            3.0
+          ],
+          "matched": 14,
+          "printed": 15,
+          "unmatched": [
+            "5.89"
+          ]
+        },
+        "soy-sauce": {
+          "extras": [],
+          "matched": 50,
+          "printed": 50,
+          "unmatched": []
+        }
+      },
+      "text": "Figure 1: each of the 175 printed values is matched by a distinct detected sample of its product type, with no unprinted detected sample except in dried beverage mixes (graded in P1)"
+    },
+    {
+      "graded": true,
+      "id": "CT",
+      "kind": "consistency",
+      "met": false,
+      "observed": {
+        "all3": {
+          "canned_meat": 26,
+          "n": 59
+        },
+        "max": 179.33,
+        "min": 1.23
+      },
+      "text": "text: 12 samples with all three analogues, 11 of them canned meat; overall range 1.23 to 179 ppb"
+    },
+    {
+      "graded": true,
+      "id": "P1",
+      "kind": "prediction",
+      "met": false,
+      "observed": {
+        "beverage_detected": 15,
+        "beverage_mean": 10.152666666666667,
+        "beverage_n": 42,
+        "beverage_unprinted": [
+          3.0
+        ],
+        "detected_samples": 175
+      },
+      "text": "176 samples have a furans level above 0 (the printed total, not the 175 its rows add to): one is a dried beverage mix at or below 0.82 ppb that Figure 1 and the 15-detected count leave out, and that the printed 9.7 ppb average includes"
+    },
+    {
+      "graded": true,
+      "id": "P2",
+      "kind": "prediction",
+      "met": true,
+      "observed": {
+        "k": 175,
+        "mean": 45.307045714285714
+      },
+      "text": "the positives-only average over all detected samples is 45.0 to 45.4 ppb, not the printed 45.5"
+    },
+    {
+      "graded": true,
+      "id": "P3",
+      "kind": "prediction",
+      "met": false,
+      "observed": {
+        "detected": 175,
+        "f_and_2mf": 160,
+        "f_and_2mf_pct_of_250": 64.0,
+        "f_and_2mf_pct_of_detected": 91.42857142857143,
+        "one": 15,
+        "one_pct_of_250": 6.0,
+        "one_pct_of_detected": 8.571428571428571
+      },
+      "text": "the text's '52%' (one analogue only) and '38%' (furan and 2-methylfuran) are shares of the detected samples, not of all 250"
+    },
+    {
+      "graded": true,
+      "id": "P4",
+      "kind": "prediction",
+      "met": false,
+      "observed": {
+        "beverage": 42,
+        "labels": {
+          "Beverage - Powdered Mixes - Cold": 8,
+          "Beverage - Powdered Mixes - Hot": 34,
+          "Dairy Alternative": 5,
+          "Evaporated Milk": 15,
+          "Fish/Seafood - Canned": 50,
+          "Meat - Canned": 50,
+          "Milk Powder": 38,
+          "Sauce - Soy": 50
+        },
+        "split": [
+          {
+            "category": "dried-dairy",
+            "sample": "C2018FRAN00156",
+            "sum": 0.0
+          },
+          {
+            "category": "dried-dairy",
+            "sample": "C2018FRAN00210",
+            "sum": 0.0
+          },
+          {
+            "category": "dried-dairy",
+            "sample": "C2018FRAN00211",
+            "sum": 0.0
+          },
+          {
+            "category": "dried-dairy",
+            "sample": "C2018FRAN00212",
+            "sum": 0.0
+          },
+          {
+            "category": "dried-dairy",
+            "sample": "C2018FRAN00242",
+            "sum": 0.0
+          }
+        ],
+        "split_detected": 0
+      },
+      "text": "labels: 15 Evaporated Milk, 38 Milk Powder, 5 Dairy Alternative and 42 powdered beverage mixes (so Table 3's '43' is a slip); exactly one Dairy Alternative has furans, making canned milk 16 and dried dairy products 42"
+    }
+  ],
+  "provenance": {
+    "bytes": 133082,
+    "dataset": "50b2bcf4-becc-493b-b804-88d6fb6f0a84",
+    "encoding": "cp1252",
+    "md5": "fe69bb5a34dcfc5b4f2a4c1774a92dd5",
+    "md5_matches_portal": true,
+    "portal_md5": "fe69bb5a34dcfc5b4f2a4c1774a92dd5",
+    "resource": "db10687a-8d0f-45b0-9dea-aee7465d4af6",
+    "sha256": "f57d7d77f73a92abb1b88d3bff15ae922ce5f1938a2c35a8a9fee51442234601",
+    "source": "https://open.canada.ca/data/dataset/50b2bcf4-becc-493b-b804-88d6fb6f0a84/resource/db10687a-8d0f-45b0-9dea-aee7465d4af6/download/cfia-acia-1147_2018-19_furans_in_selected_foods_presence-de-furane-de-2-methylfurane-et-de-3-met.csv"
+  },
+  "study": "furan-2018",
+  "version": "0.1.0"
+}
