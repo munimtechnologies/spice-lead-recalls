@@ -1,0 +1,3519 @@
+{
+  "bytes": 395585,
+  "census": {
+    "columns": {
+      "commodity": null,
+      "component": 11,
+      "date": 8,
+      "function": 2,
+      "origin": 4,
+      "plan": 15,
+      "product": 6,
+      "region": 1,
+      "sample": 0,
+      "test": 9,
+      "unit": 14,
+      "value": 13
+    },
+    "commodities": {
+      "": 491
+    },
+    "components": {
+      "Bisphenol A": 491,
+      "Bisphenol A Diglycidyl Ether": 491,
+      "Bisphenol F": 491,
+      "Bisphenol S": 491
+    },
+    "header": [
+      "Sample No. – No. d’échantillon",
+      "Region - Région",
+      "Function",
+      "Fonction",
+      "Origin",
+      "Origine",
+      "Product",
+      "Produit",
+      "Date Sampled – Date d’échantillonage",
+      "Type of Test",
+      "Type d’analyse",
+      "Component",
+      "Composant",
+      "Result - Résultat",
+      "Report Unit - Unité de rapport",
+      "Plan Code - Code du régime",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "id_gaps": 9,
+    "id_range": [
+      1,
+      500
+    ],
+    "ids_bad": [],
+    "ids_bad_count": 0,
+    "ids_dup_suffix": [],
+    "missing_component_samples": {},
+    "mixed_label_samples": [],
+    "plans": {
+      "2016_SB451": 1964
+    },
+    "product_commodity": {
+      "Apricot | ": 2,
+      "Artichoke Heart | ": 1,
+      "Artichoke | ": 1,
+      "Asparagus | ": 6,
+      "Bamboo Shoot | ": 4,
+      "Bean - Green/Yellow | ": 10,
+      "Bean - wax | ": 2,
+      "Bean | ": 1,
+      "Beet | ": 5,
+      "Beverage - Fruit | ": 21,
+      "Beverage - Other | ": 19,
+      "Beverage - Sport | ": 19,
+      "Carrot | ": 4,
+      "Coconut Milk | ": 14,
+      "Corn | ": 7,
+      "Energy Drink | ": 21,
+      "Grapefruit | ": 1,
+      "Infant Formula - Dairy | ": 60,
+      "Infant Formula - Soy | ": 14,
+      "JackFruit | ": 1,
+      "Juice - Apple | ": 9,
+      "Juice - Blend | ": 3,
+      "Juice - Orange | ": 1,
+      "Juice - Other | ": 11,
+      "Juice - Tomato | ": 4,
+      "Juice - Vegetable | ": 2,
+      "Lychee | ": 1,
+      "Mango | ": 1,
+      "Mixed Fruit | ": 25,
+      "Mixed Vegetables | ": 9,
+      "Mushroom | ": 7,
+      "Nectar - Guava | ": 1,
+      "Nectar - Mango | ": 2,
+      "Nectar - Other | ": 1,
+      "Orange | ": 2,
+      "Pasta - Canned | ": 49,
+      "Pea | ": 10,
+      "Peach | ": 5,
+      "Pear | ": 7,
+      "Pie Filling - Blueberry | ": 5,
+      "Pie Filling - Cherry | ": 5,
+      "Pie Filling - Other | ": 4,
+      "Pie Filling - Pumpkin | ": 5,
+      "Pie Filling - apple | ": 1,
+      "Pineapple - Organic | ": 1,
+      "Pineapple | ": 4,
+      "Sauces | ": 14,
+      "Soft Drink | ": 20,
+      "Soup | ": 48,
+      "Spinach | ": 4,
+      "Tomato Sauce | ": 1,
+      "Yam | ": 1,
+      "juice - pineapple | ": 15
+    },
+    "product_function": {
+      "Apricot": {
+        "Import": 2
+      },
+      "Artichoke": {
+        "Import": 1
+      },
+      "Artichoke Heart": {
+        "Import": 1
+      },
+      "Asparagus": {
+        "Import": 6
+      },
+      "Bamboo Shoot": {
+        "Import": 4
+      },
+      "Bean": {
+        "Import": 1
+      },
+      "Bean - Green/Yellow": {
+        "Domestic": 7,
+        "Import": 2,
+        "Unknown": 1
+      },
+      "Bean - wax": {
+        "Import": 1,
+        "Unknown": 1
+      },
+      "Beet": {
+        "Import": 5
+      },
+      "Beverage - Fruit": {
+        "Domestic": 5,
+        "Import": 11,
+        "Unknown": 5
+      },
+      "Beverage - Other": {
+        "Import": 19
+      },
+      "Beverage - Sport": {
+        "Import": 13,
+        "Unknown": 6
+      },
+      "Carrot": {
+        "Domestic": 1,
+        "Import": 3
+      },
+      "Coconut Milk": {
+        "Import": 14
+      },
+      "Corn": {
+        "Domestic": 2,
+        "Import": 5
+      },
+      "Energy Drink": {
+        "Domestic": 1,
+        "Import": 8,
+        "Unknown": 12
+      },
+      "Grapefruit": {
+        "Import": 1
+      },
+      "Infant Formula - Dairy": {
+        "Import": 58,
+        "Unknown": 2
+      },
+      "Infant Formula - Soy": {
+        "Import": 13,
+        "Unknown": 1
+      },
+      "JackFruit": {
+        "Import": 1
+      },
+      "Juice - Apple": {
+        "Domestic": 7,
+        "Unknown": 2
+      },
+      "Juice - Blend": {
+        "Domestic": 2,
+        "Import": 1
+      },
+      "Juice - Orange": {
+        "Unknown": 1
+      },
+      "Juice - Other": {
+        "Import": 11
+      },
+      "Juice - Tomato": {
+        "Domestic": 4
+      },
+      "Juice - Vegetable": {
+        "Import": 2
+      },
+      "Lychee": {
+        "Import": 1
+      },
+      "Mango": {
+        "Import": 1
+      },
+      "Mixed Fruit": {
+        "Import": 25
+      },
+      "Mixed Vegetables": {
+        "Domestic": 2,
+        "Import": 2,
+        "Unknown": 5
+      },
+      "Mushroom": {
+        "Import": 7
+      },
+      "Nectar - Guava": {
+        "Unknown": 1
+      },
+      "Nectar - Mango": {
+        "Import": 2
+      },
+      "Nectar - Other": {
+        "Import": 1
+      },
+      "Orange": {
+        "Import": 2
+      },
+      "Pasta - Canned": {
+        "Domestic": 4,
+        "Import": 14,
+        "Unknown": 31
+      },
+      "Pea": {
+        "Domestic": 7,
+        "Import": 1,
+        "Unknown": 2
+      },
+      "Peach": {
+        "Import": 5
+      },
+      "Pear": {
+        "Import": 7
+      },
+      "Pie Filling - Blueberry": {
+        "Import": 5
+      },
+      "Pie Filling - Cherry": {
+        "Import": 5
+      },
+      "Pie Filling - Other": {
+        "Import": 4
+      },
+      "Pie Filling - Pumpkin": {
+        "Import": 4,
+        "Unknown": 1
+      },
+      "Pie Filling - apple": {
+        "Import": 1
+      },
+      "Pineapple": {
+        "Import": 4
+      },
+      "Pineapple - Organic": {
+        "Import": 1
+      },
+      "Sauces": {
+        "Domestic": 4,
+        "Import": 2,
+        "Unknown": 8
+      },
+      "Soft Drink": {
+        "Domestic": 3,
+        "Unknown": 17
+      },
+      "Soup": {
+        "Domestic": 28,
+        "Import": 4,
+        "Unknown": 16
+      },
+      "Spinach": {
+        "Import": 4
+      },
+      "Tomato Sauce": {
+        "Domestic": 1
+      },
+      "Yam": {
+        "Domestic": 1
+      },
+      "juice - pineapple": {
+        "Import": 15
+      }
+    },
+    "product_id_runs": {
+      "Apricot": [
+        [
+          111,
+          111
+        ],
+        [
+          227,
+          227
+        ]
+      ],
+      "Artichoke": [
+        [
+          220,
+          220
+        ]
+      ],
+      "Artichoke Heart": [
+        [
+          45,
+          45
+        ]
+      ],
+      "Asparagus": [
+        [
+          135,
+          135
+        ],
+        [
+          315,
+          315
+        ],
+        [
+          330,
+          330
+        ],
+        [
+          337,
+          337
+        ],
+        [
+          427,
+          427
+        ],
+        [
+          452,
+          452
+        ]
+      ],
+      "Bamboo Shoot": [
+        [
+          48,
+          48
+        ],
+        [
+          65,
+          66
+        ],
+        [
+          186,
+          186
+        ]
+      ],
+      "Bean": [
+        [
+          383,
+          383
+        ]
+      ],
+      "Bean - Green/Yellow": [
+        [
+          28,
+          28
+        ],
+        [
+          56,
+          56
+        ],
+        [
+          308,
+          308
+        ],
+        [
+          377,
+          377
+        ],
+        [
+          393,
+          393
+        ],
+        [
+          417,
+          417
+        ],
+        [
+          439,
+          439
+        ],
+        [
+          451,
+          451
+        ],
+        [
+          464,
+          464
+        ],
+        [
+          484,
+          484
+        ]
+      ],
+      "Bean - wax": [
+        [
+          115,
+          115
+        ],
+        [
+          218,
+          218
+        ]
+      ],
+      "Beet": [
+        [
+          117,
+          117
+        ],
+        [
+          244,
+          244
+        ],
+        [
+          392,
+          392
+        ],
+        [
+          483,
+          483
+        ],
+        [
+          495,
+          495
+        ]
+      ],
+      "Beverage - Fruit": [
+        [
+          13,
+          13
+        ],
+        [
+          50,
+          50
+        ],
+        [
+          74,
+          74
+        ],
+        [
+          104,
+          104
+        ],
+        [
+          127,
+          127
+        ],
+        [
+          174,
+          175
+        ],
+        [
+          195,
+          195
+        ],
+        [
+          214,
+          214
+        ],
+        [
+          238,
+          238
+        ],
+        [
+          264,
+          264
+        ],
+        [
+          289,
+          290
+        ],
+        [
+          333,
+          333
+        ],
+        [
+          386,
+          386
+        ],
+        [
+          396,
+          396
+        ],
+        [
+          406,
+          406
+        ],
+        [
+          435,
+          435
+        ],
+        [
+          446,
+          446
+        ],
+        [
+          473,
+          473
+        ],
+        [
+          498,
+          498
+        ]
+      ],
+      "Beverage - Other": [
+        [
+          19,
+          19
+        ],
+        [
+          33,
+          33
+        ],
+        [
+          128,
+          128
+        ],
+        [
+          145,
+          145
+        ],
+        [
+          163,
+          163
+        ],
+        [
+          176,
+          179
+        ],
+        [
+          239,
+          239
+        ],
+        [
+          265,
+          265
+        ],
+        [
+          303,
+          303
+        ],
+        [
+          346,
+          346
+        ],
+        [
+          374,
+          374
+        ],
+        [
+          381,
+          381
+        ],
+        [
+          407,
+          407
+        ],
+        [
+          447,
+          447
+        ],
+        [
+          481,
+          481
+        ],
+        [
+          490,
+          490
+        ]
+      ],
+      "Beverage - Sport": [
+        [
+          62,
+          62
+        ],
+        [
+          76,
+          77
+        ],
+        [
+          106,
+          107
+        ],
+        [
+          129,
+          129
+        ],
+        [
+          164,
+          164
+        ],
+        [
+          216,
+          216
+        ],
+        [
+          250,
+          250
+        ],
+        [
+          266,
+          266
+        ],
+        [
+          304,
+          304
+        ],
+        [
+          312,
+          312
+        ],
+        [
+          325,
+          325
+        ],
+        [
+          371,
+          371
+        ],
+        [
+          375,
+          375
+        ],
+        [
+          408,
+          408
+        ],
+        [
+          414,
+          414
+        ],
+        [
+          460,
+          460
+        ],
+        [
+          491,
+          491
+        ]
+      ],
+      "Carrot": [
+        [
+          134,
+          134
+        ],
+        [
+          253,
+          253
+        ],
+        [
+          294,
+          294
+        ],
+        [
+          338,
+          338
+        ]
+      ],
+      "Coconut Milk": [
+        [
+          12,
+          12
+        ],
+        [
+          60,
+          60
+        ],
+        [
+          123,
+          123
+        ],
+        [
+          155,
+          155
+        ],
+        [
+          189,
+          190
+        ],
+        [
+          208,
+          208
+        ],
+        [
+          258,
+          258
+        ],
+        [
+          278,
+          278
+        ],
+        [
+          311,
+          311
+        ],
+        [
+          349,
+          349
+        ],
+        [
+          420,
+          420
+        ],
+        [
+          457,
+          457
+        ],
+        [
+          476,
+          476
+        ]
+      ],
+      "Corn": [
+        [
+          26,
+          26
+        ],
+        [
+          57,
+          57
+        ],
+        [
+          59,
+          59
+        ],
+        [
+          96,
+          96
+        ],
+        [
+          201,
+          202
+        ],
+        [
+          412,
+          412
+        ]
+      ],
+      "Energy Drink": [
+        [
+          6,
+          6
+        ],
+        [
+          20,
+          20
+        ],
+        [
+          53,
+          53
+        ],
+        [
+          108,
+          110
+        ],
+        [
+          130,
+          130
+        ],
+        [
+          165,
+          165
+        ],
+        [
+          180,
+          181
+        ],
+        [
+          251,
+          252
+        ],
+        [
+          267,
+          267
+        ],
+        [
+          292,
+          292
+        ],
+        [
+          348,
+          348
+        ],
+        [
+          350,
+          350
+        ],
+        [
+          356,
+          356
+        ],
+        [
+          415,
+          415
+        ],
+        [
+          436,
+          436
+        ],
+        [
+          448,
+          448
+        ],
+        [
+          472,
+          472
+        ]
+      ],
+      "Grapefruit": [
+        [
+          183,
+          183
+        ]
+      ],
+      "Infant Formula - Dairy": [
+        [
+          5,
+          5
+        ],
+        [
+          14,
+          14
+        ],
+        [
+          24,
+          24
+        ],
+        [
+          30,
+          31
+        ],
+        [
+          38,
+          39
+        ],
+        [
+          42,
+          42
+        ],
+        [
+          52,
+          52
+        ],
+        [
+          73,
+          73
+        ],
+        [
+          89,
+          90
+        ],
+        [
+          102,
+          102
+        ],
+        [
+          143,
+          144
+        ],
+        [
+          156,
+          160
+        ],
+        [
+          170,
+          173
+        ],
+        [
+          194,
+          194
+        ],
+        [
+          210,
+          213
+        ],
+        [
+          233,
+          237
+        ],
+        [
+          248,
+          248
+        ],
+        [
+          260,
+          262
+        ],
+        [
+          300,
+          300
+        ],
+        [
+          323,
+          323
+        ],
+        [
+          344,
+          344
+        ],
+        [
+          354,
+          354
+        ],
+        [
+          362,
+          362
+        ],
+        [
+          365,
+          365
+        ],
+        [
+          369,
+          370
+        ],
+        [
+          379,
+          379
+        ],
+        [
+          389,
+          389
+        ],
+        [
+          405,
+          405
+        ],
+        [
+          422,
+          422
+        ],
+        [
+          433,
+          433
+        ],
+        [
+          443,
+          445
+        ],
+        [
+          468,
+          470
+        ],
+        [
+          478,
+          479
+        ],
+        [
+          489,
+          489
+        ]
+      ],
+      "Infant Formula - Soy": [
+        [
+          61,
+          61
+        ],
+        [
+          91,
+          91
+        ],
+        [
+          103,
+          103
+        ],
+        [
+          126,
+          126
+        ],
+        [
+          161,
+          162
+        ],
+        [
+          263,
+          263
+        ],
+        [
+          288,
+          288
+        ],
+        [
+          301,
+          301
+        ],
+        [
+          324,
+          324
+        ],
+        [
+          380,
+          380
+        ],
+        [
+          423,
+          423
+        ],
+        [
+          434,
+          434
+        ],
+        [
+          471,
+          471
+        ]
+      ],
+      "JackFruit": [
+        [
+          492,
+          492
+        ]
+      ],
+      "Juice - Apple": [
+        [
+          44,
+          44
+        ],
+        [
+          79,
+          79
+        ],
+        [
+          113,
+          113
+        ],
+        [
+          147,
+          147
+        ],
+        [
+          198,
+          198
+        ],
+        [
+          200,
+          200
+        ],
+        [
+          273,
+          273
+        ],
+        [
+          307,
+          307
+        ],
+        [
+          426,
+          426
+        ]
+      ],
+      "Juice - Blend": [
+        [
+          400,
+          401
+        ],
+        [
+          437,
+          437
+        ]
+      ],
+      "Juice - Orange": [
+        [
+          284,
+          284
+        ]
+      ],
+      "Juice - Other": [
+        [
+          11,
+          11
+        ],
+        [
+          21,
+          21
+        ],
+        [
+          35,
+          35
+        ],
+        [
+          114,
+          114
+        ],
+        [
+          148,
+          148
+        ],
+        [
+          313,
+          313
+        ],
+        [
+          358,
+          358
+        ],
+        [
+          373,
+          373
+        ],
+        [
+          382,
+          382
+        ],
+        [
+          438,
+          438
+        ],
+        [
+          449,
+          449
+        ]
+      ],
+      "Juice - Tomato": [
+        [
+          2,
+          2
+        ],
+        [
+          40,
+          40
+        ],
+        [
+          184,
+          184
+        ],
+        [
+          242,
+          242
+        ]
+      ],
+      "Juice - Vegetable": [
+        [
+          229,
+          229
+        ],
+        [
+          328,
+          328
+        ]
+      ],
+      "Lychee": [
+        [
+          34,
+          34
+        ]
+      ],
+      "Mango": [
+        [
+          493,
+          493
+        ]
+      ],
+      "Mixed Fruit": [
+        [
+          7,
+          7
+        ],
+        [
+          32,
+          32
+        ],
+        [
+          64,
+          64
+        ],
+        [
+          78,
+          78
+        ],
+        [
+          93,
+          95
+        ],
+        [
+          133,
+          133
+        ],
+        [
+          167,
+          167
+        ],
+        [
+          217,
+          217
+        ],
+        [
+          241,
+          241
+        ],
+        [
+          270,
+          270
+        ],
+        [
+          282,
+          283
+        ],
+        [
+          306,
+          306
+        ],
+        [
+          326,
+          327
+        ],
+        [
+          351,
+          352
+        ],
+        [
+          376,
+          376
+        ],
+        [
+          398,
+          399
+        ],
+        [
+          410,
+          410
+        ],
+        [
+          424,
+          424
+        ],
+        [
+          462,
+          462
+        ]
+      ],
+      "Mixed Vegetables": [
+        [
+          98,
+          98
+        ],
+        [
+          136,
+          136
+        ],
+        [
+          203,
+          203
+        ],
+        [
+          243,
+          243
+        ],
+        [
+          286,
+          286
+        ],
+        [
+          329,
+          329
+        ],
+        [
+          359,
+          359
+        ],
+        [
+          450,
+          450
+        ],
+        [
+          453,
+          453
+        ]
+      ],
+      "Mushroom": [
+        [
+          82,
+          82
+        ],
+        [
+          116,
+          116
+        ],
+        [
+          137,
+          137
+        ],
+        [
+          149,
+          151
+        ],
+        [
+          440,
+          440
+        ]
+      ],
+      "Nectar - Guava": [
+        [
+          425,
+          425
+        ]
+      ],
+      "Nectar - Mango": [
+        [
+          293,
+          293
+        ],
+        [
+          416,
+          416
+        ]
+      ],
+      "Nectar - Other": [
+        [
+          463,
+          463
+        ]
+      ],
+      "Orange": [
+        [
+          305,
+          305
+        ],
+        [
+          482,
+          482
+        ]
+      ],
+      "Pasta - Canned": [
+        [
+          17,
+          18
+        ],
+        [
+          27,
+          27
+        ],
+        [
+          29,
+          29
+        ],
+        [
+          36,
+          36
+        ],
+        [
+          41,
+          41
+        ],
+        [
+          46,
+          46
+        ],
+        [
+          58,
+          58
+        ],
+        [
+          67,
+          67
+        ],
+        [
+          83,
+          84
+        ],
+        [
+          99,
+          99
+        ],
+        [
+          118,
+          118
+        ],
+        [
+          138,
+          140
+        ],
+        [
+          153,
+          153
+        ],
+        [
+          168,
+          168
+        ],
+        [
+          187,
+          187
+        ],
+        [
+          204,
+          206
+        ],
+        [
+          232,
+          232
+        ],
+        [
+          274,
+          275
+        ],
+        [
+          295,
+          295
+        ],
+        [
+          309,
+          310
+        ],
+        [
+          316,
+          317
+        ],
+        [
+          331,
+          332
+        ],
+        [
+          340,
+          340
+        ],
+        [
+          360,
+          361
+        ],
+        [
+          367,
+          367
+        ],
+        [
+          387,
+          387
+        ],
+        [
+          394,
+          394
+        ],
+        [
+          402,
+          402
+        ],
+        [
+          419,
+          419
+        ],
+        [
+          428,
+          429
+        ],
+        [
+          441,
+          441
+        ],
+        [
+          454,
+          455
+        ],
+        [
+          465,
+          465
+        ],
+        [
+          474,
+          474
+        ],
+        [
+          485,
+          485
+        ],
+        [
+          496,
+          496
+        ]
+      ],
+      "Pea": [
+        [
+          15,
+          16
+        ],
+        [
+          22,
+          22
+        ],
+        [
+          152,
+          152
+        ],
+        [
+          285,
+          285
+        ],
+        [
+          339,
+          339
+        ],
+        [
+          366,
+          366
+        ],
+        [
+          378,
+          378
+        ],
+        [
+          384,
+          384
+        ],
+        [
+          418,
+          418
+        ]
+      ],
+      "Peach": [
+        [
+          1,
+          1
+        ],
+        [
+          63,
+          63
+        ],
+        [
+          146,
+          146
+        ],
+        [
+          166,
+          166
+        ],
+        [
+          182,
+          182
+        ]
+      ],
+      "Pear": [
+        [
+          240,
+          240
+        ],
+        [
+          269,
+          269
+        ],
+        [
+          281,
+          281
+        ],
+        [
+          334,
+          334
+        ],
+        [
+          372,
+          372
+        ],
+        [
+          409,
+          409
+        ],
+        [
+          461,
+          461
+        ]
+      ],
+      "Pie Filling - Blueberry": [
+        [
+          71,
+          71
+        ],
+        [
+          193,
+          193
+        ],
+        [
+          223,
+          223
+        ],
+        [
+          299,
+          299
+        ],
+        [
+          442,
+          442
+        ]
+      ],
+      "Pie Filling - Cherry": [
+        [
+          86,
+          87
+        ],
+        [
+          209,
+          209
+        ],
+        [
+          321,
+          321
+        ],
+        [
+          421,
+          421
+        ]
+      ],
+      "Pie Filling - Other": [
+        [
+          72,
+          72
+        ],
+        [
+          142,
+          142
+        ],
+        [
+          343,
+          343
+        ],
+        [
+          404,
+          404
+        ]
+      ],
+      "Pie Filling - Pumpkin": [
+        [
+          88,
+          88
+        ],
+        [
+          124,
+          124
+        ],
+        [
+          224,
+          224
+        ],
+        [
+          322,
+          322
+        ],
+        [
+          477,
+          477
+        ]
+      ],
+      "Pie Filling - apple": [
+        [
+          125,
+          125
+        ]
+      ],
+      "Pineapple": [
+        [
+          131,
+          132
+        ],
+        [
+          268,
+          268
+        ],
+        [
+          390,
+          390
+        ]
+      ],
+      "Pineapple - Organic": [
+        [
+          357,
+          357
+        ]
+      ],
+      "Sauces": [
+        [
+          23,
+          23
+        ],
+        [
+          51,
+          51
+        ],
+        [
+          101,
+          101
+        ],
+        [
+          141,
+          141
+        ],
+        [
+          191,
+          192
+        ],
+        [
+          222,
+          222
+        ],
+        [
+          279,
+          279
+        ],
+        [
+          298,
+          298
+        ],
+        [
+          319,
+          319
+        ],
+        [
+          364,
+          364
+        ],
+        [
+          432,
+          432
+        ],
+        [
+          458,
+          458
+        ],
+        [
+          488,
+          488
+        ]
+      ],
+      "Soft Drink": [
+        [
+          10,
+          10
+        ],
+        [
+          43,
+          43
+        ],
+        [
+          75,
+          75
+        ],
+        [
+          92,
+          92
+        ],
+        [
+          105,
+          105
+        ],
+        [
+          196,
+          196
+        ],
+        [
+          215,
+          215
+        ],
+        [
+          225,
+          226
+        ],
+        [
+          249,
+          249
+        ],
+        [
+          280,
+          280
+        ],
+        [
+          291,
+          291
+        ],
+        [
+          302,
+          302
+        ],
+        [
+          345,
+          345
+        ],
+        [
+          355,
+          355
+        ],
+        [
+          397,
+          397
+        ],
+        [
+          459,
+          459
+        ],
+        [
+          480,
+          480
+        ],
+        [
+          499,
+          500
+        ]
+      ],
+      "Soup": [
+        [
+          3,
+          4
+        ],
+        [
+          8,
+          9
+        ],
+        [
+          37,
+          37
+        ],
+        [
+          47,
+          47
+        ],
+        [
+          49,
+          49
+        ],
+        [
+          54,
+          54
+        ],
+        [
+          68,
+          70
+        ],
+        [
+          85,
+          85
+        ],
+        [
+          100,
+          100
+        ],
+        [
+          119,
+          122
+        ],
+        [
+          154,
+          154
+        ],
+        [
+          169,
+          169
+        ],
+        [
+          188,
+          188
+        ],
+        [
+          207,
+          207
+        ],
+        [
+          221,
+          221
+        ],
+        [
+          255,
+          256
+        ],
+        [
+          276,
+          277
+        ],
+        [
+          287,
+          287
+        ],
+        [
+          296,
+          297
+        ],
+        [
+          318,
+          318
+        ],
+        [
+          341,
+          342
+        ],
+        [
+          363,
+          363
+        ],
+        [
+          368,
+          368
+        ],
+        [
+          385,
+          385
+        ],
+        [
+          388,
+          388
+        ],
+        [
+          395,
+          395
+        ],
+        [
+          403,
+          403
+        ],
+        [
+          413,
+          413
+        ],
+        [
+          430,
+          431
+        ],
+        [
+          456,
+          456
+        ],
+        [
+          466,
+          467
+        ],
+        [
+          475,
+          475
+        ],
+        [
+          486,
+          487
+        ],
+        [
+          497,
+          497
+        ]
+      ],
+      "Spinach": [
+        [
+          97,
+          97
+        ],
+        [
+          219,
+          219
+        ],
+        [
+          314,
+          314
+        ],
+        [
+          494,
+          494
+        ]
+      ],
+      "Tomato Sauce": [
+        [
+          320,
+          320
+        ]
+      ],
+      "Yam": [
+        [
+          336,
+          336
+        ]
+      ],
+      "juice - pineapple": [
+        [
+          25,
+          25
+        ],
+        [
+          55,
+          55
+        ],
+        [
+          80,
+          81
+        ],
+        [
+          112,
+          112
+        ],
+        [
+          185,
+          185
+        ],
+        [
+          197,
+          197
+        ],
+        [
+          199,
+          199
+        ],
+        [
+          228,
+          228
+        ],
+        [
+          271,
+          272
+        ],
+        [
+          335,
+          335
+        ],
+        [
+          353,
+          353
+        ],
+        [
+          391,
+          391
+        ],
+        [
+          411,
+          411
+        ]
+      ]
+    },
+    "product_origin_top": {
+      "Apricot": {
+        "SOUTH AFRICA": 2
+      },
+      "Artichoke": {
+        "SPAIN": 1
+      },
+      "Artichoke Heart": {
+        "PERU": 1
+      },
+      "Asparagus": {
+        "CHINA": 2,
+        "PERU": 4
+      },
+      "Bamboo Shoot": {
+        "THAILAND": 4
+      },
+      "Bean": {
+        "UNITED STATES": 1
+      },
+      "Bean - Green/Yellow": {
+        "CANADA": 7,
+        "UNITED STATES": 2,
+        "UNKNOWN": 1
+      },
+      "Bean - wax": {
+        "UNITED STATES": 1,
+        "UNKNOWN": 1
+      },
+      "Beet": {
+        "UNITED STATES": 5
+      },
+      "Beverage - Fruit": {
+        "CANADA": 5,
+        "KOREA, REPUBLIC OF": 3,
+        "PHILIPPINES": 2,
+        "THAILAND": 4,
+        "UNITED STATES": 2,
+        "UNKNOWN": 5
+      },
+      "Beverage - Other": {
+        "THAILAND": 18,
+        "VIETNAM": 1
+      },
+      "Beverage - Sport": {
+        "THAILAND": 12,
+        "UNKNOWN": 7
+      },
+      "Carrot": {
+        "BELGIUM": 2,
+        "CANADA": 1,
+        "UNITED STATES": 1
+      },
+      "Coconut Milk": {
+        "SRI LANKA": 1,
+        "THAILAND": 13
+      },
+      "Corn": {
+        "CANADA": 2,
+        "THAILAND": 4,
+        "UNITED STATES": 1
+      },
+      "Energy Drink": {
+        "CANADA": 1,
+        "UNKNOWN": 20
+      },
+      "Grapefruit": {
+        "SWAZILAND": 1
+      },
+      "Infant Formula - Dairy": {
+        "IRELAND": 1,
+        "UNITED STATES": 53,
+        "UNKNOWN": 6
+      },
+      "Infant Formula - Soy": {
+        "UNITED STATES": 12,
+        "UNKNOWN": 2
+      },
+      "JackFruit": {
+        "THAILAND": 1
+      },
+      "Juice - Apple": {
+        "CANADA": 7,
+        "UNKNOWN": 2
+      },
+      "Juice - Blend": {
+        "CANADA": 2,
+        "PHILIPPINES": 1
+      },
+      "Juice - Orange": {
+        "UNKNOWN": 1
+      },
+      "Juice - Other": {
+        "PHILIPPINES": 11
+      },
+      "Juice - Tomato": {
+        "CANADA": 4
+      },
+      "Juice - Vegetable": {
+        "UNITED STATES": 2
+      },
+      "Lychee": {
+        "CHINA": 1
+      },
+      "Mango": {
+        "THAILAND": 1
+      },
+      "Mixed Fruit": {
+        "CHINA": 3,
+        "GREECE": 2,
+        "SOUTH AFRICA": 8,
+        "THAILAND": 1,
+        "UNITED STATES": 11
+      },
+      "Mixed Vegetables": {
+        "CANADA": 2,
+        "UNITED STATES": 2,
+        "UNKNOWN": 5
+      },
+      "Mushroom": {
+        "CHINA": 6,
+        "NETHERLANDS": 1
+      },
+      "Nectar - Guava": {
+        "UNKNOWN": 1
+      },
+      "Nectar - Mango": {
+        "MEXICO": 1,
+        "PHILIPPINES": 1
+      },
+      "Nectar - Other": {
+        "PHILIPPINES": 1
+      },
+      "Orange": {
+        "CHINA": 2
+      },
+      "Pasta - Canned": {
+        "CANADA": 4,
+        "UNITED STATES": 14,
+        "UNKNOWN": 31
+      },
+      "Pea": {
+        "CANADA": 7,
+        "UNITED STATES": 1,
+        "UNKNOWN": 2
+      },
+      "Peach": {
+        "UNITED STATES": 5
+      },
+      "Pear": {
+        "CHINA": 3,
+        "SOUTH AFRICA": 1,
+        "UNITED STATES": 3
+      },
+      "Pie Filling - Blueberry": {
+        "UNITED STATES": 5
+      },
+      "Pie Filling - Cherry": {
+        "UNITED STATES": 5
+      },
+      "Pie Filling - Other": {
+        "UNITED STATES": 4
+      },
+      "Pie Filling - Pumpkin": {
+        "UNITED STATES": 3,
+        "UNKNOWN": 2
+      },
+      "Pie Filling - apple": {
+        "UNITED STATES": 1
+      },
+      "Pineapple": {
+        "THAILAND": 4
+      },
+      "Pineapple - Organic": {
+        "SRI LANKA": 1
+      },
+      "Sauces": {
+        "CANADA": 4,
+        "THAILAND": 2,
+        "UNKNOWN": 8
+      },
+      "Soft Drink": {
+        "CANADA": 3,
+        "UNKNOWN": 17
+      },
+      "Soup": {
+        "CANADA": 28,
+        "UNITED STATES": 4,
+        "UNKNOWN": 16
+      },
+      "Spinach": {
+        "UNITED STATES": 4
+      },
+      "Tomato Sauce": {
+        "CANADA": 1
+      },
+      "Yam": {
+        "CANADA": 1
+      },
+      "juice - pineapple": {
+        "PHILIPPINES": 15
+      }
+    },
+    "products": {
+      "Apricot": 2,
+      "Artichoke": 1,
+      "Artichoke Heart": 1,
+      "Asparagus": 6,
+      "Bamboo Shoot": 4,
+      "Bean": 1,
+      "Bean - Green/Yellow": 10,
+      "Bean - wax": 2,
+      "Beet": 5,
+      "Beverage - Fruit": 21,
+      "Beverage - Other": 19,
+      "Beverage - Sport": 19,
+      "Carrot": 4,
+      "Coconut Milk": 14,
+      "Corn": 7,
+      "Energy Drink": 21,
+      "Grapefruit": 1,
+      "Infant Formula - Dairy": 60,
+      "Infant Formula - Soy": 14,
+      "JackFruit": 1,
+      "Juice - Apple": 9,
+      "Juice - Blend": 3,
+      "Juice - Orange": 1,
+      "Juice - Other": 11,
+      "Juice - Tomato": 4,
+      "Juice - Vegetable": 2,
+      "Lychee": 1,
+      "Mango": 1,
+      "Mixed Fruit": 25,
+      "Mixed Vegetables": 9,
+      "Mushroom": 7,
+      "Nectar - Guava": 1,
+      "Nectar - Mango": 2,
+      "Nectar - Other": 1,
+      "Orange": 2,
+      "Pasta - Canned": 49,
+      "Pea": 10,
+      "Peach": 5,
+      "Pear": 7,
+      "Pie Filling - Blueberry": 5,
+      "Pie Filling - Cherry": 5,
+      "Pie Filling - Other": 4,
+      "Pie Filling - Pumpkin": 5,
+      "Pie Filling - apple": 1,
+      "Pineapple": 4,
+      "Pineapple - Organic": 1,
+      "Sauces": 14,
+      "Soft Drink": 20,
+      "Soup": 48,
+      "Spinach": 4,
+      "Tomato Sauce": 1,
+      "Yam": 1,
+      "juice - pineapple": 15
+    },
+    "regions": {
+      "ATLANTIC": 124,
+      "ONTARIO": 780,
+      "QUEBEC": 452,
+      "WEST": 608
+    },
+    "repeated_component_samples": {},
+    "rows": 1964,
+    "rows_per_sample": {
+      "4": 491
+    },
+    "samples": 491,
+    "shapes": {
+      "number": 1964
+    },
+    "shapes_by_component": {
+      "Bisphenol A": {
+        "number": 491
+      },
+      "Bisphenol A Diglycidyl Ether": {
+        "number": 491
+      },
+      "Bisphenol F": {
+        "number": 491
+      },
+      "Bisphenol S": {
+        "number": 491
+      }
+    },
+    "tests": {
+      "BPA": 1964
+    },
+    "tokens": {},
+    "units": {
+      "µg/g": 1964
+    },
+    "units_by_component": {
+      "Bisphenol A": {
+        "µg/g": 491
+      },
+      "Bisphenol A Diglycidyl Ether": {
+        "µg/g": 491
+      },
+      "Bisphenol F": {
+        "µg/g": 491
+      },
+      "Bisphenol S": {
+        "µg/g": 491
+      }
+    }
+  },
+  "columns": {
+    "columns": [
+      {
+        "distinct_text": 0,
+        "name": "Sample No. – No. d’échantillon",
+        "sample_column": true,
+        "shapes": {
+          "token": 1964
+        },
+        "text_rows": {},
+        "text_samples": {},
+        "value_like": false
+      },
+      {
+        "distinct_text": 4,
+        "name": "Region - Région",
+        "sample_column": false,
+        "shapes": {
+          "token": 1964
+        },
+        "text_rows": {
+          "ATLANTIC": 124,
+          "ONTARIO": 780,
+          "QUEBEC": 452,
+          "WEST": 608
+        },
+        "text_samples": {
+          "ATLANTIC": 31,
+          "ONTARIO": 195,
+          "QUEBEC": 113,
+          "WEST": 152
+        },
+        "value_like": false
+      },
+      {
+        "distinct_text": 3,
+        "name": "Function",
+        "sample_column": false,
+        "shapes": {
+          "token": 1964
+        },
+        "text_rows": {
+          "Domestic": 316,
+          "Import": 1200,
+          "Unknown": 448
+        },
+        "text_samples": {
+          "Domestic": 79,
+          "Import": 300,
+          "Unknown": 112
+        },
+        "value_like": false
+      },
+      {
+        "distinct_text": 3,
+        "name": "Fonction",
+        "sample_column": false,
+        "shapes": {
+          "token": 1964
+        },
+        "text_rows": {
+          "domestique": 316,
+          "importé": 1200,
+          "inconnu": 448
+        },
+        "text_samples": {
+          "domestique": 79,
+          "importé": 300,
+          "inconnu": 112
+        },
+        "value_like": false
+      },
+      {
+        "distinct_text": 18,
+        "name": "Origin",
+        "sample_column": false,
+        "shapes": {
+          "token": 1964
+        },
+        "text_rows": {
+          "BELGIUM": 8,
+          "CANADA": 316,
+          "CHINA": 68,
+          "GREECE": 8,
+          "IRELAND": 4,
+          "KOREA, REPUBLIC OF": 12,
+          "MEXICO": 4,
+          "NETHERLANDS": 4,
+          "PERU": 20,
+          "PHILIPPINES": 124,
+          "SOUTH AFRICA": 44,
+          "SPAIN": 4,
+          "SRI LANKA": 8,
+          "SWAZILAND": 4,
+          "THAILAND": 256,
+          "UNITED STATES": 568,
+          "UNKNOWN": 508,
+          "VIETNAM": 4
+        },
+        "text_samples": {
+          "BELGIUM": 2,
+          "CANADA": 79,
+          "CHINA": 17,
+          "GREECE": 2,
+          "IRELAND": 1,
+          "KOREA, REPUBLIC OF": 3,
+          "MEXICO": 1,
+          "NETHERLANDS": 1,
+          "PERU": 5,
+          "PHILIPPINES": 31,
+          "SOUTH AFRICA": 11,
+          "SPAIN": 1,
+          "SRI LANKA": 2,
+          "SWAZILAND": 1,
+          "THAILAND": 64,
+          "UNITED STATES": 142,
+          "UNKNOWN": 127,
+          "VIETNAM": 1
+        },
+        "value_like": false
+      },
+      {
+        "distinct_text": 18,
+        "name": "Origine",
+        "sample_column": false,
+        "shapes": {
+          "token": 1964
+        },
+        "text_rows": {
+          "AFRIQUE DU SUD": 44,
+          "BELGIQUE": 8,
+          "CANADA": 316,
+          "CHINE": 68,
+          "CORÉE, RÉPUBLIQUE DE": 12,
+          "ESPAGNE": 4,
+          "GRÈCE": 8,
+          "INCONNU": 508,
+          "IRLANDE": 4,
+          "MEXIQUE": 4,
+          "PAYS-BAS": 4,
+          "PHILIPPINES": 124,
+          "PÉROU": 20,
+          "SRI LANKA": 8,
+          "SWAZILAND": 4,
+          "THAÏLANDE": 256,
+          "VIETNAM": 4,
+          "ÉTATS-UNIS": 568
+        },
+        "text_samples": {
+          "AFRIQUE DU SUD": 11,
+          "BELGIQUE": 2,
+          "CANADA": 79,
+          "CHINE": 17,
+          "CORÉE, RÉPUBLIQUE DE": 3,
+          "ESPAGNE": 1,
+          "GRÈCE": 2,
+          "INCONNU": 127,
+          "IRLANDE": 1,
+          "MEXIQUE": 1,
+          "PAYS-BAS": 1,
+          "PHILIPPINES": 31,
+          "PÉROU": 5,
+          "SRI LANKA": 2,
+          "SWAZILAND": 1,
+          "THAÏLANDE": 64,
+          "VIETNAM": 1,
+          "ÉTATS-UNIS": 142
+        },
+        "value_like": false
+      },
+      {
+        "distinct_text": 53,
+        "name": "Product",
+        "sample_column": false,
+        "shapes": {
+          "token": 1964
+        },
+        "text_rows": {
+          "Apricot": 8,
+          "Artichoke": 4,
+          "Artichoke Heart": 4,
+          "Asparagus": 24,
+          "Bamboo Shoot": 16,
+          "Bean": 4,
+          "Bean - Green/Yellow": 40,
+          "Bean - wax": 8,
+          "Beet": 20,
+          "Beverage - Fruit": 84,
+          "Beverage - Other": 76,
+          "Beverage - Sport": 76,
+          "Carrot": 16,
+          "Coconut Milk": 56,
+          "Corn": 28,
+          "Energy Drink": 84,
+          "Grapefruit": 4,
+          "Infant Formula - Dairy": 240,
+          "Infant Formula - Soy": 56,
+          "JackFruit": 4,
+          "Juice - Apple": 36,
+          "Juice - Blend": 12,
+          "Juice - Orange": 4,
+          "Juice - Other": 44,
+          "Juice - Tomato": 16,
+          "Juice - Vegetable": 8,
+          "Lychee": 4,
+          "Mango": 4,
+          "Mixed Fruit": 100,
+          "Mixed Vegetables": 36,
+          "Mushroom": 28,
+          "Nectar - Guava": 4,
+          "Nectar - Mango": 8,
+          "Nectar - Other": 4,
+          "Orange": 8,
+          "Pasta - Canned": 196,
+          "Pea": 40,
+          "Peach": 20,
+          "Pear": 28,
+          "Pie Filling - Blueberry": 20,
+          "Pie Filling - Cherry": 20,
+          "Pie Filling - Other": 16,
+          "Pie Filling - Pumpkin": 20,
+          "Pie Filling - apple": 4,
+          "Pineapple": 16,
+          "Pineapple - Organic": 4,
+          "Sauces": 56,
+          "Soft Drink": 80,
+          "Soup": 192,
+          "Spinach": 16,
+          "Tomato Sauce": 4,
+          "Yam": 4,
+          "juice - pineapple": 60
+        },
+        "text_samples": {
+          "Apricot": 2,
+          "Artichoke": 1,
+          "Artichoke Heart": 1,
+          "Asparagus": 6,
+          "Bamboo Shoot": 4,
+          "Bean": 1,
+          "Bean - Green/Yellow": 10,
+          "Bean - wax": 2,
+          "Beet": 5,
+          "Beverage - Fruit": 21,
+          "Beverage - Other": 19,
+          "Beverage - Sport": 19,
+          "Carrot": 4,
+          "Coconut Milk": 14,
+          "Corn": 7,
+          "Energy Drink": 21,
+          "Grapefruit": 1,
+          "Infant Formula - Dairy": 60,
+          "Infant Formula - Soy": 14,
+          "JackFruit": 1,
+          "Juice - Apple": 9,
+          "Juice - Blend": 3,
+          "Juice - Orange": 1,
+          "Juice - Other": 11,
+          "Juice - Tomato": 4,
+          "Juice - Vegetable": 2,
+          "Lychee": 1,
+          "Mango": 1,
+          "Mixed Fruit": 25,
+          "Mixed Vegetables": 9,
+          "Mushroom": 7,
+          "Nectar - Guava": 1,
+          "Nectar - Mango": 2,
+          "Nectar - Other": 1,
+          "Orange": 2,
+          "Pasta - Canned": 49,
+          "Pea": 10,
+          "Peach": 5,
+          "Pear": 7,
+          "Pie Filling - Blueberry": 5,
+          "Pie Filling - Cherry": 5,
+          "Pie Filling - Other": 4,
+          "Pie Filling - Pumpkin": 5,
+          "Pie Filling - apple": 1,
+          "Pineapple": 4,
+          "Pineapple - Organic": 1,
+          "Sauces": 14,
+          "Soft Drink": 20,
+          "Soup": 48,
+          "Spinach": 4,
+          "Tomato Sauce": 1,
+          "Yam": 1,
+          "juice - pineapple": 15
+        },
+        "value_like": false
+      },
+      {
+        "distinct_text": 53,
+        "name": "Produit",
+        "sample_column": false,
+        "shapes": {
+          "token": 1964
+        },
+        "text_rows": {
+          "Abricot": 8,
+          "Ananas": 16,
+          "Ananas-Biologique": 4,
+          "Artichaut": 4,
+          "Asperge": 24,
+          "Betterave": 20,
+          "Boisson - Fruits": 84,
+          "Boisson - Sport": 76,
+          "Boisson gazeuse": 80,
+          "Boisson énergisante": 84,
+          "Boisson-Autre": 76,
+          "Carotte": 16,
+          "Champignon": 28,
+          "Coeur d'artichaut": 4,
+          "Fruits mélangés": 100,
+          "Garniture pour tarte - Autre": 16,
+          "Garniture pour tarte - Bleuet": 20,
+          "Garniture pour tarte - Cerise": 20,
+          "Garniture pour tarte - Citrouille": 20,
+          "Haricot": 4,
+          "Haricot jaune": 8,
+          "Haricot vert/jaune": 40,
+          "Igname": 4,
+          "Jaquier": 4,
+          "Jus - autre": 44,
+          "Jus d'ananas": 60,
+          "Jus d'orange": 4,
+          "Jus de légumes": 8,
+          "Jus de pomme": 36,
+          "Jus de tomate": 16,
+          "Lait de coco": 56,
+          "Litchi": 4,
+          "Légumes mélangés": 36,
+          "Mangue": 4,
+          "Maïs": 28,
+          "Mélange de jus": 12,
+          "Nectar - Autre": 4,
+          "Nectar de goyave": 4,
+          "Nectar de mangue": 8,
+          "Orange": 8,
+          "Pamplemousse": 4,
+          "Pie Filling - pomme": 4,
+          "Poire": 28,
+          "Pois": 40,
+          "Pousse de bambou": 16,
+          "Préparation pour nourrissons - Laitier": 240,
+          "Préparation pour nourrissons - Soja": 56,
+          "Pâtes en conserve": 196,
+          "Pêche": 20,
+          "Sauce tomate": 4,
+          "Sauces": 56,
+          "Soupe": 192,
+          "Épinard": 16
+        },
+        "text_samples": {
+          "Abricot": 2,
+          "Ananas": 4,
+          "Ananas-Biologique": 1,
+          "Artichaut": 1,
+          "Asperge": 6,
+          "Betterave": 5,
+          "Boisson - Fruits": 21,
+          "Boisson - Sport": 19,
+          "Boisson gazeuse": 20,
+          "Boisson énergisante": 21,
+          "Boisson-Autre": 19,
+          "Carotte": 4,
+          "Champignon": 7,
+          "Coeur d'artichaut": 1,
+          "Fruits mélangés": 25,
+          "Garniture pour tarte - Autre": 4,
+          "Garniture pour tarte - Bleuet": 5,
+          "Garniture pour tarte - Cerise": 5,
+          "Garniture pour tarte - Citrouille": 5,
+          "Haricot": 1,
+          "Haricot jaune": 2,
+          "Haricot vert/jaune": 10,
+          "Igname": 1,
+          "Jaquier": 1,
+          "Jus - autre": 11,
+          "Jus d'ananas": 15,
+          "Jus d'orange": 1,
+          "Jus de légumes": 2,
+          "Jus de pomme": 9,
+          "Jus de tomate": 4,
+          "Lait de coco": 14,
+          "Litchi": 1,
+          "Légumes mélangés": 9,
+          "Mangue": 1,
+          "Maïs": 7,
+          "Mélange de jus": 3,
+          "Nectar - Autre": 1,
+          "Nectar de goyave": 1,
+          "Nectar de mangue": 2,
+          "Orange": 2,
+          "Pamplemousse": 1,
+          "Pie Filling - pomme": 1,
+          "Poire": 7,
+          "Pois": 10,
+          "Pousse de bambou": 4,
+          "Préparation pour nourrissons - Laitier": 60,
+          "Préparation pour nourrissons - Soja": 14,
+          "Pâtes en conserve": 49,
+          "Pêche": 5,
+          "Sauce tomate": 1,
+          "Sauces": 14,
+          "Soupe": 48,
+          "Épinard": 4
+        },
+        "value_like": false
+      },
+      {
+        "distinct_text": 143,
+        "name": "Date Sampled – Date d’échantillonage",
+        "sample_column": false,
+        "shapes": {
+          "token": 1964
+        },
+        "text_rows": {
+          "01-Aug-16": 24,
+          "01-Dec-16": 4,
+          "01-Feb-17": 24,
+          "01-Jan-17": 4,
+          "01-Nov-16": 36,
+          "01-Oct-16": 20,
+          "01-Sep-16": 8,
+          "02-Aug-16": 24,
+          "02-Dec-16": 24,
+          "02-Jan-17": 24,
+          "02-Jul-16": 28,
+          "02-May-16": 28,
+          "02-Nov-16": 28,
+          "02-Sep-16": 8,
+          "03-Dec-16": 4,
+          "03-Feb-17": 24,
+          "03-Jan-17": 48,
+          "03-May-16": 8,
+          "03-Nov-16": 12,
+          "03-Sep-16": 40,
+          "04-Feb-17": 12,
+          "04-Jul-16": 40,
+          "04-Jun-16": 16,
+          "04-May-16": 32,
+          "04-Nov-16": 12,
+          "04-Oct-16": 56,
+          "04-Sep-16": 20,
+          "05-Dec-16": 12,
+          "05-Jan-17": 24,
+          "05-Jul-16": 4,
+          "05-Oct-16": 4,
+          "05-Sep-16": 8,
+          "06-Aug-16": 28,
+          "06-Feb-17": 4,
+          "06-Jun-16": 20,
+          "06-Mar-17": 4,
+          "06-May-16": 8,
+          "06-Sep-16": 4,
+          "07-Aug-16": 4,
+          "07-Dec-16": 4,
+          "07-Feb-17": 4,
+          "07-Jun-16": 8,
+          "07-May-16": 24,
+          "07-Nov-16": 32,
+          "08-Aug-16": 36,
+          "08-Dec-16": 4,
+          "08-Jun-16": 4,
+          "08-May-16": 8,
+          "08-Sep-16": 8,
+          "09-Aug-16": 4,
+          "09-Jan-17": 12,
+          "09-Jul-16": 8,
+          "09-May-16": 12,
+          "09-Oct-16": 28,
+          "09-Sep-16": 4,
+          "10-Feb-17": 28,
+          "10-Jan-17": 8,
+          "10-Jul-16": 16,
+          "10-Jun-16": 8,
+          "10-May-16": 4,
+          "10-Sep-16": 16,
+          "11-Jan-17": 4,
+          "11-Jul-16": 32,
+          "11-Nov-16": 4,
+          "11-Oct-16": 8,
+          "12-Dec-16": 20,
+          "12-Feb-17": 8,
+          "12-Jan-17": 8,
+          "12-Jul-16": 4,
+          "12-Jun-16": 28,
+          "12-Oct-16": 4,
+          "12-Sep-16": 24,
+          "13-Aug-16": 4,
+          "13-Feb-17": 48,
+          "13-Jul-16": 12,
+          "13-Jun-16": 32,
+          "13-Nov-16": 8,
+          "13-Oct-16": 8,
+          "14-Feb-17": 12,
+          "14-Jan-17": 8,
+          "14-May-16": 12,
+          "15-Aug-16": 16,
+          "15-Feb-17": 12,
+          "15-Jan-17": 16,
+          "16-Jun-16": 8,
+          "16-Nov-16": 16,
+          "16-Oct-16": 16,
+          "17-Sep-16": 8,
+          "18-Feb-17": 8,
+          "18-Jan-17": 16,
+          "18-Jul-16": 12,
+          "19-Nov-16": 20,
+          "19-Sep-16": 28,
+          "20-Feb-17": 8,
+          "20-Nov-16": 12,
+          "21-Jun-16": 8,
+          "21-Sep-16": 12,
+          "22-Aug-16": 12,
+          "23-Jan-17": 12,
+          "23-Jun-16": 12,
+          "23-Nov-16": 8,
+          "23-Oct-16": 8,
+          "24-Aug-16": 36,
+          "24-Jan-17": 8,
+          "24-May-16": 8,
+          "24-Oct-16": 32,
+          "25-Feb-17": 8,
+          "25-Jan-17": 12,
+          "26-Apr-16": 8,
+          "26-Feb-17": 8,
+          "26-Jun-16": 8,
+          "27-Jul-16": 8,
+          "27-Jun-16": 8,
+          "27-Nov-16": 40,
+          "28-Nov-16": 60,
+          "28-Sep-16": 8,
+          "29-Apr-16": 16,
+          "29-Aug-16": 8,
+          "30-Nov-16": 8,
+          "30-Sep-16": 20
+        },
+        "text_samples": {
+          "01-Aug-16": 6,
+          "01-Dec-16": 1,
+          "01-Feb-17": 6,
+          "01-Jan-17": 1,
+          "01-Nov-16": 9,
+          "01-Oct-16": 5,
+          "01-Sep-16": 2,
+          "02-Aug-16": 6,
+          "02-Dec-16": 6,
+          "02-Jan-17": 6,
+          "02-Jul-16": 7,
+          "02-May-16": 7,
+          "02-Nov-16": 7,
+          "02-Sep-16": 2,
+          "03-Dec-16": 1,
+          "03-Feb-17": 6,
+          "03-Jan-17": 12,
+          "03-May-16": 2,
+          "03-Nov-16": 3,
+          "03-Sep-16": 10,
+          "04-Feb-17": 3,
+          "04-Jul-16": 10,
+          "04-Jun-16": 4,
+          "04-May-16": 8,
+          "04-Nov-16": 3,
+          "04-Oct-16": 14,
+          "04-Sep-16": 5,
+          "05-Dec-16": 3,
+          "05-Jan-17": 6,
+          "05-Jul-16": 1,
+          "05-Oct-16": 1,
+          "05-Sep-16": 2,
+          "06-Aug-16": 7,
+          "06-Feb-17": 1,
+          "06-Jun-16": 5,
+          "06-Mar-17": 1,
+          "06-May-16": 2,
+          "06-Sep-16": 1,
+          "07-Aug-16": 1,
+          "07-Dec-16": 1,
+          "07-Feb-17": 1,
+          "07-Jun-16": 2,
+          "07-May-16": 6,
+          "07-Nov-16": 8,
+          "08-Aug-16": 9,
+          "08-Dec-16": 1,
+          "08-Jun-16": 1,
+          "08-May-16": 2,
+          "08-Sep-16": 2,
+          "09-Aug-16": 1,
+          "09-Jan-17": 3,
+          "09-Jul-16": 2,
+          "09-May-16": 3,
+          "09-Oct-16": 7,
+          "09-Sep-16": 1,
+          "10-Feb-17": 7,
+          "10-Jan-17": 2,
+          "10-Jul-16": 4,
+          "10-Jun-16": 2,
+          "10-May-16": 1,
+          "10-Sep-16": 4,
+          "11-Jan-17": 1,
+          "11-Jul-16": 8,
+          "11-Nov-16": 1,
+          "11-Oct-16": 2,
+          "12-Dec-16": 5,
+          "12-Feb-17": 2,
+          "12-Jan-17": 2,
+          "12-Jul-16": 1,
+          "12-Jun-16": 7,
+          "12-Oct-16": 1,
+          "12-Sep-16": 6,
+          "13-Aug-16": 1,
+          "13-Feb-17": 12,
+          "13-Jul-16": 3,
+          "13-Jun-16": 8,
+          "13-Nov-16": 2,
+          "13-Oct-16": 2,
+          "14-Feb-17": 3,
+          "14-Jan-17": 2,
+          "14-May-16": 3,
+          "15-Aug-16": 4,
+          "15-Feb-17": 3,
+          "15-Jan-17": 4,
+          "16-Jun-16": 2,
+          "16-Nov-16": 4,
+          "16-Oct-16": 4,
+          "17-Sep-16": 2,
+          "18-Feb-17": 2,
+          "18-Jan-17": 4,
+          "18-Jul-16": 3,
+          "19-Nov-16": 5,
+          "19-Sep-16": 7,
+          "20-Feb-17": 2,
+          "20-Nov-16": 3,
+          "21-Jun-16": 2,
+          "21-Sep-16": 3,
+          "22-Aug-16": 3,
+          "23-Jan-17": 3,
+          "23-Jun-16": 3,
+          "23-Nov-16": 2,
+          "23-Oct-16": 2,
+          "24-Aug-16": 9,
+          "24-Jan-17": 2,
+          "24-May-16": 2,
+          "24-Oct-16": 8,
+          "25-Feb-17": 2,
+          "25-Jan-17": 3,
+          "26-Apr-16": 2,
+          "26-Feb-17": 2,
+          "26-Jun-16": 2,
+          "27-Jul-16": 2,
+          "27-Jun-16": 2,
+          "27-Nov-16": 10,
+          "28-Nov-16": 15,
+          "28-Sep-16": 2,
+          "29-Apr-16": 4,
+          "29-Aug-16": 2,
+          "30-Nov-16": 2,
+          "30-Sep-16": 5
+        },
+        "value_like": false
+      },
+      {
+        "distinct_text": 1,
+        "name": "Type of Test",
+        "sample_column": false,
+        "shapes": {
+          "token": 1964
+        },
+        "text_rows": {
+          "BPA": 1964
+        },
+        "text_samples": {
+          "BPA": 491
+        },
+        "value_like": false
+      },
+      {
+        "distinct_text": 1,
+        "name": "Type d’analyse",
+        "sample_column": false,
+        "shapes": {
+          "token": 1964
+        },
+        "text_rows": {
+          "BISPHÉNOL A": 1964
+        },
+        "text_samples": {
+          "BISPHÉNOL A": 491
+        },
+        "value_like": false
+      },
+      {
+        "distinct_text": 4,
+        "name": "Component",
+        "sample_column": false,
+        "shapes": {
+          "token": 1964
+        },
+        "text_rows": {
+          "Bisphenol A": 491,
+          "Bisphenol A Diglycidyl Ether": 491,
+          "Bisphenol F": 491,
+          "Bisphenol S": 491
+        },
+        "text_samples": {
+          "Bisphenol A": 491,
+          "Bisphenol A Diglycidyl Ether": 491,
+          "Bisphenol F": 491,
+          "Bisphenol S": 491
+        },
+        "value_like": false
+      },
+      {
+        "distinct_text": 4,
+        "name": "Composant",
+        "sample_column": false,
+        "shapes": {
+          "token": 1964
+        },
+        "text_rows": {
+          "Bisphénol A": 491,
+          "Bisphénol F": 491,
+          "Bisphénol S": 491,
+          "Éther diglycidylique de bisphénol A": 491
+        },
+        "text_samples": {
+          "Bisphénol A": 491,
+          "Bisphénol F": 491,
+          "Bisphénol S": 491,
+          "Éther diglycidylique de bisphénol A": 491
+        },
+        "value_like": false
+      },
+      {
+        "distinct_text": 0,
+        "name": "Result - Résultat",
+        "sample_column": false,
+        "shapes": {
+          "number": 1964
+        },
+        "text_rows": {},
+        "text_samples": {},
+        "value_like": true
+      },
+      {
+        "distinct_text": 1,
+        "name": "Report Unit - Unité de rapport",
+        "sample_column": false,
+        "shapes": {
+          "token": 1964
+        },
+        "text_rows": {
+          "µg/g": 1964
+        },
+        "text_samples": {
+          "µg/g": 491
+        },
+        "value_like": false
+      },
+      {
+        "distinct_text": 1,
+        "name": "Plan Code - Code du régime",
+        "sample_column": false,
+        "shapes": {
+          "token": 1964
+        },
+        "text_rows": {
+          "2016_SB451": 1964
+        },
+        "text_samples": {
+          "2016_SB451": 491
+        },
+        "value_like": false
+      },
+      {
+        "distinct_text": 0,
+        "name": "",
+        "sample_column": false,
+        "shapes": {
+          "blank": 1964
+        },
+        "text_rows": {},
+        "text_samples": {},
+        "value_like": false
+      },
+      {
+        "distinct_text": 0,
+        "name": "",
+        "sample_column": false,
+        "shapes": {
+          "blank": 1964
+        },
+        "text_rows": {},
+        "text_samples": {},
+        "value_like": false
+      },
+      {
+        "distinct_text": 0,
+        "name": "",
+        "sample_column": false,
+        "shapes": {
+          "blank": 1964
+        },
+        "text_rows": {},
+        "text_samples": {},
+        "value_like": false
+      },
+      {
+        "distinct_text": 0,
+        "name": "",
+        "sample_column": false,
+        "shapes": {
+          "blank": 1964
+        },
+        "text_rows": {},
+        "text_samples": {},
+        "value_like": false
+      },
+      {
+        "distinct_text": 0,
+        "name": "",
+        "sample_column": false,
+        "shapes": {
+          "blank": 1964
+        },
+        "text_rows": {},
+        "text_samples": {},
+        "value_like": false
+      },
+      {
+        "distinct_text": 0,
+        "name": "",
+        "sample_column": false,
+        "shapes": {
+          "blank": 1964
+        },
+        "text_rows": {},
+        "text_samples": {},
+        "value_like": false
+      },
+      {
+        "distinct_text": 0,
+        "name": "",
+        "sample_column": false,
+        "shapes": {
+          "blank": 1964
+        },
+        "text_rows": {},
+        "text_samples": {},
+        "value_like": false
+      },
+      {
+        "distinct_text": 0,
+        "name": "",
+        "sample_column": false,
+        "shapes": {
+          "blank": 1964
+        },
+        "text_rows": {},
+        "text_samples": {},
+        "value_like": false
+      },
+      {
+        "distinct_text": 0,
+        "name": "",
+        "sample_column": false,
+        "shapes": {
+          "blank": 1964
+        },
+        "text_rows": {},
+        "text_samples": {},
+        "value_like": false
+      },
+      {
+        "distinct_text": 0,
+        "name": "",
+        "sample_column": false,
+        "shapes": {
+          "blank": 1964
+        },
+        "text_rows": {},
+        "text_samples": {},
+        "value_like": false
+      },
+      {
+        "distinct_text": 0,
+        "name": "",
+        "sample_column": false,
+        "shapes": {
+          "blank": 1964
+        },
+        "text_rows": {},
+        "text_samples": {},
+        "value_like": false
+      },
+      {
+        "distinct_text": 0,
+        "name": "",
+        "sample_column": false,
+        "shapes": {
+          "blank": 1964
+        },
+        "text_rows": {},
+        "text_samples": {},
+        "value_like": false
+      },
+      {
+        "distinct_text": 0,
+        "name": "",
+        "sample_column": false,
+        "shapes": {
+          "blank": 1964
+        },
+        "text_rows": {},
+        "text_samples": {},
+        "value_like": false
+      },
+      {
+        "distinct_text": 0,
+        "name": "",
+        "sample_column": false,
+        "shapes": {
+          "blank": 1964
+        },
+        "text_rows": {},
+        "text_samples": {},
+        "value_like": false
+      },
+      {
+        "distinct_text": 0,
+        "name": "",
+        "sample_column": false,
+        "shapes": {
+          "blank": 1964
+        },
+        "text_rows": {},
+        "text_samples": {},
+        "value_like": false
+      },
+      {
+        "distinct_text": 0,
+        "name": "",
+        "sample_column": false,
+        "shapes": {
+          "blank": 1964
+        },
+        "text_rows": {},
+        "text_samples": {},
+        "value_like": false
+      },
+      {
+        "distinct_text": 0,
+        "name": "",
+        "sample_column": false,
+        "shapes": {
+          "blank": 1964
+        },
+        "text_rows": {},
+        "text_samples": {},
+        "value_like": false
+      },
+      {
+        "distinct_text": 0,
+        "name": "",
+        "sample_column": false,
+        "shapes": {
+          "blank": 1964
+        },
+        "text_rows": {},
+        "text_samples": {},
+        "value_like": false
+      },
+      {
+        "distinct_text": 0,
+        "name": "",
+        "sample_column": false,
+        "shapes": {
+          "blank": 1964
+        },
+        "text_rows": {},
+        "text_samples": {},
+        "value_like": false
+      },
+      {
+        "distinct_text": 0,
+        "name": "",
+        "sample_column": false,
+        "shapes": {
+          "blank": 1964
+        },
+        "text_rows": {},
+        "text_samples": {},
+        "value_like": false
+      },
+      {
+        "distinct_text": 0,
+        "name": "",
+        "sample_column": false,
+        "shapes": {
+          "blank": 1964
+        },
+        "text_rows": {},
+        "text_samples": {},
+        "value_like": false
+      },
+      {
+        "distinct_text": 0,
+        "name": "",
+        "sample_column": false,
+        "shapes": {
+          "blank": 1964
+        },
+        "text_rows": {},
+        "text_samples": {},
+        "value_like": false
+      },
+      {
+        "distinct_text": 0,
+        "name": "",
+        "sample_column": false,
+        "shapes": {
+          "blank": 1964
+        },
+        "text_rows": {},
+        "text_samples": {},
+        "value_like": false
+      },
+      {
+        "distinct_text": 0,
+        "name": "",
+        "sample_column": false,
+        "shapes": {
+          "blank": 1964
+        },
+        "text_rows": {},
+        "text_samples": {},
+        "value_like": false
+      },
+      {
+        "distinct_text": 0,
+        "name": "",
+        "sample_column": false,
+        "shapes": {
+          "blank": 1964
+        },
+        "text_rows": {},
+        "text_samples": {},
+        "value_like": false
+      },
+      {
+        "distinct_text": 0,
+        "name": "",
+        "sample_column": false,
+        "shapes": {
+          "blank": 1964
+        },
+        "text_rows": {},
+        "text_samples": {},
+        "value_like": false
+      },
+      {
+        "distinct_text": 0,
+        "name": "",
+        "sample_column": false,
+        "shapes": {
+          "blank": 1964
+        },
+        "text_rows": {},
+        "text_samples": {},
+        "value_like": false
+      },
+      {
+        "distinct_text": 0,
+        "name": "",
+        "sample_column": false,
+        "shapes": {
+          "blank": 1964
+        },
+        "text_rows": {},
+        "text_samples": {},
+        "value_like": false
+      },
+      {
+        "distinct_text": 0,
+        "name": "",
+        "sample_column": false,
+        "shapes": {
+          "blank": 1964
+        },
+        "text_rows": {},
+        "text_samples": {},
+        "value_like": false
+      },
+      {
+        "distinct_text": 0,
+        "name": "",
+        "sample_column": false,
+        "shapes": {
+          "blank": 1964
+        },
+        "text_rows": {},
+        "text_samples": {},
+        "value_like": false
+      },
+      {
+        "distinct_text": 0,
+        "name": "",
+        "sample_column": false,
+        "shapes": {
+          "blank": 1964
+        },
+        "text_rows": {},
+        "text_samples": {},
+        "value_like": false
+      },
+      {
+        "distinct_text": 0,
+        "name": "",
+        "sample_column": false,
+        "shapes": {
+          "blank": 1964
+        },
+        "text_rows": {},
+        "text_samples": {},
+        "value_like": false
+      }
+    ],
+    "header_width": 48,
+    "row_widths": {
+      "48": 1964
+    },
+    "rows": 1964,
+    "samples": 491
+  },
+  "dataset": "10478dd5-7ce8-4542-887c-572f0bfe0c8c",
+  "encoding": "cp1252",
+  "md5": "a2998269ef01cbc78a03a3fdb38d40e5",
+  "md5_matches_portal": null,
+  "portal_md5": null,
+  "portal_size": 395585,
+  "resource": "26aa5b60-08a4-4bad-bbdc-17527e6698a3",
+  "sha256": "dc5173a485d4acc5e9bd1651d83d82ce8d9d34c56cb12125a448edd7da70a193",
+  "size_matches_portal": true,
+  "source": "https://open.canada.ca/data/dataset/10478dd5-7ce8-4542-887c-572f0bfe0c8c/resource/26aa5b60-08a4-4bad-bbdc-17527e6698a3/download/cfia-acia-1287-open-data-for-chemistry-targeted-surveys-2016-17-bisphenol-and-bpa-alternatives-i.csv",
+  "study": "bpa-2016-census",
+  "version": "0.1.0"
+}

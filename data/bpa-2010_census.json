@@ -1,0 +1,748 @@
+{
+  "bytes": 39475,
+  "census": {
+    "columns": {
+      "commodity": null,
+      "component": 11,
+      "date": 8,
+      "function": 2,
+      "origin": 4,
+      "plan": 15,
+      "product": 6,
+      "region": 1,
+      "sample": 0,
+      "test": 9,
+      "unit": 14,
+      "value": 13
+    },
+    "commodities": {
+      "": 234
+    },
+    "components": {
+      "Bisphenol A": 234
+    },
+    "header": [
+      "Sample No. – No. d’échantillon",
+      "Region - Région",
+      "Function",
+      "Fonction",
+      "Origin",
+      "Origine",
+      "Product",
+      "Produit",
+      "Date Sampled – Date d’échantillonage",
+      "Type of Test",
+      "Type d’analyse",
+      "Component",
+      "Composant",
+      "Result - Résultat",
+      "Unit - Unité (ppm)",
+      "Plan Code - Code du régime"
+    ],
+    "id_gaps": 0,
+    "id_range": null,
+    "ids_bad": [
+      "2010BPA0001",
+      "2010BPA0002",
+      "2010BPA0004",
+      "2010BPA0005",
+      "2010BPA0006",
+      "2010BPA0007",
+      "2010BPA0008",
+      "2010BPA0009",
+      "2010BPA0010",
+      "2010BPA0011"
+    ],
+    "ids_bad_count": 234,
+    "ids_dup_suffix": [],
+    "missing_component_samples": {},
+    "mixed_label_samples": [],
+    "plans": {
+      "2010_SB451": 234
+    },
+    "product_commodity": {
+      "Apricot | ": 1,
+      "Cereal - Other | ": 2,
+      "Infant Formula - Dairy | ": 126,
+      "Infant Formula - Soy | ": 3,
+      "Juice - Apple | ": 13,
+      "Juice - Grape | ": 1,
+      "Meat & Vegetable | ": 1,
+      "Mixed Fruit | ": 25,
+      "Nectar - Pear | ": 1,
+      "Peach | ": 25,
+      "Pear | ": 24,
+      "Pineapple | ": 10,
+      "Strawberry | ": 2
+    },
+    "product_function": {
+      "Apricot": {
+        "Import": 1
+      },
+      "Cereal - Other": {
+        "Domestic": 2
+      },
+      "Infant Formula - Dairy": {
+        "Domestic": 16,
+        "Import": 110
+      },
+      "Infant Formula - Soy": {
+        "Import": 3
+      },
+      "Juice - Apple": {
+        "Domestic": 10,
+        "Import": 3
+      },
+      "Juice - Grape": {
+        "Import": 1
+      },
+      "Meat & Vegetable": {
+        "Domestic": 1
+      },
+      "Mixed Fruit": {
+        "Domestic": 3,
+        "Import": 21,
+        "Unknown": 1
+      },
+      "Nectar - Pear": {
+        "Domestic": 1
+      },
+      "Peach": {
+        "Domestic": 2,
+        "Import": 21,
+        "Unknown": 2
+      },
+      "Pear": {
+        "Domestic": 1,
+        "Import": 23
+      },
+      "Pineapple": {
+        "Import": 10
+      },
+      "Strawberry": {
+        "Domestic": 2
+      }
+    },
+    "product_id_runs": {
+      "Apricot": [],
+      "Cereal - Other": [],
+      "Infant Formula - Dairy": [],
+      "Infant Formula - Soy": [],
+      "Juice - Apple": [],
+      "Juice - Grape": [],
+      "Meat & Vegetable": [],
+      "Mixed Fruit": [],
+      "Nectar - Pear": [],
+      "Peach": [],
+      "Pear": [],
+      "Pineapple": [],
+      "Strawberry": []
+    },
+    "product_origin_top": {
+      "Apricot": {
+        "UNITED STATES": 1
+      },
+      "Cereal - Other": {
+        "CANADA": 2
+      },
+      "Infant Formula - Dairy": {
+        "CANADA": 15,
+        "IRELAND": 1,
+        "SWEDEN": 1,
+        "SWITZERLAND": 27,
+        "UNITED STATES": 75,
+        "UNKNOWN": 7
+      },
+      "Infant Formula - Soy": {
+        "UNITED STATES": 3
+      },
+      "Juice - Apple": {
+        "CANADA": 10,
+        "UNITED STATES": 3
+      },
+      "Juice - Grape": {
+        "UNITED STATES": 1
+      },
+      "Meat & Vegetable": {
+        "CANADA": 1
+      },
+      "Mixed Fruit": {
+        "CANADA": 3,
+        "CHINA": 4,
+        "GREECE": 2,
+        "SOUTH AFRICA": 5,
+        "UNITED STATES": 9,
+        "UNKNOWN": 2
+      },
+      "Nectar - Pear": {
+        "CANADA": 1
+      },
+      "Peach": {
+        "CANADA": 2,
+        "CHINA": 5,
+        "GREECE": 2,
+        "SOUTH AFRICA": 6,
+        "UNITED STATES": 8,
+        "UNKNOWN": 2
+      },
+      "Pear": {
+        "CANADA": 1,
+        "CHINA": 1,
+        "SOUTH AFRICA": 10,
+        "UNITED STATES": 11,
+        "UNKNOWN": 1
+      },
+      "Pineapple": {
+        "PHILIPPINES": 1,
+        "THAILAND": 9
+      },
+      "Strawberry": {
+        "CANADA": 2
+      }
+    },
+    "products": {
+      "Apricot": 1,
+      "Cereal - Other": 2,
+      "Infant Formula - Dairy": 126,
+      "Infant Formula - Soy": 3,
+      "Juice - Apple": 13,
+      "Juice - Grape": 1,
+      "Meat & Vegetable": 1,
+      "Mixed Fruit": 25,
+      "Nectar - Pear": 1,
+      "Peach": 25,
+      "Pear": 24,
+      "Pineapple": 10,
+      "Strawberry": 2
+    },
+    "regions": {
+      "ALBERTA": 9,
+      "ATLANTIC": 14,
+      "BC": 8,
+      "MAN-SAS": 3,
+      "ONTARIO": 86,
+      "QUEBEC": 55,
+      "WEST": 59
+    },
+    "repeated_component_samples": {},
+    "rows": 234,
+    "rows_per_sample": {
+      "1": 234
+    },
+    "samples": 234,
+    "shapes": {
+      "number": 234
+    },
+    "shapes_by_component": {
+      "Bisphenol A": {
+        "number": 234
+      }
+    },
+    "tests": {
+      "BPA": 234
+    },
+    "tokens": {},
+    "units": {
+      "µg/g": 234
+    },
+    "units_by_component": {
+      "Bisphenol A": {
+        "µg/g": 234
+      }
+    }
+  },
+  "columns": {
+    "columns": [
+      {
+        "distinct_text": 0,
+        "name": "Sample No. – No. d’échantillon",
+        "sample_column": true,
+        "shapes": {
+          "token": 234
+        },
+        "text_rows": {},
+        "text_samples": {},
+        "value_like": false
+      },
+      {
+        "distinct_text": 7,
+        "name": "Region - Région",
+        "sample_column": false,
+        "shapes": {
+          "token": 234
+        },
+        "text_rows": {
+          "ALBERTA": 9,
+          "ATLANTIC": 14,
+          "BC": 8,
+          "MAN-SAS": 3,
+          "ONTARIO": 86,
+          "QUEBEC": 55,
+          "WEST": 59
+        },
+        "text_samples": {
+          "ALBERTA": 9,
+          "ATLANTIC": 14,
+          "BC": 8,
+          "MAN-SAS": 3,
+          "ONTARIO": 86,
+          "QUEBEC": 55,
+          "WEST": 59
+        },
+        "value_like": false
+      },
+      {
+        "distinct_text": 3,
+        "name": "Function",
+        "sample_column": false,
+        "shapes": {
+          "token": 234
+        },
+        "text_rows": {
+          "Domestic": 38,
+          "Import": 193,
+          "Unknown": 3
+        },
+        "text_samples": {
+          "Domestic": 38,
+          "Import": 193,
+          "Unknown": 3
+        },
+        "value_like": false
+      },
+      {
+        "distinct_text": 3,
+        "name": "Fonction",
+        "sample_column": false,
+        "shapes": {
+          "token": 234
+        },
+        "text_rows": {
+          "Domestique": 38,
+          "Importé": 193,
+          "Inconnu": 3
+        },
+        "text_samples": {
+          "Domestique": 38,
+          "Importé": 193,
+          "Inconnu": 3
+        },
+        "value_like": false
+      },
+      {
+        "distinct_text": 11,
+        "name": "Origin",
+        "sample_column": false,
+        "shapes": {
+          "token": 234
+        },
+        "text_rows": {
+          "CANADA": 37,
+          "CHINA": 10,
+          "GREECE": 4,
+          "IRELAND": 1,
+          "PHILIPPINES": 1,
+          "SOUTH AFRICA": 21,
+          "SWEDEN": 1,
+          "SWITZERLAND": 27,
+          "THAILAND": 9,
+          "UNITED STATES": 111,
+          "UNKNOWN": 12
+        },
+        "text_samples": {
+          "CANADA": 37,
+          "CHINA": 10,
+          "GREECE": 4,
+          "IRELAND": 1,
+          "PHILIPPINES": 1,
+          "SOUTH AFRICA": 21,
+          "SWEDEN": 1,
+          "SWITZERLAND": 27,
+          "THAILAND": 9,
+          "UNITED STATES": 111,
+          "UNKNOWN": 12
+        },
+        "value_like": false
+      },
+      {
+        "distinct_text": 11,
+        "name": "Origine",
+        "sample_column": false,
+        "shapes": {
+          "token": 234
+        },
+        "text_rows": {
+          "AFRIQUE DU SUD": 21,
+          "CANADA": 37,
+          "CHINE": 10,
+          "GRÈCE": 4,
+          "INCONNU": 12,
+          "IRLANDE": 1,
+          "PHILIPPINES": 1,
+          "SUISSE": 27,
+          "SUÈDE": 1,
+          "THAÏLANDE": 9,
+          "ÉTATS-UNIS": 111
+        },
+        "text_samples": {
+          "AFRIQUE DU SUD": 21,
+          "CANADA": 37,
+          "CHINE": 10,
+          "GRÈCE": 4,
+          "INCONNU": 12,
+          "IRLANDE": 1,
+          "PHILIPPINES": 1,
+          "SUISSE": 27,
+          "SUÈDE": 1,
+          "THAÏLANDE": 9,
+          "ÉTATS-UNIS": 111
+        },
+        "value_like": false
+      },
+      {
+        "distinct_text": 13,
+        "name": "Product",
+        "sample_column": false,
+        "shapes": {
+          "token": 234
+        },
+        "text_rows": {
+          "Apricot": 1,
+          "Cereal - Other": 2,
+          "Infant Formula - Dairy": 126,
+          "Infant Formula - Soy": 3,
+          "Juice - Apple": 13,
+          "Juice - Grape": 1,
+          "Meat & Vegetable": 1,
+          "Mixed Fruit": 25,
+          "Nectar - Pear": 1,
+          "Peach": 25,
+          "Pear": 24,
+          "Pineapple": 10,
+          "Strawberry": 2
+        },
+        "text_samples": {
+          "Apricot": 1,
+          "Cereal - Other": 2,
+          "Infant Formula - Dairy": 126,
+          "Infant Formula - Soy": 3,
+          "Juice - Apple": 13,
+          "Juice - Grape": 1,
+          "Meat & Vegetable": 1,
+          "Mixed Fruit": 25,
+          "Nectar - Pear": 1,
+          "Peach": 25,
+          "Pear": 24,
+          "Pineapple": 10,
+          "Strawberry": 2
+        },
+        "value_like": false
+      },
+      {
+        "distinct_text": 13,
+        "name": "Produit",
+        "sample_column": false,
+        "shapes": {
+          "token": 234
+        },
+        "text_rows": {
+          "Abricot": 1,
+          "Ananas": 10,
+          "Céréales - autre": 2,
+          "Fraise": 2,
+          "Fruits mélangés": 25,
+          "Jus de pomme": 13,
+          "Jus de raisin": 1,
+          "Nectar de poire": 1,
+          "Poire": 24,
+          "Préparation pour nourrissons - Laitier": 126,
+          "Préparation pour nourrissons - Soja": 3,
+          "Pêche": 25,
+          "Viande et Légume": 1
+        },
+        "text_samples": {
+          "Abricot": 1,
+          "Ananas": 10,
+          "Céréales - autre": 2,
+          "Fraise": 2,
+          "Fruits mélangés": 25,
+          "Jus de pomme": 13,
+          "Jus de raisin": 1,
+          "Nectar de poire": 1,
+          "Poire": 24,
+          "Préparation pour nourrissons - Laitier": 126,
+          "Préparation pour nourrissons - Soja": 3,
+          "Pêche": 25,
+          "Viande et Légume": 1
+        },
+        "value_like": false
+      },
+      {
+        "distinct_text": 67,
+        "name": "Date Sampled – Date d’échantillonage",
+        "sample_column": false,
+        "shapes": {
+          "token": 234
+        },
+        "text_rows": {
+          "01-Feb-11": 9,
+          "01-Mar-11": 1,
+          "01-Nov-10": 1,
+          "02-Dec-10": 4,
+          "02-Feb-11": 2,
+          "02-Nov-10": 2,
+          "03-Dec-10": 2,
+          "03-Feb-11": 5,
+          "03-Jan-11": 6,
+          "03-Nov-10": 3,
+          "04-Jan-11": 2,
+          "04-Mar-11": 3,
+          "05-Dec-10": 1,
+          "05-Jan-11": 17,
+          "05-Mar-11": 5,
+          "05-Oct-10": 2,
+          "06-Dec-10": 1,
+          "06-Jan-11": 4,
+          "06-Mar-11": 5,
+          "06-Nov-10": 2,
+          "07-Dec-10": 4,
+          "07-Mar-11": 8,
+          "08-Dec-10": 2,
+          "08-Feb-11": 2,
+          "08-Jan-11": 4,
+          "08-Mar-11": 2,
+          "08-Nov-10": 4,
+          "09-Dec-10": 3,
+          "09-Feb-11": 2,
+          "09-Jan-11": 1,
+          "09-Nov-10": 2,
+          "10-Feb-11": 6,
+          "10-Jan-11": 3,
+          "10-Mar-11": 2,
+          "12-Dec-10": 9,
+          "12-Feb-11": 3,
+          "12-Jan-11": 1,
+          "12-Oct-10": 4,
+          "14-Nov-10": 3,
+          "15-Jan-11": 1,
+          "15-Nov-10": 5,
+          "16-Dec-10": 6,
+          "16-Jan-11": 1,
+          "16-Nov-10": 1,
+          "17-Jan-11": 4,
+          "17-Nov-10": 10,
+          "17-Oct-10": 1,
+          "18-Jan-11": 1,
+          "18-Oct-10": 1,
+          "19-Feb-11": 7,
+          "19-Oct-10": 8,
+          "20-Dec-10": 1,
+          "20-Oct-10": 11,
+          "23-Feb-11": 2,
+          "24-Feb-11": 9,
+          "24-Jan-11": 2,
+          "24-Nov-10": 1,
+          "24-Oct-10": 1,
+          "25-Jan-11": 1,
+          "25-Nov-10": 2,
+          "26-Feb-11": 1,
+          "26-Nov-10": 2,
+          "27-Jan-11": 5,
+          "27-Oct-10": 1,
+          "29-Nov-10": 3,
+          "29-Oct-10": 1,
+          "31-Jan-11": 3
+        },
+        "text_samples": {
+          "01-Feb-11": 9,
+          "01-Mar-11": 1,
+          "01-Nov-10": 1,
+          "02-Dec-10": 4,
+          "02-Feb-11": 2,
+          "02-Nov-10": 2,
+          "03-Dec-10": 2,
+          "03-Feb-11": 5,
+          "03-Jan-11": 6,
+          "03-Nov-10": 3,
+          "04-Jan-11": 2,
+          "04-Mar-11": 3,
+          "05-Dec-10": 1,
+          "05-Jan-11": 17,
+          "05-Mar-11": 5,
+          "05-Oct-10": 2,
+          "06-Dec-10": 1,
+          "06-Jan-11": 4,
+          "06-Mar-11": 5,
+          "06-Nov-10": 2,
+          "07-Dec-10": 4,
+          "07-Mar-11": 8,
+          "08-Dec-10": 2,
+          "08-Feb-11": 2,
+          "08-Jan-11": 4,
+          "08-Mar-11": 2,
+          "08-Nov-10": 4,
+          "09-Dec-10": 3,
+          "09-Feb-11": 2,
+          "09-Jan-11": 1,
+          "09-Nov-10": 2,
+          "10-Feb-11": 6,
+          "10-Jan-11": 3,
+          "10-Mar-11": 2,
+          "12-Dec-10": 9,
+          "12-Feb-11": 3,
+          "12-Jan-11": 1,
+          "12-Oct-10": 4,
+          "14-Nov-10": 3,
+          "15-Jan-11": 1,
+          "15-Nov-10": 5,
+          "16-Dec-10": 6,
+          "16-Jan-11": 1,
+          "16-Nov-10": 1,
+          "17-Jan-11": 4,
+          "17-Nov-10": 10,
+          "17-Oct-10": 1,
+          "18-Jan-11": 1,
+          "18-Oct-10": 1,
+          "19-Feb-11": 7,
+          "19-Oct-10": 8,
+          "20-Dec-10": 1,
+          "20-Oct-10": 11,
+          "23-Feb-11": 2,
+          "24-Feb-11": 9,
+          "24-Jan-11": 2,
+          "24-Nov-10": 1,
+          "24-Oct-10": 1,
+          "25-Jan-11": 1,
+          "25-Nov-10": 2,
+          "26-Feb-11": 1,
+          "26-Nov-10": 2,
+          "27-Jan-11": 5,
+          "27-Oct-10": 1,
+          "29-Nov-10": 3,
+          "29-Oct-10": 1,
+          "31-Jan-11": 3
+        },
+        "value_like": false
+      },
+      {
+        "distinct_text": 1,
+        "name": "Type of Test",
+        "sample_column": false,
+        "shapes": {
+          "token": 234
+        },
+        "text_rows": {
+          "BPA": 234
+        },
+        "text_samples": {
+          "BPA": 234
+        },
+        "value_like": false
+      },
+      {
+        "distinct_text": 1,
+        "name": "Type d’analyse",
+        "sample_column": false,
+        "shapes": {
+          "token": 234
+        },
+        "text_rows": {
+          "BISPHÉNOL A": 234
+        },
+        "text_samples": {
+          "BISPHÉNOL A": 234
+        },
+        "value_like": false
+      },
+      {
+        "distinct_text": 1,
+        "name": "Component",
+        "sample_column": false,
+        "shapes": {
+          "token": 234
+        },
+        "text_rows": {
+          "Bisphenol A": 234
+        },
+        "text_samples": {
+          "Bisphenol A": 234
+        },
+        "value_like": false
+      },
+      {
+        "distinct_text": 1,
+        "name": "Composant",
+        "sample_column": false,
+        "shapes": {
+          "token": 234
+        },
+        "text_rows": {
+          "Bisphénol A": 234
+        },
+        "text_samples": {
+          "Bisphénol A": 234
+        },
+        "value_like": false
+      },
+      {
+        "distinct_text": 0,
+        "name": "Result - Résultat",
+        "sample_column": false,
+        "shapes": {
+          "number": 234
+        },
+        "text_rows": {},
+        "text_samples": {},
+        "value_like": true
+      },
+      {
+        "distinct_text": 1,
+        "name": "Unit - Unité (ppm)",
+        "sample_column": false,
+        "shapes": {
+          "token": 234
+        },
+        "text_rows": {
+          "µg/g": 234
+        },
+        "text_samples": {
+          "µg/g": 234
+        },
+        "value_like": false
+      },
+      {
+        "distinct_text": 1,
+        "name": "Plan Code - Code du régime",
+        "sample_column": false,
+        "shapes": {
+          "token": 234
+        },
+        "text_rows": {
+          "2010_SB451": 234
+        },
+        "text_samples": {
+          "2010_SB451": 234
+        },
+        "value_like": false
+      }
+    ],
+    "header_width": 16,
+    "row_widths": {
+      "16": 234
+    },
+    "rows": 234,
+    "samples": 234
+  },
+  "dataset": "ee1d2ca0-18a4-457a-9978-59d20cc6e191",
+  "encoding": "cp1252",
+  "md5": "56b061a4596746dc9736afabac5fbc2a",
+  "md5_matches_portal": true,
+  "portal_md5": "56b061a4596746dc9736afabac5fbc2a",
+  "portal_size": 39475,
+  "resource": "ab208fba-5551-4d16-87a7-b810a73dbcba",
+  "sha256": "79652a9f76bbb099178cda28c91be67497608d11aeb861ac5e0117086c65d466",
+  "size_matches_portal": true,
+  "source": "https://open.canada.ca/data/dataset/ee1d2ca0-18a4-457a-9978-59d20cc6e191/resource/ab208fba-5551-4d16-87a7-b810a73dbcba/download/cfia_acia-1330-v2-fsap_chem_ts_-_2010-11_-_bpa_in_infant_formulae_and_foods_-_sb451_bpha_-_open_.csv",
+  "study": "bpa-2010-census",
+  "version": "0.1.0"
+}

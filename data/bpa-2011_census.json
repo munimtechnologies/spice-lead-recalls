@@ -1,0 +1,1318 @@
+{
+  "bytes": 69780,
+  "census": {
+    "columns": {
+      "commodity": null,
+      "component": 11,
+      "date": 8,
+      "function": 2,
+      "origin": 4,
+      "plan": 15,
+      "product": 6,
+      "region": 1,
+      "sample": 0,
+      "test": 9,
+      "unit": 14,
+      "value": 13
+    },
+    "commodities": {
+      "": 403
+    },
+    "components": {
+      "Bisphenol A": 403
+    },
+    "header": [
+      "Sample No. – No. d’échantillon",
+      "Region - Région",
+      "Function",
+      "Fonction",
+      "Origin",
+      "Origine",
+      "Product",
+      "Produit",
+      "Date Sampled – Date d’échantillonage",
+      "Type of Test",
+      "Type d’analyse",
+      "Component",
+      "Composant",
+      "Result - Résultat",
+      "Unit - Unité (ppm)",
+      "Plan Code - Code du régime"
+    ],
+    "id_gaps": 0,
+    "id_range": null,
+    "ids_bad": [
+      "2011BPA0001",
+      "2011BPA0002",
+      "2011BPA0003",
+      "2011BPA0004",
+      "2011BPA0005",
+      "2011BPA0006",
+      "2011BPA0007",
+      "2011BPA0008",
+      "2011BPA0009",
+      "2011BPA0010"
+    ],
+    "ids_bad_count": 403,
+    "ids_dup_suffix": [],
+    "missing_component_samples": {},
+    "mixed_label_samples": [],
+    "plans": {
+      "2011_SB451": 403
+    },
+    "product_commodity": {
+      "Asparagus | ": 1,
+      "Bamboo Shoot | ": 1,
+      "Banana | ": 2,
+      "Bean - Black | ": 2,
+      "Bean - Fava | ": 1,
+      "Bean - Green/Yellow | ": 12,
+      "Bean - Kidney | ": 7,
+      "Bean - Other | ": 9,
+      "Bean - wax | ": 2,
+      "Bean | ": 1,
+      "Beet | ": 1,
+      "Beverage - Fruit | ": 2,
+      "Beverage - Other | ": 1,
+      "Beverage - Tea | ": 1,
+      "Carrot | ": 14,
+      "Chickpea | ": 5,
+      "Corn | ": 20,
+      "Juice - Apple | ": 13,
+      "Juice - Tomato | ": 19,
+      "Juice/Nectar - Other | ": 1,
+      "Kale | ": 1,
+      "Longan | ": 1,
+      "Lychee | ": 5,
+      "Mango | ": 2,
+      "Mixed Fruit | ": 21,
+      "Mixed Vegetables | ": 17,
+      "Mushroom | ": 2,
+      "Orange | ": 13,
+      "Papaya | ": 1,
+      "Pasta - Canned | ": 96,
+      "Pea - Organic | ": 2,
+      "Pea - Sugar | ": 1,
+      "Pea | ": 23,
+      "Peach | ": 25,
+      "Pear | ": 18,
+      "Pineapple | ": 10,
+      "Plum | ": 1,
+      "Potato | ": 13,
+      "Preserve - Apricot | ": 1,
+      "Preserve - Blueberry | ": 1,
+      "Soup | ": 5,
+      "Sweet Potato | ": 1,
+      "Tomato - Organic | ": 2,
+      "Tomato | ": 13,
+      "juice - pineapple | ": 13
+    },
+    "product_function": {
+      "Asparagus": {
+        "Import": 1
+      },
+      "Bamboo Shoot": {
+        "Import": 1
+      },
+      "Banana": {
+        "Import": 2
+      },
+      "Bean": {
+        "Domestic": 1
+      },
+      "Bean - Black": {
+        "Domestic": 2
+      },
+      "Bean - Fava": {
+        "Import": 1
+      },
+      "Bean - Green/Yellow": {
+        "Domestic": 9,
+        "Import": 3
+      },
+      "Bean - Kidney": {
+        "Domestic": 5,
+        "Import": 2
+      },
+      "Bean - Other": {
+        "Domestic": 8,
+        "Import": 1
+      },
+      "Bean - wax": {
+        "Domestic": 2
+      },
+      "Beet": {
+        "Import": 1
+      },
+      "Beverage - Fruit": {
+        "Import": 2
+      },
+      "Beverage - Other": {
+        "Import": 1
+      },
+      "Beverage - Tea": {
+        "Import": 1
+      },
+      "Carrot": {
+        "Domestic": 9,
+        "Import": 5
+      },
+      "Chickpea": {
+        "Domestic": 4,
+        "Import": 1
+      },
+      "Corn": {
+        "Domestic": 11,
+        "Import": 9
+      },
+      "Juice - Apple": {
+        "Domestic": 12,
+        "Unknown": 1
+      },
+      "Juice - Tomato": {
+        "Domestic": 18,
+        "Import": 1
+      },
+      "Juice/Nectar - Other": {
+        "Import": 1
+      },
+      "Kale": {
+        "Import": 1
+      },
+      "Longan": {
+        "Import": 1
+      },
+      "Lychee": {
+        "Import": 5
+      },
+      "Mango": {
+        "Import": 2
+      },
+      "Mixed Fruit": {
+        "Import": 21
+      },
+      "Mixed Vegetables": {
+        "Domestic": 14,
+        "Import": 3
+      },
+      "Mushroom": {
+        "Import": 2
+      },
+      "Orange": {
+        "Import": 13
+      },
+      "Papaya": {
+        "Import": 1
+      },
+      "Pasta - Canned": {
+        "Domestic": 50,
+        "Import": 45,
+        "Unknown": 1
+      },
+      "Pea": {
+        "Domestic": 17,
+        "Import": 6
+      },
+      "Pea - Organic": {
+        "Import": 2
+      },
+      "Pea - Sugar": {
+        "Domestic": 1
+      },
+      "Peach": {
+        "Import": 25
+      },
+      "Pear": {
+        "Import": 18
+      },
+      "Pineapple": {
+        "Import": 10
+      },
+      "Plum": {
+        "Import": 1
+      },
+      "Potato": {
+        "Domestic": 13
+      },
+      "Preserve - Apricot": {
+        "Import": 1
+      },
+      "Preserve - Blueberry": {
+        "Import": 1
+      },
+      "Soup": {
+        "Domestic": 5
+      },
+      "Sweet Potato": {
+        "Domestic": 1
+      },
+      "Tomato": {
+        "Domestic": 10,
+        "Import": 3
+      },
+      "Tomato - Organic": {
+        "Domestic": 1,
+        "Import": 1
+      },
+      "juice - pineapple": {
+        "Import": 13
+      }
+    },
+    "product_id_runs": {
+      "Asparagus": [],
+      "Bamboo Shoot": [],
+      "Banana": [],
+      "Bean": [],
+      "Bean - Black": [],
+      "Bean - Fava": [],
+      "Bean - Green/Yellow": [],
+      "Bean - Kidney": [],
+      "Bean - Other": [],
+      "Bean - wax": [],
+      "Beet": [],
+      "Beverage - Fruit": [],
+      "Beverage - Other": [],
+      "Beverage - Tea": [],
+      "Carrot": [],
+      "Chickpea": [],
+      "Corn": [],
+      "Juice - Apple": [],
+      "Juice - Tomato": [],
+      "Juice/Nectar - Other": [],
+      "Kale": [],
+      "Longan": [],
+      "Lychee": [],
+      "Mango": [],
+      "Mixed Fruit": [],
+      "Mixed Vegetables": [],
+      "Mushroom": [],
+      "Orange": [],
+      "Papaya": [],
+      "Pasta - Canned": [],
+      "Pea": [],
+      "Pea - Organic": [],
+      "Pea - Sugar": [],
+      "Peach": [],
+      "Pear": [],
+      "Pineapple": [],
+      "Plum": [],
+      "Potato": [],
+      "Preserve - Apricot": [],
+      "Preserve - Blueberry": [],
+      "Soup": [],
+      "Sweet Potato": [],
+      "Tomato": [],
+      "Tomato - Organic": [],
+      "juice - pineapple": []
+    },
+    "product_origin_top": {
+      "Asparagus": {
+        "CHINA": 1
+      },
+      "Bamboo Shoot": {
+        "THAILAND": 1
+      },
+      "Banana": {
+        "THAILAND": 2
+      },
+      "Bean": {
+        "CANADA": 1
+      },
+      "Bean - Black": {
+        "CANADA": 2
+      },
+      "Bean - Fava": {
+        "UNITED ARAB EMIRATES": 1
+      },
+      "Bean - Green/Yellow": {
+        "CANADA": 9,
+        "UNITED STATES": 3
+      },
+      "Bean - Kidney": {
+        "CANADA": 5,
+        "UNITED STATES": 2
+      },
+      "Bean - Other": {
+        "CANADA": 8,
+        "UNITED STATES": 1
+      },
+      "Bean - wax": {
+        "CANADA": 2
+      },
+      "Beet": {
+        "UNITED STATES": 1
+      },
+      "Beverage - Fruit": {
+        "TAIWAN, PROVINCE OF CHINA": 1,
+        "UNITED STATES": 1
+      },
+      "Beverage - Other": {
+        "UNITED STATES": 1
+      },
+      "Beverage - Tea": {
+        "UNITED STATES": 1
+      },
+      "Carrot": {
+        "BELGIUM": 3,
+        "CANADA": 9,
+        "UNITED STATES": 2
+      },
+      "Chickpea": {
+        "CANADA": 4,
+        "UNITED STATES": 1
+      },
+      "Corn": {
+        "CANADA": 11,
+        "THAILAND": 6,
+        "UNITED STATES": 3
+      },
+      "Juice - Apple": {
+        "CANADA": 12,
+        "UNKNOWN": 1
+      },
+      "Juice - Tomato": {
+        "CANADA": 18,
+        "UNITED STATES": 1
+      },
+      "Juice/Nectar - Other": {
+        "THAILAND": 1
+      },
+      "Kale": {
+        "GERMANY": 1
+      },
+      "Longan": {
+        "THAILAND": 1
+      },
+      "Lychee": {
+        "CHINA": 1,
+        "THAILAND": 4
+      },
+      "Mango": {
+        "THAILAND": 2
+      },
+      "Mixed Fruit": {
+        "CHINA": 2,
+        "PHILIPPINES": 1,
+        "SOUTH AFRICA": 4,
+        "SRI LANKA": 2,
+        "THAILAND": 2,
+        "UNITED STATES": 10
+      },
+      "Mixed Vegetables": {
+        "CANADA": 14,
+        "UNITED STATES": 3
+      },
+      "Mushroom": {
+        "CHINA": 2
+      },
+      "Orange": {
+        "CHINA": 13
+      },
+      "Papaya": {
+        "THAILAND": 1
+      },
+      "Pasta - Canned": {
+        "CANADA": 50,
+        "UNITED STATES": 44,
+        "UNKNOWN": 2
+      },
+      "Pea": {
+        "BELGIUM": 1,
+        "CANADA": 17,
+        "FRANCE": 1,
+        "UNITED KINGDOM": 1,
+        "UNITED STATES": 3
+      },
+      "Pea - Organic": {
+        "UNITED STATES": 2
+      },
+      "Pea - Sugar": {
+        "CANADA": 1
+      },
+      "Peach": {
+        "CHINA": 2,
+        "GREECE": 7,
+        "KOREA, REPUBLIC OF": 1,
+        "SOUTH AFRICA": 9,
+        "UNITED STATES": 6
+      },
+      "Pear": {
+        "CHINA": 3,
+        "SOUTH AFRICA": 4,
+        "UNITED STATES": 11
+      },
+      "Pineapple": {
+        "PHILIPPINES": 2,
+        "THAILAND": 8
+      },
+      "Plum": {
+        "UNITED STATES": 1
+      },
+      "Potato": {
+        "CANADA": 13
+      },
+      "Preserve - Apricot": {
+        "LEBANON": 1
+      },
+      "Preserve - Blueberry": {
+        "UNITED STATES": 1
+      },
+      "Soup": {
+        "CANADA": 5
+      },
+      "Sweet Potato": {
+        "CANADA": 1
+      },
+      "Tomato": {
+        "CANADA": 10,
+        "ITALY": 2,
+        "UNITED STATES": 1
+      },
+      "Tomato - Organic": {
+        "CANADA": 1,
+        "ITALY": 1
+      },
+      "juice - pineapple": {
+        "PHILIPPINES": 10,
+        "TAIWAN, PROVINCE OF CHINA": 1,
+        "THAILAND": 1,
+        "UNITED STATES": 1
+      }
+    },
+    "products": {
+      "Asparagus": 1,
+      "Bamboo Shoot": 1,
+      "Banana": 2,
+      "Bean": 1,
+      "Bean - Black": 2,
+      "Bean - Fava": 1,
+      "Bean - Green/Yellow": 12,
+      "Bean - Kidney": 7,
+      "Bean - Other": 9,
+      "Bean - wax": 2,
+      "Beet": 1,
+      "Beverage - Fruit": 2,
+      "Beverage - Other": 1,
+      "Beverage - Tea": 1,
+      "Carrot": 14,
+      "Chickpea": 5,
+      "Corn": 20,
+      "Juice - Apple": 13,
+      "Juice - Tomato": 19,
+      "Juice/Nectar - Other": 1,
+      "Kale": 1,
+      "Longan": 1,
+      "Lychee": 5,
+      "Mango": 2,
+      "Mixed Fruit": 21,
+      "Mixed Vegetables": 17,
+      "Mushroom": 2,
+      "Orange": 13,
+      "Papaya": 1,
+      "Pasta - Canned": 96,
+      "Pea": 23,
+      "Pea - Organic": 2,
+      "Pea - Sugar": 1,
+      "Peach": 25,
+      "Pear": 18,
+      "Pineapple": 10,
+      "Plum": 1,
+      "Potato": 13,
+      "Preserve - Apricot": 1,
+      "Preserve - Blueberry": 1,
+      "Soup": 5,
+      "Sweet Potato": 1,
+      "Tomato": 13,
+      "Tomato - Organic": 2,
+      "juice - pineapple": 13
+    },
+    "regions": {
+      "ALBERTA": 15,
+      "ATLANTIC": 32,
+      "BC": 38,
+      "ONTARIO": 152,
+      "QUEBEC": 98,
+      "WEST": 68
+    },
+    "repeated_component_samples": {},
+    "rows": 403,
+    "rows_per_sample": {
+      "1": 403
+    },
+    "samples": 403,
+    "shapes": {
+      "number": 403
+    },
+    "shapes_by_component": {
+      "Bisphenol A": {
+        "number": 403
+      }
+    },
+    "tests": {
+      "BPA": 403
+    },
+    "tokens": {},
+    "units": {
+      "µg/g": 403
+    },
+    "units_by_component": {
+      "Bisphenol A": {
+        "µg/g": 403
+      }
+    }
+  },
+  "columns": {
+    "columns": [
+      {
+        "distinct_text": 0,
+        "name": "Sample No. – No. d’échantillon",
+        "sample_column": true,
+        "shapes": {
+          "token": 403
+        },
+        "text_rows": {},
+        "text_samples": {},
+        "value_like": false
+      },
+      {
+        "distinct_text": 6,
+        "name": "Region - Région",
+        "sample_column": false,
+        "shapes": {
+          "token": 403
+        },
+        "text_rows": {
+          "ALBERTA": 15,
+          "ATLANTIC": 32,
+          "BC": 38,
+          "ONTARIO": 152,
+          "QUEBEC": 98,
+          "WEST": 68
+        },
+        "text_samples": {
+          "ALBERTA": 15,
+          "ATLANTIC": 32,
+          "BC": 38,
+          "ONTARIO": 152,
+          "QUEBEC": 98,
+          "WEST": 68
+        },
+        "value_like": false
+      },
+      {
+        "distinct_text": 3,
+        "name": "Function",
+        "sample_column": false,
+        "shapes": {
+          "token": 403
+        },
+        "text_rows": {
+          "Domestic": 193,
+          "Import": 208,
+          "Unknown": 2
+        },
+        "text_samples": {
+          "Domestic": 193,
+          "Import": 208,
+          "Unknown": 2
+        },
+        "value_like": false
+      },
+      {
+        "distinct_text": 3,
+        "name": "Fonction",
+        "sample_column": false,
+        "shapes": {
+          "token": 403
+        },
+        "text_rows": {
+          "Domestique": 193,
+          "Importé": 208,
+          "Inconnu": 2
+        },
+        "text_samples": {
+          "Domestique": 193,
+          "Importé": 208,
+          "Inconnu": 2
+        },
+        "value_like": false
+      },
+      {
+        "distinct_text": 18,
+        "name": "Origin",
+        "sample_column": false,
+        "shapes": {
+          "token": 403
+        },
+        "text_rows": {
+          "BELGIUM": 4,
+          "CANADA": 193,
+          "CHINA": 24,
+          "FRANCE": 1,
+          "GERMANY": 1,
+          "GREECE": 7,
+          "ITALY": 3,
+          "KOREA, REPUBLIC OF": 1,
+          "LEBANON": 1,
+          "PHILIPPINES": 13,
+          "SOUTH AFRICA": 17,
+          "SRI LANKA": 2,
+          "TAIWAN, PROVINCE OF CHINA": 2,
+          "THAILAND": 29,
+          "UNITED ARAB EMIRATES": 1,
+          "UNITED KINGDOM": 1,
+          "UNITED STATES": 100,
+          "UNKNOWN": 3
+        },
+        "text_samples": {
+          "BELGIUM": 4,
+          "CANADA": 193,
+          "CHINA": 24,
+          "FRANCE": 1,
+          "GERMANY": 1,
+          "GREECE": 7,
+          "ITALY": 3,
+          "KOREA, REPUBLIC OF": 1,
+          "LEBANON": 1,
+          "PHILIPPINES": 13,
+          "SOUTH AFRICA": 17,
+          "SRI LANKA": 2,
+          "TAIWAN, PROVINCE OF CHINA": 2,
+          "THAILAND": 29,
+          "UNITED ARAB EMIRATES": 1,
+          "UNITED KINGDOM": 1,
+          "UNITED STATES": 100,
+          "UNKNOWN": 3
+        },
+        "value_like": false
+      },
+      {
+        "distinct_text": 18,
+        "name": "Origine",
+        "sample_column": false,
+        "shapes": {
+          "token": 403
+        },
+        "text_rows": {
+          "AFRIQUE DU SUD": 17,
+          "ALLEMAGNE": 1,
+          "BELGIQUE": 4,
+          "CANADA": 193,
+          "CHINE": 24,
+          "CORÉE, RÉPUBLIQUE DE": 1,
+          "EMIRATS ARABES UNIS": 1,
+          "FRANCE": 1,
+          "GRÈCE": 7,
+          "INCONNU": 3,
+          "ITALIE": 3,
+          "LIBAN": 1,
+          "PHILIPPINES": 13,
+          "ROYAUME-UNI": 1,
+          "SRI LANKA": 2,
+          "TAÏWAN, PROVINCE DE CHINE": 2,
+          "THAÏLANDE": 29,
+          "ÉTATS-UNIS": 100
+        },
+        "text_samples": {
+          "AFRIQUE DU SUD": 17,
+          "ALLEMAGNE": 1,
+          "BELGIQUE": 4,
+          "CANADA": 193,
+          "CHINE": 24,
+          "CORÉE, RÉPUBLIQUE DE": 1,
+          "EMIRATS ARABES UNIS": 1,
+          "FRANCE": 1,
+          "GRÈCE": 7,
+          "INCONNU": 3,
+          "ITALIE": 3,
+          "LIBAN": 1,
+          "PHILIPPINES": 13,
+          "ROYAUME-UNI": 1,
+          "SRI LANKA": 2,
+          "TAÏWAN, PROVINCE DE CHINE": 2,
+          "THAÏLANDE": 29,
+          "ÉTATS-UNIS": 100
+        },
+        "value_like": false
+      },
+      {
+        "distinct_text": 45,
+        "name": "Product",
+        "sample_column": false,
+        "shapes": {
+          "token": 403
+        },
+        "text_rows": {
+          "Asparagus": 1,
+          "Bamboo Shoot": 1,
+          "Banana": 2,
+          "Bean": 1,
+          "Bean - Black": 2,
+          "Bean - Fava": 1,
+          "Bean - Green/Yellow": 12,
+          "Bean - Kidney": 7,
+          "Bean - Other": 9,
+          "Bean - wax": 2,
+          "Beet": 1,
+          "Beverage - Fruit": 2,
+          "Beverage - Other": 1,
+          "Beverage - Tea": 1,
+          "Carrot": 14,
+          "Chickpea": 5,
+          "Corn": 20,
+          "Juice - Apple": 13,
+          "Juice - Tomato": 19,
+          "Juice/Nectar - Other": 1,
+          "Kale": 1,
+          "Longan": 1,
+          "Lychee": 5,
+          "Mango": 2,
+          "Mixed Fruit": 21,
+          "Mixed Vegetables": 17,
+          "Mushroom": 2,
+          "Orange": 13,
+          "Papaya": 1,
+          "Pasta - Canned": 96,
+          "Pea": 23,
+          "Pea - Organic": 2,
+          "Pea - Sugar": 1,
+          "Peach": 25,
+          "Pear": 18,
+          "Pineapple": 10,
+          "Plum": 1,
+          "Potato": 13,
+          "Preserve - Apricot": 1,
+          "Preserve - Blueberry": 1,
+          "Soup": 5,
+          "Sweet Potato": 1,
+          "Tomato": 13,
+          "Tomato - Organic": 2,
+          "juice - pineapple": 13
+        },
+        "text_samples": {
+          "Asparagus": 1,
+          "Bamboo Shoot": 1,
+          "Banana": 2,
+          "Bean": 1,
+          "Bean - Black": 2,
+          "Bean - Fava": 1,
+          "Bean - Green/Yellow": 12,
+          "Bean - Kidney": 7,
+          "Bean - Other": 9,
+          "Bean - wax": 2,
+          "Beet": 1,
+          "Beverage - Fruit": 2,
+          "Beverage - Other": 1,
+          "Beverage - Tea": 1,
+          "Carrot": 14,
+          "Chickpea": 5,
+          "Corn": 20,
+          "Juice - Apple": 13,
+          "Juice - Tomato": 19,
+          "Juice/Nectar - Other": 1,
+          "Kale": 1,
+          "Longan": 1,
+          "Lychee": 5,
+          "Mango": 2,
+          "Mixed Fruit": 21,
+          "Mixed Vegetables": 17,
+          "Mushroom": 2,
+          "Orange": 13,
+          "Papaya": 1,
+          "Pasta - Canned": 96,
+          "Pea": 23,
+          "Pea - Organic": 2,
+          "Pea - Sugar": 1,
+          "Peach": 25,
+          "Pear": 18,
+          "Pineapple": 10,
+          "Plum": 1,
+          "Potato": 13,
+          "Preserve - Apricot": 1,
+          "Preserve - Blueberry": 1,
+          "Soup": 5,
+          "Sweet Potato": 1,
+          "Tomato": 13,
+          "Tomato - Organic": 2,
+          "juice - pineapple": 13
+        },
+        "value_like": false
+      },
+      {
+        "distinct_text": 45,
+        "name": "Produit",
+        "sample_column": false,
+        "shapes": {
+          "token": 403
+        },
+        "text_rows": {
+          "Ananas": 10,
+          "Asperge": 1,
+          "Banane": 2,
+          "Betterave": 1,
+          "Boisson - Fruits": 2,
+          "Boisson - Thé": 1,
+          "Boisson-Autre": 1,
+          "Carotte": 14,
+          "Champignon": 2,
+          "Chou frisé": 1,
+          "Conserve - Abricot": 1,
+          "Conserve - Bluet": 1,
+          "Fruits mélangés": 21,
+          "Haricot": 1,
+          "Haricot - Autre": 9,
+          "Haricot - Commun": 7,
+          "Haricot - Gourgane": 1,
+          "Haricot jaune": 2,
+          "Haricot noir": 2,
+          "Haricot vert/jaune": 12,
+          "Jus d'ananas": 13,
+          "Jus de pomme": 13,
+          "Jus de tomate": 19,
+          "Jus/Nectar - autre": 1,
+          "Litchi": 5,
+          "Longane": 1,
+          "Légumes mélangés": 17,
+          "Mangue": 2,
+          "Maïs": 20,
+          "Orange": 13,
+          "Papaye": 1,
+          "Patate douce": 1,
+          "Poire": 18,
+          "Pois": 23,
+          "Pois chiche": 5,
+          "Pois sucre": 1,
+          "Pois-Biologique": 2,
+          "Pomme de terre": 13,
+          "Pousse de bambou": 1,
+          "Prune": 1,
+          "Pâtes en conserve": 96,
+          "Pêche": 25,
+          "Soupe": 5,
+          "Tomate": 13,
+          "Tomate-Biologique": 2
+        },
+        "text_samples": {
+          "Ananas": 10,
+          "Asperge": 1,
+          "Banane": 2,
+          "Betterave": 1,
+          "Boisson - Fruits": 2,
+          "Boisson - Thé": 1,
+          "Boisson-Autre": 1,
+          "Carotte": 14,
+          "Champignon": 2,
+          "Chou frisé": 1,
+          "Conserve - Abricot": 1,
+          "Conserve - Bluet": 1,
+          "Fruits mélangés": 21,
+          "Haricot": 1,
+          "Haricot - Autre": 9,
+          "Haricot - Commun": 7,
+          "Haricot - Gourgane": 1,
+          "Haricot jaune": 2,
+          "Haricot noir": 2,
+          "Haricot vert/jaune": 12,
+          "Jus d'ananas": 13,
+          "Jus de pomme": 13,
+          "Jus de tomate": 19,
+          "Jus/Nectar - autre": 1,
+          "Litchi": 5,
+          "Longane": 1,
+          "Légumes mélangés": 17,
+          "Mangue": 2,
+          "Maïs": 20,
+          "Orange": 13,
+          "Papaye": 1,
+          "Patate douce": 1,
+          "Poire": 18,
+          "Pois": 23,
+          "Pois chiche": 5,
+          "Pois sucre": 1,
+          "Pois-Biologique": 2,
+          "Pomme de terre": 13,
+          "Pousse de bambou": 1,
+          "Prune": 1,
+          "Pâtes en conserve": 96,
+          "Pêche": 25,
+          "Soupe": 5,
+          "Tomate": 13,
+          "Tomate-Biologique": 2
+        },
+        "value_like": false
+      },
+      {
+        "distinct_text": 127,
+        "name": "Date Sampled – Date d’échantillonage",
+        "sample_column": false,
+        "shapes": {
+          "token": 403
+        },
+        "text_rows": {
+          "01-Aug-11": 1,
+          "01-Dec-11": 2,
+          "01-Feb-12": 6,
+          "01-Jun-11": 5,
+          "01-May-11": 6,
+          "01-Nov-11": 2,
+          "02-Aug-11": 6,
+          "02-Jul-11": 1,
+          "02-Jun-11": 1,
+          "02-May-11": 4,
+          "02-Sep-11": 2,
+          "03-Aug-11": 1,
+          "03-Jan-12": 1,
+          "03-May-11": 2,
+          "03-Oct-11": 4,
+          "04-Dec-11": 1,
+          "04-Jan-12": 6,
+          "04-Jul-11": 17,
+          "04-May-11": 2,
+          "04-Nov-11": 1,
+          "05-Jan-12": 4,
+          "05-Jul-11": 1,
+          "05-Jun-11": 3,
+          "05-May-11": 1,
+          "06-Dec-11": 4,
+          "06-Jul-11": 9,
+          "06-Jun-11": 2,
+          "06-May-11": 3,
+          "06-Oct-11": 3,
+          "07-Feb-12": 1,
+          "07-Jun-11": 3,
+          "07-Mar-12": 1,
+          "07-Nov-11": 1,
+          "08-Aug-11": 1,
+          "08-Dec-11": 2,
+          "08-Jun-11": 2,
+          "08-Nov-11": 5,
+          "09-Aug-11": 2,
+          "09-Dec-11": 1,
+          "09-Jun-11": 6,
+          "09-May-11": 2,
+          "09-Nov-11": 4,
+          "10-Feb-12": 5,
+          "10-Jan-12": 4,
+          "10-May-11": 1,
+          "11-Aug-11": 2,
+          "11-Jul-11": 1,
+          "11-May-11": 1,
+          "12-Dec-11": 2,
+          "12-Jan-12": 5,
+          "12-Jul-11": 4,
+          "12-Mar-12": 2,
+          "12-Oct-11": 1,
+          "13-Aug-11": 1,
+          "13-Dec-11": 2,
+          "13-Jan-12": 3,
+          "13-Jul-11": 3,
+          "13-Mar-12": 1,
+          "13-May-11": 5,
+          "13-Oct-11": 5,
+          "14-Apr-11": 7,
+          "14-Feb-12": 7,
+          "14-Jun-11": 3,
+          "14-Nov-11": 4,
+          "14-Sep-11": 4,
+          "15-Apr-11": 3,
+          "15-Aug-11": 1,
+          "15-Feb-12": 1,
+          "15-Jan-12": 2,
+          "15-Jul-11": 1,
+          "15-Jun-11": 2,
+          "15-Nov-11": 7,
+          "16-Dec-11": 3,
+          "16-Jan-12": 5,
+          "16-Jul-11": 1,
+          "16-Jun-11": 2,
+          "17-Aug-11": 2,
+          "17-Jul-11": 1,
+          "17-Oct-11": 10,
+          "18-Apr-11": 8,
+          "18-Aug-11": 5,
+          "18-Jan-12": 4,
+          "18-Jul-11": 2,
+          "18-May-11": 2,
+          "18-Nov-11": 1,
+          "18-Oct-11": 1,
+          "19-Apr-11": 3,
+          "19-Aug-11": 2,
+          "19-Feb-12": 1,
+          "19-Jan-12": 2,
+          "19-Jul-11": 2,
+          "19-Nov-11": 2,
+          "20-Apr-11": 1,
+          "20-Dec-11": 7,
+          "21-Apr-11": 1,
+          "21-Aug-11": 2,
+          "21-Dec-11": 2,
+          "21-Nov-11": 4,
+          "21-Oct-11": 1,
+          "21-Sep-11": 1,
+          "22-Aug-11": 9,
+          "22-Jul-11": 7,
+          "22-Jun-11": 1,
+          "23-Feb-12": 4,
+          "24-Aug-11": 4,
+          "24-Jul-11": 1,
+          "24-Nov-11": 1,
+          "25-Apr-11": 21,
+          "25-Aug-11": 1,
+          "25-Jan-12": 2,
+          "25-Jul-11": 3,
+          "25-Oct-11": 6,
+          "26-Jan-12": 11,
+          "27-Apr-11": 6,
+          "27-Jan-12": 3,
+          "28-Apr-11": 5,
+          "28-Nov-11": 4,
+          "29-Apr-11": 2,
+          "29-Jun-11": 3,
+          "30-Sep-11": 2
+        },
+        "text_samples": {
+          "01-Aug-11": 1,
+          "01-Dec-11": 2,
+          "01-Feb-12": 6,
+          "01-Jun-11": 5,
+          "01-May-11": 6,
+          "01-Nov-11": 2,
+          "02-Aug-11": 6,
+          "02-Jul-11": 1,
+          "02-Jun-11": 1,
+          "02-May-11": 4,
+          "02-Sep-11": 2,
+          "03-Aug-11": 1,
+          "03-Jan-12": 1,
+          "03-May-11": 2,
+          "03-Oct-11": 4,
+          "04-Dec-11": 1,
+          "04-Jan-12": 6,
+          "04-Jul-11": 17,
+          "04-May-11": 2,
+          "04-Nov-11": 1,
+          "05-Jan-12": 4,
+          "05-Jul-11": 1,
+          "05-Jun-11": 3,
+          "05-May-11": 1,
+          "06-Dec-11": 4,
+          "06-Jul-11": 9,
+          "06-Jun-11": 2,
+          "06-May-11": 3,
+          "06-Oct-11": 3,
+          "07-Feb-12": 1,
+          "07-Jun-11": 3,
+          "07-Mar-12": 1,
+          "07-Nov-11": 1,
+          "08-Aug-11": 1,
+          "08-Dec-11": 2,
+          "08-Jun-11": 2,
+          "08-Nov-11": 5,
+          "09-Aug-11": 2,
+          "09-Dec-11": 1,
+          "09-Jun-11": 6,
+          "09-May-11": 2,
+          "09-Nov-11": 4,
+          "10-Feb-12": 5,
+          "10-Jan-12": 4,
+          "10-May-11": 1,
+          "11-Aug-11": 2,
+          "11-Jul-11": 1,
+          "11-May-11": 1,
+          "12-Dec-11": 2,
+          "12-Jan-12": 5,
+          "12-Jul-11": 4,
+          "12-Mar-12": 2,
+          "12-Oct-11": 1,
+          "13-Aug-11": 1,
+          "13-Dec-11": 2,
+          "13-Jan-12": 3,
+          "13-Jul-11": 3,
+          "13-Mar-12": 1,
+          "13-May-11": 5,
+          "13-Oct-11": 5,
+          "14-Apr-11": 7,
+          "14-Feb-12": 7,
+          "14-Jun-11": 3,
+          "14-Nov-11": 4,
+          "14-Sep-11": 4,
+          "15-Apr-11": 3,
+          "15-Aug-11": 1,
+          "15-Feb-12": 1,
+          "15-Jan-12": 2,
+          "15-Jul-11": 1,
+          "15-Jun-11": 2,
+          "15-Nov-11": 7,
+          "16-Dec-11": 3,
+          "16-Jan-12": 5,
+          "16-Jul-11": 1,
+          "16-Jun-11": 2,
+          "17-Aug-11": 2,
+          "17-Jul-11": 1,
+          "17-Oct-11": 10,
+          "18-Apr-11": 8,
+          "18-Aug-11": 5,
+          "18-Jan-12": 4,
+          "18-Jul-11": 2,
+          "18-May-11": 2,
+          "18-Nov-11": 1,
+          "18-Oct-11": 1,
+          "19-Apr-11": 3,
+          "19-Aug-11": 2,
+          "19-Feb-12": 1,
+          "19-Jan-12": 2,
+          "19-Jul-11": 2,
+          "19-Nov-11": 2,
+          "20-Apr-11": 1,
+          "20-Dec-11": 7,
+          "21-Apr-11": 1,
+          "21-Aug-11": 2,
+          "21-Dec-11": 2,
+          "21-Nov-11": 4,
+          "21-Oct-11": 1,
+          "21-Sep-11": 1,
+          "22-Aug-11": 9,
+          "22-Jul-11": 7,
+          "22-Jun-11": 1,
+          "23-Feb-12": 4,
+          "24-Aug-11": 4,
+          "24-Jul-11": 1,
+          "24-Nov-11": 1,
+          "25-Apr-11": 21,
+          "25-Aug-11": 1,
+          "25-Jan-12": 2,
+          "25-Jul-11": 3,
+          "25-Oct-11": 6,
+          "26-Jan-12": 11,
+          "27-Apr-11": 6,
+          "27-Jan-12": 3,
+          "28-Apr-11": 5,
+          "28-Nov-11": 4,
+          "29-Apr-11": 2,
+          "29-Jun-11": 3,
+          "30-Sep-11": 2
+        },
+        "value_like": false
+      },
+      {
+        "distinct_text": 1,
+        "name": "Type of Test",
+        "sample_column": false,
+        "shapes": {
+          "token": 403
+        },
+        "text_rows": {
+          "BPA": 403
+        },
+        "text_samples": {
+          "BPA": 403
+        },
+        "value_like": false
+      },
+      {
+        "distinct_text": 1,
+        "name": "Type d’analyse",
+        "sample_column": false,
+        "shapes": {
+          "token": 403
+        },
+        "text_rows": {
+          "BISPHÉNOL A": 403
+        },
+        "text_samples": {
+          "BISPHÉNOL A": 403
+        },
+        "value_like": false
+      },
+      {
+        "distinct_text": 1,
+        "name": "Component",
+        "sample_column": false,
+        "shapes": {
+          "token": 403
+        },
+        "text_rows": {
+          "Bisphenol A": 403
+        },
+        "text_samples": {
+          "Bisphenol A": 403
+        },
+        "value_like": false
+      },
+      {
+        "distinct_text": 1,
+        "name": "Composant",
+        "sample_column": false,
+        "shapes": {
+          "token": 403
+        },
+        "text_rows": {
+          "Bisphénol A": 403
+        },
+        "text_samples": {
+          "Bisphénol A": 403
+        },
+        "value_like": false
+      },
+      {
+        "distinct_text": 0,
+        "name": "Result - Résultat",
+        "sample_column": false,
+        "shapes": {
+          "number": 403
+        },
+        "text_rows": {},
+        "text_samples": {},
+        "value_like": true
+      },
+      {
+        "distinct_text": 1,
+        "name": "Unit - Unité (ppm)",
+        "sample_column": false,
+        "shapes": {
+          "token": 403
+        },
+        "text_rows": {
+          "µg/g": 403
+        },
+        "text_samples": {
+          "µg/g": 403
+        },
+        "value_like": false
+      },
+      {
+        "distinct_text": 1,
+        "name": "Plan Code - Code du régime",
+        "sample_column": false,
+        "shapes": {
+          "token": 403
+        },
+        "text_rows": {
+          "2011_SB451": 403
+        },
+        "text_samples": {
+          "2011_SB451": 403
+        },
+        "value_like": false
+      }
+    ],
+    "header_width": 16,
+    "row_widths": {
+      "16": 403
+    },
+    "rows": 403,
+    "samples": 403
+  },
+  "dataset": "3c1749ef-d6a2-400d-a096-8dd5a13507b2",
+  "encoding": "cp1252",
+  "md5": "afae926b6784187c1b15c19f16c928ef",
+  "md5_matches_portal": true,
+  "portal_md5": "afae926b6784187c1b15c19f16c928ef",
+  "portal_size": 69780,
+  "resource": "86eb4b33-11b4-475d-a0ff-3f32a611a73e",
+  "sha256": "64dff91acbd2eb953ef1c42effa34f709e868902d6ed03e5643320377f287918",
+  "size_matches_portal": true,
+  "source": "https://open.canada.ca/data/dataset/3c1749ef-d6a2-400d-a096-8dd5a13507b2/resource/86eb4b33-11b4-475d-a0ff-3f32a611a73e/download/cfia_acia-1331-v2-fsap_chem_ts_-_2011-12_-_bpa_in_canned_foods_-_sb451_bpha_-_open_data.csv",
+  "study": "bpa-2011-census",
+  "version": "0.1.0"
+}

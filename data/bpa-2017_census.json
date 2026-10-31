@@ -1,0 +1,1750 @@
+{
+  "bytes": 339854,
+  "census": {
+    "columns": {
+      "commodity": null,
+      "component": 11,
+      "date": 8,
+      "function": 2,
+      "origin": 4,
+      "plan": 15,
+      "product": 6,
+      "region": 1,
+      "sample": 0,
+      "test": 9,
+      "unit": 14,
+      "value": 13
+    },
+    "commodities": {
+      "": 468
+    },
+    "components": {
+      "Bisphenol A": 468,
+      "Bisphenol A Diglycidyl Ether": 468,
+      "Bisphenol F": 468,
+      "Bisphenol S": 468
+    },
+    "header": [
+      "Sample No. – No. d’échantillon",
+      "Region - Région",
+      "Function",
+      "Fonction",
+      "Origin",
+      "Origine",
+      "Product",
+      "Produit",
+      "Date Sampled – Date d’échantillonage",
+      "Type of Test",
+      "Type d’analyse",
+      "Component",
+      "Composant",
+      "Result - Résultat",
+      "Unit - Unité",
+      "Plan Code - Code du régime"
+    ],
+    "id_gaps": 30,
+    "id_range": [
+      1,
+      498
+    ],
+    "ids_bad": [],
+    "ids_bad_count": 0,
+    "ids_dup_suffix": [],
+    "missing_component_samples": {},
+    "mixed_label_samples": [],
+    "plans": {
+      "2017_SB451": 1872
+    },
+    "product_commodity": {
+      "Beef | ": 1,
+      "Chicken | ": 5,
+      "Crab | ": 1,
+      "Fish | ": 4,
+      "Fish/Seafood - Canned | ": 165,
+      "Ham | ": 5,
+      "Herring | ": 1,
+      "Mackerel | ": 2,
+      "Meat - Canned | ": 219,
+      "Mussel | ": 1,
+      "Oyster | ": 1,
+      "Pork | ": 1,
+      "Salmon | ": 12,
+      "Shrimp | ": 1,
+      "Tuna | ": 49
+    },
+    "product_function": {
+      "Beef": {
+        "Import": 1
+      },
+      "Chicken": {
+        "Domestic": 1,
+        "Import": 4
+      },
+      "Crab": {
+        "Import": 1
+      },
+      "Fish": {
+        "Domestic": 2,
+        "Import": 2
+      },
+      "Fish/Seafood - Canned": {
+        "Domestic": 7,
+        "Import": 155,
+        "Unknown": 3
+      },
+      "Ham": {
+        "Domestic": 5
+      },
+      "Herring": {
+        "Domestic": 1
+      },
+      "Mackerel": {
+        "Import": 2
+      },
+      "Meat - Canned": {
+        "Domestic": 104,
+        "Import": 97,
+        "Unknown": 18
+      },
+      "Mussel": {
+        "Import": 1
+      },
+      "Oyster": {
+        "Import": 1
+      },
+      "Pork": {
+        "Domestic": 1
+      },
+      "Salmon": {
+        "Domestic": 2,
+        "Import": 10
+      },
+      "Shrimp": {
+        "Import": 1
+      },
+      "Tuna": {
+        "Domestic": 2,
+        "Import": 47
+      }
+    },
+    "product_id_runs": {
+      "Beef": [
+        [
+          370,
+          370
+        ]
+      ],
+      "Chicken": [
+        [
+          101,
+          101
+        ],
+        [
+          376,
+          376
+        ],
+        [
+          388,
+          388
+        ],
+        [
+          482,
+          482
+        ],
+        [
+          485,
+          485
+        ]
+      ],
+      "Crab": [
+        [
+          454,
+          454
+        ]
+      ],
+      "Fish": [
+        [
+          36,
+          38
+        ],
+        [
+          41,
+          41
+        ]
+      ],
+      "Fish/Seafood - Canned": [
+        [
+          4,
+          4
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          10,
+          12
+        ],
+        [
+          16,
+          20
+        ],
+        [
+          24,
+          24
+        ],
+        [
+          26,
+          27
+        ],
+        [
+          29,
+          29
+        ],
+        [
+          43,
+          43
+        ],
+        [
+          46,
+          46
+        ],
+        [
+          48,
+          49
+        ],
+        [
+          54,
+          54
+        ],
+        [
+          56,
+          57
+        ],
+        [
+          61,
+          63
+        ],
+        [
+          66,
+          66
+        ],
+        [
+          71,
+          74
+        ],
+        [
+          85,
+          85
+        ],
+        [
+          89,
+          89
+        ],
+        [
+          92,
+          92
+        ],
+        [
+          94,
+          94
+        ],
+        [
+          96,
+          96
+        ],
+        [
+          102,
+          102
+        ],
+        [
+          107,
+          107
+        ],
+        [
+          119,
+          119
+        ],
+        [
+          127,
+          128
+        ],
+        [
+          137,
+          138
+        ],
+        [
+          140,
+          142
+        ],
+        [
+          153,
+          158
+        ],
+        [
+          169,
+          176
+        ],
+        [
+          182,
+          189
+        ],
+        [
+          200,
+          205
+        ],
+        [
+          213,
+          223
+        ],
+        [
+          225,
+          225
+        ],
+        [
+          228,
+          235
+        ],
+        [
+          241,
+          244
+        ],
+        [
+          247,
+          247
+        ],
+        [
+          252,
+          254
+        ],
+        [
+          262,
+          262
+        ],
+        [
+          264,
+          265
+        ],
+        [
+          274,
+          276
+        ],
+        [
+          278,
+          278
+        ],
+        [
+          280,
+          281
+        ],
+        [
+          285,
+          288
+        ],
+        [
+          295,
+          298
+        ],
+        [
+          303,
+          307
+        ],
+        [
+          314,
+          315
+        ],
+        [
+          323,
+          323
+        ],
+        [
+          325,
+          328
+        ],
+        [
+          335,
+          338
+        ],
+        [
+          340,
+          340
+        ],
+        [
+          347,
+          347
+        ],
+        [
+          355,
+          355
+        ],
+        [
+          359,
+          359
+        ],
+        [
+          382,
+          383
+        ],
+        [
+          386,
+          387
+        ],
+        [
+          391,
+          393
+        ],
+        [
+          401,
+          401
+        ],
+        [
+          405,
+          406
+        ],
+        [
+          411,
+          412
+        ],
+        [
+          423,
+          423
+        ],
+        [
+          446,
+          447
+        ],
+        [
+          452,
+          453
+        ],
+        [
+          455,
+          455
+        ],
+        [
+          463,
+          466
+        ],
+        [
+          468,
+          468
+        ],
+        [
+          476,
+          476
+        ],
+        [
+          480,
+          481
+        ],
+        [
+          493,
+          493
+        ]
+      ],
+      "Ham": [
+        [
+          109,
+          109
+        ],
+        [
+          375,
+          375
+        ],
+        [
+          378,
+          378
+        ],
+        [
+          384,
+          384
+        ],
+        [
+          395,
+          395
+        ]
+      ],
+      "Herring": [
+        [
+          492,
+          492
+        ]
+      ],
+      "Mackerel": [
+        [
+          105,
+          105
+        ],
+        [
+          279,
+          279
+        ]
+      ],
+      "Meat - Canned": [
+        [
+          1,
+          3
+        ],
+        [
+          5,
+          5
+        ],
+        [
+          8,
+          9
+        ],
+        [
+          13,
+          15
+        ],
+        [
+          21,
+          23
+        ],
+        [
+          25,
+          25
+        ],
+        [
+          28,
+          28
+        ],
+        [
+          34,
+          35
+        ],
+        [
+          39,
+          40
+        ],
+        [
+          42,
+          42
+        ],
+        [
+          47,
+          47
+        ],
+        [
+          50,
+          53
+        ],
+        [
+          55,
+          55
+        ],
+        [
+          58,
+          60
+        ],
+        [
+          64,
+          65
+        ],
+        [
+          67,
+          69
+        ],
+        [
+          75,
+          84
+        ],
+        [
+          97,
+          100
+        ],
+        [
+          108,
+          108
+        ],
+        [
+          110,
+          114
+        ],
+        [
+          120,
+          126
+        ],
+        [
+          129,
+          134
+        ],
+        [
+          143,
+          152
+        ],
+        [
+          159,
+          168
+        ],
+        [
+          177,
+          178
+        ],
+        [
+          180,
+          181
+        ],
+        [
+          190,
+          199
+        ],
+        [
+          206,
+          206
+        ],
+        [
+          208,
+          210
+        ],
+        [
+          212,
+          212
+        ],
+        [
+          226,
+          227
+        ],
+        [
+          236,
+          240
+        ],
+        [
+          248,
+          251
+        ],
+        [
+          255,
+          260
+        ],
+        [
+          267,
+          273
+        ],
+        [
+          282,
+          283
+        ],
+        [
+          289,
+          294
+        ],
+        [
+          299,
+          300
+        ],
+        [
+          302,
+          302
+        ],
+        [
+          308,
+          313
+        ],
+        [
+          316,
+          321
+        ],
+        [
+          333,
+          334
+        ],
+        [
+          341,
+          344
+        ],
+        [
+          346,
+          346
+        ],
+        [
+          350,
+          350
+        ],
+        [
+          356,
+          358
+        ],
+        [
+          362,
+          364
+        ],
+        [
+          368,
+          369
+        ],
+        [
+          371,
+          371
+        ],
+        [
+          374,
+          374
+        ],
+        [
+          377,
+          377
+        ],
+        [
+          385,
+          385
+        ],
+        [
+          389,
+          390
+        ],
+        [
+          394,
+          394
+        ],
+        [
+          407,
+          410
+        ],
+        [
+          413,
+          419
+        ],
+        [
+          424,
+          428
+        ],
+        [
+          432,
+          434
+        ],
+        [
+          444,
+          445
+        ],
+        [
+          448,
+          451
+        ],
+        [
+          456,
+          461
+        ],
+        [
+          469,
+          473
+        ],
+        [
+          479,
+          479
+        ],
+        [
+          483,
+          484
+        ],
+        [
+          486,
+          489
+        ],
+        [
+          498,
+          498
+        ]
+      ],
+      "Mussel": [
+        [
+          353,
+          353
+        ]
+      ],
+      "Oyster": [
+        [
+          352,
+          352
+        ]
+      ],
+      "Pork": [
+        [
+          351,
+          351
+        ]
+      ],
+      "Salmon": [
+        [
+          261,
+          261
+        ],
+        [
+          266,
+          266
+        ],
+        [
+          366,
+          366
+        ],
+        [
+          373,
+          373
+        ],
+        [
+          380,
+          380
+        ],
+        [
+          402,
+          403
+        ],
+        [
+          435,
+          435
+        ],
+        [
+          440,
+          440
+        ],
+        [
+          478,
+          478
+        ],
+        [
+          490,
+          491
+        ]
+      ],
+      "Shrimp": [
+        [
+          462,
+          462
+        ]
+      ],
+      "Tuna": [
+        [
+          44,
+          45
+        ],
+        [
+          86,
+          88
+        ],
+        [
+          90,
+          91
+        ],
+        [
+          93,
+          93
+        ],
+        [
+          95,
+          95
+        ],
+        [
+          103,
+          104
+        ],
+        [
+          106,
+          106
+        ],
+        [
+          115,
+          118
+        ],
+        [
+          136,
+          136
+        ],
+        [
+          139,
+          139
+        ],
+        [
+          245,
+          246
+        ],
+        [
+          263,
+          263
+        ],
+        [
+          277,
+          277
+        ],
+        [
+          348,
+          349
+        ],
+        [
+          354,
+          354
+        ],
+        [
+          360,
+          361
+        ],
+        [
+          365,
+          365
+        ],
+        [
+          367,
+          367
+        ],
+        [
+          372,
+          372
+        ],
+        [
+          379,
+          379
+        ],
+        [
+          381,
+          381
+        ],
+        [
+          396,
+          396
+        ],
+        [
+          400,
+          400
+        ],
+        [
+          404,
+          404
+        ],
+        [
+          420,
+          422
+        ],
+        [
+          429,
+          431
+        ],
+        [
+          436,
+          436
+        ],
+        [
+          438,
+          439
+        ],
+        [
+          441,
+          441
+        ],
+        [
+          467,
+          467
+        ],
+        [
+          474,
+          475
+        ],
+        [
+          477,
+          477
+        ]
+      ]
+    },
+    "product_origin_top": {
+      "Beef": {
+        "BRAZIL": 1
+      },
+      "Chicken": {
+        "CANADA": 1,
+        "UNITED STATES": 4
+      },
+      "Crab": {
+        "VIETNAM": 1
+      },
+      "Fish": {
+        "CANADA": 2,
+        "MOROCCO": 1,
+        "UNITED STATES": 1
+      },
+      "Fish/Seafood - Canned": {
+        "CANADA": 7,
+        "CHILE": 1,
+        "CHINA": 12,
+        "ECUADOR": 1,
+        "GERMANY": 1,
+        "INDONESIA": 2,
+        "ITALY": 1,
+        "MALAYSIA": 1,
+        "MOROCCO": 2,
+        "PHILIPPINES": 6,
+        "PORTUGAL": 3,
+        "SCOTLAND": 1,
+        "SPAIN": 3,
+        "THAILAND": 83,
+        "UNITED STATES": 30,
+        "UNKNOWN": 3,
+        "VIETNAM": 8
+      },
+      "Ham": {
+        "CANADA": 5
+      },
+      "Herring": {
+        "CANADA": 1
+      },
+      "Mackerel": {
+        "PORTUGAL": 1,
+        "VIETNAM": 1
+      },
+      "Meat - Canned": {
+        "BRAZIL": 22,
+        "CANADA": 104,
+        "CROATIA": 1,
+        "DENMARK": 4,
+        "ITALY": 1,
+        "NEW ZEALAND": 7,
+        "POLAND": 1,
+        "ROMANIA": 1,
+        "THAILAND": 4,
+        "UNITED STATES": 55,
+        "UNKNOWN": 19
+      },
+      "Mussel": {
+        "CHINA": 1
+      },
+      "Oyster": {
+        "KOREA, REPUBLIC OF": 1
+      },
+      "Pork": {
+        "CANADA": 1
+      },
+      "Salmon": {
+        "CANADA": 2,
+        "UNITED STATES": 10
+      },
+      "Shrimp": {
+        "INDONESIA": 1
+      },
+      "Tuna": {
+        "AMERICAN SAMOA": 2,
+        "CANADA": 2,
+        "PHILIPPINES": 3,
+        "SEYCHELLES": 1,
+        "THAILAND": 41
+      }
+    },
+    "products": {
+      "Beef": 1,
+      "Chicken": 5,
+      "Crab": 1,
+      "Fish": 4,
+      "Fish/Seafood - Canned": 165,
+      "Ham": 5,
+      "Herring": 1,
+      "Mackerel": 2,
+      "Meat - Canned": 219,
+      "Mussel": 1,
+      "Oyster": 1,
+      "Pork": 1,
+      "Salmon": 12,
+      "Shrimp": 1,
+      "Tuna": 49
+    },
+    "regions": {
+      "ATLANTIC": 124,
+      "ONTARIO": 744,
+      "QUEBEC": 436,
+      "WEST": 568
+    },
+    "repeated_component_samples": {},
+    "rows": 1872,
+    "rows_per_sample": {
+      "4": 468
+    },
+    "samples": 468,
+    "shapes": {
+      "number": 1872
+    },
+    "shapes_by_component": {
+      "Bisphenol A": {
+        "number": 468
+      },
+      "Bisphenol A Diglycidyl Ether": {
+        "number": 468
+      },
+      "Bisphenol F": {
+        "number": 468
+      },
+      "Bisphenol S": {
+        "number": 468
+      }
+    },
+    "tests": {
+      "BPA": 1872
+    },
+    "tokens": {},
+    "units": {
+      "µg/g": 1872
+    },
+    "units_by_component": {
+      "Bisphenol A": {
+        "µg/g": 468
+      },
+      "Bisphenol A Diglycidyl Ether": {
+        "µg/g": 468
+      },
+      "Bisphenol F": {
+        "µg/g": 468
+      },
+      "Bisphenol S": {
+        "µg/g": 468
+      }
+    }
+  },
+  "columns": {
+    "columns": [
+      {
+        "distinct_text": 0,
+        "name": "Sample No. – No. d’échantillon",
+        "sample_column": true,
+        "shapes": {
+          "token": 1872
+        },
+        "text_rows": {},
+        "text_samples": {},
+        "value_like": false
+      },
+      {
+        "distinct_text": 4,
+        "name": "Region - Région",
+        "sample_column": false,
+        "shapes": {
+          "token": 1872
+        },
+        "text_rows": {
+          "ATLANTIC": 124,
+          "ONTARIO": 744,
+          "QUEBEC": 436,
+          "WEST": 568
+        },
+        "text_samples": {
+          "ATLANTIC": 31,
+          "ONTARIO": 186,
+          "QUEBEC": 109,
+          "WEST": 142
+        },
+        "value_like": false
+      },
+      {
+        "distinct_text": 3,
+        "name": "Function",
+        "sample_column": false,
+        "shapes": {
+          "token": 1872
+        },
+        "text_rows": {
+          "Domestic": 500,
+          "Import": 1288,
+          "Unknown": 84
+        },
+        "text_samples": {
+          "Domestic": 125,
+          "Import": 322,
+          "Unknown": 21
+        },
+        "value_like": false
+      },
+      {
+        "distinct_text": 3,
+        "name": "Fonction",
+        "sample_column": false,
+        "shapes": {
+          "token": 1872
+        },
+        "text_rows": {
+          "domestique": 500,
+          "importé": 1288,
+          "inconnu": 84
+        },
+        "text_samples": {
+          "domestique": 125,
+          "importé": 322,
+          "inconnu": 21
+        },
+        "value_like": false
+      },
+      {
+        "distinct_text": 26,
+        "name": "Origin",
+        "sample_column": false,
+        "shapes": {
+          "token": 1872
+        },
+        "text_rows": {
+          "AMERICAN SAMOA": 8,
+          "BRAZIL": 92,
+          "CANADA": 500,
+          "CHILE": 4,
+          "CHINA": 52,
+          "CROATIA": 4,
+          "DENMARK": 16,
+          "ECUADOR": 4,
+          "GERMANY": 4,
+          "INDONESIA": 12,
+          "ITALY": 8,
+          "KOREA, REPUBLIC OF": 4,
+          "MALAYSIA": 4,
+          "MOROCCO": 12,
+          "NEW ZEALAND": 28,
+          "PHILIPPINES": 36,
+          "POLAND": 4,
+          "PORTUGAL": 16,
+          "ROMANIA": 4,
+          "SCOTLAND": 4,
+          "SEYCHELLES": 4,
+          "SPAIN": 12,
+          "THAILAND": 512,
+          "UNITED STATES": 400,
+          "UNKNOWN": 88,
+          "VIETNAM": 40
+        },
+        "text_samples": {
+          "AMERICAN SAMOA": 2,
+          "BRAZIL": 23,
+          "CANADA": 125,
+          "CHILE": 1,
+          "CHINA": 13,
+          "CROATIA": 1,
+          "DENMARK": 4,
+          "ECUADOR": 1,
+          "GERMANY": 1,
+          "INDONESIA": 3,
+          "ITALY": 2,
+          "KOREA, REPUBLIC OF": 1,
+          "MALAYSIA": 1,
+          "MOROCCO": 3,
+          "NEW ZEALAND": 7,
+          "PHILIPPINES": 9,
+          "POLAND": 1,
+          "PORTUGAL": 4,
+          "ROMANIA": 1,
+          "SCOTLAND": 1,
+          "SEYCHELLES": 1,
+          "SPAIN": 3,
+          "THAILAND": 128,
+          "UNITED STATES": 100,
+          "UNKNOWN": 22,
+          "VIETNAM": 10
+        },
+        "value_like": false
+      },
+      {
+        "distinct_text": 26,
+        "name": "Origine",
+        "sample_column": false,
+        "shapes": {
+          "token": 1872
+        },
+        "text_rows": {
+          "ALLEMAGNE": 4,
+          "BRÉSIL": 92,
+          "CANADA": 500,
+          "CHILI": 4,
+          "CHINE": 52,
+          "CORÉE, RÉPUBLIQUE DE": 4,
+          "CROATIE": 4,
+          "DANEMARK": 16,
+          "ECOSSE": 4,
+          "ESPAGNE": 12,
+          "INCONNU": 88,
+          "INDONÉSIE": 12,
+          "ITALIE": 8,
+          "MALAISIE": 4,
+          "MAROC": 12,
+          "NOUVELLE-ZÉLANDE": 28,
+          "PHILIPPINES": 36,
+          "POLOGNE": 4,
+          "PORTUGAL": 16,
+          "ROUMANIE": 4,
+          "SAMOA AMÉRICAINES": 8,
+          "SEYCHELLES": 4,
+          "THAÏLANDE": 512,
+          "VIETNAM": 40,
+          "ÉQUATEUR": 4,
+          "ÉTATS-UNIS": 400
+        },
+        "text_samples": {
+          "ALLEMAGNE": 1,
+          "BRÉSIL": 23,
+          "CANADA": 125,
+          "CHILI": 1,
+          "CHINE": 13,
+          "CORÉE, RÉPUBLIQUE DE": 1,
+          "CROATIE": 1,
+          "DANEMARK": 4,
+          "ECOSSE": 1,
+          "ESPAGNE": 3,
+          "INCONNU": 22,
+          "INDONÉSIE": 3,
+          "ITALIE": 2,
+          "MALAISIE": 1,
+          "MAROC": 3,
+          "NOUVELLE-ZÉLANDE": 7,
+          "PHILIPPINES": 9,
+          "POLOGNE": 1,
+          "PORTUGAL": 4,
+          "ROUMANIE": 1,
+          "SAMOA AMÉRICAINES": 2,
+          "SEYCHELLES": 1,
+          "THAÏLANDE": 128,
+          "VIETNAM": 10,
+          "ÉQUATEUR": 1,
+          "ÉTATS-UNIS": 100
+        },
+        "value_like": false
+      },
+      {
+        "distinct_text": 15,
+        "name": "Product",
+        "sample_column": false,
+        "shapes": {
+          "token": 1872
+        },
+        "text_rows": {
+          "Beef": 4,
+          "Chicken": 20,
+          "Crab": 4,
+          "Fish": 16,
+          "Fish/Seafood - Canned": 660,
+          "Ham": 20,
+          "Herring": 4,
+          "Mackerel": 8,
+          "Meat - Canned": 876,
+          "Mussel": 4,
+          "Oyster": 4,
+          "Pork": 4,
+          "Salmon": 48,
+          "Shrimp": 4,
+          "Tuna": 196
+        },
+        "text_samples": {
+          "Beef": 1,
+          "Chicken": 5,
+          "Crab": 1,
+          "Fish": 4,
+          "Fish/Seafood - Canned": 165,
+          "Ham": 5,
+          "Herring": 1,
+          "Mackerel": 2,
+          "Meat - Canned": 219,
+          "Mussel": 1,
+          "Oyster": 1,
+          "Pork": 1,
+          "Salmon": 12,
+          "Shrimp": 1,
+          "Tuna": 49
+        },
+        "value_like": false
+      },
+      {
+        "distinct_text": 15,
+        "name": "Produit",
+        "sample_column": false,
+        "shapes": {
+          "token": 1872
+        },
+        "text_rows": {
+          "Boeuf": 4,
+          "Crabe": 4,
+          "Crevette": 4,
+          "Hareng": 4,
+          "Huître": 4,
+          "Jambon": 20,
+          "Maquereau": 8,
+          "Moule": 4,
+          "Poisson/Fruits de mer - En conserve": 660,
+          "Poissons": 16,
+          "Porc": 4,
+          "Poulet": 20,
+          "Produit de viande - en conserve": 876,
+          "Saumon": 48,
+          "Thon": 196
+        },
+        "text_samples": {
+          "Boeuf": 1,
+          "Crabe": 1,
+          "Crevette": 1,
+          "Hareng": 1,
+          "Huître": 1,
+          "Jambon": 5,
+          "Maquereau": 2,
+          "Moule": 1,
+          "Poisson/Fruits de mer - En conserve": 165,
+          "Poissons": 4,
+          "Porc": 1,
+          "Poulet": 5,
+          "Produit de viande - en conserve": 219,
+          "Saumon": 12,
+          "Thon": 49
+        },
+        "value_like": false
+      },
+      {
+        "distinct_text": 110,
+        "name": "Date Sampled – Date d’échantillonage",
+        "sample_column": false,
+        "shapes": {
+          "token": 1872
+        },
+        "text_rows": {
+          "01-Aug-17": 40,
+          "01-Dec-17": 12,
+          "01-Feb-18": 32,
+          "01-Jan-18": 16,
+          "01-Nov-17": 32,
+          "01-Oct-17": 24,
+          "01-Sep-17": 16,
+          "02-Aug-17": 8,
+          "02-Jan-18": 28,
+          "02-Jul-17": 8,
+          "02-Jun-17": 28,
+          "02-May-17": 20,
+          "02-Nov-17": 36,
+          "02-Sep-17": 20,
+          "03-Apr-17": 24,
+          "03-Jan-18": 28,
+          "03-Jul-17": 64,
+          "03-Jun-17": 20,
+          "03-Oct-17": 4,
+          "04-Dec-17": 4,
+          "04-Jan-18": 4,
+          "04-Jun-17": 28,
+          "04-Sep-17": 8,
+          "05-Apr-17": 8,
+          "05-Dec-17": 12,
+          "05-Feb-18": 20,
+          "05-Jul-17": 8,
+          "05-Nov-17": 24,
+          "05-Sep-17": 8,
+          "06-Feb-18": 4,
+          "07-Apr-17": 52,
+          "07-Dec-17": 20,
+          "07-Jun-17": 12,
+          "07-Sep-17": 8,
+          "08-Dec-17": 16,
+          "08-Feb-18": 40,
+          "08-Jan-18": 16,
+          "08-Jun-17": 32,
+          "08-Nov-17": 8,
+          "08-Oct-17": 12,
+          "08-Sep-17": 28,
+          "09-May-17": 8,
+          "09-Nov-17": 4,
+          "10-Aug-17": 28,
+          "10-Dec-17": 12,
+          "10-May-17": 28,
+          "10-Nov-17": 8,
+          "10-Oct-17": 12,
+          "10-Sep-17": 4,
+          "11-Apr-17": 44,
+          "11-Aug-17": 16,
+          "11-Dec-17": 8,
+          "11-Jan-18": 48,
+          "11-Jul-17": 16,
+          "11-Sep-17": 8,
+          "12-Dec-17": 12,
+          "12-Feb-18": 28,
+          "13-Aug-17": 20,
+          "13-Dec-17": 4,
+          "13-Sep-17": 8,
+          "14-Aug-17": 16,
+          "14-Dec-17": 52,
+          "14-Jan-18": 16,
+          "14-Sep-17": 16,
+          "15-Apr-17": 12,
+          "15-Nov-17": 12,
+          "16-Jun-17": 4,
+          "16-May-17": 32,
+          "16-Nov-17": 4,
+          "16-Sep-17": 4,
+          "17-Apr-17": 4,
+          "17-Jul-17": 28,
+          "17-Oct-17": 4,
+          "17-Sep-17": 12,
+          "18-Apr-17": 4,
+          "18-Dec-17": 8,
+          "18-Feb-18": 4,
+          "18-Jan-18": 4,
+          "18-Oct-17": 8,
+          "19-Jun-17": 20,
+          "19-May-17": 4,
+          "19-Nov-17": 20,
+          "19-Oct-17": 28,
+          "20-Apr-17": 12,
+          "20-Nov-17": 12,
+          "21-Jan-18": 48,
+          "22-Apr-17": 12,
+          "22-Sep-17": 12,
+          "23-Jul-17": 12,
+          "23-May-17": 28,
+          "23-Oct-17": 4,
+          "24-Jul-17": 32,
+          "24-May-17": 4,
+          "24-Nov-17": 4,
+          "25-Apr-17": 4,
+          "26-Apr-17": 4,
+          "26-Oct-17": 16,
+          "27-Apr-17": 4,
+          "27-Jul-17": 8,
+          "27-Sep-17": 8,
+          "28-Aug-17": 4,
+          "28-May-17": 4,
+          "29-Aug-17": 4,
+          "29-Dec-17": 8,
+          "29-May-17": 4,
+          "29-Sep-17": 72,
+          "30-Apr-17": 48,
+          "30-Aug-17": 16,
+          "30-Jun-17": 20,
+          "31-Oct-17": 4
+        },
+        "text_samples": {
+          "01-Aug-17": 10,
+          "01-Dec-17": 3,
+          "01-Feb-18": 8,
+          "01-Jan-18": 4,
+          "01-Nov-17": 8,
+          "01-Oct-17": 6,
+          "01-Sep-17": 4,
+          "02-Aug-17": 2,
+          "02-Jan-18": 7,
+          "02-Jul-17": 2,
+          "02-Jun-17": 7,
+          "02-May-17": 5,
+          "02-Nov-17": 9,
+          "02-Sep-17": 5,
+          "03-Apr-17": 6,
+          "03-Jan-18": 7,
+          "03-Jul-17": 16,
+          "03-Jun-17": 5,
+          "03-Oct-17": 1,
+          "04-Dec-17": 1,
+          "04-Jan-18": 1,
+          "04-Jun-17": 7,
+          "04-Sep-17": 2,
+          "05-Apr-17": 2,
+          "05-Dec-17": 3,
+          "05-Feb-18": 5,
+          "05-Jul-17": 2,
+          "05-Nov-17": 6,
+          "05-Sep-17": 2,
+          "06-Feb-18": 1,
+          "07-Apr-17": 13,
+          "07-Dec-17": 5,
+          "07-Jun-17": 3,
+          "07-Sep-17": 2,
+          "08-Dec-17": 4,
+          "08-Feb-18": 10,
+          "08-Jan-18": 4,
+          "08-Jun-17": 8,
+          "08-Nov-17": 2,
+          "08-Oct-17": 3,
+          "08-Sep-17": 7,
+          "09-May-17": 2,
+          "09-Nov-17": 1,
+          "10-Aug-17": 7,
+          "10-Dec-17": 3,
+          "10-May-17": 7,
+          "10-Nov-17": 2,
+          "10-Oct-17": 3,
+          "10-Sep-17": 1,
+          "11-Apr-17": 11,
+          "11-Aug-17": 4,
+          "11-Dec-17": 2,
+          "11-Jan-18": 12,
+          "11-Jul-17": 4,
+          "11-Sep-17": 2,
+          "12-Dec-17": 3,
+          "12-Feb-18": 7,
+          "13-Aug-17": 5,
+          "13-Dec-17": 1,
+          "13-Sep-17": 2,
+          "14-Aug-17": 4,
+          "14-Dec-17": 13,
+          "14-Jan-18": 4,
+          "14-Sep-17": 4,
+          "15-Apr-17": 3,
+          "15-Nov-17": 3,
+          "16-Jun-17": 1,
+          "16-May-17": 8,
+          "16-Nov-17": 1,
+          "16-Sep-17": 1,
+          "17-Apr-17": 1,
+          "17-Jul-17": 7,
+          "17-Oct-17": 1,
+          "17-Sep-17": 3,
+          "18-Apr-17": 1,
+          "18-Dec-17": 2,
+          "18-Feb-18": 1,
+          "18-Jan-18": 1,
+          "18-Oct-17": 2,
+          "19-Jun-17": 5,
+          "19-May-17": 1,
+          "19-Nov-17": 5,
+          "19-Oct-17": 7,
+          "20-Apr-17": 3,
+          "20-Nov-17": 3,
+          "21-Jan-18": 12,
+          "22-Apr-17": 3,
+          "22-Sep-17": 3,
+          "23-Jul-17": 3,
+          "23-May-17": 7,
+          "23-Oct-17": 1,
+          "24-Jul-17": 8,
+          "24-May-17": 1,
+          "24-Nov-17": 1,
+          "25-Apr-17": 1,
+          "26-Apr-17": 1,
+          "26-Oct-17": 4,
+          "27-Apr-17": 1,
+          "27-Jul-17": 2,
+          "27-Sep-17": 2,
+          "28-Aug-17": 1,
+          "28-May-17": 1,
+          "29-Aug-17": 1,
+          "29-Dec-17": 2,
+          "29-May-17": 1,
+          "29-Sep-17": 18,
+          "30-Apr-17": 12,
+          "30-Aug-17": 4,
+          "30-Jun-17": 5,
+          "31-Oct-17": 1
+        },
+        "value_like": false
+      },
+      {
+        "distinct_text": 1,
+        "name": "Type of Test",
+        "sample_column": false,
+        "shapes": {
+          "token": 1872
+        },
+        "text_rows": {
+          "BPA": 1872
+        },
+        "text_samples": {
+          "BPA": 468
+        },
+        "value_like": false
+      },
+      {
+        "distinct_text": 1,
+        "name": "Type d’analyse",
+        "sample_column": false,
+        "shapes": {
+          "token": 1872
+        },
+        "text_rows": {
+          "BISPHÉNOL A": 1872
+        },
+        "text_samples": {
+          "BISPHÉNOL A": 468
+        },
+        "value_like": false
+      },
+      {
+        "distinct_text": 4,
+        "name": "Component",
+        "sample_column": false,
+        "shapes": {
+          "token": 1872
+        },
+        "text_rows": {
+          "Bisphenol A": 468,
+          "Bisphenol A Diglycidyl Ether": 468,
+          "Bisphenol F": 468,
+          "Bisphenol S": 468
+        },
+        "text_samples": {
+          "Bisphenol A": 468,
+          "Bisphenol A Diglycidyl Ether": 468,
+          "Bisphenol F": 468,
+          "Bisphenol S": 468
+        },
+        "value_like": false
+      },
+      {
+        "distinct_text": 4,
+        "name": "Composant",
+        "sample_column": false,
+        "shapes": {
+          "token": 1872
+        },
+        "text_rows": {
+          "Bisphénol A": 468,
+          "Bisphénol F": 468,
+          "Bisphénol S": 468,
+          "Éther diglycidylique de bisphénol A": 468
+        },
+        "text_samples": {
+          "Bisphénol A": 468,
+          "Bisphénol F": 468,
+          "Bisphénol S": 468,
+          "Éther diglycidylique de bisphénol A": 468
+        },
+        "value_like": false
+      },
+      {
+        "distinct_text": 0,
+        "name": "Result - Résultat",
+        "sample_column": false,
+        "shapes": {
+          "number": 1872
+        },
+        "text_rows": {},
+        "text_samples": {},
+        "value_like": true
+      },
+      {
+        "distinct_text": 1,
+        "name": "Unit - Unité",
+        "sample_column": false,
+        "shapes": {
+          "token": 1872
+        },
+        "text_rows": {
+          "µg/g": 1872
+        },
+        "text_samples": {
+          "µg/g": 468
+        },
+        "value_like": false
+      },
+      {
+        "distinct_text": 1,
+        "name": "Plan Code - Code du régime",
+        "sample_column": false,
+        "shapes": {
+          "token": 1872
+        },
+        "text_rows": {
+          "2017_SB451": 1872
+        },
+        "text_samples": {
+          "2017_SB451": 468
+        },
+        "value_like": false
+      }
+    ],
+    "header_width": 16,
+    "row_widths": {
+      "16": 1872
+    },
+    "rows": 1872,
+    "samples": 468
+  },
+  "dataset": "15b7f392-56ef-4772-a8e5-aba2c3b0b980",
+  "encoding": "cp1252",
+  "md5": "12a495421962033f4c723492e49682fa",
+  "md5_matches_portal": true,
+  "portal_md5": "12a495421962033f4c723492e49682fa",
+  "portal_size": 339854,
+  "resource": "4dfc8b9a-0b97-4c76-b3e4-07879a8e0c88",
+  "sha256": "f3ef4b47614b8c40e240d65ab4a08cd6b8ef779d0703338f1ae6a1bab27f0f56",
+  "size_matches_portal": true,
+  "source": "https://open.canada.ca/data/dataset/15b7f392-56ef-4772-a8e5-aba2c3b0b980/resource/4dfc8b9a-0b97-4c76-b3e4-07879a8e0c88/download/cfia_acia-1263-open-data-for-chemistry-targeted-surveys-2017-18-bisphenol-a-and-bpa-alternatives.csv",
+  "study": "bpa-2017-census",
+  "version": "0.1.0"
+}

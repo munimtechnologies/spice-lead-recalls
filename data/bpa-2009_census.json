@@ -1,0 +1,634 @@
+{
+  "bytes": 32261,
+  "census": {
+    "columns": {
+      "commodity": null,
+      "component": 10,
+      "date": 7,
+      "function": 1,
+      "origin": 3,
+      "plan": 14,
+      "product": 5,
+      "region": null,
+      "sample": 0,
+      "test": 8,
+      "unit": 13,
+      "value": 12
+    },
+    "commodities": {
+      "": 200
+    },
+    "components": {
+      "Bisphenol A": 200
+    },
+    "header": [
+      "Sample No. – No. d’échantillon",
+      "Function",
+      "Fonction",
+      "Origin",
+      "Origine",
+      "Product",
+      "Produit",
+      "Date Sampled – Date d’échantillonage",
+      "Type of Test",
+      "Type d’analyse",
+      "Component",
+      "Composant",
+      "Result - Résultat",
+      "Unit - Unité",
+      "Plan Code - Code du régime"
+    ],
+    "id_gaps": 0,
+    "id_range": null,
+    "ids_bad": [
+      "2009BPA0001",
+      "2009BPA0002",
+      "2009BPA0003",
+      "2009BPA0004",
+      "2009BPA0005",
+      "2009BPA0006",
+      "2009BPA00065",
+      "2009BPA00066",
+      "2009BPA0007",
+      "2009BPA0008"
+    ],
+    "ids_bad_count": 200,
+    "ids_dup_suffix": [],
+    "missing_component_samples": {},
+    "mixed_label_samples": [],
+    "plans": {
+      "2009_SB451": 200
+    },
+    "product_commodity": {
+      "Infant Food | ": 100,
+      "Infant Formula | ": 100
+    },
+    "product_function": {
+      "Infant Food": {
+        "Domestic": 30,
+        "Import": 66,
+        "Unknown": 4
+      },
+      "Infant Formula": {
+        "Domestic": 2,
+        "Import": 94,
+        "Unknown": 4
+      }
+    },
+    "product_id_runs": {
+      "Infant Food": [],
+      "Infant Formula": []
+    },
+    "product_origin_top": {
+      "Infant Food": {
+        "Canada": 12,
+        "United States": 66,
+        "Unknown": 22
+      },
+      "Infant Formula": {
+        "Ireland": 4,
+        "Netherlands": 3,
+        "United States": 65,
+        "Unknown": 28
+      }
+    },
+    "products": {
+      "Infant Food": 100,
+      "Infant Formula": 100
+    },
+    "regions": {
+      "": 200
+    },
+    "repeated_component_samples": {},
+    "rows": 200,
+    "rows_per_sample": {
+      "1": 200
+    },
+    "samples": 200,
+    "shapes": {
+      "number": 200
+    },
+    "shapes_by_component": {
+      "Bisphenol A": {
+        "number": 200
+      }
+    },
+    "tests": {
+      "BPA": 200
+    },
+    "tokens": {},
+    "units": {
+      "ng/g": 200
+    },
+    "units_by_component": {
+      "Bisphenol A": {
+        "ng/g": 200
+      }
+    }
+  },
+  "columns": {
+    "columns": [
+      {
+        "distinct_text": 0,
+        "name": "Sample No. – No. d’échantillon",
+        "sample_column": true,
+        "shapes": {
+          "token": 200
+        },
+        "text_rows": {},
+        "text_samples": {},
+        "value_like": false
+      },
+      {
+        "distinct_text": 3,
+        "name": "Function",
+        "sample_column": false,
+        "shapes": {
+          "token": 200
+        },
+        "text_rows": {
+          "Domestic": 32,
+          "Import": 160,
+          "Unknown": 8
+        },
+        "text_samples": {
+          "Domestic": 32,
+          "Import": 160,
+          "Unknown": 8
+        },
+        "value_like": false
+      },
+      {
+        "distinct_text": 3,
+        "name": "Fonction",
+        "sample_column": false,
+        "shapes": {
+          "token": 200
+        },
+        "text_rows": {
+          "Domestique": 32,
+          "Importé": 160,
+          "Inconnu": 8
+        },
+        "text_samples": {
+          "Domestique": 32,
+          "Importé": 160,
+          "Inconnu": 8
+        },
+        "value_like": false
+      },
+      {
+        "distinct_text": 5,
+        "name": "Origin",
+        "sample_column": false,
+        "shapes": {
+          "token": 200
+        },
+        "text_rows": {
+          "Canada": 12,
+          "Ireland": 4,
+          "Netherlands": 3,
+          "United States": 131,
+          "Unknown": 50
+        },
+        "text_samples": {
+          "Canada": 12,
+          "Ireland": 4,
+          "Netherlands": 3,
+          "United States": 131,
+          "Unknown": 50
+        },
+        "value_like": false
+      },
+      {
+        "distinct_text": 5,
+        "name": "Origine",
+        "sample_column": false,
+        "shapes": {
+          "token": 200
+        },
+        "text_rows": {
+          "Canada": 12,
+          "Inconnu": 50,
+          "Irlande": 4,
+          "Pays-Bas": 3,
+          "États-Unis": 131
+        },
+        "text_samples": {
+          "Canada": 12,
+          "Inconnu": 50,
+          "Irlande": 4,
+          "Pays-Bas": 3,
+          "États-Unis": 131
+        },
+        "value_like": false
+      },
+      {
+        "distinct_text": 2,
+        "name": "Product",
+        "sample_column": false,
+        "shapes": {
+          "token": 200
+        },
+        "text_rows": {
+          "Infant Food": 100,
+          "Infant Formula": 100
+        },
+        "text_samples": {
+          "Infant Food": 100,
+          "Infant Formula": 100
+        },
+        "value_like": false
+      },
+      {
+        "distinct_text": 2,
+        "name": "Produit",
+        "sample_column": false,
+        "shapes": {
+          "token": 200
+        },
+        "text_rows": {
+          "Aliments pour bébés": 100,
+          "Les préparations pour nourrissons": 100
+        },
+        "text_samples": {
+          "Aliments pour bébés": 100,
+          "Les préparations pour nourrissons": 100
+        },
+        "value_like": false
+      },
+      {
+        "distinct_text": 200,
+        "name": "Date Sampled – Date d’échantillonage",
+        "sample_column": false,
+        "shapes": {
+          "token": 200
+        },
+        "text_rows": {
+          "1/1/2010": 1,
+          "1/10/2010": 1,
+          "1/11/2010": 1,
+          "1/12/2010": 1,
+          "1/13/2010": 1,
+          "1/14/2010": 1,
+          "1/15/2010": 1,
+          "1/16/2010": 1,
+          "1/17/2010": 1,
+          "1/18/2010": 1,
+          "1/19/2010": 1,
+          "1/2/2010": 1,
+          "1/20/2010": 1,
+          "1/21/2010": 1,
+          "1/22/2010": 1,
+          "1/23/2010": 1,
+          "1/24/2010": 1,
+          "1/25/2010": 1,
+          "1/26/2010": 1,
+          "1/27/2010": 1,
+          "1/28/2010": 1,
+          "1/29/2010": 1,
+          "1/3/2010": 1,
+          "1/30/2010": 1,
+          "1/31/2010": 1,
+          "1/4/2010": 1,
+          "1/5/2010": 1,
+          "1/6/2010": 1,
+          "1/7/2010": 1,
+          "1/8/2010": 1,
+          "1/9/2010": 1,
+          "10/1/2009": 1,
+          "10/10/2009": 1,
+          "10/11/2009": 1,
+          "10/12/2009": 1,
+          "10/13/2009": 1,
+          "10/14/2009": 1,
+          "10/15/2009": 1,
+          "10/16/2009": 1,
+          "10/17/2009": 1,
+          "10/18/2009": 1,
+          "10/19/2009": 1,
+          "10/2/2009": 1,
+          "10/20/2009": 1,
+          "10/21/2009": 1,
+          "10/22/2009": 1,
+          "10/23/2009": 1,
+          "10/24/2009": 1,
+          "10/25/2009": 1,
+          "10/26/2009": 1,
+          "10/27/2009": 1,
+          "10/28/2009": 1,
+          "10/29/2009": 1,
+          "10/3/2009": 1,
+          "10/30/2009": 1,
+          "10/31/2009": 1,
+          "10/4/2009": 1,
+          "10/5/2009": 1,
+          "10/6/2009": 1,
+          "10/7/2009": 1,
+          "10/8/2009": 1,
+          "10/9/2009": 1,
+          "11/1/2009": 1,
+          "11/10/2009": 1,
+          "11/11/2009": 1,
+          "11/12/2009": 1,
+          "11/13/2009": 1,
+          "11/14/2009": 1,
+          "11/15/2009": 1,
+          "11/16/2009": 1,
+          "11/17/2009": 1,
+          "11/18/2009": 1,
+          "11/19/2009": 1,
+          "11/2/2009": 1,
+          "11/20/2009": 1,
+          "11/21/2009": 1,
+          "11/22/2009": 1,
+          "11/23/2009": 1,
+          "11/24/2009": 1,
+          "11/25/2009": 1,
+          "11/26/2009": 1,
+          "11/27/2009": 1,
+          "11/28/2009": 1,
+          "11/29/2009": 1,
+          "11/3/2009": 1,
+          "11/30/2009": 1,
+          "11/4/2009": 1,
+          "11/5/2009": 1,
+          "11/6/2009": 1,
+          "11/7/2009": 1,
+          "11/8/2009": 1,
+          "11/9/2009": 1,
+          "12/1/2009": 1,
+          "12/10/2009": 1,
+          "12/11/2009": 1,
+          "12/12/2009": 1,
+          "12/13/2009": 1,
+          "12/14/2009": 1,
+          "12/15/2009": 1,
+          "12/16/2009": 1,
+          "12/17/2009": 1,
+          "12/18/2009": 1,
+          "12/19/2009": 1,
+          "12/2/2009": 1,
+          "12/20/2009": 1,
+          "12/21/2009": 1,
+          "12/22/2009": 1,
+          "12/23/2009": 1,
+          "12/24/2009": 1,
+          "12/25/2009": 1,
+          "12/26/2009": 1,
+          "12/27/2009": 1,
+          "12/28/2009": 1,
+          "12/29/2009": 1,
+          "12/3/2009": 1,
+          "12/30/2009": 1,
+          "12/31/2009": 1,
+          "12/4/2009": 1,
+          "12/5/2009": 1,
+          "12/6/2009": 1
+        },
+        "text_samples": {
+          "1/1/2010": 1,
+          "1/10/2010": 1,
+          "1/11/2010": 1,
+          "1/12/2010": 1,
+          "1/13/2010": 1,
+          "1/14/2010": 1,
+          "1/15/2010": 1,
+          "1/16/2010": 1,
+          "1/17/2010": 1,
+          "1/18/2010": 1,
+          "1/19/2010": 1,
+          "1/2/2010": 1,
+          "1/20/2010": 1,
+          "1/21/2010": 1,
+          "1/22/2010": 1,
+          "1/23/2010": 1,
+          "1/24/2010": 1,
+          "1/25/2010": 1,
+          "1/26/2010": 1,
+          "1/27/2010": 1,
+          "1/28/2010": 1,
+          "1/29/2010": 1,
+          "1/3/2010": 1,
+          "1/30/2010": 1,
+          "1/31/2010": 1,
+          "1/4/2010": 1,
+          "1/5/2010": 1,
+          "1/6/2010": 1,
+          "1/7/2010": 1,
+          "1/8/2010": 1,
+          "1/9/2010": 1,
+          "10/1/2009": 1,
+          "10/10/2009": 1,
+          "10/11/2009": 1,
+          "10/12/2009": 1,
+          "10/13/2009": 1,
+          "10/14/2009": 1,
+          "10/15/2009": 1,
+          "10/16/2009": 1,
+          "10/17/2009": 1,
+          "10/18/2009": 1,
+          "10/19/2009": 1,
+          "10/2/2009": 1,
+          "10/20/2009": 1,
+          "10/21/2009": 1,
+          "10/22/2009": 1,
+          "10/23/2009": 1,
+          "10/24/2009": 1,
+          "10/25/2009": 1,
+          "10/26/2009": 1,
+          "10/27/2009": 1,
+          "10/28/2009": 1,
+          "10/29/2009": 1,
+          "10/3/2009": 1,
+          "10/30/2009": 1,
+          "10/31/2009": 1,
+          "10/4/2009": 1,
+          "10/5/2009": 1,
+          "10/6/2009": 1,
+          "10/7/2009": 1,
+          "10/8/2009": 1,
+          "10/9/2009": 1,
+          "11/1/2009": 1,
+          "11/10/2009": 1,
+          "11/11/2009": 1,
+          "11/12/2009": 1,
+          "11/13/2009": 1,
+          "11/14/2009": 1,
+          "11/15/2009": 1,
+          "11/16/2009": 1,
+          "11/17/2009": 1,
+          "11/18/2009": 1,
+          "11/19/2009": 1,
+          "11/2/2009": 1,
+          "11/20/2009": 1,
+          "11/21/2009": 1,
+          "11/22/2009": 1,
+          "11/23/2009": 1,
+          "11/24/2009": 1,
+          "11/25/2009": 1,
+          "11/26/2009": 1,
+          "11/27/2009": 1,
+          "11/28/2009": 1,
+          "11/29/2009": 1,
+          "11/3/2009": 1,
+          "11/30/2009": 1,
+          "11/4/2009": 1,
+          "11/5/2009": 1,
+          "11/6/2009": 1,
+          "11/7/2009": 1,
+          "11/8/2009": 1,
+          "11/9/2009": 1,
+          "12/1/2009": 1,
+          "12/10/2009": 1,
+          "12/11/2009": 1,
+          "12/12/2009": 1,
+          "12/13/2009": 1,
+          "12/14/2009": 1,
+          "12/15/2009": 1,
+          "12/16/2009": 1,
+          "12/17/2009": 1,
+          "12/18/2009": 1,
+          "12/19/2009": 1,
+          "12/2/2009": 1,
+          "12/20/2009": 1,
+          "12/21/2009": 1,
+          "12/22/2009": 1,
+          "12/23/2009": 1,
+          "12/24/2009": 1,
+          "12/25/2009": 1,
+          "12/26/2009": 1,
+          "12/27/2009": 1,
+          "12/28/2009": 1,
+          "12/29/2009": 1,
+          "12/3/2009": 1,
+          "12/30/2009": 1,
+          "12/31/2009": 1,
+          "12/4/2009": 1,
+          "12/5/2009": 1,
+          "12/6/2009": 1
+        },
+        "value_like": false
+      },
+      {
+        "distinct_text": 1,
+        "name": "Type of Test",
+        "sample_column": false,
+        "shapes": {
+          "token": 200
+        },
+        "text_rows": {
+          "BPA": 200
+        },
+        "text_samples": {
+          "BPA": 200
+        },
+        "value_like": false
+      },
+      {
+        "distinct_text": 1,
+        "name": "Type d’analyse",
+        "sample_column": false,
+        "shapes": {
+          "token": 200
+        },
+        "text_rows": {
+          "BISPHÉNOL A": 200
+        },
+        "text_samples": {
+          "BISPHÉNOL A": 200
+        },
+        "value_like": false
+      },
+      {
+        "distinct_text": 1,
+        "name": "Component",
+        "sample_column": false,
+        "shapes": {
+          "token": 200
+        },
+        "text_rows": {
+          "Bisphenol A": 200
+        },
+        "text_samples": {
+          "Bisphenol A": 200
+        },
+        "value_like": false
+      },
+      {
+        "distinct_text": 1,
+        "name": "Composant",
+        "sample_column": false,
+        "shapes": {
+          "token": 200
+        },
+        "text_rows": {
+          "Bisphénol A": 200
+        },
+        "text_samples": {
+          "Bisphénol A": 200
+        },
+        "value_like": false
+      },
+      {
+        "distinct_text": 0,
+        "name": "Result - Résultat",
+        "sample_column": false,
+        "shapes": {
+          "number": 200
+        },
+        "text_rows": {},
+        "text_samples": {},
+        "value_like": true
+      },
+      {
+        "distinct_text": 1,
+        "name": "Unit - Unité",
+        "sample_column": false,
+        "shapes": {
+          "token": 200
+        },
+        "text_rows": {
+          "ng/g": 200
+        },
+        "text_samples": {
+          "ng/g": 200
+        },
+        "value_like": false
+      },
+      {
+        "distinct_text": 1,
+        "name": "Plan Code - Code du régime",
+        "sample_column": false,
+        "shapes": {
+          "token": 200
+        },
+        "text_rows": {
+          "2009_SB451": 200
+        },
+        "text_samples": {
+          "2009_SB451": 200
+        },
+        "value_like": false
+      }
+    ],
+    "header_width": 15,
+    "row_widths": {
+      "15": 200
+    },
+    "rows": 200,
+    "samples": 200
+  },
+  "dataset": "9846894f-16f2-4834-952a-2e66a162719b",
+  "encoding": "cp1252",
+  "md5": "7eacc09417bd528dcca26b8009b824f5",
+  "md5_matches_portal": true,
+  "portal_md5": "7eacc09417bd528dcca26b8009b824f5",
+  "portal_size": 32261,
+  "resource": "4ff8f342-d0ea-45a4-9cf5-6f5220e84925",
+  "sha256": "8eaedfd8b8503368ed31e00631a91ba08378f6e5cad7f34724d65d2e91b33121",
+  "size_matches_portal": true,
+  "source": "https://open.canada.ca/data/dataset/9846894f-16f2-4834-952a-2e66a162719b/resource/4ff8f342-d0ea-45a4-9cf5-6f5220e84925/download/cfia_acia-1329-v2-fsap_chem_ts_-_2009-10_-_bisphenol-a_in_infant_food_and_formula_-_sb451_bpha_-.csv",
+  "study": "bpa-2009-census",
+  "version": "0.1.0"
+}
