@@ -1,0 +1,534 @@
+{
+  "attempts": 1,
+  "bytes": 831190,
+  "census": {
+    "columns": {
+      "commodity": null,
+      "component": 10,
+      "date": 7,
+      "function": 1,
+      "origin": 3,
+      "plan": 14,
+      "product": 5,
+      "region": null,
+      "sample": 0,
+      "test": 8,
+      "unit": 13,
+      "value": 12
+    },
+    "commodities": {
+      "": 296
+    },
+    "components": {
+      "Acenaphthene": 296,
+      "Acenaphthylene": 296,
+      "Anthracene": 296,
+      "Benz[a]anthracene": 296,
+      "Benzo[a]pyrene": 296,
+      "Benzo[b]fluoranthene": 296,
+      "Benzo[g,h,i]perylene": 296,
+      "Benzo[k]fluoranthene": 296,
+      "Chrysene": 296,
+      "Dibenz[a,h]anthracene": 296,
+      "Fluoranthene": 296,
+      "Fluorene": 296,
+      "Indeno[1,2,3-cd]pyrene": 296,
+      "Naphthalene": 296,
+      "Phenanthrene": 296,
+      "Pyrene": 296
+    },
+    "header": [
+      "Sample No. – No. d’échantillon",
+      "Function",
+      "Fonction",
+      "Origin",
+      "Originé",
+      "Product",
+      "Produit",
+      "Date Sampled – Date d’échantillonage",
+      "Type of Test",
+      "Type d'analyse",
+      "Component",
+      "Composant",
+      "Result - Résultat",
+      "Unit - Unité",
+      "Plan Code - Code du régime"
+    ],
+    "id_gaps": 0,
+    "id_range": null,
+    "ids_bad": [
+      "C2019PAHS00001A",
+      "C2019PAHS00002A",
+      "C2019PAHS00003A",
+      "C2019PAHS00004A",
+      "C2019PAHS00005A",
+      "C2019PAHS00006A",
+      "C2019PAHS00007A",
+      "C2019PAHS00008A",
+      "C2019PAHS00009A",
+      "C2019PAHS00010A"
+    ],
+    "ids_bad_count": 296,
+    "ids_dup_suffix": [],
+    "missing_component_samples": {},
+    "mixed_label_samples": [],
+    "plans": {
+      "2019_TS024": 4736
+    },
+    "product_commodity": {
+      "Butter - Almond | ": 7,
+      "Butter - Blend | ": 7,
+      "Butter - Cashew | ": 7,
+      "Butter - Hazelnut | ": 3,
+      "Butter - Peanut | ": 7,
+      "Butter - Pumpkin Seed | ": 1,
+      "Butter - Soy | ": 7,
+      "Butter - Sunflower Seed | ": 4,
+      "Butter - Walnut | ": 1,
+      "Infant Formula - Dairy | ": 23,
+      "Infant Formula - Soy | ": 11,
+      "Nut - Almond | ": 1,
+      "Nut - Brazil Nut | ": 7,
+      "Nut - Cashew | ": 7,
+      "Nut - Chestnut | ": 1,
+      "Nut - Hazelnut/Filbert | ": 7,
+      "Nut - Macadamia Nut | ": 7,
+      "Nut - PINE NUT | ": 3,
+      "Nut - Pecan | ": 7,
+      "Nut - Walnut | ": 7,
+      "Oil - Olive | ": 148,
+      "Peanut | ": 6,
+      "Seed - Chia | ": 1,
+      "Seed - Flax | ": 2,
+      "Seed - Pumpkin | ": 2,
+      "Seed - Sunflower | ": 5,
+      "Tahini | ": 7
+    },
+    "product_function": {
+      "Butter - Almond": {
+        "Domestic": 5,
+        "Import": 1,
+        "Unknown": 1
+      },
+      "Butter - Blend": {
+        "Domestic": 4,
+        "Import": 1,
+        "Unknown": 2
+      },
+      "Butter - Cashew": {
+        "Domestic": 5,
+        "Import": 1,
+        "Unknown": 1
+      },
+      "Butter - Hazelnut": {
+        "Domestic": 2,
+        "Unknown": 1
+      },
+      "Butter - Peanut": {
+        "Domestic": 2,
+        "Import": 3,
+        "Unknown": 2
+      },
+      "Butter - Pumpkin Seed": {
+        "Domestic": 1
+      },
+      "Butter - Soy": {
+        "Domestic": 6,
+        "Unknown": 1
+      },
+      "Butter - Sunflower Seed": {
+        "Domestic": 2,
+        "Import": 2
+      },
+      "Butter - Walnut": {
+        "Import": 1
+      },
+      "Infant Formula - Dairy": {
+        "Import": 22,
+        "Unknown": 1
+      },
+      "Infant Formula - Soy": {
+        "Import": 10,
+        "Unknown": 1
+      },
+      "Nut - Almond": {
+        "Import": 1
+      },
+      "Nut - Brazil Nut": {
+        "Import": 6,
+        "Unknown": 1
+      },
+      "Nut - Cashew": {
+        "Domestic": 2,
+        "Import": 4,
+        "Unknown": 1
+      },
+      "Nut - Chestnut": {
+        "Import": 1
+      },
+      "Nut - Hazelnut/Filbert": {
+        "Import": 6,
+        "Unknown": 1
+      },
+      "Nut - Macadamia Nut": {
+        "Import": 3,
+        "Unknown": 4
+      },
+      "Nut - PINE NUT": {
+        "Import": 2,
+        "Unknown": 1
+      },
+      "Nut - Pecan": {
+        "Domestic": 1,
+        "Import": 6
+      },
+      "Nut - Walnut": {
+        "Domestic": 2,
+        "Import": 3,
+        "Unknown": 2
+      },
+      "Oil - Olive": {
+        "Domestic": 1,
+        "Import": 135,
+        "Unknown": 12
+      },
+      "Peanut": {
+        "Import": 2,
+        "Unknown": 4
+      },
+      "Seed - Chia": {
+        "Import": 1
+      },
+      "Seed - Flax": {
+        "Unknown": 2
+      },
+      "Seed - Pumpkin": {
+        "Domestic": 1,
+        "Unknown": 1
+      },
+      "Seed - Sunflower": {
+        "Domestic": 2,
+        "Import": 1,
+        "Unknown": 2
+      },
+      "Tahini": {
+        "Domestic": 5,
+        "Import": 1,
+        "Unknown": 1
+      }
+    },
+    "product_id_runs": {
+      "Butter - Almond": [],
+      "Butter - Blend": [],
+      "Butter - Cashew": [],
+      "Butter - Hazelnut": [],
+      "Butter - Peanut": [],
+      "Butter - Pumpkin Seed": [],
+      "Butter - Soy": [],
+      "Butter - Sunflower Seed": [],
+      "Butter - Walnut": [],
+      "Infant Formula - Dairy": [],
+      "Infant Formula - Soy": [],
+      "Nut - Almond": [],
+      "Nut - Brazil Nut": [],
+      "Nut - Cashew": [],
+      "Nut - Chestnut": [],
+      "Nut - Hazelnut/Filbert": [],
+      "Nut - Macadamia Nut": [],
+      "Nut - PINE NUT": [],
+      "Nut - Pecan": [],
+      "Nut - Walnut": [],
+      "Oil - Olive": [],
+      "Peanut": [],
+      "Seed - Chia": [],
+      "Seed - Flax": [],
+      "Seed - Pumpkin": [],
+      "Seed - Sunflower": [],
+      "Tahini": []
+    },
+    "product_origin_top": {
+      "Butter - Almond": {
+        "CANADA": 5,
+        "UNITED STATES": 1,
+        "UNKNOWN": 1
+      },
+      "Butter - Blend": {
+        "CANADA": 4,
+        "UNKNOWN": 3
+      },
+      "Butter - Cashew": {
+        "CANADA": 5,
+        "FRANCE": 1,
+        "UNKNOWN": 1
+      },
+      "Butter - Hazelnut": {
+        "CANADA": 2,
+        "UNKNOWN": 1
+      },
+      "Butter - Peanut": {
+        "CANADA": 2,
+        "UNITED STATES": 2,
+        "UNKNOWN": 3
+      },
+      "Butter - Pumpkin Seed": {
+        "CANADA": 1
+      },
+      "Butter - Soy": {
+        "CANADA": 6,
+        "UNKNOWN": 1
+      },
+      "Butter - Sunflower Seed": {
+        "CANADA": 2,
+        "UNITED STATES": 2
+      },
+      "Butter - Walnut": {
+        "UNITED STATES": 1
+      },
+      "Infant Formula - Dairy": {
+        "IRELAND": 1,
+        "UNITED STATES": 17,
+        "UNKNOWN": 5
+      },
+      "Infant Formula - Soy": {
+        "NETHERLANDS": 4,
+        "UNKNOWN": 7
+      },
+      "Nut - Almond": {
+        "UNITED STATES": 1
+      },
+      "Nut - Brazil Nut": {
+        "UNKNOWN": 7
+      },
+      "Nut - Cashew": {
+        "CANADA": 2,
+        "UNKNOWN": 5
+      },
+      "Nut - Chestnut": {
+        "CHINA": 1
+      },
+      "Nut - Hazelnut/Filbert": {
+        "TÜRKIYE": 1,
+        "UNITED STATES": 1,
+        "UNKNOWN": 5
+      },
+      "Nut - Macadamia Nut": {
+        "UNITED STATES": 1,
+        "UNKNOWN": 6
+      },
+      "Nut - PINE NUT": {
+        "CHINA": 1,
+        "UNKNOWN": 2
+      },
+      "Nut - Pecan": {
+        "CANADA": 1,
+        "UNITED STATES": 3,
+        "UNKNOWN": 3
+      },
+      "Nut - Walnut": {
+        "CANADA": 2,
+        "UNITED STATES": 1,
+        "UNKNOWN": 4
+      },
+      "Oil - Olive": {
+        "ARGENTINA": 4,
+        "CANADA": 1,
+        "CHILE": 5,
+        "FRANCE": 3,
+        "GREECE": 11,
+        "ITALY": 26,
+        "LEBANON": 4,
+        "MOROCCO": 1,
+        "PORTUGAL": 3,
+        "SPAIN": 15,
+        "TUNISIA": 13,
+        "TÜRKIYE": 3,
+        "UNKNOWN": 59
+      },
+      "Peanut": {
+        "INDIA": 1,
+        "UNITED STATES": 1,
+        "UNKNOWN": 4
+      },
+      "Seed - Chia": {
+        "ARGENTINA": 1
+      },
+      "Seed - Flax": {
+        "UNKNOWN": 2
+      },
+      "Seed - Pumpkin": {
+        "CANADA": 1,
+        "UNKNOWN": 1
+      },
+      "Seed - Sunflower": {
+        "CANADA": 2,
+        "UNKNOWN": 3
+      },
+      "Tahini": {
+        "CANADA": 5,
+        "LEBANON": 1,
+        "UNKNOWN": 1
+      }
+    },
+    "products": {
+      "Butter - Almond": 7,
+      "Butter - Blend": 7,
+      "Butter - Cashew": 7,
+      "Butter - Hazelnut": 3,
+      "Butter - Peanut": 7,
+      "Butter - Pumpkin Seed": 1,
+      "Butter - Soy": 7,
+      "Butter - Sunflower Seed": 4,
+      "Butter - Walnut": 1,
+      "Infant Formula - Dairy": 23,
+      "Infant Formula - Soy": 11,
+      "Nut - Almond": 1,
+      "Nut - Brazil Nut": 7,
+      "Nut - Cashew": 7,
+      "Nut - Chestnut": 1,
+      "Nut - Hazelnut/Filbert": 7,
+      "Nut - Macadamia Nut": 7,
+      "Nut - PINE NUT": 3,
+      "Nut - Pecan": 7,
+      "Nut - Walnut": 7,
+      "Oil - Olive": 148,
+      "Peanut": 6,
+      "Seed - Chia": 1,
+      "Seed - Flax": 2,
+      "Seed - Pumpkin": 2,
+      "Seed - Sunflower": 5,
+      "Tahini": 7
+    },
+    "regions": {
+      "": 4736
+    },
+    "repeated_component_samples": {},
+    "rows": 4736,
+    "rows_per_sample": {
+      "16": 296
+    },
+    "samples": 296,
+    "shapes": {
+      "number": 4736
+    },
+    "shapes_by_component": {
+      "Acenaphthene": {
+        "number": 296
+      },
+      "Acenaphthylene": {
+        "number": 296
+      },
+      "Anthracene": {
+        "number": 296
+      },
+      "Benz[a]anthracene": {
+        "number": 296
+      },
+      "Benzo[a]pyrene": {
+        "number": 296
+      },
+      "Benzo[b]fluoranthene": {
+        "number": 296
+      },
+      "Benzo[g,h,i]perylene": {
+        "number": 296
+      },
+      "Benzo[k]fluoranthene": {
+        "number": 296
+      },
+      "Chrysene": {
+        "number": 296
+      },
+      "Dibenz[a,h]anthracene": {
+        "number": 296
+      },
+      "Fluoranthene": {
+        "number": 296
+      },
+      "Fluorene": {
+        "number": 296
+      },
+      "Indeno[1,2,3-cd]pyrene": {
+        "number": 296
+      },
+      "Naphthalene": {
+        "number": 296
+      },
+      "Phenanthrene": {
+        "number": 296
+      },
+      "Pyrene": {
+        "number": 296
+      }
+    },
+    "tests": {
+      "BENZOPYRENE (PAH)": 4736
+    },
+    "tokens": {},
+    "units": {
+      "ng/g": 4736
+    },
+    "units_by_component": {
+      "Acenaphthene": {
+        "ng/g": 296
+      },
+      "Acenaphthylene": {
+        "ng/g": 296
+      },
+      "Anthracene": {
+        "ng/g": 296
+      },
+      "Benz[a]anthracene": {
+        "ng/g": 296
+      },
+      "Benzo[a]pyrene": {
+        "ng/g": 296
+      },
+      "Benzo[b]fluoranthene": {
+        "ng/g": 296
+      },
+      "Benzo[g,h,i]perylene": {
+        "ng/g": 296
+      },
+      "Benzo[k]fluoranthene": {
+        "ng/g": 296
+      },
+      "Chrysene": {
+        "ng/g": 296
+      },
+      "Dibenz[a,h]anthracene": {
+        "ng/g": 296
+      },
+      "Fluoranthene": {
+        "ng/g": 296
+      },
+      "Fluorene": {
+        "ng/g": 296
+      },
+      "Indeno[1,2,3-cd]pyrene": {
+        "ng/g": 296
+      },
+      "Naphthalene": {
+        "ng/g": 296
+      },
+      "Phenanthrene": {
+        "ng/g": 296
+      },
+      "Pyrene": {
+        "ng/g": 296
+      }
+    }
+  },
+  "dataset": "4884f9d1-0a59-4c8e-85ca-157d13411d19",
+  "earlier_errors": [],
+  "encoding": "utf-8-sig",
+  "md5": "0bb033bbcdab8305839d0a8716def1b3",
+  "md5_matches_portal": true,
+  "portal_md5": "0bb033bbcdab8305839d0a8716def1b3",
+  "portal_size": 831190,
+  "resource": "d5b3cca2-4ccf-4aed-a4d1-0af540422575",
+  "sha256": "ef39419b83fe88e3b8317b405b7106aa7ccaa9dea2e0fb1c37c6cc9fd912cd75",
+  "size_matches_portal": true,
+  "source": "https://open.canada.ca/data/dataset/4884f9d1-0a59-4c8e-85ca-157d13411d19/resource/d5b3cca2-4ccf-4aed-a4d1-0af540422575/download/fsap_chem_ts_2019-2020_pahs_in_selected_foods_-_open_data.csv",
+  "study": "pah-2019-census",
+  "version": "0.1.0"
+}
