@@ -1,0 +1,612 @@
+{
+  "bytes": 289825,
+  "census": {
+    "columns": {
+      "commodity": 2,
+      "component": 13,
+      "date": 10,
+      "function": 4,
+      "origin": 6,
+      "plan": 17,
+      "product": 8,
+      "region": 1,
+      "sample": 0,
+      "test": 11,
+      "unit": 16,
+      "value": 15
+    },
+    "commodities": {
+      "IMFD": 377
+    },
+    "components": {
+      "Bisphenol A": 377,
+      "Bisphenol A Diglycidyl Ether": 377,
+      "Bisphenol F": 377,
+      "Bisphenol S": 377
+    },
+    "header": [
+      "Sample No. – No. d’échantillon",
+      "Region - Région",
+      "Commodity",
+      "Denrée",
+      "Function",
+      "Fonction",
+      "Origin",
+      "Origine",
+      "Product",
+      "Produit",
+      "Date Sampled – Date d’échantillonage",
+      "Type of Test",
+      "Type d’analyse",
+      "Component",
+      "Composant",
+      "MaxOfAMOUNT",
+      "Report Unit - Unité de rapport",
+      "PLAN_CODE"
+    ],
+    "id_gaps": 23,
+    "id_range": [
+      1,
+      400
+    ],
+    "ids_bad": [],
+    "ids_bad_count": 0,
+    "ids_dup_suffix": [
+      "C2018BPHA00111D",
+      "C2018BPHA00170D",
+      "C2018BPHA00171D"
+    ],
+    "missing_component_samples": {},
+    "mixed_label_samples": [],
+    "plans": {
+      "2018_SB451": 1508
+    },
+    "product_commodity": {
+      "Coconut Milk | IMFD": 49,
+      "Infant Formula - Dairy | IMFD": 104,
+      "Infant Formula - Other | IMFD": 31,
+      "Pie Filling - Blueberry | IMFD": 30,
+      "Pie Filling - Cherry | IMFD": 30,
+      "Pie Filling - Other | IMFD": 12,
+      "Pie Filling - Pumpkin | IMFD": 26,
+      "Sauces | IMFD": 91,
+      "Tomato Sauce | IMFD": 4
+    },
+    "product_function": {
+      "Coconut Milk": {
+        "Import": 49
+      },
+      "Infant Formula - Dairy": {
+        "Domestic": 1,
+        "Import": 103
+      },
+      "Infant Formula - Other": {
+        "Import": 31
+      },
+      "Pie Filling - Blueberry": {
+        "Import": 30
+      },
+      "Pie Filling - Cherry": {
+        "Import": 30
+      },
+      "Pie Filling - Other": {
+        "Import": 12
+      },
+      "Pie Filling - Pumpkin": {
+        "Domestic": 1,
+        "Import": 22,
+        "Unknown": 3
+      },
+      "Sauces": {
+        "Domestic": 55,
+        "Import": 15,
+        "Unknown": 21
+      },
+      "Tomato Sauce": {
+        "Domestic": 2,
+        "Import": 1,
+        "Unknown": 1
+      }
+    },
+    "product_id_runs": {
+      "Coconut Milk": [
+        [
+          101,
+          124
+        ],
+        [
+          126,
+          150
+        ]
+      ],
+      "Infant Formula - Dairy": [
+        [
+          251,
+          256
+        ],
+        [
+          260,
+          261
+        ],
+        [
+          263,
+          268
+        ],
+        [
+          271,
+          271
+        ],
+        [
+          274,
+          274
+        ],
+        [
+          278,
+          287
+        ],
+        [
+          289,
+          289
+        ],
+        [
+          291,
+          295
+        ],
+        [
+          300,
+          300
+        ],
+        [
+          302,
+          304
+        ],
+        [
+          306,
+          309
+        ],
+        [
+          311,
+          311
+        ],
+        [
+          313,
+          313
+        ],
+        [
+          315,
+          318
+        ],
+        [
+          320,
+          321
+        ],
+        [
+          323,
+          327
+        ],
+        [
+          329,
+          330
+        ],
+        [
+          332,
+          332
+        ],
+        [
+          335,
+          336
+        ],
+        [
+          338,
+          339
+        ],
+        [
+          341,
+          345
+        ],
+        [
+          347,
+          350
+        ],
+        [
+          352,
+          354
+        ],
+        [
+          356,
+          357
+        ],
+        [
+          359,
+          361
+        ],
+        [
+          363,
+          370
+        ],
+        [
+          372,
+          374
+        ],
+        [
+          377,
+          377
+        ],
+        [
+          379,
+          379
+        ],
+        [
+          381,
+          383
+        ],
+        [
+          385,
+          388
+        ],
+        [
+          391,
+          391
+        ],
+        [
+          393,
+          394
+        ],
+        [
+          396,
+          397
+        ],
+        [
+          399,
+          400
+        ]
+      ],
+      "Infant Formula - Other": [
+        [
+          257,
+          259
+        ],
+        [
+          262,
+          262
+        ],
+        [
+          269,
+          270
+        ],
+        [
+          272,
+          273
+        ],
+        [
+          275,
+          277
+        ],
+        [
+          288,
+          288
+        ],
+        [
+          290,
+          290
+        ],
+        [
+          296,
+          299
+        ],
+        [
+          310,
+          310
+        ],
+        [
+          312,
+          312
+        ],
+        [
+          314,
+          314
+        ],
+        [
+          319,
+          319
+        ],
+        [
+          322,
+          322
+        ],
+        [
+          337,
+          337
+        ],
+        [
+          351,
+          351
+        ],
+        [
+          355,
+          355
+        ],
+        [
+          358,
+          358
+        ],
+        [
+          362,
+          362
+        ],
+        [
+          375,
+          375
+        ],
+        [
+          380,
+          380
+        ],
+        [
+          384,
+          384
+        ],
+        [
+          395,
+          395
+        ]
+      ],
+      "Pie Filling - Blueberry": [
+        [
+          1,
+          25
+        ],
+        [
+          51,
+          52
+        ],
+        [
+          57,
+          58
+        ],
+        [
+          60,
+          60
+        ]
+      ],
+      "Pie Filling - Cherry": [
+        [
+          26,
+          47
+        ],
+        [
+          49,
+          50
+        ],
+        [
+          53,
+          54
+        ],
+        [
+          59,
+          59
+        ],
+        [
+          63,
+          64
+        ],
+        [
+          72,
+          72
+        ]
+      ],
+      "Pie Filling - Other": [
+        [
+          55,
+          56
+        ],
+        [
+          61,
+          62
+        ],
+        [
+          65,
+          68
+        ],
+        [
+          70,
+          70
+        ],
+        [
+          73,
+          75
+        ]
+      ],
+      "Pie Filling - Pumpkin": [
+        [
+          69,
+          69
+        ],
+        [
+          71,
+          71
+        ],
+        [
+          76,
+          97
+        ],
+        [
+          99,
+          100
+        ]
+      ],
+      "Sauces": [
+        [
+          151,
+          171
+        ],
+        [
+          173,
+          191
+        ],
+        [
+          194,
+          195
+        ],
+        [
+          197,
+          197
+        ],
+        [
+          199,
+          207
+        ],
+        [
+          209,
+          218
+        ],
+        [
+          220,
+          230
+        ],
+        [
+          232,
+          234
+        ],
+        [
+          236,
+          250
+        ]
+      ],
+      "Tomato Sauce": [
+        [
+          198,
+          198
+        ],
+        [
+          208,
+          208
+        ],
+        [
+          231,
+          231
+        ],
+        [
+          235,
+          235
+        ]
+      ]
+    },
+    "product_origin_top": {
+      "Coconut Milk": {
+        "PHILIPPINES": 3,
+        "SRI LANKA": 5,
+        "THAILAND": 41
+      },
+      "Infant Formula - Dairy": {
+        "CANADA": 1,
+        "UNITED STATES": 100,
+        "UNKNOWN": 3
+      },
+      "Infant Formula - Other": {
+        "UNITED STATES": 31
+      },
+      "Pie Filling - Blueberry": {
+        "UNITED STATES": 30
+      },
+      "Pie Filling - Cherry": {
+        "UNITED STATES": 30
+      },
+      "Pie Filling - Other": {
+        "UNITED STATES": 12
+      },
+      "Pie Filling - Pumpkin": {
+        "CANADA": 1,
+        "UNITED STATES": 22,
+        "UNKNOWN": 3
+      },
+      "Sauces": {
+        "CANADA": 55,
+        "ITALY": 5,
+        "PERU": 1,
+        "THAILAND": 1,
+        "TURKEY": 1,
+        "UNITED STATES": 5,
+        "UNKNOWN": 23
+      },
+      "Tomato Sauce": {
+        "CANADA": 2,
+        "ITALY": 1,
+        "UNKNOWN": 1
+      }
+    },
+    "products": {
+      "Coconut Milk": 49,
+      "Infant Formula - Dairy": 104,
+      "Infant Formula - Other": 31,
+      "Pie Filling - Blueberry": 30,
+      "Pie Filling - Cherry": 30,
+      "Pie Filling - Other": 12,
+      "Pie Filling - Pumpkin": 26,
+      "Sauces": 91,
+      "Tomato Sauce": 4
+    },
+    "regions": {
+      "ATLANTIC": 92,
+      "ONTARIO": 568,
+      "QUEBEC": 368,
+      "WEST": 480
+    },
+    "repeated_component_samples": {},
+    "rows": 1508,
+    "rows_per_sample": {
+      "4": 377
+    },
+    "samples": 377,
+    "shapes": {
+      "number": 1508
+    },
+    "shapes_by_component": {
+      "Bisphenol A": {
+        "number": 377
+      },
+      "Bisphenol A Diglycidyl Ether": {
+        "number": 377
+      },
+      "Bisphenol F": {
+        "number": 377
+      },
+      "Bisphenol S": {
+        "number": 377
+      }
+    },
+    "tests": {
+      "BPA": 1508
+    },
+    "tokens": {},
+    "units": {
+      "µg/g": 1508
+    },
+    "units_by_component": {
+      "Bisphenol A": {
+        "µg/g": 377
+      },
+      "Bisphenol A Diglycidyl Ether": {
+        "µg/g": 377
+      },
+      "Bisphenol F": {
+        "µg/g": 377
+      },
+      "Bisphenol S": {
+        "µg/g": 377
+      }
+    }
+  },
+  "dataset": "b8686c21-a8ef-4037-8478-353ed45a0145",
+  "encoding": "cp1252",
+  "md5": "5cf4d04c1e4db3825dc51cfe09ea6415",
+  "md5_matches_portal": true,
+  "portal_md5": "5cf4d04c1e4db3825dc51cfe09ea6415",
+  "portal_size": 289825,
+  "resource": "7a20917c-8aa9-4af6-8ce4-13620ef3af59",
+  "sha256": "446169ddc0d1319032016853bfe1d83d4fb1c2129a305f75de9ae8d2447a60d8",
+  "size_matches_portal": true,
+  "source": "https://ouvert.canada.ca/data/dataset/b8686c21-a8ef-4037-8478-353ed45a0145/resource/7a20917c-8aa9-4af6-8ce4-13620ef3af59/download/cfia_acia-15084827-v1-chem-ts_2018-19_bpa-and-bpa-alternatives-in-selected-foods_data-for-open-d.csv",
+  "study": "bpa-2018-census",
+  "version": "0.1.0"
+}

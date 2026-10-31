@@ -1,0 +1,1282 @@
+{
+  "bytes": 285553,
+  "census": {
+    "columns": {
+      "commodity": null,
+      "component": 11,
+      "date": 8,
+      "function": 2,
+      "origin": 4,
+      "plan": 15,
+      "product": 6,
+      "region": 1,
+      "sample": 0,
+      "test": 9,
+      "unit": 14,
+      "value": 13
+    },
+    "commodities": {
+      "": 402
+    },
+    "components": {
+      "Bisphenol A": 402,
+      "Bisphenol A Diglycidyl Ether": 402,
+      "Bisphenol F": 402,
+      "Bisphenol S": 402
+    },
+    "header": [
+      "Sample No. – No. d’échantillon",
+      "Region - Région",
+      "Function",
+      "Fonction",
+      "Origin",
+      "Origine",
+      "Product",
+      "Produit",
+      "Date Sampled – Date d’échantillonage",
+      "Type of Test",
+      "Type d’analyse",
+      "Component",
+      "Composant",
+      "Result - Résultat",
+      "Report Unit - Unité de rapport",
+      "Plan Code - Code du régime"
+    ],
+    "id_gaps": 1,
+    "id_range": [
+      1,
+      400
+    ],
+    "ids_bad": [],
+    "ids_bad_count": 0,
+    "ids_dup_suffix": [
+      "C2020BPHA00001D",
+      "C2020BPHA00013D",
+      "C2020BPHA00046D"
+    ],
+    "missing_component_samples": {},
+    "mixed_label_samples": [],
+    "plans": {
+      "2020_SB451": 1608
+    },
+    "product_commodity": {
+      "Apricot | ": 2,
+      "Artichoke Heart | ": 8,
+      "Bean - Green/Yellow | ": 8,
+      "Bean - Kidney | ": 1,
+      "Bean - Pinto | ": 1,
+      "Beet | ": 1,
+      "Carrot | ": 2,
+      "Cherry | ": 3,
+      "Corn | ": 7,
+      "Cranberry | ": 2,
+      "Fish/Seafood - Canned | ": 101,
+      "Grapefruit | ": 1,
+      "JackFruit | ": 1,
+      "Lentil | ": 2,
+      "Lychee | ": 1,
+      "Mango | ": 3,
+      "Meat - Canned | ": 100,
+      "Mixed Fruit | ": 4,
+      "Mixed Vegetables | ": 4,
+      "Mushroom - Shiitake | ": 2,
+      "Mushroom | ": 8,
+      "Orange | ": 4,
+      "Pea | ": 8,
+      "Peach | ": 11,
+      "Pear | ": 6,
+      "Pie Filling - Blueberry | ": 9,
+      "Pie Filling - Cherry | ": 12,
+      "Pie Filling - Other | ": 10,
+      "Pie Filling - Pumpkin | ": 11,
+      "Pie Filling - apple | ": 7,
+      "Pineapple | ": 14,
+      "Soup | ": 2,
+      "Sprout - Bean | ": 1,
+      "Vegetable Products | ": 44,
+      "Water Chestnut | ": 1
+    },
+    "product_function": {
+      "Apricot": {
+        "Import": 2
+      },
+      "Artichoke Heart": {
+        "Import": 8
+      },
+      "Bean - Green/Yellow": {
+        "Domestic": 7,
+        "Import": 1
+      },
+      "Bean - Kidney": {
+        "Domestic": 1
+      },
+      "Bean - Pinto": {
+        "Import": 1
+      },
+      "Beet": {
+        "Domestic": 1
+      },
+      "Carrot": {
+        "Import": 2
+      },
+      "Cherry": {
+        "Import": 3
+      },
+      "Corn": {
+        "Domestic": 2,
+        "Import": 5
+      },
+      "Cranberry": {
+        "Unknown": 2
+      },
+      "Fish/Seafood - Canned": {
+        "Domestic": 8,
+        "Import": 90,
+        "Unknown": 3
+      },
+      "Grapefruit": {
+        "Import": 1
+      },
+      "JackFruit": {
+        "Import": 1
+      },
+      "Lentil": {
+        "Unknown": 2
+      },
+      "Lychee": {
+        "Import": 1
+      },
+      "Mango": {
+        "Import": 3
+      },
+      "Meat - Canned": {
+        "Domestic": 20,
+        "Import": 55,
+        "Unknown": 25
+      },
+      "Mixed Fruit": {
+        "Import": 4
+      },
+      "Mixed Vegetables": {
+        "Domestic": 1,
+        "Unknown": 3
+      },
+      "Mushroom": {
+        "Domestic": 2,
+        "Import": 6
+      },
+      "Mushroom - Shiitake": {
+        "Import": 2
+      },
+      "Orange": {
+        "Import": 4
+      },
+      "Pea": {
+        "Domestic": 4,
+        "Import": 1,
+        "Unknown": 3
+      },
+      "Peach": {
+        "Import": 11
+      },
+      "Pear": {
+        "Import": 6
+      },
+      "Pie Filling - Blueberry": {
+        "Import": 9
+      },
+      "Pie Filling - Cherry": {
+        "Import": 12
+      },
+      "Pie Filling - Other": {
+        "Import": 10
+      },
+      "Pie Filling - Pumpkin": {
+        "Import": 11
+      },
+      "Pie Filling - apple": {
+        "Import": 7
+      },
+      "Pineapple": {
+        "Import": 14
+      },
+      "Soup": {
+        "Import": 2
+      },
+      "Sprout - Bean": {
+        "Import": 1
+      },
+      "Vegetable Products": {
+        "Domestic": 1,
+        "Import": 43
+      },
+      "Water Chestnut": {
+        "Import": 1
+      }
+    },
+    "product_id_runs": {
+      "Apricot": [
+        [
+          85,
+          85
+        ],
+        [
+          334,
+          334
+        ]
+      ],
+      "Artichoke Heart": [
+        [
+          14,
+          14
+        ],
+        [
+          18,
+          19
+        ],
+        [
+          102,
+          102
+        ],
+        [
+          175,
+          175
+        ],
+        [
+          303,
+          303
+        ],
+        [
+          347,
+          347
+        ],
+        [
+          351,
+          351
+        ]
+      ],
+      "Bean - Green/Yellow": [
+        [
+          15,
+          15
+        ],
+        [
+          103,
+          103
+        ],
+        [
+          227,
+          227
+        ],
+        [
+          229,
+          229
+        ],
+        [
+          233,
+          233
+        ],
+        [
+          235,
+          235
+        ],
+        [
+          349,
+          349
+        ],
+        [
+          352,
+          352
+        ]
+      ],
+      "Bean - Kidney": [
+        [
+          398,
+          398
+        ]
+      ],
+      "Bean - Pinto": [
+        [
+          302,
+          302
+        ]
+      ],
+      "Beet": [
+        [
+          13,
+          13
+        ]
+      ],
+      "Carrot": [
+        [
+          99,
+          99
+        ],
+        [
+          350,
+          350
+        ]
+      ],
+      "Cherry": [
+        [
+          82,
+          82
+        ],
+        [
+          86,
+          86
+        ],
+        [
+          161,
+          161
+        ]
+      ],
+      "Corn": [
+        [
+          16,
+          16
+        ],
+        [
+          101,
+          101
+        ],
+        [
+          105,
+          105
+        ],
+        [
+          107,
+          107
+        ],
+        [
+          169,
+          170
+        ],
+        [
+          230,
+          230
+        ]
+      ],
+      "Cranberry": [
+        [
+          201,
+          201
+        ],
+        [
+          338,
+          338
+        ]
+      ],
+      "Fish/Seafood - Canned": [
+        [
+          37,
+          46
+        ],
+        [
+          46,
+          48
+        ],
+        [
+          67,
+          72
+        ],
+        [
+          76,
+          76
+        ],
+        [
+          140,
+          160
+        ],
+        [
+          185,
+          192
+        ],
+        [
+          199,
+          200
+        ],
+        [
+          204,
+          204
+        ],
+        [
+          271,
+          292
+        ],
+        [
+          320,
+          328
+        ],
+        [
+          377,
+          392
+        ],
+        [
+          396,
+          396
+        ],
+        [
+          400,
+          400
+        ]
+      ],
+      "Grapefruit": [
+        [
+          83,
+          83
+        ]
+      ],
+      "JackFruit": [
+        [
+          87,
+          87
+        ]
+      ],
+      "Lentil": [
+        [
+          17,
+          17
+        ],
+        [
+          346,
+          346
+        ]
+      ],
+      "Lychee": [
+        [
+          84,
+          84
+        ]
+      ],
+      "Mango": [
+        [
+          3,
+          3
+        ],
+        [
+          50,
+          50
+        ],
+        [
+          294,
+          294
+        ]
+      ],
+      "Meat - Canned": [
+        [
+          25,
+          36
+        ],
+        [
+          61,
+          66
+        ],
+        [
+          75,
+          75
+        ],
+        [
+          119,
+          139
+        ],
+        [
+          177,
+          184
+        ],
+        [
+          197,
+          198
+        ],
+        [
+          203,
+          203
+        ],
+        [
+          249,
+          270
+        ],
+        [
+          311,
+          319
+        ],
+        [
+          361,
+          376
+        ],
+        [
+          395,
+          395
+        ],
+        [
+          399,
+          399
+        ]
+      ],
+      "Mixed Fruit": [
+        [
+          164,
+          164
+        ],
+        [
+          210,
+          210
+        ],
+        [
+          214,
+          214
+        ],
+        [
+          331,
+          331
+        ]
+      ],
+      "Mixed Vegetables": [
+        [
+          23,
+          23
+        ],
+        [
+          57,
+          57
+        ],
+        [
+          196,
+          196
+        ],
+        [
+          394,
+          394
+        ]
+      ],
+      "Mushroom": [
+        [
+          55,
+          55
+        ],
+        [
+          100,
+          100
+        ],
+        [
+          104,
+          104
+        ],
+        [
+          108,
+          108
+        ],
+        [
+          171,
+          171
+        ],
+        [
+          231,
+          231
+        ],
+        [
+          234,
+          234
+        ],
+        [
+          345,
+          345
+        ]
+      ],
+      "Mushroom - Shiitake": [
+        [
+          98,
+          98
+        ],
+        [
+          237,
+          237
+        ]
+      ],
+      "Orange": [
+        [
+          4,
+          4
+        ],
+        [
+          77,
+          77
+        ],
+        [
+          81,
+          81
+        ],
+        [
+          205,
+          205
+        ]
+      ],
+      "Pea": [
+        [
+          13,
+          13
+        ],
+        [
+          56,
+          56
+        ],
+        [
+          172,
+          172
+        ],
+        [
+          228,
+          228
+        ],
+        [
+          232,
+          232
+        ],
+        [
+          236,
+          236
+        ],
+        [
+          238,
+          238
+        ],
+        [
+          348,
+          348
+        ]
+      ],
+      "Peach": [
+        [
+          1,
+          1
+        ],
+        [
+          5,
+          5
+        ],
+        [
+          7,
+          7
+        ],
+        [
+          51,
+          51
+        ],
+        [
+          79,
+          79
+        ],
+        [
+          206,
+          206
+        ],
+        [
+          208,
+          209
+        ],
+        [
+          293,
+          293
+        ],
+        [
+          333,
+          333
+        ],
+        [
+          337,
+          337
+        ]
+      ],
+      "Pear": [
+        [
+          1,
+          1
+        ],
+        [
+          6,
+          6
+        ],
+        [
+          49,
+          49
+        ],
+        [
+          163,
+          163
+        ],
+        [
+          211,
+          211
+        ],
+        [
+          336,
+          336
+        ]
+      ],
+      "Pie Filling - Blueberry": [
+        [
+          10,
+          10
+        ],
+        [
+          53,
+          53
+        ],
+        [
+          89,
+          89
+        ],
+        [
+          92,
+          92
+        ],
+        [
+          97,
+          97
+        ],
+        [
+          168,
+          168
+        ],
+        [
+          219,
+          219
+        ],
+        [
+          225,
+          225
+        ],
+        [
+          296,
+          296
+        ]
+      ],
+      "Pie Filling - Cherry": [
+        [
+          73,
+          73
+        ],
+        [
+          88,
+          88
+        ],
+        [
+          90,
+          91
+        ],
+        [
+          96,
+          96
+        ],
+        [
+          194,
+          194
+        ],
+        [
+          218,
+          218
+        ],
+        [
+          222,
+          222
+        ],
+        [
+          297,
+          298
+        ],
+        [
+          300,
+          300
+        ],
+        [
+          343,
+          343
+        ]
+      ],
+      "Pie Filling - Other": [
+        [
+          11,
+          11
+        ],
+        [
+          54,
+          54
+        ],
+        [
+          94,
+          94
+        ],
+        [
+          223,
+          223
+        ],
+        [
+          295,
+          295
+        ],
+        [
+          301,
+          301
+        ],
+        [
+          340,
+          340
+        ],
+        [
+          342,
+          342
+        ],
+        [
+          344,
+          344
+        ],
+        [
+          393,
+          393
+        ]
+      ],
+      "Pie Filling - Pumpkin": [
+        [
+          8,
+          9
+        ],
+        [
+          12,
+          12
+        ],
+        [
+          52,
+          52
+        ],
+        [
+          165,
+          167
+        ],
+        [
+          220,
+          221
+        ],
+        [
+          339,
+          339
+        ],
+        [
+          341,
+          341
+        ]
+      ],
+      "Pie Filling - apple": [
+        [
+          93,
+          93
+        ],
+        [
+          95,
+          95
+        ],
+        [
+          193,
+          193
+        ],
+        [
+          217,
+          217
+        ],
+        [
+          224,
+          224
+        ],
+        [
+          226,
+          226
+        ],
+        [
+          299,
+          299
+        ]
+      ],
+      "Pineapple": [
+        [
+          2,
+          2
+        ],
+        [
+          78,
+          78
+        ],
+        [
+          80,
+          80
+        ],
+        [
+          162,
+          162
+        ],
+        [
+          207,
+          207
+        ],
+        [
+          212,
+          213
+        ],
+        [
+          215,
+          216
+        ],
+        [
+          329,
+          330
+        ],
+        [
+          332,
+          332
+        ],
+        [
+          335,
+          335
+        ],
+        [
+          397,
+          397
+        ]
+      ],
+      "Soup": [
+        [
+          354,
+          355
+        ]
+      ],
+      "Sprout - Bean": [
+        [
+          357,
+          357
+        ]
+      ],
+      "Vegetable Products": [
+        [
+          20,
+          22
+        ],
+        [
+          24,
+          24
+        ],
+        [
+          58,
+          60
+        ],
+        [
+          74,
+          74
+        ],
+        [
+          106,
+          106
+        ],
+        [
+          109,
+          118
+        ],
+        [
+          174,
+          174
+        ],
+        [
+          176,
+          176
+        ],
+        [
+          195,
+          195
+        ],
+        [
+          202,
+          202
+        ],
+        [
+          239,
+          248
+        ],
+        [
+          304,
+          310
+        ],
+        [
+          353,
+          353
+        ],
+        [
+          356,
+          356
+        ],
+        [
+          359,
+          360
+        ]
+      ],
+      "Water Chestnut": [
+        [
+          358,
+          358
+        ]
+      ]
+    },
+    "product_origin_top": {
+      "Apricot": {
+        "SOUTH AFRICA": 1,
+        "UNKNOWN": 1
+      },
+      "Artichoke Heart": {
+        "PERU": 4,
+        "SPAIN": 4
+      },
+      "Bean - Green/Yellow": {
+        "CANADA": 7,
+        "UNITED STATES": 1
+      },
+      "Bean - Kidney": {
+        "CANADA": 1
+      },
+      "Bean - Pinto": {
+        "UNITED STATES": 1
+      },
+      "Beet": {
+        "CANADA": 1
+      },
+      "Carrot": {
+        "BELGIUM": 1,
+        "FRANCE": 1
+      },
+      "Cherry": {
+        "UNITED STATES": 3
+      },
+      "Corn": {
+        "CANADA": 2,
+        "THAILAND": 5
+      },
+      "Cranberry": {
+        "UNKNOWN": 2
+      },
+      "Fish/Seafood - Canned": {
+        "CANADA": 8,
+        "CHILE": 2,
+        "CHINA": 3,
+        "EL SALVADOR": 1,
+        "GERMANY": 3,
+        "GREECE": 1,
+        "ICELAND": 1,
+        "INDONESIA": 3,
+        "MALAYSIA": 1,
+        "MOROCCO": 3,
+        "PHILIPPINES": 2,
+        "POLAND": 5,
+        "PORTUGAL": 4,
+        "SCOTLAND": 1,
+        "SPAIN": 1,
+        "TAIWAN, PROVINCE OF CHINA": 3,
+        "THAILAND": 44,
+        "UNITED STATES": 6,
+        "UNKNOWN": 4,
+        "VIETNAM": 5
+      },
+      "Grapefruit": {
+        "CHINA": 1
+      },
+      "JackFruit": {
+        "THAILAND": 1
+      },
+      "Lentil": {
+        "UNKNOWN": 2
+      },
+      "Lychee": {
+        "THAILAND": 1
+      },
+      "Mango": {
+        "PERU": 2,
+        "THAILAND": 1
+      },
+      "Meat - Canned": {
+        "AUSTRALIA": 1,
+        "BRAZIL": 17,
+        "CANADA": 44,
+        "CROATIA": 2,
+        "DENMARK": 6,
+        "FRANCE": 2,
+        "NEW ZEALAND": 4,
+        "POLAND": 3,
+        "UNITED STATES": 21
+      },
+      "Mixed Fruit": {
+        "GREECE": 4
+      },
+      "Mixed Vegetables": {
+        "CANADA": 1,
+        "UNKNOWN": 3
+      },
+      "Mushroom": {
+        "CANADA": 2,
+        "CHINA": 5,
+        "NETHERLANDS": 1
+      },
+      "Mushroom - Shiitake": {
+        "CHINA": 2
+      },
+      "Orange": {
+        "CHINA": 4
+      },
+      "Pea": {
+        "CANADA": 4,
+        "UNITED KINGDOM": 1,
+        "UNKNOWN": 3
+      },
+      "Peach": {
+        "CHINA": 1,
+        "GREECE": 7,
+        "SOUTH AFRICA": 3
+      },
+      "Pear": {
+        "GREECE": 3,
+        "UNITED STATES": 3
+      },
+      "Pie Filling - Blueberry": {
+        "UNITED STATES": 9
+      },
+      "Pie Filling - Cherry": {
+        "UNITED STATES": 12
+      },
+      "Pie Filling - Other": {
+        "UNITED STATES": 10
+      },
+      "Pie Filling - Pumpkin": {
+        "UNITED STATES": 11
+      },
+      "Pie Filling - apple": {
+        "UNITED STATES": 7
+      },
+      "Pineapple": {
+        "INDONESIA": 1,
+        "KENYA": 1,
+        "PHILIPPINES": 5,
+        "THAILAND": 6,
+        "VIETNAM": 1
+      },
+      "Soup": {
+        "UNITED STATES": 2
+      },
+      "Sprout - Bean": {
+        "UNITED STATES": 1
+      },
+      "Vegetable Products": {
+        "CHINA": 1,
+        "FRANCE": 1,
+        "GREECE": 3,
+        "LEBANON": 1,
+        "TURKEY": 31,
+        "UNKNOWN": 7
+      },
+      "Water Chestnut": {
+        "CHINA": 1
+      }
+    },
+    "products": {
+      "Apricot": 2,
+      "Artichoke Heart": 8,
+      "Bean - Green/Yellow": 8,
+      "Bean - Kidney": 1,
+      "Bean - Pinto": 1,
+      "Beet": 1,
+      "Carrot": 2,
+      "Cherry": 3,
+      "Corn": 7,
+      "Cranberry": 2,
+      "Fish/Seafood - Canned": 101,
+      "Grapefruit": 1,
+      "JackFruit": 1,
+      "Lentil": 2,
+      "Lychee": 1,
+      "Mango": 3,
+      "Meat - Canned": 100,
+      "Mixed Fruit": 4,
+      "Mixed Vegetables": 4,
+      "Mushroom": 8,
+      "Mushroom - Shiitake": 2,
+      "Orange": 4,
+      "Pea": 8,
+      "Peach": 11,
+      "Pear": 6,
+      "Pie Filling - Blueberry": 9,
+      "Pie Filling - Cherry": 12,
+      "Pie Filling - Other": 10,
+      "Pie Filling - Pumpkin": 11,
+      "Pie Filling - apple": 7,
+      "Pineapple": 14,
+      "Soup": 2,
+      "Sprout - Bean": 1,
+      "Vegetable Products": 44,
+      "Water Chestnut": 1
+    },
+    "regions": {
+      "ATLANTIC": 112,
+      "ONTARIO": 620,
+      "QUEBEC": 368,
+      "WEST": 508
+    },
+    "repeated_component_samples": {},
+    "rows": 1608,
+    "rows_per_sample": {
+      "4": 402
+    },
+    "samples": 402,
+    "shapes": {
+      "number": 1608
+    },
+    "shapes_by_component": {
+      "Bisphenol A": {
+        "number": 402
+      },
+      "Bisphenol A Diglycidyl Ether": {
+        "number": 402
+      },
+      "Bisphenol F": {
+        "number": 402
+      },
+      "Bisphenol S": {
+        "number": 402
+      }
+    },
+    "tests": {
+      "BPA": 1608
+    },
+    "tokens": {},
+    "units": {
+      "µg/g": 1608
+    },
+    "units_by_component": {
+      "Bisphenol A": {
+        "µg/g": 402
+      },
+      "Bisphenol A Diglycidyl Ether": {
+        "µg/g": 402
+      },
+      "Bisphenol F": {
+        "µg/g": 402
+      },
+      "Bisphenol S": {
+        "µg/g": 402
+      }
+    }
+  },
+  "dataset": "5b36b36d-4f8b-4b0c-b407-42b8076b3730",
+  "encoding": "cp1252",
+  "md5": "31a4ca35a9f46e0d59cc637314c744a9",
+  "md5_matches_portal": true,
+  "portal_md5": "31a4ca35a9f46e0d59cc637314c744a9",
+  "portal_size": 285553,
+  "resource": "df188f89-3dba-4650-bfbb-e4c46f89d21a",
+  "sha256": "bf9d76bdf840a5578b7b69eeb6056cb0f65b522af6a2cec6f80874bfc5eb7dd1",
+  "size_matches_portal": true,
+  "source": "https://open.canada.ca/data/dataset/5b36b36d-4f8b-4b0c-b407-42b8076b3730/resource/df188f89-3dba-4650-bfbb-e4c46f89d21a/download/cfia_acia-1351-v1-open_data_for_chem_ts_survey_-_2020-21_-_bisphenol_a_and_bpa_alternatives_in_s.csv",
+  "study": "bpa-2020-census",
+  "version": "0.1.0"
+}
