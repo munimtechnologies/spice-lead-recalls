@@ -1,0 +1,1577 @@
+{
+  "analysis": {
+    "bpa-2018": {
+      "b3_sauces": {
+        "avg": true,
+        "detected": true,
+        "max": true,
+        "min": true,
+        "n": false
+      },
+      "b4_all": {
+        "avg": true,
+        "detected": false,
+        "max": true,
+        "min": true,
+        "n": false
+      },
+      "badge": {
+        "all_with_bpa": true,
+        "by_type": {
+          "coconut": 12
+        },
+        "k": 12,
+        "pct_of_all": 3.183023872679045,
+        "pct_of_bpa_positive": 7.317073170731708,
+        "pct_of_coconut": 24.489795918367346,
+        "stats": {
+          "k": 12,
+          "max": 524.0,
+          "mean": 81.89666666666666,
+          "min": 0.95,
+          "n": 377,
+          "pct": 3.183023872679045
+        },
+        "values": [
+          524.0,
+          209.0,
+          62.300000000000004,
+          42.5,
+          41.300000000000004,
+          35.6,
+          24.7,
+          19.7,
+          11.299999999999999,
+          8.31,
+          3.1,
+          0.95
+        ]
+      },
+      "bpa": {
+        "all": {
+          "k": 164,
+          "max": 367.0,
+          "mean": 17.84329268292683,
+          "min": 0.92,
+          "n": 377,
+          "pct": 43.50132625994695
+        },
+        "coconut": {
+          "k": 37,
+          "max": 367.0,
+          "mean": 47.01486486486486,
+          "min": 1.42,
+          "n": 49,
+          "pct": 75.51020408163265
+        },
+        "formula": {
+          "k": 17,
+          "max": 2.2399999999999998,
+          "mean": 1.4005882352941175,
+          "min": 0.92,
+          "n": 135,
+          "pct": 12.592592592592593
+        },
+        "pie": {
+          "k": 62,
+          "max": 101.0,
+          "mean": 11.181935483870967,
+          "min": 0.9700000000000001,
+          "n": 98,
+          "pct": 63.265306122448976
+        },
+        "sauces": {
+          "k": 48,
+          "max": 95.9,
+          "mean": 9.784583333333334,
+          "min": 1.01,
+          "n": 95,
+          "pct": 50.526315789473685
+        }
+      },
+      "bpf": {
+        "k": 0,
+        "max": null,
+        "mean": null,
+        "min": null,
+        "n": 377,
+        "pct": 0.0
+      },
+      "bps": {
+        "k": 0,
+        "max": null,
+        "mean": null,
+        "min": null,
+        "n": 377,
+        "pct": 0.0
+      },
+      "formula_top": [
+        {
+          "function": "Import",
+          "origin": "UNITED STATES",
+          "ppb": {
+            "badge": 0.0,
+            "bpa": 2.24,
+            "bpf": 0.0,
+            "bps": 0.0
+          },
+          "product": "Infant Formula - Dairy",
+          "sample": "C2018BPHA00330",
+          "type": "formula"
+        },
+        {
+          "function": "Import",
+          "origin": "UNITED STATES",
+          "ppb": {
+            "badge": 0.0,
+            "bpa": 2.21,
+            "bpf": 0.0,
+            "bps": 0.0
+          },
+          "product": "Infant Formula - Other",
+          "sample": "C2018BPHA00276",
+          "type": "formula"
+        },
+        {
+          "function": "Import",
+          "origin": "UNITED STATES",
+          "ppb": {
+            "badge": 0.0,
+            "bpa": 1.88,
+            "bpf": 0.0,
+            "bps": 0.0
+          },
+          "product": "Infant Formula - Dairy",
+          "sample": "C2018BPHA00265",
+          "type": "formula"
+        }
+      ],
+      "n": 377,
+      "origins": {
+        "coconut": [
+          0,
+          49,
+          0,
+          49
+        ],
+        "formula": [
+          1,
+          134,
+          0,
+          135
+        ],
+        "pie": [
+          1,
+          94,
+          3,
+          98
+        ],
+        "sauces": [
+          57,
+          16,
+          22,
+          95
+        ]
+      },
+      "pct": {
+        "summary_bpa": false,
+        "table2_bpa": true
+      },
+      "table2": {
+        "all": {
+          "avg": true,
+          "detected": true,
+          "max": true,
+          "min": true,
+          "n": true
+        },
+        "coconut": {
+          "avg": true,
+          "detected": true,
+          "max": true,
+          "min": true,
+          "n": true
+        },
+        "formula": {
+          "avg": true,
+          "detected": true,
+          "max": true,
+          "min": true,
+          "n": true
+        },
+        "pie": {
+          "avg": true,
+          "detected": true,
+          "max": true,
+          "min": true,
+          "n": true
+        },
+        "sauces": {
+          "avg": true,
+          "detected": true,
+          "max": true,
+          "min": true,
+          "n": true
+        }
+      },
+      "table3_formula": {
+        "avg": false,
+        "detected": false,
+        "max": false,
+        "min": true,
+        "n": false
+      },
+      "twins": []
+    },
+    "bpa-2020": {
+      "alt": {
+        "badge": {
+          "fish": {
+            "avg": true,
+            "detected": true,
+            "k": 5,
+            "max": true,
+            "min": true,
+            "printed_k": 5
+          },
+          "fruit": {
+            "avg": true,
+            "detected": true,
+            "k": 0,
+            "max": true,
+            "min": true,
+            "printed_k": 0
+          },
+          "meat": {
+            "avg": true,
+            "detected": true,
+            "k": 11,
+            "max": true,
+            "min": true,
+            "printed_k": 11
+          },
+          "pie": {
+            "avg": true,
+            "detected": true,
+            "k": 0,
+            "max": true,
+            "min": true,
+            "printed_k": 0
+          },
+          "veg": {
+            "avg": true,
+            "detected": true,
+            "k": 1,
+            "max": true,
+            "min": true,
+            "printed_k": 1
+          }
+        },
+        "bpf": {
+          "fish": {
+            "avg": true,
+            "detected": true,
+            "k": 1,
+            "max": true,
+            "min": true,
+            "printed_k": 1
+          },
+          "fruit": {
+            "avg": true,
+            "detected": true,
+            "k": 0,
+            "max": true,
+            "min": true,
+            "printed_k": 0
+          },
+          "meat": {
+            "avg": true,
+            "detected": true,
+            "k": 1,
+            "max": true,
+            "min": true,
+            "printed_k": 1
+          },
+          "pie": {
+            "avg": true,
+            "detected": true,
+            "k": 0,
+            "max": true,
+            "min": true,
+            "printed_k": 0
+          },
+          "veg": {
+            "avg": true,
+            "detected": true,
+            "k": 0,
+            "max": true,
+            "min": true,
+            "printed_k": 0
+          }
+        },
+        "bps": {
+          "fish": {
+            "avg": true,
+            "detected": true,
+            "k": 1,
+            "max": true,
+            "min": true,
+            "printed_k": 1
+          },
+          "fruit": {
+            "avg": true,
+            "detected": true,
+            "k": 0,
+            "max": true,
+            "min": true,
+            "printed_k": 0
+          },
+          "meat": {
+            "avg": true,
+            "detected": true,
+            "k": 5,
+            "max": true,
+            "min": true,
+            "printed_k": 5
+          },
+          "pie": {
+            "avg": true,
+            "detected": true,
+            "k": 0,
+            "max": true,
+            "min": true,
+            "printed_k": 0
+          },
+          "veg": {
+            "avg": true,
+            "detected": true,
+            "k": 1,
+            "max": true,
+            "min": true,
+            "printed_k": 1
+          }
+        }
+      },
+      "alt_stats": {
+        "badge": {
+          "k": 17,
+          "max": 1580.0,
+          "mean": 140.6370588235294,
+          "min": 3.61,
+          "n": 402,
+          "pct": 4.2288557213930345
+        },
+        "bpf": {
+          "k": 2,
+          "max": 94.8,
+          "mean": 57.199999999999996,
+          "min": 19.599999999999998,
+          "n": 402,
+          "pct": 0.4975124378109453
+        },
+        "bps": {
+          "k": 7,
+          "max": 191.0,
+          "mean": 43.92,
+          "min": 0.9600000000000001,
+          "n": 402,
+          "pct": 1.7412935323383085
+        }
+      },
+      "alt_totals": {
+        "badge": 17,
+        "bpf": 2,
+        "bps": 7
+      },
+      "badge_avg_matches_141": true,
+      "bpa": {
+        "all": {
+          "k": 163,
+          "max": 479.0,
+          "mean": 39.951411042944784,
+          "min": 0.91,
+          "n": 402,
+          "pct": 40.54726368159204
+        },
+        "fish": {
+          "k": 39,
+          "max": 395.0,
+          "mean": 43.846666666666664,
+          "min": 0.91,
+          "n": 101,
+          "pct": 38.613861386138616
+        },
+        "fruit": {
+          "k": 15,
+          "max": 21.4,
+          "mean": 6.066,
+          "min": 1.35,
+          "n": 52,
+          "pct": 28.846153846153847
+        },
+        "meat": {
+          "k": 42,
+          "max": 479.0,
+          "mean": 43.468333333333334,
+          "min": 1.17,
+          "n": 100,
+          "pct": 42.0
+        },
+        "pie": {
+          "k": 16,
+          "max": 7.0600000000000005,
+          "mean": 2.061875,
+          "min": 1.1,
+          "n": 49,
+          "pct": 32.6530612244898
+        },
+        "veg": {
+          "k": 51,
+          "max": 151.0,
+          "mean": 55.929607843137255,
+          "min": 0.9600000000000001,
+          "n": 100,
+          "pct": 51.0
+        }
+      },
+      "bpf_positives": [
+        {
+          "function": "Unknown",
+          "origin": "CANADA",
+          "ppb": {
+            "badge": 0.0,
+            "bpa": 8.17,
+            "bpf": 19.6,
+            "bps": 0.0
+          },
+          "product": "Meat - Canned",
+          "sample": "C2020BPHA00119",
+          "type": "meat"
+        },
+        {
+          "function": "Import",
+          "origin": "GERMANY",
+          "ppb": {
+            "badge": 0.0,
+            "bpa": 0.0,
+            "bpf": 94.8,
+            "bps": 0.0
+          },
+          "product": "Fish/Seafood - Canned",
+          "sample": "C2020BPHA00141",
+          "type": "fish"
+        }
+      ],
+      "c4": {
+        "badge_imported_14": true,
+        "badge_with_bpa_8": true,
+        "bpa_fruit_pie_all_imported": true,
+        "bps_meat_all_with_bpa": false,
+        "fish_badge_second_51": true,
+        "with_bpa_all_imported_meat_or_fish": false
+      },
+      "c4_observed": {
+        "badge_imported": 14,
+        "badge_k": 17,
+        "badge_with_bpa": [
+          {
+            "function": "Import",
+            "origin": "UNITED STATES",
+            "ppb": {
+              "badge": 6.49,
+              "bpa": 35.9,
+              "bpf": 0.0,
+              "bps": 0.0
+            },
+            "product": "Meat - Canned",
+            "sample": "C2020BPHA00064",
+            "type": "meat"
+          },
+          {
+            "function": "Domestic",
+            "origin": "CANADA",
+            "ppb": {
+              "badge": 16.9,
+              "bpa": 8.05,
+              "bpf": 0.0,
+              "bps": 0.0
+            },
+            "product": "Meat - Canned",
+            "sample": "C2020BPHA00133",
+            "type": "meat"
+          },
+          {
+            "function": "Import",
+            "origin": "INDONESIA",
+            "ppb": {
+              "badge": 5.62,
+              "bpa": 15.6,
+              "bpf": 0.0,
+              "bps": 0.0
+            },
+            "product": "Fish/Seafood - Canned",
+            "sample": "C2020BPHA00148",
+            "type": "fish"
+          },
+          {
+            "function": "Import",
+            "origin": "EL SALVADOR",
+            "ppb": {
+              "badge": 3.61,
+              "bpa": 49.4,
+              "bpf": 0.0,
+              "bps": 0.0
+            },
+            "product": "Fish/Seafood - Canned",
+            "sample": "C2020BPHA00150",
+            "type": "fish"
+          },
+          {
+            "function": "Import",
+            "origin": "UNITED STATES",
+            "ppb": {
+              "badge": 16.4,
+              "bpa": 66.4,
+              "bpf": 0.0,
+              "bps": 0.0
+            },
+            "product": "Meat - Canned",
+            "sample": "C2020BPHA00180",
+            "type": "meat"
+          },
+          {
+            "function": "Unknown",
+            "origin": "CANADA",
+            "ppb": {
+              "badge": 7.81,
+              "bpa": 12.4,
+              "bpf": 0.0,
+              "bps": 0.0
+            },
+            "product": "Meat - Canned",
+            "sample": "C2020BPHA00314",
+            "type": "meat"
+          },
+          {
+            "function": "Import",
+            "origin": "THAILAND",
+            "ppb": {
+              "badge": 1580.0,
+              "bpa": 395.0,
+              "bpf": 0.0,
+              "bps": 0.0
+            },
+            "product": "Fish/Seafood - Canned",
+            "sample": "C2020BPHA00323",
+            "type": "fish"
+          },
+          {
+            "function": "Import",
+            "origin": "CHINA",
+            "ppb": {
+              "badge": 51.0,
+              "bpa": 115.0,
+              "bpf": 0.0,
+              "bps": 0.0
+            },
+            "product": "Fish/Seafood - Canned",
+            "sample": "C2020BPHA00328",
+            "type": "fish"
+          }
+        ],
+        "bpa_fruit_pie_functions": [
+          "Import"
+        ],
+        "bpa_fruit_pie_k": 31,
+        "bps_meat": [
+          {
+            "function": "Import",
+            "origin": "AUSTRALIA",
+            "ppb": {
+              "badge": 0.0,
+              "bpa": 82.0,
+              "bpf": 0.0,
+              "bps": 191.0
+            },
+            "product": "Meat - Canned",
+            "sample": "C2020BPHA00026",
+            "type": "meat"
+          },
+          {
+            "function": "Import",
+            "origin": "FRANCE",
+            "ppb": {
+              "badge": 0.0,
+              "bpa": 13.9,
+              "bpf": 0.0,
+              "bps": 16.1
+            },
+            "product": "Meat - Canned",
+            "sample": "C2020BPHA00125",
+            "type": "meat"
+          },
+          {
+            "function": "Import",
+            "origin": "BRAZIL",
+            "ppb": {
+              "badge": 0.0,
+              "bpa": 0.0,
+              "bpf": 0.0,
+              "bps": 0.96
+            },
+            "product": "Meat - Canned",
+            "sample": "C2020BPHA00130",
+            "type": "meat"
+          },
+          {
+            "function": "Import",
+            "origin": "NEW ZEALAND",
+            "ppb": {
+              "badge": 0.0,
+              "bpa": 332.0,
+              "bpf": 0.0,
+              "bps": 20.8
+            },
+            "product": "Meat - Canned",
+            "sample": "C2020BPHA00134",
+            "type": "meat"
+          },
+          {
+            "function": "Import",
+            "origin": "NEW ZEALAND",
+            "ppb": {
+              "badge": 0.0,
+              "bpa": 479.0,
+              "bpf": 0.0,
+              "bps": 31.6
+            },
+            "product": "Meat - Canned",
+            "sample": "C2020BPHA00319",
+            "type": "meat"
+          }
+        ],
+        "fish_badge_desc": [
+          1580.0,
+          51.0,
+          9.0,
+          5.62,
+          3.61
+        ]
+      },
+      "n": 402,
+      "origins": {
+        "fish": [
+          8,
+          90,
+          3,
+          101
+        ],
+        "fruit": [
+          0,
+          50,
+          2,
+          52
+        ],
+        "meat": [
+          20,
+          55,
+          25,
+          100
+        ],
+        "pie": [
+          0,
+          49,
+          0,
+          49
+        ],
+        "veg": [
+          19,
+          73,
+          8,
+          100
+        ]
+      },
+      "table2": {
+        "all": {
+          "avg": true,
+          "detected": true,
+          "max": true,
+          "min": true,
+          "n": true
+        },
+        "fish": {
+          "avg": true,
+          "detected": true,
+          "max": true,
+          "min": true,
+          "n": true
+        },
+        "fruit": {
+          "avg": true,
+          "detected": true,
+          "max": true,
+          "min": true,
+          "n": true
+        },
+        "meat": {
+          "avg": true,
+          "detected": true,
+          "max": true,
+          "min": true,
+          "n": true
+        },
+        "pie": {
+          "avg": true,
+          "detected": true,
+          "max": true,
+          "min": true,
+          "n": true
+        },
+        "veg": {
+          "avg": true,
+          "detected": true,
+          "max": true,
+          "min": true,
+          "n": true
+        }
+      },
+      "twins": []
+    }
+  },
+  "census": {
+    "bpa-2018": {
+      "bad_shapes": [],
+      "columns": {
+        "component": 13,
+        "function": 4,
+        "origin": 6,
+        "plan": 17,
+        "product": 8,
+        "region": 1,
+        "sample": 0,
+        "unit": 16,
+        "value": 15
+      },
+      "components": {
+        "Bisphenol A": 377,
+        "Bisphenol A Diglycidyl Ether": 377,
+        "Bisphenol F": 377,
+        "Bisphenol S": 377
+      },
+      "ids_bad": [],
+      "kinds": {
+        "det": 176,
+        "nd": 1332
+      },
+      "missing": {},
+      "plans": {
+        "2018_SB451": 1508
+      },
+      "products": {
+        "Coconut Milk": 49,
+        "Infant Formula - Dairy": 104,
+        "Infant Formula - Other": 31,
+        "Pie Filling - Blueberry": 30,
+        "Pie Filling - Cherry": 30,
+        "Pie Filling - Other": 12,
+        "Pie Filling - Pumpkin": 26,
+        "Sauces": 91,
+        "Tomato Sauce": 4
+      },
+      "repeated": {},
+      "rows": 1508,
+      "rows_per_sample": {
+        "4": 377
+      },
+      "samples": 377,
+      "units": {
+        "µg/g": 1508
+      },
+      "unknown_components": 0
+    },
+    "bpa-2020": {
+      "bad_shapes": [],
+      "columns": {
+        "component": 11,
+        "function": 2,
+        "origin": 4,
+        "plan": 15,
+        "product": 6,
+        "region": 1,
+        "sample": 0,
+        "unit": 14,
+        "value": 13
+      },
+      "components": {
+        "Bisphenol A": 402,
+        "Bisphenol A Diglycidyl Ether": 402,
+        "Bisphenol F": 402,
+        "Bisphenol S": 402
+      },
+      "ids_bad": [],
+      "kinds": {
+        "det": 189,
+        "nd": 1419
+      },
+      "missing": {},
+      "plans": {
+        "2020_SB451": 1608
+      },
+      "products": {
+        "Apricot": 2,
+        "Artichoke Heart": 8,
+        "Bean - Green/Yellow": 8,
+        "Bean - Kidney": 1,
+        "Bean - Pinto": 1,
+        "Beet": 1,
+        "Carrot": 2,
+        "Cherry": 3,
+        "Corn": 7,
+        "Cranberry": 2,
+        "Fish/Seafood - Canned": 101,
+        "Grapefruit": 1,
+        "JackFruit": 1,
+        "Lentil": 2,
+        "Lychee": 1,
+        "Mango": 3,
+        "Meat - Canned": 100,
+        "Mixed Fruit": 4,
+        "Mixed Vegetables": 4,
+        "Mushroom": 8,
+        "Mushroom - Shiitake": 2,
+        "Orange": 4,
+        "Pea": 8,
+        "Peach": 11,
+        "Pear": 6,
+        "Pie Filling - Blueberry": 9,
+        "Pie Filling - Cherry": 12,
+        "Pie Filling - Other": 10,
+        "Pie Filling - Pumpkin": 11,
+        "Pie Filling - apple": 7,
+        "Pineapple": 14,
+        "Soup": 2,
+        "Sprout - Bean": 1,
+        "Vegetable Products": 44,
+        "Water Chestnut": 1
+      },
+      "repeated": {},
+      "rows": 1608,
+      "rows_per_sample": {
+        "4": 402
+      },
+      "samples": 402,
+      "units": {
+        "µg/g": 1608
+      },
+      "unknown_components": 0
+    }
+  },
+  "grader": "bpa_2018_2020",
+  "n_graded": 8,
+  "n_met": 4,
+  "predictions": [
+    {
+      "graded": true,
+      "id": "G18",
+      "kind": "gate",
+      "met": true,
+      "observed": {
+        "columns": true,
+        "components": true,
+        "per_sample": true,
+        "plan": true,
+        "products": true,
+        "rows": true,
+        "samples": true,
+        "size": true,
+        "units": true,
+        "values": true
+      },
+      "text": "bpa-2018: byte size as on the portal record; columns; 1508 rows; 377 samples, each with one row per the 4 bisphenols; unit ug/g and plan 2018_SB451 on every row; the census labels; every value a number >= 0, a '<' or a not-detected token"
+    },
+    {
+      "graded": true,
+      "id": "G20",
+      "kind": "gate",
+      "met": true,
+      "observed": {
+        "columns": true,
+        "components": true,
+        "per_sample": true,
+        "plan": true,
+        "products": true,
+        "rows": true,
+        "samples": true,
+        "size": true,
+        "units": true,
+        "values": true
+      },
+      "text": "bpa-2020: byte size as on the portal record; columns; 1608 rows; 402 samples, each with one row per the 4 bisphenols; unit ug/g and plan 2020_SB451 on every row; the census labels; every value a number >= 0, a '<' or a not-detected token"
+    },
+    {
+      "graded": true,
+      "id": "B2",
+      "kind": "prediction",
+      "met": false,
+      "observed": {
+        "cells": {
+          "avg": false,
+          "detected": false,
+          "max": false,
+          "min": true,
+          "n": false
+        },
+        "stats": {
+          "k": 17,
+          "max": 2.2399999999999998,
+          "mean": 1.4005882352941175,
+          "min": 0.92,
+          "n": 135,
+          "pct": 12.592592592592593
+        },
+        "top": [
+          {
+            "function": "Import",
+            "origin": "UNITED STATES",
+            "ppb": {
+              "badge": 0.0,
+              "bpa": 2.24,
+              "bpf": 0.0,
+              "bps": 0.0
+            },
+            "product": "Infant Formula - Dairy",
+            "sample": "C2018BPHA00330",
+            "type": "formula"
+          },
+          {
+            "function": "Import",
+            "origin": "UNITED STATES",
+            "ppb": {
+              "badge": 0.0,
+              "bpa": 2.21,
+              "bpf": 0.0,
+              "bps": 0.0
+            },
+            "product": "Infant Formula - Other",
+            "sample": "C2018BPHA00276",
+            "type": "formula"
+          },
+          {
+            "function": "Import",
+            "origin": "UNITED STATES",
+            "ppb": {
+              "badge": 0.0,
+              "bpa": 1.88,
+              "bpf": 0.0,
+              "bps": 0.0
+            },
+            "product": "Infant Formula - Dairy",
+            "sample": "C2018BPHA00265",
+            "type": "formula"
+          }
+        ]
+      },
+      "text": "infant formula reproduces Table 3's row: 138 samples, 18 positives, min 0.92, max 5.89, average 1.65"
+    },
+    {
+      "graded": true,
+      "id": "B3",
+      "kind": "prediction",
+      "met": false,
+      "observed": {
+        "cells": {
+          "avg": true,
+          "detected": true,
+          "max": true,
+          "min": true,
+          "n": false
+        },
+        "stats": {
+          "k": 48,
+          "max": 95.9,
+          "mean": 9.784583333333334,
+          "min": 1.01,
+          "n": 95,
+          "pct": 50.526315789473685
+        }
+      },
+      "text": "tomato-based sauces: 96 samples, 48 positive, min 1.01, max 95.9, average 9.78"
+    },
+    {
+      "graded": true,
+      "id": "B4",
+      "kind": "prediction",
+      "met": false,
+      "observed": {
+        "cells": {
+          "avg": true,
+          "detected": false,
+          "max": true,
+          "min": true,
+          "n": false
+        },
+        "coconut": {
+          "avg": true,
+          "detected": true,
+          "max": true,
+          "min": true,
+          "n": true
+        },
+        "pie": {
+          "avg": true,
+          "detected": true,
+          "max": true,
+          "min": true,
+          "n": true
+        },
+        "stats": {
+          "k": 164,
+          "max": 367.0,
+          "mean": 17.84329268292683,
+          "min": 0.92,
+          "n": 377,
+          "pct": 43.50132625994695
+        }
+      },
+      "text": "all samples: BPA positive in 165 of 381, min 0.92, max 367, average 17.8; coconut milk and pie filling reproduce Table 2 in full"
+    },
+    {
+      "graded": true,
+      "id": "B5",
+      "kind": "prediction",
+      "met": true,
+      "observed": {
+        "badge": {
+          "all_with_bpa": true,
+          "by_type": {
+            "coconut": 12
+          },
+          "k": 12,
+          "pct_of_all": 3.183023872679045,
+          "pct_of_bpa_positive": 7.317073170731708,
+          "pct_of_coconut": 24.489795918367346,
+          "stats": {
+            "k": 12,
+            "max": 524.0,
+            "mean": 81.89666666666666,
+            "min": 0.95,
+            "n": 377,
+            "pct": 3.183023872679045
+          },
+          "values": [
+            524.0,
+            209.0,
+            62.300000000000004,
+            42.5,
+            41.300000000000004,
+            35.6,
+            24.7,
+            19.7,
+            11.299999999999999,
+            8.31,
+            3.1,
+            0.95
+          ]
+        },
+        "checks": {
+          "all_coconut": true,
+          "all_with_bpa": true,
+          "avg_81.9": true,
+          "k_12": true,
+          "no_count_gives_12pct": true,
+          "others_below_63": true,
+          "top_two": true
+        }
+      },
+      "text": "BADGE: exactly 12 positives, all coconut milk, top two 524 and 209, the other ten below 63, average 81.9, every one also BPA-positive; no count in the file gives 12%"
+    },
+    {
+      "graded": true,
+      "id": "B6",
+      "kind": "prediction",
+      "met": true,
+      "observed": {
+        "bpf_k": 0,
+        "bps_k": 0
+      },
+      "text": "BPF and BPS: no positive sample"
+    },
+    {
+      "graded": true,
+      "id": "C2",
+      "kind": "prediction",
+      "met": true,
+      "observed": {
+        "cells": {
+          "all": {
+            "avg": true,
+            "detected": true,
+            "max": true,
+            "min": true,
+            "n": true
+          },
+          "fish": {
+            "avg": true,
+            "detected": true,
+            "max": true,
+            "min": true,
+            "n": true
+          },
+          "fruit": {
+            "avg": true,
+            "detected": true,
+            "max": true,
+            "min": true,
+            "n": true
+          },
+          "meat": {
+            "avg": true,
+            "detected": true,
+            "max": true,
+            "min": true,
+            "n": true
+          },
+          "pie": {
+            "avg": true,
+            "detected": true,
+            "max": true,
+            "min": true,
+            "n": true
+          },
+          "veg": {
+            "avg": true,
+            "detected": true,
+            "max": true,
+            "min": true,
+            "n": true
+          }
+        },
+        "full": 6,
+        "stats": {
+          "all": {
+            "k": 163,
+            "max": 479.0,
+            "mean": 39.951411042944784,
+            "min": 0.91,
+            "n": 402,
+            "pct": 40.54726368159204
+          },
+          "fish": {
+            "k": 39,
+            "max": 395.0,
+            "mean": 43.846666666666664,
+            "min": 0.91,
+            "n": 101,
+            "pct": 38.613861386138616
+          },
+          "fruit": {
+            "k": 15,
+            "max": 21.4,
+            "mean": 6.066,
+            "min": 1.35,
+            "n": 52,
+            "pct": 28.846153846153847
+          },
+          "meat": {
+            "k": 42,
+            "max": 479.0,
+            "mean": 43.468333333333334,
+            "min": 1.17,
+            "n": 100,
+            "pct": 42.0
+          },
+          "pie": {
+            "k": 16,
+            "max": 7.0600000000000005,
+            "mean": 2.061875,
+            "min": 1.1,
+            "n": 49,
+            "pct": 32.6530612244898
+          },
+          "veg": {
+            "k": 51,
+            "max": 151.0,
+            "mean": 55.929607843137255,
+            "min": 0.9600000000000001,
+            "n": 100,
+            "pct": 51.0
+          }
+        }
+      },
+      "text": "Table 2 reproduces: at least 5 of its 6 rows match all four of positive count, min, max and average; vegetables has 51 positives (not 163)"
+    },
+    {
+      "graded": true,
+      "id": "C3",
+      "kind": "prediction",
+      "met": true,
+      "observed": {
+        "rows": {
+          "badge": {
+            "fish": {
+              "avg": true,
+              "detected": true,
+              "k": 5,
+              "max": true,
+              "min": true,
+              "printed_k": 5
+            },
+            "fruit": {
+              "avg": true,
+              "detected": true,
+              "k": 0,
+              "max": true,
+              "min": true,
+              "printed_k": 0
+            },
+            "meat": {
+              "avg": true,
+              "detected": true,
+              "k": 11,
+              "max": true,
+              "min": true,
+              "printed_k": 11
+            },
+            "pie": {
+              "avg": true,
+              "detected": true,
+              "k": 0,
+              "max": true,
+              "min": true,
+              "printed_k": 0
+            },
+            "veg": {
+              "avg": true,
+              "detected": true,
+              "k": 1,
+              "max": true,
+              "min": true,
+              "printed_k": 1
+            }
+          },
+          "bpf": {
+            "fish": {
+              "avg": true,
+              "detected": true,
+              "k": 1,
+              "max": true,
+              "min": true,
+              "printed_k": 1
+            },
+            "fruit": {
+              "avg": true,
+              "detected": true,
+              "k": 0,
+              "max": true,
+              "min": true,
+              "printed_k": 0
+            },
+            "meat": {
+              "avg": true,
+              "detected": true,
+              "k": 1,
+              "max": true,
+              "min": true,
+              "printed_k": 1
+            },
+            "pie": {
+              "avg": true,
+              "detected": true,
+              "k": 0,
+              "max": true,
+              "min": true,
+              "printed_k": 0
+            },
+            "veg": {
+              "avg": true,
+              "detected": true,
+              "k": 0,
+              "max": true,
+              "min": true,
+              "printed_k": 0
+            }
+          },
+          "bps": {
+            "fish": {
+              "avg": true,
+              "detected": true,
+              "k": 1,
+              "max": true,
+              "min": true,
+              "printed_k": 1
+            },
+            "fruit": {
+              "avg": true,
+              "detected": true,
+              "k": 0,
+              "max": true,
+              "min": true,
+              "printed_k": 0
+            },
+            "meat": {
+              "avg": true,
+              "detected": true,
+              "k": 5,
+              "max": true,
+              "min": true,
+              "printed_k": 5
+            },
+            "pie": {
+              "avg": true,
+              "detected": true,
+              "k": 0,
+              "max": true,
+              "min": true,
+              "printed_k": 0
+            },
+            "veg": {
+              "avg": true,
+              "detected": true,
+              "k": 1,
+              "max": true,
+              "min": true,
+              "printed_k": 1
+            }
+          }
+        },
+        "totals": {
+          "badge": 17,
+          "bpf": 2,
+          "bps": 7
+        }
+      },
+      "text": "Tables 3-5 reproduce: 17 BADGE, 2 BPF and 7 BPS positives in the printed product rows, every printed min, max and average matching"
+    },
+    {
+      "graded": true,
+      "id": "C4",
+      "kind": "prediction",
+      "met": false,
+      "observed": {
+        "checks": {
+          "badge_imported_14": true,
+          "badge_with_bpa_8": true,
+          "bpa_fruit_pie_all_imported": true,
+          "bps_meat_all_with_bpa": false,
+          "fish_badge_second_51": true,
+          "with_bpa_all_imported_meat_or_fish": false
+        },
+        "observed": {
+          "badge_imported": 14,
+          "badge_k": 17,
+          "badge_with_bpa": [
+            {
+              "function": "Import",
+              "origin": "UNITED STATES",
+              "ppb": {
+                "badge": 6.49,
+                "bpa": 35.9,
+                "bpf": 0.0,
+                "bps": 0.0
+              },
+              "product": "Meat - Canned",
+              "sample": "C2020BPHA00064",
+              "type": "meat"
+            },
+            {
+              "function": "Domestic",
+              "origin": "CANADA",
+              "ppb": {
+                "badge": 16.9,
+                "bpa": 8.05,
+                "bpf": 0.0,
+                "bps": 0.0
+              },
+              "product": "Meat - Canned",
+              "sample": "C2020BPHA00133",
+              "type": "meat"
+            },
+            {
+              "function": "Import",
+              "origin": "INDONESIA",
+              "ppb": {
+                "badge": 5.62,
+                "bpa": 15.6,
+                "bpf": 0.0,
+                "bps": 0.0
+              },
+              "product": "Fish/Seafood - Canned",
+              "sample": "C2020BPHA00148",
+              "type": "fish"
+            },
+            {
+              "function": "Import",
+              "origin": "EL SALVADOR",
+              "ppb": {
+                "badge": 3.61,
+                "bpa": 49.4,
+                "bpf": 0.0,
+                "bps": 0.0
+              },
+              "product": "Fish/Seafood - Canned",
+              "sample": "C2020BPHA00150",
+              "type": "fish"
+            },
+            {
+              "function": "Import",
+              "origin": "UNITED STATES",
+              "ppb": {
+                "badge": 16.4,
+                "bpa": 66.4,
+                "bpf": 0.0,
+                "bps": 0.0
+              },
+              "product": "Meat - Canned",
+              "sample": "C2020BPHA00180",
+              "type": "meat"
+            },
+            {
+              "function": "Unknown",
+              "origin": "CANADA",
+              "ppb": {
+                "badge": 7.81,
+                "bpa": 12.4,
+                "bpf": 0.0,
+                "bps": 0.0
+              },
+              "product": "Meat - Canned",
+              "sample": "C2020BPHA00314",
+              "type": "meat"
+            },
+            {
+              "function": "Import",
+              "origin": "THAILAND",
+              "ppb": {
+                "badge": 1580.0,
+                "bpa": 395.0,
+                "bpf": 0.0,
+                "bps": 0.0
+              },
+              "product": "Fish/Seafood - Canned",
+              "sample": "C2020BPHA00323",
+              "type": "fish"
+            },
+            {
+              "function": "Import",
+              "origin": "CHINA",
+              "ppb": {
+                "badge": 51.0,
+                "bpa": 115.0,
+                "bpf": 0.0,
+                "bps": 0.0
+              },
+              "product": "Fish/Seafood - Canned",
+              "sample": "C2020BPHA00328",
+              "type": "fish"
+            }
+          ],
+          "bpa_fruit_pie_functions": [
+            "Import"
+          ],
+          "bpa_fruit_pie_k": 31,
+          "bps_meat": [
+            {
+              "function": "Import",
+              "origin": "AUSTRALIA",
+              "ppb": {
+                "badge": 0.0,
+                "bpa": 82.0,
+                "bpf": 0.0,
+                "bps": 191.0
+              },
+              "product": "Meat - Canned",
+              "sample": "C2020BPHA00026",
+              "type": "meat"
+            },
+            {
+              "function": "Import",
+              "origin": "FRANCE",
+              "ppb": {
+                "badge": 0.0,
+                "bpa": 13.9,
+                "bpf": 0.0,
+                "bps": 16.1
+              },
+              "product": "Meat - Canned",
+              "sample": "C2020BPHA00125",
+              "type": "meat"
+            },
+            {
+              "function": "Import",
+              "origin": "BRAZIL",
+              "ppb": {
+                "badge": 0.0,
+                "bpa": 0.0,
+                "bpf": 0.0,
+                "bps": 0.96
+              },
+              "product": "Meat - Canned",
+              "sample": "C2020BPHA00130",
+              "type": "meat"
+            },
+            {
+              "function": "Import",
+              "origin": "NEW ZEALAND",
+              "ppb": {
+                "badge": 0.0,
+                "bpa": 332.0,
+                "bpf": 0.0,
+                "bps": 20.8
+              },
+              "product": "Meat - Canned",
+              "sample": "C2020BPHA00134",
+              "type": "meat"
+            },
+            {
+              "function": "Import",
+              "origin": "NEW ZEALAND",
+              "ppb": {
+                "badge": 0.0,
+                "bpa": 479.0,
+                "bpf": 0.0,
+                "bps": 31.6
+              },
+              "product": "Meat - Canned",
+              "sample": "C2020BPHA00319",
+              "type": "meat"
+            }
+          ],
+          "fish_badge_desc": [
+            1580.0,
+            51.0,
+            9.0,
+            5.62,
+            3.61
+          ]
+        }
+      },
+      "text": "the co-occurrence text: 8 of 17 BADGE positives have BPA and all 8 are imported meat or fish; 14 of 17 BADGE positives are imported; every BPS-positive meat has BPA; the second-highest fish BADGE value is 51; every BPA-positive fruit or pie filling is imported"
+    }
+  ],
+  "provenance": {
+    "bpa-2018": {
+      "bytes": 289825,
+      "dataset": "b8686c21-a8ef-4037-8478-353ed45a0145",
+      "encoding": "cp1252",
+      "md5": "5cf4d04c1e4db3825dc51cfe09ea6415",
+      "md5_matches_portal": true,
+      "portal_md5": "5cf4d04c1e4db3825dc51cfe09ea6415",
+      "resource": "7a20917c-8aa9-4af6-8ce4-13620ef3af59",
+      "sha256": "446169ddc0d1319032016853bfe1d83d4fb1c2129a305f75de9ae8d2447a60d8",
+      "source": "https://open.canada.ca/data/dataset/b8686c21-a8ef-4037-8478-353ed45a0145/resource/7a20917c-8aa9-4af6-8ce4-13620ef3af59/download/cfia_acia-15084827-v1-chem-ts_2018-19_bpa-and-bpa-alternatives-in-selected-foods_data-for-open-d.csv"
+    },
+    "bpa-2020": {
+      "bytes": 285553,
+      "dataset": "5b36b36d-4f8b-4b0c-b407-42b8076b3730",
+      "encoding": "cp1252",
+      "md5": "31a4ca35a9f46e0d59cc637314c744a9",
+      "md5_matches_portal": true,
+      "portal_md5": "31a4ca35a9f46e0d59cc637314c744a9",
+      "resource": "df188f89-3dba-4650-bfbb-e4c46f89d21a",
+      "sha256": "bf9d76bdf840a5578b7b69eeb6056cb0f65b522af6a2cec6f80874bfc5eb7dd1",
+      "source": "https://open.canada.ca/data/dataset/5b36b36d-4f8b-4b0c-b407-42b8076b3730/resource/df188f89-3dba-4650-bfbb-e4c46f89d21a/download/cfia_acia-1351-v1-open_data_for_chem_ts_survey_-_2020-21_-_bisphenol_a_and_bpa_alternatives_in_s.csv"
+    }
+  },
+  "study": "bpa-pah-report",
+  "version": "0.1.0"
+}

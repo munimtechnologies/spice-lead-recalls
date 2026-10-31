@@ -17,6 +17,10 @@ below follows the same order of work:
 
 Failed predictions are reported as failed.
 
+**The pattern so far.** Totals in the open files match the printed totals far more often than
+splits do. Where a report and its file disagree, the file usually matches the report's detailed
+tables, and the summary or a later table is off.
+
 ## Children's Food Project (aflatoxin M1, lead)
 
 - [Overview](childrens-food-project.md)
@@ -50,7 +54,14 @@ Failed predictions are reported as failed.
   [census note](bpa-pah-report-0.1.0-census.md) and
   [grader note](bpa-pah-report-0.1.0-grader.md). B1 failed: the 2018-19 file holds 377 samples,
   not the summary's 381. C1 held (2020-21: 402 samples, all 15 origin cells). D1 held (2019-20 PAH
-  file: 296 samples, 34 / 114 / 148). The value grades are pending.
+  file: 296 samples, 34 / 114 / 148).
+- [Bisphenol result](bpa-2018-2020-0.1.0-result.md). 4 of 8 held. Both files reproduce their
+  Table 2 in full, and 2020-21 also reproduces Tables 3-5. The 2018-19 report's 381 samples, 43%,
+  and Table 3's 138 formulas (maximum 5.89, average 1.65) and 96 sauces need exactly four samples
+  the open file lacks: three formulas, one of them BPA-positive at 5.89, and one sauce with no
+  BPA. Two 2020-21 sentences do not match the file: two of the eight BADGE-and-BPA samples are
+  Canadian meats, and one of the five BPS-positive corned beefs has no BPA.
+- [PAH 2019-20 grader note](pah-2019-0.1.0-grader.md) (D2-D5). The value grade is pending.
 
 ## Bisphenol A, nine years: 2009-10 to 2017-18
 
