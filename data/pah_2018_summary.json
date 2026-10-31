@@ -1,0 +1,804 @@
+{
+  "analysis": {
+    "all_pct_matches": true,
+    "any_pah": {
+      "baked": 138,
+      "oils": 75,
+      "veg": 62
+    },
+    "baked_ge": [
+      {
+        "product": "Bakery Product - Cookie",
+        "sample": "C2018PAHS00118",
+        "teq": 1.684749
+      }
+    ],
+    "bap": {
+      "baked": {
+        "k": 11,
+        "max": 1.6286,
+        "mean": 0.5433090909090909,
+        "min": 0.23,
+        "n": 142,
+        "pct": 7.746478873239437
+      },
+      "oils": {
+        "k": 17,
+        "max": 2.1665,
+        "mean": 0.6791588235294118,
+        "min": 0.3044,
+        "n": 78,
+        "pct": 21.794871794871796
+      },
+      "veg": {
+        "k": 23,
+        "max": 7.17,
+        "mean": 1.1295391304347826,
+        "min": 0.3373,
+        "n": 67,
+        "pct": 34.32835820895522
+      }
+    },
+    "figure": {
+      "canola": {
+        "full": true,
+        "matched": 2,
+        "n_file": 2,
+        "n_printed": 2
+      },
+      "corn": {
+        "full": true,
+        "matched": 8,
+        "n_file": 8,
+        "n_printed": 8
+      },
+      "olive": {
+        "full": true,
+        "matched": 9,
+        "n_file": 9,
+        "n_printed": 9
+      },
+      "other": {
+        "full": true,
+        "matched": 8,
+        "n_file": 8,
+        "n_printed": 8
+      },
+      "palm": {
+        "full": true,
+        "matched": 6,
+        "n_file": 6,
+        "n_printed": 6
+      },
+      "peanut": {
+        "full": true,
+        "matched": 9,
+        "n_file": 9,
+        "n_printed": 9
+      },
+      "soybean": {
+        "full": false,
+        "matched": 1,
+        "n_file": 6,
+        "n_printed": 7
+      },
+      "sunflower": {
+        "full": true,
+        "matched": 7,
+        "n_file": 7,
+        "n_printed": 7
+      }
+    },
+    "figure_values": {
+      "canola": [
+        0.0023,
+        0.033759000000000004
+      ],
+      "corn": [
+        0.002024,
+        0.002182,
+        0.03195,
+        0.032658,
+        0.03464300000000001,
+        0.045364,
+        0.3192,
+        0.406165
+      ],
+      "olive": [
+        0.004196,
+        0.007503,
+        0.0075580000000000005,
+        0.007691,
+        0.015780000000000002,
+        0.039436,
+        0.047001,
+        0.056015,
+        0.377378
+      ],
+      "other": [
+        0.002667,
+        0.0032500000000000003,
+        0.034017,
+        0.051609,
+        0.146624,
+        0.15509,
+        0.3548,
+        1.882423
+      ],
+      "palm": [
+        0.04904,
+        0.050362000000000004,
+        0.10816100000000001,
+        0.18530100000000002,
+        0.441651,
+        0.7110759999999999
+      ],
+      "peanut": [
+        0.4505,
+        0.466762,
+        0.53933,
+        0.543899,
+        0.6835880000000001,
+        0.751593,
+        0.910249,
+        1.749141,
+        2.4083040000000002
+      ],
+      "soybean": [
+        0.004190999999999999,
+        0.036498,
+        0.04284,
+        0.045195000000000006,
+        0.045246,
+        0.059183
+      ],
+      "sunflower": [
+        0.002349,
+        0.0385,
+        0.040621000000000004,
+        0.053368000000000006,
+        0.059183,
+        0.074653,
+        0.459065
+      ]
+    },
+    "groups": {
+      "all": {
+        "k": 133,
+        "max": 9.165,
+        "mean": 0.40947349624060153,
+        "min": 0.0011200000000000001,
+        "n": 287,
+        "pct": 46.34146341463415
+      },
+      "baked": {
+        "k": 51,
+        "max": 1.684749,
+        "mean": 0.15502707843137256,
+        "min": 0.0011200000000000001,
+        "n": 142,
+        "pct": 35.91549295774648
+      },
+      "oils": {
+        "k": 55,
+        "max": 2.4083040000000002,
+        "mean": 0.2747842181818182,
+        "min": 0.002024,
+        "n": 78,
+        "pct": 70.51282051282051
+      },
+      "veg": {
+        "k": 27,
+        "max": 9.165,
+        "mean": 1.1644615555555555,
+        "min": 0.0044,
+        "n": 67,
+        "pct": 40.298507462686565
+      }
+    },
+    "labels": {
+      "Baked Goods": 1,
+      "Bakery Product - Cookie": 71,
+      "Crackers": 70,
+      "Mixed Vegetable (roasted)": 3,
+      "Oil - Canola": 11,
+      "Oil - Coconut": 3,
+      "Oil - Corn": 10,
+      "Oil - Grapeseed": 2,
+      "Oil - Olive": 9,
+      "Oil - Other": 4,
+      "Oil - Palm": 9,
+      "Oil - Peanut": 10,
+      "Oil - Soybean": 10,
+      "Oil - Sunflower": 10,
+      "Pepper (roasted)": 59,
+      "Tomato (roasted)": 5
+    },
+    "n": 287,
+    "oil_rank": {
+      "highest_max": "peanut",
+      "highest_mean": "peanut",
+      "lowest_max": "canola",
+      "lowest_mean": "canola",
+      "lowest_pct": "canola"
+    },
+    "oil_types": {
+      "canola": {
+        "k": 2,
+        "max": 0.033759000000000004,
+        "mean": 0.018029500000000004,
+        "min": 0.0023,
+        "n": 11,
+        "pct": 18.181818181818183
+      },
+      "corn": {
+        "k": 8,
+        "max": 0.406165,
+        "mean": 0.10927325,
+        "min": 0.002024,
+        "n": 10,
+        "pct": 80.0
+      },
+      "olive": {
+        "k": 9,
+        "max": 0.377378,
+        "mean": 0.06250644444444445,
+        "min": 0.004196,
+        "n": 9,
+        "pct": 100.0
+      },
+      "other": {
+        "k": 8,
+        "max": 1.882423,
+        "mean": 0.32881,
+        "min": 0.002667,
+        "n": 9,
+        "pct": 88.88888888888889
+      },
+      "palm": {
+        "k": 6,
+        "max": 0.7110759999999999,
+        "mean": 0.2575985,
+        "min": 0.04904,
+        "n": 9,
+        "pct": 66.66666666666667
+      },
+      "peanut": {
+        "k": 9,
+        "max": 2.4083040000000002,
+        "mean": 0.9448184444444444,
+        "min": 0.4505,
+        "n": 10,
+        "pct": 90.0
+      },
+      "soybean": {
+        "k": 6,
+        "max": 0.059183,
+        "mean": 0.038858833333333336,
+        "min": 0.004190999999999999,
+        "n": 10,
+        "pct": 60.0
+      },
+      "sunflower": {
+        "k": 7,
+        "max": 0.459065,
+        "mean": 0.10396271428571428,
+        "min": 0.002349,
+        "n": 10,
+        "pct": 70.0
+      }
+    },
+    "origins": {
+      "baked": [
+        18,
+        41,
+        83,
+        142
+      ],
+      "oils": [
+        9,
+        58,
+        11,
+        78
+      ],
+      "veg": [
+        1,
+        65,
+        1,
+        67
+      ]
+    },
+    "origins_by_label": {
+      "Baked Goods": [
+        0,
+        1,
+        0,
+        1
+      ],
+      "Bakery Product - Cookie": [
+        8,
+        12,
+        51,
+        71
+      ],
+      "Crackers": [
+        10,
+        28,
+        32,
+        70
+      ],
+      "Mixed Vegetable (roasted)": [
+        0,
+        3,
+        0,
+        3
+      ],
+      "Oil - Canola": [
+        7,
+        3,
+        1,
+        11
+      ],
+      "Oil - Coconut": [
+        2,
+        1,
+        0,
+        3
+      ],
+      "Oil - Corn": [
+        0,
+        10,
+        0,
+        10
+      ],
+      "Oil - Grapeseed": [
+        0,
+        1,
+        1,
+        2
+      ],
+      "Oil - Olive": [
+        0,
+        5,
+        4,
+        9
+      ],
+      "Oil - Other": [
+        0,
+        3,
+        1,
+        4
+      ],
+      "Oil - Palm": [
+        0,
+        7,
+        2,
+        9
+      ],
+      "Oil - Peanut": [
+        0,
+        10,
+        0,
+        10
+      ],
+      "Oil - Soybean": [
+        0,
+        10,
+        0,
+        10
+      ],
+      "Oil - Sunflower": [
+        0,
+        8,
+        2,
+        10
+      ],
+      "Pepper (roasted)": [
+        1,
+        57,
+        1,
+        59
+      ],
+      "Tomato (roasted)": [
+        0,
+        5,
+        0,
+        5
+      ]
+    },
+    "printed_internal": {
+      "canola_mean": 0.018029499999999997,
+      "figure_mean": 0.27870925,
+      "figure_mean_matches_table2": false,
+      "figure_positives": 56,
+      "figure_sum": 15.607718,
+      "peanut_mean": 0.9448184444444444,
+      "soybean_list_equals_sunflower_list": true,
+      "sunflower_sum_bounds_if_6": [
+        -0.30497899999999944,
+        0.24502100000000127
+      ],
+      "table2_detected_sum": 133,
+      "table2_oils_detected": 55,
+      "table2_weighted_mean": 0.40849624060150375
+    },
+    "sunflower_vs_own_file": {
+      "soybean_file_values": [
+        0.004190999999999999,
+        0.036498,
+        0.04284,
+        0.045195000000000006,
+        0.045246,
+        0.059183
+      ],
+      "sunflower_file_values": [
+        0.002349,
+        0.0385,
+        0.040621000000000004,
+        0.053368000000000006,
+        0.059183,
+        0.074653,
+        0.459065
+      ]
+    },
+    "table2": {
+      "all": {
+        "avg": true,
+        "detected": true,
+        "max": true,
+        "min": true,
+        "n": true
+      },
+      "baked": {
+        "avg": true,
+        "detected": true,
+        "max": true,
+        "min": true,
+        "n": true
+      },
+      "oils": {
+        "avg": true,
+        "detected": true,
+        "max": true,
+        "min": true,
+        "n": true
+      },
+      "veg": {
+        "avg": true,
+        "detected": true,
+        "max": true,
+        "min": true,
+        "n": true
+      }
+    },
+    "veg_top": [
+      {
+        "product": "Pepper (roasted)",
+        "sample": "C2018PAHS00061",
+        "teq": 9.165
+      },
+      {
+        "product": "Pepper (roasted)",
+        "sample": "C2018PAHS00013",
+        "teq": 2.679602
+      }
+    ]
+  },
+  "census": {
+    "bad_shapes": [],
+    "columns": {
+      "component": 13,
+      "function": 4,
+      "origin": 6,
+      "plan": 17,
+      "product": 8,
+      "region": 1,
+      "sample": 0,
+      "unit": 16,
+      "value": 15
+    },
+    "components": {
+      "Acenaphthene": 287,
+      "Acenaphthylene": 287,
+      "Anthracene": 287,
+      "Benzo[a]anthracene": 287,
+      "Benzo[a]pyrene": 287,
+      "Benzo[b]fluoranthene": 287,
+      "Benzo[g,h,i]perylene": 287,
+      "Benzo[k]fluoranthene": 287,
+      "Chrysene": 287,
+      "Dibenzo(a,h)anthracene": 287,
+      "Fluoranthene": 287,
+      "Fluorene": 287,
+      "Indeno(1,2,3-cd)pyrene": 287,
+      "Naphthalene": 287,
+      "Phenanthrene": 287,
+      "Pyrene": 287
+    },
+    "ids_bad": [],
+    "kinds": {
+      "det": 1753,
+      "nd": 2839
+    },
+    "missing": {},
+    "plans": {
+      "2018_TS024": 4592
+    },
+    "products": {
+      "Baked Goods": 1,
+      "Bakery Product - Cookie": 71,
+      "Crackers": 70,
+      "Mixed Vegetable (roasted)": 3,
+      "Oil - Canola": 11,
+      "Oil - Coconut": 3,
+      "Oil - Corn": 10,
+      "Oil - Grapeseed": 2,
+      "Oil - Olive": 9,
+      "Oil - Other": 4,
+      "Oil - Palm": 9,
+      "Oil - Peanut": 10,
+      "Oil - Soybean": 10,
+      "Oil - Sunflower": 10,
+      "Pepper (roasted)": 59,
+      "Tomato (roasted)": 5
+    },
+    "repeated": {},
+    "rows": 4592,
+    "rows_per_sample": {
+      "16": 287
+    },
+    "samples": 287,
+    "units": {
+      "ng/g": 4592
+    },
+    "unknown_components": 0
+  },
+  "n_graded": 7,
+  "n_met": 6,
+  "predictions": [
+    {
+      "graded": true,
+      "id": "G",
+      "kind": "gate",
+      "met": true,
+      "observed": {
+        "columns": true,
+        "components": true,
+        "per_sample": true,
+        "plan": true,
+        "products": true,
+        "rows": true,
+        "samples": true,
+        "size": true,
+        "units": true,
+        "values": true
+      },
+      "text": "byte size as on the portal record; columns; 4,592 rows; 287 samples, each with one row per the 16 PAHs; unit ng/g and plan 2018_TS024 on every row; the 16 known product labels; every value a number >= 0, a '<' or a not-detected token"
+    },
+    {
+      "graded": true,
+      "id": "P1",
+      "kind": "prediction",
+      "met": true,
+      "observed": {
+        "figure": {
+          "canola": {
+            "full": true,
+            "matched": 2,
+            "n_file": 2,
+            "n_printed": 2
+          },
+          "corn": {
+            "full": true,
+            "matched": 8,
+            "n_file": 8,
+            "n_printed": 8
+          },
+          "olive": {
+            "full": true,
+            "matched": 9,
+            "n_file": 9,
+            "n_printed": 9
+          },
+          "other": {
+            "full": true,
+            "matched": 8,
+            "n_file": 8,
+            "n_printed": 8
+          },
+          "palm": {
+            "full": true,
+            "matched": 6,
+            "n_file": 6,
+            "n_printed": 6
+          },
+          "peanut": {
+            "full": true,
+            "matched": 9,
+            "n_file": 9,
+            "n_printed": 9
+          },
+          "soybean": {
+            "full": false,
+            "matched": 1,
+            "n_file": 6,
+            "n_printed": 7
+          }
+        },
+        "full": 6
+      },
+      "text": "Figure 1 reproduces for the seven oil types other than sunflower: at least 6 of the 7 lists match in full (same number of detected samples, each value at its printed precision)"
+    },
+    {
+      "graded": true,
+      "id": "P2",
+      "kind": "prediction",
+      "met": false,
+      "observed": {
+        "oils_detected": 55,
+        "sunflower": {
+          "full": true,
+          "matched": 7,
+          "n_file": 7,
+          "n_printed": 7
+        },
+        "values": [
+          0.002349,
+          0.0385,
+          0.040621000000000004,
+          0.053368000000000006,
+          0.059183,
+          0.074653,
+          0.459065
+        ]
+      },
+      "text": "sunflower: the file has exactly 6 detected sunflower oils, at most 1 of the 7 printed sunflower values (a copy of the soybean list) is matched, and 55 oils are detected in all"
+    },
+    {
+      "graded": true,
+      "id": "P3",
+      "kind": "prediction",
+      "met": true,
+      "observed": {
+        "cells": {
+          "baked": {
+            "avg": true,
+            "detected": true,
+            "max": true,
+            "min": true,
+            "n": true
+          },
+          "veg": {
+            "avg": true,
+            "detected": true,
+            "max": true,
+            "min": true,
+            "n": true
+          }
+        },
+        "matched": 8
+      },
+      "text": "Table 2, baked goods and roasted vegetable products: at least 7 of the 8 cells (detected, minimum, maximum, average) match"
+    },
+    {
+      "graded": true,
+      "id": "P4",
+      "kind": "prediction",
+      "met": true,
+      "observed": {
+        "cells": {
+          "avg": true,
+          "detected": true,
+          "max": true,
+          "min": true,
+          "n": true
+        },
+        "stats": {
+          "k": 55,
+          "max": 2.4083040000000002,
+          "mean": 0.2747842181818182,
+          "min": 0.002024,
+          "n": 78,
+          "pct": 70.51282051282051
+        }
+      },
+      "text": "Table 2, oils: detected 55, minimum 0.002, maximum 2.41 and average 0.27 all match (the Figure 1 lists as printed would average 0.28)"
+    },
+    {
+      "graded": true,
+      "id": "P5",
+      "kind": "prediction",
+      "met": true,
+      "observed": {
+        "cells": {
+          "avg": true,
+          "detected": true,
+          "max": true,
+          "min": true,
+          "n": true
+        },
+        "pct": true,
+        "stats": {
+          "k": 133,
+          "max": 9.165,
+          "mean": 0.40947349624060153,
+          "min": 0.0011200000000000001,
+          "n": 287,
+          "pct": 46.34146341463415
+        }
+      },
+      "text": "Table 2, grand total: 133 detected (46%), minimum 0.001, maximum 9.17 and average 0.41 all match"
+    },
+    {
+      "graded": true,
+      "id": "P6",
+      "kind": "prediction",
+      "met": true,
+      "observed": {
+        "baked_ge_0.8": [
+          {
+            "product": "Bakery Product - Cookie",
+            "sample": "C2018PAHS00118",
+            "teq": 1.684749
+          }
+        ],
+        "canola": {
+          "k": 2,
+          "max": 0.033759000000000004,
+          "mean": 0.018029500000000004,
+          "min": 0.0023,
+          "n": 11,
+          "pct": 18.181818181818183
+        },
+        "checks": {
+          "canola_lowest": true,
+          "one_baked_high": true,
+          "peanut_highest_max": true,
+          "peanut_highest_mean": true,
+          "veg_top_pepper": true
+        },
+        "peanut": {
+          "k": 9,
+          "max": 2.4083040000000002,
+          "mean": 0.9448184444444444,
+          "min": 0.4505,
+          "n": 10,
+          "pct": 90.0
+        },
+        "rank": {
+          "highest_max": "peanut",
+          "highest_mean": "peanut",
+          "lowest_max": "canola",
+          "lowest_mean": "canola",
+          "lowest_pct": "canola"
+        },
+        "veg_top": [
+          {
+            "product": "Pepper (roasted)",
+            "sample": "C2018PAHS00061",
+            "teq": 9.165
+          },
+          {
+            "product": "Pepper (roasted)",
+            "sample": "C2018PAHS00013",
+            "teq": 2.679602
+          }
+        ]
+      },
+      "text": "the text: peanut oil has the highest average (0.94) and maximum (2.41) of the eight oil types; canola has 2 detected of 11, the lowest rate, average (0.02) and maximum (0.03); the survey maximum 9.17 is a roasted pepper and every other roasted vegetable is below 2.7; exactly one baked good is at 0.8 or more, at 1.68"
+    }
+  ],
+  "provenance": {
+    "bytes": 850814,
+    "dataset": "ec5807a2-4b96-48d9-8a8c-1f8f92ca63ad",
+    "encoding": "cp1252",
+    "md5": "d36ce2a19e82ec0af7aabbe5dc3a1f36",
+    "md5_matches_portal": true,
+    "portal_md5": "d36ce2a19e82ec0af7aabbe5dc3a1f36",
+    "resource": "b39b6b72-a692-4834-b4b8-64de6ce5ed99",
+    "sha256": "9b93f73381eccfd00fad91f2c8a64ff3c05a3da9651c775047314be6e1a1650e",
+    "source": "data-volume"
+  },
+  "study": "pah-2018",
+  "version": "0.1.0"
+}
