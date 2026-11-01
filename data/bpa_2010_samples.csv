@@ -1,0 +1,235 @@
+sample,product,type,function,origin,region,date,bpa_ppb
+2010BPA0001,Cereal - Other,other,Domestic,CANADA,ATLANTIC,15-Jan-11,0.0
+2010BPA0002,Infant Formula - Dairy,formula,Import,UNITED STATES,ATLANTIC,01-Mar-11,0.0
+2010BPA0004,Infant Formula - Dairy,formula,Import,UNITED STATES,ATLANTIC,06-Nov-10,0.0
+2010BPA0005,Infant Formula - Dairy,formula,Import,UNITED STATES,ATLANTIC,06-Nov-10,0.0
+2010BPA0006,Infant Formula - Dairy,formula,Import,UNKNOWN,ATLANTIC,29-Oct-10,0.0
+2010BPA0007,Peach,fruit,Unknown,UNKNOWN,ATLANTIC,20-Dec-10,0.0
+2010BPA0008,Infant Formula - Dairy,formula,Import,SWITZERLAND,ATLANTIC,02-Feb-11,0.0
+2010BPA0009,Pear,fruit,Import,UNITED STATES,ATLANTIC,02-Feb-11,0.0
+2010BPA0010,Infant Formula - Dairy,formula,Import,UNKNOWN,ATLANTIC,10-Jan-11,0.0
+2010BPA0011,Peach,fruit,Import,CHINA,ATLANTIC,10-Jan-11,0.0
+2010BPA0012,Infant Formula - Dairy,formula,Import,UNITED STATES,ATLANTIC,10-Mar-11,0.0
+2010BPA0013,Pear,fruit,Import,SOUTH AFRICA,ATLANTIC,18-Oct-10,0.0
+2010BPA0014,Juice - Apple,juice,Domestic,CANADA,ATLANTIC,24-Jan-11,0.0
+2010BPA0015,Pineapple,fruit,Import,THAILAND,ATLANTIC,24-Jan-11,0.0
+2010BPA0016,Infant Formula - Soy,formula,Import,UNITED STATES,ONTARIO,26-Nov-10,0.0
+2010BPA0017,Infant Formula - Dairy,formula,Import,UNITED STATES,ONTARIO,07-Dec-10,0.0
+2010BPA0018,Infant Formula - Dairy,formula,Import,UNITED STATES,ONTARIO,07-Dec-10,0.0
+2010BPA0019,Infant Formula - Dairy,formula,Import,UNITED STATES,ONTARIO,07-Dec-10,0.0
+2010BPA0020,Infant Formula - Dairy,formula,Import,SWITZERLAND,ONTARIO,07-Dec-10,0.0
+2010BPA0021,Juice - Apple,juice,Import,UNITED STATES,ONTARIO,02-Dec-10,0.0
+2010BPA0022,Mixed Fruit,fruit,Import,SOUTH AFRICA,ONTARIO,02-Dec-10,0.0
+2010BPA0023,Infant Formula - Dairy,formula,Import,SWITZERLAND,ONTARIO,03-Feb-11,0.0
+2010BPA0024,Infant Formula - Dairy,formula,Import,UNITED STATES,ONTARIO,03-Feb-11,0.0
+2010BPA0025,Infant Formula - Dairy,formula,Import,UNITED STATES,ONTARIO,03-Feb-11,0.0
+2010BPA0026,Infant Formula - Dairy,formula,Import,UNITED STATES,ONTARIO,03-Feb-11,0.0
+2010BPA0027,Infant Formula - Dairy,formula,Domestic,CANADA,ONTARIO,03-Feb-11,0.0
+2010BPA0028,Pear,fruit,Import,SOUTH AFRICA,ONTARIO,09-Feb-11,0.0
+2010BPA0029,Mixed Fruit,fruit,Import,UNKNOWN,ONTARIO,09-Feb-11,0.0
+2010BPA0030,Infant Formula - Dairy,formula,Import,UNITED STATES,ONTARIO,05-Jan-11,0.0
+2010BPA0031,Infant Formula - Dairy,formula,Import,UNITED STATES,ONTARIO,05-Jan-11,0.0
+2010BPA0032,Infant Formula - Dairy,formula,Import,SWITZERLAND,ONTARIO,05-Jan-11,0.0
+2010BPA0033,Peach,fruit,Import,CHINA,ONTARIO,05-Jan-11,0.0
+2010BPA0034,Peach,fruit,Import,CHINA,ONTARIO,05-Jan-11,0.0
+2010BPA0035,Infant Formula - Dairy,formula,Import,UNITED STATES,ONTARIO,24-Feb-11,0.0
+2010BPA0036,Infant Formula - Dairy,formula,Import,UNITED STATES,ONTARIO,24-Feb-11,0.0
+2010BPA0037,Infant Formula - Dairy,formula,Import,SWITZERLAND,ONTARIO,24-Feb-11,0.0
+2010BPA0038,Juice - Apple,juice,Import,UNITED STATES,ONTARIO,24-Feb-11,0.0
+2010BPA0039,Infant Formula - Dairy,formula,Import,UNITED STATES,ONTARIO,26-Nov-10,0.0
+2010BPA0040,Infant Formula - Dairy,formula,Import,UNITED STATES,ONTARIO,25-Nov-10,0.0
+2010BPA0041,Infant Formula - Dairy,formula,Import,UNITED STATES,ONTARIO,25-Nov-10,0.0
+2010BPA0043,Peach,fruit,Import,SOUTH AFRICA,ONTARIO,01-Nov-10,0.0
+2010BPA0044,Pear,fruit,Import,SOUTH AFRICA,ONTARIO,02-Nov-10,0.0
+2010BPA0045,Infant Formula - Dairy,formula,Import,UNITED STATES,ONTARIO,12-Oct-10,0.0
+2010BPA0046,Mixed Fruit,fruit,Import,SOUTH AFRICA,ONTARIO,12-Oct-10,0.0
+2010BPA0047,Pineapple,fruit,Import,THAILAND,ONTARIO,12-Oct-10,0.0
+2010BPA0048,Mixed Fruit,fruit,Import,CHINA,ONTARIO,12-Oct-10,0.0
+2010BPA0049,Infant Formula - Dairy,formula,Import,SWITZERLAND,ONTARIO,16-Dec-10,0.0
+2010BPA0050,Infant Formula - Dairy,formula,Import,SWITZERLAND,ONTARIO,16-Dec-10,0.0
+2010BPA0051,Infant Formula - Dairy,formula,Import,UNITED STATES,ONTARIO,16-Dec-10,0.0
+2010BPA0052,Infant Formula - Dairy,formula,Import,UNITED STATES,ONTARIO,16-Dec-10,0.0
+2010BPA0053,Infant Formula - Dairy,formula,Import,UNITED STATES,ONTARIO,16-Dec-10,0.0
+2010BPA0054,Infant Formula - Dairy,formula,Import,UNITED STATES,ONTARIO,16-Dec-10,0.0
+2010BPA0055,Mixed Fruit,fruit,Import,CHINA,ONTARIO,17-Nov-10,0.0
+2010BPA0056,Pear,fruit,Import,CHINA,ONTARIO,17-Nov-10,0.0
+2010BPA0057,Peach,fruit,Import,CHINA,ONTARIO,17-Nov-10,0.0
+2010BPA0058,Pear,fruit,Import,SOUTH AFRICA,ONTARIO,17-Nov-10,0.0
+2010BPA0059,Pineapple,fruit,Import,THAILAND,ONTARIO,17-Nov-10,0.0
+2010BPA0060,Pineapple,fruit,Import,THAILAND,ONTARIO,17-Nov-10,0.0
+2010BPA0061,Infant Formula - Dairy,formula,Import,SWITZERLAND,ONTARIO,12-Dec-10,0.0
+2010BPA0062,Infant Formula - Dairy,formula,Import,UNITED STATES,ONTARIO,12-Dec-10,0.0
+2010BPA0063,Infant Formula - Dairy,formula,Import,UNITED STATES,ONTARIO,12-Dec-10,0.0
+2010BPA0064,Infant Formula - Dairy,formula,Import,UNITED STATES,ONTARIO,12-Dec-10,0.0
+2010BPA0065,Infant Formula - Dairy,formula,Import,UNITED STATES,ONTARIO,12-Dec-10,0.0
+2010BPA0066,Infant Formula - Dairy,formula,Import,SWITZERLAND,ONTARIO,12-Dec-10,0.0
+2010BPA0067,Juice - Apple,juice,Domestic,CANADA,ONTARIO,12-Dec-10,0.0
+2010BPA0068,Peach,fruit,Import,UNITED STATES,ONTARIO,12-Dec-10,0.0
+2010BPA0069,Peach,fruit,Domestic,CANADA,ONTARIO,12-Dec-10,0.0
+2010BPA0070,Infant Formula - Dairy,formula,Domestic,CANADA,ONTARIO,10-Feb-11,0.0
+2010BPA0071,Juice - Apple,juice,Domestic,CANADA,ONTARIO,10-Feb-11,0.0
+2010BPA0072,Infant Formula - Dairy,formula,Import,SWITZERLAND,ONTARIO,10-Feb-11,0.0
+2010BPA0073,Mixed Fruit,fruit,Import,CHINA,ONTARIO,10-Feb-11,0.0
+2010BPA0074,Pear,fruit,Import,UNITED STATES,ONTARIO,10-Feb-11,0.0
+2010BPA0075,Mixed Fruit,fruit,Import,UNITED STATES,ONTARIO,10-Feb-11,0.0
+2010BPA0076,Infant Formula - Dairy,formula,Import,UNITED STATES,ONTARIO,27-Jan-11,0.0
+2010BPA0077,Infant Formula - Dairy,formula,Import,UNKNOWN,ONTARIO,27-Jan-11,0.0
+2010BPA0078,Infant Formula - Dairy,formula,Import,UNITED STATES,ONTARIO,27-Jan-11,0.0
+2010BPA0079,Infant Formula - Dairy,formula,Domestic,CANADA,ONTARIO,27-Jan-11,0.0
+2010BPA0080,Infant Formula - Dairy,formula,Import,UNITED STATES,ONTARIO,27-Jan-11,0.0
+2010BPA0082,Pineapple,fruit,Import,THAILAND,ONTARIO,23-Feb-11,0.0
+2010BPA0083,Juice - Apple,juice,Domestic,CANADA,ONTARIO,07-Mar-11,0.0
+2010BPA0084,Infant Formula - Dairy,formula,Domestic,CANADA,ONTARIO,07-Mar-11,0.0
+2010BPA0085,Nectar - Pear,juice,Domestic,CANADA,ONTARIO,07-Mar-11,0.0
+2010BPA0086,Juice - Apple,juice,Import,UNITED STATES,ONTARIO,07-Mar-11,0.0
+2010BPA0087,Juice - Grape,juice,Import,UNITED STATES,ONTARIO,07-Mar-11,0.0
+2010BPA0088,Infant Formula - Dairy,formula,Import,SWITZERLAND,ONTARIO,07-Mar-11,0.0
+2010BPA0089,Infant Formula - Dairy,formula,Import,SWITZERLAND,ONTARIO,07-Mar-11,0.0
+2010BPA0090,Mixed Fruit,fruit,Domestic,CANADA,ONTARIO,07-Mar-11,0.0
+2010BPA0091,Infant Formula - Dairy,formula,Import,SWITZERLAND,ONTARIO,15-Nov-10,0.0
+2010BPA0092,Infant Formula - Dairy,formula,Import,UNITED STATES,ONTARIO,15-Nov-10,0.0
+2010BPA0093,Mixed Fruit,fruit,Import,UNITED STATES,ONTARIO,15-Nov-10,0.0
+2010BPA0094,Juice - Apple,juice,Domestic,CANADA,ONTARIO,15-Nov-10,0.0
+2010BPA0095,Mixed Fruit,fruit,Import,SOUTH AFRICA,ONTARIO,15-Nov-10,0.0
+2010BPA0103,Infant Formula - Dairy,formula,Import,UNITED STATES,ONTARIO,19-Feb-11,0.0
+2010BPA0104,Infant Formula - Dairy,formula,Domestic,CANADA,ONTARIO,19-Feb-11,0.0
+2010BPA0105,Infant Formula - Dairy,formula,Import,SWITZERLAND,ONTARIO,19-Feb-11,0.0
+2010BPA0106,Peach,fruit,Import,UNITED STATES,ONTARIO,19-Feb-11,0.0
+2010BPA0107,Pear,fruit,Import,SOUTH AFRICA,ONTARIO,19-Feb-11,0.0
+2010BPA0108,Pineapple,fruit,Import,PHILIPPINES,ONTARIO,19-Feb-11,0.0
+2010BPA0109,Pineapple,fruit,Import,THAILAND,ONTARIO,19-Feb-11,0.0
+2010BPA0110,Pear,fruit,Import,SOUTH AFRICA,ONTARIO,26-Feb-11,0.0
+2010BPA0111,Infant Formula - Dairy,formula,Import,UNITED STATES,QUEBEC,17-Nov-10,0.0
+2010BPA0112,Mixed Fruit,fruit,Import,UNITED STATES,QUEBEC,09-Dec-10,0.0
+2010BPA0113,Pear,fruit,Import,SOUTH AFRICA,QUEBEC,09-Dec-10,0.0
+2010BPA0114,Pineapple,fruit,Import,THAILAND,QUEBEC,09-Dec-10,0.0
+2010BPA0115,Infant Formula - Dairy,formula,Import,UNITED STATES,QUEBEC,01-Feb-11,0.0
+2010BPA0116,Infant Formula - Dairy,formula,Import,UNITED STATES,QUEBEC,01-Feb-11,0.0
+2010BPA0117,Infant Formula - Dairy,formula,Domestic,CANADA,QUEBEC,01-Feb-11,0.0
+2010BPA0118,Pear,fruit,Import,SOUTH AFRICA,QUEBEC,01-Feb-11,0.0
+2010BPA0119,Pear,fruit,Import,UNITED STATES,QUEBEC,01-Feb-11,0.0
+2010BPA0120,Mixed Fruit,fruit,Import,GREECE,QUEBEC,01-Feb-11,0.0
+2010BPA0121,Infant Formula - Dairy,formula,Import,UNITED STATES,QUEBEC,05-Jan-11,0.0
+2010BPA0122,Infant Formula - Soy,formula,Import,UNITED STATES,QUEBEC,05-Jan-11,0.0
+2010BPA0123,Infant Formula - Dairy,formula,Import,UNITED STATES,QUEBEC,05-Jan-11,0.0
+2010BPA0124,Infant Formula - Dairy,formula,Import,UNITED STATES,QUEBEC,05-Jan-11,0.0
+2010BPA0125,Infant Formula - Dairy,formula,Import,UNKNOWN,QUEBEC,05-Jan-11,0.0
+2010BPA0126,Infant Formula - Dairy,formula,Import,UNKNOWN,QUEBEC,05-Jan-11,0.0
+2010BPA0127,Juice - Apple,juice,Domestic,CANADA,QUEBEC,05-Jan-11,0.0
+2010BPA0128,Infant Formula - Dairy,formula,Import,UNITED STATES,QUEBEC,24-Feb-11,0.0
+2010BPA0129,Infant Formula - Dairy,formula,Import,UNKNOWN,QUEBEC,24-Feb-11,0.0
+2010BPA0130,Peach,fruit,Import,GREECE,QUEBEC,24-Feb-11,0.0
+2010BPA0131,Infant Formula - Dairy,formula,Import,SWEDEN,QUEBEC,17-Nov-10,0.0
+2010BPA0132,Infant Formula - Dairy,formula,Import,UNITED STATES,QUEBEC,17-Nov-10,0.0
+2010BPA0133,Peach,fruit,Import,GREECE,QUEBEC,16-Nov-10,0.0
+2010BPA0134,Mixed Fruit,fruit,Import,UNITED STATES,QUEBEC,17-Nov-10,0.0
+2010BPA0138,Infant Formula - Dairy,formula,Domestic,CANADA,QUEBEC,05-Jan-11,0.0
+2010BPA0139,Infant Formula - Dairy,formula,Import,UNITED STATES,QUEBEC,05-Jan-11,0.0
+2010BPA0140,Infant Formula - Dairy,formula,Import,UNITED STATES,QUEBEC,05-Jan-11,0.0
+2010BPA0141,Infant Formula - Dairy,formula,Import,UNITED STATES,QUEBEC,05-Jan-11,0.0
+2010BPA0142,Pear,fruit,Import,UNKNOWN,QUEBEC,05-Jan-11,0.0
+2010BPA0143,Infant Formula - Dairy,formula,Import,SWITZERLAND,QUEBEC,29-Nov-10,0.0
+2010BPA0144,Peach,fruit,Import,CHINA,QUEBEC,29-Nov-10,0.0
+2010BPA0145,Mixed Fruit,fruit,Import,GREECE,QUEBEC,29-Nov-10,0.0
+2010BPA0146,Infant Formula - Dairy,formula,Import,UNITED STATES,QUEBEC,23-Feb-11,0.0
+2010BPA0147,Infant Formula - Dairy,formula,Import,UNITED STATES,QUEBEC,25-Jan-11,0.0
+2010BPA0148,Infant Formula - Dairy,formula,Import,UNITED STATES,QUEBEC,04-Jan-11,0.0
+2010BPA0149,Infant Formula - Dairy,formula,Import,UNITED STATES,QUEBEC,17-Jan-11,0.0
+2010BPA0150,Infant Formula - Dairy,formula,Import,UNITED STATES,QUEBEC,17-Jan-11,0.0
+2010BPA0151,Infant Formula - Dairy,formula,Import,UNITED STATES,QUEBEC,17-Jan-11,0.0
+2010BPA0152,Infant Formula - Dairy,formula,Import,SWITZERLAND,QUEBEC,17-Jan-11,0.0
+2010BPA0153,Pear,fruit,Import,UNITED STATES,QUEBEC,04-Jan-11,0.0
+2010BPA0154,Infant Formula - Dairy,formula,Domestic,SWITZERLAND,QUEBEC,06-Mar-11,0.0
+2010BPA0155,Infant Formula - Dairy,formula,Import,UNITED STATES,QUEBEC,08-Mar-11,0.0
+2010BPA0156,Infant Formula - Dairy,formula,Import,SWITZERLAND,QUEBEC,10-Mar-11,0.0
+2010BPA0159,Juice - Apple,juice,Domestic,CANADA,QUEBEC,06-Mar-11,0.0
+2010BPA0160,Pear,fruit,Import,UNITED STATES,QUEBEC,06-Mar-11,0.0
+2010BPA0161,Pineapple,fruit,Import,THAILAND,QUEBEC,06-Mar-11,0.0
+2010BPA0162,Peach,fruit,Import,UNITED STATES,QUEBEC,06-Mar-11,0.0
+2010BPA0163,Pear,fruit,Import,UNITED STATES,QUEBEC,08-Mar-11,0.0
+2010BPA0164,Infant Formula - Dairy,formula,Import,UNITED STATES,QUEBEC,02-Nov-10,0.0
+2010BPA0165,Infant Formula - Dairy,formula,Import,UNITED STATES,QUEBEC,19-Oct-10,0.0
+2010BPA0166,Pear,fruit,Import,SOUTH AFRICA,QUEBEC,19-Oct-10,0.0
+2010BPA0167,Peach,fruit,Import,SOUTH AFRICA,QUEBEC,19-Oct-10,0.0
+2010BPA0168,Peach,fruit,Import,SOUTH AFRICA,QUEBEC,19-Oct-10,0.0
+2010BPA0169,Infant Formula - Dairy,formula,Import,UNITED STATES,QUEBEC,18-Jan-11,0.0
+2010BPA0170,Mixed Fruit,fruit,Import,CHINA,QUEBEC,12-Jan-11,0.0
+2010BPA0171,Juice - Apple,juice,Domestic,CANADA,WEST,08-Dec-10,0.0
+2010BPA0172,Pear,fruit,Import,UNITED STATES,WEST,24-Nov-10,0.0
+2010BPA0173,Peach,fruit,Import,UNITED STATES,WEST,08-Feb-11,0.0
+2010BPA0174,Pear,fruit,Import,UNITED STATES,WEST,08-Feb-11,0.0
+2010BPA0175,Apricot,fruit,Import,UNITED STATES,WEST,08-Jan-11,0.0
+2010BPA0176,Peach,fruit,Import,UNITED STATES,ALBERTA,08-Jan-11,0.0
+2010BPA0177,Pineapple,fruit,Import,THAILAND,WEST,04-Mar-11,0.0
+2010BPA0178,Peach,fruit,Import,SOUTH AFRICA,WEST,04-Mar-11,0.0
+2010BPA0179,Mixed Fruit,fruit,Import,SOUTH AFRICA,WEST,04-Mar-11,0.0
+2010BPA0180,Pear,fruit,Import,SOUTH AFRICA,WEST,14-Nov-10,0.0
+2010BPA0181,Mixed Fruit,fruit,Import,SOUTH AFRICA,WEST,14-Nov-10,0.0
+2010BPA0182,Peach,fruit,Import,SOUTH AFRICA,WEST,14-Nov-10,0.0
+2010BPA0183,Juice - Apple,juice,Domestic,CANADA,ALBERTA,20-Oct-10,0.0
+2010BPA0184,Mixed Fruit,fruit,Domestic,CANADA,ALBERTA,20-Oct-10,0.0
+2010BPA0185,Mixed Fruit,fruit,Import,UNITED STATES,ALBERTA,20-Oct-10,0.0
+2010BPA0186,Peach,fruit,Domestic,CANADA,ALBERTA,20-Oct-10,0.0
+2010BPA0187,Pear,fruit,Domestic,CANADA,ALBERTA,20-Oct-10,0.0
+2010BPA0188,Mixed Fruit,fruit,Import,UNITED STATES,ALBERTA,24-Oct-10,0.0
+2010BPA0189,Peach,fruit,Import,UNITED STATES,ALBERTA,08-Jan-11,0.0
+2010BPA0190,Mixed Fruit,fruit,Import,UNITED STATES,ALBERTA,08-Jan-11,0.0
+2010BPA0191,Peach,fruit,Import,UNITED STATES,WEST,08-Dec-10,0.0
+2010BPA0192,Pear,fruit,Import,UNITED STATES,WEST,01-Feb-11,0.0
+2010BPA0193,Pear,fruit,Import,UNITED STATES,WEST,01-Feb-11,0.0
+2010BPA0194,Mixed Fruit,fruit,Import,UNITED STATES,WEST,01-Feb-11,0.0
+2010BPA0195,Mixed Fruit,fruit,Import,UNITED STATES,BC,10-Jan-11,0.0
+2010BPA0196,Juice - Apple,juice,Domestic,CANADA,BC,09-Nov-10,0.0
+2010BPA0197,Pear,fruit,Import,UNITED STATES,BC,08-Nov-10,0.0
+2010BPA0198,Peach,fruit,Import,SOUTH AFRICA,BC,09-Nov-10,0.0
+2010BPA0199,Peach,fruit,Import,UNITED STATES,WEST,05-Oct-10,0.0
+2010BPA0200,Mixed Fruit,fruit,Unknown,UNKNOWN,WEST,05-Oct-10,0.0
+2010BPA0201,Peach,fruit,Unknown,UNKNOWN,WEST,19-Oct-10,0.0
+2010BPA0203,Infant Formula - Dairy,formula,Import,SWITZERLAND,WEST,06-Dec-10,0.0
+2010BPA0204,Infant Formula - Dairy,formula,Import,UNITED STATES,WEST,12-Feb-11,0.0
+2010BPA0205,Infant Formula - Dairy,formula,Import,SWITZERLAND,MAN-SAS,12-Feb-11,0.0
+2010BPA0206,Infant Formula - Dairy,formula,Domestic,CANADA,MAN-SAS,12-Feb-11,0.0
+2010BPA0207,Infant Formula - Dairy,formula,Import,SWITZERLAND,WEST,16-Jan-11,0.0
+2010BPA0208,Infant Formula - Dairy,formula,Import,UNITED STATES,WEST,09-Jan-11,0.0
+2010BPA0209,Infant Formula - Dairy,formula,Import,SWITZERLAND,WEST,03-Nov-10,0.0
+2010BPA0210,Infant Formula - Dairy,formula,Domestic,CANADA,WEST,03-Nov-10,0.0
+2010BPA0211,Infant Formula - Dairy,formula,Import,UNITED STATES,WEST,03-Nov-10,0.0
+2010BPA0212,Infant Formula - Dairy,formula,Import,UNITED STATES,WEST,19-Oct-10,0.0
+2010BPA0213,Infant Formula - Dairy,formula,Domestic,CANADA,WEST,19-Oct-10,0.0
+2010BPA0214,Infant Formula - Dairy,formula,Import,UNITED STATES,WEST,19-Oct-10,0.0
+2010BPA0215,Infant Formula - Dairy,formula,Import,UNITED STATES,WEST,06-Jan-11,0.0
+2010BPA0216,Infant Formula - Dairy,formula,Import,UNITED STATES,WEST,06-Jan-11,0.0
+2010BPA0217,Infant Formula - Dairy,formula,Import,SWITZERLAND,WEST,06-Jan-11,0.0
+2010BPA0218,Infant Formula - Dairy,formula,Domestic,CANADA,WEST,06-Jan-11,0.0
+2010BPA0219,Infant Formula - Dairy,formula,Import,UNITED STATES,WEST,03-Dec-10,0.0
+2010BPA0220,Infant Formula - Dairy,formula,Import,UNITED STATES,WEST,03-Dec-10,0.0
+2010BPA0221,Infant Formula - Dairy,formula,Import,UNITED STATES,WEST,05-Dec-10,0.0
+2010BPA0222,Infant Formula - Dairy,formula,Import,SWITZERLAND,WEST,31-Jan-11,0.0
+2010BPA0223,Infant Formula - Dairy,formula,Domestic,CANADA,WEST,31-Jan-11,0.0
+2010BPA0224,Infant Formula - Dairy,formula,Import,SWITZERLAND,WEST,31-Jan-11,0.0
+2010BPA0225,Infant Formula - Dairy,formula,Import,UNITED STATES,WEST,05-Mar-11,0.0
+2010BPA0226,Infant Formula - Dairy,formula,Import,UNITED STATES,WEST,05-Mar-11,0.0
+2010BPA0227,Infant Formula - Dairy,formula,Import,UNITED STATES,WEST,05-Mar-11,0.0
+2010BPA0228,Infant Formula - Dairy,formula,Import,UNITED STATES,WEST,05-Mar-11,0.0
+2010BPA0229,Infant Formula - Dairy,formula,Import,UNKNOWN,WEST,05-Mar-11,0.0
+2010BPA0230,Infant Formula - Dairy,formula,Import,UNITED STATES,WEST,08-Nov-10,0.0
+2010BPA0231,Infant Formula - Dairy,formula,Import,UNITED STATES,WEST,08-Nov-10,0.0
+2010BPA0232,Infant Formula - Dairy,formula,Import,SWITZERLAND,WEST,08-Nov-10,0.0
+2010BPA0233,Infant Formula - Dairy,formula,Import,UNITED STATES,WEST,20-Oct-10,0.0
+2010BPA0234,Infant Formula - Dairy,formula,Import,IRELAND,WEST,20-Oct-10,0.0
+2010BPA0235,Infant Formula - Dairy,formula,Import,UNITED STATES,WEST,20-Oct-10,0.0
+2010BPA0236,Infant Formula - Dairy,formula,Import,UNITED STATES,WEST,20-Oct-10,0.0
+2010BPA0237,Infant Formula - Dairy,formula,Import,UNITED STATES,WEST,20-Oct-10,0.0
+2010BPA0238,Infant Formula - Dairy,formula,Import,UNITED STATES,WEST,20-Oct-10,0.0
+2010BPA0239,Infant Formula - Dairy,formula,Import,SWITZERLAND,BC,03-Jan-11,0.0
+2010BPA0240,Infant Formula - Dairy,formula,Import,UNITED STATES,BC,03-Jan-11,0.0
+2010BPA0241,Infant Formula - Dairy,formula,Import,UNITED STATES,BC,03-Jan-11,0.0
+2010BPA0242,Infant Formula - Soy,formula,Import,UNITED STATES,BC,03-Jan-11,0.0
+2010BPA0243,Cereal - Other,other,Domestic,CANADA,WEST,02-Dec-10,0.0
+2010BPA0244,Strawberry,fruit,Domestic,CANADA,WEST,02-Dec-10,0.0
+2010BPA0245,Infant Formula - Dairy,formula,Domestic,CANADA,WEST,03-Jan-11,0.0
+2010BPA0246,Infant Formula - Dairy,formula,Domestic,CANADA,WEST,03-Jan-11,0.0
+2010BPA0247,Strawberry,fruit,Domestic,CANADA,WEST,24-Feb-11,0.0
+2010BPA0248,Meat & Vegetable,other,Domestic,CANADA,WEST,24-Feb-11,0.0
+2010BPA0249,Infant Formula - Dairy,formula,Domestic,CANADA,MAN-SAS,27-Oct-10,0.0
+2010BPA0250,Mixed Fruit,fruit,Domestic,CANADA,WEST,17-Oct-10,0.0

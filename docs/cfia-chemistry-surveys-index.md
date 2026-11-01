@@ -15,11 +15,13 @@ below follows the same order of work:
 4. A sealed job grades the predictions.
 5. An independent test re-runs the published result from GitHub.
 
-Failed predictions are reported as failed.
+Failed predictions are reported as failed. A gate that fails is never edited after the fact; a
+format-only fix is published as a separate amendment before the files are read again.
 
 **The pattern so far.** Totals in the open files match the printed totals far more often than
 splits do. Where a report and its file disagree, the file usually matches the report's detailed
-tables, and the summary or a later table is off.
+tables, and the summary or a later table is off. Several mismatches turn out to be a table that
+silently covers only part of the file (a subset of pastas, canned food only, or four samples fewer).
 
 ## Children's Food Project (aflatoxin M1, lead)
 
@@ -61,13 +63,23 @@ tables, and the summary or a later table is off.
   the open file lacks: three formulas, one of them BPA-positive at 5.89, and one sauce with no
   BPA. Two 2020-21 sentences do not match the file: two of the eight BADGE-and-BPA samples are
   Canadian meats, and one of the five BPS-positive corned beefs has no BPA.
-- [PAH 2019-20 grader note](pah-2019-0.1.0-grader.md) (D2-D5). The value grade is pending.
+- [PAH 2019-20 grader note](pah-2019-0.1.0-grader.md) (D2-D5). The first sealed run failed its gate
+  on two sample IDs ending `AD` (every count held). It is being regraded under the
+  [ID-pattern amendment](id-pattern-0.1.1-amendment.md).
 
 ## Bisphenol A, nine years: 2009-10 to 2017-18
 
-- [Pre-registration](bpa-series-0.1.0-prereg.md) and [census note](bpa-series-0.1.0-census.md).
-  All seven files hold their printed totals. 2013-14 has 45 pastas, so a later report's "34" is a
-  slip. 2017-18 has 322 imported samples, not 325. The 2009-10 file's sampling dates look like
-  placeholders. The value grades are pending.
+- [Pre-registration](bpa-series-0.1.0-prereg.md), [census note](bpa-series-0.1.0-census.md) and
+  [grader note](bpa-series-0.1.0-grader.md). All seven files hold their printed totals. 2013-14
+  has 45 pastas, so a later report's "34" is a slip. 2017-18 has 322 imported samples, not 325.
+  The 2009-10 file's sampling dates look like placeholders.
+- [Result for five of the seven files](bpa-series-0.1.0-result.md). 4 of 6 held. 2010-11 has no
+  positive, and 2013-14 and 2017-18 reproduce in full. 2012-13's Table 5 leaves out 67 of the
+  file's 119 canned pastas and counts three salsas as curry. 2016-17's Table 2 is canned food only,
+  and the file's 27 extra samples carry exactly the report's 21 non-canned positives. At a common
+  5.2 ppb cut, 2013-14's positive share is 2.4 times 2012-13's, and it is higher in every shared
+  category.
+- 2009-10 and 2011-12 failed only the sample-ID pattern (every count held). They are being
+  regraded under the [ID-pattern amendment](id-pattern-0.1.1-amendment.md).
 
 MV2, Munim, Inc., mv2@munimtech.com

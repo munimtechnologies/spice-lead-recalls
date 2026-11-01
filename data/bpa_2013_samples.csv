@@ -1,0 +1,392 @@
+sample,product,type,function,origin,region,date,bpa_ppb
+C2013BHPA00001,Cherry,fruit,Import,United States,Atlantic,29-May-13,0.0
+C2013BHPA00002,Mango,fruit,Import,India,Atlantic,28-Aug-13,1.1
+C2013BHPA00003,JackFruit,fruit,Import,Thailand,Atlantic,25-Nov-13,1.4
+C2013BHPA00004,Lychee,fruit,Import,Thailand,Atlantic,29-May-13,1.2
+C2013BHPA00005,Beverage - Other,bev,Import,Thailand,Atlantic,30-Jun-13,6.8999999999999995
+C2013BHPA00006,Juice - Apple,bev,Import,Unknown,Atlantic,22-Oct-13,0.0
+C2013BHPA00007,Beverage - Fruit,bev,Import,Thailand,Atlantic,28-Aug-13,4.0
+C2013BHPA00008,Energy Drink,bev,Unknown,Unknown,Quebec,09-Feb-14,0.0
+C2013BHPA00009,Chickpea Products,veg,Import,Lebanon,Atlantic,21-Mar-14,22.599999999999998
+C2013BHPA00010,Bean Products,veg,Import,Türkiye,Atlantic,21-Mar-14,24.5
+C2013BHPA00011,Mixed Vegetables,veg,Domestic,Canada,Atlantic,25-Nov-13,106.0
+C2013BHPA00013,Corn,veg,Import,Thailand,Atlantic,25-Nov-13,16.9
+C2013BHPA00015,Corn,veg,Import,United States,Atlantic,30-Jun-13,565.0
+C2013BHPA00016,Pasta - Canned,pasta,Unknown,Unknown,Atlantic,19-Mar-14,18.700000000000003
+C2013BHPA00017,Pasta - Canned,pasta,Unknown,Unknown,Atlantic,18-Aug-13,14.7
+C2013BHPA00018,Pasta - Canned,pasta,Unknown,Unknown,Atlantic,21-Mar-14,11.9
+C2013BHPA00019,Soup,soup,Unknown,Unknown,Atlantic,26-May-13,8.8
+C2013BHPA00020,Soup,soup,Unknown,Unknown,Atlantic,25-Nov-13,107.0
+C2013BHPA00021,Soup,soup,Unknown,Unknown,Atlantic,04-Aug-13,15.100000000000001
+C2013BHPA00022,Coconut Milk,coconut,Import,Thailand,Atlantic,25-Nov-13,65.10000000000001
+C2013BHPA00024,Infant Formula - Dairy,formula,Unknown,Unknown,Atlantic,25-Nov-13,2.2
+C2013BHPA00028,Infant Formula - Soy,formula,Import,United States,Atlantic,19-Aug-13,9.2
+C2013BHPA00030,Soft Drink,bev,Import,Unknown,Atlantic,25-Nov-13,0.0
+C2013BHPA00031,Beverage - Other,bev,Import,Thailand,Atlantic,29-May-13,3.7
+C2013BHPA00032,Sauces,curry,Import,United Kingdom,Atlantic,24-Mar-14,71.0
+C2013BHPA00033,Energy Drink,bev,Unknown,Unknown,Atlantic,21-Jul-13,0.0
+C2013BHPA00034,Mango - Organic,fruit,Import,India,Ontario,12-Mar-14,3.0
+C2013BHPA00035,Mixed Fruit,fruit,Import,Sri Lanka,Ontario,27-Sep-13,14.6
+C2013BHPA00036,Juice - Other,bev,Import,"Taiwan, Province of China",Ontario,17-Mar-14,0.0
+C2013BHPA00037,Juice - Apple,bev,Domestic,Canada,Ontario,28-Nov-13,0.0
+C2013BHPA00038,Beverage - Fruit,bev,Import,Egypt,Ontario,19-Jun-13,8.1
+C2013BHPA00039,Misc Vegetables,veg,Import,Mexico,Ontario,30-May-13,1.4
+C2013BHPA00040,Mixed Vegetables,veg,Import,"Iran, Islamic Republic of",Ontario,19-Jun-13,11.299999999999999
+C2013BHPA00041,Corn,veg,Import,Thailand,Ontario,27-Sep-13,19.3
+C2013BHPA00042,Corn,veg,Import,Thailand,Ontario,19-Jun-13,38.699999999999996
+C2013BHPA00043,Corn,veg,Import,Thailand,Ontario,30-Dec-13,47.6
+C2013BHPA00044,Corn,veg,Import,Thailand,Ontario,30-May-13,5.7
+C2013BHPA00045,Pasta - Canned,pasta,Unknown,Unknown,Ontario,03-Jun-13,21.9
+C2013BHPA00046,Pasta - Canned,pasta,Domestic,Canada,Ontario,19-Dec-13,12.6
+C2013BHPA00047,Pasta - Canned,pasta,Unknown,Unknown,Ontario,13-Mar-14,16.1
+C2013BHPA00048,Pasta - Canned,pasta,Domestic,Canada,Ontario,21-Mar-14,6.7
+C2013BHPA00049,Soup,soup,Domestic,Canada,Ontario,08-Jul-13,307.0
+C2013BHPA00050,Soup,soup,Unknown,Unknown,Ontario,13-May-13,10.200000000000001
+C2013BHPA00051,Soup,soup,Import,United States,Ontario,30-Dec-13,15.8
+C2013BHPA00052,Soup,soup,Import,United States,Ontario,12-Mar-14,0.0
+C2013BHPA00053,Coconut Milk,coconut,Import,Sri Lanka,Ontario,06-Mar-14,151.0
+C2013BHPA00055,Infant Formula - Dairy,formula,Import,United States,Ontario,14-Mar-14,4.3
+C2013BHPA00056,Infant Formula - Dairy,formula,Import,Unknown,Ontario,26-Aug-13,0.0
+C2013BHPA00057,Infant Formula - Dairy,formula,Import,United States,Ontario,16-Mar-14,2.2
+C2013BHPA00058,Infant Formula - Dairy,formula,Import,United States,Ontario,16-Mar-14,2.7
+C2013BHPA00059,Beverage - Fruit,bev,Import,Unknown,Ontario,26-Aug-13,0.0
+C2013BHPA00060,Soft Drink,bev,Import,Unknown,Ontario,03-Jun-13,0.0
+C2013BHPA00062,Energy Drink,bev,Unknown,Unknown,Ontario,03-Jun-13,0.0
+C2013BHPA00063,Energy Drink,bev,Import,Unknown,Ontario,04-Mar-14,0.0
+C2013BHPA00065,Mango,fruit,Import,Thailand,Ontario,19-Aug-13,0.0
+C2013BHPA00068,Lychee,fruit,Import,Thailand,Ontario,27-May-13,0.0
+C2013BHPA00069,JackFruit,fruit,Import,Thailand,Ontario,19-Aug-13,0.0
+C2013BHPA00072,Mixed Fruit,fruit,Import,Thailand,Ontario,22-Jul-13,0.0
+C2013BHPA00073,Mixed Fruit,fruit,Import,Thailand,Ontario,21-May-13,0.0
+C2013BHPA00076,Mixed Fruit,fruit,Import,Thailand,Ontario,21-May-13,0.0
+C2013BHPA00077,Mixed Fruit,fruit,Import,United States,Ontario,19-Aug-13,0.0
+C2013BHPA00078,Mixed Fruit,fruit,Import,United States,Ontario,16-Jul-13,0.0
+C2013BHPA00079,Mixed Fruit,fruit,Import,Thailand,Ontario,27-Nov-13,0.0
+C2013BHPA00080,Beverage - Other,bev,Import,Thailand,Ontario,21-May-13,28.0
+C2013BHPA00081,Juice - Other,bev,Import,Thailand,Ontario,27-Nov-13,6.0
+C2013BHPA00082,Beverage - Other,bev,Import,Thailand,Ontario,21-May-13,77.0
+C2013BHPA00086,juice - pineapple,bev,Import,Philippines,Ontario,22-Oct-13,0.0
+C2013BHPA00089,Juice - Blend,bev,Import,Philippines,Ontario,27-Nov-13,0.0
+C2013BHPA00091,Beverage - Fruit,bev,Import,Unknown,Ontario,11-Jun-13,7.0
+C2013BHPA00092,Beverage - Other,bev,Import,Thailand,Ontario,21-May-13,52.0
+C2013BHPA00093,Beverage - Fruit,bev,Import,Trinidad & Tobago,Ontario,11-Jun-13,190.0
+C2013BHPA00095,Beverage - Fruit,bev,Import,Philippines,Ontario,08-Jul-13,0.0
+C2013BHPA00097,Corn,veg,Import,Thailand,Ontario,27-May-13,0.0
+C2013BHPA00098,Corn,veg,Import,Thailand,Ontario,11-Jun-13,22.0
+C2013BHPA00100,Bamboo Shoot,veg,Import,Thailand,Ontario,19-Aug-13,0.0
+C2013BHPA00107,Mushroom,veg,Import,"Taiwan, Province of China",Ontario,11-Jun-13,7.0
+C2013BHPA00109,Mixed Vegetables,veg,Import,"Taiwan, Province of China",Ontario,28-Jul-13,19.0
+C2013BHPA00110,Bamboo Shoot,veg,Import,Thailand,Ontario,21-May-13,34.0
+C2013BHPA00111,Corn,veg,Import,Thailand,Ontario,21-May-13,0.0
+C2013BHPA00113,Corn,veg,Import,Thailand,Ontario,27-May-13,0.0
+C2013BHPA00114,Corn,veg,Import,United States,Ontario,13-Feb-14,0.0
+C2013BHPA00116,Corn,veg,Unknown,Unknown,Ontario,22-Feb-14,25.0
+C2013BHPA00120,Corn,veg,Import,United States,Ontario,19-Aug-13,6.0
+C2013BHPA00121,Corn,veg,Import,Thailand,Ontario,19-Aug-13,11.0
+C2013BHPA00123,Corn,veg,Import,Thailand,Ontario,27-May-13,0.0
+C2013BHPA00127,Pasta - Canned,pasta,Domestic,Canada,Ontario,02-Jul-13,26.0
+C2013BHPA00128,Pasta - Canned,pasta,Unknown,Unknown,Ontario,27-Nov-13,17.0
+C2013BHPA00129,Pasta - Canned,pasta,Import,United States,Ontario,22-Nov-13,93.0
+C2013BHPA00130,Pasta - Canned,pasta,Unknown,Unknown,Ontario,19-Aug-13,23.0
+C2013BHPA00131,Pasta - Canned,pasta,Unknown,Unknown,Ontario,27-Nov-13,13.0
+C2013BHPA00132,Pasta - Canned,pasta,Unknown,Unknown,Ontario,14-Mar-14,11.0
+C2013BHPA00133,Pasta - Canned,pasta,Unknown,Unknown,Ontario,14-Mar-14,7.0
+C2013BHPA00134,Pasta - Canned,pasta,Unknown,Unknown,Ontario,27-Nov-13,10.0
+C2013BHPA00135,Pasta - Canned,pasta,Unknown,Unknown,Ontario,14-Mar-14,25.0
+C2013BHPA00137,Pasta - Canned,pasta,Unknown,Canada,Ontario,25-Nov-13,11.0
+C2013BHPA00138,Pasta - Canned,pasta,Import,United States,Ontario,25-Nov-13,14.0
+C2013BHPA00139,Pasta - Canned,pasta,Unknown,Unknown,Ontario,08-Jul-13,15.0
+C2013BHPA00141,Pasta - Canned,pasta,Unknown,Unknown,Ontario,19-Aug-13,15.0
+C2013BHPA00142,Soup,soup,Unknown,Unknown,Ontario,27-Nov-13,0.0
+C2013BHPA00144,Soup,soup,Unknown,Unknown,Ontario,14-Mar-14,6.0
+C2013BHPA00145,Soup,soup,Unknown,Unknown,Ontario,02-Jul-13,9.0
+C2013BHPA00146,Soup,soup,Unknown,Unknown,Ontario,14-Mar-14,14.0
+C2013BHPA00147,Soup,soup,Unknown,Unknown,Ontario,14-Mar-14,9.0
+C2013BHPA00148,Soup,soup,Unknown,Unknown,Ontario,14-Mar-14,5.0
+C2013BHPA00149,Soup,soup,Unknown,Unknown,Ontario,14-Mar-14,8.0
+C2013BHPA00150,Soup,soup,Domestic,Canada,Ontario,08-Jul-13,29.0
+C2013BHPA00152,Soup,soup,Unknown,Unknown,Ontario,08-Jul-13,23.0
+C2013BHPA00153,Soup,soup,Unknown,Unknown,Ontario,25-Nov-13,8.0
+C2013BHPA00154,Soup,soup,Domestic,Canada,Ontario,27-Nov-13,22.0
+C2013BHPA00155,Soup,soup,Unknown,Unknown,Ontario,17-Sep-13,29.0
+C2013BHPA00157,Coconut Milk,coconut,Import,Thailand,Ontario,14-Mar-14,0.0
+C2013BHPA00158,Soup,soup,Unknown,Unknown,Ontario,14-Mar-14,9.0
+C2013BHPA00160,Coconut Milk,coconut,Import,Thailand,Ontario,10-Jun-13,220.0
+C2013BHPA00167,Pie Filling - Blueberry,pie,Unknown,Unknown,Ontario,14-Mar-14,0.0
+C2013BHPA00168,Pie Filling - Blueberry,pie,Unknown,Unknown,Ontario,26-Nov-13,0.0
+C2013BHPA00169,Pie Filling - Cherry,pie,Unknown,Unknown,Ontario,06-May-13,0.0
+C2013BHPA00170,Pie Filling - Cherry,pie,Unknown,Unknown,Ontario,21-May-13,8.0
+C2013BHPA00171,Pie Filling - Pumpkin,pie,Unknown,Unknown,Ontario,14-Mar-14,39.0
+C2013BHPA00172,Pie Filling - Pumpkin,pie,Unknown,Unknown,Ontario,25-Nov-13,0.0
+C2013BHPA00173,Pie Filling - Blueberry,pie,Import,United States,Ontario,02-Jul-13,0.0
+C2013BHPA00174,Pie Filling - Other,pie,Unknown,Unknown,Ontario,26-Nov-13,0.0
+C2013BHPA00175,Infant Formula - Dairy,formula,Import,United States,Ontario,22-Nov-13,0.0
+C2013BHPA00178,Infant Formula - Dairy,formula,Import,Unknown,Ontario,11-Feb-14,0.0
+C2013BHPA00179,Infant Formula - Dairy,formula,Import,United States,Ontario,07-Mar-14,0.0
+C2013BHPA00180,Infant Formula - Dairy,formula,Import,United States,Ontario,10-Jun-13,11.0
+C2013BHPA00181,Infant Formula - Dairy,formula,Import,United States,Ontario,27-Aug-13,9.0
+C2013BHPA00182,Infant Formula - Dairy,formula,Import,United States,Ontario,11-Feb-14,0.0
+C2013BHPA00184,Infant Formula - Soy,formula,Import,United States,Ontario,27-Aug-13,7.0
+C2013BHPA00185,Infant Formula - Dairy,formula,Unknown,Unknown,Ontario,05-Jun-13,7.0
+C2013BHPA00186,Infant Formula - Dairy,formula,Unknown,Unknown,Ontario,08-Jul-13,0.0
+C2013BHPA00187,Infant Formula - Dairy,formula,Unknown,Unknown,Ontario,17-Jun-13,0.0
+C2013BHPA00189,Infant Formula - Dairy,formula,Import,United States,Ontario,06-Mar-14,0.0
+C2013BHPA00190,Infant Formula - Dairy,formula,Import,United States,Ontario,06-Mar-14,0.0
+C2013BHPA00191,Infant Formula - Dairy,formula,Import,United States,Ontario,14-Mar-14,0.0
+C2013BHPA00193,Infant Formula - Dairy,formula,Unknown,Unknown,Ontario,10-Jun-13,6.0
+C2013BHPA00194,Infant Formula - Dairy,formula,Unknown,Unknown,Ontario,27-Aug-13,0.0
+C2013BHPA00195,Infant Formula - Dairy,formula,Unknown,Unknown,Ontario,17-Sep-13,0.0
+C2013BHPA00197,Infant Formula - Soy,formula,Import,United States,Ontario,08-Jul-13,0.0
+C2013BHPA00199,Infant Formula - Soy,formula,Import,United States,Ontario,14-Mar-14,0.0
+C2013BHPA00200,Beverage - Fruit,bev,Import,Puerto Rico,Ontario,08-Jul-13,8.0
+C2013BHPA00201,Beverage - Fruit,bev,Import,Unknown,Ontario,19-Aug-13,0.0
+C2013BHPA00202,Beverage - Fruit,bev,Import,Thailand,Ontario,06-May-13,0.0
+C2013BHPA00206,Beverage - Fruit,bev,Import,"Taiwan, Province of China",Ontario,21-May-13,0.0
+C2013BHPA00207,Soft Drink,bev,Unknown,Unknown,Ontario,14-Mar-14,0.0
+C2013BHPA00209,Soft Drink,bev,Unknown,Unknown,Ontario,14-Mar-14,0.0
+C2013BHPA00210,Soft Drink,bev,Unknown,Unknown,Ontario,14-Mar-14,0.0
+C2013BHPA00211,Soft Drink,bev,Import,United States,Ontario,13-May-13,0.0
+C2013BHPA00212,Soft Drink,bev,Unknown,Unknown,Ontario,14-Mar-14,0.0
+C2013BHPA00225,Energy Drink,bev,Import,Unknown,Ontario,27-Aug-13,0.0
+C2013BHPA00226,Energy Drink,bev,Import,Unknown,Ontario,13-May-13,0.0
+C2013BHPA00227,Energy Drink,bev,Import,Unknown,Ontario,18-Jun-13,0.0
+C2013BHPA00228,Energy Drink,bev,Import,Unknown,Ontario,14-Mar-14,0.0
+C2013BHPA00229,Energy Drink,bev,Import,Unknown,Ontario,27-Nov-13,0.0
+C2013BHPA00230,Energy Drink,bev,Unknown,Unknown,Ontario,14-Mar-14,0.0
+C2013BHPA00232,Energy Drink,bev,Unknown,Unknown,Ontario,26-Aug-13,0.0
+C2013BHPA00233,Energy Drink,bev,Unknown,Unknown,Ontario,14-Mar-14,0.0
+C2013BHPA00234,Energy Drink,bev,Unknown,Unknown,Ontario,06-Aug-13,0.0
+C2013BHPA00235,Lychee,fruit,Import,China,Quebec,30-Jun-13,5.6
+C2013BHPA00236,Misc Fruit,fruit,Import,Greece,Quebec,26-Mar-14,0.0
+C2013BHPA00237,Orange,fruit,Import,China,Quebec,03-Nov-13,53.6
+C2013BHPA00238,Peach,fruit,Import,Chine,Quebec,03-Nov-13,0.0
+C2013BHPA00239,Gooseberry,fruit,Import,Ecuador,Quebec,30-Jun-13,1.1
+C2013BHPA00241,Mixed Fruit,fruit,Import,Philippines,Quebec,29-Mar-14,3.1
+C2013BHPA00242,Mixed Fruit,fruit,Import,Thailand,Quebec,03-Nov-13,1.3
+C2013BHPA00244,Mixed Fruit,fruit,Import,United States,Quebec,03-Nov-13,1.1
+C2013BHPA00247,Juice - Other,bev,Import,Philippines,Quebec,16-Nov-13,0.0
+C2013BHPA00251,Misc Fruit,fruit,Import,South Africa,Quebec,26-Mar-14,0.0
+C2013BHPA00253,Juice - Mixed,bev,Import,Vietnam,Quebec,26-Mar-14,0.0
+C2013BHPA00259,Heart of Palm,veg,Import,Ecuador,Quebec,03-Nov-13,16.2
+C2013BHPA00260,Artichoke Heart,veg,Import,Spain,Quebec,03-Nov-13,32.7
+C2013BHPA00261,Juice - Blend,bev,Import,Philippines,Quebec,30-Mar-14,2.7
+C2013BHPA00262,Asparagus,veg,Import,Peru,Quebec,03-Nov-13,44.6
+C2013BHPA00263,Misc Vegetables,veg,Import,China,Quebec,26-Mar-14,122.0
+C2013BHPA00264,Corn,veg,Import,Thailand,Quebec,16-Nov-13,33.300000000000004
+C2013BHPA00267,Mushroom,veg,Import,France,Quebec,16-Nov-13,28.2
+C2013BHPA00271,Corn,veg,Import,Thailand,Quebec,03-Nov-13,9.5
+C2013BHPA00273,Corn,veg,Import,China,Quebec,26-Mar-14,18.9
+C2013BHPA00275,Corn,veg,Import,United States,Quebec,24-Feb-14,1.1
+C2013BHPA00276,Corn,veg,Import,United States,Quebec,22-Nov-13,1.5
+C2013BHPA00277,Corn,veg,Import,United States,Quebec,03-Nov-13,3.2
+C2013BHPA00278,Corn,veg,Import,Thailand,Quebec,26-Mar-14,25.3
+C2013BHPA00279,Corn,veg,Import,Thailand,Quebec,26-Mar-14,9.4
+C2013BHPA00280,Corn,veg,Import,Thailand,Quebec,30-Mar-14,35.4
+C2013BHPA00281,Corn,veg,Import,Thailand,Quebec,03-Nov-13,15.7
+C2013BHPA00282,Corn,veg,Import,Thailand,Quebec,30-Mar-14,6.8
+C2013BHPA00283,Pasta - Canned,pasta,Import,United States,Quebec,07-May-13,24.1
+C2013BHPA00284,Pasta - Canned,pasta,Unknown,Unknown,Quebec,08-Mar-14,16.9
+C2013BHPA00285,Pasta - Canned,pasta,Unknown,Unknown,Quebec,05-Aug-13,22.1
+C2013BHPA00286,Pasta - Canned,pasta,Unknown,Unknown,Quebec,19-Aug-13,33.300000000000004
+C2013BHPA00287,Corn,veg,Import,Thailand,Quebec,30-Mar-14,7.1000000000000005
+C2013BHPA00288,Pasta - Canned,pasta,Unknown,Unknown,Quebec,08-Mar-14,17.5
+C2013BHPA00289,Pasta - Canned,pasta,Unknown,Unknown,Quebec,05-Aug-13,13.0
+C2013BHPA00290,Pasta - Canned,pasta,Unknown,Unknown,Quebec,25-Mar-14,27.7
+C2013BHPA00291,Pasta - Canned,pasta,Unknown,Unknown,Quebec,25-Mar-14,11.700000000000001
+C2013BHPA00292,Pasta - Canned,pasta,Unknown,Unknown,Quebec,08-Mar-14,16.8
+C2013BHPA00293,Pasta - Canned,pasta,Import,United States,Quebec,19-Mar-14,10.1
+C2013BHPA00294,Pasta - Canned,pasta,Import,United States,Quebec,25-Mar-14,15.8
+C2013BHPA00295,Soup,soup,Unknown,Unknown,Quebec,08-Mar-14,32.300000000000004
+C2013BHPA00296,Soup,soup,Unknown,Unknown,Quebec,08-Mar-14,37.6
+C2013BHPA00297,Soup,soup,Unknown,Unknown,Quebec,08-Mar-14,83.9
+C2013BHPA00298,Soup,soup,Domestic,Canada,Quebec,05-Aug-13,146.0
+C2013BHPA00299,Pasta - Canned,pasta,Import,United States,Quebec,01-Mar-14,13.100000000000001
+C2013BHPA00300,Soup,soup,Unknown,Unknown,Quebec,05-Aug-13,44.699999999999996
+C2013BHPA00301,Soup,soup,Unknown,Unknown,Quebec,05-Aug-13,30.599999999999998
+C2013BHPA00302,Soup,soup,Unknown,Unknown,Quebec,05-Aug-13,27.5
+C2013BHPA00303,Soup,soup,Unknown,Unknown,Quebec,25-Mar-14,36.6
+C2013BHPA00304,Soup,soup,Unknown,Canada,Quebec,25-Mar-14,115.0
+C2013BHPA00305,Soup,soup,Unknown,Unknown,Quebec,22-Nov-13,49.4
+C2013BHPA00306,Soup,soup,Unknown,Unknown,Quebec,08-Mar-14,17.9
+C2013BHPA00307,Coconut Milk,coconut,Import,Thailand,Quebec,07-May-13,47.300000000000004
+C2013BHPA00308,Soup,soup,Import,United States,Quebec,24-Feb-14,0.0
+C2013BHPA00309,Coconut Milk,coconut,Import,Thailand,Quebec,25-Mar-14,253.0
+C2013BHPA00310,Coconut Milk,coconut,Import,Thailand,Quebec,22-Mar-14,18.0
+C2013BHPA00313,Coconut Milk,coconut,Import,Thailand,Quebec,05-Aug-13,127.0
+C2013BHPA00315,Pie Filling - Blueberry,pie,Unknown,Unknown,Quebec,19-Aug-13,0.0
+C2013BHPA00316,Pie Filling - Cherry,pie,Domestic,Canada,Quebec,07-Mar-14,0.0
+C2013BHPA00317,Pie Filling - Pumpkin,pie,Unknown,Unknown,Quebec,05-Aug-13,47.300000000000004
+C2013BHPA00318,Pie Filling - apple,pie,Domestic,Canada,Quebec,07-Mar-14,0.0
+C2013BHPA00319D,Infant Formula - Dairy,formula,Import,United States,Quebec,29-Mar-14,4.8
+C2013BHPA00320,Infant Formula - Dairy,formula,Import,Unknown,Quebec,08-Oct-13,0.0
+C2013BHPA00321,Infant Formula - Dairy,formula,Import,United States,Quebec,15-Mar-14,0.0
+C2013BHPA00322,Infant Formula - Dairy,formula,Import,Unknown,Quebec,17-Sep-13,0.0
+C2013BHPA00323,Infant Formula - Dairy,formula,Import,Unknown,Quebec,06-May-13,0.0
+C2013BHPA00325,Infant Formula - Soy,formula,Import,United States,Quebec,07-May-13,0.0
+C2013BHPA00326,Infant Formula - Dairy,formula,Import,United States,Quebec,29-Mar-14,2.6
+C2013BHPA00327,Coconut Milk,coconut,Import,Thailand,Quebec,06-Feb-14,8.4
+C2013BHPA00329,Infant Formula - Dairy,formula,Import,United States,Quebec,07-May-13,0.0
+C2013BHPA00332,Infant Formula - Dairy,formula,Import,Unknown,Quebec,06-May-13,1.1
+C2013BHPA00333,Infant Formula - Dairy,formula,Import,United States,Quebec,19-Mar-14,2.6
+C2013BHPA00334,Infant Formula - Soy,formula,Import,United States,Quebec,07-May-13,1.1
+C2013BHPA00335,Infant Formula - Soy,formula,Import,United States,Quebec,16-Nov-13,4.7
+C2013BHPA00339,Beverage - Fruit,bev,Import,"Korea, Republic of",Quebec,11-Feb-14,0.0
+C2013BHPA00341,Soft Drink,bev,Import,United States,Quebec,22-Mar-14,0.0
+C2013BHPA00342,Energy Drink,bev,Unknown,Unknown,Quebec,07-May-13,3.2
+C2013BHPA00343,Soft Drink,bev,Unknown,United States,Quebec,19-Aug-13,0.0
+C2013BHPA00344,Soft Drink,bev,Import,United States,Quebec,29-Mar-14,1.1
+C2013BHPA00346,Beverage - Fruit,bev,Import,"Taiwan, Province of China",Quebec,26-Mar-14,1.5
+C2013BHPA00348,Beverage - Fruit,bev,Import,"Taiwan, Province of China",Quebec,26-Mar-14,2.0
+C2013BHPA00349,Beverage - Fruit,bev,Import,Thailand,Quebec,26-Mar-14,2.0
+C2013BHPA00350,Beverage - Fruit,bev,Import,Vietnam,Quebec,26-Mar-14,0.0
+C2013BHPA00355,Energy Drink,bev,Import,Unknown,Quebec,07-May-13,5.3
+C2013BHPA00356,Energy Drink,bev,Import,Unknown,Quebec,05-Aug-13,2.7
+C2013BHPA00357,Beverage - Other,bev,Import,"Taiwan, Province of China",Quebec,30-Mar-14,0.0
+C2013BHPA00358,Energy Drink,bev,Import,Unknown,Quebec,23-Nov-13,0.0
+C2013BHPA00359,Energy Drink,bev,Unknown,Unknown,Quebec,26-Mar-14,0.0
+C2013BHPA00360,Energy Drink,bev,Unknown,Unknown,Quebec,23-Nov-13,0.0
+C2013BHPA00362,Mango,fruit,Import,India,West,29-Jul-13,0.0
+C2013BHPA00364,Mixed Fruit,fruit,Import,Thailand,West,09-May-13,0.0
+C2013BHPA00365,Mixed Fruit,fruit,Import,Thailand,West,19-Jun-13,0.0
+C2013BHPA00366,Mixed Fruit,fruit,Import,Sri Lanka,West,27-Nov-13,19.0
+C2013BHPA00368,Juice - Apple,bev,Import,Japan,West,14-Mar-14,0.0
+C2013BHPA00370,Beverage - Fruit,bev,Import,Philippines,West,19-Jun-13,0.0
+C2013BHPA00371,Juice - Mixed,bev,Import,"Taiwan, Province of China",West,05-Feb-14,0.0
+C2013BHPA00372,Misc Vegetables,veg,Import,China,West,07-Mar-14,23.0
+C2013BHPA00374,Misc Vegetables,veg,Import,China,West,07-Mar-14,5.0
+C2013BHPA00375,Bamboo Shoot,veg,Import,Thailand,West,05-Feb-14,0.0
+C2013BHPA00376,Mixed Vegetables,veg,Import,Thailand,West,09-May-13,0.0
+C2013BHPA00377,Mixed Vegetables,veg,Import,Thailand,West,22-May-13,0.0
+C2013BHPA00378,Corn,veg,Import,Thailand,West,07-Mar-14,0.0
+C2013BHPA00379,Corn,veg,Import,Thailand,West,19-Jun-13,16.0
+C2013BHPA00380,Corn,veg,Import,Thailand,West,05-Feb-14,0.0
+C2013BHPA00381,Corn,veg,Import,Thailand,West,07-Mar-14,38.0
+C2013BHPA00383,Pasta - Canned,pasta,Domestic,Canada,West,01-Jun-13,14.0
+C2013BHPA00385,Pasta - Canned,pasta,Unknown,Unknown,West,23-Jan-14,11.0
+C2013BHPA00388,Soup,soup,Domestic,Unknown,West,24-Nov-13,0.0
+C2013BHPA00389,Soup,soup,Import,United States,West,19-Mar-14,74.0
+C2013BHPA00390,Soup,soup,Domestic,Unknown,West,24-Nov-13,0.0
+C2013BHPA00391,Soup,soup,Import,United States,West,19-Aug-13,0.0
+C2013BHPA00392,Soup,soup,Import,Unknown,West,24-Jun-13,22.0
+C2013BHPA00393,Coconut Milk,coconut,Import,Thailand,West,20-Feb-14,74.0
+C2013BHPA00394,Sauces,curry,Import,United Kingdom,West,20-Feb-14,65.0
+C2013BHPA00395,Pie Filling - Other,pie,Import,United States,West,14-Jul-13,0.0
+C2013BHPA00396,Pie Filling - Cherry,pie,Unknown,Unknown,West,23-Jan-14,0.0
+C2013BHPA00397,Pie Filling - Other,pie,Domestic,Unknown,West,14-Jul-13,0.0
+C2013BHPA00398,Pie Filling - Pumpkin,pie,Unknown,Unknown,West,19-Aug-13,27.0
+C2013BHPA00399,Infant Formula - Dairy,formula,Unknown,Canada,West,14-Jul-13,0.0
+C2013BHPA00400,Infant Formula - Dairy,formula,Unknown,Canada,West,17-Jan-14,0.0
+C2013BHPA00401,Infant Formula - Dairy,formula,Import,United States,West,19-Feb-14,0.0
+C2013BHPA00402,Infant Formula - Soy,formula,Import,United States,West,23-Jan-14,7.0
+C2013BHPA00403,Infant Formula - Dairy,formula,Import,United States,West,23-Jan-14,0.0
+C2013BHPA00404,Infant Formula - Dairy,formula,Domestic,Canada,West,22-May-13,6.0
+C2013BHPA00405,Infant Formula - Dairy,formula,Import,United States,West,19-Feb-14,0.0
+C2013BHPA00408,Beverage - Fruit,bev,Import,United States,West,23-Jul-13,0.0
+C2013BHPA00409,Beverage - Fruit,bev,Import,Thailand,West,31-Aug-13,0.0
+C2013BHPA00411,Soft Drink,bev,Import,India,West,31-Aug-13,0.0
+C2013BHPA00412,Beverage - Fruit,bev,Import,"Taiwan, Province of China",West,09-May-13,0.0
+C2013BHPA00414,Beverage - Sport,bev,Unknown,Unknown,West,20-Feb-14,0.0
+C2013BHPA00415,Energy Drink,bev,Domestic,Unknown,West,01-Jun-13,0.0
+C2013BHPA00418,Mixed Fruit,fruit,Import,Thailand,West,09-Jul-13,0.0
+C2013BHPA00419,Misc Fruit,fruit,Import,Thailand,West,19-Mar-14,2.3
+C2013BHPA00420,Misc Fruit,fruit,Import,Thailand,West,19-Jan-14,1.3
+C2013BHPA00421,Papaya,fruit,Import,Thailand,West,11-Aug-13,10.8
+C2013BHPA00422,Mango,fruit,Import,Thailand,West,11-Aug-13,2.2
+C2013BHPA00423,Pineapple,fruit,Import,Thailand,West,21-Jun-13,1.9
+C2013BHPA00424,Mixed Fruit,fruit,Import,Thailand,West,19-Mar-14,1.0
+C2013BHPA00425,Mixed Fruit,fruit,Import,United States,West,10-Jul-13,0.0
+C2013BHPA00426,Mixed Fruit,fruit,Import,United States,West,19-Mar-14,0.0
+C2013BHPA00427,Mixed Fruit,fruit,Import,Greece,West,19-Mar-14,1.5
+C2013BHPA00428,Juice - Other,bev,Import,Thailand,West,03-Mar-14,0.0
+C2013BHPA00429,Beverage - Fruit,bev,Import,Philippines,West,20-May-13,0.0
+C2013BHPA00430,Juice - Apple,bev,Domestic,Unknown,West,20-Mar-14,0.0
+C2013BHPA00431,Juice - Apple,bev,Unknown,Unknown,West,20-Mar-14,0.0
+C2013BHPA00433,Juice - Mixed,bev,Import,"Taiwan, Province of China",West,19-Jan-14,0.0
+C2013BHPA00434,Beverage - Fruit,bev,Import,United States,West,21-Jul-13,2.4
+C2013BHPA00435,Juice - Mixed,bev,Import,"Taiwan, Province of China",West,03-Mar-14,0.0
+C2013BHPA00436,Beverage - Fruit,bev,Import,"Korea, Republic of",West,21-Jun-13,2.3
+C2013BHPA00437,Juice - Mixed,bev,Import,Philippines,West,03-Mar-14,2.9
+C2013BHPA00438,Misc Vegetables,veg,Import,China,West,19-Jan-14,17.9
+C2013BHPA00439,Corn,veg,Import,Thailand,West,21-Jun-13,29.5
+C2013BHPA00440,Beverage - Other,bev,Import,"Taiwan, Province of China",West,03-Mar-14,7.0
+C2013BHPA00441,Mushroom,veg,Import,China,West,06-Feb-14,12.8
+C2013BHPA00442,Misc Vegetables,veg,Import,China,West,20-Mar-14,5.6
+C2013BHPA00443,Mixed Vegetables,veg,Import,"Taiwan, Province of China",BC,26-Feb-14,20.299999999999997
+C2013BHPA00444,Mixed Vegetables,veg,Import,Thailand,West,26-May-13,5.6
+C2013BHPA00445,Mixed Vegetables,veg,Import,United States,West,26-May-13,1.8
+C2013BHPA00446,Mixed Vegetables,veg,Import,United States,BC,26-Feb-14,4.2
+C2013BHPA00447,Mixed Vegetables,veg,Import,United States,West,19-Jan-14,5.1000000000000005
+C2013BHPA00448,Corn,veg,Import,Thailand,West,11-Aug-13,6.8
+C2013BHPA00449,Corn,veg,Import,Thailand,West,06-Feb-14,24.0
+C2013BHPA00450,Corn,veg,Import,Thailand,West,06-Feb-14,43.0
+C2013BHPA00451,Corn,veg,Import,Thailand,West,03-Mar-14,25.8
+C2013BHPA00452,Corn,veg,Import,Thailand,West,03-Mar-14,59.7
+C2013BHPA00453,Corn,veg,Import,United States,West,10-Jul-13,1.6
+C2013BHPA00454,Corn,veg,Import,Thailand,West,06-Feb-14,27.0
+C2013BHPA00455,Corn,veg,Import,United States,West,19-Jan-14,1.3
+C2013BHPA00456,Corn,veg,Import,Thailand,West,19-Jan-14,26.599999999999998
+C2013BHPA00457,Corn,veg,Import,Thailand,West,19-Jan-14,51.9
+C2013BHPA00458,Corn,veg,Import,Thailand,West,03-Mar-14,27.599999999999998
+C2013BHPA00459,Pasta - Canned,pasta,Unknown,Unknown,West,24-Nov-13,26.3
+C2013BHPA00460,Pasta - Canned,pasta,Unknown,Canada,West,07-May-13,18.8
+C2013BHPA00461,Pasta - Canned,pasta,Unknown,Canada,West,07-May-13,27.400000000000002
+C2013BHPA00462,Pasta - Canned,pasta,Import,United States,West,24-Nov-13,29.3
+C2013BHPA00463,Pasta - Canned,pasta,Unknown,Canada,West,16-Jun-13,21.7
+C2013BHPA00464,Pasta - Canned,pasta,Unknown,Unknown,West,15-Mar-14,6.8999999999999995
+C2013BHPA00465,Pasta - Canned,pasta,Unknown,Unknown,West,15-Mar-14,11.4
+C2013BHPA00466,Pasta - Canned,pasta,Unknown,Canada,West,09-May-13,14.5
+C2013BHPA00467,Pasta - Canned,pasta,Unknown,Unknown,West,15-Mar-14,17.7
+C2013BHPA00468,Pasta - Canned,pasta,Import,United States,West,09-Jul-13,55.4
+C2013BHPA00469,Pasta - Canned,pasta,Import,United States,West,27-Nov-13,17.1
+C2013BHPA00470,Soup,soup,Unknown,Unknown,West,24-Nov-13,130.0
+C2013BHPA00471,Soup,soup,Import,United States,West,06-May-13,18.0
+C2013BHPA00472,Soup,soup,Unknown,Unknown,West,16-Jun-13,22.700000000000003
+C2013BHPA00473,Soup,soup,Unknown,Unknown,West,24-Nov-13,114.0
+C2013BHPA00474,Soup,soup,Domestic,Canada,West,14-Jul-13,4.6
+C2013BHPA00475,Soup,soup,Import,United States,West,06-May-13,59.5
+C2013BHPA00476,Soup,soup,Unknown,Unknown,West,26-Nov-13,33.2
+C2013BHPA00477,Soup,soup,Import,United States,West,10-Mar-14,1.2
+C2013BHPA00478,Soup,soup,Import,Unknown,West,07-Jul-13,27.900000000000002
+C2013BHPA00479,Soup,soup,Import,United States,West,11-Aug-13,3.0
+C2013BHPA00480,Soup,soup,Unknown,Unknown,West,27-Nov-13,23.5
+C2013BHPA00481,Coconut Milk,coconut,Import,Thailand,West,24-Nov-13,14.8
+C2013BHPA00482,Coconut Milk,coconut,Import,Thailand,West,14-Jul-13,26.700000000000003
+C2013BHPA00483,Coconut Milk,coconut,Import,Thailand,West,25-Nov-13,4.8
+C2013BHPA00484,Sauces,curry,Import,India,West,18-Jun-13,6.2
+C2013BHPA00485,Sauces,curry,Import,Thailand,BC,07-Feb-14,9.5
+C2013BHPA00486,Sauces,curry,Import,Thailand,West,14-Aug-13,226.0
+C2013BHPA00487,Pie Filling - Blueberry,pie,Import,United States,West,27-Nov-13,3.7
+C2013BHPA00488,Pie Filling - Cherry,pie,Import,United States,West,21-Jul-13,3.4
+C2013BHPA00489,Pie Filling - Pumpkin,pie,Unknown,Unknown,West,27-Nov-13,45.199999999999996
+C2013BHPA00490,Pie Filling - Blueberry,pie,Import,United States,West,07-May-13,4.7
+C2013BHPA00491,Infant Formula - Dairy,formula,Import,United States,West,25-Aug-13,12.5
+C2013BHPA00493,Infant Formula - Dairy,formula,Import,United States,BC,02-Mar-14,0.0
+C2013BHPA00494,Infant Formula - Dairy,formula,Import,United States,West,24-Jul-13,4.7
+C2013BHPA00495,Infant Formula - Dairy,formula,Import,United States,West,20-Feb-14,2.6
+C2013BHPA00496,Infant Formula - Soy,formula,Import,United States,West,21-Jun-13,4.0
+C2013BHPA00498,Infant Formula - Dairy,formula,Import,United States,West,16-Jun-13,3.2
+C2013BHPA00500,Infant Formula - Dairy,formula,Domestic,Canada,West,16-Jun-13,3.8
+C2013BHPA00501,Infant Formula - Dairy,formula,Domestic,Canada,West,09-May-13,4.8
+C2013BHPA00502,Infant Formula - Dairy,formula,Import,United States,West,14-Aug-13,0.0
+C2013BHPA00503,Infant Formula - Dairy,formula,Unknown,Unknown,West,28-Nov-13,2.9
+C2013BHPA00504,Infant Formula - Dairy,formula,Import,United States,West,19-Mar-14,2.7
+C2013BHPA00505,Infant Formula - Dairy,formula,Unknown,Unknown,West,19-Mar-14,3.4
+C2013BHPA00506,Beverage - Fruit,bev,Import,"Taiwan, Province of China",West,10-Mar-14,0.0
+C2013BHPA00507,Beverage - Fruit,bev,Import,Thailand,West,10-Mar-14,1.4
+C2013BHPA00508,Beverage - Fruit,bev,Import,Thailand,West,04-Mar-14,8.6
+C2013BHPA00509,Beverage - Fruit,bev,Import,Philippines,West,03-Mar-14,2.4
+C2013BHPA00510,Soft Drink,bev,Import,Philippines,West,10-Mar-14,0.0
+C2013BHPA00511,Soft Drink,bev,Import,"Taiwan, Province of China",West,10-Mar-14,3.3
+C2013BHPA00512,Soft Drink,bev,Import,United States,West,04-Mar-14,0.0
+C2013BHPA00513,Soft Drink,bev,Unknown,Unknown,West,13-May-13,0.0
+C2013BHPA00514,Beverage - Other,bev,Import,Philippines,West,03-Mar-14,1.6
+C2013BHPA00515,Beverage - Other,bev,Import,"Taiwan, Province of China",West,19-Jan-14,2.8
+C2013BHPA00516,Beverage - Other,bev,Import,"Taiwan, Province of China",West,19-Jan-14,0.0
+C2013BHPA00517,Beverage - Other,bev,Import,Philippines,West,03-Mar-14,5.1000000000000005
+C2013BHPA00518,Beverage - Sport,bev,Import,China,West,26-May-13,1.1
+C2013BHPA00519,Beverage - Other,bev,Import,Thailand,West,16-Jun-13,4.4
+C2013BHPA00521,Beverage - Sport,bev,Import,"Taiwan, Province of China",West,03-Mar-14,0.0
+C2013BHPA00522,Energy Drink,bev,Unknown,Unknown,West,24-Nov-13,0.0
+C2013BHPA00523,Energy Drink,bev,Unknown,Unknown,West,25-Aug-13,0.0
+C2013BHPA00524,Energy Drink,bev,Import,United States,West,10-Mar-14,4.8
+C2013BHPA00525,Energy Drink,bev,Import,"Taiwan, Province of China",West,03-Mar-14,1.9
