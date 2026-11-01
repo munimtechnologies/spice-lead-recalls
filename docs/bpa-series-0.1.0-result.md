@@ -23,7 +23,9 @@ three digits (`2009BPA176` to `2009BPA183`). Three 2011-12 IDs end in `-2` (`201
 `2011BPA0270-2`, `2011BPA0272-2`). The grader's pattern allowed neither. So V1, V3 and the
 dates item T1 were not graded. A separate, public
 [ID-pattern amendment](id-pattern-0.1.1-amendment.md) widens only that pattern, discloses what
-the failed run's output already showed, and grades them in a new sealed job.
+the failed run's output already showed, and grades them in a new sealed job. **Update:** that
+regrade is published in [bpa-series-0.1.1-regrade-result.md](bpa-series-0.1.1-regrade-result.md)
+(V1 and V3 held, so 6 of 8 graded items held across all seven files).
 
 This is a reproducibility check of open government data, not a compliance finding and not about
 any brand. Canada has no maximum level for BPA in food; Health Canada assesses results case by
@@ -95,8 +97,8 @@ positive samples only, as the reports state.
   but the sample is labelled `Pineapple - Organic`.
 - Sauces: the text gives the runner-up after 1,120 as 7.5. The file's runner-up is 188, a Thai
   `Sauces` sample. Table 2's own sauce row (5 positives, average 228, maximum 1,120) leaves only
-  17.5-22.5 ppb for the other four canned sauces. So the 188 cannot be a canned sample: it
-  belongs to the non-canned part that the file does not label. The check could not have
+  17.5-22.5 ppb in total for the other four canned sauces. So the 188 cannot be a canned sample:
+  it belongs to the non-canned part that the file does not label. The check could not have
   separated the two.
 
 ## The files by category (BPA, ppb; positives only)
@@ -154,7 +156,14 @@ printed figures.
   - the D1 shares;
   - the absence of identical multi-analyte profiles.
 
-A sealed follow-up job (`bpa-series-result-v1`) fetches these published files from GitHub and
-re-runs the pinned test on them.
+A sealed follow-up job (`bpa-series-result-v1`) fetched these published files from GitHub and
+re-ran the pinned test on them (2026-11-01, 14:05 UTC).
+
+**Correction (v0.4.98).** That first post-publish run passed 15 of 16 tests. The one failure was
+a bug in the test, not in the result: the sauce arithmetic check read the sauce row's sample count
+(13) where it meant its positive count (5), and so computed 1,837.5 instead of 17.5. The line is
+fixed in `v0.4.98` (the arithmetic in the V6 paragraph above was already right; "in total" was
+added to make it clearer). No published figure, data file or grader record changed. A second
+sealed run, `bpa-series-result-v2`, re-runs the fixed test from GitHub.
 
 MV2, Munim, Inc., mv2@munimtech.com

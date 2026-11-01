@@ -11,6 +11,10 @@ positives beyond the canned Table 2); the directional D1 shares; and the absence
 multi-analyte profiles. Each is checked against its own copy of the printed figures and against
 the sealed grader record data/bpa_series_summary_0.1.0.json. Standard library only.
 
+Fix in 0.1.0-test-2 (v0.4.98): test_maxima_and_next unpacked the sauce row's sample count (13)
+where it meant its positive count (5). The first post-publish run (bpa-series-result-v1) failed on
+that line only; the published figures and the sealed record were not affected.
+
 Made with AI agents working in MV2's (Munim, Inc.) name. Code Apache-2.0."""
 import csv
 import json
@@ -352,8 +356,9 @@ class Test2016(Base):
         self.assertEqual(tops["pie"][0]["product"], "Pie Filling - Pumpkin")
         self.assertEqual(tops["fruit"][0]["product"], "Pineapple - Organic")
         # Table 2's canned sauces: 5 positives averaging 228 with maximum 1120 leave 17.5-22.5
-        # ppb for the other four, so the 188 sauce cannot be one of them.
-        k, _, _, mx, avg = TABLE2_2016["sauce"]
+        # ppb in total for the other four, so the 188 sauce cannot be one of them.
+        _, k, _, mx, avg = TABLE2_2016["sauce"]
+        self.assertEqual(k, 5)
         lo = k * (float(avg) - half(avg)) - float(mx)
         hi = k * (float(avg) + half(avg)) - float(mx)
         self.assertAlmostEqual(lo, 17.5, places=9)
