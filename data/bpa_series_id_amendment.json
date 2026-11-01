@@ -1,0 +1,92 @@
+{
+  "amendment": "id-pattern-0.1.1",
+  "files": {
+    "bpa-2009": {
+      "gate": {
+        "columns": true,
+        "components": true,
+        "per_sample": true,
+        "plan": true,
+        "products": true,
+        "rows": true,
+        "samples": true,
+        "size": true,
+        "units": true,
+        "values": true
+      },
+      "ids_bad": [],
+      "old_pattern_rejects": [
+        "2009BPA176",
+        "2009BPA177",
+        "2009BPA178",
+        "2009BPA179",
+        "2009BPA180",
+        "2009BPA181",
+        "2009BPA182",
+        "2009BPA183"
+      ],
+      "sha256": "8eaedfd8b8503368ed31e00631a91ba08378f6e5cad7f34724d65d2e91b33121",
+      "suffix_pairs": []
+    },
+    "bpa-2011": {
+      "gate": {
+        "columns": true,
+        "components": true,
+        "per_sample": true,
+        "plan": true,
+        "products": true,
+        "rows": true,
+        "samples": true,
+        "size": true,
+        "units": true,
+        "values": true
+      },
+      "ids_bad": [],
+      "old_pattern_rejects": [
+        "2011BPA0086-2",
+        "2011BPA0270-2",
+        "2011BPA0272-2"
+      ],
+      "sha256": "64dff91acbd2eb953ef1c42effa34f709e868902d6ed03e5643320377f287918",
+      "suffix_pairs": [
+        {
+          "base": "2011BPA0086",
+          "base_bpa_ppb": 0.0,
+          "base_date": "13-Jul-11",
+          "base_present": true,
+          "base_product": "Pear",
+          "bpa_ppb": 0.0,
+          "date": "03-Oct-11",
+          "product": "Pear",
+          "sample": "2011BPA0086-2"
+        },
+        {
+          "base": "2011BPA0270",
+          "base_bpa_ppb": 0.0,
+          "base_date": "14-Sep-11",
+          "base_present": true,
+          "base_product": "Corn",
+          "bpa_ppb": 0.0,
+          "date": "05-Jan-12",
+          "product": "Corn",
+          "sample": "2011BPA0270-2"
+        },
+        {
+          "base": "2011BPA0272",
+          "base_bpa_ppb": 0.0,
+          "base_date": "14-Sep-11",
+          "base_present": true,
+          "base_product": "Corn",
+          "bpa_ppb": 0.0,
+          "date": "05-Jan-12",
+          "product": "Corn",
+          "sample": "2011BPA0272-2"
+        }
+      ]
+    }
+  },
+  "grader_version": "0.1.0",
+  "old_pattern": "^C?\\d{4}[A-Z]+\\d{4,6}D?$",
+  "pattern": "^C?\\d{4}[A-Z]+\\d{3,6}(?:D|-2)?$",
+  "version": "0.1.1"
+}

@@ -72,14 +72,24 @@ silently covers only part of the file (a subset of pastas, canned food only, or 
 - [Pre-registration](bpa-series-0.1.0-prereg.md), [census note](bpa-series-0.1.0-census.md) and
   [grader note](bpa-series-0.1.0-grader.md). All seven files hold their printed totals. 2013-14
   has 45 pastas, so a later report's "34" is a slip. 2017-18 has 322 imported samples, not 325.
-  The 2009-10 file's sampling dates look like placeholders.
 - [Result for five of the seven files](bpa-series-0.1.0-result.md). 4 of 6 held. 2010-11 has no
   positive, and 2013-14 and 2017-18 reproduce in full. 2012-13's Table 5 leaves out 67 of the
   file's 119 canned pastas and counts three salsas as curry. 2016-17's Table 2 is canned food only,
   and the file's 27 extra samples carry exactly the report's 21 non-canned positives. At a common
   5.2 ppb cut, 2013-14's positive share is 2.4 times 2012-13's, and it is higher in every shared
   category.
-- 2009-10 and 2011-12 failed only the sample-ID pattern (every count held). They are being
-  regraded under the [ID-pattern amendment](id-pattern-0.1.1-amendment.md).
+- [Regrade of 2009-10 and 2011-12](bpa-series-0.1.1-regrade-result.md), under the
+  [ID-pattern amendment](id-pattern-0.1.1-amendment.md). All seven gates pass, and 6 of 8 graded
+  items held. 2009-10 has 82 positives (9 in infant food, 1.4-9.6 ppb), and 2011-12 has exactly
+  six. The 2009-10 dates are 200 consecutive days assigned in the text-sorted order of the sample
+  IDs, and 35 of those IDs are zero-padded wrongly, so they are not real sampling dates. The three
+  2011-12 `-2` IDs are separate later samples that reuse a number.
+
+## Food colours, 2009-10 and 2018-19
+
+- [Pre-registration](food-colours-0.1.0-prereg.md), fixed from the printed reports before either
+  file is read. The 2018-19 report's own tables differ by one detection: the per-colour counts add
+  up to 337 and the per-commodity counts to 336. Its text also gives 219 colour-free samples
+  against the table's 218. A names-only census comes next.
 
 MV2, Munim, Inc., mv2@munimtech.com

@@ -1,0 +1,6682 @@
+{
+  "analysis": {
+    "bpa-2009": {
+      "bpa": {
+        "all": {
+          "k": 82,
+          "max": 9.6,
+          "mean": 4.0475609756097555,
+          "min": 1.4,
+          "n": 200,
+          "pct": 41.0
+        },
+        "food": {
+          "k": 9,
+          "max": 9.6,
+          "mean": 4.333333333333333,
+          "min": 1.4,
+          "n": 100,
+          "pct": 9.0
+        },
+        "formula": {
+          "k": 73,
+          "max": 9.2,
+          "mean": 4.012328767123288,
+          "min": 1.6,
+          "n": 100,
+          "pct": 73.0
+        }
+      },
+      "dates": {
+        "distinct": 200,
+        "first": "2009-07-21",
+        "last": "2010-02-05",
+        "n": 200,
+        "parsed": 200,
+        "top": [
+          [
+            "2009-07-21",
+            1
+          ],
+          [
+            "2009-07-22",
+            1
+          ],
+          [
+            "2009-07-23",
+            1
+          ]
+        ],
+        "unparsed_examples": []
+      },
+      "highest": [
+        {
+          "date": "12/9/2009",
+          "function": "Import",
+          "origin": "United States",
+          "ppb": {
+            "badge": 0.0,
+            "bpa": 9.6,
+            "bpf": 0.0,
+            "bps": 0.0
+          },
+          "product": "Infant Food",
+          "sample": "2009BPA0125",
+          "type": "food"
+        },
+        {
+          "date": "10/27/2009",
+          "function": "Import",
+          "origin": "United States",
+          "ppb": {
+            "badge": 0.0,
+            "bpa": 9.2,
+            "bpf": 0.0,
+            "bps": 0.0
+          },
+          "product": "Infant Formula",
+          "sample": "2009BPA0074",
+          "type": "formula"
+        },
+        {
+          "date": "10/18/2009",
+          "function": "Import",
+          "origin": "United States",
+          "ppb": {
+            "badge": 0.0,
+            "bpa": 8.7,
+            "bpf": 0.0,
+            "bps": 0.0
+          },
+          "product": "Infant Formula",
+          "sample": "2009BPA0063",
+          "type": "formula"
+        }
+      ],
+      "lowest": [
+        {
+          "date": "11/30/2009",
+          "function": "Domestic",
+          "origin": "Unknown",
+          "ppb": {
+            "badge": 0.0,
+            "bpa": 1.4,
+            "bpf": 0.0,
+            "bps": 0.0
+          },
+          "product": "Infant Food",
+          "sample": "2009BPA0116",
+          "type": "food"
+        }
+      ],
+      "n": 200,
+      "origins": {
+        "food": [
+          30,
+          66,
+          4,
+          100
+        ],
+        "formula": [
+          2,
+          94,
+          4,
+          100
+        ]
+      },
+      "positives": [
+        {
+          "date": "12/9/2009",
+          "function": "Import",
+          "origin": "United States",
+          "ppb": {
+            "badge": 0.0,
+            "bpa": 9.6,
+            "bpf": 0.0,
+            "bps": 0.0
+          },
+          "product": "Infant Food",
+          "sample": "2009BPA0125",
+          "type": "food"
+        },
+        {
+          "date": "10/27/2009",
+          "function": "Import",
+          "origin": "United States",
+          "ppb": {
+            "badge": 0.0,
+            "bpa": 9.2,
+            "bpf": 0.0,
+            "bps": 0.0
+          },
+          "product": "Infant Formula",
+          "sample": "2009BPA0074",
+          "type": "formula"
+        },
+        {
+          "date": "10/18/2009",
+          "function": "Import",
+          "origin": "United States",
+          "ppb": {
+            "badge": 0.0,
+            "bpa": 8.7,
+            "bpf": 0.0,
+            "bps": 0.0
+          },
+          "product": "Infant Formula",
+          "sample": "2009BPA0063",
+          "type": "formula"
+        },
+        {
+          "date": "10/19/2009",
+          "function": "Import",
+          "origin": "United States",
+          "ppb": {
+            "badge": 0.0,
+            "bpa": 8.5,
+            "bpf": 0.0,
+            "bps": 0.0
+          },
+          "product": "Infant Formula",
+          "sample": "2009BPA0064",
+          "type": "formula"
+        },
+        {
+          "date": "10/29/2009",
+          "function": "Import",
+          "origin": "United States",
+          "ppb": {
+            "badge": 0.0,
+            "bpa": 8.0,
+            "bpf": 0.0,
+            "bps": 0.0
+          },
+          "product": "Infant Formula",
+          "sample": "2009BPA0076",
+          "type": "formula"
+        },
+        {
+          "date": "11/2/2009",
+          "function": "Import",
+          "origin": "United States",
+          "ppb": {
+            "badge": 0.0,
+            "bpa": 8.0,
+            "bpf": 0.0,
+            "bps": 0.0
+          },
+          "product": "Infant Formula",
+          "sample": "2009BPA0080",
+          "type": "formula"
+        },
+        {
+          "date": "10/24/2009",
+          "function": "Import",
+          "origin": "United States",
+          "ppb": {
+            "badge": 0.0,
+            "bpa": 7.7,
+            "bpf": 0.0,
+            "bps": 0.0
+          },
+          "product": "Infant Formula",
+          "sample": "2009BPA0071",
+          "type": "formula"
+        },
+        {
+          "date": "10/28/2009",
+          "function": "Import",
+          "origin": "United States",
+          "ppb": {
+            "badge": 0.0,
+            "bpa": 7.7,
+            "bpf": 0.0,
+            "bps": 0.0
+          },
+          "product": "Infant Formula",
+          "sample": "2009BPA0075",
+          "type": "formula"
+        },
+        {
+          "date": "12/5/2009",
+          "function": "Import",
+          "origin": "United States",
+          "ppb": {
+            "badge": 0.0,
+            "bpa": 7.5,
+            "bpf": 0.0,
+            "bps": 0.0
+          },
+          "product": "Infant Food",
+          "sample": "2009BPA0121",
+          "type": "food"
+        },
+        {
+          "date": "10/16/2009",
+          "function": "Import",
+          "origin": "Unknown",
+          "ppb": {
+            "badge": 0.0,
+            "bpa": 7.1,
+            "bpf": 0.0,
+            "bps": 0.0
+          },
+          "product": "Infant Formula",
+          "sample": "2009BPA0061",
+          "type": "formula"
+        },
+        {
+          "date": "8/12/2009",
+          "function": "Import",
+          "origin": "United States",
+          "ppb": {
+            "badge": 0.0,
+            "bpa": 5.4,
+            "bpf": 0.0,
+            "bps": 0.0
+          },
+          "product": "Infant Formula",
+          "sample": "2009BPA0013",
+          "type": "formula"
+        },
+        {
+          "date": "8/19/2009",
+          "function": "Import",
+          "origin": "United States",
+          "ppb": {
+            "badge": 0.0,
+            "bpa": 5.4,
+            "bpf": 0.0,
+            "bps": 0.0
+          },
+          "product": "Infant Formula",
+          "sample": "2009BPA0014",
+          "type": "formula"
+        },
+        {
+          "date": "8/30/2009",
+          "function": "Import",
+          "origin": "United States",
+          "ppb": {
+            "badge": 0.0,
+            "bpa": 5.4,
+            "bpf": 0.0,
+            "bps": 0.0
+          },
+          "product": "Infant Formula",
+          "sample": "2009BPA0015",
+          "type": "formula"
+        },
+        {
+          "date": "12/3/2009",
+          "function": "Import",
+          "origin": "United States",
+          "ppb": {
+            "badge": 0.0,
+            "bpa": 5.2,
+            "bpf": 0.0,
+            "bps": 0.0
+          },
+          "product": "Infant Food",
+          "sample": "2009BPA0119",
+          "type": "food"
+        },
+        {
+          "date": "9/27/2009",
+          "function": "Import",
+          "origin": "United States",
+          "ppb": {
+            "badge": 0.0,
+            "bpa": 5.1,
+            "bpf": 0.0,
+            "bps": 0.0
+          },
+          "product": "Infant Formula",
+          "sample": "2009BPA0042",
+          "type": "formula"
+        },
+        {
+          "date": "9/29/2009",
+          "function": "Import",
+          "origin": "United States",
+          "ppb": {
+            "badge": 0.0,
+            "bpa": 5.1,
+            "bpf": 0.0,
+            "bps": 0.0
+          },
+          "product": "Infant Formula",
+          "sample": "2009BPA0044",
+          "type": "formula"
+        },
+        {
+          "date": "11/18/2009",
+          "function": "Import",
+          "origin": "United States",
+          "ppb": {
+            "badge": 0.0,
+            "bpa": 5.1,
+            "bpf": 0.0,
+            "bps": 0.0
+          },
+          "product": "Infant Food",
+          "sample": "2009BPA0104",
+          "type": "food"
+        },
+        {
+          "date": "9/1/2009",
+          "function": "Import",
+          "origin": "United States",
+          "ppb": {
+            "badge": 0.0,
+            "bpa": 5.0,
+            "bpf": 0.0,
+            "bps": 0.0
+          },
+          "product": "Infant Formula",
+          "sample": "2009BPA0016",
+          "type": "formula"
+        },
+        {
+          "date": "9/20/2009",
+          "function": "Import",
+          "origin": "United States",
+          "ppb": {
+            "badge": 0.0,
+            "bpa": 5.0,
+            "bpf": 0.0,
+            "bps": 0.0
+          },
+          "product": "Infant Formula",
+          "sample": "2009BPA0035",
+          "type": "formula"
+        },
+        {
+          "date": "7/29/2009",
+          "function": "Import",
+          "origin": "United States",
+          "ppb": {
+            "badge": 0.0,
+            "bpa": 4.9,
+            "bpf": 0.0,
+            "bps": 0.0
+          },
+          "product": "Infant Formula",
+          "sample": "2009BPA0007",
+          "type": "formula"
+        },
+        {
+          "date": "9/21/2009",
+          "function": "Import",
+          "origin": "United States",
+          "ppb": {
+            "badge": 0.0,
+            "bpa": 4.9,
+            "bpf": 0.0,
+            "bps": 0.0
+          },
+          "product": "Infant Formula",
+          "sample": "2009BPA0036",
+          "type": "formula"
+        },
+        {
+          "date": "9/30/2009",
+          "function": "Import",
+          "origin": "United States",
+          "ppb": {
+            "badge": 0.0,
+            "bpa": 4.9,
+            "bpf": 0.0,
+            "bps": 0.0
+          },
+          "product": "Infant Formula",
+          "sample": "2009BPA0045",
+          "type": "formula"
+        },
+        {
+          "date": "8/11/2009",
+          "function": "Import",
+          "origin": "United States",
+          "ppb": {
+            "badge": 0.0,
+            "bpa": 4.8,
+            "bpf": 0.0,
+            "bps": 0.0
+          },
+          "product": "Infant Formula",
+          "sample": "2009BPA0012",
+          "type": "formula"
+        },
+        {
+          "date": "9/26/2009",
+          "function": "Import",
+          "origin": "United States",
+          "ppb": {
+            "badge": 0.0,
+            "bpa": 4.7,
+            "bpf": 0.0,
+            "bps": 0.0
+          },
+          "product": "Infant Formula",
+          "sample": "2009BPA0041",
+          "type": "formula"
+        },
+        {
+          "date": "8/10/2009",
+          "function": "Import",
+          "origin": "United States",
+          "ppb": {
+            "badge": 0.0,
+            "bpa": 4.6,
+            "bpf": 0.0,
+            "bps": 0.0
+          },
+          "product": "Infant Formula",
+          "sample": "2009BPA0011",
+          "type": "formula"
+        },
+        {
+          "date": "9/22/2009",
+          "function": "Import",
+          "origin": "United States",
+          "ppb": {
+            "badge": 0.0,
+            "bpa": 4.6,
+            "bpf": 0.0,
+            "bps": 0.0
+          },
+          "product": "Infant Formula",
+          "sample": "2009BPA0037",
+          "type": "formula"
+        },
+        {
+          "date": "9/25/2009",
+          "function": "Import",
+          "origin": "United States",
+          "ppb": {
+            "badge": 0.0,
+            "bpa": 4.6,
+            "bpf": 0.0,
+            "bps": 0.0
+          },
+          "product": "Infant Formula",
+          "sample": "2009BPA0040",
+          "type": "formula"
+        },
+        {
+          "date": "8/8/2009",
+          "function": "Import",
+          "origin": "United States",
+          "ppb": {
+            "badge": 0.0,
+            "bpa": 4.5,
+            "bpf": 0.0,
+            "bps": 0.0
+          },
+          "product": "Infant Formula",
+          "sample": "2009BPA0009",
+          "type": "formula"
+        },
+        {
+          "date": "9/11/2009",
+          "function": "Import",
+          "origin": "United States",
+          "ppb": {
+            "badge": 0.0,
+            "bpa": 4.5,
+            "bpf": 0.0,
+            "bps": 0.0
+          },
+          "product": "Infant Formula",
+          "sample": "2009BPA0026",
+          "type": "formula"
+        },
+        {
+          "date": "10/1/2009",
+          "function": "Import",
+          "origin": "United States",
+          "ppb": {
+            "badge": 0.0,
+            "bpa": 4.5,
+            "bpf": 0.0,
+            "bps": 0.0
+          },
+          "product": "Infant Formula",
+          "sample": "2009BPA0046",
+          "type": "formula"
+        },
+        {
+          "date": "8/9/2009",
+          "function": "Import",
+          "origin": "United States",
+          "ppb": {
+            "badge": 0.0,
+            "bpa": 4.4,
+            "bpf": 0.0,
+            "bps": 0.0
+          },
+          "product": "Infant Formula",
+          "sample": "2009BPA0010",
+          "type": "formula"
+        },
+        {
+          "date": "9/9/2009",
+          "function": "Import",
+          "origin": "United States",
+          "ppb": {
+            "badge": 0.0,
+            "bpa": 4.4,
+            "bpf": 0.0,
+            "bps": 0.0
+          },
+          "product": "Infant Formula",
+          "sample": "2009BPA0024",
+          "type": "formula"
+        },
+        {
+          "date": "9/14/2009",
+          "function": "Import",
+          "origin": "United States",
+          "ppb": {
+            "badge": 0.0,
+            "bpa": 4.4,
+            "bpf": 0.0,
+            "bps": 0.0
+          },
+          "product": "Infant Formula",
+          "sample": "2009BPA0029",
+          "type": "formula"
+        },
+        {
+          "date": "10/2/2009",
+          "function": "Import",
+          "origin": "United States",
+          "ppb": {
+            "badge": 0.0,
+            "bpa": 4.4,
+            "bpf": 0.0,
+            "bps": 0.0
+          },
+          "product": "Infant Formula",
+          "sample": "2009BPA0047",
+          "type": "formula"
+        },
+        {
+          "date": "9/6/2009",
+          "function": "Import",
+          "origin": "United States",
+          "ppb": {
+            "badge": 0.0,
+            "bpa": 4.3,
+            "bpf": 0.0,
+            "bps": 0.0
+          },
+          "product": "Infant Formula",
+          "sample": "2009BPA0021",
+          "type": "formula"
+        },
+        {
+          "date": "9/12/2009",
+          "function": "Import",
+          "origin": "United States",
+          "ppb": {
+            "badge": 0.0,
+            "bpa": 4.2,
+            "bpf": 0.0,
+            "bps": 0.0
+          },
+          "product": "Infant Formula",
+          "sample": "2009BPA0027",
+          "type": "formula"
+        },
+        {
+          "date": "9/15/2009",
+          "function": "Import",
+          "origin": "United States",
+          "ppb": {
+            "badge": 0.0,
+            "bpa": 4.2,
+            "bpf": 0.0,
+            "bps": 0.0
+          },
+          "product": "Infant Formula",
+          "sample": "2009BPA0030",
+          "type": "formula"
+        },
+        {
+          "date": "9/13/2009",
+          "function": "Import",
+          "origin": "United States",
+          "ppb": {
+            "badge": 0.0,
+            "bpa": 4.1,
+            "bpf": 0.0,
+            "bps": 0.0
+          },
+          "product": "Infant Formula",
+          "sample": "2009BPA0028",
+          "type": "formula"
+        },
+        {
+          "date": "9/24/2009",
+          "function": "Import",
+          "origin": "United States",
+          "ppb": {
+            "badge": 0.0,
+            "bpa": 4.1,
+            "bpf": 0.0,
+            "bps": 0.0
+          },
+          "product": "Infant Formula",
+          "sample": "2009BPA0039",
+          "type": "formula"
+        },
+        {
+          "date": "7/22/2009",
+          "function": "Import",
+          "origin": "United States",
+          "ppb": {
+            "badge": 0.0,
+            "bpa": 4.0,
+            "bpf": 0.0,
+            "bps": 0.0
+          },
+          "product": "Infant Formula",
+          "sample": "2009BPA0002",
+          "type": "formula"
+        },
+        {
+          "date": "9/8/2009",
+          "function": "Import",
+          "origin": "United States",
+          "ppb": {
+            "badge": 0.0,
+            "bpa": 4.0,
+            "bpf": 0.0,
+            "bps": 0.0
+          },
+          "product": "Infant Formula",
+          "sample": "2009BPA0023",
+          "type": "formula"
+        },
+        {
+          "date": "9/16/2009",
+          "function": "Import",
+          "origin": "United States",
+          "ppb": {
+            "badge": 0.0,
+            "bpa": 4.0,
+            "bpf": 0.0,
+            "bps": 0.0
+          },
+          "product": "Infant Formula",
+          "sample": "2009BPA0031",
+          "type": "formula"
+        },
+        {
+          "date": "9/28/2009",
+          "function": "Import",
+          "origin": "United States",
+          "ppb": {
+            "badge": 0.0,
+            "bpa": 3.9,
+            "bpf": 0.0,
+            "bps": 0.0
+          },
+          "product": "Infant Formula",
+          "sample": "2009BPA0043",
+          "type": "formula"
+        },
+        {
+          "date": "9/23/2009",
+          "function": "Import",
+          "origin": "United States",
+          "ppb": {
+            "badge": 0.0,
+            "bpa": 3.8,
+            "bpf": 0.0,
+            "bps": 0.0
+          },
+          "product": "Infant Formula",
+          "sample": "2009BPA0038",
+          "type": "formula"
+        },
+        {
+          "date": "10/14/2009",
+          "function": "Import",
+          "origin": "Unknown",
+          "ppb": {
+            "badge": 0.0,
+            "bpa": 3.8,
+            "bpf": 0.0,
+            "bps": 0.0
+          },
+          "product": "Infant Formula",
+          "sample": "2009BPA0059",
+          "type": "formula"
+        },
+        {
+          "date": "9/4/2009",
+          "function": "Import",
+          "origin": "United States",
+          "ppb": {
+            "badge": 0.0,
+            "bpa": 3.6,
+            "bpf": 0.0,
+            "bps": 0.0
+          },
+          "product": "Infant Formula",
+          "sample": "2009BPA0019",
+          "type": "formula"
+        },
+        {
+          "date": "9/10/2009",
+          "function": "Import",
+          "origin": "United States",
+          "ppb": {
+            "badge": 0.0,
+            "bpa": 3.6,
+            "bpf": 0.0,
+            "bps": 0.0
+          },
+          "product": "Infant Formula",
+          "sample": "2009BPA0025",
+          "type": "formula"
+        },
+        {
+          "date": "9/7/2009",
+          "function": "Import",
+          "origin": "United States",
+          "ppb": {
+            "badge": 0.0,
+            "bpa": 3.5,
+            "bpf": 0.0,
+            "bps": 0.0
+          },
+          "product": "Infant Formula",
+          "sample": "2009BPA0022",
+          "type": "formula"
+        },
+        {
+          "date": "12/6/2009",
+          "function": "Import",
+          "origin": "United States",
+          "ppb": {
+            "badge": 0.0,
+            "bpa": 3.4,
+            "bpf": 0.0,
+            "bps": 0.0
+          },
+          "product": "Infant Food",
+          "sample": "2009BPA0122",
+          "type": "food"
+        },
+        {
+          "date": "10/12/2009",
+          "function": "Import",
+          "origin": "Unknown",
+          "ppb": {
+            "badge": 0.0,
+            "bpa": 3.2,
+            "bpf": 0.0,
+            "bps": 0.0
+          },
+          "product": "Infant Formula",
+          "sample": "2009BPA0057",
+          "type": "formula"
+        },
+        {
+          "date": "7/23/2009",
+          "function": "Import",
+          "origin": "United States",
+          "ppb": {
+            "badge": 0.0,
+            "bpa": 3.1,
+            "bpf": 0.0,
+            "bps": 0.0
+          },
+          "product": "Infant Formula",
+          "sample": "2009BPA0003",
+          "type": "formula"
+        },
+        {
+          "date": "10/10/2009",
+          "function": "Import",
+          "origin": "Unknown",
+          "ppb": {
+            "badge": 0.0,
+            "bpa": 2.9,
+            "bpf": 0.0,
+            "bps": 0.0
+          },
+          "product": "Infant Formula",
+          "sample": "2009BPA0055",
+          "type": "formula"
+        },
+        {
+          "date": "10/15/2009",
+          "function": "Unknown",
+          "origin": "United States",
+          "ppb": {
+            "badge": 0.0,
+            "bpa": 2.9,
+            "bpf": 0.0,
+            "bps": 0.0
+          },
+          "product": "Infant Formula",
+          "sample": "2009BPA0060",
+          "type": "formula"
+        },
+        {
+          "date": "7/30/2009",
+          "function": "Import",
+          "origin": "United States",
+          "ppb": {
+            "badge": 0.0,
+            "bpa": 2.7,
+            "bpf": 0.0,
+            "bps": 0.0
+          },
+          "product": "Infant Formula",
+          "sample": "2009BPA0008",
+          "type": "formula"
+        },
+        {
+          "date": "10/8/2009",
+          "function": "Import",
+          "origin": "Unknown",
+          "ppb": {
+            "badge": 0.0,
+            "bpa": 2.7,
+            "bpf": 0.0,
+            "bps": 0.0
+          },
+          "product": "Infant Formula",
+          "sample": "2009BPA0053",
+          "type": "formula"
+        },
+        {
+          "date": "12/8/2009",
+          "function": "Import",
+          "origin": "United States",
+          "ppb": {
+            "badge": 0.0,
+            "bpa": 2.6,
+            "bpf": 0.0,
+            "bps": 0.0
+          },
+          "product": "Infant Food",
+          "sample": "2009BPA0124",
+          "type": "food"
+        },
+        {
+          "date": "7/21/2009",
+          "function": "Import",
+          "origin": "United States",
+          "ppb": {
+            "badge": 0.0,
+            "bpa": 2.5,
+            "bpf": 0.0,
+            "bps": 0.0
+          },
+          "product": "Infant Formula",
+          "sample": "2009BPA0001",
+          "type": "formula"
+        },
+        {
+          "date": "9/2/2009",
+          "function": "Import",
+          "origin": "United States",
+          "ppb": {
+            "badge": 0.0,
+            "bpa": 2.5,
+            "bpf": 0.0,
+            "bps": 0.0
+          },
+          "product": "Infant Formula",
+          "sample": "2009BPA0017",
+          "type": "formula"
+        },
+        {
+          "date": "9/3/2009",
+          "function": "Import",
+          "origin": "United States",
+          "ppb": {
+            "badge": 0.0,
+            "bpa": 2.5,
+            "bpf": 0.0,
+            "bps": 0.0
+          },
+          "product": "Infant Formula",
+          "sample": "2009BPA0018",
+          "type": "formula"
+        },
+        {
+          "date": "10/9/2009",
+          "function": "Import",
+          "origin": "Unknown",
+          "ppb": {
+            "badge": 0.0,
+            "bpa": 2.5,
+            "bpf": 0.0,
+            "bps": 0.0
+          },
+          "product": "Infant Formula",
+          "sample": "2009BPA0054",
+          "type": "formula"
+        },
+        {
+          "date": "10/13/2009",
+          "function": "Import",
+          "origin": "Unknown",
+          "ppb": {
+            "badge": 0.0,
+            "bpa": 2.5,
+            "bpf": 0.0,
+            "bps": 0.0
+          },
+          "product": "Infant Formula",
+          "sample": "2009BPA0058",
+          "type": "formula"
+        },
+        {
+          "date": "7/24/2009",
+          "function": "Import",
+          "origin": "United States",
+          "ppb": {
+            "badge": 0.0,
+            "bpa": 2.4,
+            "bpf": 0.0,
+            "bps": 0.0
+          },
+          "product": "Infant Formula",
+          "sample": "2009BPA0004",
+          "type": "formula"
+        },
+        {
+          "date": "9/17/2009",
+          "function": "Import",
+          "origin": "Unknown",
+          "ppb": {
+            "badge": 0.0,
+            "bpa": 2.4,
+            "bpf": 0.0,
+            "bps": 0.0
+          },
+          "product": "Infant Formula",
+          "sample": "2009BPA0032",
+          "type": "formula"
+        },
+        {
+          "date": "9/19/2009",
+          "function": "Import",
+          "origin": "Unknown",
+          "ppb": {
+            "badge": 0.0,
+            "bpa": 2.4,
+            "bpf": 0.0,
+            "bps": 0.0
+          },
+          "product": "Infant Formula",
+          "sample": "2009BPA0034",
+          "type": "formula"
+        },
+        {
+          "date": "10/22/2009",
+          "function": "Domestic",
+          "origin": "Unknown",
+          "ppb": {
+            "badge": 0.0,
+            "bpa": 2.4,
+            "bpf": 0.0,
+            "bps": 0.0
+          },
+          "product": "Infant Formula",
+          "sample": "2009BPA0069",
+          "type": "formula"
+        },
+        {
+          "date": "11/25/2009",
+          "function": "Domestic",
+          "origin": "Canada",
+          "ppb": {
+            "badge": 0.0,
+            "bpa": 2.4,
+            "bpf": 0.0,
+            "bps": 0.0
+          },
+          "product": "Infant Food",
+          "sample": "2009BPA0111",
+          "type": "food"
+        },
+        {
+          "date": "9/5/2009",
+          "function": "Import",
+          "origin": "United States",
+          "ppb": {
+            "badge": 0.0,
+            "bpa": 2.3,
+            "bpf": 0.0,
+            "bps": 0.0
+          },
+          "product": "Infant Formula",
+          "sample": "2009BPA0020",
+          "type": "formula"
+        },
+        {
+          "date": "9/18/2009",
+          "function": "Import",
+          "origin": "Unknown",
+          "ppb": {
+            "badge": 0.0,
+            "bpa": 2.3,
+            "bpf": 0.0,
+            "bps": 0.0
+          },
+          "product": "Infant Formula",
+          "sample": "2009BPA0033",
+          "type": "formula"
+        },
+        {
+          "date": "10/11/2009",
+          "function": "Import",
+          "origin": "Unknown",
+          "ppb": {
+            "badge": 0.0,
+            "bpa": 2.3,
+            "bpf": 0.0,
+            "bps": 0.0
+          },
+          "product": "Infant Formula",
+          "sample": "2009BPA0056",
+          "type": "formula"
+        },
+        {
+          "date": "10/23/2009",
+          "function": "Domestic",
+          "origin": "Unknown",
+          "ppb": {
+            "badge": 0.0,
+            "bpa": 2.3,
+            "bpf": 0.0,
+            "bps": 0.0
+          },
+          "product": "Infant Formula",
+          "sample": "2009BPA0070",
+          "type": "formula"
+        },
+        {
+          "date": "10/4/2009",
+          "function": "Import",
+          "origin": "Unknown",
+          "ppb": {
+            "badge": 0.0,
+            "bpa": 2.1,
+            "bpf": 0.0,
+            "bps": 0.0
+          },
+          "product": "Infant Formula",
+          "sample": "2009BPA0049",
+          "type": "formula"
+        },
+        {
+          "date": "10/3/2009",
+          "function": "Import",
+          "origin": "Unknown",
+          "ppb": {
+            "badge": 0.0,
+            "bpa": 2.0,
+            "bpf": 0.0,
+            "bps": 0.0
+          },
+          "product": "Infant Formula",
+          "sample": "2009BPA0048",
+          "type": "formula"
+        },
+        {
+          "date": "10/7/2009",
+          "function": "Import",
+          "origin": "Unknown",
+          "ppb": {
+            "badge": 0.0,
+            "bpa": 2.0,
+            "bpf": 0.0,
+            "bps": 0.0
+          },
+          "product": "Infant Formula",
+          "sample": "2009BPA0052",
+          "type": "formula"
+        },
+        {
+          "date": "7/25/2009",
+          "function": "Import",
+          "origin": "United States",
+          "ppb": {
+            "badge": 0.0,
+            "bpa": 1.9,
+            "bpf": 0.0,
+            "bps": 0.0
+          },
+          "product": "Infant Formula",
+          "sample": "2009BPA0005",
+          "type": "formula"
+        },
+        {
+          "date": "10/5/2009",
+          "function": "Import",
+          "origin": "Unknown",
+          "ppb": {
+            "badge": 0.0,
+            "bpa": 1.9,
+            "bpf": 0.0,
+            "bps": 0.0
+          },
+          "product": "Infant Formula",
+          "sample": "2009BPA0050",
+          "type": "formula"
+        },
+        {
+          "date": "10/6/2009",
+          "function": "Import",
+          "origin": "Unknown",
+          "ppb": {
+            "badge": 0.0,
+            "bpa": 1.9,
+            "bpf": 0.0,
+            "bps": 0.0
+          },
+          "product": "Infant Formula",
+          "sample": "2009BPA0051",
+          "type": "formula"
+        },
+        {
+          "date": "10/21/2009",
+          "function": "Unknown",
+          "origin": "Unknown",
+          "ppb": {
+            "badge": 0.0,
+            "bpa": 1.9,
+            "bpf": 0.0,
+            "bps": 0.0
+          },
+          "product": "Infant Formula",
+          "sample": "2009BPA0068",
+          "type": "formula"
+        },
+        {
+          "date": "12/4/2009",
+          "function": "Import",
+          "origin": "United States",
+          "ppb": {
+            "badge": 0.0,
+            "bpa": 1.8,
+            "bpf": 0.0,
+            "bps": 0.0
+          },
+          "product": "Infant Food",
+          "sample": "2009BPA0120",
+          "type": "food"
+        },
+        {
+          "date": "7/26/2009",
+          "function": "Import",
+          "origin": "United States",
+          "ppb": {
+            "badge": 0.0,
+            "bpa": 1.7,
+            "bpf": 0.0,
+            "bps": 0.0
+          },
+          "product": "Infant Formula",
+          "sample": "2009BPA0006",
+          "type": "formula"
+        },
+        {
+          "date": "7/27/2009",
+          "function": "Import",
+          "origin": "Unknown",
+          "ppb": {
+            "badge": 0.0,
+            "bpa": 1.6,
+            "bpf": 0.0,
+            "bps": 0.0
+          },
+          "product": "Infant Formula",
+          "sample": "2009BPA00065",
+          "type": "formula"
+        },
+        {
+          "date": "7/28/2009",
+          "function": "Import",
+          "origin": "Unknown",
+          "ppb": {
+            "badge": 0.0,
+            "bpa": 1.6,
+            "bpf": 0.0,
+            "bps": 0.0
+          },
+          "product": "Infant Formula",
+          "sample": "2009BPA00066",
+          "type": "formula"
+        },
+        {
+          "date": "11/30/2009",
+          "function": "Domestic",
+          "origin": "Unknown",
+          "ppb": {
+            "badge": 0.0,
+            "bpa": 1.4,
+            "bpf": 0.0,
+            "bps": 0.0
+          },
+          "product": "Infant Food",
+          "sample": "2009BPA0116",
+          "type": "food"
+        }
+      ],
+      "t1": {
+        "consecutive": true,
+        "distinct": 200,
+        "first": "2009-07-21",
+        "last": "2010-02-05",
+        "long_ids": [
+          [
+            "2009BPA00065",
+            "2009-07-27"
+          ],
+          [
+            "2009BPA00066",
+            "2009-07-28"
+          ],
+          [
+            "2009BPA00081",
+            "2009-07-31"
+          ],
+          [
+            "2009BPA00082",
+            "2009-08-01"
+          ],
+          [
+            "2009BPA00083",
+            "2009-08-02"
+          ],
+          [
+            "2009BPA00084",
+            "2009-08-03"
+          ],
+          [
+            "2009BPA00085",
+            "2009-08-04"
+          ],
+          [
+            "2009BPA00086",
+            "2009-08-05"
+          ],
+          [
+            "2009BPA00087",
+            "2009-08-06"
+          ],
+          [
+            "2009BPA00088",
+            "2009-08-07"
+          ],
+          [
+            "2009BPA00134",
+            "2009-08-13"
+          ],
+          [
+            "2009BPA00135",
+            "2009-08-14"
+          ],
+          [
+            "2009BPA00136",
+            "2009-08-15"
+          ],
+          [
+            "2009BPA00137",
+            "2009-08-16"
+          ],
+          [
+            "2009BPA00138",
+            "2009-08-17"
+          ],
+          [
+            "2009BPA00139",
+            "2009-08-18"
+          ],
+          [
+            "2009BPA00140",
+            "2009-08-20"
+          ],
+          [
+            "2009BPA00141",
+            "2009-08-21"
+          ],
+          [
+            "2009BPA00142",
+            "2009-08-22"
+          ],
+          [
+            "2009BPA00143",
+            "2009-08-23"
+          ],
+          [
+            "2009BPA00144",
+            "2009-08-24"
+          ],
+          [
+            "2009BPA00145",
+            "2009-08-25"
+          ],
+          [
+            "2009BPA00146",
+            "2009-08-26"
+          ],
+          [
+            "2009BPA00147",
+            "2009-08-27"
+          ],
+          [
+            "2009BPA00148",
+            "2009-08-28"
+          ],
+          [
+            "2009BPA00149",
+            "2009-08-29"
+          ],
+          [
+            "2009BPA00150",
+            "2009-08-31"
+          ]
+        ],
+        "n": 200,
+        "parsed": 200,
+        "rank_fits": {
+          "number": 31,
+          "row": 31,
+          "text": 200
+        },
+        "span_days": 200,
+        "start_plus_number_fits": 0,
+        "weekdays": {
+          "Fri": 29,
+          "Mon": 28,
+          "Sat": 28,
+          "Sun": 28,
+          "Thu": 29,
+          "Tue": 29,
+          "Wed": 29
+        }
+      },
+      "unmapped": []
+    },
+    "bpa-2010": {
+      "bpa": {
+        "all": {
+          "k": 0,
+          "max": null,
+          "mean": null,
+          "min": null,
+          "n": 234,
+          "pct": 0.0
+        },
+        "formula": {
+          "k": 0,
+          "max": null,
+          "mean": null,
+          "min": null,
+          "n": 129,
+          "pct": 0.0
+        },
+        "fruit": {
+          "k": 0,
+          "max": null,
+          "mean": null,
+          "min": null,
+          "n": 87,
+          "pct": 0.0
+        },
+        "juice": {
+          "k": 0,
+          "max": null,
+          "mean": null,
+          "min": null,
+          "n": 15,
+          "pct": 0.0
+        },
+        "other": {
+          "k": 0,
+          "max": null,
+          "mean": null,
+          "min": null,
+          "n": 3,
+          "pct": 0.0
+        }
+      },
+      "dates": {
+        "distinct": 0,
+        "first": null,
+        "last": null,
+        "n": 234,
+        "parsed": 0,
+        "top": [],
+        "unparsed_examples": [
+          "01-Feb-11",
+          "01-Mar-11",
+          "01-Nov-10",
+          "02-Dec-10",
+          "02-Feb-11"
+        ]
+      },
+      "highest": [],
+      "lowest": [],
+      "n": 234,
+      "origins": {
+        "formula": [
+          16,
+          113,
+          0,
+          129
+        ],
+        "fruit": [
+          8,
+          76,
+          3,
+          87
+        ],
+        "juice": [
+          11,
+          4,
+          0,
+          15
+        ],
+        "other": [
+          3,
+          0,
+          0,
+          3
+        ]
+      },
+      "positives": [],
+      "unmapped": []
+    },
+    "bpa-2011": {
+      "bpa": {
+        "all": {
+          "k": 6,
+          "max": 307.0,
+          "mean": 112.86666666666666,
+          "min": 18.0,
+          "n": 403,
+          "pct": 1.488833746898263
+        },
+        "fruit": {
+          "k": 0,
+          "max": null,
+          "mean": null,
+          "min": null,
+          "n": 101,
+          "pct": 0.0
+        },
+        "juice": {
+          "k": 0,
+          "max": null,
+          "mean": null,
+          "min": null,
+          "n": 50,
+          "pct": 0.0
+        },
+        "pasta": {
+          "k": 1,
+          "max": 73.0,
+          "mean": 73.0,
+          "min": 73.0,
+          "n": 96,
+          "pct": 1.0416666666666667
+        },
+        "soup": {
+          "k": 0,
+          "max": null,
+          "mean": null,
+          "min": null,
+          "n": 5,
+          "pct": 0.0
+        },
+        "veg": {
+          "k": 5,
+          "max": 307.0,
+          "mean": 120.83999999999999,
+          "min": 18.0,
+          "n": 151,
+          "pct": 3.3112582781456954
+        }
+      },
+      "dates": {
+        "distinct": 0,
+        "first": null,
+        "last": null,
+        "n": 403,
+        "parsed": 0,
+        "top": [],
+        "unparsed_examples": [
+          "01-Aug-11",
+          "01-Dec-11",
+          "01-Feb-12",
+          "01-Jun-11",
+          "01-May-11"
+        ]
+      },
+      "highest": [
+        {
+          "date": "13-Dec-11",
+          "function": "Import",
+          "origin": "UNITED STATES",
+          "ppb": {
+            "badge": 0.0,
+            "bpa": 307.0,
+            "bpf": 0.0,
+            "bps": 0.0
+          },
+          "product": "Carrot",
+          "sample": "2011BPA0302",
+          "type": "veg"
+        },
+        {
+          "date": "06-Jul-11",
+          "function": "Domestic",
+          "origin": "CANADA",
+          "ppb": {
+            "badge": 0.0,
+            "bpa": 183.3,
+            "bpf": 0.0,
+            "bps": 0.0
+          },
+          "product": "Pea",
+          "sample": "2011BPA0278",
+          "type": "veg"
+        },
+        {
+          "date": "22-Jul-11",
+          "function": "Domestic",
+          "origin": "CANADA",
+          "ppb": {
+            "badge": 0.0,
+            "bpa": 74.0,
+            "bpf": 0.0,
+            "bps": 0.0
+          },
+          "product": "Corn",
+          "sample": "2011BPA0306",
+          "type": "veg"
+        }
+      ],
+      "lowest": [
+        {
+          "date": "18-Aug-11",
+          "function": "Domestic",
+          "origin": "CANADA",
+          "ppb": {
+            "badge": 0.0,
+            "bpa": 18.0,
+            "bpf": 0.0,
+            "bps": 0.0
+          },
+          "product": "Carrot",
+          "sample": "2011BPA0369",
+          "type": "veg"
+        }
+      ],
+      "n": 403,
+      "origins": {
+        "fruit": [
+          0,
+          101,
+          0,
+          101
+        ],
+        "juice": [
+          30,
+          19,
+          1,
+          50
+        ],
+        "pasta": [
+          50,
+          45,
+          1,
+          96
+        ],
+        "soup": [
+          5,
+          0,
+          0,
+          5
+        ],
+        "veg": [
+          108,
+          43,
+          0,
+          151
+        ]
+      },
+      "positives": [
+        {
+          "date": "13-Dec-11",
+          "function": "Import",
+          "origin": "UNITED STATES",
+          "ppb": {
+            "badge": 0.0,
+            "bpa": 307.0,
+            "bpf": 0.0,
+            "bps": 0.0
+          },
+          "product": "Carrot",
+          "sample": "2011BPA0302",
+          "type": "veg"
+        },
+        {
+          "date": "06-Jul-11",
+          "function": "Domestic",
+          "origin": "CANADA",
+          "ppb": {
+            "badge": 0.0,
+            "bpa": 183.3,
+            "bpf": 0.0,
+            "bps": 0.0
+          },
+          "product": "Pea",
+          "sample": "2011BPA0278",
+          "type": "veg"
+        },
+        {
+          "date": "22-Jul-11",
+          "function": "Domestic",
+          "origin": "CANADA",
+          "ppb": {
+            "badge": 0.0,
+            "bpa": 74.0,
+            "bpf": 0.0,
+            "bps": 0.0
+          },
+          "product": "Corn",
+          "sample": "2011BPA0306",
+          "type": "veg"
+        },
+        {
+          "date": "29-Apr-11",
+          "function": "Domestic",
+          "origin": "CANADA",
+          "ppb": {
+            "badge": 0.0,
+            "bpa": 73.0,
+            "bpf": 0.0,
+            "bps": 0.0
+          },
+          "product": "Pasta - Canned",
+          "sample": "2011BPA0245",
+          "type": "pasta"
+        },
+        {
+          "date": "04-Jul-11",
+          "function": "Domestic",
+          "origin": "CANADA",
+          "ppb": {
+            "badge": 0.0,
+            "bpa": 21.9,
+            "bpf": 0.0,
+            "bps": 0.0
+          },
+          "product": "Carrot",
+          "sample": "2011BPA0363",
+          "type": "veg"
+        },
+        {
+          "date": "18-Aug-11",
+          "function": "Domestic",
+          "origin": "CANADA",
+          "ppb": {
+            "badge": 0.0,
+            "bpa": 18.0,
+            "bpf": 0.0,
+            "bps": 0.0
+          },
+          "product": "Carrot",
+          "sample": "2011BPA0369",
+          "type": "veg"
+        }
+      ],
+      "unmapped": [],
+      "v3": {
+        "carrot": 3,
+        "corn": 1,
+        "pasta": 1,
+        "pea": 1
+      }
+    },
+    "bpa-2012": {
+      "bpa": {
+        "all": {
+          "k": 145,
+          "max": 381.0,
+          "mean": 48.134,
+          "min": 5.2,
+          "n": 576,
+          "pct": 25.17361111111111
+        },
+        "bev": {
+          "k": 2,
+          "max": 12.0,
+          "mean": 8.95,
+          "min": 5.8999999999999995,
+          "n": 72,
+          "pct": 2.7777777777777777
+        },
+        "coconut": {
+          "k": 17,
+          "max": 381.0,
+          "mean": 65.36470588235295,
+          "min": 5.4,
+          "n": 46,
+          "pct": 36.95652173913044
+        },
+        "curry": {
+          "k": 3,
+          "max": 298.0,
+          "mean": 226.66666666666666,
+          "min": 88.0,
+          "n": 21,
+          "pct": 14.285714285714286
+        },
+        "fruit": {
+          "k": 1,
+          "max": 8.6,
+          "mean": 8.6,
+          "min": 8.6,
+          "n": 73,
+          "pct": 1.36986301369863
+        },
+        "pasta": {
+          "k": 53,
+          "max": 157.0,
+          "mean": 21.680943396226414,
+          "min": 5.2,
+          "n": 119,
+          "pct": 44.53781512605042
+        },
+        "soup": {
+          "k": 39,
+          "max": 277.0,
+          "mean": 76.16410256410256,
+          "min": 5.7,
+          "n": 98,
+          "pct": 39.795918367346935
+        },
+        "veg": {
+          "k": 30,
+          "max": 103.0,
+          "mean": 34.74133333333334,
+          "min": 5.54,
+          "n": 147,
+          "pct": 20.408163265306122
+        }
+      },
+      "curry_positives": [
+        {
+          "date": "24-Oct-12",
+          "function": "Import",
+          "origin": "THAILAND",
+          "ppb": {
+            "badge": 0.0,
+            "bpa": 298.0,
+            "bpf": 0.0,
+            "bps": 0.0
+          },
+          "product": "Curry",
+          "sample": "C2012BPHA00270",
+          "type": "curry"
+        },
+        {
+          "date": "28-Nov-12",
+          "function": "Import",
+          "origin": "THAILAND",
+          "ppb": {
+            "badge": 0.0,
+            "bpa": 294.0,
+            "bpf": 0.0,
+            "bps": 0.0
+          },
+          "product": "Curry",
+          "sample": "C2012BPHA00268",
+          "type": "curry"
+        },
+        {
+          "date": "06-Nov-12",
+          "function": "Import",
+          "origin": "INDIA",
+          "ppb": {
+            "badge": 0.0,
+            "bpa": 88.0,
+            "bpf": 0.0,
+            "bps": 0.0
+          },
+          "product": "Curry",
+          "sample": "C2012BPHA00392",
+          "type": "curry"
+        }
+      ],
+      "dates": {
+        "distinct": 0,
+        "first": null,
+        "last": null,
+        "n": 576,
+        "parsed": 0,
+        "top": [],
+        "unparsed_examples": [
+          "01-Apr-13",
+          "01-Aug-12",
+          "01-Feb-13",
+          "01-May-12",
+          "01-Nov-12"
+        ]
+      },
+      "highest": [
+        {
+          "date": "28-Nov-12",
+          "function": "Import",
+          "origin": "THAILAND",
+          "ppb": {
+            "badge": 0.0,
+            "bpa": 381.0,
+            "bpf": 0.0,
+            "bps": 0.0
+          },
+          "product": "Coconut Milk",
+          "sample": "C2012BPHA00254",
+          "type": "coconut"
+        },
+        {
+          "date": "24-Oct-12",
+          "function": "Import",
+          "origin": "THAILAND",
+          "ppb": {
+            "badge": 0.0,
+            "bpa": 298.0,
+            "bpf": 0.0,
+            "bps": 0.0
+          },
+          "product": "Curry",
+          "sample": "C2012BPHA00270",
+          "type": "curry"
+        },
+        {
+          "date": "28-Nov-12",
+          "function": "Import",
+          "origin": "THAILAND",
+          "ppb": {
+            "badge": 0.0,
+            "bpa": 294.0,
+            "bpf": 0.0,
+            "bps": 0.0
+          },
+          "product": "Curry",
+          "sample": "C2012BPHA00268",
+          "type": "curry"
+        }
+      ],
+      "lowest": [
+        {
+          "date": "01-May-12",
+          "function": "Import",
+          "origin": "UNITED STATES",
+          "ppb": {
+            "badge": 0.0,
+            "bpa": 5.2,
+            "bpf": 0.0,
+            "bps": 0.0
+          },
+          "product": "Pasta - Canned",
+          "sample": "C2012BPHA00533",
+          "type": "pasta"
+        }
+      ],
+      "n": 576,
+      "origins": {
+        "bev": [
+          3,
+          68,
+          1,
+          72
+        ],
+        "coconut": [
+          0,
+          46,
+          0,
+          46
+        ],
+        "curry": [
+          3,
+          18,
+          0,
+          21
+        ],
+        "fruit": [
+          0,
+          73,
+          0,
+          73
+        ],
+        "pasta": [
+          62,
+          39,
+          18,
+          119
+        ],
+        "soup": [
+          56,
+          24,
+          18,
+          98
+        ],
+        "veg": [
+          8,
+          132,
+          7,
+          147
+        ]
+      },
+      "pasta_soup_k": 92,
+      "salsa_map": {
+        "curry": {
+          "cells": {
+            "avg": true,
+            "detected": true,
+            "max": true,
+            "min": true,
+            "n": true
+          },
+          "stats": {
+            "k": 3,
+            "max": 298.0,
+            "mean": 226.66666666666666,
+            "min": 88.0,
+            "n": 24,
+            "pct": 12.5
+          }
+        },
+        "veg": {
+          "cells": {
+            "avg": false,
+            "detected": true,
+            "max": true,
+            "min": true,
+            "n": true
+          },
+          "stats": {
+            "k": 30,
+            "max": 103.0,
+            "mean": 34.74133333333334,
+            "min": 5.54,
+            "n": 144,
+            "pct": 20.833333333333332
+          }
+        }
+      },
+      "table5": {
+        "bev": {
+          "avg": true,
+          "detected": true,
+          "max": true,
+          "min": true,
+          "n": true
+        },
+        "coconut": {
+          "avg": false,
+          "detected": true,
+          "max": true,
+          "min": true,
+          "n": true
+        },
+        "curry": {
+          "avg": true,
+          "detected": true,
+          "max": true,
+          "min": true,
+          "n": false
+        },
+        "fruit": {
+          "avg": true,
+          "detected": true,
+          "max": true,
+          "min": true,
+          "n": true
+        },
+        "pasta": {
+          "avg": false,
+          "detected": false,
+          "max": true,
+          "min": true,
+          "n": false
+        },
+        "soup": {
+          "avg": true,
+          "detected": true,
+          "max": true,
+          "min": true,
+          "n": true
+        },
+        "veg": {
+          "avg": false,
+          "detected": true,
+          "max": true,
+          "min": true,
+          "n": false
+        }
+      },
+      "unmapped": [],
+      "v4_full": [
+        "bev",
+        "fruit"
+      ]
+    },
+    "bpa-2013": {
+      "bpa": {
+        "all": {
+          "k": 252,
+          "max": 565.0,
+          "mean": 27.109920634920634,
+          "min": 1.0,
+          "n": 391,
+          "pct": 64.45012787723785
+        },
+        "bev": {
+          "k": 34,
+          "max": 190.0,
+          "mean": 13.623529411764705,
+          "min": 1.1,
+          "n": 97,
+          "pct": 35.05154639175258
+        },
+        "coconut": {
+          "k": 12,
+          "max": 253.0,
+          "mean": 84.175,
+          "min": 4.8,
+          "n": 13,
+          "pct": 92.3076923076923
+        },
+        "curry": {
+          "k": 5,
+          "max": 226.0,
+          "mean": 75.53999999999999,
+          "min": 6.2,
+          "n": 5,
+          "pct": 100.0
+        },
+        "formula": {
+          "k": 28,
+          "max": 12.5,
+          "mean": 4.825,
+          "min": 1.1,
+          "n": 55,
+          "pct": 50.90909090909091
+        },
+        "fruit": {
+          "k": 19,
+          "max": 53.6,
+          "mean": 6.689473684210527,
+          "min": 1.0,
+          "n": 38,
+          "pct": 50.0
+        },
+        "pasta": {
+          "k": 45,
+          "max": 93.0,
+          "mean": 19.471111111111114,
+          "min": 6.7,
+          "n": 45,
+          "pct": 100.0
+        },
+        "pie": {
+          "k": 8,
+          "max": 47.300000000000004,
+          "mean": 22.2875,
+          "min": 3.4,
+          "n": 20,
+          "pct": 40.0
+        },
+        "soup": {
+          "k": 42,
+          "max": 307.0,
+          "mean": 42.61904761904762,
+          "min": 1.2,
+          "n": 48,
+          "pct": 87.5
+        },
+        "veg": {
+          "k": 59,
+          "max": 565.0,
+          "mean": 31.76271186440678,
+          "min": 1.1,
+          "n": 70,
+          "pct": 84.28571428571429
+        }
+      },
+      "d_suffixed": [
+        {
+          "date": "29-Mar-14",
+          "function": "Import",
+          "origin": "United States",
+          "ppb": {
+            "badge": 0.0,
+            "bpa": 4.8,
+            "bpf": 0.0,
+            "bps": 0.0
+          },
+          "product": "Infant Formula - Dairy",
+          "sample": "C2013BHPA00319D",
+          "type": "formula"
+        }
+      ],
+      "dates": {
+        "distinct": 0,
+        "first": null,
+        "last": null,
+        "n": 391,
+        "parsed": 0,
+        "top": [],
+        "unparsed_examples": [
+          "01-Jun-13",
+          "01-Mar-14",
+          "02-Jul-13",
+          "02-Mar-14",
+          "03-Jun-13"
+        ]
+      },
+      "highest": [
+        {
+          "date": "30-Jun-13",
+          "function": "Import",
+          "origin": "United States",
+          "ppb": {
+            "badge": 0.0,
+            "bpa": 565.0,
+            "bpf": 0.0,
+            "bps": 0.0
+          },
+          "product": "Corn",
+          "sample": "C2013BHPA00015",
+          "type": "veg"
+        },
+        {
+          "date": "08-Jul-13",
+          "function": "Domestic",
+          "origin": "Canada",
+          "ppb": {
+            "badge": 0.0,
+            "bpa": 307.0,
+            "bpf": 0.0,
+            "bps": 0.0
+          },
+          "product": "Soup",
+          "sample": "C2013BHPA00049",
+          "type": "soup"
+        },
+        {
+          "date": "25-Mar-14",
+          "function": "Import",
+          "origin": "Thailand",
+          "ppb": {
+            "badge": 0.0,
+            "bpa": 253.0,
+            "bpf": 0.0,
+            "bps": 0.0
+          },
+          "product": "Coconut Milk",
+          "sample": "C2013BHPA00309",
+          "type": "coconut"
+        }
+      ],
+      "lowest": [
+        {
+          "date": "19-Mar-14",
+          "function": "Import",
+          "origin": "Thailand",
+          "ppb": {
+            "badge": 0.0,
+            "bpa": 1.0,
+            "bpf": 0.0,
+            "bps": 0.0
+          },
+          "product": "Mixed Fruit",
+          "sample": "C2013BHPA00424",
+          "type": "fruit"
+        }
+      ],
+      "n": 391,
+      "origins": {
+        "bev": [
+          3,
+          74,
+          20,
+          97
+        ],
+        "coconut": [
+          0,
+          13,
+          0,
+          13
+        ],
+        "curry": [
+          0,
+          5,
+          0,
+          5
+        ],
+        "formula": [
+          3,
+          41,
+          11,
+          55
+        ],
+        "fruit": [
+          0,
+          38,
+          0,
+          38
+        ],
+        "pasta": [
+          4,
+          9,
+          32,
+          45
+        ],
+        "pie": [
+          3,
+          5,
+          12,
+          20
+        ],
+        "soup": [
+          7,
+          11,
+          30,
+          48
+        ],
+        "veg": [
+          1,
+          68,
+          1,
+          70
+        ]
+      },
+      "table5": {
+        "bev": {
+          "avg": true,
+          "detected": true,
+          "max": true,
+          "min": true,
+          "n": true
+        },
+        "coconut": {
+          "avg": true,
+          "detected": true,
+          "max": true,
+          "min": true,
+          "n": true
+        },
+        "curry": {
+          "avg": true,
+          "detected": true,
+          "max": true,
+          "min": true,
+          "n": true
+        },
+        "formula": {
+          "avg": true,
+          "detected": true,
+          "max": true,
+          "min": true,
+          "n": true
+        },
+        "fruit": {
+          "avg": true,
+          "detected": true,
+          "max": true,
+          "min": true,
+          "n": true
+        },
+        "pasta": {
+          "avg": true,
+          "detected": true,
+          "max": true,
+          "min": true,
+          "n": true
+        },
+        "pie": {
+          "avg": true,
+          "detected": true,
+          "max": true,
+          "min": true,
+          "n": true
+        },
+        "soup": {
+          "avg": true,
+          "detected": true,
+          "max": true,
+          "min": true,
+          "n": true
+        },
+        "veg": {
+          "avg": true,
+          "detected": true,
+          "max": true,
+          "min": true,
+          "n": true
+        }
+      },
+      "unmapped": [],
+      "v5_full": [
+        "bev",
+        "coconut",
+        "fruit",
+        "formula",
+        "pasta",
+        "pie",
+        "curry",
+        "soup",
+        "veg"
+      ]
+    },
+    "bpa-2016": {
+      "alt": {
+        "badge": {
+          "bev": {
+            "avg": true,
+            "detected": true,
+            "k": 0,
+            "max": true,
+            "min": true,
+            "printed_k": 0,
+            "stats": {
+              "k": 0,
+              "max": null,
+              "mean": null,
+              "min": null,
+              "n": 149,
+              "pct": 0.0
+            }
+          },
+          "coconut": {
+            "avg": true,
+            "detected": true,
+            "k": 4,
+            "max": true,
+            "min": true,
+            "printed_k": 4,
+            "stats": {
+              "k": 4,
+              "max": 224.0,
+              "mean": 109.35,
+              "min": 16.1,
+              "n": 14,
+              "pct": 28.571428571428573
+            }
+          },
+          "formula": {
+            "avg": true,
+            "detected": true,
+            "k": 0,
+            "max": true,
+            "min": true,
+            "printed_k": 0,
+            "stats": {
+              "k": 0,
+              "max": null,
+              "mean": null,
+              "min": null,
+              "n": 74,
+              "pct": 0.0
+            }
+          },
+          "fruit": {
+            "avg": true,
+            "detected": true,
+            "k": 0,
+            "max": true,
+            "min": true,
+            "printed_k": 0,
+            "stats": {
+              "k": 0,
+              "max": null,
+              "mean": null,
+              "min": null,
+              "n": 50,
+              "pct": 0.0
+            }
+          },
+          "pasta": {
+            "avg": true,
+            "detected": true,
+            "k": 0,
+            "max": true,
+            "min": true,
+            "printed_k": 0,
+            "stats": {
+              "k": 0,
+              "max": null,
+              "mean": null,
+              "min": null,
+              "n": 49,
+              "pct": 0.0
+            }
+          },
+          "pie": {
+            "avg": true,
+            "detected": true,
+            "k": 0,
+            "max": true,
+            "min": true,
+            "printed_k": 0,
+            "stats": {
+              "k": 0,
+              "max": null,
+              "mean": null,
+              "min": null,
+              "n": 20,
+              "pct": 0.0
+            }
+          },
+          "sauce": {
+            "avg": true,
+            "detected": true,
+            "k": 1,
+            "max": true,
+            "min": true,
+            "printed_k": 1,
+            "stats": {
+              "k": 1,
+              "max": 14.3,
+              "mean": 14.3,
+              "min": 14.3,
+              "n": 15,
+              "pct": 6.666666666666667
+            }
+          },
+          "soup": {
+            "avg": true,
+            "detected": true,
+            "k": 0,
+            "max": true,
+            "min": true,
+            "printed_k": 0,
+            "stats": {
+              "k": 0,
+              "max": null,
+              "mean": null,
+              "min": null,
+              "n": 48,
+              "pct": 0.0
+            }
+          },
+          "veg": {
+            "avg": true,
+            "detected": true,
+            "k": 0,
+            "max": true,
+            "min": true,
+            "printed_k": 0,
+            "stats": {
+              "k": 0,
+              "max": null,
+              "mean": null,
+              "min": null,
+              "n": 72,
+              "pct": 0.0
+            }
+          }
+        },
+        "bpf": {
+          "bev": {
+            "avg": true,
+            "detected": true,
+            "k": 0,
+            "max": true,
+            "min": true,
+            "printed_k": 0,
+            "stats": {
+              "k": 0,
+              "max": null,
+              "mean": null,
+              "min": null,
+              "n": 149,
+              "pct": 0.0
+            }
+          },
+          "coconut": {
+            "avg": true,
+            "detected": true,
+            "k": 0,
+            "max": true,
+            "min": true,
+            "printed_k": 0,
+            "stats": {
+              "k": 0,
+              "max": null,
+              "mean": null,
+              "min": null,
+              "n": 14,
+              "pct": 0.0
+            }
+          },
+          "formula": {
+            "avg": true,
+            "detected": true,
+            "k": 0,
+            "max": true,
+            "min": true,
+            "printed_k": 0,
+            "stats": {
+              "k": 0,
+              "max": null,
+              "mean": null,
+              "min": null,
+              "n": 74,
+              "pct": 0.0
+            }
+          },
+          "fruit": {
+            "avg": true,
+            "detected": true,
+            "k": 0,
+            "max": true,
+            "min": true,
+            "printed_k": 0,
+            "stats": {
+              "k": 0,
+              "max": null,
+              "mean": null,
+              "min": null,
+              "n": 50,
+              "pct": 0.0
+            }
+          },
+          "pasta": {
+            "avg": true,
+            "detected": true,
+            "k": 0,
+            "max": true,
+            "min": true,
+            "printed_k": 0,
+            "stats": {
+              "k": 0,
+              "max": null,
+              "mean": null,
+              "min": null,
+              "n": 49,
+              "pct": 0.0
+            }
+          },
+          "pie": {
+            "avg": true,
+            "detected": true,
+            "k": 0,
+            "max": true,
+            "min": true,
+            "printed_k": 0,
+            "stats": {
+              "k": 0,
+              "max": null,
+              "mean": null,
+              "min": null,
+              "n": 20,
+              "pct": 0.0
+            }
+          },
+          "sauce": {
+            "avg": true,
+            "detected": true,
+            "k": 0,
+            "max": true,
+            "min": true,
+            "printed_k": 0,
+            "stats": {
+              "k": 0,
+              "max": null,
+              "mean": null,
+              "min": null,
+              "n": 15,
+              "pct": 0.0
+            }
+          },
+          "soup": {
+            "avg": true,
+            "detected": true,
+            "k": 0,
+            "max": true,
+            "min": true,
+            "printed_k": 0,
+            "stats": {
+              "k": 0,
+              "max": null,
+              "mean": null,
+              "min": null,
+              "n": 48,
+              "pct": 0.0
+            }
+          },
+          "veg": {
+            "avg": true,
+            "detected": true,
+            "k": 3,
+            "max": true,
+            "min": true,
+            "printed_k": 3,
+            "stats": {
+              "k": 3,
+              "max": 3.75,
+              "mean": 3.263333333333333,
+              "min": 2.44,
+              "n": 72,
+              "pct": 4.166666666666667
+            }
+          }
+        },
+        "bps": {
+          "bev": {
+            "avg": true,
+            "detected": true,
+            "k": 0,
+            "max": true,
+            "min": true,
+            "printed_k": 0,
+            "stats": {
+              "k": 0,
+              "max": null,
+              "mean": null,
+              "min": null,
+              "n": 149,
+              "pct": 0.0
+            }
+          },
+          "coconut": {
+            "avg": true,
+            "detected": true,
+            "k": 0,
+            "max": true,
+            "min": true,
+            "printed_k": 0,
+            "stats": {
+              "k": 0,
+              "max": null,
+              "mean": null,
+              "min": null,
+              "n": 14,
+              "pct": 0.0
+            }
+          },
+          "formula": {
+            "avg": true,
+            "detected": true,
+            "k": 0,
+            "max": true,
+            "min": true,
+            "printed_k": 0,
+            "stats": {
+              "k": 0,
+              "max": null,
+              "mean": null,
+              "min": null,
+              "n": 74,
+              "pct": 0.0
+            }
+          },
+          "fruit": {
+            "avg": true,
+            "detected": true,
+            "k": 0,
+            "max": true,
+            "min": true,
+            "printed_k": 0,
+            "stats": {
+              "k": 0,
+              "max": null,
+              "mean": null,
+              "min": null,
+              "n": 50,
+              "pct": 0.0
+            }
+          },
+          "pasta": {
+            "avg": true,
+            "detected": true,
+            "k": 0,
+            "max": true,
+            "min": true,
+            "printed_k": 0,
+            "stats": {
+              "k": 0,
+              "max": null,
+              "mean": null,
+              "min": null,
+              "n": 49,
+              "pct": 0.0
+            }
+          },
+          "pie": {
+            "avg": true,
+            "detected": true,
+            "k": 0,
+            "max": true,
+            "min": true,
+            "printed_k": 0,
+            "stats": {
+              "k": 0,
+              "max": null,
+              "mean": null,
+              "min": null,
+              "n": 20,
+              "pct": 0.0
+            }
+          },
+          "sauce": {
+            "avg": true,
+            "detected": true,
+            "k": 0,
+            "max": true,
+            "min": true,
+            "printed_k": 0,
+            "stats": {
+              "k": 0,
+              "max": null,
+              "mean": null,
+              "min": null,
+              "n": 15,
+              "pct": 0.0
+            }
+          },
+          "soup": {
+            "avg": true,
+            "detected": true,
+            "k": 0,
+            "max": true,
+            "min": true,
+            "printed_k": 0,
+            "stats": {
+              "k": 0,
+              "max": null,
+              "mean": null,
+              "min": null,
+              "n": 48,
+              "pct": 0.0
+            }
+          },
+          "veg": {
+            "avg": true,
+            "detected": true,
+            "k": 0,
+            "max": true,
+            "min": true,
+            "printed_k": 0,
+            "stats": {
+              "k": 0,
+              "max": null,
+              "mean": null,
+              "min": null,
+              "n": 72,
+              "pct": 0.0
+            }
+          }
+        }
+      },
+      "badge_top": {
+        "date": "13-Jul-16",
+        "function": "Import",
+        "origin": "SRI LANKA",
+        "ppb": {
+          "badge": 224.0,
+          "bpa": 0.0,
+          "bpf": 0.0,
+          "bps": 0.0
+        },
+        "product": "Coconut Milk",
+        "sample": "C2016BPHA00258",
+        "type": "coconut"
+      },
+      "bpa": {
+        "all": {
+          "k": 361,
+          "max": 2240.0,
+          "mean": 87.18468144044321,
+          "min": 1.1,
+          "n": 491,
+          "pct": 73.5234215885947
+        },
+        "bev": {
+          "k": 102,
+          "max": 639.0,
+          "mean": 36.65225490196079,
+          "min": 1.1,
+          "n": 149,
+          "pct": 68.45637583892618
+        },
+        "coconut": {
+          "k": 12,
+          "max": 1370.0,
+          "mean": 305.6166666666667,
+          "min": 24.2,
+          "n": 14,
+          "pct": 85.71428571428571
+        },
+        "formula": {
+          "k": 53,
+          "max": 45.699999999999996,
+          "mean": 8.678867924528301,
+          "min": 2.2,
+          "n": 74,
+          "pct": 71.62162162162163
+        },
+        "fruit": {
+          "k": 34,
+          "max": 1160.0,
+          "mean": 62.05676470588235,
+          "min": 2.0,
+          "n": 50,
+          "pct": 68.0
+        },
+        "pasta": {
+          "k": 39,
+          "max": 270.0,
+          "mean": 86.74230769230769,
+          "min": 1.64,
+          "n": 49,
+          "pct": 79.59183673469387
+        },
+        "pie": {
+          "k": 16,
+          "max": 2240.0,
+          "mean": 281.38125,
+          "min": 8.5,
+          "n": 20,
+          "pct": 80.0
+        },
+        "sauce": {
+          "k": 7,
+          "max": 1120.0,
+          "mean": 190.99142857142857,
+          "min": 1.9400000000000002,
+          "n": 15,
+          "pct": 46.666666666666664
+        },
+        "soup": {
+          "k": 40,
+          "max": 410.0,
+          "mean": 105.576,
+          "min": 2.48,
+          "n": 48,
+          "pct": 83.33333333333333
+        },
+        "veg": {
+          "k": 58,
+          "max": 751.0,
+          "mean": 138.84137931034482,
+          "min": 5.31,
+          "n": 72,
+          "pct": 80.55555555555556
+        }
+      },
+      "bpf_positives": [
+        {
+          "date": "08-May-16",
+          "function": "Import",
+          "origin": "THAILAND",
+          "ppb": {
+            "badge": 0.0,
+            "bpa": 123.0,
+            "bpf": 3.75,
+            "bps": 0.0
+          },
+          "product": "Bamboo Shoot",
+          "sample": "C2016BPHA00066",
+          "type": "veg"
+        },
+        {
+          "date": "02-Dec-16",
+          "function": "Import",
+          "origin": "THAILAND",
+          "ppb": {
+            "badge": 0.0,
+            "bpa": 484.0,
+            "bpf": 3.6,
+            "bps": 0.0
+          },
+          "product": "Bamboo Shoot",
+          "sample": "C2016BPHA00186",
+          "type": "veg"
+        },
+        {
+          "date": "08-May-16",
+          "function": "Import",
+          "origin": "THAILAND",
+          "ppb": {
+            "badge": 0.0,
+            "bpa": 363.0,
+            "bpf": 2.44,
+            "bps": 0.0
+          },
+          "product": "Bamboo Shoot",
+          "sample": "C2016BPHA00065",
+          "type": "veg"
+        }
+      ],
+      "bps_positives": [],
+      "dates": {
+        "distinct": 0,
+        "first": null,
+        "last": null,
+        "n": 491,
+        "parsed": 0,
+        "top": [],
+        "unparsed_examples": [
+          "01-Aug-16",
+          "01-Dec-16",
+          "01-Feb-17",
+          "01-Jan-17",
+          "01-Nov-16"
+        ]
+      },
+      "highest": [
+        {
+          "date": "01-Aug-16",
+          "function": "Import",
+          "origin": "UNKNOWN",
+          "ppb": {
+            "badge": 0.0,
+            "bpa": 2240.0,
+            "bpf": 0.0,
+            "bps": 0.0
+          },
+          "product": "Pie Filling - Pumpkin",
+          "sample": "C2016BPHA00124",
+          "type": "pie"
+        },
+        {
+          "date": "11-Jul-16",
+          "function": "Import",
+          "origin": "THAILAND",
+          "ppb": {
+            "badge": 0.0,
+            "bpa": 1370.0,
+            "bpf": 0.0,
+            "bps": 0.0
+          },
+          "product": "Coconut Milk",
+          "sample": "C2016BPHA00420",
+          "type": "coconut"
+        },
+        {
+          "date": "10-Jul-16",
+          "function": "Import",
+          "origin": "SRI LANKA",
+          "ppb": {
+            "badge": 0.0,
+            "bpa": 1160.0,
+            "bpf": 0.0,
+            "bps": 0.0
+          },
+          "product": "Pineapple - Organic",
+          "sample": "C2016BPHA00357",
+          "type": "fruit"
+        }
+      ],
+      "lowest": [
+        {
+          "date": "29-Apr-16",
+          "function": "Import",
+          "origin": "UNKNOWN",
+          "ppb": {
+            "badge": 0.0,
+            "bpa": 1.1,
+            "bpf": 0.0,
+            "bps": 0.0
+          },
+          "product": "Beverage - Sport",
+          "sample": "C2016BPHA00076",
+          "type": "bev"
+        }
+      ],
+      "n": 491,
+      "origins": {
+        "bev": [
+          22,
+          83,
+          44,
+          149
+        ],
+        "coconut": [
+          0,
+          14,
+          0,
+          14
+        ],
+        "formula": [
+          0,
+          71,
+          3,
+          74
+        ],
+        "fruit": [
+          0,
+          50,
+          0,
+          50
+        ],
+        "pasta": [
+          4,
+          14,
+          31,
+          49
+        ],
+        "pie": [
+          0,
+          19,
+          1,
+          20
+        ],
+        "sauce": [
+          5,
+          2,
+          8,
+          15
+        ],
+        "soup": [
+          28,
+          4,
+          16,
+          48
+        ],
+        "veg": [
+          20,
+          43,
+          9,
+          72
+        ]
+      },
+      "table2": {
+        "bev": {
+          "avg": false,
+          "detected": false,
+          "max": true,
+          "min": false,
+          "n": false
+        },
+        "coconut": {
+          "avg": true,
+          "detected": true,
+          "max": true,
+          "min": true,
+          "n": true
+        },
+        "formula": {
+          "avg": true,
+          "detected": false,
+          "max": false,
+          "min": false,
+          "n": false
+        },
+        "fruit": {
+          "avg": true,
+          "detected": true,
+          "max": true,
+          "min": true,
+          "n": true
+        },
+        "pasta": {
+          "avg": true,
+          "detected": true,
+          "max": true,
+          "min": true,
+          "n": false
+        },
+        "pie": {
+          "avg": true,
+          "detected": true,
+          "max": true,
+          "min": true,
+          "n": true
+        },
+        "sauce": {
+          "avg": false,
+          "detected": false,
+          "max": true,
+          "min": true,
+          "n": false
+        },
+        "soup": {
+          "avg": false,
+          "detected": false,
+          "max": true,
+          "min": true,
+          "n": false
+        },
+        "veg": {
+          "avg": true,
+          "detected": true,
+          "max": true,
+          "min": true,
+          "n": true
+        }
+      },
+      "tops": {
+        "coconut": {
+          "top": [
+            {
+              "date": "11-Jul-16",
+              "function": "Import",
+              "origin": "THAILAND",
+              "ppb": {
+                "badge": 0.0,
+                "bpa": 1370.0,
+                "bpf": 0.0,
+                "bps": 0.0
+              },
+              "product": "Coconut Milk",
+              "sample": "C2016BPHA00420",
+              "type": "coconut"
+            },
+            {
+              "date": "01-Oct-16",
+              "function": "Import",
+              "origin": "THAILAND",
+              "ppb": {
+                "badge": 0.0,
+                "bpa": 478.0,
+                "bpf": 0.0,
+                "bps": 0.0
+              },
+              "product": "Coconut Milk",
+              "sample": "C2016BPHA00155",
+              "type": "coconut"
+            }
+          ],
+          "values": [
+            1370.0,
+            478.0
+          ]
+        },
+        "fruit": {
+          "top": [
+            {
+              "date": "10-Jul-16",
+              "function": "Import",
+              "origin": "SRI LANKA",
+              "ppb": {
+                "badge": 0.0,
+                "bpa": 1160.0,
+                "bpf": 0.0,
+                "bps": 0.0
+              },
+              "product": "Pineapple - Organic",
+              "sample": "C2016BPHA00357",
+              "type": "fruit"
+            },
+            {
+              "date": "12-Jun-16",
+              "function": "Import",
+              "origin": "CHINA",
+              "ppb": {
+                "badge": 0.0,
+                "bpa": 186.0,
+                "bpf": 0.0,
+                "bps": 0.0
+              },
+              "product": "Mixed Fruit",
+              "sample": "C2016BPHA00351",
+              "type": "fruit"
+            }
+          ],
+          "values": [
+            1160.0,
+            186.0
+          ]
+        },
+        "pie": {
+          "top": [
+            {
+              "date": "01-Aug-16",
+              "function": "Import",
+              "origin": "UNKNOWN",
+              "ppb": {
+                "badge": 0.0,
+                "bpa": 2240.0,
+                "bpf": 0.0,
+                "bps": 0.0
+              },
+              "product": "Pie Filling - Pumpkin",
+              "sample": "C2016BPHA00124",
+              "type": "pie"
+            },
+            {
+              "date": "12-Jun-16",
+              "function": "Import",
+              "origin": "UNITED STATES",
+              "ppb": {
+                "badge": 0.0,
+                "bpa": 530.0,
+                "bpf": 0.0,
+                "bps": 0.0
+              },
+              "product": "Pie Filling - Cherry",
+              "sample": "C2016BPHA00087",
+              "type": "pie"
+            }
+          ],
+          "values": [
+            2240.0,
+            530.0
+          ]
+        },
+        "sauce": {
+          "top": [
+            {
+              "date": "04-Sep-16",
+              "function": "Import",
+              "origin": "THAILAND",
+              "ppb": {
+                "badge": 0.0,
+                "bpa": 1120.0,
+                "bpf": 0.0,
+                "bps": 0.0
+              },
+              "product": "Sauces",
+              "sample": "C2016BPHA00141",
+              "type": "sauce"
+            },
+            {
+              "date": "02-Nov-16",
+              "function": "Import",
+              "origin": "THAILAND",
+              "ppb": {
+                "badge": 0.0,
+                "bpa": 188.0,
+                "bpf": 0.0,
+                "bps": 0.0
+              },
+              "product": "Sauces",
+              "sample": "C2016BPHA00051",
+              "type": "sauce"
+            }
+          ],
+          "values": [
+            1120.0,
+            188.0
+          ]
+        }
+      },
+      "twins": [],
+      "unmapped": [],
+      "v6_rows": {
+        "coconut": {
+          "avg": true,
+          "detected": true,
+          "max": true,
+          "min": true,
+          "n": true
+        },
+        "fruit": {
+          "avg": true,
+          "detected": true,
+          "max": true,
+          "min": true,
+          "n": true
+        },
+        "pie": {
+          "avg": true,
+          "detected": true,
+          "max": true,
+          "min": true,
+          "n": true
+        },
+        "veg": {
+          "avg": true,
+          "detected": true,
+          "max": true,
+          "min": true,
+          "n": true
+        }
+      },
+      "veg_avg": {
+        "138": false,
+        "139": true
+      }
+    },
+    "bpa-2017": {
+      "alt": {
+        "badge": {
+          "fish": {
+            "avg": true,
+            "detected": true,
+            "k": 19,
+            "max": true,
+            "min": true,
+            "printed_k": 19,
+            "stats": {
+              "k": 19,
+              "max": 53.199999999999996,
+              "mean": 8.02157894736842,
+              "min": 0.9700000000000001,
+              "n": 237,
+              "pct": 8.016877637130802
+            }
+          },
+          "meat": {
+            "avg": true,
+            "detected": true,
+            "k": 53,
+            "max": true,
+            "min": true,
+            "printed_k": 53,
+            "stats": {
+              "k": 53,
+              "max": 46.199999999999996,
+              "mean": 10.840188679245282,
+              "min": 0.98,
+              "n": 231,
+              "pct": 22.943722943722943
+            }
+          }
+        },
+        "bpf": {
+          "fish": {
+            "avg": true,
+            "detected": true,
+            "k": 0,
+            "max": true,
+            "min": true,
+            "printed_k": 0,
+            "stats": {
+              "k": 0,
+              "max": null,
+              "mean": null,
+              "min": null,
+              "n": 237,
+              "pct": 0.0
+            }
+          },
+          "meat": {
+            "avg": true,
+            "detected": true,
+            "k": 68,
+            "max": true,
+            "min": true,
+            "printed_k": 68,
+            "stats": {
+              "k": 68,
+              "max": 63.6,
+              "mean": 15.313088235294117,
+              "min": 1.01,
+              "n": 231,
+              "pct": 29.437229437229437
+            }
+          }
+        },
+        "bps": {
+          "fish": {
+            "avg": true,
+            "detected": true,
+            "k": 0,
+            "max": true,
+            "min": true,
+            "printed_k": 0,
+            "stats": {
+              "k": 0,
+              "max": null,
+              "mean": null,
+              "min": null,
+              "n": 237,
+              "pct": 0.0
+            }
+          },
+          "meat": {
+            "avg": true,
+            "detected": true,
+            "k": 1,
+            "max": true,
+            "min": true,
+            "printed_k": 1,
+            "stats": {
+              "k": 1,
+              "max": 1.79,
+              "mean": 1.79,
+              "min": 1.79,
+              "n": 231,
+              "pct": 0.4329004329004329
+            }
+          }
+        }
+      },
+      "badge": {
+        "k": 72,
+        "stats": {
+          "k": 72,
+          "max": 53.199999999999996,
+          "mean": 10.096388888888889,
+          "min": 0.9700000000000001,
+          "n": 468,
+          "pct": 15.384615384615385
+        },
+        "with_bpa": 69
+      },
+      "bpa": {
+        "all": {
+          "k": 329,
+          "max": 1480.0,
+          "mean": 44.820577507598784,
+          "min": 1.2,
+          "n": 468,
+          "pct": 70.2991452991453
+        },
+        "fish": {
+          "k": 159,
+          "max": 1480.0,
+          "mean": 54.662830188679244,
+          "min": 1.2899999999999998,
+          "n": 237,
+          "pct": 67.0886075949367
+        },
+        "meat": {
+          "k": 170,
+          "max": 407.0,
+          "mean": 35.61517647058823,
+          "min": 1.2,
+          "n": 231,
+          "pct": 73.5930735930736
+        }
+      },
+      "bpf": {
+        "k": 68,
+        "with_bpa": 68
+      },
+      "bps_positives": [
+        {
+          "date": "07-Apr-17",
+          "function": "Import",
+          "origin": "BRAZIL",
+          "ppb": {
+            "badge": 0.0,
+            "bpa": 22.6,
+            "bpf": 0.0,
+            "bps": 1.79
+          },
+          "product": "Meat - Canned",
+          "sample": "C2017BPHA00076",
+          "type": "meat"
+        }
+      ],
+      "dates": {
+        "distinct": 0,
+        "first": null,
+        "last": null,
+        "n": 468,
+        "parsed": 0,
+        "top": [],
+        "unparsed_examples": [
+          "01-Aug-17",
+          "01-Dec-17",
+          "01-Feb-18",
+          "01-Jan-18",
+          "01-Nov-17"
+        ]
+      },
+      "highest": [
+        {
+          "date": "11-Apr-17",
+          "function": "Import",
+          "origin": "CHINA",
+          "ppb": {
+            "badge": 16.5,
+            "bpa": 1480.0,
+            "bpf": 0.0,
+            "bps": 0.0
+          },
+          "product": "Fish/Seafood - Canned",
+          "sample": "C2017BPHA00234",
+          "type": "fish"
+        },
+        {
+          "date": "29-Sep-17",
+          "function": "Import",
+          "origin": "PHILIPPINES",
+          "ppb": {
+            "badge": 0.0,
+            "bpa": 567.0,
+            "bpf": 0.0,
+            "bps": 0.0
+          },
+          "product": "Fish/Seafood - Canned",
+          "sample": "C2017BPHA00153",
+          "type": "fish"
+        },
+        {
+          "date": "14-Aug-17",
+          "function": "Import",
+          "origin": "CHINA",
+          "ppb": {
+            "badge": 0.0,
+            "bpa": 433.0,
+            "bpf": 0.0,
+            "bps": 0.0
+          },
+          "product": "Fish/Seafood - Canned",
+          "sample": "C2017BPHA00010",
+          "type": "fish"
+        }
+      ],
+      "lowest": [
+        {
+          "date": "15-Nov-17",
+          "function": "Import",
+          "origin": "ITALY",
+          "ppb": {
+            "badge": 0.0,
+            "bpa": 1.2,
+            "bpf": 0.0,
+            "bps": 0.0
+          },
+          "product": "Meat - Canned",
+          "sample": "C2017BPHA00052",
+          "type": "meat"
+        }
+      ],
+      "meat_avg_alternatives": {
+        "34.6": false,
+        "46.6": false
+      },
+      "n": 468,
+      "origins": {
+        "fish": [
+          14,
+          220,
+          3,
+          237
+        ],
+        "meat": [
+          111,
+          102,
+          18,
+          231
+        ]
+      },
+      "table2": {
+        "all": {
+          "avg": true,
+          "detected": true,
+          "max": true,
+          "min": true,
+          "n": true
+        },
+        "fish": {
+          "avg": true,
+          "detected": true,
+          "max": true,
+          "min": true,
+          "n": true
+        },
+        "meat": {
+          "avg": true,
+          "detected": true,
+          "max": true,
+          "min": true,
+          "n": true
+        }
+      },
+      "top_two": [
+        {
+          "date": "11-Apr-17",
+          "function": "Import",
+          "origin": "CHINA",
+          "ppb": {
+            "badge": 16.5,
+            "bpa": 1480.0,
+            "bpf": 0.0,
+            "bps": 0.0
+          },
+          "product": "Fish/Seafood - Canned",
+          "sample": "C2017BPHA00234",
+          "type": "fish"
+        },
+        {
+          "date": "29-Sep-17",
+          "function": "Import",
+          "origin": "PHILIPPINES",
+          "ppb": {
+            "badge": 0.0,
+            "bpa": 567.0,
+            "bpf": 0.0,
+            "bps": 0.0
+          },
+          "product": "Fish/Seafood - Canned",
+          "sample": "C2017BPHA00153",
+          "type": "fish"
+        }
+      ],
+      "twins": [],
+      "unmapped": []
+    },
+    "d1": {
+      "2012-13": {
+        "groups": {
+          "bev": [
+            72,
+            2,
+            2
+          ],
+          "coconut": [
+            46,
+            17,
+            17
+          ],
+          "curry": [
+            21,
+            3,
+            3
+          ],
+          "fruit": [
+            73,
+            1,
+            1
+          ],
+          "pastasoup": [
+            217,
+            92,
+            92
+          ],
+          "veg": [
+            147,
+            30,
+            30
+          ]
+        },
+        "k_cut": 145,
+        "n": 576,
+        "share": 0.2517361111111111
+      },
+      "2013-14": {
+        "groups": {
+          "bev": [
+            55,
+            26,
+            11
+          ],
+          "coconut": [
+            13,
+            12,
+            11
+          ],
+          "curry": [
+            5,
+            5,
+            5
+          ],
+          "fruit": [
+            38,
+            19,
+            5
+          ],
+          "pastasoup": [
+            93,
+            87,
+            83
+          ],
+          "veg": [
+            70,
+            59,
+            49
+          ]
+        },
+        "k_cut": 164,
+        "n": 274,
+        "share": 0.5985401459854015
+      },
+      "ratio": 2.3776491316385604
+    }
+  },
+  "census": {
+    "bpa-2009": {
+      "bad_shapes": [],
+      "columns": {
+        "component": 10,
+        "date": 7,
+        "function": 1,
+        "origin": 3,
+        "plan": 14,
+        "product": 5,
+        "region": null,
+        "sample": 0,
+        "unit": 13,
+        "value": 12
+      },
+      "components": {
+        "Bisphenol A": 200
+      },
+      "ids_bad": [],
+      "kinds": {
+        "det": 82,
+        "nd": 118
+      },
+      "missing": {},
+      "plans": {
+        "2009_SB451": 200
+      },
+      "products": {
+        "Infant Food": 100,
+        "Infant Formula": 100
+      },
+      "repeated": {},
+      "rows": 200,
+      "rows_per_sample": {
+        "1": 200
+      },
+      "samples": 200,
+      "units": {
+        "ng/g": 200
+      },
+      "unknown_components": 0
+    },
+    "bpa-2010": {
+      "bad_shapes": [],
+      "columns": {
+        "component": 11,
+        "date": 8,
+        "function": 2,
+        "origin": 4,
+        "plan": 15,
+        "product": 6,
+        "region": 1,
+        "sample": 0,
+        "unit": 14,
+        "value": 13
+      },
+      "components": {
+        "Bisphenol A": 234
+      },
+      "ids_bad": [],
+      "kinds": {
+        "nd": 234
+      },
+      "missing": {},
+      "plans": {
+        "2010_SB451": 234
+      },
+      "products": {
+        "Apricot": 1,
+        "Cereal - Other": 2,
+        "Infant Formula - Dairy": 126,
+        "Infant Formula - Soy": 3,
+        "Juice - Apple": 13,
+        "Juice - Grape": 1,
+        "Meat & Vegetable": 1,
+        "Mixed Fruit": 25,
+        "Nectar - Pear": 1,
+        "Peach": 25,
+        "Pear": 24,
+        "Pineapple": 10,
+        "Strawberry": 2
+      },
+      "repeated": {},
+      "rows": 234,
+      "rows_per_sample": {
+        "1": 234
+      },
+      "samples": 234,
+      "units": {
+        "µg/g": 234
+      },
+      "unknown_components": 0
+    },
+    "bpa-2011": {
+      "bad_shapes": [],
+      "columns": {
+        "component": 11,
+        "date": 8,
+        "function": 2,
+        "origin": 4,
+        "plan": 15,
+        "product": 6,
+        "region": 1,
+        "sample": 0,
+        "unit": 14,
+        "value": 13
+      },
+      "components": {
+        "Bisphenol A": 403
+      },
+      "ids_bad": [],
+      "kinds": {
+        "det": 6,
+        "nd": 397
+      },
+      "missing": {},
+      "plans": {
+        "2011_SB451": 403
+      },
+      "products": {
+        "Asparagus": 1,
+        "Bamboo Shoot": 1,
+        "Banana": 2,
+        "Bean": 1,
+        "Bean - Black": 2,
+        "Bean - Fava": 1,
+        "Bean - Green/Yellow": 12,
+        "Bean - Kidney": 7,
+        "Bean - Other": 9,
+        "Bean - wax": 2,
+        "Beet": 1,
+        "Beverage - Fruit": 2,
+        "Beverage - Other": 1,
+        "Beverage - Tea": 1,
+        "Carrot": 14,
+        "Chickpea": 5,
+        "Corn": 20,
+        "Juice - Apple": 13,
+        "Juice - Tomato": 19,
+        "Juice/Nectar - Other": 1,
+        "Kale": 1,
+        "Longan": 1,
+        "Lychee": 5,
+        "Mango": 2,
+        "Mixed Fruit": 21,
+        "Mixed Vegetables": 17,
+        "Mushroom": 2,
+        "Orange": 13,
+        "Papaya": 1,
+        "Pasta - Canned": 96,
+        "Pea": 23,
+        "Pea - Organic": 2,
+        "Pea - Sugar": 1,
+        "Peach": 25,
+        "Pear": 18,
+        "Pineapple": 10,
+        "Plum": 1,
+        "Potato": 13,
+        "Preserve - Apricot": 1,
+        "Preserve - Blueberry": 1,
+        "Soup": 5,
+        "Sweet Potato": 1,
+        "Tomato": 13,
+        "Tomato - Organic": 2,
+        "juice - pineapple": 13
+      },
+      "repeated": {},
+      "rows": 403,
+      "rows_per_sample": {
+        "1": 403
+      },
+      "samples": 403,
+      "units": {
+        "µg/g": 403
+      },
+      "unknown_components": 0
+    },
+    "bpa-2012": {
+      "bad_shapes": [],
+      "columns": {
+        "component": 11,
+        "date": 8,
+        "function": 2,
+        "origin": 4,
+        "plan": 15,
+        "product": 6,
+        "region": 1,
+        "sample": 0,
+        "unit": 14,
+        "value": 13
+      },
+      "components": {
+        "Bisphenol A": 576
+      },
+      "ids_bad": [],
+      "kinds": {
+        "det": 145,
+        "nd": 431
+      },
+      "missing": {},
+      "plans": {
+        "2012_SB451": 576
+      },
+      "products": {
+        "Apricot": 3,
+        "Artichoke Heart": 7,
+        "Asparagus": 1,
+        "Bamboo Shoot": 10,
+        "Bean": 3,
+        "Bean - Organic": 6,
+        "Beet": 1,
+        "Beverage - Fruit": 36,
+        "Cabbage": 1,
+        "Callaloo": 1,
+        "Chickpea products": 1,
+        "Coconut Milk": 46,
+        "Corn": 26,
+        "Cucumber": 1,
+        "Curry": 21,
+        "Grapefruit": 2,
+        "Heart of Palm": 5,
+        "JackFruit": 4,
+        "Juice - Apple": 2,
+        "Juice - Blend": 3,
+        "Juice - Other": 3,
+        "Juice - Vegetable": 1,
+        "Juice - other": 3,
+        "Lentils products": 1,
+        "Longan": 1,
+        "Lychee": 3,
+        "Mango": 9,
+        "Mixed Fruit": 26,
+        "Mixed Vegetables": 51,
+        "Mushroom": 7,
+        "Nectar - Mango": 2,
+        "Nectar - Other": 2,
+        "Okra": 1,
+        "Orange": 3,
+        "Orange - Organic": 1,
+        "Papaya": 1,
+        "Pasta - Canned": 119,
+        "Pea": 2,
+        "Pea - Organic": 1,
+        "Pea products": 1,
+        "Peach": 4,
+        "Pear": 4,
+        "Pepper - Pickled Hot": 8,
+        "Pineapple": 10,
+        "Pineapple - Organic": 1,
+        "Salsa": 3,
+        "Sauces": 1,
+        "Soup": 98,
+        "Strawberry": 1,
+        "Tomatillo": 2,
+        "Tomato": 5,
+        "Water Chestnut": 1,
+        "juice - pineapple": 20
+      },
+      "repeated": {},
+      "rows": 576,
+      "rows_per_sample": {
+        "1": 576
+      },
+      "samples": 576,
+      "units": {
+        "µg/g": 576
+      },
+      "unknown_components": 0
+    },
+    "bpa-2013": {
+      "bad_shapes": [],
+      "columns": {
+        "component": 11,
+        "date": 8,
+        "function": 2,
+        "origin": 4,
+        "plan": 15,
+        "product": 6,
+        "region": 1,
+        "sample": 0,
+        "unit": 14,
+        "value": 13
+      },
+      "components": {
+        "Bisphenol A": 391
+      },
+      "ids_bad": [],
+      "kinds": {
+        "det": 252,
+        "nd": 139
+      },
+      "missing": {},
+      "plans": {
+        "2013_SB451": 391
+      },
+      "products": {
+        "Artichoke Heart": 1,
+        "Asparagus": 1,
+        "Bamboo Shoot": 3,
+        "Bean Products": 1,
+        "Beverage - Fruit": 26,
+        "Beverage - Other": 12,
+        "Beverage - Sport": 3,
+        "Cherry": 1,
+        "Chickpea Products": 1,
+        "Coconut Milk": 13,
+        "Corn": 43,
+        "Energy Drink": 24,
+        "Gooseberry": 1,
+        "Heart of Palm": 1,
+        "Infant Formula - Dairy": 46,
+        "Infant Formula - Soy": 9,
+        "JackFruit": 2,
+        "Juice - Apple": 5,
+        "Juice - Blend": 2,
+        "Juice - Mixed": 5,
+        "Juice - Other": 4,
+        "Lychee": 3,
+        "Mango": 4,
+        "Mango - Organic": 1,
+        "Misc Fruit": 4,
+        "Misc Vegetables": 6,
+        "Mixed Fruit": 18,
+        "Mixed Vegetables": 10,
+        "Mushroom": 3,
+        "Orange": 1,
+        "Papaya": 1,
+        "Pasta - Canned": 45,
+        "Peach": 1,
+        "Pie Filling - Blueberry": 6,
+        "Pie Filling - Cherry": 5,
+        "Pie Filling - Other": 3,
+        "Pie Filling - Pumpkin": 5,
+        "Pie Filling - apple": 1,
+        "Pineapple": 1,
+        "Sauces": 5,
+        "Soft Drink": 15,
+        "Soup": 48,
+        "juice - pineapple": 1
+      },
+      "repeated": {},
+      "rows": 391,
+      "rows_per_sample": {
+        "1": 391
+      },
+      "samples": 391,
+      "units": {
+        "µg/g": 391
+      },
+      "unknown_components": 0
+    },
+    "bpa-2016": {
+      "bad_shapes": [],
+      "columns": {
+        "component": 11,
+        "date": 8,
+        "function": 2,
+        "origin": 4,
+        "plan": 15,
+        "product": 6,
+        "region": 1,
+        "sample": 0,
+        "unit": 14,
+        "value": 13
+      },
+      "components": {
+        "Bisphenol A": 491,
+        "Bisphenol A Diglycidyl Ether": 491,
+        "Bisphenol F": 491,
+        "Bisphenol S": 491
+      },
+      "ids_bad": [],
+      "kinds": {
+        "det": 369,
+        "nd": 1595
+      },
+      "missing": {},
+      "plans": {
+        "2016_SB451": 1964
+      },
+      "products": {
+        "Apricot": 2,
+        "Artichoke": 1,
+        "Artichoke Heart": 1,
+        "Asparagus": 6,
+        "Bamboo Shoot": 4,
+        "Bean": 1,
+        "Bean - Green/Yellow": 10,
+        "Bean - wax": 2,
+        "Beet": 5,
+        "Beverage - Fruit": 21,
+        "Beverage - Other": 19,
+        "Beverage - Sport": 19,
+        "Carrot": 4,
+        "Coconut Milk": 14,
+        "Corn": 7,
+        "Energy Drink": 21,
+        "Grapefruit": 1,
+        "Infant Formula - Dairy": 60,
+        "Infant Formula - Soy": 14,
+        "JackFruit": 1,
+        "Juice - Apple": 9,
+        "Juice - Blend": 3,
+        "Juice - Orange": 1,
+        "Juice - Other": 11,
+        "Juice - Tomato": 4,
+        "Juice - Vegetable": 2,
+        "Lychee": 1,
+        "Mango": 1,
+        "Mixed Fruit": 25,
+        "Mixed Vegetables": 9,
+        "Mushroom": 7,
+        "Nectar - Guava": 1,
+        "Nectar - Mango": 2,
+        "Nectar - Other": 1,
+        "Orange": 2,
+        "Pasta - Canned": 49,
+        "Pea": 10,
+        "Peach": 5,
+        "Pear": 7,
+        "Pie Filling - Blueberry": 5,
+        "Pie Filling - Cherry": 5,
+        "Pie Filling - Other": 4,
+        "Pie Filling - Pumpkin": 5,
+        "Pie Filling - apple": 1,
+        "Pineapple": 4,
+        "Pineapple - Organic": 1,
+        "Sauces": 14,
+        "Soft Drink": 20,
+        "Soup": 48,
+        "Spinach": 4,
+        "Tomato Sauce": 1,
+        "Yam": 1,
+        "juice - pineapple": 15
+      },
+      "repeated": {},
+      "rows": 1964,
+      "rows_per_sample": {
+        "4": 491
+      },
+      "samples": 491,
+      "units": {
+        "µg/g": 1964
+      },
+      "unknown_components": 0
+    },
+    "bpa-2017": {
+      "bad_shapes": [],
+      "columns": {
+        "component": 11,
+        "date": 8,
+        "function": 2,
+        "origin": 4,
+        "plan": 15,
+        "product": 6,
+        "region": 1,
+        "sample": 0,
+        "unit": 14,
+        "value": 13
+      },
+      "components": {
+        "Bisphenol A": 468,
+        "Bisphenol A Diglycidyl Ether": 468,
+        "Bisphenol F": 468,
+        "Bisphenol S": 468
+      },
+      "ids_bad": [],
+      "kinds": {
+        "det": 470,
+        "nd": 1402
+      },
+      "missing": {},
+      "plans": {
+        "2017_SB451": 1872
+      },
+      "products": {
+        "Beef": 1,
+        "Chicken": 5,
+        "Crab": 1,
+        "Fish": 4,
+        "Fish/Seafood - Canned": 165,
+        "Ham": 5,
+        "Herring": 1,
+        "Mackerel": 2,
+        "Meat - Canned": 219,
+        "Mussel": 1,
+        "Oyster": 1,
+        "Pork": 1,
+        "Salmon": 12,
+        "Shrimp": 1,
+        "Tuna": 49
+      },
+      "repeated": {},
+      "rows": 1872,
+      "rows_per_sample": {
+        "4": 468
+      },
+      "samples": 468,
+      "units": {
+        "µg/g": 1872
+      },
+      "unknown_components": 0
+    }
+  },
+  "grader": "bpa_series_grade",
+  "n_graded": 8,
+  "n_met": 6,
+  "predictions": [
+    {
+      "graded": true,
+      "id": "G09",
+      "kind": "gate",
+      "met": true,
+      "observed": {
+        "columns": true,
+        "components": true,
+        "per_sample": true,
+        "plan": true,
+        "products": true,
+        "rows": true,
+        "samples": true,
+        "size": true,
+        "units": true,
+        "values": true
+      },
+      "text": "bpa-2009: byte size as on the portal record; columns; 200 rows; 200 samples, each with one row per component (1); unit ng/g and plan 2009_SB451 on every row; only the census labels; every value a number >= 0, a '<' or a not-detected token"
+    },
+    {
+      "graded": true,
+      "id": "G10",
+      "kind": "gate",
+      "met": true,
+      "observed": {
+        "columns": true,
+        "components": true,
+        "per_sample": true,
+        "plan": true,
+        "products": true,
+        "rows": true,
+        "samples": true,
+        "size": true,
+        "units": true,
+        "values": true
+      },
+      "text": "bpa-2010: byte size as on the portal record; columns; 234 rows; 234 samples, each with one row per component (1); unit µg/g and plan 2010_SB451 on every row; only the census labels; every value a number >= 0, a '<' or a not-detected token"
+    },
+    {
+      "graded": true,
+      "id": "G11",
+      "kind": "gate",
+      "met": true,
+      "observed": {
+        "columns": true,
+        "components": true,
+        "per_sample": true,
+        "plan": true,
+        "products": true,
+        "rows": true,
+        "samples": true,
+        "size": true,
+        "units": true,
+        "values": true
+      },
+      "text": "bpa-2011: byte size as on the portal record; columns; 403 rows; 403 samples, each with one row per component (1); unit µg/g and plan 2011_SB451 on every row; only the census labels; every value a number >= 0, a '<' or a not-detected token"
+    },
+    {
+      "graded": true,
+      "id": "G12",
+      "kind": "gate",
+      "met": true,
+      "observed": {
+        "columns": true,
+        "components": true,
+        "per_sample": true,
+        "plan": true,
+        "products": true,
+        "rows": true,
+        "samples": true,
+        "size": true,
+        "units": true,
+        "values": true
+      },
+      "text": "bpa-2012: byte size as on the portal record; columns; 576 rows; 576 samples, each with one row per component (1); unit µg/g and plan 2012_SB451 on every row; only the census labels; every value a number >= 0, a '<' or a not-detected token"
+    },
+    {
+      "graded": true,
+      "id": "G13",
+      "kind": "gate",
+      "met": true,
+      "observed": {
+        "columns": true,
+        "components": true,
+        "per_sample": true,
+        "plan": true,
+        "products": true,
+        "rows": true,
+        "samples": true,
+        "size": true,
+        "units": true,
+        "values": true
+      },
+      "text": "bpa-2013: byte size as on the portal record; columns; 391 rows; 391 samples, each with one row per component (1); unit µg/g and plan 2013_SB451 on every row; only the census labels; every value a number >= 0, a '<' or a not-detected token"
+    },
+    {
+      "graded": true,
+      "id": "G16",
+      "kind": "gate",
+      "met": true,
+      "observed": {
+        "columns": true,
+        "components": true,
+        "per_sample": true,
+        "plan": true,
+        "products": true,
+        "rows": true,
+        "samples": true,
+        "size": true,
+        "units": true,
+        "values": true
+      },
+      "text": "bpa-2016: byte size as on the portal record; columns; 1964 rows; 491 samples, each with one row per component (4); unit µg/g and plan 2016_SB451 on every row; only the census labels; every value a number >= 0, a '<' or a not-detected token"
+    },
+    {
+      "graded": true,
+      "id": "G17",
+      "kind": "gate",
+      "met": true,
+      "observed": {
+        "columns": true,
+        "components": true,
+        "per_sample": true,
+        "plan": true,
+        "products": true,
+        "rows": true,
+        "samples": true,
+        "size": true,
+        "units": true,
+        "values": true
+      },
+      "text": "bpa-2017: byte size as on the portal record; columns; 1872 rows; 468 samples, each with one row per component (4); unit µg/g and plan 2017_SB451 on every row; only the census labels; every value a number >= 0, a '<' or a not-detected token"
+    },
+    {
+      "graded": true,
+      "id": "V1",
+      "kind": "prediction",
+      "met": true,
+      "observed": {
+        "checks": {
+          "food_9": true,
+          "k_82": true,
+          "max_9.6": true,
+          "min_1.4": true
+        },
+        "nd_pct": 59.0,
+        "stats": {
+          "all": {
+            "k": 82,
+            "max": 9.6,
+            "mean": 4.0475609756097555,
+            "min": 1.4,
+            "n": 200,
+            "pct": 41.0
+          },
+          "food": {
+            "k": 9,
+            "max": 9.6,
+            "mean": 4.333333333333333,
+            "min": 1.4,
+            "n": 100,
+            "pct": 9.0
+          },
+          "formula": {
+            "k": 73,
+            "max": 9.2,
+            "mean": 4.012328767123288,
+            "min": 1.6,
+            "n": 100,
+            "pct": 73.0
+          }
+        },
+        "ungraded": "package splits (70 of 89 metal, 12 of 32 glass), powdered formula, cereal and 'all infant-food positives in glass jars': no label"
+      },
+      "text": "2009-10: 82 positives; 9 infant-food positives; range 1.4 to 9.6 ppb (the package, powder and cereal clauses are ungraded: no label)"
+    },
+    {
+      "graded": true,
+      "id": "V2",
+      "kind": "prediction",
+      "met": true,
+      "observed": {
+        "positives": [],
+        "stats": {
+          "all": {
+            "k": 0,
+            "max": null,
+            "mean": null,
+            "min": null,
+            "n": 234,
+            "pct": 0.0
+          },
+          "formula": {
+            "k": 0,
+            "max": null,
+            "mean": null,
+            "min": null,
+            "n": 129,
+            "pct": 0.0
+          },
+          "fruit": {
+            "k": 0,
+            "max": null,
+            "mean": null,
+            "min": null,
+            "n": 87,
+            "pct": 0.0
+          },
+          "juice": {
+            "k": 0,
+            "max": null,
+            "mean": null,
+            "min": null,
+            "n": 15,
+            "pct": 0.0
+          },
+          "other": {
+            "k": 0,
+            "max": null,
+            "mean": null,
+            "min": null,
+            "n": 3,
+            "pct": 0.0
+          }
+        }
+      },
+      "text": "2010-11: no positive sample"
+    },
+    {
+      "graded": true,
+      "id": "V3",
+      "kind": "prediction",
+      "met": true,
+      "observed": {
+        "checks": {
+          "carrot_3": true,
+          "corn_1": true,
+          "k_6": true,
+          "pasta_1": true,
+          "pea_1": true
+        },
+        "counts": {
+          "carrot": 3,
+          "corn": 1,
+          "pasta": 1,
+          "pea": 1
+        },
+        "positives": [
+          {
+            "date": "13-Dec-11",
+            "function": "Import",
+            "origin": "UNITED STATES",
+            "ppb": {
+              "badge": 0.0,
+              "bpa": 307.0,
+              "bpf": 0.0,
+              "bps": 0.0
+            },
+            "product": "Carrot",
+            "sample": "2011BPA0302",
+            "type": "veg"
+          },
+          {
+            "date": "06-Jul-11",
+            "function": "Domestic",
+            "origin": "CANADA",
+            "ppb": {
+              "badge": 0.0,
+              "bpa": 183.3,
+              "bpf": 0.0,
+              "bps": 0.0
+            },
+            "product": "Pea",
+            "sample": "2011BPA0278",
+            "type": "veg"
+          },
+          {
+            "date": "22-Jul-11",
+            "function": "Domestic",
+            "origin": "CANADA",
+            "ppb": {
+              "badge": 0.0,
+              "bpa": 74.0,
+              "bpf": 0.0,
+              "bps": 0.0
+            },
+            "product": "Corn",
+            "sample": "2011BPA0306",
+            "type": "veg"
+          },
+          {
+            "date": "29-Apr-11",
+            "function": "Domestic",
+            "origin": "CANADA",
+            "ppb": {
+              "badge": 0.0,
+              "bpa": 73.0,
+              "bpf": 0.0,
+              "bps": 0.0
+            },
+            "product": "Pasta - Canned",
+            "sample": "2011BPA0245",
+            "type": "pasta"
+          },
+          {
+            "date": "04-Jul-11",
+            "function": "Domestic",
+            "origin": "CANADA",
+            "ppb": {
+              "badge": 0.0,
+              "bpa": 21.9,
+              "bpf": 0.0,
+              "bps": 0.0
+            },
+            "product": "Carrot",
+            "sample": "2011BPA0363",
+            "type": "veg"
+          },
+          {
+            "date": "18-Aug-11",
+            "function": "Domestic",
+            "origin": "CANADA",
+            "ppb": {
+              "badge": 0.0,
+              "bpa": 18.0,
+              "bpf": 0.0,
+              "bps": 0.0
+            },
+            "product": "Carrot",
+            "sample": "2011BPA0369",
+            "type": "veg"
+          }
+        ],
+        "stats": {
+          "all": {
+            "k": 6,
+            "max": 307.0,
+            "mean": 112.86666666666666,
+            "min": 18.0,
+            "n": 403,
+            "pct": 1.488833746898263
+          },
+          "fruit": {
+            "k": 0,
+            "max": null,
+            "mean": null,
+            "min": null,
+            "n": 101,
+            "pct": 0.0
+          },
+          "juice": {
+            "k": 0,
+            "max": null,
+            "mean": null,
+            "min": null,
+            "n": 50,
+            "pct": 0.0
+          },
+          "pasta": {
+            "k": 1,
+            "max": 73.0,
+            "mean": 73.0,
+            "min": 73.0,
+            "n": 96,
+            "pct": 1.0416666666666667
+          },
+          "soup": {
+            "k": 0,
+            "max": null,
+            "mean": null,
+            "min": null,
+            "n": 5,
+            "pct": 0.0
+          },
+          "veg": {
+            "k": 5,
+            "max": 307.0,
+            "mean": 120.83999999999999,
+            "min": 18.0,
+            "n": 151,
+            "pct": 3.3112582781456954
+          }
+        }
+      },
+      "text": "2011-12: exactly 6 positives: one pasta, three carrots, one peas, one corn (so none in fruit, juices, beverages or soups)"
+    },
+    {
+      "graded": true,
+      "id": "V4",
+      "kind": "prediction",
+      "met": false,
+      "observed": {
+        "checks": {
+          "k_145": true,
+          "max_381_coconut": true,
+          "min_5.2_pasta": true,
+          "pasta_soup_92": true,
+          "rows_full_4_of_5": false
+        },
+        "curry_positives": [
+          {
+            "date": "24-Oct-12",
+            "function": "Import",
+            "origin": "THAILAND",
+            "ppb": {
+              "badge": 0.0,
+              "bpa": 298.0,
+              "bpf": 0.0,
+              "bps": 0.0
+            },
+            "product": "Curry",
+            "sample": "C2012BPHA00270",
+            "type": "curry"
+          },
+          {
+            "date": "28-Nov-12",
+            "function": "Import",
+            "origin": "THAILAND",
+            "ppb": {
+              "badge": 0.0,
+              "bpa": 294.0,
+              "bpf": 0.0,
+              "bps": 0.0
+            },
+            "product": "Curry",
+            "sample": "C2012BPHA00268",
+            "type": "curry"
+          },
+          {
+            "date": "06-Nov-12",
+            "function": "Import",
+            "origin": "INDIA",
+            "ppb": {
+              "badge": 0.0,
+              "bpa": 88.0,
+              "bpf": 0.0,
+              "bps": 0.0
+            },
+            "product": "Curry",
+            "sample": "C2012BPHA00392",
+            "type": "curry"
+          }
+        ],
+        "exploratory_salsa_map": {
+          "curry": {
+            "cells": {
+              "avg": true,
+              "detected": true,
+              "max": true,
+              "min": true,
+              "n": true
+            },
+            "stats": {
+              "k": 3,
+              "max": 298.0,
+              "mean": 226.66666666666666,
+              "min": 88.0,
+              "n": 24,
+              "pct": 12.5
+            }
+          },
+          "veg": {
+            "cells": {
+              "avg": false,
+              "detected": true,
+              "max": true,
+              "min": true,
+              "n": true
+            },
+            "stats": {
+              "k": 30,
+              "max": 103.0,
+              "mean": 34.74133333333334,
+              "min": 5.54,
+              "n": 144,
+              "pct": 20.833333333333332
+            }
+          }
+        },
+        "full_rows": [
+          "bev",
+          "fruit"
+        ],
+        "highest": [
+          {
+            "date": "28-Nov-12",
+            "function": "Import",
+            "origin": "THAILAND",
+            "ppb": {
+              "badge": 0.0,
+              "bpa": 381.0,
+              "bpf": 0.0,
+              "bps": 0.0
+            },
+            "product": "Coconut Milk",
+            "sample": "C2012BPHA00254",
+            "type": "coconut"
+          },
+          {
+            "date": "24-Oct-12",
+            "function": "Import",
+            "origin": "THAILAND",
+            "ppb": {
+              "badge": 0.0,
+              "bpa": 298.0,
+              "bpf": 0.0,
+              "bps": 0.0
+            },
+            "product": "Curry",
+            "sample": "C2012BPHA00270",
+            "type": "curry"
+          },
+          {
+            "date": "28-Nov-12",
+            "function": "Import",
+            "origin": "THAILAND",
+            "ppb": {
+              "badge": 0.0,
+              "bpa": 294.0,
+              "bpf": 0.0,
+              "bps": 0.0
+            },
+            "product": "Curry",
+            "sample": "C2012BPHA00268",
+            "type": "curry"
+          }
+        ],
+        "lowest": [
+          {
+            "date": "01-May-12",
+            "function": "Import",
+            "origin": "UNITED STATES",
+            "ppb": {
+              "badge": 0.0,
+              "bpa": 5.2,
+              "bpf": 0.0,
+              "bps": 0.0
+            },
+            "product": "Pasta - Canned",
+            "sample": "C2012BPHA00533",
+            "type": "pasta"
+          }
+        ],
+        "pasta_soup_k": 92,
+        "stats": {
+          "all": {
+            "k": 145,
+            "max": 381.0,
+            "mean": 48.134,
+            "min": 5.2,
+            "n": 576,
+            "pct": 25.17361111111111
+          },
+          "bev": {
+            "k": 2,
+            "max": 12.0,
+            "mean": 8.95,
+            "min": 5.8999999999999995,
+            "n": 72,
+            "pct": 2.7777777777777777
+          },
+          "coconut": {
+            "k": 17,
+            "max": 381.0,
+            "mean": 65.36470588235295,
+            "min": 5.4,
+            "n": 46,
+            "pct": 36.95652173913044
+          },
+          "curry": {
+            "k": 3,
+            "max": 298.0,
+            "mean": 226.66666666666666,
+            "min": 88.0,
+            "n": 21,
+            "pct": 14.285714285714286
+          },
+          "fruit": {
+            "k": 1,
+            "max": 8.6,
+            "mean": 8.6,
+            "min": 8.6,
+            "n": 73,
+            "pct": 1.36986301369863
+          },
+          "pasta": {
+            "k": 53,
+            "max": 157.0,
+            "mean": 21.680943396226414,
+            "min": 5.2,
+            "n": 119,
+            "pct": 44.53781512605042
+          },
+          "soup": {
+            "k": 39,
+            "max": 277.0,
+            "mean": 76.16410256410256,
+            "min": 5.7,
+            "n": 98,
+            "pct": 39.795918367346935
+          },
+          "veg": {
+            "k": 30,
+            "max": 103.0,
+            "mean": 34.74133333333334,
+            "min": 5.54,
+            "n": 147,
+            "pct": 20.408163265306122
+          }
+        },
+        "table5": {
+          "bev": {
+            "avg": true,
+            "detected": true,
+            "max": true,
+            "min": true,
+            "n": true
+          },
+          "coconut": {
+            "avg": false,
+            "detected": true,
+            "max": true,
+            "min": true,
+            "n": true
+          },
+          "curry": {
+            "avg": true,
+            "detected": true,
+            "max": true,
+            "min": true,
+            "n": false
+          },
+          "fruit": {
+            "avg": true,
+            "detected": true,
+            "max": true,
+            "min": true,
+            "n": true
+          },
+          "pasta": {
+            "avg": false,
+            "detected": false,
+            "max": true,
+            "min": true,
+            "n": false
+          },
+          "soup": {
+            "avg": true,
+            "detected": true,
+            "max": true,
+            "min": true,
+            "n": true
+          },
+          "veg": {
+            "avg": false,
+            "detected": true,
+            "max": true,
+            "min": true,
+            "n": false
+          }
+        }
+      },
+      "text": "2012-13: 145 positives; minimum 5.2 (a pasta), maximum 381 (a coconut milk); at least 4 of Table 5's five non-pasta/soup rows reproduce in full; the pasta and soup samples hold 92 positives"
+    },
+    {
+      "graded": true,
+      "id": "V5",
+      "kind": "prediction",
+      "met": true,
+      "observed": {
+        "checks": {
+          "k_252": true,
+          "max_565_corn": true,
+          "min_1.0_fruit": true,
+          "rows_full_7_of_9": true
+        },
+        "d_suffixed": [
+          {
+            "date": "29-Mar-14",
+            "function": "Import",
+            "origin": "United States",
+            "ppb": {
+              "badge": 0.0,
+              "bpa": 4.8,
+              "bpf": 0.0,
+              "bps": 0.0
+            },
+            "product": "Infant Formula - Dairy",
+            "sample": "C2013BHPA00319D",
+            "type": "formula"
+          }
+        ],
+        "full_rows": [
+          "bev",
+          "coconut",
+          "fruit",
+          "formula",
+          "pasta",
+          "pie",
+          "curry",
+          "soup",
+          "veg"
+        ],
+        "highest": [
+          {
+            "date": "30-Jun-13",
+            "function": "Import",
+            "origin": "United States",
+            "ppb": {
+              "badge": 0.0,
+              "bpa": 565.0,
+              "bpf": 0.0,
+              "bps": 0.0
+            },
+            "product": "Corn",
+            "sample": "C2013BHPA00015",
+            "type": "veg"
+          },
+          {
+            "date": "08-Jul-13",
+            "function": "Domestic",
+            "origin": "Canada",
+            "ppb": {
+              "badge": 0.0,
+              "bpa": 307.0,
+              "bpf": 0.0,
+              "bps": 0.0
+            },
+            "product": "Soup",
+            "sample": "C2013BHPA00049",
+            "type": "soup"
+          },
+          {
+            "date": "25-Mar-14",
+            "function": "Import",
+            "origin": "Thailand",
+            "ppb": {
+              "badge": 0.0,
+              "bpa": 253.0,
+              "bpf": 0.0,
+              "bps": 0.0
+            },
+            "product": "Coconut Milk",
+            "sample": "C2013BHPA00309",
+            "type": "coconut"
+          }
+        ],
+        "lowest": [
+          {
+            "date": "19-Mar-14",
+            "function": "Import",
+            "origin": "Thailand",
+            "ppb": {
+              "badge": 0.0,
+              "bpa": 1.0,
+              "bpf": 0.0,
+              "bps": 0.0
+            },
+            "product": "Mixed Fruit",
+            "sample": "C2013BHPA00424",
+            "type": "fruit"
+          }
+        ],
+        "stats": {
+          "all": {
+            "k": 252,
+            "max": 565.0,
+            "mean": 27.109920634920634,
+            "min": 1.0,
+            "n": 391,
+            "pct": 64.45012787723785
+          },
+          "bev": {
+            "k": 34,
+            "max": 190.0,
+            "mean": 13.623529411764705,
+            "min": 1.1,
+            "n": 97,
+            "pct": 35.05154639175258
+          },
+          "coconut": {
+            "k": 12,
+            "max": 253.0,
+            "mean": 84.175,
+            "min": 4.8,
+            "n": 13,
+            "pct": 92.3076923076923
+          },
+          "curry": {
+            "k": 5,
+            "max": 226.0,
+            "mean": 75.53999999999999,
+            "min": 6.2,
+            "n": 5,
+            "pct": 100.0
+          },
+          "formula": {
+            "k": 28,
+            "max": 12.5,
+            "mean": 4.825,
+            "min": 1.1,
+            "n": 55,
+            "pct": 50.90909090909091
+          },
+          "fruit": {
+            "k": 19,
+            "max": 53.6,
+            "mean": 6.689473684210527,
+            "min": 1.0,
+            "n": 38,
+            "pct": 50.0
+          },
+          "pasta": {
+            "k": 45,
+            "max": 93.0,
+            "mean": 19.471111111111114,
+            "min": 6.7,
+            "n": 45,
+            "pct": 100.0
+          },
+          "pie": {
+            "k": 8,
+            "max": 47.300000000000004,
+            "mean": 22.2875,
+            "min": 3.4,
+            "n": 20,
+            "pct": 40.0
+          },
+          "soup": {
+            "k": 42,
+            "max": 307.0,
+            "mean": 42.61904761904762,
+            "min": 1.2,
+            "n": 48,
+            "pct": 87.5
+          },
+          "veg": {
+            "k": 59,
+            "max": 565.0,
+            "mean": 31.76271186440678,
+            "min": 1.1,
+            "n": 70,
+            "pct": 84.28571428571429
+          }
+        },
+        "table5": {
+          "bev": {
+            "avg": true,
+            "detected": true,
+            "max": true,
+            "min": true,
+            "n": true
+          },
+          "coconut": {
+            "avg": true,
+            "detected": true,
+            "max": true,
+            "min": true,
+            "n": true
+          },
+          "curry": {
+            "avg": true,
+            "detected": true,
+            "max": true,
+            "min": true,
+            "n": true
+          },
+          "formula": {
+            "avg": true,
+            "detected": true,
+            "max": true,
+            "min": true,
+            "n": true
+          },
+          "fruit": {
+            "avg": true,
+            "detected": true,
+            "max": true,
+            "min": true,
+            "n": true
+          },
+          "pasta": {
+            "avg": true,
+            "detected": true,
+            "max": true,
+            "min": true,
+            "n": true
+          },
+          "pie": {
+            "avg": true,
+            "detected": true,
+            "max": true,
+            "min": true,
+            "n": true
+          },
+          "soup": {
+            "avg": true,
+            "detected": true,
+            "max": true,
+            "min": true,
+            "n": true
+          },
+          "veg": {
+            "avg": true,
+            "detected": true,
+            "max": true,
+            "min": true,
+            "n": true
+          }
+        }
+      },
+      "text": "2013-14: 252 positives of 391; minimum 1.0 (a fruit), maximum 565 (a corn); at least 7 of Table 5's nine 2013 rows reproduce in full, pasta as 45 of 45"
+    },
+    {
+      "graded": true,
+      "id": "V6",
+      "kind": "prediction",
+      "met": false,
+      "observed": {
+        "checks": {
+          "avg_all_87.2": true,
+          "coconut_top_1370_next_478": true,
+          "fruit_top_1160_next_186": false,
+          "k_361": true,
+          "pie_top_2240_next_530": true,
+          "rows_4_gradable_full": true,
+          "sauce_top_1120_next_7.5": false
+        },
+        "rows": {
+          "coconut": {
+            "avg": true,
+            "detected": true,
+            "max": true,
+            "min": true,
+            "n": true
+          },
+          "fruit": {
+            "avg": true,
+            "detected": true,
+            "max": true,
+            "min": true,
+            "n": true
+          },
+          "pie": {
+            "avg": true,
+            "detected": true,
+            "max": true,
+            "min": true,
+            "n": true
+          },
+          "veg": {
+            "avg": true,
+            "detected": true,
+            "max": true,
+            "min": true,
+            "n": true
+          }
+        },
+        "stats": {
+          "all": {
+            "k": 361,
+            "max": 2240.0,
+            "mean": 87.18468144044321,
+            "min": 1.1,
+            "n": 491,
+            "pct": 73.5234215885947
+          },
+          "bev": {
+            "k": 102,
+            "max": 639.0,
+            "mean": 36.65225490196079,
+            "min": 1.1,
+            "n": 149,
+            "pct": 68.45637583892618
+          },
+          "coconut": {
+            "k": 12,
+            "max": 1370.0,
+            "mean": 305.6166666666667,
+            "min": 24.2,
+            "n": 14,
+            "pct": 85.71428571428571
+          },
+          "formula": {
+            "k": 53,
+            "max": 45.699999999999996,
+            "mean": 8.678867924528301,
+            "min": 2.2,
+            "n": 74,
+            "pct": 71.62162162162163
+          },
+          "fruit": {
+            "k": 34,
+            "max": 1160.0,
+            "mean": 62.05676470588235,
+            "min": 2.0,
+            "n": 50,
+            "pct": 68.0
+          },
+          "pasta": {
+            "k": 39,
+            "max": 270.0,
+            "mean": 86.74230769230769,
+            "min": 1.64,
+            "n": 49,
+            "pct": 79.59183673469387
+          },
+          "pie": {
+            "k": 16,
+            "max": 2240.0,
+            "mean": 281.38125,
+            "min": 8.5,
+            "n": 20,
+            "pct": 80.0
+          },
+          "sauce": {
+            "k": 7,
+            "max": 1120.0,
+            "mean": 190.99142857142857,
+            "min": 1.9400000000000002,
+            "n": 15,
+            "pct": 46.666666666666664
+          },
+          "soup": {
+            "k": 40,
+            "max": 410.0,
+            "mean": 105.576,
+            "min": 2.48,
+            "n": 48,
+            "pct": 83.33333333333333
+          },
+          "veg": {
+            "k": 58,
+            "max": 751.0,
+            "mean": 138.84137931034482,
+            "min": 5.31,
+            "n": 72,
+            "pct": 80.55555555555556
+          }
+        },
+        "table2_all_packaging": {
+          "bev": {
+            "avg": false,
+            "detected": false,
+            "max": true,
+            "min": false,
+            "n": false
+          },
+          "coconut": {
+            "avg": true,
+            "detected": true,
+            "max": true,
+            "min": true,
+            "n": true
+          },
+          "formula": {
+            "avg": true,
+            "detected": false,
+            "max": false,
+            "min": false,
+            "n": false
+          },
+          "fruit": {
+            "avg": true,
+            "detected": true,
+            "max": true,
+            "min": true,
+            "n": true
+          },
+          "pasta": {
+            "avg": true,
+            "detected": true,
+            "max": true,
+            "min": true,
+            "n": false
+          },
+          "pie": {
+            "avg": true,
+            "detected": true,
+            "max": true,
+            "min": true,
+            "n": true
+          },
+          "sauce": {
+            "avg": false,
+            "detected": false,
+            "max": true,
+            "min": true,
+            "n": false
+          },
+          "soup": {
+            "avg": false,
+            "detected": false,
+            "max": true,
+            "min": true,
+            "n": false
+          },
+          "veg": {
+            "avg": true,
+            "detected": true,
+            "max": true,
+            "min": true,
+            "n": true
+          }
+        },
+        "tops": {
+          "coconut": {
+            "top": [
+              {
+                "date": "11-Jul-16",
+                "function": "Import",
+                "origin": "THAILAND",
+                "ppb": {
+                  "badge": 0.0,
+                  "bpa": 1370.0,
+                  "bpf": 0.0,
+                  "bps": 0.0
+                },
+                "product": "Coconut Milk",
+                "sample": "C2016BPHA00420",
+                "type": "coconut"
+              },
+              {
+                "date": "01-Oct-16",
+                "function": "Import",
+                "origin": "THAILAND",
+                "ppb": {
+                  "badge": 0.0,
+                  "bpa": 478.0,
+                  "bpf": 0.0,
+                  "bps": 0.0
+                },
+                "product": "Coconut Milk",
+                "sample": "C2016BPHA00155",
+                "type": "coconut"
+              }
+            ],
+            "values": [
+              1370.0,
+              478.0
+            ]
+          },
+          "fruit": {
+            "top": [
+              {
+                "date": "10-Jul-16",
+                "function": "Import",
+                "origin": "SRI LANKA",
+                "ppb": {
+                  "badge": 0.0,
+                  "bpa": 1160.0,
+                  "bpf": 0.0,
+                  "bps": 0.0
+                },
+                "product": "Pineapple - Organic",
+                "sample": "C2016BPHA00357",
+                "type": "fruit"
+              },
+              {
+                "date": "12-Jun-16",
+                "function": "Import",
+                "origin": "CHINA",
+                "ppb": {
+                  "badge": 0.0,
+                  "bpa": 186.0,
+                  "bpf": 0.0,
+                  "bps": 0.0
+                },
+                "product": "Mixed Fruit",
+                "sample": "C2016BPHA00351",
+                "type": "fruit"
+              }
+            ],
+            "values": [
+              1160.0,
+              186.0
+            ]
+          },
+          "pie": {
+            "top": [
+              {
+                "date": "01-Aug-16",
+                "function": "Import",
+                "origin": "UNKNOWN",
+                "ppb": {
+                  "badge": 0.0,
+                  "bpa": 2240.0,
+                  "bpf": 0.0,
+                  "bps": 0.0
+                },
+                "product": "Pie Filling - Pumpkin",
+                "sample": "C2016BPHA00124",
+                "type": "pie"
+              },
+              {
+                "date": "12-Jun-16",
+                "function": "Import",
+                "origin": "UNITED STATES",
+                "ppb": {
+                  "badge": 0.0,
+                  "bpa": 530.0,
+                  "bpf": 0.0,
+                  "bps": 0.0
+                },
+                "product": "Pie Filling - Cherry",
+                "sample": "C2016BPHA00087",
+                "type": "pie"
+              }
+            ],
+            "values": [
+              2240.0,
+              530.0
+            ]
+          },
+          "sauce": {
+            "top": [
+              {
+                "date": "04-Sep-16",
+                "function": "Import",
+                "origin": "THAILAND",
+                "ppb": {
+                  "badge": 0.0,
+                  "bpa": 1120.0,
+                  "bpf": 0.0,
+                  "bps": 0.0
+                },
+                "product": "Sauces",
+                "sample": "C2016BPHA00141",
+                "type": "sauce"
+              },
+              {
+                "date": "02-Nov-16",
+                "function": "Import",
+                "origin": "THAILAND",
+                "ppb": {
+                  "badge": 0.0,
+                  "bpa": 188.0,
+                  "bpf": 0.0,
+                  "bps": 0.0
+                },
+                "product": "Sauces",
+                "sample": "C2016BPHA00051",
+                "type": "sauce"
+              }
+            ],
+            "values": [
+              1120.0,
+              188.0
+            ]
+          }
+        },
+        "ungraded": {
+          "canned_avg": "91.6",
+          "canned_k": 340,
+          "other_avg": "15.2",
+          "other_k": 21
+        },
+        "veg_avg": {
+          "138": false,
+          "139": true
+        }
+      },
+      "text": "2016-17: Table 2's coconut milk, fruit, pie filling and vegetable rows reproduce in full (vegetables at 139 or 138); 361 positives in all 491 samples; the all-products average 87.2; the text's maxima and next-highest values (pie filling 2240 pumpkin / 530, coconut milk 1370 / 478, fruit 1160 pineapple / 186, sauces 1120 / 7.5). The other five rows, the 340 canned positives and the 91.6 canned average are ungraded: the file has no packaging label"
+    },
+    {
+      "graded": true,
+      "id": "V7",
+      "kind": "prediction",
+      "met": true,
+      "observed": {
+        "badge": {
+          "k": 72,
+          "stats": {
+            "k": 72,
+            "max": 53.199999999999996,
+            "mean": 10.096388888888889,
+            "min": 0.9700000000000001,
+            "n": 468,
+            "pct": 15.384615384615385
+          },
+          "with_bpa": 69
+        },
+        "bpf": {
+          "k": 68,
+          "with_bpa": 68
+        },
+        "bps_positives": [
+          {
+            "date": "07-Apr-17",
+            "function": "Import",
+            "origin": "BRAZIL",
+            "ppb": {
+              "badge": 0.0,
+              "bpa": 22.6,
+              "bpf": 0.0,
+              "bps": 1.79
+            },
+            "product": "Meat - Canned",
+            "sample": "C2017BPHA00076",
+            "type": "meat"
+          }
+        ],
+        "checks": {
+          "badge_72_of_which_69_with_bpa": true,
+          "bpf_68_all_with_bpa": true,
+          "fish_row": true,
+          "meat_row": true,
+          "one_bps_meat_1.79": true,
+          "top_1480_imported_fish_next_567": true,
+          "total_row": true
+        },
+        "meat_avg_alternatives": {
+          "34.6": false,
+          "46.6": false
+        },
+        "stats": {
+          "all": {
+            "k": 329,
+            "max": 1480.0,
+            "mean": 44.820577507598784,
+            "min": 1.2,
+            "n": 468,
+            "pct": 70.2991452991453
+          },
+          "fish": {
+            "k": 159,
+            "max": 1480.0,
+            "mean": 54.662830188679244,
+            "min": 1.2899999999999998,
+            "n": 237,
+            "pct": 67.0886075949367
+          },
+          "meat": {
+            "k": 170,
+            "max": 407.0,
+            "mean": 35.61517647058823,
+            "min": 1.2,
+            "n": 231,
+            "pct": 73.5930735930736
+          }
+        },
+        "table2": {
+          "all": {
+            "avg": true,
+            "detected": true,
+            "max": true,
+            "min": true,
+            "n": true
+          },
+          "fish": {
+            "avg": true,
+            "detected": true,
+            "max": true,
+            "min": true,
+            "n": true
+          },
+          "meat": {
+            "avg": true,
+            "detected": true,
+            "max": true,
+            "min": true,
+            "n": true
+          }
+        },
+        "top_two": [
+          {
+            "date": "11-Apr-17",
+            "function": "Import",
+            "origin": "CHINA",
+            "ppb": {
+              "badge": 16.5,
+              "bpa": 1480.0,
+              "bpf": 0.0,
+              "bps": 0.0
+            },
+            "product": "Fish/Seafood - Canned",
+            "sample": "C2017BPHA00234",
+            "type": "fish"
+          },
+          {
+            "date": "29-Sep-17",
+            "function": "Import",
+            "origin": "PHILIPPINES",
+            "ppb": {
+              "badge": 0.0,
+              "bpa": 567.0,
+              "bpf": 0.0,
+              "bps": 0.0
+            },
+            "product": "Fish/Seafood - Canned",
+            "sample": "C2017BPHA00153",
+            "type": "fish"
+          }
+        ]
+      },
+      "text": "2017-18: Table 2's BPA rows reproduce (meat average 35.6, not 34.6 or 46.6); the top value 1480 is an imported fish and the next is 567; one BPS positive (a meat, 1.79); 69 of 72 BADGE positives and all 68 BPF positives also contain BPA"
+    },
+    {
+      "graded": true,
+      "id": "D1",
+      "kind": "prediction",
+      "met": true,
+      "observed": {
+        "cut_ppb": 5.2,
+        "nd_coding": "every result cell is a plain number; non-detects are 0; no limit is printed in any of the three files",
+        "rates": {
+          "bpa-2011": {
+            "k": 6,
+            "min": 18.0,
+            "n": 403,
+            "pct": 1.488833746898263
+          },
+          "bpa-2012": {
+            "k": 145,
+            "min": 5.2,
+            "n": 576,
+            "pct": 25.17361111111111
+          },
+          "bpa-2013": {
+            "k": 252,
+            "min": 1.0,
+            "n": 391,
+            "pct": 64.45012787723785
+          }
+        },
+        "ratio": 2.3776491316385604,
+        "shares": {
+          "2012-13": {
+            "groups": {
+              "bev": [
+                72,
+                2,
+                2
+              ],
+              "coconut": [
+                46,
+                17,
+                17
+              ],
+              "curry": [
+                21,
+                3,
+                3
+              ],
+              "fruit": [
+                73,
+                1,
+                1
+              ],
+              "pastasoup": [
+                217,
+                92,
+                92
+              ],
+              "veg": [
+                147,
+                30,
+                30
+              ]
+            },
+            "k_cut": 145,
+            "n": 576,
+            "share": 0.2517361111111111
+          },
+          "2013-14": {
+            "groups": {
+              "bev": [
+                55,
+                26,
+                11
+              ],
+              "coconut": [
+                13,
+                12,
+                11
+              ],
+              "curry": [
+                5,
+                5,
+                5
+              ],
+              "fruit": [
+                38,
+                19,
+                5
+              ],
+              "pastasoup": [
+                93,
+                87,
+                83
+              ],
+              "veg": [
+                70,
+                59,
+                49
+              ]
+            },
+            "k_cut": 164,
+            "n": 274,
+            "share": 0.5985401459854015
+          },
+          "ratio": 2.3776491316385604
+        }
+      },
+      "text": "exploratory, directional: at a common 5.2 ppb cut in the categories shared by 2012-13 and 2013-14 (vegetables, fruit, juices/beverages without energy, sports and soft drinks, pastas/soups, coconut milk, curry), the 2013-14 share is at least 1.5 times the 2012-13 share"
+    },
+    {
+      "graded": false,
+      "id": "T1",
+      "kind": "descriptive",
+      "met": null,
+      "observed": {
+        "consecutive": true,
+        "distinct": 200,
+        "first": "2009-07-21",
+        "last": "2010-02-05",
+        "long_ids": [
+          [
+            "2009BPA00065",
+            "2009-07-27"
+          ],
+          [
+            "2009BPA00066",
+            "2009-07-28"
+          ],
+          [
+            "2009BPA00081",
+            "2009-07-31"
+          ],
+          [
+            "2009BPA00082",
+            "2009-08-01"
+          ],
+          [
+            "2009BPA00083",
+            "2009-08-02"
+          ],
+          [
+            "2009BPA00084",
+            "2009-08-03"
+          ],
+          [
+            "2009BPA00085",
+            "2009-08-04"
+          ],
+          [
+            "2009BPA00086",
+            "2009-08-05"
+          ],
+          [
+            "2009BPA00087",
+            "2009-08-06"
+          ],
+          [
+            "2009BPA00088",
+            "2009-08-07"
+          ],
+          [
+            "2009BPA00134",
+            "2009-08-13"
+          ],
+          [
+            "2009BPA00135",
+            "2009-08-14"
+          ],
+          [
+            "2009BPA00136",
+            "2009-08-15"
+          ],
+          [
+            "2009BPA00137",
+            "2009-08-16"
+          ],
+          [
+            "2009BPA00138",
+            "2009-08-17"
+          ],
+          [
+            "2009BPA00139",
+            "2009-08-18"
+          ],
+          [
+            "2009BPA00140",
+            "2009-08-20"
+          ],
+          [
+            "2009BPA00141",
+            "2009-08-21"
+          ],
+          [
+            "2009BPA00142",
+            "2009-08-22"
+          ],
+          [
+            "2009BPA00143",
+            "2009-08-23"
+          ],
+          [
+            "2009BPA00144",
+            "2009-08-24"
+          ],
+          [
+            "2009BPA00145",
+            "2009-08-25"
+          ],
+          [
+            "2009BPA00146",
+            "2009-08-26"
+          ],
+          [
+            "2009BPA00147",
+            "2009-08-27"
+          ],
+          [
+            "2009BPA00148",
+            "2009-08-28"
+          ],
+          [
+            "2009BPA00149",
+            "2009-08-29"
+          ],
+          [
+            "2009BPA00150",
+            "2009-08-31"
+          ]
+        ],
+        "n": 200,
+        "parsed": 200,
+        "rank_fits": {
+          "number": 31,
+          "row": 31,
+          "text": 200
+        },
+        "span_days": 200,
+        "start_plus_number_fits": 0,
+        "weekdays": {
+          "Fri": 29,
+          "Mon": 28,
+          "Sat": 28,
+          "Sun": 28,
+          "Thu": 29,
+          "Tue": 29,
+          "Wed": 29
+        }
+      },
+      "text": "descriptive (labels and dates only): are the 2009-10 sampling dates a calendar sequence that follows the sample numbers (date = 2009-10-01 + (number - 1) days)?"
+    },
+    {
+      "graded": false,
+      "id": "X6",
+      "kind": "descriptive",
+      "met": null,
+      "observed": {
+        "badge_top": {
+          "date": "13-Jul-16",
+          "function": "Import",
+          "origin": "SRI LANKA",
+          "ppb": {
+            "badge": 224.0,
+            "bpa": 0.0,
+            "bpf": 0.0,
+            "bps": 0.0
+          },
+          "product": "Coconut Milk",
+          "sample": "C2016BPHA00258",
+          "type": "coconut"
+        },
+        "bpf_positives": [
+          {
+            "date": "08-May-16",
+            "function": "Import",
+            "origin": "THAILAND",
+            "ppb": {
+              "badge": 0.0,
+              "bpa": 123.0,
+              "bpf": 3.75,
+              "bps": 0.0
+            },
+            "product": "Bamboo Shoot",
+            "sample": "C2016BPHA00066",
+            "type": "veg"
+          },
+          {
+            "date": "02-Dec-16",
+            "function": "Import",
+            "origin": "THAILAND",
+            "ppb": {
+              "badge": 0.0,
+              "bpa": 484.0,
+              "bpf": 3.6,
+              "bps": 0.0
+            },
+            "product": "Bamboo Shoot",
+            "sample": "C2016BPHA00186",
+            "type": "veg"
+          },
+          {
+            "date": "08-May-16",
+            "function": "Import",
+            "origin": "THAILAND",
+            "ppb": {
+              "badge": 0.0,
+              "bpa": 363.0,
+              "bpf": 2.44,
+              "bps": 0.0
+            },
+            "product": "Bamboo Shoot",
+            "sample": "C2016BPHA00065",
+            "type": "veg"
+          }
+        ],
+        "bps_positives": [],
+        "origins": {
+          "bev": [
+            22,
+            83,
+            44,
+            149
+          ],
+          "coconut": [
+            0,
+            14,
+            0,
+            14
+          ],
+          "formula": [
+            0,
+            71,
+            3,
+            74
+          ],
+          "fruit": [
+            0,
+            50,
+            0,
+            50
+          ],
+          "pasta": [
+            4,
+            14,
+            31,
+            49
+          ],
+          "pie": [
+            0,
+            19,
+            1,
+            20
+          ],
+          "sauce": [
+            5,
+            2,
+            8,
+            15
+          ],
+          "soup": [
+            28,
+            4,
+            16,
+            48
+          ],
+          "veg": [
+            20,
+            43,
+            9,
+            72
+          ]
+        },
+        "table4_all_packaging": {
+          "badge": {
+            "bev": {
+              "avg": true,
+              "detected": true,
+              "k": 0,
+              "max": true,
+              "min": true,
+              "printed_k": 0,
+              "stats": {
+                "k": 0,
+                "max": null,
+                "mean": null,
+                "min": null,
+                "n": 149,
+                "pct": 0.0
+              }
+            },
+            "coconut": {
+              "avg": true,
+              "detected": true,
+              "k": 4,
+              "max": true,
+              "min": true,
+              "printed_k": 4,
+              "stats": {
+                "k": 4,
+                "max": 224.0,
+                "mean": 109.35,
+                "min": 16.1,
+                "n": 14,
+                "pct": 28.571428571428573
+              }
+            },
+            "formula": {
+              "avg": true,
+              "detected": true,
+              "k": 0,
+              "max": true,
+              "min": true,
+              "printed_k": 0,
+              "stats": {
+                "k": 0,
+                "max": null,
+                "mean": null,
+                "min": null,
+                "n": 74,
+                "pct": 0.0
+              }
+            },
+            "fruit": {
+              "avg": true,
+              "detected": true,
+              "k": 0,
+              "max": true,
+              "min": true,
+              "printed_k": 0,
+              "stats": {
+                "k": 0,
+                "max": null,
+                "mean": null,
+                "min": null,
+                "n": 50,
+                "pct": 0.0
+              }
+            },
+            "pasta": {
+              "avg": true,
+              "detected": true,
+              "k": 0,
+              "max": true,
+              "min": true,
+              "printed_k": 0,
+              "stats": {
+                "k": 0,
+                "max": null,
+                "mean": null,
+                "min": null,
+                "n": 49,
+                "pct": 0.0
+              }
+            },
+            "pie": {
+              "avg": true,
+              "detected": true,
+              "k": 0,
+              "max": true,
+              "min": true,
+              "printed_k": 0,
+              "stats": {
+                "k": 0,
+                "max": null,
+                "mean": null,
+                "min": null,
+                "n": 20,
+                "pct": 0.0
+              }
+            },
+            "sauce": {
+              "avg": true,
+              "detected": true,
+              "k": 1,
+              "max": true,
+              "min": true,
+              "printed_k": 1,
+              "stats": {
+                "k": 1,
+                "max": 14.3,
+                "mean": 14.3,
+                "min": 14.3,
+                "n": 15,
+                "pct": 6.666666666666667
+              }
+            },
+            "soup": {
+              "avg": true,
+              "detected": true,
+              "k": 0,
+              "max": true,
+              "min": true,
+              "printed_k": 0,
+              "stats": {
+                "k": 0,
+                "max": null,
+                "mean": null,
+                "min": null,
+                "n": 48,
+                "pct": 0.0
+              }
+            },
+            "veg": {
+              "avg": true,
+              "detected": true,
+              "k": 0,
+              "max": true,
+              "min": true,
+              "printed_k": 0,
+              "stats": {
+                "k": 0,
+                "max": null,
+                "mean": null,
+                "min": null,
+                "n": 72,
+                "pct": 0.0
+              }
+            }
+          },
+          "bpf": {
+            "bev": {
+              "avg": true,
+              "detected": true,
+              "k": 0,
+              "max": true,
+              "min": true,
+              "printed_k": 0,
+              "stats": {
+                "k": 0,
+                "max": null,
+                "mean": null,
+                "min": null,
+                "n": 149,
+                "pct": 0.0
+              }
+            },
+            "coconut": {
+              "avg": true,
+              "detected": true,
+              "k": 0,
+              "max": true,
+              "min": true,
+              "printed_k": 0,
+              "stats": {
+                "k": 0,
+                "max": null,
+                "mean": null,
+                "min": null,
+                "n": 14,
+                "pct": 0.0
+              }
+            },
+            "formula": {
+              "avg": true,
+              "detected": true,
+              "k": 0,
+              "max": true,
+              "min": true,
+              "printed_k": 0,
+              "stats": {
+                "k": 0,
+                "max": null,
+                "mean": null,
+                "min": null,
+                "n": 74,
+                "pct": 0.0
+              }
+            },
+            "fruit": {
+              "avg": true,
+              "detected": true,
+              "k": 0,
+              "max": true,
+              "min": true,
+              "printed_k": 0,
+              "stats": {
+                "k": 0,
+                "max": null,
+                "mean": null,
+                "min": null,
+                "n": 50,
+                "pct": 0.0
+              }
+            },
+            "pasta": {
+              "avg": true,
+              "detected": true,
+              "k": 0,
+              "max": true,
+              "min": true,
+              "printed_k": 0,
+              "stats": {
+                "k": 0,
+                "max": null,
+                "mean": null,
+                "min": null,
+                "n": 49,
+                "pct": 0.0
+              }
+            },
+            "pie": {
+              "avg": true,
+              "detected": true,
+              "k": 0,
+              "max": true,
+              "min": true,
+              "printed_k": 0,
+              "stats": {
+                "k": 0,
+                "max": null,
+                "mean": null,
+                "min": null,
+                "n": 20,
+                "pct": 0.0
+              }
+            },
+            "sauce": {
+              "avg": true,
+              "detected": true,
+              "k": 0,
+              "max": true,
+              "min": true,
+              "printed_k": 0,
+              "stats": {
+                "k": 0,
+                "max": null,
+                "mean": null,
+                "min": null,
+                "n": 15,
+                "pct": 0.0
+              }
+            },
+            "soup": {
+              "avg": true,
+              "detected": true,
+              "k": 0,
+              "max": true,
+              "min": true,
+              "printed_k": 0,
+              "stats": {
+                "k": 0,
+                "max": null,
+                "mean": null,
+                "min": null,
+                "n": 48,
+                "pct": 0.0
+              }
+            },
+            "veg": {
+              "avg": true,
+              "detected": true,
+              "k": 3,
+              "max": true,
+              "min": true,
+              "printed_k": 3,
+              "stats": {
+                "k": 3,
+                "max": 3.75,
+                "mean": 3.263333333333333,
+                "min": 2.44,
+                "n": 72,
+                "pct": 4.166666666666667
+              }
+            }
+          },
+          "bps": {
+            "bev": {
+              "avg": true,
+              "detected": true,
+              "k": 0,
+              "max": true,
+              "min": true,
+              "printed_k": 0,
+              "stats": {
+                "k": 0,
+                "max": null,
+                "mean": null,
+                "min": null,
+                "n": 149,
+                "pct": 0.0
+              }
+            },
+            "coconut": {
+              "avg": true,
+              "detected": true,
+              "k": 0,
+              "max": true,
+              "min": true,
+              "printed_k": 0,
+              "stats": {
+                "k": 0,
+                "max": null,
+                "mean": null,
+                "min": null,
+                "n": 14,
+                "pct": 0.0
+              }
+            },
+            "formula": {
+              "avg": true,
+              "detected": true,
+              "k": 0,
+              "max": true,
+              "min": true,
+              "printed_k": 0,
+              "stats": {
+                "k": 0,
+                "max": null,
+                "mean": null,
+                "min": null,
+                "n": 74,
+                "pct": 0.0
+              }
+            },
+            "fruit": {
+              "avg": true,
+              "detected": true,
+              "k": 0,
+              "max": true,
+              "min": true,
+              "printed_k": 0,
+              "stats": {
+                "k": 0,
+                "max": null,
+                "mean": null,
+                "min": null,
+                "n": 50,
+                "pct": 0.0
+              }
+            },
+            "pasta": {
+              "avg": true,
+              "detected": true,
+              "k": 0,
+              "max": true,
+              "min": true,
+              "printed_k": 0,
+              "stats": {
+                "k": 0,
+                "max": null,
+                "mean": null,
+                "min": null,
+                "n": 49,
+                "pct": 0.0
+              }
+            },
+            "pie": {
+              "avg": true,
+              "detected": true,
+              "k": 0,
+              "max": true,
+              "min": true,
+              "printed_k": 0,
+              "stats": {
+                "k": 0,
+                "max": null,
+                "mean": null,
+                "min": null,
+                "n": 20,
+                "pct": 0.0
+              }
+            },
+            "sauce": {
+              "avg": true,
+              "detected": true,
+              "k": 0,
+              "max": true,
+              "min": true,
+              "printed_k": 0,
+              "stats": {
+                "k": 0,
+                "max": null,
+                "mean": null,
+                "min": null,
+                "n": 15,
+                "pct": 0.0
+              }
+            },
+            "soup": {
+              "avg": true,
+              "detected": true,
+              "k": 0,
+              "max": true,
+              "min": true,
+              "printed_k": 0,
+              "stats": {
+                "k": 0,
+                "max": null,
+                "mean": null,
+                "min": null,
+                "n": 48,
+                "pct": 0.0
+              }
+            },
+            "veg": {
+              "avg": true,
+              "detected": true,
+              "k": 0,
+              "max": true,
+              "min": true,
+              "printed_k": 0,
+              "stats": {
+                "k": 0,
+                "max": null,
+                "mean": null,
+                "min": null,
+                "n": 72,
+                "pct": 0.0
+              }
+            }
+          }
+        },
+        "twins": []
+      },
+      "text": "descriptive: 2016-17 Table 4 (BADGE, BPF, BPS) over all packaging; the text's 'highest BADGE (224) is a coconut milk without BPA' and 'the three BPF positives are bamboo shoots that also contain BPA'; twin scan"
+    },
+    {
+      "graded": false,
+      "id": "X7",
+      "kind": "descriptive",
+      "met": null,
+      "observed": {
+        "alt_rows": {
+          "badge": {
+            "fish": {
+              "avg": true,
+              "detected": true,
+              "k": 19,
+              "max": true,
+              "min": true,
+              "printed_k": 19,
+              "stats": {
+                "k": 19,
+                "max": 53.199999999999996,
+                "mean": 8.02157894736842,
+                "min": 0.9700000000000001,
+                "n": 237,
+                "pct": 8.016877637130802
+              }
+            },
+            "meat": {
+              "avg": true,
+              "detected": true,
+              "k": 53,
+              "max": true,
+              "min": true,
+              "printed_k": 53,
+              "stats": {
+                "k": 53,
+                "max": 46.199999999999996,
+                "mean": 10.840188679245282,
+                "min": 0.98,
+                "n": 231,
+                "pct": 22.943722943722943
+              }
+            }
+          },
+          "bpf": {
+            "fish": {
+              "avg": true,
+              "detected": true,
+              "k": 0,
+              "max": true,
+              "min": true,
+              "printed_k": 0,
+              "stats": {
+                "k": 0,
+                "max": null,
+                "mean": null,
+                "min": null,
+                "n": 237,
+                "pct": 0.0
+              }
+            },
+            "meat": {
+              "avg": true,
+              "detected": true,
+              "k": 68,
+              "max": true,
+              "min": true,
+              "printed_k": 68,
+              "stats": {
+                "k": 68,
+                "max": 63.6,
+                "mean": 15.313088235294117,
+                "min": 1.01,
+                "n": 231,
+                "pct": 29.437229437229437
+              }
+            }
+          },
+          "bps": {
+            "fish": {
+              "avg": true,
+              "detected": true,
+              "k": 0,
+              "max": true,
+              "min": true,
+              "printed_k": 0,
+              "stats": {
+                "k": 0,
+                "max": null,
+                "mean": null,
+                "min": null,
+                "n": 237,
+                "pct": 0.0
+              }
+            },
+            "meat": {
+              "avg": true,
+              "detected": true,
+              "k": 1,
+              "max": true,
+              "min": true,
+              "printed_k": 1,
+              "stats": {
+                "k": 1,
+                "max": 1.79,
+                "mean": 1.79,
+                "min": 1.79,
+                "n": 231,
+                "pct": 0.4329004329004329
+              }
+            }
+          }
+        },
+        "badge_avg_10.1": true,
+        "badge_stats": {
+          "k": 72,
+          "max": 53.199999999999996,
+          "mean": 10.096388888888889,
+          "min": 0.9700000000000001,
+          "n": 468,
+          "pct": 15.384615384615385
+        },
+        "origins": {
+          "fish": [
+            14,
+            220,
+            3,
+            237
+          ],
+          "meat": [
+            111,
+            102,
+            18,
+            231
+          ]
+        },
+        "twins": []
+      },
+      "text": "descriptive: 2017-18 Table 2's BADGE, BPF and BPS rows and the text's BADGE average 10.1; twin scan"
+    }
+  ],
+  "provenance": {
+    "bpa-2009": {
+      "bytes": 32261,
+      "dataset": "9846894f-16f2-4834-952a-2e66a162719b",
+      "encoding": "cp1252",
+      "md5": "7eacc09417bd528dcca26b8009b824f5",
+      "md5_matches_portal": true,
+      "portal_md5": "7eacc09417bd528dcca26b8009b824f5",
+      "resource": "4ff8f342-d0ea-45a4-9cf5-6f5220e84925",
+      "sha256": "8eaedfd8b8503368ed31e00631a91ba08378f6e5cad7f34724d65d2e91b33121",
+      "source": "https://open.canada.ca/data/dataset/9846894f-16f2-4834-952a-2e66a162719b/resource/4ff8f342-d0ea-45a4-9cf5-6f5220e84925/download/cfia_acia-1329-v2-fsap_chem_ts_-_2009-10_-_bisphenol-a_in_infant_food_and_formula_-_sb451_bpha_-.csv"
+    },
+    "bpa-2010": {
+      "bytes": 39475,
+      "dataset": "ee1d2ca0-18a4-457a-9978-59d20cc6e191",
+      "encoding": "cp1252",
+      "md5": "56b061a4596746dc9736afabac5fbc2a",
+      "md5_matches_portal": true,
+      "portal_md5": "56b061a4596746dc9736afabac5fbc2a",
+      "resource": "ab208fba-5551-4d16-87a7-b810a73dbcba",
+      "sha256": "79652a9f76bbb099178cda28c91be67497608d11aeb861ac5e0117086c65d466",
+      "source": "https://open.canada.ca/data/dataset/ee1d2ca0-18a4-457a-9978-59d20cc6e191/resource/ab208fba-5551-4d16-87a7-b810a73dbcba/download/cfia_acia-1330-v2-fsap_chem_ts_-_2010-11_-_bpa_in_infant_formulae_and_foods_-_sb451_bpha_-_open_.csv"
+    },
+    "bpa-2011": {
+      "bytes": 69780,
+      "dataset": "3c1749ef-d6a2-400d-a096-8dd5a13507b2",
+      "encoding": "cp1252",
+      "md5": "afae926b6784187c1b15c19f16c928ef",
+      "md5_matches_portal": true,
+      "portal_md5": "afae926b6784187c1b15c19f16c928ef",
+      "resource": "86eb4b33-11b4-475d-a0ff-3f32a611a73e",
+      "sha256": "64dff91acbd2eb953ef1c42effa34f709e868902d6ed03e5643320377f287918",
+      "source": "https://open.canada.ca/data/dataset/3c1749ef-d6a2-400d-a096-8dd5a13507b2/resource/86eb4b33-11b4-475d-a0ff-3f32a611a73e/download/cfia_acia-1331-v2-fsap_chem_ts_-_2011-12_-_bpa_in_canned_foods_-_sb451_bpha_-_open_data.csv"
+    },
+    "bpa-2012": {
+      "bytes": 87982,
+      "dataset": "d0539c7a-90ea-4874-a66d-7c75f6cd814d",
+      "encoding": "cp1252",
+      "md5": "5da0bea9d42e56c68b0423b63cfacb96",
+      "md5_matches_portal": true,
+      "portal_md5": "5da0bea9d42e56c68b0423b63cfacb96",
+      "resource": "c2f6fb46-4c3f-4c23-acfb-4badfc70c835",
+      "sha256": "d2020d42ba7d56969f559a452fd26afdd47a80a2d21b64a704e0be385a8a621d",
+      "source": "https://open.canada.ca/data/dataset/d0539c7a-90ea-4874-a66d-7c75f6cd814d/resource/c2f6fb46-4c3f-4c23-acfb-4badfc70c835/download/cfia_acia-1332-v2-fsap_chem_ts_-_2012-13_-_bpa_in_selected_foods_-_sb451_bpha_-_open_data.csv"
+    },
+    "bpa-2013": {
+      "bytes": 94214,
+      "dataset": "eba65062-23e4-4530-90bd-767d0c04c079",
+      "encoding": "cp1252",
+      "md5": "b1cc14c00c1f4d930da9894c833aac80",
+      "md5_matches_portal": null,
+      "portal_md5": null,
+      "resource": "755045de-88a0-4ad7-8015-e630d9ca8fcd",
+      "sha256": "3c78983cbb5da9758a0482b6c15f2ca662f9acfff3c54d5aa14d187eb383d564",
+      "source": "https://open.canada.ca/data/dataset/eba65062-23e4-4530-90bd-767d0c04c079/resource/755045de-88a0-4ad7-8015-e630d9ca8fcd/download/cfia_acia-1333-v2-fsap_chem_ts_-_2013-14_-_bpa_in_canned_foods_-_sb451_bpha_-_open_data.csv"
+    },
+    "bpa-2016": {
+      "bytes": 395585,
+      "dataset": "10478dd5-7ce8-4542-887c-572f0bfe0c8c",
+      "encoding": "cp1252",
+      "md5": "a2998269ef01cbc78a03a3fdb38d40e5",
+      "md5_matches_portal": null,
+      "portal_md5": null,
+      "resource": "26aa5b60-08a4-4bad-bbdc-17527e6698a3",
+      "sha256": "dc5173a485d4acc5e9bd1651d83d82ce8d9d34c56cb12125a448edd7da70a193",
+      "source": "https://open.canada.ca/data/dataset/10478dd5-7ce8-4542-887c-572f0bfe0c8c/resource/26aa5b60-08a4-4bad-bbdc-17527e6698a3/download/cfia-acia-1287-open-data-for-chemistry-targeted-surveys-2016-17-bisphenol-and-bpa-alternatives-i.csv"
+    },
+    "bpa-2017": {
+      "bytes": 339854,
+      "dataset": "15b7f392-56ef-4772-a8e5-aba2c3b0b980",
+      "encoding": "cp1252",
+      "md5": "12a495421962033f4c723492e49682fa",
+      "md5_matches_portal": true,
+      "portal_md5": "12a495421962033f4c723492e49682fa",
+      "resource": "4dfc8b9a-0b97-4c76-b3e4-07879a8e0c88",
+      "sha256": "f3ef4b47614b8c40e240d65ab4a08cd6b8ef779d0703338f1ae6a1bab27f0f56",
+      "source": "https://open.canada.ca/data/dataset/15b7f392-56ef-4772-a8e5-aba2c3b0b980/resource/4dfc8b9a-0b97-4c76-b3e4-07879a8e0c88/download/cfia_acia-1263-open-data-for-chemistry-targeted-surveys-2017-18-bisphenol-a-and-bpa-alternatives.csv"
+    }
+  },
+  "study": "bpa-series",
+  "version": "0.1.0"
+}
