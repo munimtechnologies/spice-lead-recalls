@@ -1,0 +1,531 @@
+{
+  "files": {
+    "ec18": {
+      "census_checks": {
+        "function_split": {
+          "beer": [
+            54,
+            49,
+            22
+          ],
+          "other": [
+            37,
+            85,
+            18
+          ],
+          "vinegar": [
+            12,
+            64,
+            49
+          ]
+        },
+        "types": {
+          "beer": 125,
+          "other": 140,
+          "vinegar": 125
+        },
+        "unmapped": {}
+      },
+      "descriptive": {
+        "beef_row": [
+          {
+            "detect": false,
+            "function": "Import",
+            "origin": "ICELAND",
+            "product": "Beef",
+            "sample": "C2018ETCA00251"
+          }
+        ],
+        "coding": {
+          "above_zero": 37,
+          "distinct_values": 19,
+          "smallest_above_zero": [
+            0.004,
+            0.004,
+            0.004,
+            0.005,
+            0.005
+          ],
+          "zero": 353
+        },
+        "ids_dates": {
+          "bad_ids": [],
+          "dates_unparsed": 0,
+          "first": "2018-04-03",
+          "gaps": [
+            15,
+            16,
+            19,
+            23,
+            34,
+            37,
+            39,
+            42,
+            44,
+            45
+          ],
+          "id_range": [
+            1,
+            400
+          ],
+          "last": "2019-03-06",
+          "shared_numbers": {},
+          "suffixed": []
+        },
+        "other_alcohol_top": [
+          {
+            "function": "Import",
+            "origin": "KOREA, REPUBLIC OF",
+            "ppb": 0.086,
+            "sample": "C2018ETCA00126"
+          },
+          {
+            "function": "Unknown",
+            "origin": "UNKNOWN",
+            "ppb": 0.042,
+            "sample": "C2018ETCA00116"
+          },
+          {
+            "function": "Unknown",
+            "origin": "UNKNOWN",
+            "ppb": 0.036,
+            "sample": "C2018ETCA00108"
+          },
+          {
+            "function": "Import",
+            "origin": "JAPAN",
+            "ppb": 0.033,
+            "sample": "C2018ETCA00146"
+          },
+          {
+            "function": "Domestic",
+            "origin": "CANADA",
+            "ppb": 0.029,
+            "sample": "C2018ETCA00122"
+          }
+        ]
+      },
+      "facts": {
+        "bytes": 71629,
+        "md5": "d7d7bf62a3bb275ccec657fb27501fd8",
+        "rows_per_sample": {
+          "1": 390
+        },
+        "samples": 390,
+        "sha256": "08bff4cbee03d87a8e7f01c12f80dbb34e5845e7a213b8f04114544507e4c9bb"
+      },
+      "gate": {
+        "md5": true,
+        "one_row_per_sample": true,
+        "roles": true,
+        "samples": true,
+        "short_rows": true,
+        "size": true,
+        "units": true,
+        "values": true
+      },
+      "problems": {
+        "bad_units": 0,
+        "bad_values": 0,
+        "missing_roles": [],
+        "short_rows": 0
+      },
+      "provenance": {
+        "dataset": "303903b7-91ba-4a79-ad37-7bcd9f0dc8a1",
+        "encoding": "cp1252",
+        "portal_md5": "d7d7bf62a3bb275ccec657fb27501fd8",
+        "resource": "0a30e00b-9c4b-4402-b329-51565119d767",
+        "source": "https://open.canada.ca/data/dataset/303903b7-91ba-4a79-ad37-7bcd9f0dc8a1/resource/0a30e00b-9c4b-4402-b329-51565119d767/download/cfia-acia-1149_2018-19_ethylcarbamate_in_selected_foods_-_2018-2019_le-carbamate-dethyle-dans-le.csv"
+      }
+    },
+    "ec19": {
+      "census_checks": {
+        "function_split": {
+          "soy": [
+            16,
+            69,
+            15
+          ],
+          "veg": [
+            49,
+            143,
+            8
+          ]
+        },
+        "types": {
+          "soy": 100,
+          "veg": 200
+        },
+        "unmapped": {}
+      },
+      "descriptive": {
+        "coding": {
+          "above_zero": 9,
+          "distinct_values": 9,
+          "smallest_above_zero": [
+            4.0,
+            6.0,
+            7.0,
+            9.0,
+            9.0
+          ],
+          "zero": 291
+        },
+        "fish_seafood_row": [
+          {
+            "detect": false,
+            "function": "Import",
+            "origin": "KOREA, REPUBLIC OF",
+            "product": "Fish/Seafood - Frozen/Refrigerated",
+            "sample": "C2019ETCA00272"
+          }
+        ],
+        "ids_dates": {
+          "bad_ids": [],
+          "dates_unparsed": 0,
+          "first": "2019-04-09",
+          "gaps": [],
+          "id_range": [
+            1,
+            300
+          ],
+          "last": "2020-03-23",
+          "shared_numbers": {},
+          "suffixed": [
+            {
+              "base": "C2019ETCA00152",
+              "base_present": false,
+              "sample": "C2019ETCA00152D"
+            }
+          ]
+        }
+      },
+      "facts": {
+        "bytes": 58972,
+        "md5": "e5aab1da6e57c1afa0536e9d92455a6e",
+        "rows_per_sample": {
+          "1": 300
+        },
+        "samples": 300,
+        "sha256": "3ebdd740e7bd35161045c15df5d12b586cf973d948ab60c68408430a9168ab99"
+      },
+      "gate": {
+        "md5": true,
+        "one_row_per_sample": true,
+        "roles": true,
+        "samples": true,
+        "short_rows": true,
+        "size": true,
+        "units": true,
+        "values": true
+      },
+      "problems": {
+        "bad_units": 0,
+        "bad_values": 0,
+        "missing_roles": [],
+        "short_rows": 0
+      },
+      "provenance": {
+        "dataset": "920d97a1-b98d-4def-b386-dd234a45f457",
+        "encoding": "utf-8-sig",
+        "portal_md5": "e5aab1da6e57c1afa0536e9d92455a6e",
+        "resource": "985e3d90-ecbb-4a34-b299-8032627c3c3d",
+        "source": "https://open.canada.ca/data/dataset/920d97a1-b98d-4def-b386-dd234a45f457/resource/985e3d90-ecbb-4a34-b299-8032627c3c3d/download/fsap-chem-ts-ethyl-carbamate-in-fermented-vegetables-and-soy-products-2019-2020_paaspa-chem-ec-c.csv"
+      }
+    }
+  },
+  "grader": "ethyl_carbamate",
+  "n_graded": 6,
+  "n_met": 3,
+  "predictions": [
+    {
+      "graded": true,
+      "id": "V1",
+      "kind": "prediction",
+      "met": false,
+      "observed": {
+        "cells": {
+          "beer": {
+            "average": false,
+            "detects": true,
+            "max": false,
+            "min": false,
+            "samples": true
+          },
+          "other_pooled": {
+            "average": false,
+            "detects": true,
+            "max": false,
+            "min": false,
+            "samples": true
+          },
+          "total": {
+            "average": false,
+            "detects": true,
+            "max": true,
+            "min": false,
+            "samples": true
+          },
+          "vinegar": {
+            "average": false,
+            "detects": true,
+            "max": true,
+            "min": false,
+            "samples": true
+          }
+        },
+        "rows": {
+          "beer": {
+            "detects": 2,
+            "max": 0.004,
+            "mean": 0.004,
+            "min": 0.004,
+            "n": 125
+          },
+          "other_pooled": {
+            "detects": 29,
+            "max": 0.086,
+            "mean": 0.015551724137931034,
+            "min": 0.004,
+            "n": 140
+          },
+          "total": {
+            "detects": 37,
+            "max": 135.0,
+            "mean": 3.6621891891891893,
+            "min": 0.004,
+            "n": 390
+          },
+          "vinegar": {
+            "detects": 6,
+            "max": 135.0,
+            "mean": 22.507,
+            "min": 0.006,
+            "n": 125
+          }
+        },
+        "ungraded_part": "sake, spirits and wine rows separately (no label)"
+      },
+      "text": "ec18 Table 2: beer, vinegar and grand-total rows in full; sake + spirits + wine as one pooled row (29 detects, 4-86, average 15.42-15.62)"
+    },
+    {
+      "graded": true,
+      "id": "V2",
+      "kind": "prediction",
+      "met": false,
+      "observed": {
+        "beer_detects": [
+          0.004,
+          0.004
+        ],
+        "beer_ok": false,
+        "ungraded_part": "sake 7 / 7 / 33 and wine 17 / 17 / 86 (no label)",
+        "vinegar_detects": [
+          0.006,
+          0.006,
+          0.007,
+          0.01,
+          0.013,
+          135.0
+        ],
+        "vinegar_ok": false,
+        "vinegar_rest_sum": 0.042
+      },
+      "text": "ec18 hidden values: both beer detects round to 4; one vinegar is 135 and the other five each round to 6-13 and sum to 41-43"
+    },
+    {
+      "graded": true,
+      "id": "V3",
+      "kind": "prediction",
+      "met": false,
+      "observed": {
+        "cells": {
+          "average": false,
+          "detects": true,
+          "max": false,
+          "min": false,
+          "samples": true
+        },
+        "subtotal": {
+          "detects": 31,
+          "max": 0.086,
+          "mean": 0.014806451612903226,
+          "min": 0.004,
+          "n": 265
+        }
+      },
+      "text": "later report's alcoholic subtotal: 265 samples, 31 detects, 4-86, average 14.75-14.85"
+    },
+    {
+      "graded": false,
+      "id": "V4",
+      "kind": "prediction",
+      "met": null,
+      "observed": {
+        "reason": "the file labels every sake, spirit, liqueur and wine 'Beverage - Alcohol'; no label names the wine (census note)"
+      },
+      "text": "the 86 ppb wine is fortified, sweet or 20-year (ungraded)"
+    },
+    {
+      "graded": true,
+      "id": "V5",
+      "kind": "prediction",
+      "met": true,
+      "observed": {
+        "cells": {
+          "soy": {
+            "average": true,
+            "detects": true,
+            "max": true,
+            "min": true,
+            "samples": true
+          },
+          "total": {
+            "average": true,
+            "detects": true,
+            "max": true,
+            "min": true,
+            "samples": true
+          },
+          "veg": {
+            "average": true,
+            "detects": true,
+            "max": true,
+            "min": true,
+            "samples": true,
+            "values_4_6_9": true
+          }
+        },
+        "soy": {
+          "detects": 6,
+          "max": 217.0,
+          "mean": 108.0,
+          "min": 7.0,
+          "n": 100
+        },
+        "soy_detects": [
+          7.0,
+          9.0,
+          94.0,
+          157.0,
+          164.0,
+          217.0
+        ],
+        "total": {
+          "detects": 9,
+          "max": 217.0,
+          "mean": 74.11111111111111,
+          "min": 4.0,
+          "n": 300
+        },
+        "veg": {
+          "detects": 3,
+          "max": 9.0,
+          "mean": 6.333333333333333,
+          "min": 4.0,
+          "n": 200
+        },
+        "veg_detects": [
+          4.0,
+          6.0,
+          9.0
+        ]
+      },
+      "text": "ec19 Table 2: vegetables 3 detects rounding to 4, 6, 9 (average 6.25-6.35); soy 6 detects, 7-217, average 107.5-108.5; total 9, 4-217, 73.5-74.5"
+    },
+    {
+      "graded": true,
+      "id": "V6",
+      "kind": "prediction",
+      "met": true,
+      "observed": {
+        "soy_detects": [
+          {
+            "origin": "TAIWAN, PROVINCE OF CHINA",
+            "ppb": 217.0,
+            "product": "Soy Products",
+            "sample": "C2019ETCA00076"
+          },
+          {
+            "origin": "TAIWAN, PROVINCE OF CHINA",
+            "ppb": 164.0,
+            "product": "Soy Products",
+            "sample": "C2019ETCA00075"
+          },
+          {
+            "origin": "TAIWAN, PROVINCE OF CHINA",
+            "ppb": 157.0,
+            "product": "Soy Products",
+            "sample": "C2019ETCA00037"
+          },
+          {
+            "origin": "TAIWAN, PROVINCE OF CHINA",
+            "ppb": 94.0,
+            "product": "Soy Products",
+            "sample": "C2019ETCA00056"
+          },
+          {
+            "origin": "TAIWAN, PROVINCE OF CHINA",
+            "ppb": 9.0,
+            "product": "Soy Products",
+            "sample": "C2019ETCA00057"
+          },
+          {
+            "origin": "CANADA",
+            "ppb": 7.0,
+            "product": "Soy Products",
+            "sample": "C2019ETCA00065"
+          }
+        ],
+        "soy_without_ec": 94,
+        "ungraded_part": "5 bean curds and 1 miso (labels are 'Soy Products' and 'Tofu' only)",
+        "veg_detect_labels": [
+          "Sauerkraut",
+          "Sauerkraut",
+          "Pickled Vegetable - Misc"
+        ],
+        "veg_detects": [
+          {
+            "origin": "GERMANY",
+            "ppb": 4.0,
+            "product": "Sauerkraut",
+            "sample": "C2019ETCA00184"
+          },
+          {
+            "origin": "GERMANY",
+            "ppb": 6.0,
+            "product": "Sauerkraut",
+            "sample": "C2019ETCA00179"
+          },
+          {
+            "origin": "UNKNOWN",
+            "ppb": 9.0,
+            "product": "Pickled Vegetable - Misc",
+            "sample": "C2019ETCA00109"
+          }
+        ]
+      },
+      "text": "ec19 text: 94 of 100 soy samples without EC (not 93); vegetable detects are 2 sauerkrauts and 1 other fermented cabbage or vegetable (the kimchi)"
+    },
+    {
+      "graded": true,
+      "id": "V7",
+      "kind": "prediction",
+      "met": true,
+      "observed": {
+        "checks": {
+          "soy_average_107.5_108.5": true,
+          "soy_min_7": true,
+          "total_average_74.05_74.15": true
+        },
+        "soy_mean": 108.0,
+        "soy_min": 7.0,
+        "total_mean": 74.11111111111111,
+        "total_min": 4.0
+      },
+      "text": "the later report's 2019 soy row (4.0 / 74.1) carries the Total row: soy minimum 7, soy average 107.5-108.5, all-products average 74.05-74.15"
+    }
+  ],
+  "study": "ethyl-carbamate",
+  "version": "0.1.0"
+}
