@@ -22,7 +22,8 @@ format-only fix is published as a separate amendment before the files are read a
 splits do. Where a report and its file disagree, the file usually matches the report's detailed
 tables, and the summary or a later table is off. Several mismatches turn out to be a table that
 silently covers only part of the file (a subset of pastas, canned food only, or four samples fewer).
-In the two PAH files, three pairs of samples with different foods or origins carry identical values.
+In the two PAH files, three pairs of samples with different foods or origins carry identical values;
+the two food-colour files have none.
 
 ## Children's Food Project (aflatoxin M1, lead)
 
@@ -69,7 +70,8 @@ In the two PAH files, three pairs of samples with different foods or origins car
   [grader note](pah-2019-0.1.0-grader.md). The gate passes and 3 of 3 held: Table 2 reproduces in
   all 20 cells, and the text's formula, nut and olive-oil claims hold. Table 3's olive-oil 0.23 is
   the file's 0.2373 cut off, not rounded. Two olive oils of different origin (unknown and
-  Argentina) carry identical values for all 16 PAHs. The two `AD` IDs have no `A` partner.
+  Argentina) carry identical values for all 16 PAHs. The two `AD` IDs have no `A` partner. Its
+  independent test re-ran from GitHub in a sealed job on 2026-11-02 and passed (11 tests).
 
 ## Bisphenol A, nine years: 2009-10 to 2017-18
 
@@ -100,6 +102,20 @@ In the two PAH files, three pairs of samples with different foods or origins car
   The 2018-19 origin totals are 56 / 183 / 160, not 56 / 184 / 159; the difference is one sweet.
   The 2018-19 file lists all 43 colours for every sample (399 x 46 rows). The 2009-10 file lists
   water-soluble colours for only 41 samples, which makes its "93%" sentence very unlikely to hold.
-  The grader is public; a sealed job grades the values next.
+- [Result](food-colours-0.1.0-result.md). Both gates pass; 4 of 8 held. The file has 337
+  detections, so Table 3 is right and Table 2's sweets cell (260) is one short. The three failed
+  2018-19 items all come down to one value: the second Orange II result is 0.042 ppm (an imported
+  pudding), not below 0.039, so Orange II's average is 0.1315, not below the 0.13 LQ. Leaving out
+  that one sub-LQ result gives Table 2's 336 exactly (a reading, not proven). Table 3 otherwise
+  reproduces in full; 218 samples are colour-free, not 219; the 539 ppm Allura Red candy and the
+  single Rhodamine B sample hold. In 2009-10 the five named colours are 97.4% of results, not 93%.
+
+## Ethyl carbamate, 2018-19 and 2019-20
+
+- [Pre-registration](ethyl-carbamate-0.1.0-prereg.md), fixed from the printed reports before either
+  file is read. The 2019-20 text says 93% of soy samples had no EC, but 6 of 100 had it. A later
+  CFIA report gives the 2019 soy row a minimum of 4.0 and an average of 74.1, which are the
+  original report's all-products figures (soy alone: 7 and 108). The portal lists the 2019-20 file
+  at 58 bytes, too small for 300 samples. A names-only census runs next.
 
 MV2, Munim, Inc., mv2@munimtech.com

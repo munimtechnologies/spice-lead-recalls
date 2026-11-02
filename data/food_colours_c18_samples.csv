@@ -1,0 +1,400 @@
+sample,product,type,function,origin,region,date,n_colours,top_colour,top_ppm
+C2018FCOL00001,Oil - Olive,oil,Import,ITALY,ATLANTIC,26-Mar-19,0,,
+C2018FCOL00003,Salad Dressing,oil,Domestic,CANADA,ATLANTIC,6-Dec-18,1,Allura Red,36.3
+C2018FCOL00004,Oil - Other,oil,Domestic,CANADA,ATLANTIC,26-Mar-19,0,,
+C2018FCOL00005,Preserve - Jam/Jelly,sweets,Import,UNITED STATES,ATLANTIC,2-May-18,0,,
+C2018FCOL00006,Preserve - Jam/Jelly,sweets,Unknown,UNKNOWN,ATLANTIC,14-Aug-18,2,Sunset Yellow FCF,20.0
+C2018FCOL00007,Fruit Snacks,sweets,Unknown,UNKNOWN,ATLANTIC,20-Jun-18,0,,
+C2018FCOL00008D,Baked Goods,sweets,Unknown,UNKNOWN,ATLANTIC,31-Jul-18,2,Allura Red,21.0
+C2018FCOL00009,Baked Goods,sweets,Unknown,UNKNOWN,ATLANTIC,22-Jan-19,1,Allura Red,18.5
+C2018FCOL00010,Candy - Soft,sweets,Unknown,UNKNOWN,ATLANTIC,7-Aug-18,4,Allura Red,74.5
+C2018FCOL00011,Candy - Soft,sweets,Unknown,UNKNOWN,ATLANTIC,1-May-18,3,Allura Red,38.3
+C2018FCOL00012,Candy - Hard,sweets,Domestic,CANADA,ATLANTIC,28-Jan-19,1,Allura Red,193.0
+C2018FCOL00013,Candy - Hard,sweets,Import,UNITED STATES,ATLANTIC,28-Aug-18,3,Brilliant Blue FCF,9.0
+C2018FCOL00014,Bakery Product - Cookie,sweets,Unknown,NORTHERN MARIANA ISLANDS,ATLANTIC,4-Apr-18,0,,
+C2018FCOL00015,Pudding,sweets,Import,UNITED STATES,ATLANTIC,5-Dec-18,0,,
+C2018FCOL00016,Pudding,sweets,Import,UNITED STATES,ATLANTIC,22-Jan-19,2,Sunset Yellow FCF,43.4
+C2018FCOL00017,Essence/Flavour,essence,Import,UNITED STATES,ATLANTIC,2-May-18,0,,
+C2018FCOL00018,Essence/Flavour,essence,Import,UNITED STATES,ATLANTIC,25-Mar-19,0,,
+C2018FCOL00019,Essence/Flavour,essence,Import,UNITED STATES,ATLANTIC,22-Aug-18,0,,
+C2018FCOL00020,Essence/Flavour,essence,Import,UNITED STATES,ATLANTIC,18-Apr-18,0,,
+C2018FCOL00021,Beet - Pickled,veg,Import,UNITED STATES,ATLANTIC,4-Apr-18,1,Amaranth,8.0
+C2018FCOL00022,Pickled Vegetable - Misc,veg,Import,INDIA,ATLANTIC,4-Feb-19,1,Tartrazine,16.7
+C2018FCOL00023,Gherkin - Pickled,veg,Domestic,CANADA,ATLANTIC,22-Jan-19,2,Tartrazine,75.1
+C2018FCOL00024,Onion - Pickled,veg,Import,GERMANY,ATLANTIC,1-Aug-18,0,,
+C2018FCOL00025,Oil - Olive,oil,Import,TUNISIA,ONTARIO,15-Jul-18,0,,
+C2018FCOL00026,Oil - Olive,oil,Unknown,UNKNOWN,ONTARIO,17-Apr-18,0,,
+C2018FCOL00027,Oil - Palm,oil,Import,ECUADOR,ONTARIO,17-Dec-18,0,,
+C2018FCOL00028,Oil - Palm,oil,Import,ECUADOR,ONTARIO,15-Mar-19,0,,
+C2018FCOL00029,Salad Dressing,oil,Unknown,UNKNOWN,ONTARIO,6-Apr-18,1,Allura Red,47.0
+C2018FCOL00030,Salad Dressing,oil,Domestic,CANADA,ONTARIO,4-Mar-19,1,Allura Red,72.7
+C2018FCOL00031,Oil - Other,oil,Domestic,CANADA,ONTARIO,15-Jul-18,0,,
+C2018FCOL00032,Oil - Other,oil,Import,ITALY,ONTARIO,17-Dec-18,0,,
+C2018FCOL00033,Preserve - Strawberry,sweets,Domestic,CANADA,ONTARIO,4-Aug-18,0,,
+C2018FCOL00034,Preserve - Jam/Jelly,sweets,Unknown,UNKNOWN,ONTARIO,11-Oct-18,2,Tartrazine,16.7
+C2018FCOL00035,Fruit Snacks,sweets,Import,UNITED STATES,ONTARIO,16-Nov-18,0,,
+C2018FCOL00036,Fruit Snacks,sweets,Import,UNITED STATES,ONTARIO,4-Mar-19,0,,
+C2018FCOL00037,Baked Goods,sweets,Unknown,UNKNOWN,ONTARIO,15-Jul-18,1,Tartrazine,4.7
+C2018FCOL00038,Baked Goods,sweets,Unknown,UNKNOWN,ONTARIO,2-Oct-18,0,,
+C2018FCOL00039,Candy - Soft,sweets,Import,BRAZIL,ONTARIO,21-Feb-19,4,Allura Red,19.4
+C2018FCOL00040,Candy - Soft,sweets,Import,UNITED KINGDOM,ONTARIO,8-May-18,0,,
+C2018FCOL00041,Candy - Hard,sweets,Import,UNITED STATES,ONTARIO,19-Nov-18,5,Allura Red,74.2
+C2018FCOL00042,Candy - Hard,sweets,Unknown,UNKNOWN,ONTARIO,8-Mar-19,4,Tartrazine,24.0
+C2018FCOL00043,Bakery Product - Cookie,sweets,Unknown,UNKNOWN,ONTARIO,6-Mar-19,0,,
+C2018FCOL00044,Bakery Product - Cookie,sweets,Domestic,CANADA,ONTARIO,5-Oct-18,0,,
+C2018FCOL00045,Pudding,sweets,Unknown,UNKNOWN,ONTARIO,15-Jul-18,2,Tartrazine,14.8
+C2018FCOL00046,Pudding,sweets,Import,UNITED STATES,ONTARIO,4-Mar-19,0,,
+C2018FCOL00047,Essence/Flavour,essence,Import,UNITED STATES,ONTARIO,1-Oct-18,0,,
+C2018FCOL00048,Essence/Flavour,essence,Unknown,UNKNOWN,ONTARIO,16-Nov-18,0,,
+C2018FCOL00049,Essence/Flavour,essence,Import,UNITED STATES,ONTARIO,5-Oct-18,0,,
+C2018FCOL00050,Essence/Flavour,essence,Import,UNITED STATES,ONTARIO,29-Oct-18,0,,
+C2018FCOL00051,Gherkin - Pickled,veg,Import,INDIA,ONTARIO,3-May-18,2,Tartrazine,33.9
+C2018FCOL00052,Gherkin - Pickled,veg,Import,UNITED STATES,ONTARIO,3-May-18,3,Tartrazine,4.4
+C2018FCOL00053,Pickled Vegetable - Misc,veg,Domestic,CANADA,ONTARIO,4-Mar-19,0,,
+C2018FCOL00054,Gherkin - Pickled,veg,Unknown,UNKNOWN,ONTARIO,23-Oct-18,3,Tartrazine,3.7
+C2018FCOL00055,Oil - Olive,oil,Unknown,UNKNOWN,ONTARIO,1-Sep-18,0,,
+C2018FCOL00056,Oil - Olive,oil,Import,CHILE,ONTARIO,17-Jan-19,0,,
+C2018FCOL00057,Oil - Olive,oil,Unknown,UNKNOWN,ONTARIO,16-Jan-19,0,,
+C2018FCOL00058,Oil - Olive,oil,Import,ITALY,ONTARIO,9-Aug-18,0,,
+C2018FCOL00059,Oil - Olive,oil,Unknown,UNKNOWN,ONTARIO,17-Jan-19,0,,
+C2018FCOL00060,Oil - Olive,oil,Unknown,UNKNOWN,ONTARIO,7-Sep-18,0,,
+C2018FCOL00061,Oil - Olive,oil,Unknown,UNKNOWN,ONTARIO,14-Oct-18,0,,
+C2018FCOL00062,Oil - Olive,oil,Unknown,UNKNOWN,ONTARIO,1-Feb-19,0,,
+C2018FCOL00063,Oil - Palm,oil,Import,MALAYSIA,ONTARIO,12-Nov-18,0,,
+C2018FCOL00064,Oil - Palm,oil,Import,ECUADOR,ONTARIO,11-Feb-19,0,,
+C2018FCOL00065,Oil - Palm,oil,Import,TOGO,ONTARIO,12-Nov-18,0,,
+C2018FCOL00066,Oil - Palm,oil,Import,ECUADOR,ONTARIO,20-Feb-19,0,,
+C2018FCOL00067,Oil - Palm,oil,Import,ECUADOR,ONTARIO,5-May-18,0,,
+C2018FCOL00068,Oil - Palm,oil,Import,ECUADOR,ONTARIO,21-Jan-19,0,,
+C2018FCOL00069,Oil - Palm,oil,Import,COLOMBIA,ONTARIO,19-Aug-18,0,,
+C2018FCOL00070,Oil - Palm,oil,Import,COLOMBIA,ONTARIO,22-Apr-18,0,,
+C2018FCOL00071,Salad Dressing,oil,Import,UNITED STATES,ONTARIO,12-Apr-18,0,,
+C2018FCOL00072,Salad Dressing,oil,Unknown,UNKNOWN,ONTARIO,15-May-18,0,,
+C2018FCOL00073,Salad Dressing,oil,Unknown,UNKNOWN,ONTARIO,18-Oct-18,1,Allura Red,35.9
+C2018FCOL00074,Salad Dressing,oil,Unknown,UNKNOWN,ONTARIO,15-May-18,0,,
+C2018FCOL00075,Salad Dressing,oil,Unknown,UNKNOWN,ONTARIO,12-Apr-18,1,Allura Red,47.6
+C2018FCOL00076,Salad Dressing,oil,Unknown,UNKNOWN,ONTARIO,8-Feb-19,0,,
+C2018FCOL00077,Salad Dressing,oil,Unknown,UNKNOWN,ONTARIO,7-Jun-18,1,Allura Red,180.0
+C2018FCOL00078,Salad Dressing,oil,Unknown,UNKNOWN,ONTARIO,24-May-18,0,,
+C2018FCOL00079,Oil - Olive,oil,Domestic,CANADA,ONTARIO,1-Jun-18,0,,
+C2018FCOL00080,Oil - Olive,oil,Domestic,CANADA,ONTARIO,7-May-18,0,,
+C2018FCOL00081,Oil - Olive,oil,Domestic,CANADA,ONTARIO,25-Jul-18,0,,
+C2018FCOL00082,Oil - Olive,oil,Domestic,CANADA,ONTARIO,20-Apr-18,0,,
+C2018FCOL00083,Oil - Olive,oil,Import,ARGENTINA,ONTARIO,19-Oct-18,0,,
+C2018FCOL00084,Oil - Blend,oil,Domestic,CANADA,ONTARIO,20-Apr-18,0,,
+C2018FCOL00085,Oil - Soybean,oil,Import,"TAIWAN, PROVINCE OF CHINA",ONTARIO,12-Feb-19,0,,
+C2018FCOL00086,Oil - Olive,oil,Domestic,CANADA,ONTARIO,29-Aug-18,0,,
+C2018FCOL00087,Preserve - Jam/Jelly,sweets,Import,JAMAICA,ONTARIO,12-Apr-18,0,,
+C2018FCOL00088,Preserve - Jam/Jelly,sweets,Unknown,UNKNOWN,ONTARIO,1-Sep-18,2,Sunset Yellow FCF,22.0
+C2018FCOL00089,Preserve - Jam/Jelly,sweets,Import,UNITED STATES,ONTARIO,29-Nov-18,2,Allura Red,82.1
+C2018FCOL00090,Preserve - Jam/Jelly,sweets,Unknown,UNKNOWN,ONTARIO,29-Nov-18,2,Sunset Yellow FCF,21.1
+C2018FCOL00091,Preserve - Jam/Jelly,sweets,Import,PORTUGAL,ONTARIO,12-Apr-18,0,,
+C2018FCOL00092,Preserve - Jam/Jelly,sweets,Unknown,UNKNOWN,ONTARIO,17-Jan-19,2,Sunset Yellow FCF,23.6
+C2018FCOL00093,Preserve - Jam/Jelly,sweets,Import,GERMANY,ONTARIO,3-Aug-18,0,,
+C2018FCOL00094,Preserve - Jam/Jelly,sweets,Import,EGYPT,ONTARIO,13-Apr-18,0,,
+C2018FCOL00095,Preserve - Jam/Jelly,sweets,Import,COSTA RICA,ONTARIO,1-Nov-18,0,,
+C2018FCOL00096,Fruit Snacks,sweets,Import,UNITED STATES,ONTARIO,9-Nov-18,0,,
+C2018FCOL00097,Fruit Snacks,sweets,Unknown,UNKNOWN,ONTARIO,11-May-18,0,,
+C2018FCOL00098,Fruit Snacks,sweets,Unknown,UNKNOWN,ONTARIO,1-Feb-19,0,,
+C2018FCOL00099,Fruit Snacks,sweets,Import,MALAYSIA,ONTARIO,18-Oct-18,1,Tartrazine,47.5
+C2018FCOL00100,Fruit Snacks,sweets,Import,MALAYSIA,ONTARIO,25-Oct-18,1,Brilliant Blue FCF,3.3
+C2018FCOL00101,Fruit Snacks,sweets,Unknown,UNKNOWN,ONTARIO,9-Nov-18,0,,
+C2018FCOL00102,Fruit Snacks,sweets,Unknown,UNKNOWN,ONTARIO,1-Jun-18,0,,
+C2018FCOL00103,Fruit Snacks,sweets,Unknown,UNKNOWN,ONTARIO,28-Jul-18,0,,
+C2018FCOL00104,Baked Goods,sweets,Unknown,UNKNOWN,ONTARIO,31-May-18,2,Allura Red,41.8
+C2018FCOL00105,Baked Goods,sweets,Domestic,CANADA,ONTARIO,11-Nov-18,0,,
+C2018FCOL00106,Baked Goods,sweets,Import,UNITED STATES,ONTARIO,29-Nov-18,2,Allura Red,10.9
+C2018FCOL00107,Baked Goods,sweets,Unknown,UNKNOWN,ONTARIO,12-Apr-18,0,,
+C2018FCOL00108,Baked Goods,sweets,Unknown,UNKNOWN,ONTARIO,31-May-18,2,Allura Red,11.3
+C2018FCOL00109,Baked Goods,sweets,Unknown,UNKNOWN,ONTARIO,12-Apr-18,3,Allura Red,102.0
+C2018FCOL00110,Baked Goods,sweets,Import,ITALY,ONTARIO,7-Jun-18,0,,
+C2018FCOL00111,Baked Goods,sweets,Unknown,UNKNOWN,ONTARIO,6-Mar-19,1,Allura Red,176.0
+C2018FCOL00112,Baked Goods,sweets,Unknown,UNKNOWN,ONTARIO,19-Feb-19,2,Allura Red,43.5
+C2018FCOL00113,Candy - Soft,sweets,Unknown,UNKNOWN,ONTARIO,1-Feb-19,3,Allura Red,58.7
+C2018FCOL00114,Candy - Soft,sweets,Unknown,UNKNOWN,ONTARIO,1-Sep-18,1,Allura Red,204.0
+C2018FCOL00115,Candy - Soft,sweets,Import,GERMANY,ONTARIO,31-May-18,0,,
+C2018FCOL00116,Candy - Soft,sweets,Unknown,UNKNOWN,ONTARIO,29-Nov-18,2,Tartrazine,59.4
+C2018FCOL00117,Candy - Soft,sweets,Unknown,UNKNOWN,ONTARIO,9-Nov-18,0,,
+C2018FCOL00118,Candy - Soft,sweets,Unknown,UNKNOWN,ONTARIO,22-Feb-19,3,Allura Red,30.5
+C2018FCOL00119,Candy - Soft,sweets,Unknown,UNKNOWN,ONTARIO,13-Apr-18,1,Allura Red,77.7
+C2018FCOL00120,Candy - Soft,sweets,Unknown,UNKNOWN,ONTARIO,7-Sep-18,1,Allura Red,88.0
+C2018FCOL00121,Candy - Soft,sweets,Import,JAPAN,ONTARIO,1-Nov-18,1,Allura Red,1.6
+C2018FCOL00122,Candy - Hard,sweets,Import,CROATIA,ONTARIO,9-Nov-18,0,,
+C2018FCOL00123,Candy - Hard,sweets,Import,GERMANY,ONTARIO,29-Nov-18,0,,
+C2018FCOL00124,Candy - Hard,sweets,Import,GERMANY,ONTARIO,1-Sep-18,0,,
+C2018FCOL00125,Candy - Hard,sweets,Import,GERMANY,ONTARIO,9-Aug-18,0,,
+C2018FCOL00126,Candy - Hard,sweets,Import,GERMANY,ONTARIO,1-Sep-18,0,,
+C2018FCOL00127,Candy - Hard,sweets,Import,GERMANY,ONTARIO,13-May-18,0,,
+C2018FCOL00128,Candy - Hard,sweets,Import,GERMANY,ONTARIO,7-Jun-18,0,,
+C2018FCOL00129,Candy - Hard,sweets,Import,TRINIDAD & TOBAGO,ONTARIO,21-Jan-19,2,Brilliant Blue FCF,23.0
+C2018FCOL00130,Candy - Hard,sweets,Import,HONG KONG,ONTARIO,1-Nov-18,0,,
+C2018FCOL00131,Bakery Product - Cookie,sweets,Unknown,UNKNOWN,ONTARIO,29-Nov-18,2,Tartrazine,17.6
+C2018FCOL00132,Bakery Product - Cookie,sweets,Domestic,CANADA,ONTARIO,31-May-18,0,,
+C2018FCOL00133,Bakery Product - Cookie,sweets,Domestic,CANADA,ONTARIO,31-May-18,0,,
+C2018FCOL00134,Bakery Product - Cookie,sweets,Unknown,UNKNOWN,ONTARIO,9-Aug-18,0,,
+C2018FCOL00135,Bakery Product - Cookie,sweets,Unknown,UNKNOWN,ONTARIO,1-Feb-19,0,,
+C2018FCOL00136,Bakery Product - Cookie,sweets,Unknown,UNKNOWN,ONTARIO,14-Oct-18,0,,
+C2018FCOL00137,Bakery Product - Cookie,sweets,Unknown,UNKNOWN,ONTARIO,3-Aug-18,2,Tartrazine,22.9
+C2018FCOL00138,Bakery Product - Cookie,sweets,Unknown,UNKNOWN,ONTARIO,17-Oct-18,1,Brilliant Blue FCF,0.68
+C2018FCOL00139,Pudding,sweets,Import,UNITED STATES,ONTARIO,28-Jul-18,0,,
+C2018FCOL00140,Pudding,sweets,Unknown,UNKNOWN,ONTARIO,9-Aug-18,2,Sunset Yellow FCF,43.0
+C2018FCOL00141,Pudding,sweets,Unknown,UNKNOWN,ONTARIO,9-Aug-18,2,Tartrazine,14.6
+C2018FCOL00142,Pudding,sweets,Unknown,UNKNOWN,ONTARIO,9-Aug-18,2,Tartrazine,7.9
+C2018FCOL00143,Pudding,sweets,Import,UNITED STATES,ONTARIO,17-Jan-19,2,Tartrazine,7.5
+C2018FCOL00144,Pudding,sweets,Import,UNITED STATES,ONTARIO,17-Jan-19,2,Tartrazine,14.9
+C2018FCOL00145,Pudding,sweets,Import,MALAYSIA,ONTARIO,19-Aug-18,1,Allura Red,2.0
+C2018FCOL00146,Pudding,sweets,Import,UNITED STATES,ONTARIO,8-Feb-19,2,Tartrazine,4.9
+C2018FCOL00147,Pudding,sweets,Import,MALAYSIA,ONTARIO,25-Oct-18,2,Tartrazine,26.0
+C2018FCOL00148,Essence/Flavour,essence,Unknown,UNKNOWN,ONTARIO,12-Apr-18,0,,
+C2018FCOL00149,Essence/Flavour,essence,Import,UNITED STATES,ONTARIO,15-May-18,0,,
+C2018FCOL00150,Essence/Flavour,essence,Unknown,UNKNOWN,ONTARIO,9-Nov-18,0,,
+C2018FCOL00151,Essence/Flavour,essence,Domestic,CANADA,ONTARIO,31-May-18,0,,
+C2018FCOL00152,Essence/Flavour,essence,Unknown,UNKNOWN,ONTARIO,3-Feb-19,0,,
+C2018FCOL00153,Essence/Flavour,essence,Unknown,UNKNOWN,ONTARIO,9-Sep-18,1,Tartrazine,8.0
+C2018FCOL00154,Essence/Flavour,essence,Unknown,UNKNOWN,ONTARIO,17-Jul-18,0,,
+C2018FCOL00155,Essence/Flavour,essence,Unknown,UNKNOWN,ONTARIO,21-Jun-18,0,,
+C2018FCOL00156,Essence/Flavour,essence,Unknown,UNKNOWN,ONTARIO,29-Aug-18,0,,
+C2018FCOL00157,Essence/Flavour,essence,Unknown,UNKNOWN,ONTARIO,21-Jun-18,1,Tartrazine,56.3
+C2018FCOL00158,Essence/Flavour,essence,Unknown,UNKNOWN,ONTARIO,9-Sep-18,1,Tartrazine,49.0
+C2018FCOL00159,Essence/Flavour,essence,Unknown,UNKNOWN,ONTARIO,1-May-18,0,,
+C2018FCOL00160,Essence/Flavour,essence,Import,THAILAND,ONTARIO,1-Nov-18,2,Tartrazine,105.0
+C2018FCOL00161,Essence/Flavour,essence,Unknown,UNKNOWN,ONTARIO,15-Aug-18,0,,
+C2018FCOL00162,Cucumber - Pickled,veg,Import,UNITED STATES,ONTARIO,1-Feb-19,0,,
+C2018FCOL00163,Gherkin - Pickled,veg,Import,INDIA,ONTARIO,18-Oct-18,2,Tartrazine,25.1
+C2018FCOL00164,Cucumber - Pickled Sweet,veg,Import,UNITED STATES,ONTARIO,18-Oct-18,1,Tartrazine,75.4
+C2018FCOL00165,Pepper - Pickled Hot,veg,Unknown,UNKNOWN,ONTARIO,29-Nov-18,0,,
+C2018FCOL00166,Cucumber - Pickled Sweet,veg,Import,UNITED STATES,ONTARIO,1-Sep-18,1,Tartrazine,52.0
+C2018FCOL00167,Cucumber - Pickled,veg,Import,UNITED STATES,ONTARIO,18-Oct-18,1,Tartrazine,15.3
+C2018FCOL00168,Onion - Pickled,veg,Domestic,CANADA,ONTARIO,17-Oct-18,0,,
+C2018FCOL00169,Cucumber - Pickled,veg,Import,UNITED STATES,ONTARIO,29-Nov-18,0,,
+C2018FCOL00170,Pepper - Pickled Hot,veg,Domestic,CANADA,ONTARIO,29-Nov-18,0,,
+C2018FCOL00171,Beet - Pickled,veg,Import,UNITED STATES,ONTARIO,29-Nov-18,0,,
+C2018FCOL00172,Gherkin - Pickled,veg,Import,UNITED STATES,ONTARIO,1-May-18,3,Tartrazine,4.6
+C2018FCOL00173,Beet - Pickled,veg,Import,GERMANY,ONTARIO,29-Nov-18,0,,
+C2018FCOL00174,Cucumber - Pickled,veg,Import,TURKEY,ONTARIO,22-Nov-18,0,,
+C2018FCOL00175,Pickled Vegetable - Misc,veg,Domestic,CANADA,ONTARIO,17-Oct-18,0,,
+C2018FCOL00176,Oil - Olive,oil,Unknown,UNKNOWN,QUEBEC,18-Oct-18,0,,
+C2018FCOL00177,Oil - Olive,oil,Unknown,UNKNOWN,QUEBEC,11-Jul-18,0,,
+C2018FCOL00178,Oil - Olive,oil,Import,LEBANON,QUEBEC,13-Nov-18,0,,
+C2018FCOL00179,Oil - Olive,oil,Unknown,UNKNOWN,QUEBEC,10-Sep-18,0,,
+C2018FCOL00180,Oil - Olive,oil,Import,ITALY,QUEBEC,4-Jul-18,0,,
+C2018FCOL00181,Oil - Olive,oil,Unknown,UNKNOWN,QUEBEC,1-May-18,0,,
+C2018FCOL00182,Oil - Palm,oil,Import,MALAYSIA,QUEBEC,18-Apr-18,0,,
+C2018FCOL00183,Oil - Olive,oil,Import,TUNISIA,QUEBEC,29-Oct-18,0,,
+C2018FCOL00184,Oil - Palm,oil,Import,TOGO,QUEBEC,19-Jun-18,0,,
+C2018FCOL00185,Oil - Palm,oil,Import,GHANA,QUEBEC,18-Oct-18,0,,
+C2018FCOL00186,Oil - Palm,oil,Import,TOGO,QUEBEC,18-Oct-18,0,,
+C2018FCOL00187,Oil - Palm,oil,Unknown,UNKNOWN,QUEBEC,18-Mar-19,0,,
+C2018FCOL00188,Salad Dressing,oil,Domestic,CANADA,QUEBEC,18-Oct-18,1,Allura Red,34.3
+C2018FCOL00189,Salad Dressing,oil,Unknown,UNKNOWN,QUEBEC,7-Jun-18,1,Allura Red,40.3
+C2018FCOL00190,Salad Dressing,oil,Unknown,UNKNOWN,QUEBEC,13-Nov-18,1,Allura Red,35.0
+C2018FCOL00191,Salad Dressing,oil,Import,UNITED STATES,QUEBEC,4-Apr-18,0,,
+C2018FCOL00192,Salad Dressing,oil,Unknown,UNKNOWN,QUEBEC,28-Feb-19,1,Allura Red,36.8
+C2018FCOL00193,Salad Dressing,oil,Domestic,CANADA,QUEBEC,12-Mar-19,0,,
+C2018FCOL00194,Oil - Olive,oil,Import,TUNISIA,QUEBEC,4-Mar-19,0,,
+C2018FCOL00195,Oil - Blend,oil,Unknown,UNKNOWN,QUEBEC,4-Mar-19,0,,
+C2018FCOL00196,Oil - Olive,oil,Domestic,CANADA,QUEBEC,11-Mar-19,0,,
+C2018FCOL00197,Oil - Olive,oil,Import,TUNISIA,QUEBEC,12-Sep-18,0,,
+C2018FCOL00198,Oil - Blend,oil,Unknown,UNKNOWN,QUEBEC,19-Mar-19,0,,
+C2018FCOL00199,Oil - Olive,oil,Import,ITALY,QUEBEC,12-Mar-19,0,,
+C2018FCOL00200,Preserve - Jam/Jelly,sweets,Unknown,UNKNOWN,QUEBEC,10-Sep-18,2,Amaranth,28.0
+C2018FCOL00201,Preserve - Jam/Jelly,sweets,Import,UNITED STATES,QUEBEC,2-May-18,0,,
+C2018FCOL00202,Preserve - Jam/Jelly,sweets,Domestic,CANADA,QUEBEC,13-Nov-18,1,Allura Red,65.7
+C2018FCOL00203,Preserve - Jam/Jelly,sweets,Unknown,UNKNOWN,QUEBEC,11-Jul-18,2,Sunset Yellow FCF,19.6
+C2018FCOL00204,Preserve - Jam/Jelly,sweets,Unknown,UNKNOWN,QUEBEC,28-Feb-19,1,Allura Red,42.5
+C2018FCOL00205,Preserve - Jam/Jelly,sweets,Unknown,UNKNOWN,QUEBEC,2-Nov-18,2,Amaranth,33.3
+C2018FCOL00206,Preserve - Jam/Jelly,sweets,Import,TURKEY,QUEBEC,9-Apr-18,0,,
+C2018FCOL00207,Fruit Snacks,sweets,Import,UNITED STATES,QUEBEC,4-Apr-18,0,,
+C2018FCOL00208,Fruit Snacks,sweets,Unknown,UNKNOWN,QUEBEC,7-Jun-18,0,,
+C2018FCOL00209,Fruit Snacks,sweets,Import,UNITED STATES,QUEBEC,13-Aug-18,1,Allura Red,217.0
+C2018FCOL00210,Fruit Snacks,sweets,Import,UNITED STATES,QUEBEC,11-Jul-18,0,,
+C2018FCOL00211,Fruit Snacks,sweets,Import,UNITED STATES,QUEBEC,16-Oct-18,2,Brilliant Blue FCF,84.0
+C2018FCOL00212,Fruit Snacks,sweets,Unknown,UNKNOWN,QUEBEC,12-Apr-18,0,,
+C2018FCOL00213,Baked Goods,sweets,Unknown,UNKNOWN,QUEBEC,4-Mar-19,2,Allura Red,13.3
+C2018FCOL00214,Baked Goods,sweets,Unknown,UNKNOWN,QUEBEC,1-Aug-18,2,Allura Red,41.7
+C2018FCOL00215,Baked Goods,sweets,Unknown,UNKNOWN,QUEBEC,4-Apr-18,0,,
+C2018FCOL00216,Baked Goods,sweets,Unknown,UNKNOWN,QUEBEC,5-Dec-18,1,Tartrazine,5.9
+C2018FCOL00217,Baked Goods,sweets,Import,UNITED STATES,QUEBEC,13-Jun-18,1,Allura Red,10.2
+C2018FCOL00218,Baked Goods,sweets,Unknown,UNKNOWN,QUEBEC,4-Apr-18,3,Allura Red,113.0
+C2018FCOL00219,Baked Goods,sweets,Unknown,UNKNOWN,QUEBEC,5-Sep-18,2,Allura Red,10.0
+C2018FCOL00220,Candy - Soft,sweets,Unknown,UNKNOWN,QUEBEC,13-Nov-18,3,Sunset Yellow FCF,41.3
+C2018FCOL00221,Candy - Soft,sweets,Unknown,UNKNOWN,QUEBEC,7-Jun-18,1,Allura Red,108.0
+C2018FCOL00222,Candy - Soft,sweets,Unknown,UNKNOWN,QUEBEC,7-Mar-19,1,Allura Red,101.0
+C2018FCOL00223,Candy - Soft,sweets,Unknown,UNKNOWN,QUEBEC,4-Apr-18,1,Allura Red,90.2
+C2018FCOL00224,Candy - Soft,sweets,Unknown,UNKNOWN,QUEBEC,5-Sep-18,2,Allura Red,46.0
+C2018FCOL00225,Candy - Soft,sweets,Import,UNITED STATES,QUEBEC,5-Sep-18,2,Tartrazine,38.0
+C2018FCOL00226,Candy - Soft,sweets,Unknown,UNKNOWN,QUEBEC,1-Aug-18,2,Allura Red,112.0
+C2018FCOL00227,Candy - Hard,sweets,Domestic,CANADA,QUEBEC,13-Aug-18,1,Erythrosin B,117.0
+C2018FCOL00228,Candy - Hard,sweets,Domestic,CANADA,QUEBEC,25-Sep-18,1,Erythrosin B,124.0
+C2018FCOL00229,Candy - Hard,sweets,Domestic,CANADA,QUEBEC,13-Nov-18,1,Erythrosin B,91.3
+C2018FCOL00230,Candy - Hard,sweets,Import,GERMANY,QUEBEC,13-Aug-18,0,,
+C2018FCOL00231,Candy - Hard,sweets,Domestic,CANADA,QUEBEC,4-Dec-18,1,Erythrosin B,49.4
+C2018FCOL00232,Candy - Hard,sweets,Unknown,UNKNOWN,QUEBEC,28-Feb-19,4,Tartrazine,65.4
+C2018FCOL00233,Candy - Hard,sweets,Import,CHINA,QUEBEC,6-Nov-18,3,Tartrazine,26.5
+C2018FCOL00234,Bakery Product - Cookie,sweets,Domestic,CANADA,QUEBEC,1-May-18,0,,
+C2018FCOL00235,Bakery Product - Cookie,sweets,Domestic,CANADA,QUEBEC,7-Mar-19,1,Allura Red,147.0
+C2018FCOL00236,Bakery Product - Cookie,sweets,Domestic,CANADA,QUEBEC,11-Jul-18,1,Allura Red,30.1
+C2018FCOL00237,Bakery Product - Cookie,sweets,Domestic,CANADA,QUEBEC,27-Nov-18,0,,
+C2018FCOL00238,Bakery Product - Cookie,sweets,Unknown,UNKNOWN,QUEBEC,13-Jun-18,2,Tartrazine,19.5
+C2018FCOL00239,Bakery Product - Cookie,sweets,Unknown,UNKNOWN,QUEBEC,13-Jul-18,1,Brilliant Blue FCF,0.51
+C2018FCOL00240,Pudding,sweets,Import,UNITED STATES,QUEBEC,7-Jun-18,3,Allura Red,26.1
+C2018FCOL00241,Pudding,sweets,Import,UNITED STATES,QUEBEC,12-Sep-18,2,Allura Red,23.0
+C2018FCOL00242,Pudding,sweets,Import,UNITED STATES,QUEBEC,1-Aug-18,0,,
+C2018FCOL00243,Pudding,sweets,Import,UNITED STATES,QUEBEC,1-May-18,2,Tartrazine,10.2
+C2018FCOL00244,Pudding,sweets,Import,UNITED STATES,QUEBEC,10-Oct-18,0,,
+C2018FCOL00245,Pudding,sweets,Import,UNITED STATES,QUEBEC,4-Jul-18,0,,
+C2018FCOL00246,Pudding,sweets,Import,UNITED STATES,QUEBEC,12-Apr-18,2,Tartrazine,9.8
+C2018FCOL00247,Essence/Flavour,essence,Domestic,CANADA,QUEBEC,12-Sep-18,0,,
+C2018FCOL00248,Essence/Flavour,essence,Domestic,CANADA,QUEBEC,1-May-18,0,,
+C2018FCOL00249,Essence/Flavour,essence,Domestic,CANADA,QUEBEC,19-Nov-18,4,Tartrazine,47.7
+C2018FCOL00250,Essence/Flavour,essence,Import,UNITED STATES,QUEBEC,7-May-18,0,,
+C2018FCOL00251,Essence/Flavour,essence,Unknown,UNKNOWN,QUEBEC,11-Jul-18,0,,
+C2018FCOL00252,Essence/Flavour,essence,Import,UNITED STATES,QUEBEC,25-Sep-18,0,,
+C2018FCOL00253,Essence/Flavour,essence,Domestic,CANADA,QUEBEC,27-Nov-18,4,Tartrazine,47.4
+C2018FCOL00254,Essence/Flavour,essence,Domestic,CANADA,QUEBEC,9-Apr-18,4,Tartrazine,144.0
+C2018FCOL00255,Essence/Flavour,essence,Unknown,UNKNOWN,QUEBEC,28-Feb-19,0,,
+C2018FCOL00256,Essence/Flavour,essence,Unknown,UNKNOWN,QUEBEC,10-Oct-18,0,,
+C2018FCOL00257,Essence/Flavour,essence,Unknown,UNKNOWN,QUEBEC,2-May-18,0,,
+C2018FCOL00258,Essence/Flavour,essence,Unknown,UNKNOWN,QUEBEC,12-Mar-19,0,,
+C2018FCOL00259,Cucumber - Pickled,veg,Import,INDIA,QUEBEC,7-Mar-19,0,,
+C2018FCOL00260,Pickled Vegetable - Misc,veg,Import,UNITED STATES,QUEBEC,27-Nov-18,1,Tartrazine,10.0
+C2018FCOL00261,Gherkin - Pickled,veg,Import,INDIA,QUEBEC,4-Mar-19,1,Tartrazine,22.3
+C2018FCOL00262,Pickled Vegetable - Misc,veg,Import,UNITED STATES,QUEBEC,27-Nov-18,1,Tartrazine,48.6
+C2018FCOL00263,Pickled Vegetable - Misc,veg,Import,LEBANON,QUEBEC,27-Nov-18,2,Erythrosin B,13.3
+C2018FCOL00264,Gherkin - Pickled,veg,Import,INDIA,QUEBEC,1-Aug-18,1,Tartrazine,16.7
+C2018FCOL00265,Pickled Vegetable - Misc,veg,Import,UNITED STATES,QUEBEC,10-Oct-18,1,Tartrazine,10.6
+C2018FCOL00266,Gherkin - Pickled,veg,Domestic,CANADA,QUEBEC,26-Nov-18,2,Tartrazine,66.7
+C2018FCOL00267,Cucumber - Pickled,veg,Import,UNITED STATES,QUEBEC,13-Jun-18,1,Tartrazine,13.1
+C2018FCOL00268,Gherkin - Pickled,veg,Import,INDIA,QUEBEC,13-Jun-18,2,Tartrazine,11.3
+C2018FCOL00269,Cucumber - Pickled,veg,Import,VIETNAM,QUEBEC,12-Mar-19,1,Tartrazine,31.6
+C2018FCOL00270,Cucumber - Pickled,veg,Import,VIETNAM,QUEBEC,12-Mar-19,1,Tartrazine,33.3
+C2018FCOL00271,Oil - Olive,oil,Import,TUNISIA,WEST,9-Sep-18,0,,
+C2018FCOL00272,Oil - Olive,oil,Unknown,UNKNOWN,WEST,8-May-18,0,,
+C2018FCOL00273,Oil - Olive,oil,Import,ITALY,WEST,22-Jul-18,0,,
+C2018FCOL00274,Oil - Palm,oil,Import,ECUADOR,WEST,12-Mar-19,0,,
+C2018FCOL00275,Oil - Palm,oil,Import,ECUADOR,WEST,12-Mar-19,0,,
+C2018FCOL00276,Oil - Palm,oil,Import,ECUADOR,WEST,4-Dec-18,0,,
+C2018FCOL00277,Salad Dressing,oil,Import,UNITED STATES,WEST,3-Oct-18,0,,
+C2018FCOL00278,Salad Dressing,oil,Unknown,UNKNOWN,WEST,3-Oct-18,1,Allura Red,145.0
+C2018FCOL00279,Salad Dressing,oil,Unknown,UNKNOWN,WEST,28-Feb-19,0,,
+C2018FCOL00280,Oil - Olive,oil,Import,ITALY,WEST,21-Oct-18,0,,
+C2018FCOL00281,Oil - Soybean,oil,Import,CHINA,WEST,27-Nov-18,0,,
+C2018FCOL00282,Oil - Olive,oil,Unknown,UNKNOWN,WEST,23-Sep-18,0,,
+C2018FCOL00283,Preserve - Jam/Jelly,sweets,Unknown,UNKNOWN,WEST,1-Jul-18,0,,
+C2018FCOL00284,Preserve - Jam/Jelly,sweets,Import,FRANCE,WEST,9-Sep-18,0,,
+C2018FCOL00285,Preserve - Jam/Jelly,sweets,Unknown,UNKNOWN,WEST,5-Dec-18,1,Allura Red,16.8
+C2018FCOL00286,Fruit Snacks,sweets,Import,UNITED STATES,WEST,8-May-18,0,,
+C2018FCOL00287,Fruit Snacks,sweets,Import,UNITED STATES,WEST,21-Oct-18,1,Allura Red,182.0
+C2018FCOL00288,Fruit Snacks,sweets,Unknown,UNKNOWN,WEST,22-Apr-18,0,,
+C2018FCOL00289,Baked Goods,sweets,Unknown,UNKNOWN,WEST,19-Aug-18,1,Allura Red,30.0
+C2018FCOL00290,Baked Goods,sweets,Unknown,UNKNOWN,WEST,28-May-18,1,Allura Red,35.1
+C2018FCOL00291,Baked Goods,sweets,Unknown,UNKNOWN,WEST,28-Feb-19,3,Allura Red,122.0
+C2018FCOL00292,Candy - Soft,sweets,Unknown,UNKNOWN,WEST,3-Oct-18,1,Allura Red,172.0
+C2018FCOL00293,Candy - Soft,sweets,Unknown,UNKNOWN,WEST,15-Apr-18,6,Brilliant Blue FCF,78.8
+C2018FCOL00294,Candy - Soft,sweets,Unknown,UNKNOWN,WEST,28-Feb-19,3,Tartrazine,44.6
+C2018FCOL00295,Candy - Hard,sweets,Unknown,UNKNOWN,WEST,3-Oct-18,2,Tartrazine,14.8
+C2018FCOL00296,Candy - Hard,sweets,Unknown,UNKNOWN,WEST,9-Sep-18,2,Tartrazine,8.0
+C2018FCOL00297,Candy - Hard,sweets,Unknown,UNKNOWN,WEST,28-Feb-19,1,Allura Red,475.0
+C2018FCOL00298,Bakery Product - Cookie,sweets,Domestic,CANADA,WEST,14-May-18,0,,
+C2018FCOL00299,Bakery Product - Cookie,sweets,Unknown,UNKNOWN,WEST,14-May-18,0,,
+C2018FCOL00300,Bakery Product - Cookie,sweets,Unknown,UNKNOWN,WEST,3-Jun-18,0,,
+C2018FCOL00301,Pudding,sweets,Import,UNITED STATES,WEST,25-Jul-18,0,,
+C2018FCOL00302,Pudding,sweets,Import,UNITED STATES,WEST,25-Jul-18,3,Allura Red,25.6
+C2018FCOL00303,Pudding,sweets,Import,UNITED STATES,WEST,19-Aug-18,0,,
+C2018FCOL00304,Essence/Flavour,essence,Import,PHILIPPINES,WEST,12-Mar-19,0,,
+C2018FCOL00305,Essence/Flavour,essence,Import,UNITED STATES,WEST,21-Nov-18,0,,
+C2018FCOL00306,Essence/Flavour,essence,Domestic,CANADA,WEST,3-Oct-18,0,,
+C2018FCOL00307,Essence/Flavour,essence,Unknown,UNKNOWN,WEST,25-Sep-18,2,Allura Red,101.0
+C2018FCOL00308,Essence/Flavour,essence,Unknown,UNKNOWN,WEST,25-Sep-18,0,,
+C2018FCOL00309,Pickled Vegetable - Misc,veg,Import,LEBANON,WEST,3-Jun-18,0,,
+C2018FCOL00310,Beet - Pickled,veg,Domestic,CANADA,WEST,9-Sep-18,0,,
+C2018FCOL00311,Beet - Pickled,veg,Import,GERMANY,WEST,3-Jun-18,0,,
+C2018FCOL00312,Pepper - Pickled Hot,veg,Domestic,CANADA,WEST,3-Jun-18,0,,
+C2018FCOL00313,Beet - Pickled,veg,Import,POLAND,WEST,1-Jul-18,0,,
+C2018FCOL00314,Oil - Olive,oil,Import,TUNISIA,WEST,23-Jul-18,0,,
+C2018FCOL00315,Oil - Olive,oil,Unknown,UNKNOWN,WEST,2-Oct-18,0,,
+C2018FCOL00316,Oil - Olive,oil,Unknown,UNKNOWN,WEST,15-Jan-19,0,,
+C2018FCOL00317,Oil - Olive,oil,Import,TUNISIA,WEST,31-Jan-19,0,,
+C2018FCOL00318,Oil - Olive,oil,Import,TUNISIA,WEST,1-Aug-18,0,,
+C2018FCOL00319,Oil - Palm,oil,Import,ECUADOR,WEST,19-Jun-18,0,,
+C2018FCOL00320,Oil - Palm,oil,Import,ECUADOR,WEST,25-Jun-18,0,,
+C2018FCOL00321,Oil - Palm,oil,Import,GHANA,WEST,15-Apr-18,0,,
+C2018FCOL00322,Oil - Palm,oil,Import,ECUADOR,WEST,15-Apr-18,0,,
+C2018FCOL00323,Oil - Palm,oil,Import,ECUADOR,WEST,11-Jul-18,0,,
+C2018FCOL00324,Salad Dressing,oil,Unknown,UNKNOWN,WEST,29-Nov-18,0,,
+C2018FCOL00325,Salad Dressing,oil,Domestic,CANADA,WEST,4-Feb-19,1,Allura Red,41.7
+C2018FCOL00326,Salad Dressing,oil,Domestic,CANADA,WEST,4-Feb-19,1,Allura Red,150.0
+C2018FCOL00327,Salad Dressing,oil,Import,UNITED STATES,WEST,3-Sep-18,0,,
+C2018FCOL00328,Salad Dressing,oil,Unknown,UNKNOWN,WEST,7-May-18,0,,
+C2018FCOL00329,Oil - Olive,oil,Import,SPAIN,WEST,15-Jan-19,0,,
+C2018FCOL00330,Oil - Soybean,oil,Import,CHINA,WEST,16-May-18,0,,
+C2018FCOL00331,Oil - Soybean,oil,Import,CHINA,WEST,7-Nov-18,0,,
+C2018FCOL00332,Oil - Soybean,oil,Import,HONG KONG,WEST,7-Nov-18,0,,
+C2018FCOL00333,Oil - Soybean,oil,Import,CHINA,WEST,27-Nov-18,0,,
+C2018FCOL00334,Preserve - Strawberry,sweets,Import,UNITED STATES,WEST,4-Feb-19,2,Allura Red,58.4
+C2018FCOL00335,Preserve - Jam/Jelly,sweets,Domestic,CANADA,WEST,29-Nov-18,1,Allura Red,35.8
+C2018FCOL00336,Preserve - Jam/Jelly,sweets,Import,UNITED STATES,WEST,10-Jun-18,2,Allura Red,86.6
+C2018FCOL00337,Preserve - Jam/Jelly,sweets,Unknown,UNKNOWN,WEST,2-Jul-18,3,Tartrazine,14.3
+C2018FCOL00338,Preserve - Jam/Jelly,sweets,Domestic,CANADA,WEST,9-Jul-18,1,Allura Red,57.3
+C2018FCOL00339,Preserve - Jam/Jelly,sweets,Import,UNITED STATES,WEST,9-Jul-18,1,Allura Red,180.0
+C2018FCOL00340,Preserve - Raspberry,sweets,Unknown,UNKNOWN,WEST,3-Sep-18,0,,
+C2018FCOL00341,Fruit Snacks,sweets,Import,UNITED STATES,WEST,5-Sep-18,4,Allura Red,92.0
+C2018FCOL00342,Fruit Snacks,sweets,Import,UNITED STATES,WEST,10-Jun-18,4,Allura Red,74.7
+C2018FCOL00343,Fruit Snacks,sweets,Unknown,UNKNOWN,WEST,9-Apr-18,0,,
+C2018FCOL00344,Fruit Snacks,sweets,Import,UNITED STATES,WEST,3-Sep-18,2,Brilliant Blue FCF,85.0
+C2018FCOL00345,Fruit Snacks,sweets,Import,UNITED STATES,WEST,13-Feb-19,3,Allura Red,118.0
+C2018FCOL00346,Baked Goods,sweets,Unknown,UNKNOWN,WEST,7-Nov-18,2,Allura Red,11.6
+C2018FCOL00347,Baked Goods,sweets,Unknown,UNKNOWN,WEST,29-Nov-18,2,Tartrazine,1.3
+C2018FCOL00348,Baked Goods,sweets,Unknown,UNKNOWN,WEST,1-Oct-18,2,Allura Red,51.5
+C2018FCOL00349,Baked Goods,sweets,Unknown,UNKNOWN,WEST,2-Jul-18,1,Allura Red,312.0
+C2018FCOL00350,Baked Goods,sweets,Unknown,UNKNOWN,WEST,22-Jan-19,1,Allura Red,152.0
+C2018FCOL00351,Baked Goods,sweets,Unknown,UNKNOWN,WEST,9-Apr-18,2,Tartrazine,17.2
+C2018FCOL00352,Baked Goods,sweets,Import,PHILIPPINES,WEST,1-Oct-18,2,Tartrazine,37.9
+C2018FCOL00353,Candy - Soft,sweets,Unknown,UNKNOWN,WEST,4-Feb-19,2,Tartrazine,62.8
+C2018FCOL00354,Candy - Soft,sweets,Domestic,CANADA,WEST,1-Oct-18,1,Allura Red,121.0
+C2018FCOL00355,Candy - Soft,sweets,Unknown,UNKNOWN,WEST,1-Oct-18,3,Tartrazine,33.1
+C2018FCOL00356,Candy - Soft,sweets,Unknown,UNKNOWN,WEST,15-Jan-19,1,Allura Red,189.0
+C2018FCOL00357,Candy - Soft,sweets,Import,UNITED STATES,WEST,14-Aug-18,1,Allura Red,201.0
+C2018FCOL00358,Candy - Soft,sweets,Unknown,UNKNOWN,WEST,18-Jun-18,4,Sunset Yellow FCF,98.6
+C2018FCOL00359,Candy - Soft,sweets,Import,NEW ZEALAND,WEST,5-Nov-18,1,Allura Red,141.0
+C2018FCOL00360,Candy - Hard,sweets,Unknown,UNKNOWN,WEST,1-Oct-18,5,Tartrazine,61.9
+C2018FCOL00361,Candy - Hard,sweets,Unknown,UNKNOWN,WEST,29-Nov-18,2,Tartrazine,8.2
+C2018FCOL00362,Candy - Hard,sweets,Import,UNITED STATES,WEST,9-Apr-18,3,Allura Red,31.6
+C2018FCOL00363,Candy - Hard,sweets,Import,GERMANY,WEST,3-Sep-18,0,,
+C2018FCOL00364,Candy - Hard,sweets,Unknown,UNKNOWN,WEST,14-Aug-18,2,Tartrazine,6.0
+C2018FCOL00365,Candy - Hard,sweets,Unknown,UNKNOWN,WEST,9-Apr-18,3,Allura Red,79.6
+C2018FCOL00366,Candy - Hard,sweets,Unknown,UNKNOWN,WEST,1-Feb-19,1,Allura Red,539.0
+C2018FCOL00367,Bakery Product - Cookie,sweets,Domestic,CANADA,WEST,10-Jun-18,1,Allura Red,206.0
+C2018FCOL00368,Bakery Product - Cookie,sweets,Domestic,CANADA,WEST,1-Aug-18,1,Allura Red,159.0
+C2018FCOL00369,Bakery Product - Cookie,sweets,Domestic,CANADA,WEST,5-Sep-18,3,Erythrosin B,30.0
+C2018FCOL00370,Bakery Product - Cookie,sweets,Unknown,UNKNOWN,WEST,9-Jul-18,2,Tartrazine,21.6
+C2018FCOL00371,Bakery Product - Cookie,sweets,Domestic,CANADA,WEST,1-Aug-18,0,,
+C2018FCOL00372,Pudding,sweets,Import,UNITED STATES,WEST,10-Jun-18,2,Sunset Yellow FCF,54.0
+C2018FCOL00373,Pudding,sweets,Import,UNITED STATES,WEST,7-Nov-18,3,Allura Red,22.9
+C2018FCOL00374,Pudding,sweets,Import,UNITED STATES,WEST,1-May-18,2,Sunset Yellow FCF,55.9
+C2018FCOL00375,Pudding,sweets,Import,UNITED STATES,WEST,3-Sep-18,0,,
+C2018FCOL00376,Pudding,sweets,Import,UNITED STATES,WEST,2-May-18,3,Sunset Yellow FCF,46.9
+C2018FCOL00377,Pudding,sweets,Import,UNITED STATES,WEST,3-Sep-18,2,Sunset Yellow FCF,37.0
+C2018FCOL00378,Pudding,sweets,Import,MALAYSIA,WEST,27-Nov-18,2,Tartrazine,28.8
+C2018FCOL00379,Essence/Flavour,essence,Unknown,UNKNOWN,WEST,15-Jan-19,0,,
+C2018FCOL00380,Essence/Flavour,essence,Import,UNITED STATES,WEST,16-May-18,0,,
+C2018FCOL00381,Essence/Flavour,essence,Domestic,CANADA,WEST,7-Nov-18,4,Tartrazine,47.2
+C2018FCOL00382,Essence/Flavour,essence,Unknown,UNKNOWN,WEST,29-Nov-18,0,,
+C2018FCOL00383,Essence/Flavour,essence,Domestic,CANADA,WEST,1-Aug-18,0,,
+C2018FCOL00384,Essence/Flavour,essence,Domestic,CANADA,WEST,10-Jun-18,0,,
+C2018FCOL00385,Essence/Flavour,essence,Unknown,UNKNOWN,WEST,15-Jan-19,0,,
+C2018FCOL00386,Essence/Flavour,essence,Unknown,UNKNOWN,WEST,14-Aug-18,0,,
+C2018FCOL00387,Essence/Flavour,essence,Unknown,UNKNOWN,WEST,15-May-18,0,,
+C2018FCOL00388,Essence/Flavour,essence,Unknown,UNKNOWN,WEST,1-Oct-18,0,,
+C2018FCOL00389,Essence/Flavour,essence,Unknown,UNKNOWN,WEST,16-May-18,0,,
+C2018FCOL00390,Beet - Pickled,veg,Unknown,UNKNOWN,WEST,4-Feb-19,0,,
+C2018FCOL00391,Pickled Vegetable - Misc,veg,Import,GREECE,WEST,1-May-18,1,Tartrazine,23.3
+C2018FCOL00392,Pickled Vegetable - Misc,veg,Import,LEBANON,WEST,9-Apr-18,0,,
+C2018FCOL00393,Cucumber - Pickled,veg,Import,INDIA,WEST,2-Jul-18,1,Tartrazine,41.2
+C2018FCOL00394,Gherkin - Pickled,veg,Import,GERMANY,WEST,29-Nov-18,0,,
+C2018FCOL00395,Cucumber - Pickled,veg,Import,UNITED STATES,WEST,1-Aug-18,1,Tartrazine,18.5
+C2018FCOL00396,Cucumber - Pickled,veg,Import,INDIA,WEST,9-Jul-18,1,Tartrazine,36.5
+C2018FCOL00397,Beet - Pickled,veg,Import,GERMANY,WEST,5-Nov-18,0,,
+C2018FCOL00398,Pepper - Pickled,veg,Unknown,UNKNOWN,WEST,14-Aug-18,1,Tartrazine,20.0
+C2018FCOL00399,Pickled Vegetable - Misc,veg,Import,THAILAND,WEST,27-Nov-18,1,Tartrazine,26.5
+C2018FCOL00400,Beet - Pickled,veg,Import,GERMANY,WEST,1-Feb-19,0,,

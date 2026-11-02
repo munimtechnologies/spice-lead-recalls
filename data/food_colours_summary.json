@@ -1,0 +1,587 @@
+{
+  "files": {
+    "c09": {
+      "descriptive": {
+        "coding": {
+          "rows_above_zero": 76,
+          "rows_zero": 100,
+          "smallest_above_zero": {
+            "Allura, red": 3.2,
+            "Amaranth": 2.6,
+            "Brilliant blue": 0.43,
+            "Erythrosine": 4.8,
+            "Indigotine": 0.7,
+            "Sunset, yellow": 0.3,
+            "Tartrazine, yellow": 0.5
+          }
+        },
+        "ids_dates": {
+          "bad_ids": [],
+          "dates_unparsed": 0,
+          "distinct": 16,
+          "first": "2009-09-01",
+          "gaps": [],
+          "id_range": [
+            1,
+            100
+          ],
+          "last": "2010-01-08",
+          "most_on_one_date": 25,
+          "shared_numbers": {},
+          "suffixed": [],
+          "text_rank_fits": 1
+        },
+        "mixed": [],
+        "twins": []
+      },
+      "facts": {
+        "bytes": 33724,
+        "md5": "dc558d850720b90610da2c75424d1cd7",
+        "rows": 176,
+        "rows_per_sample": {
+          "1": 59,
+          "2": 14,
+          "3": 22,
+          "4": 3,
+          "5": 1,
+          "6": 1
+        },
+        "samples": 100,
+        "sha256": "bd2cd029f874de4ecb1282f9793908b74b5240d0d32aaabc4b94733f499ee452"
+      },
+      "gate": {
+        "md5": true,
+        "roles": true,
+        "samples": true,
+        "short_rows": true,
+        "size": true,
+        "units": true,
+        "values": true
+      },
+      "problems": {
+        "bad_units": 0,
+        "bad_values": 0,
+        "missing_roles": [],
+        "short_rows": 0
+      },
+      "provenance": {
+        "dataset": "e750a5e1-40e5-4428-b23f-cc3f613e7f9a",
+        "encoding": "cp1252",
+        "portal_md5": "dc558d850720b90610da2c75424d1cd7",
+        "resource": "9c6e2a16-c552-41cb-b95c-240db3c75b8d",
+        "source": "data-volume"
+      }
+    },
+    "c18": {
+      "census_checks": {
+        "S1": {
+          "essence": 50,
+          "oil": 99,
+          "sweets": 200,
+          "veg": 50
+        },
+        "S1_unmapped": {},
+        "S2b": {
+          "essence": [
+            10,
+            14,
+            26
+          ],
+          "oil": [
+            15,
+            51,
+            33
+          ],
+          "sweets": [
+            23,
+            80,
+            97
+          ],
+          "veg": [
+            8,
+            38,
+            4
+          ]
+        }
+      },
+      "descriptive": {
+        "coding": {
+          "rows_above_zero": 337,
+          "rows_zero": 18017,
+          "smallest_above_zero": {
+            "Allura Red": 0.4,
+            "Amaranth": 8.0,
+            "Brilliant Blue FCF": 0.07,
+            "Erythrosin B": 4.7,
+            "Indigo Carmine": 6.2,
+            "Orange II": 0.042,
+            "Rhodamine B": 10.8,
+            "Sunset Yellow FCF": 0.33,
+            "Tartrazine": 1.0
+          }
+        },
+        "colour_stats": {
+          "Allura Red": {
+            "max": 539.0,
+            "mean": 78.71881188118812,
+            "min": 0.4,
+            "n": 101
+          },
+          "Amaranth": {
+            "max": 83.5,
+            "mean": 26.941666666666666,
+            "min": 8.0,
+            "n": 12
+          },
+          "Brilliant Blue FCF": {
+            "max": 85.0,
+            "mean": 9.47639344262295,
+            "min": 0.07,
+            "n": 61
+          },
+          "Erythrosin B": {
+            "max": 124.0,
+            "mean": 39.315384615384616,
+            "min": 4.7,
+            "n": 13
+          },
+          "Indigo Carmine": {
+            "max": 50.6,
+            "mean": 21.333333333333332,
+            "min": 6.2,
+            "n": 3
+          },
+          "Orange II": {
+            "max": 0.221,
+            "mean": 0.1315,
+            "min": 0.042,
+            "n": 2
+          },
+          "Rhodamine B": {
+            "max": 10.8,
+            "mean": 10.8,
+            "min": 10.8,
+            "n": 1
+          },
+          "Sunset Yellow FCF": {
+            "max": 98.6,
+            "mean": 20.503863636363636,
+            "min": 0.33,
+            "n": 44
+          },
+          "Tartrazine": {
+            "max": 144.0,
+            "mean": 27.072,
+            "min": 1.0,
+            "n": 100
+          }
+        },
+        "double_rows": {
+          "Chrysoidine G": {
+            "both_rows": 0,
+            "one_row": 0
+          },
+          "Orange II": {
+            "both_rows": 0,
+            "one_row": 2
+          },
+          "Rhodamine B": {
+            "both_rows": 0,
+            "one_row": 1
+          }
+        },
+        "ids_dates": {
+          "bad_ids": [],
+          "dates_unparsed": 0,
+          "distinct": 133,
+          "first": "2018-04-04",
+          "gaps": [
+            2
+          ],
+          "id_range": [
+            1,
+            400
+          ],
+          "last": "2019-03-26",
+          "most_on_one_date": 17,
+          "shared_numbers": {},
+          "suffixed": [
+            {
+              "base": "C2018FCOL00008",
+              "base_present": false,
+              "sample": "C2018FCOL00008D"
+            }
+          ],
+          "text_rank_fits": 0
+        },
+        "mixed": [
+          {
+            "fields": [
+              "date"
+            ],
+            "sample": "C2018FCOL00400",
+            "values": {
+              "date": [
+                "1-Feb-19",
+                "2/1/2019"
+              ]
+            }
+          }
+        ],
+        "twins": []
+      },
+      "facts": {
+        "bytes": 3771543,
+        "md5": "7651427618a70aa3ad2a51ab90bcae8c",
+        "rows": 18354,
+        "rows_per_sample": {
+          "46": 399
+        },
+        "samples": 399,
+        "sha256": "327fd0b6484ce00f9550742c316f603f9b870f78a5e674c79b0cec59e1d24d9d"
+      },
+      "gate": {
+        "colour_labels": true,
+        "md5": true,
+        "roles": true,
+        "rows_per_sample": true,
+        "samples": true,
+        "short_rows": true,
+        "size": true,
+        "units": true,
+        "values": true
+      },
+      "problems": {
+        "bad_units": 0,
+        "bad_values": 0,
+        "missing_roles": [],
+        "short_rows": 0
+      },
+      "provenance": {
+        "dataset": "1b0c4141-7a22-4c93-8679-63eb49f7be24",
+        "encoding": "cp1252",
+        "portal_md5": "7651427618a70aa3ad2a51ab90bcae8c",
+        "resource": "3006ff94-fa7a-4cc4-8b58-a2164ce6a937",
+        "source": "data-volume"
+      }
+    }
+  },
+  "grader": "food_colours",
+  "n_graded": 8,
+  "n_met": 4,
+  "predictions": [
+    {
+      "graded": true,
+      "id": "V1",
+      "kind": "prediction",
+      "met": false,
+      "observed": {
+        "by_type": {
+          "essence": [
+            50,
+            9,
+            23
+          ],
+          "oil": [
+            99,
+            13,
+            13
+          ],
+          "sweets": [
+            200,
+            131,
+            261
+          ],
+          "veg": [
+            50,
+            28,
+            40
+          ]
+        },
+        "cells": {
+          "essence": {
+            "detections": true,
+            "samples": true,
+            "with_colour": true
+          },
+          "oil": {
+            "detections": true,
+            "samples": true,
+            "with_colour": true
+          },
+          "sweets": {
+            "detections": false,
+            "samples": true,
+            "with_colour": true
+          },
+          "veg": {
+            "detections": true,
+            "samples": true,
+            "with_colour": true
+          }
+        },
+        "detections_total": 337,
+        "oil_colours_per_positive": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "with_colour_total": 181
+      },
+      "text": "Table 2: samples with a colour 9 / 13 / 28 / 131 (181); colour detections 23 / 13 / 40 / 260 (336); each oil positive carries exactly one colour"
+    },
+    {
+      "graded": true,
+      "id": "V2",
+      "kind": "prediction",
+      "met": false,
+      "observed": {
+        "colours": {
+          "Allura Red": {
+            "avg_ok": true,
+            "max": 539.0,
+            "max_ok": true,
+            "mean": 78.71881188118812,
+            "n": 101,
+            "n_ok": true
+          },
+          "Amaranth": {
+            "avg_ok": true,
+            "max": 83.5,
+            "max_ok": true,
+            "mean": 26.941666666666666,
+            "n": 12,
+            "n_ok": true
+          },
+          "Brilliant Blue FCF": {
+            "avg_ok": true,
+            "max": 85.0,
+            "max_ok": true,
+            "mean": 9.47639344262295,
+            "n": 61,
+            "n_ok": true
+          },
+          "Erythrosin B": {
+            "avg_ok": true,
+            "max": 124.0,
+            "max_ok": true,
+            "mean": 39.315384615384616,
+            "n": 13,
+            "n_ok": true
+          },
+          "Indigo Carmine": {
+            "avg_ok": true,
+            "max": 50.6,
+            "max_ok": true,
+            "mean": 21.333333333333332,
+            "n": 3,
+            "n_ok": true
+          },
+          "Orange II": {
+            "avg_ok": false,
+            "max": 0.221,
+            "max_ok": true,
+            "mean": 0.1315,
+            "n": 2,
+            "n_ok": true
+          },
+          "Rhodamine B": {
+            "avg_ok": true,
+            "max": 10.8,
+            "max_ok": true,
+            "mean": 10.8,
+            "n": 1,
+            "n_ok": true
+          },
+          "Sunset Yellow FCF": {
+            "avg_ok": true,
+            "max": 98.6,
+            "max_ok": true,
+            "mean": 20.503863636363636,
+            "n": 44,
+            "n_ok": true
+          },
+          "Tartrazine": {
+            "avg_ok": true,
+            "max": 144.0,
+            "max_ok": true,
+            "mean": 27.072,
+            "n": 100,
+            "n_ok": true
+          }
+        },
+        "other_colours_detected": {}
+      },
+      "text": "Table 3: for each of the nine colours, samples and maximum match, averages within rounding (Orange II below LQ 0.13); no other colour above zero"
+    },
+    {
+      "graded": true,
+      "id": "V3",
+      "kind": "prediction",
+      "met": false,
+      "observed": {
+        "detections": 337,
+        "orange_ii_levels": [
+          0.042,
+          0.221
+        ],
+        "orange_ii_low": [],
+        "orange_ii_low_types": [],
+        "orange_ii_n": 2,
+        "type_cells_off": {
+          "sweets": 1
+        }
+      },
+      "text": "R1 settled: 337 colour detections (Table 3), with one Orange II result under 0.039 ppm that Table 2's 336 leaves out"
+    },
+    {
+      "graded": true,
+      "id": "V4",
+      "kind": "prediction",
+      "met": true,
+      "observed": {
+        "with_colour": 181,
+        "without_colour": 218
+      },
+      "text": "218 samples without any colour above zero (not 219)"
+    },
+    {
+      "graded": true,
+      "id": "V5",
+      "kind": "prediction",
+      "met": true,
+      "observed": {
+        "colours_per_positive": {
+          "1": 80,
+          "2": 64,
+          "3": 23,
+          "4": 11,
+          "5": 2,
+          "6": 1
+        },
+        "five_or_more": 3,
+        "one_to_four": 178
+      },
+      "text": "177 or 178 of the samples with colours carry one to four colours"
+    },
+    {
+      "graded": true,
+      "id": "V6",
+      "kind": "prediction",
+      "met": true,
+      "observed": {
+        "top": [
+          {
+            "colour": "Allura Red",
+            "function": "Unknown",
+            "origin": "UNKNOWN",
+            "ppm": 539.0,
+            "product": "Candy - Hard",
+            "sample": "C2018FCOL00366"
+          },
+          {
+            "colour": "Allura Red",
+            "function": "Unknown",
+            "origin": "UNKNOWN",
+            "ppm": 475.0,
+            "product": "Candy - Hard",
+            "sample": "C2018FCOL00297"
+          },
+          {
+            "colour": "Allura Red",
+            "function": "Unknown",
+            "origin": "UNKNOWN",
+            "ppm": 312.0,
+            "product": "Baked Goods",
+            "sample": "C2018FCOL00349"
+          },
+          {
+            "colour": "Allura Red",
+            "function": "Import",
+            "origin": "UNITED STATES",
+            "ppm": 217.0,
+            "product": "Fruit Snacks",
+            "sample": "C2018FCOL00209"
+          },
+          {
+            "colour": "Allura Red",
+            "function": "Domestic",
+            "origin": "CANADA",
+            "ppm": 206.0,
+            "product": "Bakery Product - Cookie",
+            "sample": "C2018FCOL00367"
+          }
+        ]
+      },
+      "text": "the highest level of any colour is Allura Red at 539 ppm, in a candy"
+    },
+    {
+      "graded": true,
+      "id": "V7",
+      "kind": "prediction",
+      "met": true,
+      "observed": {
+        "rhodamine_b": [
+          {
+            "function": "Import",
+            "origin": "LEBANON",
+            "ppm": 10.8,
+            "product": "Pickled Vegetable - Misc",
+            "sample": "C2018FCOL00263"
+          }
+        ]
+      },
+      "text": "Rhodamine B in exactly one sample, at 10.8 ppm"
+    },
+    {
+      "graded": true,
+      "id": "V8",
+      "kind": "prediction",
+      "met": false,
+      "observed": {
+        "checks": {
+          "five_share_92.5_93.5": false,
+          "forty_one_with_colour": true,
+          "no_fat_soluble": true
+        },
+        "fat_soluble_above_zero": [],
+        "five_colours": 74,
+        "five_share": 0.9736842105263158,
+        "results": 76,
+        "results_by_colour": {
+          "Allura, red": 15,
+          "Amaranth": 8,
+          "Brilliant blue": 16,
+          "Erythrosine": 1,
+          "Indigotine": 1,
+          "Sunset, yellow": 17,
+          "Tartrazine, yellow": 18
+        },
+        "with_colour": 41
+      },
+      "text": "2009-10: 41 of 100 with a colour, no fat-soluble colour, the five colours are 92.5-93.5% of colour results"
+    },
+    {
+      "graded": false,
+      "id": "V9",
+      "kind": "prediction",
+      "met": null,
+      "observed": {
+        "reason": "the file has seven product categories, not product names, and no compliance column (census note)"
+      },
+      "text": "2009-10 named non-compliant samples (ungraded)"
+    }
+  ],
+  "study": "food-colours",
+  "version": "0.1.0"
+}
