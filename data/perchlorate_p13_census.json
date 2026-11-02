@@ -1,0 +1,3686 @@
+{
+  "bytes": 78310,
+  "census": {
+    "columns": {
+      "commodity": null,
+      "component": 11,
+      "date": 8,
+      "function": 2,
+      "origin": 4,
+      "plan": 15,
+      "product": 6,
+      "region": 1,
+      "sample": 0,
+      "test": 9,
+      "unit": 14,
+      "value": 13
+    },
+    "commodities": {
+      "": 477
+    },
+    "components": {
+      "Perchlorate": 477
+    },
+    "header": [
+      "Sample No. – No. d’échantillon",
+      "Region - Région",
+      "Function",
+      "Fonction",
+      "Origin",
+      "Origine",
+      "Product",
+      "Produit",
+      "Date Sampled – Date d’échantillonage",
+      "Type of Test",
+      "Type d’analyse",
+      "Component",
+      "Composant",
+      "Result - Résultat",
+      "Unit - Unité",
+      "Plan Code - Code du régime"
+    ],
+    "id_gaps": 23,
+    "id_range": [
+      1,
+      500
+    ],
+    "ids_bad": [],
+    "ids_bad_count": 0,
+    "ids_dup_suffix": [],
+    "missing_component_samples": {},
+    "mixed_label_samples": [],
+    "plans": {
+      "2013_TS006": 477
+    },
+    "product_commodity": {
+      "Arugula | ": 9,
+      "Basil | ": 6,
+      "Bay Leaves | ": 1,
+      "Beverage - Fruit | ": 1,
+      "Beverage - Other | ": 3,
+      "Beverage - Yogurt | ": 10,
+      "Camembert | ": 3,
+      "Cheddar | ": 1,
+      "Cheese | ": 13,
+      "Chive | ": 3,
+      "Cilantro | ": 2,
+      "Couscous | ": 10,
+      "Cranberry - dried | ": 5,
+      "Dandelion | ": 1,
+      "Date | ": 5,
+      "Dessert - Frozen (Dairy) | ": 9,
+      "Dessert - Frozen (Non-Dairy) | ": 1,
+      "Dill | ": 3,
+      "Dried Fruit | ": 20,
+      "Dried Vegetables | ": 17,
+      "Endive - Broadleaf | ": 2,
+      "Endive | ": 2,
+      "Feta | ": 2,
+      "Fig | ": 5,
+      "Fingerling Potatoes | ": 4,
+      "Flour - Rice | ": 9,
+      "Flour - Wheat | ": 15,
+      "Gouda | ": 1,
+      "Grain - Rice | ": 14,
+      "Grain - Wheat | ": 1,
+      "Herb - Bay Leaves - Fresh | ": 2,
+      "Herb - Chive - Fresh | ": 2,
+      "Herb - Cilantro - Fresh | ": 1,
+      "Herb - Dill - Fresh | ": 1,
+      "Herb - Oregano - Fresh | ": 4,
+      "Herb - Parsley - Fresh | ": 1,
+      "Herb - Rosemary - Fresh | ": 2,
+      "Herb - Sage - Fresh | ": 1,
+      "Infant Formula - Dairy | ": 23,
+      "Infant Formula - Other | ": 7,
+      "Infant Formula - Soy | ": 9,
+      "Juice - Apple | ": 2,
+      "Juice - Blend | ": 25,
+      "Juice - Grapefruit | ": 1,
+      "Juice - Mixed | ": 4,
+      "Juice - Other | ": 8,
+      "Juice/Nectar - Other | ": 3,
+      "Kale | ": 6,
+      "Lettuce - Leaf - Organic | ": 1,
+      "Lettuce - Organic | ": 2,
+      "Lettuce | ": 3,
+      "Meat Alternative | ": 10,
+      "Mint | ": 4,
+      "Misc Vegetables | ": 2,
+      "Mixed Vegetables | ": 10,
+      "Nectar - Apricot | ": 1,
+      "Nectar - Guava | ": 1,
+      "Oregano | ": 6,
+      "Parsley | ": 3,
+      "Pizza Products | ": 20,
+      "Potato - Fingerling | ": 2,
+      "Potato - New | ": 1,
+      "Potato - Organic | ": 2,
+      "Potato - Other | ": 1,
+      "Potato - Russet | ": 1,
+      "Potato - White | ": 2,
+      "Potato - Yellow | ": 1,
+      "Potato Products | ": 1,
+      "Potatoes | ": 4,
+      "Prune | ": 5,
+      "Raisin | ": 5,
+      "Rapini | ": 1,
+      "Red Potatoes | ": 9,
+      "Rice Products | ": 2,
+      "Rosemary | ": 3,
+      "Russet Potatoes | ": 5,
+      "Sage | ": 4,
+      "Salsa | ": 9,
+      "Soup | ": 15,
+      "Spinach | ": 2,
+      "Thyme | ": 5,
+      "Tofu | ": 10,
+      "Wheat Products | ": 9,
+      "White Potatoes | ": 5,
+      "Yellow Potatoes | ": 9,
+      "Yogurt - Frozen | ": 10,
+      "Yogurt | ": 10,
+      "juice - pineapple | ": 1
+    },
+    "product_function": {
+      "Arugula": {
+        "Import": 8,
+        "Unknown": 1
+      },
+      "Basil": {
+        "Import": 6
+      },
+      "Bay Leaves": {
+        "Unknown": 1
+      },
+      "Beverage - Fruit": {
+        "Import": 1
+      },
+      "Beverage - Other": {
+        "Domestic": 1,
+        "Import": 1,
+        "Unknown": 1
+      },
+      "Beverage - Yogurt": {
+        "Domestic": 1,
+        "Unknown": 9
+      },
+      "Camembert": {
+        "Import": 3
+      },
+      "Cheddar": {
+        "Import": 1
+      },
+      "Cheese": {
+        "Import": 13
+      },
+      "Chive": {
+        "Domestic": 2,
+        "Unknown": 1
+      },
+      "Cilantro": {
+        "Domestic": 1,
+        "Import": 1
+      },
+      "Couscous": {
+        "Domestic": 2,
+        "Import": 4,
+        "Unknown": 4
+      },
+      "Cranberry - dried": {
+        "Domestic": 1,
+        "Unknown": 4
+      },
+      "Dandelion": {
+        "Import": 1
+      },
+      "Date": {
+        "Import": 5
+      },
+      "Dessert - Frozen (Dairy)": {
+        "Import": 3,
+        "Unknown": 6
+      },
+      "Dessert - Frozen (Non-Dairy)": {
+        "Unknown": 1
+      },
+      "Dill": {
+        "Domestic": 1,
+        "Import": 2
+      },
+      "Dried Fruit": {
+        "Domestic": 3,
+        "Import": 5,
+        "Unknown": 12
+      },
+      "Dried Vegetables": {
+        "Domestic": 5,
+        "Import": 3,
+        "Unknown": 9
+      },
+      "Endive": {
+        "Domestic": 2
+      },
+      "Endive - Broadleaf": {
+        "Domestic": 1,
+        "Import": 1
+      },
+      "Feta": {
+        "Import": 2
+      },
+      "Fig": {
+        "Import": 3,
+        "Unknown": 2
+      },
+      "Fingerling Potatoes": {
+        "Domestic": 2,
+        "Import": 2
+      },
+      "Flour - Rice": {
+        "Domestic": 1,
+        "Import": 4,
+        "Unknown": 4
+      },
+      "Flour - Wheat": {
+        "Domestic": 13,
+        "Unknown": 2
+      },
+      "Gouda": {
+        "Import": 1
+      },
+      "Grain - Rice": {
+        "Domestic": 2,
+        "Import": 9,
+        "Unknown": 3
+      },
+      "Grain - Wheat": {
+        "Import": 1
+      },
+      "Herb - Bay Leaves - Fresh": {
+        "Import": 2
+      },
+      "Herb - Chive - Fresh": {
+        "Import": 1,
+        "Unknown": 1
+      },
+      "Herb - Cilantro - Fresh": {
+        "Import": 1
+      },
+      "Herb - Dill - Fresh": {
+        "Import": 1
+      },
+      "Herb - Oregano - Fresh": {
+        "Import": 2,
+        "Unknown": 2
+      },
+      "Herb - Parsley - Fresh": {
+        "Import": 1
+      },
+      "Herb - Rosemary - Fresh": {
+        "Import": 2
+      },
+      "Herb - Sage - Fresh": {
+        "Import": 1
+      },
+      "Infant Formula - Dairy": {
+        "Import": 11,
+        "Unknown": 12
+      },
+      "Infant Formula - Other": {
+        "Domestic": 1,
+        "Import": 1,
+        "Unknown": 5
+      },
+      "Infant Formula - Soy": {
+        "Import": 7,
+        "Unknown": 2
+      },
+      "Juice - Apple": {
+        "Domestic": 1,
+        "Unknown": 1
+      },
+      "Juice - Blend": {
+        "Domestic": 9,
+        "Import": 10,
+        "Unknown": 6
+      },
+      "Juice - Grapefruit": {
+        "Import": 1
+      },
+      "Juice - Mixed": {
+        "Domestic": 3,
+        "Import": 1
+      },
+      "Juice - Other": {
+        "Domestic": 4,
+        "Import": 3,
+        "Unknown": 1
+      },
+      "Juice/Nectar - Other": {
+        "Import": 3
+      },
+      "Kale": {
+        "Domestic": 1,
+        "Import": 5
+      },
+      "Lettuce": {
+        "Import": 3
+      },
+      "Lettuce - Leaf - Organic": {
+        "Import": 1
+      },
+      "Lettuce - Organic": {
+        "Import": 2
+      },
+      "Meat Alternative": {
+        "Domestic": 1,
+        "Import": 4,
+        "Unknown": 5
+      },
+      "Mint": {
+        "Import": 3,
+        "Unknown": 1
+      },
+      "Misc Vegetables": {
+        "Import": 2
+      },
+      "Mixed Vegetables": {
+        "Domestic": 1,
+        "Import": 9
+      },
+      "Nectar - Apricot": {
+        "Import": 1
+      },
+      "Nectar - Guava": {
+        "Import": 1
+      },
+      "Oregano": {
+        "Domestic": 1,
+        "Import": 4,
+        "Unknown": 1
+      },
+      "Parsley": {
+        "Domestic": 1,
+        "Import": 2
+      },
+      "Pizza Products": {
+        "Domestic": 3,
+        "Import": 5,
+        "Unknown": 12
+      },
+      "Potato - Fingerling": {
+        "Import": 2
+      },
+      "Potato - New": {
+        "Domestic": 1
+      },
+      "Potato - Organic": {
+        "Domestic": 2
+      },
+      "Potato - Other": {
+        "Domestic": 1
+      },
+      "Potato - Russet": {
+        "Domestic": 1
+      },
+      "Potato - White": {
+        "Domestic": 2
+      },
+      "Potato - Yellow": {
+        "Domestic": 1
+      },
+      "Potato Products": {
+        "Domestic": 1
+      },
+      "Potatoes": {
+        "Domestic": 1,
+        "Import": 1,
+        "Unknown": 2
+      },
+      "Prune": {
+        "Import": 3,
+        "Unknown": 2
+      },
+      "Raisin": {
+        "Import": 3,
+        "Unknown": 2
+      },
+      "Rapini": {
+        "Import": 1
+      },
+      "Red Potatoes": {
+        "Domestic": 6,
+        "Import": 2,
+        "Unknown": 1
+      },
+      "Rice Products": {
+        "Unknown": 2
+      },
+      "Rosemary": {
+        "Domestic": 1,
+        "Import": 2
+      },
+      "Russet Potatoes": {
+        "Domestic": 2,
+        "Import": 2,
+        "Unknown": 1
+      },
+      "Sage": {
+        "Import": 3,
+        "Unknown": 1
+      },
+      "Salsa": {
+        "Import": 7,
+        "Unknown": 2
+      },
+      "Soup": {
+        "Domestic": 1,
+        "Import": 2,
+        "Unknown": 12
+      },
+      "Spinach": {
+        "Import": 2
+      },
+      "Thyme": {
+        "Domestic": 1,
+        "Import": 3,
+        "Unknown": 1
+      },
+      "Tofu": {
+        "Domestic": 2,
+        "Import": 1,
+        "Unknown": 7
+      },
+      "Wheat Products": {
+        "Domestic": 2,
+        "Import": 4,
+        "Unknown": 3
+      },
+      "White Potatoes": {
+        "Domestic": 4,
+        "Import": 1
+      },
+      "Yellow Potatoes": {
+        "Domestic": 6,
+        "Import": 3
+      },
+      "Yogurt": {
+        "Domestic": 1,
+        "Unknown": 9
+      },
+      "Yogurt - Frozen": {
+        "Domestic": 3,
+        "Import": 2,
+        "Unknown": 5
+      },
+      "juice - pineapple": {
+        "Domestic": 1
+      }
+    },
+    "product_id_runs": {
+      "Arugula": [
+        [
+          1,
+          1
+        ],
+        [
+          65,
+          67
+        ],
+        [
+          233,
+          234
+        ],
+        [
+          340,
+          340
+        ],
+        [
+          401,
+          402
+        ]
+      ],
+      "Basil": [
+        [
+          68,
+          69
+        ],
+        [
+          235,
+          235
+        ],
+        [
+          248,
+          248
+        ],
+        [
+          341,
+          341
+        ],
+        [
+          403,
+          403
+        ]
+      ],
+      "Bay Leaves": [
+        [
+          70,
+          70
+        ]
+      ],
+      "Beverage - Fruit": [
+        [
+          328,
+          328
+        ]
+      ],
+      "Beverage - Other": [
+        [
+          28,
+          28
+        ],
+        [
+          218,
+          218
+        ],
+        [
+          491,
+          491
+        ]
+      ],
+      "Beverage - Yogurt": [
+        [
+          7,
+          7
+        ],
+        [
+          39,
+          39
+        ],
+        [
+          123,
+          125
+        ],
+        [
+          265,
+          266
+        ],
+        [
+          366,
+          366
+        ],
+        [
+          433,
+          434
+        ]
+      ],
+      "Camembert": [
+        [
+          270,
+          270
+        ],
+        [
+          368,
+          368
+        ],
+        [
+          438,
+          438
+        ]
+      ],
+      "Cheddar": [
+        [
+          367,
+          367
+        ]
+      ],
+      "Cheese": [
+        [
+          8,
+          8
+        ],
+        [
+          40,
+          40
+        ],
+        [
+          126,
+          132
+        ],
+        [
+          267,
+          268
+        ],
+        [
+          435,
+          436
+        ]
+      ],
+      "Chive": [
+        [
+          72,
+          72
+        ],
+        [
+          343,
+          343
+        ],
+        [
+          405,
+          405
+        ]
+      ],
+      "Cilantro": [
+        [
+          238,
+          238
+        ],
+        [
+          344,
+          344
+        ]
+      ],
+      "Couscous": [
+        [
+          16,
+          16
+        ],
+        [
+          48,
+          48
+        ],
+        [
+          162,
+          164
+        ],
+        [
+          292,
+          293
+        ],
+        [
+          378,
+          378
+        ],
+        [
+          457,
+          458
+        ]
+      ],
+      "Cranberry - dried": [
+        [
+          181,
+          182
+        ],
+        [
+          306,
+          306
+        ],
+        [
+          383,
+          383
+        ],
+        [
+          469,
+          469
+        ]
+      ],
+      "Dandelion": [
+        [
+          349,
+          349
+        ]
+      ],
+      "Date": [
+        [
+          183,
+          184
+        ],
+        [
+          307,
+          307
+        ],
+        [
+          384,
+          384
+        ],
+        [
+          470,
+          470
+        ]
+      ],
+      "Dessert - Frozen (Dairy)": [
+        [
+          9,
+          9
+        ],
+        [
+          41,
+          41
+        ],
+        [
+          134,
+          135
+        ],
+        [
+          272,
+          273
+        ],
+        [
+          369,
+          369
+        ],
+        [
+          439,
+          440
+        ]
+      ],
+      "Dessert - Frozen (Non-Dairy)": [
+        [
+          133,
+          133
+        ]
+      ],
+      "Dill": [
+        [
+          76,
+          76
+        ],
+        [
+          239,
+          239
+        ],
+        [
+          345,
+          345
+        ]
+      ],
+      "Dried Fruit": [
+        [
+          21,
+          22
+        ],
+        [
+          53,
+          54
+        ],
+        [
+          185,
+          187
+        ],
+        [
+          194,
+          196
+        ],
+        [
+          308,
+          309
+        ],
+        [
+          313,
+          314
+        ],
+        [
+          385,
+          385
+        ],
+        [
+          389,
+          389
+        ],
+        [
+          471,
+          472
+        ],
+        [
+          476,
+          477
+        ]
+      ],
+      "Dried Vegetables": [
+        [
+          24,
+          24
+        ],
+        [
+          55,
+          55
+        ],
+        [
+          197,
+          198
+        ],
+        [
+          200,
+          202
+        ],
+        [
+          315,
+          318
+        ],
+        [
+          390,
+          391
+        ],
+        [
+          478,
+          481
+        ]
+      ],
+      "Endive": [
+        [
+          104,
+          104
+        ],
+        [
+          240,
+          240
+        ]
+      ],
+      "Endive - Broadleaf": [
+        [
+          78,
+          78
+        ],
+        [
+          408,
+          408
+        ]
+      ],
+      "Feta": [
+        [
+          269,
+          269
+        ],
+        [
+          271,
+          271
+        ]
+      ],
+      "Fig": [
+        [
+          188,
+          189
+        ],
+        [
+          310,
+          310
+        ],
+        [
+          386,
+          386
+        ],
+        [
+          473,
+          473
+        ]
+      ],
+      "Fingerling Potatoes": [
+        [
+          5,
+          5
+        ],
+        [
+          105,
+          105
+        ],
+        [
+          358,
+          358
+        ],
+        [
+          423,
+          423
+        ]
+      ],
+      "Flour - Rice": [
+        [
+          17,
+          17
+        ],
+        [
+          49,
+          49
+        ],
+        [
+          165,
+          165
+        ],
+        [
+          167,
+          167
+        ],
+        [
+          294,
+          295
+        ],
+        [
+          379,
+          379
+        ],
+        [
+          459,
+          460
+        ]
+      ],
+      "Flour - Wheat": [
+        [
+          18,
+          18
+        ],
+        [
+          50,
+          50
+        ],
+        [
+          168,
+          172
+        ],
+        [
+          296,
+          299
+        ],
+        [
+          380,
+          380
+        ],
+        [
+          461,
+          463
+        ]
+      ],
+      "Gouda": [
+        [
+          437,
+          437
+        ]
+      ],
+      "Grain - Rice": [
+        [
+          19,
+          19
+        ],
+        [
+          51,
+          51
+        ],
+        [
+          174,
+          177
+        ],
+        [
+          300,
+          303
+        ],
+        [
+          381,
+          381
+        ],
+        [
+          464,
+          466
+        ]
+      ],
+      "Grain - Wheat": [
+        [
+          20,
+          20
+        ]
+      ],
+      "Herb - Bay Leaves - Fresh": [
+        [
+          236,
+          236
+        ],
+        [
+          404,
+          404
+        ]
+      ],
+      "Herb - Chive - Fresh": [
+        [
+          73,
+          73
+        ],
+        [
+          237,
+          237
+        ]
+      ],
+      "Herb - Cilantro - Fresh": [
+        [
+          406,
+          406
+        ]
+      ],
+      "Herb - Dill - Fresh": [
+        [
+          407,
+          407
+        ]
+      ],
+      "Herb - Oregano - Fresh": [
+        [
+          35,
+          35
+        ],
+        [
+          89,
+          89
+        ],
+        [
+          246,
+          247
+        ]
+      ],
+      "Herb - Parsley - Fresh": [
+        [
+          36,
+          36
+        ]
+      ],
+      "Herb - Rosemary - Fresh": [
+        [
+          98,
+          98
+        ],
+        [
+          419,
+          419
+        ]
+      ],
+      "Herb - Sage - Fresh": [
+        [
+          99,
+          99
+        ]
+      ],
+      "Infant Formula - Dairy": [
+        [
+          13,
+          13
+        ],
+        [
+          45,
+          45
+        ],
+        [
+          149,
+          158
+        ],
+        [
+          283,
+          287
+        ],
+        [
+          374,
+          375
+        ],
+        [
+          449,
+          452
+        ]
+      ],
+      "Infant Formula - Other": [
+        [
+          14,
+          14
+        ],
+        [
+          46,
+          46
+        ],
+        [
+          288,
+          289
+        ],
+        [
+          376,
+          376
+        ],
+        [
+          453,
+          454
+        ]
+      ],
+      "Infant Formula - Soy": [
+        [
+          47,
+          47
+        ],
+        [
+          159,
+          161
+        ],
+        [
+          290,
+          291
+        ],
+        [
+          377,
+          377
+        ],
+        [
+          455,
+          456
+        ]
+      ],
+      "Juice - Apple": [
+        [
+          325,
+          325
+        ],
+        [
+          486,
+          486
+        ]
+      ],
+      "Juice - Blend": [
+        [
+          25,
+          25
+        ],
+        [
+          57,
+          58
+        ],
+        [
+          203,
+          206
+        ],
+        [
+          208,
+          209
+        ],
+        [
+          217,
+          217
+        ],
+        [
+          319,
+          324
+        ],
+        [
+          326,
+          327
+        ],
+        [
+          392,
+          393
+        ],
+        [
+          396,
+          396
+        ],
+        [
+          482,
+          485
+        ]
+      ],
+      "Juice - Grapefruit": [
+        [
+          26,
+          26
+        ]
+      ],
+      "Juice - Mixed": [
+        [
+          60,
+          60
+        ],
+        [
+          207,
+          207
+        ],
+        [
+          329,
+          329
+        ],
+        [
+          489,
+          489
+        ]
+      ],
+      "Juice - Other": [
+        [
+          27,
+          27
+        ],
+        [
+          59,
+          59
+        ],
+        [
+          216,
+          216
+        ],
+        [
+          394,
+          395
+        ],
+        [
+          487,
+          488
+        ],
+        [
+          490,
+          490
+        ]
+      ],
+      "Juice/Nectar - Other": [
+        [
+          211,
+          213
+        ]
+      ],
+      "Kale": [
+        [
+          81,
+          81
+        ],
+        [
+          241,
+          241
+        ],
+        [
+          347,
+          347
+        ],
+        [
+          409,
+          409
+        ],
+        [
+          417,
+          418
+        ]
+      ],
+      "Lettuce": [
+        [
+          2,
+          2
+        ],
+        [
+          84,
+          84
+        ],
+        [
+          94,
+          94
+        ]
+      ],
+      "Lettuce - Leaf - Organic": [
+        [
+          93,
+          93
+        ]
+      ],
+      "Lettuce - Organic": [
+        [
+          80,
+          80
+        ],
+        [
+          103,
+          103
+        ]
+      ],
+      "Meat Alternative": [
+        [
+          29,
+          29
+        ],
+        [
+          32,
+          32
+        ],
+        [
+          61,
+          61
+        ],
+        [
+          64,
+          64
+        ],
+        [
+          220,
+          220
+        ],
+        [
+          330,
+          331
+        ],
+        [
+          397,
+          397
+        ],
+        [
+          492,
+          493
+        ]
+      ],
+      "Mint": [
+        [
+          82,
+          83
+        ],
+        [
+          242,
+          242
+        ],
+        [
+          410,
+          410
+        ]
+      ],
+      "Misc Vegetables": [
+        [
+          34,
+          34
+        ],
+        [
+          422,
+          422
+        ]
+      ],
+      "Mixed Vegetables": [
+        [
+          85,
+          86
+        ],
+        [
+          243,
+          244
+        ],
+        [
+          249,
+          250
+        ],
+        [
+          254,
+          254
+        ],
+        [
+          361,
+          361
+        ],
+        [
+          411,
+          412
+        ]
+      ],
+      "Nectar - Apricot": [
+        [
+          215,
+          215
+        ]
+      ],
+      "Nectar - Guava": [
+        [
+          214,
+          214
+        ]
+      ],
+      "Oregano": [
+        [
+          3,
+          3
+        ],
+        [
+          88,
+          88
+        ],
+        [
+          245,
+          245
+        ],
+        [
+          350,
+          350
+        ],
+        [
+          413,
+          414
+        ]
+      ],
+      "Parsley": [
+        [
+          351,
+          351
+        ],
+        [
+          415,
+          416
+        ]
+      ],
+      "Pizza Products": [
+        [
+          10,
+          10
+        ],
+        [
+          42,
+          42
+        ],
+        [
+          136,
+          142
+        ],
+        [
+          274,
+          278
+        ],
+        [
+          370,
+          371
+        ],
+        [
+          441,
+          444
+        ]
+      ],
+      "Potato - Fingerling": [
+        [
+          106,
+          106
+        ],
+        [
+          255,
+          255
+        ]
+      ],
+      "Potato - New": [
+        [
+          424,
+          424
+        ]
+      ],
+      "Potato - Organic": [
+        [
+          110,
+          110
+        ],
+        [
+          257,
+          257
+        ]
+      ],
+      "Potato - Other": [
+        [
+          112,
+          112
+        ]
+      ],
+      "Potato - Russet": [
+        [
+          260,
+          260
+        ]
+      ],
+      "Potato - White": [
+        [
+          37,
+          37
+        ],
+        [
+          119,
+          119
+        ]
+      ],
+      "Potato - Yellow": [
+        [
+          38,
+          38
+        ]
+      ],
+      "Potato Products": [
+        [
+          118,
+          118
+        ]
+      ],
+      "Potatoes": [
+        [
+          107,
+          107
+        ],
+        [
+          111,
+          111
+        ],
+        [
+          258,
+          258
+        ],
+        [
+          359,
+          359
+        ]
+      ],
+      "Prune": [
+        [
+          190,
+          191
+        ],
+        [
+          311,
+          311
+        ],
+        [
+          387,
+          387
+        ],
+        [
+          474,
+          474
+        ]
+      ],
+      "Raisin": [
+        [
+          192,
+          193
+        ],
+        [
+          312,
+          312
+        ],
+        [
+          388,
+          388
+        ],
+        [
+          475,
+          475
+        ]
+      ],
+      "Rapini": [
+        [
+          96,
+          96
+        ]
+      ],
+      "Red Potatoes": [
+        [
+          113,
+          114
+        ],
+        [
+          256,
+          256
+        ],
+        [
+          259,
+          259
+        ],
+        [
+          360,
+          360
+        ],
+        [
+          362,
+          362
+        ],
+        [
+          425,
+          427
+        ]
+      ],
+      "Rice Products": [
+        [
+          166,
+          166
+        ],
+        [
+          173,
+          173
+        ]
+      ],
+      "Rosemary": [
+        [
+          97,
+          97
+        ],
+        [
+          251,
+          251
+        ],
+        [
+          354,
+          354
+        ]
+      ],
+      "Russet Potatoes": [
+        [
+          109,
+          109
+        ],
+        [
+          115,
+          116
+        ],
+        [
+          363,
+          363
+        ],
+        [
+          428,
+          428
+        ]
+      ],
+      "Sage": [
+        [
+          100,
+          100
+        ],
+        [
+          252,
+          252
+        ],
+        [
+          355,
+          355
+        ],
+        [
+          420,
+          420
+        ]
+      ],
+      "Salsa": [
+        [
+          30,
+          30
+        ],
+        [
+          222,
+          224
+        ],
+        [
+          332,
+          333
+        ],
+        [
+          398,
+          398
+        ],
+        [
+          494,
+          495
+        ]
+      ],
+      "Soup": [
+        [
+          31,
+          31
+        ],
+        [
+          63,
+          63
+        ],
+        [
+          225,
+          229
+        ],
+        [
+          334,
+          337
+        ],
+        [
+          399,
+          399
+        ],
+        [
+          496,
+          498
+        ]
+      ],
+      "Spinach": [
+        [
+          79,
+          79
+        ],
+        [
+          95,
+          95
+        ]
+      ],
+      "Thyme": [
+        [
+          101,
+          102
+        ],
+        [
+          253,
+          253
+        ],
+        [
+          356,
+          356
+        ],
+        [
+          421,
+          421
+        ]
+      ],
+      "Tofu": [
+        [
+          219,
+          219
+        ],
+        [
+          221,
+          221
+        ],
+        [
+          230,
+          232
+        ],
+        [
+          338,
+          339
+        ],
+        [
+          400,
+          400
+        ],
+        [
+          499,
+          500
+        ]
+      ],
+      "Wheat Products": [
+        [
+          52,
+          52
+        ],
+        [
+          178,
+          180
+        ],
+        [
+          304,
+          305
+        ],
+        [
+          382,
+          382
+        ],
+        [
+          467,
+          468
+        ]
+      ],
+      "White Potatoes": [
+        [
+          117,
+          117
+        ],
+        [
+          261,
+          262
+        ],
+        [
+          364,
+          364
+        ],
+        [
+          429,
+          429
+        ]
+      ],
+      "Yellow Potatoes": [
+        [
+          6,
+          6
+        ],
+        [
+          120,
+          122
+        ],
+        [
+          263,
+          264
+        ],
+        [
+          365,
+          365
+        ],
+        [
+          431,
+          432
+        ]
+      ],
+      "Yogurt": [
+        [
+          11,
+          11
+        ],
+        [
+          43,
+          43
+        ],
+        [
+          143,
+          145
+        ],
+        [
+          147,
+          147
+        ],
+        [
+          280,
+          280
+        ],
+        [
+          372,
+          372
+        ],
+        [
+          445,
+          446
+        ]
+      ],
+      "Yogurt - Frozen": [
+        [
+          12,
+          12
+        ],
+        [
+          44,
+          44
+        ],
+        [
+          146,
+          146
+        ],
+        [
+          148,
+          148
+        ],
+        [
+          279,
+          279
+        ],
+        [
+          281,
+          282
+        ],
+        [
+          373,
+          373
+        ],
+        [
+          447,
+          448
+        ]
+      ],
+      "juice - pineapple": [
+        [
+          210,
+          210
+        ]
+      ]
+    },
+    "product_origin_top": {
+      "Arugula": {
+        "United States": 8,
+        "Unknown": 1
+      },
+      "Basil": {
+        "Columbia": 1,
+        "DOMINICAN REPUBLIC": 1,
+        "Dominican Republic": 1,
+        "MEXICO": 1,
+        "Mexico": 1,
+        "United States": 1
+      },
+      "Bay Leaves": {
+        "Unknown": 1
+      },
+      "Beverage - Fruit": {
+        "United States": 1
+      },
+      "Beverage - Other": {
+        "Canada": 1,
+        "United States": 1,
+        "Unknown": 1
+      },
+      "Beverage - Yogurt": {
+        "Canada": 1,
+        "Unknown": 9
+      },
+      "Camembert": {
+        "Denmark": 1,
+        "France": 2
+      },
+      "Cheddar": {
+        "United Kingdom": 1
+      },
+      "Cheese": {
+        "France": 1,
+        "IRELAND": 1,
+        "ITALY": 1,
+        "NETHERLANDS": 1,
+        "NORWAY": 1,
+        "Netherlands": 1,
+        "Norway": 1,
+        "SWITZERLAND": 1,
+        "UNITED KINGDOM": 2,
+        "United States": 3
+      },
+      "Chive": {
+        "Canada": 2,
+        "Unknown": 1
+      },
+      "Cilantro": {
+        "Canada": 1,
+        "United States": 1
+      },
+      "Couscous": {
+        "Canada": 2,
+        "FRANCE": 1,
+        "United States": 3,
+        "Unknown": 4
+      },
+      "Cranberry - dried": {
+        "Canada": 1,
+        "Unknown": 4
+      },
+      "Dandelion": {
+        "United States": 1
+      },
+      "Date": {
+        "IRAN, ISLAMIC REPUBLIC OF": 4,
+        "United States": 1
+      },
+      "Dessert - Frozen (Dairy)": {
+        "United States": 3,
+        "Unknown": 6
+      },
+      "Dessert - Frozen (Non-Dairy)": {
+        "Unknown": 1
+      },
+      "Dill": {
+        "Canada": 1,
+        "United States": 2
+      },
+      "Dried Fruit": {
+        "COLOMBIA": 1,
+        "Canada": 3,
+        "MEXICO": 1,
+        "TÜRKIYE": 2,
+        "United States": 1,
+        "Unknown": 12
+      },
+      "Dried Vegetables": {
+        "Canada": 5,
+        "POLAND": 1,
+        "TÜRKIYE": 1,
+        "United States": 1,
+        "Unknown": 9
+      },
+      "Endive": {
+        "Canada": 2
+      },
+      "Endive - Broadleaf": {
+        "Canada": 1,
+        "United States": 1
+      },
+      "Feta": {
+        "United States": 2
+      },
+      "Fig": {
+        "TÜRKIYE": 1,
+        "United States": 2,
+        "Unknown": 2
+      },
+      "Fingerling Potatoes": {
+        "Canada": 2,
+        "United States": 2
+      },
+      "Flour - Rice": {
+        "Canada": 1,
+        "THAILAND": 1,
+        "United States": 3,
+        "Unknown": 4
+      },
+      "Flour - Wheat": {
+        "Canada": 13,
+        "Unknown": 2
+      },
+      "Gouda": {
+        "Ireland": 1
+      },
+      "Grain - Rice": {
+        "Canada": 2,
+        "INDIA": 1,
+        "PAKISTAN": 2,
+        "THAILAND": 2,
+        "United States": 4,
+        "Unknown": 3
+      },
+      "Grain - Wheat": {
+        "TÜRKIYE": 1
+      },
+      "Herb - Bay Leaves - Fresh": {
+        "MEXICO": 1,
+        "United States": 1
+      },
+      "Herb - Chive - Fresh": {
+        "COLOMBIA": 1,
+        "Unknown": 1
+      },
+      "Herb - Cilantro - Fresh": {
+        "United States": 1
+      },
+      "Herb - Dill - Fresh": {
+        "United States": 1
+      },
+      "Herb - Oregano - Fresh": {
+        "COLOMBIA": 1,
+        "DOMINICAN REPUBLIC": 1,
+        "Unknown": 2
+      },
+      "Herb - Parsley - Fresh": {
+        "United States": 1
+      },
+      "Herb - Rosemary - Fresh": {
+        "COLOMBIA": 1,
+        "ISRAEL": 1
+      },
+      "Herb - Sage - Fresh": {
+        "United States": 1
+      },
+      "Infant Formula - Dairy": {
+        "United States": 11,
+        "Unknown": 12
+      },
+      "Infant Formula - Other": {
+        "Canada": 1,
+        "SWITZERLAND": 1,
+        "Unknown": 5
+      },
+      "Infant Formula - Soy": {
+        "NETHERLANDS": 2,
+        "SWITZERLAND": 1,
+        "United States": 4,
+        "Unknown": 2
+      },
+      "Juice - Apple": {
+        "Canada": 1,
+        "Unknown": 1
+      },
+      "Juice - Blend": {
+        "Canada": 9,
+        "EGYPT": 1,
+        "SOUTH AFRICA": 2,
+        "United States": 7,
+        "Unknown": 6
+      },
+      "Juice - Grapefruit": {
+        "United States": 1
+      },
+      "Juice - Mixed": {
+        "Canada": 3,
+        "SOUTH AFRICA": 1
+      },
+      "Juice - Other": {
+        "Canada": 4,
+        "THAILAND": 2,
+        "United States": 1,
+        "Unknown": 1
+      },
+      "Juice/Nectar - Other": {
+        "ITALY": 1,
+        "SOUTH AFRICA": 1,
+        "United States": 1
+      },
+      "Kale": {
+        "Canada": 1,
+        "MEXICO": 1,
+        "United States": 4
+      },
+      "Lettuce": {
+        "United States": 3
+      },
+      "Lettuce - Leaf - Organic": {
+        "United States": 1
+      },
+      "Lettuce - Organic": {
+        "United States": 2
+      },
+      "Meat Alternative": {
+        "Canada": 1,
+        "United States": 4,
+        "Unknown": 5
+      },
+      "Mint": {
+        "Colombia": 1,
+        "Israel": 1,
+        "Mexico": 1,
+        "Unknown": 1
+      },
+      "Misc Vegetables": {
+        "MEXICO": 1,
+        "United States": 1
+      },
+      "Mixed Vegetables": {
+        "Canada": 1,
+        "United States": 9
+      },
+      "Nectar - Apricot": {
+        "ITALY": 1
+      },
+      "Nectar - Guava": {
+        "EGYPT": 1
+      },
+      "Oregano": {
+        "Canada": 1,
+        "Colombia": 1,
+        "Columbia": 1,
+        "Greece": 1,
+        "Mexico": 1,
+        "Unknown": 1
+      },
+      "Parsley": {
+        "Canada": 1,
+        "Mexico": 1,
+        "United States": 1
+      },
+      "Pizza Products": {
+        "Canada": 3,
+        "United States": 5,
+        "Unknown": 12
+      },
+      "Potato - Fingerling": {
+        "United States": 2
+      },
+      "Potato - New": {
+        "Canada": 1
+      },
+      "Potato - Organic": {
+        "Canada": 2
+      },
+      "Potato - Other": {
+        "Canada": 1
+      },
+      "Potato - Russet": {
+        "Canada": 1
+      },
+      "Potato - White": {
+        "Canada": 2
+      },
+      "Potato - Yellow": {
+        "Canada": 1
+      },
+      "Potato Products": {
+        "Canada": 1
+      },
+      "Potatoes": {
+        "Canada": 1,
+        "United States": 1,
+        "Unknown": 2
+      },
+      "Prune": {
+        "United States": 3,
+        "Unknown": 2
+      },
+      "Raisin": {
+        "CHILE": 1,
+        "TÜRKIYE": 1,
+        "United States": 1,
+        "Unknown": 2
+      },
+      "Rapini": {
+        "United States": 1
+      },
+      "Red Potatoes": {
+        "Canada": 6,
+        "United States": 2,
+        "Unknown": 1
+      },
+      "Rice Products": {
+        "Unknown": 2
+      },
+      "Rosemary": {
+        "Canada": 1,
+        "Colombia": 1,
+        "Israel": 1
+      },
+      "Russet Potatoes": {
+        "Canada": 2,
+        "United States": 2,
+        "Unknown": 1
+      },
+      "Sage": {
+        "Colombia": 1,
+        "Israel": 1,
+        "Mexico": 1,
+        "Unknown": 1
+      },
+      "Salsa": {
+        "MEXICO": 3,
+        "United States": 4,
+        "Unknown": 2
+      },
+      "Soup": {
+        "Canada": 1,
+        "United States": 2,
+        "Unknown": 12
+      },
+      "Spinach": {
+        "United States": 2
+      },
+      "Thyme": {
+        "Canada": 1,
+        "Mexico": 2,
+        "United States": 1,
+        "Unknown": 1
+      },
+      "Tofu": {
+        "Canada": 2,
+        "United States": 1,
+        "Unknown": 7
+      },
+      "Wheat Products": {
+        "Canada": 2,
+        "United States": 4,
+        "Unknown": 3
+      },
+      "White Potatoes": {
+        "Canada": 4,
+        "United States": 1
+      },
+      "Yellow Potatoes": {
+        "Canada": 6,
+        "United States": 3
+      },
+      "Yogurt": {
+        "Canada": 1,
+        "Unknown": 9
+      },
+      "Yogurt - Frozen": {
+        "Canada": 3,
+        "GREECE": 1,
+        "United States": 1,
+        "Unknown": 5
+      },
+      "juice - pineapple": {
+        "Canada": 1
+      }
+    },
+    "products": {
+      "Arugula": 9,
+      "Basil": 6,
+      "Bay Leaves": 1,
+      "Beverage - Fruit": 1,
+      "Beverage - Other": 3,
+      "Beverage - Yogurt": 10,
+      "Camembert": 3,
+      "Cheddar": 1,
+      "Cheese": 13,
+      "Chive": 3,
+      "Cilantro": 2,
+      "Couscous": 10,
+      "Cranberry - dried": 5,
+      "Dandelion": 1,
+      "Date": 5,
+      "Dessert - Frozen (Dairy)": 9,
+      "Dessert - Frozen (Non-Dairy)": 1,
+      "Dill": 3,
+      "Dried Fruit": 20,
+      "Dried Vegetables": 17,
+      "Endive": 2,
+      "Endive - Broadleaf": 2,
+      "Feta": 2,
+      "Fig": 5,
+      "Fingerling Potatoes": 4,
+      "Flour - Rice": 9,
+      "Flour - Wheat": 15,
+      "Gouda": 1,
+      "Grain - Rice": 14,
+      "Grain - Wheat": 1,
+      "Herb - Bay Leaves - Fresh": 2,
+      "Herb - Chive - Fresh": 2,
+      "Herb - Cilantro - Fresh": 1,
+      "Herb - Dill - Fresh": 1,
+      "Herb - Oregano - Fresh": 4,
+      "Herb - Parsley - Fresh": 1,
+      "Herb - Rosemary - Fresh": 2,
+      "Herb - Sage - Fresh": 1,
+      "Infant Formula - Dairy": 23,
+      "Infant Formula - Other": 7,
+      "Infant Formula - Soy": 9,
+      "Juice - Apple": 2,
+      "Juice - Blend": 25,
+      "Juice - Grapefruit": 1,
+      "Juice - Mixed": 4,
+      "Juice - Other": 8,
+      "Juice/Nectar - Other": 3,
+      "Kale": 6,
+      "Lettuce": 3,
+      "Lettuce - Leaf - Organic": 1,
+      "Lettuce - Organic": 2,
+      "Meat Alternative": 10,
+      "Mint": 4,
+      "Misc Vegetables": 2,
+      "Mixed Vegetables": 10,
+      "Nectar - Apricot": 1,
+      "Nectar - Guava": 1,
+      "Oregano": 6,
+      "Parsley": 3,
+      "Pizza Products": 20,
+      "Potato - Fingerling": 2,
+      "Potato - New": 1,
+      "Potato - Organic": 2,
+      "Potato - Other": 1,
+      "Potato - Russet": 1,
+      "Potato - White": 2,
+      "Potato - Yellow": 1,
+      "Potato Products": 1,
+      "Potatoes": 4,
+      "Prune": 5,
+      "Raisin": 5,
+      "Rapini": 1,
+      "Red Potatoes": 9,
+      "Rice Products": 2,
+      "Rosemary": 3,
+      "Russet Potatoes": 5,
+      "Sage": 4,
+      "Salsa": 9,
+      "Soup": 15,
+      "Spinach": 2,
+      "Thyme": 5,
+      "Tofu": 10,
+      "Wheat Products": 9,
+      "White Potatoes": 5,
+      "Yellow Potatoes": 9,
+      "Yogurt": 10,
+      "Yogurt - Frozen": 10,
+      "juice - pineapple": 1
+    },
+    "regions": {
+      "ATLANTIC": 29,
+      "ONTARIO": 187,
+      "QUEBEC": 107,
+      "WEST": 154
+    },
+    "repeated_component_samples": {},
+    "rows": 477,
+    "rows_per_sample": {
+      "1": 477
+    },
+    "samples": 477,
+    "shapes": {
+      "number": 477
+    },
+    "shapes_by_component": {
+      "Perchlorate": {
+        "number": 477
+      }
+    },
+    "tests": {
+      "PERCHLORATE": 477
+    },
+    "tokens": {},
+    "units": {
+      "ng/g": 477
+    },
+    "units_by_component": {
+      "Perchlorate": {
+        "ng/g": 477
+      }
+    }
+  },
+  "columns": {
+    "columns": [
+      {
+        "distinct_text": 0,
+        "name": "Sample No. – No. d’échantillon",
+        "sample_column": true,
+        "shapes": {
+          "token": 477
+        },
+        "text_rows": {},
+        "text_samples": {},
+        "value_like": false
+      },
+      {
+        "distinct_text": 4,
+        "name": "Region - Région",
+        "sample_column": false,
+        "shapes": {
+          "token": 477
+        },
+        "text_rows": {
+          "ATLANTIC": 29,
+          "ONTARIO": 187,
+          "QUEBEC": 107,
+          "WEST": 154
+        },
+        "text_samples": {
+          "ATLANTIC": 29,
+          "ONTARIO": 187,
+          "QUEBEC": 107,
+          "WEST": 154
+        },
+        "value_like": false
+      },
+      {
+        "distinct_text": 3,
+        "name": "Function",
+        "sample_column": false,
+        "shapes": {
+          "token": 477
+        },
+        "text_rows": {
+          "Domestic": 104,
+          "Import": 214,
+          "Unknown": 159
+        },
+        "text_samples": {
+          "Domestic": 104,
+          "Import": 214,
+          "Unknown": 159
+        },
+        "value_like": false
+      },
+      {
+        "distinct_text": 3,
+        "name": "Fonction",
+        "sample_column": false,
+        "shapes": {
+          "token": 477
+        },
+        "text_rows": {
+          "Domestique": 104,
+          "Importé": 214,
+          "Inconnu": 159
+        },
+        "text_samples": {
+          "Domestique": 104,
+          "Importé": 214,
+          "Inconnu": 159
+        },
+        "value_like": false
+      },
+      {
+        "distinct_text": 36,
+        "name": "Origin",
+        "sample_column": false,
+        "shapes": {
+          "token": 477
+        },
+        "text_rows": {
+          "CHILE": 1,
+          "COLOMBIA": 4,
+          "Canada": 104,
+          "Colombia": 4,
+          "Columbia": 2,
+          "DOMINICAN REPUBLIC": 2,
+          "Denmark": 1,
+          "Dominican Republic": 1,
+          "EGYPT": 2,
+          "FRANCE": 1,
+          "France": 3,
+          "GREECE": 1,
+          "Greece": 1,
+          "INDIA": 1,
+          "IRAN, ISLAMIC REPUBLIC OF": 4,
+          "IRELAND": 1,
+          "ISRAEL": 1,
+          "ITALY": 3,
+          "Ireland": 1,
+          "Israel": 3,
+          "MEXICO": 8,
+          "Mexico": 7,
+          "NETHERLANDS": 3,
+          "NORWAY": 1,
+          "Netherlands": 1,
+          "Norway": 1,
+          "PAKISTAN": 2,
+          "POLAND": 1,
+          "SOUTH AFRICA": 4,
+          "SWITZERLAND": 3,
+          "THAILAND": 5,
+          "TÜRKIYE": 6,
+          "UNITED KINGDOM": 2,
+          "United Kingdom": 1,
+          "United States": 132,
+          "Unknown": 159
+        },
+        "text_samples": {
+          "CHILE": 1,
+          "COLOMBIA": 4,
+          "Canada": 104,
+          "Colombia": 4,
+          "Columbia": 2,
+          "DOMINICAN REPUBLIC": 2,
+          "Denmark": 1,
+          "Dominican Republic": 1,
+          "EGYPT": 2,
+          "FRANCE": 1,
+          "France": 3,
+          "GREECE": 1,
+          "Greece": 1,
+          "INDIA": 1,
+          "IRAN, ISLAMIC REPUBLIC OF": 4,
+          "IRELAND": 1,
+          "ISRAEL": 1,
+          "ITALY": 3,
+          "Ireland": 1,
+          "Israel": 3,
+          "MEXICO": 8,
+          "Mexico": 7,
+          "NETHERLANDS": 3,
+          "NORWAY": 1,
+          "Netherlands": 1,
+          "Norway": 1,
+          "PAKISTAN": 2,
+          "POLAND": 1,
+          "SOUTH AFRICA": 4,
+          "SWITZERLAND": 3,
+          "THAILAND": 5,
+          "TÜRKIYE": 6,
+          "UNITED KINGDOM": 2,
+          "United Kingdom": 1,
+          "United States": 132,
+          "Unknown": 159
+        },
+        "value_like": false
+      },
+      {
+        "distinct_text": 35,
+        "name": "Origine",
+        "sample_column": false,
+        "shapes": {
+          "token": 477
+        },
+        "text_rows": {
+          "AFRIQUE DU SUD": 4,
+          "CHILI": 1,
+          "COLOMBIE": 4,
+          "Canada": 104,
+          "Colombie": 6,
+          "DOMINICAINE, RÉPUBLIQUE": 2,
+          "Denmark": 1,
+          "FRANCE": 1,
+          "France": 3,
+          "GRÈCE": 1,
+          "Grèce": 1,
+          "INDE": 1,
+          "IRAN, RÉPUBLIQUE ISLAMIQUE D’": 4,
+          "IRLANDE": 1,
+          "ISRAËL": 1,
+          "ITALIE": 3,
+          "Inconnu": 159,
+          "Irlande": 1,
+          "Israël": 3,
+          "MEXIQUE": 8,
+          "Mexique": 7,
+          "NORVÈGE": 1,
+          "Norvège": 1,
+          "PAKISTAN": 2,
+          "PAYS-BAS": 3,
+          "POLOGNE": 1,
+          "Pays-Bas": 1,
+          "ROYAUME-UNI": 2,
+          "Royaume-Uni": 1,
+          "République dominicaine": 1,
+          "SUISSE": 3,
+          "THAÏLANDE": 5,
+          "TÜRKIYE": 6,
+          "ÉGYPTE": 2,
+          "États-Unis": 132
+        },
+        "text_samples": {
+          "AFRIQUE DU SUD": 4,
+          "CHILI": 1,
+          "COLOMBIE": 4,
+          "Canada": 104,
+          "Colombie": 6,
+          "DOMINICAINE, RÉPUBLIQUE": 2,
+          "Denmark": 1,
+          "FRANCE": 1,
+          "France": 3,
+          "GRÈCE": 1,
+          "Grèce": 1,
+          "INDE": 1,
+          "IRAN, RÉPUBLIQUE ISLAMIQUE D’": 4,
+          "IRLANDE": 1,
+          "ISRAËL": 1,
+          "ITALIE": 3,
+          "Inconnu": 159,
+          "Irlande": 1,
+          "Israël": 3,
+          "MEXIQUE": 8,
+          "Mexique": 7,
+          "NORVÈGE": 1,
+          "Norvège": 1,
+          "PAKISTAN": 2,
+          "PAYS-BAS": 3,
+          "POLOGNE": 1,
+          "Pays-Bas": 1,
+          "ROYAUME-UNI": 2,
+          "Royaume-Uni": 1,
+          "République dominicaine": 1,
+          "SUISSE": 3,
+          "THAÏLANDE": 5,
+          "TÜRKIYE": 6,
+          "ÉGYPTE": 2,
+          "États-Unis": 132
+        },
+        "value_like": false
+      },
+      {
+        "distinct_text": 88,
+        "name": "Product",
+        "sample_column": false,
+        "shapes": {
+          "token": 477
+        },
+        "text_rows": {
+          "Arugula": 9,
+          "Basil": 6,
+          "Bay Leaves": 1,
+          "Beverage - Fruit": 1,
+          "Beverage - Other": 3,
+          "Beverage - Yogurt": 10,
+          "Camembert": 3,
+          "Cheddar": 1,
+          "Cheese": 13,
+          "Chive": 3,
+          "Cilantro": 2,
+          "Couscous": 10,
+          "Cranberry - dried": 5,
+          "Dandelion": 1,
+          "Date": 5,
+          "Dessert - Frozen (Dairy)": 9,
+          "Dessert - Frozen (Non-Dairy)": 1,
+          "Dill": 3,
+          "Dried Fruit": 20,
+          "Dried Vegetables": 17,
+          "Endive": 2,
+          "Endive - Broadleaf": 2,
+          "Feta": 2,
+          "Fig": 5,
+          "Fingerling Potatoes": 4,
+          "Flour - Rice": 9,
+          "Flour - Wheat": 15,
+          "Gouda": 1,
+          "Grain - Rice": 14,
+          "Grain - Wheat": 1,
+          "Herb - Bay Leaves - Fresh": 2,
+          "Herb - Chive - Fresh": 2,
+          "Herb - Cilantro - Fresh": 1,
+          "Herb - Dill - Fresh": 1,
+          "Herb - Oregano - Fresh": 4,
+          "Herb - Parsley - Fresh": 1,
+          "Herb - Rosemary - Fresh": 2,
+          "Herb - Sage - Fresh": 1,
+          "Infant Formula - Dairy": 23,
+          "Infant Formula - Other": 7,
+          "Infant Formula - Soy": 9,
+          "Juice - Apple": 2,
+          "Juice - Blend": 25,
+          "Juice - Grapefruit": 1,
+          "Juice - Mixed": 4,
+          "Juice - Other": 8,
+          "Juice/Nectar - Other": 3,
+          "Kale": 6,
+          "Lettuce": 3,
+          "Lettuce - Leaf - Organic": 1,
+          "Lettuce - Organic": 2,
+          "Meat Alternative": 10,
+          "Mint": 4,
+          "Misc Vegetables": 2,
+          "Mixed Vegetables": 10,
+          "Nectar - Apricot": 1,
+          "Nectar - Guava": 1,
+          "Oregano": 6,
+          "Parsley": 3,
+          "Pizza Products": 20,
+          "Potato - Fingerling": 2,
+          "Potato - New": 1,
+          "Potato - Organic": 2,
+          "Potato - Other": 1,
+          "Potato - Russet": 1,
+          "Potato - White": 2,
+          "Potato - Yellow": 1,
+          "Potato Products": 1,
+          "Potatoes": 4,
+          "Prune": 5,
+          "Raisin": 5,
+          "Rapini": 1,
+          "Red Potatoes": 9,
+          "Rice Products": 2,
+          "Rosemary": 3,
+          "Russet Potatoes": 5,
+          "Sage": 4,
+          "Salsa": 9,
+          "Soup": 15,
+          "Spinach": 2,
+          "Thyme": 5,
+          "Tofu": 10,
+          "Wheat Products": 9,
+          "White Potatoes": 5,
+          "Yellow Potatoes": 9,
+          "Yogurt": 10,
+          "Yogurt - Frozen": 10,
+          "juice - pineapple": 1
+        },
+        "text_samples": {
+          "Arugula": 9,
+          "Basil": 6,
+          "Bay Leaves": 1,
+          "Beverage - Fruit": 1,
+          "Beverage - Other": 3,
+          "Beverage - Yogurt": 10,
+          "Camembert": 3,
+          "Cheddar": 1,
+          "Cheese": 13,
+          "Chive": 3,
+          "Cilantro": 2,
+          "Couscous": 10,
+          "Cranberry - dried": 5,
+          "Dandelion": 1,
+          "Date": 5,
+          "Dessert - Frozen (Dairy)": 9,
+          "Dessert - Frozen (Non-Dairy)": 1,
+          "Dill": 3,
+          "Dried Fruit": 20,
+          "Dried Vegetables": 17,
+          "Endive": 2,
+          "Endive - Broadleaf": 2,
+          "Feta": 2,
+          "Fig": 5,
+          "Fingerling Potatoes": 4,
+          "Flour - Rice": 9,
+          "Flour - Wheat": 15,
+          "Gouda": 1,
+          "Grain - Rice": 14,
+          "Grain - Wheat": 1,
+          "Herb - Bay Leaves - Fresh": 2,
+          "Herb - Chive - Fresh": 2,
+          "Herb - Cilantro - Fresh": 1,
+          "Herb - Dill - Fresh": 1,
+          "Herb - Oregano - Fresh": 4,
+          "Herb - Parsley - Fresh": 1,
+          "Herb - Rosemary - Fresh": 2,
+          "Herb - Sage - Fresh": 1,
+          "Infant Formula - Dairy": 23,
+          "Infant Formula - Other": 7,
+          "Infant Formula - Soy": 9,
+          "Juice - Apple": 2,
+          "Juice - Blend": 25,
+          "Juice - Grapefruit": 1,
+          "Juice - Mixed": 4,
+          "Juice - Other": 8,
+          "Juice/Nectar - Other": 3,
+          "Kale": 6,
+          "Lettuce": 3,
+          "Lettuce - Leaf - Organic": 1,
+          "Lettuce - Organic": 2,
+          "Meat Alternative": 10,
+          "Mint": 4,
+          "Misc Vegetables": 2,
+          "Mixed Vegetables": 10,
+          "Nectar - Apricot": 1,
+          "Nectar - Guava": 1,
+          "Oregano": 6,
+          "Parsley": 3,
+          "Pizza Products": 20,
+          "Potato - Fingerling": 2,
+          "Potato - New": 1,
+          "Potato - Organic": 2,
+          "Potato - Other": 1,
+          "Potato - Russet": 1,
+          "Potato - White": 2,
+          "Potato - Yellow": 1,
+          "Potato Products": 1,
+          "Potatoes": 4,
+          "Prune": 5,
+          "Raisin": 5,
+          "Rapini": 1,
+          "Red Potatoes": 9,
+          "Rice Products": 2,
+          "Rosemary": 3,
+          "Russet Potatoes": 5,
+          "Sage": 4,
+          "Salsa": 9,
+          "Soup": 15,
+          "Spinach": 2,
+          "Thyme": 5,
+          "Tofu": 10,
+          "Wheat Products": 9,
+          "White Potatoes": 5,
+          "Yellow Potatoes": 9,
+          "Yogurt": 10,
+          "Yogurt - Frozen": 10,
+          "juice - pineapple": 1
+        },
+        "value_like": false
+      },
+      {
+        "distinct_text": 88,
+        "name": "Produit",
+        "sample_column": false,
+        "shapes": {
+          "token": 477
+        },
+        "text_rows": {
+          "Aneth": 3,
+          "Basilic": 6,
+          "Blé": 1,
+          "Boisson - Fruits": 1,
+          "Boisson - Yogourt": 10,
+          "Boisson-Autre": 3,
+          "Camembert": 3,
+          "Canneberge desséchée": 5,
+          "Cheddat": 1,
+          "Chou frisé": 6,
+          "Ciboulette": 3,
+          "Coriandre": 2,
+          "Couscous": 10,
+          "Datte": 5,
+          "Desserts - Congelés (Produits Laitiers)": 9,
+          "Desserts - Congelés (Produits Non-Laitiers)": 1,
+          "Endive": 4,
+          "Farine - Riz": 9,
+          "Farine de blé": 15,
+          "Feta": 2,
+          "Feuilles de laurier": 1,
+          "Figue": 5,
+          "Fromage": 13,
+          "Fruits secs": 20,
+          "Gouda": 1,
+          "Grain - Riz": 14,
+          "Herbe - Aneth - Fraiche": 1,
+          "Herbe - Ciboulette - Fraiche": 2,
+          "Herbe - Coriandre - Fraiche": 1,
+          "Herbe - Feuilles de laurier - Frais": 2,
+          "Herbe - Origan - Frais": 4,
+          "Herbe - Persil - Frais": 1,
+          "Herbe - Rosemary - Frais Herbe - Romarin - Frais": 2,
+          "Herbe - Sauge - Fraiche Herbe - Sauge - Fraiche": 1,
+          "Jus - autre": 8,
+          "Jus - mélangé": 4,
+          "Jus d'ananas": 1,
+          "Jus de pamplemousse": 1,
+          "Jus de pomme": 2,
+          "Jus/Nectar - autre": 3,
+          "Laitue": 3,
+          "Laitue-Biologique": 2,
+          "Laitue-Frisée-Biologique": 1,
+          "Légumes Divers": 2,
+          "Légumes mixtes": 7,
+          "Légumes mélangés": 3,
+          "Légumes secs": 17,
+          "Menthe": 4,
+          "Mélange de jus": 25,
+          "Nectar d'abricot": 1,
+          "Nectar de goyave": 1,
+          "Origan": 6,
+          "Patates": 4,
+          "Patates Fingerling": 4,
+          "Patates Russet": 5,
+          "Patates blanches": 5,
+          "Patates jaunes": 9,
+          "Patates rouges": 9,
+          "Persil": 3,
+          "Pissenlit": 1,
+          "Pomme de terre - Autre": 1,
+          "Pomme de terre - Blanche": 2,
+          "Pomme de terre - Fingerling": 2,
+          "Pomme de terre - Jaune": 1,
+          "Pomme de terre - Nouveau": 1,
+          "Pomme de terre - Russet": 1,
+          "Pomme de terre-Biologique": 2,
+          "Produits de blé": 9,
+          "Produits de pizza": 20,
+          "Produits de pommes de terre": 1,
+          "Produits de riz": 2,
+          "Pruneau": 5,
+          "Préparation pour nourrissons - Autres": 7,
+          "Préparation pour nourrissons - Laitier": 23,
+          "Préparation pour nourrissons - Soja": 9,
+          "Raisin sec": 5,
+          "Rapini": 1,
+          "Romarin": 3,
+          "Roquette": 9,
+          "Salsa": 9,
+          "Sauge": 4,
+          "Soupe": 15,
+          "Thym": 5,
+          "Tofu": 10,
+          "Yogourt": 10,
+          "Yogourt - congelé": 10,
+          "alternative à la viande": 10,
+          "Épinard": 2
+        },
+        "text_samples": {
+          "Aneth": 3,
+          "Basilic": 6,
+          "Blé": 1,
+          "Boisson - Fruits": 1,
+          "Boisson - Yogourt": 10,
+          "Boisson-Autre": 3,
+          "Camembert": 3,
+          "Canneberge desséchée": 5,
+          "Cheddat": 1,
+          "Chou frisé": 6,
+          "Ciboulette": 3,
+          "Coriandre": 2,
+          "Couscous": 10,
+          "Datte": 5,
+          "Desserts - Congelés (Produits Laitiers)": 9,
+          "Desserts - Congelés (Produits Non-Laitiers)": 1,
+          "Endive": 4,
+          "Farine - Riz": 9,
+          "Farine de blé": 15,
+          "Feta": 2,
+          "Feuilles de laurier": 1,
+          "Figue": 5,
+          "Fromage": 13,
+          "Fruits secs": 20,
+          "Gouda": 1,
+          "Grain - Riz": 14,
+          "Herbe - Aneth - Fraiche": 1,
+          "Herbe - Ciboulette - Fraiche": 2,
+          "Herbe - Coriandre - Fraiche": 1,
+          "Herbe - Feuilles de laurier - Frais": 2,
+          "Herbe - Origan - Frais": 4,
+          "Herbe - Persil - Frais": 1,
+          "Herbe - Rosemary - Frais Herbe - Romarin - Frais": 2,
+          "Herbe - Sauge - Fraiche Herbe - Sauge - Fraiche": 1,
+          "Jus - autre": 8,
+          "Jus - mélangé": 4,
+          "Jus d'ananas": 1,
+          "Jus de pamplemousse": 1,
+          "Jus de pomme": 2,
+          "Jus/Nectar - autre": 3,
+          "Laitue": 3,
+          "Laitue-Biologique": 2,
+          "Laitue-Frisée-Biologique": 1,
+          "Légumes Divers": 2,
+          "Légumes mixtes": 7,
+          "Légumes mélangés": 3,
+          "Légumes secs": 17,
+          "Menthe": 4,
+          "Mélange de jus": 25,
+          "Nectar d'abricot": 1,
+          "Nectar de goyave": 1,
+          "Origan": 6,
+          "Patates": 4,
+          "Patates Fingerling": 4,
+          "Patates Russet": 5,
+          "Patates blanches": 5,
+          "Patates jaunes": 9,
+          "Patates rouges": 9,
+          "Persil": 3,
+          "Pissenlit": 1,
+          "Pomme de terre - Autre": 1,
+          "Pomme de terre - Blanche": 2,
+          "Pomme de terre - Fingerling": 2,
+          "Pomme de terre - Jaune": 1,
+          "Pomme de terre - Nouveau": 1,
+          "Pomme de terre - Russet": 1,
+          "Pomme de terre-Biologique": 2,
+          "Produits de blé": 9,
+          "Produits de pizza": 20,
+          "Produits de pommes de terre": 1,
+          "Produits de riz": 2,
+          "Pruneau": 5,
+          "Préparation pour nourrissons - Autres": 7,
+          "Préparation pour nourrissons - Laitier": 23,
+          "Préparation pour nourrissons - Soja": 9,
+          "Raisin sec": 5,
+          "Rapini": 1,
+          "Romarin": 3,
+          "Roquette": 9,
+          "Salsa": 9,
+          "Sauge": 4,
+          "Soupe": 15,
+          "Thym": 5,
+          "Tofu": 10,
+          "Yogourt": 10,
+          "Yogourt - congelé": 10,
+          "alternative à la viande": 10,
+          "Épinard": 2
+        },
+        "value_like": false
+      },
+      {
+        "distinct_text": 135,
+        "name": "Date Sampled – Date d’échantillonage",
+        "sample_column": false,
+        "shapes": {
+          "token": 477
+        },
+        "text_rows": {
+          "01-Aug-13": 1,
+          "01-Feb-14": 2,
+          "01-Mar-14": 3,
+          "01-Nov-13": 1,
+          "01-Oct-13": 3,
+          "02-Aug-13": 2,
+          "02-Dec-13": 4,
+          "02-Jan-14": 4,
+          "03-Dec-13": 6,
+          "03-Jan-14": 3,
+          "03-Jul-13": 8,
+          "03-Mar-14": 5,
+          "03-Oct-13": 4,
+          "03-Sep-13": 1,
+          "04-Feb-14": 3,
+          "04-Jul-13": 4,
+          "04-Mar-14": 2,
+          "04-Nov-13": 2,
+          "04-Oct-13": 2,
+          "05-Dec-13": 1,
+          "05-Feb-14": 1,
+          "05-Sep-13": 2,
+          "06-Aug-13": 7,
+          "06-Dec-13": 1,
+          "06-Jan-14": 3,
+          "06-Mar-14": 3,
+          "06-Nov-13": 6,
+          "07-Aug-13": 1,
+          "07-Feb-14": 4,
+          "07-Mar-14": 1,
+          "07-Oct-13": 3,
+          "08-Aug-13": 1,
+          "08-Jul-13": 1,
+          "08-Nov-13": 1,
+          "08-Oct-13": 1,
+          "09-Jan-14": 4,
+          "09-Oct-13": 2,
+          "09-Sep-13": 6,
+          "10-Dec-13": 3,
+          "10-Jul-13": 3,
+          "10-Oct-13": 1,
+          "10-Sep-13": 3,
+          "11-Feb-14": 3,
+          "11-Jan-14": 3,
+          "11-Jul-13": 1,
+          "11-Nov-13": 2,
+          "12-Aug-13": 1,
+          "12-Dec-13": 2,
+          "12-Feb-14": 2,
+          "12-Jul-13": 3,
+          "12-Mar-14": 1,
+          "12-Sep-13": 1,
+          "13-Dec-13": 1,
+          "13-Jun-13": 1,
+          "13-Mar-14": 5,
+          "13-Sep-13": 3,
+          "14-Aug-13": 1,
+          "14-Jan-14": 5,
+          "14-Mar-14": 1,
+          "14-Nov-13": 2,
+          "15-Feb-14": 5,
+          "15-Jan-14": 1,
+          "15-Jul-13": 8,
+          "15-Mar-14": 5,
+          "15-Nov-13": 2,
+          "15-Oct-13": 1,
+          "16-Jul-13": 5,
+          "16-Oct-13": 10,
+          "16-Sep-13": 3,
+          "17-Jan-14": 7,
+          "17-Jul-13": 3,
+          "17-Jun-13": 17,
+          "17-Sep-13": 2,
+          "18-Dec-13": 3,
+          "18-Jun-13": 1,
+          "18-Nov-13": 3,
+          "18-Oct-13": 1,
+          "18-Sep-13": 1,
+          "19-Jan-14": 3,
+          "19-Jul-13": 1,
+          "19-Jun-13": 1,
+          "19-Nov-13": 8,
+          "19-Sep-13": 3,
+          "20-Aug-13": 1,
+          "20-Feb-14": 2,
+          "20-Mar-14": 4,
+          "20-Nov-13": 3,
+          "20-Sep-13": 2,
+          "21-Feb-14": 2,
+          "21-Oct-13": 1,
+          "22-Feb-14": 3,
+          "22-Jul-13": 6,
+          "22-Nov-13": 3,
+          "22-Oct-13": 2,
+          "23-Feb-14": 2,
+          "23-Jan-14": 8,
+          "23-Jul-13": 5,
+          "23-Mar-14": 4,
+          "24-Feb-14": 4,
+          "24-Jun-13": 10,
+          "24-Mar-14": 4,
+          "24-Oct-13": 2,
+          "24-Sep-13": 8,
+          "25-Jun-13": 12,
+          "25-Mar-14": 11,
+          "25-Nov-13": 6,
+          "25-Sep-13": 4,
+          "26-Feb-14": 8,
+          "26-Nov-13": 3,
+          "27-Feb-14": 7,
+          "27-Mar-14": 4,
+          "27-Nov-13": 6,
+          "27-Sep-13": 4,
+          "28-Jan-14": 14,
+          "28-Nov-13": 4,
+          "28-Sep-13": 3,
+          "29-Mar-14": 11,
+          "30-Jan-14": 7,
+          "30-Oct-13": 24,
+          "31-Mar-14": 7
+        },
+        "text_samples": {
+          "01-Aug-13": 1,
+          "01-Feb-14": 2,
+          "01-Mar-14": 3,
+          "01-Nov-13": 1,
+          "01-Oct-13": 3,
+          "02-Aug-13": 2,
+          "02-Dec-13": 4,
+          "02-Jan-14": 4,
+          "03-Dec-13": 6,
+          "03-Jan-14": 3,
+          "03-Jul-13": 8,
+          "03-Mar-14": 5,
+          "03-Oct-13": 4,
+          "03-Sep-13": 1,
+          "04-Feb-14": 3,
+          "04-Jul-13": 4,
+          "04-Mar-14": 2,
+          "04-Nov-13": 2,
+          "04-Oct-13": 2,
+          "05-Dec-13": 1,
+          "05-Feb-14": 1,
+          "05-Sep-13": 2,
+          "06-Aug-13": 7,
+          "06-Dec-13": 1,
+          "06-Jan-14": 3,
+          "06-Mar-14": 3,
+          "06-Nov-13": 6,
+          "07-Aug-13": 1,
+          "07-Feb-14": 4,
+          "07-Mar-14": 1,
+          "07-Oct-13": 3,
+          "08-Aug-13": 1,
+          "08-Jul-13": 1,
+          "08-Nov-13": 1,
+          "08-Oct-13": 1,
+          "09-Jan-14": 4,
+          "09-Oct-13": 2,
+          "09-Sep-13": 6,
+          "10-Dec-13": 3,
+          "10-Jul-13": 3,
+          "10-Oct-13": 1,
+          "10-Sep-13": 3,
+          "11-Feb-14": 3,
+          "11-Jan-14": 3,
+          "11-Jul-13": 1,
+          "11-Nov-13": 2,
+          "12-Aug-13": 1,
+          "12-Dec-13": 2,
+          "12-Feb-14": 2,
+          "12-Jul-13": 3,
+          "12-Mar-14": 1,
+          "12-Sep-13": 1,
+          "13-Dec-13": 1,
+          "13-Jun-13": 1,
+          "13-Mar-14": 5,
+          "13-Sep-13": 3,
+          "14-Aug-13": 1,
+          "14-Jan-14": 5,
+          "14-Mar-14": 1,
+          "14-Nov-13": 2,
+          "15-Feb-14": 5,
+          "15-Jan-14": 1,
+          "15-Jul-13": 8,
+          "15-Mar-14": 5,
+          "15-Nov-13": 2,
+          "15-Oct-13": 1,
+          "16-Jul-13": 5,
+          "16-Oct-13": 10,
+          "16-Sep-13": 3,
+          "17-Jan-14": 7,
+          "17-Jul-13": 3,
+          "17-Jun-13": 17,
+          "17-Sep-13": 2,
+          "18-Dec-13": 3,
+          "18-Jun-13": 1,
+          "18-Nov-13": 3,
+          "18-Oct-13": 1,
+          "18-Sep-13": 1,
+          "19-Jan-14": 3,
+          "19-Jul-13": 1,
+          "19-Jun-13": 1,
+          "19-Nov-13": 8,
+          "19-Sep-13": 3,
+          "20-Aug-13": 1,
+          "20-Feb-14": 2,
+          "20-Mar-14": 4,
+          "20-Nov-13": 3,
+          "20-Sep-13": 2,
+          "21-Feb-14": 2,
+          "21-Oct-13": 1,
+          "22-Feb-14": 3,
+          "22-Jul-13": 6,
+          "22-Nov-13": 3,
+          "22-Oct-13": 2,
+          "23-Feb-14": 2,
+          "23-Jan-14": 8,
+          "23-Jul-13": 5,
+          "23-Mar-14": 4,
+          "24-Feb-14": 4,
+          "24-Jun-13": 10,
+          "24-Mar-14": 4,
+          "24-Oct-13": 2,
+          "24-Sep-13": 8,
+          "25-Jun-13": 12,
+          "25-Mar-14": 11,
+          "25-Nov-13": 6,
+          "25-Sep-13": 4,
+          "26-Feb-14": 8,
+          "26-Nov-13": 3,
+          "27-Feb-14": 7,
+          "27-Mar-14": 4,
+          "27-Nov-13": 6,
+          "27-Sep-13": 4,
+          "28-Jan-14": 14,
+          "28-Nov-13": 4,
+          "28-Sep-13": 3,
+          "29-Mar-14": 11,
+          "30-Jan-14": 7,
+          "30-Oct-13": 24,
+          "31-Mar-14": 7
+        },
+        "value_like": false
+      },
+      {
+        "distinct_text": 1,
+        "name": "Type of Test",
+        "sample_column": false,
+        "shapes": {
+          "token": 477
+        },
+        "text_rows": {
+          "PERCHLORATE": 477
+        },
+        "text_samples": {
+          "PERCHLORATE": 477
+        },
+        "value_like": false
+      },
+      {
+        "distinct_text": 1,
+        "name": "Type d’analyse",
+        "sample_column": false,
+        "shapes": {
+          "token": 477
+        },
+        "text_rows": {
+          "PERCHLORATE": 477
+        },
+        "text_samples": {
+          "PERCHLORATE": 477
+        },
+        "value_like": false
+      },
+      {
+        "distinct_text": 1,
+        "name": "Component",
+        "sample_column": false,
+        "shapes": {
+          "token": 477
+        },
+        "text_rows": {
+          "Perchlorate": 477
+        },
+        "text_samples": {
+          "Perchlorate": 477
+        },
+        "value_like": false
+      },
+      {
+        "distinct_text": 1,
+        "name": "Composant",
+        "sample_column": false,
+        "shapes": {
+          "token": 477
+        },
+        "text_rows": {
+          "Perchlorate": 477
+        },
+        "text_samples": {
+          "Perchlorate": 477
+        },
+        "value_like": false
+      },
+      {
+        "distinct_text": 0,
+        "name": "Result - Résultat",
+        "sample_column": false,
+        "shapes": {
+          "number": 477
+        },
+        "text_rows": {},
+        "text_samples": {},
+        "value_like": true
+      },
+      {
+        "distinct_text": 1,
+        "name": "Unit - Unité",
+        "sample_column": false,
+        "shapes": {
+          "token": 477
+        },
+        "text_rows": {
+          "ng/g": 477
+        },
+        "text_samples": {
+          "ng/g": 477
+        },
+        "value_like": false
+      },
+      {
+        "distinct_text": 1,
+        "name": "Plan Code - Code du régime",
+        "sample_column": false,
+        "shapes": {
+          "token": 477
+        },
+        "text_rows": {
+          "2013_TS006": 477
+        },
+        "text_samples": {
+          "2013_TS006": 477
+        },
+        "value_like": false
+      }
+    ],
+    "header_width": 16,
+    "row_widths": {
+      "16": 477
+    },
+    "rows": 477,
+    "samples": 477
+  },
+  "dataset": "79e83e09-be72-4cec-b410-1e69aaa450f7",
+  "encoding": "cp1252",
+  "gate_facts": {
+    "analyte_labels": 1,
+    "bytes": 78310,
+    "census_error": null,
+    "md5": true,
+    "one_analyte": true,
+    "one_row_per_sample": true,
+    "one_unit": true,
+    "rows": 477,
+    "rows_per_sample": {
+      "1": 477
+    },
+    "samples": 477,
+    "samples_match": true,
+    "size": true,
+    "unit_labels": [
+      "ng/g"
+    ]
+  },
+  "md5": "05b587cb13f15932894200ba5879445a",
+  "md5_matches_portal": true,
+  "portal_md5": "05b587cb13f15932894200ba5879445a",
+  "portal_size": 78310,
+  "product_years": {
+    "ambiguous": 0,
+    "by_product": {
+      "Arugula": {
+        "2013-14": 9
+      },
+      "Basil": {
+        "2013-14": 6
+      },
+      "Bay Leaves": {
+        "2013-14": 1
+      },
+      "Beverage - Fruit": {
+        "2013-14": 1
+      },
+      "Beverage - Other": {
+        "2013-14": 3
+      },
+      "Beverage - Yogurt": {
+        "2013-14": 10
+      },
+      "Camembert": {
+        "2013-14": 3
+      },
+      "Cheddar": {
+        "2013-14": 1
+      },
+      "Cheese": {
+        "2013-14": 13
+      },
+      "Chive": {
+        "2013-14": 3
+      },
+      "Cilantro": {
+        "2013-14": 2
+      },
+      "Couscous": {
+        "2013-14": 10
+      },
+      "Cranberry - dried": {
+        "2013-14": 5
+      },
+      "Dandelion": {
+        "2013-14": 1
+      },
+      "Date": {
+        "2013-14": 5
+      },
+      "Dessert - Frozen (Dairy)": {
+        "2013-14": 9
+      },
+      "Dessert - Frozen (Non-Dairy)": {
+        "2013-14": 1
+      },
+      "Dill": {
+        "2013-14": 3
+      },
+      "Dried Fruit": {
+        "2013-14": 20
+      },
+      "Dried Vegetables": {
+        "2013-14": 17
+      },
+      "Endive": {
+        "2013-14": 2
+      },
+      "Endive - Broadleaf": {
+        "2013-14": 2
+      },
+      "Feta": {
+        "2013-14": 2
+      },
+      "Fig": {
+        "2013-14": 5
+      },
+      "Fingerling Potatoes": {
+        "2013-14": 4
+      },
+      "Flour - Rice": {
+        "2013-14": 9
+      },
+      "Flour - Wheat": {
+        "2013-14": 15
+      },
+      "Gouda": {
+        "2013-14": 1
+      },
+      "Grain - Rice": {
+        "2013-14": 14
+      },
+      "Grain - Wheat": {
+        "2013-14": 1
+      },
+      "Herb - Bay Leaves - Fresh": {
+        "2013-14": 2
+      },
+      "Herb - Chive - Fresh": {
+        "2013-14": 2
+      },
+      "Herb - Cilantro - Fresh": {
+        "2013-14": 1
+      },
+      "Herb - Dill - Fresh": {
+        "2013-14": 1
+      },
+      "Herb - Oregano - Fresh": {
+        "2013-14": 4
+      },
+      "Herb - Parsley - Fresh": {
+        "2013-14": 1
+      },
+      "Herb - Rosemary - Fresh": {
+        "2013-14": 2
+      },
+      "Herb - Sage - Fresh": {
+        "2013-14": 1
+      },
+      "Infant Formula - Dairy": {
+        "2013-14": 23
+      },
+      "Infant Formula - Other": {
+        "2013-14": 7
+      },
+      "Infant Formula - Soy": {
+        "2013-14": 9
+      },
+      "Juice - Apple": {
+        "2013-14": 2
+      },
+      "Juice - Blend": {
+        "2013-14": 25
+      },
+      "Juice - Grapefruit": {
+        "2013-14": 1
+      },
+      "Juice - Mixed": {
+        "2013-14": 4
+      },
+      "Juice - Other": {
+        "2013-14": 8
+      },
+      "Juice/Nectar - Other": {
+        "2013-14": 3
+      },
+      "Kale": {
+        "2013-14": 6
+      },
+      "Lettuce": {
+        "2013-14": 3
+      },
+      "Lettuce - Leaf - Organic": {
+        "2013-14": 1
+      },
+      "Lettuce - Organic": {
+        "2013-14": 2
+      },
+      "Meat Alternative": {
+        "2013-14": 10
+      },
+      "Mint": {
+        "2013-14": 4
+      },
+      "Misc Vegetables": {
+        "2013-14": 2
+      },
+      "Mixed Vegetables": {
+        "2013-14": 10
+      },
+      "Nectar - Apricot": {
+        "2013-14": 1
+      },
+      "Nectar - Guava": {
+        "2013-14": 1
+      },
+      "Oregano": {
+        "2013-14": 6
+      },
+      "Parsley": {
+        "2013-14": 3
+      },
+      "Pizza Products": {
+        "2013-14": 20
+      },
+      "Potato - Fingerling": {
+        "2013-14": 2
+      },
+      "Potato - New": {
+        "2013-14": 1
+      },
+      "Potato - Organic": {
+        "2013-14": 2
+      },
+      "Potato - Other": {
+        "2013-14": 1
+      },
+      "Potato - Russet": {
+        "2013-14": 1
+      },
+      "Potato - White": {
+        "2013-14": 2
+      },
+      "Potato - Yellow": {
+        "2013-14": 1
+      },
+      "Potato Products": {
+        "2013-14": 1
+      },
+      "Potatoes": {
+        "2013-14": 4
+      },
+      "Prune": {
+        "2013-14": 5
+      },
+      "Raisin": {
+        "2013-14": 5
+      },
+      "Rapini": {
+        "2013-14": 1
+      },
+      "Red Potatoes": {
+        "2013-14": 9
+      },
+      "Rice Products": {
+        "2013-14": 2
+      },
+      "Rosemary": {
+        "2013-14": 3
+      },
+      "Russet Potatoes": {
+        "2013-14": 5
+      },
+      "Sage": {
+        "2013-14": 4
+      },
+      "Salsa": {
+        "2013-14": 9
+      },
+      "Soup": {
+        "2013-14": 15
+      },
+      "Spinach": {
+        "2013-14": 2
+      },
+      "Thyme": {
+        "2013-14": 5
+      },
+      "Tofu": {
+        "2013-14": 10
+      },
+      "Wheat Products": {
+        "2013-14": 9
+      },
+      "White Potatoes": {
+        "2013-14": 5
+      },
+      "Yellow Potatoes": {
+        "2013-14": 9
+      },
+      "Yogurt": {
+        "2013-14": 10
+      },
+      "Yogurt - Frozen": {
+        "2013-14": 10
+      },
+      "juice - pineapple": {
+        "2013-14": 1
+      }
+    },
+    "by_year": {
+      "2013-14": 477
+    },
+    "date_column": 8,
+    "date_shapes": {
+      "9-Aaa-99": 2,
+      "99-Aaa-99": 475
+    },
+    "first": "2013-06-13",
+    "last": "2014-03-31",
+    "product_column": 6,
+    "sample_column": 0,
+    "unparsed": 0
+  },
+  "resource": "7511b1a3-48c7-4386-ae6e-f2c4e87c6e84",
+  "sha256": "bb0d32d1ce86e9dfb815fc041f67491ae6efbed2a3bac789f75a5cb9d1f6c127",
+  "size_matches_portal": true,
+  "source": "https://open.canada.ca/data/dataset/79e83e09-be72-4cec-b410-1e69aaa450f7/resource/7511b1a3-48c7-4386-ae6e-f2c4e87c6e84/download/2013-14_perchlorate_in_selected_foods_perchlorate-dans-certains-aliments.csv",
+  "study": "perchlorate-p13-census",
+  "version": "0.1.0"
+}

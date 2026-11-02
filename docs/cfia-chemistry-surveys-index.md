@@ -21,10 +21,12 @@ format-only fix is published as a separate amendment before the files are read a
 **The pattern so far.** Totals in the open files match the printed totals far more often than
 splits do. Where a report and its file disagree, the file usually matches the report's detailed
 tables, and the summary or a later table is off. Several mismatches turn out to be a table that
-silently covers only part of the file (a subset of pastas, canned food only, or four samples fewer).
-In the two PAH files, three pairs of samples with different foods or origins carry identical values;
-the two food-colour files have none. The two ethyl carbamate files are the first pair whose
-origin splits match in every cell that can be checked.
+silently covers only part of the file (a subset of pastas, canned food only, four samples fewer,
+or formulas without the soy-based ones). In the two PAH files, three pairs of samples with
+different foods or origins carry identical values; the two food-colour files have none. The two
+ethyl carbamate files are the first pair whose origin splits match in every cell that can be
+checked, and the 2018-19 one is the second file in the series with a 1,000-fold scale problem
+(after the 2014-15 aflatoxin M1 unit label).
 
 ## Children's Food Project (aflatoxin M1, lead)
 
@@ -125,6 +127,13 @@ origin splits match in every cell that can be checked.
   "Fish/Seafood"; both sit inside their product's ID block. The 2018-19 file gives sake, spirits
   and wine one label, so those rows and the wine-limit sentence cannot be checked, and its last
   sampling date is 6 March 2019, not the text's 21 March.
+- [Result](ethyl-carbamate-0.1.0-result.md). Both gates pass; 3 of 6 graded items held. 2019-20
+  reproduces in full: 94 of 100 soy samples have no EC, and the later report's soy row is the
+  Total row (soy alone averages 108.0). The three 2018-19 items failed for one reason: 36 of the
+  37 detected values are stored 1,000 times smaller than the report's ppb under a "ng/g" unit
+  (beers 0.004 for a printed 4), while one vinegar is on the printed scale (135). All 36 come from
+  samples whose region is West. Read as micrograms per gram (exploratory, not pre-registered), the
+  36 values reproduce every printed 2018-19 cell and the later report's subtotal.
 
 ## Perchlorate, 2010-11, 2011-13 and 2013-14
 
@@ -133,7 +142,11 @@ origin splits match in every cell that can be checked.
   the earlier surveys as unpublished data. Table 3 gives 2010's cheese, milk and yogurt the same
   average (5.1), while the 2010-11 summary gives yogurt 4.9 and puts milk below both. Its 2010
   formula row has 74 samples where the 2010-11 report has 89. And 2013-14's "54% of infant
-  formula" cannot be reached with Table 3's 30 formulas (16 of 30 is 53%, 17 of 30 is 57%). A
-  names-only census runs next.
+  formula" cannot be reached with Table 3's 30 formulas (16 of 30 is 53%, 17 of 30 is 57%).
+- [Census note and label maps](perchlorate-series-0.1.0-census.md). The gate passes for all three
+  files and 4 of 7 census items held, including the 2010-11 origin split (146 / 285 / 2). Table
+  3's formula rows count only formulas not labelled soy: 74 of 89, 68 of 87 and 30 of 39. The
+  2013-14 file has 39 formulas, so its "54%" is possible (21 of 39). The 2011-13 file has 15
+  creams where Table 3 needs 17. No result value has been read; a grader note comes next.
 
 MV2, Munim, Inc., mv2@munimtech.com

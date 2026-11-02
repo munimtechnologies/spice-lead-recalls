@@ -1,0 +1,3141 @@
+{
+  "bytes": 228127,
+  "census": {
+    "columns": {
+      "commodity": null,
+      "component": 11,
+      "date": null,
+      "function": 2,
+      "origin": 4,
+      "plan": 15,
+      "product": 6,
+      "region": 1,
+      "sample": 0,
+      "test": 9,
+      "unit": 14,
+      "value": 13
+    },
+    "commodities": {
+      "": 1426
+    },
+    "components": {
+      "Perchlorate": 1426
+    },
+    "header": [
+      "Sample No. – No. d’échantillon",
+      "Region - Région",
+      "Function",
+      "Fonction",
+      "Origin",
+      "Origine",
+      "Product",
+      "Produit",
+      "DateSample",
+      "Type of Test",
+      "Type d’analyse",
+      "Component",
+      "Composant",
+      "Result - Résultat",
+      "Unit - Unité",
+      "Plan Code - Code du régime"
+    ],
+    "id_gaps": 35,
+    "id_range": [
+      3,
+      800
+    ],
+    "ids_bad": [
+      "2011PER0001",
+      "2011PER0002",
+      "2011PER0003",
+      "2011PER0004",
+      "2011PER0005",
+      "2011PER0006",
+      "2011PER0007",
+      "2011PER0008",
+      "2011PER0009",
+      "2011PER0010"
+    ],
+    "ids_bad_count": 663,
+    "ids_dup_suffix": [
+      "C2012PERC00054D",
+      "C2012PERC00220D",
+      "C2012PERC00393D",
+      "C2012PERC00519D",
+      "C2012PERC00566D"
+    ],
+    "missing_component_samples": {},
+    "mixed_label_samples": [],
+    "plans": {
+      "2011_TS006": 663,
+      "2012_TS006": 763
+    },
+    "product_commodity": {
+      "Arugula | ": 1,
+      "Blueberry - Organic | ": 6,
+      "Blueberry | ": 16,
+      "Chard - Organic | ": 13,
+      "Chard | ": 35,
+      "Cheese | ": 1,
+      "Cider - Apple | ": 6,
+      "Cream | ": 15,
+      "Cucumber - Organic | ": 5,
+      "Cucumber | ": 90,
+      "Dessert - Frozen (Dairy) | ": 3,
+      "Dessert - Frozen | ": 28,
+      "Desserts | ": 7,
+      "Dressing | ": 28,
+      "Endive - Broadleaf | ": 1,
+      "Grapefruit - Organic | ": 6,
+      "Grapefruit | ": 19,
+      "Infant Formula - Dairy - Organic | ": 1,
+      "Infant Formula - Dairy | ": 67,
+      "Infant Formula - Soy | ": 19,
+      "Juice - Apple - Organic | ": 2,
+      "Juice - Apple | ": 20,
+      "Juice - Blend | ": 5,
+      "Juice - Blueberry | ": 3,
+      "Juice - Carrot | ": 12,
+      "Juice - Cranberry | ": 3,
+      "Juice - Grape - Organic | ": 1,
+      "Juice - Grape | ": 27,
+      "Juice - Grapefruit | ": 5,
+      "Juice - Mixed | ": 10,
+      "Juice - Orange - Organic | ": 3,
+      "Juice - Orange | ": 29,
+      "Juice - Other | ": 42,
+      "Juice - Pomegranate | ": 5,
+      "Juice - Tomato | ": 16,
+      "Juice - Vegetable - ORGANIC | ": 2,
+      "Juice - Vegetable | ": 28,
+      "Kale - Organic | ": 1,
+      "Lemon - Organic | ": 5,
+      "Lemon | ": 20,
+      "Lettuce - Boston | ": 2,
+      "Lettuce - Leaf - Organic | ": 3,
+      "Lettuce - Leaf | ": 101,
+      "Lettuce - Organic | ": 18,
+      "Lettuce - head - Organic | ": 1,
+      "Lettuce - head | ": 6,
+      "Lettuce | ": 116,
+      "Melon - Cantaloupe - Organic | ": 3,
+      "Melon - Cantaloupe | ": 19,
+      "Misc - Dairy - Organic | ": 2,
+      "Misc - Dairy | ": 85,
+      "Misc | ": 2,
+      "Nectar - Other | ": 4,
+      "Nectar - Prune | ": 2,
+      "Orange - Organic | ": 9,
+      "Orange | ": 83,
+      "Pudding | ": 25,
+      "Sauces | ": 37,
+      "Spinach - Organic | ": 2,
+      "Spinach | ": 42,
+      "Strawberry - Organic | ": 8,
+      "Strawberry | ": 78,
+      "Tomato - Organic | ": 8,
+      "Tomato | ": 80,
+      "Watermelon - Organic | ": 5,
+      "Watermelon | ": 79
+    },
+    "product_function": {
+      "Arugula": {
+        "Import": 1
+      },
+      "Blueberry": {
+        "Domestic": 4,
+        "Import": 11,
+        "Unknown": 1
+      },
+      "Blueberry - Organic": {
+        "Import": 6
+      },
+      "Chard": {
+        "Domestic": 2,
+        "Import": 14,
+        "Unknown": 19
+      },
+      "Chard - Organic": {
+        "Domestic": 3,
+        "Import": 9,
+        "Unknown": 1
+      },
+      "Cheese": {
+        "Unknown": 1
+      },
+      "Cider - Apple": {
+        "Domestic": 6
+      },
+      "Cream": {
+        "Domestic": 12,
+        "Import": 1,
+        "Unknown": 2
+      },
+      "Cucumber": {
+        "Domestic": 37,
+        "Import": 38,
+        "Unknown": 15
+      },
+      "Cucumber - Organic": {
+        "Domestic": 1,
+        "Import": 4
+      },
+      "Dessert - Frozen": {
+        "Domestic": 5,
+        "Import": 23
+      },
+      "Dessert - Frozen (Dairy)": {
+        "Import": 3
+      },
+      "Desserts": {
+        "Domestic": 3,
+        "Import": 4
+      },
+      "Dressing": {
+        "Domestic": 15,
+        "Import": 12,
+        "Unknown": 1
+      },
+      "Endive - Broadleaf": {
+        "Unknown": 1
+      },
+      "Grapefruit": {
+        "Import": 19
+      },
+      "Grapefruit - Organic": {
+        "Import": 6
+      },
+      "Infant Formula - Dairy": {
+        "Domestic": 2,
+        "Import": 51,
+        "Unknown": 14
+      },
+      "Infant Formula - Dairy - Organic": {
+        "Import": 1
+      },
+      "Infant Formula - Soy": {
+        "Domestic": 1,
+        "Import": 15,
+        "Unknown": 3
+      },
+      "Juice - Apple": {
+        "Domestic": 10,
+        "Import": 5,
+        "Unknown": 5
+      },
+      "Juice - Apple - Organic": {
+        "Domestic": 1,
+        "Import": 1
+      },
+      "Juice - Blend": {
+        "Domestic": 1,
+        "Import": 3,
+        "Unknown": 1
+      },
+      "Juice - Blueberry": {
+        "Domestic": 1,
+        "Import": 2
+      },
+      "Juice - Carrot": {
+        "Domestic": 2,
+        "Import": 10
+      },
+      "Juice - Cranberry": {
+        "Domestic": 1,
+        "Import": 2
+      },
+      "Juice - Grape": {
+        "Domestic": 2,
+        "Import": 20,
+        "Unknown": 5
+      },
+      "Juice - Grape - Organic": {
+        "Import": 1
+      },
+      "Juice - Grapefruit": {
+        "Domestic": 1,
+        "Import": 4
+      },
+      "Juice - Mixed": {
+        "Domestic": 1,
+        "Import": 7,
+        "Unknown": 2
+      },
+      "Juice - Orange": {
+        "Domestic": 12,
+        "Import": 11,
+        "Unknown": 6
+      },
+      "Juice - Orange - Organic": {
+        "Import": 3
+      },
+      "Juice - Other": {
+        "Domestic": 24,
+        "Import": 17,
+        "Unknown": 1
+      },
+      "Juice - Pomegranate": {
+        "Import": 3,
+        "Unknown": 2
+      },
+      "Juice - Tomato": {
+        "Domestic": 11,
+        "Import": 4,
+        "Unknown": 1
+      },
+      "Juice - Vegetable": {
+        "Domestic": 6,
+        "Import": 16,
+        "Unknown": 6
+      },
+      "Juice - Vegetable - ORGANIC": {
+        "Import": 2
+      },
+      "Kale - Organic": {
+        "Import": 1
+      },
+      "Lemon": {
+        "Import": 20
+      },
+      "Lemon - Organic": {
+        "Import": 5
+      },
+      "Lettuce": {
+        "Domestic": 29,
+        "Import": 83,
+        "Unknown": 4
+      },
+      "Lettuce - Boston": {
+        "Domestic": 1,
+        "Unknown": 1
+      },
+      "Lettuce - Leaf": {
+        "Domestic": 5,
+        "Import": 22,
+        "Unknown": 74
+      },
+      "Lettuce - Leaf - Organic": {
+        "Import": 3
+      },
+      "Lettuce - Organic": {
+        "Domestic": 3,
+        "Import": 14,
+        "Unknown": 1
+      },
+      "Lettuce - head": {
+        "Domestic": 1,
+        "Import": 3,
+        "Unknown": 2
+      },
+      "Lettuce - head - Organic": {
+        "Unknown": 1
+      },
+      "Melon - Cantaloupe": {
+        "Domestic": 3,
+        "Import": 16
+      },
+      "Melon - Cantaloupe - Organic": {
+        "Domestic": 1,
+        "Import": 2
+      },
+      "Misc": {
+        "Domestic": 1,
+        "Unknown": 1
+      },
+      "Misc - Dairy": {
+        "Domestic": 17,
+        "Import": 49,
+        "Unknown": 19
+      },
+      "Misc - Dairy - Organic": {
+        "Import": 2
+      },
+      "Nectar - Other": {
+        "Import": 3,
+        "Unknown": 1
+      },
+      "Nectar - Prune": {
+        "Import": 2
+      },
+      "Orange": {
+        "Import": 71,
+        "Unknown": 12
+      },
+      "Orange - Organic": {
+        "Domestic": 1,
+        "Import": 8
+      },
+      "Pudding": {
+        "Domestic": 2,
+        "Import": 22,
+        "Unknown": 1
+      },
+      "Sauces": {
+        "Domestic": 13,
+        "Import": 18,
+        "Unknown": 6
+      },
+      "Spinach": {
+        "Domestic": 5,
+        "Import": 21,
+        "Unknown": 16
+      },
+      "Spinach - Organic": {
+        "Import": 2
+      },
+      "Strawberry": {
+        "Domestic": 12,
+        "Import": 62,
+        "Unknown": 4
+      },
+      "Strawberry - Organic": {
+        "Domestic": 1,
+        "Import": 7
+      },
+      "Tomato": {
+        "Domestic": 19,
+        "Import": 45,
+        "Unknown": 16
+      },
+      "Tomato - Organic": {
+        "Domestic": 4,
+        "Import": 4
+      },
+      "Watermelon": {
+        "Domestic": 8,
+        "Import": 57,
+        "Unknown": 14
+      },
+      "Watermelon - Organic": {
+        "Domestic": 2,
+        "Import": 3
+      }
+    },
+    "product_id_runs": {
+      "Arugula": [],
+      "Blueberry": [
+        [
+          29,
+          29
+        ],
+        [
+          92,
+          92
+        ],
+        [
+          277,
+          282
+        ],
+        [
+          469,
+          471
+        ],
+        [
+          541,
+          541
+        ],
+        [
+          596,
+          596
+        ],
+        [
+          719,
+          719
+        ],
+        [
+          721,
+          722
+        ]
+      ],
+      "Blueberry - Organic": [
+        [
+          91,
+          91
+        ],
+        [
+          275,
+          275
+        ],
+        [
+          468,
+          468
+        ],
+        [
+          595,
+          595
+        ],
+        [
+          720,
+          720
+        ],
+        [
+          789,
+          789
+        ]
+      ],
+      "Chard": [],
+      "Chard - Organic": [
+        [
+          315,
+          315
+        ],
+        [
+          317,
+          320
+        ],
+        [
+          495,
+          495
+        ],
+        [
+          605,
+          606
+        ],
+        [
+          622,
+          622
+        ],
+        [
+          739,
+          740
+        ]
+      ],
+      "Cheese": [],
+      "Cider - Apple": [
+        [
+          65,
+          66
+        ],
+        [
+          170,
+          170
+        ],
+        [
+          396,
+          398
+        ]
+      ],
+      "Cream": [
+        [
+          120,
+          121
+        ],
+        [
+          373,
+          373
+        ],
+        [
+          644,
+          647
+        ],
+        [
+          763,
+          764
+        ]
+      ],
+      "Cucumber": [
+        [
+          33,
+          34
+        ],
+        [
+          51,
+          51
+        ],
+        [
+          96,
+          98
+        ],
+        [
+          301,
+          314
+        ],
+        [
+          481,
+          490
+        ],
+        [
+          544,
+          545
+        ],
+        [
+          602,
+          604
+        ],
+        [
+          635,
+          635
+        ],
+        [
+          732,
+          738
+        ],
+        [
+          793,
+          795
+        ]
+      ],
+      "Cucumber - Organic": [
+        [
+          299,
+          300
+        ],
+        [
+          601,
+          601
+        ],
+        [
+          731,
+          731
+        ]
+      ],
+      "Dessert - Frozen": [
+        [
+          43,
+          43
+        ],
+        [
+          109,
+          119
+        ],
+        [
+          365,
+          367
+        ],
+        [
+          369,
+          369
+        ],
+        [
+          371,
+          372
+        ],
+        [
+          551,
+          552
+        ],
+        [
+          615,
+          615
+        ],
+        [
+          639,
+          643
+        ],
+        [
+          761,
+          762
+        ]
+      ],
+      "Dessert - Frozen (Dairy)": [],
+      "Desserts": [
+        [
+          58,
+          58
+        ],
+        [
+          126,
+          127
+        ],
+        [
+          133,
+          133
+        ],
+        [
+          375,
+          376
+        ],
+        [
+          650,
+          650
+        ]
+      ],
+      "Dressing": [
+        [
+          5,
+          7
+        ],
+        [
+          135,
+          146
+        ],
+        [
+          153,
+          153
+        ],
+        [
+          155,
+          155
+        ],
+        [
+          386,
+          387
+        ],
+        [
+          391,
+          391
+        ],
+        [
+          393,
+          393
+        ],
+        [
+          523,
+          524
+        ],
+        [
+          559,
+          559
+        ],
+        [
+          655,
+          655
+        ],
+        [
+          660,
+          660
+        ],
+        [
+          766,
+          766
+        ],
+        [
+          768,
+          768
+        ]
+      ],
+      "Endive - Broadleaf": [],
+      "Grapefruit": [
+        [
+          25,
+          25
+        ],
+        [
+          86,
+          87
+        ],
+        [
+          252,
+          252
+        ],
+        [
+          254,
+          258
+        ],
+        [
+          454,
+          457
+        ],
+        [
+          538,
+          538
+        ],
+        [
+          588,
+          589
+        ],
+        [
+          709,
+          710
+        ],
+        [
+          785,
+          785
+        ]
+      ],
+      "Grapefruit - Organic": [
+        [
+          251,
+          251
+        ],
+        [
+          253,
+          253
+        ],
+        [
+          453,
+          453
+        ],
+        [
+          621,
+          621
+        ],
+        [
+          708,
+          708
+        ],
+        [
+          784,
+          784
+        ]
+      ],
+      "Infant Formula - Dairy": [],
+      "Infant Formula - Dairy - Organic": [],
+      "Infant Formula - Soy": [],
+      "Juice - Apple": [
+        [
+          165,
+          169
+        ],
+        [
+          664,
+          665
+        ],
+        [
+          771,
+          772
+        ]
+      ],
+      "Juice - Apple - Organic": [],
+      "Juice - Blend": [],
+      "Juice - Blueberry": [
+        [
+          11,
+          11
+        ],
+        [
+          180,
+          180
+        ],
+        [
+          670,
+          670
+        ]
+      ],
+      "Juice - Carrot": [
+        [
+          72,
+          72
+        ],
+        [
+          198,
+          199
+        ],
+        [
+          420,
+          421
+        ],
+        [
+          681,
+          684
+        ],
+        [
+          776,
+          776
+        ]
+      ],
+      "Juice - Cranberry": [
+        [
+          171,
+          171
+        ],
+        [
+          565,
+          565
+        ],
+        [
+          666,
+          666
+        ]
+      ],
+      "Juice - Grape": [
+        [
+          10,
+          10
+        ],
+        [
+          46,
+          46
+        ],
+        [
+          172,
+          175
+        ],
+        [
+          399,
+          404
+        ],
+        [
+          528,
+          528
+        ],
+        [
+          566,
+          567
+        ]
+      ],
+      "Juice - Grape - Organic": [],
+      "Juice - Grapefruit": [
+        [
+          163,
+          164
+        ],
+        [
+          563,
+          563
+        ],
+        [
+          628,
+          628
+        ],
+        [
+          668,
+          668
+        ]
+      ],
+      "Juice - Mixed": [
+        [
+          181,
+          181
+        ],
+        [
+          193,
+          194
+        ],
+        [
+          415,
+          416
+        ],
+        [
+          419,
+          419
+        ],
+        [
+          574,
+          574
+        ],
+        [
+          677,
+          679
+        ]
+      ],
+      "Juice - Orange": [
+        [
+          9,
+          9
+        ],
+        [
+          45,
+          45
+        ],
+        [
+          157,
+          162
+        ],
+        [
+          178,
+          179
+        ],
+        [
+          394,
+          395
+        ],
+        [
+          527,
+          527
+        ],
+        [
+          662,
+          663
+        ],
+        [
+          669,
+          669
+        ],
+        [
+          769,
+          770
+        ]
+      ],
+      "Juice - Orange - Organic": [],
+      "Juice - Other": [
+        [
+          13,
+          14
+        ],
+        [
+          69,
+          70
+        ],
+        [
+          182,
+          186
+        ],
+        [
+          190,
+          192
+        ],
+        [
+          195,
+          195
+        ],
+        [
+          406,
+          408
+        ],
+        [
+          410,
+          413
+        ],
+        [
+          529,
+          531
+        ],
+        [
+          564,
+          564
+        ],
+        [
+          569,
+          573
+        ],
+        [
+          617,
+          618
+        ],
+        [
+          667,
+          667
+        ],
+        [
+          671,
+          673
+        ],
+        [
+          675,
+          676
+        ],
+        [
+          773,
+          775
+        ]
+      ],
+      "Juice - Pomegranate": [
+        [
+          67,
+          67
+        ],
+        [
+          176,
+          177
+        ],
+        [
+          405,
+          405
+        ],
+        [
+          568,
+          568
+        ]
+      ],
+      "Juice - Tomato": [
+        [
+          16,
+          16
+        ],
+        [
+          73,
+          74
+        ],
+        [
+          197,
+          197
+        ],
+        [
+          200,
+          204
+        ],
+        [
+          422,
+          422
+        ],
+        [
+          630,
+          630
+        ]
+      ],
+      "Juice - Vegetable": [
+        [
+          15,
+          15
+        ],
+        [
+          71,
+          71
+        ],
+        [
+          196,
+          196
+        ],
+        [
+          409,
+          409
+        ],
+        [
+          414,
+          414
+        ],
+        [
+          680,
+          680
+        ]
+      ],
+      "Juice - Vegetable - ORGANIC": [],
+      "Kale - Organic": [],
+      "Lemon": [
+        [
+          24,
+          24
+        ],
+        [
+          84,
+          85
+        ],
+        [
+          244,
+          250
+        ],
+        [
+          450,
+          452
+        ],
+        [
+          585,
+          587
+        ],
+        [
+          706,
+          707
+        ],
+        [
+          782,
+          783
+        ]
+      ],
+      "Lemon - Organic": [
+        [
+          448,
+          449
+        ],
+        [
+          537,
+          537
+        ],
+        [
+          704,
+          705
+        ]
+      ],
+      "Lettuce": [
+        [
+          35,
+          39
+        ],
+        [
+          41,
+          42
+        ],
+        [
+          54,
+          54
+        ],
+        [
+          99,
+          102
+        ],
+        [
+          105,
+          108
+        ],
+        [
+          316,
+          316
+        ],
+        [
+          321,
+          324
+        ],
+        [
+          327,
+          330
+        ],
+        [
+          332,
+          344
+        ],
+        [
+          346,
+          346
+        ],
+        [
+          348,
+          352
+        ],
+        [
+          354,
+          354
+        ],
+        [
+          359,
+          362
+        ],
+        [
+          364,
+          364
+        ],
+        [
+          492,
+          493
+        ],
+        [
+          496,
+          496
+        ],
+        [
+          499,
+          502
+        ],
+        [
+          504,
+          507
+        ],
+        [
+          511,
+          517
+        ],
+        [
+          519,
+          520
+        ],
+        [
+          547,
+          550
+        ],
+        [
+          607,
+          609
+        ],
+        [
+          612,
+          614
+        ],
+        [
+          623,
+          623
+        ],
+        [
+          625,
+          625
+        ],
+        [
+          636,
+          638
+        ],
+        [
+          741,
+          752
+        ],
+        [
+          754,
+          755
+        ],
+        [
+          758,
+          760
+        ],
+        [
+          796,
+          799
+        ]
+      ],
+      "Lettuce - Boston": [],
+      "Lettuce - Leaf": [],
+      "Lettuce - Leaf - Organic": [],
+      "Lettuce - Organic": [
+        [
+          52,
+          53
+        ],
+        [
+          103,
+          103
+        ],
+        [
+          325,
+          326
+        ],
+        [
+          345,
+          345
+        ],
+        [
+          355,
+          358
+        ],
+        [
+          363,
+          363
+        ],
+        [
+          497,
+          497
+        ],
+        [
+          503,
+          503
+        ],
+        [
+          508,
+          509
+        ],
+        [
+          610,
+          610
+        ],
+        [
+          753,
+          753
+        ],
+        [
+          757,
+          757
+        ]
+      ],
+      "Lettuce - head": [],
+      "Lettuce - head - Organic": [],
+      "Melon - Cantaloupe": [
+        [
+          78,
+          80
+        ],
+        [
+          223,
+          228
+        ],
+        [
+          434,
+          437
+        ],
+        [
+          534,
+          534
+        ],
+        [
+          579,
+          580
+        ],
+        [
+          693,
+          695
+        ]
+      ],
+      "Melon - Cantaloupe - Organic": [
+        [
+          20,
+          20
+        ],
+        [
+          221,
+          221
+        ],
+        [
+          692,
+          692
+        ]
+      ],
+      "Misc": [],
+      "Misc - Dairy": [
+        [
+          57,
+          57
+        ],
+        [
+          124,
+          125
+        ],
+        [
+          374,
+          374
+        ],
+        [
+          377,
+          377
+        ],
+        [
+          382,
+          382
+        ],
+        [
+          521,
+          521
+        ],
+        [
+          554,
+          554
+        ],
+        [
+          649,
+          649
+        ],
+        [
+          651,
+          652
+        ]
+      ],
+      "Misc - Dairy - Organic": [],
+      "Nectar - Other": [
+        [
+          68,
+          68
+        ],
+        [
+          187,
+          189
+        ]
+      ],
+      "Nectar - Prune": [
+        [
+          12,
+          12
+        ],
+        [
+          674,
+          674
+        ]
+      ],
+      "Orange": [
+        [
+          21,
+          23
+        ],
+        [
+          48,
+          48
+        ],
+        [
+          81,
+          83
+        ],
+        [
+          230,
+          243
+        ],
+        [
+          440,
+          443
+        ],
+        [
+          445,
+          447
+        ],
+        [
+          535,
+          536
+        ],
+        [
+          582,
+          584
+        ],
+        [
+          620,
+          620
+        ],
+        [
+          632,
+          632
+        ],
+        [
+          696,
+          696
+        ],
+        [
+          698,
+          703
+        ],
+        [
+          780,
+          781
+        ]
+      ],
+      "Orange - Organic": [
+        [
+          229,
+          229
+        ],
+        [
+          444,
+          444
+        ],
+        [
+          581,
+          581
+        ],
+        [
+          697,
+          697
+        ]
+      ],
+      "Pudding": [
+        [
+          3,
+          4
+        ],
+        [
+          44,
+          44
+        ],
+        [
+          128,
+          132
+        ],
+        [
+          134,
+          134
+        ],
+        [
+          378,
+          379
+        ],
+        [
+          381,
+          381
+        ],
+        [
+          383,
+          385
+        ],
+        [
+          522,
+          522
+        ],
+        [
+          553,
+          553
+        ],
+        [
+          555,
+          558
+        ],
+        [
+          626,
+          626
+        ],
+        [
+          653,
+          654
+        ],
+        [
+          765,
+          765
+        ]
+      ],
+      "Sauces": [
+        [
+          8,
+          8
+        ],
+        [
+          59,
+          64
+        ],
+        [
+          147,
+          152
+        ],
+        [
+          154,
+          154
+        ],
+        [
+          156,
+          156
+        ],
+        [
+          389,
+          390
+        ],
+        [
+          392,
+          392
+        ],
+        [
+          525,
+          526
+        ],
+        [
+          560,
+          562
+        ],
+        [
+          616,
+          616
+        ],
+        [
+          627,
+          627
+        ],
+        [
+          656,
+          659
+        ],
+        [
+          661,
+          661
+        ],
+        [
+          767,
+          767
+        ]
+      ],
+      "Spinach": [
+        [
+          40,
+          40
+        ],
+        [
+          353,
+          353
+        ],
+        [
+          518,
+          518
+        ],
+        [
+          546,
+          546
+        ],
+        [
+          624,
+          624
+        ],
+        [
+          800,
+          800
+        ]
+      ],
+      "Spinach - Organic": [
+        [
+          611,
+          611
+        ]
+      ],
+      "Strawberry": [
+        [
+          26,
+          28
+        ],
+        [
+          49,
+          49
+        ],
+        [
+          88,
+          90
+        ],
+        [
+          262,
+          274
+        ],
+        [
+          461,
+          466
+        ],
+        [
+          539,
+          540
+        ],
+        [
+          590,
+          594
+        ],
+        [
+          633,
+          633
+        ],
+        [
+          712,
+          718
+        ],
+        [
+          786,
+          787
+        ]
+      ],
+      "Strawberry - Organic": [
+        [
+          259,
+          261
+        ],
+        [
+          458,
+          458
+        ],
+        [
+          711,
+          711
+        ]
+      ],
+      "Tomato": [
+        [
+          30,
+          32
+        ],
+        [
+          50,
+          50
+        ],
+        [
+          93,
+          95
+        ],
+        [
+          285,
+          291
+        ],
+        [
+          293,
+          298
+        ],
+        [
+          473,
+          480
+        ],
+        [
+          542,
+          543
+        ],
+        [
+          598,
+          598
+        ],
+        [
+          600,
+          600
+        ],
+        [
+          724,
+          730
+        ],
+        [
+          790,
+          790
+        ],
+        [
+          792,
+          792
+        ]
+      ],
+      "Tomato - Organic": [
+        [
+          283,
+          284
+        ],
+        [
+          292,
+          292
+        ],
+        [
+          472,
+          472
+        ],
+        [
+          597,
+          597
+        ],
+        [
+          599,
+          599
+        ],
+        [
+          723,
+          723
+        ]
+      ],
+      "Watermelon": [
+        [
+          19,
+          19
+        ],
+        [
+          47,
+          47
+        ],
+        [
+          76,
+          77
+        ],
+        [
+          205,
+          205
+        ],
+        [
+          210,
+          220
+        ],
+        [
+          222,
+          222
+        ],
+        [
+          423,
+          431
+        ],
+        [
+          532,
+          533
+        ],
+        [
+          575,
+          578
+        ],
+        [
+          619,
+          619
+        ],
+        [
+          631,
+          631
+        ],
+        [
+          685,
+          691
+        ],
+        [
+          777,
+          778
+        ]
+      ],
+      "Watermelon - Organic": [
+        [
+          75,
+          75
+        ],
+        [
+          206,
+          208
+        ]
+      ]
+    },
+    "product_origin_top": {
+      "Arugula": {
+        "United States": 1
+      },
+      "Blueberry": {
+        "Argentina": 3,
+        "Canada": 4,
+        "Chile": 1,
+        "United States": 7,
+        "Unknown": 1
+      },
+      "Blueberry - Organic": {
+        "Chile": 1,
+        "United States": 5
+      },
+      "Chard": {
+        "Canada": 2,
+        "United States": 14,
+        "Unknown": 19
+      },
+      "Chard - Organic": {
+        "Canada": 3,
+        "United States": 9,
+        "Unknown": 1
+      },
+      "Cheese": {
+        "Unknown": 1
+      },
+      "Cider - Apple": {
+        "Canada": 6
+      },
+      "Cream": {
+        "Canada": 12,
+        "Unknown": 3
+      },
+      "Cucumber": {
+        "Canada": 37,
+        "Mexico": 18,
+        "Netherlands": 2,
+        "South Africa": 1,
+        "Spain": 3,
+        "United States": 14,
+        "Unknown": 15
+      },
+      "Cucumber - Organic": {
+        "Canada": 1,
+        "Mexico": 4
+      },
+      "Dessert - Frozen": {
+        "Canada": 5,
+        "United States": 21,
+        "Unknown": 2
+      },
+      "Dessert - Frozen (Dairy)": {
+        "United States": 2,
+        "Unknown": 1
+      },
+      "Desserts": {
+        "Canada": 3,
+        "Taiwan": 1,
+        "United States": 1,
+        "Unknown": 2
+      },
+      "Dressing": {
+        "Canada": 15,
+        "United States": 7,
+        "Unknown": 6
+      },
+      "Endive - Broadleaf": {
+        "Unknown": 1
+      },
+      "Grapefruit": {
+        "Mexico": 2,
+        "South Africa": 6,
+        "United States": 11
+      },
+      "Grapefruit - Organic": {
+        "Mexico": 2,
+        "South Africa": 1,
+        "United States": 2,
+        "Unknown": 1
+      },
+      "Infant Formula - Dairy": {
+        "Canada": 2,
+        "Ireland": 3,
+        "United States": 33,
+        "Unknown": 29
+      },
+      "Infant Formula - Dairy - Organic": {
+        "United States": 1
+      },
+      "Infant Formula - Soy": {
+        "Canada": 1,
+        "Netherlands": 2,
+        "United States": 12,
+        "Unknown": 4
+      },
+      "Juice - Apple": {
+        "Canada": 10,
+        "United States": 5,
+        "Unknown": 5
+      },
+      "Juice - Apple - Organic": {
+        "Canada": 1,
+        "United States": 1
+      },
+      "Juice - Blend": {
+        "Canada": 1,
+        "South Africa": 1,
+        "United States": 2,
+        "Unknown": 1
+      },
+      "Juice - Blueberry": {
+        "Canada": 1,
+        "United States": 1,
+        "Unknown": 1
+      },
+      "Juice - Carrot": {
+        "Canada": 2,
+        "Switzerland": 3,
+        "United States": 7
+      },
+      "Juice - Cranberry": {
+        "Canada": 1,
+        "United States": 2
+      },
+      "Juice - Grape": {
+        "Canada": 2,
+        "South Africa": 1,
+        "United States": 17,
+        "Unknown": 7
+      },
+      "Juice - Grape - Organic": {
+        "United States": 1
+      },
+      "Juice - Grapefruit": {
+        "Canada": 1,
+        "United States": 4
+      },
+      "Juice - Mixed": {
+        "Canada": 1,
+        "United States": 5,
+        "Unknown": 4
+      },
+      "Juice - Orange": {
+        "Brazil/United States": 1,
+        "Canada": 12,
+        "United States": 10,
+        "Unknown": 6
+      },
+      "Juice - Orange - Organic": {
+        "United States": 3
+      },
+      "Juice - Other": {
+        "Canada": 24,
+        "Slovenia": 1,
+        "South Africa": 3,
+        "United States": 7,
+        "Unknown": 7
+      },
+      "Juice - Pomegranate": {
+        "United States": 3,
+        "Unknown": 2
+      },
+      "Juice - Tomato": {
+        "Canada": 11,
+        "Unknown": 5
+      },
+      "Juice - Vegetable": {
+        "Canada": 6,
+        "Poland": 1,
+        "Switzerland": 3,
+        "United States": 7,
+        "Unknown": 11
+      },
+      "Juice - Vegetable - ORGANIC": {
+        "Switzerland": 2
+      },
+      "Kale - Organic": {
+        "United States": 1
+      },
+      "Lemon": {
+        "Argentina": 1,
+        "Mexico": 1,
+        "South Africa": 4,
+        "Türkiye": 1,
+        "United States": 13
+      },
+      "Lemon - Organic": {
+        "United States": 5
+      },
+      "Lettuce": {
+        "Canada": 29,
+        "Mexico": 1,
+        "United States": 80,
+        "Unknown": 6
+      },
+      "Lettuce - Boston": {
+        "Canada": 1,
+        "Unknown": 1
+      },
+      "Lettuce - Leaf": {
+        "Canada": 5,
+        "United States": 21,
+        "Unknown": 75
+      },
+      "Lettuce - Leaf - Organic": {
+        "United States": 3
+      },
+      "Lettuce - Organic": {
+        "Canada": 3,
+        "United States": 14,
+        "Unknown": 1
+      },
+      "Lettuce - head": {
+        "Canada": 1,
+        "United States": 3,
+        "Unknown": 2
+      },
+      "Lettuce - head - Organic": {
+        "Unknown": 1
+      },
+      "Melon - Cantaloupe": {
+        "Canada": 3,
+        "Guatemala": 3,
+        "Honduras": 1,
+        "Mexico": 1,
+        "United States": 11
+      },
+      "Melon - Cantaloupe - Organic": {
+        "Canada": 1,
+        "Honduras": 1,
+        "United States": 1
+      },
+      "Misc": {
+        "Canada": 1,
+        "Unknown": 1
+      },
+      "Misc - Dairy": {
+        "Belgium": 3,
+        "Canada": 17,
+        "Pakistan": 1,
+        "United Kingdom": 9,
+        "United States": 28,
+        "Unknown": 27
+      },
+      "Misc - Dairy - Organic": {
+        "United States": 2
+      },
+      "Nectar - Other": {
+        "Poland": 1,
+        "United States": 2,
+        "Unknown": 1
+      },
+      "Nectar - Prune": {
+        "United States": 2
+      },
+      "Orange": {
+        "Australia": 3,
+        "Chile": 1,
+        "Peru": 1,
+        "South Africa": 20,
+        "United States": 46,
+        "Unknown": 12
+      },
+      "Orange - Organic": {
+        "Canada": 1,
+        "South Africa": 2,
+        "United States": 6
+      },
+      "Pudding": {
+        "Canada": 2,
+        "United Kingdom": 1,
+        "United States": 13,
+        "Unknown": 9
+      },
+      "Sauces": {
+        "Canada": 13,
+        "United Kingdom": 2,
+        "United States": 7,
+        "Unknown": 15
+      },
+      "Spinach": {
+        "Canada": 5,
+        "United States": 21,
+        "Unknown": 16
+      },
+      "Spinach - Organic": {
+        "United States": 2
+      },
+      "Strawberry": {
+        "Canada": 12,
+        "Mexico": 9,
+        "United States": 53,
+        "Unknown": 4
+      },
+      "Strawberry - Organic": {
+        "Canada": 1,
+        "Mexico": 1,
+        "United States": 6
+      },
+      "Tomato": {
+        "Canada": 19,
+        "Mexico": 26,
+        "United States": 19,
+        "Unknown": 16
+      },
+      "Tomato - Organic": {
+        "Canada": 4,
+        "Mexico": 3,
+        "United States": 1
+      },
+      "Watermelon": {
+        "Canada": 8,
+        "Guatemala": 4,
+        "Mexico": 20,
+        "United States": 32,
+        "Unknown": 15
+      },
+      "Watermelon - Organic": {
+        "Canada": 2,
+        "Mexico": 1,
+        "United States": 2
+      }
+    },
+    "products": {
+      "Arugula": 1,
+      "Blueberry": 16,
+      "Blueberry - Organic": 6,
+      "Chard": 35,
+      "Chard - Organic": 13,
+      "Cheese": 1,
+      "Cider - Apple": 6,
+      "Cream": 15,
+      "Cucumber": 90,
+      "Cucumber - Organic": 5,
+      "Dessert - Frozen": 28,
+      "Dessert - Frozen (Dairy)": 3,
+      "Desserts": 7,
+      "Dressing": 28,
+      "Endive - Broadleaf": 1,
+      "Grapefruit": 19,
+      "Grapefruit - Organic": 6,
+      "Infant Formula - Dairy": 67,
+      "Infant Formula - Dairy - Organic": 1,
+      "Infant Formula - Soy": 19,
+      "Juice - Apple": 20,
+      "Juice - Apple - Organic": 2,
+      "Juice - Blend": 5,
+      "Juice - Blueberry": 3,
+      "Juice - Carrot": 12,
+      "Juice - Cranberry": 3,
+      "Juice - Grape": 27,
+      "Juice - Grape - Organic": 1,
+      "Juice - Grapefruit": 5,
+      "Juice - Mixed": 10,
+      "Juice - Orange": 29,
+      "Juice - Orange - Organic": 3,
+      "Juice - Other": 42,
+      "Juice - Pomegranate": 5,
+      "Juice - Tomato": 16,
+      "Juice - Vegetable": 28,
+      "Juice - Vegetable - ORGANIC": 2,
+      "Kale - Organic": 1,
+      "Lemon": 20,
+      "Lemon - Organic": 5,
+      "Lettuce": 116,
+      "Lettuce - Boston": 2,
+      "Lettuce - Leaf": 101,
+      "Lettuce - Leaf - Organic": 3,
+      "Lettuce - Organic": 18,
+      "Lettuce - head": 6,
+      "Lettuce - head - Organic": 1,
+      "Melon - Cantaloupe": 19,
+      "Melon - Cantaloupe - Organic": 3,
+      "Misc": 2,
+      "Misc - Dairy": 85,
+      "Misc - Dairy - Organic": 2,
+      "Nectar - Other": 4,
+      "Nectar - Prune": 2,
+      "Orange": 83,
+      "Orange - Organic": 9,
+      "Pudding": 25,
+      "Sauces": 37,
+      "Spinach": 42,
+      "Spinach - Organic": 2,
+      "Strawberry": 78,
+      "Strawberry - Organic": 8,
+      "Tomato": 80,
+      "Tomato - Organic": 8,
+      "Watermelon": 79,
+      "Watermelon - Organic": 5
+    },
+    "regions": {
+      "ATLANTIC": 97,
+      "ONTARIO": 534,
+      "QUEBEC": 329,
+      "WEST": 466
+    },
+    "repeated_component_samples": {},
+    "rows": 1426,
+    "rows_per_sample": {
+      "1": 1426
+    },
+    "samples": 1426,
+    "shapes": {
+      "number": 1426
+    },
+    "shapes_by_component": {
+      "Perchlorate": {
+        "number": 1426
+      }
+    },
+    "tests": {
+      "Perchlorate": 1426
+    },
+    "tokens": {},
+    "units": {
+      "ng/g": 1426
+    },
+    "units_by_component": {
+      "Perchlorate": {
+        "ng/g": 1426
+      }
+    }
+  },
+  "columns": {
+    "columns": [
+      {
+        "distinct_text": 0,
+        "name": "Sample No. – No. d’échantillon",
+        "sample_column": true,
+        "shapes": {
+          "token": 1426
+        },
+        "text_rows": {},
+        "text_samples": {},
+        "value_like": false
+      },
+      {
+        "distinct_text": 4,
+        "name": "Region - Région",
+        "sample_column": false,
+        "shapes": {
+          "token": 1426
+        },
+        "text_rows": {
+          "ATLANTIC": 97,
+          "ONTARIO": 534,
+          "QUEBEC": 329,
+          "WEST": 466
+        },
+        "text_samples": {
+          "ATLANTIC": 97,
+          "ONTARIO": 534,
+          "QUEBEC": 329,
+          "WEST": 466
+        },
+        "value_like": false
+      },
+      {
+        "distinct_text": 3,
+        "name": "Function",
+        "sample_column": false,
+        "shapes": {
+          "token": 1426
+        },
+        "text_rows": {
+          "Domestic": 292,
+          "Import": 874,
+          "Unknown": 260
+        },
+        "text_samples": {
+          "Domestic": 292,
+          "Import": 874,
+          "Unknown": 260
+        },
+        "value_like": false
+      },
+      {
+        "distinct_text": 3,
+        "name": "Fonction",
+        "sample_column": false,
+        "shapes": {
+          "token": 1426
+        },
+        "text_rows": {
+          "Domestique": 292,
+          "Importé": 874,
+          "Inconnu": 260
+        },
+        "text_samples": {
+          "Domestique": 292,
+          "Importé": 874,
+          "Inconnu": 260
+        },
+        "value_like": false
+      },
+      {
+        "distinct_text": 23,
+        "name": "Origin",
+        "sample_column": false,
+        "shapes": {
+          "token": 1426
+        },
+        "text_rows": {
+          "Argentina": 4,
+          "Australia": 3,
+          "Belgium": 3,
+          "Brazil/United States": 1,
+          "Canada": 292,
+          "Chile": 3,
+          "Guatemala": 7,
+          "Honduras": 2,
+          "Ireland": 3,
+          "Mexico": 89,
+          "Netherlands": 4,
+          "Pakistan": 1,
+          "Peru": 1,
+          "Poland": 2,
+          "Slovenia": 1,
+          "South Africa": 39,
+          "Spain": 3,
+          "Switzerland": 8,
+          "Taiwan": 1,
+          "Türkiye": 1,
+          "United Kingdom": 12,
+          "United States": 609,
+          "Unknown": 337
+        },
+        "text_samples": {
+          "Argentina": 4,
+          "Australia": 3,
+          "Belgium": 3,
+          "Brazil/United States": 1,
+          "Canada": 292,
+          "Chile": 3,
+          "Guatemala": 7,
+          "Honduras": 2,
+          "Ireland": 3,
+          "Mexico": 89,
+          "Netherlands": 4,
+          "Pakistan": 1,
+          "Peru": 1,
+          "Poland": 2,
+          "Slovenia": 1,
+          "South Africa": 39,
+          "Spain": 3,
+          "Switzerland": 8,
+          "Taiwan": 1,
+          "Türkiye": 1,
+          "United Kingdom": 12,
+          "United States": 609,
+          "Unknown": 337
+        },
+        "value_like": false
+      },
+      {
+        "distinct_text": 23,
+        "name": "Origine",
+        "sample_column": false,
+        "shapes": {
+          "token": 1426
+        },
+        "text_rows": {
+          "Afrique du sud": 39,
+          "Argentine": 4,
+          "Australie": 3,
+          "Belgique": 3,
+          "Brésil/États-Unis": 1,
+          "Canada": 292,
+          "Chili": 3,
+          "Espagne": 3,
+          "Guatemala": 7,
+          "Honduras": 2,
+          "Inconnu": 337,
+          "Irlande": 3,
+          "Mexique": 89,
+          "Pakistan": 1,
+          "Pays-Bas": 4,
+          "Pologne": 2,
+          "Pérou": 1,
+          "Royaume-Uni": 12,
+          "Slovénie": 1,
+          "Suisse": 8,
+          "Taïwan": 1,
+          "Türkiye": 1,
+          "États-Unis": 609
+        },
+        "text_samples": {
+          "Afrique du sud": 39,
+          "Argentine": 4,
+          "Australie": 3,
+          "Belgique": 3,
+          "Brésil/États-Unis": 1,
+          "Canada": 292,
+          "Chili": 3,
+          "Espagne": 3,
+          "Guatemala": 7,
+          "Honduras": 2,
+          "Inconnu": 337,
+          "Irlande": 3,
+          "Mexique": 89,
+          "Pakistan": 1,
+          "Pays-Bas": 4,
+          "Pologne": 2,
+          "Pérou": 1,
+          "Royaume-Uni": 12,
+          "Slovénie": 1,
+          "Suisse": 8,
+          "Taïwan": 1,
+          "Türkiye": 1,
+          "États-Unis": 609
+        },
+        "value_like": false
+      },
+      {
+        "distinct_text": 66,
+        "name": "Product",
+        "sample_column": false,
+        "shapes": {
+          "token": 1426
+        },
+        "text_rows": {
+          "Arugula": 1,
+          "Blueberry": 16,
+          "Blueberry - Organic": 6,
+          "Chard": 35,
+          "Chard - Organic": 13,
+          "Cheese": 1,
+          "Cider - Apple": 6,
+          "Cream": 15,
+          "Cucumber": 90,
+          "Cucumber - Organic": 5,
+          "Dessert - Frozen": 28,
+          "Dessert - Frozen (Dairy)": 3,
+          "Desserts": 7,
+          "Dressing": 28,
+          "Endive - Broadleaf": 1,
+          "Grapefruit": 19,
+          "Grapefruit - Organic": 6,
+          "Infant Formula - Dairy": 67,
+          "Infant Formula - Dairy - Organic": 1,
+          "Infant Formula - Soy": 19,
+          "Juice - Apple": 20,
+          "Juice - Apple - Organic": 2,
+          "Juice - Blend": 5,
+          "Juice - Blueberry": 3,
+          "Juice - Carrot": 12,
+          "Juice - Cranberry": 3,
+          "Juice - Grape": 27,
+          "Juice - Grape - Organic": 1,
+          "Juice - Grapefruit": 5,
+          "Juice - Mixed": 10,
+          "Juice - Orange": 29,
+          "Juice - Orange - Organic": 3,
+          "Juice - Other": 42,
+          "Juice - Pomegranate": 5,
+          "Juice - Tomato": 16,
+          "Juice - Vegetable": 28,
+          "Juice - Vegetable - ORGANIC": 2,
+          "Kale - Organic": 1,
+          "Lemon": 20,
+          "Lemon - Organic": 5,
+          "Lettuce": 116,
+          "Lettuce - Boston": 2,
+          "Lettuce - Leaf": 101,
+          "Lettuce - Leaf - Organic": 3,
+          "Lettuce - Organic": 18,
+          "Lettuce - head": 6,
+          "Lettuce - head - Organic": 1,
+          "Melon - Cantaloupe": 19,
+          "Melon - Cantaloupe - Organic": 3,
+          "Misc": 2,
+          "Misc - Dairy": 85,
+          "Misc - Dairy - Organic": 2,
+          "Nectar - Other": 4,
+          "Nectar - Prune": 2,
+          "Orange": 83,
+          "Orange - Organic": 9,
+          "Pudding": 25,
+          "Sauces": 37,
+          "Spinach": 42,
+          "Spinach - Organic": 2,
+          "Strawberry": 78,
+          "Strawberry - Organic": 8,
+          "Tomato": 80,
+          "Tomato - Organic": 8,
+          "Watermelon": 79,
+          "Watermelon - Organic": 5
+        },
+        "text_samples": {
+          "Arugula": 1,
+          "Blueberry": 16,
+          "Blueberry - Organic": 6,
+          "Chard": 35,
+          "Chard - Organic": 13,
+          "Cheese": 1,
+          "Cider - Apple": 6,
+          "Cream": 15,
+          "Cucumber": 90,
+          "Cucumber - Organic": 5,
+          "Dessert - Frozen": 28,
+          "Dessert - Frozen (Dairy)": 3,
+          "Desserts": 7,
+          "Dressing": 28,
+          "Endive - Broadleaf": 1,
+          "Grapefruit": 19,
+          "Grapefruit - Organic": 6,
+          "Infant Formula - Dairy": 67,
+          "Infant Formula - Dairy - Organic": 1,
+          "Infant Formula - Soy": 19,
+          "Juice - Apple": 20,
+          "Juice - Apple - Organic": 2,
+          "Juice - Blend": 5,
+          "Juice - Blueberry": 3,
+          "Juice - Carrot": 12,
+          "Juice - Cranberry": 3,
+          "Juice - Grape": 27,
+          "Juice - Grape - Organic": 1,
+          "Juice - Grapefruit": 5,
+          "Juice - Mixed": 10,
+          "Juice - Orange": 29,
+          "Juice - Orange - Organic": 3,
+          "Juice - Other": 42,
+          "Juice - Pomegranate": 5,
+          "Juice - Tomato": 16,
+          "Juice - Vegetable": 28,
+          "Juice - Vegetable - ORGANIC": 2,
+          "Kale - Organic": 1,
+          "Lemon": 20,
+          "Lemon - Organic": 5,
+          "Lettuce": 116,
+          "Lettuce - Boston": 2,
+          "Lettuce - Leaf": 101,
+          "Lettuce - Leaf - Organic": 3,
+          "Lettuce - Organic": 18,
+          "Lettuce - head": 6,
+          "Lettuce - head - Organic": 1,
+          "Melon - Cantaloupe": 19,
+          "Melon - Cantaloupe - Organic": 3,
+          "Misc": 2,
+          "Misc - Dairy": 85,
+          "Misc - Dairy - Organic": 2,
+          "Nectar - Other": 4,
+          "Nectar - Prune": 2,
+          "Orange": 83,
+          "Orange - Organic": 9,
+          "Pudding": 25,
+          "Sauces": 37,
+          "Spinach": 42,
+          "Spinach - Organic": 2,
+          "Strawberry": 78,
+          "Strawberry - Organic": 8,
+          "Tomato": 80,
+          "Tomato - Organic": 8,
+          "Watermelon": 79,
+          "Watermelon - Organic": 5
+        },
+        "value_like": false
+      },
+      {
+        "distinct_text": 70,
+        "name": "Produit",
+        "sample_column": false,
+        "shapes": {
+          "token": 1426
+        },
+        "text_rows": {
+          "Bette à cardes": 35,
+          "Bette à cardes - Biologique": 2,
+          "Bettes à cardes organiques": 11,
+          "Bleuets": 16,
+          "Bleuets biologiques": 6,
+          "Chou frisé - Biologique": 1,
+          "Cidre de pommes": 6,
+          "Citron": 20,
+          "Citron biologique": 5,
+          "Concombre": 90,
+          "Concombre - Biologique": 1,
+          "Concombre biologique": 4,
+          "Crème": 15,
+          "Dessert - Congelé": 28,
+          "Dessert congelé (produit laitier)": 3,
+          "Desserts": 7,
+          "Divers": 2,
+          "Divers - Laitier": 74,
+          "Divers - Laitier - Biologique": 2,
+          "Divers - Produits laitiers": 11,
+          "Endive": 1,
+          "Fraise": 78,
+          "Fraise - Biologique": 8,
+          "Fromage": 1,
+          "Jus - Autre": 42,
+          "Jus - Mélangé": 10,
+          "Jus d'orange": 29,
+          "Jus d'orange biologique": 3,
+          "Jus de bleuets": 3,
+          "Jus de canneberges": 3,
+          "Jus de carottes": 12,
+          "Jus de grenade": 5,
+          "Jus de légumes": 28,
+          "Jus de légumes biologique": 2,
+          "Jus de pamplemousse": 5,
+          "Jus de pomme": 20,
+          "Jus de pomme biologique": 2,
+          "Jus de raisin": 12,
+          "Jus de raisin biologique": 1,
+          "Jus de raisins": 15,
+          "Jus de tomates": 16,
+          "Laitue": 116,
+          "Laitue - Biologique": 18,
+          "Laitue - Boston": 2,
+          "Laitue - Frisée": 101,
+          "Laitue - Frisée - Biologique": 3,
+          "Laitue - Pommée": 6,
+          "Laitue - Pommée - Biologique": 1,
+          "Melon - Cantaloup": 19,
+          "Melon - Cantaloup - Biologique": 3,
+          "Melon d'eau": 79,
+          "Melon d'eau - Biologique": 5,
+          "Mélange de jus": 5,
+          "Nectar - Autre": 1,
+          "Nectar - Prune": 5,
+          "Orange": 83,
+          "Orange - Biologique": 9,
+          "Pamplemousse": 19,
+          "Pamplemousse biologique": 6,
+          "Pouding": 25,
+          "Préparation pour nourrissons - Laitier": 67,
+          "Préparation pour nourrissons - Laitier - Biologique": 1,
+          "Préparation pour nourrissons - Soya": 19,
+          "Roquette": 1,
+          "Sauces": 37,
+          "Tomate": 80,
+          "Tomate - Biologique": 8,
+          "Vinaigrette": 28,
+          "Épinards": 42,
+          "Épinards - Biologique": 2
+        },
+        "text_samples": {
+          "Bette à cardes": 35,
+          "Bette à cardes - Biologique": 2,
+          "Bettes à cardes organiques": 11,
+          "Bleuets": 16,
+          "Bleuets biologiques": 6,
+          "Chou frisé - Biologique": 1,
+          "Cidre de pommes": 6,
+          "Citron": 20,
+          "Citron biologique": 5,
+          "Concombre": 90,
+          "Concombre - Biologique": 1,
+          "Concombre biologique": 4,
+          "Crème": 15,
+          "Dessert - Congelé": 28,
+          "Dessert congelé (produit laitier)": 3,
+          "Desserts": 7,
+          "Divers": 2,
+          "Divers - Laitier": 74,
+          "Divers - Laitier - Biologique": 2,
+          "Divers - Produits laitiers": 11,
+          "Endive": 1,
+          "Fraise": 78,
+          "Fraise - Biologique": 8,
+          "Fromage": 1,
+          "Jus - Autre": 42,
+          "Jus - Mélangé": 10,
+          "Jus d'orange": 29,
+          "Jus d'orange biologique": 3,
+          "Jus de bleuets": 3,
+          "Jus de canneberges": 3,
+          "Jus de carottes": 12,
+          "Jus de grenade": 5,
+          "Jus de légumes": 28,
+          "Jus de légumes biologique": 2,
+          "Jus de pamplemousse": 5,
+          "Jus de pomme": 20,
+          "Jus de pomme biologique": 2,
+          "Jus de raisin": 12,
+          "Jus de raisin biologique": 1,
+          "Jus de raisins": 15,
+          "Jus de tomates": 16,
+          "Laitue": 116,
+          "Laitue - Biologique": 18,
+          "Laitue - Boston": 2,
+          "Laitue - Frisée": 101,
+          "Laitue - Frisée - Biologique": 3,
+          "Laitue - Pommée": 6,
+          "Laitue - Pommée - Biologique": 1,
+          "Melon - Cantaloup": 19,
+          "Melon - Cantaloup - Biologique": 3,
+          "Melon d'eau": 79,
+          "Melon d'eau - Biologique": 5,
+          "Mélange de jus": 5,
+          "Nectar - Autre": 1,
+          "Nectar - Prune": 5,
+          "Orange": 83,
+          "Orange - Biologique": 9,
+          "Pamplemousse": 19,
+          "Pamplemousse biologique": 6,
+          "Pouding": 25,
+          "Préparation pour nourrissons - Laitier": 67,
+          "Préparation pour nourrissons - Laitier - Biologique": 1,
+          "Préparation pour nourrissons - Soya": 19,
+          "Roquette": 1,
+          "Sauces": 37,
+          "Tomate": 80,
+          "Tomate - Biologique": 8,
+          "Vinaigrette": 28,
+          "Épinards": 42,
+          "Épinards - Biologique": 2
+        },
+        "value_like": false
+      },
+      {
+        "distinct_text": 307,
+        "name": "DateSample",
+        "sample_column": false,
+        "shapes": {
+          "token": 1426
+        },
+        "text_rows": {
+          "1/11/2012": 5,
+          "1/13/2013": 7,
+          "1/14/2013": 4,
+          "1/15/2013": 13,
+          "1/17/2012": 4,
+          "1/21/2013": 5,
+          "1/23/2012": 5,
+          "1/23/2013": 5,
+          "1/24/2012": 6,
+          "1/5/2012": 7,
+          "1/9/2012": 5,
+          "1/9/2013": 4,
+          "10/1/2012": 10,
+          "10/2/2012": 5,
+          "10/21/2012": 4,
+          "10/22/2012": 28,
+          "10/25/2011": 10,
+          "10/30/2012": 4,
+          "11/11/2012": 5,
+          "11/12/2012": 8,
+          "11/14/2012": 7,
+          "11/16/2011": 8,
+          "11/19/2012": 19,
+          "11/20/2012": 4,
+          "11/21/2012": 9,
+          "11/23/2011": 16,
+          "11/7/2011": 7,
+          "11/7/2012": 5,
+          "11/9/2011": 10,
+          "12/10/2012": 9,
+          "12/12/2011": 10,
+          "12/14/2011": 11,
+          "12/19/2012": 7,
+          "12/2/2011": 4,
+          "12/2/2012": 4,
+          "12/3/2012": 8,
+          "12/5/2012": 11,
+          "12/7/2011": 7,
+          "12/9/2012": 6,
+          "2/1/2012": 13,
+          "2/11/2013": 11,
+          "2/15/2012": 7,
+          "2/18/2013": 8,
+          "2/2/2012": 12,
+          "2/8/2012": 6,
+          "4/17/2012": 6,
+          "4/19/2012": 8,
+          "4/23/2012": 8,
+          "4/27/2011": 10,
+          "4/28/2011": 14,
+          "4/29/2011": 5,
+          "5/1/2011": 11,
+          "5/12/2011": 14,
+          "5/14/2012": 8,
+          "5/16/2011": 11,
+          "5/16/2012": 24,
+          "5/17/2011": 8,
+          "5/2/2012": 6,
+          "5/23/2012": 9,
+          "5/24/2012": 6,
+          "5/28/2012": 10,
+          "5/3/2011": 5,
+          "5/30/2011": 5,
+          "5/4/2011": 12,
+          "5/6/2012": 5,
+          "5/7/2012": 6,
+          "5/8/2011": 7,
+          "5/8/2012": 8,
+          "5/9/2011": 22,
+          "6/15/2011": 15,
+          "6/18/2012": 11,
+          "6/19/2012": 6,
+          "6/20/2011": 5,
+          "6/21/2011": 5,
+          "6/24/2012": 7,
+          "6/26/2012": 13,
+          "6/27/2012": 10,
+          "6/4/2012": 8,
+          "6/6/2011": 8,
+          "6/7/2011": 14,
+          "6/7/2012": 5,
+          "7/10/2012": 16,
+          "7/16/2012": 5,
+          "7/22/2011": 5,
+          "7/23/2012": 6,
+          "7/24/2011": 11,
+          "7/25/2011": 9,
+          "7/26/2011": 5,
+          "7/4/2012": 10,
+          "7/9/2012": 14,
+          "8/1/2011": 8,
+          "8/13/2012": 13,
+          "8/17/2011": 6,
+          "8/2/2011": 18,
+          "8/20/2012": 23,
+          "8/21/2011": 14,
+          "8/21/2012": 10,
+          "8/22/2011": 8,
+          "8/23/2011": 8,
+          "8/24/2011": 6,
+          "8/27/2012": 7,
+          "8/28/2011": 9,
+          "8/28/2012": 5,
+          "8/3/2011": 8,
+          "8/30/2011": 5,
+          "8/30/2012": 6,
+          "8/4/2011": 11,
+          "8/7/2012": 15,
+          "8/8/2011": 6,
+          "8/9/2011": 12,
+          "9/10/2012": 7,
+          "9/11/2011": 5,
+          "9/12/2011": 5,
+          "9/16/2012": 6,
+          "9/17/2012": 12,
+          "9/18/2012": 11,
+          "9/24/2012": 18,
+          "9/25/2012": 8,
+          "9/26/2012": 5,
+          "9/7/2011": 12
+        },
+        "text_samples": {
+          "1/11/2012": 5,
+          "1/13/2013": 7,
+          "1/14/2013": 4,
+          "1/15/2013": 13,
+          "1/17/2012": 4,
+          "1/21/2013": 5,
+          "1/23/2012": 5,
+          "1/23/2013": 5,
+          "1/24/2012": 6,
+          "1/5/2012": 7,
+          "1/9/2012": 5,
+          "1/9/2013": 4,
+          "10/1/2012": 10,
+          "10/2/2012": 5,
+          "10/21/2012": 4,
+          "10/22/2012": 28,
+          "10/25/2011": 10,
+          "10/30/2012": 4,
+          "11/11/2012": 5,
+          "11/12/2012": 8,
+          "11/14/2012": 7,
+          "11/16/2011": 8,
+          "11/19/2012": 19,
+          "11/20/2012": 4,
+          "11/21/2012": 9,
+          "11/23/2011": 16,
+          "11/7/2011": 7,
+          "11/7/2012": 5,
+          "11/9/2011": 10,
+          "12/10/2012": 9,
+          "12/12/2011": 10,
+          "12/14/2011": 11,
+          "12/19/2012": 7,
+          "12/2/2011": 4,
+          "12/2/2012": 4,
+          "12/3/2012": 8,
+          "12/5/2012": 11,
+          "12/7/2011": 7,
+          "12/9/2012": 6,
+          "2/1/2012": 13,
+          "2/11/2013": 11,
+          "2/15/2012": 7,
+          "2/18/2013": 8,
+          "2/2/2012": 12,
+          "2/8/2012": 6,
+          "4/17/2012": 6,
+          "4/19/2012": 8,
+          "4/23/2012": 8,
+          "4/27/2011": 10,
+          "4/28/2011": 14,
+          "4/29/2011": 5,
+          "5/1/2011": 11,
+          "5/12/2011": 14,
+          "5/14/2012": 8,
+          "5/16/2011": 11,
+          "5/16/2012": 24,
+          "5/17/2011": 8,
+          "5/2/2012": 6,
+          "5/23/2012": 9,
+          "5/24/2012": 6,
+          "5/28/2012": 10,
+          "5/3/2011": 5,
+          "5/30/2011": 5,
+          "5/4/2011": 12,
+          "5/6/2012": 5,
+          "5/7/2012": 6,
+          "5/8/2011": 7,
+          "5/8/2012": 8,
+          "5/9/2011": 22,
+          "6/15/2011": 15,
+          "6/18/2012": 11,
+          "6/19/2012": 6,
+          "6/20/2011": 5,
+          "6/21/2011": 5,
+          "6/24/2012": 7,
+          "6/26/2012": 13,
+          "6/27/2012": 10,
+          "6/4/2012": 8,
+          "6/6/2011": 8,
+          "6/7/2011": 14,
+          "6/7/2012": 5,
+          "7/10/2012": 16,
+          "7/16/2012": 5,
+          "7/22/2011": 5,
+          "7/23/2012": 6,
+          "7/24/2011": 11,
+          "7/25/2011": 9,
+          "7/26/2011": 5,
+          "7/4/2012": 10,
+          "7/9/2012": 14,
+          "8/1/2011": 8,
+          "8/13/2012": 13,
+          "8/17/2011": 6,
+          "8/2/2011": 18,
+          "8/20/2012": 23,
+          "8/21/2011": 14,
+          "8/21/2012": 10,
+          "8/22/2011": 8,
+          "8/23/2011": 8,
+          "8/24/2011": 6,
+          "8/27/2012": 7,
+          "8/28/2011": 9,
+          "8/28/2012": 5,
+          "8/3/2011": 8,
+          "8/30/2011": 5,
+          "8/30/2012": 6,
+          "8/4/2011": 11,
+          "8/7/2012": 15,
+          "8/8/2011": 6,
+          "8/9/2011": 12,
+          "9/10/2012": 7,
+          "9/11/2011": 5,
+          "9/12/2011": 5,
+          "9/16/2012": 6,
+          "9/17/2012": 12,
+          "9/18/2012": 11,
+          "9/24/2012": 18,
+          "9/25/2012": 8,
+          "9/26/2012": 5,
+          "9/7/2011": 12
+        },
+        "value_like": false
+      },
+      {
+        "distinct_text": 1,
+        "name": "Type of Test",
+        "sample_column": false,
+        "shapes": {
+          "token": 1426
+        },
+        "text_rows": {
+          "Perchlorate": 1426
+        },
+        "text_samples": {
+          "Perchlorate": 1426
+        },
+        "value_like": false
+      },
+      {
+        "distinct_text": 1,
+        "name": "Type d’analyse",
+        "sample_column": false,
+        "shapes": {
+          "token": 1426
+        },
+        "text_rows": {
+          "Perchlorate": 1426
+        },
+        "text_samples": {
+          "Perchlorate": 1426
+        },
+        "value_like": false
+      },
+      {
+        "distinct_text": 1,
+        "name": "Component",
+        "sample_column": false,
+        "shapes": {
+          "token": 1426
+        },
+        "text_rows": {
+          "Perchlorate": 1426
+        },
+        "text_samples": {
+          "Perchlorate": 1426
+        },
+        "value_like": false
+      },
+      {
+        "distinct_text": 1,
+        "name": "Composant",
+        "sample_column": false,
+        "shapes": {
+          "token": 1426
+        },
+        "text_rows": {
+          "Perchlorate": 1426
+        },
+        "text_samples": {
+          "Perchlorate": 1426
+        },
+        "value_like": false
+      },
+      {
+        "distinct_text": 0,
+        "name": "Result - Résultat",
+        "sample_column": false,
+        "shapes": {
+          "number": 1426
+        },
+        "text_rows": {},
+        "text_samples": {},
+        "value_like": true
+      },
+      {
+        "distinct_text": 1,
+        "name": "Unit - Unité",
+        "sample_column": false,
+        "shapes": {
+          "token": 1426
+        },
+        "text_rows": {
+          "ng/g": 1426
+        },
+        "text_samples": {
+          "ng/g": 1426
+        },
+        "value_like": false
+      },
+      {
+        "distinct_text": 2,
+        "name": "Plan Code - Code du régime",
+        "sample_column": false,
+        "shapes": {
+          "token": 1426
+        },
+        "text_rows": {
+          "2011_TS006": 663,
+          "2012_TS006": 763
+        },
+        "text_samples": {
+          "2011_TS006": 663,
+          "2012_TS006": 763
+        },
+        "value_like": false
+      }
+    ],
+    "header_width": 16,
+    "row_widths": {
+      "16": 1426
+    },
+    "rows": 1426,
+    "samples": 1426
+  },
+  "dataset": "0bdaecc5-805e-4f42-a182-338870635221",
+  "encoding": "cp1252",
+  "gate_facts": {
+    "analyte_labels": 1,
+    "bytes": 228127,
+    "census_error": null,
+    "md5": true,
+    "one_analyte": true,
+    "one_row_per_sample": true,
+    "one_unit": true,
+    "rows": 1426,
+    "rows_per_sample": {
+      "1": 1426
+    },
+    "samples": 1426,
+    "samples_match": true,
+    "size": true,
+    "unit_labels": [
+      "ng/g"
+    ]
+  },
+  "md5": "66a04ce98555c6898c18ebaefc042a96",
+  "md5_matches_portal": true,
+  "portal_md5": "66a04ce98555c6898c18ebaefc042a96",
+  "portal_size": 228127,
+  "product_years": {
+    "ambiguous": 0,
+    "by_product": {},
+    "by_year": {},
+    "date_column": null,
+    "date_shapes": {},
+    "error": "missing sample, product or date column",
+    "first": null,
+    "last": null,
+    "product_column": 6,
+    "sample_column": 0,
+    "unparsed": 0
+  },
+  "resource": "beccac79-f18e-4270-9c2c-c6ce645fc2b4",
+  "sha256": "8d48c4bf0eee6350ef549a632876ce88f77b60485cee72b61b3e38d47e8b3837",
+  "size_matches_portal": true,
+  "source": "https://open.canada.ca/data/dataset/0bdaecc5-805e-4f42-a182-338870635221/resource/beccac79-f18e-4270-9c2c-c6ce645fc2b4/download/cfia_acia-1340-v1-cfia_acia_-_19007867_-_fsap_chem_ts_-_2011-13_perchlorate_in_fresh_fruits_and_.csv",
+  "study": "perchlorate-p11-census",
+  "version": "0.1.0"
+}

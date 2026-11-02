@@ -1,0 +1,1311 @@
+{
+  "bytes": 95033,
+  "census": {
+    "columns": {
+      "commodity": null,
+      "component": 11,
+      "date": 8,
+      "function": 2,
+      "origin": 4,
+      "plan": 15,
+      "product": 6,
+      "region": 1,
+      "sample": 0,
+      "test": 9,
+      "unit": 14,
+      "value": 13
+    },
+    "commodities": {
+      "": 611
+    },
+    "components": {
+      "Perchlorate": 611
+    },
+    "header": [
+      "Sample No. – No. d’échantillon",
+      "Region - Région",
+      "Function",
+      "Fonction",
+      "Origin",
+      "Origine",
+      "Product",
+      "Produit",
+      "Date Sampled – Date d’échantillonage",
+      "Type of Test",
+      "Type d’analyse",
+      "Component",
+      "Composant",
+      "Result - Résultat",
+      "Unit - Unité",
+      "Plan Code - Code du régime"
+    ],
+    "id_gaps": 0,
+    "id_range": null,
+    "ids_bad": [
+      "2010PER0001",
+      "2010PER0002",
+      "2010PER0003",
+      "2010PER0004",
+      "2010PER0005",
+      "2010PER0006",
+      "2010PER0007",
+      "2010PER0008",
+      "2010PER0009",
+      "2010PER0010"
+    ],
+    "ids_bad_count": 611,
+    "ids_dup_suffix": [],
+    "missing_component_samples": {},
+    "mixed_label_samples": [],
+    "plans": {
+      "2010_TS006": 611
+    },
+    "product_commodity": {
+      "Arugula | ": 6,
+      "Bean - Green/Yellow | ": 23,
+      "Broccoli - Organic | ": 1,
+      "Broccoli | ": 23,
+      "Cabbage - Chinese | ": 2,
+      "Cabbage | ": 25,
+      "Carrot - Organic | ": 1,
+      "Carrot | ": 39,
+      "Celery - Organic | ": 2,
+      "Celery | ": 22,
+      "Chard - Organic | ": 2,
+      "Chard | ": 6,
+      "Cheese | ": 23,
+      "Cucumber | ": 22,
+      "Grape - Organic | ": 3,
+      "Grape | ": 26,
+      "Infant Formula - Dairy | ": 74,
+      "Infant Formula - Soy | ": 15,
+      "Kale - Organic | ": 1,
+      "Kale | ": 3,
+      "Lettuce - Leaf | ": 24,
+      "Lettuce - head | ": 1,
+      "Lettuce | ": 12,
+      "Melon - Cantaloupe | ": 16,
+      "Milk | ": 42,
+      "Misc Vegetables | ": 11,
+      "Orange - Organic | ": 1,
+      "Orange | ": 22,
+      "Radicchio | ": 1,
+      "Spinach | ": 40,
+      "Strawberry | ": 19,
+      "Tomato (GH) | ": 1,
+      "Tomato | ": 54,
+      "Watermelon | ": 24,
+      "Yogurt | ": 24
+    },
+    "product_function": {
+      "Arugula": {
+        "Domestic": 2,
+        "Import": 4
+      },
+      "Bean - Green/Yellow": {
+        "Domestic": 7,
+        "Import": 16
+      },
+      "Broccoli": {
+        "Domestic": 5,
+        "Import": 18
+      },
+      "Broccoli - Organic": {
+        "Import": 1
+      },
+      "Cabbage": {
+        "Domestic": 14,
+        "Import": 11
+      },
+      "Cabbage - Chinese": {
+        "Import": 2
+      },
+      "Carrot": {
+        "Domestic": 24,
+        "Import": 15
+      },
+      "Carrot - Organic": {
+        "Import": 1
+      },
+      "Celery": {
+        "Domestic": 6,
+        "Import": 16
+      },
+      "Celery - Organic": {
+        "Import": 2
+      },
+      "Chard": {
+        "Domestic": 6
+      },
+      "Chard - Organic": {
+        "Import": 2
+      },
+      "Cheese": {
+        "Domestic": 4,
+        "Import": 19
+      },
+      "Cucumber": {
+        "Domestic": 9,
+        "Import": 13
+      },
+      "Grape": {
+        "Domestic": 6,
+        "Import": 20
+      },
+      "Grape - Organic": {
+        "Import": 3
+      },
+      "Infant Formula - Dairy": {
+        "Import": 74
+      },
+      "Infant Formula - Soy": {
+        "Import": 15
+      },
+      "Kale": {
+        "Domestic": 3
+      },
+      "Kale - Organic": {
+        "Import": 1
+      },
+      "Lettuce": {
+        "Domestic": 6,
+        "Import": 6
+      },
+      "Lettuce - Leaf": {
+        "Domestic": 8,
+        "Import": 16
+      },
+      "Lettuce - head": {
+        "Domestic": 1
+      },
+      "Melon - Cantaloupe": {
+        "Domestic": 1,
+        "Import": 15
+      },
+      "Milk": {
+        "Domestic": 42
+      },
+      "Misc Vegetables": {
+        "Domestic": 5,
+        "Import": 6
+      },
+      "Orange": {
+        "Domestic": 2,
+        "Import": 20
+      },
+      "Orange - Organic": {
+        "Import": 1
+      },
+      "Radicchio": {
+        "Import": 1
+      },
+      "Spinach": {
+        "Domestic": 8,
+        "Import": 30,
+        "Unknown": 2
+      },
+      "Strawberry": {
+        "Domestic": 6,
+        "Import": 13
+      },
+      "Tomato": {
+        "Domestic": 22,
+        "Import": 32
+      },
+      "Tomato (GH)": {
+        "Domestic": 1
+      },
+      "Watermelon": {
+        "Domestic": 4,
+        "Import": 20
+      },
+      "Yogurt": {
+        "Domestic": 24
+      }
+    },
+    "product_id_runs": {
+      "Arugula": [],
+      "Bean - Green/Yellow": [],
+      "Broccoli": [],
+      "Broccoli - Organic": [],
+      "Cabbage": [],
+      "Cabbage - Chinese": [],
+      "Carrot": [],
+      "Carrot - Organic": [],
+      "Celery": [],
+      "Celery - Organic": [],
+      "Chard": [],
+      "Chard - Organic": [],
+      "Cheese": [],
+      "Cucumber": [],
+      "Grape": [],
+      "Grape - Organic": [],
+      "Infant Formula - Dairy": [],
+      "Infant Formula - Soy": [],
+      "Kale": [],
+      "Kale - Organic": [],
+      "Lettuce": [],
+      "Lettuce - Leaf": [],
+      "Lettuce - head": [],
+      "Melon - Cantaloupe": [],
+      "Milk": [],
+      "Misc Vegetables": [],
+      "Orange": [],
+      "Orange - Organic": [],
+      "Radicchio": [],
+      "Spinach": [],
+      "Strawberry": [],
+      "Tomato": [],
+      "Tomato (GH)": [],
+      "Watermelon": [],
+      "Yogurt": []
+    },
+    "product_origin_top": {
+      "Arugula": {
+        "CANADA": 2,
+        "UNITED STATES": 3,
+        "UNKNOWN": 1
+      },
+      "Bean - Green/Yellow": {
+        "CANADA": 7,
+        "UNITED STATES": 14,
+        "UNKNOWN": 2
+      },
+      "Broccoli": {
+        "CANADA": 5,
+        "UNITED STATES": 17,
+        "UNKNOWN": 1
+      },
+      "Broccoli - Organic": {
+        "MEXICO": 1
+      },
+      "Cabbage": {
+        "CANADA": 14,
+        "TAIWAN, PROVINCE OF CHINA": 1,
+        "UNITED STATES": 10
+      },
+      "Cabbage - Chinese": {
+        "CHINA": 1,
+        "UNITED STATES": 1
+      },
+      "Carrot": {
+        "CANADA": 24,
+        "UNITED STATES": 15
+      },
+      "Carrot - Organic": {
+        "UNITED STATES": 1
+      },
+      "Celery": {
+        "CANADA": 6,
+        "UNITED STATES": 16
+      },
+      "Celery - Organic": {
+        "UNITED STATES": 2
+      },
+      "Chard": {
+        "CANADA": 6
+      },
+      "Chard - Organic": {
+        "UNITED STATES": 1,
+        "UNKNOWN": 1
+      },
+      "Cheese": {
+        "CANADA": 4,
+        "DENMARK": 4,
+        "FRANCE": 4,
+        "GREECE": 1,
+        "ITALY": 2,
+        "NETHERLANDS": 3,
+        "NORWAY": 1,
+        "SWITZERLAND": 1,
+        "UNITED KINGDOM": 1,
+        "UNITED STATES": 2
+      },
+      "Cucumber": {
+        "CANADA": 9,
+        "MEXICO": 3,
+        "UNITED STATES": 10
+      },
+      "Grape": {
+        "CANADA": 6,
+        "CHILE": 1,
+        "MEXICO": 5,
+        "UNITED STATES": 14
+      },
+      "Grape - Organic": {
+        "UNITED STATES": 3
+      },
+      "Infant Formula - Dairy": {
+        "IRELAND": 5,
+        "UNITED STATES": 44,
+        "UNKNOWN": 6,
+        "Unknown": 19
+      },
+      "Infant Formula - Soy": {
+        "NETHERLANDS": 4,
+        "SWITZERLAND": 2,
+        "UNITED STATES": 7,
+        "UNKNOWN": 2
+      },
+      "Kale": {
+        "CANADA": 3
+      },
+      "Kale - Organic": {
+        "UNITED STATES": 1
+      },
+      "Lettuce": {
+        "CANADA": 6,
+        "UNITED STATES": 6
+      },
+      "Lettuce - Leaf": {
+        "CANADA": 8,
+        "UNITED STATES": 16
+      },
+      "Lettuce - head": {
+        "CANADA": 1
+      },
+      "Melon - Cantaloupe": {
+        "CANADA": 1,
+        "GUATEMALA": 1,
+        "UNITED STATES": 13,
+        "UNKNOWN": 1
+      },
+      "Milk": {
+        "CANADA": 42
+      },
+      "Misc Vegetables": {
+        "CANADA": 5,
+        "UNITED STATES": 6
+      },
+      "Orange": {
+        "AUSTRALIA": 1,
+        "CANADA": 2,
+        "CHILE": 1,
+        "MOROCCO": 1,
+        "SOUTH AFRICA": 4,
+        "UNITED STATES": 9,
+        "UNKNOWN": 4
+      },
+      "Orange - Organic": {
+        "UNITED STATES": 1
+      },
+      "Radicchio": {
+        "UNITED STATES": 1
+      },
+      "Spinach": {
+        "CANADA": 8,
+        "UNITED STATES": 29,
+        "United States": 1,
+        "Unknown": 2
+      },
+      "Strawberry": {
+        "CANADA": 6,
+        "MEXICO": 2,
+        "UNITED STATES": 11
+      },
+      "Tomato": {
+        "CANADA": 22,
+        "MEXICO": 11,
+        "UNITED STATES": 21
+      },
+      "Tomato (GH)": {
+        "CANADA": 1
+      },
+      "Watermelon": {
+        "CANADA": 4,
+        "MEXICO": 8,
+        "UNITED STATES": 9,
+        "UNKNOWN": 3
+      },
+      "Yogurt": {
+        "CANADA": 24
+      }
+    },
+    "products": {
+      "Arugula": 6,
+      "Bean - Green/Yellow": 23,
+      "Broccoli": 23,
+      "Broccoli - Organic": 1,
+      "Cabbage": 25,
+      "Cabbage - Chinese": 2,
+      "Carrot": 39,
+      "Carrot - Organic": 1,
+      "Celery": 22,
+      "Celery - Organic": 2,
+      "Chard": 6,
+      "Chard - Organic": 2,
+      "Cheese": 23,
+      "Cucumber": 22,
+      "Grape": 26,
+      "Grape - Organic": 3,
+      "Infant Formula - Dairy": 74,
+      "Infant Formula - Soy": 15,
+      "Kale": 3,
+      "Kale - Organic": 1,
+      "Lettuce": 12,
+      "Lettuce - Leaf": 24,
+      "Lettuce - head": 1,
+      "Melon - Cantaloupe": 16,
+      "Milk": 42,
+      "Misc Vegetables": 11,
+      "Orange": 22,
+      "Orange - Organic": 1,
+      "Radicchio": 1,
+      "Spinach": 40,
+      "Strawberry": 19,
+      "Tomato": 54,
+      "Tomato (GH)": 1,
+      "Watermelon": 24,
+      "Yogurt": 24
+    },
+    "regions": {
+      "": 223,
+      "ATLANTIC": 63,
+      "ONTARIO": 108,
+      "QUEBEC": 88,
+      "WEST": 129
+    },
+    "repeated_component_samples": {},
+    "rows": 611,
+    "rows_per_sample": {
+      "1": 611
+    },
+    "samples": 611,
+    "shapes": {
+      "number": 611
+    },
+    "shapes_by_component": {
+      "Perchlorate": {
+        "number": 611
+      }
+    },
+    "tests": {
+      "PERCHLORATE": 611
+    },
+    "tokens": {},
+    "units": {
+      "ng/g": 611
+    },
+    "units_by_component": {
+      "Perchlorate": {
+        "ng/g": 611
+      }
+    }
+  },
+  "columns": {
+    "columns": [
+      {
+        "distinct_text": 0,
+        "name": "Sample No. – No. d’échantillon",
+        "sample_column": true,
+        "shapes": {
+          "token": 611
+        },
+        "text_rows": {},
+        "text_samples": {},
+        "value_like": false
+      },
+      {
+        "distinct_text": 4,
+        "name": "Region - Région",
+        "sample_column": false,
+        "shapes": {
+          "blank": 223,
+          "token": 388
+        },
+        "text_rows": {
+          "ATLANTIC": 63,
+          "ONTARIO": 108,
+          "QUEBEC": 88,
+          "WEST": 129
+        },
+        "text_samples": {
+          "ATLANTIC": 63,
+          "ONTARIO": 108,
+          "QUEBEC": 88,
+          "WEST": 129
+        },
+        "value_like": false
+      },
+      {
+        "distinct_text": 3,
+        "name": "Function",
+        "sample_column": false,
+        "shapes": {
+          "token": 611
+        },
+        "text_rows": {
+          "Domestic": 216,
+          "Import": 393,
+          "Unknown": 2
+        },
+        "text_samples": {
+          "Domestic": 216,
+          "Import": 393,
+          "Unknown": 2
+        },
+        "value_like": false
+      },
+      {
+        "distinct_text": 3,
+        "name": "Fonction",
+        "sample_column": false,
+        "shapes": {
+          "token": 611
+        },
+        "text_rows": {
+          "Domestique": 216,
+          "Importé": 393,
+          "Inconnu": 2
+        },
+        "text_samples": {
+          "Domestique": 216,
+          "Importé": 393,
+          "Inconnu": 2
+        },
+        "value_like": false
+      },
+      {
+        "distinct_text": 22,
+        "name": "Origin",
+        "sample_column": false,
+        "shapes": {
+          "token": 611
+        },
+        "text_rows": {
+          "AUSTRALIA": 1,
+          "CANADA": 216,
+          "CHILE": 2,
+          "CHINA": 1,
+          "DENMARK": 4,
+          "FRANCE": 4,
+          "GREECE": 1,
+          "GUATEMALA": 1,
+          "IRELAND": 5,
+          "ITALY": 2,
+          "MEXICO": 30,
+          "MOROCCO": 1,
+          "NETHERLANDS": 7,
+          "NORWAY": 1,
+          "SOUTH AFRICA": 4,
+          "SWITZERLAND": 3,
+          "TAIWAN, PROVINCE OF CHINA": 1,
+          "UNITED KINGDOM": 1,
+          "UNITED STATES": 283,
+          "UNKNOWN": 21,
+          "United States": 1,
+          "Unknown": 21
+        },
+        "text_samples": {
+          "AUSTRALIA": 1,
+          "CANADA": 216,
+          "CHILE": 2,
+          "CHINA": 1,
+          "DENMARK": 4,
+          "FRANCE": 4,
+          "GREECE": 1,
+          "GUATEMALA": 1,
+          "IRELAND": 5,
+          "ITALY": 2,
+          "MEXICO": 30,
+          "MOROCCO": 1,
+          "NETHERLANDS": 7,
+          "NORWAY": 1,
+          "SOUTH AFRICA": 4,
+          "SWITZERLAND": 3,
+          "TAIWAN, PROVINCE OF CHINA": 1,
+          "UNITED KINGDOM": 1,
+          "UNITED STATES": 283,
+          "UNKNOWN": 21,
+          "United States": 1,
+          "Unknown": 21
+        },
+        "value_like": false
+      },
+      {
+        "distinct_text": 22,
+        "name": "Origine",
+        "sample_column": false,
+        "shapes": {
+          "token": 611
+        },
+        "text_rows": {
+          "AFRIQUE DU SUD": 4,
+          "AUSTRALIE": 1,
+          "CANADA": 216,
+          "CHILI": 2,
+          "CHINE": 1,
+          "DANEMARK": 4,
+          "FRANCE": 4,
+          "GRÈCE": 1,
+          "GUATEMALA": 1,
+          "INCONNU": 21,
+          "IRLANDE": 5,
+          "ITALIE": 2,
+          "Inconnu": 21,
+          "MAROC": 1,
+          "MEXIQUE": 30,
+          "NORVÈGE": 1,
+          "PAYS-BAS": 7,
+          "ROYAUME-UNI": 1,
+          "SUISSE": 3,
+          "TAÏWAN, PROVINCE DE CHINE": 1,
+          "ÉTATS-UNIS": 283,
+          "États-Unis": 1
+        },
+        "text_samples": {
+          "AFRIQUE DU SUD": 4,
+          "AUSTRALIE": 1,
+          "CANADA": 216,
+          "CHILI": 2,
+          "CHINE": 1,
+          "DANEMARK": 4,
+          "FRANCE": 4,
+          "GRÈCE": 1,
+          "GUATEMALA": 1,
+          "INCONNU": 21,
+          "IRLANDE": 5,
+          "ITALIE": 2,
+          "Inconnu": 21,
+          "MAROC": 1,
+          "MEXIQUE": 30,
+          "NORVÈGE": 1,
+          "PAYS-BAS": 7,
+          "ROYAUME-UNI": 1,
+          "SUISSE": 3,
+          "TAÏWAN, PROVINCE DE CHINE": 1,
+          "ÉTATS-UNIS": 283,
+          "États-Unis": 1
+        },
+        "value_like": false
+      },
+      {
+        "distinct_text": 35,
+        "name": "Product",
+        "sample_column": false,
+        "shapes": {
+          "token": 611
+        },
+        "text_rows": {
+          "Arugula": 6,
+          "Bean - Green/Yellow": 23,
+          "Broccoli": 23,
+          "Broccoli - Organic": 1,
+          "Cabbage": 25,
+          "Cabbage - Chinese": 2,
+          "Carrot": 39,
+          "Carrot - Organic": 1,
+          "Celery": 22,
+          "Celery - Organic": 2,
+          "Chard": 6,
+          "Chard - Organic": 2,
+          "Cheese": 23,
+          "Cucumber": 22,
+          "Grape": 26,
+          "Grape - Organic": 3,
+          "Infant Formula - Dairy": 74,
+          "Infant Formula - Soy": 15,
+          "Kale": 3,
+          "Kale - Organic": 1,
+          "Lettuce": 12,
+          "Lettuce - Leaf": 24,
+          "Lettuce - head": 1,
+          "Melon - Cantaloupe": 16,
+          "Milk": 42,
+          "Misc Vegetables": 11,
+          "Orange": 22,
+          "Orange - Organic": 1,
+          "Radicchio": 1,
+          "Spinach": 40,
+          "Strawberry": 19,
+          "Tomato": 54,
+          "Tomato (GH)": 1,
+          "Watermelon": 24,
+          "Yogurt": 24
+        },
+        "text_samples": {
+          "Arugula": 6,
+          "Bean - Green/Yellow": 23,
+          "Broccoli": 23,
+          "Broccoli - Organic": 1,
+          "Cabbage": 25,
+          "Cabbage - Chinese": 2,
+          "Carrot": 39,
+          "Carrot - Organic": 1,
+          "Celery": 22,
+          "Celery - Organic": 2,
+          "Chard": 6,
+          "Chard - Organic": 2,
+          "Cheese": 23,
+          "Cucumber": 22,
+          "Grape": 26,
+          "Grape - Organic": 3,
+          "Infant Formula - Dairy": 74,
+          "Infant Formula - Soy": 15,
+          "Kale": 3,
+          "Kale - Organic": 1,
+          "Lettuce": 12,
+          "Lettuce - Leaf": 24,
+          "Lettuce - head": 1,
+          "Melon - Cantaloupe": 16,
+          "Milk": 42,
+          "Misc Vegetables": 11,
+          "Orange": 22,
+          "Orange - Organic": 1,
+          "Radicchio": 1,
+          "Spinach": 40,
+          "Strawberry": 19,
+          "Tomato": 54,
+          "Tomato (GH)": 1,
+          "Watermelon": 24,
+          "Yogurt": 24
+        },
+        "value_like": false
+      },
+      {
+        "distinct_text": 35,
+        "name": "Produit",
+        "sample_column": false,
+        "shapes": {
+          "token": 611
+        },
+        "text_rows": {
+          "Bette à cardes": 6,
+          "Bette à cardes-Biologique": 2,
+          "Brocoli": 23,
+          "Brocoli-Biologique": 1,
+          "Carotte": 39,
+          "Carotte-Biologique": 1,
+          "Chou": 25,
+          "Chou Chinois": 2,
+          "Chou frisé": 3,
+          "Chou frisé-Biologique": 1,
+          "Concombre": 22,
+          "Céleri": 22,
+          "Céleri-Biologique": 2,
+          "Fraise": 19,
+          "Fromage": 23,
+          "Haricot vert/jaune": 23,
+          "Lait": 42,
+          "Laitue": 12,
+          "Laitue-Frisée": 24,
+          "Laitue-Pommée": 1,
+          "Légumes Divers": 11,
+          "Melon cantaloup": 16,
+          "Melon d'eau": 24,
+          "Orange": 22,
+          "Orange-Biologique": 1,
+          "Préparation pour nourrissons - Laitier": 74,
+          "Préparation pour nourrissons - Soja": 15,
+          "Radicchio": 1,
+          "Raisin": 26,
+          "Raisin-Biologique": 3,
+          "Roquette": 6,
+          "Tomate": 54,
+          "Tomate (Serre)": 1,
+          "Yogourt": 24,
+          "Épinard": 40
+        },
+        "text_samples": {
+          "Bette à cardes": 6,
+          "Bette à cardes-Biologique": 2,
+          "Brocoli": 23,
+          "Brocoli-Biologique": 1,
+          "Carotte": 39,
+          "Carotte-Biologique": 1,
+          "Chou": 25,
+          "Chou Chinois": 2,
+          "Chou frisé": 3,
+          "Chou frisé-Biologique": 1,
+          "Concombre": 22,
+          "Céleri": 22,
+          "Céleri-Biologique": 2,
+          "Fraise": 19,
+          "Fromage": 23,
+          "Haricot vert/jaune": 23,
+          "Lait": 42,
+          "Laitue": 12,
+          "Laitue-Frisée": 24,
+          "Laitue-Pommée": 1,
+          "Légumes Divers": 11,
+          "Melon cantaloup": 16,
+          "Melon d'eau": 24,
+          "Orange": 22,
+          "Orange-Biologique": 1,
+          "Préparation pour nourrissons - Laitier": 74,
+          "Préparation pour nourrissons - Soja": 15,
+          "Radicchio": 1,
+          "Raisin": 26,
+          "Raisin-Biologique": 3,
+          "Roquette": 6,
+          "Tomate": 54,
+          "Tomate (Serre)": 1,
+          "Yogourt": 24,
+          "Épinard": 40
+        },
+        "value_like": false
+      },
+      {
+        "distinct_text": 94,
+        "name": "Date Sampled – Date d’échantillonage",
+        "sample_column": false,
+        "shapes": {
+          "token": 611
+        },
+        "text_rows": {
+          "01-Dec-10": 5,
+          "01-Feb-11": 3,
+          "01-Nov-10": 4,
+          "02-Dec-10": 22,
+          "02-Feb-11": 2,
+          "02-Nov-10": 17,
+          "03-Aug-10": 5,
+          "03-Dec-10": 3,
+          "03-Feb-11": 4,
+          "03-Mar-11": 1,
+          "03-Nov-10": 20,
+          "03-Oct-10": 3,
+          "04-Aug-10": 1,
+          "04-Feb-11": 5,
+          "05-Aug-10": 5,
+          "05-Jul-10": 1,
+          "05-Nov-10": 2,
+          "05-Oct-10": 3,
+          "06-Aug-10": 1,
+          "06-Dec-10": 4,
+          "06-Feb-11": 2,
+          "06-Jul-10": 9,
+          "06-Nov-10": 1,
+          "07-Feb-11": 3,
+          "07-Jul-10": 2,
+          "07-Nov-10": 4,
+          "08-Dec-10": 4,
+          "08-Nov-10": 12,
+          "09-Aug-10": 1,
+          "09-Feb-11": 2,
+          "09-Mar-11": 7,
+          "09-Nov-10": 22,
+          "10-Aug-10": 3,
+          "10-Mar-11": 1,
+          "10-Nov-10": 9,
+          "11-Aug-10": 1,
+          "11-Nov-10": 8,
+          "12-Aug-10": 5,
+          "12-Dec-10": 1,
+          "12-Feb-11": 3,
+          "12-Jan-11": 10,
+          "12-Jul-10": 1,
+          "12-Nov-10": 6,
+          "12-Oct-10": 7,
+          "13-Dec-10": 1,
+          "13-Jul-10": 2,
+          "13-Oct-10": 1,
+          "14-Jul-10": 5,
+          "14-Mar-11": 2,
+          "14-Nov-10": 5,
+          "15-Jul-10": 1,
+          "15-Nov-10": 7,
+          "16-Feb-11": 2,
+          "16-Nov-10": 3,
+          "17-Aug-10": 12,
+          "17-Jan-11": 3,
+          "17-Nov-10": 12,
+          "19-Dec-10": 5,
+          "19-Nov-10": 7,
+          "19-Oct-10": 12,
+          "20-Aug-10": 7,
+          "20-Jan-11": 3,
+          "20-Jul-10": 15,
+          "20-Nov-10": 5,
+          "20-Oct-10": 3,
+          "20-Sep-10": 4,
+          "21-Aug-10": 3,
+          "21-Jul-10": 5,
+          "21-Nov-10": 9,
+          "22-Nov-10": 8,
+          "23-Aug-10": 22,
+          "23-Feb-11": 2,
+          "23-Jul-10": 8,
+          "23-Nov-10": 7,
+          "24-Aug-10": 13,
+          "24-Nov-10": 4,
+          "24-Oct-10": 3,
+          "25-Aug-10": 1,
+          "25-Nov-10": 7,
+          "25-Oct-10": 12,
+          "26-Jul-10": 18,
+          "26-Nov-10": 8,
+          "26-Oct-10": 13,
+          "27-Jul-10": 15,
+          "27-Oct-10": 5,
+          "28-Feb-11": 3,
+          "28-Jul-10": 13,
+          "28-Nov-10": 25,
+          "28-Oct-10": 25,
+          "29-Jul-10": 7,
+          "29-Nov-10": 12,
+          "30-Jul-10": 4,
+          "30-Nov-10": 4,
+          "31-Jan-11": 3
+        },
+        "text_samples": {
+          "01-Dec-10": 5,
+          "01-Feb-11": 3,
+          "01-Nov-10": 4,
+          "02-Dec-10": 22,
+          "02-Feb-11": 2,
+          "02-Nov-10": 17,
+          "03-Aug-10": 5,
+          "03-Dec-10": 3,
+          "03-Feb-11": 4,
+          "03-Mar-11": 1,
+          "03-Nov-10": 20,
+          "03-Oct-10": 3,
+          "04-Aug-10": 1,
+          "04-Feb-11": 5,
+          "05-Aug-10": 5,
+          "05-Jul-10": 1,
+          "05-Nov-10": 2,
+          "05-Oct-10": 3,
+          "06-Aug-10": 1,
+          "06-Dec-10": 4,
+          "06-Feb-11": 2,
+          "06-Jul-10": 9,
+          "06-Nov-10": 1,
+          "07-Feb-11": 3,
+          "07-Jul-10": 2,
+          "07-Nov-10": 4,
+          "08-Dec-10": 4,
+          "08-Nov-10": 12,
+          "09-Aug-10": 1,
+          "09-Feb-11": 2,
+          "09-Mar-11": 7,
+          "09-Nov-10": 22,
+          "10-Aug-10": 3,
+          "10-Mar-11": 1,
+          "10-Nov-10": 9,
+          "11-Aug-10": 1,
+          "11-Nov-10": 8,
+          "12-Aug-10": 5,
+          "12-Dec-10": 1,
+          "12-Feb-11": 3,
+          "12-Jan-11": 10,
+          "12-Jul-10": 1,
+          "12-Nov-10": 6,
+          "12-Oct-10": 7,
+          "13-Dec-10": 1,
+          "13-Jul-10": 2,
+          "13-Oct-10": 1,
+          "14-Jul-10": 5,
+          "14-Mar-11": 2,
+          "14-Nov-10": 5,
+          "15-Jul-10": 1,
+          "15-Nov-10": 7,
+          "16-Feb-11": 2,
+          "16-Nov-10": 3,
+          "17-Aug-10": 12,
+          "17-Jan-11": 3,
+          "17-Nov-10": 12,
+          "19-Dec-10": 5,
+          "19-Nov-10": 7,
+          "19-Oct-10": 12,
+          "20-Aug-10": 7,
+          "20-Jan-11": 3,
+          "20-Jul-10": 15,
+          "20-Nov-10": 5,
+          "20-Oct-10": 3,
+          "20-Sep-10": 4,
+          "21-Aug-10": 3,
+          "21-Jul-10": 5,
+          "21-Nov-10": 9,
+          "22-Nov-10": 8,
+          "23-Aug-10": 22,
+          "23-Feb-11": 2,
+          "23-Jul-10": 8,
+          "23-Nov-10": 7,
+          "24-Aug-10": 13,
+          "24-Nov-10": 4,
+          "24-Oct-10": 3,
+          "25-Aug-10": 1,
+          "25-Nov-10": 7,
+          "25-Oct-10": 12,
+          "26-Jul-10": 18,
+          "26-Nov-10": 8,
+          "26-Oct-10": 13,
+          "27-Jul-10": 15,
+          "27-Oct-10": 5,
+          "28-Feb-11": 3,
+          "28-Jul-10": 13,
+          "28-Nov-10": 25,
+          "28-Oct-10": 25,
+          "29-Jul-10": 7,
+          "29-Nov-10": 12,
+          "30-Jul-10": 4,
+          "30-Nov-10": 4,
+          "31-Jan-11": 3
+        },
+        "value_like": false
+      },
+      {
+        "distinct_text": 1,
+        "name": "Type of Test",
+        "sample_column": false,
+        "shapes": {
+          "token": 611
+        },
+        "text_rows": {
+          "PERCHLORATE": 611
+        },
+        "text_samples": {
+          "PERCHLORATE": 611
+        },
+        "value_like": false
+      },
+      {
+        "distinct_text": 1,
+        "name": "Type d’analyse",
+        "sample_column": false,
+        "shapes": {
+          "token": 611
+        },
+        "text_rows": {
+          "PERCHLORATE": 611
+        },
+        "text_samples": {
+          "PERCHLORATE": 611
+        },
+        "value_like": false
+      },
+      {
+        "distinct_text": 1,
+        "name": "Component",
+        "sample_column": false,
+        "shapes": {
+          "token": 611
+        },
+        "text_rows": {
+          "Perchlorate": 611
+        },
+        "text_samples": {
+          "Perchlorate": 611
+        },
+        "value_like": false
+      },
+      {
+        "distinct_text": 1,
+        "name": "Composant",
+        "sample_column": false,
+        "shapes": {
+          "token": 611
+        },
+        "text_rows": {
+          "Perchlorate": 611
+        },
+        "text_samples": {
+          "Perchlorate": 611
+        },
+        "value_like": false
+      },
+      {
+        "distinct_text": 0,
+        "name": "Result - Résultat",
+        "sample_column": false,
+        "shapes": {
+          "number": 611
+        },
+        "text_rows": {},
+        "text_samples": {},
+        "value_like": true
+      },
+      {
+        "distinct_text": 1,
+        "name": "Unit - Unité",
+        "sample_column": false,
+        "shapes": {
+          "token": 611
+        },
+        "text_rows": {
+          "ng/g": 611
+        },
+        "text_samples": {
+          "ng/g": 611
+        },
+        "value_like": false
+      },
+      {
+        "distinct_text": 1,
+        "name": "Plan Code - Code du régime",
+        "sample_column": false,
+        "shapes": {
+          "token": 611
+        },
+        "text_rows": {
+          "2010_TS006": 611
+        },
+        "text_samples": {
+          "2010_TS006": 611
+        },
+        "value_like": false
+      }
+    ],
+    "header_width": 16,
+    "row_widths": {
+      "16": 611
+    },
+    "rows": 611,
+    "samples": 611
+  },
+  "dataset": "436bec6d-f410-45cc-89ff-f5331cfa663c",
+  "encoding": "cp1252",
+  "gate_facts": {
+    "analyte_labels": 1,
+    "bytes": 95033,
+    "census_error": null,
+    "md5": true,
+    "one_analyte": true,
+    "one_row_per_sample": true,
+    "one_unit": true,
+    "rows": 611,
+    "rows_per_sample": {
+      "1": 611
+    },
+    "samples": 611,
+    "samples_match": true,
+    "size": true,
+    "unit_labels": [
+      "ng/g"
+    ]
+  },
+  "md5": "f497970ea94e7d4eaf74fdabb9535bca",
+  "md5_matches_portal": true,
+  "portal_md5": "f497970ea94e7d4eaf74fdabb9535bca",
+  "portal_size": 95033,
+  "product_years": {
+    "ambiguous": 0,
+    "by_product": {
+      "Arugula": {
+        "2010-11": 6
+      },
+      "Bean - Green/Yellow": {
+        "2010-11": 23
+      },
+      "Broccoli": {
+        "2010-11": 23
+      },
+      "Broccoli - Organic": {
+        "2010-11": 1
+      },
+      "Cabbage": {
+        "2010-11": 25
+      },
+      "Cabbage - Chinese": {
+        "2010-11": 2
+      },
+      "Carrot": {
+        "2010-11": 39
+      },
+      "Carrot - Organic": {
+        "2010-11": 1
+      },
+      "Celery": {
+        "2010-11": 22
+      },
+      "Celery - Organic": {
+        "2010-11": 2
+      },
+      "Chard": {
+        "2010-11": 6
+      },
+      "Chard - Organic": {
+        "2010-11": 2
+      },
+      "Cheese": {
+        "2010-11": 23
+      },
+      "Cucumber": {
+        "2010-11": 22
+      },
+      "Grape": {
+        "2010-11": 26
+      },
+      "Grape - Organic": {
+        "2010-11": 3
+      },
+      "Infant Formula - Dairy": {
+        "2010-11": 74
+      },
+      "Infant Formula - Soy": {
+        "2010-11": 15
+      },
+      "Kale": {
+        "2010-11": 3
+      },
+      "Kale - Organic": {
+        "2010-11": 1
+      },
+      "Lettuce": {
+        "2010-11": 12
+      },
+      "Lettuce - Leaf": {
+        "2010-11": 24
+      },
+      "Lettuce - head": {
+        "2010-11": 1
+      },
+      "Melon - Cantaloupe": {
+        "2010-11": 16
+      },
+      "Milk": {
+        "2010-11": 42
+      },
+      "Misc Vegetables": {
+        "2010-11": 11
+      },
+      "Orange": {
+        "2010-11": 22
+      },
+      "Orange - Organic": {
+        "2010-11": 1
+      },
+      "Radicchio": {
+        "2010-11": 1
+      },
+      "Spinach": {
+        "2010-11": 40
+      },
+      "Strawberry": {
+        "2010-11": 19
+      },
+      "Tomato": {
+        "2010-11": 54
+      },
+      "Tomato (GH)": {
+        "2010-11": 1
+      },
+      "Watermelon": {
+        "2010-11": 24
+      },
+      "Yogurt": {
+        "2010-11": 24
+      }
+    },
+    "by_year": {
+      "2010-11": 611
+    },
+    "date_column": 8,
+    "date_shapes": {
+      "99-Aaa-99": 611
+    },
+    "first": "2010-07-05",
+    "last": "2011-03-14",
+    "product_column": 6,
+    "sample_column": 0,
+    "unparsed": 0
+  },
+  "resource": "46630289-3b83-4392-b648-da594e5357ce",
+  "sha256": "cbb3f23b789f42a6e2f588d1209bc63b5190ca0b930837c3ad542a34d731bd1b",
+  "size_matches_portal": true,
+  "source": "https://open.canada.ca/data/dataset/436bec6d-f410-45cc-89ff-f5331cfa663c/resource/46630289-3b83-4392-b648-da594e5357ce/download/cfia_acia-1339-v1-cfia_acia_-_19007386_-_fsap_chem_ts_-_2010-11_perchlorate_in_fresh_fruits_and_.csv",
+  "study": "perchlorate-p10-census",
+  "version": "0.1.0"
+}
