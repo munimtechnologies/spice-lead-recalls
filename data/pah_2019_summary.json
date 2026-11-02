@@ -1,0 +1,678 @@
+{
+  "analysis": {
+    "any_pah": {
+      "formula": 32,
+      "nuts": 112,
+      "olive": 146
+    },
+    "bap": {
+      "formula": {
+        "k": 4,
+        "max": 0.4408,
+        "mean": 0.2082,
+        "min": 0.03,
+        "n": 34,
+        "pct": 11.764705882352942
+      },
+      "nuts": {
+        "k": 8,
+        "max": 2.45,
+        "mean": 0.63905,
+        "min": 0.083,
+        "n": 114,
+        "pct": 7.017543859649122
+      },
+      "olive": {
+        "k": 32,
+        "max": 3.1,
+        "mean": 0.584925,
+        "min": 0.3033,
+        "n": 148,
+        "pct": 21.62162162162162
+      }
+    },
+    "dates": {
+      "blank": 0,
+      "distinct": 132,
+      "first": [
+        "01-Aug-19",
+        "01-Jul-19",
+        "01-Mar-20"
+      ],
+      "last": [
+        "29-Jul-19",
+        "30-Oct-19",
+        "31-Jan-20"
+      ],
+      "most_on_one_date": 9
+    },
+    "eu_bap_over": [
+      {
+        "bap": 3.1,
+        "function": "Import",
+        "origin": "GREECE",
+        "pah4": 6.48,
+        "product": "Oil - Olive",
+        "sample": "C2019PAHS00056A",
+        "teq": 3.2454
+      }
+    ],
+    "eu_pah4_over": [
+      {
+        "bap": 1.7306,
+        "function": "Import",
+        "origin": "UNKNOWN",
+        "pah4": 12.051,
+        "product": "Oil - Olive",
+        "sample": "C2019PAHS00104A",
+        "teq": 2.221137
+      },
+      {
+        "bap": 0.0,
+        "function": "Import",
+        "origin": "LEBANON",
+        "pah4": 10.431899999999999,
+        "product": "Oil - Olive",
+        "sample": "C2019PAHS00115A",
+        "teq": 0.351576
+      }
+    ],
+    "formula_kinds": {
+      "dairy": {
+        "k": 16,
+        "max": 0.7760360000000001,
+        "mean": 0.12065725000000001,
+        "min": 0.001,
+        "n": 23,
+        "pct": 69.56521739130434
+      },
+      "soy": {
+        "k": 0,
+        "max": null,
+        "mean": null,
+        "min": null,
+        "n": 11,
+        "pct": 0.0
+      }
+    },
+    "groups": {
+      "all": {
+        "k": 181,
+        "max": 3.2454,
+        "mean": 0.20969917679558012,
+        "min": 0.001,
+        "n": 296,
+        "pct": 61.148648648648646
+      },
+      "formula": {
+        "k": 16,
+        "max": 0.7760360000000001,
+        "mean": 0.12065725000000001,
+        "min": 0.001,
+        "n": 34,
+        "pct": 47.05882352941177
+      },
+      "nuts": {
+        "k": 44,
+        "max": 2.9336,
+        "mean": 0.16605529545454545,
+        "min": 0.0010199999999999999,
+        "n": 114,
+        "pct": 38.59649122807018
+      },
+      "olive": {
+        "k": 121,
+        "max": 3.2454,
+        "mean": 0.23734381818181818,
+        "min": 0.0020050000000000003,
+        "n": 148,
+        "pct": 81.75675675675676
+      }
+    },
+    "n": 296,
+    "nut_top": [
+      {
+        "bap": 2.45,
+        "function": "Domestic",
+        "origin": "CANADA",
+        "pah4": 9.59,
+        "product": "Butter - Pumpkin Seed",
+        "sample": "C2019PAHS00183A",
+        "teq": 2.9336
+      },
+      {
+        "bap": 0.59,
+        "function": "Domestic",
+        "origin": "CANADA",
+        "pah4": 3.21,
+        "product": "Tahini",
+        "sample": "C2019PAHS00204A",
+        "teq": 0.7727999999999999
+      },
+      {
+        "bap": 0.6724,
+        "function": "Domestic",
+        "origin": "CANADA",
+        "pah4": 0.9751000000000001,
+        "product": "Butter - Almond",
+        "sample": "C2019PAHS00274A",
+        "teq": 0.675427
+      }
+    ],
+    "olive_avg": {
+      "table2": true,
+      "table3": false
+    },
+    "olive_high": [
+      {
+        "bap": 3.1,
+        "function": "Import",
+        "origin": "GREECE",
+        "pah4": 6.48,
+        "product": "Oil - Olive",
+        "sample": "C2019PAHS00056A",
+        "teq": 3.2454
+      },
+      {
+        "bap": 2.0,
+        "function": "Import",
+        "origin": "TÜRKIYE",
+        "pah4": 8.14,
+        "product": "Oil - Olive",
+        "sample": "C2019PAHS00048A",
+        "teq": 2.317
+      },
+      {
+        "bap": 1.7306,
+        "function": "Import",
+        "origin": "UNKNOWN",
+        "pah4": 12.051,
+        "product": "Oil - Olive",
+        "sample": "C2019PAHS00104A",
+        "teq": 2.221137
+      }
+    ],
+    "olive_top": [
+      {
+        "bap": 3.1,
+        "function": "Import",
+        "origin": "GREECE",
+        "pah4": 6.48,
+        "product": "Oil - Olive",
+        "sample": "C2019PAHS00056A",
+        "teq": 3.2454
+      },
+      {
+        "bap": 2.0,
+        "function": "Import",
+        "origin": "TÜRKIYE",
+        "pah4": 8.14,
+        "product": "Oil - Olive",
+        "sample": "C2019PAHS00048A",
+        "teq": 2.317
+      },
+      {
+        "bap": 1.7306,
+        "function": "Import",
+        "origin": "UNKNOWN",
+        "pah4": 12.051,
+        "product": "Oil - Olive",
+        "sample": "C2019PAHS00104A",
+        "teq": 2.221137
+      },
+      {
+        "bap": 0.544,
+        "function": "Import",
+        "origin": "UNKNOWN",
+        "pah4": 3.0625999999999998,
+        "product": "Oil - Olive",
+        "sample": "C2019PAHS00135A",
+        "teq": 0.699623
+      },
+      {
+        "bap": 0.5504,
+        "function": "Import",
+        "origin": "SPAIN",
+        "pah4": 2.9625,
+        "product": "Oil - Olive",
+        "sample": "C2019PAHS00004A",
+        "teq": 0.6701550000000001
+      }
+    ],
+    "origins": {
+      "formula": [
+        0,
+        32,
+        2,
+        34
+      ],
+      "nuts": [
+        40,
+        46,
+        28,
+        114
+      ],
+      "olive": [
+        1,
+        135,
+        12,
+        148
+      ]
+    },
+    "origins_table1_diff": {
+      "formula": [
+        0,
+        1,
+        -1,
+        0
+      ],
+      "nuts": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "olive": [
+        0,
+        2,
+        -2,
+        0
+      ]
+    },
+    "pct": {
+      "all": true,
+      "formula": true,
+      "nuts": true,
+      "olive": true
+    },
+    "printed_internal": {
+      "detected_sum": 181,
+      "n_sum": 296,
+      "olive_avg_bounds": [
+        0.22648760330578507,
+        0.24640495867768597
+      ]
+    },
+    "table2": {
+      "all": {
+        "avg": true,
+        "detected": true,
+        "max": true,
+        "min": true,
+        "n": true
+      },
+      "formula": {
+        "avg": true,
+        "detected": true,
+        "max": true,
+        "min": true,
+        "n": true
+      },
+      "nuts": {
+        "avg": true,
+        "detected": true,
+        "max": true,
+        "min": true,
+        "n": true
+      },
+      "olive": {
+        "avg": true,
+        "detected": true,
+        "max": true,
+        "min": true,
+        "n": true
+      }
+    },
+    "twins_16": [
+      [
+        "C2019PAHS00123A",
+        "C2019PAHS00147A"
+      ]
+    ],
+    "twins_pah4": []
+  },
+  "census": {
+    "bad_shapes": [],
+    "columns": {
+      "component": 10,
+      "date": 7,
+      "function": 1,
+      "origin": 3,
+      "plan": 14,
+      "product": 5,
+      "region": null,
+      "sample": 0,
+      "unit": 13,
+      "value": 12
+    },
+    "components": {
+      "Acenaphthene": 296,
+      "Acenaphthylene": 296,
+      "Anthracene": 296,
+      "Benz[a]anthracene": 296,
+      "Benzo[a]pyrene": 296,
+      "Benzo[b]fluoranthene": 296,
+      "Benzo[g,h,i]perylene": 296,
+      "Benzo[k]fluoranthene": 296,
+      "Chrysene": 296,
+      "Dibenz[a,h]anthracene": 296,
+      "Fluoranthene": 296,
+      "Fluorene": 296,
+      "Indeno[1,2,3-cd]pyrene": 296,
+      "Naphthalene": 296,
+      "Phenanthrene": 296,
+      "Pyrene": 296
+    },
+    "ids_bad": [],
+    "kinds": {
+      "det": 2213,
+      "nd": 2523
+    },
+    "missing": {},
+    "plans": {
+      "2019_TS024": 4736
+    },
+    "products": {
+      "Butter - Almond": 7,
+      "Butter - Blend": 7,
+      "Butter - Cashew": 7,
+      "Butter - Hazelnut": 3,
+      "Butter - Peanut": 7,
+      "Butter - Pumpkin Seed": 1,
+      "Butter - Soy": 7,
+      "Butter - Sunflower Seed": 4,
+      "Butter - Walnut": 1,
+      "Infant Formula - Dairy": 23,
+      "Infant Formula - Soy": 11,
+      "Nut - Almond": 1,
+      "Nut - Brazil Nut": 7,
+      "Nut - Cashew": 7,
+      "Nut - Chestnut": 1,
+      "Nut - Hazelnut/Filbert": 7,
+      "Nut - Macadamia Nut": 7,
+      "Nut - PINE NUT": 3,
+      "Nut - Pecan": 7,
+      "Nut - Walnut": 7,
+      "Oil - Olive": 148,
+      "Peanut": 6,
+      "Seed - Chia": 1,
+      "Seed - Flax": 2,
+      "Seed - Pumpkin": 2,
+      "Seed - Sunflower": 5,
+      "Tahini": 7
+    },
+    "repeated": {},
+    "rows": 4736,
+    "rows_per_sample": {
+      "16": 296
+    },
+    "samples": 296,
+    "units": {
+      "ng/g": 4736
+    },
+    "unknown_components": 0
+  },
+  "grader": "pah_2019",
+  "n_graded": 3,
+  "n_met": 3,
+  "predictions": [
+    {
+      "graded": true,
+      "id": "G",
+      "kind": "gate",
+      "met": true,
+      "observed": {
+        "columns": true,
+        "components": true,
+        "per_sample": true,
+        "plan": true,
+        "products": true,
+        "rows": true,
+        "samples": true,
+        "size": true,
+        "units": true,
+        "values": true
+      },
+      "text": "byte size as on the portal record; columns; 4,736 rows; 296 samples, each with one row per the 16 PAHs; unit ng/g and plan 2019_TS024 on every row; the 27 known product labels; every value a number >= 0, a '<' or a not-detected token"
+    },
+    {
+      "graded": true,
+      "id": "D2",
+      "kind": "prediction",
+      "met": true,
+      "observed": {
+        "all_detected": 181,
+        "cells": {
+          "all": {
+            "avg": true,
+            "detected": true,
+            "max": true,
+            "min": true,
+            "n": true
+          },
+          "formula": {
+            "avg": true,
+            "detected": true,
+            "max": true,
+            "min": true,
+            "n": true
+          },
+          "nuts": {
+            "avg": true,
+            "detected": true,
+            "max": true,
+            "min": true,
+            "n": true
+          }
+        },
+        "matched": 12,
+        "stats": {
+          "all": {
+            "k": 181,
+            "max": 3.2454,
+            "mean": 0.20969917679558012,
+            "min": 0.001,
+            "n": 296,
+            "pct": 61.148648648648646
+          },
+          "formula": {
+            "k": 16,
+            "max": 0.7760360000000001,
+            "mean": 0.12065725000000001,
+            "min": 0.001,
+            "n": 34,
+            "pct": 47.05882352941177
+          },
+          "nuts": {
+            "k": 44,
+            "max": 2.9336,
+            "mean": 0.16605529545454545,
+            "min": 0.0010199999999999999,
+            "n": 114,
+            "pct": 38.59649122807018
+          }
+        }
+      },
+      "text": "Table 2's infant formula, nuts and total rows reproduce: at least 11 of their 12 cells (detected, minimum, maximum, average) match; 181 of 296 detected"
+    },
+    {
+      "graded": true,
+      "id": "D3",
+      "kind": "prediction",
+      "met": true,
+      "observed": {
+        "average_matches": {
+          "table2": true,
+          "table3": false
+        },
+        "cells": {
+          "avg": true,
+          "detected": true,
+          "max": true,
+          "min": true,
+          "n": true
+        },
+        "stats": {
+          "k": 121,
+          "max": 3.2454,
+          "mean": 0.23734381818181818,
+          "min": 0.0020050000000000003,
+          "n": 148,
+          "pct": 81.75675675675676
+        }
+      },
+      "text": "olive oil: 121 detected, minimum 0.002, maximum 3.25 (no prediction on Table 2's 0.24 against Table 3's 0.23; the result reports which the file gives)"
+    },
+    {
+      "graded": true,
+      "id": "D4",
+      "kind": "prediction",
+      "met": true,
+      "observed": {
+        "checks": {
+          "dairy_16_of_23_max_0.776": true,
+          "nut_top_pumpkin_seed_butter": true,
+          "olive_three_at_0.700": true,
+          "soy_none": true
+        },
+        "dairy": {
+          "k": 16,
+          "max": 0.7760360000000001,
+          "mean": 0.12065725000000001,
+          "min": 0.001,
+          "n": 23,
+          "pct": 69.56521739130434
+        },
+        "nut_top": [
+          {
+            "bap": 2.45,
+            "function": "Domestic",
+            "origin": "CANADA",
+            "pah4": 9.59,
+            "product": "Butter - Pumpkin Seed",
+            "sample": "C2019PAHS00183A",
+            "teq": 2.9336
+          },
+          {
+            "bap": 0.59,
+            "function": "Domestic",
+            "origin": "CANADA",
+            "pah4": 3.21,
+            "product": "Tahini",
+            "sample": "C2019PAHS00204A",
+            "teq": 0.7727999999999999
+          },
+          {
+            "bap": 0.6724,
+            "function": "Domestic",
+            "origin": "CANADA",
+            "pah4": 0.9751000000000001,
+            "product": "Butter - Almond",
+            "sample": "C2019PAHS00274A",
+            "teq": 0.675427
+          }
+        ],
+        "olive_high": [
+          {
+            "bap": 3.1,
+            "function": "Import",
+            "origin": "GREECE",
+            "pah4": 6.48,
+            "product": "Oil - Olive",
+            "sample": "C2019PAHS00056A",
+            "teq": 3.2454
+          },
+          {
+            "bap": 2.0,
+            "function": "Import",
+            "origin": "TÜRKIYE",
+            "pah4": 8.14,
+            "product": "Oil - Olive",
+            "sample": "C2019PAHS00048A",
+            "teq": 2.317
+          },
+          {
+            "bap": 1.7306,
+            "function": "Import",
+            "origin": "UNKNOWN",
+            "pah4": 12.051,
+            "product": "Oil - Olive",
+            "sample": "C2019PAHS00104A",
+            "teq": 2.221137
+          }
+        ],
+        "soy": {
+          "k": 0,
+          "max": null,
+          "mean": null,
+          "min": null,
+          "n": 11,
+          "pct": 0.0
+        },
+        "ungraded": "four pomace oils, average 0.19, maximum 0.569: no label separates pomace oil"
+      },
+      "text": "the text: 16 of 23 milk-based formulas positive with maximum 0.776 and no soy formula positive; the 2.93 maximum among nuts is a pumpkin seed butter and the next nut is below 0.773; exactly 3 olive oils at 0.700 or more (the pomace clause is ungraded)"
+    },
+    {
+      "graded": false,
+      "id": "D5",
+      "kind": "descriptive",
+      "met": null,
+      "observed": {
+        "bap_over_2": [
+          {
+            "bap": 3.1,
+            "function": "Import",
+            "origin": "GREECE",
+            "pah4": 6.48,
+            "product": "Oil - Olive",
+            "sample": "C2019PAHS00056A",
+            "teq": 3.2454
+          }
+        ],
+        "olive_bap": {
+          "k": 32,
+          "max": 3.1,
+          "mean": 0.584925,
+          "min": 0.3033,
+          "n": 148,
+          "pct": 21.62162162162162
+        },
+        "pah4_over_10": [
+          {
+            "bap": 1.7306,
+            "function": "Import",
+            "origin": "UNKNOWN",
+            "pah4": 12.051,
+            "product": "Oil - Olive",
+            "sample": "C2019PAHS00104A",
+            "teq": 2.221137
+          },
+          {
+            "bap": 0.0,
+            "function": "Import",
+            "origin": "LEBANON",
+            "pah4": 10.431899999999999,
+            "product": "Oil - Olive",
+            "sample": "C2019PAHS00115A",
+            "teq": 0.351576
+          }
+        ]
+      },
+      "text": "descriptive, no prediction: olive oils with benzo[a]pyrene above 2.0 ng/g and with PAH4 above 10.0 ng/g"
+    }
+  ],
+  "provenance": {
+    "bytes": 831190,
+    "dataset": "4884f9d1-0a59-4c8e-85ca-157d13411d19",
+    "encoding": "utf-8-sig",
+    "md5": "0bb033bbcdab8305839d0a8716def1b3",
+    "md5_matches_portal": true,
+    "portal_md5": "0bb033bbcdab8305839d0a8716def1b3",
+    "resource": "d5b3cca2-4ccf-4aed-a4d1-0af540422575",
+    "sha256": "ef39419b83fe88e3b8317b405b7106aa7ccaa9dea2e0fb1c37c6cc9fd912cd75",
+    "source": "data-volume"
+  },
+  "study": "bpa-pah-report",
+  "version": "0.1.0"
+}

@@ -1,0 +1,46 @@
+{
+  "amendment": "id-pattern-0.1.1",
+  "grader_version": "0.1.0",
+  "ids_bad": [],
+  "old_pattern": "^C2019PAHS(\\d{5})A$",
+  "old_pattern_rejects": [
+    "C2019PAHS00037AD",
+    "C2019PAHS00040AD"
+  ],
+  "pattern": "^C2019PAHS(\\d{5})AD?$",
+  "suffix_pairs": [
+    {
+      "base": "C2019PAHS00037A",
+      "base_date": null,
+      "base_function": null,
+      "base_origin": null,
+      "base_present": false,
+      "base_product": null,
+      "base_teq": null,
+      "date": "04-Sep-19",
+      "function": "Import",
+      "identical_16": null,
+      "origin": "TUNISIA",
+      "product": "Oil - Olive",
+      "sample": "C2019PAHS00037AD",
+      "teq": 0.0
+    },
+    {
+      "base": "C2019PAHS00040A",
+      "base_date": null,
+      "base_function": null,
+      "base_origin": null,
+      "base_present": false,
+      "base_product": null,
+      "base_teq": null,
+      "date": "04-Sep-19",
+      "function": "Import",
+      "identical_16": null,
+      "origin": "MOROCCO",
+      "product": "Oil - Olive",
+      "sample": "C2019PAHS00040AD",
+      "teq": 0.0
+    }
+  ],
+  "version": "0.1.1"
+}
