@@ -1,0 +1,4209 @@
+{
+  "bytes": 3771543,
+  "census": {
+    "columns": {
+      "commodity": 2,
+      "component": 13,
+      "date": 10,
+      "function": 4,
+      "origin": 6,
+      "plan": 17,
+      "product": 8,
+      "region": 1,
+      "sample": 0,
+      "test": 11,
+      "unit": 16,
+      "value": 15
+    },
+    "commodities": {
+      "IMFD": 399
+    },
+    "components": {
+      "4,5-diiodofluorescein": 399,
+      "Allura Red": 399,
+      "Amaranth": 399,
+      "Auramine O": 399,
+      "Azorubine (Carmoisine)": 399,
+      "Bordeaux R": 399,
+      "Brilliant Blue FCF": 399,
+      "Chrysoidine G": 798,
+      "Citrus Red 2": 399,
+      "Crocein Orange G": 399,
+      "Eosin Y": 399,
+      "Erythrosin B": 399,
+      "Erythrosin Yellowish": 399,
+      "Fast Garnet GBC (base)": 399,
+      "Fast Green FCF": 399,
+      "Fast Red E (Echtrot E)": 399,
+      "Indigo Carmine": 399,
+      "Lissamine Green B": 399,
+      "Metanil Yellow": 399,
+      "Methyl Yellow": 399,
+      "Oil Orange SS": 399,
+      "Orange II": 798,
+      "Para Red": 399,
+      "Patent Blue VF": 399,
+      "Patent Blue Violet Calcium": 399,
+      "Ponceau 4R (New Coccine)": 399,
+      "Ponceau SX": 399,
+      "Quinoline Yellow (spirit soluble)": 399,
+      "Rhodamine B": 798,
+      "Solvent Blue 59": 399,
+      "Sudan Black B": 399,
+      "Sudan Blue II": 399,
+      "Sudan I": 399,
+      "Sudan II": 399,
+      "Sudan III": 399,
+      "Sudan IV": 399,
+      "Sudan Orange G": 399,
+      "Sudan Red 7B": 399,
+      "Sudan Red B": 399,
+      "Sudan Red G": 399,
+      "Sunset Yellow FCF": 399,
+      "Tartrazine": 399,
+      "Toluidine Red": 399
+    },
+    "header": [
+      "Sample No. – No. d’échantillon",
+      "Region - Région",
+      "Commodity",
+      "Denrée",
+      "Function",
+      "Fonction",
+      "Origin",
+      "Origine",
+      "Product",
+      "Produit",
+      "Date Sampled – Date d’échantillonage",
+      "Type of Test",
+      "Type d’analyse",
+      "Component",
+      "Composant",
+      "AMOUNT",
+      "Report Unit - Unité de rapport",
+      "Plan Code"
+    ],
+    "id_gaps": 1,
+    "id_range": [
+      1,
+      400
+    ],
+    "ids_bad": [],
+    "ids_bad_count": 0,
+    "ids_dup_suffix": [
+      "C2018FCOL00008D"
+    ],
+    "missing_component_samples": {},
+    "mixed_label_samples": [
+      "C2018FCOL00400"
+    ],
+    "plans": {
+      "2018_SB459": 18354
+    },
+    "product_commodity": {
+      "Baked Goods | IMFD": 30,
+      "Bakery Product - Cookie | IMFD": 25,
+      "Beet - Pickled | IMFD": 9,
+      "Candy - Hard | IMFD": 30,
+      "Candy - Soft | IMFD": 30,
+      "Cucumber - Pickled Sweet | IMFD": 2,
+      "Cucumber - Pickled | IMFD": 11,
+      "Essence/Flavour | IMFD": 50,
+      "Fruit Snacks | IMFD": 25,
+      "Gherkin - Pickled | IMFD": 11,
+      "Oil - Blend | IMFD": 3,
+      "Oil - Olive | IMFD": 39,
+      "Oil - Other | IMFD": 3,
+      "Oil - Palm | IMFD": 23,
+      "Oil - Soybean | IMFD": 6,
+      "Onion - Pickled | IMFD": 2,
+      "Pepper - Pickled Hot | IMFD": 3,
+      "Pepper - Pickled | IMFD": 1,
+      "Pickled Vegetable - Misc | IMFD": 11,
+      "Preserve - Jam/Jelly | IMFD": 27,
+      "Preserve - Raspberry | IMFD": 1,
+      "Preserve - Strawberry | IMFD": 2,
+      "Pudding | IMFD": 30,
+      "Salad Dressing | IMFD": 25
+    },
+    "product_function": {
+      "Baked Goods": {
+        "Domestic": 1,
+        "Import": 4,
+        "Unknown": 25
+      },
+      "Bakery Product - Cookie": {
+        "Domestic": 12,
+        "Unknown": 13
+      },
+      "Beet - Pickled": {
+        "Domestic": 1,
+        "Import": 7,
+        "Unknown": 1
+      },
+      "Candy - Hard": {
+        "Domestic": 5,
+        "Import": 15,
+        "Unknown": 10
+      },
+      "Candy - Soft": {
+        "Domestic": 1,
+        "Import": 7,
+        "Unknown": 22
+      },
+      "Cucumber - Pickled": {
+        "Import": 11
+      },
+      "Cucumber - Pickled Sweet": {
+        "Import": 2
+      },
+      "Essence/Flavour": {
+        "Domestic": 10,
+        "Import": 14,
+        "Unknown": 26
+      },
+      "Fruit Snacks": {
+        "Import": 15,
+        "Unknown": 10
+      },
+      "Gherkin - Pickled": {
+        "Domestic": 2,
+        "Import": 8,
+        "Unknown": 1
+      },
+      "Oil - Blend": {
+        "Domestic": 1,
+        "Unknown": 2
+      },
+      "Oil - Olive": {
+        "Domestic": 6,
+        "Import": 18,
+        "Unknown": 15
+      },
+      "Oil - Other": {
+        "Domestic": 2,
+        "Import": 1
+      },
+      "Oil - Palm": {
+        "Import": 22,
+        "Unknown": 1
+      },
+      "Oil - Soybean": {
+        "Import": 6
+      },
+      "Onion - Pickled": {
+        "Domestic": 1,
+        "Import": 1
+      },
+      "Pepper - Pickled": {
+        "Unknown": 1
+      },
+      "Pepper - Pickled Hot": {
+        "Domestic": 2,
+        "Unknown": 1
+      },
+      "Pickled Vegetable - Misc": {
+        "Domestic": 2,
+        "Import": 9
+      },
+      "Preserve - Jam/Jelly": {
+        "Domestic": 3,
+        "Import": 12,
+        "Unknown": 12
+      },
+      "Preserve - Raspberry": {
+        "Unknown": 1
+      },
+      "Preserve - Strawberry": {
+        "Domestic": 1,
+        "Import": 1
+      },
+      "Pudding": {
+        "Import": 26,
+        "Unknown": 4
+      },
+      "Salad Dressing": {
+        "Domestic": 6,
+        "Import": 4,
+        "Unknown": 15
+      }
+    },
+    "product_id_runs": {
+      "Baked Goods": [
+        [
+          8,
+          9
+        ],
+        [
+          37,
+          38
+        ],
+        [
+          104,
+          112
+        ],
+        [
+          213,
+          219
+        ],
+        [
+          289,
+          291
+        ],
+        [
+          346,
+          352
+        ]
+      ],
+      "Bakery Product - Cookie": [
+        [
+          14,
+          14
+        ],
+        [
+          43,
+          44
+        ],
+        [
+          131,
+          138
+        ],
+        [
+          234,
+          239
+        ],
+        [
+          298,
+          300
+        ],
+        [
+          367,
+          371
+        ]
+      ],
+      "Beet - Pickled": [
+        [
+          21,
+          21
+        ],
+        [
+          171,
+          171
+        ],
+        [
+          173,
+          173
+        ],
+        [
+          310,
+          311
+        ],
+        [
+          313,
+          313
+        ],
+        [
+          390,
+          390
+        ],
+        [
+          397,
+          397
+        ],
+        [
+          400,
+          400
+        ]
+      ],
+      "Candy - Hard": [
+        [
+          12,
+          13
+        ],
+        [
+          41,
+          42
+        ],
+        [
+          122,
+          130
+        ],
+        [
+          227,
+          233
+        ],
+        [
+          295,
+          297
+        ],
+        [
+          360,
+          366
+        ]
+      ],
+      "Candy - Soft": [
+        [
+          10,
+          11
+        ],
+        [
+          39,
+          40
+        ],
+        [
+          113,
+          121
+        ],
+        [
+          220,
+          226
+        ],
+        [
+          292,
+          294
+        ],
+        [
+          353,
+          359
+        ]
+      ],
+      "Cucumber - Pickled": [
+        [
+          162,
+          162
+        ],
+        [
+          167,
+          167
+        ],
+        [
+          169,
+          169
+        ],
+        [
+          174,
+          174
+        ],
+        [
+          259,
+          259
+        ],
+        [
+          267,
+          267
+        ],
+        [
+          269,
+          270
+        ],
+        [
+          393,
+          393
+        ],
+        [
+          395,
+          396
+        ]
+      ],
+      "Cucumber - Pickled Sweet": [
+        [
+          164,
+          164
+        ],
+        [
+          166,
+          166
+        ]
+      ],
+      "Essence/Flavour": [
+        [
+          17,
+          20
+        ],
+        [
+          47,
+          50
+        ],
+        [
+          148,
+          161
+        ],
+        [
+          247,
+          258
+        ],
+        [
+          304,
+          308
+        ],
+        [
+          379,
+          389
+        ]
+      ],
+      "Fruit Snacks": [
+        [
+          7,
+          7
+        ],
+        [
+          35,
+          36
+        ],
+        [
+          96,
+          103
+        ],
+        [
+          207,
+          212
+        ],
+        [
+          286,
+          288
+        ],
+        [
+          341,
+          345
+        ]
+      ],
+      "Gherkin - Pickled": [
+        [
+          23,
+          23
+        ],
+        [
+          51,
+          52
+        ],
+        [
+          54,
+          54
+        ],
+        [
+          163,
+          163
+        ],
+        [
+          172,
+          172
+        ],
+        [
+          261,
+          261
+        ],
+        [
+          264,
+          264
+        ],
+        [
+          266,
+          266
+        ],
+        [
+          268,
+          268
+        ],
+        [
+          394,
+          394
+        ]
+      ],
+      "Oil - Blend": [
+        [
+          84,
+          84
+        ],
+        [
+          195,
+          195
+        ],
+        [
+          198,
+          198
+        ]
+      ],
+      "Oil - Olive": [
+        [
+          1,
+          1
+        ],
+        [
+          25,
+          26
+        ],
+        [
+          55,
+          62
+        ],
+        [
+          79,
+          83
+        ],
+        [
+          86,
+          86
+        ],
+        [
+          176,
+          181
+        ],
+        [
+          183,
+          183
+        ],
+        [
+          194,
+          194
+        ],
+        [
+          196,
+          197
+        ],
+        [
+          199,
+          199
+        ],
+        [
+          271,
+          273
+        ],
+        [
+          280,
+          280
+        ],
+        [
+          282,
+          282
+        ],
+        [
+          314,
+          318
+        ],
+        [
+          329,
+          329
+        ]
+      ],
+      "Oil - Other": [
+        [
+          4,
+          4
+        ],
+        [
+          31,
+          32
+        ]
+      ],
+      "Oil - Palm": [
+        [
+          27,
+          28
+        ],
+        [
+          63,
+          70
+        ],
+        [
+          182,
+          182
+        ],
+        [
+          184,
+          187
+        ],
+        [
+          274,
+          276
+        ],
+        [
+          319,
+          323
+        ]
+      ],
+      "Oil - Soybean": [
+        [
+          85,
+          85
+        ],
+        [
+          281,
+          281
+        ],
+        [
+          330,
+          333
+        ]
+      ],
+      "Onion - Pickled": [
+        [
+          24,
+          24
+        ],
+        [
+          168,
+          168
+        ]
+      ],
+      "Pepper - Pickled": [
+        [
+          398,
+          398
+        ]
+      ],
+      "Pepper - Pickled Hot": [
+        [
+          165,
+          165
+        ],
+        [
+          170,
+          170
+        ],
+        [
+          312,
+          312
+        ]
+      ],
+      "Pickled Vegetable - Misc": [
+        [
+          22,
+          22
+        ],
+        [
+          53,
+          53
+        ],
+        [
+          175,
+          175
+        ],
+        [
+          260,
+          260
+        ],
+        [
+          262,
+          263
+        ],
+        [
+          265,
+          265
+        ],
+        [
+          309,
+          309
+        ],
+        [
+          391,
+          392
+        ],
+        [
+          399,
+          399
+        ]
+      ],
+      "Preserve - Jam/Jelly": [
+        [
+          5,
+          6
+        ],
+        [
+          34,
+          34
+        ],
+        [
+          87,
+          95
+        ],
+        [
+          200,
+          206
+        ],
+        [
+          283,
+          285
+        ],
+        [
+          335,
+          339
+        ]
+      ],
+      "Preserve - Raspberry": [
+        [
+          340,
+          340
+        ]
+      ],
+      "Preserve - Strawberry": [
+        [
+          33,
+          33
+        ],
+        [
+          334,
+          334
+        ]
+      ],
+      "Pudding": [
+        [
+          15,
+          16
+        ],
+        [
+          45,
+          46
+        ],
+        [
+          139,
+          147
+        ],
+        [
+          240,
+          246
+        ],
+        [
+          301,
+          303
+        ],
+        [
+          372,
+          378
+        ]
+      ],
+      "Salad Dressing": [
+        [
+          3,
+          3
+        ],
+        [
+          29,
+          30
+        ],
+        [
+          71,
+          78
+        ],
+        [
+          188,
+          193
+        ],
+        [
+          277,
+          279
+        ],
+        [
+          324,
+          328
+        ]
+      ]
+    },
+    "product_origin_top": {
+      "Baked Goods": {
+        "CANADA": 1,
+        "ITALY": 1,
+        "PHILIPPINES": 1,
+        "UNITED STATES": 2,
+        "UNKNOWN": 25
+      },
+      "Bakery Product - Cookie": {
+        "CANADA": 12,
+        "NORTHERN MARIANA ISLANDS": 1,
+        "UNKNOWN": 12
+      },
+      "Beet - Pickled": {
+        "CANADA": 1,
+        "GERMANY": 4,
+        "POLAND": 1,
+        "UNITED STATES": 2,
+        "UNKNOWN": 1
+      },
+      "Candy - Hard": {
+        "CANADA": 5,
+        "CHINA": 1,
+        "CROATIA": 1,
+        "GERMANY": 8,
+        "HONG KONG": 1,
+        "TRINIDAD & TOBAGO": 1,
+        "UNITED STATES": 3,
+        "UNKNOWN": 10
+      },
+      "Candy - Soft": {
+        "BRAZIL": 1,
+        "CANADA": 1,
+        "GERMANY": 1,
+        "JAPAN": 1,
+        "NEW ZEALAND": 1,
+        "UNITED KINGDOM": 1,
+        "UNITED STATES": 2,
+        "UNKNOWN": 22
+      },
+      "Cucumber - Pickled": {
+        "INDIA": 3,
+        "TURKEY": 1,
+        "UNITED STATES": 5,
+        "VIETNAM": 2
+      },
+      "Cucumber - Pickled Sweet": {
+        "UNITED STATES": 2
+      },
+      "Essence/Flavour": {
+        "CANADA": 10,
+        "PHILIPPINES": 1,
+        "THAILAND": 1,
+        "UNITED STATES": 12,
+        "UNKNOWN": 26
+      },
+      "Fruit Snacks": {
+        "MALAYSIA": 2,
+        "UNITED STATES": 13,
+        "UNKNOWN": 10
+      },
+      "Gherkin - Pickled": {
+        "CANADA": 2,
+        "GERMANY": 1,
+        "INDIA": 5,
+        "UNITED STATES": 2,
+        "UNKNOWN": 1
+      },
+      "Oil - Blend": {
+        "CANADA": 1,
+        "UNKNOWN": 2
+      },
+      "Oil - Olive": {
+        "ARGENTINA": 1,
+        "CANADA": 6,
+        "CHILE": 1,
+        "ITALY": 6,
+        "LEBANON": 1,
+        "SPAIN": 1,
+        "TUNISIA": 8,
+        "UNKNOWN": 15
+      },
+      "Oil - Other": {
+        "CANADA": 2,
+        "ITALY": 1
+      },
+      "Oil - Palm": {
+        "COLOMBIA": 2,
+        "ECUADOR": 13,
+        "GHANA": 2,
+        "MALAYSIA": 2,
+        "TOGO": 3,
+        "UNKNOWN": 1
+      },
+      "Oil - Soybean": {
+        "CHINA": 4,
+        "HONG KONG": 1,
+        "TAIWAN, PROVINCE OF CHINA": 1
+      },
+      "Onion - Pickled": {
+        "CANADA": 1,
+        "GERMANY": 1
+      },
+      "Pepper - Pickled": {
+        "UNKNOWN": 1
+      },
+      "Pepper - Pickled Hot": {
+        "CANADA": 2,
+        "UNKNOWN": 1
+      },
+      "Pickled Vegetable - Misc": {
+        "CANADA": 2,
+        "GREECE": 1,
+        "INDIA": 1,
+        "LEBANON": 3,
+        "THAILAND": 1,
+        "UNITED STATES": 3
+      },
+      "Preserve - Jam/Jelly": {
+        "CANADA": 3,
+        "COSTA RICA": 1,
+        "EGYPT": 1,
+        "FRANCE": 1,
+        "GERMANY": 1,
+        "JAMAICA": 1,
+        "PORTUGAL": 1,
+        "TURKEY": 1,
+        "UNITED STATES": 5,
+        "UNKNOWN": 12
+      },
+      "Preserve - Raspberry": {
+        "UNKNOWN": 1
+      },
+      "Preserve - Strawberry": {
+        "CANADA": 1,
+        "UNITED STATES": 1
+      },
+      "Pudding": {
+        "MALAYSIA": 3,
+        "UNITED STATES": 23,
+        "UNKNOWN": 4
+      },
+      "Salad Dressing": {
+        "CANADA": 6,
+        "UNITED STATES": 4,
+        "UNKNOWN": 15
+      }
+    },
+    "products": {
+      "Baked Goods": 30,
+      "Bakery Product - Cookie": 25,
+      "Beet - Pickled": 9,
+      "Candy - Hard": 30,
+      "Candy - Soft": 30,
+      "Cucumber - Pickled": 11,
+      "Cucumber - Pickled Sweet": 2,
+      "Essence/Flavour": 50,
+      "Fruit Snacks": 25,
+      "Gherkin - Pickled": 11,
+      "Oil - Blend": 3,
+      "Oil - Olive": 39,
+      "Oil - Other": 3,
+      "Oil - Palm": 23,
+      "Oil - Soybean": 6,
+      "Onion - Pickled": 2,
+      "Pepper - Pickled": 1,
+      "Pepper - Pickled Hot": 3,
+      "Pickled Vegetable - Misc": 11,
+      "Preserve - Jam/Jelly": 27,
+      "Preserve - Raspberry": 1,
+      "Preserve - Strawberry": 2,
+      "Pudding": 30,
+      "Salad Dressing": 25
+    },
+    "regions": {
+      "ATLANTIC": 1058,
+      "ONTARIO": 6946,
+      "QUEBEC": 4370,
+      "WEST": 5980
+    },
+    "repeated_component_samples": {
+      "C2018FCOL00001": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00003": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00004": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00005": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00006": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00007": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00008D": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00009": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00010": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00011": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00012": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00013": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00014": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00015": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00016": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00017": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00018": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00019": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00020": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00021": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00022": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00023": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00024": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00025": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00026": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00027": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00028": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00029": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00030": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00031": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00032": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00033": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00034": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00035": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00036": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00037": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00038": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00039": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00040": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00041": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00042": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00043": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00044": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00045": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00046": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00047": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00048": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00049": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00050": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00051": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00052": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00053": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00054": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00055": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00056": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00057": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00058": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00059": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00060": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00061": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00062": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00063": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00064": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00065": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00066": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00067": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00068": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00069": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00070": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00071": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00072": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00073": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00074": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00075": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00076": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00077": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00078": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00079": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00080": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00081": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00082": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00083": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00084": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00085": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00086": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00087": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00088": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00089": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00090": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00091": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00092": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00093": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00094": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00095": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00096": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00097": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00098": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00099": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00100": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00101": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00102": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00103": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00104": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00105": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00106": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00107": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00108": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00109": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00110": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00111": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00112": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00113": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00114": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00115": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00116": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00117": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00118": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00119": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00120": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00121": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00122": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00123": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00124": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00125": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00126": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00127": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00128": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00129": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00130": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00131": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00132": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00133": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00134": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00135": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00136": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00137": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00138": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00139": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00140": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00141": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00142": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00143": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00144": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00145": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00146": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00147": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00148": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00149": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00150": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00151": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00152": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00153": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00154": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00155": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00156": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00157": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00158": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00159": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00160": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00161": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00162": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00163": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00164": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00165": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00166": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00167": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00168": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00169": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00170": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00171": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00172": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00173": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00174": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00175": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00176": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00177": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00178": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00179": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00180": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00181": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00182": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00183": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00184": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00185": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00186": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00187": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00188": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00189": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00190": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00191": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00192": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00193": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00194": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00195": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00196": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00197": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00198": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00199": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00200": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00201": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00202": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00203": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00204": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00205": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00206": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00207": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00208": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00209": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00210": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00211": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00212": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00213": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00214": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00215": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00216": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00217": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00218": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00219": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00220": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00221": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00222": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00223": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00224": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00225": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00226": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00227": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00228": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00229": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00230": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00231": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00232": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00233": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00234": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00235": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00236": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00237": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00238": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00239": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00240": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00241": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00242": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00243": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00244": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00245": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00246": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00247": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00248": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00249": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00250": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00251": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00252": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00253": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00254": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00255": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00256": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00257": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00258": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00259": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00260": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00261": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00262": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00263": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00264": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00265": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00266": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00267": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00268": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00269": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00270": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00271": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00272": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00273": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00274": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00275": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00276": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00277": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00278": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00279": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00280": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00281": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00282": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00283": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00284": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00285": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00286": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00287": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00288": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00289": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00290": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00291": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00292": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00293": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00294": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00295": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00296": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00297": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00298": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00299": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00300": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00301": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00302": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00303": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00304": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00305": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00306": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00307": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00308": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00309": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00310": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00311": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00312": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00313": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00314": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00315": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00316": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00317": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00318": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00319": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00320": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00321": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00322": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00323": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00324": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00325": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00326": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00327": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00328": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00329": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00330": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00331": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00332": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00333": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00334": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00335": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00336": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00337": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00338": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00339": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00340": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00341": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00342": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00343": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00344": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00345": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00346": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00347": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00348": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00349": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00350": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00351": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00352": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00353": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00354": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00355": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00356": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00357": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00358": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00359": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00360": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00361": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00362": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00363": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00364": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00365": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00366": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00367": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00368": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00369": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00370": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00371": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00372": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00373": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00374": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00375": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00376": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00377": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00378": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00379": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00380": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00381": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00382": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00383": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00384": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00385": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00386": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00387": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00388": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00389": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00390": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00391": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00392": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00393": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00394": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00395": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00396": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00397": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00398": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00399": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ],
+      "C2018FCOL00400": [
+        "Chrysoidine G",
+        "Orange II",
+        "Rhodamine B"
+      ]
+    },
+    "rows": 18354,
+    "rows_per_sample": {
+      "46": 399
+    },
+    "samples": 399,
+    "shapes": {
+      "number": 18354
+    },
+    "shapes_by_component": {
+      "4,5-diiodofluorescein": {
+        "number": 399
+      },
+      "Allura Red": {
+        "number": 399
+      },
+      "Amaranth": {
+        "number": 399
+      },
+      "Auramine O": {
+        "number": 399
+      },
+      "Azorubine (Carmoisine)": {
+        "number": 399
+      },
+      "Bordeaux R": {
+        "number": 399
+      },
+      "Brilliant Blue FCF": {
+        "number": 399
+      },
+      "Chrysoidine G": {
+        "number": 798
+      },
+      "Citrus Red 2": {
+        "number": 399
+      },
+      "Crocein Orange G": {
+        "number": 399
+      },
+      "Eosin Y": {
+        "number": 399
+      },
+      "Erythrosin B": {
+        "number": 399
+      },
+      "Erythrosin Yellowish": {
+        "number": 399
+      },
+      "Fast Garnet GBC (base)": {
+        "number": 399
+      },
+      "Fast Green FCF": {
+        "number": 399
+      },
+      "Fast Red E (Echtrot E)": {
+        "number": 399
+      },
+      "Indigo Carmine": {
+        "number": 399
+      },
+      "Lissamine Green B": {
+        "number": 399
+      },
+      "Metanil Yellow": {
+        "number": 399
+      },
+      "Methyl Yellow": {
+        "number": 399
+      },
+      "Oil Orange SS": {
+        "number": 399
+      },
+      "Orange II": {
+        "number": 798
+      },
+      "Para Red": {
+        "number": 399
+      },
+      "Patent Blue VF": {
+        "number": 399
+      },
+      "Patent Blue Violet Calcium": {
+        "number": 399
+      },
+      "Ponceau 4R (New Coccine)": {
+        "number": 399
+      },
+      "Ponceau SX": {
+        "number": 399
+      },
+      "Quinoline Yellow (spirit soluble)": {
+        "number": 399
+      },
+      "Rhodamine B": {
+        "number": 798
+      },
+      "Solvent Blue 59": {
+        "number": 399
+      },
+      "Sudan Black B": {
+        "number": 399
+      },
+      "Sudan Blue II": {
+        "number": 399
+      },
+      "Sudan I": {
+        "number": 399
+      },
+      "Sudan II": {
+        "number": 399
+      },
+      "Sudan III": {
+        "number": 399
+      },
+      "Sudan IV": {
+        "number": 399
+      },
+      "Sudan Orange G": {
+        "number": 399
+      },
+      "Sudan Red 7B": {
+        "number": 399
+      },
+      "Sudan Red B": {
+        "number": 399
+      },
+      "Sudan Red G": {
+        "number": 399
+      },
+      "Sunset Yellow FCF": {
+        "number": 399
+      },
+      "Tartrazine": {
+        "number": 399
+      },
+      "Toluidine Red": {
+        "number": 399
+      }
+    },
+    "tests": {
+      "FOOD COLOURS (FAT)": 8778,
+      "FOOD COLOURS (WATER)": 9576
+    },
+    "tokens": {},
+    "units": {
+      "µg/g": 18354
+    },
+    "units_by_component": {
+      "4,5-diiodofluorescein": {
+        "µg/g": 399
+      },
+      "Allura Red": {
+        "µg/g": 399
+      },
+      "Amaranth": {
+        "µg/g": 399
+      },
+      "Auramine O": {
+        "µg/g": 399
+      },
+      "Azorubine (Carmoisine)": {
+        "µg/g": 399
+      },
+      "Bordeaux R": {
+        "µg/g": 399
+      },
+      "Brilliant Blue FCF": {
+        "µg/g": 399
+      },
+      "Chrysoidine G": {
+        "µg/g": 798
+      },
+      "Citrus Red 2": {
+        "µg/g": 399
+      },
+      "Crocein Orange G": {
+        "µg/g": 399
+      },
+      "Eosin Y": {
+        "µg/g": 399
+      },
+      "Erythrosin B": {
+        "µg/g": 399
+      },
+      "Erythrosin Yellowish": {
+        "µg/g": 399
+      },
+      "Fast Garnet GBC (base)": {
+        "µg/g": 399
+      },
+      "Fast Green FCF": {
+        "µg/g": 399
+      },
+      "Fast Red E (Echtrot E)": {
+        "µg/g": 399
+      },
+      "Indigo Carmine": {
+        "µg/g": 399
+      },
+      "Lissamine Green B": {
+        "µg/g": 399
+      },
+      "Metanil Yellow": {
+        "µg/g": 399
+      },
+      "Methyl Yellow": {
+        "µg/g": 399
+      },
+      "Oil Orange SS": {
+        "µg/g": 399
+      },
+      "Orange II": {
+        "µg/g": 798
+      },
+      "Para Red": {
+        "µg/g": 399
+      },
+      "Patent Blue VF": {
+        "µg/g": 399
+      },
+      "Patent Blue Violet Calcium": {
+        "µg/g": 399
+      },
+      "Ponceau 4R (New Coccine)": {
+        "µg/g": 399
+      },
+      "Ponceau SX": {
+        "µg/g": 399
+      },
+      "Quinoline Yellow (spirit soluble)": {
+        "µg/g": 399
+      },
+      "Rhodamine B": {
+        "µg/g": 798
+      },
+      "Solvent Blue 59": {
+        "µg/g": 399
+      },
+      "Sudan Black B": {
+        "µg/g": 399
+      },
+      "Sudan Blue II": {
+        "µg/g": 399
+      },
+      "Sudan I": {
+        "µg/g": 399
+      },
+      "Sudan II": {
+        "µg/g": 399
+      },
+      "Sudan III": {
+        "µg/g": 399
+      },
+      "Sudan IV": {
+        "µg/g": 399
+      },
+      "Sudan Orange G": {
+        "µg/g": 399
+      },
+      "Sudan Red 7B": {
+        "µg/g": 399
+      },
+      "Sudan Red B": {
+        "µg/g": 399
+      },
+      "Sudan Red G": {
+        "µg/g": 399
+      },
+      "Sunset Yellow FCF": {
+        "µg/g": 399
+      },
+      "Tartrazine": {
+        "µg/g": 399
+      },
+      "Toluidine Red": {
+        "µg/g": 399
+      }
+    }
+  },
+  "columns": {
+    "columns": [
+      {
+        "distinct_text": 0,
+        "name": "Sample No. – No. d’échantillon",
+        "sample_column": true,
+        "shapes": {
+          "token": 18354
+        },
+        "text_rows": {},
+        "text_samples": {},
+        "value_like": false
+      },
+      {
+        "distinct_text": 4,
+        "name": "Region - Région",
+        "sample_column": false,
+        "shapes": {
+          "token": 18354
+        },
+        "text_rows": {
+          "ATLANTIC": 1058,
+          "ONTARIO": 6946,
+          "QUEBEC": 4370,
+          "WEST": 5980
+        },
+        "text_samples": {
+          "ATLANTIC": 23,
+          "ONTARIO": 151,
+          "QUEBEC": 95,
+          "WEST": 130
+        },
+        "value_like": false
+      },
+      {
+        "distinct_text": 1,
+        "name": "Commodity",
+        "sample_column": false,
+        "shapes": {
+          "token": 18354
+        },
+        "text_rows": {
+          "IMFD": 18354
+        },
+        "text_samples": {
+          "IMFD": 399
+        },
+        "value_like": false
+      },
+      {
+        "distinct_text": 1,
+        "name": "Denrée",
+        "sample_column": false,
+        "shapes": {
+          "token": 18354
+        },
+        "text_rows": {
+          "DAIM": 18354
+        },
+        "text_samples": {
+          "DAIM": 399
+        },
+        "value_like": false
+      },
+      {
+        "distinct_text": 3,
+        "name": "Function",
+        "sample_column": false,
+        "shapes": {
+          "token": 18354
+        },
+        "text_rows": {
+          "Domestic": 2576,
+          "Import": 8418,
+          "Unknown": 7360
+        },
+        "text_samples": {
+          "Domestic": 56,
+          "Import": 183,
+          "Unknown": 160
+        },
+        "value_like": false
+      },
+      {
+        "distinct_text": 3,
+        "name": "Fonction",
+        "sample_column": false,
+        "shapes": {
+          "token": 18354
+        },
+        "text_rows": {
+          "domestique": 2576,
+          "importé": 8418,
+          "innconnu": 7360
+        },
+        "text_samples": {
+          "domestique": 56,
+          "importé": 183,
+          "innconnu": 160
+        },
+        "value_like": false
+      },
+      {
+        "distinct_text": 37,
+        "name": "Origin",
+        "sample_column": false,
+        "shapes": {
+          "token": 18354
+        },
+        "text_rows": {
+          "ARGENTINA": 46,
+          "BRAZIL": 46,
+          "CANADA": 2576,
+          "CHILE": 46,
+          "CHINA": 230,
+          "COLOMBIA": 92,
+          "COSTA RICA": 46,
+          "CROATIA": 46,
+          "ECUADOR": 598,
+          "EGYPT": 46,
+          "FRANCE": 46,
+          "GERMANY": 736,
+          "GHANA": 92,
+          "GREECE": 46,
+          "HONG KONG": 92,
+          "INDIA": 414,
+          "ITALY": 368,
+          "JAMAICA": 46,
+          "JAPAN": 46,
+          "LEBANON": 184,
+          "MALAYSIA": 322,
+          "NEW ZEALAND": 46,
+          "NORTHERN MARIANA ISLANDS": 46,
+          "PHILIPPINES": 92,
+          "POLAND": 46,
+          "PORTUGAL": 46,
+          "SPAIN": 46,
+          "TAIWAN, PROVINCE OF CHINA": 46,
+          "THAILAND": 92,
+          "TOGO": 138,
+          "TRINIDAD & TOBAGO": 46,
+          "TUNISIA": 368,
+          "TURKEY": 92,
+          "UNITED KINGDOM": 46,
+          "UNITED STATES": 3634,
+          "UNKNOWN": 7314,
+          "VIETNAM": 92
+        },
+        "text_samples": {
+          "ARGENTINA": 1,
+          "BRAZIL": 1,
+          "CANADA": 56,
+          "CHILE": 1,
+          "CHINA": 5,
+          "COLOMBIA": 2,
+          "COSTA RICA": 1,
+          "CROATIA": 1,
+          "ECUADOR": 13,
+          "EGYPT": 1,
+          "FRANCE": 1,
+          "GERMANY": 16,
+          "GHANA": 2,
+          "GREECE": 1,
+          "HONG KONG": 2,
+          "INDIA": 9,
+          "ITALY": 8,
+          "JAMAICA": 1,
+          "JAPAN": 1,
+          "LEBANON": 4,
+          "MALAYSIA": 7,
+          "NEW ZEALAND": 1,
+          "NORTHERN MARIANA ISLANDS": 1,
+          "PHILIPPINES": 2,
+          "POLAND": 1,
+          "PORTUGAL": 1,
+          "SPAIN": 1,
+          "TAIWAN, PROVINCE OF CHINA": 1,
+          "THAILAND": 2,
+          "TOGO": 3,
+          "TRINIDAD & TOBAGO": 1,
+          "TUNISIA": 8,
+          "TURKEY": 2,
+          "UNITED KINGDOM": 1,
+          "UNITED STATES": 79,
+          "UNKNOWN": 159,
+          "VIETNAM": 2
+        },
+        "value_like": false
+      },
+      {
+        "distinct_text": 37,
+        "name": "Origine",
+        "sample_column": false,
+        "shapes": {
+          "token": 18354
+        },
+        "text_rows": {
+          "ALLEMAGNE": 736,
+          "ARGENTINE": 46,
+          "BRÉSIL": 46,
+          "CANADA": 2576,
+          "CHILI": 46,
+          "CHINE": 230,
+          "COLOMBIE": 92,
+          "COSTA RICA": 46,
+          "CROATIE": 46,
+          "ESPAGNE": 46,
+          "FRANCE": 46,
+          "GHANA": 92,
+          "GRÈCE": 46,
+          "HONG-KONG": 92,
+          "INCONNU": 7314,
+          "INDE": 414,
+          "ITALIE": 368,
+          "JAMAÏQUE": 46,
+          "JAPON": 46,
+          "LIBAN": 184,
+          "MALAISIE": 322,
+          "MARIANNES DU NORD, ÎLES": 46,
+          "NOUVELLE-ZÉLANDE": 46,
+          "PHILIPPINES": 92,
+          "POLOGNE": 46,
+          "PORTUGAL": 46,
+          "ROYAUME-UNI": 46,
+          "TAÏWAN, PROVINCE DE CHINE": 46,
+          "THAÏLANDE": 92,
+          "TOGO": 138,
+          "TRINITÉ-ET-TOBAGO": 46,
+          "TUNESIE": 368,
+          "TURQUIE": 92,
+          "VIETNAM": 92,
+          "ÉGYPTE": 46,
+          "ÉQUATEUR": 598,
+          "ÉTATS-UNIS": 3634
+        },
+        "text_samples": {
+          "ALLEMAGNE": 16,
+          "ARGENTINE": 1,
+          "BRÉSIL": 1,
+          "CANADA": 56,
+          "CHILI": 1,
+          "CHINE": 5,
+          "COLOMBIE": 2,
+          "COSTA RICA": 1,
+          "CROATIE": 1,
+          "ESPAGNE": 1,
+          "FRANCE": 1,
+          "GHANA": 2,
+          "GRÈCE": 1,
+          "HONG-KONG": 2,
+          "INCONNU": 159,
+          "INDE": 9,
+          "ITALIE": 8,
+          "JAMAÏQUE": 1,
+          "JAPON": 1,
+          "LIBAN": 4,
+          "MALAISIE": 7,
+          "MARIANNES DU NORD, ÎLES": 1,
+          "NOUVELLE-ZÉLANDE": 1,
+          "PHILIPPINES": 2,
+          "POLOGNE": 1,
+          "PORTUGAL": 1,
+          "ROYAUME-UNI": 1,
+          "TAÏWAN, PROVINCE DE CHINE": 1,
+          "THAÏLANDE": 2,
+          "TOGO": 3,
+          "TRINITÉ-ET-TOBAGO": 1,
+          "TUNESIE": 8,
+          "TURQUIE": 2,
+          "VIETNAM": 2,
+          "ÉGYPTE": 1,
+          "ÉQUATEUR": 13,
+          "ÉTATS-UNIS": 79
+        },
+        "value_like": false
+      },
+      {
+        "distinct_text": 24,
+        "name": "Product",
+        "sample_column": false,
+        "shapes": {
+          "token": 18354
+        },
+        "text_rows": {
+          "Baked Goods": 1380,
+          "Bakery Product - Cookie": 1150,
+          "Beet - Pickled": 414,
+          "Candy - Hard": 1380,
+          "Candy - Soft": 1380,
+          "Cucumber - Pickled": 506,
+          "Cucumber - Pickled Sweet": 92,
+          "Essence/Flavour": 2300,
+          "Fruit Snacks": 1150,
+          "Gherkin - Pickled": 506,
+          "Oil - Blend": 138,
+          "Oil - Olive": 1794,
+          "Oil - Other": 138,
+          "Oil - Palm": 1058,
+          "Oil - Soybean": 276,
+          "Onion - Pickled": 92,
+          "Pepper - Pickled": 46,
+          "Pepper - Pickled Hot": 138,
+          "Pickled Vegetable - Misc": 506,
+          "Preserve - Jam/Jelly": 1242,
+          "Preserve - Raspberry": 46,
+          "Preserve - Strawberry": 92,
+          "Pudding": 1380,
+          "Salad Dressing": 1150
+        },
+        "text_samples": {
+          "Baked Goods": 30,
+          "Bakery Product - Cookie": 25,
+          "Beet - Pickled": 9,
+          "Candy - Hard": 30,
+          "Candy - Soft": 30,
+          "Cucumber - Pickled": 11,
+          "Cucumber - Pickled Sweet": 2,
+          "Essence/Flavour": 50,
+          "Fruit Snacks": 25,
+          "Gherkin - Pickled": 11,
+          "Oil - Blend": 3,
+          "Oil - Olive": 39,
+          "Oil - Other": 3,
+          "Oil - Palm": 23,
+          "Oil - Soybean": 6,
+          "Onion - Pickled": 2,
+          "Pepper - Pickled": 1,
+          "Pepper - Pickled Hot": 3,
+          "Pickled Vegetable - Misc": 11,
+          "Preserve - Jam/Jelly": 27,
+          "Preserve - Raspberry": 1,
+          "Preserve - Strawberry": 2,
+          "Pudding": 30,
+          "Salad Dressing": 25
+        },
+        "value_like": false
+      },
+      {
+        "distinct_text": 23,
+        "name": "Produit",
+        "sample_column": false,
+        "shapes": {
+          "token": 18354
+        },
+        "text_rows": {
+          "Betterave mariné": 414,
+          "Biscuits": 1150,
+          "Candy - Doux": 1380,
+          "Candy - Dur": 1380,
+          "Collations à base de fruits": 1150,
+          "Conserve - Fraises": 92,
+          "Conserve - Framboise": 46,
+          "Conserve de fruits": 1242,
+          "Cornichon": 506,
+          "Cornichon doux": 92,
+          "Essence / Saveur": 2300,
+          "Huile - Mélange": 184,
+          "Huile - autre": 368,
+          "Huile d'olive": 1794,
+          "Huile de Palme": 1058,
+          "Légumes conservés en saumure-Divers": 506,
+          "Marinades (concombre)": 506,
+          "Oignon mariné": 92,
+          "Piment fort mariné": 138,
+          "Poivron mariné": 46,
+          "Pouding": 1380,
+          "Produits de boulangerie": 1380,
+          "Vinaigrette": 1150
+        },
+        "text_samples": {
+          "Betterave mariné": 9,
+          "Biscuits": 25,
+          "Candy - Doux": 30,
+          "Candy - Dur": 30,
+          "Collations à base de fruits": 25,
+          "Conserve - Fraises": 2,
+          "Conserve - Framboise": 1,
+          "Conserve de fruits": 27,
+          "Cornichon": 11,
+          "Cornichon doux": 2,
+          "Essence / Saveur": 50,
+          "Huile - Mélange": 4,
+          "Huile - autre": 8,
+          "Huile d'olive": 39,
+          "Huile de Palme": 23,
+          "Légumes conservés en saumure-Divers": 11,
+          "Marinades (concombre)": 11,
+          "Oignon mariné": 2,
+          "Piment fort mariné": 3,
+          "Poivron mariné": 1,
+          "Pouding": 30,
+          "Produits de boulangerie": 30,
+          "Vinaigrette": 25
+        },
+        "value_like": false
+      },
+      {
+        "distinct_text": 134,
+        "name": "Date Sampled – Date d’échantillonage",
+        "sample_column": false,
+        "shapes": {
+          "token": 18354
+        },
+        "text_rows": {
+          "1-Aug-18": 460,
+          "1-Feb-19": 321,
+          "1-Jul-18": 92,
+          "1-Jun-18": 92,
+          "1-May-18": 414,
+          "1-Nov-18": 184,
+          "1-Oct-18": 322,
+          "1-Sep-18": 276,
+          "10-Jun-18": 230,
+          "10-Oct-18": 138,
+          "10-Sep-18": 92,
+          "11-Feb-19": 46,
+          "11-Jul-18": 276,
+          "11-Mar-19": 46,
+          "11-May-18": 46,
+          "11-Nov-18": 46,
+          "11-Oct-18": 46,
+          "12-Apr-18": 414,
+          "12-Feb-19": 46,
+          "12-Mar-19": 368,
+          "12-Nov-18": 92,
+          "12-Sep-18": 138,
+          "13-Apr-18": 92,
+          "13-Aug-18": 138,
+          "13-Feb-19": 46,
+          "13-Jul-18": 46,
+          "13-Jun-18": 184,
+          "13-May-18": 46,
+          "13-Nov-18": 230,
+          "14-Aug-18": 230,
+          "14-May-18": 92,
+          "14-Oct-18": 92,
+          "15-Apr-18": 138,
+          "15-Aug-18": 46,
+          "15-Jan-19": 230,
+          "15-Jul-18": 184,
+          "15-Mar-19": 46,
+          "15-May-18": 184,
+          "16-Jan-19": 46,
+          "16-May-18": 138,
+          "16-Nov-18": 92,
+          "16-Oct-18": 46,
+          "17-Apr-18": 46,
+          "17-Dec-18": 92,
+          "17-Jan-19": 230,
+          "17-Jul-18": 46,
+          "17-Oct-18": 138,
+          "18-Apr-18": 92,
+          "18-Jun-18": 46,
+          "18-Mar-19": 46,
+          "18-Oct-18": 414,
+          "19-Aug-18": 184,
+          "19-Feb-19": 46,
+          "19-Jun-18": 92,
+          "19-Mar-19": 46,
+          "19-Nov-18": 92,
+          "19-Oct-18": 46,
+          "2-Jul-18": 138,
+          "2-May-18": 230,
+          "2-Nov-18": 46,
+          "2-Oct-18": 92,
+          "20-Apr-18": 92,
+          "20-Feb-19": 46,
+          "20-Jun-18": 46,
+          "21-Feb-19": 46,
+          "21-Jan-19": 92,
+          "21-Jun-18": 92,
+          "21-Nov-18": 46,
+          "21-Oct-18": 92,
+          "22-Apr-18": 92,
+          "22-Aug-18": 46,
+          "22-Feb-19": 46,
+          "22-Jan-19": 184,
+          "22-Jul-18": 46,
+          "22-Nov-18": 46,
+          "23-Jul-18": 46,
+          "23-Oct-18": 46,
+          "23-Sep-18": 46,
+          "24-May-18": 46,
+          "25-Jul-18": 138,
+          "25-Jun-18": 46,
+          "25-Mar-19": 46,
+          "25-Oct-18": 92,
+          "25-Sep-18": 184,
+          "26-Mar-19": 92,
+          "26-Nov-18": 46,
+          "27-Nov-18": 414,
+          "28-Feb-19": 368,
+          "28-Jul-18": 92,
+          "29-Aug-18": 92,
+          "29-Nov-18": 782,
+          "29-Oct-18": 92,
+          "3-Aug-18": 92,
+          "3-Jun-18": 184,
+          "3-May-18": 92,
+          "3-Oct-18": 230,
+          "3-Sep-18": 276,
+          "31-May-18": 276,
+          "4-Apr-18": 322,
+          "4-Dec-18": 92,
+          "4-Feb-19": 276,
+          "4-Jul-18": 92,
+          "4-Mar-19": 368,
+          "5-Dec-18": 138,
+          "5-Nov-18": 92,
+          "5-Oct-18": 92,
+          "5-Sep-18": 230,
+          "6-Mar-19": 92,
+          "7-Jun-18": 322,
+          "7-Mar-19": 138,
+          "7-May-18": 138,
+          "7-Nov-18": 230,
+          "7-Sep-18": 92,
+          "8-Feb-19": 92,
+          "8-May-18": 138,
+          "9-Apr-18": 322,
+          "9-Aug-18": 276,
+          "9-Jul-18": 184,
+          "9-Nov-18": 230,
+          "9-Sep-18": 276
+        },
+        "text_samples": {
+          "1-Aug-18": 10,
+          "1-Feb-19": 7,
+          "1-Jul-18": 2,
+          "1-Jun-18": 2,
+          "1-May-18": 9,
+          "1-Nov-18": 4,
+          "1-Oct-18": 7,
+          "1-Sep-18": 6,
+          "10-Jun-18": 5,
+          "10-Oct-18": 3,
+          "10-Sep-18": 2,
+          "11-Feb-19": 1,
+          "11-Jul-18": 6,
+          "11-Mar-19": 1,
+          "11-May-18": 1,
+          "11-Nov-18": 1,
+          "11-Oct-18": 1,
+          "12-Apr-18": 9,
+          "12-Feb-19": 1,
+          "12-Mar-19": 8,
+          "12-Nov-18": 2,
+          "12-Sep-18": 3,
+          "13-Apr-18": 2,
+          "13-Aug-18": 3,
+          "13-Feb-19": 1,
+          "13-Jul-18": 1,
+          "13-Jun-18": 4,
+          "13-May-18": 1,
+          "13-Nov-18": 5,
+          "14-Aug-18": 5,
+          "14-May-18": 2,
+          "14-Oct-18": 2,
+          "15-Apr-18": 3,
+          "15-Aug-18": 1,
+          "15-Jan-19": 5,
+          "15-Jul-18": 4,
+          "15-Mar-19": 1,
+          "15-May-18": 4,
+          "16-Jan-19": 1,
+          "16-May-18": 3,
+          "16-Nov-18": 2,
+          "16-Oct-18": 1,
+          "17-Apr-18": 1,
+          "17-Dec-18": 2,
+          "17-Jan-19": 5,
+          "17-Jul-18": 1,
+          "17-Oct-18": 3,
+          "18-Apr-18": 2,
+          "18-Jun-18": 1,
+          "18-Mar-19": 1,
+          "18-Oct-18": 9,
+          "19-Aug-18": 4,
+          "19-Feb-19": 1,
+          "19-Jun-18": 2,
+          "19-Mar-19": 1,
+          "19-Nov-18": 2,
+          "19-Oct-18": 1,
+          "2-Jul-18": 3,
+          "2-May-18": 5,
+          "2-Nov-18": 1,
+          "2-Oct-18": 2,
+          "20-Apr-18": 2,
+          "20-Feb-19": 1,
+          "20-Jun-18": 1,
+          "21-Feb-19": 1,
+          "21-Jan-19": 2,
+          "21-Jun-18": 2,
+          "21-Nov-18": 1,
+          "21-Oct-18": 2,
+          "22-Apr-18": 2,
+          "22-Aug-18": 1,
+          "22-Feb-19": 1,
+          "22-Jan-19": 4,
+          "22-Jul-18": 1,
+          "22-Nov-18": 1,
+          "23-Jul-18": 1,
+          "23-Oct-18": 1,
+          "23-Sep-18": 1,
+          "24-May-18": 1,
+          "25-Jul-18": 3,
+          "25-Jun-18": 1,
+          "25-Mar-19": 1,
+          "25-Oct-18": 2,
+          "25-Sep-18": 4,
+          "26-Mar-19": 2,
+          "26-Nov-18": 1,
+          "27-Nov-18": 9,
+          "28-Feb-19": 8,
+          "28-Jul-18": 2,
+          "29-Aug-18": 2,
+          "29-Nov-18": 17,
+          "29-Oct-18": 2,
+          "3-Aug-18": 2,
+          "3-Jun-18": 4,
+          "3-May-18": 2,
+          "3-Oct-18": 5,
+          "3-Sep-18": 6,
+          "31-May-18": 6,
+          "4-Apr-18": 7,
+          "4-Dec-18": 2,
+          "4-Feb-19": 6,
+          "4-Jul-18": 2,
+          "4-Mar-19": 8,
+          "5-Dec-18": 3,
+          "5-Nov-18": 2,
+          "5-Oct-18": 2,
+          "5-Sep-18": 5,
+          "6-Mar-19": 2,
+          "7-Jun-18": 7,
+          "7-Mar-19": 3,
+          "7-May-18": 3,
+          "7-Nov-18": 5,
+          "7-Sep-18": 2,
+          "8-Feb-19": 2,
+          "8-May-18": 3,
+          "9-Apr-18": 7,
+          "9-Aug-18": 6,
+          "9-Jul-18": 4,
+          "9-Nov-18": 5,
+          "9-Sep-18": 6
+        },
+        "value_like": false
+      },
+      {
+        "distinct_text": 2,
+        "name": "Type of Test",
+        "sample_column": false,
+        "shapes": {
+          "token": 18354
+        },
+        "text_rows": {
+          "FOOD COLOURS (FAT)": 8778,
+          "FOOD COLOURS (WATER)": 9576
+        },
+        "text_samples": {
+          "FOOD COLOURS (FAT)": 399,
+          "FOOD COLOURS (WATER)": 399
+        },
+        "value_like": false
+      },
+      {
+        "distinct_text": 2,
+        "name": "Type d’analyse",
+        "sample_column": false,
+        "shapes": {
+          "token": 18354
+        },
+        "text_rows": {
+          "COULEURS ALIMENTAIRES (EAU)": 9576,
+          "COULEURS ALIMENTAIRES (GRAS)": 8778
+        },
+        "text_samples": {
+          "COULEURS ALIMENTAIRES (EAU)": 399,
+          "COULEURS ALIMENTAIRES (GRAS)": 399
+        },
+        "value_like": false
+      },
+      {
+        "distinct_text": 43,
+        "name": "Component",
+        "sample_column": false,
+        "shapes": {
+          "token": 18354
+        },
+        "text_rows": {
+          "4,5-diiodofluorescein": 399,
+          "Allura Red": 399,
+          "Amaranth": 399,
+          "Auramine O": 399,
+          "Azorubine (Carmoisine)": 399,
+          "Bordeaux R": 399,
+          "Brilliant Blue FCF": 399,
+          "Chrysoidine G": 798,
+          "Citrus Red 2": 399,
+          "Crocein Orange G": 399,
+          "Eosin Y": 399,
+          "Erythrosin B": 399,
+          "Erythrosin Yellowish": 399,
+          "Fast Garnet GBC (base)": 399,
+          "Fast Green FCF": 399,
+          "Fast Red E (Echtrot E)": 399,
+          "Indigo Carmine": 399,
+          "Lissamine Green B": 399,
+          "Metanil Yellow": 399,
+          "Methyl Yellow": 399,
+          "Oil Orange SS": 399,
+          "Orange II": 798,
+          "Para Red": 399,
+          "Patent Blue VF": 399,
+          "Patent Blue Violet Calcium": 399,
+          "Ponceau 4R (New Coccine)": 399,
+          "Ponceau SX": 399,
+          "Quinoline Yellow (spirit soluble)": 399,
+          "Rhodamine B": 798,
+          "Solvent Blue 59": 399,
+          "Sudan Black B": 399,
+          "Sudan Blue II": 399,
+          "Sudan I": 399,
+          "Sudan II": 399,
+          "Sudan III": 399,
+          "Sudan IV": 399,
+          "Sudan Orange G": 399,
+          "Sudan Red 7B": 399,
+          "Sudan Red B": 399,
+          "Sudan Red G": 399,
+          "Sunset Yellow FCF": 399,
+          "Tartrazine": 399,
+          "Toluidine Red": 399
+        },
+        "text_samples": {
+          "4,5-diiodofluorescein": 399,
+          "Allura Red": 399,
+          "Amaranth": 399,
+          "Auramine O": 399,
+          "Azorubine (Carmoisine)": 399,
+          "Bordeaux R": 399,
+          "Brilliant Blue FCF": 399,
+          "Chrysoidine G": 399,
+          "Citrus Red 2": 399,
+          "Crocein Orange G": 399,
+          "Eosin Y": 399,
+          "Erythrosin B": 399,
+          "Erythrosin Yellowish": 399,
+          "Fast Garnet GBC (base)": 399,
+          "Fast Green FCF": 399,
+          "Fast Red E (Echtrot E)": 399,
+          "Indigo Carmine": 399,
+          "Lissamine Green B": 399,
+          "Metanil Yellow": 399,
+          "Methyl Yellow": 399,
+          "Oil Orange SS": 399,
+          "Orange II": 399,
+          "Para Red": 399,
+          "Patent Blue VF": 399,
+          "Patent Blue Violet Calcium": 399,
+          "Ponceau 4R (New Coccine)": 399,
+          "Ponceau SX": 399,
+          "Quinoline Yellow (spirit soluble)": 399,
+          "Rhodamine B": 399,
+          "Solvent Blue 59": 399,
+          "Sudan Black B": 399,
+          "Sudan Blue II": 399,
+          "Sudan I": 399,
+          "Sudan II": 399,
+          "Sudan III": 399,
+          "Sudan IV": 399,
+          "Sudan Orange G": 399,
+          "Sudan Red 7B": 399,
+          "Sudan Red B": 399,
+          "Sudan Red G": 399,
+          "Sunset Yellow FCF": 399,
+          "Tartrazine": 399,
+          "Toluidine Red": 399
+        },
+        "value_like": false
+      },
+      {
+        "distinct_text": 43,
+        "name": "Composant",
+        "sample_column": false,
+        "shapes": {
+          "token": 18354
+        },
+        "text_rows": {
+          "4,5-diiodofluorescéine": 399,
+          "Agrumes Rouge 2": 399,
+          "Amarante": 399,
+          "Auramine O": 399,
+          "Azorubine (Carmoisine)": 399,
+          "Bleu Brillant FCF": 399,
+          "Bleu Soudan II": 399,
+          "Bordeaux R": 399,
+          "Brevet Bleu Violet Calcium": 399,
+          "Carmin indigo": 399,
+          "Chrysoidine G": 798,
+          "Crocein Orange G": 399,
+          "Grenat rapide GBC (base)": 399,
+          "Huile Orange SS": 399,
+          "Jaune coucher de soleil FCF": 399,
+          "Jaune de méthyle": 399,
+          "Jaune de quinoléine (soluble dans l’esprit)": 399,
+          "Lissamine Green B": 399,
+          "Métanil Jaune": 399,
+          "Noir Soudan B": 399,
+          "Orange II": 798,
+          "Para Rouge": 399,
+          "Patent Blue VF": 399,
+          "Ponceau 4R (Nouvelle Coccine)": 399,
+          "Ponceau SX": 399,
+          "Rhodamine B": 798,
+          "Rouge Allura": 399,
+          "Rouge Soudan 7B": 399,
+          "Rouge Soudan B": 399,
+          "Rouge Soudan G": 399,
+          "Rouge de toluidine": 399,
+          "Rouge rapide E (Echtrot E)": 399,
+          "Solvent Blue 59": 399,
+          "Soudan I": 399,
+          "Soudan II": 399,
+          "Soudan III": 399,
+          "Soudan IV": 399,
+          "Soudan orange G": 399,
+          "Tartrazine": 399,
+          "Vert rapide FCF": 399,
+          "Éosine y": 399,
+          "Érythrosine B": 399,
+          "Érythrosine jaunâtre": 399
+        },
+        "text_samples": {
+          "4,5-diiodofluorescéine": 399,
+          "Agrumes Rouge 2": 399,
+          "Amarante": 399,
+          "Auramine O": 399,
+          "Azorubine (Carmoisine)": 399,
+          "Bleu Brillant FCF": 399,
+          "Bleu Soudan II": 399,
+          "Bordeaux R": 399,
+          "Brevet Bleu Violet Calcium": 399,
+          "Carmin indigo": 399,
+          "Chrysoidine G": 399,
+          "Crocein Orange G": 399,
+          "Grenat rapide GBC (base)": 399,
+          "Huile Orange SS": 399,
+          "Jaune coucher de soleil FCF": 399,
+          "Jaune de méthyle": 399,
+          "Jaune de quinoléine (soluble dans l’esprit)": 399,
+          "Lissamine Green B": 399,
+          "Métanil Jaune": 399,
+          "Noir Soudan B": 399,
+          "Orange II": 399,
+          "Para Rouge": 399,
+          "Patent Blue VF": 399,
+          "Ponceau 4R (Nouvelle Coccine)": 399,
+          "Ponceau SX": 399,
+          "Rhodamine B": 399,
+          "Rouge Allura": 399,
+          "Rouge Soudan 7B": 399,
+          "Rouge Soudan B": 399,
+          "Rouge Soudan G": 399,
+          "Rouge de toluidine": 399,
+          "Rouge rapide E (Echtrot E)": 399,
+          "Solvent Blue 59": 399,
+          "Soudan I": 399,
+          "Soudan II": 399,
+          "Soudan III": 399,
+          "Soudan IV": 399,
+          "Soudan orange G": 399,
+          "Tartrazine": 399,
+          "Vert rapide FCF": 399,
+          "Éosine y": 399,
+          "Érythrosine B": 399,
+          "Érythrosine jaunâtre": 399
+        },
+        "value_like": false
+      },
+      {
+        "distinct_text": 0,
+        "name": "AMOUNT",
+        "sample_column": false,
+        "shapes": {
+          "number": 18354
+        },
+        "text_rows": {},
+        "text_samples": {},
+        "value_like": true
+      },
+      {
+        "distinct_text": 1,
+        "name": "Report Unit - Unité de rapport",
+        "sample_column": false,
+        "shapes": {
+          "token": 18354
+        },
+        "text_rows": {
+          "µg/g": 18354
+        },
+        "text_samples": {
+          "µg/g": 399
+        },
+        "value_like": false
+      },
+      {
+        "distinct_text": 1,
+        "name": "Plan Code",
+        "sample_column": false,
+        "shapes": {
+          "token": 18354
+        },
+        "text_rows": {
+          "2018_SB459": 18354
+        },
+        "text_samples": {
+          "2018_SB459": 399
+        },
+        "value_like": false
+      }
+    ],
+    "header_width": 18,
+    "row_widths": {
+      "18": 18354
+    },
+    "rows": 18354,
+    "samples": 399
+  },
+  "dataset": "1b0c4141-7a22-4c93-8679-63eb49f7be24",
+  "encoding": "cp1252",
+  "gate_facts": {
+    "census_error": null,
+    "colour_labels": 43,
+    "colours_within_max": true,
+    "md5": true,
+    "rows": 18354,
+    "samples": 399,
+    "samples_match": true,
+    "size": true
+  },
+  "md5": "7651427618a70aa3ad2a51ab90bcae8c",
+  "md5_matches_portal": true,
+  "portal_md5": "7651427618a70aa3ad2a51ab90bcae8c",
+  "portal_size": 3771543,
+  "resource": "3006ff94-fa7a-4cc4-8b58-a2164ce6a937",
+  "sha256": "327fd0b6484ce00f9550742c316f603f9b870f78a5e674c79b0cec59e1d24d9d",
+  "size_matches_portal": true,
+  "source": "https://open.canada.ca/data/dataset/1b0c4141-7a22-4c93-8679-63eb49f7be24/resource/3006ff94-fa7a-4cc4-8b58-a2164ce6a937/download/cfia_acia-1133_2018-19_food_colours_in_selected_foods_-2018-2019_colorants-alimentaires-dans-les.csv",
+  "study": "food-colours-c18-census",
+  "version": "0.1.0"
+}

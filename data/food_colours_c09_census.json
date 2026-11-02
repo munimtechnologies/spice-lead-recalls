@@ -1,0 +1,1483 @@
+{
+  "bytes": 33724,
+  "census": {
+    "columns": {
+      "commodity": null,
+      "component": 11,
+      "date": 8,
+      "function": 2,
+      "origin": 4,
+      "plan": null,
+      "product": 6,
+      "region": 1,
+      "sample": 0,
+      "test": 9,
+      "unit": 14,
+      "value": 13
+    },
+    "commodities": {
+      "": 100
+    },
+    "components": {
+      "Allura, red": 15,
+      "Amaranth": 8,
+      "Brilliant blue": 16,
+      "Erythrosine": 1,
+      "Fat-Soluble Dyes": 100,
+      "Indigotine": 1,
+      "Sunset, yellow": 17,
+      "Tartrazine, yellow": 18
+    },
+    "header": [
+      "Sample No. – No. d’échantillon",
+      "Region - Région",
+      "Function",
+      "Fonction",
+      "Origin",
+      "Origine",
+      "Product",
+      "Produit",
+      "Date Sampled – Date d’échantillonage",
+      "Type of test",
+      "Type d’analyse",
+      "Component",
+      "Composant",
+      "Result - Résultat",
+      "Unit - Unité"
+    ],
+    "id_gaps": 0,
+    "id_range": null,
+    "ids_bad": [
+      "2009COL0001",
+      "2009COL0002",
+      "2009COL0003",
+      "2009COL0004",
+      "2009COL0005",
+      "2009COL0006",
+      "2009COL0007",
+      "2009COL0008",
+      "2009COL0009",
+      "2009COL0010"
+    ],
+    "ids_bad_count": 100,
+    "ids_dup_suffix": [],
+    "missing_component_samples": {
+      "2009COL0001": [
+        "Allura, red",
+        "Amaranth",
+        "Brilliant blue",
+        "Erythrosine",
+        "Indigotine",
+        "Sunset, yellow",
+        "Tartrazine, yellow"
+      ],
+      "2009COL0002": [
+        "Allura, red",
+        "Amaranth",
+        "Brilliant blue",
+        "Erythrosine",
+        "Indigotine",
+        "Sunset, yellow",
+        "Tartrazine, yellow"
+      ],
+      "2009COL0003": [
+        "Allura, red",
+        "Amaranth",
+        "Brilliant blue",
+        "Erythrosine",
+        "Indigotine",
+        "Sunset, yellow",
+        "Tartrazine, yellow"
+      ],
+      "2009COL0004": [
+        "Allura, red",
+        "Amaranth",
+        "Brilliant blue",
+        "Erythrosine",
+        "Indigotine",
+        "Sunset, yellow",
+        "Tartrazine, yellow"
+      ],
+      "2009COL0005": [
+        "Allura, red",
+        "Amaranth",
+        "Brilliant blue",
+        "Erythrosine",
+        "Indigotine",
+        "Sunset, yellow",
+        "Tartrazine, yellow"
+      ],
+      "2009COL0006": [
+        "Allura, red",
+        "Amaranth",
+        "Brilliant blue",
+        "Erythrosine",
+        "Indigotine",
+        "Sunset, yellow",
+        "Tartrazine, yellow"
+      ],
+      "2009COL0007": [
+        "Allura, red",
+        "Amaranth",
+        "Brilliant blue",
+        "Erythrosine",
+        "Indigotine",
+        "Sunset, yellow",
+        "Tartrazine, yellow"
+      ],
+      "2009COL0008": [
+        "Allura, red",
+        "Amaranth",
+        "Brilliant blue",
+        "Erythrosine",
+        "Indigotine",
+        "Sunset, yellow",
+        "Tartrazine, yellow"
+      ],
+      "2009COL0009": [
+        "Allura, red",
+        "Amaranth",
+        "Brilliant blue",
+        "Erythrosine",
+        "Indigotine",
+        "Sunset, yellow",
+        "Tartrazine, yellow"
+      ],
+      "2009COL0010": [
+        "Allura, red",
+        "Amaranth",
+        "Brilliant blue",
+        "Erythrosine",
+        "Indigotine",
+        "Sunset, yellow",
+        "Tartrazine, yellow"
+      ],
+      "2009COL0011": [
+        "Amaranth",
+        "Brilliant blue",
+        "Erythrosine",
+        "Indigotine",
+        "Sunset, yellow",
+        "Tartrazine, yellow"
+      ],
+      "2009COL0012": [
+        "Amaranth",
+        "Brilliant blue",
+        "Erythrosine",
+        "Indigotine",
+        "Sunset, yellow"
+      ],
+      "2009COL0013": [
+        "Allura, red",
+        "Amaranth",
+        "Brilliant blue",
+        "Erythrosine",
+        "Indigotine",
+        "Sunset, yellow",
+        "Tartrazine, yellow"
+      ],
+      "2009COL0014": [
+        "Allura, red",
+        "Amaranth",
+        "Brilliant blue",
+        "Erythrosine",
+        "Indigotine",
+        "Sunset, yellow",
+        "Tartrazine, yellow"
+      ],
+      "2009COL0015": [
+        "Allura, red",
+        "Amaranth",
+        "Brilliant blue",
+        "Erythrosine",
+        "Indigotine",
+        "Sunset, yellow",
+        "Tartrazine, yellow"
+      ],
+      "2009COL0016": [
+        "Allura, red",
+        "Amaranth",
+        "Brilliant blue",
+        "Erythrosine",
+        "Indigotine",
+        "Sunset, yellow",
+        "Tartrazine, yellow"
+      ],
+      "2009COL0017": [
+        "Allura, red",
+        "Amaranth",
+        "Brilliant blue",
+        "Erythrosine",
+        "Indigotine",
+        "Sunset, yellow",
+        "Tartrazine, yellow"
+      ],
+      "2009COL0018": [
+        "Amaranth",
+        "Brilliant blue",
+        "Erythrosine",
+        "Indigotine"
+      ],
+      "2009COL0019": [
+        "Allura, red",
+        "Amaranth",
+        "Brilliant blue",
+        "Erythrosine",
+        "Indigotine",
+        "Sunset, yellow",
+        "Tartrazine, yellow"
+      ],
+      "2009COL0020": [
+        "Allura, red",
+        "Amaranth",
+        "Brilliant blue",
+        "Erythrosine",
+        "Indigotine",
+        "Sunset, yellow",
+        "Tartrazine, yellow"
+      ],
+      "2009COL0021": [
+        "Allura, red",
+        "Amaranth",
+        "Brilliant blue",
+        "Erythrosine",
+        "Indigotine",
+        "Sunset, yellow",
+        "Tartrazine, yellow"
+      ],
+      "2009COL0022": [
+        "Allura, red",
+        "Amaranth",
+        "Brilliant blue",
+        "Erythrosine",
+        "Indigotine",
+        "Sunset, yellow",
+        "Tartrazine, yellow"
+      ],
+      "2009COL0023": [
+        "Allura, red",
+        "Amaranth",
+        "Brilliant blue",
+        "Erythrosine",
+        "Indigotine",
+        "Sunset, yellow",
+        "Tartrazine, yellow"
+      ],
+      "2009COL0024": [
+        "Allura, red",
+        "Amaranth",
+        "Brilliant blue",
+        "Erythrosine",
+        "Indigotine",
+        "Sunset, yellow",
+        "Tartrazine, yellow"
+      ],
+      "2009COL0025": [
+        "Allura, red",
+        "Brilliant blue",
+        "Erythrosine",
+        "Indigotine",
+        "Tartrazine, yellow"
+      ],
+      "2009COL0026": [
+        "Allura, red",
+        "Amaranth",
+        "Erythrosine",
+        "Indigotine",
+        "Sunset, yellow"
+      ],
+      "2009COL0027": [
+        "Allura, red",
+        "Amaranth",
+        "Brilliant blue",
+        "Erythrosine",
+        "Indigotine",
+        "Sunset, yellow",
+        "Tartrazine, yellow"
+      ],
+      "2009COL0028": [
+        "Amaranth",
+        "Brilliant blue",
+        "Erythrosine",
+        "Indigotine",
+        "Tartrazine, yellow"
+      ],
+      "2009COL0029": [
+        "Allura, red",
+        "Amaranth",
+        "Brilliant blue",
+        "Erythrosine",
+        "Indigotine",
+        "Sunset, yellow",
+        "Tartrazine, yellow"
+      ],
+      "2009COL0030": [
+        "Allura, red",
+        "Amaranth",
+        "Erythrosine",
+        "Indigotine",
+        "Sunset, yellow"
+      ],
+      "2009COL0031": [
+        "Amaranth",
+        "Erythrosine",
+        "Indigotine",
+        "Sunset, yellow"
+      ],
+      "2009COL0032": [
+        "Allura, red",
+        "Amaranth",
+        "Brilliant blue",
+        "Erythrosine",
+        "Indigotine",
+        "Sunset, yellow",
+        "Tartrazine, yellow"
+      ],
+      "2009COL0033": [
+        "Amaranth",
+        "Erythrosine",
+        "Indigotine",
+        "Sunset, yellow",
+        "Tartrazine, yellow"
+      ],
+      "2009COL0034": [
+        "Amaranth",
+        "Brilliant blue",
+        "Erythrosine",
+        "Indigotine",
+        "Sunset, yellow",
+        "Tartrazine, yellow"
+      ],
+      "2009COL0035": [
+        "Allura, red",
+        "Amaranth",
+        "Erythrosine",
+        "Indigotine",
+        "Sunset, yellow"
+      ],
+      "2009COL0036": [
+        "Allura, red",
+        "Amaranth",
+        "Erythrosine",
+        "Indigotine",
+        "Sunset, yellow",
+        "Tartrazine, yellow"
+      ],
+      "2009COL0037": [
+        "Allura, red",
+        "Amaranth",
+        "Brilliant blue",
+        "Erythrosine",
+        "Indigotine",
+        "Sunset, yellow",
+        "Tartrazine, yellow"
+      ],
+      "2009COL0038": [
+        "Allura, red",
+        "Amaranth",
+        "Brilliant blue",
+        "Erythrosine",
+        "Indigotine",
+        "Sunset, yellow",
+        "Tartrazine, yellow"
+      ],
+      "2009COL0039": [
+        "Allura, red",
+        "Brilliant blue",
+        "Erythrosine",
+        "Indigotine",
+        "Sunset, yellow",
+        "Tartrazine, yellow"
+      ],
+      "2009COL0040": [
+        "Allura, red",
+        "Amaranth",
+        "Erythrosine",
+        "Indigotine",
+        "Sunset, yellow"
+      ],
+      "2009COL0041": [
+        "Allura, red",
+        "Brilliant blue",
+        "Erythrosine",
+        "Indigotine",
+        "Sunset, yellow",
+        "Tartrazine, yellow"
+      ],
+      "2009COL0042": [
+        "Allura, red",
+        "Amaranth",
+        "Brilliant blue",
+        "Erythrosine",
+        "Indigotine"
+      ],
+      "2009COL0043": [
+        "Allura, red",
+        "Brilliant blue",
+        "Erythrosine",
+        "Indigotine",
+        "Tartrazine, yellow"
+      ],
+      "2009COL0044": [
+        "Allura, red",
+        "Amaranth",
+        "Brilliant blue",
+        "Erythrosine",
+        "Indigotine",
+        "Sunset, yellow",
+        "Tartrazine, yellow"
+      ],
+      "2009COL0045": [
+        "Allura, red",
+        "Amaranth",
+        "Brilliant blue",
+        "Erythrosine",
+        "Indigotine",
+        "Sunset, yellow",
+        "Tartrazine, yellow"
+      ],
+      "2009COL0046": [
+        "Allura, red",
+        "Erythrosine",
+        "Indigotine",
+        "Sunset, yellow",
+        "Tartrazine, yellow"
+      ],
+      "2009COL0047": [
+        "Amaranth",
+        "Brilliant blue",
+        "Erythrosine",
+        "Indigotine",
+        "Sunset, yellow",
+        "Tartrazine, yellow"
+      ],
+      "2009COL0048": [
+        "Allura, red",
+        "Amaranth",
+        "Brilliant blue",
+        "Erythrosine",
+        "Indigotine",
+        "Tartrazine, yellow"
+      ],
+      "2009COL0049": [
+        "Allura, red",
+        "Amaranth",
+        "Brilliant blue",
+        "Erythrosine",
+        "Indigotine"
+      ],
+      "2009COL0050": [
+        "Allura, red",
+        "Amaranth",
+        "Erythrosine",
+        "Indigotine",
+        "Sunset, yellow"
+      ],
+      "2009COL0051": [
+        "Allura, red",
+        "Amaranth",
+        "Brilliant blue",
+        "Erythrosine",
+        "Indigotine",
+        "Sunset, yellow",
+        "Tartrazine, yellow"
+      ],
+      "2009COL0052": [
+        "Allura, red",
+        "Amaranth",
+        "Erythrosine",
+        "Indigotine",
+        "Sunset, yellow",
+        "Tartrazine, yellow"
+      ],
+      "2009COL0053": [
+        "Allura, red",
+        "Amaranth",
+        "Brilliant blue",
+        "Erythrosine",
+        "Indigotine"
+      ],
+      "2009COL0054": [
+        "Allura, red",
+        "Amaranth",
+        "Brilliant blue",
+        "Erythrosine",
+        "Indigotine",
+        "Tartrazine, yellow"
+      ],
+      "2009COL0055": [
+        "Amaranth",
+        "Indigotine"
+      ],
+      "2009COL0056": [
+        "Allura, red",
+        "Amaranth",
+        "Brilliant blue",
+        "Erythrosine",
+        "Indigotine",
+        "Sunset, yellow",
+        "Tartrazine, yellow"
+      ],
+      "2009COL0057": [
+        "Allura, red",
+        "Amaranth",
+        "Brilliant blue",
+        "Erythrosine",
+        "Indigotine",
+        "Sunset, yellow",
+        "Tartrazine, yellow"
+      ],
+      "2009COL0058": [
+        "Allura, red",
+        "Amaranth",
+        "Brilliant blue",
+        "Erythrosine",
+        "Indigotine",
+        "Sunset, yellow",
+        "Tartrazine, yellow"
+      ],
+      "2009COL0059": [
+        "Amaranth",
+        "Brilliant blue",
+        "Erythrosine",
+        "Indigotine",
+        "Sunset, yellow",
+        "Tartrazine, yellow"
+      ],
+      "2009COL0060": [
+        "Allura, red",
+        "Amaranth",
+        "Erythrosine",
+        "Indigotine",
+        "Sunset, yellow",
+        "Tartrazine, yellow"
+      ],
+      "2009COL0061": [
+        "Amaranth",
+        "Brilliant blue",
+        "Erythrosine",
+        "Indigotine",
+        "Sunset, yellow",
+        "Tartrazine, yellow"
+      ],
+      "2009COL0062": [
+        "Allura, red",
+        "Amaranth",
+        "Brilliant blue",
+        "Erythrosine",
+        "Indigotine"
+      ],
+      "2009COL0063": [
+        "Amaranth",
+        "Brilliant blue",
+        "Erythrosine",
+        "Tartrazine, yellow"
+      ],
+      "2009COL0064": [
+        "Allura, red",
+        "Brilliant blue",
+        "Erythrosine",
+        "Indigotine",
+        "Tartrazine, yellow"
+      ],
+      "2009COL0065": [
+        "Amaranth",
+        "Erythrosine",
+        "Indigotine",
+        "Sunset, yellow",
+        "Tartrazine, yellow"
+      ],
+      "2009COL0066": [
+        "Allura, red",
+        "Amaranth",
+        "Brilliant blue",
+        "Erythrosine",
+        "Indigotine"
+      ],
+      "2009COL0067": [
+        "Amaranth",
+        "Erythrosine",
+        "Indigotine"
+      ],
+      "2009COL0068": [
+        "Allura, red",
+        "Amaranth",
+        "Erythrosine",
+        "Indigotine",
+        "Sunset, yellow"
+      ],
+      "2009COL0069": [
+        "Allura, red",
+        "Amaranth",
+        "Brilliant blue",
+        "Erythrosine",
+        "Indigotine",
+        "Sunset, yellow"
+      ],
+      "2009COL0070": [
+        "Allura, red",
+        "Amaranth",
+        "Brilliant blue",
+        "Erythrosine",
+        "Indigotine"
+      ],
+      "2009COL0071": [
+        "Allura, red",
+        "Erythrosine",
+        "Indigotine",
+        "Sunset, yellow",
+        "Tartrazine, yellow"
+      ],
+      "2009COL0072": [
+        "Allura, red",
+        "Amaranth",
+        "Brilliant blue",
+        "Erythrosine",
+        "Indigotine",
+        "Sunset, yellow",
+        "Tartrazine, yellow"
+      ],
+      "2009COL0073": [
+        "Allura, red",
+        "Amaranth",
+        "Brilliant blue",
+        "Erythrosine",
+        "Indigotine",
+        "Sunset, yellow",
+        "Tartrazine, yellow"
+      ],
+      "2009COL0074": [
+        "Allura, red",
+        "Amaranth",
+        "Brilliant blue",
+        "Erythrosine",
+        "Indigotine",
+        "Sunset, yellow",
+        "Tartrazine, yellow"
+      ],
+      "2009COL0075": [
+        "Allura, red",
+        "Amaranth",
+        "Brilliant blue",
+        "Erythrosine",
+        "Indigotine",
+        "Sunset, yellow",
+        "Tartrazine, yellow"
+      ],
+      "2009COL0076": [
+        "Allura, red",
+        "Amaranth",
+        "Brilliant blue",
+        "Erythrosine",
+        "Indigotine",
+        "Sunset, yellow",
+        "Tartrazine, yellow"
+      ],
+      "2009COL0077": [
+        "Allura, red",
+        "Amaranth",
+        "Brilliant blue",
+        "Erythrosine",
+        "Indigotine",
+        "Sunset, yellow",
+        "Tartrazine, yellow"
+      ],
+      "2009COL0078": [
+        "Allura, red",
+        "Amaranth",
+        "Brilliant blue",
+        "Erythrosine",
+        "Indigotine",
+        "Sunset, yellow",
+        "Tartrazine, yellow"
+      ],
+      "2009COL0079": [
+        "Allura, red",
+        "Amaranth",
+        "Brilliant blue",
+        "Erythrosine",
+        "Indigotine",
+        "Sunset, yellow",
+        "Tartrazine, yellow"
+      ],
+      "2009COL0080": [
+        "Allura, red",
+        "Amaranth",
+        "Brilliant blue",
+        "Erythrosine",
+        "Indigotine",
+        "Sunset, yellow",
+        "Tartrazine, yellow"
+      ],
+      "2009COL0081": [
+        "Allura, red",
+        "Amaranth",
+        "Brilliant blue",
+        "Erythrosine",
+        "Indigotine",
+        "Sunset, yellow",
+        "Tartrazine, yellow"
+      ],
+      "2009COL0082": [
+        "Allura, red",
+        "Amaranth",
+        "Brilliant blue",
+        "Erythrosine",
+        "Indigotine",
+        "Sunset, yellow",
+        "Tartrazine, yellow"
+      ],
+      "2009COL0083": [
+        "Allura, red",
+        "Amaranth",
+        "Brilliant blue",
+        "Erythrosine",
+        "Indigotine",
+        "Sunset, yellow",
+        "Tartrazine, yellow"
+      ],
+      "2009COL0084": [
+        "Allura, red",
+        "Amaranth",
+        "Brilliant blue",
+        "Erythrosine",
+        "Indigotine",
+        "Sunset, yellow",
+        "Tartrazine, yellow"
+      ],
+      "2009COL0085": [
+        "Allura, red",
+        "Amaranth",
+        "Brilliant blue",
+        "Erythrosine",
+        "Indigotine",
+        "Sunset, yellow",
+        "Tartrazine, yellow"
+      ],
+      "2009COL0086": [
+        "Allura, red",
+        "Amaranth",
+        "Brilliant blue",
+        "Erythrosine",
+        "Indigotine",
+        "Sunset, yellow",
+        "Tartrazine, yellow"
+      ],
+      "2009COL0087": [
+        "Allura, red",
+        "Amaranth",
+        "Brilliant blue",
+        "Erythrosine",
+        "Indigotine",
+        "Sunset, yellow",
+        "Tartrazine, yellow"
+      ],
+      "2009COL0088": [
+        "Allura, red",
+        "Amaranth",
+        "Brilliant blue",
+        "Erythrosine",
+        "Indigotine",
+        "Sunset, yellow",
+        "Tartrazine, yellow"
+      ],
+      "2009COL0089": [
+        "Allura, red",
+        "Amaranth",
+        "Brilliant blue",
+        "Erythrosine",
+        "Indigotine",
+        "Sunset, yellow",
+        "Tartrazine, yellow"
+      ],
+      "2009COL0090": [
+        "Allura, red",
+        "Amaranth",
+        "Brilliant blue",
+        "Erythrosine",
+        "Indigotine",
+        "Sunset, yellow",
+        "Tartrazine, yellow"
+      ],
+      "2009COL0091": [
+        "Allura, red",
+        "Amaranth",
+        "Brilliant blue",
+        "Erythrosine",
+        "Indigotine",
+        "Sunset, yellow",
+        "Tartrazine, yellow"
+      ],
+      "2009COL0092": [
+        "Allura, red",
+        "Amaranth",
+        "Brilliant blue",
+        "Erythrosine",
+        "Indigotine",
+        "Sunset, yellow",
+        "Tartrazine, yellow"
+      ],
+      "2009COL0093": [
+        "Allura, red",
+        "Amaranth",
+        "Brilliant blue",
+        "Erythrosine",
+        "Indigotine",
+        "Sunset, yellow",
+        "Tartrazine, yellow"
+      ],
+      "2009COL0094": [
+        "Allura, red",
+        "Amaranth",
+        "Brilliant blue",
+        "Erythrosine",
+        "Indigotine",
+        "Sunset, yellow",
+        "Tartrazine, yellow"
+      ],
+      "2009COL0095": [
+        "Amaranth",
+        "Brilliant blue",
+        "Erythrosine",
+        "Indigotine",
+        "Sunset, yellow",
+        "Tartrazine, yellow"
+      ],
+      "2009COL0096": [
+        "Allura, red",
+        "Amaranth",
+        "Brilliant blue",
+        "Erythrosine",
+        "Indigotine",
+        "Sunset, yellow",
+        "Tartrazine, yellow"
+      ],
+      "2009COL0097": [
+        "Allura, red",
+        "Amaranth",
+        "Brilliant blue",
+        "Erythrosine",
+        "Indigotine",
+        "Sunset, yellow",
+        "Tartrazine, yellow"
+      ],
+      "2009COL0098": [
+        "Allura, red",
+        "Brilliant blue",
+        "Erythrosine",
+        "Indigotine",
+        "Tartrazine, yellow"
+      ],
+      "2009COL0099": [
+        "Allura, red",
+        "Amaranth",
+        "Brilliant blue",
+        "Erythrosine",
+        "Indigotine",
+        "Sunset, yellow",
+        "Tartrazine, yellow"
+      ],
+      "2009COL0100": [
+        "Allura, red",
+        "Amaranth",
+        "Brilliant blue",
+        "Erythrosine",
+        "Indigotine",
+        "Sunset, yellow",
+        "Tartrazine, yellow"
+      ]
+    },
+    "mixed_label_samples": [],
+    "plans": {
+      "": 176
+    },
+    "product_commodity": {
+      "Animal-based products | ": 7,
+      "Beverage | ": 9,
+      "Miscalleneous | ": 6,
+      "Plant-based products | ": 12,
+      "Sauces/condiments | ": 23,
+      "Spices/flavours | ": 27,
+      "Sweets and jelly | ": 16
+    },
+    "product_function": {
+      "Animal-based products": {
+        "Domestic": 2,
+        "Import": 5
+      },
+      "Beverage": {
+        "Domestic": 5,
+        "Import": 2,
+        "Unknown": 2
+      },
+      "Miscalleneous": {
+        "Domestic": 3,
+        "Import": 2,
+        "Unknown": 1
+      },
+      "Plant-based products": {
+        "Domestic": 10,
+        "Import": 2
+      },
+      "Sauces/condiments": {
+        "Domestic": 9,
+        "Import": 12,
+        "Unknown": 2
+      },
+      "Spices/flavours": {
+        "Domestic": 6,
+        "Import": 13,
+        "Unknown": 8
+      },
+      "Sweets and jelly": {
+        "Domestic": 14,
+        "Import": 2
+      }
+    },
+    "product_id_runs": {
+      "Animal-based products": [],
+      "Beverage": [],
+      "Miscalleneous": [],
+      "Plant-based products": [],
+      "Sauces/condiments": [],
+      "Spices/flavours": [],
+      "Sweets and jelly": []
+    },
+    "product_origin_top": {
+      "Animal-based products": {
+        "CANADA": 2,
+        "CHINA": 1,
+        "TAIWAN": 3,
+        "UNITED STATES": 1
+      },
+      "Beverage": {
+        "CANADA": 5,
+        "SWITZERLAND": 1,
+        "UNITED STATES": 1,
+        "UNKNOWN": 2
+      },
+      "Miscalleneous": {
+        "CANADA": 3,
+        "UNITED KINGDOM": 1,
+        "UNITED STATES": 1,
+        "UNKNOWN": 1
+      },
+      "Plant-based products": {
+        "CANADA": 10,
+        "UNITED STATES": 2
+      },
+      "Sauces/condiments": {
+        "BELGIUM": 1,
+        "CANADA": 9,
+        "GHANA": 1,
+        "INDIA": 1,
+        "MALAYSIA": 1,
+        "SOUTH AFRICA": 1,
+        "SWITZERLAND": 1,
+        "UNITED STATES": 5,
+        "UNKNOWN": 3
+      },
+      "Spices/flavours": {
+        "BELGIUM": 1,
+        "CANADA": 6,
+        "CHINA": 1,
+        "PERU": 1,
+        "PHILIPPINES": 1,
+        "TAIWAN": 1,
+        "THAILAND": 5,
+        "UNITED KINGDOM": 1,
+        "UNITED STATES": 2,
+        "UNKNOWN": 8
+      },
+      "Sweets and jelly": {
+        "CANADA": 14,
+        "UNITED STATES": 2
+      }
+    },
+    "products": {
+      "Animal-based products": 7,
+      "Beverage": 9,
+      "Miscalleneous": 6,
+      "Plant-based products": 12,
+      "Sauces/condiments": 23,
+      "Spices/flavours": 27,
+      "Sweets and jelly": 16
+    },
+    "regions": {
+      "QUEBEC": 176
+    },
+    "repeated_component_samples": {},
+    "rows": 176,
+    "rows_per_sample": {
+      "1": 59,
+      "2": 14,
+      "3": 22,
+      "4": 3,
+      "5": 1,
+      "6": 1
+    },
+    "samples": 100,
+    "shapes": {
+      "number": 176
+    },
+    "shapes_by_component": {
+      "Allura, red": {
+        "number": 15
+      },
+      "Amaranth": {
+        "number": 8
+      },
+      "Brilliant blue": {
+        "number": 16
+      },
+      "Erythrosine": {
+        "number": 1
+      },
+      "Fat-Soluble Dyes": {
+        "number": 100
+      },
+      "Indigotine": {
+        "number": 1
+      },
+      "Sunset, yellow": {
+        "number": 17
+      },
+      "Tartrazine, yellow": {
+        "number": 18
+      }
+    },
+    "tests": {
+      "FOOD COLOURS (FAT)": 100,
+      "FOOD COLOURS (WATER)": 76
+    },
+    "tokens": {},
+    "units": {
+      "µg/g": 176
+    },
+    "units_by_component": {
+      "Allura, red": {
+        "µg/g": 15
+      },
+      "Amaranth": {
+        "µg/g": 8
+      },
+      "Brilliant blue": {
+        "µg/g": 16
+      },
+      "Erythrosine": {
+        "µg/g": 1
+      },
+      "Fat-Soluble Dyes": {
+        "µg/g": 100
+      },
+      "Indigotine": {
+        "µg/g": 1
+      },
+      "Sunset, yellow": {
+        "µg/g": 17
+      },
+      "Tartrazine, yellow": {
+        "µg/g": 18
+      }
+    }
+  },
+  "columns": {
+    "columns": [
+      {
+        "distinct_text": 0,
+        "name": "Sample No. – No. d’échantillon",
+        "sample_column": true,
+        "shapes": {
+          "token": 176
+        },
+        "text_rows": {},
+        "text_samples": {},
+        "value_like": false
+      },
+      {
+        "distinct_text": 1,
+        "name": "Region - Région",
+        "sample_column": false,
+        "shapes": {
+          "token": 176
+        },
+        "text_rows": {
+          "QUEBEC": 176
+        },
+        "text_samples": {
+          "QUEBEC": 100
+        },
+        "value_like": false
+      },
+      {
+        "distinct_text": 3,
+        "name": "Function",
+        "sample_column": false,
+        "shapes": {
+          "token": 176
+        },
+        "text_rows": {
+          "Domestic": 106,
+          "Import": 52,
+          "Unknown": 18
+        },
+        "text_samples": {
+          "Domestic": 49,
+          "Import": 38,
+          "Unknown": 13
+        },
+        "value_like": false
+      },
+      {
+        "distinct_text": 3,
+        "name": "Fonction",
+        "sample_column": false,
+        "shapes": {
+          "token": 176
+        },
+        "text_rows": {
+          "Domestique": 106,
+          "Importé": 52,
+          "Inconnu": 18
+        },
+        "text_samples": {
+          "Domestique": 49,
+          "Importé": 38,
+          "Inconnu": 13
+        },
+        "value_like": false
+      },
+      {
+        "distinct_text": 15,
+        "name": "Origin",
+        "sample_column": false,
+        "shapes": {
+          "token": 176
+        },
+        "text_rows": {
+          "BELGIUM": 4,
+          "CANADA": 106,
+          "CHINA": 2,
+          "GHANA": 1,
+          "INDIA": 3,
+          "MALAYSIA": 1,
+          "PERU": 1,
+          "PHILIPPINES": 1,
+          "SOUTH AFRICA": 1,
+          "SWITZERLAND": 4,
+          "TAIWAN": 4,
+          "THAILAND": 6,
+          "UNITED KINGDOM": 2,
+          "UNITED STATES": 21,
+          "UNKNOWN": 19
+        },
+        "text_samples": {
+          "BELGIUM": 2,
+          "CANADA": 49,
+          "CHINA": 2,
+          "GHANA": 1,
+          "INDIA": 1,
+          "MALAYSIA": 1,
+          "PERU": 1,
+          "PHILIPPINES": 1,
+          "SOUTH AFRICA": 1,
+          "SWITZERLAND": 2,
+          "TAIWAN": 4,
+          "THAILAND": 5,
+          "UNITED KINGDOM": 2,
+          "UNITED STATES": 14,
+          "UNKNOWN": 14
+        },
+        "value_like": false
+      },
+      {
+        "distinct_text": 15,
+        "name": "Origine",
+        "sample_column": false,
+        "shapes": {
+          "token": 176
+        },
+        "text_rows": {
+          "AFRIQUE DU SUD": 1,
+          "BELGIQUE": 4,
+          "CANADA": 106,
+          "CHINE": 2,
+          "GHANA": 1,
+          "INCONNUE": 19,
+          "INDE": 3,
+          "MALAISIE": 1,
+          "PHILIPPINES": 1,
+          "PÉROU": 1,
+          "ROYAUME-UNI": 2,
+          "SUISSE": 4,
+          "TAÏWAN": 4,
+          "THAÏLANDE": 6,
+          "ÉTATS-UNIS": 21
+        },
+        "text_samples": {
+          "AFRIQUE DU SUD": 1,
+          "BELGIQUE": 2,
+          "CANADA": 49,
+          "CHINE": 2,
+          "GHANA": 1,
+          "INCONNUE": 14,
+          "INDE": 1,
+          "MALAISIE": 1,
+          "PHILIPPINES": 1,
+          "PÉROU": 1,
+          "ROYAUME-UNI": 2,
+          "SUISSE": 2,
+          "TAÏWAN": 4,
+          "THAÏLANDE": 5,
+          "ÉTATS-UNIS": 14
+        },
+        "value_like": false
+      },
+      {
+        "distinct_text": 7,
+        "name": "Product",
+        "sample_column": false,
+        "shapes": {
+          "token": 176
+        },
+        "text_rows": {
+          "Animal-based products": 14,
+          "Beverage": 22,
+          "Miscalleneous": 9,
+          "Plant-based products": 15,
+          "Sauces/condiments": 32,
+          "Spices/flavours": 34,
+          "Sweets and jelly": 50
+        },
+        "text_samples": {
+          "Animal-based products": 7,
+          "Beverage": 9,
+          "Miscalleneous": 6,
+          "Plant-based products": 12,
+          "Sauces/condiments": 23,
+          "Spices/flavours": 27,
+          "Sweets and jelly": 16
+        },
+        "value_like": false
+      },
+      {
+        "distinct_text": 7,
+        "name": "Produit",
+        "sample_column": false,
+        "shapes": {
+          "token": 176
+        },
+        "text_rows": {
+          "Boisson": 22,
+          "Bonbons et gelées": 50,
+          "Divers": 9,
+          "Produits à base d`animaux": 14,
+          "Produits à base de plantes": 15,
+          "Sauces/condiments": 32,
+          "Épices/saveurs": 34
+        },
+        "text_samples": {
+          "Boisson": 9,
+          "Bonbons et gelées": 16,
+          "Divers": 6,
+          "Produits à base d`animaux": 7,
+          "Produits à base de plantes": 12,
+          "Sauces/condiments": 23,
+          "Épices/saveurs": 27
+        },
+        "value_like": false
+      },
+      {
+        "distinct_text": 16,
+        "name": "Date Sampled – Date d’échantillonage",
+        "sample_column": false,
+        "shapes": {
+          "token": 176
+        },
+        "text_rows": {
+          "1/4/2010": 2,
+          "1/5/2010": 19,
+          "1/7/2010": 7,
+          "1/8/2010": 2,
+          "10/1/2009": 1,
+          "10/2/2009": 5,
+          "10/23/2009": 21,
+          "11/23/2009": 19,
+          "11/9/2009": 56,
+          "12/1/2009": 10,
+          "12/3/2009": 6,
+          "9/1/2009": 2,
+          "9/21/2009": 22,
+          "9/22/2009": 1,
+          "9/4/2009": 1,
+          "9/9/2009": 2
+        },
+        "text_samples": {
+          "1/4/2010": 2,
+          "1/5/2010": 17,
+          "1/7/2010": 6,
+          "1/8/2010": 2,
+          "10/1/2009": 1,
+          "10/2/2009": 5,
+          "10/23/2009": 8,
+          "11/23/2009": 7,
+          "11/9/2009": 25,
+          "12/1/2009": 3,
+          "12/3/2009": 2,
+          "9/1/2009": 2,
+          "9/21/2009": 16,
+          "9/22/2009": 1,
+          "9/4/2009": 1,
+          "9/9/2009": 2
+        },
+        "value_like": false
+      },
+      {
+        "distinct_text": 2,
+        "name": "Type of test",
+        "sample_column": false,
+        "shapes": {
+          "token": 176
+        },
+        "text_rows": {
+          "FOOD COLOURS (FAT)": 100,
+          "FOOD COLOURS (WATER)": 76
+        },
+        "text_samples": {
+          "FOOD COLOURS (FAT)": 100,
+          "FOOD COLOURS (WATER)": 41
+        },
+        "value_like": false
+      },
+      {
+        "distinct_text": 2,
+        "name": "Type d’analyse",
+        "sample_column": false,
+        "shapes": {
+          "token": 176
+        },
+        "text_rows": {
+          "COULEURS ALIMENTAIRES (EAU)": 76,
+          "COULEURS ALIMENTAIRES (GRAS)": 100
+        },
+        "text_samples": {
+          "COULEURS ALIMENTAIRES (EAU)": 41,
+          "COULEURS ALIMENTAIRES (GRAS)": 100
+        },
+        "value_like": false
+      },
+      {
+        "distinct_text": 8,
+        "name": "Component",
+        "sample_column": false,
+        "shapes": {
+          "token": 176
+        },
+        "text_rows": {
+          "Allura, red": 15,
+          "Amaranth": 8,
+          "Brilliant blue": 16,
+          "Erythrosine": 1,
+          "Fat-Soluble Dyes": 100,
+          "Indigotine": 1,
+          "Sunset, yellow": 17,
+          "Tartrazine, yellow": 18
+        },
+        "text_samples": {
+          "Allura, red": 15,
+          "Amaranth": 8,
+          "Brilliant blue": 16,
+          "Erythrosine": 1,
+          "Fat-Soluble Dyes": 100,
+          "Indigotine": 1,
+          "Sunset, yellow": 17,
+          "Tartrazine, yellow": 18
+        },
+        "value_like": false
+      },
+      {
+        "distinct_text": 8,
+        "name": "Composant",
+        "sample_column": false,
+        "shapes": {
+          "token": 176
+        },
+        "text_rows": {
+          "Amarante": 8,
+          "Bleu brillant": 16,
+          "Colorants Liposolubles": 100,
+          "Indigotine": 1,
+          "Jaune flamboyant": 17,
+          "Jaune tartrazine": 18,
+          "Rouge allura": 15,
+          "Érythrosine": 1
+        },
+        "text_samples": {
+          "Amarante": 8,
+          "Bleu brillant": 16,
+          "Colorants Liposolubles": 100,
+          "Indigotine": 1,
+          "Jaune flamboyant": 17,
+          "Jaune tartrazine": 18,
+          "Rouge allura": 15,
+          "Érythrosine": 1
+        },
+        "value_like": false
+      },
+      {
+        "distinct_text": 0,
+        "name": "Result - Résultat",
+        "sample_column": false,
+        "shapes": {
+          "number": 176
+        },
+        "text_rows": {},
+        "text_samples": {},
+        "value_like": true
+      },
+      {
+        "distinct_text": 1,
+        "name": "Unit - Unité",
+        "sample_column": false,
+        "shapes": {
+          "token": 176
+        },
+        "text_rows": {
+          "µg/g": 176
+        },
+        "text_samples": {
+          "µg/g": 100
+        },
+        "value_like": false
+      }
+    ],
+    "header_width": 15,
+    "row_widths": {
+      "15": 176
+    },
+    "rows": 176,
+    "samples": 100
+  },
+  "dataset": "e750a5e1-40e5-4428-b23f-cc3f613e7f9a",
+  "encoding": "cp1252",
+  "gate_facts": {
+    "census_error": null,
+    "colour_labels": 8,
+    "md5": true,
+    "rows": 176,
+    "s3_fewer_than_2000_rows": true,
+    "samples": 100,
+    "samples_match": true,
+    "size": true
+  },
+  "md5": "dc558d850720b90610da2c75424d1cd7",
+  "md5_matches_portal": true,
+  "portal_md5": "dc558d850720b90610da2c75424d1cd7",
+  "portal_size": 33724,
+  "resource": "9c6e2a16-c552-41cb-b95c-240db3c75b8d",
+  "sha256": "bd2cd029f874de4ecb1282f9793908b74b5240d0d32aaabc4b94733f499ee452",
+  "size_matches_portal": true,
+  "source": "https://open.canada.ca/data/dataset/e750a5e1-40e5-4428-b23f-cc3f613e7f9a/resource/9c6e2a16-c552-41cb-b95c-240db3c75b8d/download/1550-v1-chem_ts_2009-2010_food_colours_used_in_the_production_of_manufactured_foods_open_data_po.csv",
+  "study": "food-colours-c09-census",
+  "version": "0.1.0"
+}
