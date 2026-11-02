@@ -23,7 +23,8 @@ splits do. Where a report and its file disagree, the file usually matches the re
 tables, and the summary or a later table is off. Several mismatches turn out to be a table that
 silently covers only part of the file (a subset of pastas, canned food only, or four samples fewer).
 In the two PAH files, three pairs of samples with different foods or origins carry identical values;
-the two food-colour files have none.
+the two food-colour files have none. The two ethyl carbamate files are the first pair whose
+origin splits match in every cell that can be checked.
 
 ## Children's Food Project (aflatoxin M1, lead)
 
@@ -109,13 +110,30 @@ the two food-colour files have none.
   that one sub-LQ result gives Table 2's 336 exactly (a reading, not proven). Table 3 otherwise
   reproduces in full; 218 samples are colour-free, not 219; the 539 ppm Allura Red candy and the
   single Rhodamine B sample hold. In 2009-10 the five named colours are 97.4% of results, not 93%.
+  Its independent test re-ran from GitHub in a sealed job on 2026-11-02 and passed (12 tests).
 
 ## Ethyl carbamate, 2018-19 and 2019-20
 
 - [Pre-registration](ethyl-carbamate-0.1.0-prereg.md), fixed from the printed reports before either
   file is read. The 2019-20 text says 93% of soy samples had no EC, but 6 of 100 had it. A later
   CFIA report gives the 2019 soy row a minimum of 4.0 and an average of 74.1, which are the
-  original report's all-products figures (soy alone: 7 and 108). The portal lists the 2019-20 file
-  at 58 bytes, too small for 300 samples. A names-only census runs next.
+  original report's all-products figures (soy alone: 7 and 108).
+- [Census note, label maps and grader](ethyl-carbamate-0.1.0-census.md). 4 of 5 census items
+  held. The 2019-20 file is complete (58,972 bytes, matching the portal MD5); the portal's "58"
+  size is off by about 1,000. Every product total and every origin cell that can be checked
+  matches. One 2018-19 beer is labelled "Beef" and one 2019-20 fermented vegetable
+  "Fish/Seafood"; both sit inside their product's ID block. The 2018-19 file gives sake, spirits
+  and wine one label, so those rows and the wine-limit sentence cannot be checked, and its last
+  sampling date is 6 March 2019, not the text's 21 March.
+
+## Perchlorate, 2010-11, 2011-13 and 2013-14
+
+- [Pre-registration](perchlorate-series-0.1.0-prereg.md), fixed from the three summary pages and
+  the comparison table (Table 3) of CFIA's 2020-21 dairy and infant-formula report, which cites
+  the earlier surveys as unpublished data. Table 3 gives 2010's cheese, milk and yogurt the same
+  average (5.1), while the 2010-11 summary gives yogurt 4.9 and puts milk below both. Its 2010
+  formula row has 74 samples where the 2010-11 report has 89. And 2013-14's "54% of infant
+  formula" cannot be reached with Table 3's 30 formulas (16 of 30 is 53%, 17 of 30 is 57%). A
+  names-only census runs next.
 
 MV2, Munim, Inc., mv2@munimtech.com
