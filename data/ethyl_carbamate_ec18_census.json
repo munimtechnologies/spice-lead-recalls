@@ -1,0 +1,894 @@
+{
+  "bytes": 71629,
+  "census": {
+    "columns": {
+      "commodity": 2,
+      "component": 13,
+      "date": 10,
+      "function": 4,
+      "origin": 6,
+      "plan": 17,
+      "product": 8,
+      "region": 1,
+      "sample": 0,
+      "test": 11,
+      "unit": 16,
+      "value": 15
+    },
+    "commodities": {
+      "IMFD": 390
+    },
+    "components": {
+      "Ethyl carbamate": 390
+    },
+    "header": [
+      "Sample No. – No. d’échantillon",
+      "Region - Région",
+      "Commodity",
+      "denrée",
+      "Function",
+      "Fonction",
+      "Origin",
+      "Origine",
+      "Product",
+      "Produit",
+      "Date Sampled – Date d’échantillonage",
+      "Type of Test",
+      "Type d’analyse",
+      "Component",
+      "Composant",
+      "MaxOfAMOUNT",
+      "Report Unit - Unité de rapport",
+      "PLAN_CODE"
+    ],
+    "id_gaps": 10,
+    "id_range": [
+      1,
+      400
+    ],
+    "ids_bad": [],
+    "ids_bad_count": 0,
+    "ids_dup_suffix": [],
+    "missing_component_samples": {},
+    "mixed_label_samples": [],
+    "plans": {
+      "2018_SB428": 390
+    },
+    "product_commodity": {
+      "Beef | IMFD": 1,
+      "Beer | IMFD": 124,
+      "Beverage - Alcohol | IMFD": 140,
+      "Vinegar | IMFD": 125
+    },
+    "product_function": {
+      "Beef": {
+        "Import": 1
+      },
+      "Beer": {
+        "Domestic": 54,
+        "Import": 48,
+        "Unknown": 22
+      },
+      "Beverage - Alcohol": {
+        "Domestic": 37,
+        "Import": 85,
+        "Unknown": 18
+      },
+      "Vinegar": {
+        "Domestic": 12,
+        "Import": 64,
+        "Unknown": 49
+      }
+    },
+    "product_id_runs": {
+      "Beef": [
+        [
+          251,
+          251
+        ]
+      ],
+      "Beer": [
+        [
+          151,
+          250
+        ],
+        [
+          252,
+          275
+        ]
+      ],
+      "Beverage - Alcohol": [
+        [
+          1,
+          14
+        ],
+        [
+          17,
+          18
+        ],
+        [
+          20,
+          22
+        ],
+        [
+          24,
+          33
+        ],
+        [
+          35,
+          36
+        ],
+        [
+          38,
+          38
+        ],
+        [
+          40,
+          41
+        ],
+        [
+          43,
+          43
+        ],
+        [
+          46,
+          150
+        ]
+      ],
+      "Vinegar": [
+        [
+          276,
+          400
+        ]
+      ]
+    },
+    "product_origin_top": {
+      "Beef": {
+        "ICELAND": 1
+      },
+      "Beer": {
+        "BELGIUM": 6,
+        "CANADA": 54,
+        "CZECH REPUBLIC": 5,
+        "DENMARK": 1,
+        "FRANCE": 3,
+        "GERMANY": 8,
+        "IRELAND": 2,
+        "NETHERLANDS": 7,
+        "PHILIPPINES": 1,
+        "POLAND": 3,
+        "SCOTLAND": 1,
+        "SRI LANKA": 1,
+        "UNITED KINGDOM": 2,
+        "UNITED STATES": 4,
+        "UNKNOWN": 24,
+        "VIETNAM": 2
+      },
+      "Beverage - Alcohol": {
+        "CANADA": 37,
+        "FRANCE": 15,
+        "GERMANY": 6,
+        "IRELAND": 8,
+        "ITALY": 3,
+        "JAPAN": 12,
+        "KOREA, REPUBLIC OF": 2,
+        "SCOTLAND": 22,
+        "SOUTH AFRICA": 1,
+        "SPAIN": 1,
+        "UNITED STATES": 13,
+        "UNKNOWN": 20
+      },
+      "Vinegar": {
+        "CANADA": 12,
+        "GREECE": 2,
+        "ITALY": 27,
+        "LEBANON": 1,
+        "PHILIPPINES": 1,
+        "PORTUGAL": 1,
+        "SPAIN": 2,
+        "TAIWAN, PROVINCE OF CHINA": 1,
+        "UNITED STATES": 25,
+        "UNKNOWN": 53
+      }
+    },
+    "products": {
+      "Beef": 1,
+      "Beer": 124,
+      "Beverage - Alcohol": 140,
+      "Vinegar": 125
+    },
+    "regions": {
+      "ATLANTIC": 27,
+      "ONTARIO": 154,
+      "QUEBEC": 87,
+      "WEST": 122
+    },
+    "repeated_component_samples": {},
+    "rows": 390,
+    "rows_per_sample": {
+      "1": 390
+    },
+    "samples": 390,
+    "shapes": {
+      "number": 390
+    },
+    "shapes_by_component": {
+      "Ethyl carbamate": {
+        "number": 390
+      }
+    },
+    "tests": {
+      "ETHYL CARBAMATE": 390
+    },
+    "tokens": {},
+    "units": {
+      "ng/g": 390
+    },
+    "units_by_component": {
+      "Ethyl carbamate": {
+        "ng/g": 390
+      }
+    }
+  },
+  "columns": {
+    "columns": [
+      {
+        "distinct_text": 0,
+        "name": "Sample No. – No. d’échantillon",
+        "sample_column": true,
+        "shapes": {
+          "token": 390
+        },
+        "text_rows": {},
+        "text_samples": {},
+        "value_like": false
+      },
+      {
+        "distinct_text": 4,
+        "name": "Region - Région",
+        "sample_column": false,
+        "shapes": {
+          "token": 390
+        },
+        "text_rows": {
+          "ATLANTIC": 27,
+          "ONTARIO": 154,
+          "QUEBEC": 87,
+          "WEST": 122
+        },
+        "text_samples": {
+          "ATLANTIC": 27,
+          "ONTARIO": 154,
+          "QUEBEC": 87,
+          "WEST": 122
+        },
+        "value_like": false
+      },
+      {
+        "distinct_text": 1,
+        "name": "Commodity",
+        "sample_column": false,
+        "shapes": {
+          "token": 390
+        },
+        "text_rows": {
+          "IMFD": 390
+        },
+        "text_samples": {
+          "IMFD": 390
+        },
+        "value_like": false
+      },
+      {
+        "distinct_text": 1,
+        "name": "denrée",
+        "sample_column": false,
+        "shapes": {
+          "token": 390
+        },
+        "text_rows": {
+          "DAIM": 390
+        },
+        "text_samples": {
+          "DAIM": 390
+        },
+        "value_like": false
+      },
+      {
+        "distinct_text": 3,
+        "name": "Function",
+        "sample_column": false,
+        "shapes": {
+          "token": 390
+        },
+        "text_rows": {
+          "Domestic": 103,
+          "Import": 198,
+          "Unknown": 89
+        },
+        "text_samples": {
+          "Domestic": 103,
+          "Import": 198,
+          "Unknown": 89
+        },
+        "value_like": false
+      },
+      {
+        "distinct_text": 3,
+        "name": "Fonction",
+        "sample_column": false,
+        "shapes": {
+          "token": 390
+        },
+        "text_rows": {
+          "domestique": 103,
+          "importé": 198,
+          "inconnu": 89
+        },
+        "text_samples": {
+          "domestique": 103,
+          "importé": 198,
+          "inconnu": 89
+        },
+        "value_like": false
+      },
+      {
+        "distinct_text": 26,
+        "name": "Origin",
+        "sample_column": false,
+        "shapes": {
+          "token": 390
+        },
+        "text_rows": {
+          "BELGIUM": 6,
+          "CANADA": 103,
+          "CZECH REPUBLIC": 5,
+          "DENMARK": 1,
+          "FRANCE": 18,
+          "GERMANY": 14,
+          "GREECE": 2,
+          "ICELAND": 1,
+          "IRELAND": 10,
+          "ITALY": 30,
+          "JAPAN": 12,
+          "KOREA, REPUBLIC OF": 2,
+          "LEBANON": 1,
+          "NETHERLANDS": 7,
+          "PHILIPPINES": 2,
+          "POLAND": 3,
+          "PORTUGAL": 1,
+          "SCOTLAND": 23,
+          "SOUTH AFRICA": 1,
+          "SPAIN": 3,
+          "SRI LANKA": 1,
+          "TAIWAN, PROVINCE OF CHINA": 1,
+          "UNITED KINGDOM": 2,
+          "UNITED STATES": 42,
+          "UNKNOWN": 97,
+          "VIETNAM": 2
+        },
+        "text_samples": {
+          "BELGIUM": 6,
+          "CANADA": 103,
+          "CZECH REPUBLIC": 5,
+          "DENMARK": 1,
+          "FRANCE": 18,
+          "GERMANY": 14,
+          "GREECE": 2,
+          "ICELAND": 1,
+          "IRELAND": 10,
+          "ITALY": 30,
+          "JAPAN": 12,
+          "KOREA, REPUBLIC OF": 2,
+          "LEBANON": 1,
+          "NETHERLANDS": 7,
+          "PHILIPPINES": 2,
+          "POLAND": 3,
+          "PORTUGAL": 1,
+          "SCOTLAND": 23,
+          "SOUTH AFRICA": 1,
+          "SPAIN": 3,
+          "SRI LANKA": 1,
+          "TAIWAN, PROVINCE OF CHINA": 1,
+          "UNITED KINGDOM": 2,
+          "UNITED STATES": 42,
+          "UNKNOWN": 97,
+          "VIETNAM": 2
+        },
+        "value_like": false
+      },
+      {
+        "distinct_text": 26,
+        "name": "Origine",
+        "sample_column": false,
+        "shapes": {
+          "token": 390
+        },
+        "text_rows": {
+          "AFRIQUE DU SUD": 1,
+          "ALLEMAGNE": 14,
+          "BELGIQUE": 6,
+          "CANADA": 103,
+          "CORÉE, RÉPUBLIQUE DE": 2,
+          "DANEMARK": 1,
+          "ECOSSE": 23,
+          "ESPAGNE": 3,
+          "FRANCE": 18,
+          "GRÈCE": 2,
+          "INCONNU": 97,
+          "IRLANDE": 10,
+          "ISLANDE": 1,
+          "ITALIE": 30,
+          "JAPON": 12,
+          "LIBAN": 1,
+          "PAYS-BAS": 7,
+          "PHILIPPINES": 2,
+          "POLOGNE": 3,
+          "PORTUGAL": 1,
+          "ROYAUME-UNI": 2,
+          "SRI LANKA": 1,
+          "TAÏWAN, PROVINCE DE CHINE": 1,
+          "TCHÈQUE, RÉPUBLIQUE": 5,
+          "VIETNAM": 2,
+          "ÉTATS-UNIS": 42
+        },
+        "text_samples": {
+          "AFRIQUE DU SUD": 1,
+          "ALLEMAGNE": 14,
+          "BELGIQUE": 6,
+          "CANADA": 103,
+          "CORÉE, RÉPUBLIQUE DE": 2,
+          "DANEMARK": 1,
+          "ECOSSE": 23,
+          "ESPAGNE": 3,
+          "FRANCE": 18,
+          "GRÈCE": 2,
+          "INCONNU": 97,
+          "IRLANDE": 10,
+          "ISLANDE": 1,
+          "ITALIE": 30,
+          "JAPON": 12,
+          "LIBAN": 1,
+          "PAYS-BAS": 7,
+          "PHILIPPINES": 2,
+          "POLOGNE": 3,
+          "PORTUGAL": 1,
+          "ROYAUME-UNI": 2,
+          "SRI LANKA": 1,
+          "TAÏWAN, PROVINCE DE CHINE": 1,
+          "TCHÈQUE, RÉPUBLIQUE": 5,
+          "VIETNAM": 2,
+          "ÉTATS-UNIS": 42
+        },
+        "value_like": false
+      },
+      {
+        "distinct_text": 4,
+        "name": "Product",
+        "sample_column": false,
+        "shapes": {
+          "token": 390
+        },
+        "text_rows": {
+          "Beef": 1,
+          "Beer": 124,
+          "Beverage - Alcohol": 140,
+          "Vinegar": 125
+        },
+        "text_samples": {
+          "Beef": 1,
+          "Beer": 124,
+          "Beverage - Alcohol": 140,
+          "Vinegar": 125
+        },
+        "value_like": false
+      },
+      {
+        "distinct_text": 4,
+        "name": "Produit",
+        "sample_column": false,
+        "shapes": {
+          "token": 390
+        },
+        "text_rows": {
+          "Bière": 124,
+          "Boeuf": 1,
+          "Boisson - Alcool": 140,
+          "Vinaigre": 125
+        },
+        "text_samples": {
+          "Bière": 124,
+          "Boeuf": 1,
+          "Boisson - Alcool": 140,
+          "Vinaigre": 125
+        },
+        "value_like": false
+      },
+      {
+        "distinct_text": 119,
+        "name": "Date Sampled – Date d’échantillonage",
+        "sample_column": false,
+        "shapes": {
+          "token": 390
+        },
+        "text_rows": {
+          "1-Aug-18": 8,
+          "1-Dec-18": 2,
+          "1-Feb-19": 11,
+          "1-Jun-18": 3,
+          "1-May-18": 7,
+          "1-Nov-18": 2,
+          "1-Oct-18": 9,
+          "1-Sep-18": 3,
+          "10-Apr-18": 7,
+          "10-Aug-18": 2,
+          "10-Dec-18": 3,
+          "10-Jun-18": 2,
+          "11-Apr-18": 1,
+          "11-Dec-18": 2,
+          "11-Feb-19": 1,
+          "11-May-18": 7,
+          "11-Nov-18": 2,
+          "11-Oct-18": 6,
+          "11-Sep-18": 5,
+          "12-Apr-18": 5,
+          "12-Aug-18": 2,
+          "12-Jul-18": 2,
+          "12-Jun-18": 2,
+          "12-Nov-18": 2,
+          "13-Apr-18": 3,
+          "13-Aug-18": 3,
+          "13-Dec-18": 1,
+          "14-Aug-18": 1,
+          "14-Feb-19": 2,
+          "14-Jan-19": 3,
+          "14-Jun-18": 2,
+          "14-May-18": 1,
+          "15-Apr-18": 1,
+          "15-Jan-19": 5,
+          "15-Jul-18": 1,
+          "15-May-18": 1,
+          "16-Nov-18": 2,
+          "16-Oct-18": 2,
+          "17-Dec-18": 6,
+          "17-Jan-19": 9,
+          "17-Oct-18": 4,
+          "18-Jan-19": 2,
+          "18-Jul-18": 4,
+          "18-Jun-18": 2,
+          "18-May-18": 2,
+          "18-Oct-18": 1,
+          "19-Apr-18": 3,
+          "19-Aug-18": 2,
+          "19-Nov-18": 3,
+          "19-Sep-18": 4,
+          "2-Jul-18": 2,
+          "2-May-18": 2,
+          "2-Nov-18": 1,
+          "2-Oct-18": 2,
+          "21-Jan-19": 1,
+          "21-Jul-18": 2,
+          "21-Nov-18": 4,
+          "22-Apr-18": 5,
+          "22-Feb-19": 1,
+          "22-Jan-19": 2,
+          "22-Nov-18": 8,
+          "22-Oct-18": 4,
+          "23-Aug-18": 2,
+          "23-Jan-19": 6,
+          "23-Oct-18": 1,
+          "24-Jul-18": 1,
+          "26-Apr-18": 3,
+          "26-Jul-18": 2,
+          "26-Jun-18": 3,
+          "26-Nov-18": 3,
+          "27-Feb-19": 2,
+          "27-Jun-18": 1,
+          "27-Nov-18": 4,
+          "28-Aug-18": 7,
+          "28-Feb-19": 3,
+          "28-Nov-18": 3,
+          "29-Jan-19": 1,
+          "29-Nov-18": 2,
+          "3-Apr-18": 1,
+          "3-Aug-18": 2,
+          "3-May-18": 5,
+          "3-Oct-18": 3,
+          "3-Sep-18": 1,
+          "30-Sep-18": 1,
+          "31-Jan-19": 1,
+          "31-Jul-18": 2,
+          "4-Apr-18": 3,
+          "4-Dec-18": 3,
+          "4-Feb-19": 1,
+          "4-Jul-18": 2,
+          "4-Jun-18": 11,
+          "4-Mar-19": 3,
+          "4-Nov-18": 5,
+          "5-Apr-18": 4,
+          "5-Dec-18": 2,
+          "5-Feb-19": 5,
+          "5-Jul-18": 2,
+          "5-Jun-18": 3,
+          "5-Nov-18": 5,
+          "5-Sep-18": 9,
+          "6-Aug-18": 4,
+          "6-Dec-18": 5,
+          "6-Jun-18": 3,
+          "6-Mar-19": 8,
+          "6-Nov-18": 6,
+          "7-Aug-18": 2,
+          "7-Jun-18": 6,
+          "7-May-18": 2,
+          "7-Sep-18": 1,
+          "8-Aug-18": 2,
+          "8-Feb-19": 1,
+          "8-Jul-18": 5,
+          "8-May-18": 2,
+          "8-Nov-18": 5,
+          "9-Apr-18": 7,
+          "9-Aug-18": 1,
+          "9-Jul-18": 5,
+          "9-Oct-18": 5,
+          "9-Sep-18": 2
+        },
+        "text_samples": {
+          "1-Aug-18": 8,
+          "1-Dec-18": 2,
+          "1-Feb-19": 11,
+          "1-Jun-18": 3,
+          "1-May-18": 7,
+          "1-Nov-18": 2,
+          "1-Oct-18": 9,
+          "1-Sep-18": 3,
+          "10-Apr-18": 7,
+          "10-Aug-18": 2,
+          "10-Dec-18": 3,
+          "10-Jun-18": 2,
+          "11-Apr-18": 1,
+          "11-Dec-18": 2,
+          "11-Feb-19": 1,
+          "11-May-18": 7,
+          "11-Nov-18": 2,
+          "11-Oct-18": 6,
+          "11-Sep-18": 5,
+          "12-Apr-18": 5,
+          "12-Aug-18": 2,
+          "12-Jul-18": 2,
+          "12-Jun-18": 2,
+          "12-Nov-18": 2,
+          "13-Apr-18": 3,
+          "13-Aug-18": 3,
+          "13-Dec-18": 1,
+          "14-Aug-18": 1,
+          "14-Feb-19": 2,
+          "14-Jan-19": 3,
+          "14-Jun-18": 2,
+          "14-May-18": 1,
+          "15-Apr-18": 1,
+          "15-Jan-19": 5,
+          "15-Jul-18": 1,
+          "15-May-18": 1,
+          "16-Nov-18": 2,
+          "16-Oct-18": 2,
+          "17-Dec-18": 6,
+          "17-Jan-19": 9,
+          "17-Oct-18": 4,
+          "18-Jan-19": 2,
+          "18-Jul-18": 4,
+          "18-Jun-18": 2,
+          "18-May-18": 2,
+          "18-Oct-18": 1,
+          "19-Apr-18": 3,
+          "19-Aug-18": 2,
+          "19-Nov-18": 3,
+          "19-Sep-18": 4,
+          "2-Jul-18": 2,
+          "2-May-18": 2,
+          "2-Nov-18": 1,
+          "2-Oct-18": 2,
+          "21-Jan-19": 1,
+          "21-Jul-18": 2,
+          "21-Nov-18": 4,
+          "22-Apr-18": 5,
+          "22-Feb-19": 1,
+          "22-Jan-19": 2,
+          "22-Nov-18": 8,
+          "22-Oct-18": 4,
+          "23-Aug-18": 2,
+          "23-Jan-19": 6,
+          "23-Oct-18": 1,
+          "24-Jul-18": 1,
+          "26-Apr-18": 3,
+          "26-Jul-18": 2,
+          "26-Jun-18": 3,
+          "26-Nov-18": 3,
+          "27-Feb-19": 2,
+          "27-Jun-18": 1,
+          "27-Nov-18": 4,
+          "28-Aug-18": 7,
+          "28-Feb-19": 3,
+          "28-Nov-18": 3,
+          "29-Jan-19": 1,
+          "29-Nov-18": 2,
+          "3-Apr-18": 1,
+          "3-Aug-18": 2,
+          "3-May-18": 5,
+          "3-Oct-18": 3,
+          "3-Sep-18": 1,
+          "30-Sep-18": 1,
+          "31-Jan-19": 1,
+          "31-Jul-18": 2,
+          "4-Apr-18": 3,
+          "4-Dec-18": 3,
+          "4-Feb-19": 1,
+          "4-Jul-18": 2,
+          "4-Jun-18": 11,
+          "4-Mar-19": 3,
+          "4-Nov-18": 5,
+          "5-Apr-18": 4,
+          "5-Dec-18": 2,
+          "5-Feb-19": 5,
+          "5-Jul-18": 2,
+          "5-Jun-18": 3,
+          "5-Nov-18": 5,
+          "5-Sep-18": 9,
+          "6-Aug-18": 4,
+          "6-Dec-18": 5,
+          "6-Jun-18": 3,
+          "6-Mar-19": 8,
+          "6-Nov-18": 6,
+          "7-Aug-18": 2,
+          "7-Jun-18": 6,
+          "7-May-18": 2,
+          "7-Sep-18": 1,
+          "8-Aug-18": 2,
+          "8-Feb-19": 1,
+          "8-Jul-18": 5,
+          "8-May-18": 2,
+          "8-Nov-18": 5,
+          "9-Apr-18": 7,
+          "9-Aug-18": 1,
+          "9-Jul-18": 5,
+          "9-Oct-18": 5,
+          "9-Sep-18": 2
+        },
+        "value_like": false
+      },
+      {
+        "distinct_text": 1,
+        "name": "Type of Test",
+        "sample_column": false,
+        "shapes": {
+          "token": 390
+        },
+        "text_rows": {
+          "ETHYL CARBAMATE": 390
+        },
+        "text_samples": {
+          "ETHYL CARBAMATE": 390
+        },
+        "value_like": false
+      },
+      {
+        "distinct_text": 1,
+        "name": "Type d’analyse",
+        "sample_column": false,
+        "shapes": {
+          "token": 390
+        },
+        "text_rows": {
+          "CARBAMATE D'ÉTHYLE": 390
+        },
+        "text_samples": {
+          "CARBAMATE D'ÉTHYLE": 390
+        },
+        "value_like": false
+      },
+      {
+        "distinct_text": 1,
+        "name": "Component",
+        "sample_column": false,
+        "shapes": {
+          "token": 390
+        },
+        "text_rows": {
+          "Ethyl carbamate": 390
+        },
+        "text_samples": {
+          "Ethyl carbamate": 390
+        },
+        "value_like": false
+      },
+      {
+        "distinct_text": 1,
+        "name": "Composant",
+        "sample_column": false,
+        "shapes": {
+          "token": 390
+        },
+        "text_rows": {
+          "Ethyl carbamate": 390
+        },
+        "text_samples": {
+          "Ethyl carbamate": 390
+        },
+        "value_like": false
+      },
+      {
+        "distinct_text": 0,
+        "name": "MaxOfAMOUNT",
+        "sample_column": false,
+        "shapes": {
+          "number": 390
+        },
+        "text_rows": {},
+        "text_samples": {},
+        "value_like": true
+      },
+      {
+        "distinct_text": 1,
+        "name": "Report Unit - Unité de rapport",
+        "sample_column": false,
+        "shapes": {
+          "token": 390
+        },
+        "text_rows": {
+          "ng/g": 390
+        },
+        "text_samples": {
+          "ng/g": 390
+        },
+        "value_like": false
+      },
+      {
+        "distinct_text": 1,
+        "name": "PLAN_CODE",
+        "sample_column": false,
+        "shapes": {
+          "token": 390
+        },
+        "text_rows": {
+          "2018_SB428": 390
+        },
+        "text_samples": {
+          "2018_SB428": 390
+        },
+        "value_like": false
+      }
+    ],
+    "header_width": 18,
+    "row_widths": {
+      "18": 390
+    },
+    "rows": 390,
+    "samples": 390
+  },
+  "dataset": "303903b7-91ba-4a79-ad37-7bcd9f0dc8a1",
+  "encoding": "cp1252",
+  "gate_facts": {
+    "analyte_labels": 1,
+    "bytes": 71629,
+    "census_error": null,
+    "md5": true,
+    "one_analyte": true,
+    "one_unit": true,
+    "rows": 390,
+    "samples": 390,
+    "samples_match": true,
+    "size": true,
+    "unit_labels": [
+      "ng/g"
+    ]
+  },
+  "md5": "d7d7bf62a3bb275ccec657fb27501fd8",
+  "md5_matches_portal": true,
+  "portal_md5": "d7d7bf62a3bb275ccec657fb27501fd8",
+  "portal_size": 71629,
+  "resource": "0a30e00b-9c4b-4402-b329-51565119d767",
+  "sha256": "08bff4cbee03d87a8e7f01c12f80dbb34e5845e7a213b8f04114544507e4c9bb",
+  "size_matches_portal": true,
+  "source": "https://open.canada.ca/data/dataset/303903b7-91ba-4a79-ad37-7bcd9f0dc8a1/resource/0a30e00b-9c4b-4402-b329-51565119d767/download/cfia-acia-1149_2018-19_ethylcarbamate_in_selected_foods_-_2018-2019_le-carbamate-dethyle-dans-le.csv",
+  "study": "ethyl-carbamate-ec18-census",
+  "version": "0.1.0"
+}
