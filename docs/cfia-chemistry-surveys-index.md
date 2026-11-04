@@ -133,7 +133,8 @@ checked, and the 2018-19 one is the second file in the series with a 1,000-fold 
   37 detected values are stored 1,000 times smaller than the report's ppb under a "ng/g" unit
   (beers 0.004 for a printed 4), while one vinegar is on the printed scale (135). All 36 come from
   samples whose region is West. Read as micrograms per gram (exploratory, not pre-registered), the
-  36 values reproduce every printed 2018-19 cell and the later report's subtotal.
+  36 values reproduce every printed 2018-19 cell and the later report's subtotal. Its independent
+  test re-ran from GitHub in a sealed job on 2026-11-03 and passed (10 tests).
 
 ## Perchlorate, 2010-11, 2011-13 and 2013-14
 
@@ -148,5 +149,12 @@ checked, and the 2018-19 one is the second file in the series with a 1,000-fold 
   3's formula rows count only formulas not labelled soy: 74 of 89, 68 of 87 and 30 of 39. The
   2013-14 file has 39 formulas, so its "54%" is possible (21 of 39). The 2011-13 file has 15
   creams where Table 3 needs 17. No result value has been read; a grader note comes next.
+- [Grader note](perchlorate-series-0.1.0-grader.md), with `perchlorate_series.py` and its offline
+  tests. It fixes the 2013-14 six-group map before any value is read. The summary gives each
+  group's detect share but not its size. Of the 16 ways to place the juices, soup, salsa and
+  other drinks, only one lets every printed share be met with 272 detects in all: the juices
+  count as assorted foods, not processed fruit products. That map allows exactly one detect count
+  per group (93 / 39 / 40 / 21 / 18 / 61). With the juices among processed products, no count of
+  the 53 remaining assorted foods rounds to 61%.
 
 MV2, Munim, Inc., mv2@munimtech.com
