@@ -1,0 +1,2464 @@
+{
+  "files": {
+    "p10": {
+      "census_checks": {
+        "groups": {
+          "dairy": 89,
+          "formula": 89,
+          "fv": 433
+        },
+        "unmapped": {},
+        "years": {
+          "dairy": {
+            "2010-11": 89
+          },
+          "formula": {
+            "2010-11": 89
+          },
+          "fv": {
+            "2010-11": 433
+          }
+        }
+      },
+      "descriptive": {
+        "coding": {
+          "above_zero": 416,
+          "distinct_values": 75,
+          "smallest_above_zero": [
+            2.0,
+            2.0,
+            2.0,
+            2.0,
+            2.0
+          ],
+          "zero": 195
+        },
+        "scale": {
+          "dairy": {
+            "(blank)": {
+              "detects": 5,
+              "max": 24.0,
+              "min": 2.0,
+              "n": 7
+            },
+            "ATLANTIC": {
+              "detects": 7,
+              "max": 12.0,
+              "min": 2.0,
+              "n": 8
+            },
+            "ONTARIO": {
+              "detects": 19,
+              "max": 14.0,
+              "min": 2.0,
+              "n": 23
+            },
+            "QUEBEC": {
+              "detects": 21,
+              "max": 12.0,
+              "min": 2.0,
+              "n": 23
+            },
+            "WEST": {
+              "detects": 25,
+              "max": 9.0,
+              "min": 2.0,
+              "n": 28
+            }
+          },
+          "formula": {
+            "ATLANTIC": {
+              "detects": 7,
+              "max": 20.0,
+              "min": 2.0,
+              "n": 8
+            },
+            "ONTARIO": {
+              "detects": 17,
+              "max": 50.0,
+              "min": 3.0,
+              "n": 25
+            },
+            "QUEBEC": {
+              "detects": 13,
+              "max": 22.0,
+              "min": 2.0,
+              "n": 20
+            },
+            "WEST": {
+              "detects": 19,
+              "max": 49.0,
+              "min": 2.0,
+              "n": 36
+            }
+          },
+          "fv": {
+            "(blank)": {
+              "detects": 144,
+              "max": 540.0,
+              "min": 2.0,
+              "n": 216
+            },
+            "ATLANTIC": {
+              "detects": 31,
+              "max": 250.0,
+              "min": 2.0,
+              "n": 47
+            },
+            "ONTARIO": {
+              "detects": 34,
+              "max": 430.0,
+              "min": 2.0,
+              "n": 60
+            },
+            "QUEBEC": {
+              "detects": 32,
+              "max": 190.0,
+              "min": 2.0,
+              "n": 45
+            },
+            "WEST": {
+              "detects": 42,
+              "max": 280.0,
+              "min": 2.0,
+              "n": 65
+            }
+          }
+        }
+      },
+      "facts": {
+        "bytes": 95033,
+        "md5": "f497970ea94e7d4eaf74fdabb9535bca",
+        "rows_per_sample": {
+          "1": 611
+        },
+        "samples": 611
+      },
+      "gate": {
+        "all_labels_mapped": true,
+        "md5": true,
+        "one_row_per_sample": true,
+        "roles": true,
+        "samples": true,
+        "short_rows": true,
+        "size": true,
+        "units": true,
+        "values": true
+      },
+      "problems": {
+        "bad_units": 0,
+        "bad_values": 0,
+        "columns": {
+          "component": 11,
+          "date": 8,
+          "function": 2,
+          "origin": 4,
+          "product": 6,
+          "region": 1,
+          "sample": 0,
+          "unit": 14,
+          "value": 13
+        },
+        "missing_roles": [],
+        "short_rows": 0
+      },
+      "provenance": {
+        "dataset": "436bec6d-f410-45cc-89ff-f5331cfa663c",
+        "encoding": "cp1252",
+        "portal_md5": "f497970ea94e7d4eaf74fdabb9535bca",
+        "resource": "46630289-3b83-4392-b648-da594e5357ce",
+        "source": "data-volume"
+      }
+    },
+    "p11": {
+      "census_checks": {
+        "groups": {
+          "dairy": 233,
+          "formula": 87,
+          "fruit": 356,
+          "juice": 225,
+          "veg": 525
+        },
+        "unmapped": {},
+        "years": {
+          "dairy": {
+            "2011-12": 94,
+            "2012-13": 139
+          },
+          "formula": {
+            "2011-12": 87
+          },
+          "fruit": {
+            "2011-12": 119,
+            "2012-13": 237
+          },
+          "juice": {
+            "2011-12": 78,
+            "2012-13": 147
+          },
+          "veg": {
+            "2010-11": 1,
+            "2011-12": 284,
+            "2012-13": 240
+          }
+        }
+      },
+      "descriptive": {
+        "coding": {
+          "above_zero": 789,
+          "distinct_values": 104,
+          "smallest_above_zero": [
+            2.0,
+            2.0,
+            2.0,
+            2.0,
+            2.0
+          ],
+          "zero": 637
+        },
+        "scale": {
+          "dairy": {
+            "ATLANTIC": {
+              "detects": 10,
+              "max": 31.0,
+              "min": 2.0,
+              "n": 15
+            },
+            "ONTARIO": {
+              "detects": 48,
+              "max": 13.0,
+              "min": 2.0,
+              "n": 91
+            },
+            "QUEBEC": {
+              "detects": 37,
+              "max": 30.0,
+              "min": 2.0,
+              "n": 52
+            },
+            "WEST": {
+              "detects": 45,
+              "max": 49.0,
+              "min": 2.0,
+              "n": 75
+            }
+          },
+          "formula": {
+            "ATLANTIC": {
+              "detects": 5,
+              "max": 33.0,
+              "min": 7.0,
+              "n": 7
+            },
+            "ONTARIO": {
+              "detects": 20,
+              "max": 35.0,
+              "min": 2.0,
+              "n": 27
+            },
+            "QUEBEC": {
+              "detects": 11,
+              "max": 22.0,
+              "min": 2.0,
+              "n": 22
+            },
+            "WEST": {
+              "detects": 15,
+              "max": 28.0,
+              "min": 2.0,
+              "n": 31
+            }
+          },
+          "fruit": {
+            "ATLANTIC": {
+              "detects": 9,
+              "max": 9.0,
+              "min": 3.0,
+              "n": 19
+            },
+            "ONTARIO": {
+              "detects": 62,
+              "max": 140.0,
+              "min": 2.0,
+              "n": 138
+            },
+            "QUEBEC": {
+              "detects": 34,
+              "max": 74.0,
+              "min": 2.0,
+              "n": 77
+            },
+            "WEST": {
+              "detects": 51,
+              "max": 180.0,
+              "min": 2.0,
+              "n": 122
+            }
+          },
+          "juice": {
+            "ATLANTIC": {
+              "detects": 1,
+              "max": 7.0,
+              "min": 7.0,
+              "n": 14
+            },
+            "ONTARIO": {
+              "detects": 21,
+              "max": 20.0,
+              "min": 2.0,
+              "n": 89
+            },
+            "QUEBEC": {
+              "detects": 12,
+              "max": 20.0,
+              "min": 2.0,
+              "n": 49
+            },
+            "WEST": {
+              "detects": 17,
+              "max": 8.0,
+              "min": 2.0,
+              "n": 73
+            }
+          },
+          "veg": {
+            "ATLANTIC": {
+              "detects": 34,
+              "max": 600.0,
+              "min": 2.0,
+              "n": 42
+            },
+            "ONTARIO": {
+              "detects": 146,
+              "max": 1600.0,
+              "min": 2.0,
+              "n": 189
+            },
+            "QUEBEC": {
+              "detects": 94,
+              "max": 630.0,
+              "min": 2.0,
+              "n": 129
+            },
+            "WEST": {
+              "detects": 117,
+              "max": 2400.0,
+              "min": 2.0,
+              "n": 165
+            }
+          }
+        }
+      },
+      "facts": {
+        "bytes": 228127,
+        "md5": "66a04ce98555c6898c18ebaefc042a96",
+        "rows_per_sample": {
+          "1": 1426
+        },
+        "samples": 1426
+      },
+      "gate": {
+        "all_labels_mapped": true,
+        "md5": true,
+        "one_row_per_sample": true,
+        "roles": true,
+        "samples": true,
+        "short_rows": true,
+        "size": true,
+        "units": true,
+        "values": true
+      },
+      "problems": {
+        "bad_units": 0,
+        "bad_values": 0,
+        "columns": {
+          "component": 11,
+          "date": 8,
+          "function": 2,
+          "origin": 4,
+          "product": 6,
+          "region": 1,
+          "sample": 0,
+          "unit": 14,
+          "value": 13
+        },
+        "missing_roles": [],
+        "short_rows": 0
+      },
+      "provenance": {
+        "dataset": "0bdaecc5-805e-4f42-a182-338870635221",
+        "encoding": "cp1252",
+        "portal_md5": "66a04ce98555c6898c18ebaefc042a96",
+        "resource": "beccac79-f18e-4270-9c2c-c6ce645fc2b4",
+        "source": "data-volume"
+      }
+    },
+    "p13": {
+      "census_checks": {
+        "groups": {
+          "assorted": 100,
+          "dairy": 50,
+          "formula": 39,
+          "fresh": 131,
+          "grain": 60,
+          "processed": 97
+        },
+        "unmapped": {},
+        "years": {
+          "assorted": {
+            "2013-14": 100
+          },
+          "dairy": {
+            "2013-14": 50
+          },
+          "formula": {
+            "2013-14": 39
+          },
+          "fresh": {
+            "2013-14": 131
+          },
+          "grain": {
+            "2013-14": 60
+          },
+          "processed": {
+            "2013-14": 97
+          }
+        }
+      },
+      "descriptive": {
+        "coding": {
+          "above_zero": 272,
+          "distinct_values": 71,
+          "smallest_above_zero": [
+            2.0,
+            2.0,
+            2.0,
+            2.0,
+            2.0
+          ],
+          "zero": 205
+        },
+        "juices_as_processed": {
+          "assorted": {
+            "detects": 36,
+            "max": 52.0,
+            "mean": 5.75,
+            "min": 2.0,
+            "n": 53
+          },
+          "dairy": {
+            "detects": 40,
+            "max": 42.0,
+            "mean": 6.0,
+            "min": 2.0,
+            "n": 50
+          },
+          "formula": {
+            "detects": 21,
+            "max": 64.0,
+            "mean": 16.523809523809526,
+            "min": 2.0,
+            "n": 39
+          },
+          "fresh": {
+            "detects": 92,
+            "max": 3300.0,
+            "mean": 137.1195652173913,
+            "min": 2.0,
+            "n": 131
+          },
+          "grain": {
+            "detects": 18,
+            "max": 9.0,
+            "mean": 5.166666666666667,
+            "min": 2.0,
+            "n": 60
+          },
+          "processed": {
+            "detects": 65,
+            "max": 220.0,
+            "mean": 26.73846153846154,
+            "min": 2.0,
+            "n": 144
+          }
+        },
+        "scale": {
+          "assorted": {
+            "ATLANTIC": {
+              "detects": 4,
+              "max": 11.0,
+              "min": 2.0,
+              "n": 8
+            },
+            "ONTARIO": {
+              "detects": 19,
+              "max": 11.0,
+              "min": 2.0,
+              "n": 40
+            },
+            "QUEBEC": {
+              "detects": 12,
+              "max": 9.0,
+              "min": 2.0,
+              "n": 22
+            },
+            "WEST": {
+              "detects": 13,
+              "max": 52.0,
+              "min": 2.0,
+              "n": 30
+            }
+          },
+          "dairy": {
+            "ATLANTIC": {
+              "detects": 4,
+              "max": 8.0,
+              "min": 4.0,
+              "n": 4
+            },
+            "ONTARIO": {
+              "detects": 15,
+              "max": 11.0,
+              "min": 3.0,
+              "n": 20
+            },
+            "QUEBEC": {
+              "detects": 9,
+              "max": 12.0,
+              "min": 3.0,
+              "n": 11
+            },
+            "WEST": {
+              "detects": 12,
+              "max": 42.0,
+              "min": 2.0,
+              "n": 15
+            }
+          },
+          "formula": {
+            "ATLANTIC": {
+              "detects": 1,
+              "max": 2.0,
+              "min": 2.0,
+              "n": 2
+            },
+            "ONTARIO": {
+              "detects": 8,
+              "max": 61.0,
+              "min": 3.0,
+              "n": 16
+            },
+            "QUEBEC": {
+              "detects": 5,
+              "max": 64.0,
+              "min": 3.0,
+              "n": 9
+            },
+            "WEST": {
+              "detects": 7,
+              "max": 25.0,
+              "min": 3.0,
+              "n": 12
+            }
+          },
+          "fresh": {
+            "ATLANTIC": {
+              "detects": 4,
+              "max": 330.0,
+              "min": 3.0,
+              "n": 5
+            },
+            "ONTARIO": {
+              "detects": 35,
+              "max": 3300.0,
+              "min": 2.0,
+              "n": 51
+            },
+            "QUEBEC": {
+              "detects": 19,
+              "max": 190.0,
+              "min": 3.0,
+              "n": 27
+            },
+            "WEST": {
+              "detects": 34,
+              "max": 850.0,
+              "min": 2.0,
+              "n": 48
+            }
+          },
+          "grain": {
+            "ATLANTIC": {
+              "detects": 1,
+              "max": 6.0,
+              "min": 6.0,
+              "n": 5
+            },
+            "ONTARIO": {
+              "detects": 7,
+              "max": 6.0,
+              "min": 3.0,
+              "n": 24
+            },
+            "QUEBEC": {
+              "detects": 4,
+              "max": 7.0,
+              "min": 2.0,
+              "n": 14
+            },
+            "WEST": {
+              "detects": 6,
+              "max": 9.0,
+              "min": 4.0,
+              "n": 17
+            }
+          },
+          "processed": {
+            "ATLANTIC": {
+              "detects": 3,
+              "max": 190.0,
+              "min": 2.0,
+              "n": 5
+            },
+            "ONTARIO": {
+              "detects": 16,
+              "max": 120.0,
+              "min": 2.0,
+              "n": 36
+            },
+            "QUEBEC": {
+              "detects": 16,
+              "max": 140.0,
+              "min": 2.0,
+              "n": 24
+            },
+            "WEST": {
+              "detects": 18,
+              "max": 220.0,
+              "min": 2.0,
+              "n": 32
+            }
+          }
+        }
+      },
+      "facts": {
+        "bytes": 78310,
+        "md5": "05b587cb13f15932894200ba5879445a",
+        "rows_per_sample": {
+          "1": 477
+        },
+        "samples": 477
+      },
+      "gate": {
+        "all_labels_mapped": true,
+        "md5": true,
+        "one_row_per_sample": true,
+        "roles": true,
+        "samples": true,
+        "short_rows": true,
+        "size": true,
+        "units": true,
+        "values": true
+      },
+      "map_search_all_blocks_feasible": [
+        {
+          "bands": {
+            "assorted": [
+              61,
+              61
+            ],
+            "dairy": [
+              40,
+              40
+            ],
+            "formula": [
+              21,
+              21
+            ],
+            "fresh": [
+              93,
+              93
+            ],
+            "grain": [
+              18,
+              18
+            ],
+            "processed": [
+              39,
+              39
+            ]
+          },
+          "choice": {
+            "beverage_other": "assorted",
+            "dried_vegetables": "processed",
+            "juices": "assorted",
+            "mixed_vegetables": "processed",
+            "pizza": "assorted",
+            "plain_herbs": "fresh",
+            "salsa": "processed",
+            "soup": "processed"
+          },
+          "feasible": true,
+          "sizes": {
+            "assorted": 100,
+            "dairy": 50,
+            "formula": 39,
+            "fresh": 131,
+            "grain": 60,
+            "processed": 97
+          },
+          "unmapped": {}
+        },
+        {
+          "bands": {
+            "assorted": [
+              68,
+              68
+            ],
+            "dairy": [
+              40,
+              40
+            ],
+            "formula": [
+              21,
+              21
+            ],
+            "fresh": [
+              93,
+              93
+            ],
+            "grain": [
+              24,
+              24
+            ],
+            "processed": [
+              26,
+              26
+            ]
+          },
+          "choice": {
+            "beverage_other": "assorted",
+            "dried_vegetables": "assorted",
+            "juices": "assorted",
+            "mixed_vegetables": "processed",
+            "pizza": "grain",
+            "plain_herbs": "fresh",
+            "salsa": "processed",
+            "soup": "assorted"
+          },
+          "feasible": true,
+          "sizes": {
+            "assorted": 112,
+            "dairy": 50,
+            "formula": 39,
+            "fresh": 131,
+            "grain": 80,
+            "processed": 65
+          },
+          "unmapped": {}
+        },
+        {
+          "bands": {
+            "assorted": [
+              66,
+              67
+            ],
+            "dairy": [
+              40,
+              40
+            ],
+            "formula": [
+              21,
+              21
+            ],
+            "fresh": [
+              93,
+              93
+            ],
+            "grain": [
+              24,
+              24
+            ],
+            "processed": [
+              27,
+              27
+            ]
+          },
+          "choice": {
+            "beverage_other": "processed",
+            "dried_vegetables": "assorted",
+            "juices": "assorted",
+            "mixed_vegetables": "processed",
+            "pizza": "grain",
+            "plain_herbs": "fresh",
+            "salsa": "processed",
+            "soup": "assorted"
+          },
+          "feasible": true,
+          "sizes": {
+            "assorted": 109,
+            "dairy": 50,
+            "formula": 39,
+            "fresh": 131,
+            "grain": 80,
+            "processed": 68
+          },
+          "unmapped": {}
+        },
+        {
+          "bands": {
+            "assorted": [
+              58,
+              58
+            ],
+            "dairy": [
+              40,
+              40
+            ],
+            "formula": [
+              21,
+              21
+            ],
+            "fresh": [
+              100,
+              100
+            ],
+            "grain": [
+              24,
+              24
+            ],
+            "processed": [
+              29,
+              29
+            ]
+          },
+          "choice": {
+            "beverage_other": "assorted",
+            "dried_vegetables": "processed",
+            "juices": "assorted",
+            "mixed_vegetables": "fresh",
+            "pizza": "grain",
+            "plain_herbs": "fresh",
+            "salsa": "processed",
+            "soup": "assorted"
+          },
+          "feasible": true,
+          "sizes": {
+            "assorted": 95,
+            "dairy": 50,
+            "formula": 39,
+            "fresh": 141,
+            "grain": 80,
+            "processed": 72
+          },
+          "unmapped": {}
+        },
+        {
+          "bands": {
+            "assorted": [
+              52,
+              52
+            ],
+            "dairy": [
+              40,
+              40
+            ],
+            "formula": [
+              21,
+              21
+            ],
+            "fresh": [
+              100,
+              100
+            ],
+            "grain": [
+              18,
+              18
+            ],
+            "processed": [
+              41,
+              41
+            ]
+          },
+          "choice": {
+            "beverage_other": "assorted",
+            "dried_vegetables": "assorted",
+            "juices": "processed",
+            "mixed_vegetables": "fresh",
+            "pizza": "assorted",
+            "plain_herbs": "fresh",
+            "salsa": "processed",
+            "soup": "assorted"
+          },
+          "feasible": true,
+          "sizes": {
+            "assorted": 85,
+            "dairy": 50,
+            "formula": 39,
+            "fresh": 141,
+            "grain": 60,
+            "processed": 102
+          },
+          "unmapped": {}
+        },
+        {
+          "bands": {
+            "assorted": [
+              59,
+              59
+            ],
+            "dairy": [
+              40,
+              40
+            ],
+            "formula": [
+              21,
+              21
+            ],
+            "fresh": [
+              100,
+              100
+            ],
+            "grain": [
+              24,
+              24
+            ],
+            "processed": [
+              28,
+              28
+            ]
+          },
+          "choice": {
+            "beverage_other": "assorted",
+            "dried_vegetables": "assorted",
+            "juices": "assorted",
+            "mixed_vegetables": "fresh",
+            "pizza": "grain",
+            "plain_herbs": "fresh",
+            "salsa": "processed",
+            "soup": "processed"
+          },
+          "feasible": true,
+          "sizes": {
+            "assorted": 97,
+            "dairy": 50,
+            "formula": 39,
+            "fresh": 141,
+            "grain": 80,
+            "processed": 70
+          },
+          "unmapped": {}
+        },
+        {
+          "bands": {
+            "assorted": [
+              94,
+              95
+            ],
+            "dairy": [
+              40,
+              40
+            ],
+            "formula": [
+              21,
+              21
+            ],
+            "fresh": [
+              65,
+              65
+            ],
+            "grain": [
+              18,
+              18
+            ],
+            "processed": [
+              33,
+              33
+            ]
+          },
+          "choice": {
+            "beverage_other": "assorted",
+            "dried_vegetables": "processed",
+            "juices": "assorted",
+            "mixed_vegetables": "processed",
+            "pizza": "assorted",
+            "plain_herbs": "assorted",
+            "salsa": "processed",
+            "soup": "assorted"
+          },
+          "feasible": true,
+          "sizes": {
+            "assorted": 155,
+            "dairy": 50,
+            "formula": 39,
+            "fresh": 91,
+            "grain": 60,
+            "processed": 82
+          },
+          "unmapped": {}
+        },
+        {
+          "bands": {
+            "assorted": [
+              95,
+              96
+            ],
+            "dairy": [
+              40,
+              40
+            ],
+            "formula": [
+              21,
+              21
+            ],
+            "fresh": [
+              65,
+              65
+            ],
+            "grain": [
+              18,
+              18
+            ],
+            "processed": [
+              32,
+              32
+            ]
+          },
+          "choice": {
+            "beverage_other": "assorted",
+            "dried_vegetables": "assorted",
+            "juices": "assorted",
+            "mixed_vegetables": "processed",
+            "pizza": "assorted",
+            "plain_herbs": "assorted",
+            "salsa": "processed",
+            "soup": "processed"
+          },
+          "feasible": true,
+          "sizes": {
+            "assorted": 157,
+            "dairy": 50,
+            "formula": 39,
+            "fresh": 91,
+            "grain": 60,
+            "processed": 80
+          },
+          "unmapped": {}
+        },
+        {
+          "bands": {
+            "assorted": [
+              85,
+              86
+            ],
+            "dairy": [
+              40,
+              40
+            ],
+            "formula": [
+              21,
+              21
+            ],
+            "fresh": [
+              72,
+              72
+            ],
+            "grain": [
+              18,
+              18
+            ],
+            "processed": [
+              35,
+              35
+            ]
+          },
+          "choice": {
+            "beverage_other": "assorted",
+            "dried_vegetables": "processed",
+            "juices": "assorted",
+            "mixed_vegetables": "fresh",
+            "pizza": "assorted",
+            "plain_herbs": "assorted",
+            "salsa": "processed",
+            "soup": "processed"
+          },
+          "feasible": true,
+          "sizes": {
+            "assorted": 140,
+            "dairy": 50,
+            "formula": 39,
+            "fresh": 101,
+            "grain": 60,
+            "processed": 87
+          },
+          "unmapped": {}
+        },
+        {
+          "bands": {
+            "assorted": [
+              89,
+              89
+            ],
+            "dairy": [
+              40,
+              40
+            ],
+            "formula": [
+              21,
+              21
+            ],
+            "fresh": [
+              72,
+              72
+            ],
+            "grain": [
+              18,
+              18
+            ],
+            "processed": [
+              32,
+              32
+            ]
+          },
+          "choice": {
+            "beverage_other": "processed",
+            "dried_vegetables": "processed",
+            "juices": "assorted",
+            "mixed_vegetables": "fresh",
+            "pizza": "assorted",
+            "plain_herbs": "assorted",
+            "salsa": "assorted",
+            "soup": "processed"
+          },
+          "feasible": true,
+          "sizes": {
+            "assorted": 146,
+            "dairy": 50,
+            "formula": 39,
+            "fresh": 101,
+            "grain": 60,
+            "processed": 81
+          },
+          "unmapped": {}
+        },
+        {
+          "bands": {
+            "assorted": [
+              92,
+              93
+            ],
+            "dairy": [
+              40,
+              40
+            ],
+            "formula": [
+              21,
+              21
+            ],
+            "fresh": [
+              72,
+              72
+            ],
+            "grain": [
+              24,
+              24
+            ],
+            "processed": [
+              22,
+              22
+            ]
+          },
+          "choice": {
+            "beverage_other": "assorted",
+            "dried_vegetables": "assorted",
+            "juices": "assorted",
+            "mixed_vegetables": "fresh",
+            "pizza": "grain",
+            "plain_herbs": "assorted",
+            "salsa": "processed",
+            "soup": "assorted"
+          },
+          "feasible": true,
+          "sizes": {
+            "assorted": 152,
+            "dairy": 50,
+            "formula": 39,
+            "fresh": 101,
+            "grain": 80,
+            "processed": 55
+          },
+          "unmapped": {}
+        }
+      ],
+      "map_search_open_blocks": [
+        {
+          "bands": {
+            "assorted": [
+              61,
+              61
+            ],
+            "dairy": [
+              40,
+              40
+            ],
+            "formula": [
+              21,
+              21
+            ],
+            "fresh": [
+              93,
+              93
+            ],
+            "grain": [
+              18,
+              18
+            ],
+            "processed": [
+              39,
+              39
+            ]
+          },
+          "choice": {
+            "beverage_other": "assorted",
+            "juices": "assorted",
+            "salsa": "processed",
+            "soup": "processed"
+          },
+          "feasible": true,
+          "sizes": {
+            "assorted": 100,
+            "dairy": 50,
+            "formula": 39,
+            "fresh": 131,
+            "grain": 60,
+            "processed": 97
+          },
+          "unmapped": {}
+        },
+        {
+          "bands": {
+            "assorted": [
+              59,
+              59
+            ],
+            "dairy": [
+              40,
+              40
+            ],
+            "formula": [
+              21,
+              21
+            ],
+            "fresh": [
+              93,
+              93
+            ],
+            "grain": [
+              18,
+              18
+            ],
+            "processed": [
+              40,
+              40
+            ]
+          },
+          "choice": {
+            "beverage_other": "processed",
+            "juices": "assorted",
+            "salsa": "processed",
+            "soup": "processed"
+          },
+          "feasible": false,
+          "sizes": {
+            "assorted": 97,
+            "dairy": 50,
+            "formula": 39,
+            "fresh": 131,
+            "grain": 60,
+            "processed": 100
+          },
+          "unmapped": {}
+        },
+        {
+          "bands": {
+            "assorted": [
+              66,
+              67
+            ],
+            "dairy": [
+              40,
+              40
+            ],
+            "formula": [
+              21,
+              21
+            ],
+            "fresh": [
+              93,
+              93
+            ],
+            "grain": [
+              18,
+              18
+            ],
+            "processed": [
+              35,
+              35
+            ]
+          },
+          "choice": {
+            "beverage_other": "assorted",
+            "juices": "assorted",
+            "salsa": "assorted",
+            "soup": "processed"
+          },
+          "feasible": false,
+          "sizes": {
+            "assorted": 109,
+            "dairy": 50,
+            "formula": 39,
+            "fresh": 131,
+            "grain": 60,
+            "processed": 88
+          },
+          "unmapped": {}
+        },
+        {
+          "bands": {
+            "assorted": [
+              65,
+              65
+            ],
+            "dairy": [
+              40,
+              40
+            ],
+            "formula": [
+              21,
+              21
+            ],
+            "fresh": [
+              93,
+              93
+            ],
+            "grain": [
+              18,
+              18
+            ],
+            "processed": [
+              36,
+              36
+            ]
+          },
+          "choice": {
+            "beverage_other": "processed",
+            "juices": "assorted",
+            "salsa": "assorted",
+            "soup": "processed"
+          },
+          "feasible": false,
+          "sizes": {
+            "assorted": 106,
+            "dairy": 50,
+            "formula": 39,
+            "fresh": 131,
+            "grain": 60,
+            "processed": 91
+          },
+          "unmapped": {}
+        },
+        {
+          "bands": {
+            "assorted": [
+              70,
+              70
+            ],
+            "dairy": [
+              40,
+              40
+            ],
+            "formula": [
+              21,
+              21
+            ],
+            "fresh": [
+              93,
+              93
+            ],
+            "grain": [
+              18,
+              18
+            ],
+            "processed": [
+              33,
+              33
+            ]
+          },
+          "choice": {
+            "beverage_other": "assorted",
+            "juices": "assorted",
+            "salsa": "processed",
+            "soup": "assorted"
+          },
+          "feasible": false,
+          "sizes": {
+            "assorted": 115,
+            "dairy": 50,
+            "formula": 39,
+            "fresh": 131,
+            "grain": 60,
+            "processed": 82
+          },
+          "unmapped": {}
+        },
+        {
+          "bands": {
+            "assorted": [
+              68,
+              68
+            ],
+            "dairy": [
+              40,
+              40
+            ],
+            "formula": [
+              21,
+              21
+            ],
+            "fresh": [
+              93,
+              93
+            ],
+            "grain": [
+              18,
+              18
+            ],
+            "processed": [
+              34,
+              34
+            ]
+          },
+          "choice": {
+            "beverage_other": "processed",
+            "juices": "assorted",
+            "salsa": "processed",
+            "soup": "assorted"
+          },
+          "feasible": false,
+          "sizes": {
+            "assorted": 112,
+            "dairy": 50,
+            "formula": 39,
+            "fresh": 131,
+            "grain": 60,
+            "processed": 85
+          },
+          "unmapped": {}
+        },
+        {
+          "bands": {
+            "assorted": [
+              76,
+              76
+            ],
+            "dairy": [
+              40,
+              40
+            ],
+            "formula": [
+              21,
+              21
+            ],
+            "fresh": [
+              93,
+              93
+            ],
+            "grain": [
+              18,
+              18
+            ],
+            "processed": [
+              29,
+              29
+            ]
+          },
+          "choice": {
+            "beverage_other": "assorted",
+            "juices": "assorted",
+            "salsa": "assorted",
+            "soup": "assorted"
+          },
+          "feasible": false,
+          "sizes": {
+            "assorted": 124,
+            "dairy": 50,
+            "formula": 39,
+            "fresh": 131,
+            "grain": 60,
+            "processed": 73
+          },
+          "unmapped": {}
+        },
+        {
+          "bands": {
+            "assorted": [
+              74,
+              74
+            ],
+            "dairy": [
+              40,
+              40
+            ],
+            "formula": [
+              21,
+              21
+            ],
+            "fresh": [
+              93,
+              93
+            ],
+            "grain": [
+              18,
+              18
+            ],
+            "processed": null
+          },
+          "choice": {
+            "beverage_other": "processed",
+            "juices": "assorted",
+            "salsa": "assorted",
+            "soup": "assorted"
+          },
+          "feasible": false,
+          "sizes": {
+            "assorted": 121,
+            "dairy": 50,
+            "formula": 39,
+            "fresh": 131,
+            "grain": 60,
+            "processed": 76
+          },
+          "unmapped": {}
+        },
+        {
+          "bands": {
+            "assorted": null,
+            "dairy": [
+              40,
+              40
+            ],
+            "formula": [
+              21,
+              21
+            ],
+            "fresh": [
+              93,
+              93
+            ],
+            "grain": [
+              18,
+              18
+            ],
+            "processed": [
+              57,
+              58
+            ]
+          },
+          "choice": {
+            "beverage_other": "assorted",
+            "juices": "processed",
+            "salsa": "processed",
+            "soup": "processed"
+          },
+          "feasible": false,
+          "sizes": {
+            "assorted": 53,
+            "dairy": 50,
+            "formula": 39,
+            "fresh": 131,
+            "grain": 60,
+            "processed": 144
+          },
+          "unmapped": {}
+        },
+        {
+          "bands": {
+            "assorted": null,
+            "dairy": [
+              40,
+              40
+            ],
+            "formula": [
+              21,
+              21
+            ],
+            "fresh": [
+              93,
+              93
+            ],
+            "grain": [
+              18,
+              18
+            ],
+            "processed": [
+              59,
+              59
+            ]
+          },
+          "choice": {
+            "beverage_other": "processed",
+            "juices": "processed",
+            "salsa": "processed",
+            "soup": "processed"
+          },
+          "feasible": false,
+          "sizes": {
+            "assorted": 50,
+            "dairy": 50,
+            "formula": 39,
+            "fresh": 131,
+            "grain": 60,
+            "processed": 147
+          },
+          "unmapped": {}
+        },
+        {
+          "bands": {
+            "assorted": [
+              38,
+              38
+            ],
+            "dairy": [
+              40,
+              40
+            ],
+            "formula": [
+              21,
+              21
+            ],
+            "fresh": [
+              93,
+              93
+            ],
+            "grain": [
+              18,
+              18
+            ],
+            "processed": [
+              54,
+              54
+            ]
+          },
+          "choice": {
+            "beverage_other": "assorted",
+            "juices": "processed",
+            "salsa": "assorted",
+            "soup": "processed"
+          },
+          "feasible": false,
+          "sizes": {
+            "assorted": 62,
+            "dairy": 50,
+            "formula": 39,
+            "fresh": 131,
+            "grain": 60,
+            "processed": 135
+          },
+          "unmapped": {}
+        },
+        {
+          "bands": {
+            "assorted": [
+              36,
+              36
+            ],
+            "dairy": [
+              40,
+              40
+            ],
+            "formula": [
+              21,
+              21
+            ],
+            "fresh": [
+              93,
+              93
+            ],
+            "grain": [
+              18,
+              18
+            ],
+            "processed": [
+              55,
+              55
+            ]
+          },
+          "choice": {
+            "beverage_other": "processed",
+            "juices": "processed",
+            "salsa": "assorted",
+            "soup": "processed"
+          },
+          "feasible": false,
+          "sizes": {
+            "assorted": 59,
+            "dairy": 50,
+            "formula": 39,
+            "fresh": 131,
+            "grain": 60,
+            "processed": 138
+          },
+          "unmapped": {}
+        },
+        {
+          "bands": {
+            "assorted": null,
+            "dairy": [
+              40,
+              40
+            ],
+            "formula": [
+              21,
+              21
+            ],
+            "fresh": [
+              93,
+              93
+            ],
+            "grain": [
+              18,
+              18
+            ],
+            "processed": [
+              51,
+              52
+            ]
+          },
+          "choice": {
+            "beverage_other": "assorted",
+            "juices": "processed",
+            "salsa": "processed",
+            "soup": "assorted"
+          },
+          "feasible": false,
+          "sizes": {
+            "assorted": 68,
+            "dairy": 50,
+            "formula": 39,
+            "fresh": 131,
+            "grain": 60,
+            "processed": 129
+          },
+          "unmapped": {}
+        },
+        {
+          "bands": {
+            "assorted": null,
+            "dairy": [
+              40,
+              40
+            ],
+            "formula": [
+              21,
+              21
+            ],
+            "fresh": [
+              93,
+              93
+            ],
+            "grain": [
+              18,
+              18
+            ],
+            "processed": [
+              53,
+              53
+            ]
+          },
+          "choice": {
+            "beverage_other": "processed",
+            "juices": "processed",
+            "salsa": "processed",
+            "soup": "assorted"
+          },
+          "feasible": false,
+          "sizes": {
+            "assorted": 65,
+            "dairy": 50,
+            "formula": 39,
+            "fresh": 131,
+            "grain": 60,
+            "processed": 132
+          },
+          "unmapped": {}
+        },
+        {
+          "bands": {
+            "assorted": [
+              47,
+              47
+            ],
+            "dairy": [
+              40,
+              40
+            ],
+            "formula": [
+              21,
+              21
+            ],
+            "fresh": [
+              93,
+              93
+            ],
+            "grain": [
+              18,
+              18
+            ],
+            "processed": [
+              48,
+              48
+            ]
+          },
+          "choice": {
+            "beverage_other": "assorted",
+            "juices": "processed",
+            "salsa": "assorted",
+            "soup": "assorted"
+          },
+          "feasible": false,
+          "sizes": {
+            "assorted": 77,
+            "dairy": 50,
+            "formula": 39,
+            "fresh": 131,
+            "grain": 60,
+            "processed": 120
+          },
+          "unmapped": {}
+        },
+        {
+          "bands": {
+            "assorted": [
+              45,
+              45
+            ],
+            "dairy": [
+              40,
+              40
+            ],
+            "formula": [
+              21,
+              21
+            ],
+            "fresh": [
+              93,
+              93
+            ],
+            "grain": [
+              18,
+              18
+            ],
+            "processed": [
+              49,
+              49
+            ]
+          },
+          "choice": {
+            "beverage_other": "processed",
+            "juices": "processed",
+            "salsa": "assorted",
+            "soup": "assorted"
+          },
+          "feasible": false,
+          "sizes": {
+            "assorted": 74,
+            "dairy": 50,
+            "formula": 39,
+            "fresh": 131,
+            "grain": 60,
+            "processed": 123
+          },
+          "unmapped": {}
+        }
+      ],
+      "problems": {
+        "bad_units": 0,
+        "bad_values": 0,
+        "columns": {
+          "component": 11,
+          "date": 8,
+          "function": 2,
+          "origin": 4,
+          "product": 6,
+          "region": 1,
+          "sample": 0,
+          "unit": 14,
+          "value": 13
+        },
+        "missing_roles": [],
+        "short_rows": 0
+      },
+      "provenance": {
+        "dataset": "79e83e09-be72-4cec-b410-1e69aaa450f7",
+        "encoding": "cp1252",
+        "portal_md5": "05b587cb13f15932894200ba5879445a",
+        "resource": "7511b1a3-48c7-4386-ae6e-f2c4e87c6e84",
+        "source": "data-volume"
+      }
+    }
+  },
+  "grader": "perchlorate_series",
+  "n_graded": 9,
+  "n_met": 1,
+  "predictions": [
+    {
+      "graded": true,
+      "id": "V1",
+      "kind": "prediction",
+      "met": true,
+      "observed": {
+        "all": {
+          "detects": 416,
+          "max": 540.0,
+          "mean": 23.24278846153846,
+          "min": 2.0,
+          "n": 611
+        },
+        "checks": {
+          "dairy_detects_77": true,
+          "formula_detects_56": true,
+          "fv_detects_280_283": true,
+          "max_540": true,
+          "min_2": true
+        },
+        "dairy": {
+          "detects": 77,
+          "max": 24.0,
+          "mean": 5.545454545454546,
+          "min": 2.0,
+          "n": 89
+        },
+        "formula": {
+          "detects": 56,
+          "max": 50.0,
+          "mean": 10.410714285714286,
+          "min": 2.0,
+          "n": 89
+        },
+        "fv": {
+          "detects": 283,
+          "max": 540.0,
+          "mean": 30.597173144876326,
+          "min": 2.0,
+          "n": 433
+        }
+      },
+      "text": "p10 detects 280-283 / 77 / 56; minimum rounds to 2; maximum 540"
+    },
+    {
+      "graded": true,
+      "id": "V2",
+      "kind": "prediction",
+      "met": false,
+      "observed": {
+        "checks": {
+          "cheese_5": false,
+          "cucumber_48.6": false,
+          "milk_below_both": true,
+          "soy_formula_16.7": false,
+          "tomato_44.9": false,
+          "top_two_cucumber_tomato": false,
+          "yogurt_4.9": false
+        },
+        "commodity_means": [
+          [
+            "Kale",
+            178.75
+          ],
+          [
+            "Tomato",
+            70.62857142857143
+          ],
+          [
+            "Cucumber",
+            59.388888888888886
+          ],
+          [
+            "Strawberry",
+            50.333333333333336
+          ],
+          [
+            "Arugula",
+            43.166666666666664
+          ],
+          [
+            "Chard",
+            42.875
+          ],
+          [
+            "Spinach",
+            40.6
+          ],
+          [
+            "Watermelon",
+            28.857142857142858
+          ],
+          [
+            "Grape",
+            22.0
+          ],
+          [
+            "Misc Vegetables",
+            20.5
+          ],
+          [
+            "Bean - Green/Yellow",
+            12.88888888888889
+          ],
+          [
+            "Lettuce",
+            12.115384615384615
+          ],
+          [
+            "Orange",
+            10.263157894736842
+          ],
+          [
+            "Carrot",
+            9.68
+          ],
+          [
+            "Cabbage",
+            8.5
+          ],
+          [
+            "Broccoli",
+            8.214285714285714
+          ],
+          [
+            "Cabbage - Chinese",
+            8.0
+          ],
+          [
+            "Celery",
+            4.285714285714286
+          ],
+          [
+            "Melon - Cantaloupe",
+            3.5
+          ],
+          [
+            "Radicchio",
+            3.0
+          ]
+        ],
+        "dairy_means": {
+          "Cheese": 7.25,
+          "Milk": 5.078947368421052,
+          "Yogurt": 5.130434782608695
+        },
+        "soy_formula": {
+          "detects": 13,
+          "max": 50.0,
+          "mean": 19.23076923076923,
+          "min": 2.0,
+          "n": 15
+        }
+      },
+      "text": "p10: cucumber 48.6 and tomato 44.9 top the commodity averages; cheese 5 and yogurt 4.9 above milk; soy formula 16.7"
+    },
+    {
+      "graded": true,
+      "id": "V3",
+      "kind": "prediction",
+      "met": false,
+      "observed": {
+        "averages_at_5.1": [
+          "Milk",
+          "Yogurt"
+        ],
+        "checks": {
+          "at_most_one_average_5.1": false,
+          "cheese_max_24": true,
+          "cheese_min_2": true,
+          "cheese_n_23": true,
+          "dairy_wide_average_5.05_5.15": false,
+          "milk_max_9": true,
+          "milk_min_2": true,
+          "milk_n_42": true,
+          "yogurt_max_12": true,
+          "yogurt_min_2": true,
+          "yogurt_n_24": true
+        },
+        "dairy_wide": {
+          "detects": 77,
+          "max": 24.0,
+          "mean": 5.545454545454546,
+          "min": 2.0,
+          "n": 89
+        },
+        "rows": {
+          "Cheese": {
+            "detects": 16,
+            "max": 24.0,
+            "mean": 7.25,
+            "min": 2.0,
+            "n": 23
+          },
+          "Milk": {
+            "detects": 38,
+            "max": 9.0,
+            "mean": 5.078947368421052,
+            "min": 2.0,
+            "n": 42
+          },
+          "Yogurt": {
+            "detects": 23,
+            "max": 12.0,
+            "mean": 5.130434782608695,
+            "min": 2.0,
+            "n": 24
+          }
+        }
+      },
+      "text": "Table 3's 2010 dairy rows: counts, maxima and minima hold; at most one average is 5.1; the dairy-wide average is 5.05-5.15"
+    },
+    {
+      "graded": true,
+      "id": "V4",
+      "kind": "prediction",
+      "met": false,
+      "observed": {
+        "all_formulas": {
+          "detects": 56,
+          "max": 50.0,
+          "mean": 10.410714285714286,
+          "min": 2.0,
+          "n": 89
+        },
+        "checks": {
+          "average": false,
+          "max": true,
+          "min": true,
+          "samples": true
+        },
+        "dairy_formula": {
+          "detects": 43,
+          "max": 22.0,
+          "mean": 7.744186046511628,
+          "min": 2.0,
+          "n": 74
+        }
+      },
+      "text": "Table 3's 2010 formula row (74; 2-22; 10.4) is Infant Formula - Dairy"
+    },
+    {
+      "graded": true,
+      "id": "V5",
+      "kind": "prediction",
+      "met": false,
+      "observed": {
+        "all": {
+          "detects": 789,
+          "max": 2400.0,
+          "mean": 39.23700887198986,
+          "min": 2.0,
+          "n": 1426
+        },
+        "checks": {
+          "dairy_139_140": true,
+          "formula_49": false,
+          "fruit_44pct": true,
+          "juice_51_52": true,
+          "max_2400": true,
+          "min_2": true,
+          "none_637": true,
+          "veg_74pct": true
+        },
+        "groups": {
+          "dairy": {
+            "detects": 140,
+            "max": 49.0,
+            "mean": 5.892857142857143,
+            "min": 2.0,
+            "n": 233
+          },
+          "formula": {
+            "detects": 51,
+            "max": 35.0,
+            "mean": 11.843137254901961,
+            "min": 2.0,
+            "n": 87
+          },
+          "fruit": {
+            "detects": 156,
+            "max": 180.0,
+            "mean": 15.198717948717949,
+            "min": 2.0,
+            "n": 356
+          },
+          "juice": {
+            "detects": 51,
+            "max": 20.0,
+            "mean": 5.176470588235294,
+            "min": 2.0,
+            "n": 225
+          },
+          "veg": {
+            "detects": 391,
+            "max": 2400.0,
+            "mean": 68.78260869565217,
+            "min": 2.0,
+            "n": 525
+          }
+        }
+      },
+      "text": "p11: 637 without; juice 51-52, dairy-based 139-140, formula 49 detects; fruit 44%, vegetables 74%; minimum 2, maximum 2400"
+    },
+    {
+      "graded": true,
+      "id": "V6",
+      "kind": "prediction",
+      "met": false,
+      "observed": {
+        "checks": {
+          "cream_2011_avg_4.25_4.35": false,
+          "cream_2011_max_6": true,
+          "cream_2011_min_3": true,
+          "cream_2012_avg_3.95_4.05": true,
+          "cream_2012_max_7": true,
+          "cream_2012_min_3": true,
+          "formula_avg_11.75_11.85": false,
+          "formula_max_33": true,
+          "formula_min_2": true
+        },
+        "cream_2011_12": {
+          "detects": 5,
+          "max": 6.0,
+          "mean": 4.6,
+          "min": 3.0,
+          "n": 6
+        },
+        "cream_2012_13": {
+          "detects": 9,
+          "max": 7.0,
+          "mean": 4.0,
+          "min": 3.0,
+          "n": 9
+        },
+        "cream_years": {
+          "2011-12": 6,
+          "2012-13": 9
+        },
+        "non_soy_formula_years": {
+          "2011-12": 68
+        },
+        "non_soy_formulas": {
+          "detects": 37,
+          "max": 33.0,
+          "mean": 9.702702702702704,
+          "min": 2.0,
+          "n": 68
+        }
+      },
+      "text": "Table 3's p11 rows: creams 2011 (3, 6, 4.25-4.35) and 2012 (3, 7, 3.95-4.05); formulas (68 non-soy) 2, 33, 11.75-11.85"
+    },
+    {
+      "graded": true,
+      "id": "V7",
+      "kind": "prediction",
+      "met": false,
+      "observed": {
+        "checks": {
+          "cucumber_106": false,
+          "leafy_65": false,
+          "tomato_57": true,
+          "top_three": true
+        },
+        "ranked_means": [
+          [
+            "Cucumber",
+            107.23076923076923
+          ],
+          [
+            "Leafy",
+            59.77647058823529
+          ],
+          [
+            "Tomato",
+            56.672413793103445
+          ],
+          [
+            "Melon - Cantaloupe",
+            23.272727272727273
+          ],
+          [
+            "Watermelon",
+            20.10810810810811
+          ],
+          [
+            "Strawberry",
+            16.625
+          ],
+          [
+            "Orange",
+            14.253968253968255
+          ],
+          [
+            "Lemon",
+            7.75
+          ],
+          [
+            "Grapefruit",
+            6.909090909090909
+          ],
+          [
+            "Blueberry",
+            3.5
+          ]
+        ]
+      },
+      "text": "p11: cucumber 106, leafy greens 65 and tomato 57 are the three highest averages"
+    },
+    {
+      "graded": true,
+      "id": "V8",
+      "kind": "prediction",
+      "met": false,
+      "observed": {
+        "all": {
+          "detects": 272,
+          "max": 3300.0,
+          "mean": 56.029411764705884,
+          "min": 2.0,
+          "n": 477
+        },
+        "checks": {
+          "assorted_61pct": false,
+          "dairy_80pct": true,
+          "dairy_avg_6": true,
+          "fresh_71pct": false,
+          "fresh_avg_130": false,
+          "grain_30pct": true,
+          "grain_avg_5": true,
+          "max_3300": true,
+          "max_is_arugula": true,
+          "min_2": true,
+          "none_205": true,
+          "processed_40pct": false,
+          "processed_avg_23": false
+        },
+        "formula_share_not_graded": [
+          21,
+          39
+        ],
+        "groups": {
+          "assorted": {
+            "detects": 48,
+            "max": 52.0,
+            "mean": 5.625,
+            "min": 2.0,
+            "n": 100
+          },
+          "dairy": {
+            "detects": 40,
+            "max": 42.0,
+            "mean": 6.0,
+            "min": 2.0,
+            "n": 50
+          },
+          "formula": {
+            "detects": 21,
+            "max": 64.0,
+            "mean": 16.523809523809526,
+            "min": 2.0,
+            "n": 39
+          },
+          "fresh": {
+            "detects": 92,
+            "max": 3300.0,
+            "mean": 137.1195652173913,
+            "min": 2.0,
+            "n": 131
+          },
+          "grain": {
+            "detects": 18,
+            "max": 9.0,
+            "mean": 5.166666666666667,
+            "min": 2.0,
+            "n": 60
+          },
+          "processed": {
+            "detects": 53,
+            "max": 220.0,
+            "mean": 31.60377358490566,
+            "min": 2.0,
+            "n": 97
+          }
+        },
+        "max_sample": {
+          "origin": "United States",
+          "ppb": 3300.0,
+          "product": "Arugula",
+          "sample": "C2013PERC00065"
+        }
+      },
+      "text": "p13: 205 without; shares 71/40/80/30/61; averages 130/23/5/6; min 2; max 3300 (arugula)"
+    },
+    {
+      "graded": true,
+      "id": "V9",
+      "kind": "prediction",
+      "met": false,
+      "observed": {
+        "all_formulas": {
+          "detects": 21,
+          "max": 64.0,
+          "mean": 16.523809523809526,
+          "min": 2.0,
+          "n": 39
+        },
+        "checks": {
+          "cheese_average": true,
+          "cheese_detects_10_16": true,
+          "cheese_max": true,
+          "cheese_min": true,
+          "cheese_samples": true,
+          "dairy_detects_40": true,
+          "formula_average": false,
+          "formula_max": true,
+          "formula_min": true,
+          "formula_samples": true,
+          "yogurt_average": true,
+          "yogurt_max": true,
+          "yogurt_min": true,
+          "yogurt_samples": true
+        },
+        "cheese": {
+          "detects": 11,
+          "max": 42.0,
+          "mean": 9.0,
+          "min": 3.0,
+          "n": 20
+        },
+        "non_soy_formula": {
+          "detects": 14,
+          "max": 64.0,
+          "mean": 15.714285714285714,
+          "min": 2.0,
+          "n": 30
+        },
+        "yogurt": {
+          "detects": 29,
+          "max": 11.0,
+          "mean": 4.862068965517241,
+          "min": 2.0,
+          "n": 30
+        }
+      },
+      "text": "Table 3's p13 rows: cheese 3-42 (9.0), formula 2-64 (16.5), yogurt 2-11 (4.9); 10-16 of 40 dairy detects are cheeses"
+    }
+  ],
+  "study": "perchlorate-series",
+  "version": "0.1.0"
+}
