@@ -26,7 +26,10 @@ or formulas without the soy-based ones). In the two PAH files, three pairs of sa
 different foods or origins carry identical values; the two food-colour files have none. The two
 ethyl carbamate files are the first pair whose origin splits match in every cell that can be
 checked, and the 2018-19 one is the second file in the series with a 1,000-fold scale problem
-(after the 2014-15 aflatoxin M1 unit label).
+(after the 2014-15 aflatoxin M1 unit label). The perchlorate files add a new kind: averages. Two
+CFIA documents describe the same samples with different, unstated averages (all samples with
+non-detects as zero, or detects only), and one later table pairs a subset's count and range with
+the full group's average.
 
 ## Children's Food Project (aflatoxin M1, lead)
 
@@ -156,5 +159,22 @@ checked, and the 2018-19 one is the second file in the series with a 1,000-fold 
   count as assorted foods, not processed fruit products. That map allows exactly one detect count
   per group (93 / 39 / 40 / 21 / 18 / 61). With the juices among processed products, no count of
   the 53 remaining assorted foods rounds to 61%.
+- [Result](perchlorate-series-0.1.0-result.md). All three gates pass; 1 of 9 held. Sample counts,
+  detect counts, minima and maxima almost all reproduce; the failures are averages and the
+  2013-14 shares. Read afterwards (descriptive): the 2010-11 summary averages over all samples
+  with non-detects as zero (cucumber 48.6, tomato 44.9, cheese 5, yogurt 4.9 and soy formula 16.7
+  all reproduce that way), while Table 3 averages detects only. In all three surveys Table 3's
+  formula row gives the non-soy formulas' count and range with the average of all formulas,
+  soy included (10.4, 11.8, 16.5; non-soy alone 7.7, 9.7, 15.7). Its 2010 cheese 5.1 matches
+  neither reading. No placement the label arithmetic allowed gives 2013-14's processed share of
+  40% (the file gives 39.2% to 59.8%).
+
+## Phthalates in ready-to-eat meals, vegetable fats and oils, 2020-21
+
+- [Pre-registration](phthalates-2020-0.1.0-prereg.md), fixed from the report page before any part
+  of the file is opened. The report's arithmetic pins the fats-and-oils split: salad dressings at
+  4% of 50 is exactly 2 positives (they must be 0.3 and 0.6 ppm), so oils carry 29 of the 31. The
+  page's "0.006 mg/L (0.6 parts per billion)" for the US bottled-water DEHP limit is 6 parts per
+  billion.
 
 MV2, Munim, Inc., mv2@munimtech.com
