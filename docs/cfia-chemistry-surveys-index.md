@@ -34,6 +34,15 @@ its report reproduces, and only its origin table is off. A later CFIA table's "2
 by contrast, are not label groups of the 2012-2018 file for any choice of years. On the portal
 side, open.canada.ca's resource sizes are kibibytes rounded up, not rounded to nearest.
 
+## All items in one table
+
+- [CFIA open-data errata 0.1.0](cfia-open-data-errata-0.1.0.md) and
+  [`data/cfia-open-data-errata.csv`](../data/cfia-open-data-errata.csv) (CC BY 4.0). The 49
+  report-vs-file items from the notes below, one row each, with a kind, the evidence it rests
+  on and the note that first published it. 32 rest on a report and its file disagreeing, 7 on a
+  report contradicting itself, 7 on the file alone and 3 on a later CFIA document. Five rows
+  (four slips) change a number by 10 times or more. `test_cfia_errata.py` checks it.
+
 ## Children's Food Project (aflatoxin M1, lead)
 
 - [Overview](childrens-food-project.md)
@@ -128,7 +137,7 @@ side, open.canada.ca's resource sizes are kibibytes rounded up, not rounded to n
   original report's all-products figures (soy alone: 7 and 108).
 - [Census note, label maps and grader](ethyl-carbamate-0.1.0-census.md). 4 of 5 census items
   held. The 2019-20 file is complete (58,972 bytes, matching the portal MD5); the portal's "58"
-  size is off by about 1,000. Every product total and every origin cell that can be checked
+  size reads as kibibytes rounded up (see the phthalates census note), not bytes. Every product total and every origin cell that can be checked
   matches. One 2018-19 beer is labelled "Beef" and one 2019-20 fermented vegetable
   "Fish/Seafood"; both sit inside their product's ID block. The 2018-19 file gives sake, spirits
   and wine one label, so those rows and the wine-limit sentence cannot be checked, and its last
@@ -220,5 +229,12 @@ side, open.canada.ca's resource sizes are kibibytes rounded up, not rounded to n
   (224 meals, 180 oils, 22 dressings, 327 fats and oils) match no combination of survey years.
 - [Grader note](phthalates-series-0.1.0-grader.md), with `phthalates_series.py` and 14 offline
   tests, published before any value of either file is read.
+
+## Fumonisins in corn products, 2010-11 (file opened on the portal on 2026-11-03)
+
+- [Pre-registration](fumonisin-2010-0.1.0-prereg.md), fixed from the report page before any part
+  of the newly published file is opened: 276 samples in eleven product groups, 157 positive,
+  20 to 6650 ppb, and eight samples above 800 ppb (4 cereals, 2 grits, 1 tortilla, 1 cornmeal).
+  The page's own arithmetic holds (the counts add to 276; 157 of 276 is 57%).
 
 MV2, Munim, Inc., mv2@munimtech.com
