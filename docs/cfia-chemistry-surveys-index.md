@@ -188,4 +188,16 @@ the full group's average.
 - [Grader note](phthalates-2020-0.1.0-grader.md), with `phthalates_2020.py` and 11 offline tests,
   published before any value is read.
 
+## Phthalates in flatbreads and vegan products 2018-19, and the 2012-2015 rows of two later tables
+
+- [Pre-registration](phthalates-series-0.1.0-prereg.md), fixed from two report pages before either
+  file (2018-19, 599 samples; 2012-2018, about 4,517) is opened. The 2018-19 tables are
+  internally consistent (shares, sub-totals and both weighted averages), and they pin tofu's three
+  positives to 0.54, about 8.01 and 24.00. The page's text has four slips that need no file to
+  see: "599 ... flatbreads" (Table 1: 208), "BINP" and "BDP" (not among the six tested), and the
+  same "0.006 mg/L (0.6 ppb)" as the 2020-21 page. The 2012-2015 rows that the 2018-19 and
+  2020-21 reports print (grain products, nut and seed butters, ready-to-eat meals, oils, salad
+  dressings, mayonnaise) are predicted from the 2012-2018 file. Their 57.1% and 36% rates pin 128
+  of 224 meals and 8 of 22 dressings.
+
 MV2, Munim, Inc., mv2@munimtech.com
