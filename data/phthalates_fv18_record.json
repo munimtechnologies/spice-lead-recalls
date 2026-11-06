@@ -1,0 +1,447 @@
+{
+  "bytes": 149790,
+  "census_items": {
+    "F-S1": {
+      "counts": {
+        "dairy_alt": 76,
+        "flatbread": 208,
+        "mayo": 53,
+        "meat_alt": 125,
+        "tofu": 137
+      },
+      "held": true
+    },
+    "F-S2": {
+      "counts": {
+        "flatbread": {
+          "Domestic": 97,
+          "Import": 38,
+          "Unknown": 73
+        },
+        "vegan": {
+          "Domestic": 121,
+          "Import": 156,
+          "Unknown": 114
+        }
+      },
+      "held": true,
+      "printed": {
+        "flatbread": {
+          "Domestic": 97,
+          "Import": 38,
+          "Unknown": 73
+        },
+        "vegan": {
+          "Domestic": 121,
+          "Import": 156,
+          "Unknown": 114
+        }
+      }
+    }
+  },
+  "descriptive": {
+    "cells_with_a_comma": [],
+    "identical_nonzero_totals": {
+      "0.67": [
+        "C2018PHTH00102",
+        "C2018PHTH00217"
+      ],
+      "0.74": [
+        "C2018PHTH00131",
+        "C2018PHTH00435"
+      ],
+      "1.0": [
+        "C2018PHTH00161",
+        "C2018PHTH00371",
+        "C2018PHTH00403",
+        "C2018PHTH00434",
+        "C2018PHTH00744",
+        "C2018PHTH00748"
+      ],
+      "1.09": [
+        "C2018PHTH00424",
+        "C2018PHTH00617"
+      ],
+      "1.4": [
+        "C2018PHTH00383",
+        "C2018PHTH00624"
+      ],
+      "2.0": [
+        "C2018PHTH00022",
+        "C2018PHTH00069",
+        "C2018PHTH00402"
+      ]
+    },
+    "identical_nonzero_totals_count": 6,
+    "largest": [
+      [
+        24.0,
+        "C2018PHTH00718",
+        "Tofu",
+        "2018-19"
+      ],
+      [
+        15.0,
+        "C2018PHTH00616",
+        "Bakery Product - Tortilla/Wrap/Pita",
+        "2018-19"
+      ],
+      [
+        10.41,
+        "C2018PHTH00055D",
+        "Bakery Product - Bread - Other",
+        "2018-19"
+      ],
+      [
+        8.0,
+        "C2018PHTH00719",
+        "Tofu",
+        "2018-19"
+      ],
+      [
+        7.78,
+        "C2018PHTH00600",
+        "Bakery Product - Tortilla/Wrap/Pita",
+        "2018-19"
+      ],
+      [
+        7.57,
+        "C2018PHTH00014",
+        "Meat Alternative",
+        "2018-19"
+      ],
+      [
+        7.36,
+        "C2018PHTH00073",
+        "Bakery Product - Bread - Other",
+        "2018-19"
+      ],
+      [
+        7.0,
+        "C2018PHTH00165",
+        "Bakery Product - Bread - Other",
+        "2018-19"
+      ],
+      [
+        5.63,
+        "C2018PHTH00523",
+        "Bakery Product - Tortilla/Wrap/Pita",
+        "2018-19"
+      ],
+      [
+        5.56,
+        "C2018PHTH00401",
+        "Bakery Product - Tortilla/Wrap/Pita",
+        "2018-19"
+      ]
+    ],
+    "per_phthalate": {
+      "BBP": {
+        "max": null,
+        "min": null,
+        "samples": 0
+      },
+      "DBP": {
+        "max": 24.0,
+        "min": 0.54,
+        "samples": 4
+      },
+      "DEHP": {
+        "max": 4.0,
+        "min": 0.58,
+        "samples": 24
+      },
+      "DIDP": {
+        "max": 1.0,
+        "min": 0.95,
+        "samples": 2
+      },
+      "DINP": {
+        "max": 15.0,
+        "min": 0.5,
+        "samples": 51
+      },
+      "DNOP": {
+        "max": null,
+        "min": null,
+        "samples": 0
+      }
+    },
+    "per_phthalate_share_of_all": {
+      "BBP": 0.0,
+      "DBP": 0.668,
+      "DEHP": 4.007,
+      "DIDP": 0.334,
+      "DINP": 8.514,
+      "DNOP": 0.0
+    },
+    "positives_by_function": {
+      "Domestic": 34,
+      "Import": 12,
+      "Unknown": 27
+    },
+    "positives_by_product": {
+      "Bakery Product - Bread - Other": 25,
+      "Bakery Product - Bun/Roll": 1,
+      "Bakery Product - Tortilla/Wrap/Pita": 28,
+      "Dairy Alternative": 6,
+      "Mayonnaise - Vegan": 3,
+      "Meat Alternative": 7,
+      "Tofu": 3
+    },
+    "screen_vs_rows_mismatch": [],
+    "smallest_stored": [
+      [
+        0.5,
+        "C2018PHTH00668",
+        "DINP",
+        "Meat Alternative"
+      ],
+      [
+        0.54,
+        "C2018PHTH00695",
+        "DBP",
+        "Tofu"
+      ],
+      [
+        0.57,
+        "C2018PHTH00528",
+        "DINP",
+        "Bakery Product - Tortilla/Wrap/Pita"
+      ],
+      [
+        0.58,
+        "C2018PHTH00373",
+        "DEHP",
+        "Bakery Product - Bread - Other"
+      ],
+      [
+        0.59,
+        "C2018PHTH00747",
+        "DEHP",
+        "Dairy Alternative"
+      ]
+    ],
+    "stored_zero_or_negative": []
+  },
+  "encoding": "utf-8-sig",
+  "gate": {
+    "A2": true,
+    "G_as_written": false,
+    "md5": true,
+    "problems": {
+      "bad_date": [],
+      "bad_screen": [],
+      "bad_unit": [],
+      "mixed_product": [],
+      "no_screen": [],
+      "non_numeric": [],
+      "repeated": [],
+      "unknown_component": [],
+      "unmapped_product": []
+    },
+    "samples_ok": true,
+    "size_band_A2": [
+      149505,
+      150528
+    ],
+    "size_band_as_written": [
+      150016,
+      151040
+    ],
+    "size_in_band_A2": true,
+    "size_in_band_as_written": false
+  },
+  "grades": {
+    "F-V1": {
+      "held": true,
+      "rows": {
+        "all": {
+          "checks": {
+            "max": true,
+            "mean": true,
+            "min": true,
+            "n": true,
+            "positives": true,
+            "share": true
+          },
+          "stats": {
+            "max": 24.0,
+            "mean": 2.93589,
+            "min": 0.5,
+            "n": 599,
+            "positives": 73
+          }
+        },
+        "dairy_alt": {
+          "checks": {
+            "max": true,
+            "mean": true,
+            "min": true,
+            "n": true,
+            "positives": true,
+            "share": true
+          },
+          "stats": {
+            "max": 2.78,
+            "mean": 1.166667,
+            "min": 0.59,
+            "n": 76,
+            "positives": 6
+          }
+        },
+        "flatbread": {
+          "checks": {
+            "max": true,
+            "mean": true,
+            "min": true,
+            "n": true,
+            "positives": true,
+            "share": true
+          },
+          "stats": {
+            "max": 15.0,
+            "mean": 2.698704,
+            "min": 0.57,
+            "n": 208,
+            "positives": 54
+          }
+        },
+        "mayo": {
+          "checks": {
+            "max": true,
+            "mean": true,
+            "min": true,
+            "n": true,
+            "positives": true,
+            "share": true
+          },
+          "stats": {
+            "max": 3.19,
+            "mean": 1.636667,
+            "min": 0.72,
+            "n": 53,
+            "positives": 3
+          }
+        },
+        "meat_alt": {
+          "checks": {
+            "max": true,
+            "mean": true,
+            "min": true,
+            "n": true,
+            "positives": true,
+            "share": true
+          },
+          "stats": {
+            "max": 7.57,
+            "mean": 3.448571,
+            "min": 0.5,
+            "n": 125,
+            "positives": 7
+          }
+        },
+        "tofu": {
+          "checks": {
+            "max": true,
+            "mean": true,
+            "min": true,
+            "n": true,
+            "positives": true,
+            "share": true
+          },
+          "stats": {
+            "max": 24.0,
+            "mean": 10.846667,
+            "min": 0.54,
+            "n": 137,
+            "positives": 3
+          }
+        },
+        "vegan": {
+          "checks": {
+            "max": true,
+            "mean": true,
+            "min": true,
+            "n": true,
+            "positives": true,
+            "share": true
+          },
+          "stats": {
+            "max": 24.0,
+            "mean": 3.61,
+            "min": 0.5,
+            "n": 391,
+            "positives": 19
+          }
+        }
+      }
+    },
+    "F-V2": {
+      "checks": {
+        "negatives_526": true,
+        "single_top": true,
+        "top_24_00": true,
+        "top_tofu": true
+      },
+      "held": true,
+      "negatives": 526,
+      "top": {
+        "id": "C2018PHTH00718",
+        "product": "Tofu",
+        "total": 24.0,
+        "values": {
+          "DBP": 24.0
+        }
+      }
+    },
+    "F-V3": {
+      "checks": {
+        "bbp_dnop_0": true,
+        "dbp_4": true,
+        "dehp_21_26": true,
+        "didp_2": true,
+        "dinp_51_56": true,
+        "multi_at_least_5": true
+      },
+      "held": true,
+      "multi": 8,
+      "per_phthalate_positive_samples": {
+        "BBP": 0,
+        "DBP": 4,
+        "DEHP": 24,
+        "DIDP": 2,
+        "DINP": 51,
+        "DNOP": 0
+      }
+    },
+    "F-V4": {
+      "checks": {
+        "mayo": true,
+        "tofu": true
+      },
+      "held": true,
+      "mayo_positives": [
+        0.72,
+        1.0,
+        3.19
+      ],
+      "tofu_positives": [
+        0.54,
+        8.0,
+        24.0
+      ]
+    }
+  },
+  "held": [
+    "F-V1",
+    "F-V2",
+    "F-V3",
+    "F-V4"
+  ],
+  "md5": "22dc3074e8e2c55b60fb96a666c5ff16",
+  "sha256": "85a8a7e5fb667cf20bd8199e4c9d34a95794e6417566f9d69457818a8195074b",
+  "source": "https://open.canada.ca/data/dataset/c4202b90-03d1-4eef-9fcc-0740066fc0c4/resource/8ce9082f-b339-4e5d-b74a-fa1747d295ac/download/fsap-chem-ts-2018-2019-phthalates-in-flatbread-and-vegan-products.csv",
+  "study": "phthalates-series-fv18",
+  "version": "0.1.0"
+}

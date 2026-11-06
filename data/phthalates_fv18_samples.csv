@@ -1,0 +1,600 @@
+sample,product,group,subgroup,function,origin,date,survey_year,id_year,screen_n,BBP,DBP,DNOP,DEHP,DINP,DIDP,total
+C2018PHTH00001,Bakery Product - Tortilla/Wrap/Pita,flatbread,flatbread,Unknown,UNKNOWN,2018-05-22,2018-19,2018-19,2,,,,0.62,3.98,,4.6
+C2018PHTH00002,Bakery Product - Tortilla/Wrap/Pita,flatbread,flatbread,Unknown,UNKNOWN,2018-05-22,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00003,Meat Alternative,vegan,meat_alt,Domestic,CANADA,2018-11-06,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00004,Tofu,vegan,tofu,Import,UNITED STATES,2018-12-12,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00007,Bakery Product - Bread - Other,flatbread,flatbread,Unknown,UNKNOWN,2018-05-22,2018-19,2018-19,1,,,,,0.6,,0.6
+C2018PHTH00008,Bakery Product - Bread - Other,flatbread,flatbread,Unknown,UNKNOWN,2018-05-28,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00009,Mayonnaise - Vegan,vegan,mayo,Import,UNITED STATES,2018-11-06,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00010,Tofu,vegan,tofu,Import,UNITED STATES,2018-12-12,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00011,Mayonnaise - Vegan,vegan,mayo,Import,UNITED STATES,2018-11-06,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00012,Meat Alternative,vegan,meat_alt,Domestic,CANADA,2018-11-06,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00013,Bakery Product - Bread - Other,flatbread,flatbread,Unknown,UNKNOWN,2018-06-06,2018-19,2018-19,1,,,,,4.31,,4.31
+C2018PHTH00014,Meat Alternative,vegan,meat_alt,Import,UNITED STATES,2018-11-06,2018-19,2018-19,1,,,,,7.57,,7.57
+C2018PHTH00015,Tofu,vegan,tofu,Import,UNITED STATES,2018-12-12,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00016,Dairy Alternative,vegan,dairy_alt,Import,UNITED STATES,2018-11-06,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00017,Dairy Alternative,vegan,dairy_alt,Import,GREECE,2018-11-06,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00019,Bakery Product - Bread - Other,flatbread,flatbread,Import,UNITED STATES,2018-09-05,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00021,Bakery Product - Bread - Other,flatbread,flatbread,Unknown,UNKNOWN,2018-07-10,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00022,Bakery Product - Bread - Other,flatbread,flatbread,Unknown,UNKNOWN,2018-07-18,2018-19,2018-19,1,,,,,2.0,,2.0
+C2018PHTH00023,Meat Alternative,vegan,meat_alt,Domestic,CANADA,2018-07-10,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00024,Meat Alternative,vegan,meat_alt,Domestic,CANADA,2018-07-10,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00025,Tofu,vegan,tofu,Import,UNITED STATES,2018-07-10,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00026,Bakery Product - Tortilla/Wrap/Pita,flatbread,flatbread,Unknown,UNKNOWN,2018-08-13,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00027,Meat Alternative,vegan,meat_alt,Domestic,CANADA,2018-08-13,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00028,Meat Alternative,vegan,meat_alt,Import,UNITED STATES,2018-08-13,2018-19,2018-19,1,,,,,2.89,,2.89
+C2018PHTH00029,Tofu,vegan,tofu,Unknown,UNKNOWN,2018-08-13,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00030,Tofu,vegan,tofu,Import,UNITED STATES,2018-08-13,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00031,Mayonnaise - Vegan,vegan,mayo,Import,UNITED STATES,2018-08-13,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00032D,Bakery Product - Bread - Other,flatbread,flatbread,Unknown,UNKNOWN,2018-10-17,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00033D,Tofu,vegan,tofu,Import,UNITED STATES,2018-10-17,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00034,Mayonnaise - Vegan,vegan,mayo,Import,UNITED STATES,2018-09-05,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00035,Mayonnaise - Vegan,vegan,mayo,Unknown,UNKNOWN,2018-11-06,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00036,Mayonnaise - Vegan,vegan,mayo,Import,UNITED STATES,2018-12-12,2018-19,2018-19,1,,,,,3.19,,3.19
+C2018PHTH00037,Dairy Alternative,vegan,dairy_alt,Import,UNITED STATES,2019-01-07,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00040,Bakery Product - Bread - Other,flatbread,flatbread,Unknown,UNKNOWN,2019-01-07,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00041,Meat Alternative,vegan,meat_alt,Unknown,UNKNOWN,2018-12-12,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00042,Meat Alternative,vegan,meat_alt,Domestic,CANADA,2018-12-12,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00043,Tofu,vegan,tofu,Import,UNITED STATES,2018-12-12,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00045,Bakery Product - Bread - Other,flatbread,flatbread,Unknown,UNKNOWN,2019-01-07,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00046,Tofu,vegan,tofu,Import,UNITED STATES,2019-01-07,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00047,Dairy Alternative,vegan,dairy_alt,Domestic,CANADA,2019-01-07,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00055D,Bakery Product - Bread - Other,flatbread,flatbread,Domestic,CANADA,2018-06-27,2018-19,2018-19,2,,,,1.26,9.15,,10.41
+C2018PHTH00056,Tofu,vegan,tofu,Unknown,UNKNOWN,2018-07-28,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00057,Tofu,vegan,tofu,Unknown,UNKNOWN,2018-07-08,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00058,Tofu,vegan,tofu,Unknown,UNKNOWN,2018-07-08,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00059,Mayonnaise - Vegan,vegan,mayo,Unknown,UNKNOWN,2018-07-28,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00060,Dairy Alternative,vegan,dairy_alt,Domestic,CANADA,2018-07-08,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00061,Tofu,vegan,tofu,Domestic,CANADA,2018-11-15,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00062,Dairy Alternative,vegan,dairy_alt,Import,GREECE,2018-07-08,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00063,Bakery Product - Bread - Other,flatbread,flatbread,Unknown,UNKNOWN,2018-06-01,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00064,Bakery Product - Tortilla/Wrap/Pita,flatbread,flatbread,Domestic,CANADA,2018-06-09,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00065,Bakery Product - Bread - Other,flatbread,flatbread,Import,UNITED STATES,2018-06-27,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00066,Meat Alternative,vegan,meat_alt,Domestic,CANADA,2018-11-15,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00067,Dairy Alternative,vegan,dairy_alt,Import,GREECE,2018-11-15,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00068,Bakery Product - Bun/Roll,flatbread,flatbread,Unknown,UNKNOWN,2018-06-25,2018-19,2018-19,1,,,,1.14,,,1.14
+C2018PHTH00069,Bakery Product - Bread - Other,flatbread,flatbread,Unknown,UNKNOWN,2018-07-08,2018-19,2018-19,1,,,,,2.0,,2.0
+C2018PHTH00070,Tofu,vegan,tofu,Unknown,UNKNOWN,2018-07-08,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00071,Tofu,vegan,tofu,Import,UNITED STATES,2018-07-08,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00073,Bakery Product - Bread - Other,flatbread,flatbread,Unknown,UNKNOWN,2018-05-24,2018-19,2018-19,2,,,,0.62,6.74,,7.36
+C2018PHTH00074,Meat Alternative,vegan,meat_alt,Domestic,CANADA,2018-07-08,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00075,Meat Alternative,vegan,meat_alt,Import,UNITED STATES,2018-11-07,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00076,Meat Alternative,vegan,meat_alt,Import,UNITED STATES,2019-01-16,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00077,Meat Alternative,vegan,meat_alt,Domestic,CANADA,2019-01-07,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00078,Tofu,vegan,tofu,Unknown,UNKNOWN,2018-11-07,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00079,Mayonnaise - Vegan,vegan,mayo,Unknown,UNKNOWN,2018-07-28,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00081,Meat Alternative,vegan,meat_alt,Import,UNITED STATES,2018-11-07,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00082,Tofu,vegan,tofu,Unknown,UNKNOWN,2018-11-07,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00083,Tofu,vegan,tofu,Domestic,CANADA,2018-11-15,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00084,Tofu,vegan,tofu,Import,UNITED STATES,2018-11-15,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00085,Mayonnaise - Vegan,vegan,mayo,Unknown,UNKNOWN,2018-11-07,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00088,Dairy Alternative,vegan,dairy_alt,Domestic,CANADA,2018-11-15,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00089,Bakery Product - Bread - Other,flatbread,flatbread,Domestic,CANADA,2019-01-04,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00092,Bakery Product - Bread - Other,flatbread,flatbread,Import,INDIA,2019-01-08,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00093,Meat Alternative,vegan,meat_alt,Import,UNITED STATES,2018-11-07,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00094,Dairy Alternative,vegan,dairy_alt,Domestic,CANADA,2018-11-07,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00096,Bakery Product - Bread - Other,flatbread,flatbread,Domestic,CANADA,2019-01-07,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00099,Meat Alternative,vegan,meat_alt,Unknown,UNKNOWN,2019-01-04,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00101,Tofu,vegan,tofu,Domestic,CANADA,2019-01-07,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00102,Dairy Alternative,vegan,dairy_alt,Domestic,CANADA,2019-01-07,2018-19,2018-19,1,,,,,0.67,,0.67
+C2018PHTH00104,Bakery Product - Bread - Other,flatbread,flatbread,Import,UNITED STATES,2019-01-08,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00105,Mayonnaise - Vegan,vegan,mayo,Import,UKRAINE,2019-01-07,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00106,Bakery Product - Bread - Other,flatbread,flatbread,Domestic,CANADA,2019-01-18,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00109,Bakery Product - Bread - Other,flatbread,flatbread,Unknown,UNKNOWN,2018-05-15,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00110,Bakery Product - Tortilla/Wrap/Pita,flatbread,flatbread,Unknown,UNKNOWN,2018-05-15,2018-19,2018-19,1,,,,,0.93,,0.93
+C2018PHTH00111,Bakery Product - Tortilla/Wrap/Pita,flatbread,flatbread,Domestic,CANADA,2018-05-15,2018-19,2018-19,1,,,,,1.1,,1.1
+C2018PHTH00112,Bakery Product - Bread - Other,flatbread,flatbread,Import,UNITED STATES,2018-05-16,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00113,Bakery Product - Bread - Other,flatbread,flatbread,Domestic,CANADA,2018-05-14,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00114,Bakery Product - Bread - Other,flatbread,flatbread,Domestic,CANADA,2018-05-14,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00115,Bakery Product - Bread - Other,flatbread,flatbread,Unknown,UNKNOWN,2018-05-15,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00116,Bakery Product - Tortilla/Wrap/Pita,flatbread,flatbread,Unknown,UNKNOWN,2018-06-13,2018-19,2018-19,1,,,,,2.91,,2.91
+C2018PHTH00117,Meat Alternative,vegan,meat_alt,Domestic,CANADA,2018-08-27,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00118,Meat Alternative,vegan,meat_alt,Import,UNITED STATES,2018-08-29,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00119,Meat Alternative,vegan,meat_alt,Domestic,CANADA,2018-09-06,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00120,Tofu,vegan,tofu,Unknown,UNKNOWN,2018-08-27,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00121,Tofu,vegan,tofu,Unknown,UNKNOWN,2018-08-27,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00122,Tofu,vegan,tofu,Unknown,UNKNOWN,2018-09-07,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00123,Tofu,vegan,tofu,Import,UNITED STATES,2018-09-05,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00124,Mayonnaise - Vegan,vegan,mayo,Import,UNITED STATES,2018-08-27,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00125,Mayonnaise - Vegan,vegan,mayo,Import,UNITED STATES,2018-09-13,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00126,Mayonnaise - Vegan,vegan,mayo,Unknown,UNKNOWN,2018-09-07,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00127,Dairy Alternative,vegan,dairy_alt,Import,UNITED STATES,2018-09-11,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00128,Dairy Alternative,vegan,dairy_alt,Import,GREECE,2018-09-05,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00129,Dairy Alternative,vegan,dairy_alt,Import,SCOTLAND,2018-09-05,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00130,Bakery Product - Bread - Other,flatbread,flatbread,Domestic,CANADA,2018-05-16,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00131,Bakery Product - Bread - Other,flatbread,flatbread,Unknown,UNKNOWN,2018-05-16,2018-19,2018-19,1,,,,,0.74,,0.74
+C2018PHTH00132,Bakery Product - Tortilla/Wrap/Pita,flatbread,flatbread,Unknown,UNKNOWN,2018-05-22,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00133,Bakery Product - Tortilla/Wrap/Pita,flatbread,flatbread,Unknown,UNKNOWN,2018-05-22,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00134,Bakery Product - Tortilla/Wrap/Pita,flatbread,flatbread,Unknown,UNKNOWN,2018-05-22,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00135,Bakery Product - Tortilla/Wrap/Pita,flatbread,flatbread,Domestic,CANADA,2018-05-22,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00136,Bakery Product - Tortilla/Wrap/Pita,flatbread,flatbread,Domestic,CANADA,2018-05-22,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00137,Bakery Product - Tortilla/Wrap/Pita,flatbread,flatbread,Unknown,UNKNOWN,2018-07-26,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00138,Bakery Product - Bread - Other,flatbread,flatbread,Import,UNITED STATES,2018-09-07,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00139,Bakery Product - Bread - Other,flatbread,flatbread,Domestic,CANADA,2018-09-07,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00140,Bakery Product - Bread - Other,flatbread,flatbread,Domestic,CANADA,2018-09-07,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00141,Bakery Product - Bread - Other,flatbread,flatbread,Unknown,UNKNOWN,2018-09-11,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00143,Bakery Product - Tortilla/Wrap/Pita,flatbread,flatbread,Domestic,CANADA,2018-06-05,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00144,Meat Alternative,vegan,meat_alt,Unknown,UNKNOWN,2018-09-06,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00145,Meat Alternative,vegan,meat_alt,Unknown,UNKNOWN,2018-09-06,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00146,Meat Alternative,vegan,meat_alt,Domestic,CANADA,2018-09-07,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00147,Meat Alternative,vegan,meat_alt,Domestic,CANADA,2018-09-07,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00148,Meat Alternative,vegan,meat_alt,Unknown,UNKNOWN,2018-09-05,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00149,Tofu,vegan,tofu,Unknown,UNKNOWN,2018-08-29,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00150,Tofu,vegan,tofu,Unknown,UNKNOWN,2018-08-29,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00151,Tofu,vegan,tofu,Unknown,UNKNOWN,2018-09-13,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00152,Tofu,vegan,tofu,Unknown,UNKNOWN,2018-09-07,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00153,Tofu,vegan,tofu,Domestic,CANADA,2018-09-11,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00154,Tofu,vegan,tofu,Domestic,CANADA,2018-09-11,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00155,Tofu,vegan,tofu,Unknown,UNKNOWN,2018-09-05,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00156,Dairy Alternative,vegan,dairy_alt,Import,GREECE,2018-09-06,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00157,Dairy Alternative,vegan,dairy_alt,Import,GREECE,2018-09-06,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00158,Dairy Alternative,vegan,dairy_alt,Import,UNITED STATES,2018-09-11,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00159,Bakery Product - Bread - Other,flatbread,flatbread,Unknown,UNKNOWN,2018-05-31,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00160,Bakery Product - Tortilla/Wrap/Pita,flatbread,flatbread,Domestic,CANADA,2018-05-31,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00161,Bakery Product - Bread - Other,flatbread,flatbread,Unknown,UNKNOWN,2018-06-20,2018-19,2018-19,1,,,,,,1.0,1.0
+C2018PHTH00162,Bakery Product - Bread - Other,flatbread,flatbread,Unknown,UNKNOWN,2018-08-27,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00163D,Bakery Product - Bread - Other,flatbread,flatbread,Unknown,UNKNOWN,2018-09-12,2018-19,2018-19,1,,,,,0.78,,0.78
+C2018PHTH00164,Bakery Product - Bread - Other,flatbread,flatbread,Domestic,CANADA,2018-08-27,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00165,Bakery Product - Bread - Other,flatbread,flatbread,Domestic,CANADA,2018-08-27,2018-19,2018-19,1,,,,,7.0,,7.0
+C2018PHTH00166,Bakery Product - Tortilla/Wrap/Pita,flatbread,flatbread,Domestic,CANADA,2018-06-09,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00167,Bakery Product - Tortilla/Wrap/Pita,flatbread,flatbread,Domestic,CANADA,2018-06-05,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00168,Meat Alternative,vegan,meat_alt,Import,UNITED STATES,2018-09-12,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00169,Meat Alternative,vegan,meat_alt,Import,UNITED STATES,2018-09-12,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00170,Meat Alternative,vegan,meat_alt,Import,UNITED STATES,2018-09-11,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00171,Meat Alternative,vegan,meat_alt,Import,UNITED STATES,2018-09-11,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00172,Meat Alternative,vegan,meat_alt,Domestic,CANADA,2018-09-05,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00173,Tofu,vegan,tofu,Unknown,UNKNOWN,2018-09-13,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00174,Tofu,vegan,tofu,Unknown,UNKNOWN,2018-09-18,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00175,Tofu,vegan,tofu,Import,UNITED STATES,2018-09-24,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00176,Tofu,vegan,tofu,Import,UNITED STATES,2018-09-05,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00177,Dairy Alternative,vegan,dairy_alt,Import,GREECE,2018-09-13,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00178,Dairy Alternative,vegan,dairy_alt,Import,SCOTLAND,2018-09-13,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00179,Dairy Alternative,vegan,dairy_alt,Import,SCOTLAND,2018-09-05,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00180,Bakery Product - Bread - Other,flatbread,flatbread,Import,UNITED STATES,2018-09-06,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00181,Bakery Product - Bread - Other,flatbread,flatbread,Domestic,CANADA,2018-09-06,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00182,Bakery Product - Bread - Other,flatbread,flatbread,Domestic,CANADA,2018-09-07,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00183,Bakery Product - Bread - Other,flatbread,flatbread,Domestic,CANADA,2018-09-05,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00184,Bakery Product - Bread - Other,flatbread,flatbread,Unknown,UNKNOWN,2018-09-05,2018-19,2018-19,1,,,,,1.68,,1.68
+C2018PHTH00185,Bakery Product - Bread - Other,flatbread,flatbread,Unknown,UNKNOWN,2018-09-05,2018-19,2018-19,1,,,,,4.12,,4.12
+C2018PHTH00186,Bakery Product - Bread - Other,flatbread,flatbread,Domestic,CANADA,2018-10-01,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00187,Meat Alternative,vegan,meat_alt,Import,UNITED STATES,2018-09-12,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00188,Meat Alternative,vegan,meat_alt,Import,UNITED STATES,2018-09-05,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00189,Tofu,vegan,tofu,Import,UNITED STATES,2018-09-18,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00190,Tofu,vegan,tofu,Unknown,UNKNOWN,2018-09-18,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00191,Tofu,vegan,tofu,Domestic,CANADA,2018-09-24,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00192,Tofu,vegan,tofu,Import,UNITED STATES,2018-09-24,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00193,Dairy Alternative,vegan,dairy_alt,Import,GREECE,2018-09-13,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00194,Dairy Alternative,vegan,dairy_alt,Domestic,CANADA,2018-09-13,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00195,Dairy Alternative,vegan,dairy_alt,Unknown,UNKNOWN,2018-09-11,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00196,Bakery Product - Bread - Other,flatbread,flatbread,Domestic,CANADA,2018-09-06,2018-19,2018-19,1,,,,,,0.95,0.95
+C2018PHTH00197,Bakery Product - Bread - Other,flatbread,flatbread,Domestic,CANADA,2018-09-06,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00198,Bakery Product - Bread - Other,flatbread,flatbread,Unknown,UNKNOWN,2018-09-12,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00199,Bakery Product - Bread - Other,flatbread,flatbread,Domestic,CANADA,2018-09-13,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00200,Bakery Product - Bread - Other,flatbread,flatbread,Unknown,UNKNOWN,2018-09-11,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00201D,Bakery Product - Bread - Other,flatbread,flatbread,Domestic,CANADA,2018-10-21,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00202,Meat Alternative,vegan,meat_alt,Import,UNITED STATES,2018-09-13,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00203,Meat Alternative,vegan,meat_alt,Import,UNITED STATES,2018-09-24,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00204,Tofu,vegan,tofu,Unknown,UNKNOWN,2018-09-18,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00205,Tofu,vegan,tofu,Unknown,UNKNOWN,2018-09-20,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00206,Tofu,vegan,tofu,Unknown,UNKNOWN,2018-09-20,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00207,Tofu,vegan,tofu,Unknown,UNKNOWN,2018-10-01,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00208,Tofu,vegan,tofu,Domestic,CANADA,2018-10-01,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00209,Tofu,vegan,tofu,Domestic,CANADA,2018-09-13,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00210,Dairy Alternative,vegan,dairy_alt,Unknown,UNKNOWN,2018-09-24,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00211,Bakery Product - Bread - Other,flatbread,flatbread,Import,UNITED STATES,2018-09-13,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00212,Bakery Product - Bread - Other,flatbread,flatbread,Domestic,CANADA,2018-09-13,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00213,Bakery Product - Bread - Other,flatbread,flatbread,Import,UNITED STATES,2018-09-18,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00214,Bakery Product - Bread - Other,flatbread,flatbread,Import,UNITED STATES,2018-09-20,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00215,Bakery Product - Bread - Other,flatbread,flatbread,Domestic,CANADA,2018-09-20,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00216,Bakery Product - Bread - Other,flatbread,flatbread,Domestic,CANADA,2018-09-26,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00217,Bakery Product - Bread - Other,flatbread,flatbread,Domestic,CANADA,2018-09-24,2018-19,2018-19,1,,,,,0.67,,0.67
+C2018PHTH00221,Bakery Product - Bread - Other,flatbread,flatbread,Domestic,CANADA,2018-10-05,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00222,Bakery Product - Bread - Other,flatbread,flatbread,Domestic,CANADA,2018-10-05,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00223,Meat Alternative,vegan,meat_alt,Import,UNITED STATES,2018-09-18,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00224,Meat Alternative,vegan,meat_alt,Import,UNITED STATES,2018-09-24,2018-19,2018-19,1,,,,,3.63,,3.63
+C2018PHTH00225,Tofu,vegan,tofu,Import,UNITED STATES,2018-10-04,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00226,Tofu,vegan,tofu,Unknown,UNKNOWN,2019-01-04,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00227,Tofu,vegan,tofu,Unknown,UNKNOWN,2018-10-04,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00228,Dairy Alternative,vegan,dairy_alt,Domestic,CANADA,2018-09-13,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00229,Dairy Alternative,vegan,dairy_alt,Domestic,CANADA,2018-09-13,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00230,Dairy Alternative,vegan,dairy_alt,Unknown,UNKNOWN,2018-09-13,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00231,Dairy Alternative,vegan,dairy_alt,Domestic,CANADA,2018-09-18,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00232,Dairy Alternative,vegan,dairy_alt,Domestic,CANADA,2018-09-20,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00233,Dairy Alternative,vegan,dairy_alt,Import,SCOTLAND,2018-09-24,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00234,Mayonnaise - Vegan,vegan,mayo,Unknown,UNKNOWN,2018-09-24,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00235,Mayonnaise - Vegan,vegan,mayo,Import,UNITED STATES,2018-10-21,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00244,Meat Alternative,vegan,meat_alt,Import,ISRAEL,2018-10-05,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00245,Meat Alternative,vegan,meat_alt,Domestic,CANADA,2018-10-19,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00246,Meat Alternative,vegan,meat_alt,Domestic,CANADA,2018-10-19,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00247,Meat Alternative,vegan,meat_alt,Unknown,UNKNOWN,2018-11-06,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00248,Meat Alternative,vegan,meat_alt,Unknown,UNKNOWN,2018-11-16,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00249,Meat Alternative,vegan,meat_alt,Import,UNITED STATES,2018-10-01,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00250,Tofu,vegan,tofu,Unknown,UNKNOWN,2018-10-05,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00251,Tofu,vegan,tofu,Import,UNITED STATES,2018-11-01,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00252,Tofu,vegan,tofu,Unknown,UNKNOWN,2019-01-02,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00253,Tofu,vegan,tofu,Unknown,UNKNOWN,2018-11-13,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00254,Dairy Alternative,vegan,dairy_alt,Domestic,CANADA,2018-09-20,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00255,Mayonnaise - Vegan,vegan,mayo,Import,UKRAINE,2018-10-21,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00257,Bakery Product - Bread - Other,flatbread,flatbread,Import,LITHUANIA,2018-11-28,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00261,Bakery Product - Bread - Other,flatbread,flatbread,Domestic,CANADA,2018-11-22,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00262,Bakery Product - Bread - Other,flatbread,flatbread,Unknown,UNKNOWN,2018-11-22,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00263,Meat Alternative,vegan,meat_alt,Import,UNITED STATES,2018-11-20,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00264,Meat Alternative,vegan,meat_alt,Domestic,CANADA,2018-11-21,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00265,Meat Alternative,vegan,meat_alt,Import,"TAIWAN, PROVINCE OF CHINA",2018-11-21,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00266,Meat Alternative,vegan,meat_alt,Import,GERMANY,2018-12-11,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00267,Meat Alternative,vegan,meat_alt,Import,GERMANY,2018-12-11,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00268,Meat Alternative,vegan,meat_alt,Domestic,CANADA,2018-11-02,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00269,Tofu,vegan,tofu,Unknown,UNKNOWN,2018-11-20,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00270,Tofu,vegan,tofu,Unknown,UNKNOWN,2018-11-21,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00271,Tofu,vegan,tofu,Import,UNITED STATES,2018-12-10,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00272,Tofu,vegan,tofu,Unknown,UNKNOWN,2018-11-19,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00273,Tofu,vegan,tofu,Domestic,CANADA,2018-11-02,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00274,Dairy Alternative,vegan,dairy_alt,Domestic,CANADA,2018-10-23,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00275,Mayonnaise - Vegan,vegan,mayo,Unknown,UNKNOWN,2018-11-12,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00276,Mayonnaise - Vegan,vegan,mayo,Unknown,UNKNOWN,2018-11-13,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00277,Dairy Alternative,vegan,dairy_alt,Domestic,CANADA,2018-11-21,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00278,Bakery Product - Bread - Other,flatbread,flatbread,Import,Lithuania,2018-11-28,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00280,Bakery Product - Bread - Other,flatbread,flatbread,Domestic,CANADA,2018-12-07,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00281,Bakery Product - Bread - Other,flatbread,flatbread,Domestic,CANADA,2018-12-07,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00282,Bakery Product - Bread - Other,flatbread,flatbread,Domestic,CANADA,2018-12-10,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00283,Bakery Product - Bread - Other,flatbread,flatbread,Domestic,CANADA,2018-12-17,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00284,Bakery Product - Bread - Other,flatbread,flatbread,Unknown,UNKNOWN,2019-01-03,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00286,Bakery Product - Bread - Other,flatbread,flatbread,Unknown,UNKNOWN,2019-01-14,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00288,Meat Alternative,vegan,meat_alt,Unknown,UNKNOWN,2018-11-28,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00290,Meat Alternative,vegan,meat_alt,Unknown,UNKNOWN,2018-12-06,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00291,Meat Alternative,vegan,meat_alt,Unknown,UNKNOWN,2018-11-29,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00292,Meat Alternative,vegan,meat_alt,Import,UNITED STATES,2018-12-06,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00293,Meat Alternative,vegan,meat_alt,Domestic,CANADA,2018-12-11,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00294,Meat Alternative,vegan,meat_alt,Import,CHINA,2018-12-13,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00295,Tofu,vegan,tofu,Unknown,UNKNOWN,2018-12-10,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00296,Tofu,vegan,tofu,Unknown,UNKNOWN,2018-12-11,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00297,Tofu,vegan,tofu,Domestic,CANADA,2018-12-11,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00298,Dairy Alternative,vegan,dairy_alt,Domestic,CANADA,2018-12-13,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00299,Dairy Alternative,vegan,dairy_alt,Domestic,CANADA,2018-12-17,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00300,Mayonnaise - Vegan,vegan,mayo,Unknown,UNKNOWN,2018-12-17,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00301,Dairy Alternative,vegan,dairy_alt,Import,GREECE,2018-12-17,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00303,Bakery Product - Bread - Other,flatbread,flatbread,Domestic,CANADA,2019-01-03,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00304,Bakery Product - Bread - Other,flatbread,flatbread,Domestic,CANADA,2019-01-03,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00305,Bakery Product - Bread - Other,flatbread,flatbread,Import,LITHUANIA,2019-01-10,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00306,Bakery Product - Bread - Other,flatbread,flatbread,Import,LITHUANIA,2019-01-10,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00308,Bakery Product - Bread - Other,flatbread,flatbread,Domestic,CANADA,2019-01-10,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00309,Meat Alternative,vegan,meat_alt,Domestic,CANADA,2019-01-02,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00310,Meat Alternative,vegan,meat_alt,Import,UNITED STATES,2019-01-02,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00311,Meat Alternative,vegan,meat_alt,Domestic,CANADA,2019-01-07,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00312,Meat Alternative,vegan,meat_alt,Domestic,CANADA,2019-01-08,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00313,Meat Alternative,vegan,meat_alt,Import,UNITED STATES,2019-01-08,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00315,Tofu,vegan,tofu,Unknown,UNKNOWN,2019-01-08,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00316,Dairy Alternative,vegan,dairy_alt,Unknown,UNKNOWN,2018-12-17,2018-19,2018-19,1,,,,2.78,,,2.78
+C2018PHTH00317,Mayonnaise - Vegan,vegan,mayo,Unknown,UNKNOWN,2019-01-08,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00318,Dairy Alternative,vegan,dairy_alt,Import,FRANCE,2019-01-08,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00320,Dairy Alternative,vegan,dairy_alt,Domestic,CANADA,2019-01-02,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00321,Mayonnaise - Vegan,vegan,mayo,Domestic,CANADA,2019-01-04,2018-19,2018-19,1,,,,0.72,,,0.72
+C2018PHTH00341,Bakery Product - Bread - Other,flatbread,flatbread,Unknown,UNKNOWN,2018-05-14,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00342,Bakery Product - Bread - Other,flatbread,flatbread,Domestic,CANADA,2018-05-17,2018-19,2018-19,1,,,,,3.76,,3.76
+C2018PHTH00343,Bakery Product - Bread - Other,flatbread,flatbread,Domestic,CANADA,2018-05-17,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00344,Bakery Product - Bread - Other,flatbread,flatbread,Import,UNITED STATES,2018-05-23,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00345,Bakery Product - Bread - Other,flatbread,flatbread,Domestic,CANADA,2018-05-23,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00346,Bakery Product - Bread - Other,flatbread,flatbread,Domestic,CANADA,2018-05-30,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00347,Meat Alternative,vegan,meat_alt,Domestic,CANADA,2018-07-12,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00348,Meat Alternative,vegan,meat_alt,Domestic,CANADA,2018-07-30,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00349,Tofu,vegan,tofu,Domestic,CANADA,2018-07-12,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00350,Tofu,vegan,tofu,Unknown,UNKNOWN,2018-07-09,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00351D,Mayonnaise - Vegan,vegan,mayo,Unknown,UNKNOWN,2018-07-12,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00352,Mayonnaise - Vegan,vegan,mayo,Unknown,UNKNOWN,2018-07-04,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00353,Mayonnaise - Vegan,vegan,mayo,Import,UNITED STATES,2018-07-12,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00354,Mayonnaise - Vegan,vegan,mayo,Import,UKRAINE,2018-11-29,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00355,Mayonnaise - Vegan,vegan,mayo,Import,UNITED STATES,2018-07-12,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00356,Bakery Product - Bread - Other,flatbread,flatbread,Unknown,UNKNOWN,2018-05-23,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00357,Bakery Product - Bread - Other,flatbread,flatbread,Unknown,UNKNOWN,2018-05-23,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00358,Bakery Product - Bread - Other,flatbread,flatbread,Domestic,CANADA,2018-05-24,2018-19,2018-19,1,,,,1.13,,,1.13
+C2018PHTH00359,Bakery Product - Bread - Other,flatbread,flatbread,Domestic,CANADA,2018-05-24,2018-19,2018-19,1,,,,,0.79,,0.79
+C2018PHTH00360,Bakery Product - Bread - Other,flatbread,flatbread,Import,UNITED STATES,2018-05-24,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00361,Bakery Product - Bread - Other,flatbread,flatbread,Domestic,CANADA,2018-05-30,2018-19,2018-19,1,,,,,2.11,,2.11
+C2018PHTH00362,Meat Alternative,vegan,meat_alt,Domestic,CANADA,2018-07-12,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00363,Tofu,vegan,tofu,Unknown,UNKNOWN,2018-07-12,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00364,Mayonnaise - Vegan,vegan,mayo,Unknown,UNKNOWN,2018-07-18,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00365,Mayonnaise - Vegan,vegan,mayo,Unknown,UNKNOWN,2018-08-09,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00366,Mayonnaise - Vegan,vegan,mayo,Import,UNITED STATES,2018-07-30,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00367,Bakery Product - Bread - Other,flatbread,flatbread,Domestic,CANADA,2018-07-04,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00368,Bakery Product - Bread - Other,flatbread,flatbread,Import,UNITED STATES,2018-07-04,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00369,Bakery Product - Bread - Other,flatbread,flatbread,Import,UNITED STATES,2018-06-06,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00370,Bakery Product - Bread - Other,flatbread,flatbread,Import,UNITED STATES,2018-06-07,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00371,Bakery Product - Bread - Other,flatbread,flatbread,Domestic,CANADA,2018-07-09,2018-19,2018-19,1,,,,,1.0,,1.0
+C2018PHTH00372,Bakery Product - Bread - Other,flatbread,flatbread,Import,UNITED STATES,2018-07-09,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00373,Bakery Product - Bread - Other,flatbread,flatbread,Domestic,CANADA,2018-07-05,2018-19,2018-19,1,,,,0.58,,,0.58
+C2018PHTH00374,Meat Alternative,vegan,meat_alt,Import,UNITED STATES,2018-07-12,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00375,Meat Alternative,vegan,meat_alt,Domestic,CANADA,2018-07-12,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00376,Meat Alternative,vegan,meat_alt,Domestic,CANADA,2018-07-16,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00377,Meat Alternative,vegan,meat_alt,Domestic,CANADA,2018-07-09,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00378,Tofu,vegan,tofu,Domestic,CANADA,2018-07-12,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00379,Tofu,vegan,tofu,Unknown,UNKNOWN,2018-07-09,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00380,Mayonnaise - Vegan,vegan,mayo,Unknown,UNKNOWN,2018-08-09,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00381,Bakery Product - Bread - Other,flatbread,flatbread,Domestic,CANADA,2018-07-04,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00382,Bakery Product - Bread - Other,flatbread,flatbread,Import,UNITED STATES,2018-07-05,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00383,Bakery Product - Bread - Other,flatbread,flatbread,Domestic,CANADA,2018-07-05,2018-19,2018-19,2,,,,0.74,0.66,,1.4
+C2018PHTH00384,Bakery Product - Bread - Other,flatbread,flatbread,Domestic,CANADA,2018-07-05,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00385,Bakery Product - Bread - Other,flatbread,flatbread,Domestic,CANADA,2018-07-05,2018-19,2018-19,1,,,,0.65,,,0.65
+C2018PHTH00386,Bakery Product - Bread - Other,flatbread,flatbread,Domestic,CANADA,2018-07-05,2018-19,2018-19,1,,,,2.74,,,2.74
+C2018PHTH00387,Bakery Product - Bread - Other,flatbread,flatbread,Domestic,CANADA,2018-07-05,2018-19,2018-19,1,,,,1.12,,,1.12
+C2018PHTH00388,Bakery Product - Bread - Other,flatbread,flatbread,Import,UNITED STATES,2018-07-09,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00389,Bakery Product - Tortilla/Wrap/Pita,flatbread,flatbread,Domestic,CANADA,2018-07-09,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00390,Meat Alternative,vegan,meat_alt,Import,UNITED STATES,2018-07-16,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00391,Meat Alternative,vegan,meat_alt,Import,UNITED STATES,2018-07-16,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00392,Meat Alternative,vegan,meat_alt,Import,UNITED STATES,2018-07-16,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00393,Meat Alternative,vegan,meat_alt,Domestic,CANADA,2018-07-16,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00394,Meat Alternative,vegan,meat_alt,Domestic,CANADA,2018-07-09,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00395,Tofu,vegan,tofu,Unknown,UNKNOWN,2018-07-16,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00396,Mayonnaise - Vegan,vegan,mayo,Unknown,UNKNOWN,2018-08-23,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00397,Mayonnaise - Vegan,vegan,mayo,Import,UNITED STATES,2018-08-23,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00398,Bakery Product - Tortilla/Wrap/Pita,flatbread,flatbread,Domestic,CANADA,2018-05-24,2018-19,2018-19,1,,,,,1.06,,1.06
+C2018PHTH00399,Bakery Product - Tortilla/Wrap/Pita,flatbread,flatbread,Import,UNITED STATES,2018-05-24,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00400,Bakery Product - Tortilla/Wrap/Pita,flatbread,flatbread,Unknown,UNKNOWN,2018-05-31,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00401,Bakery Product - Tortilla/Wrap/Pita,flatbread,flatbread,Domestic,CANADA,2018-08-23,2018-19,2018-19,1,,,,,5.56,,5.56
+C2018PHTH00402,Bakery Product - Tortilla/Wrap/Pita,flatbread,flatbread,Domestic,CANADA,2018-08-16,2018-19,2018-19,1,,,,,2.0,,2.0
+C2018PHTH00403,Bakery Product - Tortilla/Wrap/Pita,flatbread,flatbread,Domestic,CANADA,2018-08-16,2018-19,2018-19,1,,,,,1.0,,1.0
+C2018PHTH00404,Bakery Product - Tortilla/Wrap/Pita,flatbread,flatbread,Domestic,CANADA,2018-08-23,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00406,Bakery Product - Tortilla/Wrap/Pita,flatbread,flatbread,Domestic,CANADA,2018-11-29,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00407,Meat Alternative,vegan,meat_alt,Domestic,CANADA,2018-08-16,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00408,Tofu,vegan,tofu,Unknown,UNKNOWN,2018-08-09,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00409,Tofu,vegan,tofu,Domestic,CANADA,2018-08-09,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00410,Tofu,vegan,tofu,Domestic,CANADA,2018-08-09,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00411,Tofu,vegan,tofu,Unknown,UNKNOWN,2018-08-09,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00412,Tofu,vegan,tofu,Unknown,UNKNOWN,2018-08-16,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00413,Tofu,vegan,tofu,Import,UNITED STATES,2018-08-23,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00414,Tofu,vegan,tofu,Domestic,CANADA,2018-08-23,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00415,Mayonnaise - Vegan,vegan,mayo,Unknown,UNKNOWN,2018-10-10,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00416,Mayonnaise - Vegan,vegan,mayo,Unknown,UNKNOWN,2018-10-16,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00417,Mayonnaise - Vegan,vegan,mayo,Import,UNITED STATES,2018-08-20,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00418,Mayonnaise - Vegan,vegan,mayo,Import,ITALY,2018-08-20,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00419,Bakery Product - Bread - Other,flatbread,flatbread,Domestic,CANADA,2018-10-10,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00420,Bakery Product - Tortilla/Wrap/Pita,flatbread,flatbread,Import,UNITED STATES,2018-10-10,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00421,Bakery Product - Bread - Other,flatbread,flatbread,Import,UNITED STATES,2018-10-10,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00422,Bakery Product - Tortilla/Wrap/Pita,flatbread,flatbread,Unknown,UNKNOWN,2018-10-16,2018-19,2018-19,1,,,,1.61,,,1.61
+C2018PHTH00423,Bakery Product - Tortilla/Wrap/Pita,flatbread,flatbread,Unknown,UNKNOWN,2018-10-16,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00424,Bakery Product - Tortilla/Wrap/Pita,flatbread,flatbread,Domestic,CANADA,2018-10-16,2018-19,2018-19,1,,,,1.09,,,1.09
+C2018PHTH00425,Meat Alternative,vegan,meat_alt,Domestic,CANADA,2018-11-22,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00426,Meat Alternative,vegan,meat_alt,Domestic,CANADA,2018-11-22,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00427,Meat Alternative,vegan,meat_alt,Domestic,CANADA,2018-11-23,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00428,Meat Alternative,vegan,meat_alt,Domestic,CANADA,2018-11-23,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00429,Tofu,vegan,tofu,Unknown,UNKNOWN,2018-11-07,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00430,Tofu,vegan,tofu,Import,UNITED STATES,2018-11-07,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00431,Tofu,vegan,tofu,Unknown,UNKNOWN,2018-11-07,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00432,Tofu,vegan,tofu,Unknown,UNKNOWN,2018-12-05,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00433,Mayonnaise - Vegan,vegan,mayo,Import,UNITED STATES,2018-11-26,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00434,Dairy Alternative,vegan,dairy_alt,Import,UNITED STATES,2018-11-29,2018-19,2018-19,1,,,,1.0,,,1.0
+C2018PHTH00435,Bakery Product - Tortilla/Wrap/Pita,flatbread,flatbread,Domestic,CANADA,2018-10-16,2018-19,2018-19,1,,,,0.74,,,0.74
+C2018PHTH00440,Meat Alternative,vegan,meat_alt,Domestic,CANADA,2018-11-29,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00441,Meat Alternative,vegan,meat_alt,Import,UNITED STATES,2018-11-08,2018-19,2018-19,1,,,,,3.91,,3.91
+C2018PHTH00442,Meat Alternative,vegan,meat_alt,Unknown,UNKNOWN,2018-11-08,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00443,Tofu,vegan,tofu,Unknown,UNKNOWN,2018-11-22,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00444,Tofu,vegan,tofu,Unknown,UNKNOWN,2018-11-22,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00445,Tofu,vegan,tofu,Domestic,CANADA,2018-11-29,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00446,Dairy Alternative,vegan,dairy_alt,Import,GREECE,2018-11-26,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00447,Mayonnaise - Vegan,vegan,mayo,Import,UNITED STATES,2018-11-21,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00448,Mayonnaise - Vegan,vegan,mayo,Import,UNITED STATES,2018-11-21,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00449,Mayonnaise - Vegan,vegan,mayo,Domestic,CANADA,2019-01-15,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00450,Mayonnaise - Vegan,vegan,mayo,Unknown,UNKNOWN,2019-01-15,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00452,Bakery Product - Bread,flatbread,flatbread,Domestic,CANADA,2018-12-07,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00459,Bakery Product - Tortilla/Wrap/Pita,flatbread,flatbread,Domestic,CANADA,2018-11-29,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00460,Meat Alternative,vegan,meat_alt,Import,UNITED STATES,2018-11-07,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00461,Meat Alternative,vegan,meat_alt,Import,UNITED STATES,2018-11-07,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00462,Meat Alternative,vegan,meat_alt,Domestic,CANADA,2018-11-29,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00463,Tofu,vegan,tofu,Domestic,CANADA,2018-11-29,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00464,Tofu,vegan,tofu,Import,UNITED STATES,2018-11-08,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00465,Tofu,vegan,tofu,Domestic,CANADA,2018-11-08,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00469,Mayonnaise - Vegan,vegan,mayo,Domestic,CANADA,2018-11-08,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00471,Bakery Product - Tortilla/Wrap/Pita,flatbread,flatbread,Domestic,CANADA,2018-12-07,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00472,Meat Alternative,vegan,meat_alt,Domestic,CANADA,2018-12-06,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00475,Tofu,vegan,tofu,Unknown,UNKNOWN,2018-12-05,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00476,Tofu,vegan,tofu,Unknown,UNKNOWN,2018-12-07,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00479,Mayonnaise - Vegan,vegan,mayo,Unknown,UNKNOWN,2019-01-21,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00480,Mayonnaise - Vegan,vegan,mayo,Unknown,UNKNOWN,2019-01-22,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00492,Meat Alternative,vegan,meat_alt,Import,UNITED STATES,2018-12-06,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00493,Meat Alternative,vegan,meat_alt,Import,UNITED STATES,2019-01-21,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00494,Meat Alternative,vegan,meat_alt,Import,FRANCE,2019-01-21,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00497,Meat Alternative,vegan,meat_alt,Domestic,CANADA,2018-11-08,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00498,Tofu,vegan,tofu,Import,UNITED STATES,2019-01-15,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00499,Tofu,vegan,tofu,Import,UNITED STATES,2019-01-22,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00500,Tofu,vegan,tofu,Import,UNITED STATES,2019-01-22,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00501,Tofu,vegan,tofu,Domestic,CANADA,2019-01-16,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00502,Tofu,vegan,tofu,Import,UNITED STATES,2019-01-16,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00503,Dairy Alternative,vegan,dairy_alt,Domestic,CANADA,2019-01-22,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00515,Tofu,vegan,tofu,Import,UNITED STATES,2019-01-16,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00516,Dairy Alternative,vegan,dairy_alt,Import,UNITED STATES,2019-01-22,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00518,Bakery Product - Tortilla/Wrap/Pita,flatbread,flatbread,Domestic,CANADA,2018-06-05,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00520,Bakery Product - Tortilla/Wrap/Pita,flatbread,flatbread,Domestic,CANADA,2018-08-13,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00521,Bakery Product - Bread - Other,flatbread,flatbread,Unknown,UNKNOWN,2018-12-17,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00522,Bakery Product - Tortilla/Wrap/Pita,flatbread,flatbread,Domestic,CANADA,2018-10-16,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00523,Bakery Product - Tortilla/Wrap/Pita,flatbread,flatbread,Unknown,UNKNOWN,2018-06-05,2018-19,2018-19,2,,,,1.69,3.94,,5.63
+C2018PHTH00524,Bakery Product - Tortilla/Wrap/Pita,flatbread,flatbread,Import,UNITED STATES,2018-08-13,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00526,Bakery Product - Tortilla/Wrap/Pita,flatbread,flatbread,Unknown,UNKNOWN,2018-05-14,2018-19,2018-19,1,,,,,4.0,,4.0
+C2018PHTH00527,Bakery Product - Tortilla/Wrap/Pita,flatbread,flatbread,Unknown,UNKNOWN,2019-01-07,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00528,Bakery Product - Tortilla/Wrap/Pita,flatbread,flatbread,Domestic,CANADA,2018-05-14,2018-19,2018-19,1,,,,,0.57,,0.57
+C2018PHTH00529,Bakery Product - Bread - Other,flatbread,flatbread,Unknown,UNKNOWN,2018-07-09,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00530,Bakery Product - Tortilla/Wrap/Pita,flatbread,flatbread,Unknown,UNKNOWN,2018-05-22,2018-19,2018-19,1,,,,,4.69,,4.69
+C2018PHTH00531,Bakery Product - Tortilla/Wrap/Pita,flatbread,flatbread,Unknown,UNKNOWN,2018-08-13,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00532,Bakery Product - Tortilla/Wrap/Pita,flatbread,flatbread,Unknown,UNKNOWN,2018-05-14,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00534,Bakery Product - Tortilla/Wrap/Pita,flatbread,flatbread,Import,UNITED STATES,2018-12-17,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00535,Bakery Product - Tortilla/Wrap/Pita,flatbread,flatbread,Import,UNITED STATES,2018-05-22,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00536,Bakery Product - Tortilla/Wrap/Pita,flatbread,flatbread,Domestic,CANADA,2018-10-16,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00537,Bakery Product - Tortilla/Wrap/Pita,flatbread,flatbread,Domestic,CANADA,2018-09-26,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00538D,Bakery Product - Bread - Other,flatbread,flatbread,Unknown,UNKNOWN,2018-09-17,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00539,Bakery Product - Tortilla/Wrap/Pita,flatbread,flatbread,Import,NETHERLANDS,2018-08-08,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00540,Bakery Product - Tortilla/Wrap/Pita,flatbread,flatbread,Domestic,CANADA,2018-08-08,2018-19,2018-19,1,,,,,1.08,,1.08
+C2018PHTH00541,Bakery Product - Tortilla/Wrap/Pita,flatbread,flatbread,Domestic,CANADA,2018-07-03,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00543,Bakery Product - Bread - Other,flatbread,flatbread,Unknown,UNKNOWN,2019-01-07,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00544,Bakery Product - Bread - Other,flatbread,flatbread,Unknown,UNKNOWN,2018-07-03,2018-19,2018-19,1,,,,0.69,,,0.69
+C2018PHTH00547,Bakery Product - Tortilla/Wrap/Pita,flatbread,flatbread,Domestic,CANADA,2018-06-05,2018-19,2018-19,1,,,,,1.24,,1.24
+C2018PHTH00548,Bakery Product - Tortilla/Wrap/Pita,flatbread,flatbread,Domestic,CANADA,2018-06-05,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00549,Bakery Product - Bread - Other,flatbread,flatbread,Unknown,UNKNOWN,2019-01-08,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00551,Meat Alternative,vegan,meat_alt,Domestic,CANADA,2018-10-04,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00552,Meat Alternative,vegan,meat_alt,Import,UNITED STATES,2018-10-16,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00553,Meat Alternative,vegan,meat_alt,Domestic,CANADA,2018-06-05,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00554,Meat Alternative,vegan,meat_alt,Domestic,CANADA,2018-05-16,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00556,Meat Alternative,vegan,meat_alt,Unknown,UNKNOWN,2018-07-09,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00557,Meat Alternative,vegan,meat_alt,Unknown,UNKNOWN,2019-01-07,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00558,Meat Alternative,vegan,meat_alt,Import,UNITED STATES,2018-09-17,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00560,Meat Alternative,vegan,meat_alt,Import,UNITED STATES,2019-01-07,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00561,Meat Alternative,vegan,meat_alt,Import,UNITED STATES,2018-09-26,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00562,Meat Alternative,vegan,meat_alt,Domestic,CANADA,2018-06-04,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00564,Meat Alternative,vegan,meat_alt,Domestic,CANADA,2018-05-22,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00565,Meat Alternative,vegan,meat_alt,Import,UNITED STATES,2018-05-22,2018-19,2018-19,1,,,,,4.34,,4.34
+C2018PHTH00566,Tofu,vegan,tofu,Unknown,UNKNOWN,2018-05-16,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00567,Tofu,vegan,tofu,Unknown,UNKNOWN,2018-07-09,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00569,Tofu,vegan,tofu,Unknown,UNKNOWN,2018-11-14,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00570,Tofu,vegan,tofu,Unknown,UNKNOWN,2018-11-14,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00571,Tofu,vegan,tofu,Domestic,CANADA,2018-09-10,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00572,Tofu,vegan,tofu,Unknown,UNKNOWN,2018-05-16,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00573,Tofu,vegan,tofu,Import,UNITED STATES,2018-09-17,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00574,Tofu,vegan,tofu,Import,UNITED STATES,2018-12-06,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00575,Tofu,vegan,tofu,Import,UNITED STATES,2018-07-09,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00576,Tofu,vegan,tofu,Import,UNITED STATES,2018-11-02,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00577,Tofu,vegan,tofu,Unknown,UNKNOWN,2018-05-16,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00578,Tofu,vegan,tofu,Unknown,UNKNOWN,2018-12-06,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00579,Tofu,vegan,tofu,Unknown,UNKNOWN,2019-01-07,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00580,Tofu,vegan,tofu,Import,"KOREA, REPUBLIC OF",2018-07-10,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00581,Tofu,vegan,tofu,Import,UNITED STATES,2018-07-10,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00582,Mayonnaise - Vegan,vegan,mayo,Unknown,UNKNOWN,2018-07-09,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00583,Dairy Alternative,vegan,dairy_alt,Domestic,CANADA,2018-09-10,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00584,Dairy Alternative,vegan,dairy_alt,Import,GREECE,2018-09-17,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00585,Mayonnaise - Vegan,vegan,mayo,Domestic,CANADA,2018-11-14,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00586,Mayonnaise - Vegan,vegan,mayo,Import,UNITED STATES,2018-07-09,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00587,Mayonnaise - Vegan,vegan,mayo,Unknown,UNKNOWN,2018-07-09,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00588,Dairy Alternative,vegan,dairy_alt,Import,UNITED STATES,2018-07-11,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00589,Dairy Alternative,vegan,dairy_alt,Domestic,CANADA,2018-10-03,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00590,Dairy Alternative,vegan,dairy_alt,Import,GREECE,2018-07-11,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00591,Dairy Alternative,vegan,dairy_alt,Domestic,CANADA,2018-07-11,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00592,Dairy Alternative,vegan,dairy_alt,Unknown,UNKNOWN,2019-01-07,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00593,Dairy Alternative,vegan,dairy_alt,Import,SCOTLAND,2018-11-02,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00594,Dairy Alternative,vegan,dairy_alt,Import,UNITED STATES,2018-07-11,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00595,Mayonnaise - Vegan,vegan,mayo,Unknown,UNKNOWN,2018-07-10,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00597,Dairy Alternative,vegan,dairy_alt,Unknown,UNKNOWN,2018-09-17,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00598,Bakery Product - Tortilla/Wrap/Pita,flatbread,flatbread,Domestic,CANADA,2018-07-03,2018-19,2018-19,2,,,,0.65,1.1,,1.75
+C2018PHTH00599,Bakery Product - Tortilla/Wrap/Pita,flatbread,flatbread,Unknown,UNKNOWN,2018-06-05,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00600,Bakery Product - Tortilla/Wrap/Pita,flatbread,flatbread,Unknown,UNKNOWN,2018-07-03,2018-19,2018-19,1,,,,,7.78,,7.78
+C2018PHTH00601,Bakery Product - Bread - Other,flatbread,flatbread,Unknown,UNKNOWN,2018-06-05,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00602,Bakery Product - Tortilla/Wrap/Pita,flatbread,flatbread,Import,UNITED STATES,2019-01-02,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00603,Bakery Product - Tortilla/Wrap/Pita,flatbread,flatbread,Unknown,UNKNOWN,2018-09-07,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00604,Bakery Product - Tortilla/Wrap/Pita,flatbread,flatbread,Unknown,UNKNOWN,2018-06-05,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00605,Bakery Product - Tortilla/Wrap/Pita,flatbread,flatbread,Import,INDIA,2018-12-04,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00606,Bakery Product - Tortilla/Wrap/Pita,flatbread,flatbread,Import,UNITED STATES,2018-06-05,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00607,Bakery Product - Tortilla/Wrap/Pita,flatbread,flatbread,Unknown,UNKNOWN,2018-09-12,2018-19,2018-19,1,,,,,1.42,,1.42
+C2018PHTH00608,Bakery Product - Tortilla/Wrap/Pita,flatbread,flatbread,Import,INDIA,2019-01-02,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00609,Bakery Product - Bread - Other,flatbread,flatbread,Unknown,UNKNOWN,2018-07-09,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00610,Bakery Product - Tortilla/Wrap/Pita,flatbread,flatbread,Domestic,CANADA,2018-09-12,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00611,Bakery Product - Tortilla/Wrap/Pita,flatbread,flatbread,Domestic,CANADA,2019-01-02,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00613,Bakery Product - Bread - Other,flatbread,flatbread,Unknown,UNKNOWN,2018-10-09,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00614,Bakery Product - Tortilla/Wrap/Pita,flatbread,flatbread,Domestic,CANADA,2018-06-05,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00616,Bakery Product - Tortilla/Wrap/Pita,flatbread,flatbread,Unknown,UNKNOWN,2018-07-26,2018-19,2018-19,1,,,,,15.0,,15.0
+C2018PHTH00617,Bakery Product - Tortilla/Wrap/Pita,flatbread,flatbread,Unknown,UNKNOWN,2018-08-08,2018-19,2018-19,1,,,,,1.09,,1.09
+C2018PHTH00619,Bakery Product - Tortilla/Wrap/Pita,flatbread,flatbread,Import,UNITED STATES,2019-01-08,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00620,Bakery Product - Bread - Other,flatbread,flatbread,Domestic,CANADA,2018-12-04,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00622,Bakery Product - Tortilla/Wrap/Pita,flatbread,flatbread,Unknown,UNKNOWN,2018-10-09,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00623,Bakery Product - Tortilla/Wrap/Pita,flatbread,flatbread,Import,UNITED STATES,2018-08-08,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00624,Bakery Product - Tortilla/Wrap/Pita,flatbread,flatbread,Unknown,UNKNOWN,2018-06-05,2018-19,2018-19,1,,,,1.4,,,1.4
+C2018PHTH00626,Bakery Product - Tortilla/Wrap/Pita,flatbread,flatbread,Domestic,CANADA,2018-10-10,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00628,Bakery Product - Tortilla/Wrap/Pita,flatbread,flatbread,Unknown,UNKNOWN,2018-06-06,2018-19,2018-19,2,,,,0.98,2.64,,3.62
+C2018PHTH00629,Bakery Product - Bread - Other,flatbread,flatbread,Unknown,UNKNOWN,2018-08-15,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00632,Bakery Product - Tortilla/Wrap/Pita,flatbread,flatbread,Domestic,CANADA,2018-06-06,2018-19,2018-19,1,,,,,2.67,,2.67
+C2018PHTH00633,Bakery Product - Bread - Other,flatbread,flatbread,Unknown,UNKNOWN,2018-06-25,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00634,Bakery Product - Tortilla/Wrap/Pita,flatbread,flatbread,Domestic,CANADA,2018-06-25,2018-19,2018-19,1,,,,,4.88,,4.88
+C2018PHTH00635,Bakery Product - Bread - Other,flatbread,flatbread,Import,UNITED STATES,2018-06-25,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00636,Bakery Product - Tortilla/Wrap/Pita,flatbread,flatbread,Domestic,CANADA,2018-08-10,2018-19,2018-19,1,,,,,4.07,,4.07
+C2018PHTH00638,Bakery Product - Bread - Other,flatbread,flatbread,Unknown,UNKNOWN,2018-06-25,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00641,Bakery Product - Bread - Other,flatbread,flatbread,Domestic,CANADA,2018-06-25,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00642,Bakery Product - Bread - Other,flatbread,flatbread,Unknown,UNKNOWN,2018-07-05,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00645,Bakery Product - Tortilla/Wrap/Pita,flatbread,flatbread,Domestic,CANADA,2018-10-18,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00646,Bakery Product - Tortilla/Wrap/Pita,flatbread,flatbread,Domestic,CANADA,2018-07-04,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00648,Bakery Product - Bread - Other,flatbread,flatbread,Unknown,UNKNOWN,2019-01-02,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00650,Bakery Product - Tortilla/Wrap/Pita,flatbread,flatbread,Domestic,CANADA,2018-09-14,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00651,Bakery Product - Tortilla/Wrap/Pita,flatbread,flatbread,Domestic,CANADA,2018-06-08,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00652E,Bakery Product - Tortilla/Wrap/Pita,flatbread,flatbread,Domestic,CANADA,2018-10-10,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00653,Bakery Product - Tortilla/Wrap/Pita,flatbread,flatbread,Unknown,UNKNOWN,2018-07-03,2018-19,2018-19,1,,,,,1.51,,1.51
+C2018PHTH00654,Bakery Product - Tortilla/Wrap/Pita,flatbread,flatbread,Import,INDIA,2019-01-16,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00655,Bakery Product - Tortilla/Wrap/Pita,flatbread,flatbread,Domestic,CANADA,2018-06-25,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00656,Bakery Product - Tortilla/Wrap/Pita,flatbread,flatbread,Import,MALAYSIA,2019-01-16,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00657,Bakery Product - Tortilla/Wrap/Pita,flatbread,flatbread,Domestic,CANADA,2018-10-10,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00658,Meat Alternative,vegan,meat_alt,Import,UNITED STATES,2018-07-13,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00659,Meat Alternative,vegan,meat_alt,Import,UNITED STATES,2018-11-02,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00660,Meat Alternative,vegan,meat_alt,Import,"TAIWAN, PROVINCE OF CHINA",2018-12-04,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00661,Meat Alternative,vegan,meat_alt,Import,"TAIWAN, PROVINCE OF CHINA",2018-08-02,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00662,Meat Alternative,vegan,meat_alt,Unknown,UNKNOWN,2018-07-09,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00665,Meat Alternative,vegan,meat_alt,Unknown,UNKNOWN,2018-08-15,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00667,Meat Alternative,vegan,meat_alt,Domestic,CANADA,2018-07-09,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00668,Meat Alternative,vegan,meat_alt,Import,CHINA,2018-09-18,2018-19,2018-19,1,,,,,0.5,,0.5
+C2018PHTH00670,Meat Alternative,vegan,meat_alt,Import,UNITED STATES,2018-12-04,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00671,Meat Alternative,vegan,meat_alt,Domestic,CANADA,2018-08-15,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00672,Meat Alternative,vegan,meat_alt,Import,"TAIWAN, PROVINCE OF CHINA",2018-08-15,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00673,Meat Alternative,vegan,meat_alt,Import,UNITED STATES,2019-01-02,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00674,Meat Alternative,vegan,meat_alt,Domestic,CANADA,2018-07-12,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00675,Meat Alternative,vegan,meat_alt,Import,UNITED STATES,2018-12-05,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00676,Meat Alternative,vegan,meat_alt,Domestic,CANADA,2018-09-06,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00677,Meat Alternative,vegan,meat_alt,Import,UNITED STATES,2018-12-12,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00678,Meat Alternative,vegan,meat_alt,Domestic,CANADA,2018-10-18,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00679,Meat Alternative,vegan,meat_alt,Domestic,CANADA,2018-07-04,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00681,Meat Alternative,vegan,meat_alt,Unknown,UNKNOWN,2018-10-18,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00682,Meat Alternative,vegan,meat_alt,Domestic,CANADA,2018-12-12,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00683,Meat Alternative,vegan,meat_alt,Domestic,CANADA,2018-07-09,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00684,Meat Alternative,vegan,meat_alt,Import,"TAIWAN, PROVINCE OF CHINA",2018-10-23,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00685,Meat Alternative,vegan,meat_alt,Import,CHINA,2018-09-04,2018-19,2018-19,1,,1.3,,,,,1.3
+C2018PHTH00686,Meat Alternative,vegan,meat_alt,Import,CHINA,2018-07-13,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00687,Meat Alternative,vegan,meat_alt,Unknown,UNKNOWN,2018-12-04,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00688,Meat Alternative,vegan,meat_alt,Import,CHINA,2018-10-23,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00689,Tofu,vegan,tofu,Unknown,UNKNOWN,2018-10-09,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00690,Tofu,vegan,tofu,Domestic,CANADA,2018-07-13,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00691,Tofu,vegan,tofu,Unknown,UNKNOWN,2018-09-04,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00692,Tofu,vegan,tofu,Import,UNITED STATES,2018-12-04,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00693,Tofu,vegan,tofu,Unknown,UNKNOWN,2018-07-09,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00694,Tofu,vegan,tofu,Domestic,CANADA,2018-07-13,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00695,Tofu,vegan,tofu,Import,"TAIWAN, PROVINCE OF CHINA",2018-12-04,2018-19,2018-19,1,,0.54,,,,,0.54
+C2018PHTH00696,Tofu,vegan,tofu,Unknown,UNKNOWN,2018-07-13,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00697,Tofu,vegan,tofu,Import,CHINA,2018-07-12,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00698,Tofu,vegan,tofu,Unknown,UNKNOWN,2018-10-10,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00699,Tofu,vegan,tofu,Unknown,UNKNOWN,2018-12-05,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00700,Tofu,vegan,tofu,Import,UNITED STATES,2018-10-10,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00701,Tofu,vegan,tofu,Import,UNITED STATES,2018-07-25,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00702,Tofu,vegan,tofu,Import,UNITED STATES,2019-01-02,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00703,Tofu,vegan,tofu,Unknown,UNKNOWN,2018-07-25,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00704,Tofu,vegan,tofu,Unknown,UNKNOWN,2019-01-09,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00705,Tofu,vegan,tofu,Import,"TAIWAN, PROVINCE OF CHINA",2018-07-25,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00707,Tofu,vegan,tofu,Domestic,CANADA,2018-07-04,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00708,Tofu,vegan,tofu,Unknown,UNKNOWN,2018-07-09,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00709,Tofu,vegan,tofu,Import,UNITED STATES,2018-11-05,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00710,Tofu,vegan,tofu,Domestic,CANADA,2018-09-06,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00711,Tofu,vegan,tofu,Import,UNITED STATES,2018-08-07,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00712,Tofu,vegan,tofu,Import,UNITED STATES,2018-11-05,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00713,Tofu,vegan,tofu,Unknown,UNKNOWN,2019-01-02,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00714,Tofu,vegan,tofu,Unknown,UNKNOWN,2018-12-12,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00715,Tofu,vegan,tofu,Import,CHINA,2018-07-13,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00716,Tofu,vegan,tofu,Import,"KOREA, REPUBLIC OF",2018-11-02,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00717,Tofu,vegan,tofu,Import,"KOREA, REPUBLIC OF",2018-11-02,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00718,Tofu,vegan,tofu,Import,CHINA,2018-07-13,2018-19,2018-19,1,,24.0,,,,,24.0
+C2018PHTH00719,Tofu,vegan,tofu,Import,CHINA,2018-07-13,2018-19,2018-19,2,,4.0,,4.0,,,8.0
+C2018PHTH00720,Dairy Alternative,vegan,dairy_alt,Import,UNITED STATES,2018-09-04,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00721,Dairy Alternative,vegan,dairy_alt,Domestic,CANADA,2018-09-12,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00722,Dairy Alternative,vegan,dairy_alt,Domestic,CANADA,2019-01-02,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00723,Dairy Alternative,vegan,dairy_alt,Import,FRANCE,2018-12-12,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00724,Mayonnaise - Vegan,vegan,mayo,Import,UNITED STATES,2018-10-05,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00725,Dairy Alternative,vegan,dairy_alt,Domestic,CANADA,2018-08-15,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00727,Dairy Alternative,vegan,dairy_alt,Domestic,CANADA,2018-07-26,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00728,Dairy Alternative,vegan,dairy_alt,Domestic,CANADA,2018-09-12,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00729,Dairy Alternative,vegan,dairy_alt,Unknown,UNKNOWN,2018-08-15,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00730,Mayonnaise - Vegan,vegan,mayo,Import,UNITED STATES,2018-09-12,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00731,Dairy Alternative,vegan,dairy_alt,Domestic,CANADA,2018-07-13,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00732,Dairy Alternative,vegan,dairy_alt,Domestic,CANADA,2018-07-13,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00733,Dairy Alternative,vegan,dairy_alt,Domestic,CANADA,2018-10-09,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00734,Dairy Alternative,vegan,dairy_alt,Domestic,CANADA,2018-07-26,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00735,Dairy Alternative,vegan,dairy_alt,Domestic,CANADA,2018-07-30,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00736,Dairy Alternative,vegan,dairy_alt,Domestic,CANADA,2019-01-09,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00738,Dairy Alternative,vegan,dairy_alt,Domestic,CANADA,2018-07-04,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00739,Mayonnaise - Vegan,vegan,mayo,Import,UNITED STATES,2018-07-04,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00740,Dairy Alternative,vegan,dairy_alt,Domestic,CANADA,2018-08-07,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00741,Dairy Alternative,vegan,dairy_alt,Domestic,CANADA,2018-07-20,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00742,Dairy Alternative,vegan,dairy_alt,Domestic,CANADA,2018-07-20,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00744,Dairy Alternative,vegan,dairy_alt,Domestic,CANADA,2018-07-09,2018-19,2018-19,1,,,,,1.0,,1.0
+C2018PHTH00745,Dairy Alternative,vegan,dairy_alt,Domestic,CANADA,2018-07-20,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00746,Dairy Alternative,vegan,dairy_alt,Import,GREECE,2018-07-20,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00747,Dairy Alternative,vegan,dairy_alt,Domestic,CANADA,2018-08-10,2018-19,2018-19,1,,,,0.59,,,0.59
+C2018PHTH00748,Mayonnaise - Vegan,vegan,mayo,Domestic,CANADA,2018-07-20,2018-19,2018-19,1,,,,,1.0,,1.0
+C2018PHTH00749,Dairy Alternative,vegan,dairy_alt,Domestic,CANADA,2018-10-23,2018-19,2018-19,0,,,,,,,0
+C2018PHTH00750,Dairy Alternative,vegan,dairy_alt,Domestic,CANADA,2018-08-10,2018-19,2018-19,1,,,,0.96,,,0.96

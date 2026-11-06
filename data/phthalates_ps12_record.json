@@ -1,0 +1,1377 @@
+{
+  "bytes": 1288434,
+  "descriptive": {
+    "cells_with_a_comma": [],
+    "identical_nonzero_totals": {
+      "0.27": [
+        "C2013PHTH00049",
+        "C2013PHTH00063",
+        "C2013PHTH00075",
+        "C2013PHTH00140",
+        "C2013PHTH00239",
+        "C2013PHTH00245"
+      ],
+      "0.28": [
+        "C2013PHTH00001",
+        "C2013PHTH00048",
+        "C2013PHTH00458",
+        "C2013PHTH00587",
+        "C2013PHTH00595"
+      ],
+      "0.29": [
+        "C2013PHTH00077",
+        "C2013PHTH00145",
+        "C2013PHTH00339",
+        "C2013PHTH00380",
+        "C2013PHTH00381",
+        "C2013PHTH00564",
+        "C2013PHTH00580"
+      ],
+      "0.3": [
+        "C2013PHTH00034",
+        "C2013PHTH00312",
+        "C2013PHTH00602"
+      ],
+      "0.31": [
+        "C2013PHTH00078",
+        "C2013PHTH00164",
+        "C2013PHTH00215",
+        "C2013PHTH00415",
+        "C2013PHTH00673"
+      ],
+      "0.33": [
+        "C2013PHTH00264",
+        "C2013PHTH00451",
+        "C2013PHTH00540",
+        "C2013PHTH00567",
+        "C2013PHTH00643"
+      ],
+      "0.34": [
+        "C2013PHTH00105",
+        "C2013PHTH00196",
+        "C2013PHTH00554",
+        "C2013PHTH00666"
+      ],
+      "0.35": [
+        "C2013PHTH00032",
+        "C2013PHTH00199",
+        "C2013PHTH00221",
+        "C2013PHTH00375",
+        "C2013PHTH00577",
+        "C2013PHTH00670",
+        "C2013PHTH00683"
+      ],
+      "0.36": [
+        "C2013PHTH00070",
+        "C2013PHTH00404",
+        "C2013PHTH00576"
+      ],
+      "0.38": [
+        "C2013PHTH00025",
+        "C2013PHTH00030",
+        "C2013PHTH00190",
+        "C2013PHTH00290"
+      ],
+      "0.39": [
+        "C2013PHTH00495",
+        "C2013PHTH00597"
+      ],
+      "0.4": [
+        "C2013PHTH00010",
+        "C2013PHTH00189",
+        "C2013PHTH00211",
+        "C2013PHTH00220",
+        "C2013PHTH00436"
+      ],
+      "0.42": [
+        "C2013PHTH00531",
+        "C2013PHTH00706"
+      ],
+      "0.43": [
+        "C2013PHTH00195",
+        "C2013PHTH00379",
+        "C2013PHTH00390"
+      ],
+      "0.44": [
+        "C2013PHTH00260",
+        "C2013PHTH00374",
+        "C2013PHTH00697"
+      ],
+      "0.46": [
+        "C2013PHTH00442",
+        "C2013PHTH00453",
+        "C2013PHTH00498",
+        "C2013PHTH00583"
+      ],
+      "0.47": [
+        "C2013PHTH00052",
+        "C2013PHTH00100",
+        "C2013PHTH00163",
+        "C2013PHTH00300",
+        "C2013PHTH00533",
+        "C2013PHTH00616"
+      ],
+      "0.48": [
+        "C2013PHTH00395",
+        "C2013PHTH00463",
+        "C2013PHTH00614",
+        "C2013PHTH00681"
+      ],
+      "0.5": [
+        "C2013PHTH00142",
+        "C2013PHTH00541",
+        "C2014PHTH00668",
+        "C2015PHTH00745",
+        "C2016PHTH00184",
+        "C2016PHTH00229",
+        "C2016PHTH00616",
+        "C2017PHTH00025",
+        "C2017PHTH00083",
+        "C2017PHTH00269",
+        "C2017PHTH00374",
+        "C2017PHTH00612"
+      ],
+      "0.51": [
+        "C2013PHTH00101",
+        "C2013PHTH00167",
+        "C2013PHTH00299",
+        "C2014PHTH00098",
+        "C2014PHTH00344",
+        "C2015PHTH00184",
+        "C2015PHTH00216",
+        "C2015PHTH00532",
+        "C2016PHTH00681",
+        "C2017PHTH00614"
+      ],
+      "0.52": [
+        "C2013PHTH00021",
+        "C2013PHTH00157",
+        "C2013PHTH00162",
+        "C2013PHTH00447",
+        "C2013PHTH00676",
+        "C2013PHTH00745",
+        "C2014PHTH00433",
+        "C2014PHTH00591",
+        "C2016PHTH00565"
+      ],
+      "0.53": [
+        "C2013PHTH00454",
+        "C2014PHTH00485",
+        "C2015PHTH00662",
+        "C2015PHTH00685",
+        "C2017PHTH00040",
+        "C2017PHTH00137",
+        "C2017PHTH00450"
+      ],
+      "0.54": [
+        "C2013PHTH00222",
+        "C2013PHTH00324",
+        "C2013PHTH00675",
+        "C2013PHTH00696",
+        "C2013PHTH00717",
+        "C2015PHTH00056",
+        "C2015PHTH00150",
+        "C2016PHTH00012",
+        "C2017PHTH00057"
+      ],
+      "0.55": [
+        "C2013PHTH00206",
+        "C2013PHTH00359",
+        "C2014PHTH00499",
+        "C2014PHTH00563",
+        "C2015PHTH00125",
+        "C2017PHTH00267"
+      ],
+      "0.56": [
+        "C2013PHTH00012",
+        "C2013PHTH00028",
+        "C2013PHTH00499",
+        "C2014PHTH00486",
+        "C2014PHTH00545",
+        "C2014PHTH00559",
+        "C2015PHTH00463",
+        "C2017PHTH00697"
+      ],
+      "0.57": [
+        "C2013PHTH00043",
+        "C2013PHTH00185",
+        "C2013PHTH00323",
+        "C2013PHTH00420",
+        "C2014PHTH00571",
+        "C2014PHTH00575",
+        "C2015PHTH00575",
+        "C2017PHTH00289",
+        "C2017PHTH00682"
+      ],
+      "0.58": [
+        "C2013PHTH00398",
+        "C2013PHTH00608",
+        "C2014PHTH00558",
+        "C2014PHTH00652",
+        "C2015PHTH00116"
+      ],
+      "0.59": [
+        "C2013PHTH00155",
+        "C2013PHTH00159",
+        "C2013PHTH00341",
+        "C2013PHTH00435",
+        "C2013PHTH00671",
+        "C2013PHTH00732",
+        "C2014PHTH00512",
+        "C2014PHTH00671",
+        "C2016PHTH00659"
+      ],
+      "0.6": [
+        "C2014PHTH00564",
+        "C2014PHTH00709",
+        "C2015PHTH00729",
+        "C2017PHTH00022",
+        "C2017PHTH00238"
+      ],
+      "0.61": [
+        "C2013PHTH00414",
+        "C2013PHTH00728",
+        "C2014PHTH00053",
+        "C2014PHTH00430",
+        "C2014PHTH00511",
+        "C2016PHTH00462",
+        "C2017PHTH00426",
+        "C2017PHTH00472"
+      ],
+      "0.62": [
+        "C2014PHTH00187",
+        "C2015PHTH00215",
+        "C2017PHTH00340"
+      ],
+      "0.64": [
+        "C2013PHTH00158",
+        "C2013PHTH00494",
+        "C2014PHTH00705",
+        "C2015PHTH00533",
+        "C2016PHTH00031",
+        "C2017PHTH00208"
+      ],
+      "0.65": [
+        "C2014PHTH00002",
+        "C2014PHTH00365",
+        "C2015PHTH00268",
+        "C2015PHTH00614",
+        "C2016PHTH00370",
+        "C2017PHTH00343"
+      ],
+      "0.66": [
+        "C2013PHTH00226",
+        "C2013PHTH00241",
+        "C2013PHTH00409",
+        "C2014PHTH00038",
+        "C2014PHTH00404",
+        "C2016PHTH00409",
+        "C2017PHTH00694"
+      ],
+      "0.67": [
+        "C2013PHTH00563",
+        "C2013PHTH00630",
+        "C2013PHTH00682",
+        "C2014PHTH00351",
+        "C2014PHTH00722",
+        "C2017PHTH00252"
+      ],
+      "0.68": [
+        "C2013PHTH00455",
+        "C2013PHTH00486",
+        "C2014PHTH00017",
+        "C2015PHTH00297"
+      ],
+      "0.69": [
+        "C2013PHTH00334",
+        "C2013PHTH00544",
+        "C2013PHTH00713",
+        "C2014PHTH00305",
+        "C2014PHTH00465",
+        "C2014PHTH00635",
+        "C2014PHTH00734",
+        "C2015PHTH00408",
+        "C2015PHTH00675",
+        "C2016PHTH00733"
+      ],
+      "0.7": [
+        "C2013PHTH00072",
+        "C2013PHTH00227",
+        "C2013PHTH00464",
+        "C2013PHTH00487",
+        "C2015PHTH00371",
+        "C2015PHTH00499",
+        "C2016PHTH00138",
+        "C2017PHTH00100"
+      ],
+      "0.71": [
+        "C2013PHTH00504",
+        "C2013PHTH00726",
+        "C2014PHTH00363",
+        "C2014PHTH00463",
+        "C2016PHTH00035",
+        "C2016PHTH00601",
+        "C2017PHTH00266",
+        "C2017PHTH00645"
+      ],
+      "0.72": [
+        "C2013PHTH00434",
+        "C2013PHTH00698",
+        "C2014PHTH00688",
+        "C2015PHTH00664",
+        "C2016PHTH00125"
+      ]
+    },
+    "identical_nonzero_totals_count": 179,
+    "largest": [
+      [
+        2607.68,
+        "F2014PHTH00774",
+        "Oil - Palm",
+        "2014-15"
+      ],
+      [
+        1702.78,
+        "C2013PHTH00261",
+        "Oil - Palm",
+        "2013-14"
+      ],
+      [
+        1630.77,
+        "C2015PHTH00663",
+        "Oil - Palm",
+        "2015-16"
+      ],
+      [
+        965.03,
+        "C2013PHTH00438",
+        "Oil - Palm",
+        "2013-14"
+      ],
+      [
+        891.41,
+        "C2013PHTH00712",
+        "Oil - Palm",
+        "2013-14"
+      ],
+      [
+        799.85,
+        "C2014PHTH00712",
+        "Oil - Palm",
+        "2014-15"
+      ],
+      [
+        797.97,
+        "C2014PHTH00727",
+        "Oil - Palm",
+        "2014-15"
+      ],
+      [
+        597.4,
+        "C2015PHTH00191",
+        "Oil - Coconut",
+        "2015-16"
+      ],
+      [
+        365.81,
+        "C2014PHTH00740",
+        "Oil - Palm",
+        "2014-15"
+      ],
+      [
+        364.27,
+        "C2014PHTH00692",
+        "Oil - Coconut",
+        "2014-15"
+      ]
+    ],
+    "per_phthalate": {
+      "BBP": {
+        "max": 1.92,
+        "min": 0.3,
+        "samples": 8
+      },
+      "DBP": {
+        "max": 4.3,
+        "min": 0.26,
+        "samples": 209
+      },
+      "DEHP": {
+        "max": 587.0,
+        "min": 0.27,
+        "samples": 273
+      },
+      "DIDP": {
+        "max": 2520.0,
+        "min": 0.26,
+        "samples": 199
+      },
+      "DINP": {
+        "max": 85.7,
+        "min": 0.26,
+        "samples": 659
+      },
+      "DNOP": {
+        "max": null,
+        "min": null,
+        "samples": 0
+      }
+    },
+    "per_phthalate_share_of_all": {
+      "BBP": 0.177,
+      "DBP": 4.627,
+      "DEHP": 6.044,
+      "DIDP": 4.406,
+      "DINP": 14.589,
+      "DNOP": 0.0
+    },
+    "positives_by_function": {
+      "Domestic": 310,
+      "Import": 427,
+      "Unknown": 240
+    },
+    "positives_by_product": {
+      "Animal Fat": 2,
+      "Bakery Product - Bagel": 10,
+      "Bakery Product - Bread": 25,
+      "Bakery Product - Bun/Roll": 8,
+      "Bakery Product - Cake": 2,
+      "Bakery Product - Cookie": 8,
+      "Bakery Product - Croissants": 2,
+      "Bakery Product - English Muffin": 10,
+      "Bakery Product - Muffin": 1,
+      "Bakery Product - Other": 4,
+      "Bakery Product - Pastry": 1,
+      "Bakery Product - Pie": 6,
+      "Bakery Product - Tortilla/Wrap/Pita": 29,
+      "Bakery Product - Waffle/Pancake": 8,
+      "Butter": 35,
+      "Butter - Almond": 32,
+      "Butter - Blend": 21,
+      "Butter - Cashew": 73,
+      "Butter - Hazelnut": 25,
+      "Butter - Hemp": 1,
+      "Butter - Macadamia": 1,
+      "Butter - Peanut": 23,
+      "Butter - Pecan": 2,
+      "Butter - Pistachio": 2,
+      "Butter - Pumpkin Seed": 16,
+      "Butter - Soy": 9,
+      "Butter - Sunflower Seed": 13,
+      "Butter - Walnut": 2,
+      "Cereal - Adult": 36,
+      "Cereal - Children": 20,
+      "Cheese": 79,
+      "Dessert - Frozen (Dairy)": 13,
+      "Infant Food - Cereal": 7,
+      "Infant Food - Snack": 4,
+      "Infant Formula - Dairy": 9,
+      "Infant Formula - Soy": 21,
+      "Mayonnaise": 6,
+      "Meal - RTE": 82,
+      "Meal - Toddler/Baby": 9,
+      "Meat - In Plastic": 8,
+      "Misc - Dairy": 4,
+      "Oatmeal": 10,
+      "Oil - Blend": 9,
+      "Oil - Canola": 10,
+      "Oil - Coconut": 9,
+      "Oil - Corn": 6,
+      "Oil - Flaxseed": 1,
+      "Oil - Grapeseed": 1,
+      "Oil - Olive": 27,
+      "Oil - Palm": 38,
+      "Oil - Peanut": 12,
+      "Oil - Pumpkin Seed": 2,
+      "Oil - Rice Bran": 1,
+      "Oil - Safflower": 1,
+      "Oil - Sesame": 8,
+      "Oil - Soybean": 3,
+      "Oil - Sunflower": 1,
+      "Oil - Walnut": 1,
+      "Olive": 6,
+      "Pickled Vegetable - Eggplant": 1,
+      "Pickled Vegetable - Misc": 3,
+      "Pickled Vegetable - Mushroom": 1,
+      "Pizza Products": 49,
+      "Preserve - Jam/Jelly": 14,
+      "Salad Dressing": 15,
+      "Sauce - Cooking": 6,
+      "Sauce - Hot": 4,
+      "Sauce - Pasta": 4,
+      "Sauce - Pesto": 10,
+      "Sauce - Steak/BBQ": 1,
+      "Soft Drink": 2,
+      "Tahini": 26,
+      "Vegetable Products - Artichoke": 5,
+      "Vegetable Products - Eggplant": 2,
+      "Vegetable Products - Garlic": 1,
+      "Vegetable Products - Mushroom": 1,
+      "Vegetable Products - Peppers": 1,
+      "Vegetable Products - Sundried Tomato": 9,
+      "Vegetable Shortening": 1,
+      "Yogurt - Frozen": 6
+    },
+    "screen_vs_rows_mismatch": [],
+    "smallest_stored": [
+      [
+        0.26,
+        "C2013PHTH00039",
+        "DIDP",
+        "Oil - Sesame"
+      ],
+      [
+        0.26,
+        "C2013PHTH00136",
+        "DIDP",
+        "Meal - RTE"
+      ],
+      [
+        0.26,
+        "C2013PHTH00240",
+        "DBP",
+        "Meal - RTE"
+      ],
+      [
+        0.26,
+        "C2013PHTH00370",
+        "DINP",
+        "Oatmeal"
+      ],
+      [
+        0.26,
+        "C2013PHTH00505",
+        "DIDP",
+        "Meal - RTE"
+      ]
+    ],
+    "stored_zero_or_negative": []
+  },
+  "encoding": "utf-8-sig",
+  "gate": {
+    "A2": true,
+    "G_as_written": false,
+    "md5": true,
+    "problems": {
+      "bad_date": [],
+      "bad_screen": [],
+      "bad_unit": [],
+      "mixed_product": [],
+      "no_screen": [],
+      "non_numeric": [],
+      "repeated": [],
+      "unknown_component": [],
+      "unmapped_product": []
+    },
+    "samples_ok": true,
+    "size_band_A2": [
+      1288193,
+      1289216
+    ],
+    "size_band_as_written": [
+      1288704,
+      1289728
+    ],
+    "size_in_band_A2": true,
+    "size_in_band_as_written": false
+  },
+  "grades": {
+    "P-V1": {
+      "checks": {
+        "max_2608": true,
+        "min_0_26": true,
+        "positives_977": true
+      },
+      "held": true,
+      "stats": {
+        "max": 2607.68,
+        "mean": 17.787257,
+        "min": 0.26,
+        "n": 4517,
+        "positives": 977
+      }
+    },
+    "P-V2": {
+      "held": false,
+      "rows": {
+        "grain": {
+          "checks": {
+            "max": true,
+            "mean": true,
+            "min": true,
+            "n": false,
+            "positives": true,
+            "share": true
+          },
+          "stats": {
+            "max": 23.31,
+            "mean": 1.603114,
+            "min": 0.27,
+            "n": 459,
+            "positives": 167
+          }
+        },
+        "nut_seed": {
+          "checks": {
+            "max": true,
+            "mean": false,
+            "min": true,
+            "n": true,
+            "positives": true,
+            "share": true
+          },
+          "stats": {
+            "max": 315.0,
+            "mean": 17.259322,
+            "min": 0.5,
+            "n": 100,
+            "positives": 59
+          }
+        },
+        "rte": {
+          "checks": {
+            "max": true,
+            "mean": true,
+            "min": true,
+            "n": false,
+            "positives": true
+          },
+          "stats": {
+            "max": 15.4,
+            "mean": 1.464687,
+            "min": 0.27,
+            "n": 237,
+            "positives": 128
+          }
+        }
+      }
+    },
+    "P-V3": {
+      "held": false,
+      "rows": {
+        "dressing": {
+          "checks": {
+            "max": true,
+            "mean": true,
+            "min": true,
+            "n": false,
+            "positives": true,
+            "share": false
+          },
+          "stats": {
+            "max": 3.75,
+            "mean": 2.24625,
+            "min": 0.71,
+            "n": 42,
+            "positives": 8
+          }
+        },
+        "fats_oils": {
+          "checks": {
+            "max": true,
+            "mean": false,
+            "min": true,
+            "n": false
+          },
+          "stats": {
+            "max": 2607.68,
+            "mean": 95.556147,
+            "min": 0.26,
+            "n": 248,
+            "positives": 109
+          }
+        },
+        "oil": {
+          "checks": {
+            "max": true,
+            "mean": false,
+            "min": true,
+            "n": false
+          },
+          "stats": {
+            "max": 2607.68,
+            "mean": 106.013571,
+            "min": 0.26,
+            "n": 160,
+            "positives": 98
+          }
+        }
+      }
+    },
+    "P-V4": {
+      "checks": {
+        "mayo_mean_2_77": true,
+        "mayo_share_12": true,
+        "no_shortening": true
+      },
+      "held": true,
+      "mayo": {
+        "max": 6.36,
+        "mean": 2.773333,
+        "min": 0.69,
+        "n": 26,
+        "positives": 3
+      },
+      "shortening": {
+        "max": null,
+        "mean": null,
+        "min": null,
+        "n": 20,
+        "positives": 0
+      }
+    }
+  },
+  "held": [
+    "P-V1",
+    "P-V4"
+  ],
+  "md5": "2c80659a91013f3657519375ee33b400",
+  "names": {
+    "by_group_date_year": {
+      "dressing": {
+        "2013-14": 5,
+        "2014-15": 37,
+        "2015-16": 37,
+        "2016-17": 76
+      },
+      "fats_oils": {
+        "2013-14": 80,
+        "2014-15": 168,
+        "2015-16": 138,
+        "2016-17": 76,
+        "2017-18": 2
+      },
+      "grain": {
+        "2012-13": 99,
+        "2013-14": 250,
+        "2014-15": 110,
+        "2015-16": 110,
+        "2017-18": 200
+      },
+      "mayo": {
+        "2014-15": 26,
+        "2015-16": 25
+      },
+      "nut_seed": {
+        "2014-15": 100,
+        "2015-16": 99,
+        "2017-18": 398
+      },
+      "oil": {
+        "2013-14": 65,
+        "2014-15": 95,
+        "2015-16": 65
+      },
+      "other": {
+        "2012-13": 653,
+        "2013-14": 235,
+        "2014-15": 336,
+        "2015-16": 334,
+        "2016-17": 675,
+        "2017-18": 150
+      },
+      "rte": {
+        "2013-14": 171,
+        "2014-15": 66,
+        "2015-16": 67
+      },
+      "shortening": {
+        "2013-14": 10,
+        "2014-15": 10,
+        "2015-16": 11,
+        "2017-18": 2
+      }
+    },
+    "by_group_function_Y3": {
+      "dressing": {
+        "Domestic": 3,
+        "Import": 17,
+        "Unknown": 22
+      },
+      "fats_oils": {
+        "Domestic": 25,
+        "Import": 143,
+        "Unknown": 80
+      },
+      "grain": {
+        "Domestic": 70,
+        "Import": 230,
+        "Unknown": 159
+      },
+      "mayo": {
+        "Domestic": 5,
+        "Import": 9,
+        "Unknown": 12
+      },
+      "nut_seed": {
+        "Domestic": 56,
+        "Import": 15,
+        "Unknown": 29
+      },
+      "oil": {
+        "Domestic": 17,
+        "Import": 104,
+        "Unknown": 39
+      },
+      "other": {
+        "Domestic": 218,
+        "Import": 802,
+        "Unknown": 204
+      },
+      "rte": {
+        "Domestic": 19,
+        "Import": 137,
+        "Unknown": 81
+      },
+      "shortening": {
+        "Import": 13,
+        "Unknown": 7
+      }
+    },
+    "by_group_id_year": {
+      "dressing": {
+        "2013-14": 5,
+        "2014-15": 37,
+        "2015-16": 37,
+        "2016-17": 76
+      },
+      "fats_oils": {
+        "2013-14": 80,
+        "2014-15": 138,
+        "2015-16": 138,
+        "2016-17": 76,
+        "2017-18": 2,
+        "None": 30
+      },
+      "grain": {
+        "2012-13": 99,
+        "2013-14": 250,
+        "2014-15": 110,
+        "2015-16": 110,
+        "2017-18": 200
+      },
+      "mayo": {
+        "2014-15": 26,
+        "2015-16": 25
+      },
+      "nut_seed": {
+        "2014-15": 100,
+        "2015-16": 99,
+        "2017-18": 398
+      },
+      "oil": {
+        "2013-14": 65,
+        "2014-15": 65,
+        "2015-16": 65,
+        "None": 30
+      },
+      "other": {
+        "2012-13": 643,
+        "2013-14": 235,
+        "2014-15": 336,
+        "2015-16": 334,
+        "2016-17": 675,
+        "2017-18": 150,
+        "None": 10
+      },
+      "rte": {
+        "2013-14": 171,
+        "2014-15": 66,
+        "2015-16": 67
+      },
+      "shortening": {
+        "2013-14": 10,
+        "2014-15": 10,
+        "2015-16": 11,
+        "2017-18": 2
+      }
+    },
+    "id_year_vs_date_year": {
+      "2012-13": {
+        "2012-13": 742
+      },
+      "2013-14": {
+        "2013-14": 736
+      },
+      "2014-15": {
+        "2014-15": 750
+      },
+      "2015-16": {
+        "2015-16": 748
+      },
+      "2016-17": {
+        "2016-17": 751
+      },
+      "2017-18": {
+        "2017-18": 750
+      },
+      "None": {
+        "2012-13": 10,
+        "2014-15": 30
+      }
+    }
+  },
+  "sha256": "12690c2534c18aa7c7471c0fc0ecb786c0b6c587575bf2d72c6637f1e6f27044",
+  "source": "https://open.canada.ca/data/dataset/ea25d8e4-180c-4f7c-a912-f37381168664/resource/072329d5-0f9c-4e3f-aae1-c4996ae2b5d5/download/fsap-chem-ts-2012-2018-phthalates-in-selected-foods-paaspa-chem-ec-2012-2018-phtalates-dans-cert.csv",
+  "study": "phthalates-series-ps12",
+  "version": "0.1.0",
+  "year_readings": {
+    "2012-13": {
+      "grain": {
+        "max": null,
+        "mean": null,
+        "min": null,
+        "n": 99,
+        "positives": 0
+      },
+      "other": {
+        "max": 2.2,
+        "mean": 1.614286,
+        "min": 1.2,
+        "n": 653,
+        "positives": 7
+      }
+    },
+    "2013-14": {
+      "dressing": {
+        "max": null,
+        "mean": null,
+        "min": null,
+        "n": 5,
+        "positives": 0
+      },
+      "fats_oils": {
+        "max": 1702.78,
+        "mean": 90.533617,
+        "min": 0.26,
+        "n": 80,
+        "positives": 47
+      },
+      "grain": {
+        "max": 23.31,
+        "mean": 1.598067,
+        "min": 0.27,
+        "n": 250,
+        "positives": 150
+      },
+      "oil": {
+        "max": 1702.78,
+        "mean": 90.533617,
+        "min": 0.26,
+        "n": 65,
+        "positives": 47
+      },
+      "other": {
+        "max": 8.18,
+        "mean": 0.891143,
+        "min": 0.28,
+        "n": 235,
+        "positives": 35
+      },
+      "rte": {
+        "max": 10.67,
+        "mean": 1.425946,
+        "min": 0.27,
+        "n": 171,
+        "positives": 111
+      },
+      "shortening": {
+        "max": null,
+        "mean": null,
+        "min": null,
+        "n": 10,
+        "positives": 0
+      }
+    },
+    "2014-15": {
+      "dressing": {
+        "max": 3.75,
+        "mean": 2.24625,
+        "min": 0.71,
+        "n": 37,
+        "positives": 8
+      },
+      "fats_oils": {
+        "max": 2607.68,
+        "mean": 99.363548,
+        "min": 0.6,
+        "n": 168,
+        "positives": 62
+      },
+      "grain": {
+        "max": 4.61,
+        "mean": 1.647647,
+        "min": 0.51,
+        "n": 110,
+        "positives": 17
+      },
+      "mayo": {
+        "max": 6.36,
+        "mean": 2.773333,
+        "min": 0.69,
+        "n": 26,
+        "positives": 3
+      },
+      "nut_seed": {
+        "max": 315.0,
+        "mean": 17.259322,
+        "min": 0.5,
+        "n": 100,
+        "positives": 59
+      },
+      "oil": {
+        "max": 2607.68,
+        "mean": 120.279412,
+        "min": 0.6,
+        "n": 95,
+        "positives": 51
+      },
+      "other": {
+        "max": 140.0,
+        "mean": 6.058529,
+        "min": 0.51,
+        "n": 336,
+        "positives": 68
+      },
+      "rte": {
+        "max": 15.4,
+        "mean": 1.717647,
+        "min": 0.55,
+        "n": 66,
+        "positives": 17
+      },
+      "shortening": {
+        "max": null,
+        "mean": null,
+        "min": null,
+        "n": 10,
+        "positives": 0
+      }
+    },
+    "2015-16": {
+      "dressing": {
+        "max": 11.1,
+        "mean": 5.22,
+        "min": 1.91,
+        "n": 37,
+        "positives": 6
+      },
+      "fats_oils": {
+        "max": 1630.77,
+        "mean": 69.185122,
+        "min": 0.53,
+        "n": 138,
+        "positives": 41
+      },
+      "grain": {
+        "max": 5.66,
+        "mean": 2.73,
+        "min": 0.57,
+        "n": 110,
+        "positives": 12
+      },
+      "mayo": {
+        "max": 1.71,
+        "mean": 1.37,
+        "min": 0.95,
+        "n": 25,
+        "positives": 3
+      },
+      "nut_seed": {
+        "max": 16.95,
+        "mean": 3.544889,
+        "min": 0.54,
+        "n": 99,
+        "positives": 45
+      },
+      "oil": {
+        "max": 1630.77,
+        "mean": 87.53625,
+        "min": 0.53,
+        "n": 65,
+        "positives": 32
+      },
+      "other": {
+        "max": 302.0,
+        "mean": 8.055082,
+        "min": 0.5,
+        "n": 334,
+        "positives": 61
+      },
+      "rte": {
+        "max": 62.21,
+        "mean": 6.765833,
+        "min": 0.51,
+        "n": 67,
+        "positives": 12
+      },
+      "shortening": {
+        "max": null,
+        "mean": null,
+        "min": null,
+        "n": 11,
+        "positives": 0
+      }
+    },
+    "Y3": {
+      "dressing": {
+        "max": 3.75,
+        "mean": 2.24625,
+        "min": 0.71,
+        "n": 42,
+        "positives": 8
+      },
+      "fats_oils": {
+        "max": 2607.68,
+        "mean": 95.556147,
+        "min": 0.26,
+        "n": 248,
+        "positives": 109
+      },
+      "grain": {
+        "max": 23.31,
+        "mean": 1.603114,
+        "min": 0.27,
+        "n": 459,
+        "positives": 167
+      },
+      "mayo": {
+        "max": 6.36,
+        "mean": 2.773333,
+        "min": 0.69,
+        "n": 26,
+        "positives": 3
+      },
+      "nut_seed": {
+        "max": 315.0,
+        "mean": 17.259322,
+        "min": 0.5,
+        "n": 100,
+        "positives": 59
+      },
+      "oil": {
+        "max": 2607.68,
+        "mean": 106.013571,
+        "min": 0.26,
+        "n": 160,
+        "positives": 98
+      },
+      "other": {
+        "max": 140.0,
+        "mean": 4.131545,
+        "min": 0.28,
+        "n": 1224,
+        "positives": 110
+      },
+      "rte": {
+        "max": 15.4,
+        "mean": 1.464687,
+        "min": 0.27,
+        "n": 237,
+        "positives": 128
+      },
+      "shortening": {
+        "max": null,
+        "mean": null,
+        "min": null,
+        "n": 20,
+        "positives": 0
+      }
+    },
+    "Y3_by_id": {
+      "dressing": {
+        "max": 3.75,
+        "mean": 2.24625,
+        "min": 0.71,
+        "n": 42,
+        "positives": 8
+      },
+      "fats_oils": {
+        "max": 1702.78,
+        "mean": 77.280444,
+        "min": 0.26,
+        "n": 218,
+        "positives": 90
+      },
+      "grain": {
+        "max": 23.31,
+        "mean": 1.603114,
+        "min": 0.27,
+        "n": 459,
+        "positives": 167
+      },
+      "mayo": {
+        "max": 6.36,
+        "mean": 2.773333,
+        "min": 0.69,
+        "n": 26,
+        "positives": 3
+      },
+      "nut_seed": {
+        "max": 315.0,
+        "mean": 17.259322,
+        "min": 0.5,
+        "n": 100,
+        "positives": 59
+      },
+      "oil": {
+        "max": 1702.78,
+        "mean": 87.708228,
+        "min": 0.26,
+        "n": 130,
+        "positives": 79
+      },
+      "other": {
+        "max": 140.0,
+        "mean": 4.173796,
+        "min": 0.28,
+        "n": 1214,
+        "positives": 108
+      },
+      "rte": {
+        "max": 15.4,
+        "mean": 1.464687,
+        "min": 0.27,
+        "n": 237,
+        "positives": 128
+      },
+      "shortening": {
+        "max": null,
+        "mean": null,
+        "min": null,
+        "n": 20,
+        "positives": 0
+      }
+    },
+    "Y4": {
+      "dressing": {
+        "max": 11.1,
+        "mean": 3.520714,
+        "min": 0.71,
+        "n": 79,
+        "positives": 14
+      },
+      "fats_oils": {
+        "max": 2607.68,
+        "mean": 88.348067,
+        "min": 0.26,
+        "n": 386,
+        "positives": 150
+      },
+      "grain": {
+        "max": 23.31,
+        "mean": 1.678659,
+        "min": 0.27,
+        "n": 569,
+        "positives": 179
+      },
+      "mayo": {
+        "max": 6.36,
+        "mean": 2.071667,
+        "min": 0.69,
+        "n": 51,
+        "positives": 6
+      },
+      "nut_seed": {
+        "max": 315.0,
+        "mean": 11.325192,
+        "min": 0.5,
+        "n": 199,
+        "positives": 104
+      },
+      "oil": {
+        "max": 2607.68,
+        "mean": 101.465308,
+        "min": 0.26,
+        "n": 225,
+        "positives": 130
+      },
+      "other": {
+        "max": 302.0,
+        "mean": 5.53117,
+        "min": 0.28,
+        "n": 1558,
+        "positives": 171
+      },
+      "rte": {
+        "max": 62.21,
+        "mean": 1.919071,
+        "min": 0.27,
+        "n": 304,
+        "positives": 140
+      },
+      "shortening": {
+        "max": null,
+        "mean": null,
+        "min": null,
+        "n": 31,
+        "positives": 0
+      }
+    },
+    "Y4_by_id": {
+      "dressing": {
+        "max": 11.1,
+        "mean": 3.520714,
+        "min": 0.71,
+        "n": 79,
+        "positives": 14
+      },
+      "fats_oils": {
+        "max": 1702.78,
+        "mean": 74.746794,
+        "min": 0.26,
+        "n": 356,
+        "positives": 131
+      },
+      "grain": {
+        "max": 23.31,
+        "mean": 1.678659,
+        "min": 0.27,
+        "n": 569,
+        "positives": 179
+      },
+      "mayo": {
+        "max": 6.36,
+        "mean": 2.071667,
+        "min": 0.69,
+        "n": 51,
+        "positives": 6
+      },
+      "nut_seed": {
+        "max": 315.0,
+        "mean": 11.325192,
+        "min": 0.5,
+        "n": 199,
+        "positives": 104
+      },
+      "oil": {
+        "max": 1702.78,
+        "mean": 87.658649,
+        "min": 0.26,
+        "n": 195,
+        "positives": 111
+      },
+      "other": {
+        "max": 302.0,
+        "mean": 5.574734,
+        "min": 0.28,
+        "n": 1548,
+        "positives": 169
+      },
+      "rte": {
+        "max": 62.21,
+        "mean": 1.919071,
+        "min": 0.27,
+        "n": 304,
+        "positives": 140
+      },
+      "shortening": {
+        "max": null,
+        "mean": null,
+        "min": null,
+        "n": 31,
+        "positives": 0
+      }
+    }
+  }
+}

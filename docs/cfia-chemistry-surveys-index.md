@@ -29,10 +29,12 @@ checked, and the 2018-19 one is the second file in the series with a 1,000-fold 
 (after the 2014-15 aflatoxin M1 unit label). The perchlorate files add a new kind: averages. Two
 CFIA documents describe the same samples with different, unstated averages (all samples with
 non-detects as zero, or detects only), and one later table pairs a subset's count and range with
-the full group's average. The 2020-21 phthalates file is the cleanest so far: every value claim of
-its report reproduces, and only its origin table is off. A later CFIA table's "2012 to 2015" rows,
-by contrast, are not label groups of the 2012-2018 file for any choice of years. On the portal
-side, open.canada.ca's resource sizes are kibibytes rounded up, not rounded to nearest.
+the full group's average. The 2020-21 phthalates file reproduces every value claim of its report,
+and only its origin table is off; the 2018-19 flatbread and vegan file reproduces its report in
+full. Later CFIA tables' "2012 to 2015" phthalate rows carry the 2012-2018 file's detections
+(every positive count, minimum and maximum) over different sample counts, so their printed
+detection rates are higher than the file gives. On the portal side, open.canada.ca's resource
+sizes are kibibytes rounded up, not rounded to nearest.
 
 ## All items in one table
 
@@ -41,7 +43,8 @@ side, open.canada.ca's resource sizes are kibibytes rounded up, not rounded to n
   report-vs-file items from the notes below, one row each, with a kind, the evidence it rests
   on and the note that first published it. 32 rest on a report and its file disagreeing, 7 on a
   report contradicting itself, 7 on the file alone and 3 on a later CFIA document. Five rows
-  (four slips) change a number by 10 times or more. `test_cfia_errata.py` checks it.
+  (four slips) change a number by 10 times or more. `test_cfia_errata.py` checks it. The
+  phthalates-series result's items are not yet in it.
 
 ## Children's Food Project (aflatoxin M1, lead)
 
@@ -205,7 +208,8 @@ side, open.canada.ca's resource sizes are kibibytes rounded up, not rounded to n
   rows. The pre-registration's arithmetic is confirmed exactly: the two positive dressings are 0.3
   and 0.6 ppm and the oils carry the other 29. Only 2 of 53 toddler and baby meals have
   phthalates, but they are the two largest ready-to-eat results and the only meals with more than
-  one phthalate.
+  one phthalate. Its independent test re-ran from GitHub in a sealed job on 2026-11-06 and passed
+  (15 tests).
 
 ## Phthalates in flatbreads and vegan products 2018-19, and the 2012-2015 rows of two later tables
 
@@ -229,6 +233,14 @@ side, open.canada.ca's resource sizes are kibibytes rounded up, not rounded to n
   (224 meals, 180 oils, 22 dressings, 327 fats and oils) match no combination of survey years.
 - [Grader note](phthalates-series-0.1.0-grader.md), with `phthalates_series.py` and 14 offline
   tests, published before any value of either file is read.
+- [Result](phthalates-series-0.1.0-result.md). Under A2, 6 of 8 value items held. The 2018-19
+  file reproduces Table 2 in all 42 cells and every value claim of the text, including tofu's
+  middle positive (8.0, derived as about 8.01 from the printed average alone). In the 2012-2018
+  file every 2012-15 positive count, minimum and maximum that the two later reports print is
+  there, but the sample counts mostly are not: 237 meals (printed 224), 42 dressings (22), 459
+  grain products (460), 160 oils (180), 248 fats and oils (327). So the 2020-21 report's 57.1% of
+  meals and 36% of dressings are 54.0% and 19.0% over the file's samples. The nut and seed
+  butters average 17.26 (printed 17.2), and oils 106.0 (107).
 
 ## Fumonisins in corn products, 2010-11 (file opened on the portal on 2026-11-03)
 
