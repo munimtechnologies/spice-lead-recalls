@@ -1,0 +1,501 @@
+sample,product,group,subgroup,function,origin,screen_n,BBP,DBP,DNOP,DEHP,DINP,DIDP,total
+C2020PHTH00001,Vegetable Shortening,fo,shortening,Import,UNITED STATES,0,,,,,,,0
+C2020PHTH00002,Vegetable Shortening,fo,shortening,Import,UNITED STATES,0,,,,,,,0
+C2020PHTH00003,Soup,rte,rte,Import,UNITED STATES,0,,,,,,,0
+C2020PHTH00004,Soup,rte,rte,Import,UNITED STATES,0,,,,,,,0
+C2020PHTH00005,Pizza Products,rte,rte,Domestic,CANADA,0,,,,,,,0
+C2020PHTH00006,Oil - Palm,fo,oil,Import,NIGERIA,0,,,,,,,0
+C2020PHTH00007,Oil - Soybean,fo,oil,Import,UNITED STATES,0,,,,,,,0
+C2020PHTH00008,Oil - Palm,fo,oil,Import,ECUADOR,1,,,,0.4,,,0.4
+C2020PHTH00009,Meal - RTE,rte,rte,Import,INDIA,0,,,,,,,0
+C2020PHTH00010,Meal - RTE,rte,rte,Import,UNITED STATES,0,,,,,,,0
+C2020PHTH00011,Soup,rte,rte,Import,UNITED STATES,0,,,,,,,0
+C2020PHTH00012,Meal - Toddler/Baby,rte,rte,Import,UNKNOWN,0,,,,,,,0
+C2020PHTH00013,Oil - Olive,fo,oil,Import,SPAIN,0,,,,,,,0
+C2020PHTH00014,Vegetable Shortening,fo,shortening,Import,UNITED STATES,0,,,,,,,0
+C2020PHTH00015,Meal - RTE,rte,rte,Import,INDIA,0,,,,,,,0
+C2020PHTH00016,Meal - RTE,rte,rte,Unknown,UNKNOWN,0,,,,,,,0
+C2020PHTH00017,Meal - Toddler/Baby,rte,rte,Import,UNITED STATES,0,,,,,,,0
+C2020PHTH00018,Oil - Soybean,fo,oil,Unknown,UNKNOWN,0,,,,,,,0
+C2020PHTH00019,Oil - Sunflower,fo,oil,Import,UNKNOWN,0,,,,,,,0
+C2020PHTH00020,Meal - RTE,rte,rte,Import,INDIA,0,,,,,,,0
+C2020PHTH00021,Vegetable Shortening,fo,shortening,Import,UNITED STATES,0,,,,,,,0
+C2020PHTH00022,Meal - Toddler/Baby,rte,rte,Import,FRANCE,0,,,,,,,0
+C2020PHTH00023,Vegetable Shortening,fo,shortening,Import,UNITED STATES,0,,,,,,,0
+C2020PHTH00024,Salad Dressing,fo,dressing,Unknown,UNKNOWN,0,,,,,,,0
+C2020PHTH00025,Meal - RTE,rte,rte,Import,UNITED STATES,0,,,,,,,0
+C2020PHTH00026,Soup,rte,rte,Import,UNITED STATES,0,,,,,,,0
+C2020PHTH00027,Meal - Toddler/Baby,rte,rte,Import,FRANCE,0,,,,,,,0
+C2020PHTH00028,Oil - Blend,fo,oil,Unknown,UNKNOWN,1,,,,0.7,,,0.7
+C2020PHTH00029,Oil - Sesame,fo,oil,Import,ITALY,0,,,,,,,0
+C2020PHTH00030,Oil - Coconut,fo,oil,Import,PHILIPPINES,2,,0.2,,0.3,,,0.5
+C2020PHTH00031,Vegetable Shortening,fo,shortening,Import,UNITED STATES,0,,,,,,,0
+C2020PHTH00032,Salad Dressing,fo,dressing,Unknown,UNKNOWN,0,,,,,,,0
+C2020PHTH00033,Soup,rte,rte,Domestic,CANADA,0,,,,,,,0
+C2020PHTH00034,Meal - Toddler/Baby,rte,rte,Import,UNKNOWN,0,,,,,,,0
+C2020PHTH00035,Salad Dressing,fo,dressing,Domestic,CANADA,0,,,,,,,0
+C2020PHTH00036,Meal - Toddler/Baby,rte,rte,Import,UNKNOWN,0,,,,,,,0
+C2020PHTH00037,Oil - Olive,fo,oil,Import,ITALY,0,,,,,,,0
+C2020PHTH00038,Salad Dressing,fo,dressing,Unknown,UNKNOWN,0,,,,,,,0
+C2020PHTH00039,Oil - Sunflower,fo,oil,Unknown,UNKNOWN,0,,,,,,,0
+C2020PHTH00040,Soup,rte,rte,Import,UNKNOWN,0,,,,,,,0
+C2020PHTH00041,Meal - RTE,rte,rte,Unknown,UNKNOWN,0,,,,,,,0
+C2020PHTH00042,Oil - Sesame,fo,oil,Import,CHINA,0,,,,,,,0
+C2020PHTH00043,Meal - RTE,rte,rte,Import,UNITED STATES,0,,,,,,,0
+C2020PHTH00044,Meal - Toddler/Baby,rte,rte,Import,UNITED STATES,0,,,,,,,0
+C2020PHTH00045,Meal - Toddler/Baby,rte,rte,Import,UNITED STATES,0,,,,,,,0
+C2020PHTH00046,Vegetable Shortening,fo,shortening,Import,UNITED STATES,0,,,,,,,0
+C2020PHTH00047,Meal - RTE,rte,rte,Import,UNKNOWN,0,,,,,,,0
+C2020PHTH00048,Meal - RTE,rte,rte,Import,UNITED STATES,0,,,,,,,0
+C2020PHTH00049,Meal - Toddler/Baby,rte,rte,Import,UNITED STATES,0,,,,,,,0
+C2020PHTH00050,Meal - Toddler/Baby,rte,rte,Import,FRANCE,4,,0.4,0.5,0.5,,0.8,2.2
+C2020PHTH00051,Pizza Products,rte,rte,Domestic,CANADA,0,,,,,,,0
+C2020PHTH00052,Soup,rte,rte,Import,UNITED STATES,0,,,,,,,0
+C2020PHTH00053,Infant Food - Puree,rte,rte,Import,FRANCE,0,,,,,,,0
+C2020PHTH00054,Vegetable Shortening,fo,shortening,Import,UNITED STATES,0,,,,,,,0
+C2020PHTH00055,Salad Dressing,fo,dressing,Unknown,UNKNOWN,0,,,,,,,0
+C2020PHTH00056,Oil - Sunflower,fo,oil,Import,UNITED STATES,0,,,,,,,0
+C2020PHTH00057,Salad Dressing,fo,dressing,Import,UNITED STATES,0,,,,,,,0
+C2020PHTH00058,Meal - RTE,rte,rte,Import,UNITED STATES,0,,,,,,,0
+C2020PHTH00059,Oil - Blend,fo,oil,Import,MEXICO,0,,,,,,,0
+C2020PHTH00060,Oil - Canola,fo,oil,Domestic,CANADA,0,,,,,,,0
+C2020PHTH00061,Oil - Peanut,fo,oil,Import,UNKNOWN,0,,,,,,,0
+C2020PHTH00062,Oil - Soybean,fo,oil,Unknown,UNKNOWN,0,,,,,,,0
+C2020PHTH00063,Meal - RTE,rte,rte,Import,THAILAND,0,,,,,,,0
+C2020PHTH00064,Pizza Products,rte,rte,Domestic,CANADA,0,,,,,,,0
+C2020PHTH00065,Pizza Products,rte,rte,Import,GERMANY,0,,,,,,,0
+C2020PHTH00066,Vegetable Shortening,fo,shortening,Import,UNITED STATES,0,,,,,,,0
+C2020PHTH00067,Infant Food - Puree,rte,rte,Import,ITALY,0,,,,,,,0
+C2020PHTH00068,Oil - Corn,fo,oil,Import,UNITED STATES,0,,,,,,,0
+C2020PHTH00069,Soup,rte,rte,Import,UNITED STATES,0,,,,,,,0
+C2020PHTH00070,Meal - RTE,rte,rte,Import,UNITED STATES,0,,,,,,,0
+C2020PHTH00071,Vegetable Shortening,fo,shortening,Import,UNITED STATES,0,,,,,,,0
+C2020PHTH00072,Oil - Corn,fo,oil,Import,UNITED STATES,0,,,,,,,0
+C2020PHTH00073,Oil - Sunflower,fo,oil,Import,ITALY,0,,,,,,,0
+C2020PHTH00074,Oil - Grapeseed,fo,oil,Import,CHINA,0,,,,,,,0
+C2020PHTH00075,Vegetable Shortening,fo,shortening,Domestic,CANADA,0,,,,,,,0
+C2020PHTH00076,Salad Dressing,fo,dressing,Import,UNKNOWN,0,,,,,,,0
+C2020PHTH00077,Meal - Toddler/Baby,rte,rte,Import,UNITED STATES,0,,,,,,,0
+C2020PHTH00078,Vegetable Shortening,fo,shortening,Import,UNITED STATES,0,,,,,,,0
+C2020PHTH00079,Meal - Toddler/Baby,rte,rte,Import,FRANCE,0,,,,,,,0
+C2020PHTH00080,Oil - Peanut,fo,oil,Unknown,UNKNOWN,0,,,,,,,0
+C2020PHTH00081,Oil - Sesame,fo,oil,Import,MULTIPLE,1,0.6,,,,,,0.6
+C2020PHTH00082,Vegetable Shortening,fo,shortening,Import,UNITED STATES,0,,,,,,,0
+C2020PHTH00083,Meal - RTE,rte,rte,Domestic,CANADA,0,,,,,,,0
+C2020PHTH00084,Oil - Peanut,fo,oil,Unknown,UNKNOWN,0,,,,,,,0
+C2020PHTH00085,Salad Dressing,fo,dressing,Unknown,UNKNOWN,0,,,,,,,0
+C2020PHTH00086,Meal - Toddler/Baby,rte,rte,Import,FRANCE,0,,,,,,,0
+C2020PHTH00087,Pizza Products,rte,rte,Import,UNITED STATES,0,,,,,,,0
+C2020PHTH00088,Meal - RTE,rte,rte,Import,UNITED STATES,0,,,,,,,0
+C2020PHTH00089,Meal - RTE,rte,rte,Domestic,CANADA,0,,,,,,,0
+C2020PHTH00090,Infant Food - Puree,rte,rte,Unknown,UNKNOWN,0,,,,,,,0
+C2020PHTH00091,Oil - Canola,fo,oil,Import,UNITED STATES,0,,,,,,,0
+C2020PHTH00092,Oil - Sesame,fo,oil,Import,MEXICO,1,,,,1.4,,,1.4
+C2020PHTH00093,Meal - RTE,rte,rte,Unknown,UNKNOWN,0,,,,,,,0
+C2020PHTH00094,Meal - RTE,rte,rte,Import,UNITED STATES,0,,,,,,,0
+C2020PHTH00095,Pizza Products,rte,rte,Import,UNITED STATES,0,,,,,,,0
+C2020PHTH00096,Oil - Blend,fo,oil,Unknown,UNKNOWN,0,,,,,,,0
+C2020PHTH00097,Oil - Sesame,fo,oil,Import,UNKNOWN,0,,,,,,,0
+C2020PHTH00098,Oil - Sunflower,fo,oil,Import,UNITED STATES,0,,,,,,,0
+C2020PHTH00099,Salad Dressing,fo,dressing,Import,UNKNOWN,0,,,,,,,0
+C2020PHTH00100,Meal - RTE,rte,rte,Import,ITALY,0,,,,,,,0
+C2020PHTH00101,Meal - RTE,rte,rte,Import,UNITED STATES,0,,,,,,,0
+C2020PHTH00102,Meal - RTE,rte,rte,Import,ITALY,0,,,,,,,0
+C2020PHTH00103,Meal - Toddler/Baby,rte,rte,Import,FRANCE,0,,,,,,,0
+C2020PHTH00104,Oil - Soybean,fo,oil,Unknown,UNKNOWN,0,,,,,,,0
+C2020PHTH00105,Oil - Soybean,fo,oil,Import,UNITED STATES,0,,,,,,,0
+C2020PHTH00106,Meal - RTE,rte,rte,Import,UNITED STATES,0,,,,,,,0
+C2020PHTH00107,Meal - RTE,rte,rte,Import,UNITED STATES,0,,,,,,,0
+C2020PHTH00108,Oil - Olive,fo,oil,Import,UNKNOWN,0,,,,,,,0
+C2020PHTH00109,Oil - Soybean,fo,oil,Import,UNITED STATES,0,,,,,,,0
+C2020PHTH00110,Meal - RTE,rte,rte,Domestic,CANADA,0,,,,,,,0
+C2020PHTH00111,Meal - Toddler/Baby,rte,rte,Import,UNKNOWN,0,,,,,,,0
+C2020PHTH00112,Pizza Products,rte,rte,Import,UNITED STATES,0,,,,,,,0
+C2020PHTH00113,Oil - Flax,fo,oil,Unknown,UNKNOWN,0,,,,,,,0
+C2020PHTH00114,Meal - RTE,rte,rte,Import,INDIA,0,,,,,,,0
+C2020PHTH00115,Oil - Corn,fo,oil,Unknown,UNKNOWN,0,,,,,,,0
+C2020PHTH00116,Salad Dressing,fo,dressing,Import,UNITED STATES,0,,,,,,,0
+C2020PHTH00117,Oil - Canola,fo,oil,Domestic,CANADA,0,,,,,,,0
+C2020PHTH00118,Oil - Sunflower,fo,oil,Import,FRANCE,0,,,,,,,0
+C2020PHTH00119,Oil - Sunflower,fo,oil,Domestic,CANADA,0,,,,,,,0
+C2020PHTH00120,Oil - Avocado,fo,oil,Import,MEXICO,2,,,,2.9,,0.5,3.4
+C2020PHTH00121,Oil - Sunflower,fo,oil,Unknown,UNKNOWN,0,,,,,,,0
+C2020PHTH00122,Meal - RTE,rte,rte,Import,INDIA,0,,,,,,,0
+C2020PHTH00123,Meal - RTE,rte,rte,Import,ITALY,0,,,,,,,0
+C2020PHTH00124,Infant Food - Puree,rte,rte,Import,UNITED STATES,0,,,,,,,0
+C2020PHTH00125,Meal - Toddler/Baby,rte,rte,Import,UNITED STATES,0,,,,,,,0
+C2020PHTH00126,Pizza Products,rte,rte,Domestic,CANADA,0,,,,,,,0
+C2020PHTH00127,Oil - Canola,fo,oil,Domestic,CANADA,0,,,,,,,0
+C2020PHTH00128,Oil - Palm,fo,oil,Import,GHANA,1,,,,0.9,,,0.9
+C2020PHTH00129,Oil - Palm,fo,oil,Import,MALAYSIA,2,,0.6,,1.0,,,1.6
+C2020PHTH00130,Oil - Palm,fo,oil,Import,SENEGAL,1,,,,0.7,,,0.7
+C2020PHTH00131,Oil - Sesame,fo,oil,Import,UNKNOWN,0,,,,,,,0
+C2020PHTH00132,Oil - Sunflower,fo,oil,Import,UKRAINE,0,,,,,,,0
+C2020PHTH00133,Vegetable Shortening,fo,shortening,Import,UNITED STATES,0,,,,,,,0
+C2020PHTH00134,Vegetable Shortening,fo,shortening,Import,UNITED STATES,0,,,,,,,0
+C2020PHTH00135,Meal - RTE,rte,rte,Domestic,CANADA,0,,,,,,,0
+C2020PHTH00136,Meal - RTE,rte,rte,Domestic,CANADA,0,,,,,,,0
+C2020PHTH00137,Meal - RTE,rte,rte,Import,THAILAND,0,,,,,,,0
+C2020PHTH00138,Meal - RTE,rte,rte,Domestic,CANADA,0,,,,,,,0
+C2020PHTH00139,Meal - RTE,rte,rte,Import,INDIA,0,,,,,,,0
+C2020PHTH00140,Meal - RTE,rte,rte,Import,THAILAND,0,,,,,,,0
+C2020PHTH00141,Infant Food - Puree,rte,rte,Import,ITALY,0,,,,,,,0
+C2020PHTH00142,Meal - Toddler/Baby,rte,rte,Import,FRANCE,0,,,,,,,0
+C2020PHTH00143,Pizza Products,rte,rte,Domestic,CANADA,0,,,,,,,0
+C2020PHTH00144,Oil - Olive,fo,oil,Import,UNKNOWN,1,,,,0.4,,,0.4
+C2020PHTH00145,Vegetable Shortening,fo,shortening,Import,UNITED STATES,0,,,,,,,0
+C2020PHTH00146,Pizza Products,rte,rte,Domestic,CANADA,0,,,,,,,0
+C2020PHTH00147,Pizza Products,rte,rte,Unknown,UNKNOWN,0,,,,,,,0
+C2020PHTH00148,Oil - Palm,fo,oil,Import,SENEGAL,0,,,,,,,0
+C2020PHTH00149,Meal - RTE,rte,rte,Unknown,UNKNOWN,0,,,,,,,0
+C2020PHTH00150,Oil - Corn,fo,oil,Import,UNITED STATES,0,,,,,,,0
+C2020PHTH00151,Meal - RTE,rte,rte,Import,UNITED STATES,0,,,,,,,0
+C2020PHTH00152,Meal - RTE,rte,rte,Domestic,CANADA,0,,,,,,,0
+C2020PHTH00153,Pizza Products,rte,rte,Import,UNITED STATES,0,,,,,,,0
+C2020PHTH00154,Meal - Toddler/Baby,rte,rte,Import,FRANCE,0,,,,,,,0
+C2020PHTH00155,Vegetable Shortening,fo,shortening,Import,UNITED STATES,0,,,,,,,0
+C2020PHTH00156,Meal - Toddler/Baby,rte,rte,Import,UNITED STATES,0,,,,,,,0
+C2020PHTH00157,Oil - Palm,fo,oil,Import,GHANA,0,,,,,,,0
+C2020PHTH00158,Infant Food - Puree,rte,rte,Import,ITALY,0,,,,,,,0
+C2020PHTH00159,Oil - Peanut,fo,oil,Unknown,UNKNOWN,0,,,,,,,0
+C2020PHTH00160,Oil - Peanut,fo,oil,Import,UNKNOWN,1,,,,,0.3,,0.3
+C2020PHTH00161,Oil - Sesame,fo,oil,Import,FRANCE,0,,,,,,,0
+C2020PHTH00162,Oil - Coconut,fo,oil,Import,SINGAPORE,0,,,,,,,0
+C2020PHTH00163,Vegetable Shortening,fo,shortening,Unknown,UNKNOWN,0,,,,,,,0
+C2020PHTH00164,Vegetable Shortening,fo,shortening,Domestic,CANADA,0,,,,,,,0
+C2020PHTH00165,Meal - RTE,rte,rte,Domestic,CANADA,0,,,,,,,0
+C2020PHTH00166,Soup,rte,rte,Domestic,CANADA,0,,,,,,,0
+C2020PHTH00167,Meal - RTE,rte,rte,Import,THAILAND,0,,,,,,,0
+C2020PHTH00168,Meal - Toddler/Baby,rte,rte,Import,FRANCE,0,,,,,,,0
+C2020PHTH00169,Meal - Toddler/Baby,rte,rte,Import,FRANCE,0,,,,,,,0
+C2020PHTH00170,Oil - Blend,fo,oil,Unknown,UNKNOWN,0,,,,,,,0
+C2020PHTH00171,Oil - Sunflower,fo,oil,Import,RWANDA,1,,,,,,1.0,1.0
+C2020PHTH00172,Salad Dressing,fo,dressing,Import,UNKNOWN,0,,,,,,,0
+C2020PHTH00173,Meal - Toddler/Baby,rte,rte,Import,FRANCE,0,,,,,,,0
+C2020PHTH00174,Meal - RTE,rte,rte,Import,UNITED STATES,0,,,,,,,0
+C2020PHTH00175,Infant Food - Puree,rte,rte,Import,ITALY,0,,,,,,,0
+C2020PHTH00176,Oil - Olive,fo,oil,Import,ITALY,0,,,,,,,0
+C2020PHTH00177,Oil - Palm,fo,oil,Import,UNKNOWN,1,,,,0.3,,,0.3
+C2020PHTH00178,Oil - Sesame,fo,oil,Import,MEXICO,1,,0.4,,,,,0.4
+C2020PHTH00179,Salad Dressing,fo,dressing,Domestic,CANADA,0,,,,,,,0
+C2020PHTH00180,Salad Dressing,fo,dressing,Unknown,UNKNOWN,0,,,,,,,0
+C2020PHTH00181,Infant Food - Puree,rte,rte,Import,ITALY,0,,,,,,,0
+C2020PHTH00182,Oil - Sesame,fo,oil,Import,JAPAN,1,,0.2,,,,,0.2
+C2020PHTH00183,Pizza Products,rte,rte,Unknown,UNKNOWN,0,,,,,,,0
+C2020PHTH00184,Oil - Blend,fo,oil,Unknown,UNKNOWN,0,,,,,,,0
+C2020PHTH00185,Oil - Sunflower,fo,oil,Import,UNKNOWN,0,,,,,,,0
+C2020PHTH00186,Vegetable Shortening,fo,shortening,Import,UNITED STATES,0,,,,,,,0
+C2020PHTH00187,Meal - RTE,rte,rte,Import,UNITED STATES,0,,,,,,,0
+C2020PHTH00188,Meal - RTE,rte,rte,Unknown,UNKNOWN,0,,,,,,,0
+C2020PHTH00189,Infant Food - Puree,rte,rte,Unknown,UNKNOWN,0,,,,,,,0
+C2020PHTH00190,Oil - Palm,fo,oil,Import,GHANA,0,,,,,,,0
+C2020PHTH00191,Oil - Coconut,fo,oil,Unknown,UNKNOWN,0,,,,,,,0
+C2020PHTH00192,Oil - Coconut,fo,oil,Import,TOGO,1,,,,0.3,,,0.3
+C2020PHTH00193,Vegetable Shortening,fo,shortening,Import,UNITED STATES,0,,,,,,,0
+C2020PHTH00194,Vegetable Shortening,fo,shortening,Import,UNITED STATES,0,,,,,,,0
+C2020PHTH00195,Salad Dressing,fo,dressing,Domestic,CANADA,0,,,,,,,0
+C2020PHTH00196,Salad Dressing,fo,dressing,Import,UNITED STATES,0,,,,,,,0
+C2020PHTH00197,Salad Dressing,fo,dressing,Import,UNITED STATES,0,,,,,,,0
+C2020PHTH00198,Meal - RTE,rte,rte,Import,UNITED STATES,0,,,,,,,0
+C2020PHTH00199,Soup,rte,rte,Domestic,CANADA,0,,,,,,,0
+C2020PHTH00200,Soup,rte,rte,Domestic,CANADA,0,,,,,,,0
+C2020PHTH00201,Meal - Toddler/Baby,rte,rte,Unknown,UNKNOWN,0,,,,,,,0
+C2020PHTH00202,Meal - Toddler/Baby,rte,rte,Import,UNITED STATES,0,,,,,,,0
+C2020PHTH00203,Pizza Products,rte,rte,Unknown,UNKNOWN,1,,0.6,,,,,0.6
+C2020PHTH00204,Pizza Products,rte,rte,Import,UNITED STATES,0,,,,,,,0
+C2020PHTH00205,Oil - Sesame,fo,oil,Import,UNKNOWN,1,,,,0.3,,,0.3
+C2020PHTH00206,Meal - RTE,rte,rte,Unknown,UNKNOWN,0,,,,,,,0
+C2020PHTH00207,Vegetable Shortening,fo,shortening,Import,UNITED STATES,0,,,,,,,0
+C2020PHTH00208,Vegetable Shortening,fo,shortening,Import,UNITED STATES,0,,,,,,,0
+C2020PHTH00209,Meal - RTE,rte,rte,Domestic,CANADA,0,,,,,,,0
+C2020PHTH00210,Meal - Toddler/Baby,rte,rte,Import,UNITED STATES,0,,,,,,,0
+C2020PHTH00211,Oil - Palm,fo,oil,Unknown,UNKNOWN,0,,,,,,,0
+C2020PHTH00212,Meal - RTE,rte,rte,Import,UNITED STATES,0,,,,,,,0
+C2020PHTH00213,Oil - Peanut,fo,oil,Import,UNITED STATES,0,,,,,,,0
+C2020PHTH00214,Oil - Soybean,fo,oil,Unknown,UNKNOWN,0,,,,,,,0
+C2020PHTH00215,Oil - Peanut,fo,oil,Import,UNITED STATES,0,,,,,,,0
+C2020PHTH00216,Oil - Canola,fo,oil,Domestic,CANADA,0,,,,,,,0
+C2020PHTH00217,Vegetable Shortening,fo,shortening,Import,UNITED STATES,0,,,,,,,0
+C2020PHTH00218,Soup,rte,rte,Domestic,CANADA,0,,,,,,,0
+C2020PHTH00219,Meal - RTE,rte,rte,Import,UNITED STATES,0,,,,,,,0
+C2020PHTH00220,Soup,rte,rte,Domestic,CANADA,0,,,,,,,0
+C2020PHTH00221,Vegetable Shortening,fo,shortening,Import,UNITED STATES,0,,,,,,,0
+C2020PHTH00222,Salad Dressing,fo,dressing,Import,UNITED STATES,0,,,,,,,0
+C2020PHTH00223,Oil - Olive,fo,oil,Unknown,UNKNOWN,0,,,,,,,0
+C2020PHTH00224,Salad Dressing,fo,dressing,Domestic,CANADA,0,,,,,,,0
+C2020PHTH00225,Meal - RTE,rte,rte,Import,UNITED STATES,0,,,,,,,0
+C2020PHTH00226,Vegetable Shortening,fo,shortening,Import,UNITED STATES,0,,,,,,,0
+C2020PHTH00227,Pizza Products,rte,rte,Domestic,CANADA,0,,,,,,,0
+C2020PHTH00228,Meal - Toddler/Baby,rte,rte,Import,FRANCE,0,,,,,,,0
+C2020PHTH00229,Salad Dressing,fo,dressing,Domestic,CANADA,0,,,,,,,0
+C2020PHTH00230,Pizza Products,rte,rte,Domestic,CANADA,0,,,,,,,0
+C2020PHTH00231,Oil - Olive,fo,oil,Import,SPAIN,1,,0.3,,,,,0.3
+C2020PHTH00232,Oil - Peanut,fo,oil,Import,UNITED STATES,0,,,,,,,0
+C2020PHTH00233,Vegetable Shortening,fo,shortening,Domestic,CANADA,0,,,,,,,0
+C2020PHTH00234,Soup,rte,rte,Domestic,CANADA,0,,,,,,,0
+C2020PHTH00235,Meal - RTE,rte,rte,Import,UNITED STATES,0,,,,,,,0
+C2020PHTH00236,Meal - Toddler/Baby,rte,rte,Import,UNITED STATES,0,,,,,,,0
+C2020PHTH00237,Pizza Products,rte,rte,Import,GERMANY,0,,,,,,,0
+C2020PHTH00238,Pizza Products,rte,rte,Domestic,CANADA,0,,,,,,,0
+C2020PHTH00239,Meal - RTE,rte,rte,Import,UNITED STATES,0,,,,,,,0
+C2020PHTH00240,Meal - Toddler/Baby,rte,rte,Import,UNITED STATES,0,,,,,,,0
+C2020PHTH00241,Oil - Olive,fo,oil,Import,ITALY,1,,,,0.2,,,0.2
+C2020PHTH00242,Salad Dressing,fo,dressing,Import,UNITED STATES,0,,,,,,,0
+C2020PHTH00243,Meal - Toddler/Baby,rte,rte,Import,UNITED STATES,0,,,,,,,0
+C2020PHTH00244,Pizza Products,rte,rte,Domestic,CANADA,0,,,,,,,0
+C2020PHTH00245,Oil - Peanut,fo,oil,Import,UNITED STATES,0,,,,,,,0
+C2020PHTH00246,Oil - Coconut,fo,oil,Import,PHILIPPINES,0,,,,,,,0
+C2020PHTH00247,Vegetable Shortening,fo,shortening,Import,UNITED STATES,0,,,,,,,0
+C2020PHTH00248,Meal - RTE,rte,rte,Import,UNITED STATES,0,,,,,,,0
+C2020PHTH00249,Infant Food - Puree,rte,rte,Import,UNITED STATES,0,,,,,,,0
+C2020PHTH00250,Meal - Toddler/Baby,rte,rte,Import,FRANCE,0,,,,,,,0
+C2020PHTH00251,Oil - Blend,fo,oil,Unknown,UNKNOWN,0,,,,,,,0
+C2020PHTH00252,Oil - Canola,fo,oil,Unknown,UNKNOWN,0,,,,,,,0
+C2020PHTH00253,Oil - Corn,fo,oil,Import,UNITED STATES,0,,,,,,,0
+C2020PHTH00254,Oil - Olive,fo,oil,Import,UNKNOWN,0,,,,,,,0
+C2020PHTH00255,Oil - Blend,fo,oil,Import,CHINA,0,,,,,,,0
+C2020PHTH00256,Salad Dressing,fo,dressing,Import,UNITED STATES,0,,,,,,,0
+C2020PHTH00257,Soup,rte,rte,Domestic,CANADA,0,,,,,,,0
+C2020PHTH00258,Soup,rte,rte,Domestic,CANADA,0,,,,,,,0
+C2020PHTH00259,Soup,rte,rte,Unknown,UNKNOWN,0,,,,,,,0
+C2020PHTH00260,Meal - RTE,rte,rte,Import,UNITED STATES,0,,,,,,,0
+C2020PHTH00261,Meal - Toddler/Baby,rte,rte,Import,UNITED STATES,0,,,,,,,0
+C2020PHTH00262,Oil - Peanut,fo,oil,Import,UNITED STATES,0,,,,,,,0
+C2020PHTH00263,Meal - RTE,rte,rte,Import,UNITED STATES,0,,,,,,,0
+C2020PHTH00264,Soup,rte,rte,Import,UNITED STATES,0,,,,,,,0
+C2020PHTH00265,Meal - RTE,rte,rte,Import,UNITED STATES,0,,,,,,,0
+C2020PHTH00266,Oil - Sunflower,fo,oil,Import,UNITED STATES,0,,,,,,,0
+C2020PHTH00267,Oil - Peanut,fo,oil,Import,HONG KONG,1,,,,,0.6,,0.6
+C2020PHTH00268,Oil - Sesame,fo,oil,Import,MEXICO,2,,,,0.4,0.4,,0.8
+C2020PHTH00269,Meal - RTE,rte,rte,Import,UNITED STATES,0,,,,,,,0
+C2020PHTH00270,Soup,rte,rte,Domestic,CANADA,0,,,,,,,0
+C2020PHTH00271,Soup,rte,rte,Domestic,CANADA,0,,,,,,,0
+C2020PHTH00272,Soup,rte,rte,Domestic,CANADA,0,,,,,,,0
+C2020PHTH00273,Oil - Canola,fo,oil,Domestic,CANADA,0,,,,,,,0
+C2020PHTH00274,Meal - RTE,rte,rte,Import,UNITED STATES,0,,,,,,,0
+C2020PHTH00275,Infant Food - Puree,rte,rte,Import,ITALY,0,,,,,,,0
+C2020PHTH00276,Soup,rte,rte,Import,UNITED STATES,0,,,,,,,0
+C2020PHTH00277,Pizza Products,rte,rte,Import,UNITED STATES,0,,,,,,,0
+C2020PHTH00278,Oil - Canola,fo,oil,Unknown,UNKNOWN,0,,,,,,,0
+C2020PHTH00279,Vegetable Shortening,fo,shortening,Unknown,UNKNOWN,0,,,,,,,0
+C2020PHTH00280,Vegetable Shortening,fo,shortening,Import,UNITED STATES,0,,,,,,,0
+C2020PHTH00281,Salad Dressing,fo,dressing,Import,UNITED STATES,0,,,,,,,0
+C2020PHTH00282,Meal - Toddler/Baby,rte,rte,Import,UNITED STATES,0,,,,,,,0
+C2020PHTH00283,Oil - Blend,fo,oil,Domestic,CANADA,0,,,,,,,0
+C2020PHTH00284,Oil - Corn,fo,oil,Unknown,UNKNOWN,0,,,,,,,0
+C2020PHTH00285,Oil - Olive,fo,oil,Import,ITALY,0,,,,,,,0
+C2020PHTH00286,Oil - Olive,fo,oil,Import,UNKNOWN,0,,,,,,,0
+C2020PHTH00287,Oil - Palm,fo,oil,Import,MALAYSIA,1,,,,2.0,,,2.0
+C2020PHTH00288,Oil - Palm,fo,oil,Import,ECUADOR,0,,,,,,,0
+C2020PHTH00289,Oil - Soybean,fo,oil,Import,UNKNOWN,0,,,,,,,0
+C2020PHTH00290,Vegetable Shortening,fo,shortening,Unknown,UNKNOWN,0,,,,,,,0
+C2020PHTH00291,Salad Dressing,fo,dressing,Import,UNKNOWN,0,,,,,,,0
+C2020PHTH00292,Salad Dressing,fo,dressing,Import,UNKNOWN,0,,,,,,,0
+C2020PHTH00293,Salad Dressing,fo,dressing,Import,UNITED STATES,0,,,,,,,0
+C2020PHTH00294,Meal - RTE,rte,rte,Import,UNITED STATES,0,,,,,,,0
+C2020PHTH00295,Soup,rte,rte,Import,UNITED STATES,0,,,,,,,0
+C2020PHTH00296,Soup,rte,rte,Domestic,CANADA,0,,,,,,,0
+C2020PHTH00297,Meal - RTE,rte,rte,Unknown,UNKNOWN,0,,,,,,,0
+C2020PHTH00298,Meal - Toddler/Baby,rte,rte,Import,FRANCE,0,,,,,,,0
+C2020PHTH00299,Meal - Toddler/Baby,rte,rte,Import,UNITED STATES,0,,,,,,,0
+C2020PHTH00300,Meal - Toddler/Baby,rte,rte,Import,UNKNOWN,0,,,,,,,0
+C2020PHTH00301,Pizza Products,rte,rte,Import,GERMANY,1,,0.3,,,,,0.3
+C2020PHTH00302,Oil - Flax,fo,oil,Import,UNITED KINGDOM,0,,,,,,,0
+C2020PHTH00303,Soup,rte,rte,Import,UNITED STATES,0,,,,,,,0
+C2020PHTH00304,Meal - Toddler/Baby,rte,rte,Import,UNITED STATES,0,,,,,,,0
+C2020PHTH00305,Infant Food - Puree,rte,rte,Import,UNITED STATES,0,,,,,,,0
+C2020PHTH00306,Meal - Toddler/Baby,rte,rte,Import,FRANCE,0,,,,,,,0
+C2020PHTH00307,Pizza Products,rte,rte,Domestic,CANADA,0,,,,,,,0
+C2020PHTH00308,Oil - Canola,fo,oil,Unknown,UNKNOWN,0,,,,,,,0
+C2020PHTH00309,Oil - Corn,fo,oil,Domestic,CANADA,0,,,,,,,0
+C2020PHTH00310,Oil - Corn,fo,oil,Import,UNITED STATES,0,,,,,,,0
+C2020PHTH00311,Salad Dressing,fo,dressing,Import,UNKNOWN,0,,,,,,,0
+C2020PHTH00312,Salad Dressing,fo,dressing,Unknown,UNKNOWN,0,,,,,,,0
+C2020PHTH00313,Meal - RTE,rte,rte,Unknown,UNKNOWN,0,,,,,,,0
+C2020PHTH00314,Soup,rte,rte,Domestic,CANADA,1,,,,,0.5,,0.5
+C2020PHTH00315,Meal - RTE,rte,rte,Import,UNITED STATES,0,,,,,,,0
+C2020PHTH00316,Pizza Products,rte,rte,Import,UNITED STATES,0,,,,,,,0
+C2020PHTH00317,Salad Dressing,fo,dressing,Unknown,UNKNOWN,0,,,,,,,0
+C2020PHTH00318,Infant Food - Puree,rte,rte,Import,ITALY,0,,,,,,,0
+C2020PHTH00319,Meal - Toddler/Baby,rte,rte,Import,UNITED STATES,0,,,,,,,0
+C2020PHTH00320,Infant Food - Puree,rte,rte,Import,ITALY,0,,,,,,,0
+C2020PHTH00321,Oil - Corn,fo,oil,Unknown,UNKNOWN,0,,,,,,,0
+C2020PHTH00322,Oil - Corn,fo,oil,Unknown,UNKNOWN,0,,,,,,,0
+C2020PHTH00323,Vegetable Shortening,fo,shortening,Import,UNITED STATES,0,,,,,,,0
+C2020PHTH00324,Salad Dressing,fo,dressing,Unknown,UNKNOWN,0,,,,,,,0
+C2020PHTH00325,Salad Dressing,fo,dressing,Unknown,UNKNOWN,0,,,,,,,0
+C2020PHTH00326,Salad Dressing,fo,dressing,Import,UNKNOWN,0,,,,,,,0
+C2020PHTH00327,Meal - RTE,rte,rte,Import,UNITED STATES,0,,,,,,,0
+C2020PHTH00328,Meal - Toddler/Baby,rte,rte,Import,FRANCE,0,,,,,,,0
+C2020PHTH00329,Pizza Products,rte,rte,Domestic,CANADA,0,,,,,,,0
+C2020PHTH00330,Pizza Products,rte,rte,Unknown,UNKNOWN,0,,,,,,,0
+C2020PHTH00331,Pizza Products,rte,rte,Unknown,UNKNOWN,0,,,,,,,0
+C2020PHTH00332,Oil - Blend,fo,oil,Import,UNITED STATES,0,,,,,,,0
+C2020PHTH00333,Oil - Vegetable,fo,oil,Domestic,CANADA,0,,,,,,,0
+C2020PHTH00334,Oil - Canola,fo,oil,Unknown,UNKNOWN,0,,,,,,,0
+C2020PHTH00335,Oil - Peanut,fo,oil,Import,UNITED STATES,0,,,,,,,0
+C2020PHTH00336,Oil - Peanut,fo,oil,Import,UNKNOWN,0,,,,,,,0
+C2020PHTH00337,Oil - Peanut,fo,oil,Import,UNKNOWN,0,,,,,,,0
+C2020PHTH00338,Oil - Peanut,fo,oil,Import,UNITED STATES,0,,,,,,,0
+C2020PHTH00339,Oil - Sesame,fo,oil,Import,UNKNOWN,1,,,,0.9,,,0.9
+C2020PHTH00340,Oil - Sesame,fo,oil,Import,SINGAPORE,1,,,,2.5,,,2.5
+C2020PHTH00341,Salad Dressing,fo,dressing,Unknown,UNKNOWN,0,,,,,,,0
+C2020PHTH00342,Salad Dressing,fo,dressing,Import,UNITED STATES,0,,,,,,,0
+C2020PHTH00343,Meal - RTE,rte,rte,Import,UNITED STATES,0,,,,,,,0
+C2020PHTH00344,Meal - RTE,rte,rte,Domestic,CANADA,0,,,,,,,0
+C2020PHTH00345,Meal - RTE,rte,rte,Import,UNITED STATES,0,,,,,,,0
+C2020PHTH00346,Meal - RTE,rte,rte,Import,UNITED STATES,0,,,,,,,0
+C2020PHTH00347,Soup,rte,rte,Domestic,CANADA,0,,,,,,,0
+C2020PHTH00348,Soup,rte,rte,Domestic,CANADA,0,,,,,,,0
+C2020PHTH00349,Infant Food - Puree,rte,rte,Import,ITALY,0,,,,,,,0
+C2020PHTH00350,Meal - Toddler/Baby,rte,rte,Import,UNKNOWN,0,,,,,,,0
+C2020PHTH00351,Meal - Toddler/Baby,rte,rte,Import,FRANCE,0,,,,,,,0
+C2020PHTH00352,Infant Food - Puree,rte,rte,Import,ITALY,0,,,,,,,0
+C2020PHTH00353,Pizza Products,rte,rte,Unknown,UNKNOWN,0,,,,,,,0
+C2020PHTH00354,Pizza Products,rte,rte,Unknown,UNKNOWN,0,,,,,,,0
+C2020PHTH00355,Oil - Sesame,fo,oil,Import,UNITED STATES,0,,,,,,,0
+C2020PHTH00356,Salad Dressing,fo,dressing,Unknown,UNKNOWN,0,,,,,,,0
+C2020PHTH00357,Soup,rte,rte,Import,UNITED STATES,0,,,,,,,0
+C2020PHTH00358,Meal - Toddler/Baby,rte,rte,Import,FRANCE,0,,,,,,,0
+C2020PHTH00359,Pizza Products,rte,rte,Domestic,CANADA,0,,,,,,,0
+C2020PHTH00360,Oil - Grapeseed,fo,oil,Unknown,UNKNOWN,0,,,,,,,0
+C2020PHTH00361,Vegetable Shortening,fo,shortening,Import,UNITED STATES,0,,,,,,,0
+C2020PHTH00362,Meal - Toddler/Baby,rte,rte,Import,UNKNOWN,0,,,,,,,0
+C2020PHTH00363,Oil - Vegetable,fo,oil,Domestic,CANADA,0,,,,,,,0
+C2020PHTH00364,Oil - Corn,fo,oil,Import,UNITED STATES,0,,,,,,,0
+C2020PHTH00365,Oil - Peanut,fo,oil,Import,UNITED STATES,0,,,,,,,0
+C2020PHTH00366,Salad Dressing,fo,dressing,Import,UNITED STATES,0,,,,,,,0
+C2020PHTH00367,Salad Dressing,fo,dressing,Unknown,UNKNOWN,0,,,,,,,0
+C2020PHTH00368,Meal - RTE,rte,rte,Unknown,UNKNOWN,0,,,,,,,0
+C2020PHTH00369,Soup,rte,rte,Unknown,UNKNOWN,0,,,,,,,0
+C2020PHTH00370,Pizza Products,rte,rte,Import,GERMANY,0,,,,,,,0
+C2020PHTH00371,Pizza Products,rte,rte,Unknown,UNKNOWN,0,,,,,,,0
+C2020PHTH00372,Pizza Products,rte,rte,Domestic,CANADA,0,,,,,,,0
+C2020PHTH00373,Salad Dressing,fo,dressing,Import,UNITED STATES,0,,,,,,,0
+C2020PHTH00374,Meal - RTE,rte,rte,Import,UNITED STATES,0,,,,,,,0
+C2020PHTH00375,Oil - Corn,fo,oil,Import,UNITED STATES,0,,,,,,,0
+C2020PHTH00376,Oil - Olive,fo,oil,Import,ITALY,1,,,,0.6,,,0.6
+C2020PHTH00377,Oil - Canola,fo,oil,Import,CHINA,0,,,,,,,0
+C2020PHTH00378,Salad Dressing,fo,dressing,Import,UNITED STATES,0,,,,,,,0
+C2020PHTH00379,Soup,rte,rte,Import,UNITED STATES,0,,,,,,,0
+C2020PHTH00380,Meal - Toddler/Baby,rte,rte,Import,FRANCE,0,,,,,,,0
+C2020PHTH00381,Pizza Products,rte,rte,Domestic,CANADA,0,,,,,,,0
+C2020PHTH00382,Oil - Blend,fo,oil,Unknown,UNKNOWN,0,,,,,,,0
+C2020PHTH00383,Oil - Canola,fo,oil,Unknown,UNKNOWN,0,,,,,,,0
+C2020PHTH00384,Oil - Canola,fo,oil,Domestic,CANADA,0,,,,,,,0
+C2020PHTH00385,Oil - Soybean,fo,oil,Import,"TAIWAN, PROVINCE OF CHINA",1,,,,1.1,,,1.1
+C2020PHTH00386,Oil - Sunflower,fo,oil,Import,UNITED STATES,0,,,,,,,0
+C2020PHTH00387,Vegetable Shortening,fo,shortening,Import,UNITED STATES,0,,,,,,,0
+C2020PHTH00388,Soup,rte,rte,Domestic,CANADA,0,,,,,,,0
+C2020PHTH00389,Soup,rte,rte,Domestic,CANADA,0,,,,,,,0
+C2020PHTH00390,Meal - RTE,rte,rte,Import,UNITED STATES,0,,,,,,,0
+C2020PHTH00391,Pizza Products,rte,rte,Domestic,CANADA,0,,,,,,,0
+C2020PHTH00392,Oil - Olive,fo,oil,Import,UNKNOWN,2,,,,,0.5,2.0,2.5
+C2020PHTH00393,Oil - Soybean,fo,oil,Unknown,UNKNOWN,0,,,,,,,0
+C2020PHTH00394,Vegetable Shortening,fo,shortening,Domestic,CANADA,0,,,,,,,0
+C2020PHTH00395,Meal - RTE,rte,rte,Import,UNITED STATES,0,,,,,,,0
+C2020PHTH00396,Meal - RTE,rte,rte,Import,UNITED STATES,0,,,,,,,0
+C2020PHTH00397,Pizza Products,rte,rte,Import,UNKNOWN,0,,,,,,,0
+C2020PHTH00398,Pizza Products,rte,rte,Unknown,UNKNOWN,0,,,,,,,0
+C2020PHTH00399,Salad Dressing,fo,dressing,Unknown,UNKNOWN,0,,,,,,,0
+C2020PHTH00400,Pizza Products,rte,rte,Domestic,CANADA,0,,,,,,,0
+C2020PHTH00401,Oil - Palm,fo,oil,Import,ECUADOR,0,,,,,,,0
+C2020PHTH00402,Salad Dressing,fo,dressing,Import,UNKNOWN,1,,,,,0.6,,0.6
+C2020PHTH00403,Meal - Toddler/Baby,rte,rte,Import,FRANCE,0,,,,,,,0
+C2020PHTH00404,Oil - Corn,fo,oil,Import,UNITED STATES,0,,,,,,,0
+C2020PHTH00405,Oil - Sesame,fo,oil,Unknown,UNKNOWN,0,,,,,,,0
+C2020PHTH00406,Mayonnaise,fo,mayo,Import,UNKNOWN,0,,,,,,,0
+C2020PHTH00407,Meal - RTE,rte,rte,Import,UNITED STATES,0,,,,,,,0
+C2020PHTH00408,Meal - Toddler/Baby,rte,rte,Import,UNITED STATES,0,,,,,,,0
+C2020PHTH00409,Pizza Products,rte,rte,Unknown,UNKNOWN,0,,,,,,,0
+C2020PHTH00410,Pizza Products,rte,rte,Domestic,CANADA,0,,,,,,,0
+C2020PHTH00411,Oil - Canola,fo,oil,Unknown,UNKNOWN,0,,,,,,,0
+C2020PHTH00412,Vegetable Shortening,fo,shortening,Import,UNITED STATES,0,,,,,,,0
+C2020PHTH00413,Meal - Toddler/Baby,rte,rte,Import,FRANCE,0,,,,,,,0
+C2020PHTH00414,Infant Food - Puree,rte,rte,Import,LATVIA,0,,,,,,,0
+C2020PHTH00415,Vegetable Shortening,fo,shortening,Import,UNITED STATES,0,,,,,,,0
+C2020PHTH00416,Salad Dressing,fo,dressing,Domestic,CANADA,1,,,,0.3,,,0.3
+C2020PHTH00417,Soup,rte,rte,Import,UNITED STATES,0,,,,,,,0
+C2020PHTH00418,Oil - Olive,fo,oil,Import,SPAIN,0,,,,,,,0
+C2020PHTH00419,Oil - Palm,fo,oil,Import,ECUADOR,0,,,,,,,0
+C2020PHTH00420,Vegetable Shortening,fo,shortening,Import,UNITED STATES,0,,,,,,,0
+C2020PHTH00421,Soup,rte,rte,Import,UNITED STATES,0,,,,,,,0
+C2020PHTH00422,Infant Food - Puree,rte,rte,Import,MEXICO,0,,,,,,,0
+C2020PHTH00423,Infant Food - Puree,rte,rte,Domestic,CANADA,0,,,,,,,0
+C2020PHTH00424,Vegetable Shortening,fo,shortening,Unknown,UNKNOWN,0,,,,,,,0
+C2020PHTH00425,Vegetable Shortening,fo,shortening,Import,UNITED STATES,0,,,,,,,0
+C2020PHTH00426,Salad Dressing,fo,dressing,Import,UNKNOWN,0,,,,,,,0
+C2020PHTH00427,Salad Dressing,fo,dressing,Unknown,UNKNOWN,0,,,,,,,0
+C2020PHTH00428,Soup,rte,rte,Import,UNITED STATES,0,,,,,,,0
+C2020PHTH00429,Meal - RTE,rte,rte,Domestic,CANADA,0,,,,,,,0
+C2020PHTH00430,Meal - Toddler/Baby,rte,rte,Import,UNITED STATES,0,,,,,,,0
+C2020PHTH00431,Meal - Toddler/Baby,rte,rte,Import,UNKNOWN,0,,,,,,,0
+C2020PHTH00432,Infant Food - Puree,rte,rte,Import,ITALY,0,,,,,,,0
+C2020PHTH00433,Pizza Products,rte,rte,Domestic,CANADA,0,,,,,,,0
+C2020PHTH00434,Oil - Soybean,fo,oil,Unknown,UNKNOWN,0,,,,,,,0
+C2020PHTH00435,Vegetable Shortening,fo,shortening,Import,UNITED STATES,0,,,,,,,0
+C2020PHTH00436,Salad Dressing,fo,dressing,Import,UNITED STATES,0,,,,,,,0
+C2020PHTH00437,Salad Dressing,fo,dressing,Unknown,UNKNOWN,0,,,,,,,0
+C2020PHTH00438,Salad Dressing,fo,dressing,Import,UNKNOWN,0,,,,,,,0
+C2020PHTH00439,Soup,rte,rte,Import,UNITED STATES,0,,,,,,,0
+C2020PHTH00440,Meal - Toddler/Baby,rte,rte,Import,FRANCE,0,,,,,,,0
+C2020PHTH00441,Pizza Products,rte,rte,Domestic,CANADA,0,,,,,,,0
+C2020PHTH00442,Vegetable Shortening,fo,shortening,Import,UNITED STATES,0,,,,,,,0
+C2020PHTH00443,Oil - Blend,fo,oil,Unknown,UNKNOWN,0,,,,,,,0
+C2020PHTH00444,Meal - RTE,rte,rte,Domestic,CANADA,0,,,,,,,0
+C2020PHTH00445,Pizza Products,rte,rte,Import,GERMANY,0,,,,,,,0
+C2020PHTH00446,Meal - RTE,rte,rte,Import,UNITED STATES,0,,,,,,,0
+C2020PHTH00447,Oil - Palm,fo,oil,Import,GHANA,1,,,,0.5,,,0.5
+C2020PHTH00448,Oil - Sunflower,fo,oil,Unknown,UNKNOWN,0,,,,,,,0
+C2020PHTH00449,Vegetable Shortening,fo,shortening,Unknown,UNKNOWN,0,,,,,,,0
+C2020PHTH00450,Vegetable Shortening,fo,shortening,Unknown,UNKNOWN,0,,,,,,,0
+C2020PHTH00451,Oil - Corn,fo,oil,Import,UNKNOWN,0,,,,,,,0
+C2020PHTH00452,Oil - Peanut,fo,oil,Import,UNKNOWN,0,,,,,,,0
+C2020PHTH00453,Vegetable Shortening,fo,shortening,Import,UNITED STATES,0,,,,,,,0
+C2020PHTH00454,Mayonnaise,fo,mayo,Domestic,CANADA,0,,,,,,,0
+C2020PHTH00455,Soup,rte,rte,Domestic,CANADA,0,,,,,,,0
+C2020PHTH00456,Meal - RTE,rte,rte,Domestic,CANADA,0,,,,,,,0
+C2020PHTH00457,Meal - RTE,rte,rte,Import,INDIA,0,,,,,,,0
+C2020PHTH00458,Infant Food - Puree,rte,rte,Import,FRANCE,0,,,,,,,0
+C2020PHTH00459,Pizza Products,rte,rte,Import,GERMANY,0,,,,,,,0
+C2020PHTH00460,Oil - Vegetable,fo,oil,Domestic,CANADA,0,,,,,,,0
+C2020PHTH00461,Oil - Olive,fo,oil,Import,ITALY,0,,,,,,,0
+C2020PHTH00462,Vegetable Shortening,fo,shortening,Import,UNITED STATES,0,,,,,,,0
+C2020PHTH00463,Salad Dressing,fo,dressing,Domestic,CANADA,0,,,,,,,0
+C2020PHTH00464,Soup,rte,rte,Import,UNITED STATES,0,,,,,,,0
+C2020PHTH00465,Soup,rte,rte,Unknown,UNKNOWN,0,,,,,,,0
+C2020PHTH00466,Soup,rte,rte,Unknown,UNKNOWN,0,,,,,,,0
+C2020PHTH00467,Meal - RTE,rte,rte,Import,UNITED STATES,0,,,,,,,0
+C2020PHTH00468,Meal - RTE,rte,rte,Import,UNITED STATES,0,,,,,,,0
+C2020PHTH00469,Infant Food - Puree,rte,rte,Import,ITALY,0,,,,,,,0
+C2020PHTH00470,Pizza Products,rte,rte,Import,GERMANY,0,,,,,,,0
+C2020PHTH00471,Pizza Products,rte,rte,Import,UNITED STATES,0,,,,,,,0
+C2020PHTH00472,Pizza Products,rte,rte,Domestic,CANADA,0,,,,,,,0
+C2020PHTH00473,Vegetable Shortening,fo,shortening,Unknown,UNKNOWN,0,,,,,,,0
+C2020PHTH00474,Meal - RTE,rte,rte,Import,UNITED STATES,0,,,,,,,0
+C2020PHTH00475,Oil - Soybean,fo,oil,Unknown,UNKNOWN,0,,,,,,,0
+C2020PHTH00476,Oil - Sunflower,fo,oil,Import,FRANCE,0,,,,,,,0
+C2020PHTH00477,Meal - RTE,rte,rte,Import,UNITED STATES,0,,,,,,,0
+C2020PHTH00478,Pizza Products,rte,rte,Domestic,CANADA,0,,,,,,,0
+C2020PHTH00479,Soup,rte,rte,Unknown,UNKNOWN,0,,,,,,,0
+C2020PHTH00480,Soup,rte,rte,Import,UNITED STATES,0,,,,,,,0
+C2020PHTH00481,Pizza Products,rte,rte,Domestic,CANADA,0,,,,,,,0
+C2020PHTH00482,Meal - Toddler/Baby,rte,rte,Unknown,UNKNOWN,5,,0.9,0.9,0.9,0.6,0.9,4.2
+C2020PHTH00483,Oil - Sunflower,fo,oil,Unknown,UNKNOWN,0,,,,,,,0
+C2020PHTH00484,Oil - Blend,fo,oil,Import,CHINA,0,,,,,,,0
+C2020PHTH00485,Infant Food - Puree,rte,rte,Import,FRANCE,0,,,,,,,0
+C2020PHTH00486,Oil - Corn,fo,oil,Unknown,UNKNOWN,0,,,,,,,0
+C2020PHTH00487,Oil - Olive,fo,oil,Import,SPAIN,1,,,,,0.5,,0.5
+C2020PHTH00488,Oil - Soybean,fo,oil,Import,UNITED STATES,0,,,,,,,0
+C2020PHTH00489,Oil - Sunflower,fo,oil,Import,UNITED STATES,0,,,,,,,0
+C2020PHTH00490,Salad Dressing,fo,dressing,Domestic,CANADA,0,,,,,,,0
+C2020PHTH00491,Salad Dressing,fo,dressing,Domestic,CANADA,0,,,,,,,0
+C2020PHTH00492,Soup,rte,rte,Import,UNITED STATES,0,,,,,,,0
+C2020PHTH00493,Soup,rte,rte,Import,UNITED STATES,0,,,,,,,0
+C2020PHTH00494,Meal - Toddler/Baby,rte,rte,Import,FRANCE,0,,,,,,,0
+C2020PHTH00495,Pizza Products,rte,rte,Import,UNITED STATES,0,,,,,,,0
+C2020PHTH00496,Oil - Canola,fo,oil,Domestic,CANADA,0,,,,,,,0
+C2020PHTH00497,Oil - Soybean,fo,oil,Unknown,UNKNOWN,0,,,,,,,0
+C2020PHTH00498,Oil - Canola,fo,oil,Domestic,CANADA,0,,,,,,,0
+C2020PHTH00499,Meal - Toddler/Baby,rte,rte,Import,UNITED STATES,0,,,,,,,0
+C2020PHTH00500,Salad Dressing,fo,dressing,Unknown,UNKNOWN,0,,,,,,,0

@@ -1,0 +1,345 @@
+{
+  "bytes": 117529,
+  "census_items": {
+    "S1": {
+      "counts": {
+        "fo": 250,
+        "rte": 250,
+        "unmapped": 0
+      },
+      "held": true
+    },
+    "S2": {
+      "counts": {
+        "dressing": 50,
+        "mayo": 2,
+        "oil": 150,
+        "rte": 250,
+        "shortening": 48
+      },
+      "held": true
+    },
+    "S3": {
+      "counts": {
+        "fo": {
+          "Domestic": 28,
+          "Import": 159,
+          "Unknown": 63
+        },
+        "rte": {
+          "Domestic": 56,
+          "Import": 166,
+          "Unknown": 28
+        }
+      },
+      "held": false,
+      "printed": {
+        "fo": {
+          "Domestic": 27,
+          "Import": 161,
+          "Unknown": 62
+        },
+        "rte": {
+          "Domestic": 56,
+          "Import": 165,
+          "Unknown": 29
+        }
+      }
+    }
+  },
+  "descriptive": {
+    "identical_nonzero_totals": {
+      "0.2": [
+        "C2020PHTH00182",
+        "C2020PHTH00241"
+      ],
+      "0.3": [
+        "C2020PHTH00160",
+        "C2020PHTH00177",
+        "C2020PHTH00192",
+        "C2020PHTH00205",
+        "C2020PHTH00231",
+        "C2020PHTH00301",
+        "C2020PHTH00416"
+      ],
+      "0.4": [
+        "C2020PHTH00008",
+        "C2020PHTH00144",
+        "C2020PHTH00178"
+      ],
+      "0.5": [
+        "C2020PHTH00030",
+        "C2020PHTH00314",
+        "C2020PHTH00447",
+        "C2020PHTH00487"
+      ],
+      "0.6": [
+        "C2020PHTH00081",
+        "C2020PHTH00203",
+        "C2020PHTH00267",
+        "C2020PHTH00376",
+        "C2020PHTH00402"
+      ],
+      "0.7": [
+        "C2020PHTH00028",
+        "C2020PHTH00130"
+      ],
+      "0.9": [
+        "C2020PHTH00128",
+        "C2020PHTH00339"
+      ],
+      "2.5": [
+        "C2020PHTH00340",
+        "C2020PHTH00392"
+      ]
+    },
+    "per_phthalate": {
+      "BBP": {
+        "max": 0.6,
+        "min": 0.6,
+        "samples": 1
+      },
+      "DBP": {
+        "max": 0.9,
+        "min": 0.2,
+        "samples": 9
+      },
+      "DEHP": {
+        "max": 2.9,
+        "min": 0.2,
+        "samples": 23
+      },
+      "DIDP": {
+        "max": 2.0,
+        "min": 0.5,
+        "samples": 5
+      },
+      "DINP": {
+        "max": 0.6,
+        "min": 0.3,
+        "samples": 8
+      },
+      "DNOP": {
+        "max": 0.9,
+        "min": 0.5,
+        "samples": 2
+      }
+    },
+    "positives_by_function": {
+      "Domestic": 2,
+      "Import": 31,
+      "Unknown": 3
+    },
+    "positives_by_product": {
+      "Meal - Toddler/Baby": 2,
+      "Oil - Avocado": 1,
+      "Oil - Blend": 1,
+      "Oil - Coconut": 2,
+      "Oil - Olive": 6,
+      "Oil - Palm": 7,
+      "Oil - Peanut": 2,
+      "Oil - Sesame": 8,
+      "Oil - Soybean": 1,
+      "Oil - Sunflower": 1,
+      "Pizza Products": 2,
+      "Salad Dressing": 2,
+      "Soup": 1
+    },
+    "screen_vs_rows_mismatch": [],
+    "smallest_stored": [
+      [
+        0.2,
+        "C2020PHTH00030",
+        "DBP",
+        "Oil - Coconut"
+      ],
+      [
+        0.2,
+        "C2020PHTH00182",
+        "DBP",
+        "Oil - Sesame"
+      ],
+      [
+        0.2,
+        "C2020PHTH00241",
+        "DEHP",
+        "Oil - Olive"
+      ],
+      [
+        0.3,
+        "C2020PHTH00030",
+        "DEHP",
+        "Oil - Coconut"
+      ],
+      [
+        0.3,
+        "C2020PHTH00160",
+        "DINP",
+        "Oil - Peanut"
+      ]
+    ]
+  },
+  "encoding": "utf-8-sig",
+  "gate": {
+    "A1": true,
+    "G_as_written": false,
+    "md5": true,
+    "problems": {
+      "bad_screen": [],
+      "bad_unit": [],
+      "mixed_product": [],
+      "no_screen": [],
+      "non_numeric": [],
+      "repeated": [],
+      "unknown_component": [],
+      "unmapped_product": []
+    },
+    "samples_500": true,
+    "screen_tokens_that_are_counts": 36,
+    "size_in_band": true
+  },
+  "grades": {
+    "V1": {
+      "held": true,
+      "rows": {
+        "all": {
+          "checks": {
+            "max": true,
+            "mean": true,
+            "min": true,
+            "n": true,
+            "positives": true,
+            "share": true
+          },
+          "stats": {
+            "max": 4.2,
+            "mean": 0.961111,
+            "min": 0.2,
+            "n": 500,
+            "positives": 36
+          }
+        },
+        "fo": {
+          "checks": {
+            "max": true,
+            "mean": true,
+            "min": true,
+            "n": true,
+            "positives": true,
+            "share": true
+          },
+          "stats": {
+            "max": 3.4,
+            "mean": 0.864516,
+            "min": 0.2,
+            "n": 250,
+            "positives": 31
+          }
+        },
+        "rte": {
+          "checks": {
+            "max": true,
+            "mean": true,
+            "min": true,
+            "n": true,
+            "positives": true,
+            "share": true
+          },
+          "stats": {
+            "max": 4.2,
+            "mean": 1.56,
+            "min": 0.3,
+            "n": 250,
+            "positives": 5
+          }
+        }
+      }
+    },
+    "V2": {
+      "checks": {
+        "negatives_464": true,
+        "single_top": true,
+        "top_4_2": true,
+        "top_children_label": true,
+        "top_rte": true
+      },
+      "held": true,
+      "negatives": 464,
+      "top": {
+        "id": "C2020PHTH00482",
+        "product": "Meal - Toddler/Baby",
+        "total": 4.2,
+        "values": {
+          "DBP": 0.9,
+          "DEHP": 0.9,
+          "DIDP": 0.9,
+          "DINP": 0.6,
+          "DNOP": 0.9
+        }
+      }
+    },
+    "V3": {
+      "checks": {
+        "dehp_23": true,
+        "multi_7": true,
+        "others_1_to_9": true
+      },
+      "held": true,
+      "multi": 7,
+      "per_phthalate_positive_samples": {
+        "BBP": 1,
+        "DBP": 9,
+        "DEHP": 23,
+        "DIDP": 5,
+        "DINP": 8,
+        "DNOP": 2
+      }
+    },
+    "V4": {
+      "checks": {
+        "dressing": true,
+        "dressing_0_3_and_0_6": true,
+        "oil": true,
+        "oil_29_positive": true
+      },
+      "dressing": {
+        "max": 0.6,
+        "mean": 0.45,
+        "min": 0.3,
+        "n": 50,
+        "positives": 2
+      },
+      "dressing_positives": [
+        0.3,
+        0.6
+      ],
+      "held": true,
+      "oil": {
+        "max": 3.4,
+        "mean": 0.893103,
+        "min": 0.2,
+        "n": 150,
+        "positives": 29
+      }
+    },
+    "V5": {
+      "checks": {
+        "none": true
+      },
+      "held": true,
+      "positive_mayo_or_shortening": []
+    }
+  },
+  "held": [
+    "V1",
+    "V2",
+    "V3",
+    "V4",
+    "V5"
+  ],
+  "md5": "612780be14a4a571044d93aaa27f99f2",
+  "sha256": "e2b717fda4aa976bc484f3090441006b4504d7db283f1ed7af40919fdad13e5a",
+  "source": "https://open.canada.ca/data/dataset/4ae4c2b3-e1b7-451a-b313-02e51d73da73/resource/960252a3-4b35-44ef-9e8d-46ed1b0dd61c/download/fsap-chem-ts-2020-2021-phthalates-in-ready-to-eat-meals-vegetable-fats-and-oils.csv",
+  "study": "phthalates-2020",
+  "version": "0.1.0"
+}
