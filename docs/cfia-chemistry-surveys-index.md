@@ -29,7 +29,10 @@ checked, and the 2018-19 one is the second file in the series with a 1,000-fold 
 (after the 2014-15 aflatoxin M1 unit label). The perchlorate files add a new kind: averages. Two
 CFIA documents describe the same samples with different, unstated averages (all samples with
 non-detects as zero, or detects only), and one later table pairs a subset's count and range with
-the full group's average.
+the full group's average. The 2020-21 phthalates file is the cleanest so far: every value claim of
+its report reproduces, and only its origin table is off. A later CFIA table's "2012 to 2015" rows,
+by contrast, are not label groups of the 2012-2018 file for any choice of years. On the portal
+side, open.canada.ca's resource sizes are kibibytes rounded up, not rounded to nearest.
 
 ## Children's Food Project (aflatoxin M1, lead)
 
@@ -187,6 +190,13 @@ the full group's average.
   Value items are graded under a format-only amendment (A1), reported apart.
 - [Grader note](phthalates-2020-0.1.0-grader.md), with `phthalates_2020.py` and 11 offline tests,
   published before any value is read.
+- [Result](phthalates-2020-0.1.0-result.md). Under A1 all five value items held: Table 2 in all 18
+  cells, the 464 samples without phthalates, the single 4.2 ppm maximum in a `Meal - Toddler/Baby`
+  sample, DEHP in 23 samples with 7 multi-phthalate samples, and Table 3's 2020 oil and dressing
+  rows. The pre-registration's arithmetic is confirmed exactly: the two positive dressings are 0.3
+  and 0.6 ppm and the oils carry the other 29. Only 2 of 53 toddler and baby meals have
+  phthalates, but they are the two largest ready-to-eat results and the only meals with more than
+  one phthalate.
 
 ## Phthalates in flatbreads and vegan products 2018-19, and the 2012-2015 rows of two later tables
 
@@ -199,5 +209,16 @@ the full group's average.
   2020-21 reports print (grain products, nut and seed butters, ready-to-eat meals, oils, salad
   dressings, mayonnaise) are predicted from the 2012-2018 file. Their 57.1% and 36% rates pin 128
   of 224 meals and 8 of 22 dressings.
+- [Census note, label maps and size-band amendment A2](phthalates-series-0.1.0-census.md). Both
+  MD5s match, but both files sit just below their registered size bands, because the portal's
+  kibibyte sizes are rounded up (this fits all four files checked so far); A2 fixes the band. The
+  2018-19 file holds 208 flatbreads and 391 vegan products and matches its origin table in all six
+  cells; its screen counts already give 526 samples without phthalates, DINP in 51 (so "BINP" is
+  DINP), DEHP in 24, DBP in 4 and DIDP in 2. The 2012-2018 file holds 4,517 samples, 977 with a
+  phthalate. Read by sampling year, its 2012-15 nut and seed butters are exactly the 2018-19
+  report's 100, and its grain products 459 against 460; but the 2020-21 report's 2012-2015 counts
+  (224 meals, 180 oils, 22 dressings, 327 fats and oils) match no combination of survey years.
+- [Grader note](phthalates-series-0.1.0-grader.md), with `phthalates_series.py` and 14 offline
+  tests, published before any value of either file is read.
 
 MV2, Munim, Inc., mv2@munimtech.com
