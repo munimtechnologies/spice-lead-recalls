@@ -167,7 +167,8 @@ the full group's average.
   formula row gives the non-soy formulas' count and range with the average of all formulas,
   soy included (10.4, 11.8, 16.5; non-soy alone 7.7, 9.7, 15.7). Its 2010 cheese 5.1 matches
   neither reading. No placement the label arithmetic allowed gives 2013-14's processed share of
-  40% (the file gives 39.2% to 59.8%).
+  40% (the file gives 39.2% to 59.8%). Its independent test re-ran from GitHub in a sealed job on
+  2026-11-05 and passed (16 tests).
 
 ## Phthalates in ready-to-eat meals, vegetable fats and oils, 2020-21
 
@@ -176,5 +177,15 @@ the full group's average.
   4% of 50 is exactly 2 positives (they must be 0.3 and 0.6 ppm), so oils carry 29 of the 31. The
   page's "0.006 mg/L (0.6 parts per billion)" for the US bottled-water DEHP limit is 6 parts per
   billion.
+- [Census note, label map and amendment A1](phthalates-2020-0.1.0-census.md). The gate as
+  written failed: every sample has a `Phthalate Screen` row holding a text count with unit `n/a`,
+  next to one µg/g row per phthalate found. 3 of 5 census items held: 250 meals and 250 fats and
+  oils, 150 oils / 50 dressings / 50 shortenings and mayonnaises, and the six phthalate labels.
+  Table 1's origin cells are off by one or two samples in each group (file 56 / 166 / 28 and
+  28 / 159 / 63; printed 56 / 165 / 29 and 27 / 161 / 62), and the file has no region field. The
+  screen tokens already show 464 samples without phthalates, DEHP in 23 and 7 with more than one.
+  Value items are graded under a format-only amendment (A1), reported apart.
+- [Grader note](phthalates-2020-0.1.0-grader.md), with `phthalates_2020.py` and 11 offline tests,
+  published before any value is read.
 
 MV2, Munim, Inc., mv2@munimtech.com
