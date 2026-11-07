@@ -1,0 +1,1061 @@
+{
+  "all_roles": {
+    "commodity": null,
+    "component": 10,
+    "date": 7,
+    "function": 1,
+    "origin": 3,
+    "plan": 14,
+    "product": 5,
+    "region": null,
+    "sample": 0,
+    "test": 8,
+    "unit": 13,
+    "value": 12
+  },
+  "analyte_headers": [],
+  "bytes": 158076,
+  "census": {
+    "columns": {
+      "commodity": null,
+      "component": 10,
+      "date": 7,
+      "function": 1,
+      "origin": 3,
+      "plan": 14,
+      "product": 5,
+      "region": null,
+      "sample": 0,
+      "test": 8,
+      "unit": 13,
+      "value": 12
+    },
+    "commodities": {
+      "": 498
+    },
+    "components": {
+      "Fumonisin B1": 498,
+      "Fumonisin B2": 498
+    },
+    "header": [
+      "Sample No. – No. d’échantillon",
+      "Function",
+      "Fonction",
+      "Origin",
+      "Origine",
+      "Product",
+      "Produit",
+      "Date Sampled – Date d’échantillonage",
+      "Type of Test",
+      "Type d’analyse",
+      "Component",
+      "Composant",
+      "Result - Résultat",
+      "Unit - Unité",
+      "Plan Code - Code du régime"
+    ],
+    "id_gaps": 0,
+    "id_range": null,
+    "ids_bad": [
+      "2011FUM0001",
+      "2011FUM0002",
+      "2011FUM0003",
+      "2011FUM0004",
+      "2011FUM0005",
+      "2011FUM0006",
+      "2011FUM0007",
+      "2011FUM0008",
+      "2011FUM0009",
+      "2011FUM0010"
+    ],
+    "ids_bad_count": 498,
+    "ids_dup_suffix": [],
+    "missing_component_samples": {},
+    "mixed_label_samples": [],
+    "plans": {
+      "2011_TS002": 996
+    },
+    "product_commodity": {
+      "Bean - Soy | ": 38,
+      "Beverage - Soy | ": 36,
+      "Cereal - Corn | ": 35,
+      "Cereal - Other | ": 43,
+      "Chips - Corn | ": 36,
+      "Corn - Sweet - Organic | ": 2,
+      "Corn Products | ": 108,
+      "Corn | ": 25,
+      "Cornmeal | ": 44,
+      "Flour - Corn | ": 12,
+      "Flour - Soy | ": 4,
+      "Infant Formula - Soy | ": 29,
+      "Misc - Soy | ": 43,
+      "Misc | ": 1,
+      "Protein Powder | ": 1,
+      "Soy Products | ": 41
+    },
+    "product_function": {
+      "Bean - Soy": {
+        "Domestic": 16,
+        "Import": 22
+      },
+      "Beverage - Soy": {
+        "Domestic": 18,
+        "Import": 18
+      },
+      "Cereal - Corn": {
+        "Domestic": 20,
+        "Import": 14,
+        "Unknown": 1
+      },
+      "Cereal - Other": {
+        "Domestic": 24,
+        "Import": 19
+      },
+      "Chips - Corn": {
+        "Domestic": 17,
+        "Import": 18,
+        "Unknown": 1
+      },
+      "Corn": {
+        "Domestic": 14,
+        "Import": 11
+      },
+      "Corn - Sweet - Organic": {
+        "Import": 2
+      },
+      "Corn Products": {
+        "Domestic": 34,
+        "Import": 70,
+        "Unknown": 4
+      },
+      "Cornmeal": {
+        "Domestic": 11,
+        "Import": 28,
+        "Unknown": 5
+      },
+      "Flour - Corn": {
+        "Domestic": 4,
+        "Import": 7,
+        "Unknown": 1
+      },
+      "Flour - Soy": {
+        "Domestic": 2,
+        "Import": 2
+      },
+      "Infant Formula - Soy": {
+        "Domestic": 2,
+        "Import": 26,
+        "Unknown": 1
+      },
+      "Misc": {
+        "Domestic": 1
+      },
+      "Misc - Soy": {
+        "Domestic": 20,
+        "Import": 23
+      },
+      "Protein Powder": {
+        "Domestic": 1
+      },
+      "Soy Products": {
+        "Domestic": 31,
+        "Import": 10
+      }
+    },
+    "product_id_runs": {
+      "Bean - Soy": [],
+      "Beverage - Soy": [],
+      "Cereal - Corn": [],
+      "Cereal - Other": [],
+      "Chips - Corn": [],
+      "Corn": [],
+      "Corn - Sweet - Organic": [],
+      "Corn Products": [],
+      "Cornmeal": [],
+      "Flour - Corn": [],
+      "Flour - Soy": [],
+      "Infant Formula - Soy": [],
+      "Misc": [],
+      "Misc - Soy": [],
+      "Protein Powder": [],
+      "Soy Products": []
+    },
+    "product_origin_top": {
+      "Bean - Soy": {
+        "ARGENTINA": 1,
+        "CANADA": 16,
+        "CHINA": 6,
+        "MALAYSIA": 1,
+        "United States": 10,
+        "Unknown": 4
+      },
+      "Beverage - Soy": {
+        "CANADA": 18,
+        "MALAYSIA": 1,
+        "United States": 17
+      },
+      "Cereal - Corn": {
+        "CANADA": 20,
+        "FRANCE": 1,
+        "SPAIN": 1,
+        "United States": 5,
+        "Unknown": 8
+      },
+      "Cereal - Other": {
+        "CANADA": 24,
+        "United States": 18,
+        "Unknown": 1
+      },
+      "Chips - Corn": {
+        "CANADA": 17,
+        "HONG KONG": 1,
+        "MEXICO": 4,
+        "PHILIPPINES": 1,
+        "United States": 7,
+        "Unknown": 6
+      },
+      "Corn": {
+        "CANADA": 14,
+        "THAILAND": 4,
+        "United States": 7
+      },
+      "Corn - Sweet - Organic": {
+        "United States": 2
+      },
+      "Corn Products": {
+        "CANADA": 34,
+        "CHINA": 1,
+        "ITALY": 3,
+        "MEXICO": 3,
+        "PHILIPPINES": 2,
+        "United States": 49,
+        "Unknown": 15,
+        "Vietnam": 1
+      },
+      "Cornmeal": {
+        "CANADA": 11,
+        "CHINA": 1,
+        "COLOMBIA": 3,
+        "United States": 18,
+        "Unknown": 11
+      },
+      "Flour - Corn": {
+        "CANADA": 4,
+        "COLOMBIA": 1,
+        "INDIA": 1,
+        "United States": 4,
+        "Unknown": 2
+      },
+      "Flour - Soy": {
+        "CANADA": 2,
+        "United States": 2
+      },
+      "Infant Formula - Soy": {
+        "CANADA": 2,
+        "NETHERLANDS": 6,
+        "SWITZERLAND": 3,
+        "United States": 17,
+        "Unknown": 1
+      },
+      "Misc": {
+        "CANADA": 1
+      },
+      "Misc - Soy": {
+        "CANADA": 20,
+        "FRANCE": 1,
+        "JAPAN": 10,
+        "United States": 11,
+        "Unknown": 1
+      },
+      "Protein Powder": {
+        "CANADA": 1
+      },
+      "Soy Products": {
+        "CANADA": 31,
+        "JAPAN": 5,
+        "United States": 4,
+        "Unknown": 1
+      }
+    },
+    "products": {
+      "Bean - Soy": 38,
+      "Beverage - Soy": 36,
+      "Cereal - Corn": 35,
+      "Cereal - Other": 43,
+      "Chips - Corn": 36,
+      "Corn": 25,
+      "Corn - Sweet - Organic": 2,
+      "Corn Products": 108,
+      "Cornmeal": 44,
+      "Flour - Corn": 12,
+      "Flour - Soy": 4,
+      "Infant Formula - Soy": 29,
+      "Misc": 1,
+      "Misc - Soy": 43,
+      "Protein Powder": 1,
+      "Soy Products": 41
+    },
+    "regions": {
+      "": 996
+    },
+    "repeated_component_samples": {},
+    "rows": 996,
+    "rows_per_sample": {
+      "2": 498
+    },
+    "samples": 498,
+    "shapes": {
+      "number": 996
+    },
+    "shapes_by_component": {
+      "Fumonisin B1": {
+        "number": 498
+      },
+      "Fumonisin B2": {
+        "number": 498
+      }
+    },
+    "tests": {
+      "FUMONISINS": 996
+    },
+    "tokens": {},
+    "units": {
+      "ng/g": 996
+    },
+    "units_by_component": {
+      "Fumonisin B1": {
+        "ng/g": 498
+      },
+      "Fumonisin B2": {
+        "ng/g": 498
+      }
+    }
+  },
+  "columns": {
+    "columns": [
+      {
+        "distinct_text": 0,
+        "name": "Sample No. – No. d’échantillon",
+        "sample_column": true,
+        "shapes": {
+          "token": 996
+        },
+        "text_rows": {},
+        "text_samples": {},
+        "value_like": false
+      },
+      {
+        "distinct_text": 3,
+        "name": "Function",
+        "sample_column": false,
+        "shapes": {
+          "token": 996
+        },
+        "text_rows": {
+          "Domestic": 430,
+          "Import": 540,
+          "Unknown": 26
+        },
+        "text_samples": {
+          "Domestic": 215,
+          "Import": 270,
+          "Unknown": 13
+        },
+        "value_like": false
+      },
+      {
+        "distinct_text": 3,
+        "name": "Fonction",
+        "sample_column": false,
+        "shapes": {
+          "token": 996
+        },
+        "text_rows": {
+          "Domestique": 430,
+          "Importé": 540,
+          "Inconnu": 26
+        },
+        "text_samples": {
+          "Domestique": 215,
+          "Importé": 270,
+          "Inconnu": 13
+        },
+        "value_like": false
+      },
+      {
+        "distinct_text": 19,
+        "name": "Origin",
+        "sample_column": false,
+        "shapes": {
+          "token": 996
+        },
+        "text_rows": {
+          "ARGENTINA": 2,
+          "CANADA": 430,
+          "CHINA": 16,
+          "COLOMBIA": 8,
+          "FRANCE": 4,
+          "HONG KONG": 2,
+          "INDIA": 2,
+          "ITALY": 6,
+          "JAPAN": 30,
+          "MALAYSIA": 4,
+          "MEXICO": 14,
+          "NETHERLANDS": 12,
+          "PHILIPPINES": 6,
+          "SPAIN": 2,
+          "SWITZERLAND": 6,
+          "THAILAND": 8,
+          "United States": 342,
+          "Unknown": 100,
+          "Vietnam": 2
+        },
+        "text_samples": {
+          "ARGENTINA": 1,
+          "CANADA": 215,
+          "CHINA": 8,
+          "COLOMBIA": 4,
+          "FRANCE": 2,
+          "HONG KONG": 1,
+          "INDIA": 1,
+          "ITALY": 3,
+          "JAPAN": 15,
+          "MALAYSIA": 2,
+          "MEXICO": 7,
+          "NETHERLANDS": 6,
+          "PHILIPPINES": 3,
+          "SPAIN": 1,
+          "SWITZERLAND": 3,
+          "THAILAND": 4,
+          "United States": 171,
+          "Unknown": 50,
+          "Vietnam": 1
+        },
+        "value_like": false
+      },
+      {
+        "distinct_text": 19,
+        "name": "Origine",
+        "sample_column": false,
+        "shapes": {
+          "token": 996
+        },
+        "text_rows": {
+          "ARGENTINE": 2,
+          "CANADA": 430,
+          "CHINE": 16,
+          "COLOMBIE": 8,
+          "ESPAGNE": 2,
+          "FRANCE": 4,
+          "HONG KONG": 2,
+          "INDE": 2,
+          "ITALIE": 6,
+          "Inconnu": 100,
+          "JAPON": 30,
+          "Malaisie": 4,
+          "MÉXIQUE": 14,
+          "PAYS-BAS": 12,
+          "PHILIPPINES": 6,
+          "SUISSE": 6,
+          "Thaïlande": 8,
+          "Vietnam": 2,
+          "États-Unis": 342
+        },
+        "text_samples": {
+          "ARGENTINE": 1,
+          "CANADA": 215,
+          "CHINE": 8,
+          "COLOMBIE": 4,
+          "ESPAGNE": 1,
+          "FRANCE": 2,
+          "HONG KONG": 1,
+          "INDE": 1,
+          "ITALIE": 3,
+          "Inconnu": 50,
+          "JAPON": 15,
+          "Malaisie": 2,
+          "MÉXIQUE": 7,
+          "PAYS-BAS": 6,
+          "PHILIPPINES": 3,
+          "SUISSE": 3,
+          "Thaïlande": 4,
+          "Vietnam": 1,
+          "États-Unis": 171
+        },
+        "value_like": false
+      },
+      {
+        "distinct_text": 16,
+        "name": "Product",
+        "sample_column": false,
+        "shapes": {
+          "token": 996
+        },
+        "text_rows": {
+          "Bean - Soy": 76,
+          "Beverage - Soy": 72,
+          "Cereal - Corn": 70,
+          "Cereal - Other": 86,
+          "Chips - Corn": 72,
+          "Corn": 50,
+          "Corn - Sweet - Organic": 4,
+          "Corn Products": 216,
+          "Cornmeal": 88,
+          "Flour - Corn": 24,
+          "Flour - Soy": 8,
+          "Infant Formula - Soy": 58,
+          "Misc": 2,
+          "Misc - Soy": 86,
+          "Protein Powder": 2,
+          "Soy Products": 82
+        },
+        "text_samples": {
+          "Bean - Soy": 38,
+          "Beverage - Soy": 36,
+          "Cereal - Corn": 35,
+          "Cereal - Other": 43,
+          "Chips - Corn": 36,
+          "Corn": 25,
+          "Corn - Sweet - Organic": 2,
+          "Corn Products": 108,
+          "Cornmeal": 44,
+          "Flour - Corn": 12,
+          "Flour - Soy": 4,
+          "Infant Formula - Soy": 29,
+          "Misc": 1,
+          "Misc - Soy": 43,
+          "Protein Powder": 1,
+          "Soy Products": 41
+        },
+        "value_like": false
+      },
+      {
+        "distinct_text": 16,
+        "name": "Produit",
+        "sample_column": false,
+        "shapes": {
+          "token": 996
+        },
+        "text_rows": {
+          "Boisson - Soja": 72,
+          "Chips - Maïs": 72,
+          "Céréales - Maïs": 70,
+          "Céréales - autre": 86,
+          "Divers": 2,
+          "Divers-Soja": 86,
+          "Farine - Soja": 8,
+          "Farine de maïs": 24,
+          "Maïs": 50,
+          "Maïs sucré-Biologique": 4,
+          "Poudre de protéine": 2,
+          "Produits de maïs": 216,
+          "Produits de soja": 82,
+          "Préparation pour nourrissons - Soja": 58,
+          "Semoule de maïs": 88,
+          "Soja": 76
+        },
+        "text_samples": {
+          "Boisson - Soja": 36,
+          "Chips - Maïs": 36,
+          "Céréales - Maïs": 35,
+          "Céréales - autre": 43,
+          "Divers": 1,
+          "Divers-Soja": 43,
+          "Farine - Soja": 4,
+          "Farine de maïs": 12,
+          "Maïs": 25,
+          "Maïs sucré-Biologique": 2,
+          "Poudre de protéine": 1,
+          "Produits de maïs": 108,
+          "Produits de soja": 41,
+          "Préparation pour nourrissons - Soja": 29,
+          "Semoule de maïs": 44,
+          "Soja": 38
+        },
+        "value_like": false
+      },
+      {
+        "distinct_text": 159,
+        "name": "Date Sampled – Date d’échantillonage",
+        "sample_column": false,
+        "shapes": {
+          "token": 996
+        },
+        "text_rows": {
+          "2011-02-09": 2,
+          "2011-04-15": 4,
+          "2011-04-18": 18,
+          "2011-04-19": 8,
+          "2011-04-20": 8,
+          "2011-04-26": 2,
+          "2011-04-27": 8,
+          "2011-04-29": 2,
+          "2011-05-02": 18,
+          "2011-05-03": 2,
+          "2011-05-04": 6,
+          "2011-05-06": 8,
+          "2011-05-08": 6,
+          "2011-05-09": 6,
+          "2011-05-11": 2,
+          "2011-05-13": 2,
+          "2011-05-15": 2,
+          "2011-05-19": 2,
+          "2011-06-02": 4,
+          "2011-06-06": 8,
+          "2011-06-07": 2,
+          "2011-06-08": 6,
+          "2011-06-09": 6,
+          "2011-06-10": 2,
+          "2011-06-13": 10,
+          "2011-06-14": 2,
+          "2011-06-15": 4,
+          "2011-06-19": 6,
+          "2011-06-21": 2,
+          "2011-06-28": 2,
+          "2011-07-02": 4,
+          "2011-07-04": 22,
+          "2011-07-05": 2,
+          "2011-07-06": 6,
+          "2011-07-07": 2,
+          "2011-07-08": 2,
+          "2011-07-13": 2,
+          "2011-07-16": 4,
+          "2011-07-17": 2,
+          "2011-07-19": 4,
+          "2011-07-22": 8,
+          "2011-07-25": 6,
+          "2011-07-28": 2,
+          "2011-07-29": 2,
+          "2011-08-02": 8,
+          "2011-08-03": 2,
+          "2011-08-08": 4,
+          "2011-08-09": 6,
+          "2011-08-18": 8,
+          "2011-08-24": 6,
+          "2011-08-25": 8,
+          "2011-08-29": 6,
+          "2011-09-02": 6,
+          "2011-09-28": 4,
+          "2011-10-18": 6,
+          "2011-11-01": 8,
+          "2011-11-03": 4,
+          "2011-11-06": 4,
+          "2011-11-07": 4,
+          "2011-11-09": 6,
+          "2011-11-10": 4,
+          "2011-11-14": 4,
+          "2011-11-16": 6,
+          "2011-11-18": 4,
+          "2011-11-24": 6,
+          "2011-11-26": 8,
+          "2011-12-02": 4,
+          "2011-12-04": 4,
+          "2011-12-05": 12,
+          "2011-12-06": 4,
+          "2011-12-08": 20,
+          "2011-12-12": 6,
+          "2011-12-13": 6,
+          "2011-12-14": 10,
+          "2011-12-19": 8,
+          "2011-12-21": 18,
+          "2011-12-27": 4,
+          "2011-12-28": 22,
+          "2011-12-29": 10,
+          "2012-01-02": 4,
+          "2012-01-04": 12,
+          "2012-01-08": 4,
+          "2012-01-09": 16,
+          "2012-01-10": 4,
+          "2012-01-11": 8,
+          "2012-01-12": 20,
+          "2012-01-14": 4,
+          "2012-01-15": 4,
+          "2012-01-16": 14,
+          "2012-01-17": 8,
+          "2012-01-18": 16,
+          "2012-01-19": 14,
+          "2012-01-20": 10,
+          "2012-01-24": 4,
+          "2012-01-25": 16,
+          "2012-01-26": 6,
+          "2012-01-27": 4,
+          "2012-01-30": 10,
+          "2012-01-31": 4,
+          "2012-02-01": 34,
+          "2012-02-06": 14,
+          "2012-02-07": 30,
+          "2012-02-10": 24,
+          "2012-02-15": 10,
+          "2012-02-18": 20,
+          "2012-02-19": 14,
+          "2012-02-21": 6,
+          "2012-02-22": 6,
+          "2012-02-23": 8,
+          "2012-02-24": 8,
+          "2012-02-25": 10,
+          "2012-02-26": 6,
+          "2012-02-27": 14,
+          "2012-02-28": 18,
+          "2012-02-29": 4,
+          "2012-03-01": 6,
+          "2012-03-05": 4,
+          "2012-03-06": 6,
+          "2012-03-07": 6,
+          "2012-03-15": 10
+        },
+        "text_samples": {
+          "2011-02-09": 1,
+          "2011-04-15": 2,
+          "2011-04-18": 9,
+          "2011-04-19": 4,
+          "2011-04-20": 4,
+          "2011-04-26": 1,
+          "2011-04-27": 4,
+          "2011-04-29": 1,
+          "2011-05-02": 9,
+          "2011-05-03": 1,
+          "2011-05-04": 3,
+          "2011-05-06": 4,
+          "2011-05-08": 3,
+          "2011-05-09": 3,
+          "2011-05-11": 1,
+          "2011-05-13": 1,
+          "2011-05-15": 1,
+          "2011-05-19": 1,
+          "2011-06-02": 2,
+          "2011-06-06": 4,
+          "2011-06-07": 1,
+          "2011-06-08": 3,
+          "2011-06-09": 3,
+          "2011-06-10": 1,
+          "2011-06-13": 5,
+          "2011-06-14": 1,
+          "2011-06-15": 2,
+          "2011-06-19": 3,
+          "2011-06-21": 1,
+          "2011-06-28": 1,
+          "2011-07-02": 2,
+          "2011-07-04": 11,
+          "2011-07-05": 1,
+          "2011-07-06": 3,
+          "2011-07-07": 1,
+          "2011-07-08": 1,
+          "2011-07-13": 1,
+          "2011-07-16": 2,
+          "2011-07-17": 1,
+          "2011-07-19": 2,
+          "2011-07-22": 4,
+          "2011-07-25": 3,
+          "2011-07-28": 1,
+          "2011-07-29": 1,
+          "2011-08-02": 4,
+          "2011-08-03": 1,
+          "2011-08-08": 2,
+          "2011-08-09": 3,
+          "2011-08-18": 4,
+          "2011-08-24": 3,
+          "2011-08-25": 4,
+          "2011-08-29": 3,
+          "2011-09-02": 3,
+          "2011-09-28": 2,
+          "2011-10-18": 3,
+          "2011-11-01": 4,
+          "2011-11-03": 2,
+          "2011-11-06": 2,
+          "2011-11-07": 2,
+          "2011-11-09": 3,
+          "2011-11-10": 2,
+          "2011-11-14": 2,
+          "2011-11-16": 3,
+          "2011-11-18": 2,
+          "2011-11-24": 3,
+          "2011-11-26": 4,
+          "2011-12-02": 2,
+          "2011-12-04": 2,
+          "2011-12-05": 6,
+          "2011-12-06": 2,
+          "2011-12-08": 10,
+          "2011-12-12": 3,
+          "2011-12-13": 3,
+          "2011-12-14": 5,
+          "2011-12-19": 4,
+          "2011-12-21": 9,
+          "2011-12-27": 2,
+          "2011-12-28": 11,
+          "2011-12-29": 5,
+          "2012-01-02": 2,
+          "2012-01-04": 6,
+          "2012-01-08": 2,
+          "2012-01-09": 8,
+          "2012-01-10": 2,
+          "2012-01-11": 4,
+          "2012-01-12": 10,
+          "2012-01-14": 2,
+          "2012-01-15": 2,
+          "2012-01-16": 7,
+          "2012-01-17": 4,
+          "2012-01-18": 8,
+          "2012-01-19": 7,
+          "2012-01-20": 5,
+          "2012-01-24": 2,
+          "2012-01-25": 8,
+          "2012-01-26": 3,
+          "2012-01-27": 2,
+          "2012-01-30": 5,
+          "2012-01-31": 2,
+          "2012-02-01": 17,
+          "2012-02-06": 7,
+          "2012-02-07": 15,
+          "2012-02-10": 12,
+          "2012-02-15": 5,
+          "2012-02-18": 10,
+          "2012-02-19": 7,
+          "2012-02-21": 3,
+          "2012-02-22": 3,
+          "2012-02-23": 4,
+          "2012-02-24": 4,
+          "2012-02-25": 5,
+          "2012-02-26": 3,
+          "2012-02-27": 7,
+          "2012-02-28": 9,
+          "2012-02-29": 2,
+          "2012-03-01": 3,
+          "2012-03-05": 2,
+          "2012-03-06": 3,
+          "2012-03-07": 3,
+          "2012-03-15": 5
+        },
+        "value_like": false
+      },
+      {
+        "distinct_text": 1,
+        "name": "Type of Test",
+        "sample_column": false,
+        "shapes": {
+          "token": 996
+        },
+        "text_rows": {
+          "FUMONISINS": 996
+        },
+        "text_samples": {
+          "FUMONISINS": 498
+        },
+        "value_like": false
+      },
+      {
+        "distinct_text": 1,
+        "name": "Type d’analyse",
+        "sample_column": false,
+        "shapes": {
+          "token": 996
+        },
+        "text_rows": {
+          "FUMONISINES": 996
+        },
+        "text_samples": {
+          "FUMONISINES": 498
+        },
+        "value_like": false
+      },
+      {
+        "distinct_text": 2,
+        "name": "Component",
+        "sample_column": false,
+        "shapes": {
+          "token": 996
+        },
+        "text_rows": {
+          "Fumonisin B1": 498,
+          "Fumonisin B2": 498
+        },
+        "text_samples": {
+          "Fumonisin B1": 498,
+          "Fumonisin B2": 498
+        },
+        "value_like": false
+      },
+      {
+        "distinct_text": 2,
+        "name": "Composant",
+        "sample_column": false,
+        "shapes": {
+          "token": 996
+        },
+        "text_rows": {
+          "Fumonisine B1": 498,
+          "Fumonisine B2": 498
+        },
+        "text_samples": {
+          "Fumonisine B1": 498,
+          "Fumonisine B2": 498
+        },
+        "value_like": false
+      },
+      {
+        "distinct_text": 0,
+        "name": "Result - Résultat",
+        "sample_column": false,
+        "shapes": {
+          "number": 996
+        },
+        "text_rows": {},
+        "text_samples": {},
+        "value_like": true
+      },
+      {
+        "distinct_text": 1,
+        "name": "Unit - Unité",
+        "sample_column": false,
+        "shapes": {
+          "token": 996
+        },
+        "text_rows": {
+          "ng/g": 996
+        },
+        "text_samples": {
+          "ng/g": 498
+        },
+        "value_like": false
+      },
+      {
+        "distinct_text": 1,
+        "name": "Plan Code - Code du régime",
+        "sample_column": false,
+        "shapes": {
+          "token": 996
+        },
+        "text_rows": {
+          "2011_TS002": 996
+        },
+        "text_samples": {
+          "2011_TS002": 498
+        },
+        "value_like": false
+      }
+    ],
+    "header_width": 15,
+    "row_widths": {
+      "15": 996
+    },
+    "rows": 996,
+    "samples": 498
+  },
+  "dataset": "e5906422-e8bf-498b-972e-faf2b688aa97",
+  "encoding": "utf-8-sig",
+  "gate_facts": {
+    "C1_samples": false,
+    "C3_no_B3": true,
+    "C3_subset_of_B1_B2_total": true,
+    "C4_all_ppb_scale": true,
+    "G": true,
+    "bytes": 158076,
+    "census_error": null,
+    "component_kinds": {
+      "Fumonisin B1": "B1",
+      "Fumonisin B2": "B2"
+    },
+    "md5": true,
+    "roles_found": true,
+    "samples": 498,
+    "size_band": [
+      157696,
+      158720
+    ],
+    "size_in_band": true,
+    "unit_kinds": {
+      "ng/g": "ppb"
+    }
+  },
+  "keywords": {
+    "Product": {
+      "cereal": 78,
+      "corn": 262,
+      "infant": 29,
+      "organic": 2,
+      "soy": 191
+    }
+  },
+  "md5": "9f6fddeb2448a199d1beae925a5f3a96",
+  "md5_matches_portal": true,
+  "portal_md5": "9f6fddeb2448a199d1beae925a5f3a96",
+  "portal_size": "155 (KiB)",
+  "product_years": {
+    "ambiguous": 0,
+    "by_product": {
+      "Bean - Soy": {
+        "2011-12": 38
+      },
+      "Beverage - Soy": {
+        "2011-12": 36
+      },
+      "Cereal - Corn": {
+        "2011-12": 35
+      },
+      "Cereal - Other": {
+        "2011-12": 43
+      },
+      "Chips - Corn": {
+        "2011-12": 36
+      },
+      "Corn": {
+        "2011-12": 25
+      },
+      "Corn - Sweet - Organic": {
+        "2011-12": 2
+      },
+      "Corn Products": {
+        "2011-12": 108
+      },
+      "Cornmeal": {
+        "2010-11": 1,
+        "2011-12": 43
+      },
+      "Flour - Corn": {
+        "2011-12": 12
+      },
+      "Flour - Soy": {
+        "2011-12": 4
+      },
+      "Infant Formula - Soy": {
+        "2011-12": 29
+      },
+      "Misc": {
+        "2011-12": 1
+      },
+      "Misc - Soy": {
+        "2011-12": 43
+      },
+      "Protein Powder": {
+        "2011-12": 1
+      },
+      "Soy Products": {
+        "2011-12": 41
+      }
+    },
+    "by_year": {
+      "2010-11": 1,
+      "2011-12": 497
+    },
+    "date_column": 7,
+    "date_shapes": {
+      "9999-99-99": 498
+    },
+    "first": "2011-02-09",
+    "last": "2012-03-28",
+    "product_column": 5,
+    "sample_column": 0,
+    "unparsed": 0
+  },
+  "resource": "fe5490e6-35c6-4175-be9d-8b679548784d",
+  "roles": {
+    "component": 10,
+    "product": 5,
+    "sample": 0,
+    "unit": 13,
+    "value": 12
+  },
+  "sha256": "14c9755b71affd61a5ab16c9d91ffea14a598bd30f4fdf095d54464f6c161335",
+  "source": "https://open.canada.ca/data/dataset/e5906422-e8bf-498b-972e-faf2b688aa97/resource/fe5490e6-35c6-4175-be9d-8b679548784d/download/chem_ts_2011-2012_fumonisins_in_selected_foods_chem_ec_2011-2012_fumonisines_dans_des_aliments_s.csv",
+  "study": "fumonisin-series-census-fum11",
+  "version": "0.1.0"
+}

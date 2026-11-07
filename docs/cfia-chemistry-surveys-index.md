@@ -35,7 +35,9 @@ full. Later CFIA tables' "2012 to 2015" phthalate rows carry the 2012-2018 file'
 (every positive count, minimum and maximum) over different sample counts, so their printed
 detection rates are higher than the file gives. The 2012-2018 fumonisin report, the longest in
 the series, disagrees with itself in ten places before its file is opened; its arithmetic predicts
-77 teff samples where its grain table prints 11. On the portal side, open.canada.ca's resource
+77 teff samples where its grain table prints 11, and the file's teff label then holds 59. The
+three fumonisin files are the first in the series that are all larger than their reports (277,
+498 and 4,320 samples against 276, 454 and 4,261). On the portal side, open.canada.ca's resource
 sizes are kibibytes rounded up, not rounded to nearest.
 
 ## All items in one table
@@ -243,7 +245,8 @@ sizes are kibibytes rounded up, not rounded to nearest.
   there, but the sample counts mostly are not: 237 meals (printed 224), 42 dressings (22), 459
   grain products (460), 160 oils (180), 248 fats and oils (327). So the 2020-21 report's 57.1% of
   meals and 36% of dressings are 54.0% and 19.0% over the file's samples. The nut and seed
-  butters average 17.26 (printed 17.2), and oils 106.0 (107).
+  butters average 17.26 (printed 17.2), and oils 106.0 (107). Its independent test re-ran from
+  GitHub in a sealed job on 2026-11-07 and passed (17 tests).
 
 ## Fumonisins: 2010-11, 2011-12 and 2012-2018 (three files opened on the portal on 2026-11-03)
 
@@ -264,5 +267,22 @@ sizes are kibibytes rounded up, not rounded to nearest.
   the five rice positives, and the 2011-12 corn minimum (20.8 on its page, 23.1 in the later
   report). It also adds one prediction for the 2010-11 file, still unread: its positives average
   268 ppb, as the later report prints.
+- [2010-11 census note and label map](fumonisin-2010-0.1.0-census.md). The gate holds; 2 of 4
+  census items held (B1 and B2 only, all in ng/g). The file has 277 samples, not 276, in 9
+  labels: five match a page group one to one, cornmeal and grits share one label (41 = 34 + 7),
+  and the chips, tortilla and corn-products labels hold 79 where the page's chips, tacos,
+  tortillas and cornbread mix add to 78.
+- [2011-12 and 2012-2018 census note and label maps](fumonisin-series-0.1.0-census.md). Both gates
+  hold; 4 of 13 census items held and 1 cannot be graded. The 2011-12 file has 498 samples, not
+  454 (corn-named 262, soy-named 191, 45 neither). The 2012-2018 file has 4,320, not 4,261: grain
+  3,713, soy 182 (its labels match the report's soy appendix row by row, less three soy infant
+  cereals) and tea 425 (one white tea short). Its function column matches Table 1 in only 2 of 9
+  cells. No label names wheat and 1,262 samples name no grain, so the report's grain tables cannot
+  be rebuilt from the file. The teff label holds 59 samples (7 / 7 / 10 / 35 by year), neither the
+  printed 11 nor the predicted 77; that 11 is wrong stands either way. The note fixes how each
+  value item is graded: three are not gradable from the labels and three fail on the label map.
+- [Grader note](fumonisin-0.1.0-grader.md), with `fumonisin_grade.py`, 10 offline tests and
+  `test_fumonisin_census_notes.py` (every census count checked against the published census
+  records in `data/`), published before any value of the three files is read.
 
 MV2, Munim, Inc., mv2@munimtech.com
