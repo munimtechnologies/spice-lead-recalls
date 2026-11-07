@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
 # SPDX-License-Identifier: Apache-2.0
-"""Offline checks of data/cfia-open-data-errata.csv (CFIA open-data errata 0.2.0).
+"""Offline checks of data/cfia-open-data-errata.csv (CFIA open-data errata 0.3.0).
 
 Checks the schema, the controlled vocabularies, the counts stated in
-docs/cfia-open-data-errata-0.2.0.md, and that every row cites a note that the CFIA chemistry
+docs/cfia-open-data-errata-0.3.0.md, and that every row cites a note that the CFIA chemistry
 surveys index links. Standard library only. Run from the repository root or anywhere:
     python -m unittest -v test_cfia_errata
 Made with AI agents working in MV2's (Munim, Inc.) name. Code Apache-2.0; data CC BY 4.0."""
@@ -16,19 +16,28 @@ import unittest
 HERE = os.path.dirname(os.path.abspath(__file__))
 CSV_PATH = os.path.join(HERE, "data", "cfia-open-data-errata.csv")
 INDEX_PATH = os.path.join(HERE, "docs", "cfia-chemistry-surveys-index.md")
-DOC_PATH = os.path.join(HERE, "docs", "cfia-open-data-errata-0.2.0.md")
+DOC_PATH = os.path.join(HERE, "docs", "cfia-open-data-errata-0.3.0.md")
 
 HEADER = ["item_id", "series", "survey_years", "analyte", "where", "finding", "printed",
           "open_file", "kind", "evidence", "note"]
-KINDS = {"unit": 4, "value": 8, "count": 12, "share": 6, "average": 7, "origin": 3,
-         "subset": 5, "text": 8, "label": 4, "date": 2, "duplicate": 2, "coverage": 3}
-EVIDENCE = {"report_vs_file": 36, "report_internal": 17, "file_internal": 7,
+KINDS = {"unit": 4, "value": 10, "count": 17, "share": 6, "average": 8, "origin": 4,
+         "subset": 5, "text": 8, "label": 5, "date": 2, "duplicate": 2, "coverage": 4}
+EVIDENCE = {"report_vs_file": 45, "report_internal": 17, "file_internal": 9,
             "report_vs_report": 4}
 SERIES = {"cfp": 2, "furan-2018": 5, "tmet-2018": 1, "pah-2018": 2, "pah-2019": 3,
           "bisphenols-2018-2020": 3, "bpa-2009-2018": 6, "food-colours": 6,
           "ethyl-carbamate": 7, "perchlorate": 6, "phthalates-2020": 3,
-          "phthalates-2012-2019": 9, "fumonisin-2011-2018": 11}
-TOTAL = 64
+          "phthalates-2012-2019": 9, "fumonisin-2010": 5, "fumonisin-2011-2018": 17}
+TOTAL = 75
+# The eleven fumonisin items fixed from the report alone (0.2.0) and the four that the files
+# decided once they were graded (fumonisin 0.1.0 result).
+FUM_PREREG = {"fum-2018-teff-11", "fum-2018-teff-a1", "fum-2018-rice-rows", "fum-2018-rice-2014",
+              "fum-2018-wheat-2012", "fum-2018-oat-2017", "fum-2018-cereal-68", "fum-2018-tofu",
+              "fum-2018-soy-list", "fum-2018-conv-max", "fum-2011-min"}
+FUM_DECIDED = {"fum-2018-teff-11": "59 (teff label)",
+               "fum-2018-tofu": "1 tofu (27, 2012-13) and 1 soy flour (45, 2013-14)",
+               "fum-2018-conv-max": "7711",
+               "fum-2011-min": "20.8"}
 # A street address (a number, a name, then Road, Street and so on) has no place in this dataset.
 STREET = re.compile(r"\b\d{1,5}\s+[A-Z][a-z]+\s+(Road|Street|Avenue|Lane|Drive|Boulevard)\b")
 
@@ -81,7 +90,7 @@ class ErrataSchema(unittest.TestCase):
                     "bisphenols-2018-2020": "bpa-20", "bpa-2009-2018": "bpa-20",
                     "food-colours": "fc-", "ethyl-carbamate": "ec-", "perchlorate": "perc-",
                     "phthalates-2020": "ph-2020-", "phthalates-2012-2019": "ph-201",
-                    "fumonisin-2011-2018": "fum-20"}
+                    "fumonisin-2010": "fum-2010-", "fumonisin-2011-2018": "fum-201"}
         for r in self.rows:
             self.assertTrue(r["item_id"].startswith(prefixes[r["series"]]), r["item_id"])
 
@@ -182,12 +191,49 @@ class ErrataContent(unittest.TestCase):
         self.assertEqual(r["printed"], "99.7")
         self.assertGreater((28.8 + 28.8 + 393) / 3, 99.7)
 
-    def test_unread_fumonisin_files_give_no_file_figure(self):
-        # Neither fumonisin file had been opened when these items were fixed.
-        for r in self.rows:
-            if r["series"] == "fumonisin-2011-2018":
-                self.assertEqual(r["open_file"], "", r["item_id"])
-                self.assertIn(r["evidence"], ("report_internal", "report_vs_report"))
+    def test_prereg_fumonisin_rows_and_what_the_files_decided(self):
+        # The eleven 0.2.0 rows keep their report-only evidence; only the four the graded files
+        # decided gain an open_file figure.
+        for item in FUM_PREREG:
+            r = self.by_id[item]
+            self.assertEqual(r["note"], "fumonisin-series-0.1.0-prereg.md", item)
+            self.assertIn(r["evidence"], ("report_internal", "report_vs_report"), item)
+            self.assertEqual(r["open_file"], FUM_DECIDED.get(item, ""), item)
+
+    def test_fumonisin_file_rows(self):
+        new = [r for r in self.rows if r["series"].startswith("fumonisin")
+               and r["item_id"] not in FUM_PREREG]
+        self.assertEqual(len(new), 11)
+        for r in new:
+            self.assertIn(r["note"], ("fumonisin-0.1.0-result.md", "fumonisin-2010-0.1.0-census.md",
+                                      "fumonisin-series-0.1.0-census.md"), r["item_id"])
+            self.assertIn(r["evidence"], ("report_vs_file", "file_internal"), r["item_id"])
+            self.assertNotEqual(r["open_file"], "", r["item_id"])
+
+    def test_fumonisin_2010_figures(self):
+        self.assertEqual((self.by_id["fum-2010-277"]["printed"],
+                          self.by_id["fum-2010-277"]["open_file"]), ("276", "277"))
+        r = self.by_id["fum-2010-157"]
+        self.assertEqual((r["printed"], r["open_file"]), ("157", "185 (157 with B1)"))
+        self.assertEqual(185 - 157, 28)
+        self.assertEqual(277 - 56, 221)
+        r = self.by_id["fum-2010-avg-268"]
+        self.assertEqual((r["printed"], r["open_file"]), ("268", "206.85 / 220.2"))
+        self.assertEqual(round(38268 / 185, 2), 206.85)
+        self.assertEqual(round(34568 / 157, 1), 220.2)
+
+    def test_fumonisin_origin_cells(self):
+        r = self.by_id["fum-2018-origin"]
+
+        def cells(text):
+            return [list(map(int, g.split(" ", 1)[1].split(" / "))) for g in text.split(", ")]
+        printed, held = cells(r["printed"]), cells(r["open_file"])
+        self.assertEqual([sum(g) for g in printed], [3650, 185, 426])
+        self.assertEqual([sum(g) for g in held], [3713, 182, 425])
+        same = sum(1 for p, h in zip(printed, held) for a, b in zip(p, h) if a == b)
+        self.assertEqual(same, 2)
+        self.assertEqual(sum(sum(g) for g in printed), 4261)
+        self.assertEqual(sum(sum(g) for g in held), 4320)
 
 
 class ErrataLinks(unittest.TestCase):
@@ -198,11 +244,12 @@ class ErrataLinks(unittest.TestCase):
         for r in rows:
             self.assertRegex(r["note"], r"^[a-z0-9.-]+\.md$")
             self.assertIn("(" + r["note"] + ")", index, r["item_id"])
+        self.assertIn("(cfia-open-data-errata-0.3.0.md)", index)
 
     def test_doc_states_the_same_counts(self):
         with open(DOC_PATH, encoding="utf-8") as fh:
             doc = fh.read()
-        self.assertIn("ERRATA-MARKER: cfia-open-data-errata-0.2.0", doc)
+        self.assertIn("ERRATA-MARKER: cfia-open-data-errata-0.3.0", doc)
         for kind, n in KINDS.items():
             self.assertRegex(doc, r"\| `" + re.escape(kind) + r"` \| " + str(n) + r" \|")
         for ev, n in EVIDENCE.items():

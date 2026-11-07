@@ -1,0 +1,2143 @@
+{
+  "bytes": 1402889,
+  "d_suffix": [
+    {
+      "id": "C2013FUMN00303D",
+      "product": "Cereal - Adult",
+      "stem": "C2013FUMN00303",
+      "stem_in_file": false,
+      "stem_product": null,
+      "stem_total": null,
+      "stem_year": null,
+      "total": 0.0,
+      "year": "2013-14"
+    },
+    {
+      "id": "C2013FUMN00590D",
+      "product": "Bran - Corn",
+      "stem": "C2013FUMN00590",
+      "stem_in_file": false,
+      "stem_product": null,
+      "stem_total": null,
+      "stem_year": null,
+      "total": 288.0,
+      "year": "2013-14"
+    },
+    {
+      "id": "C2014FUMN00001D",
+      "product": "Chips - Corn",
+      "stem": "C2014FUMN00001",
+      "stem_in_file": false,
+      "stem_product": null,
+      "stem_total": null,
+      "stem_year": null,
+      "total": 0.0,
+      "year": "2014-15"
+    },
+    {
+      "id": "C2014FUMN00016D",
+      "product": "Flour - Corn",
+      "stem": "C2014FUMN00016",
+      "stem_in_file": false,
+      "stem_product": null,
+      "stem_total": null,
+      "stem_year": null,
+      "total": 0.0,
+      "year": "2014-15"
+    },
+    {
+      "id": "C2014FUMN00304D",
+      "product": "Grain - Oat",
+      "stem": "C2014FUMN00304",
+      "stem_in_file": false,
+      "stem_product": null,
+      "stem_total": null,
+      "stem_year": null,
+      "total": 0.0,
+      "year": "2014-15"
+    },
+    {
+      "id": "C2014FUMN00315D",
+      "product": "Cereal - Children",
+      "stem": "C2014FUMN00315",
+      "stem_in_file": false,
+      "stem_product": null,
+      "stem_total": null,
+      "stem_year": null,
+      "total": 0.0,
+      "year": "2014-15"
+    },
+    {
+      "id": "C2014FUMN00336D",
+      "product": "Cereal - Children",
+      "stem": "C2014FUMN00336",
+      "stem_in_file": false,
+      "stem_product": null,
+      "stem_total": null,
+      "stem_year": null,
+      "total": 0.0,
+      "year": "2014-15"
+    },
+    {
+      "id": "C2015FUMN00073D",
+      "product": "Grain - Millet",
+      "stem": "C2015FUMN00073",
+      "stem_in_file": false,
+      "stem_product": null,
+      "stem_total": null,
+      "stem_year": null,
+      "total": 0.0,
+      "year": "2015-16"
+    },
+    {
+      "id": "C2015FUMN00349D",
+      "product": "Arrowroot Products",
+      "stem": "C2015FUMN00349",
+      "stem_in_file": true,
+      "stem_product": "Arrowroot Products",
+      "stem_total": 0.0,
+      "stem_year": "2015-16",
+      "total": 0.0,
+      "year": "2015-16"
+    },
+    {
+      "id": "C2015FUMN00354D",
+      "product": "Arrowroot Products",
+      "stem": "C2015FUMN00354",
+      "stem_in_file": false,
+      "stem_product": null,
+      "stem_total": null,
+      "stem_year": null,
+      "total": 0.0,
+      "year": "2015-16"
+    },
+    {
+      "id": "C2015FUMN00676D",
+      "product": "Kamut Products",
+      "stem": "C2015FUMN00676",
+      "stem_in_file": false,
+      "stem_product": null,
+      "stem_total": null,
+      "stem_year": null,
+      "total": 0.0,
+      "year": "2015-16"
+    },
+    {
+      "id": "C2016FUMN00022D",
+      "product": "Bakery Product - English Muffin",
+      "stem": "C2016FUMN00022",
+      "stem_in_file": false,
+      "stem_product": null,
+      "stem_total": null,
+      "stem_year": null,
+      "total": 0.0,
+      "year": "2016-17"
+    },
+    {
+      "id": "C2016FUMN00407D",
+      "product": "Bakery Product - Bread",
+      "stem": "C2016FUMN00407",
+      "stem_in_file": false,
+      "stem_product": null,
+      "stem_total": null,
+      "stem_year": null,
+      "total": 0.0,
+      "year": "2016-17"
+    },
+    {
+      "id": "C2016FUMN00408D",
+      "product": "Bakery Product - Bread",
+      "stem": "C2016FUMN00408",
+      "stem_in_file": false,
+      "stem_product": null,
+      "stem_total": null,
+      "stem_year": null,
+      "total": 0.0,
+      "year": "2016-17"
+    },
+    {
+      "id": "C2016FUMN00422D",
+      "product": "Bakery Product - Bread",
+      "stem": "C2016FUMN00422",
+      "stem_in_file": false,
+      "stem_product": null,
+      "stem_total": null,
+      "stem_year": null,
+      "total": 0.0,
+      "year": "2016-17"
+    },
+    {
+      "id": "C2016FUMN00656D",
+      "product": "Tea - White",
+      "stem": "C2016FUMN00656",
+      "stem_in_file": false,
+      "stem_product": null,
+      "stem_total": null,
+      "stem_year": null,
+      "total": 0.0,
+      "year": "2016-17"
+    }
+  ],
+  "descriptive": {
+    "by_group": {
+      "grain": {
+        "max": 7790.0,
+        "mean": 364.966852,
+        "min": 20.0,
+        "n": 3713,
+        "positives": 1077
+      },
+      "soy": {
+        "max": 45.0,
+        "mean": 36.0,
+        "min": 27.0,
+        "n": 182,
+        "positives": 2
+      },
+      "tea": {
+        "max": 43.0,
+        "mean": 43.0,
+        "min": 43.0,
+        "n": 425,
+        "positives": 1
+      }
+    },
+    "by_product": {
+      "Amaranth Products": {
+        "max": 130.8,
+        "mean": 130.8,
+        "min": 130.8,
+        "n": 55,
+        "positives": 1
+      },
+      "Arrowroot Products": {
+        "max": null,
+        "mean": null,
+        "min": null,
+        "n": 65,
+        "positives": 0
+      },
+      "BRAN - OAT": {
+        "max": null,
+        "mean": null,
+        "min": null,
+        "n": 1,
+        "positives": 0
+      },
+      "Bakery Product - Bagel": {
+        "max": null,
+        "mean": null,
+        "min": null,
+        "n": 50,
+        "positives": 0
+      },
+      "Bakery Product - Bread": {
+        "max": null,
+        "mean": null,
+        "min": null,
+        "n": 151,
+        "positives": 0
+      },
+      "Bakery Product - Bread - Other": {
+        "max": null,
+        "mean": null,
+        "min": null,
+        "n": 67,
+        "positives": 0
+      },
+      "Bakery Product - Cookie": {
+        "max": null,
+        "mean": null,
+        "min": null,
+        "n": 3,
+        "positives": 0
+      },
+      "Bakery Product - English Muffin": {
+        "max": null,
+        "mean": null,
+        "min": null,
+        "n": 50,
+        "positives": 0
+      },
+      "Bakery Product - Tortilla/Wrap/Pita": {
+        "max": 3310.0,
+        "mean": 553.675,
+        "min": 26.0,
+        "n": 66,
+        "positives": 40
+      },
+      "Baking Mixes": {
+        "max": null,
+        "mean": null,
+        "min": null,
+        "n": 1,
+        "positives": 0
+      },
+      "Barley Products": {
+        "max": null,
+        "mean": null,
+        "min": null,
+        "n": 45,
+        "positives": 0
+      },
+      "Bean - Soy": {
+        "max": null,
+        "mean": null,
+        "min": null,
+        "n": 40,
+        "positives": 0
+      },
+      "Beverage - Soy": {
+        "max": null,
+        "mean": null,
+        "min": null,
+        "n": 40,
+        "positives": 0
+      },
+      "Beverage - Tea": {
+        "max": null,
+        "mean": null,
+        "min": null,
+        "n": 49,
+        "positives": 0
+      },
+      "Bran - Corn": {
+        "max": 331.0,
+        "mean": 309.5,
+        "min": 288.0,
+        "n": 2,
+        "positives": 2
+      },
+      "Bran - Oat": {
+        "max": null,
+        "mean": null,
+        "min": null,
+        "n": 2,
+        "positives": 0
+      },
+      "Bread - Other": {
+        "max": 393.0,
+        "mean": 155.666667,
+        "min": 67.0,
+        "n": 9,
+        "positives": 6
+      },
+      "Buckwheat Products": {
+        "max": 80.4,
+        "mean": 80.4,
+        "min": 80.4,
+        "n": 65,
+        "positives": 1
+      },
+      "CHIPS - CORN": {
+        "max": 56.0,
+        "mean": 46.0,
+        "min": 39.0,
+        "n": 10,
+        "positives": 4
+      },
+      "Cereal - Adult": {
+        "max": 1166.0,
+        "mean": 158.696639,
+        "min": 21.0,
+        "n": 333,
+        "positives": 119
+      },
+      "Cereal - Children": {
+        "max": 2484.0,
+        "mean": 382.865909,
+        "min": 20.0,
+        "n": 300,
+        "positives": 176
+      },
+      "Cereal - Corn": {
+        "max": 325.0,
+        "mean": 157.0,
+        "min": 40.0,
+        "n": 3,
+        "positives": 3
+      },
+      "Chips - Corn": {
+        "max": 1518.3,
+        "mean": 171.441346,
+        "min": 20.0,
+        "n": 182,
+        "positives": 104
+      },
+      "Corn Products": {
+        "max": 731.0,
+        "mean": 143.283951,
+        "min": 22.0,
+        "n": 119,
+        "positives": 81
+      },
+      "Corn Starch": {
+        "max": 586.0,
+        "mean": 327.0,
+        "min": 54.0,
+        "n": 251,
+        "positives": 5
+      },
+      "Cornmeal": {
+        "max": 7790.0,
+        "mean": 422.570588,
+        "min": 21.0,
+        "n": 337,
+        "positives": 255
+      },
+      "Crispbread/Crouton": {
+        "max": null,
+        "mean": null,
+        "min": null,
+        "n": 1,
+        "positives": 0
+      },
+      "Flour - Corn": {
+        "max": 7770.0,
+        "mean": 593.612017,
+        "min": 20.2,
+        "n": 276,
+        "positives": 233
+      },
+      "Flour - Rice": {
+        "max": null,
+        "mean": null,
+        "min": null,
+        "n": 15,
+        "positives": 0
+      },
+      "Flour - Rye": {
+        "max": null,
+        "mean": null,
+        "min": null,
+        "n": 1,
+        "positives": 0
+      },
+      "Flour - Soy": {
+        "max": 45.0,
+        "mean": 45.0,
+        "min": 45.0,
+        "n": 29,
+        "positives": 1
+      },
+      "Flour - rye": {
+        "max": null,
+        "mean": null,
+        "min": null,
+        "n": 4,
+        "positives": 0
+      },
+      "GRAIN - OAT": {
+        "max": null,
+        "mean": null,
+        "min": null,
+        "n": 1,
+        "positives": 0
+      },
+      "Grain - Barley": {
+        "max": 123.0,
+        "mean": 97.0,
+        "min": 71.0,
+        "n": 85,
+        "positives": 2
+      },
+      "Grain - Buckwheat": {
+        "max": null,
+        "mean": null,
+        "min": null,
+        "n": 63,
+        "positives": 0
+      },
+      "Grain - Kamut": {
+        "max": null,
+        "mean": null,
+        "min": null,
+        "n": 63,
+        "positives": 0
+      },
+      "Grain - Millet": {
+        "max": null,
+        "mean": null,
+        "min": null,
+        "n": 71,
+        "positives": 0
+      },
+      "Grain - Oat": {
+        "max": null,
+        "mean": null,
+        "min": null,
+        "n": 24,
+        "positives": 0
+      },
+      "Grain - Other": {
+        "max": 118.0,
+        "mean": 118.0,
+        "min": 118.0,
+        "n": 72,
+        "positives": 1
+      },
+      "Grain - Quinoa": {
+        "max": 405.0,
+        "mean": 405.0,
+        "min": 405.0,
+        "n": 79,
+        "positives": 1
+      },
+      "Grain - Rice": {
+        "max": null,
+        "mean": null,
+        "min": null,
+        "n": 59,
+        "positives": 0
+      },
+      "Grain - Rye": {
+        "max": null,
+        "mean": null,
+        "min": null,
+        "n": 25,
+        "positives": 0
+      },
+      "Infant Food (non-cereal)": {
+        "max": null,
+        "mean": null,
+        "min": null,
+        "n": 50,
+        "positives": 0
+      },
+      "Infant Food - Cereal": {
+        "max": 158.0,
+        "mean": 72.75,
+        "min": 22.0,
+        "n": 109,
+        "positives": 8
+      },
+      "Infant Formula - Soy": {
+        "max": null,
+        "mean": null,
+        "min": null,
+        "n": 20,
+        "positives": 0
+      },
+      "Kamut Products": {
+        "max": null,
+        "mean": null,
+        "min": null,
+        "n": 69,
+        "positives": 0
+      },
+      "Meat Alternative": {
+        "max": null,
+        "mean": null,
+        "min": null,
+        "n": 9,
+        "positives": 0
+      },
+      "Millet Products": {
+        "max": 44.0,
+        "mean": 44.0,
+        "min": 44.0,
+        "n": 64,
+        "positives": 1
+      },
+      "Oatmeal": {
+        "max": null,
+        "mean": null,
+        "min": null,
+        "n": 2,
+        "positives": 0
+      },
+      "Popcorn": {
+        "max": 562.0,
+        "mean": 133.666667,
+        "min": 22.0,
+        "n": 25,
+        "positives": 6
+      },
+      "Quinoa Products": {
+        "max": null,
+        "mean": null,
+        "min": null,
+        "n": 57,
+        "positives": 0
+      },
+      "Rice Products": {
+        "max": null,
+        "mean": null,
+        "min": null,
+        "n": 34,
+        "positives": 0
+      },
+      "Rye Products": {
+        "max": null,
+        "mean": null,
+        "min": null,
+        "n": 91,
+        "positives": 0
+      },
+      "Soy Products": {
+        "max": null,
+        "mean": null,
+        "min": null,
+        "n": 14,
+        "positives": 0
+      },
+      "Spelt": {
+        "max": null,
+        "mean": null,
+        "min": null,
+        "n": 42,
+        "positives": 0
+      },
+      "Spelt Products": {
+        "max": 153.4,
+        "mean": 92.4,
+        "min": 31.4,
+        "n": 79,
+        "positives": 2
+      },
+      "TACO": {
+        "max": 419.0,
+        "mean": 108.92,
+        "min": 21.0,
+        "n": 25,
+        "positives": 25
+      },
+      "Tea - Black": {
+        "max": 43.0,
+        "mean": 43.0,
+        "min": 43.0,
+        "n": 100,
+        "positives": 1
+      },
+      "Tea - Green": {
+        "max": null,
+        "mean": null,
+        "min": null,
+        "n": 101,
+        "positives": 0
+      },
+      "Tea - Herbal": {
+        "max": null,
+        "mean": null,
+        "min": null,
+        "n": 100,
+        "positives": 0
+      },
+      "Tea - Oolong": {
+        "max": null,
+        "mean": null,
+        "min": null,
+        "n": 25,
+        "positives": 0
+      },
+      "Tea - Other": {
+        "max": null,
+        "mean": null,
+        "min": null,
+        "n": 26,
+        "positives": 0
+      },
+      "Tea - White": {
+        "max": null,
+        "mean": null,
+        "min": null,
+        "n": 24,
+        "positives": 0
+      },
+      "Teff Products": {
+        "max": 43.0,
+        "mean": 43.0,
+        "min": 43.0,
+        "n": 59,
+        "positives": 1
+      },
+      "Tofu": {
+        "max": 27.0,
+        "mean": 27.0,
+        "min": 27.0,
+        "n": 30,
+        "positives": 1
+      },
+      "Triticale Products": {
+        "max": null,
+        "mean": null,
+        "min": null,
+        "n": 1,
+        "positives": 0
+      }
+    },
+    "cells_with_a_comma": [],
+    "largest": [
+      {
+        "B1": 6280.0,
+        "B2": 1510.0,
+        "id": "C2017FUMN00349",
+        "product": "Cornmeal",
+        "total": 7790.0,
+        "year": "2017-18"
+      },
+      {
+        "B1": 5970.0,
+        "B2": 1800.0,
+        "id": "C2017FUMN00113",
+        "product": "Flour - Corn",
+        "total": 7770.0,
+        "year": "2017-18"
+      },
+      {
+        "B1": 6139.0,
+        "B2": 1572.0,
+        "id": "C2012FUMN00452",
+        "product": "Cornmeal",
+        "total": 7711.0,
+        "year": "2012-13"
+      },
+      {
+        "B1": 2930.0,
+        "B2": 917.0,
+        "id": "C2014FUMN00160",
+        "product": "Cornmeal",
+        "total": 3847.0,
+        "year": "2014-15"
+      },
+      {
+        "B1": 2270.0,
+        "B2": 1040.0,
+        "id": "C2013FUMN00612",
+        "product": "Bakery Product - Tortilla/Wrap/Pita",
+        "total": 3310.0,
+        "year": "2013-14"
+      },
+      {
+        "B1": 2530.0,
+        "B2": 674.0,
+        "id": "C2017FUMN00068",
+        "product": "Cornmeal",
+        "total": 3204.0,
+        "year": "2017-18"
+      },
+      {
+        "B1": 1720.0,
+        "B2": 870.0,
+        "id": "C2014FUMN00154",
+        "product": "Cornmeal",
+        "total": 2590.0,
+        "year": "2014-15"
+      },
+      {
+        "B1": 1740.0,
+        "B2": 805.0,
+        "id": "C2013FUMN00538",
+        "product": "Flour - Corn",
+        "total": 2545.0,
+        "year": "2013-14"
+      },
+      {
+        "B1": 2010.0,
+        "B2": 474.0,
+        "id": "C2017FUMN00461",
+        "product": "Cereal - Children",
+        "total": 2484.0,
+        "year": "2017-18"
+      },
+      {
+        "B1": 1890.0,
+        "B2": 471.0,
+        "id": "C2017FUMN00160",
+        "product": "Cereal - Children",
+        "total": 2361.0,
+        "year": "2017-18"
+      }
+    ],
+    "positives_by_function": {
+      "Domestic": 128,
+      "Import": 752,
+      "Unknown": 200
+    },
+    "positives_by_year": {
+      "2012-13": 229,
+      "2013-14": 226,
+      "2014-15": 178,
+      "2015-16": 2,
+      "2016-17": 1,
+      "2017-18": 444
+    },
+    "positives_with_b1_zero": 0,
+    "products_n_positives": {
+      "Amaranth Products": [
+        55,
+        1
+      ],
+      "Arrowroot Products": [
+        65,
+        0
+      ],
+      "BRAN - OAT": [
+        1,
+        0
+      ],
+      "Bakery Product - Bagel": [
+        50,
+        0
+      ],
+      "Bakery Product - Bread": [
+        151,
+        0
+      ],
+      "Bakery Product - Bread - Other": [
+        67,
+        0
+      ],
+      "Bakery Product - Cookie": [
+        3,
+        0
+      ],
+      "Bakery Product - English Muffin": [
+        50,
+        0
+      ],
+      "Bakery Product - Tortilla/Wrap/Pita": [
+        66,
+        40
+      ],
+      "Baking Mixes": [
+        1,
+        0
+      ],
+      "Barley Products": [
+        45,
+        0
+      ],
+      "Bean - Soy": [
+        40,
+        0
+      ],
+      "Beverage - Soy": [
+        40,
+        0
+      ],
+      "Beverage - Tea": [
+        49,
+        0
+      ],
+      "Bran - Corn": [
+        2,
+        2
+      ],
+      "Bran - Oat": [
+        2,
+        0
+      ],
+      "Bread - Other": [
+        9,
+        6
+      ],
+      "Buckwheat Products": [
+        65,
+        1
+      ],
+      "CHIPS - CORN": [
+        10,
+        4
+      ],
+      "Cereal - Adult": [
+        333,
+        119
+      ],
+      "Cereal - Children": [
+        300,
+        176
+      ],
+      "Cereal - Corn": [
+        3,
+        3
+      ],
+      "Chips - Corn": [
+        182,
+        104
+      ],
+      "Corn Products": [
+        119,
+        81
+      ],
+      "Corn Starch": [
+        251,
+        5
+      ],
+      "Cornmeal": [
+        337,
+        255
+      ],
+      "Crispbread/Crouton": [
+        1,
+        0
+      ],
+      "Flour - Corn": [
+        276,
+        233
+      ],
+      "Flour - Rice": [
+        15,
+        0
+      ],
+      "Flour - Rye": [
+        1,
+        0
+      ],
+      "Flour - Soy": [
+        29,
+        1
+      ],
+      "Flour - rye": [
+        4,
+        0
+      ],
+      "GRAIN - OAT": [
+        1,
+        0
+      ],
+      "Grain - Barley": [
+        85,
+        2
+      ],
+      "Grain - Buckwheat": [
+        63,
+        0
+      ],
+      "Grain - Kamut": [
+        63,
+        0
+      ],
+      "Grain - Millet": [
+        71,
+        0
+      ],
+      "Grain - Oat": [
+        24,
+        0
+      ],
+      "Grain - Other": [
+        72,
+        1
+      ],
+      "Grain - Quinoa": [
+        79,
+        1
+      ],
+      "Grain - Rice": [
+        59,
+        0
+      ],
+      "Grain - Rye": [
+        25,
+        0
+      ],
+      "Infant Food (non-cereal)": [
+        50,
+        0
+      ],
+      "Infant Food - Cereal": [
+        109,
+        8
+      ],
+      "Infant Formula - Soy": [
+        20,
+        0
+      ],
+      "Kamut Products": [
+        69,
+        0
+      ],
+      "Meat Alternative": [
+        9,
+        0
+      ],
+      "Millet Products": [
+        64,
+        1
+      ],
+      "Oatmeal": [
+        2,
+        0
+      ],
+      "Popcorn": [
+        25,
+        6
+      ],
+      "Quinoa Products": [
+        57,
+        0
+      ],
+      "Rice Products": [
+        34,
+        0
+      ],
+      "Rye Products": [
+        91,
+        0
+      ],
+      "Soy Products": [
+        14,
+        0
+      ],
+      "Spelt": [
+        42,
+        0
+      ],
+      "Spelt Products": [
+        79,
+        2
+      ],
+      "TACO": [
+        25,
+        25
+      ],
+      "Tea - Black": [
+        100,
+        1
+      ],
+      "Tea - Green": [
+        101,
+        0
+      ],
+      "Tea - Herbal": [
+        100,
+        0
+      ],
+      "Tea - Oolong": [
+        25,
+        0
+      ],
+      "Tea - Other": [
+        26,
+        0
+      ],
+      "Tea - White": [
+        24,
+        0
+      ],
+      "Teff Products": [
+        59,
+        1
+      ],
+      "Tofu": [
+        30,
+        1
+      ],
+      "Triticale Products": [
+        1,
+        0
+      ]
+    },
+    "smallest_nonzero": {
+      "B1": [
+        20.0,
+        20.2,
+        21.0,
+        22.0,
+        22.7
+      ],
+      "B2": [
+        20.0,
+        21.0,
+        22.0,
+        23.0,
+        23.8
+      ]
+    },
+    "zero_rows": {
+      "B1": 3240,
+      "B2": 3648
+    }
+  },
+  "encoding": "utf-8-sig",
+  "failed": [
+    "B-V1",
+    "B-V10",
+    "B-V7",
+    "B-V8"
+  ],
+  "gate": {
+    "G": true,
+    "md5": true,
+    "problems": {
+      "bad_date": [],
+      "bad_unit": [],
+      "missing_component": [],
+      "mixed_product": [],
+      "negative": [],
+      "non_numeric": [],
+      "repeated": [],
+      "unknown_component": [],
+      "unmapped_product": []
+    },
+    "samples": 4320,
+    "samples_as_printed": false,
+    "size_band": [
+      1402880,
+      1403904
+    ],
+    "size_in_band": true
+  },
+  "grades": {
+    "B-V1": {
+      "checks": {
+        "grain_1073": false,
+        "positives_1076": false,
+        "soy_2": true,
+        "tea_1": true
+      },
+      "held": false,
+      "stats": {
+        "grain": {
+          "max": 7790.0,
+          "mean": 364.966852,
+          "min": 20.0,
+          "n": 3713,
+          "positives": 1077
+        },
+        "soy": {
+          "max": 45.0,
+          "mean": 36.0,
+          "min": 27.0,
+          "n": 182,
+          "positives": 2
+        },
+        "tea": {
+          "max": 43.0,
+          "mean": 43.0,
+          "min": 43.0,
+          "n": 425,
+          "positives": 1
+        },
+        "total": {
+          "max": 7790.0,
+          "mean": 364.059537,
+          "min": 20.0,
+          "n": 4320,
+          "positives": 1080
+        }
+      }
+    },
+    "B-V10": {
+      "held": false,
+      "status": "failed on the label map at census (census note)"
+    },
+    "B-V11": {
+      "checks": {
+        "grain_365": true,
+        "soy_36": true,
+        "total_364": true
+      },
+      "held": true,
+      "means": {
+        "grain": 364.966852,
+        "soy": 36.0,
+        "tea": 43.0,
+        "total": 364.059537
+      }
+    },
+    "B-V2": {
+      "checks": {
+        "max_rounds_to_7790": true,
+        "min_rounds_to_20": true,
+        "top_is_cornmeal": true
+      },
+      "held": true,
+      "min": 20.0,
+      "tied_tops": 1,
+      "top": {
+        "B1": 6280.0,
+        "B2": 1510.0,
+        "id": "C2017FUMN00349",
+        "product": "Cornmeal",
+        "total": 7790.0,
+        "year": "2017-18"
+      }
+    },
+    "B-V3": {
+      "checks": {
+        "soy_flour_2013_45": true,
+        "tofu_2012_27": true,
+        "two": true
+      },
+      "held": true,
+      "soy_positives": [
+        {
+          "B1": 27.0,
+          "B2": 0.0,
+          "id": "C2012FUMN00438",
+          "product": "Tofu",
+          "total": 27.0,
+          "year": "2012-13"
+        },
+        {
+          "B1": 45.0,
+          "B2": 0.0,
+          "id": "C2013FUMN00420",
+          "product": "Flour - Soy",
+          "total": 45.0,
+          "year": "2013-14"
+        }
+      ]
+    },
+    "B-V4": {
+      "checks": {
+        "black": true,
+        "one": true,
+        "rounds_to_43": true
+      },
+      "held": true,
+      "tea_positives": [
+        {
+          "B1": 43.0,
+          "B2": 0.0,
+          "id": "C2016FUMN00273",
+          "product": "Tea - Black",
+          "total": 43.0,
+          "year": "2016-17"
+        }
+      ]
+    },
+    "B-V5": {
+      "held": null,
+      "status": "not gradable from labels (census note)"
+    },
+    "B-V6": {
+      "held": null,
+      "status": "not gradable from labels (census note)"
+    },
+    "B-V7": {
+      "held": false,
+      "status": "failed on the label map at census (census note)"
+    },
+    "B-V8": {
+      "held": false,
+      "status": "failed on the label map at census (census note)"
+    },
+    "B-V9": {
+      "held": null,
+      "status": "not gradable from labels (census note)"
+    }
+  },
+  "held": [
+    "B-V11",
+    "B-V2",
+    "B-V3",
+    "B-V4"
+  ],
+  "lookups_exploratory": {
+    "corn 2012 max 7711": [
+      {
+        "B1": 6139.0,
+        "B2": 1572.0,
+        "id": "C2012FUMN00452",
+        "product": "Cornmeal",
+        "total": 7711.0,
+        "year": "2012-13"
+      }
+    ],
+    "oat 2017 53": [
+      {
+        "B1": 53.2,
+        "B2": 0.0,
+        "id": "C2012FUMN00303",
+        "product": "Cornmeal",
+        "total": 53.2,
+        "year": "2012-13"
+      },
+      {
+        "B1": 53.0,
+        "B2": 0.0,
+        "id": "C2013FUMN00526",
+        "product": "Corn Products",
+        "total": 53.0,
+        "year": "2013-14"
+      },
+      {
+        "B1": 53.0,
+        "B2": 0.0,
+        "id": "C2013FUMN00625",
+        "product": "Corn Products",
+        "total": 53.0,
+        "year": "2013-14"
+      },
+      {
+        "B1": 53.0,
+        "B2": 0.0,
+        "id": "C2017FUMN00281",
+        "product": "Corn Products",
+        "total": 53.0,
+        "year": "2017-18"
+      },
+      {
+        "B1": 53.0,
+        "B2": 0.0,
+        "id": "C2017FUMN00630",
+        "product": "Cereal - Adult",
+        "total": 53.0,
+        "year": "2017-18"
+      },
+      {
+        "B1": 53.0,
+        "B2": 0.0,
+        "id": "C2017FUMN00667",
+        "product": "Cereal - Children",
+        "total": 53.0,
+        "year": "2017-18"
+      },
+      {
+        "B1": 53.0,
+        "B2": 0.0,
+        "id": "C2017FUMN00710",
+        "product": "Cereal - Children",
+        "total": 53.0,
+        "year": "2017-18"
+      }
+    ],
+    "rice 249": [
+      {
+        "B1": 201.0,
+        "B2": 48.0,
+        "id": "C2014FUMN00568",
+        "product": "Cereal - Adult",
+        "total": 249.0,
+        "year": "2014-15"
+      }
+    ],
+    "rice 33": [
+      {
+        "B1": 33.0,
+        "B2": 0.0,
+        "id": "C2013FUMN00307",
+        "product": "Cereal - Children",
+        "total": 33.0,
+        "year": "2013-14"
+      },
+      {
+        "B1": 33.0,
+        "B2": 0.0,
+        "id": "C2013FUMN00395",
+        "product": "Flour - Corn",
+        "total": 33.0,
+        "year": "2013-14"
+      },
+      {
+        "B1": 33.0,
+        "B2": 0.0,
+        "id": "C2014FUMN00717",
+        "product": "Cereal - Adult",
+        "total": 33.0,
+        "year": "2014-15"
+      },
+      {
+        "B1": 33.0,
+        "B2": 0.0,
+        "id": "C2017FUMN00372",
+        "product": "Popcorn",
+        "total": 33.0,
+        "year": "2017-18"
+      }
+    ],
+    "rice 42": [
+      {
+        "B1": 42.0,
+        "B2": 0.0,
+        "id": "C2013FUMN00142",
+        "product": "Chips - Corn",
+        "total": 42.0,
+        "year": "2013-14"
+      },
+      {
+        "B1": 42.0,
+        "B2": 0.0,
+        "id": "C2013FUMN00366",
+        "product": "Corn Products",
+        "total": 42.0,
+        "year": "2013-14"
+      },
+      {
+        "B1": 42.0,
+        "B2": 0.0,
+        "id": "C2014FUMN00495",
+        "product": "Cereal - Children",
+        "total": 42.0,
+        "year": "2014-15"
+      },
+      {
+        "B1": 42.0,
+        "B2": 0.0,
+        "id": "C2017FUMN00030",
+        "product": "Cereal - Children",
+        "total": 42.0,
+        "year": "2017-18"
+      },
+      {
+        "B1": 42.0,
+        "B2": 0.0,
+        "id": "C2017FUMN00033",
+        "product": "Cereal - Adult",
+        "total": 42.0,
+        "year": "2017-18"
+      },
+      {
+        "B1": 42.0,
+        "B2": 0.0,
+        "id": "C2017FUMN00084",
+        "product": "Popcorn",
+        "total": 42.0,
+        "year": "2017-18"
+      },
+      {
+        "B1": 42.0,
+        "B2": 0.0,
+        "id": "C2017FUMN00609",
+        "product": "Cereal - Adult",
+        "total": 42.0,
+        "year": "2017-18"
+      },
+      {
+        "B1": 42.0,
+        "B2": 0.0,
+        "id": "C2017FUMN00701",
+        "product": "Chips - Corn",
+        "total": 42.0,
+        "year": "2017-18"
+      }
+    ],
+    "rice 47": [
+      {
+        "B1": 47.0,
+        "B2": 0.0,
+        "id": "C2013FUMN00040",
+        "product": "Cereal - Adult",
+        "total": 47.0,
+        "year": "2013-14"
+      },
+      {
+        "B1": 47.0,
+        "B2": 0.0,
+        "id": "C2013FUMN00364",
+        "product": "Corn Products",
+        "total": 47.0,
+        "year": "2013-14"
+      },
+      {
+        "B1": 47.0,
+        "B2": 0.0,
+        "id": "C2013FUMN00513",
+        "product": "Infant Food - Cereal",
+        "total": 47.0,
+        "year": "2013-14"
+      },
+      {
+        "B1": 47.0,
+        "B2": 0.0,
+        "id": "C2014FUMN00171",
+        "product": "Flour - Corn",
+        "total": 47.0,
+        "year": "2014-15"
+      },
+      {
+        "B1": 47.0,
+        "B2": 0.0,
+        "id": "C2017FUMN00154",
+        "product": "Flour - Corn",
+        "total": 47.0,
+        "year": "2017-18"
+      },
+      {
+        "B1": 47.0,
+        "B2": 0.0,
+        "id": "C2017FUMN00393",
+        "product": "Cornmeal",
+        "total": 47.0,
+        "year": "2017-18"
+      },
+      {
+        "B1": 47.0,
+        "B2": 0.0,
+        "id": "C2017FUMN00700",
+        "product": "TACO",
+        "total": 47.0,
+        "year": "2017-18"
+      }
+    ],
+    "text max 7710": [],
+    "wheat 2012 max 393": [
+      {
+        "B1": 308.9,
+        "B2": 84.1,
+        "id": "C2012FUMN00428",
+        "product": "Bread - Other",
+        "total": 393.0,
+        "year": "2012-13"
+      }
+    ],
+    "wheat 2012 min 28.8": [
+      {
+        "B1": 28.8,
+        "B2": 0.0,
+        "id": "C2012FUMN00172",
+        "product": "Flour - Corn",
+        "total": 28.8,
+        "year": "2012-13"
+      },
+      {
+        "B1": 28.8,
+        "B2": 0.0,
+        "id": "C2012FUMN00410",
+        "product": "Cereal - Adult",
+        "total": 28.8,
+        "year": "2012-13"
+      },
+      {
+        "B1": 28.8,
+        "B2": 0.0,
+        "id": "C2012FUMN00429",
+        "product": "Chips - Corn",
+        "total": 28.8,
+        "year": "2012-13"
+      }
+    ]
+  },
+  "md5": "6c87fb0bc35b3fc0cea0d3bd2e93e97b",
+  "names": {
+    "corn_label_year": {
+      "2012-13": {
+        "max": 7711.0,
+        "mean": 379.284024,
+        "min": 20.2,
+        "n": 272,
+        "positives": 169
+      },
+      "2013-14": {
+        "max": 2545.0,
+        "mean": 326.073034,
+        "min": 21.0,
+        "n": 264,
+        "positives": 178
+      },
+      "2014-15": {
+        "max": 3847.0,
+        "mean": 347.324786,
+        "min": 20.0,
+        "n": 201,
+        "positives": 117
+      },
+      "2017-18": {
+        "max": 7790.0,
+        "mean": 469.133858,
+        "min": 21.0,
+        "n": 493,
+        "positives": 254
+      }
+    },
+    "grain_label": {
+      "None": {
+        "max": 3310.0,
+        "mean": 314.429429,
+        "min": 20.0,
+        "n": 1262,
+        "positives": 350
+      },
+      "amaranth": {
+        "max": 130.8,
+        "mean": 130.8,
+        "min": 130.8,
+        "n": 55,
+        "positives": 1
+      },
+      "arrowroot": {
+        "max": null,
+        "mean": null,
+        "min": null,
+        "n": 65,
+        "positives": 0
+      },
+      "barley": {
+        "max": 123.0,
+        "mean": 97.0,
+        "min": 71.0,
+        "n": 130,
+        "positives": 2
+      },
+      "buckwheat": {
+        "max": 80.4,
+        "mean": 80.4,
+        "min": 80.4,
+        "n": 128,
+        "positives": 1
+      },
+      "corn": {
+        "max": 7790.0,
+        "mean": 392.669916,
+        "min": 20.0,
+        "n": 1230,
+        "positives": 718
+      },
+      "kamut": {
+        "max": null,
+        "mean": null,
+        "min": null,
+        "n": 132,
+        "positives": 0
+      },
+      "millet": {
+        "max": 44.0,
+        "mean": 44.0,
+        "min": 44.0,
+        "n": 135,
+        "positives": 1
+      },
+      "oat": {
+        "max": null,
+        "mean": null,
+        "min": null,
+        "n": 30,
+        "positives": 0
+      },
+      "quinoa": {
+        "max": 405.0,
+        "mean": 405.0,
+        "min": 405.0,
+        "n": 136,
+        "positives": 1
+      },
+      "rice": {
+        "max": null,
+        "mean": null,
+        "min": null,
+        "n": 108,
+        "positives": 0
+      },
+      "rye": {
+        "max": null,
+        "mean": null,
+        "min": null,
+        "n": 121,
+        "positives": 0
+      },
+      "spelt": {
+        "max": 153.4,
+        "mean": 92.4,
+        "min": 31.4,
+        "n": 121,
+        "positives": 2
+      },
+      "teff": {
+        "max": 43.0,
+        "mean": 43.0,
+        "min": 43.0,
+        "n": 59,
+        "positives": 1
+      },
+      "triticale": {
+        "max": null,
+        "mean": null,
+        "min": null,
+        "n": 1,
+        "positives": 0
+      }
+    },
+    "grain_label_year": {
+      "None": {
+        "2012-13": {
+          "max": 1650.1,
+          "mean": 251.760377,
+          "min": 27.8,
+          "n": 134,
+          "positives": 53
+        },
+        "2013-14": {
+          "max": 3310.0,
+          "mean": 413.808511,
+          "min": 21.0,
+          "n": 212,
+          "positives": 47
+        },
+        "2014-15": {
+          "max": 1556.0,
+          "mean": 255.1,
+          "min": 22.0,
+          "n": 299,
+          "positives": 60
+        },
+        "2015-16": {
+          "max": null,
+          "mean": null,
+          "min": null,
+          "n": 35,
+          "positives": 0
+        },
+        "2016-17": {
+          "max": null,
+          "mean": null,
+          "min": null,
+          "n": 325,
+          "positives": 0
+        },
+        "2017-18": {
+          "max": 2484.0,
+          "mean": 326.063158,
+          "min": 20.0,
+          "n": 257,
+          "positives": 190
+        }
+      },
+      "amaranth": {
+        "2012-13": {
+          "max": 130.8,
+          "mean": 130.8,
+          "min": 130.8,
+          "n": 5,
+          "positives": 1
+        },
+        "2013-14": {
+          "max": null,
+          "mean": null,
+          "min": null,
+          "n": 5,
+          "positives": 0
+        },
+        "2014-15": {
+          "max": null,
+          "mean": null,
+          "min": null,
+          "n": 10,
+          "positives": 0
+        },
+        "2015-16": {
+          "max": null,
+          "mean": null,
+          "min": null,
+          "n": 35,
+          "positives": 0
+        }
+      },
+      "arrowroot": {
+        "2012-13": {
+          "max": null,
+          "mean": null,
+          "min": null,
+          "n": 9,
+          "positives": 0
+        },
+        "2013-14": {
+          "max": null,
+          "mean": null,
+          "min": null,
+          "n": 6,
+          "positives": 0
+        },
+        "2014-15": {
+          "max": null,
+          "mean": null,
+          "min": null,
+          "n": 15,
+          "positives": 0
+        },
+        "2015-16": {
+          "max": null,
+          "mean": null,
+          "min": null,
+          "n": 35,
+          "positives": 0
+        }
+      },
+      "barley": {
+        "2012-13": {
+          "max": null,
+          "mean": null,
+          "min": null,
+          "n": 10,
+          "positives": 0
+        },
+        "2013-14": {
+          "max": null,
+          "mean": null,
+          "min": null,
+          "n": 15,
+          "positives": 0
+        },
+        "2014-15": {
+          "max": null,
+          "mean": null,
+          "min": null,
+          "n": 30,
+          "positives": 0
+        },
+        "2015-16": {
+          "max": 123.0,
+          "mean": 97.0,
+          "min": 71.0,
+          "n": 75,
+          "positives": 2
+        }
+      },
+      "buckwheat": {
+        "2012-13": {
+          "max": 80.4,
+          "mean": 80.4,
+          "min": 80.4,
+          "n": 9,
+          "positives": 1
+        },
+        "2013-14": {
+          "max": null,
+          "mean": null,
+          "min": null,
+          "n": 19,
+          "positives": 0
+        },
+        "2014-15": {
+          "max": null,
+          "mean": null,
+          "min": null,
+          "n": 30,
+          "positives": 0
+        },
+        "2015-16": {
+          "max": null,
+          "mean": null,
+          "min": null,
+          "n": 70,
+          "positives": 0
+        }
+      },
+      "corn": {
+        "2012-13": {
+          "max": 7711.0,
+          "mean": 379.284024,
+          "min": 20.2,
+          "n": 272,
+          "positives": 169
+        },
+        "2013-14": {
+          "max": 2545.0,
+          "mean": 326.073034,
+          "min": 21.0,
+          "n": 264,
+          "positives": 178
+        },
+        "2014-15": {
+          "max": 3847.0,
+          "mean": 347.324786,
+          "min": 20.0,
+          "n": 201,
+          "positives": 117
+        },
+        "2017-18": {
+          "max": 7790.0,
+          "mean": 469.133858,
+          "min": 21.0,
+          "n": 493,
+          "positives": 254
+        }
+      },
+      "kamut": {
+        "2012-13": {
+          "max": null,
+          "mean": null,
+          "min": null,
+          "n": 11,
+          "positives": 0
+        },
+        "2013-14": {
+          "max": null,
+          "mean": null,
+          "min": null,
+          "n": 20,
+          "positives": 0
+        },
+        "2014-15": {
+          "max": null,
+          "mean": null,
+          "min": null,
+          "n": 30,
+          "positives": 0
+        },
+        "2015-16": {
+          "max": null,
+          "mean": null,
+          "min": null,
+          "n": 71,
+          "positives": 0
+        }
+      },
+      "millet": {
+        "2012-13": {
+          "max": 44.0,
+          "mean": 44.0,
+          "min": 44.0,
+          "n": 11,
+          "positives": 1
+        },
+        "2013-14": {
+          "max": null,
+          "mean": null,
+          "min": null,
+          "n": 19,
+          "positives": 0
+        },
+        "2014-15": {
+          "max": null,
+          "mean": null,
+          "min": null,
+          "n": 30,
+          "positives": 0
+        },
+        "2015-16": {
+          "max": null,
+          "mean": null,
+          "min": null,
+          "n": 75,
+          "positives": 0
+        }
+      },
+      "oat": {
+        "2013-14": {
+          "max": null,
+          "mean": null,
+          "min": null,
+          "n": 15,
+          "positives": 0
+        },
+        "2014-15": {
+          "max": null,
+          "mean": null,
+          "min": null,
+          "n": 15,
+          "positives": 0
+        }
+      },
+      "quinoa": {
+        "2012-13": {
+          "max": 405.0,
+          "mean": 405.0,
+          "min": 405.0,
+          "n": 15,
+          "positives": 1
+        },
+        "2013-14": {
+          "max": null,
+          "mean": null,
+          "min": null,
+          "n": 15,
+          "positives": 0
+        },
+        "2014-15": {
+          "max": null,
+          "mean": null,
+          "min": null,
+          "n": 31,
+          "positives": 0
+        },
+        "2015-16": {
+          "max": null,
+          "mean": null,
+          "min": null,
+          "n": 75,
+          "positives": 0
+        }
+      },
+      "rice": {
+        "2012-13": {
+          "max": null,
+          "mean": null,
+          "min": null,
+          "n": 9,
+          "positives": 0
+        },
+        "2015-16": {
+          "max": null,
+          "mean": null,
+          "min": null,
+          "n": 99,
+          "positives": 0
+        }
+      },
+      "rye": {
+        "2012-13": {
+          "max": null,
+          "mean": null,
+          "min": null,
+          "n": 8,
+          "positives": 0
+        },
+        "2013-14": {
+          "max": null,
+          "mean": null,
+          "min": null,
+          "n": 13,
+          "positives": 0
+        },
+        "2014-15": {
+          "max": null,
+          "mean": null,
+          "min": null,
+          "n": 25,
+          "positives": 0
+        },
+        "2015-16": {
+          "max": null,
+          "mean": null,
+          "min": null,
+          "n": 75,
+          "positives": 0
+        }
+      },
+      "spelt": {
+        "2012-13": {
+          "max": 153.4,
+          "mean": 92.4,
+          "min": 31.4,
+          "n": 13,
+          "positives": 2
+        },
+        "2013-14": {
+          "max": null,
+          "mean": null,
+          "min": null,
+          "n": 14,
+          "positives": 0
+        },
+        "2014-15": {
+          "max": null,
+          "mean": null,
+          "min": null,
+          "n": 24,
+          "positives": 0
+        },
+        "2015-16": {
+          "max": null,
+          "mean": null,
+          "min": null,
+          "n": 70,
+          "positives": 0
+        }
+      },
+      "teff": {
+        "2012-13": {
+          "max": null,
+          "mean": null,
+          "min": null,
+          "n": 7,
+          "positives": 0
+        },
+        "2013-14": {
+          "max": null,
+          "mean": null,
+          "min": null,
+          "n": 7,
+          "positives": 0
+        },
+        "2014-15": {
+          "max": 43.0,
+          "mean": 43.0,
+          "min": 43.0,
+          "n": 10,
+          "positives": 1
+        },
+        "2015-16": {
+          "max": null,
+          "mean": null,
+          "min": null,
+          "n": 35,
+          "positives": 0
+        }
+      },
+      "triticale": {
+        "2012-13": {
+          "max": null,
+          "mean": null,
+          "min": null,
+          "n": 1,
+          "positives": 0
+        }
+      }
+    },
+    "group_year": {
+      "grain": {
+        "2012-13": {
+          "max": 7711.0,
+          "mean": 343.365351,
+          "min": 20.2,
+          "n": 514,
+          "positives": 228
+        },
+        "2013-14": {
+          "max": 3310.0,
+          "mean": 344.4,
+          "min": 21.0,
+          "n": 624,
+          "positives": 225
+        },
+        "2014-15": {
+          "max": 3847.0,
+          "mean": 314.52809,
+          "min": 20.0,
+          "n": 750,
+          "positives": 178
+        },
+        "2015-16": {
+          "max": 123.0,
+          "mean": 97.0,
+          "min": 71.0,
+          "n": 750,
+          "positives": 2
+        },
+        "2016-17": {
+          "max": null,
+          "mean": null,
+          "min": null,
+          "n": 325,
+          "positives": 0
+        },
+        "2017-18": {
+          "max": 7790.0,
+          "mean": 407.90991,
+          "min": 20.0,
+          "n": 750,
+          "positives": 444
+        }
+      },
+      "soy": {
+        "2012-13": {
+          "max": 27.0,
+          "mean": 27.0,
+          "min": 27.0,
+          "n": 91,
+          "positives": 1
+        },
+        "2013-14": {
+          "max": 45.0,
+          "mean": 45.0,
+          "min": 45.0,
+          "n": 91,
+          "positives": 1
+        }
+      },
+      "tea": {
+        "2016-17": {
+          "max": 43.0,
+          "mean": 43.0,
+          "min": 43.0,
+          "n": 425,
+          "positives": 1
+        }
+      }
+    },
+    "no_d_suffix": {
+      "max": 7790.0,
+      "mean": 364.130028,
+      "min": 20.0,
+      "n": 4304,
+      "positives": 1079
+    }
+  },
+  "sha256": "7d102a924cad28e6774f333672ab598cc65e1aad09f93ec0a6e0387981c278a9",
+  "source": "https://open.canada.ca/data/dataset/449c63d9-c545-4cce-b907-e32840967873/resource/df04bd3f-d591-49dc-91c7-0e498b74f22f/download/chem_ts_2012-2018_fumonisins_in_selected_foods_chem_ec_2012-2018_fumonisines_dans_des_aliments_s.csv",
+  "study": "fumonisin-fum1218",
+  "version": "0.1.0"
+}

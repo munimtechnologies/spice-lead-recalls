@@ -1,0 +1,498 @@
+{
+  "bytes": 158076,
+  "d_suffix": [],
+  "descriptive": {
+    "by_group": {
+      "corn": {
+        "max": 4442.5,
+        "mean": 259.804331,
+        "min": 20.8,
+        "n": 262,
+        "positives": 157
+      },
+      "other": {
+        "max": 367.0,
+        "mean": 131.8,
+        "min": 23.2,
+        "n": 45,
+        "positives": 16
+      },
+      "soy": {
+        "max": 284.6,
+        "mean": 153.5,
+        "min": 22.4,
+        "n": 191,
+        "positives": 2
+      }
+    },
+    "by_product": {
+      "Bean - Soy": {
+        "max": null,
+        "mean": null,
+        "min": null,
+        "n": 38,
+        "positives": 0
+      },
+      "Beverage - Soy": {
+        "max": null,
+        "mean": null,
+        "min": null,
+        "n": 36,
+        "positives": 0
+      },
+      "Cereal - Corn": {
+        "max": 783.4,
+        "mean": 240.104815,
+        "min": 23.1,
+        "n": 35,
+        "positives": 27
+      },
+      "Cereal - Other": {
+        "max": 367.0,
+        "mean": 137.8,
+        "min": 23.2,
+        "n": 43,
+        "positives": 15
+      },
+      "Chips - Corn": {
+        "max": 1109.0,
+        "mean": 256.303571,
+        "min": 20.8,
+        "n": 36,
+        "positives": 28
+      },
+      "Corn": {
+        "max": null,
+        "mean": null,
+        "min": null,
+        "n": 25,
+        "positives": 0
+      },
+      "Corn - Sweet - Organic": {
+        "max": null,
+        "mean": null,
+        "min": null,
+        "n": 2,
+        "positives": 0
+      },
+      "Corn Products": {
+        "max": 4442.5,
+        "mean": 288.819444,
+        "min": 27.9,
+        "n": 108,
+        "positives": 54
+      },
+      "Cornmeal": {
+        "max": 1310.4,
+        "mean": 209.039474,
+        "min": 24.2,
+        "n": 44,
+        "positives": 38
+      },
+      "Flour - Corn": {
+        "max": 1462.6,
+        "mean": 359.02,
+        "min": 30.8,
+        "n": 12,
+        "positives": 10
+      },
+      "Flour - Soy": {
+        "max": 22.4,
+        "mean": 22.4,
+        "min": 22.4,
+        "n": 4,
+        "positives": 1
+      },
+      "Infant Formula - Soy": {
+        "max": 284.6,
+        "mean": 284.6,
+        "min": 284.6,
+        "n": 29,
+        "positives": 1
+      },
+      "Misc": {
+        "max": 41.8,
+        "mean": 41.8,
+        "min": 41.8,
+        "n": 1,
+        "positives": 1
+      },
+      "Misc - Soy": {
+        "max": null,
+        "mean": null,
+        "min": null,
+        "n": 43,
+        "positives": 0
+      },
+      "Protein Powder": {
+        "max": null,
+        "mean": null,
+        "min": null,
+        "n": 1,
+        "positives": 0
+      },
+      "Soy Products": {
+        "max": null,
+        "mean": null,
+        "min": null,
+        "n": 41,
+        "positives": 0
+      }
+    },
+    "cells_with_a_comma": [],
+    "largest": [
+      {
+        "B1": 3591.0,
+        "B2": 851.5,
+        "id": "2011FUM0456",
+        "product": "Corn Products",
+        "total": 4442.5,
+        "year": "2011-12"
+      },
+      {
+        "B1": 1067.6,
+        "B2": 395.0,
+        "id": "2011FUM0083",
+        "product": "Flour - Corn",
+        "total": 1462.6,
+        "year": "2011-12"
+      },
+      {
+        "B1": 975.8,
+        "B2": 334.6,
+        "id": "2011FUM0453",
+        "product": "Cornmeal",
+        "total": 1310.4,
+        "year": "2011-12"
+      },
+      {
+        "B1": 791.2,
+        "B2": 317.8,
+        "id": "2011FUM0302",
+        "product": "Chips - Corn",
+        "total": 1109.0,
+        "year": "2011-12"
+      },
+      {
+        "B1": 757.0,
+        "B2": 275.0,
+        "id": "2011FUM0346",
+        "product": "Chips - Corn",
+        "total": 1032.0,
+        "year": "2011-12"
+      },
+      {
+        "B1": 760.5,
+        "B2": 201.7,
+        "id": "2011FUM0077",
+        "product": "Corn Products",
+        "total": 962.2,
+        "year": "2011-12"
+      },
+      {
+        "B1": 674.5,
+        "B2": 152.8,
+        "id": "2011FUM0088",
+        "product": "Flour - Corn",
+        "total": 827.3,
+        "year": "2011-12"
+      },
+      {
+        "B1": 642.5,
+        "B2": 177.0,
+        "id": "2011FUM0351",
+        "product": "Chips - Corn",
+        "total": 819.5,
+        "year": "2011-12"
+      },
+      {
+        "B1": 655.2,
+        "B2": 128.2,
+        "id": "2011FUM0075",
+        "product": "Cereal - Corn",
+        "total": 783.4,
+        "year": "2011-12"
+      },
+      {
+        "B1": 630.3,
+        "B2": 139.4,
+        "id": "2011FUM0424",
+        "product": "Chips - Corn",
+        "total": 769.7,
+        "year": "2011-12"
+      }
+    ],
+    "positives_by_function": {
+      "Domestic": 56,
+      "Import": 109,
+      "Unknown": 10
+    },
+    "positives_by_year": {
+      "2010-11": 1,
+      "2011-12": 174
+    },
+    "positives_with_b1_zero": 0,
+    "products_n_positives": {
+      "Bean - Soy": [
+        38,
+        0
+      ],
+      "Beverage - Soy": [
+        36,
+        0
+      ],
+      "Cereal - Corn": [
+        35,
+        27
+      ],
+      "Cereal - Other": [
+        43,
+        15
+      ],
+      "Chips - Corn": [
+        36,
+        28
+      ],
+      "Corn": [
+        25,
+        0
+      ],
+      "Corn - Sweet - Organic": [
+        2,
+        0
+      ],
+      "Corn Products": [
+        108,
+        54
+      ],
+      "Cornmeal": [
+        44,
+        38
+      ],
+      "Flour - Corn": [
+        12,
+        10
+      ],
+      "Flour - Soy": [
+        4,
+        1
+      ],
+      "Infant Formula - Soy": [
+        29,
+        1
+      ],
+      "Misc": [
+        1,
+        1
+      ],
+      "Misc - Soy": [
+        43,
+        0
+      ],
+      "Protein Powder": [
+        1,
+        0
+      ],
+      "Soy Products": [
+        41,
+        0
+      ]
+    },
+    "smallest_nonzero": {
+      "B1": [
+        20.8,
+        22.4,
+        23.1,
+        23.2,
+        23.7
+      ],
+      "B2": [
+        15.0,
+        19.0,
+        20.0,
+        20.7,
+        21.0
+      ]
+    },
+    "zero_rows": {
+      "B1": 323,
+      "B2": 391
+    }
+  },
+  "encoding": "utf-8-sig",
+  "failed": [
+    "A-V1",
+    "A-V3",
+    "A-V4"
+  ],
+  "gate": {
+    "G": true,
+    "md5": true,
+    "problems": {
+      "bad_date": [],
+      "bad_unit": [],
+      "missing_component": [],
+      "mixed_product": [],
+      "negative": [],
+      "non_numeric": [],
+      "repeated": [],
+      "unknown_component": [],
+      "unmapped_product": []
+    },
+    "samples": 498,
+    "samples_as_printed": false,
+    "size_band": [
+      157696,
+      158720
+    ],
+    "size_in_band": true
+  },
+  "grades": {
+    "A-V1": {
+      "by_group": {
+        "corn": {
+          "max": 4442.5,
+          "mean": 259.804331,
+          "min": 20.8,
+          "n": 262,
+          "positives": 157
+        },
+        "other": {
+          "max": 367.0,
+          "mean": 131.8,
+          "min": 23.2,
+          "n": 45,
+          "positives": 16
+        },
+        "soy": {
+          "max": 284.6,
+          "mean": 153.5,
+          "min": 22.4,
+          "n": 191,
+          "positives": 2
+        }
+      },
+      "checks": {
+        "corn_or_other_161": false,
+        "one_soy": false,
+        "positives_162": false,
+        "soy_is_flour": false,
+        "soy_rounds_to_22_4": false
+      },
+      "held": false,
+      "positives": 175,
+      "soy_positives": [
+        {
+          "B1": 227.0,
+          "B2": 57.6,
+          "id": "2011FUM0148",
+          "product": "Infant Formula - Soy",
+          "total": 284.6,
+          "year": "2011-12"
+        },
+        {
+          "B1": 22.4,
+          "B2": 0.0,
+          "id": "2011FUM0192",
+          "product": "Flour - Soy",
+          "total": 22.4,
+          "year": "2011-12"
+        }
+      ]
+    },
+    "A-V2": {
+      "checks": {
+        "corn_min_rounds_to_20_8": true
+      },
+      "corn": {
+        "max": 4442.5,
+        "mean": 259.804331,
+        "min": 20.8,
+        "n": 262,
+        "positives": 157
+      },
+      "corn_min_rounds_to_23_1": false,
+      "corn_or_other": {
+        "max": 4442.5,
+        "mean": 247.96578,
+        "min": 20.8,
+        "n": 307,
+        "positives": 173
+      },
+      "held": true
+    },
+    "A-V3": {
+      "checks": {
+        "top_is_cornmeal": false,
+        "top_rounds_to_4442_5": true
+      },
+      "held": false,
+      "tied_tops": 1,
+      "top": {
+        "B1": 3591.0,
+        "B2": 851.5,
+        "id": "2011FUM0456",
+        "product": "Corn Products",
+        "total": 4442.5,
+        "year": "2011-12"
+      }
+    },
+    "A-V4": {
+      "checks": {
+        "corn_mean_rounds_to_253_2": false
+      },
+      "corn": {
+        "max": 4442.5,
+        "mean": 259.804331,
+        "min": 20.8,
+        "n": 262,
+        "positives": 157
+      },
+      "corn_or_other": {
+        "max": 4442.5,
+        "mean": 247.96578,
+        "min": 20.8,
+        "n": 307,
+        "positives": 173
+      },
+      "held": false
+    }
+  },
+  "held": [
+    "A-V2"
+  ],
+  "lookups_exploratory": {
+    "corn 2012 max 7711": [],
+    "oat 2017 53": [],
+    "rice 249": [],
+    "rice 33": [
+      {
+        "B1": 32.6,
+        "B2": 0.0,
+        "id": "2011FUM0366",
+        "product": "Corn Products",
+        "total": 32.6,
+        "year": "2011-12"
+      }
+    ],
+    "rice 42": [
+      {
+        "B1": 41.8,
+        "B2": 0.0,
+        "id": "2011FUM0336",
+        "product": "Misc",
+        "total": 41.8,
+        "year": "2011-12"
+      }
+    ],
+    "rice 47": [],
+    "text max 7710": [],
+    "wheat 2012 max 393": [],
+    "wheat 2012 min 28.8": []
+  },
+  "md5": "9f6fddeb2448a199d1beae925a5f3a96",
+  "sha256": "14c9755b71affd61a5ab16c9d91ffea14a598bd30f4fdf095d54464f6c161335",
+  "source": "https://open.canada.ca/data/dataset/e5906422-e8bf-498b-972e-faf2b688aa97/resource/fe5490e6-35c6-4175-be9d-8b679548784d/download/chem_ts_2011-2012_fumonisins_in_selected_foods_chem_ec_2011-2012_fumonisines_dans_des_aliments_s.csv",
+  "study": "fumonisin-fum11",
+  "version": "0.1.0"
+}

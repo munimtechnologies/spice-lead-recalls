@@ -1,0 +1,499 @@
+sample,product,group,label_grain,function,origin,date,survey_year,B1_ng_g,B2_ng_g,total_ng_g
+2011FUM0001,Corn,corn,,Domestic,CANADA,2011-05-02,2011-12,0.0,0.0,0.0
+2011FUM0002,Corn,corn,,Domestic,CANADA,2012-01-15,2011-12,0.0,0.0,0.0
+2011FUM0003,Cereal - Corn,corn,,Import,SPAIN,2012-02-10,2011-12,424.7,77.8,502.5
+2011FUM0004,Cereal - Corn,corn,,Import,Unknown,2011-04-18,2011-12,101.0,27.0,128.0
+2011FUM0005,Cornmeal,corn,,Import,Unknown,2011-06-13,2011-12,59.0,0.0,59.0
+2011FUM0006,Cornmeal,corn,,Import,United States,2011-06-13,2011-12,72.0,0.0,72.0
+2011FUM0007,Cornmeal,corn,,Domestic,CANADA,2011-04-19,2011-12,121.0,22.0,143.0
+2011FUM0008,Corn,corn,,Domestic,CANADA,2011-07-06,2011-12,0.0,0.0,0.0
+2011FUM0009,Corn,corn,,Domestic,CANADA,2011-06-19,2011-12,0.0,0.0,0.0
+2011FUM0010,Cereal - Corn,corn,,Domestic,CANADA,2011-11-30,2011-12,64.43,15.0,79.43
+2011FUM0011,Cereal - Other,other,,Domestic,CANADA,2011-11-09,2011-12,0.0,0.0,0.0
+2011FUM0012,Cereal - Corn,corn,,Domestic,CANADA,2012-01-26,2011-12,0.0,0.0,0.0
+2011FUM0013,Cereal - Other,other,,Domestic,CANADA,2011-11-09,2011-12,140.0,29.8,169.8
+2011FUM0014,Flour - Corn,corn,,Domestic,CANADA,2011-05-09,2011-12,109.0,30.0,139.0
+2011FUM0015,Flour - Corn,corn,,Domestic,CANADA,2011-06-19,2011-12,49.0,0.0,49.0
+2011FUM0016,Corn Products,corn,,Import,Unknown,2012-01-12,2011-12,68.2,30.5,98.7
+2011FUM0017,Flour - Corn,corn,,Import,United States,2011-12-08,2011-12,74.3,25.7,100.0
+2011FUM0018,Corn,corn,,Import,United States,2012-01-04,2011-12,0.0,0.0,0.0
+2011FUM0019,Corn,corn,,Import,THAILAND,2011-11-14,2011-12,0.0,0.0,0.0
+2011FUM0020,Cornmeal,corn,,Import,United States,2012-02-01,2011-12,38.2,0.0,38.2
+2011FUM0021,Cornmeal,corn,,Import,United States,2012-02-24,2011-12,400.0,61.5,461.5
+2011FUM0022,Cornmeal,corn,,Domestic,CANADA,2012-01-18,2011-12,211.4,55.3,266.7
+2011FUM0023,Corn Products,corn,,Domestic,CANADA,2011-08-24,2011-12,227.0,57.2,284.2
+2011FUM0024,Corn Products,corn,,Import,United States,2012-01-12,2011-12,0.0,0.0,0.0
+2011FUM0025,Flour - Corn,corn,,Import,Unknown,2011-06-07,2011-12,52.0,0.0,52.0
+2011FUM0026,Flour - Corn,corn,,Import,COLOMBIA,2011-07-28,2011-12,0.0,0.0,0.0
+2011FUM0027,Corn Products,corn,,Domestic,CANADA,2012-02-27,2011-12,0.0,0.0,0.0
+2011FUM0028,Corn Products,corn,,Import,Unknown,2011-07-29,2011-12,0.0,0.0,0.0
+2011FUM0029,Corn,corn,,Domestic,CANADA,2011-08-24,2011-12,0.0,0.0,0.0
+2011FUM0030,Corn Products,corn,,Import,Unknown,2012-01-16,2011-12,164.0,47.5,211.5
+2011FUM0031,Corn,corn,,Domestic,CANADA,2011-05-06,2011-12,0.0,0.0,0.0
+2011FUM0032,Corn,corn,,Import,United States,2012-01-13,2011-12,0.0,0.0,0.0
+2011FUM0033,Corn,corn,,Import,United States,2011-09-02,2011-12,0.0,0.0,0.0
+2011FUM0034,Cereal - Corn,corn,,Domestic,CANADA,2011-08-11,2011-12,0.0,0.0,0.0
+2011FUM0035,Cereal - Corn,corn,,Import,Unknown,2011-10-06,2011-12,124.0,21.0,145.0
+2011FUM0036,Cereal - Corn,corn,,Import,United States,2011-12-28,2011-12,0.0,0.0,0.0
+2011FUM0037,Cornmeal,corn,,Import,Unknown,2011-02-09,2010-11,183.0,24.0,207.0
+2011FUM0038,Cornmeal,corn,,Unknown,Unknown,2011-11-10,2011-12,58.3,0.0,58.3
+2011FUM0039,Cornmeal,corn,,Unknown,Unknown,2011-11-26,2011-12,26.4,0.0,26.4
+2011FUM0040,Flour - Corn,corn,,Import,INDIA,2011-12-16,2011-12,30.8,0.0,30.8
+2011FUM0041,Cornmeal,corn,,Unknown,Unknown,2011-05-09,2011-12,46.0,0.0,46.0
+2011FUM0042,Flour - Corn,corn,,Unknown,Unknown,2011-04-29,2011-12,52.0,0.0,52.0
+2011FUM0043,Corn Products,corn,,Import,United States,2012-01-18,2011-12,72.5,0.0,72.5
+2011FUM0044,Corn Products,corn,,Domestic,CANADA,2011-07-16,2011-12,0.0,0.0,0.0
+2011FUM0045,Cornmeal,corn,,Unknown,Unknown,2012-01-19,2011-12,123.3,22.1,145.4
+2011FUM0046,Corn,corn,,Domestic,CANADA,2011-07-04,2011-12,0.0,0.0,0.0
+2011FUM0047,Corn,corn,,Import,United States,2011-12-21,2011-12,0.0,0.0,0.0
+2011FUM0048,Corn - Sweet - Organic,corn,,Import,United States,2012-02-19,2011-12,0.0,0.0,0.0
+2011FUM0049,Corn,corn,,Domestic,CANADA,2011-04-20,2011-12,0.0,0.0,0.0
+2011FUM0050,Corn,corn,,Domestic,CANADA,2011-06-09,2011-12,0.0,0.0,0.0
+2011FUM0051,Corn - Sweet - Organic,corn,,Import,United States,2011-12-05,2011-12,0.0,0.0,0.0
+2011FUM0052,Corn,corn,,Import,THAILAND,2011-06-09,2011-12,0.0,0.0,0.0
+2011FUM0053,Corn,corn,,Domestic,CANADA,2011-06-13,2011-12,0.0,0.0,0.0
+2011FUM0054,Corn,corn,,Domestic,CANADA,2011-12-14,2011-12,0.0,0.0,0.0
+2011FUM0055,Corn,corn,,Domestic,CANADA,2011-04-18,2011-12,0.0,0.0,0.0
+2011FUM0056,Cereal - Other,other,,Domestic,CANADA,2011-04-20,2011-12,0.0,0.0,0.0
+2011FUM0057,Cereal - Corn,corn,,Domestic,CANADA,2011-08-02,2011-12,0.0,0.0,0.0
+2011FUM0058,Cereal - Corn,corn,,Import,United States,2011-08-02,2011-12,23.1,0.0,23.1
+2011FUM0059,Cereal - Other,other,,Domestic,CANADA,2012-02-01,2011-12,0.0,0.0,0.0
+2011FUM0060,Cereal - Other,other,,Import,United States,2012-02-01,2011-12,94.4,0.0,94.4
+2011FUM0061,Cereal - Corn,corn,,Domestic,CANADA,2011-05-02,2011-12,321.0,68.0,389.0
+2011FUM0062,Cereal - Corn,corn,,Domestic,CANADA,2011-12-19,2011-12,0.0,0.0,0.0
+2011FUM0063,Cereal - Other,other,,Import,United States,2012-01-18,2011-12,0.0,0.0,0.0
+2011FUM0064,Cereal - Corn,corn,,Domestic,CANADA,2011-06-15,2011-12,114.0,28.0,142.0
+2011FUM0065,Cereal - Corn,corn,,Domestic,CANADA,2011-05-02,2011-12,0.0,0.0,0.0
+2011FUM0066,Corn Products,corn,,Domestic,CANADA,2011-07-04,2011-12,0.0,0.0,0.0
+2011FUM0067,Cornmeal,corn,,Domestic,CANADA,2011-06-09,2011-12,154.0,38.0,192.0
+2011FUM0068,Corn Products,corn,,Import,Vietnam,2011-12-21,2011-12,0.0,0.0,0.0
+2011FUM0069,Cornmeal,corn,,Import,COLOMBIA,2012-02-27,2011-12,117.8,22.1,139.9
+2011FUM0070,Cornmeal,corn,,Import,COLOMBIA,2011-05-08,2011-12,373.0,95.0,468.0
+2011FUM0071,Flour - Corn,corn,,Domestic,CANADA,2011-07-08,2011-12,0.0,0.0,0.0
+2011FUM0072,Cereal - Corn,corn,,Domestic,CANADA,2011-04-18,2011-12,622.0,122.0,744.0
+2011FUM0073,Cereal - Corn,corn,,Domestic,CANADA,2011-07-05,2011-12,170.0,39.0,209.0
+2011FUM0074,Corn Products,corn,,Import,United States,2011-12-06,2011-12,0.0,0.0,0.0
+2011FUM0075,Cereal - Corn,corn,,Import,Unknown,2011-11-08,2011-12,655.2,128.2,783.4
+2011FUM0076,Cornmeal,corn,,Import,United States,2012-02-07,2011-12,177.4,39.7,217.1
+2011FUM0077,Corn Products,corn,,Import,United States,2012-01-18,2011-12,760.5,201.7,962.2
+2011FUM0078,Corn,corn,,Import,United States,2011-11-14,2011-12,0.0,0.0,0.0
+2011FUM0079,Corn,corn,,Import,United States,2011-08-18,2011-12,0.0,0.0,0.0
+2011FUM0080,Corn,corn,,Domestic,CANADA,2011-04-18,2011-12,0.0,0.0,0.0
+2011FUM0081,Cornmeal,corn,,Import,United States,2011-08-18,2011-12,514.7,130.5,645.2
+2011FUM0082,Cornmeal,corn,,Domestic,CANADA,2011-04-18,2011-12,50.0,0.0,50.0
+2011FUM0083,Flour - Corn,corn,,Import,United States,2012-02-07,2011-12,1067.6,395.0,1462.6
+2011FUM0084,Flour - Corn,corn,,Import,United States,2011-07-06,2011-12,502.0,111.0,613.0
+2011FUM0085,Corn Products,corn,,Import,United States,2011-04-19,2011-12,273.0,55.0,328.0
+2011FUM0086,Cornmeal,corn,,Import,COLOMBIA,2012-02-07,2011-12,107.8,0.0,107.8
+2011FUM0087,Chips - Corn,corn,,Domestic,CANADA,2012-01-19,2011-12,81.4,27.7,109.1
+2011FUM0088,Flour - Corn,corn,,Import,United States,2012-02-07,2011-12,674.5,152.8,827.3
+2011FUM0089,Cornmeal,corn,,Domestic,CANADA,2011-04-15,2011-12,56.0,0.0,56.0
+2011FUM0090,Corn Products,corn,,Import,United States,2012-01-11,2011-12,69.6,0.0,69.6
+2011FUM0091,Chips - Corn,corn,,Domestic,CANADA,2011-04-15,2011-12,26.0,0.0,26.0
+2011FUM0092,Corn,corn,,Import,THAILAND,2011-05-02,2011-12,0.0,0.0,0.0
+2011FUM0093,Corn,corn,,Import,THAILAND,2011-11-18,2011-12,0.0,0.0,0.0
+2011FUM0094,Corn,corn,,Import,United States,2011-12-08,2011-12,0.0,0.0,0.0
+2011FUM0095,Cereal - Corn,corn,,Import,United States,2011-09-28,2011-12,214.0,50.0,264.0
+2011FUM0096,Cereal - Corn,corn,,Domestic,CANADA,2011-07-02,2011-12,278.0,58.0,336.0
+2011FUM0097,Cereal - Corn,corn,,Import,United States,2011-07-02,2011-12,46.0,0.0,46.0
+2011FUM0098,Corn Products,corn,,Import,United States,2011-05-02,2011-12,256.0,60.0,316.0
+2011FUM0099,Cornmeal,corn,,Domestic,CANADA,2012-01-09,2011-12,26.6,0.0,26.6
+2011FUM0100,Cornmeal,corn,,Import,United States,2011-05-04,2011-12,582.0,182.0,764.0
+2011FUM0101,Flour - Soy,soy,,Import,United States,2012-02-19,2011-12,0.0,0.0,0.0
+2011FUM0102,Misc - Soy,soy,,Import,United States,2011-07-25,2011-12,0.0,0.0,0.0
+2011FUM0103,Beverage - Soy,soy,,Domestic,CANADA,2012-02-10,2011-12,0.0,0.0,0.0
+2011FUM0104,Beverage - Soy,soy,,Import,United States,2011-06-02,2011-12,0.0,0.0,0.0
+2011FUM0105,Soy Products,soy,,Import,JAPAN,2012-03-15,2011-12,0.0,0.0,0.0
+2011FUM0106,Beverage - Soy,soy,,Import,United States,2011-08-26,2011-12,0.0,0.0,0.0
+2011FUM0107,Soy Products,soy,,Domestic,CANADA,2012-02-27,2011-12,0.0,0.0,0.0
+2011FUM0108,Flour - Soy,soy,,Domestic,CANADA,2011-05-15,2011-12,0.0,0.0,0.0
+2011FUM0109,Bean - Soy,soy,,Domestic,CANADA,2011-06-13,2011-12,0.0,0.0,0.0
+2011FUM0110,Bean - Soy,soy,,Domestic,CANADA,2011-08-22,2011-12,0.0,0.0,0.0
+2011FUM0111,Bean - Soy,soy,,Domestic,CANADA,2011-07-19,2011-12,0.0,0.0,0.0
+2011FUM0112,Infant Formula - Soy,soy,,Import,SWITZERLAND,2012-01-11,2011-12,0.0,0.0,0.0
+2011FUM0113,Infant Formula - Soy,soy,,Import,United States,2011-07-19,2011-12,0.0,0.0,0.0
+2011FUM0114,Infant Formula - Soy,soy,,Import,NETHERLANDS,2012-01-11,2011-12,0.0,0.0,0.0
+2011FUM0115,Bean - Soy,soy,,Domestic,CANADA,2012-01-26,2011-12,0.0,0.0,0.0
+2011FUM0116,Soy Products,soy,,Domestic,CANADA,2012-03-12,2011-12,0.0,0.0,0.0
+2011FUM0117,Bean - Soy,soy,,Domestic,CANADA,2011-08-09,2011-12,0.0,0.0,0.0
+2011FUM0118,Bean - Soy,soy,,Import,MALAYSIA,2011-04-27,2011-12,0.0,0.0,0.0
+2011FUM0119,Beverage - Soy,soy,,Domestic,CANADA,2012-01-05,2011-12,0.0,0.0,0.0
+2011FUM0120,Beverage - Soy,soy,,Domestic,CANADA,2011-06-14,2011-12,0.0,0.0,0.0
+2011FUM0121,Beverage - Soy,soy,,Import,United States,2011-06-19,2011-12,0.0,0.0,0.0
+2011FUM0122,Beverage - Soy,soy,,Import,United States,2012-01-27,2011-12,0.0,0.0,0.0
+2011FUM0123,Soy Products,soy,,Domestic,CANADA,2012-03-15,2011-12,0.0,0.0,0.0
+2011FUM0124,Soy Products,soy,,Domestic,CANADA,2012-01-26,2011-12,0.0,0.0,0.0
+2011FUM0125,Soy Products,soy,,Domestic,CANADA,2012-03-28,2011-12,0.0,0.0,0.0
+2011FUM0126,Misc - Soy,soy,,Import,JAPAN,2011-04-27,2011-12,0.0,0.0,0.0
+2011FUM0127,Misc - Soy,soy,,Domestic,CANADA,2011-07-13,2011-12,0.0,0.0,0.0
+2011FUM0128,Misc - Soy,soy,,Import,JAPAN,2011-04-27,2011-12,0.0,0.0,0.0
+2011FUM0129,Soy Products,soy,,Domestic,CANADA,2011-12-08,2011-12,0.0,0.0,0.0
+2011FUM0130,Beverage - Soy,soy,,Import,MALAYSIA,2011-04-27,2011-12,0.0,0.0,0.0
+2011FUM0132,Beverage - Soy,soy,,Domestic,CANADA,2011-11-16,2011-12,0.0,0.0,0.0
+2011FUM0133,Beverage - Soy,soy,,Domestic,CANADA,2012-01-12,2011-12,0.0,0.0,0.0
+2011FUM0134,Beverage - Soy,soy,,Domestic,CANADA,2012-01-12,2011-12,0.0,0.0,0.0
+2011FUM0135,Bean - Soy,soy,,Domestic,CANADA,2012-01-16,2011-12,0.0,0.0,0.0
+2011FUM0136,Bean - Soy,soy,,Domestic,CANADA,2012-01-17,2011-12,0.0,0.0,0.0
+2011FUM0137,Bean - Soy,soy,,Domestic,CANADA,2012-01-12,2011-12,0.0,0.0,0.0
+2011FUM0138,Bean - Soy,soy,,Domestic,CANADA,2012-01-17,2011-12,0.0,0.0,0.0
+2011FUM0139,Bean - Soy,soy,,Domestic,CANADA,2011-04-18,2011-12,0.0,0.0,0.0
+2011FUM0140,Soy Products,soy,,Domestic,CANADA,2012-01-24,2011-12,0.0,0.0,0.0
+2011FUM0141,Misc - Soy,soy,,Import,FRANCE,2011-08-24,2011-12,0.0,0.0,0.0
+2011FUM0142,Soy Products,soy,,Import,United States,2012-02-28,2011-12,0.0,0.0,0.0
+2011FUM0143,Misc - Soy,soy,,Domestic,CANADA,2011-06-08,2011-12,0.0,0.0,0.0
+2011FUM0144,Soy Products,soy,,Import,Unknown,2012-02-26,2011-12,0.0,0.0,0.0
+2011FUM0145,Beverage - Soy,soy,,Domestic,CANADA,2011-05-02,2011-12,0.0,0.0,0.0
+2011FUM0146,Beverage - Soy,soy,,Domestic,CANADA,2011-06-28,2011-12,0.0,0.0,0.0
+2011FUM0147,Beverage - Soy,soy,,Import,United States,2012-01-18,2011-12,0.0,0.0,0.0
+2011FUM0148,Infant Formula - Soy,soy,,Import,NETHERLANDS,2012-02-10,2011-12,227.0,57.6,284.6
+2011FUM0149,Infant Formula - Soy,soy,,Import,United States,2011-08-25,2011-12,0.0,0.0,0.0
+2011FUM0150,Infant Formula - Soy,soy,,Import,United States,2011-08-25,2011-12,0.0,0.0,0.0
+2011FUM0151,Soy Products,soy,,Domestic,CANADA,2012-01-30,2011-12,0.0,0.0,0.0
+2011FUM0152,Misc - Soy,soy,,Domestic,CANADA,2011-08-25,2011-12,0.0,0.0,0.0
+2011FUM0153,Soy Products,soy,,Domestic,CANADA,2012-02-23,2011-12,0.0,0.0,0.0
+2011FUM0154,Soy Products,soy,,Import,United States,2012-01-31,2011-12,0.0,0.0,0.0
+2011FUM0155,Misc - Soy,soy,,Domestic,CANADA,2011-05-02,2011-12,0.0,0.0,0.0
+2011FUM0156,Misc - Soy,soy,,Domestic,CANADA,2011-08-25,2011-12,0.0,0.0,0.0
+2011FUM0157,Misc - Soy,soy,,Domestic,CANADA,2011-05-03,2011-12,0.0,0.0,0.0
+2011FUM0158,Soy Products,soy,,Domestic,CANADA,2012-02-07,2011-12,0.0,0.0,0.0
+2011FUM0159,Misc - Soy,soy,,Import,JAPAN,2011-06-15,2011-12,0.0,0.0,0.0
+2011FUM0160,Misc - Soy,soy,,Import,JAPAN,2011-04-18,2011-12,0.0,0.0,0.0
+2011FUM0161,Bean - Soy,soy,,Domestic,CANADA,2011-12-29,2011-12,0.0,0.0,0.0
+2011FUM0162,Bean - Soy,soy,,Import,Unknown,2011-06-10,2011-12,0.0,0.0,0.0
+2011FUM0163,Bean - Soy,soy,,Import,Unknown,2011-08-03,2011-12,0.0,0.0,0.0
+2011FUM0164,Bean - Soy,soy,,Import,United States,2011-12-28,2011-12,0.0,0.0,0.0
+2011FUM0165,Flour - Soy,soy,,Import,United States,2011-12-15,2011-12,0.0,0.0,0.0
+2011FUM0166,Misc - Soy,soy,,Import,Unknown,2011-05-13,2011-12,0.0,0.0,0.0
+2011FUM0167,Misc - Soy,soy,,Import,United States,2011-05-09,2011-12,0.0,0.0,0.0
+2011FUM0168,Misc - Soy,soy,,Domestic,CANADA,2011-07-16,2011-12,0.0,0.0,0.0
+2011FUM0169,Beverage - Soy,soy,,Domestic,CANADA,2011-09-02,2011-12,0.0,0.0,0.0
+2011FUM0170,Beverage - Soy,soy,,Import,United States,2011-08-16,2011-12,0.0,0.0,0.0
+2011FUM0171,Beverage - Soy,soy,,Import,United States,2011-12-28,2011-12,0.0,0.0,0.0
+2011FUM0172,Beverage - Soy,soy,,Domestic,CANADA,2011-11-26,2011-12,0.0,0.0,0.0
+2011FUM0173,Beverage - Soy,soy,,Domestic,CANADA,2011-06-08,2011-12,0.0,0.0,0.0
+2011FUM0174,Beverage - Soy,soy,,Import,United States,2011-05-06,2011-12,0.0,0.0,0.0
+2011FUM0175,Infant Formula - Soy,soy,,Import,United States,2011-11-04,2011-12,0.0,0.0,0.0
+2011FUM0176,Infant Formula - Soy,soy,,Import,United States,2011-11-24,2011-12,0.0,0.0,0.0
+2011FUM0177,Infant Formula - Soy,soy,,Unknown,Unknown,2011-11-24,2011-12,0.0,0.0,0.0
+2011FUM0178,Misc - Soy,soy,,Domestic,CANADA,2011-11-10,2011-12,0.0,0.0,0.0
+2011FUM0179,Soy Products,soy,,Domestic,CANADA,2012-01-19,2011-12,0.0,0.0,0.0
+2011FUM0180,Soy Products,soy,,Import,United States,2012-01-18,2011-12,0.0,0.0,0.0
+2011FUM0181,Soy Products,soy,,Domestic,CANADA,2011-12-02,2011-12,0.0,0.0,0.0
+2011FUM0182,Misc - Soy,soy,,Domestic,CANADA,2011-06-08,2011-12,0.0,0.0,0.0
+2011FUM0183,Bean - Soy,soy,,Domestic,CANADA,2011-07-25,2011-12,0.0,0.0,0.0
+2011FUM0184,Bean - Soy,soy,,Import,Unknown,2011-11-07,2011-12,0.0,0.0,0.0
+2011FUM0185,Bean - Soy,soy,,Domestic,CANADA,2011-05-02,2011-12,0.0,0.0,0.0
+2011FUM0186,Bean - Soy,soy,,Import,United States,2011-07-04,2011-12,0.0,0.0,0.0
+2011FUM0187,Bean - Soy,soy,,Domestic,CANADA,2011-04-18,2011-12,0.0,0.0,0.0
+2011FUM0188,Bean - Soy,soy,,Import,Unknown,2011-07-25,2011-12,0.0,0.0,0.0
+2011FUM0189,Soy Products,soy,,Import,United States,2012-03-06,2011-12,0.0,0.0,0.0
+2011FUM0190,Soy Products,soy,,Domestic,CANADA,2012-02-15,2011-12,0.0,0.0,0.0
+2011FUM0191,Beverage - Soy,soy,,Import,United States,2011-10-18,2011-12,0.0,0.0,0.0
+2011FUM0192,Flour - Soy,soy,,Domestic,CANADA,2012-02-28,2011-12,22.4,0.0,22.4
+2011FUM0193,Beverage - Soy,soy,,Import,United States,2011-10-18,2011-12,0.0,0.0,0.0
+2011FUM0194,Beverage - Soy,soy,,Import,United States,2012-01-20,2011-12,0.0,0.0,0.0
+2011FUM0195,Beverage - Soy,soy,,Domestic,CANADA,2012-02-19,2011-12,0.0,0.0,0.0
+2011FUM0196,Beverage - Soy,soy,,Import,United States,2011-07-04,2011-12,0.0,0.0,0.0
+2011FUM0197,Beverage - Soy,soy,,Domestic,CANADA,2011-05-02,2011-12,0.0,0.0,0.0
+2011FUM0198,Beverage - Soy,soy,,Import,United States,2011-11-07,2011-12,0.0,0.0,0.0
+2011FUM0199,Beverage - Soy,soy,,Domestic,CANADA,2011-08-02,2011-12,0.0,0.0,0.0
+2011FUM0200,Beverage - Soy,soy,,Import,United States,2011-08-02,2011-12,0.0,0.0,0.0
+2011FUM0201,Infant Formula - Soy,soy,,Import,United States,2011-12-05,2011-12,0.0,0.0,0.0
+2011FUM0202,Infant Formula - Soy,soy,,Import,United States,2011-04-18,2011-12,0.0,0.0,0.0
+2011FUM0203,Infant Formula - Soy,soy,,Import,United States,2012-02-22,2011-12,0.0,0.0,0.0
+2011FUM0204,Soy Products,soy,,Domestic,CANADA,2012-03-05,2011-12,0.0,0.0,0.0
+2011FUM0205,Misc - Soy,soy,,Domestic,CANADA,2011-05-04,2011-12,0.0,0.0,0.0
+2011FUM0206,Soy Products,soy,,Domestic,CANADA,2011-10-19,2011-12,0.0,0.0,0.0
+2011FUM0207,Soy Products,soy,,Domestic,CANADA,2012-02-28,2011-12,0.0,0.0,0.0
+2011FUM0208,Soy Products,soy,,Domestic,CANADA,2012-01-27,2011-12,0.0,0.0,0.0
+2011FUM0209,Soy Products,soy,,Domestic,CANADA,2012-03-05,2011-12,0.0,0.0,0.0
+2011FUM0210,Soy Products,soy,,Domestic,CANADA,2012-01-20,2011-12,0.0,0.0,0.0
+2011FUM0211,Misc - Soy,soy,,Import,United States,2011-07-04,2011-12,0.0,0.0,0.0
+2011FUM0212,Soy Products,soy,,Domestic,CANADA,2011-12-05,2011-12,0.0,0.0,0.0
+2011FUM0213,Soy Products,soy,,Domestic,CANADA,2012-02-29,2011-12,0.0,0.0,0.0
+2011FUM0214,Soy Products,soy,,Import,JAPAN,2012-01-09,2011-12,0.0,0.0,0.0
+2011FUM0215,Misc - Soy,soy,,Import,JAPAN,2011-05-04,2011-12,0.0,0.0,0.0
+2011FUM0216,Soy Products,soy,,Import,JAPAN,2012-02-28,2011-12,0.0,0.0,0.0
+2011FUM0217,Misc - Soy,soy,,Import,JAPAN,2011-07-04,2011-12,0.0,0.0,0.0
+2011FUM0218,Protein Powder,other,,Domestic,CANADA,2012-01-20,2011-12,0.0,0.0,0.0
+2011FUM0219,Misc - Soy,soy,,Import,JAPAN,2011-07-04,2011-12,0.0,0.0,0.0
+2011FUM0220,Soy Products,soy,,Domestic,CANADA,2011-12-28,2011-12,0.0,0.0,0.0
+2011FUM0221,Beverage - Soy,soy,,Import,United States,2011-10-18,2011-12,0.0,0.0,0.0
+2011FUM0222,Infant Formula - Soy,soy,,Import,United States,2012-02-22,2011-12,0.0,0.0,0.0
+2011FUM0223,Misc - Soy,soy,,Import,United States,2011-07-04,2011-12,0.0,0.0,0.0
+2011FUM0224,Misc - Soy,soy,,Import,United States,2011-08-08,2011-12,0.0,0.0,0.0
+2011FUM0225,Beverage - Soy,soy,,Domestic,CANADA,2012-01-02,2011-12,0.0,0.0,0.0
+2011FUM0226,Beverage - Soy,soy,,Domestic,CANADA,2012-01-16,2011-12,0.0,0.0,0.0
+2011FUM0227,Misc - Soy,soy,,Domestic,CANADA,2011-10-24,2011-12,0.0,0.0,0.0
+2011FUM0228,Misc - Soy,soy,,Import,JAPAN,2011-07-17,2011-12,0.0,0.0,0.0
+2011FUM0229,Soy Products,soy,,Domestic,CANADA,2012-01-08,2011-12,0.0,0.0,0.0
+2011FUM0230,Bean - Soy,soy,,Import,United States,2011-12-13,2011-12,0.0,0.0,0.0
+2011FUM0231,Bean - Soy,soy,,Import,United States,2011-08-08,2011-12,0.0,0.0,0.0
+2011FUM0232,Bean - Soy,soy,,Import,ARGENTINA,2011-12-13,2011-12,0.0,0.0,0.0
+2011FUM0233,Infant Formula - Soy,soy,,Import,NETHERLANDS,2011-08-09,2011-12,0.0,0.0,0.0
+2011FUM0234,Infant Formula - Soy,soy,,Import,United States,2011-12-06,2011-12,0.0,0.0,0.0
+2011FUM0235,Infant Formula - Soy,soy,,Import,NETHERLANDS,2011-10-26,2011-12,0.0,0.0,0.0
+2011FUM0236,Bean - Soy,soy,,Import,United States,2012-02-07,2011-12,0.0,0.0,0.0
+2011FUM0237,Bean - Soy,soy,,Domestic,CANADA,2011-04-19,2011-12,0.0,0.0,0.0
+2011FUM0238,Bean - Soy,soy,,Import,United States,2011-04-20,2011-12,0.0,0.0,0.0
+2011FUM0239,Bean - Soy,soy,,Import,CHINA,2012-02-28,2011-12,0.0,0.0,0.0
+2011FUM0240,Misc - Soy,soy,,Import,United States,2012-01-25,2011-12,0.0,0.0,0.0
+2011FUM0241,Misc - Soy,soy,,Import,United States,2011-07-06,2011-12,0.0,0.0,0.0
+2011FUM0242,Misc - Soy,soy,,Import,United States,2011-05-19,2011-12,0.0,0.0,0.0
+2011FUM0243,Misc - Soy,soy,,Import,JAPAN,2011-12-28,2011-12,0.0,0.0,0.0
+2011FUM0244,Infant Formula - Soy,soy,,Import,SWITZERLAND,2012-02-28,2011-12,0.0,0.0,0.0
+2011FUM0245,Cereal - Other,other,,Domestic,CANADA,2011-05-08,2011-12,0.0,0.0,0.0
+2011FUM0246,Cereal - Other,other,,Domestic,CANADA,2012-02-07,2011-12,0.0,0.0,0.0
+2011FUM0247,Soy Products,soy,,Domestic,CANADA,2011-04-20,2011-12,0.0,0.0,0.0
+2011FUM0248,Soy Products,soy,,Domestic,CANADA,2012-02-15,2011-12,0.0,0.0,0.0
+2011FUM0249,Soy Products,soy,,Domestic,CANADA,2011-04-19,2011-12,0.0,0.0,0.0
+2011FUM0250,Misc - Soy,soy,,Import,JAPAN,2011-07-07,2011-12,0.0,0.0,0.0
+2011FUM0251,Soy Products,soy,,Import,JAPAN,2011-08-30,2011-12,0.0,0.0,0.0
+2011FUM0252,Soy Products,soy,,Import,JAPAN,2011-04-26,2011-12,0.0,0.0,0.0
+2011FUM0253,Misc - Soy,soy,,Domestic,CANADA,2011-11-21,2011-12,0.0,0.0,0.0
+2011FUM0254,Beverage - Soy,soy,,Domestic,CANADA,2011-08-18,2011-12,0.0,0.0,0.0
+2011FUM0255,Misc - Soy,soy,,Import,United States,2011-12-29,2011-12,0.0,0.0,0.0
+2011FUM0256,Bean - Soy,soy,,Import,CHINA,2011-06-13,2011-12,0.0,0.0,0.0
+2011FUM0257,Soy Products,soy,,Domestic,CANADA,2011-08-29,2011-12,0.0,0.0,0.0
+2011FUM0258,Bean - Soy,soy,,Import,CHINA,2011-12-08,2011-12,0.0,0.0,0.0
+2011FUM0259,Bean - Soy,soy,,Import,United States,2011-08-29,2011-12,0.0,0.0,0.0
+2011FUM0260,Bean - Soy,soy,,Import,United States,2011-07-22,2011-12,0.0,0.0,0.0
+2011FUM0261,Bean - Soy,soy,,Domestic,CANADA,2012-01-12,2011-12,0.0,0.0,0.0
+2011FUM0262,Bean - Soy,soy,,Import,United States,2011-05-06,2011-12,0.0,0.0,0.0
+2011FUM0263,Bean - Soy,soy,,Import,CHINA,2011-07-04,2011-12,0.0,0.0,0.0
+2011FUM0264,Bean - Soy,soy,,Import,CHINA,2011-12-19,2011-12,0.0,0.0,0.0
+2011FUM0265,Bean - Soy,soy,,Import,CHINA,2011-05-08,2011-12,0.0,0.0,0.0
+2011FUM0266,Infant Formula - Soy,soy,,Import,United States,2012-02-23,2011-12,0.0,0.0,0.0
+2011FUM0267,Infant Formula - Soy,soy,,Import,SWITZERLAND,2011-09-28,2011-12,0.0,0.0,0.0
+2011FUM0268,Infant Formula - Soy,soy,,Import,United States,2012-01-12,2011-12,0.0,0.0,0.0
+2011FUM0269,Infant Formula - Soy,soy,,Import,NETHERLANDS,2011-06-02,2011-12,0.0,0.0,0.0
+2011FUM0270,Infant Formula - Soy,soy,,Domestic,CANADA,2012-02-01,2011-12,0.0,0.0,0.0
+2011FUM0271,Infant Formula - Soy,soy,,Import,NETHERLANDS,2011-08-18,2011-12,0.0,0.0,0.0
+2011FUM0272,Infant Formula - Soy,soy,,Import,United States,2011-07-22,2011-12,0.0,0.0,0.0
+2011FUM0273,Infant Formula - Soy,soy,,Import,United States,2011-08-09,2011-12,0.0,0.0,0.0
+2011FUM0274,Infant Formula - Soy,soy,,Import,United States,2011-07-22,2011-12,0.0,0.0,0.0
+2011FUM0275,Infant Formula - Soy,soy,,Import,United States,2011-09-25,2011-12,0.0,0.0,0.0
+2011FUM0276,Infant Formula - Soy,soy,,Domestic,CANADA,2011-09-21,2011-12,0.0,0.0,0.0
+2011FUM0277,Cereal - Other,other,,Domestic,CANADA,2012-03-01,2011-12,0.0,0.0,0.0
+2011FUM0278,Cereal - Other,other,,Domestic,CANADA,2011-10-25,2011-12,0.0,0.0,0.0
+2011FUM0279,Cereal - Other,other,,Domestic,CANADA,2011-12-21,2011-12,0.0,0.0,0.0
+2011FUM0280,Misc - Soy,soy,,Domestic,CANADA,2011-11-16,2011-12,0.0,0.0,0.0
+2011FUM0281,Cereal - Other,other,,Domestic,CANADA,2012-03-01,2011-12,0.0,0.0,0.0
+2011FUM0282,Soy Products,soy,,Domestic,CANADA,2012-02-21,2011-12,0.0,0.0,0.0
+2011FUM0283,Soy Products,soy,,Domestic,CANADA,2012-02-09,2011-12,0.0,0.0,0.0
+2011FUM0284,Cereal - Other,other,,Domestic,CANADA,2012-03-01,2011-12,0.0,0.0,0.0
+2011FUM0285,Misc - Soy,soy,,Domestic,CANADA,2011-06-21,2011-12,0.0,0.0,0.0
+2011FUM0286,Soy Products,soy,,Domestic,CANADA,2012-02-20,2011-12,0.0,0.0,0.0
+2011FUM0287,Misc - Soy,soy,,Domestic,CANADA,2011-07-04,2011-12,0.0,0.0,0.0
+2011FUM0288,Misc - Soy,soy,,Domestic,CANADA,2011-06-06,2011-12,0.0,0.0,0.0
+2011FUM0289,Misc - Soy,soy,,Domestic,CANADA,2011-09-30,2011-12,0.0,0.0,0.0
+2011FUM0290,Misc - Soy,soy,,Import,United States,2011-06-06,2011-12,0.0,0.0,0.0
+2011FUM0291,Misc - Soy,soy,,Import,United States,2011-06-06,2011-12,0.0,0.0,0.0
+2011FUM0292,Soy Products,soy,,Domestic,CANADA,2012-02-18,2011-12,0.0,0.0,0.0
+2011FUM0293,Misc - Soy,soy,,Domestic,CANADA,2011-05-11,2011-12,0.0,0.0,0.0
+2011FUM0294,Misc - Soy,soy,,Domestic,CANADA,2011-06-06,2011-12,0.0,0.0,0.0
+2011FUM0295,Misc - Soy,soy,,Domestic,CANADA,2011-07-04,2011-12,0.0,0.0,0.0
+2011FUM0296,Beverage - Soy,soy,,Domestic,CANADA,2011-08-29,2011-12,0.0,0.0,0.0
+2011FUM0297,Beverage - Soy,soy,,Import,United States,2011-07-22,2011-12,0.0,0.0,0.0
+2011FUM0298,Beverage - Soy,soy,,Import,United States,2011-09-02,2011-12,0.0,0.0,0.0
+2011FUM0299,Infant Formula - Soy,soy,,Import,United States,2011-05-06,2011-12,0.0,0.0,0.0
+2011FUM0300,Bean - Soy,soy,,Import,United States,2012-01-09,2011-12,0.0,0.0,0.0
+2011FUM0301,Chips - Corn,corn,,Import,United States,2012-01-18,2011-12,0.0,0.0,0.0
+2011FUM0302,Chips - Corn,corn,,Import,MEXICO,2012-02-07,2011-12,791.2,317.8,1109.0
+2011FUM0303,Chips - Corn,corn,,Import,United States,2012-03-07,2011-12,0.0,0.0,0.0
+2011FUM0304,Chips - Corn,corn,,Import,Unknown,2012-01-17,2011-12,36.1,20.0,56.1
+2011FUM0306,Corn Products,corn,,Domestic,CANADA,2012-02-18,2011-12,0.0,0.0,0.0
+2011FUM0307,Corn Products,corn,,Domestic,CANADA,2011-11-03,2011-12,0.0,0.0,0.0
+2011FUM0308,Corn Products,corn,,Domestic,CANADA,2012-02-18,2011-12,0.0,0.0,0.0
+2011FUM0309,Corn Products,corn,,Domestic,CANADA,2012-01-25,2011-12,0.0,0.0,0.0
+2011FUM0310,Corn Products,corn,,Import,United States,2012-02-24,2011-12,0.0,0.0,0.0
+2011FUM0311,Chips - Corn,corn,,Domestic,CANADA,2011-12-29,2011-12,23.7,0.0,23.7
+2011FUM0313,Chips - Corn,corn,,Import,PHILIPPINES,2012-02-14,2011-12,25.6,0.0,25.6
+2011FUM0314,Chips - Corn,corn,,Import,United States,2011-12-29,2011-12,29.2,0.0,29.2
+2011FUM0315,Corn Products,corn,,Import,PHILIPPINES,2011-12-21,2011-12,0.0,0.0,0.0
+2011FUM0316,Corn Products,corn,,Domestic,CANADA,2011-12-21,2011-12,0.0,0.0,0.0
+2011FUM0317,Flour - Corn,corn,,Domestic,CANADA,2011-12-08,2011-12,204.5,60.0,264.5
+2011FUM0318,Corn Products,corn,,Domestic,CANADA,2012-02-28,2011-12,0.0,0.0,0.0
+2011FUM0319,Chips - Corn,corn,,Domestic,CANADA,2011-12-29,2011-12,84.7,0.0,84.7
+2011FUM0320,Chips - Corn,corn,,Import,Unknown,2012-01-04,2011-12,72.0,31.7,103.7
+2011FUM0321,Chips - Corn,corn,,Domestic,CANADA,2012-01-17,2011-12,28.3,0.0,28.3
+2011FUM0322,Chips - Corn,corn,,Domestic,CANADA,2011-12-04,2011-12,0.0,0.0,0.0
+2011FUM0323,Corn Products,corn,,Import,United States,2012-02-23,2011-12,0.0,0.0,0.0
+2011FUM0324,Corn Products,corn,,Import,United States,2011-12-21,2011-12,0.0,0.0,0.0
+2011FUM0325,Corn Products,corn,,Import,United States,2012-02-06,2011-12,0.0,0.0,0.0
+2011FUM0326,Chips - Corn,corn,,Import,United States,2012-02-10,2011-12,20.8,0.0,20.8
+2011FUM0327,Chips - Corn,corn,,Import,HONG KONG,2011-12-11,2011-12,58.6,0.0,58.6
+2011FUM0328,Corn Products,corn,,Domestic,CANADA,2011-12-14,2011-12,0.0,0.0,0.0
+2011FUM0329,Corn,corn,,Domestic,CANADA,2011-12-08,2011-12,0.0,0.0,0.0
+2011FUM0330,Chips - Corn,corn,,Domestic,CANADA,2012-02-15,2011-12,294.5,46.6,341.1
+2011FUM0331,Corn Products,corn,,Import,Unknown,2011-12-14,2011-12,0.0,0.0,0.0
+2011FUM0332,Corn Products,corn,,Import,United States,2012-01-24,2011-12,0.0,0.0,0.0
+2011FUM0333,Chips - Corn,corn,,Domestic,CANADA,2012-01-19,2011-12,0.0,0.0,0.0
+2011FUM0334,Chips - Corn,corn,,Domestic,CANADA,2012-02-10,2011-12,0.0,0.0,0.0
+2011FUM0334-2,Corn Products,corn,,Import,Unknown,2012-02-24,2011-12,0.0,0.0,0.0
+2011FUM0335,Corn Products,corn,,Domestic,CANADA,2012-03-07,2011-12,0.0,0.0,0.0
+2011FUM0336,Misc,other,,Domestic,CANADA,2011-11-03,2011-12,41.8,0.0,41.8
+2011FUM0337,Corn Products,corn,,Import,United States,2012-01-31,2011-12,0.0,0.0,0.0
+2011FUM0338,Chips - Corn,corn,,Unknown,Unknown,2012-02-21,2011-12,0.0,0.0,0.0
+2011FUM0339,Corn Products,corn,,Import,PHILIPPINES,2011-10-31,2011-12,0.0,0.0,0.0
+2011FUM0340,Corn Products,corn,,Domestic,CANADA,2011-11-01,2011-12,0.0,0.0,0.0
+2011FUM0341,Corn Products,corn,,Domestic,CANADA,2012-01-30,2011-12,0.0,0.0,0.0
+2011FUM0342,Corn Products,corn,,Import,United States,2012-02-01,2011-12,0.0,0.0,0.0
+2011FUM0343,Chips - Corn,corn,,Domestic,CANADA,2011-11-18,2011-12,37.6,0.0,37.6
+2011FUM0344,Chips - Corn,corn,,Import,United States,2012-01-02,2011-12,0.0,0.0,0.0
+2011FUM0345,Corn Products,corn,,Import,United States,2012-02-25,2011-12,0.0,0.0,0.0
+2011FUM0346,Chips - Corn,corn,,Domestic,CANADA,2011-11-28,2011-12,757.0,275.0,1032.0
+2011FUM0347,Cereal - Other,other,,Import,United States,2011-12-08,2011-12,0.0,0.0,0.0
+2011FUM0348,Chips - Corn,corn,,Import,Unknown,2011-11-06,2011-12,137.9,37.8,175.7
+2011FUM0349,Chips - Corn,corn,,Import,MEXICO,2012-02-07,2011-12,450.9,82.5,533.4
+2011FUM0350,Corn Products,corn,,Import,United States,2012-01-04,2011-12,582.0,113.0,695.0
+2011FUM0351,Chips - Corn,corn,,Import,Unknown,2011-11-19,2011-12,642.5,177.0,819.5
+2011FUM0352,Corn Products,corn,,Import,United States,2012-01-10,2011-12,57.3,26.3,83.6
+2011FUM0353,Corn Products,corn,,Domestic,CANADA,2012-02-01,2011-12,77.8,0.0,77.8
+2011FUM0354,Chips - Corn,corn,,Domestic,CANADA,2011-11-15,2011-12,48.8,0.0,48.8
+2011FUM0355,Corn Products,corn,,Import,United States,2012-02-06,2011-12,94.2,20.7,114.9
+2011FUM0356,Corn Products,corn,,Import,Unknown,2012-01-29,2011-12,0.0,0.0,0.0
+2011FUM0357,Corn Products,corn,,Import,MEXICO,2012-01-30,2011-12,0.0,0.0,0.0
+2011FUM0358,Corn Products,corn,,Import,United States,2012-01-04,2011-12,123.0,43.8,166.8
+2011FUM0359,Corn Products,corn,,Unknown,Unknown,2011-11-24,2011-12,88.4,29.55,117.95
+2011FUM0360,Corn Products,corn,,Domestic,CANADA,2011-12-27,2011-12,107.1,30.2,137.3
+2011FUM0361,Corn Products,corn,,Domestic,CANADA,2012-02-27,2011-12,123.2,34.0,157.2
+2011FUM0362,Corn Products,corn,,Import,Unknown,2012-01-12,2011-12,142.0,45.0,187.0
+2011FUM0363,Corn Products,corn,,Import,Unknown,2011-11-16,2011-12,473.9,113.0,586.9
+2011FUM0364,Corn Products,corn,,Unknown,Unknown,2011-12-02,2011-12,55.5,26.1,81.6
+2011FUM0365,Corn Products,corn,,Domestic,CANADA,2012-01-19,2011-12,74.3,0.0,74.3
+2011FUM0366,Corn Products,corn,,Domestic,CANADA,2011-12-27,2011-12,32.6,0.0,32.6
+2011FUM0367,Chips - Corn,corn,,Import,MEXICO,2012-02-18,2011-12,45.4,0.0,45.4
+2011FUM0368,Corn Products,corn,,Import,United States,2012-02-01,2011-12,209.0,47.4,256.4
+2011FUM0369,Corn Products,corn,,Domestic,CANADA,2012-02-23,2011-12,0.0,0.0,0.0
+2011FUM0370,Corn Products,corn,,Import,United States,2012-01-09,2011-12,60.0,27.7,87.7
+2011FUM0371,Corn Products,corn,,Import,Unknown,2012-01-11,2011-12,218.0,58.7,276.7
+2011FUM0372,Corn Products,corn,,Domestic,CANADA,2012-02-27,2011-12,54.8,0.0,54.8
+2011FUM0373,Corn Products,corn,,Import,United States,2012-01-09,2011-12,39.1,23.2,62.3
+2011FUM0374,Chips - Corn,corn,,Import,MEXICO,2012-02-28,2011-12,548.0,133.9,681.9
+2011FUM0375,Corn Products,corn,,Import,United States,2012-01-14,2011-12,0.0,0.0,0.0
+2011FUM0376,Corn Products,corn,,Domestic,CANADA,2012-02-01,2011-12,0.0,0.0,0.0
+2011FUM0377,Corn Products,corn,,Domestic,CANADA,2011-12-21,2011-12,0.0,0.0,0.0
+2011FUM0378,Chips - Corn,corn,,Import,United States,2012-02-06,2011-12,37.1,0.0,37.1
+2011FUM0379,Corn Products,corn,,Import,United States,2011-12-04,2011-12,59.1,24.3,83.4
+2011FUM0380,Corn Products,corn,,Unknown,Unknown,2012-01-19,2011-12,27.9,0.0,27.9
+2011FUM0381,Corn Products,corn,,Import,United States,2012-01-08,2011-12,50.9,24.3,75.2
+2011FUM0382,Corn Products,corn,,Import,United States,2012-01-25,2011-12,0.0,0.0,0.0
+2011FUM0383,Chips - Corn,corn,,Domestic,CANADA,2011-12-14,2011-12,81.9,40.5,122.4
+2011FUM0384,Corn Products,corn,,Import,United States,2012-02-19,2011-12,0.0,0.0,0.0
+2011FUM0385,Corn Products,corn,,Domestic,CANADA,2012-02-01,2011-12,0.0,0.0,0.0
+2011FUM0386,Corn Products,corn,,Import,United States,2012-01-04,2011-12,0.0,0.0,0.0
+2011FUM0387,Chips - Corn,corn,,Domestic,CANADA,2012-02-15,2011-12,0.0,0.0,0.0
+2011FUM0388,Corn Products,corn,,Domestic,CANADA,2012-02-25,2011-12,109.8,36.6,146.4
+2011FUM0389,Corn Products,corn,,Import,MEXICO,2011-11-13,2011-12,461.1,121.1,582.2
+2011FUM0390,Corn Products,corn,,Domestic,CANADA,2011-12-21,2011-12,0.0,0.0,0.0
+2011FUM0391,Chips - Corn,corn,,Domestic,CANADA,2012-02-03,2011-12,161.7,45.8,207.5
+2011FUM0392,Chips - Corn,corn,,Import,United States,2012-02-18,2011-12,141.9,33.9,175.8
+2011FUM0393,Chips - Corn,corn,,Domestic,CANADA,2012-02-06,2011-12,45.5,0.0,45.5
+2011FUM0394,Corn Products,corn,,Import,MEXICO,2012-02-10,2011-12,136.4,27.4,163.8
+2011FUM0395,Corn Products,corn,,Import,United States,2012-02-01,2011-12,0.0,0.0,0.0
+2011FUM0396,Corn Products,corn,,Domestic,CANADA,2012-02-10,2011-12,79.7,0.0,79.7
+2011FUM0397,Corn Products,corn,,Domestic,CANADA,2012-02-07,2011-12,0.0,0.0,0.0
+2011FUM0398,Corn Products,corn,,Domestic,CANADA,2012-01-10,2011-12,0.0,0.0,0.0
+2011FUM0399,Corn Products,corn,,Domestic,CANADA,2011-12-21,2011-12,57.7,22.3,80.0
+2011FUM0400,Chips - Corn,corn,,Domestic,CANADA,2011-12-08,2011-12,307.0,121.3,428.3
+2011FUM0401,Corn Products,corn,,Import,United States,2012-02-19,2011-12,145.1,25.6,170.7
+2011FUM0402,Cereal - Other,other,,Import,United States,2012-02-25,2011-12,208.0,40.1,248.1
+2011FUM0403,Cereal - Other,other,,Import,United States,2012-01-25,2011-12,0.0,0.0,0.0
+2011FUM0404,Corn Products,corn,,Domestic,CANADA,2012-01-16,2011-12,0.0,0.0,0.0
+2011FUM0405,Cereal - Other,other,,Import,United States,2011-12-08,2011-12,38.5,0.0,38.5
+2011FUM0406,Cereal - Other,other,,Domestic,CANADA,2011-11-26,2011-12,0.0,0.0,0.0
+2011FUM0407,Cereal - Other,other,,Import,United States,2012-02-19,2011-12,294.5,41.7,336.2
+2011FUM0408,Cereal - Other,other,,Domestic,CANADA,2012-02-07,2011-12,0.0,0.0,0.0
+2011FUM0409,Cereal - Other,other,,Import,United States,2012-02-07,2011-12,23.2,0.0,23.2
+2011FUM0410,Cereal - Other,other,,Domestic,CANADA,2012-02-01,2011-12,80.4,0.0,80.4
+2011FUM0411,Cereal - Other,other,,Domestic,CANADA,2011-12-14,2011-12,0.0,0.0,0.0
+2011FUM0412,Cereal - Other,other,,Domestic,CANADA,2012-02-25,2011-12,28.0,0.0,28.0
+2011FUM0413,Cereal - Other,other,,Import,United States,2011-11-09,2011-12,0.0,0.0,0.0
+2011FUM0414,Cereal - Other,other,,Domestic,CANADA,2011-12-28,2011-12,0.0,0.0,0.0
+2011FUM0415,Cereal - Corn,corn,,Domestic,CANADA,2012-02-18,2011-12,358.0,56.6,414.6
+2011FUM0416,Cereal - Corn,corn,,Domestic,CANADA,2012-02-18,2011-12,170.5,27.8,198.3
+2011FUM0417,Cereal - Corn,corn,,Unknown,Unknown,2012-02-10,2011-12,95.4,0.0,95.4
+2011FUM0418,Cereal - Other,other,,Import,United States,2012-01-18,2011-12,95.1,0.0,95.1
+2011FUM0419,Cereal - Corn,corn,,Domestic,CANADA,2012-02-10,2011-12,86.5,0.0,86.5
+2011FUM0420,Cereal - Other,other,,Import,United States,2011-12-12,2011-12,0.0,0.0,0.0
+2011FUM0421,Cereal - Corn,corn,,Domestic,CANADA,2012-01-25,2011-12,85.0,0.0,85.0
+2011FUM0422,Cereal - Corn,corn,,Import,FRANCE,2012-01-25,2011-12,34.9,0.0,34.9
+2011FUM0423,Cereal - Other,other,,Domestic,CANADA,2012-02-21,2011-12,0.0,0.0,0.0
+2011FUM0424,Chips - Corn,corn,,Import,Unknown,2011-11-01,2011-12,630.3,139.4,769.7
+2011FUM0425,Cereal - Other,other,,Import,United States,2011-12-28,2011-12,301.0,66.0,367.0
+2011FUM0426,Cereal - Corn,corn,,Import,Unknown,2011-11-01,2011-12,516.6,121.3,637.9
+2011FUM0427,Cereal - Corn,corn,,Import,United States,2011-12-05,2011-12,25.3,0.0,25.3
+2011FUM0428,Cereal - Other,other,,Domestic,CANADA,2012-02-01,2011-12,0.0,0.0,0.0
+2011FUM0429,Cereal - Corn,corn,,Import,Unknown,2011-11-01,2011-12,298.6,62.7,361.3
+2011FUM0430,Cereal - Other,other,,Import,United States,2012-02-10,2011-12,113.1,0.0,113.1
+2011FUM0431,Cereal - Corn,corn,,Domestic,CANADA,2011-11-26,2011-12,84.5,19.0,103.5
+2011FUM0432,Cereal - Corn,corn,,Domestic,CANADA,2012-02-19,2011-12,34.5,0.0,34.5
+2011FUM0433,Cereal - Other,other,,Import,United States,2012-02-15,2011-12,0.0,0.0,0.0
+2011FUM0434,Cereal - Other,other,,Import,United States,2012-01-14,2011-12,96.3,0.0,96.3
+2011FUM0435,Cereal - Other,other,,Import,United States,2012-02-10,2011-12,50.5,0.0,50.5
+2011FUM0436,Cereal - Other,other,,Domestic,CANADA,2012-02-07,2011-12,0.0,0.0,0.0
+2011FUM0437,Cereal - Corn,corn,,Import,Unknown,2011-12-08,2011-12,118.9,39.6,158.5
+2011FUM0438,Cereal - Other,other,,Domestic,CANADA,2012-01-30,2011-12,0.0,0.0,0.0
+2011FUM0439,Corn Products,corn,,Import,United States,2011-12-05,2011-12,0.0,0.0,0.0
+2011FUM0440,Cereal - Other,other,,Import,Unknown,2012-01-30,2011-12,211.4,35.8,247.2
+2011FUM0441,Cereal - Corn,corn,,Domestic,CANADA,2012-02-01,2011-12,88.3,0.0,88.3
+2011FUM0442,Cereal - Corn,corn,,Import,Unknown,2012-02-06,2011-12,0.0,0.0,0.0
+2011FUM0443,Cereal - Other,other,,Domestic,CANADA,2012-02-22,2011-12,0.0,0.0,0.0
+2011FUM0444,Cereal - Other,other,,Domestic,CANADA,2012-02-01,2011-12,0.0,0.0,0.0
+2011FUM0445,Cereal - Corn,corn,,Domestic,CANADA,2011-11-06,2011-12,308.0,59.4,367.4
+2011FUM0446,Corn Products,corn,,Import,United States,2012-01-20,2011-12,124.3,0.0,124.3
+2011FUM0447,Cereal - Corn,corn,,Domestic,CANADA,2012-02-06,2011-12,0.0,0.0,0.0
+2011FUM0448,Cereal - Other,other,,Import,United States,2012-01-16,2011-12,55.9,23.3,79.2
+2011FUM0449,Cereal - Other,other,,Import,United States,2011-12-13,2011-12,0.0,0.0,0.0
+2011FUM0450,Cereal - Other,other,,Domestic,CANADA,2012-02-18,2011-12,0.0,0.0,0.0
+2011FUM0451,Cornmeal,corn,,Import,United States,2012-02-18,2011-12,0.0,0.0,0.0
+2011FUM0452,Cornmeal,corn,,Import,United States,2012-01-04,2011-12,394.0,101.0,495.0
+2011FUM0453,Cornmeal,corn,,Import,United States,2012-01-09,2011-12,975.8,334.6,1310.4
+2011FUM0454,Corn Products,corn,,Import,United States,2011-12-19,2011-12,211.7,64.3,276.0
+2011FUM0455,Cornmeal,corn,,Import,United States,2012-01-09,2011-12,49.4,24.5,73.9
+2011FUM0456,Corn Products,corn,,Import,United States,2011-12-12,2011-12,3591.0,851.5,4442.5
+2011FUM0457,Cornmeal,corn,,Import,Unknown,2011-12-28,2011-12,41.0,0.0,41.0
+2011FUM0458,Cornmeal,corn,,Import,Unknown,2011-12-28,2011-12,0.0,0.0,0.0
+2011FUM0459,Cornmeal,corn,,Import,United States,2012-01-12,2011-12,24.2,0.0,24.2
+2011FUM0460,Cornmeal,corn,,Import,CHINA,2012-02-01,2011-12,120.4,0.0,120.4
+2011FUM0461,Cornmeal,corn,,Domestic,CANADA,2012-02-01,2011-12,142.6,25.3,167.9
+2011FUM0462,Corn Products,corn,,Import,United States,2012-02-01,2011-12,135.3,26.8,162.1
+2011FUM0463,Cornmeal,corn,,Import,United States,2012-01-16,2011-12,108.0,0.0,108.0
+2011FUM0464,Cornmeal,corn,,Unknown,Unknown,2011-12-28,2011-12,59.6,0.0,59.6
+2011FUM0465,Cornmeal,corn,,Import,Unknown,2012-02-10,2011-12,354.8,71.0,425.8
+2011FUM0466,Cornmeal,corn,,Import,United States,2012-03-07,2011-12,268.0,55.4,323.4
+2011FUM0467,Cornmeal,corn,,Import,United States,2012-02-07,2011-12,0.0,0.0,0.0
+2011FUM0468,Cornmeal,corn,,Import,Unknown,2011-12-05,2011-12,0.0,0.0,0.0
+2011FUM0469,Cornmeal,corn,,Import,United States,2012-01-16,2011-12,163.0,24.7,187.7
+2011FUM0470,Cornmeal,corn,,Import,United States,2011-12-12,2011-12,97.3,22.3,119.6
+2011FUM0471,Cornmeal,corn,,Domestic,CANADA,2012-01-09,2011-12,62.4,26.3,88.7
+2011FUM0472,Cornmeal,corn,,Import,United States,2012-02-24,2011-12,0.0,0.0,0.0
+2011FUM0473,Cornmeal,corn,,Import,United States,2012-03-13,2011-12,0.0,0.0,0.0
+2011FUM0474,Cornmeal,corn,,Domestic,CANADA,2012-02-07,2011-12,54.1,0.0,54.1
+2011FUM0475,Cornmeal,corn,,Domestic,CANADA,2012-02-26,2011-12,114.5,0.0,114.5
+2011FUM0476,Corn Products,corn,,Import,United States,2012-01-25,2011-12,99.0,0.0,99.0
+2011FUM0477,Corn Products,corn,,Domestic,CANADA,2012-02-27,2011-12,0.0,0.0,0.0
+2011FUM0478,Corn Products,corn,,Import,United States,2012-03-15,2011-12,0.0,0.0,0.0
+2011FUM0479,Corn Products,corn,,Unknown,Unknown,2012-01-25,2011-12,0.0,0.0,0.0
+2011FUM0480,Corn Products,corn,,Import,United States,2012-01-23,2011-12,180.5,36.8,217.3
+2011FUM0481,Corn Products,corn,,Import,United States,2011-12-28,2011-12,203.0,43.2,246.2
+2011FUM0482,Corn Products,corn,,Import,Unknown,2012-01-12,2011-12,53.4,28.5,81.9
+2011FUM0483,Corn Products,corn,,Import,United States,2012-03-15,2011-12,133.6,0.0,133.6
+2011FUM0484,Corn Products,corn,,Import,United States,2012-01-19,2011-12,108.7,24.3,133.0
+2011FUM0485,Cornmeal,corn,,Domestic,CANADA,2012-03-15,2011-12,39.2,0.0,39.2
+2011FUM0486,Corn Products,corn,,Import,ITALY,2012-03-06,2011-12,51.0,0.0,51.0
+2011FUM0487,Corn Products,corn,,Import,United States,2012-01-15,2011-12,339.0,59.7,398.7
+2011FUM0488,Corn Products,corn,,Domestic,CANADA,2012-02-27,2011-12,0.0,0.0,0.0
+2011FUM0489,Corn Products,corn,,Import,United States,2012-01-03,2011-12,442.0,121.0,563.0
+2011FUM0490,Corn Products,corn,,Import,United States,2012-02-12,2011-12,504.6,85.8,590.4
+2011FUM0491,Corn Products,corn,,Import,United States,2012-02-06,2011-12,0.0,0.0,0.0
+2011FUM0492,Corn Products,corn,,Import,ITALY,2012-02-25,2011-12,246.0,53.9,299.9
+2011FUM0493,Corn Products,corn,,Import,United States,2012-02-29,2011-12,0.0,0.0,0.0
+2011FUM0494,Corn Products,corn,,Import,Unknown,2012-02-26,2011-12,0.0,0.0,0.0
+2011FUM0495,Corn Products,corn,,Import,ITALY,2012-02-28,2011-12,39.6,0.0,39.6
+2011FUM0496,Corn Products,corn,,Import,CHINA,2011-12-19,2011-12,0.0,0.0,0.0
+2011FUM0497,Corn Products,corn,,Domestic,CANADA,2012-03-06,2011-12,0.0,0.0,0.0
+2011FUM0498,Corn Products,corn,,Import,United States,2012-02-18,2011-12,110.9,21.7,132.6
+2011FUM0499,Corn Products,corn,,Import,United States,2012-01-20,2011-12,324.3,82.6,406.9
+2011FUM0500,Corn Products,corn,,Import,United States,2012-03-09,2011-12,163.8,31.6,195.4

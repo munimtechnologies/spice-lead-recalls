@@ -1,0 +1,550 @@
+{
+  "bytes": 87748,
+  "d_suffix": [],
+  "descriptive": {
+    "by_group": {
+      "block": {
+        "max": 1900.0,
+        "mean": 190.473684,
+        "min": 20.0,
+        "n": 79,
+        "positives": 57
+      },
+      "canned_corn": {
+        "max": 58.0,
+        "mean": 58.0,
+        "min": 58.0,
+        "n": 27,
+        "positives": 1
+      },
+      "cereal": {
+        "max": 1510.0,
+        "mean": 225.148936,
+        "min": 21.0,
+        "n": 56,
+        "positives": 47
+      },
+      "cornmeal_grits": {
+        "max": 4750.0,
+        "mean": 333.918919,
+        "min": 20.0,
+        "n": 41,
+        "positives": 37
+      },
+      "flour": {
+        "max": 370.0,
+        "mean": 156.736842,
+        "min": 22.0,
+        "n": 21,
+        "positives": 19
+      },
+      "popcorn": {
+        "max": 138.0,
+        "mean": 52.526316,
+        "min": 20.0,
+        "n": 30,
+        "positives": 19
+      },
+      "starch": {
+        "max": 240.0,
+        "mean": 88.0,
+        "min": 33.0,
+        "n": 23,
+        "positives": 5
+      }
+    },
+    "by_product": {
+      "Bakery Product - Tortilla/Wrap/Pita": {
+        "max": 1900.0,
+        "mean": 346.230769,
+        "min": 70.0,
+        "n": 15,
+        "positives": 13
+      },
+      "Cereal - Corn": {
+        "max": 1510.0,
+        "mean": 225.148936,
+        "min": 21.0,
+        "n": 56,
+        "positives": 47
+      },
+      "Chips - Corn": {
+        "max": 430.0,
+        "mean": 131.32,
+        "min": 20.0,
+        "n": 42,
+        "positives": 25
+      },
+      "Corn": {
+        "max": 58.0,
+        "mean": 58.0,
+        "min": 58.0,
+        "n": 27,
+        "positives": 1
+      },
+      "Corn Products": {
+        "max": 419.0,
+        "mean": 161.736842,
+        "min": 30.0,
+        "n": 22,
+        "positives": 19
+      },
+      "Corn Starch": {
+        "max": 240.0,
+        "mean": 88.0,
+        "min": 33.0,
+        "n": 23,
+        "positives": 5
+      },
+      "Cornmeal": {
+        "max": 4750.0,
+        "mean": 333.918919,
+        "min": 20.0,
+        "n": 41,
+        "positives": 37
+      },
+      "Flour - Corn": {
+        "max": 370.0,
+        "mean": 156.736842,
+        "min": 22.0,
+        "n": 21,
+        "positives": 19
+      },
+      "Popcorn": {
+        "max": 138.0,
+        "mean": 52.526316,
+        "min": 20.0,
+        "n": 30,
+        "positives": 19
+      }
+    },
+    "cells_with_a_comma": [],
+    "largest": [
+      {
+        "B1": 4750.0,
+        "B2": 0.0,
+        "id": "2010FMN0213",
+        "product": "Cornmeal",
+        "total": 4750.0,
+        "year": "2010-11"
+      },
+      {
+        "B1": 0.0,
+        "B2": 1900.0,
+        "id": "2010FMN0042",
+        "product": "Bakery Product - Tortilla/Wrap/Pita",
+        "total": 1900.0,
+        "year": "2010-11"
+      },
+      {
+        "B1": 1510.0,
+        "B2": 0.0,
+        "id": "2010FMN0062",
+        "product": "Cereal - Corn",
+        "total": 1510.0,
+        "year": "2010-11"
+      },
+      {
+        "B1": 1230.0,
+        "B2": 41.0,
+        "id": "2010FMN0044",
+        "product": "Cornmeal",
+        "total": 1271.0,
+        "year": "2010-11"
+      },
+      {
+        "B1": 1270.0,
+        "B2": 0.0,
+        "id": "2010FMN0265",
+        "product": "Cornmeal",
+        "total": 1270.0,
+        "year": "2010-11"
+      },
+      {
+        "B1": 1110.0,
+        "B2": 0.0,
+        "id": "2010FMN0123",
+        "product": "Cereal - Corn",
+        "total": 1110.0,
+        "year": "2010-11"
+      },
+      {
+        "B1": 1060.0,
+        "B2": 0.0,
+        "id": "2010FMN0130",
+        "product": "Cereal - Corn",
+        "total": 1060.0,
+        "year": "2010-11"
+      },
+      {
+        "B1": 670.0,
+        "B2": 0.0,
+        "id": "2010FMN0069",
+        "product": "Cereal - Corn",
+        "total": 670.0,
+        "year": "2010-11"
+      },
+      {
+        "B1": 600.0,
+        "B2": 0.0,
+        "id": "2010FMN0239",
+        "product": "Cornmeal",
+        "total": 600.0,
+        "year": "2010-11"
+      },
+      {
+        "B1": 580.0,
+        "B2": 0.0,
+        "id": "2010FMN0172",
+        "product": "Cornmeal",
+        "total": 580.0,
+        "year": "2010-11"
+      }
+    ],
+    "positives_by_function": {
+      "Domestic": 90,
+      "Import": 95
+    },
+    "positives_by_year": {
+      "2010-11": 185
+    },
+    "positives_with_b1_zero": 28,
+    "products_n_positives": {
+      "Bakery Product - Tortilla/Wrap/Pita": [
+        15,
+        13
+      ],
+      "Cereal - Corn": [
+        56,
+        47
+      ],
+      "Chips - Corn": [
+        42,
+        25
+      ],
+      "Corn": [
+        27,
+        1
+      ],
+      "Corn Products": [
+        22,
+        19
+      ],
+      "Corn Starch": [
+        23,
+        5
+      ],
+      "Cornmeal": [
+        41,
+        37
+      ],
+      "Flour - Corn": [
+        21,
+        19
+      ],
+      "Popcorn": [
+        30,
+        19
+      ]
+    },
+    "smallest_nonzero": {
+      "B1": [
+        20.0,
+        21.0,
+        22.0,
+        23.0,
+        24.0
+      ],
+      "B2": [
+        20.0,
+        21.0,
+        22.0,
+        23.0,
+        25.0
+      ]
+    },
+    "zero_rows": {
+      "B1": 120,
+      "B2": 221
+    }
+  },
+  "encoding": "utf-8-sig",
+  "failed": [
+    "2010-V5",
+    "V1",
+    "V3",
+    "V4"
+  ],
+  "gate": {
+    "G": true,
+    "md5": true,
+    "problems": {
+      "bad_date": [],
+      "bad_unit": [],
+      "missing_component": [],
+      "mixed_product": [],
+      "negative": [],
+      "non_numeric": [],
+      "repeated": [],
+      "unknown_component": [],
+      "unmapped_product": []
+    },
+    "samples": 277,
+    "samples_as_printed": false,
+    "size_band": [
+      87040,
+      88064
+    ],
+    "size_in_band": true
+  },
+  "grades": {
+    "2010-V5": {
+      "checks": {
+        "mean_rounds_to_268": false
+      },
+      "held": false,
+      "mean": 206.854054
+    },
+    "V1": {
+      "checks": {
+        "positives_157": false
+      },
+      "held": false,
+      "stats": {
+        "max": 4750.0,
+        "mean": 206.854054,
+        "min": 20.0,
+        "n": 277,
+        "positives": 185
+      }
+    },
+    "V2": {
+      "at_min": [
+        {
+          "B1": 0.0,
+          "B2": 20.0,
+          "id": "2010FMN0014",
+          "product": "Popcorn",
+          "total": 20.0,
+          "year": "2010-11"
+        },
+        {
+          "B1": 0.0,
+          "B2": 20.0,
+          "id": "2010FMN0031",
+          "product": "Chips - Corn",
+          "total": 20.0,
+          "year": "2010-11"
+        },
+        {
+          "B1": 0.0,
+          "B2": 20.0,
+          "id": "2010FMN0041",
+          "product": "Chips - Corn",
+          "total": 20.0,
+          "year": "2010-11"
+        },
+        {
+          "B1": 20.0,
+          "B2": 0.0,
+          "id": "2010FMN0073",
+          "product": "Cornmeal",
+          "total": 20.0,
+          "year": "2010-11"
+        },
+        {
+          "B1": 20.0,
+          "B2": 0.0,
+          "id": "2010FMN0232",
+          "product": "Cornmeal",
+          "total": 20.0,
+          "year": "2010-11"
+        },
+        {
+          "B1": 20.0,
+          "B2": 0.0,
+          "id": "2010FMN0249",
+          "product": "Chips - Corn",
+          "total": 20.0,
+          "year": "2010-11"
+        }
+      ],
+      "checks": {
+        "chip_block_at_min": true,
+        "cornmeal_label_at_min": true,
+        "min_rounds_to_20": true
+      },
+      "chips_label_at_min": true,
+      "held": true,
+      "min": 20.0
+    },
+    "V3": {
+      "checks": {
+        "top_is_cornmeal_label": true,
+        "top_rounds_to_6650": false
+      },
+      "held": false,
+      "looser_6645_6655": false,
+      "tied_tops": 1,
+      "top": {
+        "B1": 4750.0,
+        "B2": 0.0,
+        "id": "2010FMN0213",
+        "product": "Cornmeal",
+        "total": 4750.0,
+        "year": "2010-11"
+      }
+    },
+    "V4": {
+      "above_800": [
+        {
+          "B1": 4750.0,
+          "B2": 0.0,
+          "id": "2010FMN0213",
+          "product": "Cornmeal",
+          "total": 4750.0,
+          "year": "2010-11"
+        },
+        {
+          "B1": 0.0,
+          "B2": 1900.0,
+          "id": "2010FMN0042",
+          "product": "Bakery Product - Tortilla/Wrap/Pita",
+          "total": 1900.0,
+          "year": "2010-11"
+        },
+        {
+          "B1": 1510.0,
+          "B2": 0.0,
+          "id": "2010FMN0062",
+          "product": "Cereal - Corn",
+          "total": 1510.0,
+          "year": "2010-11"
+        },
+        {
+          "B1": 1230.0,
+          "B2": 41.0,
+          "id": "2010FMN0044",
+          "product": "Cornmeal",
+          "total": 1271.0,
+          "year": "2010-11"
+        },
+        {
+          "B1": 1270.0,
+          "B2": 0.0,
+          "id": "2010FMN0265",
+          "product": "Cornmeal",
+          "total": 1270.0,
+          "year": "2010-11"
+        },
+        {
+          "B1": 1110.0,
+          "B2": 0.0,
+          "id": "2010FMN0123",
+          "product": "Cereal - Corn",
+          "total": 1110.0,
+          "year": "2010-11"
+        },
+        {
+          "B1": 1060.0,
+          "B2": 0.0,
+          "id": "2010FMN0130",
+          "product": "Cereal - Corn",
+          "total": 1060.0,
+          "year": "2010-11"
+        }
+      ],
+      "by_group": {
+        "block": 1,
+        "cereal": 3,
+        "cornmeal_grits": 3
+      },
+      "checks": {
+        "block_1": true,
+        "cereal_4": false,
+        "cornmeal_label_3": true,
+        "eight": false,
+        "nothing_else": false
+      },
+      "held": false
+    }
+  },
+  "held": [
+    "V2"
+  ],
+  "lookups_exploratory": {
+    "corn 2012 max 7711": [],
+    "oat 2017 53": [],
+    "rice 249": [],
+    "rice 33": [
+      {
+        "B1": 0.0,
+        "B2": 33.0,
+        "id": "2010FMN0003",
+        "product": "Cereal - Corn",
+        "total": 33.0,
+        "year": "2010-11"
+      },
+      {
+        "B1": 33.0,
+        "B2": 0.0,
+        "id": "2010FMN0166",
+        "product": "Corn Starch",
+        "total": 33.0,
+        "year": "2010-11"
+      }
+    ],
+    "rice 42": [],
+    "rice 47": [
+      {
+        "B1": 47.0,
+        "B2": 0.0,
+        "id": "2010FMN0187",
+        "product": "Corn Products",
+        "total": 47.0,
+        "year": "2010-11"
+      },
+      {
+        "B1": 47.0,
+        "B2": 0.0,
+        "id": "2010FMN0190",
+        "product": "Flour - Corn",
+        "total": 47.0,
+        "year": "2010-11"
+      },
+      {
+        "B1": 47.0,
+        "B2": 0.0,
+        "id": "2010FMN0199",
+        "product": "Corn Starch",
+        "total": 47.0,
+        "year": "2010-11"
+      },
+      {
+        "B1": 47.0,
+        "B2": 0.0,
+        "id": "2010FMN0211",
+        "product": "Cornmeal",
+        "total": 47.0,
+        "year": "2010-11"
+      }
+    ],
+    "text max 7710": [],
+    "wheat 2012 max 393": [
+      {
+        "B1": 393.0,
+        "B2": 0.0,
+        "id": "2010FMN0242",
+        "product": "Chips - Corn",
+        "total": 393.0,
+        "year": "2010-11"
+      }
+    ],
+    "wheat 2012 min 28.8": []
+  },
+  "md5": "219641dd2317367eb87069eef88a88b6",
+  "sha256": "56f2bb50e66388327665fda2d433ef4c87fd9171169ad489dfb33a8638eccd73",
+  "source": "https://open.canada.ca/data/dataset/5ac4ed9e-9dc4-4c3c-9a2b-e99530fbda13/resource/48123e67-3a23-44f3-8cf1-ef8054ca1766/download/chem_ts_2010-2011_fumonisins_in_selected_foods_chem_ec_2010-2011_fumonisines_dans_des_aliments_s.csv",
+  "study": "fumonisin-fum10",
+  "version": "0.1.0"
+}

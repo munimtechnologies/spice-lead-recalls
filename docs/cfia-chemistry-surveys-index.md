@@ -37,19 +37,23 @@ detection rates are higher than the file gives. The 2012-2018 fumonisin report, 
 the series, disagrees with itself in ten places before its file is opened; its arithmetic predicts
 77 teff samples where its grain table prints 11, and the file's teff label then holds 59. The
 three fumonisin files are the first in the series that are all larger than their reports (277,
-498 and 4,320 samples against 276, 454 and 4,261). On the portal side, open.canada.ca's resource
-sizes are kibibytes rounded up, not rounded to nearest.
+498 and 4,320 samples against 276, 454 and 4,261). The 2012-2018 file still reproduces its
+report's headline extremes and all three averages; the 2010-11 file adds a new kind of problem,
+one analyte (fumonisin B2) stored for its first 56 samples only, with the page's positive count
+matching B1 alone. On the portal side, open.canada.ca's resource sizes are kibibytes rounded up,
+not rounded to nearest.
 
 ## All items in one table
 
-- [CFIA open-data errata 0.2.0](cfia-open-data-errata-0.2.0.md) and
-  [`data/cfia-open-data-errata.csv`](../data/cfia-open-data-errata.csv) (CC BY 4.0). The 64
+- [CFIA open-data errata 0.3.0](cfia-open-data-errata-0.3.0.md) and
+  [`data/cfia-open-data-errata.csv`](../data/cfia-open-data-errata.csv) (CC BY 4.0). The 75
   report-vs-file items from the notes below, one row each, with a kind, the evidence it rests
-  on and the note that first published it. 36 rest on a report and its file disagreeing, 17 on a
-  report contradicting itself, 7 on the file alone and 4 on a later CFIA document. Five rows
-  (four slips) change a number by 10 times or more. `test_cfia_errata.py` checks it. 0.2.0 adds
-  the phthalates-series result's four items and the eleven items of the fumonisin-series
-  pre-registration to the 49 of [0.1.0](cfia-open-data-errata-0.1.0.md).
+  on and the note that first published it. 45 rest on a report and its file disagreeing, 17 on a
+  report contradicting itself, 9 on the file alone and 4 on a later CFIA document. Five rows
+  (four slips) change a number by 10 times or more. `test_cfia_errata.py` checks it. 0.3.0 adds
+  eleven items from the fumonisin census and result notes and fills in the file figure of four
+  report-only fumonisin rows. Earlier versions: [0.2.0](cfia-open-data-errata-0.2.0.md) (64
+  items) and [0.1.0](cfia-open-data-errata-0.1.0.md) (49).
 
 ## Children's Food Project (aflatoxin M1, lead)
 
@@ -284,5 +288,19 @@ sizes are kibibytes rounded up, not rounded to nearest.
 - [Grader note](fumonisin-0.1.0-grader.md), with `fumonisin_grade.py`, 10 offline tests and
   `test_fumonisin_census_notes.py` (every census count checked against the published census
   records in `data/`), published before any value of the three files is read.
+- [Result](fumonisin-0.1.0-result.md). All three gates hold and no file has a format problem;
+  6 of 17 graded value items held (3 not gradable). 2012-2018 reproduces Table 2's extremes
+  (20 to 7790, a cornmeal) and all three averages (365, 36, 364), and settles the report's tofu
+  contradiction: its two soy positives are a 2012-13 tofu (27) and a 2013-14 soy flour (45); but
+  it has 1,080 positives, not 1,076. 2011-12 has the page's 20.8 corn minimum (not the later
+  report's 23.1) and its 4442.5 maximum, under a "Corn Products" label, but 175 positives, not
+  162, including a soy infant formula at 284.6. 2010-11 has 185 positives, not 157, a 4750
+  maximum, not 6650, and 7 samples above 800, not 8. Read afterwards (exploratory): the 2010-11
+  page's 157 is exactly the samples with B1 above zero, and B2 is above zero in exactly the first
+  56 samples by number (2010FMN0001 to 0055) and in none of the 221 later ones. If those later B2
+  results were measured but stored as 0, the page's 6650, its eighth sample above 800 and the
+  later report's 268 average would all be reachable (a lead only CFIA can settle).
+  `test_fumonisin_result.py` re-reads the three per-sample tables in `data/`; a sealed job
+  re-runs it from GitHub.
 
 MV2, Munim, Inc., mv2@munimtech.com
