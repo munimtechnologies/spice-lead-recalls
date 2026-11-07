@@ -33,18 +33,21 @@ the full group's average. The 2020-21 phthalates file reproduces every value cla
 and only its origin table is off; the 2018-19 flatbread and vegan file reproduces its report in
 full. Later CFIA tables' "2012 to 2015" phthalate rows carry the 2012-2018 file's detections
 (every positive count, minimum and maximum) over different sample counts, so their printed
-detection rates are higher than the file gives. On the portal side, open.canada.ca's resource
+detection rates are higher than the file gives. The 2012-2018 fumonisin report, the longest in
+the series, disagrees with itself in ten places before its file is opened; its arithmetic predicts
+77 teff samples where its grain table prints 11. On the portal side, open.canada.ca's resource
 sizes are kibibytes rounded up, not rounded to nearest.
 
 ## All items in one table
 
-- [CFIA open-data errata 0.1.0](cfia-open-data-errata-0.1.0.md) and
-  [`data/cfia-open-data-errata.csv`](../data/cfia-open-data-errata.csv) (CC BY 4.0). The 49
+- [CFIA open-data errata 0.2.0](cfia-open-data-errata-0.2.0.md) and
+  [`data/cfia-open-data-errata.csv`](../data/cfia-open-data-errata.csv) (CC BY 4.0). The 64
   report-vs-file items from the notes below, one row each, with a kind, the evidence it rests
-  on and the note that first published it. 32 rest on a report and its file disagreeing, 7 on a
-  report contradicting itself, 7 on the file alone and 3 on a later CFIA document. Five rows
-  (four slips) change a number by 10 times or more. `test_cfia_errata.py` checks it. The
-  phthalates-series result's items are not yet in it.
+  on and the note that first published it. 36 rest on a report and its file disagreeing, 17 on a
+  report contradicting itself, 7 on the file alone and 4 on a later CFIA document. Five rows
+  (four slips) change a number by 10 times or more. `test_cfia_errata.py` checks it. 0.2.0 adds
+  the phthalates-series result's four items and the eleven items of the fumonisin-series
+  pre-registration to the 49 of [0.1.0](cfia-open-data-errata-0.1.0.md).
 
 ## Children's Food Project (aflatoxin M1, lead)
 
@@ -242,11 +245,24 @@ sizes are kibibytes rounded up, not rounded to nearest.
   meals and 36% of dressings are 54.0% and 19.0% over the file's samples. The nut and seed
   butters average 17.26 (printed 17.2), and oils 106.0 (107).
 
-## Fumonisins in corn products, 2010-11 (file opened on the portal on 2026-11-03)
+## Fumonisins: 2010-11, 2011-12 and 2012-2018 (three files opened on the portal on 2026-11-03)
 
-- [Pre-registration](fumonisin-2010-0.1.0-prereg.md), fixed from the report page before any part
-  of the newly published file is opened: 276 samples in eleven product groups, 157 positive,
-  20 to 6650 ppb, and eight samples above 800 ppb (4 cereals, 2 grits, 1 tortilla, 1 cornmeal).
-  The page's own arithmetic holds (the counts add to 276; 157 of 276 is 57%).
+- [2010-11 pre-registration](fumonisin-2010-0.1.0-prereg.md), fixed from the report page before
+  any part of the newly published file is opened: 276 samples in eleven product groups, 157
+  positive, 20 to 6650 ppb, and eight samples above 800 ppb (4 cereals, 2 grits, 1 tortilla,
+  1 cornmeal). The page's own arithmetic holds (the counts add to 276; 157 of 276 is 57%).
+- [2011-12 and 2012-2018 pre-registration](fumonisin-series-0.1.0-prereg.md), with
+  `test_fumonisin_series_prereg.py` (14 offline checks of the printed figures), fixed before
+  either file is opened. The 2011-12 page (454 samples, 162 positive) is consistent. The 2012-2018
+  report (4,261 samples; 16 tables and two appendices) is consistent in its Tables 1 and 2 but
+  not elsewhere: its grain table adds to 3,584, not 3,650, and the shortfall is teff, printed as
+  11 where the teff table's rows, the table's own 1% and the organic and conventional totals all
+  need 77. A 2012 wheat row's average (99.7) cannot be right with a 28.8 minimum and a 393
+  maximum, a 2014 rice row has one positive with two different extremes, 1 of 3 is printed as
+  67% and 167 of 214 as 68%, and the text's two positive tofus are one tofu and one soy flour in
+  its own appendix. The note predicts 77 teff samples, a 2012 wheat average of 184.0 to 186.2,
+  the five rice positives, and the 2011-12 corn minimum (20.8 on its page, 23.1 in the later
+  report). It also adds one prediction for the 2010-11 file, still unread: its positives average
+  268 ppb, as the later report prints.
 
 MV2, Munim, Inc., mv2@munimtech.com
