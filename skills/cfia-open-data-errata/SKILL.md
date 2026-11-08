@@ -1,6 +1,6 @@
 ---
 name: cfia-open-data-errata
-description: Use when analysing, citing or reproducing Canadian Food Inspection Agency (CFIA) food chemistry survey data, from open.canada.ca per-sample files or CFIA report pages (fumonisins, phthalates, bisphenols, perchlorate, ethyl carbamate, PAHs, furans, food colours, toxic metals, aflatoxin M1, lead). Before you quote a count, maximum, average or share, look it up among 75 known places where a CFIA report and its open file disagree, and avoid the file-format traps found so far.
+description: Use when analysing, citing or reproducing Canadian Food Inspection Agency (CFIA) food chemistry survey data, from open.canada.ca per-sample files or CFIA report pages (fumonisins, phthalates, bisphenols, perchlorate, ethyl carbamate, PAHs, furans, food colours, toxic metals, aflatoxin M1, lead). Before you quote a count, maximum, average or share, look it up among 75 known places where a CFIA report and its open file disagree, and avoid the file-format traps found so far. Works offline from a bundled table.
 license: Apache-2.0
 ---
 
@@ -30,9 +30,9 @@ confirmed them. None is a compliance finding, and none is dietary or medical adv
 
 ## Step 1: look up known items
 
-Run the script from this skill folder. It needs Python 3.8+ (standard library only) and does
-one read-only HTTPS GET for the published table, unless the repository checkout or `--csv`
-gives it a local copy.
+Run the script from this skill folder. It needs Python 3.8+ (standard library only), is
+read-only and works offline: it reads the copy of the table bundled in `data/` next to this
+file (errata 0.3.0, 75 items) and makes no network request.
 
 ```
 python scripts/cfia_errata.py --analyte fumonisin
@@ -45,7 +45,12 @@ python scripts/cfia_errata.py --summary
 Filters (combine freely): `--id` (exact), `--series` (exact; `--summary` lists them),
 `--analyte` and `--year` (case-insensitive substrings, e.g. `BPA`, `2018-19`), `--kind`,
 `--evidence`, and `--grep` (any column). `--json` prints the rows, each with a `note_url`.
-Exit code 0 means items matched, 1 none, 2 the table could not be read.
+Exit code 0 means items matched, 1 none, 2 the table could not be read. `--version` prints the
+script and bundled table versions.
+
+The source repository may hold a newer table than the bundled one. Only if the user wants the
+newest items, let them fetch `data/cfia-open-data-errata.csv` from the repository and pass the
+saved file with `--csv PATH`.
 
 Each row has a `kind` (count, value, text, average, share, subset, label, unit, origin,
 coverage, date, duplicate), an `evidence` type (`report_vs_file`, `report_internal`,
@@ -93,9 +98,8 @@ file can show it, and the `note` that published it with its code and sealed-job 
 9. **Portal metadata.** open.canada.ca resource sizes are kibibytes rounded up, not bytes;
    compare the MD5 in the resource record instead.
 
-To find the files, use the portal's CKAN API, for example
-`https://open.canada.ca/data/api/action/package_search?q=CFIA%20chemistry&rows=8`; each package
-lists its English and French CSV resources and the report link.
+To find the files, the portal's CKAN search (`package_search` on open.canada.ca, query
+`CFIA chemistry`) lists each package's English and French CSV resources and the report link.
 
 ## Report a new item
 

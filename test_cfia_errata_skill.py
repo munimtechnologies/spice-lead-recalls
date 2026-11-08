@@ -1,10 +1,12 @@
 # SPDX-License-Identifier: Apache-2.0
-"""Tests for the cfia-open-data-errata agent skill (skills/cfia-open-data-errata/).
+"""Tests for the cfia-open-data-errata agent skill 0.2.0 (skills/cfia-open-data-errata/).
 
 Checks that SKILL.md is a valid skill file, that every command it documents parses and finds
-items, that every item ID it cites is in data/cfia-open-data-errata.csv, and that the lookup
-script's filters return the counts hand-counted from that table. Standard library only; no
-network (the script reads the CSV from this checkout).
+items, that every item ID it cites is in data/cfia-open-data-errata.csv, that the lookup
+script's filters return the counts hand-counted from that table, and that the skill works
+offline: its bundled table is byte-identical to the repository's, a copy of the skill folder
+installed on its own reads it, and the default path never opens a network connection.
+Standard library only; no network.
 Made with AI agents working in MV2's (Munim, Inc.) name.
 """
 import contextlib
@@ -14,15 +16,18 @@ import json
 import os
 import re
 import shlex
+import shutil
 import subprocess
 import sys
 import tempfile
 import unittest
+from unittest import mock
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 SKILL_DIR = os.path.join(HERE, "skills", "cfia-open-data-errata")
 SKILL_MD = os.path.join(SKILL_DIR, "SKILL.md")
 SCRIPT = os.path.join(SKILL_DIR, "scripts", "cfia_errata.py")
+BUNDLED = os.path.join(SKILL_DIR, "data", "cfia-open-data-errata.csv")
 CSV = os.path.join(HERE, "data", "cfia-open-data-errata.csv")
 NOTE_BASE = "https://github.com/munimtechnologies/spice-lead-recalls/blob/main/docs/"
 STREET = re.compile(r"\b\d{1,5}\s+[A-Z][a-z]+\s+(Road|Street|Avenue|Lane|Drive|Boulevard)\b")
@@ -59,6 +64,13 @@ def run_main(mod, argv):
     with contextlib.redirect_stdout(buf):
         code = mod.main(argv)
     return code, buf.getvalue()
+
+
+def install_copy(tmp):
+    """Copy the skill folder on its own, the way a skills installer places it in a project."""
+    dest = os.path.join(tmp, ".claude", "skills", "cfia-open-data-errata")
+    shutil.copytree(SKILL_DIR, dest, ignore=shutil.ignore_patterns("__pycache__"))
+    return dest
 
 
 class SkillFile(unittest.TestCase):
@@ -101,8 +113,11 @@ class SkillFile(unittest.TestCase):
             self.assertIn("Made with AI agents working in MV2's (Munim, Inc.) name", text)
             self.assertNotRegex(text, r"\bMIT\b")
             self.assertIsNone(STREET.search(text))
+            # No download address is built into the skill: the default is the bundled table.
+            self.assertNotIn("raw.githubusercontent.com", text)
         self.assertIn("SPDX-License-Identifier: Apache-2.0", script)
         self.assertIn("pointers, not confirmed errors", self.text)
+        self.assertIn("works offline", self.text)
         self.assertTrue(self.text.rstrip().endswith("MV2, Munim, Inc., mv2@munimtech.com"))
         self.assertIsNotNone(STREET.search(" ".join(["12", "Example", "Road"])))
 
@@ -115,9 +130,10 @@ class Lookup(unittest.TestCase):
     def ids(self, **kw):
         return [r["item_id"] for r in self.mod.select(self.rows, **kw)]
 
-    def test_local_default_and_header(self):
-        self.assertEqual(os.path.normcase(self.mod.LOCAL_CSV), os.path.normcase(CSV))
-        self.assertEqual(len(self.mod.load()), 75)
+    def test_bundled_default_and_header(self):
+        self.assertEqual(os.path.normcase(self.mod.BUNDLED_CSV), os.path.normcase(BUNDLED))
+        with mock.patch("urllib.request.urlopen", side_effect=AssertionError("network used")):
+            self.assertEqual(len(self.mod.load()), 75)
         self.assertEqual(len(self.rows), 75)
         self.assertEqual(len({r["item_id"] for r in self.rows}), 75)
 
@@ -152,6 +168,7 @@ class Lookup(unittest.TestCase):
         self.assertEqual(code, 0)
         self.assertIn("printed:   157 | open file: 185 (157 with B1)", out)
         self.assertIn("1 of 75 items matched. Pointers, not confirmed errors.", out)
+        self.assertIn("Table: local file " + CSV + ".", out)
         code, out = run_main(self.mod, ["--csv", CSV, "--summary"])
         self.assertEqual(code, 0)
         self.assertEqual(out.split("\n")[0], "75 items")
@@ -169,11 +186,44 @@ class Lookup(unittest.TestCase):
             with contextlib.redirect_stderr(io.StringIO()):
                 code, _ = run_main(self.mod, ["--csv", bad])
             self.assertEqual(code, 2)
+        with contextlib.redirect_stderr(io.StringIO()):
+            code, _ = run_main(self.mod, ["--url", "http://example.org/x.csv", "--summary"])
+        self.assertEqual(code, 2)
 
     def test_version_subprocess(self):
         r = subprocess.run([sys.executable, SCRIPT, "--version"], capture_output=True, text=True)
         self.assertEqual(r.returncode, 0, r.stderr)
-        self.assertIn("0.1.0", r.stdout)
+        self.assertIn("0.2.0 (bundled errata 0.3.0)", r.stdout)
+
+
+class Bundle(unittest.TestCase):
+    def test_bundled_copy_matches_repo_table(self):
+        with open(BUNDLED, "rb") as a, open(CSV, "rb") as b:
+            self.assertEqual(a.read(), b.read())
+
+    def test_installed_copy_works_offline(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            script = os.path.join(install_copy(tmp), "scripts", "cfia_errata.py")
+            r = subprocess.run([sys.executable, "-I", script, "--summary"], cwd=tmp,
+                               capture_output=True, text=True, encoding="utf-8")
+            self.assertEqual(r.returncode, 0, r.stderr)
+            self.assertEqual(r.stdout.split("\n")[0], "75 items")
+            r = subprocess.run([sys.executable, "-I", script, "--id", "ec-2018-1000x"], cwd=tmp,
+                               capture_output=True, text=True, encoding="utf-8")
+            self.assertEqual(r.returncode, 0, r.stderr)
+            self.assertIn("1 of 75 items matched.", r.stdout)
+            self.assertIn("Table: errata 0.3.0 bundled with this skill.", r.stdout)
+
+    def test_missing_bundle_exits_2(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            dest = install_copy(tmp)
+            os.remove(os.path.join(dest, "data", "cfia-open-data-errata.csv"))
+            r = subprocess.run([sys.executable, "-I", os.path.join(dest, "scripts",
+                                                                     "cfia_errata.py"),
+                                "--summary"], cwd=tmp, capture_output=True, text=True,
+                               encoding="utf-8")
+            self.assertEqual(r.returncode, 2)
+            self.assertIn("bundled table is missing", r.stderr)
 
 
 if __name__ == "__main__":
