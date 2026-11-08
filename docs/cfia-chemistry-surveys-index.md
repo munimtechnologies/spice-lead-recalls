@@ -53,7 +53,17 @@ not rounded to nearest.
   (four slips) change a number by 10 times or more. `test_cfia_errata.py` checks it. 0.3.0 adds
   eleven items from the fumonisin census and result notes and fills in the file figure of four
   report-only fumonisin rows. Earlier versions: [0.2.0](cfia-open-data-errata-0.2.0.md) (64
-  items) and [0.1.0](cfia-open-data-errata-0.1.0.md) (49).
+  items) and [0.1.0](cfia-open-data-errata-0.1.0.md) (49). The 0.3.0 test re-ran from GitHub in a
+  sealed job on 2026-11-07 and passed (27 tests).
+- [Agent skill `cfia-open-data-errata`](../skills/cfia-open-data-errata/SKILL.md) (Apache-2.0).
+  It tells coding agents such as Claude Code, Codex or Cursor to look a CFIA figure up in this
+  table before quoting it, how to say what they found (a listed discrepancy, not a confirmed
+  error), and the file-format traps the notes below ran into. Its script
+  (`skills/cfia-open-data-errata/scripts/cfia_errata.py`, standard library only, read-only)
+  filters the table by item, series, analyte, survey year, kind, evidence or text. Install it
+  with `npx skills add munimtechnologies/spice-lead-recalls --skill cfia-open-data-errata`.
+  `test_cfia_errata_skill.py` checks the skill file, every command it documents and the
+  script's filter counts.
 
 ## Children's Food Project (aflatoxin M1, lead)
 
@@ -300,7 +310,7 @@ not rounded to nearest.
   56 samples by number (2010FMN0001 to 0055) and in none of the 221 later ones. If those later B2
   results were measured but stored as 0, the page's 6650, its eighth sample above 800 and the
   later report's 268 average would all be reachable (a lead only CFIA can settle).
-  `test_fumonisin_result.py` re-reads the three per-sample tables in `data/`; a sealed job
-  re-runs it from GitHub.
+  `test_fumonisin_result.py` re-reads the three per-sample tables in `data/`. It re-ran from
+  GitHub in a sealed job on 2026-11-07 and passed (16 tests).
 
 MV2, Munim, Inc., mv2@munimtech.com
