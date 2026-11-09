@@ -1,5 +1,7 @@
 # SPDX-License-Identifier: Apache-2.0
 """Tests for dried_tea_grade.py (dried-tea-2009 value grader) on small synthetic files.
+Test fixture fix 0.1.1 (2026-11-09): the V4 expectations now follow the pre-registration, which says
+that if V6 holds (mercury not detected in every sample), V4 fails for mercury. The grader is unchanged.
 Made with AI agents working in MV2's (Munim, Inc.) name."""
 import csv
 import io
@@ -108,8 +110,9 @@ class Grade(unittest.TestCase):
         self.assertEqual(it["V2"]["found"], 1)       # 0.1 exactly is not above 0.1
         self.assertEqual(it["V2"]["at_or_above"], 2)
         self.assertFalse(it["V3"]["graded"])
-        self.assertTrue(it["V4"]["holds"])
-        self.assertEqual(it["V4"]["metals_not_above_zero_in_all"], {})
+        # Mercury is 0 in tea 2, so V6 holds and, as the pre-registration says, V4 fails for mercury.
+        self.assertFalse(it["V4"]["holds"])
+        self.assertEqual(it["V4"]["metals_not_above_zero_in_all"], {"Hg": 1})
         self.assertTrue(it["V5"]["holds"])
         self.assertEqual(it["V5"]["beryllium_above_zero"], 1)
         self.assertTrue(it["V6"]["holds"])           # 2 of 3 < 87%
@@ -138,6 +141,7 @@ class Grade(unittest.TestCase):
         res = g.grade(build(metal_value=mv))
         self.assertFalse(res["items"]["V6"]["holds"])
         self.assertTrue(res["items"]["V4"]["holds"])
+        self.assertEqual(res["items"]["V4"]["metals_not_above_zero_in_all"], {})
         self.assertIn("2009-10", res["R5"])
 
     def test_v4_fails_on_a_zero_metal(self):
@@ -145,7 +149,17 @@ class Grade(unittest.TestCase):
             return "0" if (m == "Lead" and t == 2) else default_metal(t, m)
         res = g.grade(build(metal_value=mv))
         self.assertFalse(res["items"]["V4"]["holds"])
+        self.assertEqual(res["items"]["V4"]["metals_not_above_zero_in_all"], {"Hg": 1, "Pb": 1})
+
+    def test_v4_fails_on_lead_alone_when_mercury_is_everywhere(self):
+        def mv(t, m):
+            if m == "Lead" and t == 2:
+                return "0"
+            return "0.004" if m == "Mercury" else default_metal(t, m)
+        res = g.grade(build(metal_value=mv))
+        self.assertFalse(res["items"]["V4"]["holds"])
         self.assertEqual(res["items"]["V4"]["metals_not_above_zero_in_all"], {"Pb": 1})
+        self.assertFalse(res["items"]["V6"]["holds"])
 
     def test_p2_and_p3_catch_problems(self):
         extra = [row("2009TEA0003A", 3, LC, "Diuron", "ND", UG)]
