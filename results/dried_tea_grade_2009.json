@@ -1,0 +1,601 @@
+{
+  "R5": "file supports the 2010-11 page (mercury detected in fewer than 87%)",
+  "bytes": 281817,
+  "gate_size_band": true,
+  "items": {
+    "P1": {
+      "holds": true,
+      "metal_numbers_ending_B": 100,
+      "teas_in_both": 100,
+      "teas_metal": 100,
+      "teas_pesticide": 100
+    },
+    "P2": {
+      "bad_screen_rows": 0,
+      "holds": true,
+      "mismatch_count": 0,
+      "mismatches": [],
+      "screen_rows": 200
+    },
+    "P3": {
+      "bad": [],
+      "bad_count": 0,
+      "holds": true,
+      "named_rows": 166
+    },
+    "V1": {
+      "expect": 69,
+      "found": 69,
+      "holds": true,
+      "note": "not fully blind: the census printed the screen counts (bounds 47-94)",
+      "screen_count_above_zero": 69
+    },
+    "V2": {
+      "at_or_above": 41,
+      "expect": 41,
+      "found": 40,
+      "holds": false
+    },
+    "V3": {
+      "graded": false,
+      "why": "the file has no tea-type field (census C2)"
+    },
+    "V4": {
+      "holds": false,
+      "metals_not_above_zero_in_all": {
+        "As": 1,
+        "Hg": 68,
+        "Mo": 13,
+        "Sb": 40,
+        "Se": 3,
+        "Sn": 44,
+        "Ti": 1
+      }
+    },
+    "V5": {
+      "beryllium_above_zero": 0,
+      "holds": true
+    },
+    "V6": {
+      "holds": true,
+      "mercury_above_zero": 32,
+      "metal_samples": 100,
+      "share": 0.32
+    }
+  },
+  "md5": "f21f016693b4608ff7059d28be35bb26",
+  "md5_matches_portal": true,
+  "metal_samples": 100,
+  "named_pesticide_rows": 166,
+  "pesticide_samples": 100,
+  "reported": {
+    "by_origin": {
+      "CANADA": {
+        "detected": 6,
+        "over_0_1": 1,
+        "teas": 15
+      },
+      "CHINA": {
+        "detected": 44,
+        "over_0_1": 28,
+        "teas": 54
+      },
+      "HONG KONG": {
+        "detected": 1,
+        "over_0_1": 1,
+        "teas": 1
+      },
+      "INDIA": {
+        "detected": 2,
+        "over_0_1": 0,
+        "teas": 2
+      },
+      "INDONESIA": {
+        "detected": 0,
+        "over_0_1": 0,
+        "teas": 1
+      },
+      "JAPAN": {
+        "detected": 3,
+        "over_0_1": 3,
+        "teas": 3
+      },
+      "SRI LANKA": {
+        "detected": 1,
+        "over_0_1": 0,
+        "teas": 3
+      },
+      "TAIWAN, PROVINCE OF CHINA": {
+        "detected": 0,
+        "over_0_1": 0,
+        "teas": 2
+      },
+      "THAILAND": {
+        "detected": 0,
+        "over_0_1": 0,
+        "teas": 1
+      },
+      "UNITED ARAB EMIRATES": {
+        "detected": 0,
+        "over_0_1": 0,
+        "teas": 1
+      },
+      "UNITED KINGDOM": {
+        "detected": 3,
+        "over_0_1": 0,
+        "teas": 5
+      },
+      "UNITED STATES": {
+        "detected": 4,
+        "over_0_1": 3,
+        "teas": 5
+      },
+      "UNKNOWN": {
+        "detected": 1,
+        "over_0_1": 1,
+        "teas": 2
+      },
+      "VIETNAM": {
+        "detected": 4,
+        "over_0_1": 3,
+        "teas": 5
+      }
+    },
+    "mercury_max_vs_2010_11": {
+      "max_2009_10": 0.0303,
+      "max_2010_11_page": 0.023
+    },
+    "metals": {
+      "Al": {
+        "above_zero": 100,
+        "max": 5178.0,
+        "min": 312.9,
+        "not_number": [],
+        "rows": 100,
+        "samples": 100,
+        "units": [
+          "µg/g"
+        ],
+        "zero": 0
+      },
+      "As": {
+        "above_zero": 99,
+        "max": 2.76,
+        "min": 0.0,
+        "not_number": [],
+        "rows": 100,
+        "samples": 100,
+        "units": [
+          "µg/g"
+        ],
+        "zero": 1
+      },
+      "B": {
+        "above_zero": 100,
+        "max": 27.14,
+        "min": 7.61,
+        "not_number": [],
+        "rows": 100,
+        "samples": 100,
+        "units": [
+          "µg/g"
+        ],
+        "zero": 0
+      },
+      "Be": {
+        "above_zero": 0,
+        "max": 0.0,
+        "min": 0.0,
+        "not_number": [],
+        "rows": 100,
+        "samples": 100,
+        "units": [
+          "µg/g"
+        ],
+        "zero": 100
+      },
+      "Cd": {
+        "above_zero": 100,
+        "max": 0.2004,
+        "min": 0.0062,
+        "not_number": [],
+        "rows": 100,
+        "samples": 100,
+        "units": [
+          "µg/g"
+        ],
+        "zero": 0
+      },
+      "Cr": {
+        "above_zero": 100,
+        "max": 9.423,
+        "min": 0.058,
+        "not_number": [],
+        "rows": 100,
+        "samples": 100,
+        "units": [
+          "µg/g"
+        ],
+        "zero": 0
+      },
+      "Cu": {
+        "above_zero": 100,
+        "max": 26.61,
+        "min": 5.116,
+        "not_number": [],
+        "rows": 100,
+        "samples": 100,
+        "units": [
+          "µg/g"
+        ],
+        "zero": 0
+      },
+      "Fe": {
+        "above_zero": 100,
+        "max": 1317.0,
+        "min": 45.76,
+        "not_number": [],
+        "rows": 100,
+        "samples": 100,
+        "units": [
+          "µg/g"
+        ],
+        "zero": 0
+      },
+      "Hg": {
+        "above_zero": 32,
+        "max": 0.0303,
+        "min": 0.0,
+        "not_number": [],
+        "rows": 100,
+        "samples": 100,
+        "units": [
+          "µg/g"
+        ],
+        "zero": 68
+      },
+      "Mn": {
+        "above_zero": 100,
+        "max": 1691.0,
+        "min": 184.0,
+        "not_number": [],
+        "rows": 100,
+        "samples": 100,
+        "units": [
+          "µg/g"
+        ],
+        "zero": 0
+      },
+      "Mo": {
+        "above_zero": 87,
+        "max": 2.128,
+        "min": 0.0,
+        "not_number": [],
+        "rows": 100,
+        "samples": 100,
+        "units": [
+          "µg/g"
+        ],
+        "zero": 13
+      },
+      "Ni": {
+        "above_zero": 100,
+        "max": 8.808,
+        "min": 1.28,
+        "not_number": [],
+        "rows": 100,
+        "samples": 100,
+        "units": [
+          "µg/g"
+        ],
+        "zero": 0
+      },
+      "Pb": {
+        "above_zero": 100,
+        "max": 4.296,
+        "min": 0.0762,
+        "not_number": [],
+        "rows": 100,
+        "samples": 100,
+        "units": [
+          "µg/g"
+        ],
+        "zero": 0
+      },
+      "Sb": {
+        "above_zero": 60,
+        "max": 0.227,
+        "min": 0.0,
+        "not_number": [],
+        "rows": 100,
+        "samples": 100,
+        "units": [
+          "µg/g"
+        ],
+        "zero": 40
+      },
+      "Se": {
+        "above_zero": 97,
+        "max": 0.432,
+        "min": 0.0,
+        "not_number": [],
+        "rows": 100,
+        "samples": 100,
+        "units": [
+          "µg/g"
+        ],
+        "zero": 3
+      },
+      "Sn": {
+        "above_zero": 56,
+        "max": 0.522,
+        "min": 0.0,
+        "not_number": [],
+        "rows": 100,
+        "samples": 100,
+        "units": [
+          "µg/g"
+        ],
+        "zero": 44
+      },
+      "Ti": {
+        "above_zero": 99,
+        "max": 13.04,
+        "min": 0.0,
+        "not_number": [],
+        "rows": 100,
+        "samples": 100,
+        "units": [
+          "µg/g"
+        ],
+        "zero": 1
+      },
+      "Zn": {
+        "above_zero": 100,
+        "max": 56.63,
+        "min": 14.48,
+        "not_number": [],
+        "rows": 100,
+        "samples": 100,
+        "units": [
+          "µg/g"
+        ],
+        "zero": 0
+      }
+    },
+    "per_pesticide": {
+      "3-hydroxyCarbofuran": {
+        "max_ugg": 0.082,
+        "methods": [
+          "PESTICIDES-LC"
+        ],
+        "rows": 3,
+        "teas_detected": 3,
+        "teas_over_0_1": 0
+      },
+      "Bifenthrin": {
+        "max_ugg": 2.0,
+        "methods": [
+          "PESTICIDES-FPH053",
+          "PESTICIDES-LC"
+        ],
+        "rows": 17,
+        "teas_detected": 17,
+        "teas_over_0_1": 15
+      },
+      "Carbendazim": {
+        "max_ugg": 0.657,
+        "methods": [
+          "PESTICIDES-LC"
+        ],
+        "rows": 15,
+        "teas_detected": 15,
+        "teas_over_0_1": 4
+      },
+      "Chlorpyrifos": {
+        "max_ugg": 0.12,
+        "methods": [
+          "PESTICIDES-FPH053"
+        ],
+        "rows": 1,
+        "teas_detected": 1,
+        "teas_over_0_1": 1
+      },
+      "Clothianidin": {
+        "max_ugg": 0.094,
+        "methods": [
+          "PESTICIDES-LC"
+        ],
+        "rows": 1,
+        "teas_detected": 1,
+        "teas_over_0_1": 0
+      },
+      "Cypermethrin": {
+        "max_ugg": 0.75,
+        "methods": [
+          "PESTICIDES-FPH053",
+          "PESTICIDES-LC"
+        ],
+        "rows": 9,
+        "teas_detected": 9,
+        "teas_over_0_1": 9
+      },
+      "Difenoconazole": {
+        "max_ugg": 0.025,
+        "methods": [
+          "PESTICIDES-LC"
+        ],
+        "rows": 3,
+        "teas_detected": 3,
+        "teas_over_0_1": 0
+      },
+      "Diuron": {
+        "max_ugg": 0.036,
+        "methods": [
+          "PESTICIDES-LC"
+        ],
+        "rows": 2,
+        "teas_detected": 2,
+        "teas_over_0_1": 0
+      },
+      "Endosulfan Total": {
+        "max_ugg": 0.7,
+        "methods": [
+          "PESTICIDES-FPH053"
+        ],
+        "rows": 4,
+        "teas_detected": 4,
+        "teas_over_0_1": 4
+      },
+      "Etofenprox": {
+        "max_ugg": 0.257,
+        "methods": [
+          "PESTICIDES-LC"
+        ],
+        "rows": 2,
+        "teas_detected": 2,
+        "teas_over_0_1": 1
+      },
+      "Fenazaquin": {
+        "max_ugg": 0.01,
+        "methods": [
+          "PESTICIDES-LC"
+        ],
+        "rows": 1,
+        "teas_detected": 1,
+        "teas_over_0_1": 0
+      },
+      "Fenpropathrin": {
+        "max_ugg": 1.1,
+        "methods": [
+          "PESTICIDES-FPH053"
+        ],
+        "rows": 2,
+        "teas_detected": 2,
+        "teas_over_0_1": 2
+      },
+      "Fenpyroximate": {
+        "max_ugg": 0.048,
+        "methods": [
+          "PESTICIDES-LC"
+        ],
+        "rows": 3,
+        "teas_detected": 3,
+        "teas_over_0_1": 0
+      },
+      "Fenvalerate": {
+        "max_ugg": 0.62,
+        "methods": [
+          "PESTICIDES-FPH053"
+        ],
+        "rows": 7,
+        "teas_detected": 7,
+        "teas_over_0_1": 7
+      },
+      "Imidacloprid": {
+        "max_ugg": 1.089,
+        "methods": [
+          "PESTICIDES-LC"
+        ],
+        "rows": 54,
+        "teas_detected": 54,
+        "teas_over_0_1": 23
+      },
+      "Isoxathion": {
+        "max_ugg": 0.079,
+        "methods": [
+          "PESTICIDES-LC"
+        ],
+        "rows": 1,
+        "teas_detected": 1,
+        "teas_over_0_1": 0
+      },
+      "Methomyl": {
+        "max_ugg": 1.083,
+        "methods": [
+          "PESTICIDES-LC"
+        ],
+        "rows": 22,
+        "teas_detected": 22,
+        "teas_over_0_1": 7
+      },
+      "Monocrotophos": {
+        "max_ugg": 0.026,
+        "methods": [
+          "PESTICIDES-LC"
+        ],
+        "rows": 3,
+        "teas_detected": 3,
+        "teas_over_0_1": 0
+      },
+      "Propargite": {
+        "max_ugg": 0.0,
+        "methods": [
+          "PESTICIDES-FPH053"
+        ],
+        "rows": 1,
+        "teas_detected": 0,
+        "teas_over_0_1": 0
+      },
+      "Propazine": {
+        "max_ugg": 1.4,
+        "methods": [
+          "PESTICIDES-FPH053"
+        ],
+        "rows": 6,
+        "teas_detected": 6,
+        "teas_over_0_1": 5
+      },
+      "Pyrimethanil": {
+        "max_ugg": 0.044,
+        "methods": [
+          "PESTICIDES-LC"
+        ],
+        "rows": 1,
+        "teas_detected": 1,
+        "teas_over_0_1": 0
+      },
+      "Thiacloprid": {
+        "max_ugg": 0.437,
+        "methods": [
+          "PESTICIDES-LC"
+        ],
+        "rows": 4,
+        "teas_detected": 4,
+        "teas_over_0_1": 4
+      },
+      "Triazophos": {
+        "max_ugg": 0.18,
+        "methods": [
+          "PESTICIDES-FPH053"
+        ],
+        "rows": 1,
+        "teas_detected": 1,
+        "teas_over_0_1": 1
+      },
+      "Tricyclazole": {
+        "max_ugg": 0.024,
+        "methods": [
+          "PESTICIDES-LC"
+        ],
+        "rows": 1,
+        "teas_detected": 1,
+        "teas_over_0_1": 0
+      },
+      "o,p'-DDT": {
+        "max_ugg": 0.24,
+        "methods": [
+          "PESTICIDES-FPH053"
+        ],
+        "rows": 2,
+        "teas_detected": 2,
+        "teas_over_0_1": 2
+      }
+    },
+    "teas_with_two_or_more_over_0_1": 20
+  },
+  "rows": 2166,
+  "source": "https://open.canada.ca/data/dataset/2782dbc5-ebbb-4ef1-a85f-294a5fe60f47/resource/6fbadab4-f46f-4ab3-a1a6-e3d857253beb/download/fsap-chem-ts-pesticide-residues-and-metals-in-dried-teas-2009-2010_paaspa-chem-ec-residus-de-pes.csv",
+  "study": "dried-tea-2009-grade",
+  "version": "0.1.0"
+}
