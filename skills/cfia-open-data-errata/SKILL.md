@@ -1,6 +1,6 @@
 ---
 name: cfia-open-data-errata
-description: Use when analysing, citing or reproducing Canadian Food Inspection Agency (CFIA) food chemistry survey data, from open.canada.ca per-sample files or CFIA report pages (fumonisins, phthalates, bisphenols, perchlorate, ethyl carbamate, PAHs, furans, food colours, toxic metals, aflatoxin M1, lead). Before you quote a count, maximum, average or share, look it up among 75 known places where a CFIA report and its open file disagree, and avoid the file-format traps found so far. Works offline from a bundled table.
+description: Use when analysing, citing or reproducing Canadian Food Inspection Agency (CFIA) food chemistry survey data, from open.canada.ca per-sample files or CFIA report pages (fumonisins, phthalates, bisphenols, perchlorate, ethyl carbamate, PAHs, furans, food colours, toxic metals, aflatoxin M1, lead, feed and grain mycotoxins, dried teas). Before you quote a count, maximum, average or share, look it up among 86 known places where a CFIA report and its open file disagree, and avoid the file-format traps found so far. Works offline from a bundled table.
 license: Apache-2.0
 ---
 
@@ -13,7 +13,7 @@ https://github.com/munimtechnologies/spice-lead-recalls (see
 
 CFIA publishes a report page for each targeted chemistry survey and a per-sample CSV on
 open.canada.ca (Open Government Licence - Canada). A series of pre-registered checks compared
-the two and found 75 places where they disagree, or where one disagrees with itself. Five rows
+the two and found 86 places where they disagree, or where one disagrees with itself. Five rows
 change a number by 10 times or more. This skill helps you find those items before you repeat a
 figure, and lists the traps that caused them.
 
@@ -32,7 +32,7 @@ confirmed them. None is a compliance finding, and none is dietary or medical adv
 
 Run the script from this skill folder. It needs Python 3.8+ (standard library only), is
 read-only and works offline: it reads the copy of the table bundled in `data/` next to this
-file (errata 0.3.0, 75 items) and makes no network request.
+file (errata 0.4.0, 86 items) and makes no network request.
 
 ```
 python scripts/cfia_errata.py --analyte fumonisin
@@ -66,7 +66,9 @@ file can show it, and the `note` that published it with its code and sealed-job 
   `subset`) or uses an unstated averaging rule (kind `average`), compute it both ways.
 - No match is not a clean bill of health. The table covers only the surveys in the index
   (Children's Food Project, furans, toxic metals, PAHs, bisphenols, BPA 2009-2018, food colours,
-  ethyl carbamate, perchlorate, phthalates, fumonisins), as the files were downloaded for each
+  ethyl carbamate, perchlorate, phthalates, fumonisins; since errata 0.4.0 also dried teas
+  2009-10, dried dates and figs 2009-10, feed mycotoxins and multi-mycotoxins 2018-19), as
+  the files were downloaded for each
   note. It does not re-check whether CFIA has since changed a file.
 
 ## Step 3: traps when you load a CFIA per-sample file yourself

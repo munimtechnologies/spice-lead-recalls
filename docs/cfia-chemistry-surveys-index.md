@@ -45,7 +45,14 @@ not rounded to nearest.
 
 ## All items in one table
 
-- [CFIA open-data errata 0.3.0](cfia-open-data-errata-0.3.0.md) and
+- [CFIA open-data errata 0.4.0](cfia-open-data-errata-0.4.0.md) and
+  [`data/cfia-open-data-errata.csv`](../data/cfia-open-data-errata.csv) (CC BY 4.0): 86 items.
+  0.4.0 adds 11 rows from four series first published in [analyses-index.md](analyses-index.md)
+  and listed in the section at the end of this page (dried tea 2009-10, dates and figs 2009-10,
+  feed mycotoxins, multi-mycotoxins 2018-19). 52 rest on a report and its file disagreeing, 19
+  on a report contradicting itself, 10 on the file alone and 5 on a later CFIA document.
+  `test_cfia_errata.py` checks it; the agent skill below bundles the same table.
+- Previous version: [CFIA open-data errata 0.3.0](cfia-open-data-errata-0.3.0.md) and
   [`data/cfia-open-data-errata.csv`](../data/cfia-open-data-errata.csv) (CC BY 4.0). The 75
   report-vs-file items from the notes below, one row each, with a kind, the evidence it rests
   on and the note that first published it. 45 rest on a report and its file disagreeing, 17 on a
@@ -312,5 +319,21 @@ not rounded to nearest.
   later report's 268 average would all be reachable (a lead only CFIA can settle).
   `test_fumonisin_result.py` re-reads the three per-sample tables in `data/`. It re-ran from
   GitHub in a sealed job on 2026-11-07 and passed (16 tests).
+
+## Mycotoxins and dried teas from the earlier index, re-read for errata 0.4.0
+
+These four series were published in [analyses-index.md](analyses-index.md). Their report-vs-file
+items were re-read from each note and added to [errata 0.4.0](cfia-open-data-errata-0.4.0.md).
+
+- Dried tea 2009-10: [result](dried-tea-2009-0.1.0-result.md) (mercury above zero in 32 of 100
+  teas against "every tea") and [census](dried-tea-2009-0.1.0-census.md) (the information PDF's
+  206 / 160 analytes against its own 207 / 157 table rows).
+- Aflatoxins in dried dates and figs 2009-10: [result](aflatoxin-figs-2009-0.1.0-result.md)
+  (49 / 51 printed against 50 / 50 in the file).
+- Feed mycotoxins, Program 15B: [result](feed-myco-0.1.0-result.md) (41 HT-2 non-detects with a
+  0.5 ppm limit left out of the printed 3,202; 81.3% against 82.22%; one blank fiscal year).
+- Multi-mycotoxins 2018-19: [result](multimyco-2018-0.1.0-result.md) (387 positives against 388
+  and 386; DON average 282 printed against 181.3; three Table 3 group counts; 17 against 18
+  toxins detected).
 
 MV2, Munim, Inc., mv2@munimtech.com

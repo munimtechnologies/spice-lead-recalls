@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
 # SPDX-License-Identifier: Apache-2.0
-"""Offline checks of data/cfia-open-data-errata.csv (CFIA open-data errata 0.3.0).
+"""Offline checks of data/cfia-open-data-errata.csv (CFIA open-data errata 0.4.0).
 
 Checks the schema, the controlled vocabularies, the counts stated in
-docs/cfia-open-data-errata-0.3.0.md, and that every row cites a note that the CFIA chemistry
+docs/cfia-open-data-errata-0.4.0.md, and that every row cites a note that the CFIA chemistry
 surveys index links. Standard library only. Run from the repository root or anywhere:
     python -m unittest -v test_cfia_errata
 Made with AI agents working in MV2's (Munim, Inc.) name. Code Apache-2.0; data CC BY 4.0."""
@@ -16,19 +16,20 @@ import unittest
 HERE = os.path.dirname(os.path.abspath(__file__))
 CSV_PATH = os.path.join(HERE, "data", "cfia-open-data-errata.csv")
 INDEX_PATH = os.path.join(HERE, "docs", "cfia-chemistry-surveys-index.md")
-DOC_PATH = os.path.join(HERE, "docs", "cfia-open-data-errata-0.3.0.md")
+DOC_PATH = os.path.join(HERE, "docs", "cfia-open-data-errata-0.4.0.md")
 
 HEADER = ["item_id", "series", "survey_years", "analyte", "where", "finding", "printed",
           "open_file", "kind", "evidence", "note"]
-KINDS = {"unit": 4, "value": 10, "count": 17, "share": 6, "average": 8, "origin": 4,
-         "subset": 5, "text": 8, "label": 5, "date": 2, "duplicate": 2, "coverage": 4}
-EVIDENCE = {"report_vs_file": 45, "report_internal": 17, "file_internal": 9,
-            "report_vs_report": 4}
+KINDS = {"unit": 4, "value": 10, "count": 22, "share": 9, "average": 9, "origin": 4,
+         "subset": 6, "text": 8, "label": 6, "date": 2, "duplicate": 2, "coverage": 4}
+EVIDENCE = {"report_vs_file": 52, "report_internal": 19, "file_internal": 10,
+            "report_vs_report": 5}
 SERIES = {"cfp": 2, "furan-2018": 5, "tmet-2018": 1, "pah-2018": 2, "pah-2019": 3,
           "bisphenols-2018-2020": 3, "bpa-2009-2018": 6, "food-colours": 6,
           "ethyl-carbamate": 7, "perchlorate": 6, "phthalates-2020": 3,
-          "phthalates-2012-2019": 9, "fumonisin-2010": 5, "fumonisin-2011-2018": 17}
-TOTAL = 75
+          "phthalates-2012-2019": 9, "fumonisin-2010": 5, "fumonisin-2011-2018": 17,
+          "dried-tea-2009": 3, "figs-2009": 1, "feed-myco": 3, "multimyco-2018": 4}
+TOTAL = 86
 # The eleven fumonisin items fixed from the report alone (0.2.0) and the four that the files
 # decided once they were graded (fumonisin 0.1.0 result).
 FUM_PREREG = {"fum-2018-teff-11", "fum-2018-teff-a1", "fum-2018-rice-rows", "fum-2018-rice-2014",
@@ -90,7 +91,9 @@ class ErrataSchema(unittest.TestCase):
                     "bisphenols-2018-2020": "bpa-20", "bpa-2009-2018": "bpa-20",
                     "food-colours": "fc-", "ethyl-carbamate": "ec-", "perchlorate": "perc-",
                     "phthalates-2020": "ph-2020-", "phthalates-2012-2019": "ph-201",
-                    "fumonisin-2010": "fum-2010-", "fumonisin-2011-2018": "fum-201"}
+                    "fumonisin-2010": "fum-2010-", "fumonisin-2011-2018": "fum-201",
+                    "dried-tea-2009": "tea-2009-", "figs-2009": "figs-2009-",
+                    "feed-myco": "feed-", "multimyco-2018": "mm-2018-"}
         for r in self.rows:
             self.assertTrue(r["item_id"].startswith(prefixes[r["series"]]), r["item_id"])
 
@@ -236,6 +239,65 @@ class ErrataContent(unittest.TestCase):
         self.assertEqual(sum(sum(g) for g in held), 4320)
 
 
+class ErrataContent040(unittest.TestCase):
+    """Arithmetic behind rows added in errata 0.4.0, copied from their notes."""
+
+    def setUp(self):
+        _, rows = load_rows()
+        self.by_id = {r["item_id"]: r for r in rows}
+
+    def test_new_series_cite_their_notes(self):
+        notes = {"dried-tea-2009": ("dried-tea-2009-0.1.0-result.md",
+                                    "dried-tea-2009-0.1.0-census.md"),
+                 "figs-2009": ("aflatoxin-figs-2009-0.1.0-result.md",),
+                 "feed-myco": ("feed-myco-0.1.0-result.md",),
+                 "multimyco-2018": ("multimyco-2018-0.1.0-result.md",)}
+        n = 0
+        for r in self.by_id.values():
+            if r["series"] in notes:
+                n += 1
+                self.assertIn(r["note"], notes[r["series"]], r["item_id"])
+        self.assertEqual(n, 11)
+
+    def test_feed_ht2_41(self):
+        r = self.by_id["feed-ht2-41"]
+        self.assertEqual((r["printed"], r["open_file"], r["kind"]), ("3,202", "3,243", "subset"))
+        self.assertEqual(3243 - 3202, 41)
+        self.assertEqual(2 + 15 + 11 + 13, 41)
+
+    def test_feed_fumonisin_blank_year(self):
+        r = self.by_id["feed-fum-2016-blank-year"]
+        self.assertEqual((r["printed"], r["evidence"]), ("164", "file_internal"))
+        self.assertEqual(round(100 * 161 / 164, 2), 98.17)
+
+    def test_multimyco_don_average(self):
+        r = self.by_id["mm-2018-don-avg"]
+        self.assertEqual((r["printed"], r["open_file"]), ("282", "181.3"))
+        self.assertEqual(round(55480 / 306, 1), 181.3)
+        self.assertEqual(round(281.5 * 306), 86139)
+        self.assertEqual(round(282.5 * 306), 86445)
+
+    def test_multimyco_counts(self):
+        r = self.by_id["mm-2018-positives"]
+        self.assertEqual((r["printed"], r["open_file"]), ("388 / 386", "387"))
+        r = self.by_id["mm-2018-groups"]
+        printed = list(map(int, r["printed"].split(" / ")))
+        held = list(map(int, r["open_file"].split(" / ")))
+        self.assertEqual(printed, [105, 34, 11])
+        self.assertEqual(held, [106, 38, 10])
+
+    def test_figs_split_fits_both(self):
+        r = self.by_id["figs-2009-split"]
+        self.assertEqual((r["printed"], r["open_file"]), ("49 / 51", "50 / 50"))
+        self.assertEqual(round(100 * 47 / 51), 92)
+        self.assertEqual(round(100 * 46 / 50), 92)
+
+    def test_tea_pdf_analyte_table(self):
+        r = self.by_id["tea-2009-pdf-a1"]
+        self.assertEqual((r["printed"], r["evidence"]), ("206 / 160", "report_internal"))
+        self.assertEqual(202 + 157 - 6, 353)
+
+
 class ErrataLinks(unittest.TestCase):
     def test_every_note_is_linked_from_the_index(self):
         _, rows = load_rows()
@@ -244,12 +306,12 @@ class ErrataLinks(unittest.TestCase):
         for r in rows:
             self.assertRegex(r["note"], r"^[a-z0-9.-]+\.md$")
             self.assertIn("(" + r["note"] + ")", index, r["item_id"])
-        self.assertIn("(cfia-open-data-errata-0.3.0.md)", index)
+        self.assertIn("(cfia-open-data-errata-0.4.0.md)", index)
 
     def test_doc_states_the_same_counts(self):
         with open(DOC_PATH, encoding="utf-8") as fh:
             doc = fh.read()
-        self.assertIn("ERRATA-MARKER: cfia-open-data-errata-0.3.0", doc)
+        self.assertIn("ERRATA-MARKER: cfia-open-data-errata-0.4.0", doc)
         for kind, n in KINDS.items():
             self.assertRegex(doc, r"\| `" + re.escape(kind) + r"` \| " + str(n) + r" \|")
         for ev, n in EVIDENCE.items():

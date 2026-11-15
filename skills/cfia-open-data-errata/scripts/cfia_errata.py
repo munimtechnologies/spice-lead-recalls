@@ -28,8 +28,8 @@ import os
 import sys
 from collections import Counter
 
-__version__ = "0.2.0"
-TABLE_VERSION = "0.3.0"
+__version__ = "0.2.1"
+TABLE_VERSION = "0.4.0"
 
 NOTE_BASE = "https://github.com/munimtechnologies/spice-lead-recalls/blob/main/docs/"
 HERE = os.path.dirname(os.path.abspath(__file__))

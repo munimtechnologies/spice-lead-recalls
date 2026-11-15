@@ -1,5 +1,5 @@
 # SPDX-License-Identifier: Apache-2.0
-"""Tests for the cfia-open-data-errata agent skill 0.2.0 (skills/cfia-open-data-errata/).
+"""Tests for the cfia-open-data-errata agent skill 0.2.1 (skills/cfia-open-data-errata/).
 
 Checks that SKILL.md is a valid skill file, that every command it documents parses and finds
 items, that every item ID it cites is in data/cfia-open-data-errata.csv, that the lookup
@@ -133,19 +133,19 @@ class Lookup(unittest.TestCase):
     def test_bundled_default_and_header(self):
         self.assertEqual(os.path.normcase(self.mod.BUNDLED_CSV), os.path.normcase(BUNDLED))
         with mock.patch("urllib.request.urlopen", side_effect=AssertionError("network used")):
-            self.assertEqual(len(self.mod.load()), 75)
-        self.assertEqual(len(self.rows), 75)
-        self.assertEqual(len({r["item_id"] for r in self.rows}), 75)
+            self.assertEqual(len(self.mod.load()), 86)
+        self.assertEqual(len(self.rows), 86)
+        self.assertEqual(len({r["item_id"] for r in self.rows}), 86)
 
     def test_filter_counts(self):
         self.assertEqual(len(self.ids(series="fumonisin-2010")), 5)
         self.assertEqual(len(self.ids(series="fumonisin-2011-2018")), 17)
-        self.assertEqual(len(self.ids(analyte="fumonisin")), 22)
-        self.assertEqual(len(self.ids(analyte="FUMONISIN")), 22)
+        self.assertEqual(len(self.ids(analyte="fumonisin")), 24)
+        self.assertEqual(len(self.ids(analyte="FUMONISIN")), 24)
         self.assertEqual(len(self.ids(analyte="ethyl carbamate")), 7)
         self.assertEqual(len(self.ids(analyte="BPA")), 8)
-        self.assertEqual(len(self.ids(year="2018-19")), 21)
-        self.assertEqual(len(self.ids(evidence="report_internal")), 17)
+        self.assertEqual(len(self.ids(year="2018-19")), 25)
+        self.assertEqual(len(self.ids(evidence="report_internal")), 19)
         self.assertEqual(len(self.ids(analyte="fumonisin", evidence="report_internal")), 10)
         self.assertEqual(self.ids(year="2018-19", analyte="ethyl carbamate"),
                          ["ec-2018-1000x", "ec-2018-beef", "ec-2018-dates", "ec-2018-onelabel"])
@@ -167,14 +167,14 @@ class Lookup(unittest.TestCase):
         code, out = run_main(self.mod, ["--csv", CSV, "--id", "fum-2010-157"])
         self.assertEqual(code, 0)
         self.assertIn("printed:   157 | open file: 185 (157 with B1)", out)
-        self.assertIn("1 of 75 items matched. Pointers, not confirmed errors.", out)
+        self.assertIn("1 of 86 items matched. Pointers, not confirmed errors.", out)
         self.assertIn("Table: local file " + CSV + ".", out)
         code, out = run_main(self.mod, ["--csv", CSV, "--summary"])
         self.assertEqual(code, 0)
-        self.assertEqual(out.split("\n")[0], "75 items")
-        self.assertIn("by kind: count 17, value 10, ", out)
-        self.assertIn("by evidence: report_vs_file 45, report_internal 17, file_internal 9, "
-                      "report_vs_report 4", out)
+        self.assertEqual(out.split("\n")[0], "86 items")
+        self.assertIn("by kind: count 22, value 10, ", out)
+        self.assertIn("by evidence: report_vs_file 52, report_internal 19, file_internal 10, "
+                      "report_vs_report 5", out)
 
     def test_exit_codes(self):
         code, _ = run_main(self.mod, ["--csv", CSV, "--id", "no-such-item"])
@@ -193,7 +193,7 @@ class Lookup(unittest.TestCase):
     def test_version_subprocess(self):
         r = subprocess.run([sys.executable, SCRIPT, "--version"], capture_output=True, text=True)
         self.assertEqual(r.returncode, 0, r.stderr)
-        self.assertIn("0.2.0 (bundled errata 0.3.0)", r.stdout)
+        self.assertIn("0.2.1 (bundled errata 0.4.0)", r.stdout)
 
 
 class Bundle(unittest.TestCase):
@@ -207,12 +207,12 @@ class Bundle(unittest.TestCase):
             r = subprocess.run([sys.executable, "-I", script, "--summary"], cwd=tmp,
                                capture_output=True, text=True, encoding="utf-8")
             self.assertEqual(r.returncode, 0, r.stderr)
-            self.assertEqual(r.stdout.split("\n")[0], "75 items")
+            self.assertEqual(r.stdout.split("\n")[0], "86 items")
             r = subprocess.run([sys.executable, "-I", script, "--id", "ec-2018-1000x"], cwd=tmp,
                                capture_output=True, text=True, encoding="utf-8")
             self.assertEqual(r.returncode, 0, r.stderr)
-            self.assertIn("1 of 75 items matched.", r.stdout)
-            self.assertIn("Table: errata 0.3.0 bundled with this skill.", r.stdout)
+            self.assertIn("1 of 86 items matched.", r.stdout)
+            self.assertIn("Table: errata 0.4.0 bundled with this skill.", r.stdout)
 
     def test_missing_bundle_exits_2(self):
         with tempfile.TemporaryDirectory() as tmp:
