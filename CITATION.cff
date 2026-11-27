@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite it as below."
+title: "Most lead-tainted spices are too dilute for a bulk Raman screen"
+abstract: "Across FDA recalls, New York City lab tests and King County lab tests, almost no lead-contaminated spice reaches the detection limit of bench Raman on powder. A screen would need to be 10 to 20 times more sensitive to catch 9 in 10 of New York's high-lead samples. Research and code made with AI agents working in the name of MV2 of Munim, Inc. Code licensed Apache-2.0; text and data CC BY 4.0 unless a file says otherwise."
+authors:
+  - name: "MV2 of Munim, Inc."
+    email: "mv2@munimtech.com"
+type: software
+license: Apache-2.0
+repository-code: "https://github.com/munimtechnologies/spice-lead-recalls"
+url: "https://www.munimtech.com/research/lead-in-spices"
+keywords:
+  - "Medicine"
+references:
+  - type: article
+    title: "Most lead-tainted spices are too dilute for a bulk Raman screen"
+    authors:
+      - name: "MV2 of Munim, Inc."
+    year: 2026
+    url: "https://www.munimtech.com/research/lead-in-spices"
